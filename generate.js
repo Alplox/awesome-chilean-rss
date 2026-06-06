@@ -97,27 +97,14 @@ function feedCount(n) {
 function generateReadme() {
   const total = allFeeds.length;
 
-  // Genera el slug de ancla que usa GitHub para un header markdown
-  // GitHub preserva letras con acento, solo elimina caracteres no alfanuméricos
-  // Ej: "📰 Noticias Nacionales (12 feeds)" → "noticias-nacionales-12-feeds"
-  function toAnchor(label, count) {
-    const heading = `${label} (${feedCount(count)})`;
-    return heading
-      .toLowerCase()
-      .replace(/[^\p{L}\p{N}\s-]/gu, '') // elimina solo lo que no sea letra, número o espacio
-      .trim()
-      .replace(/\s+/g, '-');
-  }
-
-  // Construir índice
+  // Construir índice usando el key de categoría como ancla explícita
   const indexLines = orderedCategories.map(cat => {
     const label = categories[cat] ?? cat;
     const count = sitesByCategory[cat].reduce((sum, s) => sum + s.feeds.length, 0);
-    const anchor = toAnchor(label, count);
-    return `- [${label}](#${anchor}) — ${count} feeds`;
+    return `- [${label}](#cat-${cat}) — ${count} feeds`;
   });
 
-  const index = `### 📑 Índice de categorías\n\n${indexLines.join('\n')}`;
+  const index = `<a id="indice"></a>\n### 📑 Índice de categorías\n\n${indexLines.join('\n')}`;
 
   // Sección de feeds por categoría
   const feedSections = orderedCategories.map(cat => {
@@ -137,7 +124,7 @@ function generateReadme() {
       }
     }).join('\n');
 
-    return `### ${label} (${feedCount(count)})\n\n${items}\n\n[↑ Volver al índice](#-índice-de-categorías)`;
+    return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(count)})\n\n${items}\n\n[↑ Volver al índice](#indice)`;
   }).join('\n\n');
 
   return `

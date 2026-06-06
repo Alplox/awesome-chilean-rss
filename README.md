@@ -13,16 +13,18 @@
 
 ## 📝 Feeds disponibles (55)
 
+<a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#noticias-nacionales-26-feeds) — 26 feeds
-- [💻 Tecnología y Startups](#tecnología-y-startups-2-feeds) — 2 feeds
-- [🏛️ Gobierno y Datos Públicos](#gobierno-y-datos-públicos-10-feeds) — 10 feeds
-- [🏫 Universidades e Investigación](#universidades-e-investigación-7-feeds) — 7 feeds
-- [🌎 Medios Regionales](#medios-regionales-7-feeds) — 7 feeds
-- [💼 Negocios y Finanzas](#negocios-y-finanzas-2-feeds) — 2 feeds
-- [🎨 Cultura y Divulgación](#cultura-y-divulgación-1-feed) — 1 feeds
+- [📰 Noticias Nacionales](#cat-news) — 26 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 2 feeds
+- [🏛️ Gobierno y Datos Públicos](#cat-government) — 10 feeds
+- [🏫 Universidades e Investigación](#cat-universities) — 7 feeds
+- [🌎 Medios Regionales](#cat-regional) — 7 feeds
+- [💼 Negocios y Finanzas](#cat-business) — 2 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 1 feeds
 
+<a id="cat-news"></a>
 ### 📰 Noticias Nacionales (26 feeds)
 
 - **BioBioChile**: Portal de noticias generales con cobertura nacional e internacional
@@ -70,8 +72,9 @@
 - **The Clinic**: Periódico digital de análisis político, reportajes e investigación
   - RSS: `https://www.theclinic.cl/feed/`
 
-[↑ Volver al índice](#-índice-de-categorías)
+[↑ Volver al índice](#indice)
 
+<a id="cat-technology"></a>
 ### 💻 Tecnología y Startups (2 feeds)
 
 - **FayerWayer**: Blog de tecnología, cultura digital y gadgets
@@ -79,8 +82,9 @@
 - **StartupChile**: Programa de aceleración de startups del gobierno chileno
   - RSS: `https://www.startupchile.org/feed/`
 
-[↑ Volver al índice](#-índice-de-categorías)
+[↑ Volver al índice](#indice)
 
+<a id="cat-government"></a>
 ### 🏛️ Gobierno y Datos Públicos (10 feeds)
 
 - **ChileCompra**: Plataforma estatal de licitaciones y compras públicas
@@ -102,8 +106,9 @@
 - **Subtel**: Subsecretaría de Telecomunicaciones — regulación y conectividad en Chile
   - RSS: `https://www.subtel.gob.cl/feed/`
 
-[↑ Volver al índice](#-índice-de-categorías)
+[↑ Volver al índice](#indice)
 
+<a id="cat-universities"></a>
 ### 🏫 Universidades e Investigación (7 feeds)
 
 - **ANID**: Agencia Nacional de Investigación y Desarrollo
@@ -121,8 +126,9 @@
 - **Universidad de Talca**: Noticias e investigación de la Universidad de Talca
   - RSS: `https://www.utalca.cl/feed/`
 
-[↑ Volver al índice](#-índice-de-categorías)
+[↑ Volver al índice](#indice)
 
+<a id="cat-regional"></a>
 ### 🌎 Medios Regionales (7 feeds)
 
 - **Atacama Noticias**: Portal de noticias de la Región de Atacama
@@ -140,8 +146,9 @@
 - **La Prensa Austral**: Diario regional de Magallanes y la Antártica Chilena
   - RSS: `https://laprensaaustral.cl/feed`
 
-[↑ Volver al índice](#-índice-de-categorías)
+[↑ Volver al índice](#indice)
 
+<a id="cat-business"></a>
 ### 💼 Negocios y Finanzas (2 feeds)
 
 - **Diario Financiero**: Diario especializado en economía y negocios
@@ -149,14 +156,15 @@
 - **Pulso**: Medio de negocios y economía
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml`
 
-[↑ Volver al índice](#-índice-de-categorías)
+[↑ Volver al índice](#indice)
 
+<a id="cat-culture"></a>
 ### 🎨 Cultura y Divulgación (1 feed)
 
 - **Pediatría y Salud**: Divulgación de salud infantil para familias chilenas
   - RSS: `https://pediatriaysalud.cl/feed`
 
-[↑ Volver al índice](#-índice-de-categorías)
+[↑ Volver al índice](#indice)
 
 ## 🤝 Cómo contribuir
 
