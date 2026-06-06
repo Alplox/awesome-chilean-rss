@@ -1,0 +1,1179 @@
+{
+  "last_updated": "2026-06-06T19:43:51.370Z",
+  "total_feeds": 55,
+  "categories": {
+    "news": "📰 Noticias Nacionales",
+    "government": "🏛️ Gobierno y Datos Públicos",
+    "universities": "🏫 Universidades e Investigación",
+    "regional": "🌎 Medios Regionales",
+    "business": "💼 Negocios y Finanzas",
+    "technology": "💻 Tecnología y Startups",
+    "culture": "🎨 Cultura y Divulgación",
+    "podcasts": "🎧 Podcasts",
+    "opendata": "📋 Datos Públicos y Oficiales"
+  },
+  "sites": [
+    {
+      "id": "biobiochile",
+      "name": "BioBioChile",
+      "url": "https://www.biobiochile.cl",
+      "category": "news",
+      "description": "Portal de noticias generales con cobertura nacional e internacional",
+      "feeds": [
+        {
+          "id": "biobiochile-main",
+          "name": "BioBioChile",
+          "rss_url": "https://feeds.feedburner.com/radiobiobio/NNeJ",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:29.434Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-tercera",
+      "name": "La Tercera",
+      "url": "https://www.latercera.com",
+      "category": "news",
+      "description": "Diario de referencia con cobertura nacional, internacional y económica",
+      "feeds": [
+        {
+          "id": "la-tercera-main",
+          "name": "La Tercera",
+          "rss_url": "https://www.latercera.com/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:29.704Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ciper-chile",
+      "name": "Ciper Chile",
+      "url": "https://www.ciperchile.cl",
+      "category": "news",
+      "description": "Medio chileno sin fines de lucro especializado en periodismo de investigación.",
+      "feeds": [
+        {
+          "id": "ciper-chile-main",
+          "name": "Ciper Chile",
+          "rss_url": "https://www.ciperchile.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:29.848Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "redgol",
+      "name": "Redgol",
+      "url": "https://www.redgol.cl",
+      "category": "news",
+      "description": "Portal deportivo con cobertura de fútbol nacional e internacional y otros deportes",
+      "feeds": [
+        {
+          "id": "redgol-main",
+          "name": "Redgol",
+          "rss_url": "https://redgol.cl/rss/feed",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:30.775Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "fayerwayer",
+      "name": "FayerWayer",
+      "url": "https://www.fayerwayer.com",
+      "category": "technology",
+      "description": "Blog de tecnología, cultura digital y gadgets",
+      "feeds": [
+        {
+          "id": "fayerwayer-main",
+          "name": "FayerWayer",
+          "rss_url": "https://www.fayerwayer.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:31.278Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gobierno-chile",
+      "name": "Gobierno de Chile",
+      "url": "https://www.gob.cl",
+      "category": "government",
+      "description": "Noticias oficiales y decretos del gobierno",
+      "feeds": [
+        {
+          "id": "gobierno-chile-main",
+          "name": "Gobierno de Chile",
+          "rss_url": "https://www.gob.cl/noticias/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:31.593Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "chilecompra",
+      "name": "ChileCompra",
+      "url": "https://www.chilecompra.cl",
+      "category": "government",
+      "description": "Plataforma estatal de licitaciones y compras públicas",
+      "feeds": [
+        {
+          "id": "chilecompra-main",
+          "name": "ChileCompra",
+          "rss_url": "https://www.chilecompra.cl/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:32.981Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "puc-noticias",
+      "name": "Pontificia Universidad Católica (PUC)",
+      "url": "https://www.uc.cl",
+      "category": "universities",
+      "description": "Noticias e investigación de la PUC",
+      "feeds": [
+        {
+          "id": "puc-noticias-main",
+          "name": "Pontificia Universidad Católica (PUC)",
+          "rss_url": "https://www.uc.cl/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:34.268Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "anid",
+      "name": "ANID",
+      "url": "https://www.anid.cl",
+      "category": "universities",
+      "description": "Agencia Nacional de Investigación y Desarrollo",
+      "feeds": [
+        {
+          "id": "anid-main",
+          "name": "ANID",
+          "rss_url": "https://www.anid.cl/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:36.738Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-discusion",
+      "name": "La Discusión",
+      "url": "https://www.ladiscusion.cl",
+      "category": "regional",
+      "description": "Diario de Ñuble - Medios regionales",
+      "feeds": [
+        {
+          "id": "la-discusion-main",
+          "name": "La Discusión",
+          "rss_url": "https://www.ladiscusion.cl/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:38.595Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pulso",
+      "name": "Pulso",
+      "url": "https://www.pulso.cl",
+      "category": "business",
+      "description": "Medio de negocios y economía",
+      "feeds": [
+        {
+          "id": "pulso-main",
+          "name": "Pulso",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T06:43:39.166Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "desenfoque",
+      "name": "Desenfoque",
+      "url": "https://desenfoque.cl",
+      "category": "news",
+      "description": "Noticias, actualidad y opinión",
+      "feeds": [
+        {
+          "id": "desenfoque-main",
+          "name": "Desenfoque",
+          "rss_url": "https://desenfoque.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pediatria-y-salud",
+      "name": "Pediatría y Salud",
+      "url": "https://pediatriaysalud.cl",
+      "category": "culture",
+      "description": "Divulgación de salud infantil para familias chilenas",
+      "feeds": [
+        {
+          "id": "pediatria-y-salud-main",
+          "name": "Pediatría y Salud",
+          "rss_url": "https://pediatriaysalud.cl/feed",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "sii",
+      "name": "Servicio de Impuestos Internos (SII)",
+      "url": "https://www.sii.cl",
+      "category": "government",
+      "description": "Servicio de Impuestos Internos de Chile",
+      "feeds": [
+        {
+          "id": "sii-noticias",
+          "name": "Noticias",
+          "rss_url": "https://www.sii.cl/pagina/actualizada/noticias/rss/siinot_rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "sii-contenidos",
+          "name": "Contenidos",
+          "rss_url": "https://www.sii.cl/pagina/actualizada/noticias/rss/siiall_rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "sii-indices",
+          "name": "Índices y Valores Económicos",
+          "rss_url": "https://zeus.sii.cl/admin/rss/sii_ind_rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true,
+          "description": "UF, UTM y otros índices económicos actualizados diariamente por el SII"
+        }
+      ]
+    },
+    {
+      "id": "diario-financiero",
+      "name": "Diario Financiero",
+      "url": "https://www.df.cl",
+      "category": "business",
+      "description": "Diario especializado en economía y negocios",
+      "feeds": [
+        {
+          "id": "diario-financiero-main",
+          "name": "Diario Financiero",
+          "rss_url": "https://www.df.cl/noticias/site/list/port/rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "the-clinic",
+      "name": "The Clinic",
+      "url": "https://www.theclinic.cl",
+      "category": "news",
+      "description": "Periódico digital de análisis político, reportajes e investigación",
+      "feeds": [
+        {
+          "id": "the-clinic-main",
+          "name": "The Clinic",
+          "rss_url": "https://www.theclinic.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-rancaguino",
+      "name": "El Rancagüino",
+      "url": "https://www.elrancaguino.cl",
+      "category": "regional",
+      "description": "Diario regional de O'Higgins",
+      "feeds": [
+        {
+          "id": "el-rancaguino-main",
+          "name": "El Rancagüino",
+          "rss_url": "https://www.elrancaguino.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cambio21",
+      "name": "Cambio21",
+      "url": "https://cambio21.cl",
+      "category": "news",
+      "description": "Medio digital de noticias nacionales e internacionales",
+      "feeds": [
+        {
+          "id": "cambio21-main",
+          "name": "Cambio21",
+          "rss_url": "https://cambio21.cl/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-nacion",
+      "name": "La Nación",
+      "url": "https://www.lanacion.cl",
+      "category": "news",
+      "description": "Diario digital de noticias nacionales",
+      "feeds": [
+        {
+          "id": "la-nacion-main",
+          "name": "La Nación",
+          "rss_url": "https://www.lanacion.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-siglo",
+      "name": "El Siglo",
+      "url": "https://elsiglo.cl",
+      "category": "news",
+      "description": "Periódico con cobertura política, social y sindical fundado en 1940",
+      "feeds": [
+        {
+          "id": "el-siglo-main",
+          "name": "El Siglo",
+          "rss_url": "https://elsiglo.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "santiago-times",
+      "name": "Santiago Times",
+      "url": "https://santiagotimes.cl",
+      "category": "news",
+      "description": "Noticias de Chile en inglés",
+      "feeds": [
+        {
+          "id": "santiago-times-main",
+          "name": "Santiago Times",
+          "rss_url": "https://santiagotimes.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-clarin",
+      "name": "El Clarín de Chile",
+      "url": "https://www.elclarin.cl",
+      "category": "news",
+      "description": "Portal de noticias nacionales e internacionales",
+      "feeds": [
+        {
+          "id": "el-clarin-main",
+          "name": "El Clarín de Chile",
+          "rss_url": "https://www.elclarin.cl/feed",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-prensa-austral",
+      "name": "La Prensa Austral",
+      "url": "https://laprensaaustral.cl",
+      "category": "regional",
+      "description": "Diario regional de Magallanes y la Antártica Chilena",
+      "feeds": [
+        {
+          "id": "la-prensa-austral-main",
+          "name": "La Prensa Austral",
+          "rss_url": "https://laprensaaustral.cl/feed",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-desconcierto",
+      "name": "El Desconcierto",
+      "url": "https://eldesconcierto.cl",
+      "category": "news",
+      "description": "Portal de noticias con cobertura en política, derechos humanos, medioambiente y cultura",
+      "feeds": [
+        {
+          "id": "el-desconcierto-ultimas-noticias",
+          "name": "Últimas Noticias",
+          "rss_url": "https://eldesconcierto.cl/rss/pages/ultimas-noticias.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-desconcierto-medio-ambiente",
+          "name": "Medio Ambiente",
+          "rss_url": "https://eldesconcierto.cl/rss/pages/medio_ambiente.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-desconcierto-actualidad",
+          "name": "Actualidad",
+          "rss_url": "https://eldesconcierto.cl/rss/pages/actualidad.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-desconcierto-tendencias",
+          "name": "Tendencias",
+          "rss_url": "https://eldesconcierto.cl/rss/pages/tendencias.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-desconcierto-hoja-de-ruta",
+          "name": "Hoja de Ruta",
+          "rss_url": "https://eldesconcierto.cl/rss/pages/hoja-de-ruta.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-desconcierto-reportajes",
+          "name": "Reportajes",
+          "rss_url": "https://eldesconcierto.cl/rss/pages/reportajes.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-desconcierto-entrevistas",
+          "name": "Entrevistas",
+          "rss_url": "https://eldesconcierto.cl/rss/pages/entrevistas.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-desconcierto-opinion",
+          "name": "Opinión",
+          "rss_url": "https://eldesconcierto.cl/rss/pages/opinion.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-desconcierto-mundo",
+          "name": "Mundo",
+          "rss_url": "https://eldesconcierto.cl/rss/pages/mundo.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-ciudadano",
+      "name": "El Ciudadano",
+      "url": "https://www.elciudadano.com",
+      "category": "news",
+      "description": "Portal de noticias nacionales e internacionales con cobertura social y política",
+      "feeds": [
+        {
+          "id": "el-ciudadano-main",
+          "name": "El Ciudadano",
+          "rss_url": "https://www.elciudadano.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "fastcheck",
+      "name": "FastCheckCL",
+      "url": "https://fastcheck.cl",
+      "category": "news",
+      "description": "Verificación de noticias y fact-checking en Chile",
+      "feeds": [
+        {
+          "id": "fastcheck-main",
+          "name": "FastCheckCL",
+          "rss_url": "https://fastcheck.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-maquina-medio",
+      "name": "La Máquina Medio",
+      "url": "https://lamaquinamedio.com",
+      "category": "news",
+      "description": "Medio digital con análisis político, cultural y social",
+      "feeds": [
+        {
+          "id": "la-maquina-medio-main",
+          "name": "La Máquina Medio",
+          "rss_url": "https://lamaquinamedio.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-quinto-poder",
+      "name": "El Quinto Poder",
+      "url": "https://www.elquintopoder.cl",
+      "category": "news",
+      "description": "Plataforma de periodismo ciudadano y opinión",
+      "feeds": [
+        {
+          "id": "el-quinto-poder-main",
+          "name": "El Quinto Poder",
+          "rss_url": "https://www.elquintopoder.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "piensa-chile",
+      "name": "Piensa Chile",
+      "url": "https://piensachile.com",
+      "category": "news",
+      "description": "Portal de análisis, opinión y noticias nacionales",
+      "feeds": [
+        {
+          "id": "piensa-chile-main",
+          "name": "Piensa Chile",
+          "rss_url": "https://piensachile.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "g5noticias",
+      "name": "G5 Noticias",
+      "url": "https://g5noticias.cl",
+      "category": "news",
+      "description": "Portal de noticias nacionales",
+      "feeds": [
+        {
+          "id": "g5noticias-main",
+          "name": "G5 Noticias",
+          "rss_url": "https://g5noticias.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-oficial",
+      "name": "Diario Oficial",
+      "url": "https://www.diariooficial.interior.gob.cl",
+      "category": "government",
+      "description": "Publicación oficial del Estado chileno con leyes, decretos y resoluciones",
+      "feeds": [
+        {
+          "id": "diario-oficial-main",
+          "name": "Diario Oficial",
+          "rss_url": "https://www.diariooficial.interior.gob.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "conaf",
+      "name": "CONAF",
+      "url": "https://www.conaf.cl",
+      "category": "government",
+      "description": "Corporación Nacional Forestal — incendios, parques y biodiversidad",
+      "feeds": [
+        {
+          "id": "conaf-main",
+          "name": "CONAF",
+          "rss_url": "https://www.conaf.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "minsal",
+      "name": "Ministerio de Salud",
+      "url": "https://www.minsal.cl",
+      "category": "government",
+      "description": "Noticias y comunicados del Ministerio de Salud de Chile",
+      "feeds": [
+        {
+          "id": "minsal-main",
+          "name": "Ministerio de Salud",
+          "rss_url": "https://www.minsal.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "startup-chile",
+      "name": "StartupChile",
+      "url": "https://www.startupchile.org",
+      "category": "technology",
+      "description": "Programa de aceleración de startups del gobierno chileno",
+      "feeds": [
+        {
+          "id": "startup-chile-main",
+          "name": "StartupChile",
+          "rss_url": "https://www.startupchile.org/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ufro",
+      "name": "Universidad de La Frontera",
+      "url": "https://www.ufro.cl",
+      "category": "universities",
+      "description": "Noticias e investigación de la UFRO, Temuco",
+      "feeds": [
+        {
+          "id": "ufro-main",
+          "name": "Universidad de La Frontera",
+          "rss_url": "https://www.ufro.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "utalca",
+      "name": "Universidad de Talca",
+      "url": "https://www.utalca.cl",
+      "category": "universities",
+      "description": "Noticias e investigación de la Universidad de Talca",
+      "feeds": [
+        {
+          "id": "utalca-main",
+          "name": "Universidad de Talca",
+          "rss_url": "https://www.utalca.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "udla",
+      "name": "Universidad de Las Américas",
+      "url": "https://www.udla.cl",
+      "category": "universities",
+      "description": "Noticias de la Universidad de Las Américas",
+      "feeds": [
+        {
+          "id": "udla-main",
+          "name": "Universidad de Las Américas",
+          "rss_url": "https://www.udla.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "atacama-noticias",
+      "name": "Atacama Noticias",
+      "url": "https://www.atacamanoticias.cl",
+      "category": "regional",
+      "description": "Portal de noticias de la Región de Atacama",
+      "feeds": [
+        {
+          "id": "atacama-noticias-main",
+          "name": "Atacama Noticias",
+          "rss_url": "https://www.atacamanoticias.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-aysen",
+      "name": "Diario Aysén",
+      "url": "https://www.diarioaysen.cl",
+      "category": "regional",
+      "description": "Diario regional de la Región de Aysén",
+      "feeds": [
+        {
+          "id": "diario-aysen-main",
+          "name": "Diario Aysén",
+          "rss_url": "https://www.diarioaysen.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-pinguino",
+      "name": "El Pingüino",
+      "url": "https://www.elpinguino.com",
+      "category": "regional",
+      "description": "Diario regional de Magallanes y la Antártica",
+      "feeds": [
+        {
+          "id": "el-pinguino-main",
+          "name": "El Pingüino",
+          "rss_url": "https://www.elpinguino.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "udec",
+      "name": "Universidad de Concepción",
+      "url": "https://noticias.udec.cl",
+      "category": "universities",
+      "description": "Noticias e investigación de la Universidad de Concepción",
+      "feeds": [
+        {
+          "id": "udec-main",
+          "name": "Universidad de Concepción",
+          "rss_url": "https://noticias.udec.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uantof",
+      "name": "Universidad de Antofagasta",
+      "url": "https://www.uantof.cl",
+      "category": "universities",
+      "description": "Noticias e investigación de la Universidad de Antofagasta",
+      "feeds": [
+        {
+          "id": "uantof-main",
+          "name": "Universidad de Antofagasta",
+          "rss_url": "https://www.uantof.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "subtel",
+      "name": "Subtel",
+      "url": "https://www.subtel.gob.cl",
+      "category": "government",
+      "description": "Subsecretaría de Telecomunicaciones — regulación y conectividad en Chile",
+      "feeds": [
+        {
+          "id": "subtel-main",
+          "name": "Subtel",
+          "rss_url": "https://www.subtel.gob.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "mineduc",
+      "name": "Ministerio de Educación",
+      "url": "https://www.mineduc.cl",
+      "category": "government",
+      "description": "Noticias y comunicados del Ministerio de Educación de Chile",
+      "feeds": [
+        {
+          "id": "mineduc-main",
+          "name": "Ministerio de Educación",
+          "rss_url": "https://www.mineduc.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "chanarcillo",
+      "name": "Diario Chañarcillo",
+      "url": "https://www.chanarcillo.cl",
+      "category": "regional",
+      "description": "Diario regional de Atacama y Copiapó",
+      "feeds": [
+        {
+          "id": "chanarcillo-main",
+          "name": "Diario Chañarcillo",
+          "rss_url": "https://www.chanarcillo.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "adnradio",
+      "name": "ADN Radio",
+      "url": "https://www.adnradio.cl",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "cooperativa",
+      "name": "Radio Cooperativa",
+      "url": "https://www.cooperativa.cl",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "cnn-chile",
+      "name": "CNN Chile",
+      "url": "https://www.cnnchile.com",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "t13",
+      "name": "T13",
+      "url": "https://www.t13.cl",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "meganoticias",
+      "name": "Meganoticias",
+      "url": "https://www.meganoticias.cl",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "la-cuarta",
+      "name": "La Cuarta",
+      "url": "https://www.lacuarta.com",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "publimetro",
+      "name": "Publimetro Chile",
+      "url": "https://www.publimetro.cl",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "emol",
+      "name": "Emol",
+      "url": "https://www.emol.com",
+      "category": "news",
+      "reason": "Dominio bloquea conexiones externas"
+    },
+    {
+      "id": "el-dinamo",
+      "name": "El Dínamo",
+      "url": "https://www.eldinamo.cl",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "interferencia",
+      "name": "Interferencia",
+      "url": "https://interferencia.cl",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soychile",
+      "name": "SoyChile",
+      "url": "https://www.soychile.cl",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "radiobiobio",
+      "name": "Radio Bío-Bío",
+      "url": "https://www.radiobiobio.cl",
+      "category": "news",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-sur",
+      "name": "El Sur",
+      "url": "https://www.elsur.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "austral-temuco",
+      "name": "Diario Austral Temuco",
+      "url": "https://www.australtemuco.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-concepcion",
+      "name": "Diario Concepción",
+      "url": "https://www.diarioconcepcion.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "austral-osorno",
+      "name": "Diario Austral Osorno",
+      "url": "https://www.australosorno.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "mercurio-valpo",
+      "name": "El Mercurio Valparaíso",
+      "url": "https://www.mercuriovalpo.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "estrella-iquique",
+      "name": "La Estrella de Iquique",
+      "url": "https://www.estrellaiquique.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-llanquihue",
+      "name": "El Llanquihue",
+      "url": "https://www.elllanquihue.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-divisadero",
+      "name": "El Divisadero",
+      "url": "https://www.eldivisadero.cl",
+      "category": "regional",
+      "reason": "XML malformado, no parseable"
+    },
+    {
+      "id": "terra-cl",
+      "name": "Terra Chile",
+      "url": "https://www.terra.cl",
+      "category": "news",
+      "reason": "Devuelve HTML en /rss/"
+    },
+    {
+      "id": "diarioeldia",
+      "name": "Diario El Día",
+      "url": "https://www.diarioeldia.cl",
+      "category": "regional",
+      "reason": "Devuelve HTML en /rss"
+    },
+    {
+      "id": "diariolaprensa",
+      "name": "Diario La Prensa",
+      "url": "https://new.diariolaprensa.cl",
+      "category": "regional",
+      "reason": "Devuelve HTML"
+    },
+    {
+      "id": "elnaveghable",
+      "name": "El Naveghable",
+      "url": "https://www.elnaveghable.cl",
+      "category": "regional",
+      "reason": "XML malformado, no parseable"
+    },
+    {
+      "id": "uchile",
+      "name": "Universidad de Chile",
+      "url": "https://www.uchile.cl",
+      "category": "universities",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "usach",
+      "name": "USACH",
+      "url": "https://www.usach.cl",
+      "category": "universities",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "pucv",
+      "name": "PUCV",
+      "url": "https://www.pucv.cl",
+      "category": "universities",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "uach",
+      "name": "UACh",
+      "url": "https://www.uach.cl",
+      "category": "universities",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "ucsc",
+      "name": "UCSC",
+      "url": "https://www.ucsc.cl",
+      "category": "universities",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "ubiobio",
+      "name": "U. del Bío-Bío",
+      "url": "https://www.ubiobio.cl",
+      "category": "universities",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "ine",
+      "name": "INE",
+      "url": "https://www.ine.gob.cl",
+      "category": "government",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "senado",
+      "name": "Senado",
+      "url": "https://www.senado.cl",
+      "category": "government",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "camara",
+      "name": "Cámara de Diputadas y Diputados",
+      "url": "https://www.camara.cl",
+      "category": "government",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "pjud",
+      "name": "Poder Judicial",
+      "url": "https://www.pjud.cl",
+      "category": "government",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "sernac",
+      "name": "SERNAC",
+      "url": "https://www.sernac.cl",
+      "category": "government",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "contraloria",
+      "name": "Contraloría General",
+      "url": "https://www.contraloria.cl",
+      "category": "government",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "senapred",
+      "name": "SENAPRED",
+      "url": "https://www.senapred.cl",
+      "category": "government",
+      "reason": "Sin feed RSS detectado"
+    }
+  ]
+}

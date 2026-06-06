@@ -1,0 +1,20 @@
+{
+  "name": "awesome-chilean-rss",
+  "version": "1.0.0",
+  "description": "Validador de feeds RSS/Atom de sitios chilenos",
+  "type": "module",
+  "scripts": {
+    "validate": "node validate_feeds.js",
+    "generate": "node generate.js",
+    "validate:json": "node scripts/validate-json.mjs",
+    "validate:opml": "node scripts/validate-opml.mjs",
+    "ci": "npm run validate:json && npm run validate:opml && node generate.js && git diff --exit-code chilean-rss.opml README.md"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.8.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "CC0-1.0"
+}

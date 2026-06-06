@@ -1,0 +1,79 @@
+name: Validate RSS Links
+
+on:
+  push:
+    branches: [main, master, develop]
+    paths:
+      - 'README.md'
+      - 'chilean-rss.opml'
+      - 'feeds-database.json'
+      - 'generate.js'
+      - 'scripts/**'
+      - '.github/workflows/validate-links.yml'
+  pull_request:
+    branches: [main, master, develop]
+    paths:
+      - 'README.md'
+      - 'chilean-rss.opml'
+      - 'feeds-database.json'
+      - 'generate.js'
+      - 'scripts/**'
+
+jobs:
+  # ── 1. Valida feeds-database.json ──────────────────────────────────────────
+  validate-json:
+    name: Validate feeds-database.json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - run: npm run validate:json
+
+  # ── 2. Valida chilean-rss.opml ─────────────────────────────────────────────
+  validate-opml:
+    name: Validate chilean-rss.opml
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - run: npm run validate:opml
+
+  # ── 3. Verifica que OPML y README están sincronizados con el JSON ───────────
+  check-generated-files:
+    name: Check generated files are up to date
+    runs-on: ubuntu-latest
+    needs: [validate-json, validate-opml]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Regenerate and diff
+        run: |
+          node generate.js
+          if ! git diff --exit-code chilean-rss.opml README.md; then
+            echo ""
+            echo "❌ chilean-rss.opml o README.md están desincronizados con feeds-database.json."
+            echo "   Ejecuta 'npm run generate' localmente y haz commit de los cambios."
+            exit 1
+          fi
+          echo "✅ chilean-rss.opml y README.md están sincronizados con feeds-database.json"
