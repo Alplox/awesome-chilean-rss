@@ -15,8 +15,11 @@ const { sites, categories } = db;
 
 // Aplanar todos los feeds individuales para OPML y conteos
 // Cada entry incluye el feed + datos del sitio padre
+// Solo incluir feeds activos y verificados
 const allFeeds = sites.flatMap(site =>
-  site.feeds.map(feed => ({ ...feed, siteId: site.id, siteName: site.name, siteUrl: site.url, category: site.category }))
+  site.feeds
+    .filter(feed => feed.status === 'active' && feed.verified === true)
+    .map(feed => ({ ...feed, siteId: site.id, siteName: site.name, siteUrl: site.url, category: site.category }))
 );
 
 // Agrupa sitios por categoría (para README y OPML)
@@ -100,9 +103,10 @@ function generateReadme() {
   // Construir índice usando el key de categoría como ancla explícita
   const indexLines = orderedCategories.map(cat => {
     const label = categories[cat] ?? cat;
-    const count = sitesByCategory[cat].reduce((sum, s) => sum + s.feeds.length, 0);
+    const count = sitesByCategory[cat].reduce((sum, s) => sum + s.feeds.filter(f => f.status === 'active' && f.verified === true).length, 0);
+    if (count === 0) return null; // Skip categories with no active feeds
     return `- [${label}](#cat-${cat}) — ${count} feeds`;
-  });
+  }).filter(Boolean);
 
   const index = `<a id="indice"></a>\n### 📑 Índice de categorías\n\n${indexLines.join('\n')}`;
 
@@ -110,22 +114,27 @@ function generateReadme() {
   const feedSections = orderedCategories.map(cat => {
     const label = categories[cat] ?? cat;
     const catSites = sitesByCategory[cat];
-    const count = catSites.reduce((sum, s) => sum + s.feeds.length, 0);
+    const count = catSites.reduce((sum, s) => sum + s.feeds.filter(f => f.status === 'active' && f.verified === true).length, 0);
 
     const items = catSites.map(site => {
-      if (site.feeds.length === 1) {
-        const feed = site.feeds[0];
+      const activeFeeds = site.feeds.filter(f => f.status === 'active' && f.verified === true);
+      if (activeFeeds.length === 0) return null; // Skip sites with no active feeds
+
+      if (activeFeeds.length === 1) {
+        const feed = activeFeeds[0];
         return `- **${site.name}**: ${site.description}\n  - RSS: \`${feed.rss_url}\``;
       } else {
-        const feedLines = site.feeds
+        const feedLines = activeFeeds
           .map(feed => `  - ${feed.name}: \`${feed.rss_url}\``)
           .join('\n');
         return `- **${site.name}** — ${site.description}\n${feedLines}`;
       }
-    }).join('\n');
+    }).filter(Boolean).join('\n');
+
+    if (!items) return null; // Skip categories with no active feeds
 
     return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(count)})\n\n${items}\n\n[↑ Volver al índice](#indice)`;
-  }).join('\n\n');
+  }).filter(Boolean).join('\n\n');
 
   return `
 # Awesome Chilean RSS

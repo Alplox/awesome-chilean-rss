@@ -31,11 +31,13 @@ Si deseas agregar un nuevo feed RSS, por favor asegúrate de cumplir con estos r
 La descripción debe ser **objetiva y factual**. Describe qué cubre el medio, no su relevancia, popularidad o posición editorial.
 
 ✅ Correcto:
+
 - "Portal de noticias nacionales e internacionales con cobertura política y económica"
 - "Diario regional de la Región de Magallanes"
 - "Publicación oficial del Estado chileno con leyes, decretos y resoluciones"
 
 ❌ Evitar:
+
 - Superlativos: "el más leído", "el más grande", "el más completo"
 - Valoraciones: "muy confiable", "de alta calidad", "imprescindible"
 - Etiquetas ideológicas: "de izquierda", "progresista", "conservador", "alternativo"

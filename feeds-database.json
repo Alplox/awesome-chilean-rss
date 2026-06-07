@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-06T19:43:51.370Z",
-  "total_feeds": 55,
+  "last_updated": "2026-06-07T00:57:50.930Z",
+  "total_feeds": 176,
   "categories": {
     "news": "📰 Noticias Nacionales",
     "government": "🏛️ Gobierno y Datos Públicos",
@@ -14,6 +14,78 @@
   },
   "sites": [
     {
+      "id": "as-chile",
+      "name": "AS Chile",
+      "url": "https://chile.as.com",
+      "category": "news",
+      "description": "Diario online de deportes con noticias e información sobre fútbol y otros deportes en Chile",
+      "feeds": [
+        {
+          "id": "as-chile-portada",
+          "name": "Portada",
+          "rss_url": "https://as.com/rss/chile/portada.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:17:28.094Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "as-chile-futbol",
+          "name": "Fútbol",
+          "rss_url": "https://as.com/rss/chile/futbol.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:17:28.788Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "as-chile-actualidad",
+          "name": "Actualidad",
+          "rss_url": "https://as.com/rss/chile/actualidad.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:17:29.363Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "interferencia",
+      "name": "Interferencia",
+      "url": "https://interferencia.cl",
+      "category": "news",
+      "description": "Medio digital chileno de noticias y reportajes",
+      "feeds": [
+        {
+          "id": "interferencia-main",
+          "name": "Interferencia",
+          "rss_url": "https://interferencia.cl/rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:17:29.824Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-concepcion",
+      "name": "Diario Concepción",
+      "url": "https://www.diarioconcepcion.cl",
+      "category": "regional",
+      "description": "Diario regional con cobertura informativa de la Región del Biobío",
+      "feeds": [
+        {
+          "id": "diario-concepcion-main",
+          "name": "Diario Concepción",
+          "rss_url": "https://www.diarioconcepcion.cl/rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:17:29.965Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
       "id": "biobiochile",
       "name": "BioBioChile",
       "url": "https://www.biobiochile.cl",
@@ -25,7 +97,7 @@
           "name": "BioBioChile",
           "rss_url": "https://feeds.feedburner.com/radiobiobio/NNeJ",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:29.434Z",
+          "last_checked": "2026-06-06T23:17:37.324Z",
           "status": "active",
           "verified": true
         }
@@ -43,7 +115,7 @@
           "name": "La Tercera",
           "rss_url": "https://www.latercera.com/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:29.704Z",
+          "last_checked": "2026-06-06T23:17:37.670Z",
           "status": "active",
           "verified": true
         }
@@ -61,7 +133,7 @@
           "name": "Ciper Chile",
           "rss_url": "https://www.ciperchile.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:29.848Z",
+          "last_checked": "2026-06-06T23:17:37.763Z",
           "status": "active",
           "verified": true
         }
@@ -79,7 +151,7 @@
           "name": "Redgol",
           "rss_url": "https://redgol.cl/rss/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:30.775Z",
+          "last_checked": "2026-06-06T23:17:39.189Z",
           "status": "active",
           "verified": true
         }
@@ -97,7 +169,7 @@
           "name": "FayerWayer",
           "rss_url": "https://www.fayerwayer.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:31.278Z",
+          "last_checked": "2026-06-06T23:17:39.697Z",
           "status": "active",
           "verified": true
         }
@@ -115,7 +187,7 @@
           "name": "Gobierno de Chile",
           "rss_url": "https://www.gob.cl/noticias/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:31.593Z",
+          "last_checked": "2026-06-06T23:17:40.195Z",
           "status": "active",
           "verified": true
         }
@@ -133,7 +205,7 @@
           "name": "ChileCompra",
           "rss_url": "https://www.chilecompra.cl/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:32.981Z",
+          "last_checked": "2026-06-06T23:17:41.695Z",
           "status": "active",
           "verified": true
         }
@@ -149,9 +221,9 @@
         {
           "id": "puc-noticias-main",
           "name": "Pontificia Universidad Católica (PUC)",
-          "rss_url": "https://www.uc.cl/rss",
+          "rss_url": "https://www.uc.cl/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:34.268Z",
+          "last_checked": "2026-06-06T23:17:46.050Z",
           "status": "active",
           "verified": true
         }
@@ -169,7 +241,7 @@
           "name": "ANID",
           "rss_url": "https://www.anid.cl/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:36.738Z",
+          "last_checked": "2026-06-06T23:17:48.727Z",
           "status": "active",
           "verified": true
         }
@@ -187,7 +259,7 @@
           "name": "La Discusión",
           "rss_url": "https://www.ladiscusion.cl/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:38.595Z",
+          "last_checked": "2026-06-06T23:17:50.534Z",
           "status": "active",
           "verified": true
         }
@@ -205,7 +277,7 @@
           "name": "Pulso",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T06:43:39.166Z",
+          "last_checked": "2026-06-06T23:17:50.653Z",
           "status": "active",
           "verified": true
         }
@@ -223,7 +295,7 @@
           "name": "Desenfoque",
           "rss_url": "https://desenfoque.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:17:53.221Z",
           "status": "active",
           "verified": true
         }
@@ -241,7 +313,7 @@
           "name": "Pediatría y Salud",
           "rss_url": "https://pediatriaysalud.cl/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:17:56.268Z",
           "status": "active",
           "verified": true
         }
@@ -259,7 +331,7 @@
           "name": "Noticias",
           "rss_url": "https://www.sii.cl/pagina/actualizada/noticias/rss/siinot_rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:17:56.377Z",
           "status": "active",
           "verified": true
         },
@@ -268,7 +340,7 @@
           "name": "Contenidos",
           "rss_url": "https://www.sii.cl/pagina/actualizada/noticias/rss/siiall_rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:17:56.392Z",
           "status": "active",
           "verified": true
         },
@@ -277,7 +349,7 @@
           "name": "Índices y Valores Económicos",
           "rss_url": "https://zeus.sii.cl/admin/rss/sii_ind_rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:17:56.486Z",
           "status": "active",
           "verified": true,
           "description": "UF, UTM y otros índices económicos actualizados diariamente por el SII"
@@ -296,7 +368,7 @@
           "name": "Diario Financiero",
           "rss_url": "https://www.df.cl/noticias/site/list/port/rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:17:56.584Z",
           "status": "active",
           "verified": true
         }
@@ -314,7 +386,7 @@
           "name": "The Clinic",
           "rss_url": "https://www.theclinic.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:17:58.661Z",
           "status": "active",
           "verified": true
         }
@@ -332,7 +404,7 @@
           "name": "El Rancagüino",
           "rss_url": "https://www.elrancaguino.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:17:59.490Z",
           "status": "active",
           "verified": true
         }
@@ -350,7 +422,7 @@
           "name": "Cambio21",
           "rss_url": "https://cambio21.cl/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:00.731Z",
           "status": "active",
           "verified": true
         }
@@ -368,7 +440,7 @@
           "name": "La Nación",
           "rss_url": "https://www.lanacion.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:01.436Z",
           "status": "active",
           "verified": true
         }
@@ -386,7 +458,7 @@
           "name": "El Siglo",
           "rss_url": "https://elsiglo.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:02.149Z",
           "status": "active",
           "verified": true
         }
@@ -404,7 +476,7 @@
           "name": "Santiago Times",
           "rss_url": "https://santiagotimes.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:03.530Z",
           "status": "active",
           "verified": true
         }
@@ -422,7 +494,7 @@
           "name": "El Clarín de Chile",
           "rss_url": "https://www.elclarin.cl/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:04.769Z",
           "status": "active",
           "verified": true
         }
@@ -440,7 +512,7 @@
           "name": "La Prensa Austral",
           "rss_url": "https://laprensaaustral.cl/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:05.615Z",
           "status": "active",
           "verified": true
         }
@@ -458,7 +530,7 @@
           "name": "Últimas Noticias",
           "rss_url": "https://eldesconcierto.cl/rss/pages/ultimas-noticias.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:05.873Z",
           "status": "active",
           "verified": true
         },
@@ -467,7 +539,7 @@
           "name": "Medio Ambiente",
           "rss_url": "https://eldesconcierto.cl/rss/pages/medio_ambiente.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:06.077Z",
           "status": "active",
           "verified": true
         },
@@ -476,7 +548,7 @@
           "name": "Actualidad",
           "rss_url": "https://eldesconcierto.cl/rss/pages/actualidad.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:06.281Z",
           "status": "active",
           "verified": true
         },
@@ -485,7 +557,7 @@
           "name": "Tendencias",
           "rss_url": "https://eldesconcierto.cl/rss/pages/tendencias.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:06.486Z",
           "status": "active",
           "verified": true
         },
@@ -494,7 +566,7 @@
           "name": "Hoja de Ruta",
           "rss_url": "https://eldesconcierto.cl/rss/pages/hoja-de-ruta.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:06.680Z",
           "status": "active",
           "verified": true
         },
@@ -503,7 +575,7 @@
           "name": "Reportajes",
           "rss_url": "https://eldesconcierto.cl/rss/pages/reportajes.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:06.868Z",
           "status": "active",
           "verified": true
         },
@@ -512,7 +584,7 @@
           "name": "Entrevistas",
           "rss_url": "https://eldesconcierto.cl/rss/pages/entrevistas.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:07.069Z",
           "status": "active",
           "verified": true
         },
@@ -521,7 +593,7 @@
           "name": "Opinión",
           "rss_url": "https://eldesconcierto.cl/rss/pages/opinion.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:07.265Z",
           "status": "active",
           "verified": true
         },
@@ -530,7 +602,7 @@
           "name": "Mundo",
           "rss_url": "https://eldesconcierto.cl/rss/pages/mundo.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:07.464Z",
           "status": "active",
           "verified": true
         }
@@ -548,7 +620,7 @@
           "name": "El Ciudadano",
           "rss_url": "https://www.elciudadano.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:08.236Z",
           "status": "active",
           "verified": true
         }
@@ -566,7 +638,7 @@
           "name": "FastCheckCL",
           "rss_url": "https://fastcheck.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:09.975Z",
           "status": "active",
           "verified": true
         }
@@ -584,7 +656,7 @@
           "name": "La Máquina Medio",
           "rss_url": "https://lamaquinamedio.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:11.468Z",
           "status": "active",
           "verified": true
         }
@@ -602,7 +674,7 @@
           "name": "El Quinto Poder",
           "rss_url": "https://www.elquintopoder.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:13.466Z",
           "status": "active",
           "verified": true
         }
@@ -620,7 +692,7 @@
           "name": "Piensa Chile",
           "rss_url": "https://piensachile.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:14.772Z",
           "status": "active",
           "verified": true
         }
@@ -638,7 +710,7 @@
           "name": "G5 Noticias",
           "rss_url": "https://g5noticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:14.846Z",
           "status": "active",
           "verified": true
         }
@@ -656,7 +728,7 @@
           "name": "Diario Oficial",
           "rss_url": "https://www.diariooficial.interior.gob.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:15.281Z",
           "status": "active",
           "verified": true
         }
@@ -674,7 +746,7 @@
           "name": "CONAF",
           "rss_url": "https://www.conaf.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:19.303Z",
           "status": "active",
           "verified": true
         }
@@ -692,25 +764,7 @@
           "name": "Ministerio de Salud",
           "rss_url": "https://www.minsal.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
-          "status": "active",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "id": "startup-chile",
-      "name": "StartupChile",
-      "url": "https://www.startupchile.org",
-      "category": "technology",
-      "description": "Programa de aceleración de startups del gobierno chileno",
-      "feeds": [
-        {
-          "id": "startup-chile-main",
-          "name": "StartupChile",
-          "rss_url": "https://www.startupchile.org/feed/",
-          "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:19.714Z",
           "status": "active",
           "verified": true
         }
@@ -728,7 +782,7 @@
           "name": "Universidad de La Frontera",
           "rss_url": "https://www.ufro.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:20.066Z",
           "status": "active",
           "verified": true
         }
@@ -744,9 +798,9 @@
         {
           "id": "utalca-main",
           "name": "Universidad de Talca",
-          "rss_url": "https://www.utalca.cl/feed/",
+          "rss_url": "https://www.utalca.cl/noticias/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:20.268Z",
           "status": "active",
           "verified": true
         }
@@ -764,7 +818,7 @@
           "name": "Universidad de Las Américas",
           "rss_url": "https://www.udla.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:22.497Z",
           "status": "active",
           "verified": true
         }
@@ -782,7 +836,7 @@
           "name": "Atacama Noticias",
           "rss_url": "https://www.atacamanoticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:23.533Z",
           "status": "active",
           "verified": true
         }
@@ -800,7 +854,7 @@
           "name": "Diario Aysén",
           "rss_url": "https://www.diarioaysen.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:24.733Z",
           "status": "active",
           "verified": true
         }
@@ -818,7 +872,7 @@
           "name": "El Pingüino",
           "rss_url": "https://www.elpinguino.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:25.539Z",
           "status": "active",
           "verified": true
         }
@@ -836,25 +890,7 @@
           "name": "Universidad de Concepción",
           "rss_url": "https://noticias.udec.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
-          "status": "active",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "id": "uantof",
-      "name": "Universidad de Antofagasta",
-      "url": "https://www.uantof.cl",
-      "category": "universities",
-      "description": "Noticias e investigación de la Universidad de Antofagasta",
-      "feeds": [
-        {
-          "id": "uantof-main",
-          "name": "Universidad de Antofagasta",
-          "rss_url": "https://www.uantof.cl/feed/",
-          "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:25.613Z",
           "status": "active",
           "verified": true
         }
@@ -872,7 +908,7 @@
           "name": "Subtel",
           "rss_url": "https://www.subtel.gob.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:26.576Z",
           "status": "active",
           "verified": true
         }
@@ -890,7 +926,7 @@
           "name": "Ministerio de Educación",
           "rss_url": "https://www.mineduc.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:29.678Z",
           "status": "active",
           "verified": true
         }
@@ -908,7 +944,2130 @@
           "name": "Diario Chañarcillo",
           "rss_url": "https://www.chanarcillo.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T00:00:00.000Z",
+          "last_checked": "2026-06-06T23:18:30.388Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hoyxhoy",
+      "name": "Hoyxhoy",
+      "url": "https://www.hoyxhoy.cl",
+      "category": "regional",
+      "description": "Diario regional de Santiago, Metropolitana",
+      "feeds": [
+        {
+          "id": "hoyxhoy-main",
+          "name": "Hoyxhoy",
+          "rss_url": "https://www.hoyxhoy.cl/?feed=rss2",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:31.013Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "duplos",
+      "name": "Duplos",
+      "url": "https://www.duplos.cl",
+      "category": "regional",
+      "description": "Diario regional de Santiago, Metropolitana",
+      "feeds": [
+        {
+          "id": "duplos-main",
+          "name": "Duplos",
+          "rss_url": "https://www.duplos.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:32.939Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "sur-noticias",
+      "name": "Sur Noticias",
+      "url": "https://www.diariosurnoticias.com",
+      "category": "regional",
+      "description": "Diario regional de Santiago, Metropolitana",
+      "feeds": [
+        {
+          "id": "sur-noticias-main",
+          "name": "Sur Noticias",
+          "rss_url": "https://www.diariosurnoticias.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:33.984Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-periodista",
+      "name": "El Periodista",
+      "url": "https://www.elperiodista.cl",
+      "category": "regional",
+      "description": "Diario regional de Santiago, Metropolitana",
+      "feeds": [
+        {
+          "id": "el-periodista-main",
+          "name": "El Periodista",
+          "rss_url": "https://www.elperiodista.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:35.276Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-razon",
+      "name": "La Razón",
+      "url": "https://www.larazon.cl",
+      "category": "regional",
+      "description": "Diario regional de Santiago, Metropolitana",
+      "feeds": [
+        {
+          "id": "la-razon-main",
+          "name": "La Razón",
+          "rss_url": "https://www.larazon.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:36.065Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cronica-digital",
+      "name": "Crónica Digital",
+      "url": "https://www.cronicadigital.cl",
+      "category": "regional",
+      "description": "Diario regional de Santiago, Metropolitana",
+      "feeds": [
+        {
+          "id": "cronica-digital-main",
+          "name": "Crónica Digital",
+          "rss_url": "https://www.cronicadigital.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:37.784Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "nuevo-poder",
+      "name": "Nuevo Poder",
+      "url": "https://www.nuevopoder.cl",
+      "category": "regional",
+      "description": "Diario regional de Santiago, Metropolitana",
+      "feeds": [
+        {
+          "id": "nuevo-poder-main",
+          "name": "Nuevo Poder",
+          "rss_url": "https://www.nuevopoder.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:37.955Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-comunicador",
+      "name": "El Comunicador",
+      "url": "https://elcomunicador.cl",
+      "category": "regional",
+      "description": "Diario regional de Melipilla, Metropolitana",
+      "feeds": [
+        {
+          "id": "el-comunicador-main",
+          "name": "El Comunicador",
+          "rss_url": "https://elcomunicador.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:38.598Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-antofagasta",
+      "name": "Diario Antofagasta",
+      "url": "https://www.diarioantofagasta.cl",
+      "category": "regional",
+      "description": "Diario regional de Antofagasta, Antofagasta",
+      "feeds": [
+        {
+          "id": "diario-antofagasta-main",
+          "name": "Diario Antofagasta",
+          "rss_url": "https://www.diarioantofagasta.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:38.698Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "antofagasta-noticias",
+      "name": "Antofagasta Noticias",
+      "url": "https://www.antofagastanoticias.cl",
+      "category": "regional",
+      "description": "Diario regional de Antofagasta, Antofagasta",
+      "feeds": [
+        {
+          "id": "antofagasta-noticias-main",
+          "name": "Antofagasta Noticias",
+          "rss_url": "https://www.antofagastanoticias.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:40.469Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "name": "Timeline",
+      "url": "https://www.timeline.cl",
+      "category": "regional",
+      "description": "Diario regional de Antofagasta, Antofagasta",
+      "feeds": [
+        {
+          "id": "timeline-main",
+          "name": "Timeline",
+          "rss_url": "https://www.timeline.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:41.328Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-america",
+      "name": "El América",
+      "url": "https://www.elamerica.cl",
+      "category": "regional",
+      "description": "Diario regional de Calama, Antofagasta",
+      "feeds": [
+        {
+          "id": "el-america-main",
+          "name": "El América",
+          "rss_url": "https://www.elamerica.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:45.154Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "en-la-linea",
+      "name": "En La Línea",
+      "url": "https://www.enlalinea.cl",
+      "category": "regional",
+      "description": "Diario regional de Calama, Antofagasta",
+      "feeds": [
+        {
+          "id": "en-la-linea-main",
+          "name": "En La Línea",
+          "rss_url": "https://www.enlalinea.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:46.231Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-estrella-de-tocopilla",
+      "name": "La Estrella de Tocopilla",
+      "url": "https://www.estrellatocopilla.cl",
+      "category": "regional",
+      "description": "Diario regional de Tocopilla, Antofagasta",
+      "feeds": [
+        {
+          "id": "la-estrella-de-tocopilla-main",
+          "name": "La Estrella de Tocopilla",
+          "rss_url": "https://www.estrellatocopilla.cl/?feed=rss2",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:47.444Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "arica-al-dia",
+      "name": "Arica Al Día",
+      "url": "https://www.aricaldia.cl",
+      "category": "regional",
+      "description": "Diario regional de Arica, Arica y Parinacota",
+      "feeds": [
+        {
+          "id": "arica-al-dia-main",
+          "name": "Arica Al Día",
+          "rss_url": "https://www.aricaldia.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:48.349Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "arica-hoy",
+      "name": "Arica Hoy",
+      "url": "https://www.aricahoy.cl",
+      "category": "regional",
+      "description": "Diario regional de Arica, Arica y Parinacota",
+      "feeds": [
+        {
+          "id": "arica-hoy-main",
+          "name": "Arica Hoy",
+          "rss_url": "https://www.aricahoy.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:48.413Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "arica365",
+      "name": "Arica365",
+      "url": "https://www.arica365.cl",
+      "category": "regional",
+      "description": "Diario regional de Arica, Arica y Parinacota",
+      "feeds": [
+        {
+          "id": "arica365-main",
+          "name": "Arica365",
+          "rss_url": "https://www.arica365.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:48.719Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "frontera-norte",
+      "name": "Frontera Norte",
+      "url": "https://www.fronteranorte.cl",
+      "category": "regional",
+      "description": "Diario regional de Arica, Arica y Parinacota",
+      "feeds": [
+        {
+          "id": "frontera-norte-main",
+          "name": "Frontera Norte",
+          "rss_url": "https://www.fronteranorte.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:51.296Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-morro-de-arica",
+      "name": "El Morro de Arica",
+      "url": "https://elmorrodearica.cl",
+      "category": "regional",
+      "description": "Diario regional de Arica, Arica y Parinacota",
+      "feeds": [
+        {
+          "id": "el-morro-de-arica-main",
+          "name": "El Morro de Arica",
+          "rss_url": "https://elmorrodearica.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:51.911Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tierramarillano",
+      "name": "Tierramarillano",
+      "url": "https://www.tierramarillano.cl",
+      "category": "regional",
+      "description": "Diario regional de Copiapó, Atacama",
+      "feeds": [
+        {
+          "id": "tierramarillano-main",
+          "name": "Tierramarillano",
+          "rss_url": "https://www.tierramarillano.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:53.860Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "atacama-en-linea",
+      "name": "Atacama en Línea",
+      "url": "https://www.atacamaenlinea.cl",
+      "category": "regional",
+      "description": "Diario regional de Copiapó, Atacama",
+      "feeds": [
+        {
+          "id": "atacama-en-linea-main",
+          "name": "Atacama en Línea",
+          "rss_url": "https://www.atacamaenlinea.cl/rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:54.811Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-noticiero-del-huasco",
+      "name": "El Noticiero del Huasco",
+      "url": "https://elnoticierodelhuasco.cl",
+      "category": "regional",
+      "description": "Diario regional de Vallenar, Atacama",
+      "feeds": [
+        {
+          "id": "el-noticiero-del-huasco-main",
+          "name": "El Noticiero del Huasco",
+          "rss_url": "https://elnoticierodelhuasco.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:56.268Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "aysen-ahora",
+      "name": "Aysén Ahora",
+      "url": "https://aysenahora.cl",
+      "category": "regional",
+      "description": "Diario regional de Puerto Aysén, Aysén",
+      "feeds": [
+        {
+          "id": "aysen-ahora-main",
+          "name": "Aysén Ahora",
+          "rss_url": "https://aysenahora.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:57.543Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-tribuna",
+      "name": "La Tribuna",
+      "url": "https://www.latribuna.cl",
+      "category": "regional",
+      "description": "Diario regional de Los Ángeles, Biobío",
+      "feeds": [
+        {
+          "id": "la-tribuna-main",
+          "name": "La Tribuna",
+          "rss_url": "https://www.latribuna.cl/rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:57.957Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-contraste",
+      "name": "El Contraste",
+      "url": "https://www.elcontraste.cl",
+      "category": "regional",
+      "description": "Diario regional de Los Ángeles, Biobío",
+      "feeds": [
+        {
+          "id": "el-contraste-main",
+          "name": "El Contraste",
+          "rss_url": "https://www.elcontraste.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:18:58.859Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "angelino",
+      "name": "Angelino",
+      "url": "https://www.angelino.cl",
+      "category": "regional",
+      "description": "Diario regional de Los Ángeles, Biobío",
+      "feeds": [
+        {
+          "id": "angelino-main",
+          "name": "Angelino",
+          "rss_url": "https://www.angelino.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:00.388Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-serena-online",
+      "name": "La Serena Online",
+      "url": "https://www.laserenaonline.cl",
+      "category": "regional",
+      "description": "Diario regional de La Serena, Coquimbo",
+      "feeds": [
+        {
+          "id": "la-serena-online-main",
+          "name": "La Serena Online",
+          "rss_url": "https://www.laserenaonline.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:03.579Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-serenense",
+      "name": "El Serenense",
+      "url": "https://www.elserenense.cl",
+      "category": "regional",
+      "description": "Diario regional de La Serena, Coquimbo",
+      "feeds": [
+        {
+          "id": "el-serenense-main",
+          "name": "El Serenense",
+          "rss_url": "https://www.elserenense.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:04.316Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-ovallino",
+      "name": "El Ovallino",
+      "url": "https://www.elovallino.cl",
+      "category": "regional",
+      "description": "Diario regional de Ovalle, Coquimbo",
+      "feeds": [
+        {
+          "id": "el-ovallino-main",
+          "name": "El Ovallino",
+          "rss_url": "https://www.elovallino.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:05.552Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ovalle-hoy",
+      "name": "Ovalle Hoy",
+      "url": "https://www.ovallehoy.cl",
+      "category": "regional",
+      "description": "Diario regional de Ovalle, Coquimbo",
+      "feeds": [
+        {
+          "id": "ovalle-hoy-main",
+          "name": "Ovalle Hoy",
+          "rss_url": "https://www.ovallehoy.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:08.924Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-perla-del-limari",
+      "name": "La Perla del Limarí",
+      "url": "https://www.laperladellimari.cl",
+      "category": "regional",
+      "description": "Diario regional de Ovalle, Coquimbo",
+      "feeds": [
+        {
+          "id": "la-perla-del-limari-main",
+          "name": "La Perla del Limarí",
+          "rss_url": "https://www.laperladellimari.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:09.656Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-region",
+      "name": "La Región",
+      "url": "https://www.diariolaregion.cl",
+      "category": "regional",
+      "description": "Diario regional de Coquimbo, Coquimbo",
+      "feeds": [
+        {
+          "id": "la-region-main",
+          "name": "La Región",
+          "rss_url": "https://www.diariolaregion.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:09.887Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-regional",
+      "name": "El Regional",
+      "url": "https://www.elregional.cl",
+      "category": "regional",
+      "description": "Diario regional de Coquimbo, Coquimbo",
+      "feeds": [
+        {
+          "id": "el-regional-main",
+          "name": "El Regional",
+          "rss_url": "https://www.elregional.cl/?feed=rss2",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:10.086Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-coquimbano",
+      "name": "El Coquimbano",
+      "url": "https://www.elcoquimbano.cl",
+      "category": "regional",
+      "description": "Diario regional de Coquimbo, Coquimbo",
+      "feeds": [
+        {
+          "id": "el-coquimbano-main",
+          "name": "El Coquimbano",
+          "rss_url": "https://www.elcoquimbano.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:10.817Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-vicunense",
+      "name": "El Vicuñense",
+      "url": "https://www.xn--elvicuense-y9a.cl",
+      "category": "regional",
+      "description": "Diario regional de Vicuña, Coquimbo",
+      "feeds": [
+        {
+          "id": "el-vicunense-main",
+          "name": "El Vicuñense",
+          "rss_url": "https://www.xn--elvicuense-y9a.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:11.556Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "david-noticias",
+      "name": "David Noticias",
+      "url": "https://www.davidnoticias.cl",
+      "category": "regional",
+      "description": "Diario regional de Los Vilos, Coquimbo",
+      "feeds": [
+        {
+          "id": "david-noticias-main",
+          "name": "David Noticias",
+          "rss_url": "https://www.davidnoticias.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:13.607Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "clave-9",
+      "name": "Clave 9",
+      "url": "https://www.clave9.cl",
+      "category": "regional",
+      "description": "Diario regional de Temuco, La Araucanía",
+      "feeds": [
+        {
+          "id": "clave-9-main",
+          "name": "Clave 9",
+          "rss_url": "https://www.clave9.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:14.588Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "araucania-noticias",
+      "name": "Araucanía Noticias",
+      "url": "https://www.araucanianoticias.cl",
+      "category": "regional",
+      "description": "Diario regional de Temuco, La Araucanía",
+      "feeds": [
+        {
+          "id": "araucania-noticias-main",
+          "name": "Araucanía Noticias",
+          "rss_url": "https://www.araucanianoticias.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:14.896Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "temuco21",
+      "name": "Temuco21",
+      "url": "https://www.tiempo21.cl",
+      "category": "regional",
+      "description": "Diario regional de Temuco, La Araucanía",
+      "feeds": [
+        {
+          "id": "temuco21-main",
+          "name": "Temuco21",
+          "rss_url": "https://www.tiempo21.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:15.827Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "temuco-diario",
+      "name": "Temuco Diario",
+      "url": "https://www.temucodiario.cl",
+      "category": "regional",
+      "description": "Diario regional de Temuco, La Araucanía",
+      "feeds": [
+        {
+          "id": "temuco-diario-main",
+          "name": "Temuco Diario",
+          "rss_url": "https://www.temucodiario.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:16.418Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prensa-ciudadana",
+      "name": "Prensa Ciudadana",
+      "url": "https://www.prensaciudadana.cl",
+      "category": "regional",
+      "description": "Diario regional de Temuco, La Araucanía",
+      "feeds": [
+        {
+          "id": "prensa-ciudadana-main",
+          "name": "Prensa Ciudadana",
+          "rss_url": "https://www.prensaciudadana.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:16.484Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "alerta-noticias-temuco",
+      "name": "Alerta Noticias Temuco",
+      "url": "https://alertanoticiastemuco.cl",
+      "category": "regional",
+      "description": "Diario regional de Temuco, La Araucanía",
+      "feeds": [
+        {
+          "id": "alerta-noticias-temuco-main",
+          "name": "Alerta Noticias Temuco",
+          "rss_url": "https://alertanoticiastemuco.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:18.321Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-periodico",
+      "name": "El Periódico",
+      "url": "https://elperiodico.cl",
+      "category": "regional",
+      "description": "Diario regional de Temuco, La Araucanía",
+      "feeds": [
+        {
+          "id": "el-periodico-main",
+          "name": "El Periódico",
+          "rss_url": "https://elperiodico.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:19.271Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "novena-digital",
+      "name": "Novena Digital",
+      "url": "https://novenadigital.cl",
+      "category": "regional",
+      "description": "Diario regional de Temuco, La Araucanía",
+      "feeds": [
+        {
+          "id": "novena-digital-main",
+          "name": "Novena Digital",
+          "rss_url": "https://novenadigital.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:19.750Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "las-noticias-de-malleco",
+      "name": "Las Noticias de Malleco",
+      "url": "https://lasnoticiasdemalleco.cl",
+      "category": "regional",
+      "description": "Diario regional de Angol, La Araucanía",
+      "feeds": [
+        {
+          "id": "las-noticias-de-malleco-main",
+          "name": "Las Noticias de Malleco",
+          "rss_url": "https://lasnoticiasdemalleco.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:21.318Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "malleco-7",
+      "name": "Malleco 7",
+      "url": "https://www.malleco7.cl",
+      "category": "regional",
+      "description": "Diario regional de Angol, La Araucanía",
+      "feeds": [
+        {
+          "id": "malleco-7-main",
+          "name": "Malleco 7",
+          "rss_url": "https://www.malleco7.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:22.310Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "angol-noticias",
+      "name": "Angol Noticias",
+      "url": "https://www.angolnoticiasnew.cl",
+      "category": "regional",
+      "description": "Diario regional de Angol, La Araucanía",
+      "feeds": [
+        {
+          "id": "angol-noticias-main",
+          "name": "Angol Noticias",
+          "rss_url": "https://www.angolnoticiasnew.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:22.961Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-diario-de-la-araucania",
+      "name": "El Diario de La Araucanía",
+      "url": "https://www.eldiariodelaaraucania.cl",
+      "category": "regional",
+      "description": "Diario regional de Angol, La Araucanía",
+      "feeds": [
+        {
+          "id": "el-diario-de-la-araucania-main",
+          "name": "El Diario de La Araucanía",
+          "rss_url": "https://www.eldiariodelaaraucania.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:24.618Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "noticias-del-lago",
+      "name": "Noticias del Lago",
+      "url": "https://www.noticiasdellago.cl",
+      "category": "regional",
+      "description": "Diario regional de Villarrica, La Araucanía",
+      "feeds": [
+        {
+          "id": "noticias-del-lago-main",
+          "name": "Noticias del Lago",
+          "rss_url": "https://www.noticiasdellago.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:25.022Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "guardian-del-sur",
+      "name": "Guardián del Sur",
+      "url": "https://www.guardiandelsur.cl",
+      "category": "regional",
+      "description": "Diario regional de Puerto Montt, Los Lagos",
+      "feeds": [
+        {
+          "id": "guardian-del-sur-main",
+          "name": "Guardián del Sur",
+          "rss_url": "https://www.guardiandelsur.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:26.387Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-digital-los-lagos",
+      "name": "Diario Digital Los Lagos",
+      "url": "https://diarioloslagos.cl",
+      "category": "regional",
+      "description": "Diario regional de Puerto Montt, Los Lagos",
+      "feeds": [
+        {
+          "id": "diario-digital-los-lagos-main",
+          "name": "Diario Digital Los Lagos",
+          "rss_url": "https://diarioloslagos.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:26.521Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "central-noticia",
+      "name": "Central Noticia",
+      "url": "https://www.centralnoticia.cl",
+      "category": "regional",
+      "description": "Diario regional de Osorno, Los Lagos",
+      "feeds": [
+        {
+          "id": "central-noticia-main",
+          "name": "Central Noticia",
+          "rss_url": "https://www.centralnoticia.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:26.842Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pais-lobo",
+      "name": "País Lobo",
+      "url": "https://www.paislobo.cl",
+      "category": "regional",
+      "description": "Diario regional de Osorno, Los Lagos",
+      "feeds": [
+        {
+          "id": "pais-lobo-main",
+          "name": "País Lobo",
+          "rss_url": "https://www.paislobo.cl/rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:27.451Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-insular",
+      "name": "El Insular",
+      "url": "https://www.elinsular.cl",
+      "category": "regional",
+      "description": "Diario regional de Castro, Los Lagos",
+      "feeds": [
+        {
+          "id": "el-insular-main",
+          "name": "El Insular",
+          "rss_url": "https://www.elinsular.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:28.889Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "noticias-chiloe",
+      "name": "Noticias Chiloé",
+      "url": "https://www.noticiaschiloe.cl",
+      "category": "regional",
+      "description": "Diario regional de Castro, Los Lagos",
+      "feeds": [
+        {
+          "id": "noticias-chiloe-main",
+          "name": "Noticias Chiloé",
+          "rss_url": "https://www.noticiaschiloe.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:31.182Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-puerto-varas",
+      "name": "Diario Puerto Varas",
+      "url": "https://www.diariopuertovaras.cl",
+      "category": "regional",
+      "description": "Diario regional de Puerto Varas, Los Lagos",
+      "feeds": [
+        {
+          "id": "diario-puerto-varas-main",
+          "name": "Diario Puerto Varas",
+          "rss_url": "https://www.diariopuertovaras.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:31.740Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-calbucano",
+      "name": "El Calbucano",
+      "url": "https://www.elcalbucano.cl",
+      "category": "regional",
+      "description": "Diario regional de Calbuco, Los Lagos",
+      "feeds": [
+        {
+          "id": "el-calbucano-main",
+          "name": "El Calbucano",
+          "rss_url": "https://www.elcalbucano.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:31.826Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-huemul",
+      "name": "El Huemul",
+      "url": "https://www.elhuemul.cl",
+      "category": "regional",
+      "description": "Diario regional de Chaitén, Los Lagos",
+      "feeds": [
+        {
+          "id": "el-huemul-main",
+          "name": "El Huemul",
+          "rss_url": "https://www.elhuemul.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:32.954Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-opinion-de-chiloe",
+      "name": "La Opinión de Chiloé",
+      "url": "https://www.laopiniondechiloe.cl",
+      "category": "regional",
+      "description": "Diario regional de Ancud, Los Lagos",
+      "feeds": [
+        {
+          "id": "la-opinion-de-chiloe-main",
+          "name": "La Opinión de Chiloé",
+          "rss_url": "https://www.laopiniondechiloe.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:33.790Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "rio-en-linea",
+      "name": "Río en Línea",
+      "url": "https://www.rioenlinea.cl",
+      "category": "regional",
+      "description": "Diario regional de Valdivia, Los Ríos",
+      "feeds": [
+        {
+          "id": "rio-en-linea-main",
+          "name": "Río en Línea",
+          "rss_url": "https://www.rioenlinea.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:34.284Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "periodico-los-rios",
+      "name": "Periódico Los Ríos",
+      "url": "https://www.periodicolosrios.cl",
+      "category": "regional",
+      "description": "Diario regional de Valdivia, Los Ríos",
+      "feeds": [
+        {
+          "id": "periodico-los-rios-main",
+          "name": "Periódico Los Ríos",
+          "rss_url": "https://www.periodicolosrios.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:38.085Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "los-rios-noticias",
+      "name": "Los Ríos Noticias",
+      "url": "https://www.losriosnoticias.cl",
+      "category": "regional",
+      "description": "Diario regional de Valdivia, Los Ríos",
+      "feeds": [
+        {
+          "id": "los-rios-noticias-main",
+          "name": "Los Ríos Noticias",
+          "rss_url": "https://www.losriosnoticias.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:39.789Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "informa-al-minuto",
+      "name": "Informa Al Minuto",
+      "url": "https://informaalminuto.cl",
+      "category": "regional",
+      "description": "Diario regional de Valdivia, Los Ríos",
+      "feeds": [
+        {
+          "id": "informa-al-minuto-main",
+          "name": "Informa Al Minuto",
+          "rss_url": "https://informaalminuto.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:40.486Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "noticias-los-rios",
+      "name": "Noticias Los Ríos",
+      "url": "https://www.noticiaslosrios.cl",
+      "category": "regional",
+      "description": "Diario regional de La Unión, Los Ríos",
+      "feeds": [
+        {
+          "id": "noticias-los-rios-main",
+          "name": "Noticias Los Ríos",
+          "rss_url": "https://www.noticiaslosrios.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:42.195Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-ranco",
+      "name": "El Ranco",
+      "url": "https://www.diarioelranco.cl",
+      "category": "regional",
+      "description": "Diario regional de La Unión, Los Ríos",
+      "feeds": [
+        {
+          "id": "el-ranco-main",
+          "name": "El Ranco",
+          "rss_url": "https://www.diarioelranco.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:44.783Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "central-noticias",
+      "name": "Central Noticias",
+      "url": "https://centralnoticias.cl",
+      "category": "regional",
+      "description": "Diario regional de Panguipulli, Los Ríos",
+      "feeds": [
+        {
+          "id": "central-noticias-main",
+          "name": "Central Noticias",
+          "rss_url": "https://centralnoticias.cl/?feed=rss2",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:45.546Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-magalanico",
+      "name": "El Magalánico",
+      "url": "https://www.elmagallanico.com",
+      "category": "regional",
+      "description": "Diario regional de Punta Arenas, Magallanes",
+      "feeds": [
+        {
+          "id": "el-magalanico-main",
+          "name": "El Magalánico",
+          "rss_url": "https://www.elmagallanico.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:46.870Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ovejero-noticias",
+      "name": "Ovejero Noticias",
+      "url": "https://www.ovejeronoticias.cl",
+      "category": "regional",
+      "description": "Diario regional de Punta Arenas, Magallanes",
+      "feeds": [
+        {
+          "id": "ovejero-noticias-main",
+          "name": "Ovejero Noticias",
+          "rss_url": "https://www.ovejeronoticias.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:47.556Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "dialogo-sur",
+      "name": "Diálogo Sur",
+      "url": "https://dialogosur.cl",
+      "category": "regional",
+      "description": "Diario regional de Punta Arenas, Magallanes",
+      "feeds": [
+        {
+          "id": "dialogo-sur-main",
+          "name": "Diálogo Sur",
+          "rss_url": "https://dialogosur.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:48.386Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-tirapiedras",
+      "name": "El Tirapiedras",
+      "url": "https://www.eltirapiedras.cl",
+      "category": "regional",
+      "description": "Diario regional de Puerto Natales, Magallanes",
+      "feeds": [
+        {
+          "id": "el-tirapiedras-main",
+          "name": "El Tirapiedras",
+          "rss_url": "https://www.eltirapiedras.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:49.702Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-centro",
+      "name": "El Centro",
+      "url": "https://www.diarioelcentro.cl",
+      "category": "regional",
+      "description": "Diario regional de Talca, Maule",
+      "feeds": [
+        {
+          "id": "el-centro-main",
+          "name": "El Centro",
+          "rss_url": "https://www.diarioelcentro.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:50.711Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "atentos",
+      "name": "Atentos",
+      "url": "https://www.atentos.cl",
+      "category": "regional",
+      "description": "Diario regional de Talca, Maule",
+      "feeds": [
+        {
+          "id": "atentos-main",
+          "name": "Atentos",
+          "rss_url": "https://www.atentos.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:51.943Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-maule-informa",
+      "name": "El Maule Informa",
+      "url": "https://elmauleinforma.cl",
+      "category": "regional",
+      "description": "Diario regional de Talca, Maule",
+      "feeds": [
+        {
+          "id": "el-maule-informa-main",
+          "name": "El Maule Informa",
+          "rss_url": "https://elmauleinforma.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:52.441Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-talca",
+      "name": "Diario Talca",
+      "url": "https://diariotalca.cl",
+      "category": "regional",
+      "description": "Diario regional de Talca, Maule",
+      "feeds": [
+        {
+          "id": "diario-talca-main",
+          "name": "Diario Talca",
+          "rss_url": "https://diariotalca.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:53.235Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "maule-hoy",
+      "name": "Maule Hoy",
+      "url": "https://maulehoy.cl",
+      "category": "regional",
+      "description": "Diario regional de Talca, Maule",
+      "feeds": [
+        {
+          "id": "maule-hoy-main",
+          "name": "Maule Hoy",
+          "rss_url": "https://maulehoy.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:55.115Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "en-linea-maule",
+      "name": "En Línea Maule",
+      "url": "https://enlineamaule.cl",
+      "category": "regional",
+      "description": "Diario regional de Talca, Maule",
+      "feeds": [
+        {
+          "id": "en-linea-maule-main",
+          "name": "En Línea Maule",
+          "rss_url": "https://enlineamaule.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:57.370Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-heraldo",
+      "name": "El Heraldo",
+      "url": "https://www.diarioelheraldo.cl",
+      "category": "regional",
+      "description": "Diario regional de Linares, Maule",
+      "feeds": [
+        {
+          "id": "el-heraldo-main",
+          "name": "El Heraldo",
+          "rss_url": "https://www.diarioelheraldo.cl/feed",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:58.715Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "linares-en-linea",
+      "name": "Linares en Línea",
+      "url": "https://www.linaresenlinea.cl",
+      "category": "regional",
+      "description": "Diario regional de Linares, Maule",
+      "feeds": [
+        {
+          "id": "linares-en-linea-main",
+          "name": "Linares en Línea",
+          "rss_url": "https://www.linaresenlinea.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:19:59.165Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "linares-noticia",
+      "name": "Linares Noticia",
+      "url": "https://www.linaresnoticia.cl",
+      "category": "regional",
+      "description": "Diario regional de Linares, Maule",
+      "feeds": [
+        {
+          "id": "linares-noticia-main",
+          "name": "Linares Noticia",
+          "rss_url": "https://www.linaresnoticia.cl/rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:00.488Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-linares",
+      "name": "Diario Linares",
+      "url": "https://diariolinares.cl",
+      "category": "regional",
+      "description": "Diario regional de Linares, Maule",
+      "feeds": [
+        {
+          "id": "diario-linares-main",
+          "name": "Diario Linares",
+          "rss_url": "https://diariolinares.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:01.313Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-curico",
+      "name": "Diario Curicó",
+      "url": "https://www.diariocurico.cl",
+      "category": "regional",
+      "description": "Diario regional de Curicó, Maule",
+      "feeds": [
+        {
+          "id": "diario-curico-main",
+          "name": "Diario Curicó",
+          "rss_url": "https://www.diariocurico.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:02.715Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prensa-curico",
+      "name": "Prensa Curicó",
+      "url": "https://www.prensacurico.cl",
+      "category": "regional",
+      "description": "Diario regional de Curicó, Maule",
+      "feeds": [
+        {
+          "id": "prensa-curico-main",
+          "name": "Prensa Curicó",
+          "rss_url": "https://www.prensacurico.cl/?feed=rss2",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:05.375Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-cauquenes",
+      "name": "Diario Cauquenes",
+      "url": "https://www.diariocauquenes.cl",
+      "category": "regional",
+      "description": "Diario regional de Cauquenes, Maule",
+      "feeds": [
+        {
+          "id": "diario-cauquenes-main",
+          "name": "Diario Cauquenes",
+          "rss_url": "https://www.diariocauquenes.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:06.841Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cauquenesnet",
+      "name": "CauquenesNet",
+      "url": "https://www.cauquenesnet.cl",
+      "category": "regional",
+      "description": "Diario regional de Cauquenes, Maule",
+      "feeds": [
+        {
+          "id": "cauquenesnet-main",
+          "name": "CauquenesNet",
+          "rss_url": "https://www.cauquenesnet.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:07.963Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "chillan-online",
+      "name": "Chillán Online",
+      "url": "https://www.chillanonline.cl",
+      "category": "regional",
+      "description": "Diario regional de Chillán, Ñuble",
+      "feeds": [
+        {
+          "id": "chillan-online-main",
+          "name": "Chillán Online",
+          "rss_url": "https://www.chillanonline.cl/?feed=rss2",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:08.546Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cronica-chillan",
+      "name": "Crónica Chillán",
+      "url": "https://www.cronicachillan.cl",
+      "category": "regional",
+      "description": "Diario regional de Chillán, Ñuble",
+      "feeds": [
+        {
+          "id": "cronica-chillan-main",
+          "name": "Crónica Chillán",
+          "rss_url": "https://www.cronicachillan.cl/?feed=rss2",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:09.772Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "nuble-digital",
+      "name": "Ñuble Digital",
+      "url": "https://www.nubledigital.cl",
+      "category": "regional",
+      "description": "Diario regional de Chillán, Ñuble",
+      "feeds": [
+        {
+          "id": "nuble-digital-main",
+          "name": "Ñuble Digital",
+          "rss_url": "https://www.nubledigital.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:12.123Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-sancarlino",
+      "name": "El Sancarlino",
+      "url": "https://www.elsancarlino.cl",
+      "category": "regional",
+      "description": "Diario regional de San Carlos, Ñuble",
+      "feeds": [
+        {
+          "id": "el-sancarlino-main",
+          "name": "El Sancarlino",
+          "rss_url": "https://www.elsancarlino.cl/rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:12.695Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "san-carlos-on-line",
+      "name": "San Carlos On Line",
+      "url": "https://www.sancarlosonline.cl",
+      "category": "regional",
+      "description": "Diario regional de San Carlos, Ñuble",
+      "feeds": [
+        {
+          "id": "san-carlos-on-line-main",
+          "name": "San Carlos On Line",
+          "rss_url": "https://www.sancarlosonline.cl/rss.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:13.341Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "san-carlos-al-dia",
+      "name": "San Carlos Al Día",
+      "url": "https://www.sancarlosaldia.cl",
+      "category": "regional",
+      "description": "Diario regional de San Carlos, Ñuble",
+      "feeds": [
+        {
+          "id": "san-carlos-al-dia-main",
+          "name": "San Carlos Al Día",
+          "rss_url": "https://www.sancarlosaldia.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:16.202Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-fontana",
+      "name": "La Fontana",
+      "url": "https://www.lafontana.cl",
+      "category": "regional",
+      "description": "Diario regional de San Carlos, Ñuble",
+      "feeds": [
+        {
+          "id": "la-fontana-main",
+          "name": "La Fontana",
+          "rss_url": "https://www.lafontana.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:18.372Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-pulso",
+      "name": "El Pulso",
+      "url": "https://www.diarioelpulso.cl",
+      "category": "regional",
+      "description": "Diario regional de Rancagua, O'Higgins",
+      "feeds": [
+        {
+          "id": "el-pulso-main",
+          "name": "El Pulso",
+          "rss_url": "https://www.diarioelpulso.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:19.444Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-noticia",
+      "name": "La Noticia",
+      "url": "https://lanoticia.cl",
+      "category": "regional",
+      "description": "Diario regional de Rancagua, O'Higgins",
+      "feeds": [
+        {
+          "id": "la-noticia-main",
+          "name": "La Noticia",
+          "rss_url": "https://lanoticia.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:21.129Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hora-de-noticias",
+      "name": "Hora de Noticias",
+      "url": "https://horadenoticias.cl",
+      "category": "regional",
+      "description": "Diario regional de Rancagua, O'Higgins",
+      "feeds": [
+        {
+          "id": "hora-de-noticias-main",
+          "name": "Hora de Noticias",
+          "rss_url": "https://horadenoticias.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:24.669Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-condor",
+      "name": "El Cóndor",
+      "url": "https://diariocondor.cl",
+      "category": "regional",
+      "description": "Diario regional de Santa Cruz, O'Higgins",
+      "feeds": [
+        {
+          "id": "el-condor-main",
+          "name": "El Cóndor",
+          "rss_url": "https://diariocondor.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:24.721Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hdn",
+      "name": "HDN",
+      "url": "https://www.hdn.cl",
+      "category": "regional",
+      "description": "Diario regional de Santa Cruz, O'Higgins",
+      "feeds": [
+        {
+          "id": "hdn-main",
+          "name": "HDN",
+          "rss_url": "https://www.hdn.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:26.407Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-tribuna-de-colchagua",
+      "name": "La Tribuna de Colchagua",
+      "url": "https://www.latribunadecolchagua.cl",
+      "category": "regional",
+      "description": "Diario regional de San Fernando, O'Higgins",
+      "feeds": [
+        {
+          "id": "la-tribuna-de-colchagua-main",
+          "name": "La Tribuna de Colchagua",
+          "rss_url": "https://www.latribunadecolchagua.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:26.926Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-longino",
+      "name": "El Longino",
+      "url": "https://www.diariolongino.cl",
+      "category": "regional",
+      "description": "Diario regional de Iquique, Tarapacá",
+      "feeds": [
+        {
+          "id": "el-longino-main",
+          "name": "El Longino",
+          "rss_url": "https://www.diariolongino.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:27.965Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-sol-de-iquique",
+      "name": "El Sol de Iquique",
+      "url": "https://www.elsoldeiquique.cl",
+      "category": "regional",
+      "description": "Diario regional de Iquique, Tarapacá",
+      "feeds": [
+        {
+          "id": "el-sol-de-iquique-main",
+          "name": "El Sol de Iquique",
+          "rss_url": "https://www.elsoldeiquique.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:29.306Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-reportero",
+      "name": "El Reportero",
+      "url": "https://www.elreporterodeiquique.com",
+      "category": "regional",
+      "description": "Diario regional de Iquique, Tarapacá",
+      "feeds": [
+        {
+          "id": "el-reportero-main",
+          "name": "El Reportero",
+          "rss_url": "https://www.elreporterodeiquique.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:29.417Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tarapaca-online",
+      "name": "Tarapacá Online",
+      "url": "https://www.tarapacaonline.cl",
+      "category": "regional",
+      "description": "Diario regional de Iquique, Tarapacá",
+      "feeds": [
+        {
+          "id": "tarapaca-online-main",
+          "name": "Tarapacá Online",
+          "rss_url": "https://www.tarapacaonline.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:30.118Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cei-noticias",
+      "name": "CEI Noticias",
+      "url": "https://ceinoticias.cl",
+      "category": "regional",
+      "description": "Diario regional de Iquique, Tarapacá",
+      "feeds": [
+        {
+          "id": "cei-noticias-main",
+          "name": "CEI Noticias",
+          "rss_url": "https://ceinoticias.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:30.564Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-nortino",
+      "name": "El Nortino",
+      "url": "https://diarioelnortino.cl",
+      "category": "regional",
+      "description": "Diario regional de Alto Hospicio, Tarapacá",
+      "feeds": [
+        {
+          "id": "el-nortino-main",
+          "name": "El Nortino",
+          "rss_url": "https://diarioelnortino.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:31.693Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "epicentro-chile",
+      "name": "Epicentro Chile",
+      "url": "https://www.epicentrochile.com",
+      "category": "regional",
+      "description": "Diario regional de Valparaíso, Valparaíso",
+      "feeds": [
+        {
+          "id": "epicentro-chile-main",
+          "name": "Epicentro Chile",
+          "rss_url": "https://www.epicentrochile.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:32.559Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-quinta",
+      "name": "La Quinta",
+      "url": "https://www.diariolaquinta.cl",
+      "category": "regional",
+      "description": "Diario regional de Valparaíso, Valparaíso",
+      "feeds": [
+        {
+          "id": "la-quinta-main",
+          "name": "La Quinta",
+          "rss_url": "https://www.diariolaquinta.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:33.166Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-region-hoy",
+      "name": "La Región Hoy",
+      "url": "https://www.laregionhoy.cl",
+      "category": "regional",
+      "description": "Diario regional de Valparaíso, Valparaíso",
+      "feeds": [
+        {
+          "id": "la-region-hoy-main",
+          "name": "La Región Hoy",
+          "rss_url": "https://www.laregionhoy.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:34.611Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-observador",
+      "name": "El Observador",
+      "url": "https://www.observador.cl",
+      "category": "regional",
+      "description": "Diario regional de Quillota, Valparaíso",
+      "feeds": [
+        {
+          "id": "el-observador-main",
+          "name": "El Observador",
+          "rss_url": "https://www.observador.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:36.467Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "mas-noticia",
+      "name": "Más Noticia",
+      "url": "https://www.masnoticia.cl",
+      "category": "regional",
+      "description": "Diario regional de Quillota, Valparaíso",
+      "feeds": [
+        {
+          "id": "mas-noticia-main",
+          "name": "Más Noticia",
+          "rss_url": "https://www.masnoticia.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:37.042Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-trabajo",
+      "name": "El Trabajo",
+      "url": "https://www.eltrabajo.cl",
+      "category": "regional",
+      "description": "Diario regional de San Felipe, Valparaíso",
+      "feeds": [
+        {
+          "id": "el-trabajo-main",
+          "name": "El Trabajo",
+          "rss_url": "https://www.eltrabajo.cl/?feed=rss2",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:37.472Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-aconcagua",
+      "name": "El Aconcagua",
+      "url": "https://www.elaconcagua.cl",
+      "category": "regional",
+      "description": "Diario regional de San Felipe, Valparaíso",
+      "feeds": [
+        {
+          "id": "el-aconcagua-main",
+          "name": "El Aconcagua",
+          "rss_url": "https://www.elaconcagua.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:38.971Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "aconcagua-digital",
+      "name": "Aconcagua Digital",
+      "url": "https://aconcaguadigital.cl",
+      "category": "regional",
+      "description": "Diario regional de San Felipe, Valparaíso",
+      "feeds": [
+        {
+          "id": "aconcagua-digital-main",
+          "name": "Aconcagua Digital",
+          "rss_url": "https://aconcaguadigital.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:39.708Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-lider",
+      "name": "El Líder",
+      "url": "https://www.lidersanantonio.cl",
+      "category": "regional",
+      "description": "Diario regional de San Antonio, Valparaíso",
+      "feeds": [
+        {
+          "id": "el-lider-main",
+          "name": "El Líder",
+          "rss_url": "https://www.lidersanantonio.cl/?feed=rss2",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:40.952Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-proa",
+      "name": "El Proa",
+      "url": "https://www.elproa.cl",
+      "category": "regional",
+      "description": "Diario regional de San Antonio, Valparaíso",
+      "feeds": [
+        {
+          "id": "el-proa-main",
+          "name": "El Proa",
+          "rss_url": "https://www.elproa.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:41.132Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "el-informador",
+      "name": "El Informador",
+      "url": "https://www.elinformador.cl",
+      "category": "regional",
+      "description": "Diario regional de Los Andes, Valparaíso",
+      "feeds": [
+        {
+          "id": "el-informador-main",
+          "name": "El Informador",
+          "rss_url": "https://www.elinformador.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:42.432Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-hora",
+      "name": "La Hora",
+      "url": "https://www.lahora.cl",
+      "category": "regional",
+      "description": "Medio digital chileno de noticias y actualidad nacional e internacional.",
+      "feeds": [
+        {
+          "id": "la-hora-main",
+          "name": "La Hora",
+          "rss_url": "https://www.lahora.cl/rss/global.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:42.909Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "datos-sur",
+      "name": "Datos Sur",
+      "url": "https://www.datossur.cl",
+      "category": "regional",
+      "description": "Diario regional de Llanquihue, Puerto Montt",
+      "feeds": [
+        {
+          "id": "datos-sur-main",
+          "name": "Datos Sur",
+          "rss_url": "https://www.datossur.cl/index.php?format=feed",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:43.650Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-vi-region",
+      "name": "Diario VI Región",
+      "url": "https://www.diarioviregion.cl",
+      "category": "regional",
+      "description": "Diario regional de Libertador General Bernardo O'Higgins",
+      "feeds": [
+        {
+          "id": "diario-vi-region-main",
+          "name": "Diario VI Región",
+          "rss_url": "https://www.diarioviregion.cl/?format=feed",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T23:20:45.152Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "los-rios-al-dia",
+      "name": "Los Ríos Al Día",
+      "url": "https://www.losriosaldia.cl",
+      "category": "regional",
+      "feeds": [
+        {
+          "id": "los-rios-al-dia-main",
+          "name": "Los Ríos Al Día",
+          "rss_url": "https://www.losriosaldia.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T00:57:50.928Z",
           "status": "active",
           "verified": true
         }
@@ -916,6 +3075,20 @@
     }
   ],
   "watchlist": [
+    {
+      "id": "startup-chile",
+      "name": "StartupChile",
+      "url": "https://www.startupchile.org",
+      "category": "technology",
+      "reason": "Feed RSS existe (WordPress) pero devuelve 0 ítems en todas las rutas probadas"
+    },
+    {
+      "id": "uantof",
+      "name": "Universidad de Antofagasta",
+      "url": "https://www.uantof.cl",
+      "category": "universities",
+      "reason": "Feed RSS existe (WordPress) pero devuelve 0 ítems en todas las rutas probadas"
+    },
     {
       "id": "adnradio",
       "name": "ADN Radio",
@@ -980,13 +3153,6 @@
       "reason": "Sin feed RSS detectado"
     },
     {
-      "id": "interferencia",
-      "name": "Interferencia",
-      "url": "https://interferencia.cl",
-      "category": "news",
-      "reason": "Sin feed RSS detectado"
-    },
-    {
       "id": "soychile",
       "name": "SoyChile",
       "url": "https://www.soychile.cl",
@@ -1011,13 +3177,6 @@
       "id": "austral-temuco",
       "name": "Diario Austral Temuco",
       "url": "https://www.australtemuco.cl",
-      "category": "regional",
-      "reason": "Sin feed RSS detectado"
-    },
-    {
-      "id": "diario-concepcion",
-      "name": "Diario Concepción",
-      "url": "https://www.diarioconcepcion.cl",
       "category": "regional",
       "reason": "Sin feed RSS detectado"
     },
@@ -1088,13 +3247,6 @@
       "id": "uchile",
       "name": "Universidad de Chile",
       "url": "https://www.uchile.cl",
-      "category": "universities",
-      "reason": "Sin feed RSS detectado"
-    },
-    {
-      "id": "usach",
-      "name": "USACH",
-      "url": "https://www.usach.cl",
       "category": "universities",
       "reason": "Sin feed RSS detectado"
     },
@@ -1173,6 +3325,475 @@
       "name": "SENAPRED",
       "url": "https://www.senapred.cl",
       "category": "government",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "las-ultimas-noticias",
+      "name": "Las Últimas Noticias",
+      "url": "https://www.lun.com",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-mostrador",
+      "name": "El Mostrador",
+      "url": "https://www.elmostrador.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "la-segunda",
+      "name": "La Segunda",
+      "url": "https://www.lasegunda.com",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "en-cancha",
+      "name": "En Cancha",
+      "url": "https://www.encancha.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soyantofagasta",
+      "name": "SoyAntofagasta",
+      "url": "https://www.soyantofagasta.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-nortero",
+      "name": "El Nortero",
+      "url": "https://www.elnortero.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soycalama",
+      "name": "SoyCalama",
+      "url": "https://www.soycalama.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soyarica",
+      "name": "SoyArica",
+      "url": "https://www.soyarica.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-morrocotudo",
+      "name": "El Morrocotudo",
+      "url": "https://www.elmorrocotudo.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "chasquis",
+      "name": "Chasquis",
+      "url": "https://www.chasquis.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-quehaydecierto",
+      "name": "El Quehaydecierto",
+      "url": "https://www.elquehaydecierto.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soycopiapo",
+      "name": "SoyCopiapó",
+      "url": "https://www.soycopiapo.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-regional-aysen",
+      "name": "Diario Regional Aysén",
+      "url": "https://www.diarioregionalaysen.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "epd-noticias",
+      "name": "EPD Noticias",
+      "url": "https://www.elpatagondomingo.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soyconcepcion",
+      "name": "SoyConcepción",
+      "url": "https://www.soyconcepcion.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "pagina-7",
+      "name": "Página 7",
+      "url": "https://www.pagina7.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "sabes",
+      "name": "Sabes",
+      "url": "https://www.sabes.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "resumen",
+      "name": "Resumen",
+      "url": "https://www.resumen.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-concecuente",
+      "name": "El Concecuente",
+      "url": "https://www.elconcecuente.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-observatodo",
+      "name": "El Observatodo",
+      "url": "https://www.elobservatodo.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soytemuco",
+      "name": "SoyTemuco",
+      "url": "https://www.soytemuco.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "araucania-diario",
+      "name": "Araucanía Diario",
+      "url": "https://www.araucaniadiario.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "la-opinon",
+      "name": "La Opiñón",
+      "url": "https://www.laopinon.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "primera-nota",
+      "name": "Primera Nota",
+      "url": "https://www.primeranota.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soypuerto-montt",
+      "name": "SoyPuerto Montt",
+      "url": "https://www.soypuertomontt.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-repuertero",
+      "name": "El Repuertero",
+      "url": "https://www.elrepuertero.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-de-puerto-montt",
+      "name": "Diario de Puerto Montt",
+      "url": "https://www.diariodepuertomontt.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-chiloe",
+      "name": "Diario Chiloé",
+      "url": "https://www.diariochiloe.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soyosorno",
+      "name": "SoyOsorno",
+      "url": "https://www.soyosorno.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-vacanudo",
+      "name": "El Vacanudo",
+      "url": "https://www.elvacanudo.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-de-osorno",
+      "name": "Diario de Osorno",
+      "url": "https://www.diariodeosorno.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soychiloe",
+      "name": "SoyChiloé",
+      "url": "https://www.soychiloe.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-heraldo-austral",
+      "name": "El Heraldo Austral",
+      "url": "https://www.eha.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-de-valdivia",
+      "name": "Diario de Valdivia",
+      "url": "https://www.diariodevaldivia.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-laguino",
+      "name": "Diario Laguino",
+      "url": "https://www.diariolaguino.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "la-union",
+      "name": "La Unión",
+      "url": "https://www.diariolaunion.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "la-voz-de-paillaco",
+      "name": "La Voz de Paillaco",
+      "url": "https://www.lavozdepaillaco.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-paillaco",
+      "name": "Diario Paillaco",
+      "url": "https://www.diariopaillaco.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-paila",
+      "name": "El Paila",
+      "url": "https://www.lapaila.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-rio-bueno",
+      "name": "Diario Río Bueno",
+      "url": "https://www.diarioriobueno.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-futrono",
+      "name": "Diario Futrono",
+      "url": "https://www.diariofutrono.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-lago-ranco",
+      "name": "Diario Lago Ranco",
+      "url": "https://www.diariolagoranco.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-lanco",
+      "name": "Diario Lanco",
+      "url": "https://www.diariolanco.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-mafil",
+      "name": "Diario Máfil",
+      "url": "https://www.diariomafil.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-diario-panguipulli",
+      "name": "El Diario Panguipulli",
+      "url": "https://www.eldiariopanguipulli.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "diario-san-jose",
+      "name": "Diario San José",
+      "url": "https://www.diariosanjose.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-magallanews",
+      "name": "El Magallanews",
+      "url": "https://www.elmagallanews.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "opinion-sur",
+      "name": "Opinión Sur",
+      "url": "https://www.opinionsur.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-amaule",
+      "name": "El Amaule",
+      "url": "https://www.elamaule.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "red-maule",
+      "name": "Red Maule",
+      "url": "https://www.redmaule.com",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-lector",
+      "name": "El Lector",
+      "url": "https://lectoronline.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "septima-pagina",
+      "name": "Séptima Página",
+      "url": "https://www.septimapaginanoticias.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "cronica-noticias",
+      "name": "Crónica Noticias",
+      "url": "https://www.cronicanoticias.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "orbita-noticias",
+      "name": "Orbita Noticias",
+      "url": "https://orbitanoticias.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-tipografo",
+      "name": "El Tipógrafo",
+      "url": "https://eltipografo.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-rancahuaso",
+      "name": "El Rancahuaso",
+      "url": "https://www.elrancahuaso.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-cachapoal",
+      "name": "El Cachapoal",
+      "url": "https://www.elcachapoal.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-marino",
+      "name": "El Marino",
+      "url": "https://www.diarioelmarino.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soyiquique",
+      "name": "SoyIquique",
+      "url": "https://www.soyiquique.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-boyaldia",
+      "name": "El Boyaldía",
+      "url": "https://www.elboyaldia.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "iquique-online",
+      "name": "Iquique Online",
+      "url": "https://iquiqueonline.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soyvalparaiso",
+      "name": "SoyValparaíso",
+      "url": "https://www.soyvalparaiso.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-matutino",
+      "name": "El Matutino",
+      "url": "https://www.elmartutino.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "soyquillota",
+      "name": "SoyQuillota",
+      "url": "https://www.soyquillota.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "el-andino",
+      "name": "El Andino",
+      "url": "https://www.elandino.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "los-andes-on-line",
+      "name": "Los Andes On Line",
+      "url": "https://www.losandesonline.cl",
+      "category": "regional",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "usach",
+      "name": "USACH",
+      "url": "https://www.usach.cl",
+      "category": "universities",
       "reason": "Sin feed RSS detectado"
     }
   ]
