@@ -240,7 +240,7 @@
 - **El Diario de La Araucanía**: Diario regional de Angol, La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/feed/`
 - **El Heraldo**: Diario regional de Linares, Maule
-  - RSS: `https://www.diarioelheraldo.cl/feed`
+  - RSS: `https://www.diarioelheraldo.cl/rss`
 - **El Huemul**: Diario regional de Chaitén, Los Lagos
   - RSS: `https://www.elhuemul.cl/feed/`
 - **El Informador**: Diario regional de Los Andes, Valparaíso

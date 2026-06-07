@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T01:45:00.000Z",
+  "last_updated": "2026-06-07T02:06:43.348Z",
   "total_feeds": 188,
   "categories": {
     "news": "📰 Noticias Nacionales",
@@ -2391,9 +2391,9 @@
         {
           "id": "el-heraldo-main",
           "name": "El Heraldo",
-          "rss_url": "https://www.diarioelheraldo.cl/feed",
+          "rss_url": "https://www.diarioelheraldo.cl/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-07T01:21:37.725Z",
+          "last_checked": "2026-06-07T02:06:43.347Z",
           "status": "active",
           "verified": true
         }

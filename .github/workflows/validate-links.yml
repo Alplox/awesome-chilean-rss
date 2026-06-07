@@ -7,7 +7,6 @@ on:
       - 'README.md'
       - 'chilean-rss.opml'
       - 'feeds-database.json'
-      - 'generate.js'
       - 'scripts/**'
       - '.github/workflows/validate-links.yml'
   pull_request:
@@ -16,7 +15,6 @@ on:
       - 'README.md'
       - 'chilean-rss.opml'
       - 'feeds-database.json'
-      - 'generate.js'
       - 'scripts/**'
 
 jobs:
@@ -69,7 +67,7 @@ jobs:
 
       - name: Regenerate and diff
         run: |
-          node generate.js
+          npm run generate
           if ! git diff --exit-code chilean-rss.opml README.md; then
             echo ""
             echo "❌ chilean-rss.opml o README.md están desincronizados con feeds-database.json."
