@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 200 feeds</title>
-    <description>El directorio más completo de feeds RSS chilenos. 200 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
+    <title>Awesome Chilean RSS - 204 feeds</title>
+    <description>El directorio más completo de feeds RSS chilenos. 204 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
     <dateCreated>2026-06-07T02:28:45.414Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
@@ -41,6 +41,11 @@
     </outline>
     <outline text="💻 Tecnología y Startups" title="💻 Tecnología y Startups">
       <outline type="rss" text="FayerWayer" title="FayerWayer" xmlUrl="https://www.fayerwayer.com/feed/" htmlUrl="https://www.fayerwayer.com"/>
+      <outline type="rss" text="MADBOXPC" title="MADBOXPC" xmlUrl="https://www.madboxpc.com/feed/" htmlUrl="https://www.madboxpc.com"/>
+      <outline type="rss" text="Pisapapeles" title="Pisapapeles" xmlUrl="https://pisapapeles.net/feed/" htmlUrl="https://pisapapeles.net"/>
+      <outline type="rss" text="tichile" title="tichile" xmlUrl="https://www.tichile.cl/feed/" htmlUrl="https://www.tichile.cl"/>
+      <outline type="rss" text="TransMedia" title="TransMedia" xmlUrl="https://www.transmedia.cl/feed/" htmlUrl="https://www.transmedia.cl"/>
+      <outline type="rss" text="trendTIC" title="trendTIC" xmlUrl="https://www.trendtic.cl/feed/" htmlUrl="https://www.trendtic.cl"/>
     </outline>
     <outline text="🏛️ Gobierno y Datos Públicos" title="🏛️ Gobierno y Datos Públicos">
       <outline type="rss" text="Todos los contenidos" title="Todos los contenidos" xmlUrl="http://feeds.feedburner.com/rssbcn?format=xml" htmlUrl="https://www.bcn.cl"/>
@@ -216,7 +221,6 @@
       <outline type="rss" text="Colemono" title="Colemono" xmlUrl="https://colemono.com/feed/" htmlUrl="https://colemono.com"/>
       <outline type="rss" text="#chile" title="#chile" xmlUrl="https://mastodon.cl/tags/chile.rss" htmlUrl="https://mastodon.cl"/>
       <outline type="rss" text="#tecnología" title="#tecnología" xmlUrl="https://mastodon.cl/tags/tecnología.rss" htmlUrl="https://mastodon.cl"/>
-      <outline type="rss" text="Pisapapeles" title="Pisapapeles" xmlUrl="https://pisapapeles.net/feed/" htmlUrl="https://pisapapeles.net"/>
       <outline type="rss" text="r/Chile" title="r/Chile" xmlUrl="https://www.reddit.com/r/chile/.rss" htmlUrl="https://www.reddit.com/"/>
       <outline type="rss" text="r/RepublicaDeChile" title="r/RepublicaDeChile" xmlUrl="https://www.reddit.com/r/republicadechile/.rss" htmlUrl="https://www.reddit.com/"/>
       <outline type="rss" text="r/chileit" title="r/chileit" xmlUrl="https://www.reddit.com/r/chileit/.rss" htmlUrl="https://www.reddit.com/"/>

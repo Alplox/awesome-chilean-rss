@@ -2,28 +2,28 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Feeds](https://img.shields.io/badge/feeds-200-blue)
+![Feeds](https://img.shields.io/badge/feeds-204-blue)
 
-> El directorio más completo de feeds RSS chilenos. 200 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 204 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/chilean-rss.opml`
 
-## 📝 Feeds disponibles (200)
+## 📝 Feeds disponibles (204)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
 - [📰 Noticias Nacionales](#cat-news) — 30 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 1 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 6 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 19 feeds
 - [🏫 Universidades e Investigación](#cat-universities) — 7 feeds
 - [🌎 Medios Regionales](#cat-regional) — 127 feeds
 - [💼 Negocios y Finanzas](#cat-business) — 3 feeds
 - [🎨 Cultura y Divulgación](#cat-culture) — 2 feeds
-- [👥 Comunidad](#cat-community) — 11 feeds
+- [👥 Comunidad](#cat-community) — 10 feeds
 
 <a id="cat-news"></a>
 ### 📰 Noticias Nacionales (30 feeds)
@@ -82,10 +82,20 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (1 feed)
+### 💻 Tecnología y Startups (6 feeds)
 
 - **FayerWayer**: Blog de tecnología, cultura digital y gadgets
   - RSS: `https://www.fayerwayer.com/feed/`
+- **MadboxPC**: Portal chileno enfocado en software, videojuegos, hardware y cultura de internet
+  - RSS: `https://www.madboxpc.com/feed/`
+- **Pisapapeles**: Portal especializado en telefonía móvil, telecomunicaciones y electrónica de consumo.
+  - RSS: `https://pisapapeles.net/feed/`
+- **TiChile**: Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
+  - RSS: `https://www.tichile.cl/feed/`
+- **TransMedia**: Medio tecnológico chileno enfocado en análisis de mercado, gadgets, telefonía y opinión sobre la industria
+  - RSS: `https://www.transmedia.cl/feed/`
+- **trendTIC**: Portal chileno especializado en tendencias tecnológicas, IA, infraestructura de redes y ciberseguridad corporativa
+  - RSS: `https://www.trendtic.cl/feed/`
 
 [↑ Volver al índice](#indice)
 
@@ -428,7 +438,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-community"></a>
-### 👥 Comunidad (11 feeds)
+### 👥 Comunidad (10 feeds)
 
 - **Capa9** — Comunidad chilena de tecnología, hardware y reviews
   - Capa9 Global: `https://www.capa9.net/forums/-/index.rss`
@@ -438,8 +448,6 @@
 - **Mastodon Chile** — Instancia chilena de Mastodon (red social descentralizada)
   - #chile: `https://mastodon.cl/tags/chile.rss`
   - #tecnología: `https://mastodon.cl/tags/tecnología.rss`
-- **Pisapapeles**: Comunidad tech y telecomunicaciones en Chile
-  - RSS: `https://pisapapeles.net/feed/`
 - **Reddit** — Reddit feeds from various subreddits
   - r/Chile: `https://www.reddit.com/r/chile/.rss`
   - r/RepublicaDeChile: `https://www.reddit.com/r/republicadechile/.rss`

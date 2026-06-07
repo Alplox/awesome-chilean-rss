@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-07T02:28:45.414Z",
-  "total_feeds": 200,
+  "total_feeds": 204,
   "categories": {
     "news": "📰 Noticias Nacionales",
     "government": "🏛️ Gobierno y Datos Públicos",
@@ -171,6 +171,78 @@
           "rss_url": "https://www.fayerwayer.com/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-07T01:18:18.691Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "transmedia",
+      "name": "TransMedia",
+      "url": "https://www.transmedia.cl",
+      "category": "technology",
+      "description": "Medio tecnológico chileno enfocado en análisis de mercado, gadgets, telefonía y opinión sobre la industria",
+      "feeds": [
+        {
+          "id": "transmedia-main",
+          "name": "TransMedia",
+          "rss_url": "https://www.transmedia.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "trendtic",
+      "name": "trendTIC",
+      "url": "https://www.trendtic.cl",
+      "category": "technology",
+      "description": "Portal chileno especializado en tendencias tecnológicas, IA, infraestructura de redes y ciberseguridad corporativa",
+      "feeds": [
+        {
+          "id": "trendtic-main",
+          "name": "trendTIC",
+          "rss_url": "https://www.trendtic.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "madboxpc",
+      "name": "MadboxPC",
+      "url": "https://www.madboxpc.com",
+      "category": "technology",
+      "description": "Portal chileno enfocado en software, videojuegos, hardware y cultura de internet",
+      "feeds": [
+        {
+          "id": "madboxpc-main",
+          "name": "MADBOXPC",
+          "rss_url": "https://www.madboxpc.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tichile",
+      "name": "TiChile",
+      "url": "https://www.tichile.cl",
+      "category": "technology",
+      "description": "Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile",
+      "feeds": [
+        {
+          "id": "tichile-main",
+          "name": "tichile",
+          "rss_url": "https://www.tichile.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
           "status": "active",
           "verified": true
         }
@@ -3312,8 +3384,8 @@
       "id": "pisapapeles",
       "name": "Pisapapeles",
       "url": "https://pisapapeles.net",
-      "category": "community",
-      "description": "Comunidad tech y telecomunicaciones en Chile",
+      "category": "technology",
+      "description": "Portal especializado en telefonía móvil, telecomunicaciones y electrónica de consumo.",
       "feeds": [
         {
           "id": "pisapapeles-main",
