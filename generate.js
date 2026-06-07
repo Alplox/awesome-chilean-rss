@@ -53,7 +53,7 @@ const orderedCategories = [
 // ─── Generar OPML ─────────────────────────────────────────────────────────────
 
 function generateOPML() {
-  const now = new Date().toISOString();
+  const now = db.last_updated;
   const totalFeeds = allFeeds.length;
 
   const categoryBlocks = orderedCategories.map(cat => {
