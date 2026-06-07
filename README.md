@@ -2,22 +2,22 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Feeds](https://img.shields.io/badge/feeds-204-blue)
+![Feeds](https://img.shields.io/badge/feeds-216-blue)
 
-> El directorio más completo de feeds RSS chilenos. 204 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 216 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/chilean-rss.opml`
 
-## 📝 Feeds disponibles (204)
+## 📝 Feeds disponibles (216)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
 - [📰 Noticias Nacionales](#cat-news) — 30 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 6 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 18 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 19 feeds
 - [🏫 Universidades e Investigación](#cat-universities) — 7 feeds
 - [🌎 Medios Regionales](#cat-regional) — 127 feeds
@@ -82,20 +82,44 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (6 feeds)
+### 💻 Tecnología y Startups (18 feeds)
 
+- **ACTI**: Asociación Chilena de Empresas de Tecnologías de Información - Gremio de TI en Chile
+  - RSS: `https://acti.cl/feed/`
+- **Alerta Geek Chile**: Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
+  - RSS: `https://alertageekchile.cl/feed/`
+- **Alianza Chilena de Ciberseguridad**: Coalición de instituciones chilenas sobre ciberataques locales y normativas de seguridad
+  - RSS: `https://alianzaciberseguridad.cl/category/blog/feed/`
+- **Buda.com**: Exchange de criptomonedas chileno - Blog sobre tecnología blockchain y economía digital
+  - RSS: `https://www.buda.com/blog/feed/`
+- **CriptoNoticias Chile**: Sección chilena de CriptoNoticias sobre Bitcoin, blockchain y fintech en Chile
+  - RSS: `https://www.criptonoticias.com/etiquetas/bitcoin-chile/feed/`
+- **Derechos Digitales**: ONG chilena que analiza tecnología desde la perspectiva de derechos humanos, privacidad y leyes de internet
+  - RSS: `https://www.derechosdigitales.org/feed/`
+- **Entreprenerd**: Medio de referencia para el ecosistema de innovación, startups y tecnología en Chile
+  - RSS: `https://www.entnerd.com/rss/global.xml`
 - **FayerWayer**: Blog de tecnología, cultura digital y gadgets
   - RSS: `https://www.fayerwayer.com/feed/`
+- **Geeketing**: Blog chileno sobre marketing digital, growth hacking y tecnología aplicada a negocios
+  - RSS: `https://geeketing.com/feed/`
 - **MadboxPC**: Portal chileno enfocado en software, videojuegos, hardware y cultura de internet
   - RSS: `https://www.madboxpc.com/feed/`
+- **Netsus**: Especialistas en ciberseguridad y continuidad de negocio en Chile
+  - RSS: `https://netsus.com/blog/feed/`
+- **Nexoplay**: Gaming competitivo y esports en Chile
+  - RSS: `https://www.nexoplay.com/feed/`
 - **Pisapapeles**: Portal especializado en telefonía móvil, telecomunicaciones y electrónica de consumo.
   - RSS: `https://pisapapeles.net/feed/`
+- **Tarreo**: Portal de videojuegos, hardware y cultura digital chileno
+  - RSS: `https://www.tarreo.com/feed/`
 - **TiChile**: Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
   - RSS: `https://www.tichile.cl/feed/`
 - **TransMedia**: Medio tecnológico chileno enfocado en análisis de mercado, gadgets, telefonía y opinión sobre la industria
   - RSS: `https://www.transmedia.cl/feed/`
 - **trendTIC**: Portal chileno especializado en tendencias tecnológicas, IA, infraestructura de redes y ciberseguridad corporativa
   - RSS: `https://www.trendtic.cl/feed/`
+- **TXS Plus**: Radio online de Chile dedicada a ciencia y tecnología
+  - RSS: `https://txsplus.com/feed/`
 
 [↑ Volver al índice](#indice)
 

@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-07T02:28:45.414Z",
-  "total_feeds": 204,
+  "total_feeds": 216,
   "categories": {
     "news": "📰 Noticias Nacionales",
     "government": "🏛️ Gobierno y Datos Públicos",
@@ -241,6 +241,222 @@
           "id": "tichile-main",
           "name": "tichile",
           "rss_url": "https://www.tichile.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "alerta-geek",
+      "name": "Alerta Geek Chile",
+      "url": "https://alertageekchile.cl",
+      "category": "technology",
+      "description": "Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena",
+      "feeds": [
+        {
+          "id": "alerta-geek-main",
+          "name": "Alerta Geek",
+          "rss_url": "https://alertageekchile.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "nexoplay",
+      "name": "Nexoplay",
+      "url": "https://www.nexoplay.com",
+      "category": "technology",
+      "description": "Gaming competitivo y esports en Chile",
+      "feeds": [
+        {
+          "id": "nexoplay-main",
+          "name": "NexoPlay",
+          "rss_url": "https://www.nexoplay.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "derechos-digitales",
+      "name": "Derechos Digitales",
+      "url": "https://www.derechosdigitales.org",
+      "category": "technology",
+      "description": "ONG chilena que analiza tecnología desde la perspectiva de derechos humanos, privacidad y leyes de internet",
+      "feeds": [
+        {
+          "id": "derechos-digitales-main",
+          "name": "Derechos Digitales",
+          "rss_url": "https://www.derechosdigitales.org/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "txs-plus",
+      "name": "TXS Plus",
+      "url": "https://txsplus.com",
+      "category": "technology",
+      "description": "Radio online de Chile dedicada a ciencia y tecnología",
+      "feeds": [
+        {
+          "id": "txs-plus-main",
+          "name": "TXS+",
+          "rss_url": "https://txsplus.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "geeketing",
+      "name": "Geeketing",
+      "url": "https://geeketing.com",
+      "category": "technology",
+      "description": "Blog chileno sobre marketing digital, growth hacking y tecnología aplicada a negocios",
+      "feeds": [
+        {
+          "id": "geeketing-main",
+          "name": "Geeketing.com",
+          "rss_url": "https://geeketing.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "acti",
+      "name": "ACTI",
+      "url": "https://acti.cl",
+      "category": "technology",
+      "description": "Asociación Chilena de Empresas de Tecnologías de Información - Gremio de TI en Chile",
+      "feeds": [
+        {
+          "id": "acti-main",
+          "name": "ACTI",
+          "rss_url": "https://acti.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "alianza-ciberseguridad",
+      "name": "Alianza Chilena de Ciberseguridad",
+      "url": "https://alianzaciberseguridad.cl",
+      "category": "technology",
+      "description": "Coalición de instituciones chilenas sobre ciberataques locales y normativas de seguridad",
+      "feeds": [
+        {
+          "id": "alianza-ciberseguridad-main",
+          "name": "Alianza Chilena de Ciberseguridad",
+          "rss_url": "https://alianzaciberseguridad.cl/category/blog/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "criptonoticias-chile",
+      "name": "CriptoNoticias Chile",
+      "url": "https://www.criptonoticias.com",
+      "category": "technology",
+      "description": "Sección chilena de CriptoNoticias sobre Bitcoin, blockchain y fintech en Chile",
+      "feeds": [
+        {
+          "id": "criptonoticias-chile-main",
+          "name": "Bitcoin en Chile",
+          "rss_url": "https://www.criptonoticias.com/etiquetas/bitcoin-chile/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "buda",
+      "name": "Buda.com",
+      "url": "https://www.buda.com",
+      "category": "technology",
+      "description": "Exchange de criptomonedas chileno - Blog sobre tecnología blockchain y economía digital",
+      "feeds": [
+        {
+          "id": "buda-main",
+          "name": "Buda.com",
+          "rss_url": "https://www.buda.com/blog/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "netsus",
+      "name": "Netsus",
+      "url": "https://netsus.com",
+      "category": "technology",
+      "description": "Especialistas en ciberseguridad y continuidad de negocio en Chile",
+      "feeds": [
+        {
+          "id": "netsus-main",
+          "name": "Netsus",
+          "rss_url": "https://netsus.com/blog/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "entreprenerd",
+      "name": "Entreprenerd",
+      "url": "https://www.entnerd.com",
+      "category": "technology",
+      "description": "Medio de referencia para el ecosistema de innovación, startups y tecnología en Chile",
+      "feeds": [
+        {
+          "id": "entreprenerd-main",
+          "name": "Entreprenerd",
+          "rss_url": "https://www.entnerd.com/rss/global.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tarreo",
+      "name": "Tarreo",
+      "url": "https://www.tarreo.com",
+      "category": "technology",
+      "description": "Portal de videojuegos, hardware y cultura digital chileno",
+      "feeds": [
+        {
+          "id": "tarreo-main",
+          "name": "Tarreo Gamer",
+          "rss_url": "https://www.tarreo.com/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-07T02:28:45.414Z",
           "status": "active",
