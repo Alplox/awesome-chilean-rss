@@ -2,16 +2,16 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Feeds](https://img.shields.io/badge/feeds-188-blue)
+![Feeds](https://img.shields.io/badge/feeds-200-blue)
 
-> El directorio más completo de feeds RSS chilenos. 188 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 200 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/chilean-rss.opml`
 
-## 📝 Feeds disponibles (188)
+## 📝 Feeds disponibles (200)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
@@ -22,7 +22,8 @@
 - [🏫 Universidades e Investigación](#cat-universities) — 7 feeds
 - [🌎 Medios Regionales](#cat-regional) — 127 feeds
 - [💼 Negocios y Finanzas](#cat-business) — 3 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 1 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 2 feeds
+- [👥 Comunidad](#cat-community) — 11 feeds
 
 <a id="cat-news"></a>
 ### 📰 Noticias Nacionales (30 feeds)
@@ -417,10 +418,35 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (1 feed)
+### 🎨 Cultura y Divulgación (2 feeds)
 
+- **CR2**: Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena
+  - RSS: `https://www.cr2.cl/feed/`
 - **Pediatría y Salud**: Divulgación de salud infantil para familias chilenas
   - RSS: `https://pediatriaysalud.cl/feed`
+
+[↑ Volver al índice](#indice)
+
+<a id="cat-community"></a>
+### 👥 Comunidad (11 feeds)
+
+- **Capa9** — Comunidad chilena de tecnología, hardware y reviews
+  - Capa9 Global: `https://www.capa9.net/forums/-/index.rss`
+  - Capa9 Reviews: `https://www.capa9.net/foro/reviews.45/index.rss`
+- **Colemono**: Comunidad chilena de videojuegos de culto y retro
+  - RSS: `https://colemono.com/feed/`
+- **Mastodon Chile** — Instancia chilena de Mastodon (red social descentralizada)
+  - #chile: `https://mastodon.cl/tags/chile.rss`
+  - #tecnología: `https://mastodon.cl/tags/tecnología.rss`
+- **Pisapapeles**: Comunidad tech y telecomunicaciones en Chile
+  - RSS: `https://pisapapeles.net/feed/`
+- **Reddit** — Reddit feeds from various subreddits
+  - r/Chile: `https://www.reddit.com/r/chile/.rss`
+  - r/RepublicaDeChile: `https://www.reddit.com/r/republicadechile/.rss`
+  - r/chileit: `https://www.reddit.com/r/chileit/.rss`
+  - r/Santiago: `https://www.reddit.com/r/Santiago/.rss`
+- **Vanguardia Gamer**: Comunidad y noticias de videojuegos en Chile
+  - RSS: `https://vanguardiagamer.cl/feed/`
 
 [↑ Volver al índice](#indice)
 

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-07T02:06:43.348Z",
-  "total_feeds": 188,
+  "last_updated": "2026-06-07T02:28:45.414Z",
+  "total_feeds": 200,
   "categories": {
     "news": "📰 Noticias Nacionales",
     "government": "🏛️ Gobierno y Datos Públicos",
@@ -10,7 +10,8 @@
     "technology": "💻 Tecnología y Startups",
     "culture": "🎨 Cultura y Divulgación",
     "podcasts": "🎧 Podcasts",
-    "opendata": "📋 Datos Públicos y Oficiales"
+    "opendata": "📋 Datos Públicos y Oficiales",
+    "community": "👥 Comunidad"
   },
   "sites": [
     {
@@ -3230,6 +3231,177 @@
           "rss_url": "https://www.mch.cl/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-07T01:45:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/",
+      "category": "community",
+      "description": "Reddit feeds from various subreddits",
+      "feeds": [
+        {
+          "id": "reddit-chile",
+          "name": "r/Chile",
+          "rss_url": "https://www.reddit.com/r/chile/.rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:44.232Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "reddit-republica-de-chile",
+          "name": "r/RepublicaDeChile",
+          "rss_url": "https://www.reddit.com/r/republicadechile/.rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "reddit-chileit",
+          "name": "r/chileit",
+          "rss_url": "https://www.reddit.com/r/chileit/.rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "reddit-santiago",
+          "name": "r/Santiago",
+          "rss_url": "https://www.reddit.com/r/Santiago/.rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "capa9",
+      "name": "Capa9",
+      "url": "https://www.capa9.net",
+      "category": "community",
+      "description": "Comunidad chilena de tecnología, hardware y reviews",
+      "feeds": [
+        {
+          "id": "capa9-global",
+          "name": "Capa9 Global",
+          "rss_url": "https://www.capa9.net/forums/-/index.rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "capa9-reviews",
+          "name": "Capa9 Reviews",
+          "rss_url": "https://www.capa9.net/foro/reviews.45/index.rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pisapapeles",
+      "name": "Pisapapeles",
+      "url": "https://pisapapeles.net",
+      "category": "community",
+      "description": "Comunidad tech y telecomunicaciones en Chile",
+      "feeds": [
+        {
+          "id": "pisapapeles-main",
+          "name": "Pisapapeles",
+          "rss_url": "https://pisapapeles.net/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "vanguardia-gamer",
+      "name": "Vanguardia Gamer",
+      "url": "https://vanguardiagamer.cl",
+      "category": "community",
+      "description": "Comunidad y noticias de videojuegos en Chile",
+      "feeds": [
+        {
+          "id": "vanguardia-gamer-main",
+          "name": "Vanguardia Gamer",
+          "rss_url": "https://vanguardiagamer.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "mastodon-cl",
+      "name": "Mastodon Chile",
+      "url": "https://mastodon.cl",
+      "category": "community",
+      "description": "Instancia chilena de Mastodon (red social descentralizada)",
+      "feeds": [
+        {
+          "id": "mastodon-chile",
+          "name": "#chile",
+          "rss_url": "https://mastodon.cl/tags/chile.rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "mastodon-tecnologia",
+          "name": "#tecnología",
+          "rss_url": "https://mastodon.cl/tags/tecnología.rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "colemono",
+      "name": "Colemono",
+      "url": "https://colemono.com",
+      "category": "community",
+      "description": "Comunidad chilena de videojuegos de culto y retro",
+      "feeds": [
+        {
+          "id": "colemono-main",
+          "name": "Colemono",
+          "rss_url": "https://colemono.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cr2",
+      "name": "CR2",
+      "url": "https://www.cr2.cl",
+      "category": "culture",
+      "description": "Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena",
+      "feeds": [
+        {
+          "id": "cr2-main",
+          "name": "CR2",
+          "rss_url": "https://www.cr2.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T02:28:45.414Z",
           "status": "active",
           "verified": true
         }

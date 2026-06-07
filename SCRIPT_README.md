@@ -8,8 +8,10 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 
 | Script                                  | Comando                                          | Propósito                                                                      |
 |------------------------------------------|--------------------------------------------------|--------------------------------------------------------------------------------|
-| `scripts/core/validate_feeds.js`         | `npm run validate`                             | Revalida los feeds del JSON, redescubre URLs rotas y reintenta la watchlist     |
+| `scripts/core/validate_feeds.js`         | `npm run validate`                             | Valida feeds sin modificar feeds-database.json                                 |
+|                                          | `npm run validate -- --update`                 | Revalida feeds, redescubre URLs rotas y actualiza feeds-database.json          |
 |                                          | `npm run validate -- --id <site-id>`            | Valida solo un sitio específico por su ID                                      |
+|                                          | `npm run validate -- --id <site-id> --update`  | Valida y actualiza solo un sitio específico                                    |
 | `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json` y regenera `chilean-rss.opml` y `README.md`         |
 
 ### Scripts de validación (validation/)
@@ -72,7 +74,8 @@ npm run validate:opml
   "total_feeds": 55,
   "categories": {
     "news": "📰 Noticias Nacionales",
-    "government": "🏛️ Gobierno y Datos Públicos"
+    "government": "🏛️ Gobierno y Datos Públicos",
+    "community": "👥 Comunidad"
   },
   "sites": [
     {

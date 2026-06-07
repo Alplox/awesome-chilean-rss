@@ -12,9 +12,13 @@
  * Para agregar nuevos sitios: edita feeds-database.json directamente,
  * luego corre este script para verificar y rellenar rss_url automáticamente.
  *
- * Uso: node validate_feeds.js
- *      node validate_feeds.js --id <site-id>
+ * Uso: node validate_feeds.js [--update]
+ *      node validate_feeds.js --id <site-id> [--update]
  *      npm run validate
+ *
+ * Opciones:
+ *   --update  Actualiza feeds-database.json con correcciones y redescubrimientos
+ *             Por defecto solo valida sin modificar el archivo
  */
 
 import { readFileSync, writeFileSync } from 'fs';
@@ -142,6 +146,7 @@ async function main() {
   // Parsear argumentos de línea de comandos
   const args = process.argv.slice(2);
   const targetId = args.includes('--id') ? args[args.indexOf('--id') + 1] : null;
+  const shouldUpdate = args.includes('--update');
 
   // Filtrar sitios si se especifica un ID
   let sitesToValidate = db.sites;
@@ -174,10 +179,12 @@ async function main() {
       if (checkResult.type) {
         const itemCount = checkResult.itemCount;
         console.log(`✅ OK (${checkResult.type}, ${itemCount} item${itemCount > 1 ? 's' : ''})`);
-        feed.feed_type    = checkResult.type;
-        feed.last_checked = new Date().toISOString();
-        feed.status       = 'active';
-        feed.verified     = true;
+        if (shouldUpdate) {
+          feed.feed_type    = checkResult.type;
+          feed.last_checked = new Date().toISOString();
+          feed.status       = 'active';
+          feed.verified     = true;
+        }
         results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
         continue;
       }
@@ -193,9 +200,11 @@ async function main() {
 
       if (siteStatus === 'down') {
         console.log(`   🔴 sitio caído`);
-        feed.status       = 'offline';
-        feed.verified     = false;
-        feed.last_checked = new Date().toISOString();
+        if (shouldUpdate) {
+          feed.status       = 'offline';
+          feed.verified     = false;
+          feed.last_checked = new Date().toISOString();
+        }
         results.offline.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
         continue;
       }
@@ -206,20 +215,24 @@ async function main() {
 
       if (found.feedUrl) {
         console.log(`🔄 nueva URL: ${found.feedUrl} (${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''})`);
-        feed.rss_url      = found.feedUrl;
-        feed.feed_type    = found.feedType;
-        feed.last_checked = new Date().toISOString();
-        feed.status       = 'active';
-        feed.verified     = true;
+        if (shouldUpdate) {
+          feed.rss_url      = found.feedUrl;
+          feed.feed_type    = found.feedType;
+          feed.last_checked = new Date().toISOString();
+          feed.status       = 'active';
+          feed.verified     = true;
+        }
         results.fixed.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
       } else {
         const rediscoverError = found.code
           ? `${found.error} (${found.code})`
           : found.error;
         console.log(`❌ ${rediscoverError}`);
-        feed.status       = 'no_feed';
-        feed.verified     = false;
-        feed.last_checked = new Date().toISOString();
+        if (shouldUpdate) {
+          feed.status       = 'no_feed';
+          feed.verified     = false;
+          feed.last_checked = new Date().toISOString();
+        }
         results.broken.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
       }
     }
@@ -243,21 +256,26 @@ async function main() {
     for (const name of results.offline) console.log(`   • ${name}`);
   }
 
-  // Actualizar conteo y timestamp
-  const activeFeedCount = db.sites.reduce(
-    (sum, site) => sum + site.feeds.filter(f => f.status === 'active').length,
-    0
-  );
-  db.total_feeds  = activeFeedCount;
-  db.last_updated = new Date().toISOString();
+  // Actualizar conteo y timestamp solo si --update está activo
+  if (shouldUpdate) {
+    const activeFeedCount = db.sites.reduce(
+      (sum, site) => sum + site.feeds.filter(f => f.status === 'active').length,
+      0
+    );
+    db.total_feeds  = activeFeedCount;
+    db.last_updated = new Date().toISOString();
 
-  writeFileSync('feeds-database.json', JSON.stringify(db, null, 2), 'utf-8');
-  console.log(`\n💾 feeds-database.json actualizado (${db.sites.length} sitios, ${activeFeedCount} feeds activos)`);
+    writeFileSync('feeds-database.json', JSON.stringify(db, null, 2), 'utf-8');
+    console.log(`\n💾 feeds-database.json actualizado (${db.sites.length} sitios, ${activeFeedCount} feeds activos)`);
+  } else {
+    console.log(`\nℹ️  Modo solo-validación: usa --update para aplicar cambios a feeds-database.json`);
+  }
 
   // ─── Reintentar watchlist ──────────────────────────────────────────────────
 
-  // Saltar watchlist si se está validando solo un ID específico
+  // Saltar watchlist si se está validando solo un ID específico o en modo solo-validación
   if (targetId) return;
+  if (!shouldUpdate) return;
   if (!db.watchlist?.length) return;
 
   console.log(`\n${'='.repeat(55)}`);
