@@ -17,12 +17,12 @@
  *      npm run validate
  */
 
-import { XMLParser } from 'fast-xml-parser';
 import { readFileSync, writeFileSync } from 'fs';
+import { fetchSafe, detectFeedType, checkFeedUrl, DEFAULT_OPTIONS } from '../../lib/feed-validator.js';
 
 // ─── Configuración ────────────────────────────────────────────────────────────
 
-const TIMEOUT_MS = 10_000;
+const TIMEOUT_MS = DEFAULT_OPTIONS.timeout;
 
 /** Patrones de URL probados en orden durante el redescubrimiento. */
 const FEED_PATTERNS = [
@@ -40,97 +40,7 @@ const FEED_PATTERNS = [
   '/feeds/',
 ];
 
-// ─── HTTP helper ──────────────────────────────────────────────────────────────
-
-/**
- * Hace un fetch con timeout. Devuelve null si falla o supera el tiempo límite.
- * @param {string} url
- * @param {'GET'|'HEAD'} [method='GET']
- * @returns {Promise<Response|null>}
- */
-async function fetchSafe(url, method = 'GET') {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
-  try {
-    const res = await fetch(url, {
-      method,
-      signal: controller.signal,
-      redirect: 'follow',
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; FeedValidator/2.0)' },
-    });
-    clearTimeout(timer);
-    return res;
-  } catch {
-    clearTimeout(timer);
-    return null;
-  }
-}
-
 // ─── Detección de feeds ───────────────────────────────────────────────────────
-
-const parser = new XMLParser({ ignoreAttributes: false });
-
-/**
- * Devuelve el tipo de feed si el texto es RSS o Atom válido, o null si no lo es.
- * @param {string} text
- * @returns {'RSS' | 'Atom' | null}
- */
-function detectFeedType(text) {
-  if (text.trimStart().startsWith('<html') || text.trimStart().startsWith('<!DOCTYPE')) return null;
-  try {
-    const parsed = parser.parse(text);
-    if (parsed?.rss)  return 'RSS';
-    if (parsed?.feed) return 'Atom';
-  } catch { /* XML inválido */ }
-  return null;
-}
-
-/**
- * Verifica si una URL concreta es un feed RSS/Atom válido con items.
- * @param {string} url
- * @returns {Promise<{ type: 'RSS' | 'Atom', itemCount: number } | { error: string, code?: number } | null>}
- */
-async function checkFeedUrl(url) {
-  const res = await fetchSafe(url);
-  if (!res) return { error: 'no responde', code: null };
-  if (!res.ok) return { error: 'HTTP error', code: res.status };
-
-  const text = await res.text();
-  const type = detectFeedType(text);
-  if (!type) return { error: 'no es RSS/Atom', code: null };
-
-  // Verificar que el feed tenga items con contenido
-  try {
-    const parsed = parser.parse(text);
-    const channel = parsed?.rss?.channel || parsed?.feed;
-    const items = channel?.item || channel?.entry || [];
-    const itemCount = Array.isArray(items) ? items.length : (items ? 1 : 0);
-
-    // Si no hay items, considerarlo inválido
-    if (itemCount === 0) return { error: 'feed vacío', code: null };
-
-    // Verificar que al menos un item tenga título y link válidos
-    const hasValidItem = Array.isArray(items)
-      ? items.some(item => {
-          const title = item?.title ? String(item.title).trim() : '';
-          const link = item?.link ? String(item.link).trim() : '';
-          // Título debe tener al menos 3 caracteres y link debe ser una URL válida
-          return title.length >= 3 && (link.startsWith('http') || link.startsWith('/'));
-        })
-      : (() => {
-          const title = items?.title ? String(items.title).trim() : '';
-          const link = items?.link ? String(items.link).trim() : '';
-          return title.length >= 3 && (link.startsWith('http') || link.startsWith('/'));
-        })();
-
-    if (!hasValidItem) return { error: 'items sin contenido válido', code: null };
-
-    return { type, itemCount };
-
-  } catch {
-    return { error: 'XML inválido', code: null };
-  }
-}
 
 /**
  * Comprueba si el sitio raíz responde.
@@ -202,7 +112,11 @@ async function rediscoverFeed(siteUrl) {
   const feedLinks = extractFeedLinksFromHtml(html, base);
 
   if (feedLinks.length > 0) {
-    for (const url of feedLinks) {
+    // Priorizar feeds principales sobre feeds de comentarios
+    const mainFeeds = feedLinks.filter(url => !url.includes('/comments/'));
+    const feedsToCheck = mainFeeds.length > 0 ? mainFeeds : feedLinks;
+    
+    for (const url of feedsToCheck) {
       const result = await checkFeedUrl(url);
       if (result.type) return { feedUrl: url, feedType: result.type, itemCount: result.itemCount };
     }
@@ -342,6 +256,8 @@ async function main() {
 
   // ─── Reintentar watchlist ──────────────────────────────────────────────────
 
+  // Saltar watchlist si se está validando solo un ID específico
+  if (targetId) return;
   if (!db.watchlist?.length) return;
 
   console.log(`\n${'='.repeat(55)}`);

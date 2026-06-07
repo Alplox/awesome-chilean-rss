@@ -2,26 +2,26 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Feeds](https://img.shields.io/badge/feeds-176-blue)
+![Feeds](https://img.shields.io/badge/feeds-188-blue)
 
-> El directorio más completo de feeds RSS chilenos. 176 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 188 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/chilean-rss.opml`
 
-## 📝 Feeds disponibles (176)
+## 📝 Feeds disponibles (188)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
 - [📰 Noticias Nacionales](#cat-news) — 30 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 1 feeds
-- [🏛️ Gobierno y Datos Públicos](#cat-government) — 10 feeds
-- [🏫 Universidades e Investigación](#cat-universities) — 6 feeds
-- [🌎 Medios Regionales](#cat-regional) — 126 feeds
-- [💼 Negocios y Finanzas](#cat-business) — 2 feeds
+- [🏛️ Gobierno y Datos Públicos](#cat-government) — 19 feeds
+- [🏫 Universidades e Investigación](#cat-universities) — 7 feeds
+- [🌎 Medios Regionales](#cat-regional) — 127 feeds
+- [💼 Negocios y Finanzas](#cat-business) — 3 feeds
 - [🎨 Cultura y Divulgación](#cat-culture) — 1 feeds
 
 <a id="cat-news"></a>
@@ -89,8 +89,15 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-government"></a>
-### 🏛️ Gobierno y Datos Públicos (10 feeds)
+### 🏛️ Gobierno y Datos Públicos (19 feeds)
 
+- **Biblioteca del Congreso Nacional (BCN)** — Biblioteca del Congreso Nacional de Chile - Servicios de información legislativa y parlamentaria
+  - Todos los contenidos: `http://feeds.feedburner.com/rssbcn?format=xml`
+  - Últimas leyes publicadas: `http://feeds.feedburner.com/bcn/ulp?format=xml`
+  - Resúmenes de leyes: `http://feeds.feedburner.com/bcn/rl?format=xml`
+  - Ley fácil: `http://feeds.feedburner.com/bcn/lf?format=xml`
+  - Novedades BCN: `http://feeds.feedburner.com/bcn/not?format=xml`
+  - Catálogo: `http://feeds2.feedburner.com/catbcn?format=xml`
 - **ChileCompra**: Plataforma estatal de licitaciones y compras públicas
   - RSS: `https://www.chilecompra.cl/rss`
 - **CONAF**: Corporación Nacional Forestal — incendios, parques y biodiversidad
@@ -99,6 +106,9 @@
   - RSS: `https://www.diariooficial.interior.gob.cl/feed/`
 - **Gobierno de Chile**: Noticias oficiales y decretos del gobierno
   - RSS: `https://www.gob.cl/noticias/feed/rss/`
+- **MercadoPublico** — Plataforma oficial de compras públicas y licitaciones del Estado de Chile.
+  - Licitaciones destacadas: `http://www.mercadopublico.cl/Portal/feedrelevant.aspx`
+  - Licitaciones de convenio marco: `http://www.mercadopublico.cl/Portal/feedinstitucion.aspx?qs=obQz-pFgoa_RoXw00app6Q==`
 - **Ministerio de Educación**: Noticias y comunicados del Ministerio de Educación de Chile
   - RSS: `https://www.mineduc.cl/feed/`
 - **Ministerio de Salud**: Noticias y comunicados del Ministerio de Salud de Chile
@@ -109,14 +119,18 @@
   - Índices y Valores Económicos: `https://zeus.sii.cl/admin/rss/sii_ind_rss.xml`
 - **Subtel**: Subsecretaría de Telecomunicaciones — regulación y conectividad en Chile
   - RSS: `https://www.subtel.gob.cl/feed/`
+- **SUSESO**: Subsecretaría de Previsión Social del Gobierno de Chile
+  - RSS: `https://www.suseso.gob.cl/601/rss3-channel.rss`
 
 [↑ Volver al índice](#indice)
 
 <a id="cat-universities"></a>
-### 🏫 Universidades e Investigación (6 feeds)
+### 🏫 Universidades e Investigación (7 feeds)
 
 - **ANID**: Agencia Nacional de Investigación y Desarrollo
   - RSS: `https://www.anid.cl/rss`
+- **CEP Chile**: Centro de estudios e investigación dedicado al análisis de políticas públicas, economía y ciencias sociales en Chile.
+  - RSS: `https://www.cepchile.cl/feed`
 - **Pontificia Universidad Católica (PUC)**: Noticias e investigación de la PUC
   - RSS: `https://www.uc.cl/rss/`
 - **Universidad de Concepción**: Noticias e investigación de la Universidad de Concepción
@@ -131,7 +145,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (126 feeds)
+### 🌎 Medios Regionales (127 feeds)
 
 - **Aconcagua Digital**: Diario regional de San Felipe, Valparaíso
   - RSS: `https://aconcaguadigital.cl/feed/`
@@ -195,6 +209,8 @@
   - RSS: `https://www.diariocurico.cl/feed/`
 - **Diario Digital Los Lagos**: Diario regional de Puerto Montt, Los Lagos
   - RSS: `https://diarioloslagos.cl/feed/`
+- **Diario El Día**: Diario regional de La Serena, Coquimbo
+  - RSS: `https://www.diarioeldia.cl/rss/noticias`
 - **Diario Linares**: Diario regional de Linares, Maule
   - RSS: `https://diariolinares.cl/feed/`
 - **Diario Puerto Varas**: Diario regional de Puerto Varas, Los Lagos
@@ -389,10 +405,12 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Negocios y Finanzas (2 feeds)
+### 💼 Negocios y Finanzas (3 feeds)
 
 - **Diario Financiero**: Diario especializado en economía y negocios
   - RSS: `https://www.df.cl/noticias/site/list/port/rss.xml`
+- **MCH**: MCH, medio de comunicación especializado en minería, construcción y energía
+  - RSS: `https://www.mch.cl/feed/`
 - **Pulso**: Medio de negocios y economía
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml`
 

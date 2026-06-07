@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 176 feeds</title>
-    <description>El directorio más completo de feeds RSS chilenos. 176 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
-    <dateCreated>2026-06-07T00:57:50.930Z</dateCreated>
+    <title>Awesome Chilean RSS - 188 feeds</title>
+    <description>El directorio más completo de feeds RSS chilenos. 188 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
+    <dateCreated>2026-06-07T01:45:00.000Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -43,19 +43,29 @@
       <outline type="rss" text="FayerWayer" title="FayerWayer" xmlUrl="https://www.fayerwayer.com/feed/" htmlUrl="https://www.fayerwayer.com"/>
     </outline>
     <outline text="🏛️ Gobierno y Datos Públicos" title="🏛️ Gobierno y Datos Públicos">
+      <outline type="rss" text="Todos los contenidos" title="Todos los contenidos" xmlUrl="http://feeds.feedburner.com/rssbcn?format=xml" htmlUrl="https://www.bcn.cl"/>
+      <outline type="rss" text="Últimas leyes publicadas" title="Últimas leyes publicadas" xmlUrl="http://feeds.feedburner.com/bcn/ulp?format=xml" htmlUrl="https://www.bcn.cl"/>
+      <outline type="rss" text="Resúmenes de leyes" title="Resúmenes de leyes" xmlUrl="http://feeds.feedburner.com/bcn/rl?format=xml" htmlUrl="https://www.bcn.cl"/>
+      <outline type="rss" text="Ley fácil" title="Ley fácil" xmlUrl="http://feeds.feedburner.com/bcn/lf?format=xml" htmlUrl="https://www.bcn.cl"/>
+      <outline type="rss" text="Novedades BCN" title="Novedades BCN" xmlUrl="http://feeds.feedburner.com/bcn/not?format=xml" htmlUrl="https://www.bcn.cl"/>
+      <outline type="rss" text="Catálogo" title="Catálogo" xmlUrl="http://feeds2.feedburner.com/catbcn?format=xml" htmlUrl="https://www.bcn.cl"/>
       <outline type="rss" text="ChileCompra" title="ChileCompra" xmlUrl="https://www.chilecompra.cl/rss" htmlUrl="https://www.chilecompra.cl"/>
       <outline type="rss" text="CONAF" title="CONAF" xmlUrl="https://www.conaf.cl/feed/" htmlUrl="https://www.conaf.cl"/>
       <outline type="rss" text="Diario Oficial" title="Diario Oficial" xmlUrl="https://www.diariooficial.interior.gob.cl/feed/" htmlUrl="https://www.diariooficial.interior.gob.cl"/>
       <outline type="rss" text="Gobierno de Chile" title="Gobierno de Chile" xmlUrl="https://www.gob.cl/noticias/feed/rss/" htmlUrl="https://www.gob.cl"/>
+      <outline type="rss" text="Licitaciones destacadas" title="Licitaciones destacadas" xmlUrl="http://www.mercadopublico.cl/Portal/feedrelevant.aspx" htmlUrl="http://www.mercadopublico.cl"/>
+      <outline type="rss" text="Licitaciones de convenio marco" title="Licitaciones de convenio marco" xmlUrl="http://www.mercadopublico.cl/Portal/feedinstitucion.aspx?qs=obQz-pFgoa_RoXw00app6Q==" htmlUrl="http://www.mercadopublico.cl"/>
       <outline type="rss" text="Ministerio de Educación" title="Ministerio de Educación" xmlUrl="https://www.mineduc.cl/feed/" htmlUrl="https://www.mineduc.cl"/>
       <outline type="rss" text="Ministerio de Salud" title="Ministerio de Salud" xmlUrl="https://www.minsal.cl/feed/" htmlUrl="https://www.minsal.cl"/>
       <outline type="rss" text="Noticias" title="Noticias" xmlUrl="https://www.sii.cl/pagina/actualizada/noticias/rss/siinot_rss.xml" htmlUrl="https://www.sii.cl"/>
       <outline type="rss" text="Contenidos" title="Contenidos" xmlUrl="https://www.sii.cl/pagina/actualizada/noticias/rss/siiall_rss.xml" htmlUrl="https://www.sii.cl"/>
       <outline type="rss" text="Índices y Valores Económicos" title="Índices y Valores Económicos" xmlUrl="https://zeus.sii.cl/admin/rss/sii_ind_rss.xml" htmlUrl="https://www.sii.cl"/>
       <outline type="rss" text="Subtel" title="Subtel" xmlUrl="https://www.subtel.gob.cl/feed/" htmlUrl="https://www.subtel.gob.cl"/>
+      <outline type="rss" text="SUSESO" title="SUSESO" xmlUrl="https://www.suseso.gob.cl/601/rss3-channel.rss" htmlUrl="https://www.suseso.gob.cl"/>
     </outline>
     <outline text="🏫 Universidades e Investigación" title="🏫 Universidades e Investigación">
       <outline type="rss" text="ANID" title="ANID" xmlUrl="https://www.anid.cl/rss" htmlUrl="https://www.anid.cl"/>
+      <outline type="rss" text="CEP Chile" title="CEP Chile" xmlUrl="https://www.cepchile.cl/feed" htmlUrl="https://www.cepchile.cl"/>
       <outline type="rss" text="Pontificia Universidad Católica (PUC)" title="Pontificia Universidad Católica (PUC)" xmlUrl="https://www.uc.cl/rss/" htmlUrl="https://www.uc.cl"/>
       <outline type="rss" text="Universidad de Concepción" title="Universidad de Concepción" xmlUrl="https://noticias.udec.cl/feed/" htmlUrl="https://noticias.udec.cl"/>
       <outline type="rss" text="Universidad de La Frontera" title="Universidad de La Frontera" xmlUrl="https://www.ufro.cl/feed/" htmlUrl="https://www.ufro.cl"/>
@@ -94,6 +104,7 @@
       <outline type="rss" text="Diario Concepción" title="Diario Concepción" xmlUrl="https://www.diarioconcepcion.cl/rss.xml" htmlUrl="https://www.diarioconcepcion.cl"/>
       <outline type="rss" text="Diario Curicó" title="Diario Curicó" xmlUrl="https://www.diariocurico.cl/feed/" htmlUrl="https://www.diariocurico.cl"/>
       <outline type="rss" text="Diario Digital Los Lagos" title="Diario Digital Los Lagos" xmlUrl="https://diarioloslagos.cl/feed/" htmlUrl="https://diarioloslagos.cl"/>
+      <outline type="rss" text="Diario El Día" title="Diario El Día" xmlUrl="https://www.diarioeldia.cl/rss/noticias" htmlUrl="https://www.diarioeldia.cl"/>
       <outline type="rss" text="Diario Linares" title="Diario Linares" xmlUrl="https://diariolinares.cl/feed/" htmlUrl="https://diariolinares.cl"/>
       <outline type="rss" text="Diario Puerto Varas" title="Diario Puerto Varas" xmlUrl="https://www.diariopuertovaras.cl/feed/" htmlUrl="https://www.diariopuertovaras.cl"/>
       <outline type="rss" text="Diario Talca" title="Diario Talca" xmlUrl="https://diariotalca.cl/feed/" htmlUrl="https://diariotalca.cl"/>
@@ -192,6 +203,7 @@
     </outline>
     <outline text="💼 Negocios y Finanzas" title="💼 Negocios y Finanzas">
       <outline type="rss" text="Diario Financiero" title="Diario Financiero" xmlUrl="https://www.df.cl/noticias/site/list/port/rss.xml" htmlUrl="https://www.df.cl"/>
+      <outline type="rss" text="MCH" title="MCH" xmlUrl="https://www.mch.cl/feed/" htmlUrl="https://www.mch.cl"/>
       <outline type="rss" text="Pulso" title="Pulso" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml" htmlUrl="https://www.pulso.cl"/>
     </outline>
     <outline text="🎨 Cultura y Divulgación" title="🎨 Cultura y Divulgación">

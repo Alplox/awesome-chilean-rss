@@ -4,11 +4,11 @@
   "description": "Validador de feeds RSS/Atom de sitios chilenos",
   "type": "module",
   "scripts": {
-    "validate": "node validate_feeds.js",
-    "generate": "node generate.js",
-    "validate:json": "node scripts/validate-json.mjs",
-    "validate:opml": "node scripts/validate-opml.mjs",
-    "ci": "npm run validate:json && npm run validate:opml && node generate.js && git diff --exit-code chilean-rss.opml README.md"
+    "validate": "node scripts/core/validate_feeds.js",
+    "generate": "node scripts/core/generate.js",
+    "validate:json": "node scripts/validation/validate-json.mjs",
+    "validate:opml": "node scripts/validation/validate-opml.mjs",
+    "ci": "npm run validate:json && npm run validate:opml && npm run generate && git diff --exit-code chilean-rss.opml README.md"
   },
   "dependencies": {
     "fast-xml-parser": "5.8.0"

@@ -2,24 +2,38 @@
 
 ## Descripción
 
-Este proyecto usa tres scripts Node.js con responsabilidades separadas:
+Este proyecto usa scripts Node.js organizados por funcionalidad:
 
-| Script | Comando | Propósito |
-|---|---|---|
-| `validate_feeds.js` | `npm run validate` | Revalida los feeds del JSON, redescubre URLs rotas y reintenta la watchlist |
-| `generate.js` | `npm run generate` | Lee `feeds-database.json` y regenera `chilean-rss.opml` y `README.md` |
-| `scripts/validate-json.mjs` | `npm run validate:json` | Valida la estructura del JSON (usado por CI) |
-| `scripts/validate-opml.mjs` | `npm run validate:opml` | Valida la sintaxis del OPML (usado por CI) |
+### Scripts principales (core/)
+
+| Script                                  | Comando                                          | Propósito                                                                      |
+|------------------------------------------|--------------------------------------------------|--------------------------------------------------------------------------------|
+| `scripts/core/validate_feeds.js`         | `npm run validate`                             | Revalida los feeds del JSON, redescubre URLs rotas y reintenta la watchlist     |
+|                                          | `npm run validate -- --id <site-id>`            | Valida solo un sitio específico por su ID                                      |
+| `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json` y regenera `chilean-rss.opml` y `README.md`         |
+
+### Scripts de validación (validation/)
+
+| Script                                      | Comando                  | Propósito                                    |
+|----------------------------------------------|--------------------------|----------------------------------------------|
+| `scripts/validation/validate-json.mjs`       | `npm run validate:json`  | Valida la estructura del JSON (usado por CI) |
+| `scripts/validation/validate-opml.mjs`       | `npm run validate:opml`  | Valida la sintaxis del OPML (usado por CI)   |
+
+### Scripts utilitarios (utils/)
+
+| Script                                      | Comando                                                 | Propósito                                                          |
+|----------------------------------------------|---------------------------------------------------------|--------------------------------------------------------------------|
+| `scripts/utils/verify-feeds.js`              | `node scripts/utils/verify-feeds.js <feeds.json>`        | Script genérico para verificar feeds RSS/Atom desde un archivo JSON |
 
 ### Flujo de trabajo
 
 ```
-feeds-database.json  ──►  generate.js        ──►  chilean-rss.opml
-       ▲                                      ──►  README.md
+feeds-database.json  ──►  scripts/core/generate.js  ──►  chilean-rss.opml
+       ▲                                            ──►  README.md
        │
-  validate_feeds.js  ──►  revalida feeds activos
-                     ──►  redescubre URLs rotas
-                     ──►  reintenta sitios en watchlist
+  scripts/core/validate_feeds.js  ──►  revalida feeds activos
+                                 ──►  redescubre URLs rotas
+                                 ──►  reintenta sitios en watchlist
 ```
 
 **Para agregar un feed:** edita `feeds-database.json` y ejecuta `npm run generate`.
@@ -94,7 +108,7 @@ npm run validate:opml
 
 **Sitios con múltiples feeds** (como El Desconcierto o el SII) usan el mismo esquema con más entradas en `feeds[]`.
 
-## Algoritmo de descubrimiento (validate_feeds.js)
+## Algoritmo de descubrimiento (scripts/core/validate_feeds.js)
 
 Para cada feed en `sites[]`:
 

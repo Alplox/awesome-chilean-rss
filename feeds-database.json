@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-07T00:57:50.930Z",
-  "total_feeds": 176,
+  "last_updated": "2026-06-07T01:45:00.000Z",
+  "total_feeds": 188,
   "categories": {
     "news": "📰 Noticias Nacionales",
     "government": "🏛️ Gobierno y Datos Públicos",
@@ -25,7 +25,7 @@
           "name": "Portada",
           "rss_url": "https://as.com/rss/chile/portada.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:28.094Z",
+          "last_checked": "2026-06-07T01:18:08.660Z",
           "status": "active",
           "verified": true
         },
@@ -34,7 +34,7 @@
           "name": "Fútbol",
           "rss_url": "https://as.com/rss/chile/futbol.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:28.788Z",
+          "last_checked": "2026-06-07T01:18:09.565Z",
           "status": "active",
           "verified": true
         },
@@ -43,7 +43,7 @@
           "name": "Actualidad",
           "rss_url": "https://as.com/rss/chile/actualidad.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:29.363Z",
+          "last_checked": "2026-06-07T01:18:10.523Z",
           "status": "active",
           "verified": true
         }
@@ -61,7 +61,7 @@
           "name": "Interferencia",
           "rss_url": "https://interferencia.cl/rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:29.824Z",
+          "last_checked": "2026-06-07T01:18:10.896Z",
           "status": "active",
           "verified": true
         }
@@ -79,7 +79,7 @@
           "name": "Diario Concepción",
           "rss_url": "https://www.diarioconcepcion.cl/rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:29.965Z",
+          "last_checked": "2026-06-07T01:18:10.996Z",
           "status": "active",
           "verified": true
         }
@@ -97,7 +97,7 @@
           "name": "BioBioChile",
           "rss_url": "https://feeds.feedburner.com/radiobiobio/NNeJ",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:37.324Z",
+          "last_checked": "2026-06-07T01:18:12.268Z",
           "status": "active",
           "verified": true
         }
@@ -115,7 +115,7 @@
           "name": "La Tercera",
           "rss_url": "https://www.latercera.com/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:37.670Z",
+          "last_checked": "2026-06-07T01:18:16.397Z",
           "status": "active",
           "verified": true
         }
@@ -133,7 +133,7 @@
           "name": "Ciper Chile",
           "rss_url": "https://www.ciperchile.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:37.763Z",
+          "last_checked": "2026-06-07T01:18:16.507Z",
           "status": "active",
           "verified": true
         }
@@ -151,7 +151,7 @@
           "name": "Redgol",
           "rss_url": "https://redgol.cl/rss/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:39.189Z",
+          "last_checked": "2026-06-07T01:18:17.985Z",
           "status": "active",
           "verified": true
         }
@@ -169,7 +169,7 @@
           "name": "FayerWayer",
           "rss_url": "https://www.fayerwayer.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:39.697Z",
+          "last_checked": "2026-06-07T01:18:18.691Z",
           "status": "active",
           "verified": true
         }
@@ -187,7 +187,7 @@
           "name": "Gobierno de Chile",
           "rss_url": "https://www.gob.cl/noticias/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:40.195Z",
+          "last_checked": "2026-06-07T01:18:19.045Z",
           "status": "active",
           "verified": true
         }
@@ -205,7 +205,7 @@
           "name": "ChileCompra",
           "rss_url": "https://www.chilecompra.cl/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:41.695Z",
+          "last_checked": "2026-06-07T01:18:20.708Z",
           "status": "active",
           "verified": true
         }
@@ -223,7 +223,70 @@
           "name": "Pontificia Universidad Católica (PUC)",
           "rss_url": "https://www.uc.cl/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:46.050Z",
+          "last_checked": "2026-06-07T01:18:21.541Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "bcn",
+      "name": "Biblioteca del Congreso Nacional (BCN)",
+      "url": "https://www.bcn.cl",
+      "category": "government",
+      "description": "Biblioteca del Congreso Nacional de Chile - Servicios de información legislativa y parlamentaria",
+      "feeds": [
+        {
+          "id": "bcn-todos",
+          "name": "Todos los contenidos",
+          "rss_url": "http://feeds.feedburner.com/rssbcn?format=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:18:22.361Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "bcn-ultimas-leyes",
+          "name": "Últimas leyes publicadas",
+          "rss_url": "http://feeds.feedburner.com/bcn/ulp?format=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:18:22.597Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "bcn-resumenes",
+          "name": "Resúmenes de leyes",
+          "rss_url": "http://feeds.feedburner.com/bcn/rl?format=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:18:23.157Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "bcn-ley-facil",
+          "name": "Ley fácil",
+          "rss_url": "http://feeds.feedburner.com/bcn/lf?format=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:18:23.422Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "bcn-novedades",
+          "name": "Novedades BCN",
+          "rss_url": "http://feeds.feedburner.com/bcn/not?format=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:18:23.971Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "bcn-catalogo",
+          "name": "Catálogo",
+          "rss_url": "http://feeds2.feedburner.com/catbcn?format=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:18:25.218Z",
           "status": "active",
           "verified": true
         }
@@ -241,7 +304,7 @@
           "name": "ANID",
           "rss_url": "https://www.anid.cl/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:48.727Z",
+          "last_checked": "2026-06-07T01:18:27.416Z",
           "status": "active",
           "verified": true
         }
@@ -259,7 +322,7 @@
           "name": "La Discusión",
           "rss_url": "https://www.ladiscusion.cl/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:50.534Z",
+          "last_checked": "2026-06-07T01:18:32.442Z",
           "status": "active",
           "verified": true
         }
@@ -277,7 +340,7 @@
           "name": "Pulso",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:50.653Z",
+          "last_checked": "2026-06-07T01:18:32.562Z",
           "status": "active",
           "verified": true
         }
@@ -295,7 +358,7 @@
           "name": "Desenfoque",
           "rss_url": "https://desenfoque.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:53.221Z",
+          "last_checked": "2026-06-07T01:18:35.147Z",
           "status": "active",
           "verified": true
         }
@@ -313,7 +376,7 @@
           "name": "Pediatría y Salud",
           "rss_url": "https://pediatriaysalud.cl/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:56.268Z",
+          "last_checked": "2026-06-07T01:18:38.360Z",
           "status": "active",
           "verified": true
         }
@@ -331,7 +394,7 @@
           "name": "Noticias",
           "rss_url": "https://www.sii.cl/pagina/actualizada/noticias/rss/siinot_rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:56.377Z",
+          "last_checked": "2026-06-07T01:18:38.429Z",
           "status": "active",
           "verified": true
         },
@@ -340,7 +403,7 @@
           "name": "Contenidos",
           "rss_url": "https://www.sii.cl/pagina/actualizada/noticias/rss/siiall_rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:56.392Z",
+          "last_checked": "2026-06-07T01:18:38.444Z",
           "status": "active",
           "verified": true
         },
@@ -349,7 +412,7 @@
           "name": "Índices y Valores Económicos",
           "rss_url": "https://zeus.sii.cl/admin/rss/sii_ind_rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:56.486Z",
+          "last_checked": "2026-06-07T01:18:38.563Z",
           "status": "active",
           "verified": true,
           "description": "UF, UTM y otros índices económicos actualizados diariamente por el SII"
@@ -368,7 +431,7 @@
           "name": "Diario Financiero",
           "rss_url": "https://www.df.cl/noticias/site/list/port/rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:56.584Z",
+          "last_checked": "2026-06-07T01:18:38.649Z",
           "status": "active",
           "verified": true
         }
@@ -386,7 +449,7 @@
           "name": "The Clinic",
           "rss_url": "https://www.theclinic.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:58.661Z",
+          "last_checked": "2026-06-07T01:18:40.377Z",
           "status": "active",
           "verified": true
         }
@@ -404,7 +467,7 @@
           "name": "El Rancagüino",
           "rss_url": "https://www.elrancaguino.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:17:59.490Z",
+          "last_checked": "2026-06-07T01:18:41.225Z",
           "status": "active",
           "verified": true
         }
@@ -422,7 +485,7 @@
           "name": "Cambio21",
           "rss_url": "https://cambio21.cl/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:00.731Z",
+          "last_checked": "2026-06-07T01:18:42.472Z",
           "status": "active",
           "verified": true
         }
@@ -440,7 +503,7 @@
           "name": "La Nación",
           "rss_url": "https://www.lanacion.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:01.436Z",
+          "last_checked": "2026-06-07T01:18:43.197Z",
           "status": "active",
           "verified": true
         }
@@ -458,7 +521,7 @@
           "name": "El Siglo",
           "rss_url": "https://elsiglo.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:02.149Z",
+          "last_checked": "2026-06-07T01:18:43.954Z",
           "status": "active",
           "verified": true
         }
@@ -476,7 +539,7 @@
           "name": "Santiago Times",
           "rss_url": "https://santiagotimes.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:03.530Z",
+          "last_checked": "2026-06-07T01:18:45.283Z",
           "status": "active",
           "verified": true
         }
@@ -494,7 +557,7 @@
           "name": "El Clarín de Chile",
           "rss_url": "https://www.elclarin.cl/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:04.769Z",
+          "last_checked": "2026-06-07T01:18:48.781Z",
           "status": "active",
           "verified": true
         }
@@ -512,7 +575,7 @@
           "name": "La Prensa Austral",
           "rss_url": "https://laprensaaustral.cl/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:05.615Z",
+          "last_checked": "2026-06-07T01:18:49.662Z",
           "status": "active",
           "verified": true
         }
@@ -530,7 +593,7 @@
           "name": "Últimas Noticias",
           "rss_url": "https://eldesconcierto.cl/rss/pages/ultimas-noticias.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:05.873Z",
+          "last_checked": "2026-06-07T01:18:49.917Z",
           "status": "active",
           "verified": true
         },
@@ -539,7 +602,7 @@
           "name": "Medio Ambiente",
           "rss_url": "https://eldesconcierto.cl/rss/pages/medio_ambiente.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:06.077Z",
+          "last_checked": "2026-06-07T01:18:50.117Z",
           "status": "active",
           "verified": true
         },
@@ -548,7 +611,7 @@
           "name": "Actualidad",
           "rss_url": "https://eldesconcierto.cl/rss/pages/actualidad.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:06.281Z",
+          "last_checked": "2026-06-07T01:18:50.315Z",
           "status": "active",
           "verified": true
         },
@@ -557,7 +620,7 @@
           "name": "Tendencias",
           "rss_url": "https://eldesconcierto.cl/rss/pages/tendencias.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:06.486Z",
+          "last_checked": "2026-06-07T01:18:50.514Z",
           "status": "active",
           "verified": true
         },
@@ -566,7 +629,7 @@
           "name": "Hoja de Ruta",
           "rss_url": "https://eldesconcierto.cl/rss/pages/hoja-de-ruta.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:06.680Z",
+          "last_checked": "2026-06-07T01:18:50.715Z",
           "status": "active",
           "verified": true
         },
@@ -575,7 +638,7 @@
           "name": "Reportajes",
           "rss_url": "https://eldesconcierto.cl/rss/pages/reportajes.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:06.868Z",
+          "last_checked": "2026-06-07T01:18:50.912Z",
           "status": "active",
           "verified": true
         },
@@ -584,7 +647,7 @@
           "name": "Entrevistas",
           "rss_url": "https://eldesconcierto.cl/rss/pages/entrevistas.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:07.069Z",
+          "last_checked": "2026-06-07T01:18:51.105Z",
           "status": "active",
           "verified": true
         },
@@ -593,7 +656,7 @@
           "name": "Opinión",
           "rss_url": "https://eldesconcierto.cl/rss/pages/opinion.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:07.265Z",
+          "last_checked": "2026-06-07T01:18:51.299Z",
           "status": "active",
           "verified": true
         },
@@ -602,7 +665,7 @@
           "name": "Mundo",
           "rss_url": "https://eldesconcierto.cl/rss/pages/mundo.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:07.464Z",
+          "last_checked": "2026-06-07T01:18:51.493Z",
           "status": "active",
           "verified": true
         }
@@ -620,7 +683,7 @@
           "name": "El Ciudadano",
           "rss_url": "https://www.elciudadano.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:08.236Z",
+          "last_checked": "2026-06-07T01:18:52.155Z",
           "status": "active",
           "verified": true
         }
@@ -638,7 +701,7 @@
           "name": "FastCheckCL",
           "rss_url": "https://fastcheck.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:09.975Z",
+          "last_checked": "2026-06-07T01:18:54.040Z",
           "status": "active",
           "verified": true
         }
@@ -656,7 +719,7 @@
           "name": "La Máquina Medio",
           "rss_url": "https://lamaquinamedio.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:11.468Z",
+          "last_checked": "2026-06-07T01:18:55.737Z",
           "status": "active",
           "verified": true
         }
@@ -674,7 +737,7 @@
           "name": "El Quinto Poder",
           "rss_url": "https://www.elquintopoder.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:13.466Z",
+          "last_checked": "2026-06-07T01:18:59.827Z",
           "status": "active",
           "verified": true
         }
@@ -692,7 +755,7 @@
           "name": "Piensa Chile",
           "rss_url": "https://piensachile.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:14.772Z",
+          "last_checked": "2026-06-07T01:19:01.256Z",
           "status": "active",
           "verified": true
         }
@@ -710,7 +773,7 @@
           "name": "G5 Noticias",
           "rss_url": "https://g5noticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:14.846Z",
+          "last_checked": "2026-06-07T01:19:01.358Z",
           "status": "active",
           "verified": true
         }
@@ -728,7 +791,7 @@
           "name": "Diario Oficial",
           "rss_url": "https://www.diariooficial.interior.gob.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:15.281Z",
+          "last_checked": "2026-06-07T01:19:01.800Z",
           "status": "active",
           "verified": true
         }
@@ -746,7 +809,7 @@
           "name": "CONAF",
           "rss_url": "https://www.conaf.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:19.303Z",
+          "last_checked": "2026-06-07T01:19:05.708Z",
           "status": "active",
           "verified": true
         }
@@ -764,7 +827,7 @@
           "name": "Ministerio de Salud",
           "rss_url": "https://www.minsal.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:19.714Z",
+          "last_checked": "2026-06-07T01:19:06.107Z",
           "status": "active",
           "verified": true
         }
@@ -782,7 +845,7 @@
           "name": "Universidad de La Frontera",
           "rss_url": "https://www.ufro.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:20.066Z",
+          "last_checked": "2026-06-07T01:19:06.631Z",
           "status": "active",
           "verified": true
         }
@@ -800,7 +863,7 @@
           "name": "Universidad de Talca",
           "rss_url": "https://www.utalca.cl/noticias/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:20.268Z",
+          "last_checked": "2026-06-07T01:19:06.847Z",
           "status": "active",
           "verified": true
         }
@@ -818,7 +881,7 @@
           "name": "Universidad de Las Américas",
           "rss_url": "https://www.udla.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:22.497Z",
+          "last_checked": "2026-06-07T01:19:09.336Z",
           "status": "active",
           "verified": true
         }
@@ -836,7 +899,7 @@
           "name": "Atacama Noticias",
           "rss_url": "https://www.atacamanoticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:23.533Z",
+          "last_checked": "2026-06-07T01:19:10.467Z",
           "status": "active",
           "verified": true
         }
@@ -854,7 +917,7 @@
           "name": "Diario Aysén",
           "rss_url": "https://www.diarioaysen.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:24.733Z",
+          "last_checked": "2026-06-07T01:19:11.981Z",
           "status": "active",
           "verified": true
         }
@@ -872,7 +935,7 @@
           "name": "El Pingüino",
           "rss_url": "https://www.elpinguino.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:25.539Z",
+          "last_checked": "2026-06-07T01:19:12.776Z",
           "status": "active",
           "verified": true
         }
@@ -890,7 +953,7 @@
           "name": "Universidad de Concepción",
           "rss_url": "https://noticias.udec.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:25.613Z",
+          "last_checked": "2026-06-07T01:19:12.871Z",
           "status": "active",
           "verified": true
         }
@@ -908,7 +971,7 @@
           "name": "Subtel",
           "rss_url": "https://www.subtel.gob.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:26.576Z",
+          "last_checked": "2026-06-07T01:19:13.323Z",
           "status": "active",
           "verified": true
         }
@@ -926,7 +989,7 @@
           "name": "Ministerio de Educación",
           "rss_url": "https://www.mineduc.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:29.678Z",
+          "last_checked": "2026-06-07T01:19:16.712Z",
           "status": "active",
           "verified": true
         }
@@ -944,7 +1007,7 @@
           "name": "Diario Chañarcillo",
           "rss_url": "https://www.chanarcillo.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:30.388Z",
+          "last_checked": "2026-06-07T01:19:17.777Z",
           "status": "active",
           "verified": true
         }
@@ -962,7 +1025,7 @@
           "name": "Hoyxhoy",
           "rss_url": "https://www.hoyxhoy.cl/?feed=rss2",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:31.013Z",
+          "last_checked": "2026-06-07T01:19:25.039Z",
           "status": "active",
           "verified": true
         }
@@ -980,7 +1043,7 @@
           "name": "Duplos",
           "rss_url": "https://www.duplos.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:32.939Z",
+          "last_checked": "2026-06-07T01:19:26.872Z",
           "status": "active",
           "verified": true
         }
@@ -998,7 +1061,7 @@
           "name": "Sur Noticias",
           "rss_url": "https://www.diariosurnoticias.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:33.984Z",
+          "last_checked": "2026-06-07T01:19:28.104Z",
           "status": "active",
           "verified": true
         }
@@ -1016,7 +1079,7 @@
           "name": "El Periodista",
           "rss_url": "https://www.elperiodista.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:35.276Z",
+          "last_checked": "2026-06-07T01:19:29.505Z",
           "status": "active",
           "verified": true
         }
@@ -1034,7 +1097,7 @@
           "name": "La Razón",
           "rss_url": "https://www.larazon.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:36.065Z",
+          "last_checked": "2026-06-07T01:19:30.471Z",
           "status": "active",
           "verified": true
         }
@@ -1052,7 +1115,7 @@
           "name": "Crónica Digital",
           "rss_url": "https://www.cronicadigital.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:37.784Z",
+          "last_checked": "2026-06-07T01:19:32.729Z",
           "status": "active",
           "verified": true
         }
@@ -1070,7 +1133,7 @@
           "name": "Nuevo Poder",
           "rss_url": "https://www.nuevopoder.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:37.955Z",
+          "last_checked": "2026-06-07T01:19:32.931Z",
           "status": "active",
           "verified": true
         }
@@ -1088,7 +1151,7 @@
           "name": "El Comunicador",
           "rss_url": "https://elcomunicador.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:38.598Z",
+          "last_checked": "2026-06-07T01:19:35.048Z",
           "status": "active",
           "verified": true
         }
@@ -1106,7 +1169,7 @@
           "name": "Diario Antofagasta",
           "rss_url": "https://www.diarioantofagasta.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:38.698Z",
+          "last_checked": "2026-06-07T01:19:35.150Z",
           "status": "active",
           "verified": true
         }
@@ -1124,7 +1187,7 @@
           "name": "Antofagasta Noticias",
           "rss_url": "https://www.antofagastanoticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:40.469Z",
+          "last_checked": "2026-06-07T01:19:36.873Z",
           "status": "active",
           "verified": true
         }
@@ -1142,7 +1205,7 @@
           "name": "Timeline",
           "rss_url": "https://www.timeline.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:41.328Z",
+          "last_checked": "2026-06-07T01:19:37.641Z",
           "status": "active",
           "verified": true
         }
@@ -1160,7 +1223,7 @@
           "name": "El América",
           "rss_url": "https://www.elamerica.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:45.154Z",
+          "last_checked": "2026-06-07T01:19:41.815Z",
           "status": "active",
           "verified": true
         }
@@ -1178,7 +1241,7 @@
           "name": "En La Línea",
           "rss_url": "https://www.enlalinea.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:46.231Z",
+          "last_checked": "2026-06-07T01:19:42.914Z",
           "status": "active",
           "verified": true
         }
@@ -1196,7 +1259,7 @@
           "name": "La Estrella de Tocopilla",
           "rss_url": "https://www.estrellatocopilla.cl/?feed=rss2",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:47.444Z",
+          "last_checked": "2026-06-07T01:19:45.677Z",
           "status": "active",
           "verified": true
         }
@@ -1214,7 +1277,7 @@
           "name": "Arica Al Día",
           "rss_url": "https://www.aricaldia.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:48.349Z",
+          "last_checked": "2026-06-07T01:19:46.614Z",
           "status": "active",
           "verified": true
         }
@@ -1232,7 +1295,7 @@
           "name": "Arica Hoy",
           "rss_url": "https://www.aricahoy.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:48.413Z",
+          "last_checked": "2026-06-07T01:19:47.434Z",
           "status": "active",
           "verified": true
         }
@@ -1250,7 +1313,7 @@
           "name": "Arica365",
           "rss_url": "https://www.arica365.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:48.719Z",
+          "last_checked": "2026-06-07T01:19:47.745Z",
           "status": "active",
           "verified": true
         }
@@ -1268,7 +1331,7 @@
           "name": "Frontera Norte",
           "rss_url": "https://www.fronteranorte.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:51.296Z",
+          "last_checked": "2026-06-07T01:19:51.299Z",
           "status": "active",
           "verified": true
         }
@@ -1286,7 +1349,7 @@
           "name": "El Morro de Arica",
           "rss_url": "https://elmorrodearica.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:51.911Z",
+          "last_checked": "2026-06-07T01:19:51.976Z",
           "status": "active",
           "verified": true
         }
@@ -1304,7 +1367,7 @@
           "name": "Tierramarillano",
           "rss_url": "https://www.tierramarillano.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:53.860Z",
+          "last_checked": "2026-06-07T01:19:56.124Z",
           "status": "active",
           "verified": true
         }
@@ -1322,7 +1385,7 @@
           "name": "Atacama en Línea",
           "rss_url": "https://www.atacamaenlinea.cl/rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:54.811Z",
+          "last_checked": "2026-06-07T01:19:56.952Z",
           "status": "active",
           "verified": true
         }
@@ -1340,7 +1403,7 @@
           "name": "El Noticiero del Huasco",
           "rss_url": "https://elnoticierodelhuasco.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:56.268Z",
+          "last_checked": "2026-06-07T01:19:58.217Z",
           "status": "active",
           "verified": true
         }
@@ -1358,7 +1421,7 @@
           "name": "Aysén Ahora",
           "rss_url": "https://aysenahora.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:57.543Z",
+          "last_checked": "2026-06-07T01:19:59.472Z",
           "status": "active",
           "verified": true
         }
@@ -1376,7 +1439,7 @@
           "name": "La Tribuna",
           "rss_url": "https://www.latribuna.cl/rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:57.957Z",
+          "last_checked": "2026-06-07T01:19:59.905Z",
           "status": "active",
           "verified": true
         }
@@ -1394,7 +1457,7 @@
           "name": "El Contraste",
           "rss_url": "https://www.elcontraste.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:18:58.859Z",
+          "last_checked": "2026-06-07T01:20:00.914Z",
           "status": "active",
           "verified": true
         }
@@ -1412,7 +1475,7 @@
           "name": "Angelino",
           "rss_url": "https://www.angelino.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:00.388Z",
+          "last_checked": "2026-06-07T01:20:01.857Z",
           "status": "active",
           "verified": true
         }
@@ -1430,7 +1493,7 @@
           "name": "La Serena Online",
           "rss_url": "https://www.laserenaonline.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:03.579Z",
+          "last_checked": "2026-06-07T01:20:05.361Z",
           "status": "active",
           "verified": true
         }
@@ -1448,7 +1511,7 @@
           "name": "El Serenense",
           "rss_url": "https://www.elserenense.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:04.316Z",
+          "last_checked": "2026-06-07T01:20:06.091Z",
           "status": "active",
           "verified": true
         }
@@ -1466,7 +1529,7 @@
           "name": "El Ovallino",
           "rss_url": "https://www.elovallino.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:05.552Z",
+          "last_checked": "2026-06-07T01:20:07.314Z",
           "status": "active",
           "verified": true
         }
@@ -1484,7 +1547,7 @@
           "name": "Ovalle Hoy",
           "rss_url": "https://www.ovallehoy.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:08.924Z",
+          "last_checked": "2026-06-07T01:20:11.006Z",
           "status": "active",
           "verified": true
         }
@@ -1502,7 +1565,7 @@
           "name": "La Perla del Limarí",
           "rss_url": "https://www.laperladellimari.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:09.656Z",
+          "last_checked": "2026-06-07T01:20:11.745Z",
           "status": "active",
           "verified": true
         }
@@ -1520,7 +1583,7 @@
           "name": "La Región",
           "rss_url": "https://www.diariolaregion.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:09.887Z",
+          "last_checked": "2026-06-07T01:20:12.394Z",
           "status": "active",
           "verified": true
         }
@@ -1538,7 +1601,7 @@
           "name": "El Regional",
           "rss_url": "https://www.elregional.cl/?feed=rss2",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:10.086Z",
+          "last_checked": "2026-06-07T01:20:12.596Z",
           "status": "active",
           "verified": true
         }
@@ -1556,7 +1619,7 @@
           "name": "El Coquimbano",
           "rss_url": "https://www.elcoquimbano.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:10.817Z",
+          "last_checked": "2026-06-07T01:20:13.331Z",
           "status": "active",
           "verified": true
         }
@@ -1574,7 +1637,7 @@
           "name": "El Vicuñense",
           "rss_url": "https://www.xn--elvicuense-y9a.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:11.556Z",
+          "last_checked": "2026-06-07T01:20:14.060Z",
           "status": "active",
           "verified": true
         }
@@ -1592,7 +1655,7 @@
           "name": "David Noticias",
           "rss_url": "https://www.davidnoticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:13.607Z",
+          "last_checked": "2026-06-07T01:20:15.567Z",
           "status": "active",
           "verified": true
         }
@@ -1610,7 +1673,7 @@
           "name": "Clave 9",
           "rss_url": "https://www.clave9.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:14.588Z",
+          "last_checked": "2026-06-07T01:20:16.543Z",
           "status": "active",
           "verified": true
         }
@@ -1628,7 +1691,7 @@
           "name": "Araucanía Noticias",
           "rss_url": "https://www.araucanianoticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:14.896Z",
+          "last_checked": "2026-06-07T01:20:17.484Z",
           "status": "active",
           "verified": true
         }
@@ -1646,7 +1709,7 @@
           "name": "Temuco21",
           "rss_url": "https://www.tiempo21.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:15.827Z",
+          "last_checked": "2026-06-07T01:20:20.216Z",
           "status": "active",
           "verified": true
         }
@@ -1664,7 +1727,7 @@
           "name": "Temuco Diario",
           "rss_url": "https://www.temucodiario.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:16.418Z",
+          "last_checked": "2026-06-07T01:20:20.852Z",
           "status": "active",
           "verified": true
         }
@@ -1682,7 +1745,7 @@
           "name": "Prensa Ciudadana",
           "rss_url": "https://www.prensaciudadana.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:16.484Z",
+          "last_checked": "2026-06-07T01:20:20.913Z",
           "status": "active",
           "verified": true
         }
@@ -1700,7 +1763,7 @@
           "name": "Alerta Noticias Temuco",
           "rss_url": "https://alertanoticiastemuco.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:18.321Z",
+          "last_checked": "2026-06-07T01:20:22.794Z",
           "status": "active",
           "verified": true
         }
@@ -1718,7 +1781,7 @@
           "name": "El Periódico",
           "rss_url": "https://elperiodico.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:19.271Z",
+          "last_checked": "2026-06-07T01:20:23.896Z",
           "status": "active",
           "verified": true
         }
@@ -1736,7 +1799,7 @@
           "name": "Novena Digital",
           "rss_url": "https://novenadigital.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:19.750Z",
+          "last_checked": "2026-06-07T01:20:24.400Z",
           "status": "active",
           "verified": true
         }
@@ -1754,7 +1817,7 @@
           "name": "Las Noticias de Malleco",
           "rss_url": "https://lasnoticiasdemalleco.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:21.318Z",
+          "last_checked": "2026-06-07T01:20:26.347Z",
           "status": "active",
           "verified": true
         }
@@ -1772,7 +1835,7 @@
           "name": "Malleco 7",
           "rss_url": "https://www.malleco7.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:22.310Z",
+          "last_checked": "2026-06-07T01:20:27.358Z",
           "status": "active",
           "verified": true
         }
@@ -1790,7 +1853,7 @@
           "name": "Angol Noticias",
           "rss_url": "https://www.angolnoticiasnew.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:22.961Z",
+          "last_checked": "2026-06-07T01:20:28.113Z",
           "status": "active",
           "verified": true
         }
@@ -1808,7 +1871,7 @@
           "name": "El Diario de La Araucanía",
           "rss_url": "https://www.eldiariodelaaraucania.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:24.618Z",
+          "last_checked": "2026-06-07T01:40:42.307Z",
           "status": "active",
           "verified": true
         }
@@ -1826,7 +1889,7 @@
           "name": "Noticias del Lago",
           "rss_url": "https://www.noticiasdellago.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:25.022Z",
+          "last_checked": "2026-06-07T01:21:01.885Z",
           "status": "active",
           "verified": true
         }
@@ -1844,7 +1907,7 @@
           "name": "Guardián del Sur",
           "rss_url": "https://www.guardiandelsur.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:26.387Z",
+          "last_checked": "2026-06-07T01:21:03.389Z",
           "status": "active",
           "verified": true
         }
@@ -1862,7 +1925,7 @@
           "name": "Diario Digital Los Lagos",
           "rss_url": "https://diarioloslagos.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:26.521Z",
+          "last_checked": "2026-06-07T01:21:03.509Z",
           "status": "active",
           "verified": true
         }
@@ -1880,7 +1943,7 @@
           "name": "Central Noticia",
           "rss_url": "https://www.centralnoticia.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:26.842Z",
+          "last_checked": "2026-06-07T01:21:03.906Z",
           "status": "active",
           "verified": true
         }
@@ -1898,7 +1961,7 @@
           "name": "País Lobo",
           "rss_url": "https://www.paislobo.cl/rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:27.451Z",
+          "last_checked": "2026-06-07T01:21:04.948Z",
           "status": "active",
           "verified": true
         }
@@ -1916,7 +1979,7 @@
           "name": "El Insular",
           "rss_url": "https://www.elinsular.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:28.889Z",
+          "last_checked": "2026-06-07T01:21:06.425Z",
           "status": "active",
           "verified": true
         }
@@ -1934,7 +1997,7 @@
           "name": "Noticias Chiloé",
           "rss_url": "https://www.noticiaschiloe.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:31.182Z",
+          "last_checked": "2026-06-07T01:21:08.314Z",
           "status": "active",
           "verified": true
         }
@@ -1952,7 +2015,7 @@
           "name": "Diario Puerto Varas",
           "rss_url": "https://www.diariopuertovaras.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:31.740Z",
+          "last_checked": "2026-06-07T01:21:08.901Z",
           "status": "active",
           "verified": true
         }
@@ -1970,7 +2033,7 @@
           "name": "El Calbucano",
           "rss_url": "https://www.elcalbucano.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:31.826Z",
+          "last_checked": "2026-06-07T01:21:08.955Z",
           "status": "active",
           "verified": true
         }
@@ -1988,7 +2051,7 @@
           "name": "El Huemul",
           "rss_url": "https://www.elhuemul.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:32.954Z",
+          "last_checked": "2026-06-07T01:21:09.987Z",
           "status": "active",
           "verified": true
         }
@@ -2006,7 +2069,7 @@
           "name": "La Opinión de Chiloé",
           "rss_url": "https://www.laopiniondechiloe.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:33.790Z",
+          "last_checked": "2026-06-07T01:21:10.785Z",
           "status": "active",
           "verified": true
         }
@@ -2024,7 +2087,7 @@
           "name": "Río en Línea",
           "rss_url": "https://www.rioenlinea.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:34.284Z",
+          "last_checked": "2026-06-07T01:21:11.236Z",
           "status": "active",
           "verified": true
         }
@@ -2042,7 +2105,7 @@
           "name": "Periódico Los Ríos",
           "rss_url": "https://www.periodicolosrios.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:38.085Z",
+          "last_checked": "2026-06-07T01:21:16.092Z",
           "status": "active",
           "verified": true
         }
@@ -2060,7 +2123,7 @@
           "name": "Los Ríos Noticias",
           "rss_url": "https://www.losriosnoticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:39.789Z",
+          "last_checked": "2026-06-07T01:21:17.464Z",
           "status": "active",
           "verified": true
         }
@@ -2078,7 +2141,7 @@
           "name": "Informa Al Minuto",
           "rss_url": "https://informaalminuto.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:40.486Z",
+          "last_checked": "2026-06-07T01:21:18.666Z",
           "status": "active",
           "verified": true
         }
@@ -2096,7 +2159,7 @@
           "name": "Noticias Los Ríos",
           "rss_url": "https://www.noticiaslosrios.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:42.195Z",
+          "last_checked": "2026-06-07T01:21:20.505Z",
           "status": "active",
           "verified": true
         }
@@ -2114,7 +2177,7 @@
           "name": "El Ranco",
           "rss_url": "https://www.diarioelranco.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:44.783Z",
+          "last_checked": "2026-06-07T01:21:23.922Z",
           "status": "active",
           "verified": true
         }
@@ -2132,7 +2195,7 @@
           "name": "Central Noticias",
           "rss_url": "https://centralnoticias.cl/?feed=rss2",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:45.546Z",
+          "last_checked": "2026-06-07T01:21:24.329Z",
           "status": "active",
           "verified": true
         }
@@ -2150,7 +2213,7 @@
           "name": "El Magalánico",
           "rss_url": "https://www.elmagallanico.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:46.870Z",
+          "last_checked": "2026-06-07T01:21:25.637Z",
           "status": "active",
           "verified": true
         }
@@ -2168,7 +2231,7 @@
           "name": "Ovejero Noticias",
           "rss_url": "https://www.ovejeronoticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:47.556Z",
+          "last_checked": "2026-06-07T01:21:26.934Z",
           "status": "active",
           "verified": true
         }
@@ -2186,7 +2249,7 @@
           "name": "Diálogo Sur",
           "rss_url": "https://dialogosur.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:48.386Z",
+          "last_checked": "2026-06-07T01:21:27.766Z",
           "status": "active",
           "verified": true
         }
@@ -2204,7 +2267,7 @@
           "name": "El Tirapiedras",
           "rss_url": "https://www.eltirapiedras.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:49.702Z",
+          "last_checked": "2026-06-07T01:21:28.853Z",
           "status": "active",
           "verified": true
         }
@@ -2222,7 +2285,7 @@
           "name": "El Centro",
           "rss_url": "https://www.diarioelcentro.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:50.711Z",
+          "last_checked": "2026-06-07T01:21:29.855Z",
           "status": "active",
           "verified": true
         }
@@ -2240,7 +2303,7 @@
           "name": "Atentos",
           "rss_url": "https://www.atentos.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:51.943Z",
+          "last_checked": "2026-06-07T01:21:30.929Z",
           "status": "active",
           "verified": true
         }
@@ -2258,7 +2321,7 @@
           "name": "El Maule Informa",
           "rss_url": "https://elmauleinforma.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:52.441Z",
+          "last_checked": "2026-06-07T01:21:31.669Z",
           "status": "active",
           "verified": true
         }
@@ -2276,7 +2339,7 @@
           "name": "Diario Talca",
           "rss_url": "https://diariotalca.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:53.235Z",
+          "last_checked": "2026-06-07T01:21:32.475Z",
           "status": "active",
           "verified": true
         }
@@ -2294,7 +2357,7 @@
           "name": "Maule Hoy",
           "rss_url": "https://maulehoy.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:55.115Z",
+          "last_checked": "2026-06-07T01:21:34.382Z",
           "status": "active",
           "verified": true
         }
@@ -2312,7 +2375,7 @@
           "name": "En Línea Maule",
           "rss_url": "https://enlineamaule.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:57.370Z",
+          "last_checked": "2026-06-07T01:21:36.315Z",
           "status": "active",
           "verified": true
         }
@@ -2330,7 +2393,7 @@
           "name": "El Heraldo",
           "rss_url": "https://www.diarioelheraldo.cl/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:58.715Z",
+          "last_checked": "2026-06-07T01:21:37.725Z",
           "status": "active",
           "verified": true
         }
@@ -2348,7 +2411,7 @@
           "name": "Linares en Línea",
           "rss_url": "https://www.linaresenlinea.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:19:59.165Z",
+          "last_checked": "2026-06-07T01:21:38.169Z",
           "status": "active",
           "verified": true
         }
@@ -2366,7 +2429,7 @@
           "name": "Linares Noticia",
           "rss_url": "https://www.linaresnoticia.cl/rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:00.488Z",
+          "last_checked": "2026-06-07T01:21:38.960Z",
           "status": "active",
           "verified": true
         }
@@ -2384,7 +2447,7 @@
           "name": "Diario Linares",
           "rss_url": "https://diariolinares.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:01.313Z",
+          "last_checked": "2026-06-07T01:21:40.011Z",
           "status": "active",
           "verified": true
         }
@@ -2402,7 +2465,7 @@
           "name": "Diario Curicó",
           "rss_url": "https://www.diariocurico.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:02.715Z",
+          "last_checked": "2026-06-07T01:21:41.062Z",
           "status": "active",
           "verified": true
         }
@@ -2420,7 +2483,7 @@
           "name": "Prensa Curicó",
           "rss_url": "https://www.prensacurico.cl/?feed=rss2",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:05.375Z",
+          "last_checked": "2026-06-07T01:21:43.849Z",
           "status": "active",
           "verified": true
         }
@@ -2438,7 +2501,7 @@
           "name": "Diario Cauquenes",
           "rss_url": "https://www.diariocauquenes.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:06.841Z",
+          "last_checked": "2026-06-07T01:21:45.591Z",
           "status": "active",
           "verified": true
         }
@@ -2456,7 +2519,7 @@
           "name": "CauquenesNet",
           "rss_url": "https://www.cauquenesnet.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:07.963Z",
+          "last_checked": "2026-06-07T01:21:48.225Z",
           "status": "active",
           "verified": true
         }
@@ -2474,7 +2537,7 @@
           "name": "Chillán Online",
           "rss_url": "https://www.chillanonline.cl/?feed=rss2",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:08.546Z",
+          "last_checked": "2026-06-07T01:21:48.914Z",
           "status": "active",
           "verified": true
         }
@@ -2492,7 +2555,7 @@
           "name": "Crónica Chillán",
           "rss_url": "https://www.cronicachillan.cl/?feed=rss2",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:09.772Z",
+          "last_checked": "2026-06-07T01:21:50.339Z",
           "status": "active",
           "verified": true
         }
@@ -2510,7 +2573,7 @@
           "name": "Ñuble Digital",
           "rss_url": "https://www.nubledigital.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:12.123Z",
+          "last_checked": "2026-06-07T01:21:52.922Z",
           "status": "active",
           "verified": true
         }
@@ -2528,7 +2591,7 @@
           "name": "El Sancarlino",
           "rss_url": "https://www.elsancarlino.cl/rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:12.695Z",
+          "last_checked": "2026-06-07T01:21:53.489Z",
           "status": "active",
           "verified": true
         }
@@ -2546,7 +2609,7 @@
           "name": "San Carlos On Line",
           "rss_url": "https://www.sancarlosonline.cl/rss.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:13.341Z",
+          "last_checked": "2026-06-07T01:21:54.106Z",
           "status": "active",
           "verified": true
         }
@@ -2564,7 +2627,7 @@
           "name": "San Carlos Al Día",
           "rss_url": "https://www.sancarlosaldia.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:16.202Z",
+          "last_checked": "2026-06-07T01:21:55.612Z",
           "status": "active",
           "verified": true
         }
@@ -2582,7 +2645,7 @@
           "name": "La Fontana",
           "rss_url": "https://www.lafontana.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:18.372Z",
+          "last_checked": "2026-06-07T01:21:56.992Z",
           "status": "active",
           "verified": true
         }
@@ -2600,7 +2663,7 @@
           "name": "El Pulso",
           "rss_url": "https://www.diarioelpulso.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:19.444Z",
+          "last_checked": "2026-06-07T01:21:58.121Z",
           "status": "active",
           "verified": true
         }
@@ -2618,7 +2681,7 @@
           "name": "La Noticia",
           "rss_url": "https://lanoticia.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:21.129Z",
+          "last_checked": "2026-06-07T01:22:00.290Z",
           "status": "active",
           "verified": true
         }
@@ -2636,7 +2699,7 @@
           "name": "Hora de Noticias",
           "rss_url": "https://horadenoticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:24.669Z",
+          "last_checked": "2026-06-07T01:22:03.199Z",
           "status": "active",
           "verified": true
         }
@@ -2654,7 +2717,7 @@
           "name": "El Cóndor",
           "rss_url": "https://diariocondor.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:24.721Z",
+          "last_checked": "2026-06-07T01:22:03.258Z",
           "status": "active",
           "verified": true
         }
@@ -2672,7 +2735,7 @@
           "name": "HDN",
           "rss_url": "https://www.hdn.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:26.407Z",
+          "last_checked": "2026-06-07T01:22:05.087Z",
           "status": "active",
           "verified": true
         }
@@ -2690,7 +2753,7 @@
           "name": "La Tribuna de Colchagua",
           "rss_url": "https://www.latribunadecolchagua.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:26.926Z",
+          "last_checked": "2026-06-07T01:22:05.617Z",
           "status": "active",
           "verified": true
         }
@@ -2708,7 +2771,7 @@
           "name": "El Longino",
           "rss_url": "https://www.diariolongino.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:27.965Z",
+          "last_checked": "2026-06-07T01:22:07.410Z",
           "status": "active",
           "verified": true
         }
@@ -2726,7 +2789,7 @@
           "name": "El Sol de Iquique",
           "rss_url": "https://www.elsoldeiquique.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:29.306Z",
+          "last_checked": "2026-06-07T01:22:08.769Z",
           "status": "active",
           "verified": true
         }
@@ -2744,7 +2807,7 @@
           "name": "El Reportero",
           "rss_url": "https://www.elreporterodeiquique.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:29.417Z",
+          "last_checked": "2026-06-07T01:22:10.657Z",
           "status": "active",
           "verified": true
         }
@@ -2762,7 +2825,7 @@
           "name": "Tarapacá Online",
           "rss_url": "https://www.tarapacaonline.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:30.118Z",
+          "last_checked": "2026-06-07T01:22:11.831Z",
           "status": "active",
           "verified": true
         }
@@ -2780,7 +2843,7 @@
           "name": "CEI Noticias",
           "rss_url": "https://ceinoticias.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:30.564Z",
+          "last_checked": "2026-06-07T01:22:12.560Z",
           "status": "active",
           "verified": true
         }
@@ -2798,7 +2861,7 @@
           "name": "El Nortino",
           "rss_url": "https://diarioelnortino.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:31.693Z",
+          "last_checked": "2026-06-07T01:22:13.685Z",
           "status": "active",
           "verified": true
         }
@@ -2816,7 +2879,7 @@
           "name": "Epicentro Chile",
           "rss_url": "https://www.epicentrochile.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:32.559Z",
+          "last_checked": "2026-06-07T01:22:14.609Z",
           "status": "active",
           "verified": true
         }
@@ -2834,7 +2897,7 @@
           "name": "La Quinta",
           "rss_url": "https://www.diariolaquinta.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:33.166Z",
+          "last_checked": "2026-06-07T01:22:15.423Z",
           "status": "active",
           "verified": true
         }
@@ -2852,7 +2915,7 @@
           "name": "La Región Hoy",
           "rss_url": "https://www.laregionhoy.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:34.611Z",
+          "last_checked": "2026-06-07T01:22:16.895Z",
           "status": "active",
           "verified": true
         }
@@ -2870,7 +2933,7 @@
           "name": "El Observador",
           "rss_url": "https://www.observador.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:36.467Z",
+          "last_checked": "2026-06-07T01:22:18.831Z",
           "status": "active",
           "verified": true
         }
@@ -2888,7 +2951,7 @@
           "name": "Más Noticia",
           "rss_url": "https://www.masnoticia.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:37.042Z",
+          "last_checked": "2026-06-07T01:22:19.386Z",
           "status": "active",
           "verified": true
         }
@@ -2906,7 +2969,7 @@
           "name": "El Trabajo",
           "rss_url": "https://www.eltrabajo.cl/?feed=rss2",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:37.472Z",
+          "last_checked": "2026-06-07T01:22:20.098Z",
           "status": "active",
           "verified": true
         }
@@ -2924,7 +2987,7 @@
           "name": "El Aconcagua",
           "rss_url": "https://www.elaconcagua.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:38.971Z",
+          "last_checked": "2026-06-07T01:22:21.605Z",
           "status": "active",
           "verified": true
         }
@@ -2942,7 +3005,7 @@
           "name": "Aconcagua Digital",
           "rss_url": "https://aconcaguadigital.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:39.708Z",
+          "last_checked": "2026-06-07T01:22:21.832Z",
           "status": "active",
           "verified": true
         }
@@ -2960,7 +3023,7 @@
           "name": "El Líder",
           "rss_url": "https://www.lidersanantonio.cl/?feed=rss2",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:40.952Z",
+          "last_checked": "2026-06-07T01:22:23.207Z",
           "status": "active",
           "verified": true
         }
@@ -2978,7 +3041,7 @@
           "name": "El Proa",
           "rss_url": "https://www.elproa.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:41.132Z",
+          "last_checked": "2026-06-07T01:22:23.953Z",
           "status": "active",
           "verified": true
         }
@@ -2996,7 +3059,7 @@
           "name": "El Informador",
           "rss_url": "https://www.elinformador.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:42.432Z",
+          "last_checked": "2026-06-07T01:22:25.126Z",
           "status": "active",
           "verified": true
         }
@@ -3014,7 +3077,7 @@
           "name": "La Hora",
           "rss_url": "https://www.lahora.cl/rss/global.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:42.909Z",
+          "last_checked": "2026-06-07T01:22:25.604Z",
           "status": "active",
           "verified": true
         }
@@ -3032,7 +3095,7 @@
           "name": "Datos Sur",
           "rss_url": "https://www.datossur.cl/index.php?format=feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:43.650Z",
+          "last_checked": "2026-06-07T01:22:26.341Z",
           "status": "active",
           "verified": true
         }
@@ -3050,7 +3113,7 @@
           "name": "Diario VI Región",
           "rss_url": "https://www.diarioviregion.cl/?format=feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-06T23:20:45.152Z",
+          "last_checked": "2026-06-07T01:22:28.103Z",
           "status": "active",
           "verified": true
         }
@@ -3067,7 +3130,106 @@
           "name": "Los Ríos Al Día",
           "rss_url": "https://www.losriosaldia.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-07T00:57:50.928Z",
+          "last_checked": "2026-06-07T01:22:28.188Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cep-chile",
+      "name": "CEP Chile",
+      "url": "https://www.cepchile.cl",
+      "category": "universities",
+      "description": "Centro de estudios e investigación dedicado al análisis de políticas públicas, economía y ciencias sociales en Chile.",
+      "feeds": [
+        {
+          "id": "cep-chile-main",
+          "name": "CEP Chile",
+          "rss_url": "https://www.cepchile.cl/feed",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:45:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "mercadopublico",
+      "name": "MercadoPublico",
+      "url": "http://www.mercadopublico.cl",
+      "category": "government",
+      "description": "Plataforma oficial de compras públicas y licitaciones del Estado de Chile.",
+      "feeds": [
+        {
+          "id": "mercadopublico-destacadas",
+          "name": "Licitaciones destacadas",
+          "rss_url": "http://www.mercadopublico.cl/Portal/feedrelevant.aspx",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:45:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "mercadopublico-convenio",
+          "name": "Licitaciones de convenio marco",
+          "rss_url": "http://www.mercadopublico.cl/Portal/feedinstitucion.aspx?qs=obQz-pFgoa_RoXw00app6Q==",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:45:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "suseso",
+      "name": "SUSESO",
+      "url": "https://www.suseso.gob.cl",
+      "category": "government",
+      "description": "Subsecretaría de Previsión Social del Gobierno de Chile",
+      "feeds": [
+        {
+          "id": "suseso-main",
+          "name": "SUSESO",
+          "rss_url": "https://www.suseso.gob.cl/601/rss3-channel.rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:45:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "diario-eldia",
+      "name": "Diario El Día",
+      "url": "https://www.diarioeldia.cl",
+      "category": "regional",
+      "description": "Diario regional de La Serena, Coquimbo",
+      "feeds": [
+        {
+          "id": "diario-eldia-noticias",
+          "name": "Diario El Día",
+          "rss_url": "https://www.diarioeldia.cl/rss/noticias",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:45:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "mch",
+      "name": "MCH",
+      "url": "https://www.mch.cl",
+      "category": "business",
+      "description": "MCH, medio de comunicación especializado en minería, construcción y energía",
+      "feeds": [
+        {
+          "id": "mch-main",
+          "name": "MCH",
+          "rss_url": "https://www.mch.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-07T01:45:00.000Z",
           "status": "active",
           "verified": true
         }
