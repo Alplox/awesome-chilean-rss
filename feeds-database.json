@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-07T02:28:45.414Z",
-  "total_feeds": 216,
+  "last_updated": "2026-06-08T05:38:45.491Z",
+  "total_feeds": 246,
   "categories": {
     "news": "📰 Noticias Nacionales",
     "government": "🏛️ Gobierno y Datos Públicos",
@@ -11,19 +11,20 @@
     "culture": "🎨 Cultura y Divulgación",
     "podcasts": "🎧 Podcasts",
     "opendata": "📋 Datos Públicos y Oficiales",
-    "community": "👥 Comunidad"
+    "community": "👥 Comunidad",
+    "sports": "⚽ Deportes"
   },
   "sites": [
     {
       "id": "as-chile",
       "name": "AS Chile",
       "url": "https://chile.as.com",
-      "category": "news",
+      "category": "sports",
       "description": "Diario online de deportes con noticias e información sobre fútbol y otros deportes en Chile",
       "feeds": [
         {
           "id": "as-chile-portada",
-          "name": "Portada",
+          "name": "AS Chile Portada",
           "rss_url": "https://as.com/rss/chile/portada.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-07T01:18:08.660Z",
@@ -32,7 +33,7 @@
         },
         {
           "id": "as-chile-futbol",
-          "name": "Fútbol",
+          "name": "AS Chile Fútbol",
           "rss_url": "https://as.com/rss/chile/futbol.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-07T01:18:09.565Z",
@@ -41,7 +42,7 @@
         },
         {
           "id": "as-chile-actualidad",
-          "name": "Actualidad",
+          "name": "AS Chile Actualidad",
           "rss_url": "https://as.com/rss/chile/actualidad.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-07T01:18:10.523Z",
@@ -144,7 +145,7 @@
       "id": "redgol",
       "name": "Redgol",
       "url": "https://www.redgol.cl",
-      "category": "news",
+      "category": "sports",
       "description": "Portal deportivo con cobertura de fútbol nacional e internacional y otros deportes",
       "feeds": [
         {
@@ -3489,20 +3490,308 @@
       ]
     },
     {
-      "id": "diario-eldia",
+      "id": "diario-el-dia",
       "name": "Diario El Día",
       "url": "https://www.diarioeldia.cl",
       "category": "regional",
       "description": "Diario regional de La Serena, Coquimbo",
       "feeds": [
         {
-          "id": "diario-eldia-noticias",
-          "name": "Diario El Día",
+          "id": "diario-el-dia-noticias",
+          "name": "Diario El Día Últimas noticias",
           "rss_url": "https://www.diarioeldia.cl/rss/noticias",
           "feed_type": "RSS",
-          "last_checked": "2026-06-07T01:45:00.000Z",
+          "last_checked": "2026-06-08T04:33:57.081Z",
           "status": "active",
           "verified": true
+        },
+        {
+          "id": "diario-el-dia-deportes",
+          "name": "Diario El Día Deportes",
+          "rss_url": "https://www.diarioeldia.cl/rss/deportes",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:33:57.448Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "diario-el-dia-economia",
+          "name": "Diario El Día Economía",
+          "rss_url": "https://www.diarioeldia.cl/rss/economia",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:33:57.660Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "diario-el-dia-sin-seccion",
+          "name": "Diario El Día Sin Sección",
+          "rss_url": "https://www.diarioeldia.cl/rss/sin-seccion",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:01.884Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-region",
+          "name": "Diario El Día Región",
+          "rss_url": "https://www.diarioeldia.cl/rss/region",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:01.937Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "diario-el-dia-magazine",
+          "name": "Diario El Día Magazine",
+          "rss_url": "https://www.diarioeldia.cl/rss/magazine",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:02.143Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "diario-el-dia-policial",
+          "name": "Diario El Día Policial",
+          "rss_url": "https://www.diarioeldia.cl/rss/policial",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:02.502Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "diario-el-dia-virales",
+          "name": "Diario El Día Virales",
+          "rss_url": "https://www.diarioeldia.cl/rss/virales",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:03.905Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-tendencias",
+          "name": "Diario El Día Tendencias",
+          "rss_url": "https://www.diarioeldia.cl/rss/tendencias",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:05.308Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-mundo",
+          "name": "Diario El Día Mundo",
+          "rss_url": "https://www.diarioeldia.cl/rss/mundo",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:06.976Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-pais",
+          "name": "Diario El Día País",
+          "rss_url": "https://www.diarioeldia.cl/rss/pais",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:07.335Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "diario-el-dia-comercial",
+          "name": "Diario El Día Comercial",
+          "rss_url": "https://www.diarioeldia.cl/rss/comercial",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:08.871Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-ciencia",
+          "name": "Diario El Día Ciencia",
+          "rss_url": "https://www.diarioeldia.cl/rss/ciencia",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:10.256Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-salud",
+          "name": "Diario El Día Salud",
+          "rss_url": "https://www.diarioeldia.cl/rss/salud",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:10.620Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "diario-el-dia-denuncia-ciudadana",
+          "name": "Diario El Día Denuncia Ciudadana",
+          "rss_url": "https://www.diarioeldia.cl/rss/denuncia-ciudadana",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:12.165Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-turismo",
+          "name": "Diario El Día Turismo",
+          "rss_url": "https://www.diarioeldia.cl/rss/turismo",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:13.696Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-empleo",
+          "name": "Diario El Día Empleo",
+          "rss_url": "https://www.diarioeldia.cl/rss/empleo",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:15.243Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-actualidad",
+          "name": "Diario El Día Actualidad",
+          "rss_url": "https://www.diarioeldia.cl/rss/actualidad",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:15.453Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "diario-el-dia-tiempo-libre",
+          "name": "Diario El Día Tiempo Libre",
+          "rss_url": "https://www.diarioeldia.cl/rss/tiempo-libre",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:17.021Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-dominga",
+          "name": "Diario El Día Dominga",
+          "rss_url": "https://www.diarioeldia.cl/rss/dominga",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:18.412Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-panorama",
+          "name": "Diario El Día Panorama",
+          "rss_url": "https://www.diarioeldia.cl/rss/panorama",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:19.983Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-aniversario-74-diario-el-dia",
+          "name": "Diario El Día Aniversario 74 diario El Día",
+          "rss_url": "https://www.diarioeldia.cl/rss/aniversario-74-diario-el-dia",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:21.377Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-educacion",
+          "name": "Diario El Día Educación",
+          "rss_url": "https://www.diarioeldia.cl/rss/educacion",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:23.066Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-varios",
+          "name": "Diario El Día Varios",
+          "rss_url": "https://www.diarioeldia.cl/rss/varios",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:24.438Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-fraudes",
+          "name": "Diario El Día Fraudes",
+          "rss_url": "https://www.diarioeldia.cl/rss/fraudes",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:25.816Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-salud-mental",
+          "name": "Diario El Día Salud Mental",
+          "rss_url": "https://www.diarioeldia.cl/rss/salud-mental",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:27.201Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-politica",
+          "name": "Diario El Día Política",
+          "rss_url": "https://www.diarioeldia.cl/rss/politica",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:27.418Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "diario-el-dia-femicidio",
+          "name": "Diario El Día Femicidio",
+          "rss_url": "https://www.diarioeldia.cl/rss/femicidio",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:28.787Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-incendio-forestal",
+          "name": "Diario El Día Incendio Forestal",
+          "rss_url": "https://www.diarioeldia.cl/rss/incendio-forestal",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:30.193Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-coquimbo",
+          "name": "Diario El Día Coquimbo",
+          "rss_url": "https://www.diarioeldia.cl/rss/coquimbo",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:31.739Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-opinion",
+          "name": "Diario El Día Opinión",
+          "rss_url": "https://www.diarioeldia.cl/rss/opinion",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:33.116Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-cartas-al-lector",
+          "name": "Diario El Día Cartas al Lector",
+          "rss_url": "https://www.diarioeldia.cl/rss/cartas-al-lector",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:34.647Z",
+          "status": "no_feed",
+          "verified": false
+        },
+        {
+          "id": "diario-el-dia-mineria-responsable",
+          "name": "Diario El Día Minería Responsable",
+          "rss_url": "https://www.diarioeldia.cl/rss/mineria-responsable",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:34:36.112Z",
+          "status": "no_feed",
+          "verified": false
         }
       ]
     },
@@ -3694,6 +3983,240 @@
           "verified": true
         }
       ]
+    },
+    {
+      "id": "terra-cl",
+      "name": "Terra Chile",
+      "url": "https://www.terra.cl",
+      "category": "news",
+      "description": "Portal de noticias generalista con cobertura nacional e internacional",
+      "feeds": [
+        {
+          "id": "terra-cl-main",
+          "name": "Terra Últimas Noticias",
+          "rss_url": "https://www.terra.cl/rss/feed.html",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T03:36:56.277Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "terra-cl-ultimas-noticias-con-imagenes",
+          "name": "Terra Últimas Noticias con imágenes",
+          "rss_url": "https://www.terra.cl/rss/un_foto.html",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T03:36:56.502Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "terra-cl-nacionales",
+          "name": "Terra Nacionales",
+          "rss_url": "https://www.terra.cl/rss/feed.html?r=1",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T03:36:56.308Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "terra-cl-mundo",
+          "name": "Terra Mundo",
+          "rss_url": "https://www.terra.cl/rss/feed.html?r=2",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T03:36:56.335Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "terra-cl-deportes",
+          "name": "Terra Deportes",
+          "rss_url": "https://www.terra.cl/rss/feed.html?r=3",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T03:36:56.365Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "terra-cl-estilo-de-vida",
+          "name": "Terra Estilo de vida",
+          "rss_url": "https://www.terra.cl/rss/feed.html?r=4",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T03:36:56.390Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "terra-cl-entretenimiento",
+          "name": "Terra Entretenimiento",
+          "rss_url": "https://www.terra.cl/rss/feed.html?r=5",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T03:36:56.416Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "terra-cl-tendencias",
+          "name": "Terra Tendencias",
+          "rss_url": "https://www.terra.cl/rss/feed.html?r=6",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T03:36:56.443Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "terra-cl-economia",
+          "name": "Terra Economía",
+          "rss_url": "https://www.terra.cl/rss/feed.html?r=7",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T03:36:56.467Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cooperativa",
+      "name": "Radio Cooperativa",
+      "url": "https://www.cooperativa.cl",
+      "category": "news",
+      "description": "Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional",
+      "feeds": [
+        {
+          "id": "cooperativa-corporativo",
+          "name": "Cooperativa Corporativo",
+          "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_16___1.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:09:26.211Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "cooperativa-cultura",
+          "name": "Cooperativa Cultura",
+          "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_5___1.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:09:26.233Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "cooperativa-deportes",
+          "name": "Cooperativa Deportes",
+          "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_1___1.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:09:26.251Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "cooperativa-economia",
+          "name": "Cooperativa Economía",
+          "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:09:26.285Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "cooperativa-entretencion",
+          "name": "Cooperativa Entretención",
+          "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_4___1.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:09:26.303Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "cooperativa-mundo",
+          "name": "Cooperativa Mundo",
+          "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:09:26.325Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "cooperativa-pais",
+          "name": "Cooperativa País",
+          "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_3___1.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:09:26.344Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "cooperativa-sociedad",
+          "name": "Cooperativa Sociedad",
+          "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_7___1.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:09:26.365Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "cooperativa-tecnologia",
+          "name": "Cooperativa Tecnología",
+          "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_8___1.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T04:09:26.385Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "voz-de-america",
+      "name": "Voz de América",
+      "url": "https://www.vozdeamerica.com/rssfeeds",
+      "category": "news",
+      "description": "La Voz de América es el medio de radiodifusión internacional del gobierno de los Estados Unidos, que ofrece noticias y programación en varios idiomas, incluyendo español.",
+      "feeds": [
+        {
+          "id": "voz-de-america-chile",
+          "name": "Voz de América - Chile",
+          "rss_url": "https://www.vozdeamerica.com/api/zri-qpl-vomx-tpeogrom",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T05:01:39.146Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "crtvchile",
+      "name": "CRTV Chile",
+      "url": "https://crtvchile.cl",
+      "category": "sports",
+      "description": "CRTV Chile es una plataforma multimedia con enfoque en disciplinas deportivas.",
+      "feeds": [
+        {
+          "id": "crtvchile-chile",
+          "name": "CRTV Chile",
+          "rss_url": "https://crtvchile.cl/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T05:26:36.146Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "al-aire-libre",
+      "name": "Al Aire Libre",
+      "url": "https://www.alairelibre.cl",
+      "category": "sports",
+      "description": "Medio chileno de noticias deportivas",
+      "feeds": [
+        {
+          "id": "al-aire-libre-main",
+          "name": "Al Aire Libre",
+          "rss_url": "https://www.alairelibre.cl/feed.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T05:38:45.490Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
     }
   ],
   "watchlist": [
@@ -3715,13 +4238,6 @@
       "id": "adnradio",
       "name": "ADN Radio",
       "url": "https://www.adnradio.cl",
-      "category": "news",
-      "reason": "Sin feed RSS detectado"
-    },
-    {
-      "id": "cooperativa",
-      "name": "Radio Cooperativa",
-      "url": "https://www.cooperativa.cl",
       "category": "news",
       "reason": "Sin feed RSS detectado"
     },
@@ -3782,13 +4298,6 @@
       "reason": "Sin feed RSS detectado"
     },
     {
-      "id": "radiobiobio",
-      "name": "Radio Bío-Bío",
-      "url": "https://www.radiobiobio.cl",
-      "category": "news",
-      "reason": "Sin feed RSS detectado"
-    },
-    {
       "id": "el-sur",
       "name": "El Sur",
       "url": "https://www.elsur.cl",
@@ -3836,20 +4345,6 @@
       "url": "https://www.eldivisadero.cl",
       "category": "regional",
       "reason": "XML malformado, no parseable"
-    },
-    {
-      "id": "terra-cl",
-      "name": "Terra Chile",
-      "url": "https://www.terra.cl",
-      "category": "news",
-      "reason": "Devuelve HTML en /rss/"
-    },
-    {
-      "id": "diarioeldia",
-      "name": "Diario El Día",
-      "url": "https://www.diarioeldia.cl",
-      "category": "regional",
-      "reason": "Devuelve HTML en /rss"
     },
     {
       "id": "diariolaprensa",
@@ -4416,6 +4911,20 @@
       "name": "USACH",
       "url": "https://www.usach.cl",
       "category": "universities",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "encancha",
+      "name": "Encancha",
+      "url": "https://www.encancha.cl/",
+      "category": "sports",
+      "reason": "Sin feed RSS detectado"
+    },
+    {
+      "id": "Ilustrado",
+      "name": "Ilustrado",
+      "url": "https://www.ilustrado.cl/",
+      "category": "news",
       "reason": "Sin feed RSS detectado"
     }
   ]

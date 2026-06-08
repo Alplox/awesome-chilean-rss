@@ -2,36 +2,33 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Feeds](https://img.shields.io/badge/feeds-216-blue)
+![Feeds](https://img.shields.io/badge/feeds-246-blue)
 
-> El directorio más completo de feeds RSS chilenos. 216 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 246 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/chilean-rss.opml`
 
-## 📝 Feeds disponibles (216)
+## 📝 Feeds disponibles (246)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 30 feeds
+- [📰 Noticias Nacionales](#cat-news) — 45 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 18 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 19 feeds
 - [🏫 Universidades e Investigación](#cat-universities) — 7 feeds
-- [🌎 Medios Regionales](#cat-regional) — 127 feeds
+- [🌎 Medios Regionales](#cat-regional) — 136 feeds
 - [💼 Negocios y Finanzas](#cat-business) — 3 feeds
 - [🎨 Cultura y Divulgación](#cat-culture) — 2 feeds
 - [👥 Comunidad](#cat-community) — 10 feeds
+- [⚽ Deportes](#cat-sports) — 6 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (30 feeds)
+### 📰 Noticias Nacionales (45 feeds)
 
-- **AS Chile** — Diario online de deportes con noticias e información sobre fútbol y otros deportes en Chile
-  - Portada: `https://as.com/rss/chile/portada.xml`
-  - Fútbol: `https://as.com/rss/chile/futbol.xml`
-  - Actualidad: `https://as.com/rss/chile/actualidad.xml`
 - **BioBioChile**: Portal de noticias generales con cobertura nacional e internacional
   - RSS: `https://feeds.feedburner.com/radiobiobio/NNeJ`
 - **Cambio21**: Medio digital de noticias nacionales e internacionales
@@ -72,12 +69,32 @@
   - RSS: `https://www.latercera.com/rss/`
 - **Piensa Chile**: Portal de análisis, opinión y noticias nacionales
   - RSS: `https://piensachile.com/feed/`
-- **Redgol**: Portal deportivo con cobertura de fútbol nacional e internacional y otros deportes
-  - RSS: `https://redgol.cl/rss/feed`
+- **Radio Cooperativa** — Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional
+  - Cooperativa Corporativo: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_16___1.xml`
+  - Cooperativa Cultura: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_5___1.xml`
+  - Cooperativa Deportes: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_1___1.xml`
+  - Cooperativa Economía: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml`
+  - Cooperativa Entretención: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_4___1.xml`
+  - Cooperativa Mundo: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml`
+  - Cooperativa País: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_3___1.xml`
+  - Cooperativa Sociedad: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_7___1.xml`
+  - Cooperativa Tecnología: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_8___1.xml`
 - **Santiago Times**: Noticias de Chile en inglés
   - RSS: `https://santiagotimes.cl/feed/`
+- **Terra Chile** — Portal de noticias generalista con cobertura nacional e internacional
+  - Terra Últimas Noticias: `https://www.terra.cl/rss/feed.html`
+  - Terra Últimas Noticias con imágenes: `https://www.terra.cl/rss/un_foto.html`
+  - Terra Nacionales: `https://www.terra.cl/rss/feed.html?r=1`
+  - Terra Mundo: `https://www.terra.cl/rss/feed.html?r=2`
+  - Terra Deportes: `https://www.terra.cl/rss/feed.html?r=3`
+  - Terra Estilo de vida: `https://www.terra.cl/rss/feed.html?r=4`
+  - Terra Entretenimiento: `https://www.terra.cl/rss/feed.html?r=5`
+  - Terra Tendencias: `https://www.terra.cl/rss/feed.html?r=6`
+  - Terra Economía: `https://www.terra.cl/rss/feed.html?r=7`
 - **The Clinic**: Periódico digital de análisis político, reportajes e investigación
   - RSS: `https://www.theclinic.cl/feed/`
+- **Voz de América**: La Voz de América es el medio de radiodifusión internacional del gobierno de los Estados Unidos, que ofrece noticias y programación en varios idiomas, incluyendo español.
+  - RSS: `https://www.vozdeamerica.com/api/zri-qpl-vomx-tpeogrom`
 
 [↑ Volver al índice](#indice)
 
@@ -180,7 +197,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (127 feeds)
+### 🌎 Medios Regionales (136 feeds)
 
 - **Aconcagua Digital**: Diario regional de San Felipe, Valparaíso
   - RSS: `https://aconcaguadigital.cl/feed/`
@@ -244,8 +261,17 @@
   - RSS: `https://www.diariocurico.cl/feed/`
 - **Diario Digital Los Lagos**: Diario regional de Puerto Montt, Los Lagos
   - RSS: `https://diarioloslagos.cl/feed/`
-- **Diario El Día**: Diario regional de La Serena, Coquimbo
-  - RSS: `https://www.diarioeldia.cl/rss/noticias`
+- **Diario El Día** — Diario regional de La Serena, Coquimbo
+  - Diario El Día Últimas noticias: `https://www.diarioeldia.cl/rss/noticias`
+  - Diario El Día Deportes: `https://www.diarioeldia.cl/rss/deportes`
+  - Diario El Día Economía: `https://www.diarioeldia.cl/rss/economia`
+  - Diario El Día Región: `https://www.diarioeldia.cl/rss/region`
+  - Diario El Día Magazine: `https://www.diarioeldia.cl/rss/magazine`
+  - Diario El Día Policial: `https://www.diarioeldia.cl/rss/policial`
+  - Diario El Día País: `https://www.diarioeldia.cl/rss/pais`
+  - Diario El Día Salud: `https://www.diarioeldia.cl/rss/salud`
+  - Diario El Día Actualidad: `https://www.diarioeldia.cl/rss/actualidad`
+  - Diario El Día Política: `https://www.diarioeldia.cl/rss/politica`
 - **Diario Linares**: Diario regional de Linares, Maule
   - RSS: `https://diariolinares.cl/feed/`
 - **Diario Puerto Varas**: Diario regional de Puerto Varas, Los Lagos
@@ -479,6 +505,22 @@
   - r/Santiago: `https://www.reddit.com/r/Santiago/.rss`
 - **Vanguardia Gamer**: Comunidad y noticias de videojuegos en Chile
   - RSS: `https://vanguardiagamer.cl/feed/`
+
+[↑ Volver al índice](#indice)
+
+<a id="cat-sports"></a>
+### ⚽ Deportes (6 feeds)
+
+- **Al Aire Libre**: Medio chileno de noticias deportivas
+  - RSS: `https://www.alairelibre.cl/feed.xml`
+- **AS Chile** — Diario online de deportes con noticias e información sobre fútbol y otros deportes en Chile
+  - AS Chile Portada: `https://as.com/rss/chile/portada.xml`
+  - AS Chile Fútbol: `https://as.com/rss/chile/futbol.xml`
+  - AS Chile Actualidad: `https://as.com/rss/chile/actualidad.xml`
+- **CRTV Chile**: CRTV Chile es una plataforma multimedia con enfoque en disciplinas deportivas.
+  - RSS: `https://crtvchile.cl/rss`
+- **Redgol**: Portal deportivo con cobertura de fútbol nacional e internacional y otros deportes
+  - RSS: `https://redgol.cl/rss/feed`
 
 [↑ Volver al índice](#indice)
 
