@@ -12,6 +12,8 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 |                                          | `npm run validate -- --update`                 | Revalida feeds, redescubre URLs rotas y actualiza feeds-database.json          |
 |                                          | `npm run validate -- --id <site-id>`            | Valida solo un sitio específico por su ID                                      |
 |                                          | `npm run validate -- --id <site-id> --update`  | Valida y actualiza solo un sitio específico                                    |
+|                                          | `npm run validate -- --url <URL>`               | Valida una URL específica (feed o sitio) sin modificar BD          |
+|                                          | `npm run validate -- --watchlist`               | Valida solo los sitios en la watchlist (retest rápido)             |
 | `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json` y regenera `chilean-rss.opml` y `README.md`         |
 
 ### Scripts de validación (validation/)
@@ -25,7 +27,8 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 
 | Script                                      | Comando                                                 | Propósito                                                          |
 |----------------------------------------------|---------------------------------------------------------|--------------------------------------------------------------------|
-| `scripts/utils/verify-feeds.js`              | `node scripts/utils/verify-feeds.js <feeds.json>`        | Script genérico para verificar feeds RSS/Atom desde un archivo JSON |
+| `scripts/utils/verify-feeds.js`              | `node scripts/utils/verify-feeds.js <feeds.json>`        | Verifica feeds RSS/Atom desde un archivo JSON                       |
+|                                              | `node scripts/utils/verify-feeds.js <URL>`              | Verifica una URL de feed específica directamente        |
 
 ### Flujo de trabajo
 
@@ -64,6 +67,37 @@ npm run validate
 # Validaciones individuales (usadas por CI)
 npm run validate:json
 npm run validate:opml
+```
+
+## 🆕 Modos de Validación
+
+### Validar una URL específica
+
+```bash
+# Valida un feed o sitio sin modificar la BD
+npm run validate -- --url https://ejemplo.com/feed.xml
+npm run validate -- --url https://ejemplo.com
+```
+
+Útil para testear feeds individuales antes de agregarlos.
+
+### Validar watchlist
+
+```bash
+# Retest rápido de sitios en espera
+npm run validate -- --watchlist
+```
+
+Valida solo los 100+ sitios de la watchlist. Muestra cuáles ahora tienen feed.
+
+### Verificar feed directamente
+
+```bash
+# Verifica una URL desde verify-feeds.js
+node scripts/utils/verify-feeds.js https://ejemplo.com/feed.xml
+
+# Verifica un archivo de feeds JSON
+node scripts/utils/verify-feeds.js feed-test.json
 ```
 
 ## Estructura de feeds-database.json

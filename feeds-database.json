@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-08T05:38:45.491Z",
-  "total_feeds": 246,
+  "last_updated": "2026-06-08T20:44:45.224Z",
+  "total_feeds": 287,
   "categories": {
     "news": "📰 Noticias Nacionales",
     "government": "🏛️ Gobierno y Datos Públicos",
@@ -110,14 +110,167 @@
       "name": "La Tercera",
       "url": "https://www.latercera.com",
       "category": "news",
-      "description": "Diario de referencia con cobertura nacional, internacional y económica",
+      "description": "Diario con cobertura nacional, internacional y económica",
       "feeds": [
         {
           "id": "la-tercera-main",
           "name": "La Tercera",
           "rss_url": "https://www.latercera.com/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-07T01:18:16.397Z",
+          "last_checked": "2026-06-08T19:16:33.449Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-nacional",
+          "name": "La Tercera Nacional",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/nacional/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:34.347Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-politica",
+          "name": "La Tercera Política",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/politica/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:35.316Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-servicios",
+          "name": "La Tercera Servicios",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:35.898Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-tendencias",
+          "name": "La Tercera Tendencias",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:36.468Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-tecnologia",
+          "name": "La Tercera Tecnología",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/tecnologia/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:37.078Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-pulso",
+          "name": "La Tercera Pulso",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:38.425Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-mineria",
+          "name": "La Tercera Minería",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/mineria/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:38.998Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-editorial",
+          "name": "La Tercera Editorial",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/editorial/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:39.523Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-opinion",
+          "name": "La Tercera Opinión",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/opinion/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:39.632Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-cartas-al-director",
+          "name": "La Tercera Cartas al Director",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/cartas-al-director/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:40.564Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-culto",
+          "name": "La Tercera Culto",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:40.617Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-finde",
+          "name": "La Tercera Finde",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/finde/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:41.570Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-paula",
+          "name": "La Tercera Revista Paula",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/paula/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:42.091Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-sociales",
+          "name": "La Tercera Sociales",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/sociales/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:43.005Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-lt-board",
+          "name": "La Tercera Board",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/lt-board/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:43.995Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-el-deportivo",
+          "name": "La Tercera El Deportivo",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/el-deportivo/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:44.779Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-tercera-mundo",
+          "name": "La Tercera Mundo",
+          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:16:46.042Z",
           "status": "active",
           "verified": true
         }
@@ -384,10 +537,28 @@
       "feeds": [
         {
           "id": "criptonoticias-chile-main",
-          "name": "Bitcoin en Chile",
+          "name": "CriptoNoticias",
+          "rss_url": "https://www.criptonoticias.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:29:42.458Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "criptonoticias-chile-comments",
+          "name": "CriptoNoticias Comentarios",
+          "rss_url": "https://www.criptonoticias.com/comments/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T19:29:42.654Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "criptonoticias-chile-bitcoin-chile",
+          "name": "CriptoNoticias Bitcoin en Chile",
           "rss_url": "https://www.criptonoticias.com/etiquetas/bitcoin-chile/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-07T02:28:45.414Z",
+          "last_checked": "2026-06-08T19:29:42.884Z",
           "status": "active",
           "verified": true
         }
@@ -434,7 +605,7 @@
       "name": "Entreprenerd",
       "url": "https://www.entnerd.com",
       "category": "technology",
-      "description": "Medio de referencia para el ecosistema de innovación, startups y tecnología en Chile",
+      "description": "Medio enfocado en innovación, startups y tecnología en Latinoamérica y Europa",
       "feeds": [
         {
           "id": "entreprenerd-main",
@@ -613,24 +784,6 @@
           "rss_url": "https://www.ladiscusion.cl/rss",
           "feed_type": "RSS",
           "last_checked": "2026-06-07T01:18:32.442Z",
-          "status": "active",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "id": "pulso",
-      "name": "Pulso",
-      "url": "https://www.pulso.cl",
-      "category": "business",
-      "description": "Medio de negocios y economía",
-      "feeds": [
-        {
-          "id": "pulso-main",
-          "name": "Pulso",
-          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml",
-          "feed_type": "RSS",
-          "last_checked": "2026-06-07T01:18:32.562Z",
           "status": "active",
           "verified": true
         }
@@ -4217,6 +4370,240 @@
           "verified": true
         }
       ]
+    },
+    {
+      "id": "el-marino",
+      "name": "El Marino",
+      "url": "https://www.diarioelmarino.cl",
+      "category": "regional",
+      "description": "Diario regional de Pichilemu, O'Higgins",
+      "feeds": [
+        {
+          "id": "el-marino-nacional",
+          "name": "El Marino Nacional",
+          "rss_url": "https://www.diarioelmarino.cl/nacional/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:27.561Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-colchagua",
+          "name": "El Marino Colchagua",
+          "rss_url": "https://www.diarioelmarino.cl/colchagua/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:27.901Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-cardenal-caro",
+          "name": "El Marino Cardenal Caro",
+          "rss_url": "https://www.diarioelmarino.cl/cardenal-caro/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:28.992Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-valparaiso",
+          "name": "El Marino Valparaíso",
+          "rss_url": "https://www.diarioelmarino.cl/valparaiso/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:29.672Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-opinion",
+          "name": "El Marino Opinión",
+          "rss_url": "https://www.diarioelmarino.cl/opinion/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:30.437Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-sociedad",
+          "name": "El Marino Sociedad",
+          "rss_url": "https://www.diarioelmarino.cl/sociedad/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:31.661Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-cultura-entretenimiento",
+          "name": "El Marino Cultura y Entretenimiento",
+          "rss_url": "https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:32.486Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-deporte",
+          "name": "El Marino Deporte",
+          "rss_url": "https://www.diarioelmarino.cl/deporte/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:33.275Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-politica",
+          "name": "El Marino Política",
+          "rss_url": "https://www.diarioelmarino.cl/politica/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:34.442Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-editorial",
+          "name": "El Marino Editorial",
+          "rss_url": "https://www.diarioelmarino.cl/editorial/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:35.223Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-cartas-al-director",
+          "name": "El Marino Cartas al Director",
+          "rss_url": "https://www.diarioelmarino.cl/cartas-al-director/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:36.613Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-marino-legales",
+          "name": "El Marino Legales",
+          "rss_url": "https://www.diarioelmarino.cl/legales/feed/rss/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:26:37.417Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ilustrado",
+      "name": "Ilustrado",
+      "url": "https://www.ilustrado.cl/",
+      "category": "news",
+      "description": "Medio de comunicación digital de noticias culturales y de entretenimiento",
+      "feeds": [
+        {
+          "id": "ilustrado-main",
+          "name": "Ilustrado",
+          "rss_url": "https://www.ilustrado.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:31:11.296Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "la-cuarta",
+      "name": "La Cuarta",
+      "url": "https://www.lacuarta.com",
+      "category": "news",
+      "description": "Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención.",
+      "feeds": [
+        {
+          "id": "la-cuarta-chile",
+          "name": "La Cuarta Chile",
+          "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/chile/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:44:34.618Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-cuarta-deportes",
+          "name": "La Cuarta Deportes",
+          "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:44:37.163Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-cuarta-tendencias",
+          "name": "La Cuarta Tendencias",
+          "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:44:39.686Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-cuarta-servicios",
+          "name": "La Cuarta Servicios",
+          "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:44:41.481Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-cuarta-videos",
+          "name": "La Cuarta Videos",
+          "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/videos/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:44:42.298Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-cuarta-mundo",
+          "name": "La Cuarta Mundo",
+          "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:44:43.380Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-cuarta-servicios",
+          "name": "La Cuarta Servicios",
+          "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:44:43.424Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-cuarta-urbana",
+          "name": "La Cuarta Urbana",
+          "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/urbana/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:44:43.961Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-cuarta-espectaculos",
+          "name": "La Cuarta Espectáculos",
+          "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/espectaculos/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:44:45.184Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "la-cuarta-glamorama",
+          "name": "La Cuarta Glamorama",
+          "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/glamorama/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-08T20:44:45.224Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
     }
   ],
   "watchlist": [
@@ -4259,13 +4646,6 @@
       "id": "meganoticias",
       "name": "Meganoticias",
       "url": "https://www.meganoticias.cl",
-      "category": "news",
-      "reason": "Sin feed RSS detectado"
-    },
-    {
-      "id": "la-cuarta",
-      "name": "La Cuarta",
-      "url": "https://www.lacuarta.com",
       "category": "news",
       "reason": "Sin feed RSS detectado"
     },
@@ -4844,13 +5224,6 @@
       "reason": "Sin feed RSS detectado"
     },
     {
-      "id": "el-marino",
-      "name": "El Marino",
-      "url": "https://www.diarioelmarino.cl",
-      "category": "regional",
-      "reason": "Sin feed RSS detectado"
-    },
-    {
       "id": "soyiquique",
       "name": "SoyIquique",
       "url": "https://www.soyiquique.cl",
@@ -4918,13 +5291,6 @@
       "name": "Encancha",
       "url": "https://www.encancha.cl/",
       "category": "sports",
-      "reason": "Sin feed RSS detectado"
-    },
-    {
-      "id": "Ilustrado",
-      "name": "Ilustrado",
-      "url": "https://www.ilustrado.cl/",
-      "category": "news",
       "reason": "Sin feed RSS detectado"
     }
   ]

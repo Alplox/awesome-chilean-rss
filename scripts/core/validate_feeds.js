@@ -14,11 +14,15 @@
  *
  * Uso: node validate_feeds.js [--update]
  *      node validate_feeds.js --id <site-id> [--update]
+ *      node validate_feeds.js --watchlist [--update]
+ *      node validate_feeds.js --url <URL>
  *      npm run validate
  *
  * Opciones:
- *   --update  Actualiza feeds-database.json con correcciones y redescubrimientos
- *             Por defecto solo valida sin modificar el archivo
+ *   --update     Actualiza feeds-database.json con correcciones y redescubrimientos
+ *                Por defecto solo valida sin modificar el archivo
+ *   --watchlist  Solo valida los elementos en la watchlist (retest rápido)
+ *   --url <URL>  Valida una URL específica directamente (test único)
  */
 
 import { readFileSync, writeFileSync } from 'fs';
@@ -42,6 +46,21 @@ const FEED_PATTERNS = [
   '/index.xml',
   '/feeds',
   '/feeds/',
+
+  // '.rss', // reddit
+  // '/forums/-/index.rss ', // capa9
+
+  '/rss/chile/portada.xml', // as-chile
+  '/comments/feed/', // criptonoticias-chile
+
+  '/category/blog/feed/', // alianza-ciberseguridad
+  '/blog/feed/', // netsus
+
+  '/rss/global.xml', // entreprenerd
+
+  '/deporte/feed/rss/', // el-marino
+  '/arc/outboundfeeds/rss/category/chile/?outputType=xml', // la-tercera
+  '/noticias/feed/rss/'  // gobierno-chile
 ];
 
 // ─── Detección de feeds ───────────────────────────────────────────────────────
@@ -138,6 +157,122 @@ async function rediscoverFeed(siteUrl) {
   return { error: 'sin feed RSS detectado', code: null };
 }
 
+// ─── Modo: URL única ──────────────────────────────────────────────────────────
+
+async function validateSingleUrl(url) {
+  console.log(`🔍 Validando URL: ${url}\n`);
+  
+  // Primero intenta como feed directo
+  const feedResult = await checkFeedUrl(url);
+  if (feedResult.type) {
+    console.log(`✅ Feed válido: ${feedResult.type}`);
+    console.log(`   Items: ${feedResult.itemCount}`);
+    console.log(`   Timeout: ${feedResult.timeout}ms\n`);
+    return;
+  }
+
+  // Si no es feed directo, intenta redescubrir desde la URL como sitio base
+  console.log(`ℹ️  No es un feed directo, intentando redescubrir desde el sitio...\n`);
+  
+  const siteStatus = await checkSiteStatus(url);
+  if (siteStatus === 'down') {
+    console.log(`❌ El sitio no responde (${url})`);
+    return;
+  }
+
+  process.stdout.write('🔍 Redescubriendo feeds... ');
+  const found = await rediscoverFeed(url);
+  
+  if (found.feedUrl) {
+    console.log(`\n✅ Feed encontrado:\n`);
+    console.log(`   URL: ${found.feedUrl}`);
+    console.log(`   Tipo: ${found.feedType}`);
+    console.log(`   Items: ${found.itemCount}\n`);
+  } else {
+    const errorMsg = found.code ? `${found.error} (${found.code})` : found.error;
+    console.log(`\n❌ ${errorMsg}`);
+  }
+}
+
+// ─── Modo: Watchlist ──────────────────────────────────────────────────────────
+
+async function validateWatchlist(db, shouldUpdate) {
+  if (!db.watchlist?.length) {
+    console.log(`⚠️  No hay sitios en la watchlist\n`);
+    return;
+  }
+
+  console.log(`🔭 Validando ${db.watchlist.length} sitios de watchlist\n`);
+  console.log('='.repeat(55));
+
+  const promoted = [];
+  const errors = { noResponse: [], httpError: [], emptyFeed: [], noFeed: [] };
+
+  for (const entry of db.watchlist) {
+    process.stdout.write(`🔍 ${entry.name}... `);
+    const result = await rediscoverFeed(entry.url);
+
+    if (result.feedUrl) {
+      console.log(`🎉 feed encontrado!`);
+      console.log(`   URL: ${result.feedUrl} [${result.feedType}]`);
+      console.log(`   Items: ${result.itemCount}\n`);
+      promoted.push({ entry, found: result });
+    } else {
+      const errorMsg = result.code
+        ? `${result.error} (${result.code})`
+        : result.error;
+      console.log(`❌ ${errorMsg}`);
+
+      // Categorizar errores para resumen
+      if (result.error === 'sitio no responde') {
+        errors.noResponse.push(entry.name);
+      } else if (result.error === 'HTTP error') {
+        errors.httpError.push(`${entry.name} (${result.code})`);
+      } else if (result.error === 'feed vacío o sin items') {
+        errors.emptyFeed.push(entry.name);
+      } else {
+        errors.noFeed.push(entry.name);
+      }
+    }
+  }
+
+  // Resumen
+  console.log('='.repeat(55));
+
+  if (promoted.length) {
+    console.log(`\n✅ ${promoted.length} sitio(s) en watchlist con feed encontrado:\n`);
+    for (const { entry, found } of promoted) {
+      console.log(`  ${entry.name} (${entry.category})`);
+      console.log(`  URL sitio : ${entry.url}`);
+      console.log(`  Feed URL  : ${found.feedUrl} [${found.feedType}]`);
+      if (shouldUpdate) {
+        console.log(`  → Agregálo a 'sites' en feeds-database.json\n`);
+      }
+    }
+  }
+
+  // Resumen de errores
+  if (errors.noResponse.length || errors.httpError.length || errors.emptyFeed.length || errors.noFeed.length) {
+    console.log(`\n❌ Resumen de watchlist:\n`);
+    if (errors.noResponse.length) {
+      console.log(`   🔴 No responden: ${errors.noResponse.length}`);
+      errors.noResponse.forEach(name => console.log(`      • ${name}`));
+    }
+    if (errors.httpError.length) {
+      console.log(`   🟡 HTTP errors: ${errors.httpError.length}`);
+      errors.httpError.forEach(name => console.log(`      • ${name}`));
+    }
+    if (errors.emptyFeed.length) {
+      console.log(`   ⚠️  Feed vacío: ${errors.emptyFeed.length}`);
+      errors.emptyFeed.forEach(name => console.log(`      • ${name}`));
+    }
+    if (errors.noFeed.length) {
+      console.log(`   🔵 Sin feed RSS: ${errors.noFeed.length}`);
+      errors.noFeed.forEach(name => console.log(`      • ${name}`));
+    }
+  }
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -145,8 +280,29 @@ async function main() {
 
   // Parsear argumentos de línea de comandos
   const args = process.argv.slice(2);
-  const targetId = args.includes('--id') ? args[args.indexOf('--id') + 1] : null;
   const shouldUpdate = args.includes('--update');
+  
+  // Detectar modo
+  const hasWatchlistMode = args.includes('--watchlist');
+  const hasUrlMode = args.includes('--url');
+  const targetId = args.includes('--id') ? args[args.indexOf('--id') + 1] : null;
+  const targetUrl = hasUrlMode ? args[args.indexOf('--url') + 1] : null;
+
+  // Modo 1: URL única
+  if (hasUrlMode) {
+    if (!targetUrl) {
+      console.error('❌ Error: --url requiere una URL');
+      process.exit(1);
+    }
+    await validateSingleUrl(targetUrl);
+    return;
+  }
+
+  // Modo 2: Watchlist
+  if (hasWatchlistMode) {
+    await validateWatchlist(db, shouldUpdate);
+    return;
+  }
 
   // Filtrar sitios si se especifica un ID
   let sitesToValidate = db.sites;
@@ -269,75 +425,6 @@ async function main() {
     console.log(`\n💾 feeds-database.json actualizado (${db.sites.length} sitios, ${activeFeedCount} feeds activos)`);
   } else {
     console.log(`\nℹ️  Modo solo-validación: usa --update para aplicar cambios a feeds-database.json`);
-  }
-
-  // ─── Reintentar watchlist ──────────────────────────────────────────────────
-
-  // Saltar watchlist si se está validando solo un ID específico o en modo solo-validación
-  if (targetId) return;
-  if (!shouldUpdate) return;
-  if (!db.watchlist?.length) return;
-
-  console.log(`\n${'='.repeat(55)}`);
-  console.log(`\n🔭 Reintentando ${db.watchlist.length} sitios en watchlist...\n`);
-
-  const promoted = [];
-  const errors = { noResponse: [], httpError: [], emptyFeed: [], noFeed: [] };
-
-  for (const entry of db.watchlist) {
-    process.stdout.write(`🔍 ${entry.name}... `);
-    const result = await rediscoverFeed(entry.url);
-
-    if (result.feedUrl) {
-      console.log(`🎉 feed encontrado: ${result.feedUrl}`);
-      promoted.push({ entry, found: result });
-    } else {
-      const errorMsg = result.code
-        ? `${result.error} (${result.code})`
-        : result.error;
-      console.log(`— ${errorMsg}`);
-
-      // Categorizar errores para resumen
-      if (result.error === 'sitio no responde') {
-        errors.noResponse.push(entry.name);
-      } else if (result.error === 'HTTP error') {
-        errors.httpError.push(`${entry.name} (${result.code})`);
-      } else if (result.error === 'feed vacío o sin items') {
-        errors.emptyFeed.push(entry.name);
-      } else {
-        errors.noFeed.push(entry.name);
-      }
-    }
-  }
-
-  if (promoted.length) {
-    console.log(`\n🎉 ${promoted.length} sitio(s) de watchlist ahora tienen feed. Agrégalos a 'sites':`);
-    for (const { entry, found } of promoted) {
-      console.log(`\n  ${entry.name} (${entry.category})`);
-      console.log(`  URL sitio : ${entry.url}`);
-      console.log(`  Feed URL  : ${found.feedUrl} [${found.feedType}]`);
-    }
-  }
-
-  // Resumen de errores en watchlist
-  if (errors.noResponse.length || errors.httpError.length || errors.emptyFeed.length || errors.noFeed.length) {
-    console.log(`\n❌ Resumen de watchlist (${db.watchlist.length} sitios):`);
-    if (errors.noResponse.length) {
-      console.log(`   🔴 Sitios no responden: ${errors.noResponse.length}`);
-      errors.noResponse.forEach(name => console.log(`      • ${name}`));
-    }
-    if (errors.httpError.length) {
-      console.log(`   🟡 HTTP errors: ${errors.httpError.length}`);
-      errors.httpError.forEach(name => console.log(`      • ${name}`));
-    }
-    if (errors.emptyFeed.length) {
-      console.log(`   ⚠️  Feed vacío/sin items: ${errors.emptyFeed.length}`);
-      errors.emptyFeed.forEach(name => console.log(`      • ${name}`));
-    }
-    if (errors.noFeed.length) {
-      console.log(`   🔵 Sin feed RSS: ${errors.noFeed.length}`);
-      errors.noFeed.forEach(name => console.log(`      • ${name}`));
-    }
   }
 }
 

@@ -3,7 +3,10 @@
  * verify-feeds.js
  * 
  * Script genérico para verificar feeds RSS/Atom.
- * Uso: node scripts/utils/verify-feeds.js <feeds.json>
+ * 
+ * Uso:
+ *   node scripts/utils/verify-feeds.js <feeds.json>
+ *   node scripts/utils/verify-feeds.js https://ejemplo.com/feed.xml
  * 
  * Formato de feeds.json:
  * [
@@ -18,9 +21,16 @@ import { readFileSync, writeFileSync } from 'fs';
 // Obtener argumentos de línea de comandos
 const args = process.argv.slice(2);
 
+// Detectar si es una URL directa o un archivo JSON
+let isDirectUrl = false;
+let feedsFile = null;
+let feeds = null;
+
 if (args.length === 0) {
-  console.error('❌ Error: Debes especificar un archivo JSON con los feeds a verificar');
-  console.error('Uso: node scripts/utils/verify-feeds.js <feeds.json>');
+  console.error('❌ Error: Debes especificar un archivo JSON o una URL');
+  console.error('Uso:');
+  console.error('  node scripts/utils/verify-feeds.js <feeds.json>');
+  console.error('  node scripts/utils/verify-feeds.js https://ejemplo.com/feed.xml');
   console.error('\nEjemplo de feeds.json:');
   console.error(JSON.stringify([
     { name: 'Feed 1', url: 'https://ejemplo.com/feed.xml' },
@@ -29,12 +39,24 @@ if (args.length === 0) {
   process.exit(1);
 }
 
-const feedsFile = args[0];
+const input = args[0];
+
+// Verificar si es una URL
+if (input.startsWith('http://') || input.startsWith('https://')) {
+  isDirectUrl = true;
+  const urlObj = new URL(input);
+  feeds = [{ name: urlObj.hostname, url: input }];
+  console.log(`🔍 Verificando feed directo: ${input}\n`);
+} else {
+  feedsFile = input;
+  console.log(`🔍 Verificando feeds desde: ${feedsFile}\n`);
+}
 
 try {
-  const feeds = JSON.parse(readFileSync(feedsFile, 'utf-8'));
-  
-  console.log(`🔍 Verificando ${feeds.length} feeds...\n`);
+  // Cargar feeds si es un archivo JSON (no URL directa)
+  if (!isDirectUrl) {
+    feeds = JSON.parse(readFileSync(feedsFile, 'utf-8'));
+  }
   
   const results = await checkMultipleFeeds(feeds);
   printFeedResults(results);

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 246 feeds</title>
-    <description>El directorio más completo de feeds RSS chilenos. 246 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
-    <dateCreated>2026-06-08T05:38:45.491Z</dateCreated>
+    <title>Awesome Chilean RSS - 287 feeds</title>
+    <description>El directorio más completo de feeds RSS chilenos. 287 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
+    <dateCreated>2026-06-08T20:44:45.224Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -27,10 +27,38 @@
       <outline type="rss" text="El Siglo" title="El Siglo" xmlUrl="https://elsiglo.cl/feed/" htmlUrl="https://elsiglo.cl"/>
       <outline type="rss" text="FastCheckCL" title="FastCheckCL" xmlUrl="https://fastcheck.cl/feed/" htmlUrl="https://fastcheck.cl"/>
       <outline type="rss" text="G5 Noticias" title="G5 Noticias" xmlUrl="https://g5noticias.cl/feed/" htmlUrl="https://g5noticias.cl"/>
+      <outline type="rss" text="Ilustrado" title="Ilustrado" xmlUrl="https://www.ilustrado.cl/feed/" htmlUrl="https://www.ilustrado.cl/"/>
       <outline type="rss" text="Interferencia" title="Interferencia" xmlUrl="https://interferencia.cl/rss.xml" htmlUrl="https://interferencia.cl"/>
+      <outline type="rss" text="La Cuarta Chile" title="La Cuarta Chile" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/chile/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+      <outline type="rss" text="La Cuarta Deportes" title="La Cuarta Deportes" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+      <outline type="rss" text="La Cuarta Tendencias" title="La Cuarta Tendencias" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+      <outline type="rss" text="La Cuarta Servicios" title="La Cuarta Servicios" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+      <outline type="rss" text="La Cuarta Videos" title="La Cuarta Videos" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/videos/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+      <outline type="rss" text="La Cuarta Mundo" title="La Cuarta Mundo" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+      <outline type="rss" text="La Cuarta Servicios" title="La Cuarta Servicios" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+      <outline type="rss" text="La Cuarta Urbana" title="La Cuarta Urbana" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/urbana/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+      <outline type="rss" text="La Cuarta Espectáculos" title="La Cuarta Espectáculos" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/espectaculos/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+      <outline type="rss" text="La Cuarta Glamorama" title="La Cuarta Glamorama" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/glamorama/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
       <outline type="rss" text="La Máquina Medio" title="La Máquina Medio" xmlUrl="https://lamaquinamedio.com/feed/" htmlUrl="https://lamaquinamedio.com"/>
       <outline type="rss" text="La Nación" title="La Nación" xmlUrl="https://www.lanacion.cl/feed/" htmlUrl="https://www.lanacion.cl"/>
       <outline type="rss" text="La Tercera" title="La Tercera" xmlUrl="https://www.latercera.com/rss/" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Nacional" title="La Tercera Nacional" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/nacional/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Política" title="La Tercera Política" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/politica/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Servicios" title="La Tercera Servicios" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Tendencias" title="La Tercera Tendencias" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Tecnología" title="La Tercera Tecnología" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/tecnologia/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Pulso" title="La Tercera Pulso" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Minería" title="La Tercera Minería" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/mineria/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Editorial" title="La Tercera Editorial" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/editorial/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Opinión" title="La Tercera Opinión" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/opinion/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Cartas al Director" title="La Tercera Cartas al Director" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/cartas-al-director/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Culto" title="La Tercera Culto" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Finde" title="La Tercera Finde" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/finde/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Revista Paula" title="La Tercera Revista Paula" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/paula/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Sociales" title="La Tercera Sociales" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/sociales/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Board" title="La Tercera Board" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/lt-board/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera El Deportivo" title="La Tercera El Deportivo" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/el-deportivo/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+      <outline type="rss" text="La Tercera Mundo" title="La Tercera Mundo" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml" htmlUrl="https://www.latercera.com"/>
       <outline type="rss" text="Piensa Chile" title="Piensa Chile" xmlUrl="https://piensachile.com/feed/" htmlUrl="https://piensachile.com"/>
       <outline type="rss" text="Cooperativa Corporativo" title="Cooperativa Corporativo" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_16___1.xml" htmlUrl="https://www.cooperativa.cl"/>
       <outline type="rss" text="Cooperativa Cultura" title="Cooperativa Cultura" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_5___1.xml" htmlUrl="https://www.cooperativa.cl"/>
@@ -59,7 +87,9 @@
       <outline type="rss" text="Alerta Geek" title="Alerta Geek" xmlUrl="https://alertageekchile.cl/feed/" htmlUrl="https://alertageekchile.cl"/>
       <outline type="rss" text="Alianza Chilena de Ciberseguridad" title="Alianza Chilena de Ciberseguridad" xmlUrl="https://alianzaciberseguridad.cl/category/blog/feed/" htmlUrl="https://alianzaciberseguridad.cl"/>
       <outline type="rss" text="Buda.com" title="Buda.com" xmlUrl="https://www.buda.com/blog/feed/" htmlUrl="https://www.buda.com"/>
-      <outline type="rss" text="Bitcoin en Chile" title="Bitcoin en Chile" xmlUrl="https://www.criptonoticias.com/etiquetas/bitcoin-chile/feed/" htmlUrl="https://www.criptonoticias.com"/>
+      <outline type="rss" text="CriptoNoticias" title="CriptoNoticias" xmlUrl="https://www.criptonoticias.com/feed/" htmlUrl="https://www.criptonoticias.com"/>
+      <outline type="rss" text="CriptoNoticias Comentarios" title="CriptoNoticias Comentarios" xmlUrl="https://www.criptonoticias.com/comments/feed/" htmlUrl="https://www.criptonoticias.com"/>
+      <outline type="rss" text="CriptoNoticias Bitcoin en Chile" title="CriptoNoticias Bitcoin en Chile" xmlUrl="https://www.criptonoticias.com/etiquetas/bitcoin-chile/feed/" htmlUrl="https://www.criptonoticias.com"/>
       <outline type="rss" text="Derechos Digitales" title="Derechos Digitales" xmlUrl="https://www.derechosdigitales.org/feed/" htmlUrl="https://www.derechosdigitales.org"/>
       <outline type="rss" text="Entreprenerd" title="Entreprenerd" xmlUrl="https://www.entnerd.com/rss/global.xml" htmlUrl="https://www.entnerd.com"/>
       <outline type="rss" text="FayerWayer" title="FayerWayer" xmlUrl="https://www.fayerwayer.com/feed/" htmlUrl="https://www.fayerwayer.com"/>
@@ -190,6 +220,18 @@
       <outline type="rss" text="El Líder" title="El Líder" xmlUrl="https://www.lidersanantonio.cl/?feed=rss2" htmlUrl="https://www.lidersanantonio.cl"/>
       <outline type="rss" text="El Longino" title="El Longino" xmlUrl="https://www.diariolongino.cl/feed/" htmlUrl="https://www.diariolongino.cl"/>
       <outline type="rss" text="El Magalánico" title="El Magalánico" xmlUrl="https://www.elmagallanico.com/feed/" htmlUrl="https://www.elmagallanico.com"/>
+      <outline type="rss" text="El Marino Nacional" title="El Marino Nacional" xmlUrl="https://www.diarioelmarino.cl/nacional/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Colchagua" title="El Marino Colchagua" xmlUrl="https://www.diarioelmarino.cl/colchagua/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Cardenal Caro" title="El Marino Cardenal Caro" xmlUrl="https://www.diarioelmarino.cl/cardenal-caro/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Valparaíso" title="El Marino Valparaíso" xmlUrl="https://www.diarioelmarino.cl/valparaiso/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Opinión" title="El Marino Opinión" xmlUrl="https://www.diarioelmarino.cl/opinion/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Sociedad" title="El Marino Sociedad" xmlUrl="https://www.diarioelmarino.cl/sociedad/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Cultura y Entretenimiento" title="El Marino Cultura y Entretenimiento" xmlUrl="https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Deporte" title="El Marino Deporte" xmlUrl="https://www.diarioelmarino.cl/deporte/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Política" title="El Marino Política" xmlUrl="https://www.diarioelmarino.cl/politica/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Editorial" title="El Marino Editorial" xmlUrl="https://www.diarioelmarino.cl/editorial/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Cartas al Director" title="El Marino Cartas al Director" xmlUrl="https://www.diarioelmarino.cl/cartas-al-director/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+      <outline type="rss" text="El Marino Legales" title="El Marino Legales" xmlUrl="https://www.diarioelmarino.cl/legales/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
       <outline type="rss" text="El Maule Informa" title="El Maule Informa" xmlUrl="https://elmauleinforma.cl/feed/" htmlUrl="https://elmauleinforma.cl"/>
       <outline type="rss" text="El Morro de Arica" title="El Morro de Arica" xmlUrl="https://elmorrodearica.cl/feed/" htmlUrl="https://elmorrodearica.cl"/>
       <outline type="rss" text="El Nortino" title="El Nortino" xmlUrl="https://diarioelnortino.cl/feed/" htmlUrl="https://diarioelnortino.cl"/>
@@ -268,7 +310,6 @@
     <outline text="💼 Negocios y Finanzas" title="💼 Negocios y Finanzas">
       <outline type="rss" text="Diario Financiero" title="Diario Financiero" xmlUrl="https://www.df.cl/noticias/site/list/port/rss.xml" htmlUrl="https://www.df.cl"/>
       <outline type="rss" text="MCH" title="MCH" xmlUrl="https://www.mch.cl/feed/" htmlUrl="https://www.mch.cl"/>
-      <outline type="rss" text="Pulso" title="Pulso" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml" htmlUrl="https://www.pulso.cl"/>
     </outline>
     <outline text="🎨 Cultura y Divulgación" title="🎨 Cultura y Divulgación">
       <outline type="rss" text="CR2" title="CR2" xmlUrl="https://www.cr2.cl/feed/" htmlUrl="https://www.cr2.cl"/>
