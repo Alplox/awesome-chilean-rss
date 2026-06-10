@@ -9,3 +9,5 @@
 # Node
 node_modules/
 npm-debug.log
+
+AGENTS.md

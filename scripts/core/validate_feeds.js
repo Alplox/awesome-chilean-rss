@@ -130,16 +130,27 @@ async function validateSingleUrl(url) {
     return;
   }
 
-  console.log(`ℹ️  No es un feed directo, intentando redescubrir desde el sitio...\n`);
+  const errorMsg = feedResult.code ? `${feedResult.error} (${feedResult.code})` : feedResult.error;
+  console.log(`   ❌ ${errorMsg}`);
 
-  const siteStatus = await checkSiteStatus(url);
+  console.log(`\nℹ️  Intentando con verificación SSL insegura...`);
+  const insecureResult = await tryFetchFeedInsecure(url);
+  if (insecureResult && insecureResult.itemCount > 0) {
+    console.log(`   ✅ feed válido (${insecureResult.type}, ${insecureResult.itemCount} items)`);
+    return;
+  }
+
+  const origin = new URL(url).origin;
+  console.log(`\nℹ️  No es un feed directo, intentando redescubrir desde el sitio...\n`);
+
+  const siteStatus = await checkSiteStatus(origin);
   if (siteStatus === 'down') {
-    console.log(`❌ El sitio no responde (${url})`);
+    console.log(`❌ El sitio no responde (${origin})`);
     return;
   }
 
   process.stdout.write('🔍 Redescubriendo feeds... ');
-  const found = await rediscoverFeed(url);
+  const found = await rediscoverFeed(origin);
 
   if (found.feedUrl) {
     console.log(`\n✅ Feed encontrado:\n`);

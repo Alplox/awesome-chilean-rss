@@ -54,15 +54,6 @@
     "description": "Medio de comunicación chileno de noticias"
   },
   {
-    "id": "publimetro",
-    "name": "Publimetro Chile",
-    "url": "https://www.publimetro.cl",
-    "category": "news",
-    "reason": "Sin feed RSS detectado",
-    "feeds": [],
-    "description": "Diario chileno de información general"
-  },
-  {
     "id": "emol",
     "name": "Emol",
     "url": "https://www.emol.com",
@@ -835,5 +826,23 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [],
     "description": "Universidad pública chilena"
+  },
+  {
+    "id": "ground-news",
+    "name": "Ground News - Chile",
+    "url": "https://ground.news/interest/chile/",
+    "category": "news-international",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Noticias internacionales sobre Chile"
+  },
+  {
+    "id": "chilenews",
+    "name": "Chilenews",
+    "url": "https://www.chilenews.cl/",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Agregador de noticias de Chile y el Mundo"
   }
 ]

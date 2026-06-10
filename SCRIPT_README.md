@@ -282,6 +282,7 @@ Para cada feed en `sites[]`:
 | Clave | Etiqueta |
 |---|---|
 | `news` | 📰 Noticias Nacionales |
+| `news-international` | 🌐 Noticias Internacionales |
 | `government` | 🏛️ Gobierno y Datos Públicos |
 | `universities` | 🏫 Universidades e Investigación |
 | `regional` | 🌎 Medios Regionales |

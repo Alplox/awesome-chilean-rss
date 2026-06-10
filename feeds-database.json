@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-10T04:18:46.439Z",
-  "total_feeds": 274,
+  "last_updated": "2026-06-10T20:29:28.693Z",
+  "total_feeds": 290,
   "sites": [
     {
       "id": "as-chile",
@@ -11,7 +11,7 @@
       "feeds": [
         {
           "id": "as-chile-portada",
-          "name": "AS Chile Portada",
+          "name": "AS Chile - Portada",
           "rss_url": "https://as.com/rss/chile/portada.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:31.345Z",
@@ -21,7 +21,7 @@
         },
         {
           "id": "as-chile-futbol",
-          "name": "AS Chile Fútbol",
+          "name": "AS Chile - Fútbol",
           "rss_url": "https://as.com/rss/chile/futbol.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:31.345Z",
@@ -31,7 +31,7 @@
         },
         {
           "id": "as-chile-actualidad",
-          "name": "AS Chile Actualidad",
+          "name": "AS Chile - Actualidad",
           "rss_url": "https://as.com/rss/chile/actualidad.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:31.345Z",
@@ -117,7 +117,7 @@
         },
         {
           "id": "la-tercera-nacional",
-          "name": "La Tercera Nacional",
+          "name": "La Tercera - Nacional",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/nacional/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.169Z",
@@ -127,7 +127,7 @@
         },
         {
           "id": "la-tercera-politica",
-          "name": "La Tercera Política",
+          "name": "La Tercera - Política",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/politica/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.169Z",
@@ -137,7 +137,7 @@
         },
         {
           "id": "la-tercera-servicios",
-          "name": "La Tercera Servicios",
+          "name": "La Tercera - Servicios",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.170Z",
@@ -147,7 +147,7 @@
         },
         {
           "id": "la-tercera-tendencias",
-          "name": "La Tercera Tendencias",
+          "name": "La Tercera - Tendencias",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.170Z",
@@ -157,7 +157,7 @@
         },
         {
           "id": "la-tercera-tecnologia",
-          "name": "La Tercera Tecnología",
+          "name": "La Tercera - Tecnología",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/tecnologia/?outputType=xml",
           "feed_type": "RSS",
           "category": "technology",
@@ -168,7 +168,7 @@
         },
         {
           "id": "la-tercera-pulso",
-          "name": "La Tercera Pulso",
+          "name": "La Tercera - Pulso",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml",
           "feed_type": "RSS",
           "category": "business",
@@ -179,7 +179,7 @@
         },
         {
           "id": "la-tercera-mineria",
-          "name": "La Tercera Minería",
+          "name": "La Tercera - Minería",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/mineria/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.170Z",
@@ -189,7 +189,7 @@
         },
         {
           "id": "la-tercera-editorial",
-          "name": "La Tercera Editorial",
+          "name": "La Tercera - Editorial",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/editorial/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.170Z",
@@ -199,7 +199,7 @@
         },
         {
           "id": "la-tercera-opinion",
-          "name": "La Tercera Opinión",
+          "name": "La Tercera - Opinión",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/opinion/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.170Z",
@@ -209,7 +209,7 @@
         },
         {
           "id": "la-tercera-cartas-al-director",
-          "name": "La Tercera Cartas al Director",
+          "name": "La Tercera - Cartas al Director",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/cartas-al-director/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.170Z",
@@ -219,7 +219,7 @@
         },
         {
           "id": "la-tercera-culto",
-          "name": "La Tercera Culto",
+          "name": "La Tercera - Culto",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml",
           "feed_type": "RSS",
           "category": "culture",
@@ -230,7 +230,7 @@
         },
         {
           "id": "la-tercera-finde",
-          "name": "La Tercera Finde",
+          "name": "La Tercera - Finde",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/finde/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.171Z",
@@ -240,7 +240,7 @@
         },
         {
           "id": "la-tercera-paula",
-          "name": "La Tercera Revista Paula",
+          "name": "La Tercera - Revista Paula",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/paula/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.171Z",
@@ -250,7 +250,7 @@
         },
         {
           "id": "la-tercera-sociales",
-          "name": "La Tercera Sociales",
+          "name": "La Tercera - Sociales",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/sociales/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.171Z",
@@ -260,7 +260,7 @@
         },
         {
           "id": "la-tercera-lt-board",
-          "name": "La Tercera Board",
+          "name": "La Tercera - Board",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/lt-board/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:50:37.171Z",
@@ -270,7 +270,7 @@
         },
         {
           "id": "la-tercera-el-deportivo",
-          "name": "La Tercera El Deportivo",
+          "name": "La Tercera - El Deportivo",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/el-deportivo/?outputType=xml",
           "feed_type": "RSS",
           "category": "sports",
@@ -281,9 +281,10 @@
         },
         {
           "id": "la-tercera-mundo",
-          "name": "La Tercera Mundo",
+          "name": "La Tercera - Mundo",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml",
           "feed_type": "RSS",
+          "category": "news-international",
           "last_checked": "2026-06-10T01:50:37.171Z",
           "status": "active",
           "verified": true,
@@ -1093,7 +1094,7 @@
       "feeds": [
         {
           "id": "el-desconcierto-ultimas-noticias",
-          "name": "El Desconcierto Últimas Noticias",
+          "name": "El Desconcierto - Últimas Noticias",
           "rss_url": "https://eldesconcierto.cl/rss/pages/ultimas-noticias.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:55:17.915Z",
@@ -1103,7 +1104,7 @@
         },
         {
           "id": "el-desconcierto-medio-ambiente",
-          "name": "El Desconcierto Medio Ambiente",
+          "name": "El Desconcierto - Medio Ambiente",
           "rss_url": "https://eldesconcierto.cl/rss/pages/medio_ambiente.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:55:17.915Z",
@@ -1113,7 +1114,7 @@
         },
         {
           "id": "el-desconcierto-actualidad",
-          "name": "El Desconcierto Actualidad",
+          "name": "El Desconcierto - Actualidad",
           "rss_url": "https://eldesconcierto.cl/rss/pages/actualidad.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:55:17.915Z",
@@ -1123,7 +1124,7 @@
         },
         {
           "id": "el-desconcierto-tendencias",
-          "name": "El Desconcierto Tendencias",
+          "name": "El Desconcierto - Tendencias",
           "rss_url": "https://eldesconcierto.cl/rss/pages/tendencias.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:55:17.915Z",
@@ -1133,7 +1134,7 @@
         },
         {
           "id": "el-desconcierto-hoja-de-ruta",
-          "name": "El Desconcierto Hoja de Ruta",
+          "name": "El Desconcierto - Hoja de Ruta",
           "rss_url": "https://eldesconcierto.cl/rss/pages/hoja-de-ruta.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:55:17.915Z",
@@ -1143,7 +1144,7 @@
         },
         {
           "id": "el-desconcierto-reportajes",
-          "name": "El Desconcierto Reportajes",
+          "name": "El Desconcierto - Reportajes",
           "rss_url": "https://eldesconcierto.cl/rss/pages/reportajes.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:55:17.916Z",
@@ -1153,7 +1154,7 @@
         },
         {
           "id": "el-desconcierto-entrevistas",
-          "name": "El Desconcierto Entrevistas",
+          "name": "El Desconcierto - Entrevistas",
           "rss_url": "https://eldesconcierto.cl/rss/pages/entrevistas.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:55:17.916Z",
@@ -1163,7 +1164,7 @@
         },
         {
           "id": "el-desconcierto-opinion",
-          "name": "El Desconcierto Opinión",
+          "name": "El Desconcierto - Opinión",
           "rss_url": "https://eldesconcierto.cl/rss/pages/opinion.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T01:55:17.916Z",
@@ -1173,9 +1174,10 @@
         },
         {
           "id": "el-desconcierto-mundo",
-          "name": "El Desconcierto Mundo",
+          "name": "El Desconcierto - Mundo",
           "rss_url": "https://eldesconcierto.cl/rss/pages/mundo.xml",
           "feed_type": "RSS",
+          "category": "news-international",
           "last_checked": "2026-06-10T01:55:17.916Z",
           "status": "active",
           "verified": true,
@@ -3149,7 +3151,7 @@
         {
           "id": "chillan-online-main",
           "name": "Chillán Online",
-          "rss_url": "https://www.chillanonline.cl/?feed=rss2",
+          "rss_url": "https://www.chillanonline.cl/V7/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:01:16.968Z",
           "status": "active",
@@ -3860,7 +3862,7 @@
       "feeds": [
         {
           "id": "diario-el-dia-noticias",
-          "name": "Diario El Día Últimas noticias",
+          "name": "Diario El Día - Últimas noticias",
           "rss_url": "https://www.diarioeldia.cl/rss/noticias",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.088Z",
@@ -3870,7 +3872,7 @@
         },
         {
           "id": "diario-el-dia-deportes",
-          "name": "Diario El Día Deportes",
+          "name": "Diario El Día - Deportes",
           "rss_url": "https://www.diarioeldia.cl/rss/deportes",
           "feed_type": "RSS",
           "category": "sports",
@@ -3881,7 +3883,7 @@
         },
         {
           "id": "diario-el-dia-economia",
-          "name": "Diario El Día Economía",
+          "name": "Diario El Día - Economía",
           "rss_url": "https://www.diarioeldia.cl/rss/economia",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.088Z",
@@ -3891,7 +3893,7 @@
         },
         {
           "id": "diario-el-dia-sin-seccion",
-          "name": "Diario El Día Sin Sección",
+          "name": "Diario El Día - Sin Sección",
           "rss_url": "https://www.diarioeldia.cl/rss/sin-seccion",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.088Z",
@@ -3900,7 +3902,7 @@
         },
         {
           "id": "diario-el-dia-region",
-          "name": "Diario El Día Región",
+          "name": "Diario El Día - Región",
           "rss_url": "https://www.diarioeldia.cl/rss/region",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.088Z",
@@ -3910,7 +3912,7 @@
         },
         {
           "id": "diario-el-dia-magazine",
-          "name": "Diario El Día Magazine",
+          "name": "Diario El Día - Magazine",
           "rss_url": "https://www.diarioeldia.cl/rss/magazine",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.089Z",
@@ -3920,7 +3922,7 @@
         },
         {
           "id": "diario-el-dia-policial",
-          "name": "Diario El Día Policial",
+          "name": "Diario El Día - Policial",
           "rss_url": "https://www.diarioeldia.cl/rss/policial",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.089Z",
@@ -3930,7 +3932,7 @@
         },
         {
           "id": "diario-el-dia-virales",
-          "name": "Diario El Día Virales",
+          "name": "Diario El Día - Virales",
           "rss_url": "https://www.diarioeldia.cl/rss/virales",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.089Z",
@@ -3939,7 +3941,7 @@
         },
         {
           "id": "diario-el-dia-tendencias",
-          "name": "Diario El Día Tendencias",
+          "name": "Diario El Día - Tendencias",
           "rss_url": "https://www.diarioeldia.cl/rss/tendencias",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.089Z",
@@ -3949,9 +3951,10 @@
         },
         {
           "id": "diario-el-dia-mundo",
-          "name": "Diario El Día Mundo",
+          "name": "Diario El Día - Mundo",
           "rss_url": "https://www.diarioeldia.cl/rss/mundo",
           "feed_type": "RSS",
+          "category": "news-international",
           "last_checked": "2026-06-10T02:03:08.089Z",
           "status": "active",
           "verified": true,
@@ -3959,7 +3962,7 @@
         },
         {
           "id": "diario-el-dia-pais",
-          "name": "Diario El Día País",
+          "name": "Diario El Día - País",
           "rss_url": "https://www.diarioeldia.cl/rss/pais",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.089Z",
@@ -3969,7 +3972,7 @@
         },
         {
           "id": "diario-el-dia-comercial",
-          "name": "Diario El Día Comercial",
+          "name": "Diario El Día - Comercial",
           "rss_url": "https://www.diarioeldia.cl/rss/comercial",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.089Z",
@@ -3978,7 +3981,7 @@
         },
         {
           "id": "diario-el-dia-ciencia",
-          "name": "Diario El Día Ciencia",
+          "name": "Diario El Día - Ciencia",
           "rss_url": "https://www.diarioeldia.cl/rss/ciencia",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.089Z",
@@ -3987,7 +3990,7 @@
         },
         {
           "id": "diario-el-dia-salud",
-          "name": "Diario El Día Salud",
+          "name": "Diario El Día - Salud",
           "rss_url": "https://www.diarioeldia.cl/rss/salud",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.089Z",
@@ -3997,7 +4000,7 @@
         },
         {
           "id": "diario-el-dia-denuncia-ciudadana",
-          "name": "Diario El Día Denuncia Ciudadana",
+          "name": "Diario El Día - Denuncia Ciudadana",
           "rss_url": "https://www.diarioeldia.cl/rss/denuncia-ciudadana",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.089Z",
@@ -4006,7 +4009,7 @@
         },
         {
           "id": "diario-el-dia-turismo",
-          "name": "Diario El Día Turismo",
+          "name": "Diario El Día - Turismo",
           "rss_url": "https://www.diarioeldia.cl/rss/turismo",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.089Z",
@@ -4015,7 +4018,7 @@
         },
         {
           "id": "diario-el-dia-empleo",
-          "name": "Diario El Día Empleo",
+          "name": "Diario El Día - Empleo",
           "rss_url": "https://www.diarioeldia.cl/rss/empleo",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.090Z",
@@ -4024,7 +4027,7 @@
         },
         {
           "id": "diario-el-dia-actualidad",
-          "name": "Diario El Día Actualidad",
+          "name": "Diario El Día - Actualidad",
           "rss_url": "https://www.diarioeldia.cl/rss/actualidad",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.090Z",
@@ -4034,7 +4037,7 @@
         },
         {
           "id": "diario-el-dia-tiempo-libre",
-          "name": "Diario El Día Tiempo Libre",
+          "name": "Diario El Día - Tiempo Libre",
           "rss_url": "https://www.diarioeldia.cl/rss/tiempo-libre",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.090Z",
@@ -4044,7 +4047,7 @@
         },
         {
           "id": "diario-el-dia-dominga",
-          "name": "Diario El Día Dominga",
+          "name": "Diario El Día - Dominga",
           "rss_url": "https://www.diarioeldia.cl/rss/dominga",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.090Z",
@@ -4053,7 +4056,7 @@
         },
         {
           "id": "diario-el-dia-panorama",
-          "name": "Diario El Día Panorama",
+          "name": "Diario El Día - Panorama",
           "rss_url": "https://www.diarioeldia.cl/rss/panorama",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.090Z",
@@ -4062,7 +4065,7 @@
         },
         {
           "id": "diario-el-dia-aniversario-74-diario-el-dia",
-          "name": "Diario El Día Aniversario 74 diario El Día",
+          "name": "Diario El Día - Aniversario 74 diario El Día",
           "rss_url": "https://www.diarioeldia.cl/rss/aniversario-74-diario-el-dia",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.090Z",
@@ -4071,7 +4074,7 @@
         },
         {
           "id": "diario-el-dia-educacion",
-          "name": "Diario El Día Educación",
+          "name": "Diario El Día - Educación",
           "rss_url": "https://www.diarioeldia.cl/rss/educacion",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.090Z",
@@ -4081,7 +4084,7 @@
         },
         {
           "id": "diario-el-dia-varios",
-          "name": "Diario El Día Varios",
+          "name": "Diario El Día - Varios",
           "rss_url": "https://www.diarioeldia.cl/rss/varios",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.090Z",
@@ -4090,7 +4093,7 @@
         },
         {
           "id": "diario-el-dia-fraudes",
-          "name": "Diario El Día Fraudes",
+          "name": "Diario El Día - Fraudes",
           "rss_url": "https://www.diarioeldia.cl/rss/fraudes",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.090Z",
@@ -4099,7 +4102,7 @@
         },
         {
           "id": "diario-el-dia-salud-mental",
-          "name": "Diario El Día Salud Mental",
+          "name": "Diario El Día - Salud Mental",
           "rss_url": "https://www.diarioeldia.cl/rss/salud-mental",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.090Z",
@@ -4108,7 +4111,7 @@
         },
         {
           "id": "diario-el-dia-politica",
-          "name": "Diario El Día Política",
+          "name": "Diario El Día - Política",
           "rss_url": "https://www.diarioeldia.cl/rss/politica",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.091Z",
@@ -4118,7 +4121,7 @@
         },
         {
           "id": "diario-el-dia-femicidio",
-          "name": "Diario El Día Femicidio",
+          "name": "Diario El Día - Femicidio",
           "rss_url": "https://www.diarioeldia.cl/rss/femicidio",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.091Z",
@@ -4127,7 +4130,7 @@
         },
         {
           "id": "diario-el-dia-incendio-forestal",
-          "name": "Diario El Día Incendio Forestal",
+          "name": "Diario El Día - Incendio Forestal",
           "rss_url": "https://www.diarioeldia.cl/rss/incendio-forestal",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.091Z",
@@ -4136,7 +4139,7 @@
         },
         {
           "id": "diario-el-dia-coquimbo",
-          "name": "Diario El Día Coquimbo",
+          "name": "Diario El Día - Coquimbo",
           "rss_url": "https://www.diarioeldia.cl/rss/coquimbo",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.091Z",
@@ -4145,7 +4148,7 @@
         },
         {
           "id": "diario-el-dia-opinion",
-          "name": "Diario El Día Opinión",
+          "name": "Diario El Día - Opinión",
           "rss_url": "https://www.diarioeldia.cl/rss/opinion",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.091Z",
@@ -4154,7 +4157,7 @@
         },
         {
           "id": "diario-el-dia-cartas-al-lector",
-          "name": "Diario El Día Cartas al Lector",
+          "name": "Diario El Día - Cartas al Lector",
           "rss_url": "https://www.diarioeldia.cl/rss/cartas-al-lector",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.091Z",
@@ -4163,7 +4166,7 @@
         },
         {
           "id": "diario-el-dia-mineria-responsable",
-          "name": "Diario El Día Minería Responsable",
+          "name": "Diario El Día - Minería Responsable",
           "rss_url": "https://www.diarioeldia.cl/rss/mineria-responsable",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:08.091Z",
@@ -4249,7 +4252,7 @@
       "feeds": [
         {
           "id": "capa9-global",
-          "name": "Capa9 Global",
+          "name": "Capa9 - Global",
           "rss_url": "https://www.capa9.net/forums/-/index.rss",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:13.014Z",
@@ -4259,7 +4262,7 @@
         },
         {
           "id": "capa9-reviews",
-          "name": "Capa9 Reviews",
+          "name": "Capa9 - Reviews",
           "rss_url": "https://www.capa9.net/foro/reviews.45/index.rss",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:13.015Z",
@@ -4383,7 +4386,7 @@
       "feeds": [
         {
           "id": "terra-cl-main",
-          "name": "Terra Últimas Noticias",
+          "name": "Terra - Últimas Noticias",
           "rss_url": "https://www.terra.cl/rss/feed.html",
           "feed_type": "Atom",
           "last_checked": "2026-06-10T02:03:17.179Z",
@@ -4393,7 +4396,7 @@
         },
         {
           "id": "terra-cl-ultimas-noticias-con-imagenes",
-          "name": "Terra Últimas Noticias con imágenes",
+          "name": "Terra - Últimas Noticias con imágenes",
           "rss_url": "https://www.terra.cl/rss/un_foto.html",
           "feed_type": "Atom",
           "last_checked": "2026-06-10T02:03:17.179Z",
@@ -4403,7 +4406,7 @@
         },
         {
           "id": "terra-cl-nacionales",
-          "name": "Terra Nacionales",
+          "name": "Terra - Nacionales",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=1",
           "feed_type": "Atom",
           "last_checked": "2026-06-10T02:03:17.179Z",
@@ -4413,9 +4416,10 @@
         },
         {
           "id": "terra-cl-mundo",
-          "name": "Terra Mundo",
+          "name": "Terra - Mundo",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=2",
           "feed_type": "Atom",
+          "category": "news-international",
           "last_checked": "2026-06-10T02:03:17.179Z",
           "status": "active",
           "verified": true,
@@ -4423,7 +4427,7 @@
         },
         {
           "id": "terra-cl-deportes",
-          "name": "Terra Deportes",
+          "name": "Terra - Deportes",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=3",
           "feed_type": "Atom",
           "category": "sports",
@@ -4434,7 +4438,7 @@
         },
         {
           "id": "terra-cl-estilo-de-vida",
-          "name": "Terra Estilo de vida",
+          "name": "Terra - Estilo de vida",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=4",
           "feed_type": "Atom",
           "last_checked": "2026-06-10T02:03:17.179Z",
@@ -4444,7 +4448,7 @@
         },
         {
           "id": "terra-cl-entretenimiento",
-          "name": "Terra Entretenimiento",
+          "name": "Terra - Entretenimiento",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=5",
           "feed_type": "Atom",
           "last_checked": "2026-06-10T02:03:17.179Z",
@@ -4454,7 +4458,7 @@
         },
         {
           "id": "terra-cl-tendencias",
-          "name": "Terra Tendencias",
+          "name": "Terra - Tendencias",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=6",
           "feed_type": "Atom",
           "last_checked": "2026-06-10T02:03:17.179Z",
@@ -4464,7 +4468,7 @@
         },
         {
           "id": "terra-cl-economia",
-          "name": "Terra Economía",
+          "name": "Terra - Economía",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=7",
           "feed_type": "Atom",
           "category": "business",
@@ -4484,7 +4488,7 @@
       "feeds": [
         {
           "id": "cooperativa-corporativo",
-          "name": "Cooperativa Corporativo",
+          "name": "Cooperativa - Corporativo",
           "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_16___1.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:17.294Z",
@@ -4494,7 +4498,7 @@
         },
         {
           "id": "cooperativa-cultura",
-          "name": "Cooperativa Cultura",
+          "name": "Cooperativa -  Cultura",
           "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_5___1.xml",
           "feed_type": "RSS",
           "category": "culture",
@@ -4505,7 +4509,7 @@
         },
         {
           "id": "cooperativa-deportes",
-          "name": "Cooperativa Deportes",
+          "name": "Cooperativa - Deportes",
           "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_1___1.xml",
           "feed_type": "RSS",
           "category": "sports",
@@ -4516,7 +4520,7 @@
         },
         {
           "id": "cooperativa-economia",
-          "name": "Cooperativa Economía",
+          "name": "Cooperativa - Economía",
           "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml",
           "feed_type": "RSS",
           "category": "business",
@@ -4527,7 +4531,7 @@
         },
         {
           "id": "cooperativa-entretencion",
-          "name": "Cooperativa Entretención",
+          "name": "Cooperativa - Entretención",
           "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_4___1.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:17.295Z",
@@ -4537,9 +4541,10 @@
         },
         {
           "id": "cooperativa-mundo",
-          "name": "Cooperativa Mundo",
+          "name": "Cooperativa - Mundo",
           "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml",
           "feed_type": "RSS",
+          "category": "news-international",
           "last_checked": "2026-06-10T02:03:17.295Z",
           "status": "active",
           "verified": true,
@@ -4547,7 +4552,7 @@
         },
         {
           "id": "cooperativa-pais",
-          "name": "Cooperativa País",
+          "name": "Cooperativa - País",
           "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_3___1.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:17.295Z",
@@ -4557,7 +4562,7 @@
         },
         {
           "id": "cooperativa-sociedad",
-          "name": "Cooperativa Sociedad",
+          "name": "Cooperativa - Sociedad",
           "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_7___1.xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:17.295Z",
@@ -4567,7 +4572,7 @@
         },
         {
           "id": "cooperativa-tecnologia",
-          "name": "Cooperativa Tecnología",
+          "name": "Cooperativa - Tecnología",
           "rss_url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_8___1.xml",
           "feed_type": "RSS",
           "category": "technology",
@@ -4644,7 +4649,7 @@
       "feeds": [
         {
           "id": "el-marino-nacional",
-          "name": "El Marino Nacional",
+          "name": "El Marino - Nacional",
           "rss_url": "https://www.diarioelmarino.cl/nacional/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.027Z",
@@ -4654,7 +4659,7 @@
         },
         {
           "id": "el-marino-colchagua",
-          "name": "El Marino Colchagua",
+          "name": "El Marino - Colchagua",
           "rss_url": "https://www.diarioelmarino.cl/colchagua/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.027Z",
@@ -4664,7 +4669,7 @@
         },
         {
           "id": "el-marino-cardenal-caro",
-          "name": "El Marino Cardenal Caro",
+          "name": "El Marino - Cardenal Caro",
           "rss_url": "https://www.diarioelmarino.cl/cardenal-caro/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.027Z",
@@ -4674,7 +4679,7 @@
         },
         {
           "id": "el-marino-valparaiso",
-          "name": "El Marino Valparaíso",
+          "name": "El Marino - Valparaíso",
           "rss_url": "https://www.diarioelmarino.cl/valparaiso/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.027Z",
@@ -4684,7 +4689,7 @@
         },
         {
           "id": "el-marino-opinion",
-          "name": "El Marino Opinión",
+          "name": "El Marino - Opinión",
           "rss_url": "https://www.diarioelmarino.cl/opinion/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.028Z",
@@ -4694,7 +4699,7 @@
         },
         {
           "id": "el-marino-sociedad",
-          "name": "El Marino Sociedad",
+          "name": "El Marino - Sociedad",
           "rss_url": "https://www.diarioelmarino.cl/sociedad/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.028Z",
@@ -4704,7 +4709,7 @@
         },
         {
           "id": "el-marino-cultura-entretenimiento",
-          "name": "El Marino Cultura y Entretenimiento",
+          "name": "El Marino - Cultura y Entretenimiento",
           "rss_url": "https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.028Z",
@@ -4714,7 +4719,7 @@
         },
         {
           "id": "el-marino-deporte",
-          "name": "El Marino Deporte",
+          "name": "El Marino - Deporte",
           "rss_url": "https://www.diarioelmarino.cl/deporte/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.028Z",
@@ -4724,7 +4729,7 @@
         },
         {
           "id": "el-marino-politica",
-          "name": "El Marino Política",
+          "name": "El Marino - Política",
           "rss_url": "https://www.diarioelmarino.cl/politica/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.028Z",
@@ -4734,7 +4739,7 @@
         },
         {
           "id": "el-marino-editorial",
-          "name": "El Marino Editorial",
+          "name": "El Marino - Editorial",
           "rss_url": "https://www.diarioelmarino.cl/editorial/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.028Z",
@@ -4744,7 +4749,7 @@
         },
         {
           "id": "el-marino-cartas-al-director",
-          "name": "El Marino Cartas al Director",
+          "name": "El Marino - Cartas al Director",
           "rss_url": "https://www.diarioelmarino.cl/cartas-al-director/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.028Z",
@@ -4754,7 +4759,7 @@
         },
         {
           "id": "el-marino-legales",
-          "name": "El Marino Legales",
+          "name": "El Marino - Legales",
           "rss_url": "https://www.diarioelmarino.cl/legales/feed/rss/",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:20.028Z",
@@ -4792,7 +4797,7 @@
       "feeds": [
         {
           "id": "la-cuarta-chile",
-          "name": "La Cuarta Chile",
+          "name": "La Cuarta - Chile",
           "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/chile/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:23.280Z",
@@ -4802,9 +4807,10 @@
         },
         {
           "id": "la-cuarta-deportes",
-          "name": "La Cuarta Deportes",
+          "name": "La Cuarta - Deportes",
           "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml",
           "feed_type": "RSS",
+          "category": "sports",
           "last_checked": "2026-06-10T02:03:23.280Z",
           "status": "active",
           "verified": true,
@@ -4812,7 +4818,7 @@
         },
         {
           "id": "la-cuarta-tendencias",
-          "name": "La Cuarta Tendencias",
+          "name": "La Cuarta - Tendencias",
           "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:23.280Z",
@@ -4822,7 +4828,7 @@
         },
         {
           "id": "la-cuarta-servicios",
-          "name": "La Cuarta Servicios",
+          "name": "La Cuarta - Servicios",
           "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:23.280Z",
@@ -4832,7 +4838,7 @@
         },
         {
           "id": "la-cuarta-videos",
-          "name": "La Cuarta Videos",
+          "name": "La Cuarta - Videos",
           "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/videos/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:23.280Z",
@@ -4842,9 +4848,10 @@
         },
         {
           "id": "la-cuarta-mundo",
-          "name": "La Cuarta Mundo",
+          "name": "La Cuarta - Mundo",
           "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml",
           "feed_type": "RSS",
+          "category": "news-international",
           "last_checked": "2026-06-10T02:03:23.280Z",
           "status": "active",
           "verified": true,
@@ -4852,7 +4859,7 @@
         },
         {
           "id": "la-cuarta-urbana",
-          "name": "La Cuarta Urbana",
+          "name": "La Cuarta - Urbana",
           "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/urbana/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:23.280Z",
@@ -4862,7 +4869,7 @@
         },
         {
           "id": "la-cuarta-espectaculos",
-          "name": "La Cuarta Espectáculos",
+          "name": "La Cuarta - Espectáculos",
           "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/espectaculos/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:23.280Z",
@@ -4872,7 +4879,7 @@
         },
         {
           "id": "la-cuarta-glamorama",
-          "name": "La Cuarta Glamorama",
+          "name": "La Cuarta - Glamorama",
           "rss_url": "https://www.lacuarta.com/arc/outboundfeeds/rss/category/glamorama/?outputType=xml",
           "feed_type": "RSS",
           "last_checked": "2026-06-10T02:03:23.280Z",
@@ -4955,6 +4962,188 @@
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-05-24T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "el-minuto",
+      "name": "El Minuto",
+      "url": "https://elminuto.cl/",
+      "category": "news",
+      "description": "Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales",
+      "feeds": [
+        {
+          "id": "el-minuto-main",
+          "name": "El Minuto",
+          "rss_url": "https://elminuto.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T19:43:09.352Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T00:05:59.000Z"
+        },
+        {
+          "id": "el-minuto-chile",
+          "name": "El Minuto - Chile",
+          "rss_url": "https://elminuto.cl/noticias/category/chile/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T19:43:09.352Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T00:05:59.000Z"
+        },
+        {
+          "id": "el-minuto-mundo",
+          "name": "El Minuto - Mundo",
+          "rss_url": "https://elminuto.cl/noticias/category/mundo/rss",
+          "feed_type": "RSS",
+          "category": "news-international",
+          "last_checked": "2026-06-10T19:43:09.353Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-05-27T23:12:19.000Z"
+        },
+        {
+          "id": "el-minuto-economia",
+          "name": "El Minuto - Economía",
+          "rss_url": "https://elminuto.cl/noticias/category/economia/rss",
+          "feed_type": "RSS",
+          "category": "business",
+          "last_checked": "2026-06-10T19:43:09.353Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-01-20T03:41:06.000Z"
+        },
+        {
+          "id": "el-minuto-coliseo-politico",
+          "name": "El Minuto - Coliseo Político",
+          "rss_url": "https://elminuto.cl/noticias/category/coliseo-politico/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T19:43:09.353Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-05-27T22:59:47.000Z"
+        },
+        {
+          "id": "el-minuto-entrevistas",
+          "name": "El Minuto - Entrevistas",
+          "rss_url": "https://elminuto.cl/noticias/category/entrevistas/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T19:43:09.353Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-05-18T18:02:22.000Z"
+        },
+        {
+          "id": "el-minuto-reportajes",
+          "name": "El Minuto - Reportajes",
+          "rss_url": "https://elminuto.cl/noticias/category/reportajes/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T19:43:09.353Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T00:05:59.000Z"
+        },
+        {
+          "id": "el-minuto-analisis-y-seguridad",
+          "name": "El Minuto - Análisis y Seguridad",
+          "rss_url": "https://elminuto.cl/noticias/category/analisis-y-seguridad/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T19:43:09.353Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2025-06-22T10:22:11.000Z"
+        },
+        {
+          "id": "el-minuto-deporte",
+          "name": "El Minuto - Deporte",
+          "rss_url": "https://elminuto.cl/noticias/category/deporte/rss",
+          "feed_type": "RSS",
+          "category": "sports",
+          "last_checked": "2026-06-10T19:43:09.353Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2025-11-06T19:35:32.000Z"
+        },
+        {
+          "id": "el-minuto-opinion",
+          "name": "El Minuto - Opinión",
+          "rss_url": "https://elminuto.cl/noticias/category/opinion/rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T19:43:09.353Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-01T16:58:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "publimetro-chile",
+      "name": "Publimetro Chile",
+      "url": "https://www.publimetro.cl",
+      "category": "news",
+      "description": "Diario chileno de información general",
+      "feeds": [
+        {
+          "id": "publimetro-chile-main",
+          "name": "Publimetro Chile",
+          "rss_url": "https://www.publimetro.cl/arc/outboundfeeds/rss/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T20:17:16.042Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T20:00:14.000Z"
+        },
+        {
+          "id": "publimetro-chile-noticias",
+          "name": "Publimetro Chile - Noticias",
+          "rss_url": " https://www.publimetro.cl/arc/outboundfeeds/rss/category/noticias/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T20:17:16.042Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T20:00:14.000Z"
+        },
+        {
+          "id": "publimetro-chile-entretenimiento",
+          "name": "Publimetro Chile - Entretenimiento",
+          "rss_url": " https://www.publimetro.cl/arc/outboundfeeds/rss/category/entretenimiento/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T20:17:16.042Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T19:52:22.000Z"
+        },
+        {
+          "id": "publimetro-chile-deportes",
+          "name": "Publimetro Chile - Deportes",
+          "rss_url": " https://www.publimetro.cl/arc/outboundfeeds/rss/category/deportes/?outputType=xml",
+          "feed_type": "RSS",
+          "category": "sports",
+          "last_checked": "2026-06-10T20:17:16.042Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T18:57:28.000Z"
+        },
+        {
+          "id": "publimetro-chile-social",
+          "name": "Publimetro Chile - Social",
+          "rss_url": " https://www.publimetro.cl/arc/outboundfeeds/rss/category/social/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T20:17:16.042Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T19:46:12.000Z"
+        },
+        {
+          "id": "publimetro-chile-estilo-vida",
+          "name": "Publimetro Chile - Estilo de Vida",
+          "rss_url": " https://www.publimetro.cl/arc/outboundfeeds/rss/category/estilo-vida/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-10T20:17:16.042Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T01:31:38.000Z"
         }
       ]
     }
