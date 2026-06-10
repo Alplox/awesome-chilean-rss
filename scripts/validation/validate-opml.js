@@ -3,13 +3,11 @@
  * Usado por el workflow de CI.
  */
 import { readFileSync } from 'fs';
-import { XMLParser } from 'fast-xml-parser';
-
-const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@_' });
+import { xmlParser } from '../../lib/feed-validator.js';
 
 try {
   const xml = readFileSync('chilean-rss.opml', 'utf-8');
-  const parsed = parser.parse(xml);
+  const parsed = xmlParser.parse(xml);
   const root = parsed?.opml;
 
   if (!root) {
@@ -31,15 +29,21 @@ try {
 
   const rssOutlines = collectRssOutlines(root.body ?? {});
 
+  const errors = [];
   for (const o of rssOutlines) {
     if (!o['@_xmlUrl']) {
-      console.error(`❌ Feed "${o['@_text']}" sin xmlUrl`);
-      process.exit(1);
+      errors.push(`Feed "${o['@_text'] ?? '?'}" sin xmlUrl`);
     }
     if (!o['@_text']) {
-      console.error('❌ Feed sin atributo text');
-      process.exit(1);
+      errors.push('Feed sin atributo text');
     }
+  }
+
+  if (errors.length) {
+    for (const err of errors) {
+      console.error(`❌ ${err}`);
+    }
+    process.exit(1);
   }
 
   console.log(`✅ OPML válido — ${rssOutlines.length} feeds, todos con xmlUrl y text`);

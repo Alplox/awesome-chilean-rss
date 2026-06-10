@@ -1,36 +1,63 @@
 #!/usr/bin/env node
-/**
- * Genera chilean-rss.opml y README.md a partir de feeds-database.json.
- *
- * Uso: node generate.js
- *      npm run generate
- */
 
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, accessSync, constants } from 'fs';
 
-// ─── Cargar base de datos ─────────────────────────────────────────────────────
+// ─── Verificar escritura ──────────────────────────────────────────────────────
+
+try {
+  accessSync('.', constants.W_OK);
+} catch {
+  console.error('❌ El directorio actual no tiene permisos de escritura');
+  process.exit(1);
+}
+
+// ─── Cargar configuración ─────────────────────────────────────────────────────
+
+const pkg = JSON.parse(readFileSync('package.json', 'utf-8'));
+const ownerName = pkg.author?.name ?? 'Alplox';
 
 const db = JSON.parse(readFileSync('feeds-database.json', 'utf-8'));
-const { sites, categories } = db;
+const categories = JSON.parse(readFileSync('categories.json', 'utf-8'));
+const { sites } = db;
 
-// Aplanar todos los feeds individuales para OPML y conteos
-// Cada entry incluye el feed + datos del sitio padre
-// Solo incluir feeds activos y verificados
-const allFeeds = sites.flatMap(site =>
-  site.feeds
-    .filter(feed => feed.status === 'active' && feed.verified === true)
-    .map(feed => ({ ...feed, siteId: site.id, siteName: site.name, siteUrl: site.url, category: site.category }))
-);
+// Resolver categoría de cada feed: feed.category ?? site.category
+// Estructura resultado: { categoryKey: [feedData] }
+const feedsByCategory = {};
 
-// Agrupa sitios por categoría (para README y OPML)
-const sitesByCategory = sites.reduce((acc, site) => {
-  (acc[site.category] ??= []).push(site);
-  return acc;
-}, {});
+// Para README: sitios agrupados por categoría resuelta, cada uno con solo sus feeds de esa categoría
+const sitesByResolvedCategory = {};
 
-for (const cat of Object.keys(sitesByCategory)) {
-  sitesByCategory[cat].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+for (const site of sites) {
+  const catGroups = {};
+
+  for (const feed of site.feeds) {
+    if (feed.status !== 'active' || feed.verified !== true) continue;
+    const resolvedCat = feed.category ?? site.category;
+    const feedEntry = { ...feed, siteId: site.id, siteName: site.name, siteUrl: site.url, siteDescription: site.description };
+
+    (feedsByCategory[resolvedCat] ??= []).push(feedEntry);
+    (catGroups[resolvedCat] ??= []).push(feed);
+  }
+
+  for (const [cat, feeds] of Object.entries(catGroups)) {
+    (sitesByResolvedCategory[cat] ??= []).push({
+      id: site.id,
+      name: site.name,
+      url: site.url,
+      category: cat,
+      description: site.description,
+      feeds,
+    });
+  }
 }
+
+// Ordenar sitios alfabéticamente dentro de cada categoría
+for (const cat of Object.keys(sitesByResolvedCategory)) {
+  sitesByResolvedCategory[cat].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+}
+
+// Aplanar todos los feeds para conteos y OPML
+const allFeeds = Object.values(feedsByCategory).flat();
 
 // Orden de categorías en el documento
 const CATEGORY_ORDER = [
@@ -41,13 +68,13 @@ const CATEGORY_ORDER = [
   'regional',
   'business',
   'culture',
-  'podcasts',
-  'opendata',
+  'sports',
+  'community',
 ];
 
 const orderedCategories = [
-  ...CATEGORY_ORDER.filter(c => sitesByCategory[c]),
-  ...Object.keys(sitesByCategory).filter(c => !CATEGORY_ORDER.includes(c)).sort(),
+  ...CATEGORY_ORDER.filter(c => feedsByCategory[c]),
+  ...Object.keys(feedsByCategory).filter(c => !CATEGORY_ORDER.includes(c)).sort(),
 ];
 
 // ─── Generar OPML ─────────────────────────────────────────────────────────────
@@ -58,13 +85,12 @@ function generateOPML() {
 
   const categoryBlocks = orderedCategories.map(cat => {
     const label = categories[cat] ?? cat;
-    // Aplanar feeds de todos los sitios de esta categoría, ordenados por sitio
-    const outlines = sitesByCategory[cat].flatMap(site =>
-      site.feeds.map(feed =>
-        `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(site.url)}"/>`
+    const feeds = feedsByCategory[cat] || [];
+    const outlines = feeds
+      .map(feed =>
+        `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
       )
-    ).join('\n');
-
+      .join('\n');
     return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${outlines}\n    </outline>`;
   }).join('\n');
 
@@ -74,7 +100,7 @@ function generateOPML() {
     <title>Awesome Chilean RSS - ${totalFeeds} feeds</title>
     <description>El directorio más completo de feeds RSS chilenos. ${totalFeeds} feeds RSS, organizadas por categoría y mantenidas activamente.</description>
     <dateCreated>${now}</dateCreated>
-    <ownerName>Alplox</ownerName>
+    <ownerName>${escapeXml(ownerName)}</ownerName>
   </head>
   <body>
 ${categoryBlocks}
@@ -87,6 +113,7 @@ function escapeXml(str) {
   return String(str)
     .replace(/&/g, '&amp;')
     .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
 }
@@ -100,12 +127,12 @@ function feedCount(n) {
 function generateReadme() {
   const total = allFeeds.length;
 
-  // Construir índice usando el key de categoría como ancla explícita
+  // Construir índice
   const indexLines = orderedCategories.map(cat => {
     const label = categories[cat] ?? cat;
-    const count = sitesByCategory[cat].reduce((sum, s) => sum + s.feeds.filter(f => f.status === 'active' && f.verified === true).length, 0);
-    if (count === 0) return null; // Skip categories with no active feeds
-    return `- [${label}](#cat-${cat}) — ${count} feeds`;
+    const feeds = feedsByCategory[cat] || [];
+    if (feeds.length === 0) return null;
+    return `- [${label}](#cat-${cat}) — ${feeds.length} feeds`;
   }).filter(Boolean);
 
   const index = `<a id="indice"></a>\n### 📑 Índice de categorías\n\n${indexLines.join('\n')}`;
@@ -113,12 +140,12 @@ function generateReadme() {
   // Sección de feeds por categoría
   const feedSections = orderedCategories.map(cat => {
     const label = categories[cat] ?? cat;
-    const catSites = sitesByCategory[cat];
-    const count = catSites.reduce((sum, s) => sum + s.feeds.filter(f => f.status === 'active' && f.verified === true).length, 0);
+    const catSites = sitesByResolvedCategory[cat] || [];
+    const totalFeedsInCat = feedsByCategory[cat]?.length || 0;
 
     const items = catSites.map(site => {
       const activeFeeds = site.feeds.filter(f => f.status === 'active' && f.verified === true);
-      if (activeFeeds.length === 0) return null; // Skip sites with no active feeds
+      if (activeFeeds.length === 0) return null;
 
       if (activeFeeds.length === 1) {
         const feed = activeFeeds[0];
@@ -131,9 +158,9 @@ function generateReadme() {
       }
     }).filter(Boolean).join('\n');
 
-    if (!items) return null; // Skip categories with no active feeds
+    if (!items) return null;
 
-    return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(count)})\n\n${items}\n\n[↑ Volver al índice](#indice)`;
+    return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\n${items}\n\n[↑ Volver al índice](#indice)`;
   }).filter(Boolean).join('\n\n');
 
   return `
@@ -183,10 +210,15 @@ Este proyecto está bajo licencia [CC0 1.0 Universal](LICENSE). Siéntete libre 
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
-const opml = generateOPML();
-writeFileSync('chilean-rss.opml', opml, 'utf-8');
-console.log(`✅ chilean-rss.opml generado (${allFeeds.length} feeds, ${sites.length} sitios)`);
+try {
+  const opml = generateOPML();
+  writeFileSync('chilean-rss.opml', opml, 'utf-8');
+  console.log(`✅ chilean-rss.opml generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
 
-const readme = generateReadme();
-writeFileSync('README.md', readme, 'utf-8');
-console.log(`✅ README.md generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
+  const readme = generateReadme();
+  writeFileSync('README.md', readme, 'utf-8');
+  console.log(`✅ README.md generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
+} catch (err) {
+  console.error('❌ Error al generar archivos:', err.message);
+  process.exit(1);
+}

@@ -1,0 +1,839 @@
+[
+  {
+    "id": "startup-chile",
+    "name": "StartupChile",
+    "url": "https://www.startupchile.org",
+    "category": "technology",
+    "reason": "Feed RSS existe (WordPress) pero devuelve 0 ítems en todas las rutas probadas",
+    "description": "Programa de aceleración de startups chilenas",
+    "feeds": []
+  },
+  {
+    "id": "uantof",
+    "name": "Universidad de Antofagasta",
+    "url": "https://www.uantof.cl",
+    "category": "universities",
+    "reason": "Feed RSS existe (WordPress) pero devuelve 0 ítems en todas las rutas probadas",
+    "feeds": [],
+    "description": "Universidad estatal de la Región de Antofagasta"
+  },
+  {
+    "id": "adnradio",
+    "name": "ADN Radio",
+    "url": "https://www.adnradio.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Radio chilena de noticias y actualidad"
+  },
+  {
+    "id": "cnn-chile",
+    "name": "CNN Chile",
+    "url": "https://www.cnnchile.com",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Canal de televisión chileno de noticias"
+  },
+  {
+    "id": "t13",
+    "name": "T13",
+    "url": "https://www.t13.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Medio de comunicación chileno de noticias"
+  },
+  {
+    "id": "meganoticias",
+    "name": "Meganoticias",
+    "url": "https://www.meganoticias.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Medio de comunicación chileno de noticias"
+  },
+  {
+    "id": "publimetro",
+    "name": "Publimetro Chile",
+    "url": "https://www.publimetro.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario chileno de información general"
+  },
+  {
+    "id": "emol",
+    "name": "Emol",
+    "url": "https://www.emol.com",
+    "category": "news",
+    "reason": "Dominio bloquea conexiones externas",
+    "feeds": [],
+    "description": "Diario chileno de noticias y actualidad"
+  },
+  {
+    "id": "el-dinamo",
+    "name": "El Dínamo",
+    "url": "https://www.eldinamo.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Medio de comunicación chileno independiente"
+  },
+  {
+    "id": "soychile",
+    "name": "SoyChile",
+    "url": "https://www.soychile.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Red de diarios regionales chilenos"
+  },
+  {
+    "id": "el-sur",
+    "name": "El Sur",
+    "url": "https://www.elsur.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Concepción"
+  },
+  {
+    "id": "el-llanquihue",
+    "name": "El Llanquihue",
+    "url": "https://www.elllanquihue.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Puerto Montt"
+  },
+  {
+    "id": "el-divisadero",
+    "name": "El Divisadero",
+    "url": "https://www.eldivisadero.cl",
+    "category": "regional",
+    "reason": "XML malformado, no parseable",
+    "feeds": [],
+    "description": "Diario regional de Punta Arenas"
+  },
+  {
+    "id": "diariolaprensa",
+    "name": "Diario La Prensa",
+    "url": "https://new.diariolaprensa.cl",
+    "category": "regional",
+    "reason": "Devuelve HTML",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "elnaveghable",
+    "name": "El Naveghable",
+    "url": "https://www.elnaveghable.cl",
+    "category": "regional",
+    "reason": "XML malformado, no parseable",
+    "feeds": [],
+    "description": "Diario regional de la Región de Los Lagos"
+  },
+  {
+    "id": "uchile",
+    "name": "Universidad de Chile",
+    "url": "https://www.uchile.cl",
+    "category": "universities",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Universidad pública chilena"
+  },
+  {
+    "id": "pucv",
+    "name": "PUCV",
+    "url": "https://www.pucv.cl",
+    "category": "universities",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Universidad privada chilena"
+  },
+  {
+    "id": "uach",
+    "name": "UACh",
+    "url": "https://www.uach.cl",
+    "category": "universities",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Universidad estatal de Valdivia"
+  },
+  {
+    "id": "ucsc",
+    "name": "UCSC",
+    "url": "https://www.ucsc.cl",
+    "category": "universities",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Universidad privada de la Región del Biobío"
+  },
+  {
+    "id": "ubiobio",
+    "name": "U. del Bío-Bío",
+    "url": "https://www.ubiobio.cl",
+    "category": "universities",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Universidad estatal de la Región del Biobío"
+  },
+  {
+    "id": "ine",
+    "name": "INE",
+    "url": "https://www.ine.gob.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Organismo gubernamental de estadísticas"
+  },
+  {
+    "id": "senado",
+    "name": "Senado",
+    "url": "https://www.senado.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Poder Legislativo de Chile"
+  },
+  {
+    "id": "camara",
+    "name": "Cámara de Diputadas y Diputados",
+    "url": "https://www.camara.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Poder Legislativo de Chile"
+  },
+  {
+    "id": "pjud",
+    "name": "Poder Judicial",
+    "url": "https://www.pjud.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Poder Judicial de Chile"
+  },
+  {
+    "id": "sernac",
+    "name": "SERNAC",
+    "url": "https://www.sernac.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Organismo gubernamental de protección al consumidor"
+  },
+  {
+    "id": "contraloria",
+    "name": "Contraloría General",
+    "url": "https://www.contraloria.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Organismo gubernamental de control fiscal"
+  },
+  {
+    "id": "senapred",
+    "name": "SENAPRED",
+    "url": "https://www.senapred.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Organismo gubernamental de emergencias y desastres"
+  },
+  {
+    "id": "las-ultimas-noticias",
+    "name": "Las Últimas Noticias",
+    "url": "https://www.lun.com",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario chileno de circulación nacional"
+  },
+  {
+    "id": "el-mostrador",
+    "name": "El Mostrador",
+    "url": "https://www.elmostrador.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital chileno de noticias"
+  },
+  {
+    "id": "la-segunda",
+    "name": "La Segunda",
+    "url": "https://www.lasegunda.com",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario chileno de circulación nacional"
+  },
+  {
+    "id": "en-cancha",
+    "name": "En Cancha",
+    "url": "https://www.encancha.cl",
+    "category": "sports",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Medio chileno de análisis deportivo"
+  },
+  {
+    "id": "soyantofagasta",
+    "name": "SoyAntofagasta",
+    "url": "https://www.soyantofagasta.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de la Región de Antofagasta"
+  },
+  {
+    "id": "el-nortero",
+    "name": "El Nortero",
+    "url": "https://www.elnortero.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de la Región de Antofagasta"
+  },
+  {
+    "id": "soycalama",
+    "name": "SoyCalama",
+    "url": "https://www.soycalama.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Calama"
+  },
+  {
+    "id": "soyarica",
+    "name": "SoyArica",
+    "url": "https://www.soyarica.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Arica"
+  },
+  {
+    "id": "el-morrocotudo",
+    "name": "El Morrocotudo",
+    "url": "https://www.elmorrocotudo.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Arica"
+  },
+  {
+    "id": "chasquis",
+    "name": "Chasquis",
+    "url": "https://www.chasquis.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Medio de comunicación regional"
+  },
+  {
+    "id": "el-quehaydecierto",
+    "name": "El Quehaydecierto",
+    "url": "https://www.elquehaydecierto.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "soycopiapo",
+    "name": "SoyCopiapó",
+    "url": "https://www.soycopiapo.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Copiapó"
+  },
+  {
+    "id": "diario-regional-aysen",
+    "name": "Diario Regional Aysén",
+    "url": "https://www.diarioregionalaysen.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Aysén"
+  },
+  {
+    "id": "epd-noticias",
+    "name": "EPD Noticias",
+    "url": "https://www.elpatagondomingo.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de la Región de Los Ríos"
+  },
+  {
+    "id": "soyconcepcion",
+    "name": "SoyConcepción",
+    "url": "https://www.soyconcepcion.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Concepción"
+  },
+  {
+    "id": "pagina-7",
+    "name": "Página 7",
+    "url": "https://www.pagina7.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "sabes",
+    "name": "Sabes",
+    "url": "https://www.sabes.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Medio de comunicación regional"
+  },
+  {
+    "id": "resumen",
+    "name": "Resumen",
+    "url": "https://www.resumen.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Medio de comunicación regional"
+  },
+  {
+    "id": "el-concecuente",
+    "name": "El Concecuente",
+    "url": "https://www.elconcecuente.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de la Región de O'Higgins"
+  },
+  {
+    "id": "el-observatodo",
+    "name": "El Observatodo",
+    "url": "https://www.elobservatodo.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de la Región de Coquimbo"
+  },
+  {
+    "id": "soytemuco",
+    "name": "SoyTemuco",
+    "url": "https://www.soytemuco.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de La Araucanía"
+  },
+  {
+    "id": "araucania-diario",
+    "name": "Araucanía Diario",
+    "url": "https://www.araucaniadiario.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de La Araucanía"
+  },
+  {
+    "id": "la-opinon",
+    "name": "La Opiñón",
+    "url": "https://www.laopinon.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "primera-nota",
+    "name": "Primera Nota",
+    "url": "https://www.primeranota.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Medio de comunicación regional"
+  },
+  {
+    "id": "soypuerto-montt",
+    "name": "SoyPuerto Montt",
+    "url": "https://www.soypuertomontt.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Puerto Montt"
+  },
+  {
+    "id": "el-repuertero",
+    "name": "El Repuertero",
+    "url": "https://www.elrepuertero.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de la Región de Los Ríos"
+  },
+  {
+    "id": "diario-de-puerto-montt",
+    "name": "Diario de Puerto Montt",
+    "url": "https://www.diariodepuertomontt.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Puerto Montt"
+  },
+  {
+    "id": "diario-chiloe",
+    "name": "Diario Chiloé",
+    "url": "https://www.diariochiloe.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Chiloé"
+  },
+  {
+    "id": "soyosorno",
+    "name": "SoyOsorno",
+    "url": "https://www.soyosorno.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Osorno"
+  },
+  {
+    "id": "el-vacanudo",
+    "name": "El Vacanudo",
+    "url": "https://www.elvacanudo.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Osorno"
+  },
+  {
+    "id": "diario-de-osorno",
+    "name": "Diario de Osorno",
+    "url": "https://www.diariodeosorno.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Osorno"
+  },
+  {
+    "id": "soychiloe",
+    "name": "SoyChiloé",
+    "url": "https://www.soychiloe.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Chiloé"
+  },
+  {
+    "id": "el-heraldo-austral",
+    "name": "El Heraldo Austral",
+    "url": "https://www.eha.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de la Región de Los Lagos"
+  },
+  {
+    "id": "diario-de-valdivia",
+    "name": "Diario de Valdivia",
+    "url": "https://www.diariodevaldivia.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Valdivia"
+  },
+  {
+    "id": "diario-laguino",
+    "name": "Diario Laguino",
+    "url": "https://www.diariolaguino.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "la-union",
+    "name": "La Unión",
+    "url": "https://www.diariolaunion.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de La Unión"
+  },
+  {
+    "id": "la-voz-de-paillaco",
+    "name": "La Voz de Paillaco",
+    "url": "https://www.lavozdepaillaco.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Paillaco"
+  },
+  {
+    "id": "diario-paillaco",
+    "name": "Diario Paillaco",
+    "url": "https://www.diariopaillaco.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Paillaco"
+  },
+  {
+    "id": "el-paila",
+    "name": "El Paila",
+    "url": "https://www.lapaila.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "diario-rio-bueno",
+    "name": "Diario Río Bueno",
+    "url": "https://www.diarioriobueno.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Río Bueno"
+  },
+  {
+    "id": "diario-futrono",
+    "name": "Diario Futrono",
+    "url": "https://www.diariofutrono.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Futrono"
+  },
+  {
+    "id": "diario-lago-ranco",
+    "name": "Diario Lago Ranco",
+    "url": "https://www.diariolagoranco.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Lago Ranco"
+  },
+  {
+    "id": "diario-lanco",
+    "name": "Diario Lanco",
+    "url": "https://www.diariolanco.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Lanco"
+  },
+  {
+    "id": "diario-mafil",
+    "name": "Diario Máfil",
+    "url": "https://www.diariomafil.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Máfil"
+  },
+  {
+    "id": "el-diario-panguipulli",
+    "name": "El Diario Panguipulli",
+    "url": "https://www.eldiariopanguipulli.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Panguipulli"
+  },
+  {
+    "id": "diario-san-jose",
+    "name": "Diario San José",
+    "url": "https://www.diariosanjose.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "el-magallanews",
+    "name": "El Magallanews",
+    "url": "https://www.elmagallanews.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Magallanes"
+  },
+  {
+    "id": "opinion-sur",
+    "name": "Opinión Sur",
+    "url": "https://www.opinionsur.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Medio de comunicación de la Región de Los Lagos"
+  },
+  {
+    "id": "el-amaule",
+    "name": "El Amaule",
+    "url": "https://www.elamaule.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital del Maule"
+  },
+  {
+    "id": "red-maule",
+    "name": "Red Maule",
+    "url": "https://www.redmaule.com",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Medio de comunicación del Maule"
+  },
+  {
+    "id": "el-lector",
+    "name": "El Lector",
+    "url": "https://lectoronline.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "septima-pagina",
+    "name": "Séptima Página",
+    "url": "https://www.septimapaginanoticias.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "cronica-noticias",
+    "name": "Crónica Noticias",
+    "url": "https://www.cronicanoticias.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "orbita-noticias",
+    "name": "Orbita Noticias",
+    "url": "https://orbitanoticias.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Valle del Itata y la Provincia de Ñuble"
+  },
+  {
+    "id": "el-tipografo",
+    "name": "El Tipógrafo",
+    "url": "https://eltipografo.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Rancagua"
+  },
+  {
+    "id": "el-rancahuaso",
+    "name": "El Rancahuaso",
+    "url": "https://www.elrancahuaso.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de la Región de O'Higgins"
+  },
+  {
+    "id": "el-cachapoal",
+    "name": "El Cachapoal",
+    "url": "https://www.elcachapoal.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de la Región de O'Higgins"
+  },
+  {
+    "id": "soyiquique",
+    "name": "SoyIquique",
+    "url": "https://www.soyiquique.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Iquique"
+  },
+  {
+    "id": "el-boyaldia",
+    "name": "El Boyaldía",
+    "url": "https://www.elboyaldia.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "iquique-online",
+    "name": "Iquique Online",
+    "url": "https://iquiqueonline.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Iquique"
+  },
+  {
+    "id": "soyvalparaiso",
+    "name": "SoyValparaíso",
+    "url": "https://www.soyvalparaiso.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Valparaíso"
+  },
+  {
+    "id": "el-matutino",
+    "name": "El Matutino",
+    "url": "https://www.elmartutino.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional"
+  },
+  {
+    "id": "soyquillota",
+    "name": "SoyQuillota",
+    "url": "https://www.soyquillota.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Quillota"
+  },
+  {
+    "id": "el-andino",
+    "name": "El Andino",
+    "url": "https://www.elandino.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario regional de Los Andes"
+  },
+  {
+    "id": "los-andes-on-line",
+    "name": "Los Andes On Line",
+    "url": "https://www.losandesonline.cl",
+    "category": "regional",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Diario digital de Los Andes"
+  },
+  {
+    "id": "usach",
+    "name": "USACH",
+    "url": "https://www.usach.cl",
+    "category": "universities",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Universidad pública chilena"
+  }
+]

@@ -21,159 +21,117 @@
  * Opciones:
  *   --update     Actualiza feeds-database.json con correcciones y redescubrimientos
  *                Por defecto solo valida sin modificar el archivo
+ *   --automatic  Ejecuta en modo automático (sin prompts interactivos)
+ *                Útil para CI o ejecución desatendida
  *   --watchlist  Solo valida los elementos en la watchlist (retest rápido)
  *   --url <URL>  Valida una URL específica directamente (test único)
  */
 
 import { readFileSync, writeFileSync } from 'fs';
-import { fetchSafe, detectFeedType, checkFeedUrl, DEFAULT_OPTIONS } from '../../lib/feed-validator.js';
+import { checkFeedUrl } from '../../lib/feed-validator.js';
+import { isValidUrl, checkSiteStatus, checkSiteReachable, tryFetchFeedInsecure } from '../../lib/network-utils.js';
+import { isAutomatic, promptUser, promptUrl, promptStatus } from '../../lib/prompter.js';
+import { rediscoverFeed } from '../../lib/feed-rediscovery.js';
 
 // ─── Configuración ────────────────────────────────────────────────────────────
 
-const TIMEOUT_MS = DEFAULT_OPTIONS.timeout;
+const STALE_THRESHOLD_DAYS = 365;
 
-/** Patrones de URL probados en orden durante el redescubrimiento. */
-const FEED_PATTERNS = [
-  '/feed/',
-  '/feed',
-  '/rss/',
-  '/rss',
-  '/rss.xml',
-  '/feed.xml',
-  '/atom/',
-  '/atom',
-  '/atom.xml',
-  '/index.xml',
-  '/feeds',
-  '/feeds/',
-
-  // '.rss', // reddit
-  // '/forums/-/index.rss ', // capa9
-
-  '/rss/chile/portada.xml', // as-chile
-  '/comments/feed/', // criptonoticias-chile
-
-  '/category/blog/feed/', // alianza-ciberseguridad
-  '/blog/feed/', // netsus
-
-  '/rss/global.xml', // entreprenerd
-
-  '/deporte/feed/rss/', // el-marino
-  '/arc/outboundfeeds/rss/category/chile/?outputType=xml', // la-tercera
-  '/noticias/feed/rss/'  // gobierno-chile
+const BROKEN_ERRORS = [
+  'HTML (no es feed)',
+  'no es RSS/Atom',
+  'sin canal',
+  'XML inválido',
+  'items sin contenido válido',
 ];
 
-// ─── Detección de feeds ───────────────────────────────────────────────────────
+// ─── Helpers para estado de feeds ──────────────────────────────────────────
 
-/**
- * Comprueba si el sitio raíz responde.
- * Útil para distinguir "feed eliminado" de "sitio caído".
- * @param {string} baseUrl  URL base del sitio (ej. "https://www.ejemplo.cl")
- * @returns {Promise<'up'|'down'>}
- */
-async function checkSiteStatus(baseUrl) {
-  // HEAD primero (más rápido, no descarga body)
-  const res = await fetchSafe(baseUrl, 'HEAD');
-  if (res && res.ok) return 'up';
-  if (res && res.status < 500) return 'up'; // 4xx errors still mean site is up
-
-  // Algunos servidores bloquean HEAD, intentar GET
-  const res2 = await fetchSafe(baseUrl, 'GET');
-  if (res2 && res2.ok) return 'up';
-  if (res2 && res2.status < 500) return 'up';
-
-  return 'down';
+function updateFeedState(feed, { status, feedType, rssUrl, lastItemDate } = {}, shouldUpdate) {
+  if (!shouldUpdate) return;
+  feed.last_checked = new Date().toISOString();
+  feed.status       = status;
+  feed.verified     = status === 'active';
+  if (feedType !== undefined)    feed.feed_type          = feedType;
+  if (rssUrl !== undefined)      feed.rss_url            = rssUrl;
+  if (lastItemDate != null)      feed.last_known_item_date = lastItemDate;
 }
 
-/**
- * Extrae URLs de feeds del HTML buscando tags <link rel="alternate">.
- * @param {string} html
- * @param {string} baseUrl  Para resolver rutas relativas
- * @returns {string[]}
- */
-function extractFeedLinksFromHtml(html, baseUrl) {
-  const origin = new URL(baseUrl).origin;
-  const linkRe = /<link[^>]+rel=["']alternate["'][^>]*>/gi;
-  const typeRe = /type=["']application\/(rss|atom)\+xml["']/i;
-  const hrefRe = /href=["']([^"']+)["']/i;
-
-  return (html.match(linkRe) ?? [])
-    .filter(tag => typeRe.test(tag))
-    .map(tag => {
-      const m = tag.match(hrefRe);
-      if (!m) return null;
-      let href = m[1];
-      if (href.startsWith('//')) href = 'https:' + href;
-      if (href.startsWith('/'))  href = origin + href;
-      return href;
-    })
-    .filter(Boolean);
+function feedLabel(site, feed) {
+  return `${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`;
 }
 
-/**
- * Intenta redescubrir el feed de un sitio usando:
- *   1. Tags <link alternate> en el HTML raíz
- *   2. Patrones comunes de URL
- *
- * @param {string} siteUrl  URL base del sitio
- * @returns {Promise<{ feedUrl: string, feedType: string, itemCount: number } | { error: string, code?: number } | null>}
- */
-async function rediscoverFeed(siteUrl) {
-  const base = siteUrl.replace(/\/$/, '');
+function trackResult(results, feed, site, status) {
+  const label = feedLabel(site, feed);
+  if (status === 'active') results.ok.push(label);
+  else if (status === 'offline') results.offline.push(label);
+  else if (status === 'broken') results.broken.push(label);
+  else if (status === 'no_feed') results.noFeed.push(label);
+  else if (status === 'stale') results.stale.push(label);
+}
 
-  // 1. Verificar si el sitio está accesible
-  const rootRes = await fetchSafe(base);
-  if (!rootRes) {
-    return { error: 'sitio no responde', code: null };
+async function testManualUrl(url, feedName) {
+  if (!isValidUrl(url)) {
+    console.log(`     ❌ URL inválida o no permitida: ${url}`);
+    return null;
   }
-  if (!rootRes.ok) {
-    return { error: 'HTTP error', code: rootRes.status };
+  const testResult = await checkFeedUrl(url);
+  if (testResult.type) {
+    console.log(`     ✅ URL válida: ${url} (${testResult.type})`);
+    return { feedUrl: url, feedType: testResult.type, lastItemDate: testResult.lastItemDate };
   }
+  console.log(`     ❌ ${testResult.error} — reintentando ignorando SSL...`);
+  const insecureResult = await tryFetchFeedInsecure(url);
+  if (insecureResult && insecureResult.itemCount > 0) {
+    console.log(`     ✅ feed válido a pesar del SSL (${insecureResult.type}, ${insecureResult.itemCount} items)`);
+    return { feedUrl: url, feedType: insecureResult.type, lastItemDate: insecureResult.lastItemDate };
+  }
+  console.log(`     ❌ URL no válida`);
+  return null;
+}
 
-  // 2. Buscar en el HTML de la página raíz
-  const html = await rootRes.text();
-  const feedLinks = extractFeedLinksFromHtml(html, base);
+function applyFeedDecision(feed, site, results, status, shouldUpdate, extra = {}) {
+  updateFeedState(feed, { status, ...extra }, shouldUpdate);
+  trackResult(results, feed, site, status);
+}
 
-  if (feedLinks.length > 0) {
-    // Priorizar feeds principales sobre feeds de comentarios
-    const mainFeeds = feedLinks.filter(url => !url.includes('/comments/'));
-    const feedsToCheck = mainFeeds.length > 0 ? mainFeeds : feedLinks;
-    
-    for (const url of feedsToCheck) {
-      const result = await checkFeedUrl(url);
-      if (result.type) return { feedUrl: url, feedType: result.type, itemCount: result.itemCount };
+async function handleRediscoveryFail(feed, site, results, defaultStatus, shouldUpdate) {
+  if (!shouldUpdate || !process.stdin.isTTY || isAutomatic()) {
+    applyFeedDecision(feed, site, results, defaultStatus, shouldUpdate);
+    return;
+  }
+  const manualUrl = await promptUrl(feed.name, feed.rss_url);
+  if (manualUrl) {
+    const tested = await testManualUrl(manualUrl, feed.name);
+    if (tested) {
+      applyFeedDecision(feed, site, results, 'active', shouldUpdate, {
+        feedType: tested.feedType, rssUrl: tested.feedUrl, lastItemDate: tested.lastItemDate
+      });
+      results.fixed.push(feedLabel(site, feed));
+      return;
     }
-    // Si encontró links pero ninguno pasó la validación
-    return { error: 'feed vacío o sin items', code: null };
   }
-
-  // 3. Probar patrones comunes
-  for (const pattern of FEED_PATTERNS) {
-    const candidate = base + pattern;
-    const result = await checkFeedUrl(candidate);
-    if (result.type) return { feedUrl: candidate, feedType: result.type, itemCount: result.itemCount };
-  }
-
-  return { error: 'sin feed RSS detectado', code: null };
+  const chosen = await promptStatus(feed.name, feed.rss_url);
+  applyFeedDecision(feed, site, results, chosen, shouldUpdate);
 }
 
 // ─── Modo: URL única ──────────────────────────────────────────────────────────
 
 async function validateSingleUrl(url) {
   console.log(`🔍 Validando URL: ${url}\n`);
-  
-  // Primero intenta como feed directo
+
   const feedResult = await checkFeedUrl(url);
   if (feedResult.type) {
     console.log(`✅ Feed válido: ${feedResult.type}`);
     console.log(`   Items: ${feedResult.itemCount}`);
-    console.log(`   Timeout: ${feedResult.timeout}ms\n`);
+    if (feedResult.lastItemDate) {
+      console.log(`   Último item: ${feedResult.lastItemDate.slice(0, 10)}`);
+    }
     return;
   }
 
-  // Si no es feed directo, intenta redescubrir desde la URL como sitio base
   console.log(`ℹ️  No es un feed directo, intentando redescubrir desde el sitio...\n`);
-  
+
   const siteStatus = await checkSiteStatus(url);
   if (siteStatus === 'down') {
     console.log(`❌ El sitio no responde (${url})`);
@@ -182,7 +140,7 @@ async function validateSingleUrl(url) {
 
   process.stdout.write('🔍 Redescubriendo feeds... ');
   const found = await rediscoverFeed(url);
-  
+
   if (found.feedUrl) {
     console.log(`\n✅ Feed encontrado:\n`);
     console.log(`   URL: ${found.feedUrl}`);
@@ -194,101 +152,24 @@ async function validateSingleUrl(url) {
   }
 }
 
-// ─── Modo: Watchlist ──────────────────────────────────────────────────────────
-
-async function validateWatchlist(db, shouldUpdate) {
-  if (!db.watchlist?.length) {
-    console.log(`⚠️  No hay sitios en la watchlist\n`);
-    return;
-  }
-
-  console.log(`🔭 Validando ${db.watchlist.length} sitios de watchlist\n`);
-  console.log('='.repeat(55));
-
-  const promoted = [];
-  const errors = { noResponse: [], httpError: [], emptyFeed: [], noFeed: [] };
-
-  for (const entry of db.watchlist) {
-    process.stdout.write(`🔍 ${entry.name}... `);
-    const result = await rediscoverFeed(entry.url);
-
-    if (result.feedUrl) {
-      console.log(`🎉 feed encontrado!`);
-      console.log(`   URL: ${result.feedUrl} [${result.feedType}]`);
-      console.log(`   Items: ${result.itemCount}\n`);
-      promoted.push({ entry, found: result });
-    } else {
-      const errorMsg = result.code
-        ? `${result.error} (${result.code})`
-        : result.error;
-      console.log(`❌ ${errorMsg}`);
-
-      // Categorizar errores para resumen
-      if (result.error === 'sitio no responde') {
-        errors.noResponse.push(entry.name);
-      } else if (result.error === 'HTTP error') {
-        errors.httpError.push(`${entry.name} (${result.code})`);
-      } else if (result.error === 'feed vacío o sin items') {
-        errors.emptyFeed.push(entry.name);
-      } else {
-        errors.noFeed.push(entry.name);
-      }
-    }
-  }
-
-  // Resumen
-  console.log('='.repeat(55));
-
-  if (promoted.length) {
-    console.log(`\n✅ ${promoted.length} sitio(s) en watchlist con feed encontrado:\n`);
-    for (const { entry, found } of promoted) {
-      console.log(`  ${entry.name} (${entry.category})`);
-      console.log(`  URL sitio : ${entry.url}`);
-      console.log(`  Feed URL  : ${found.feedUrl} [${found.feedType}]`);
-      if (shouldUpdate) {
-        console.log(`  → Agregálo a 'sites' en feeds-database.json\n`);
-      }
-    }
-  }
-
-  // Resumen de errores
-  if (errors.noResponse.length || errors.httpError.length || errors.emptyFeed.length || errors.noFeed.length) {
-    console.log(`\n❌ Resumen de watchlist:\n`);
-    if (errors.noResponse.length) {
-      console.log(`   🔴 No responden: ${errors.noResponse.length}`);
-      errors.noResponse.forEach(name => console.log(`      • ${name}`));
-    }
-    if (errors.httpError.length) {
-      console.log(`   🟡 HTTP errors: ${errors.httpError.length}`);
-      errors.httpError.forEach(name => console.log(`      • ${name}`));
-    }
-    if (errors.emptyFeed.length) {
-      console.log(`   ⚠️  Feed vacío: ${errors.emptyFeed.length}`);
-      errors.emptyFeed.forEach(name => console.log(`      • ${name}`));
-    }
-    if (errors.noFeed.length) {
-      console.log(`   🔵 Sin feed RSS: ${errors.noFeed.length}`);
-      errors.noFeed.forEach(name => console.log(`      • ${name}`));
-    }
-  }
-}
-
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
   const db = JSON.parse(readFileSync('feeds-database.json', 'utf-8'));
 
-  // Parsear argumentos de línea de comandos
   const args = process.argv.slice(2);
   const shouldUpdate = args.includes('--update');
-  
-  // Detectar modo
+
   const hasWatchlistMode = args.includes('--watchlist');
   const hasUrlMode = args.includes('--url');
   const targetId = args.includes('--id') ? args[args.indexOf('--id') + 1] : null;
   const targetUrl = hasUrlMode ? args[args.indexOf('--url') + 1] : null;
 
-  // Modo 1: URL única
+  if (args.includes('--id') && (!targetId || targetId.startsWith('--'))) {
+    console.error('❌ Error: --id requiere un valor (ID del sitio)');
+    process.exit(1);
+  }
+
   if (hasUrlMode) {
     if (!targetUrl) {
       console.error('❌ Error: --url requiere una URL');
@@ -298,13 +179,13 @@ async function main() {
     return;
   }
 
-  // Modo 2: Watchlist
   if (hasWatchlistMode) {
-    await validateWatchlist(db, shouldUpdate);
+    console.log(`📢 La validación de watchlist ahora tiene su propio comando:\n`);
+    console.log(`   npm run validate:watchlist [--update] [--automatic]`);
+    console.log(`   node scripts/core/validate-watchlist.js [--update] [--automatic]\n`);
     return;
   }
 
-  // Filtrar sitios si se especifica un ID
   let sitesToValidate = db.sites;
   if (targetId) {
     sitesToValidate = db.sites.filter(s => s.id === targetId);
@@ -314,82 +195,180 @@ async function main() {
     }
   }
 
-  // Contar total de feeds individuales
   const totalFeeds = sitesToValidate.reduce((sum, site) => sum + site.feeds.length, 0);
 
   console.log(`🔍 Revalidando ${sitesToValidate.length} sitio${sitesToValidate.length > 1 ? 's' : ''} (${totalFeeds} feed${totalFeeds > 1 ? 's' : ''}) desde feeds-database.json\n`);
   console.log('='.repeat(55));
 
-  const results = { ok: [], fixed: [], broken: [], offline: [] };
+  const results = { ok: [], fixed: [], stale: [], broken: [], offline: [], noFeed: [] };
 
   for (const site of sitesToValidate) {
     console.log(`\n📌 ${site.name} (${site.feeds.length} feed${site.feeds.length > 1 ? 's' : ''})`);
 
-    for (const feed of site.feeds) {
+    // Pre-check all feeds for this site in parallel (network-bound phase)
+    const checkResults = await Promise.all(
+      site.feeds.map(feed => checkFeedUrl(feed.rss_url))
+    );
+
+    let siteDecision = null;
+
+    for (const [feedIndex, feed] of site.feeds.entries()) {
+      const checkResult = checkResults[feedIndex];
       const label = site.feeds.length > 1 ? `  🔍 ${feed.name}... ` : `🔍 ${site.name}... `;
       process.stdout.write(label);
 
-      // 1. Verificar si la rss_url actual sigue funcionando
-      const checkResult = await checkFeedUrl(feed.rss_url);
-
       if (checkResult.type) {
+        siteDecision = null;
+
         const itemCount = checkResult.itemCount;
-        console.log(`✅ OK (${checkResult.type}, ${itemCount} item${itemCount > 1 ? 's' : ''})`);
-        if (shouldUpdate) {
-          feed.feed_type    = checkResult.type;
-          feed.last_checked = new Date().toISOString();
-          feed.status       = 'active';
-          feed.verified     = true;
+        const lastItemDate = checkResult.lastItemDate;
+
+        if (lastItemDate) {
+          const daysSince = (Date.now() - new Date(lastItemDate).getTime()) / (1000 * 60 * 60 * 24);
+          if (daysSince > STALE_THRESHOLD_DAYS) {
+            console.log(`⚠️  STALE (último item: ${lastItemDate.slice(0, 10)}, ${Math.round(daysSince)} días)`);
+            updateFeedState(feed, { status: 'stale', feedType: checkResult.type, lastItemDate }, shouldUpdate);
+            results.stale.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+            continue;
+          }
+        } else if (itemCount === 0) {
+          console.log(`⚠️  vacío (${checkResult.type}, 0 items) — no tiene contenido`);
+          updateFeedState(feed, { status: 'no_feed', feedType: checkResult.type }, shouldUpdate);
+          results.noFeed.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+          continue;
+        } else {
+          if (shouldUpdate && process.stdin.isTTY && !isAutomatic()) {
+            const keepActive = await promptUser(
+              `   ⚠️  "${feed.name}" — sin fecha en items.\n     📎 ${feed.rss_url}\n   ¿Activo? [Y/n]: `
+            );
+            if (!keepActive) {
+              console.log(`   → marcado como stale (sin info de fecha)`);
+              updateFeedState(feed, { status: 'stale', feedType: checkResult.type }, shouldUpdate);
+              results.stale.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+              continue;
+            }
+          } else {
+            console.log(`✅ OK (${checkResult.type}, ${itemCount} item${itemCount > 1 ? 's' : ''}, sin fecha)`);
+          }
         }
-        results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
-        continue;
+
+        if (!lastItemDate || (Date.now() - new Date(lastItemDate).getTime()) / (1000 * 60 * 60 * 24) <= STALE_THRESHOLD_DAYS) {
+          if (lastItemDate) {
+            console.log(`✅ OK (${checkResult.type}, ${itemCount} item${itemCount > 1 ? 's' : ''})`);
+          }
+          updateFeedState(feed, { status: 'active', feedType: checkResult.type, lastItemDate }, shouldUpdate);
+          results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+          continue;
+        }
       }
 
-      // Feed no válido - mostrar error específico
       const errorMsg = checkResult.code
         ? `${checkResult.error} (${checkResult.code})`
         : checkResult.error;
       console.log(`❌ ${errorMsg}`);
 
-      // 2. URL rota — comprobar si el sitio sigue vivo
-      const siteStatus = await checkSiteStatus(site.url);
-
-      if (siteStatus === 'down') {
-        console.log(`   🔴 sitio caído`);
-        if (shouldUpdate) {
-          feed.status       = 'offline';
-          feed.verified     = false;
-          feed.last_checked = new Date().toISOString();
+      const isBroken = BROKEN_ERRORS.includes(checkResult.error);
+      if (isBroken) {
+        console.log(`   ⚠️  contenido inválido — intentando redescubrir...`);
+        const found = await rediscoverFeed(site.url);
+        if (found.feedUrl) {
+            if (found.feedUrl === feed.rss_url) {
+            console.log(`   🔄 misma URL (posible error intermitente) — ${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''}`);
+            updateFeedState(feed, { status: 'active' }, shouldUpdate);
+            results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+          } else {
+            console.log(`   🔄 nueva URL: ${found.feedUrl} (${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''})`);
+            updateFeedState(feed, { status: 'active', feedType: found.feedType, rssUrl: found.feedUrl }, shouldUpdate);
+            results.fixed.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+          }
+        } else {
+          console.log(`   ❌ feed no recuperable`);
+          await handleRediscoveryFail(feed, site, results, 'broken', shouldUpdate);
         }
-        results.offline.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
         continue;
       }
 
-      // 3. Sitio activo pero URL rota → intentar redescubrir
+      const siteStatus = await checkSiteStatus(site.url);
+
+      if (siteStatus === 'down') {
+        if (siteDecision) {
+          const remaining = site.feeds.length - feedIndex;
+          console.log(`     → ${siteDecision} (aplicando a ${remaining} feed${remaining > 1 ? 's restantes' : ''} del sitio)`);
+          updateFeedState(feed, { status: siteDecision }, shouldUpdate);
+          trackResult(results, feed, site, siteDecision);
+          continue;
+        }
+
+        const reachable = await checkSiteReachable(site.url);
+        if (reachable.reachable && reachable.type === 'cert') {
+          console.log(`   ⚠️  certificado SSL vencido — sitio responde pero no se puede verificar`);
+        } else if (reachable.reachable && reachable.type === 'blocked') {
+          console.log(`   ⚠️  HTTPS bloqueado por CDN (Cloudflare u otro) — sitio responde por HTTP`);
+        } else {
+          console.log(`   🔴 sitio no responde (${site.url})`);
+        }
+        let confirmOffline = true;
+        if (shouldUpdate && process.stdin.isTTY && !isAutomatic()) {
+          confirmOffline = await promptUser(
+            `     ⚠️  ¿"${site.name}" (${site.url}) realmente está caído? [s/N]: `,
+            { defaultYes: false }
+          );
+        }
+        if (confirmOffline) {
+          siteDecision = 'offline';
+          updateFeedState(feed, { status: 'offline' }, shouldUpdate);
+          results.offline.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+          continue;
+        }
+        if (reachable.reachable) {
+          const label = reachable.type === 'cert'
+            ? 'Certificado SSL vencido'
+            : 'HTTPS bloqueado por CDN';
+
+          if (reachable.type === 'cert') {
+            console.log(`     ℹ️  ${label} — intentando leer feed ignorando SSL...`);
+            const feedData = await tryFetchFeedInsecure(feed.rss_url);
+              if (feedData && feedData.itemCount > 0) {
+                console.log(`     ✅ feed válido a pesar del SSL (${feedData.type}, ${feedData.itemCount} item${feedData.itemCount > 1 ? 's' : ''})`);
+              updateFeedState(feed, { status: 'active', feedType: feedData.type, lastItemDate: feedData.lastItemDate }, shouldUpdate);
+              results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+              continue;
+            }
+            console.log(`     ❌ feed no válido incluso ignorando SSL`);
+          } else {
+            console.log(`     ℹ️  ${label} — no se puede verificar el feed (${feed.rss_url})`);
+          }
+
+          const chosen = await promptStatus(feed.name, feed.rss_url);
+          siteDecision = chosen;
+          updateFeedState(feed, { status: chosen }, shouldUpdate);
+          trackResult(results, feed, site, chosen);
+        } else {
+          console.log(`     ℹ️  El sitio no responde desde el script pero puede estar funcionando (${site.url}) — feed: ${feed.rss_url}`);
+          await handleRediscoveryFail(feed, site, results, 'no_feed', shouldUpdate);
+        }
+        continue;
+      }
+
       process.stdout.write('   ⚠️  redescubriendo... ');
       const found = await rediscoverFeed(site.url);
 
-      if (found.feedUrl) {
-        console.log(`🔄 nueva URL: ${found.feedUrl} (${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''})`);
-        if (shouldUpdate) {
-          feed.rss_url      = found.feedUrl;
-          feed.feed_type    = found.feedType;
-          feed.last_checked = new Date().toISOString();
-          feed.status       = 'active';
-          feed.verified     = true;
+        if (found.feedUrl) {
+        if (found.feedUrl === feed.rss_url) {
+          console.log(`🔄 misma URL (posible error intermitente) — ${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''}`);
+          updateFeedState(feed, { status: 'active' }, shouldUpdate);
+          results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+        } else {
+          console.log(`🔄 nueva URL: ${found.feedUrl} (${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''})`);
+          updateFeedState(feed, { status: 'active', feedType: found.feedType, rssUrl: found.feedUrl }, shouldUpdate);
+          results.fixed.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
         }
-        results.fixed.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
       } else {
         const rediscoverError = found.code
           ? `${found.error} (${found.code})`
           : found.error;
         console.log(`❌ ${rediscoverError}`);
-        if (shouldUpdate) {
-          feed.status       = 'no_feed';
-          feed.verified     = false;
-          feed.last_checked = new Date().toISOString();
-        }
-        results.broken.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+        await handleRediscoveryFail(feed, site, results, 'no_feed', shouldUpdate);
       }
     }
   }
@@ -397,22 +376,29 @@ async function main() {
   // ─── Resumen ───────────────────────────────────────────────────────────────
 
   console.log('\n' + '='.repeat(55));
-  console.log(`\n✅ Sin cambios    : ${results.ok.length}`);
+  console.log(`\n✅ Activos       : ${results.ok.length}`);
 
   if (results.fixed.length) {
-    console.log(`🔄 URL corregida  : ${results.fixed.length}`);
+    console.log(`🔄 URL corregida : ${results.fixed.length}`);
     for (const name of results.fixed) console.log(`   • ${name}`);
   }
+  if (results.stale.length) {
+    console.log(`⏳ Stale         : ${results.stale.length}`);
+    for (const name of results.stale) console.log(`   • ${name}`);
+  }
   if (results.broken.length) {
-    console.log(`❌ Sin feed       : ${results.broken.length}`);
+    console.log(`💔 Broken        : ${results.broken.length}`);
     for (const name of results.broken) console.log(`   • ${name}`);
   }
   if (results.offline.length) {
-    console.log(`🔴 Sitio caído    : ${results.offline.length}`);
+    console.log(`🔴 Sitio caído   : ${results.offline.length}`);
     for (const name of results.offline) console.log(`   • ${name}`);
   }
+  if (results.noFeed.length) {
+    console.log(`❌ Sin feed       : ${results.noFeed.length}`);
+    for (const name of results.noFeed) console.log(`   • ${name}`);
+  }
 
-  // Actualizar conteo y timestamp solo si --update está activo
   if (shouldUpdate) {
     const activeFeedCount = db.sites.reduce(
       (sum, site) => sum + site.feeds.filter(f => f.status === 'active').length,

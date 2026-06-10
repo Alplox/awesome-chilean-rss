@@ -21,10 +21,13 @@ Si deseas agregar un nuevo feed RSS, por favor asegúrate de cumplir con estos r
   - 🌎 Medios Regionales
   - 💼 Negocios y Finanzas
   - 🎨 Cultura y Divulgación
+  - ⚽ Deportes
   - 🎧 Podcasts
   - 📋 Datos Públicos y Oficiales
   - (Otras categorías bienvenidas)
 - **Descripción breve**: 1-2 líneas explicando qué tipo de contenido ofrece el feed
+
+> **💡 Categoría por feed**: Si un sitio tiene feeds de distintas temáticas (ej: noticias generales + deportes + tecnología), puedes asignar **categorías diferentes a cada feed** agregando el campo `"category"` dentro del feed. Si no se especifica, hereda la categoría del sitio.
 
 #### Criterios para una buena descripción
 
@@ -99,6 +102,51 @@ Sitio con múltiples feeds por sección:
   ]
 }
 ```
+
+Sitio con **categorías diferentes por feed**:
+
+```json
+{
+  "id": "sitio-con-secciones",
+  "name": "Sitio con Secciones",
+  "url": "https://ejemplo.cl",
+  "category": "news",
+  "description": "Portal con secciones de noticias, tecnología y deportes",
+  "feeds": [
+    {
+      "id": "sitio-con-secciones-ultimas-noticias",
+      "name": "Últimas Noticias",
+      "rss_url": "https://ejemplo.cl/rss/noticias.xml",
+      "feed_type": "RSS",
+      "last_checked": "2026-01-01T00:00:00.000Z",
+      "status": "active",
+      "verified": true
+    },
+    {
+      "id": "sitio-con-secciones-tecnologia",
+      "name": "Tecnología",
+      "rss_url": "https://ejemplo.cl/rss/tecnologia.xml",
+      "feed_type": "RSS",
+      "category": "technology",
+      "last_checked": "2026-01-01T00:00:00.000Z",
+      "status": "active",
+      "verified": true
+    },
+    {
+      "id": "sitio-con-secciones-deportes",
+      "name": "Deportes",
+      "rss_url": "https://ejemplo.cl/rss/deportes.xml",
+      "feed_type": "RSS",
+      "category": "sports",
+      "last_checked": "2026-01-01T00:00:00.000Z",
+      "status": "active",
+      "verified": true
+    }
+  ]
+}
+```
+
+> ⚠️ El campo `category` en un feed es **opcional**. Si no se especifica, el feed hereda la categoría del sitio. Si se especifica, debe coincidir con una clave existente en `categories` (validado automáticamente).
 
 ### 2. Validación de feeds
 

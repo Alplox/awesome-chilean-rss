@@ -6,15 +6,20 @@
   "scripts": {
     "validate": "node scripts/core/validate_feeds.js",
     "generate": "node scripts/core/generate.js",
-    "validate:json": "node scripts/validation/validate-json.mjs",
-    "validate:opml": "node scripts/validation/validate-opml.mjs",
+    "validate:json": "node scripts/validation/validate-json.js",
+    "validate:opml": "node scripts/validation/validate-opml.js",
+    "validate:watchlist": "node scripts/core/validate-watchlist.js",
     "ci": "npm run validate:json && npm run validate:opml && npm run generate && git diff --exit-code chilean-rss.opml README.md"
   },
   "dependencies": {
     "fast-xml-parser": "5.8.0"
   },
+  "author": {
+    "name": "Alplox",
+    "url": "https://github.com/alplox"
+  },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.13.0"
   },
   "license": "CC0-1.0"
 }
