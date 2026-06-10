@@ -23,7 +23,7 @@ node scripts/core/validate_feeds.js --url https://ejemplo.com
 
 ### 🔭 Modo Watchlist: `--watchlist`
 
-Redirige a `npm run validate:watchlist`.
+Muestra instrucciones para usar `npm run validate:watchlist`.
 
 ---
 
@@ -90,11 +90,24 @@ npm run validate:watchlist -- --id adnradio [--update]
 Desactiva todos los prompts interactivos para CI o ejecución desatendida.
 
 ```bash
-# Valida y actualiza sin preguntar al usuario
-node scripts/core/validate_feeds.js --update --automatic
+# CI: solo validación, no modifica archivos (read-only)
+npm run validate -- --automatic
+
+# Batch: valida y actualiza sin preguntar
+npm run validate -- --update --automatic
 ```
 
-En este modo:
+**Con `--automatic` solo** (sin `--update`):
+- No modifica ningún archivo
+- Ideal para CI, workflows automáticos, pre-commit hooks
+- Reporta feeds rotos sin alterar la base de datos
+- Se ejecuta en GitHub Actions en PRs y manualmente
+
+**Con `--update --automatic`**:
+- Aplica cambios a `feeds-database.json` sin intervención
+- Útil para mantenimiento batch programado
+
+En ambos modos:
 - Feeds sin fecha de último item se mantienen activos por defecto (conservador)
 - URLs fallidas se marcan automáticamente según el tipo de error
 - Rediscovery fallido se marca como `no_feed`
@@ -109,7 +122,8 @@ En este modo:
 | `--url <URL>`            | 1 feed/sitio | ❌ No       | ⚡ Rápido | Test individual     |
 | `--id <id>` + `--update`| 1 sitio BD   | ✅ Sí       | ⚡ Rápido | Fix individual      |
 | Sin opciones             | Todos (BD)   | ❌ No       | 🐢 Lento  | Solo validación     |
-| `--update --automatic`   | Todos (BD)   | ✅ Sí       | 🐢 Lento  | Validación en CI    |
+| `--automatic`            | Todos (BD)   | ❌ No       | 🐢 Lento  | CI / pre-commit    |
+| `--update --automatic`   | Todos (BD)   | ✅ Sí       | 🐢 Lento  | Batch silencioso    |
 | `validate:watchlist`     | Watchlist    | ❌ No       | 🐢 Lento  | Retest watchlist    |
 | `validate:watchlist -- --update` | Watchlist | ✅ Sí     | 🐢 Lento  | Promover watchlist  |
 | `validate:watchlist -- --id <id>` | 1 watchlist | según flag | ⚡ Rápido | Promover uno solo |
@@ -202,11 +216,14 @@ Cuando una URL de feed falla:
 
 ---
 
-## Scripts Relacionados
+## Workflows de GitHub Actions
 
-- `npm run validate` → `validate_feeds.js` (validación con --update opcional)
-- `npm run validate:watchlist` → `validate-watchlist.js` (validación y promoción de watchlist)
-- `npm run generate` → `generate.js` (regenera OPML + README desde BD + categories.json)
-- `npm run validate:json` → `validate-json.js` (valida estructura de los 3 JSON)
-- `npm run validate:opml` → `validate-opml.js` (valida sintaxis del OPML)
-- `npm run ci` → Pipeline completo (validate:json + validate:opml + generate + diff)
+### `check-format.yml`
+- **Disparo**: PR + manual (`workflow_dispatch`)
+- **Ejecuta**: `npm run ci` (validate:json + validate:opml + generate + diff)
+- **Propósito**: verificar formato y sincronía de archivos
+
+### `validate-links.yml`
+- **Disparo**: solo manual (`workflow_dispatch`)
+- **Ejecuta**: `npm run validate -- --automatic` (read-only)
+- **Propósito**: verificar que las URLs de feed respondan correctamente

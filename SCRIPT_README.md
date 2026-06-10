@@ -13,7 +13,7 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 |                                          | `npm run validate -- --id <site-id>`            | Valida solo un sitio específico por su ID                                      |
 |                                          | `npm run validate -- --id <site-id> --update`  | Valida y actualiza solo un sitio específico                                    |
 |                                          | `npm run validate -- --url <URL>`               | Valida una URL específica (feed o sitio) sin modificar BD          |
-|                                          | `npm run validate -- --watchlist`               | Redirige a `npm run validate:watchlist`                            |
+|                                          | `npm run validate -- --watchlist`               | Muestra instrucciones para usar `npm run validate:watchlist`                            |
 |                                          | `npm run validate -- --update --automatic`      | Modo no interactivo para CI/desatendido                            |
 | `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json` y `categories.json`, regenera OPML y README         |
 | `scripts/core/validate-watchlist.js`     | `npm run validate:watchlist`                   | Valida watchlist, promueve feeds válidos a sites con `--update`    |
@@ -25,8 +25,8 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 
 | Script                                      | Comando                  | Propósito                                    |
 |----------------------------------------------|--------------------------|----------------------------------------------|
-| `scripts/validation/validate-json.js`        | `npm run validate:json`  | Valida la estructura del JSON (usado por CI) |
-| `scripts/validation/validate-opml.js`        | `npm run validate:opml`  | Valida la sintaxis del OPML (usado por CI)   |
+| `scripts/validation/validate-json.js`        | `npm run validate:json`  | Valida la estructura del JSON (CI) |
+| `scripts/validation/validate-opml.js`        | `npm run validate:opml`  | Valida la sintaxis del OPML (CI)   |
 
 ### Scripts utilitarios (utils/)
 
@@ -90,12 +90,14 @@ npm run generate
 # Revalidar todos los feeds, redescubrir URLs rotas
 npm run validate
 
+# Solo validación, sin prompts (CI / pre-commit)
+npm run validate -- --automatic
+
+# Verificar formato y sincronización (CI)
+npm run ci
+
 # Validar y promover watchlist
 npm run validate:watchlist
-
-# Validaciones individuales (usadas por CI)
-npm run validate:json
-npm run validate:opml
 ```
 
 ## 🆕 Modos de Validación
@@ -128,14 +130,18 @@ npm run validate:watchlist -- --id adnradio --update
 
 Valida cada entrada de `watchlist.json`: redescubre feed, valida contenido, verifica frescura (< 365 días). Con `--update`, promueve los exitosos a `sites[]` en `feeds-database.json`. Al finalizar sin `--update`, pregunta si desea guardar los cambios (no obliga a re-ejecutar).
 
-### Modo automático (CI)
+### Modo automático y CI
 
 ```bash
-# Sin prompts interactivos, decisiones conservadoras por defecto
+# CI: solo validación, no modifica archivos (read-only)
+npm run validate -- --automatic
+
+# Batch: valida y actualiza sin preguntar
 npm run validate -- --update --automatic
 ```
 
-Para integración continua o ejecución desatendida.
+**`--automatic` sin `--update`** no modifica ningún archivo — ideal para CI, PR checks y pre-commit hooks.
+**`--update --automatic`** aplica cambios a `feeds-database.json` sin intervención (mantenimiento batch).
 
 ### Validar sitio específico
 

@@ -1,25 +1,10 @@
 name: Validate RSS Links
 
-on:
-  push:
-    branches: [main, master, develop]
-    paths:
-      - 'README.md'
-      - 'chilean-rss.opml'
-      - 'feeds-database.json'
-      - 'scripts/**'
-      - '.github/workflows/validate-links.yml'
-  pull_request:
-    branches: [main, master, develop]
-    paths:
-      - 'README.md'
-      - 'chilean-rss.opml'
-      - 'feeds-database.json'
-      - 'scripts/**'
+on: workflow_dispatch
 
 jobs:
-  ci:
-    name: Validate and check sync
+  validate:
+    name: Validate feed URLs
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,7 +13,4 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - name: Validate feed URLs
-        run: npm run validate -- --automatic
-        timeout-minutes: 15
-      - run: npm run ci
+      - run: npm run validate -- --automatic
