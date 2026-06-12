@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de Antofagasta (8 feeds)</title>
+    <description>Feeds RSS de la Región de Antofagasta, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Antofacity" title="Antofacity" xmlUrl="https://www.antofacity.com/feed" htmlUrl="https://www.antofacity.com"/>
+    <outline type="rss" text="Antofagasta Noticias" title="Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/feed/" htmlUrl="https://www.antofagastanoticias.cl"/>
+    <outline type="rss" text="Calama en Línea" title="Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/feed" htmlUrl="https://noticias.calamaenlinea.cl"/>
+    <outline type="rss" text="Diario Antofagasta" title="Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/feed/" htmlUrl="https://www.diarioantofagasta.cl"/>
+    <outline type="rss" text="El América" title="El América" xmlUrl="https://www.elamerica.cl/feed/" htmlUrl="https://www.elamerica.cl"/>
+    <outline type="rss" text="En La Línea" title="En La Línea" xmlUrl="https://www.enlalinea.cl/feed/" htmlUrl="https://www.enlalinea.cl"/>
+    <outline type="rss" text="Regionalista" title="Regionalista" xmlUrl="https://regionalista.cl/feed" htmlUrl="https://regionalista.cl"/>
+    <outline type="rss" text="Timeline" title="Timeline" xmlUrl="https://www.timeline.cl/feed/" htmlUrl="https://www.timeline.cl"/>
+  </body>
+</opml>

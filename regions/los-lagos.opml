@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de Los Lagos (14 feeds)</title>
+    <description>Feeds RSS de la Región de Los Lagos, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Central Noticia" title="Central Noticia" xmlUrl="https://www.centralnoticia.cl/feed/" htmlUrl="https://www.centralnoticia.cl"/>
+    <outline type="rss" text="Datos Sur" title="Datos Sur" xmlUrl="https://www.datossur.cl/index.php?format=feed" htmlUrl="https://www.datossur.cl"/>
+    <outline type="rss" text="Datos Sur" title="Datos Sur" xmlUrl="https://www.datossur.cl/index.php?format=feed&amp;amp;type=rss" htmlUrl="https://www.datossur.cl"/>
+    <outline type="rss" text="Diario Austral Osorno" title="Diario Austral Osorno" xmlUrl="https://www.australosorno.cl/?feed=rss2" htmlUrl="https://www.australosorno.cl"/>
+    <outline type="rss" text="Diario El Huemul" title="Diario El Huemul" xmlUrl="https://www.elhuemul.cl/feed/" htmlUrl="https://www.elhuemul.cl"/>
+    <outline type="rss" text="Diario Puerto Varas" title="Diario Puerto Varas" xmlUrl="https://www.diariopuertovaras.cl/feed/" htmlUrl="https://www.diariopuertovaras.cl"/>
+    <outline type="rss" text="El Calbucano" title="El Calbucano" xmlUrl="https://www.elcalbucano.cl/feed/" htmlUrl="https://www.elcalbucano.cl"/>
+    <outline type="rss" text="El Insular" title="El Insular" xmlUrl="https://www.elinsular.cl/feed/" htmlUrl="https://www.elinsular.cl"/>
+    <outline type="rss" text="Guardián del Sur" title="Guardián del Sur" xmlUrl="https://www.guardiandelsur.cl/feed/" htmlUrl="https://www.guardiandelsur.cl"/>
+    <outline type="rss" text="La Opinión de Chiloé" title="La Opinión de Chiloé" xmlUrl="https://www.laopiniondechiloe.cl/feed/" htmlUrl="https://www.laopiniondechiloe.cl"/>
+    <outline type="rss" text="Noticias Chiloé" title="Noticias Chiloé" xmlUrl="https://www.noticiaschiloe.cl/feed/" htmlUrl="https://www.noticiaschiloe.cl"/>
+    <outline type="rss" text="País Lobo" title="País Lobo" xmlUrl="https://www.paislobo.cl/rss.xml" htmlUrl="https://www.paislobo.cl"/>
+    <outline type="rss" text="Portal Informativo" title="Portal Informativo" xmlUrl="https://portalinformativo.cl/feed" htmlUrl="https://portalinformativo.cl"/>
+    <outline type="rss" text="Queilen" title="Queilen" xmlUrl="https://www.queilen.cl/blog-feed.xml" htmlUrl="https://www.queilen.cl"/>
+  </body>
+</opml>

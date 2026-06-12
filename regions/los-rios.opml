@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de Los Ríos (7 feeds)</title>
+    <description>Feeds RSS de la Región de Los Ríos, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Central Noticias" title="Central Noticias" xmlUrl="https://centralnoticias.cl/?feed=rss2" htmlUrl="https://centralnoticias.cl"/>
+    <outline type="rss" text="El Provincial" title="El Provincial" xmlUrl="https://www.elprovincial.cl/feed" htmlUrl="https://www.elprovincial.cl"/>
+    <outline type="rss" text="Informa Al Minuto" title="Informa Al Minuto" xmlUrl="https://informaalminuto.cl/feed/" htmlUrl="https://informaalminuto.cl"/>
+    <outline type="rss" text="Los Ríos Noticias" title="Los Ríos Noticias" xmlUrl="https://www.losriosnoticias.cl/feed" htmlUrl="https://www.losriosnoticias.cl"/>
+    <outline type="rss" text="Noticias Los Ríos" title="Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/feed/" htmlUrl="https://www.noticiaslosrios.cl"/>
+    <outline type="rss" text="Periódico Los Ríos" title="Periódico Los Ríos" xmlUrl="https://www.periodicolosrios.cl/feed/" htmlUrl="https://www.periodicolosrios.cl"/>
+    <outline type="rss" text="Río en Línea" title="Río en Línea" xmlUrl="https://www.rioenlinea.cl/feed/" htmlUrl="https://www.rioenlinea.cl"/>
+  </body>
+</opml>

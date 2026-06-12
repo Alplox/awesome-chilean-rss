@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de Aysén (4 feeds)</title>
+    <description>Feeds RSS de la Región de Aysén, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Aysén Ahora" title="Aysén Ahora" xmlUrl="https://aysenahora.cl/feed/" htmlUrl="https://aysenahora.cl"/>
+    <outline type="rss" text="Diario Aysén" title="Diario Aysén" xmlUrl="https://www.diarioaysen.cl/feed/" htmlUrl="https://www.diarioaysen.cl"/>
+    <outline type="rss" text="Radio Santa María" title="Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/feed" htmlUrl="https://www.radiosantamaria.cl"/>
+    <outline type="rss" text="Radio Ventisqueros" title="Radio Ventisqueros" xmlUrl="https://www.radioventisqueros.cl/feed" htmlUrl="https://www.radioventisqueros.cl"/>
+  </body>
+</opml>

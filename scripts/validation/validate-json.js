@@ -26,6 +26,16 @@ if (typeof categories !== 'object' || Array.isArray(categories) || !categories) 
 const categoryKeys = Object.keys(categories);
 console.log(`📁 Categorías (${categoryKeys.length}): ${categoryKeys.join(', ')}`);
 
+// ─── regions.json ────────────────────────────────────────────────────
+
+const regions = JSON.parse(readFileSync('regions.json', 'utf-8'));
+if (typeof regions !== 'object' || Array.isArray(regions) || !regions) {
+  error('regions.json debe ser un objeto');
+}
+
+const regionKeys = Object.keys(regions);
+console.log(`📁 Regiones (${regionKeys.length}): ${regionKeys.join(', ')}`);
+
 // ─── feeds-database.json ─────────────────────────────────────────────
 
 const data = JSON.parse(readFileSync('feeds-database.json', 'utf-8'));
@@ -44,6 +54,10 @@ for (const site of data.sites) {
     error(`Sitio "${site.name}" — 'feeds' debe ser un array`);
   }
 
+  if (site.region && !regions[site.region]) {
+    error(`Sitio "${site.name}" tiene region "${site.region}" que no existe en regions.json`);
+  }
+
   const activeFeeds = site.feeds.filter(f => f.status === 'active');
   totalActiveFeeds += activeFeeds.length;
 
@@ -53,6 +67,9 @@ for (const site of data.sites) {
     }
     if (feed.category && !categories[feed.category]) {
       error(`Feed "${feed.name}" en sitio "${site.name}" tiene category "${feed.category}" que no existe en categories.json`);
+    }
+    if (feed.region && !regions[feed.region]) {
+      error(`Feed "${feed.name}" en sitio "${site.name}" tiene region "${feed.region}" que no existe en regions.json`);
     }
   }
 
@@ -82,6 +99,9 @@ for (const entry of watchlist) {
   if (!categories[entry.category]) {
     error(`Watchlist "${entry.name}" tiene category "${entry.category}" que no existe en categories.json`);
   }
+  if (entry.region && !regions[entry.region]) {
+    error(`Watchlist "${entry.name}" tiene region "${entry.region}" que no existe en regions.json`);
+  }
   if (!Array.isArray(entry.feeds)) {
     error(`Watchlist "${entry.name}" — 'feeds' debe ser un array`);
   }
@@ -89,6 +109,9 @@ for (const entry of watchlist) {
     for (const feed of entry.feeds) {
       if (feed.category && !categories[feed.category]) {
         error(`Feed en watchlist "${entry.name}" tiene category "${feed.category}" que no existe en categories.json`);
+      }
+      if (feed.region && !regions[feed.region]) {
+        error(`Feed en watchlist "${entry.name}" tiene region "${feed.region}" que no existe en regions.json`);
       }
       if (feed.status && !ALLOWED_STATUSES.includes(feed.status)) {
         error(`Feed en watchlist "${entry.name}" tiene status inválido: "${feed.status}"`);

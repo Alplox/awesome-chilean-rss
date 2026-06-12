@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de Arica y Parinacota (10 feeds)</title>
+    <description>Feeds RSS de la Región de Arica y Parinacota, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Arica Al Día" title="Arica Al Día" xmlUrl="https://www.aricaldia.cl/feed/" htmlUrl="https://www.aricaldia.cl"/>
+    <outline type="rss" text="Arica Chile" title="Arica Chile" xmlUrl="https://www.aricachile.cl/rss/atom" htmlUrl="https://www.aricachile.cl"/>
+    <outline type="rss" text="Arica es Noticia" title="Arica es Noticia" xmlUrl="https://aricaesnoticia.cl/feed" htmlUrl="https://aricaesnoticia.cl"/>
+    <outline type="rss" text="Arica Hoy" title="Arica Hoy" xmlUrl="https://www.aricahoy.cl/feed/" htmlUrl="https://www.aricahoy.cl"/>
+    <outline type="rss" text="Arica365" title="Arica365" xmlUrl="https://www.arica365.cl/feed/" htmlUrl="https://www.arica365.cl"/>
+    <outline type="rss" text="El Morro de Arica" title="El Morro de Arica" xmlUrl="https://elmorrodearica.cl/feed/" htmlUrl="https://elmorrodearica.cl"/>
+    <outline type="rss" text="Frontera Norte" title="Frontera Norte" xmlUrl="https://www.fronteranorte.cl/feed/" htmlUrl="https://www.fronteranorte.cl"/>
+    <outline type="rss" text="La Estrella de Arica" title="La Estrella de Arica" xmlUrl="https://estrellaarica.cl/?feed=rss2" htmlUrl="https://estrellaarica.cl"/>
+    <outline type="rss" text="Puertanorte" title="Puertanorte" xmlUrl="https://radiopuertanorte.cl/feed" htmlUrl="https://radiopuertanorte.cl"/>
+    <outline type="rss" text="Radio Siente" title="Radio Siente" xmlUrl="https://www.radiosiente.com/feed" htmlUrl="https://www.radiosiente.com"/>
+  </body>
+</opml>

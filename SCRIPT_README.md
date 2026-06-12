@@ -15,7 +15,7 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 |                                          | `npm run validate -- --url <URL>`               | Valida una URL específica (feed o sitio) sin modificar BD          |
 |                                          | `npm run validate -- --watchlist`               | Muestra instrucciones para usar `npm run validate:watchlist`                            |
 |                                          | `npm run validate -- --update --automatic`      | Modo no interactivo para CI/desatendido                            |
-| `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json` y `categories.json`, regenera OPML y README         |
+| `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json`, `categories.json` y `regions.json`, regenera `chilean-rss.opml`, `chilean-rss-regions.opml`, `regions/*.opml` y README |
 | `scripts/core/validate-watchlist.js`     | `npm run validate:watchlist`                   | Valida watchlist, promueve feeds válidos a sites con `--update`    |
 |                                          | `npm run validate:watchlist -- --update`        | Promueve automáticamente los feeds válidos a sites[]               |
 |                                          | `npm run validate:watchlist -- --automatic`     | Modo no interactivo (promueve todo sin preguntar)                  |
@@ -25,15 +25,17 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 
 | Script                                      | Comando                  | Propósito                                    |
 |----------------------------------------------|--------------------------|----------------------------------------------|
-| `scripts/validation/validate-json.js`        | `npm run validate:json`  | Valida la estructura del JSON (CI) |
-| `scripts/validation/validate-opml.js`        | `npm run validate:opml`  | Valida la sintaxis del OPML (CI)   |
+| `scripts/validation/validate-json.js`        | `npm run validate:json`  | Valida la estructura del JSON (categorías, regiones, estados) — (CI) |
+| `scripts/validation/validate-opml.js`        | `npm run validate:opml`  | Valida la sintaxis de todos los archivos OPML generados — (CI) |
 
 ### Scripts utilitarios (utils/)
 
 | Script                                      | Comando                                                 | Propósito                                                          |
 |----------------------------------------------|---------------------------------------------------------|--------------------------------------------------------------------|
 | `scripts/utils/verify-feeds.js`              | `node scripts/utils/verify-feeds.js <feeds.json>`        | Verifica feeds RSS/Atom desde un archivo JSON                       |
-|                                              | `node scripts/utils/verify-feeds.js <URL>`              | Verifica una URL de feed específica directamente        |
+|                                              | `node scripts/utils/verify-feeds.js <URL>`              | Verifica una URL de feed específica directamente                    |
+| `scripts/utils/find-duplicates.js`           | `node scripts/utils/find-duplicates.js`                 | Detecta entradas duplicadas en `feeds-database.json` (URLs de sitio, rss_url, dominio raíz, IDs) |
+|                                              | `node scripts/utils/find-duplicates.js --verbose`       | Igual que el anterior, mostrando todos los feeds de cada grupo     |
 
 ### Módulos de validación (lib/)
 
@@ -50,22 +52,27 @@ La lógica de red y redescubrimiento está organizada en módulos independientes
 ### Flujo de trabajo
 
 ```
-feeds-database.json          categories.json          watchlist.json
-  └── sites[]                  └── categories{}         └── sites sin feed
-       │                              │                       │
-       ▼                              ▼                       ▼
-  validate_feeds.js ──────────►  generate.js ────────►  validate-watchlist.js
-  (lib/*, rediscover)           (group by category)     (lib/watchlist-validator.js)
-       │                              │                       │
-       ▼                              ▼                       ▼
-  feeds-database.json          chilean-rss.opml         feeds-database.json†
-                               README.md                watchlist.json†
-                                                        († con --update)
+feeds-database.json    categories.json   regions.json      watchlist.json
+  └── sites[]           └── categories{}  └── regions{}      └── sites sin feed
+       │                       │                │                   │
+       ▼                       ▼                ▼                   ▼
+  validate_feeds.js ──────►  generate.js ──────────────►  validate-watchlist.js
+  (lib/*, rediscover)        (by category + region)        (lib/watchlist-validator.js)
+       │                       │                                   │
+       ▼                       ▼                                   ▼
+  feeds-database.json    chilean-rss.opml                 feeds-database.json†
+                         chilean-rss-regions.opml         watchlist.json†
+                         regions/*.opml                   († con --update)
+                         README.md
+
+  find-duplicates.js  ──►  reporte en consola (solo lectura)
 ```
 
-**Para agregar un feed:** edita `feeds-database.json` y ejecuta `npm run generate`. Si es una categoría nueva, agrégala también en `categories.json`.
+**Para agregar un feed:** edita `feeds-database.json` y ejecuta `npm run generate`. Si es una categoría nueva, agrégala también en `categories.json`. Si es un medio regional, añade el campo `region` con la clave correspondiente de `regions.json`.
 
 **Para agregar un candidato sin feed conocido:** agrega la entrada en `watchlist.json` con estructura site-like y `feeds: []`.
+
+**Para detectar duplicados:** ejecuta `node scripts/utils/find-duplicates.js`.
 
 **Para revalidar feeds existentes:** ejecuta `npm run validate`.
 
@@ -156,13 +163,14 @@ npm run validate -- --id nombre-del-sitio --update
 ```json
 {
   "last_updated": "...",
-  "total_feeds": 270,
+  "total_feeds": 405,
   "sites": [
     {
       "id": "ejemplo",
       "name": "Ejemplo",
       "url": "https://ejemplo.cl",
-      "category": "news",
+      "category": "regional",
+      "region": "valparaiso",
       "description": "Descripción objetiva del medio",
       "feeds": [
         {
@@ -180,6 +188,7 @@ npm run validate -- --id nombre-del-sitio --update
           "rss_url": "https://ejemplo.cl/rss/deportes/",
           "feed_type": "RSS",
           "category": "sports",
+          "region": "biobio",
           "last_checked": "2026-06-06T00:00:00.000Z",
           "status": "active",
           "verified": true
@@ -192,6 +201,8 @@ npm run validate -- --id nombre-del-sitio --update
 
 **Categoría por feed**: Cada feed puede tener su propio `category` (opcional). Si se especifica, ese feed se lista en la categoría indicada. Si no, hereda la del sitio padre (`feed.category ?? site.category`).
 
+**Región por feed**: Cada feed puede tener su propio `region` (opcional). Si se especifica, ese feed se incluye en el OPML de esa región. Si no, hereda la del sitio padre (`feed.region ?? site.region`).
+
 ### `categories.json`
 
 ```json
@@ -202,6 +213,17 @@ npm run validate -- --id nombre-del-sitio --update
 ```
 
 Compartido entre generate.js, validate-json.js y validate-watchlist.js.
+
+### `regions.json`
+
+```json
+{
+  "arica-y-parinacota": "Arica y Parinacota",
+  "valparaiso": "Valparaíso"
+}
+```
+
+Mapa de las 16 regiones oficiales de Chile. Compartido entre generate.js y validate-json.js. Las claves se usan en `site.region` y `feed.region`.
 
 ### `watchlist.json`
 
@@ -291,6 +313,27 @@ Para cada feed en `sites[]`:
 | `culture` | 🎨 Cultura y Divulgación |
 | `sports` | ⚽ Deportes |
 | `community` | 👥 Comunidad |
+
+## Regiones disponibles
+
+| Clave | Nombre oficial |
+|---|---|
+| `arica-y-parinacota` | Arica y Parinacota |
+| `tarapaca` | Tarapacá |
+| `antofagasta` | Antofagasta |
+| `atacama` | Atacama |
+| `coquimbo` | Coquimbo |
+| `valparaiso` | Valparaíso |
+| `metropolitana` | Metropolitana de Santiago |
+| `ohiggins` | O'Higgins |
+| `maule` | Maule |
+| `nuble` | Ñuble |
+| `biobio` | Biobío |
+| `araucania` | Araucanía |
+| `los-rios` | Los Ríos |
+| `los-lagos` | Los Lagos |
+| `aysen` | Aysén |
+| `magallanes` | Magallanes y de la Antártica Chilena |
 
 ## Limitaciones
 

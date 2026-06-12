@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de Araucanía (19 feeds)</title>
+    <description>Feeds RSS de la Región de Araucanía, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Alerta Noticias Temuco" title="Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/feed/" htmlUrl="https://alertanoticiastemuco.cl"/>
+    <outline type="rss" text="Angol Noticias" title="Angol Noticias" xmlUrl="https://www.angolnoticiasnew.cl/feed/" htmlUrl="https://www.angolnoticiasnew.cl"/>
+    <outline type="rss" text="Araucanía Noticias" title="Araucanía Noticias" xmlUrl="https://www.araucanianoticias.cl/feed/" htmlUrl="https://www.araucanianoticias.cl"/>
+    <outline type="rss" text="Clave 9" title="Clave 9" xmlUrl="https://www.clave9.cl/feed/" htmlUrl="https://www.clave9.cl"/>
+    <outline type="rss" text="Diario Austral Temuco" title="Diario Austral Temuco" xmlUrl="https://www.australtemuco.cl/?feed=rss2" htmlUrl="https://www.australtemuco.cl"/>
+    <outline type="rss" text="Diario El Cautín" title="Diario El Cautín" xmlUrl="https://www.diarioelcautin.cl/feed" htmlUrl="https://www.diarioelcautin.cl"/>
+    <outline type="rss" text="El Diario de La Araucanía" title="El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl"/>
+    <outline type="rss" text="El Periódico" title="El Periódico" xmlUrl="https://elperiodico.cl/feed/" htmlUrl="https://elperiodico.cl"/>
+    <outline type="rss" text="Las Noticias de Malleco" title="Las Noticias de Malleco" xmlUrl="https://lasnoticiasdemalleco.cl/feed/" htmlUrl="https://lasnoticiasdemalleco.cl"/>
+    <outline type="rss" text="Malleco 7" title="Malleco 7" xmlUrl="https://www.malleco7.cl/feed/" htmlUrl="https://www.malleco7.cl"/>
+    <outline type="rss" text="Noticias del Lago" title="Noticias del Lago" xmlUrl="https://www.noticiasdellago.cl/feed/" htmlUrl="https://www.noticiasdellago.cl"/>
+    <outline type="rss" text="Noticias del Sur" title="Noticias del Sur" xmlUrl="https://www.noticiasdelsur.cl/feed" htmlUrl="https://www.noticiasdelsur.cl"/>
+    <outline type="rss" text="Novena Digital" title="Novena Digital" xmlUrl="https://novenadigital.cl/feed/" htmlUrl="https://novenadigital.cl"/>
+    <outline type="rss" text="Prensa Ciudadana" title="Prensa Ciudadana" xmlUrl="https://www.prensaciudadana.cl/feed/" htmlUrl="https://www.prensaciudadana.cl"/>
+    <outline type="rss" text="Pucón TV" title="Pucón TV" xmlUrl="https://www.pucontv.com/rss/atom" htmlUrl="https://www.pucontv.com"/>
+    <outline type="rss" text="Red Informativa" title="Red Informativa" xmlUrl="https://www.redinformativa.cl/feed" htmlUrl="https://www.redinformativa.cl"/>
+    <outline type="rss" text="Temuco Diario" title="Temuco Diario" xmlUrl="https://www.temucodiario.cl/feed/" htmlUrl="https://www.temucodiario.cl"/>
+    <outline type="rss" text="Tiempo 21" title="Tiempo 21" xmlUrl="https://www.tiempo21.cl/feed/" htmlUrl="https://www.tiempo21.cl"/>
+    <outline type="rss" text="Villarrica al Día" title="Villarrica al Día" xmlUrl="https://www.villarricaldia.cl/feed" htmlUrl="https://www.villarricaldia.cl"/>
+  </body>
+</opml>

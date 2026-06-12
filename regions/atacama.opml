@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de Atacama (9 feeds)</title>
+    <description>Feeds RSS de la Región de Atacama, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Atacama en Línea" title="Atacama en Línea" xmlUrl="https://www.atacamaenlinea.cl/rss.xml" htmlUrl="https://www.atacamaenlinea.cl"/>
+    <outline type="rss" text="Atacama Noticias" title="Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/feed/" htmlUrl="https://www.atacamanoticias.cl"/>
+    <outline type="rss" text="Diario Chañarcillo" title="Diario Chañarcillo" xmlUrl="https://www.chanarcillo.cl/feed/" htmlUrl="https://www.chanarcillo.cl"/>
+    <outline type="rss" text="El Diario de Atacama" title="El Diario de Atacama" xmlUrl="https://www.diarioatacama.cl/?feed=rss2" htmlUrl="https://www.diarioatacama.cl"/>
+    <outline type="rss" text="El Noticiero del Huasco" title="El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/feed/" htmlUrl="https://elnoticierodelhuasco.cl"/>
+    <outline type="rss" text="Enfoque Digital" title="Enfoque Digital" xmlUrl="https://www.enfoquedigital.cl/feed" htmlUrl="https://www.enfoquedigital.cl"/>
+    <outline type="rss" text="Radio Maray" title="Radio Maray" xmlUrl="https://www.maray.cl/feed" htmlUrl="https://www.maray.cl"/>
+    <outline type="rss" text="Tierramarillano" title="Tierramarillano" xmlUrl="https://www.tierramarillano.cl/feed/" htmlUrl="https://www.tierramarillano.cl"/>
+    <outline type="rss" text="Vallenar Digital" title="Vallenar Digital" xmlUrl="https://www.vallenardigital.cl/feed" htmlUrl="https://www.vallenardigital.cl"/>
+  </body>
+</opml>

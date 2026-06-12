@@ -1,0 +1,169 @@
+{
+    "arica-y-parinacota": [
+        "Arica",
+        "Putre",
+        "Camarones",
+        "General Lagos"
+    ],
+    "tarapaca": [
+        "Iquique",
+        "Alto Hospicio",
+        "Pozo Almonte",
+        "Pica",
+        "Huara",
+        "Camiña",
+        "Colchane"
+    ],
+    "antofagasta": [
+        "Antofagasta",
+        "Calama",
+        "Tocopilla",
+        "Mejillones",
+        "Taltal",
+        "San Pedro de Atacama",
+        "María Elena"
+    ],
+    "atacama": [
+        "Copiapó",
+        "Vallenar",
+        "Caldera",
+        "Chañaral",
+        "Diego de Almagro",
+        "Huasco",
+        "Tierra Amarilla"
+    ],
+    "coquimbo": [
+        "La Serena",
+        "Coquimbo",
+        "Ovalle",
+        "Illapel",
+        "Vicuña",
+        "Salamanca",
+        "Los Vilos",
+        "Andacollo"
+    ],
+    "valparaiso": [
+        "Valparaíso",
+        "Viña del Mar",
+        "Concón",
+        "Quilpué",
+        "Villa Alemana",
+        "Quillota",
+        "San Antonio",
+        "San Felipe",
+        "Los Andes",
+        "La Ligua",
+        "Limache",
+        "Rapa Nui"
+    ],
+    "metropolitana": [
+        "Santiago",
+        "Puente Alto",
+        "Maipú",
+        "La Florida",
+        "San Bernardo",
+        "Las Condes",
+        "Peñalolén",
+        "Pudahuel",
+        "Colina",
+        "Melipilla",
+        "Talagante",
+        "Buin",
+        "San José de Maipo"
+    ],
+    "ohiggins": [
+        "Rancagua",
+        "San Fernando",
+        "Pichilemu",
+        "Rengo",
+        "Machalí",
+        "Graneros",
+        "San Vicente de Tagua Tagua",
+        "Santa Cruz",
+        "Mostazal"
+    ],
+    "maule": [
+        "Talca",
+        "Curicó",
+        "Linares",
+        "Cauquenes",
+        "Constitución",
+        "San Javier",
+        "Molina",
+        "Parral",
+        "Teno"
+    ],
+    "nuble": [
+        "Chillán",
+        "Chillán Viejo",
+        "San Carlos",
+        "Bulnes",
+        "Yumbel",
+        "Quirihue",
+        "Coelemu",
+        "Yungay"
+    ],
+    "biobio": [
+        "Concepción",
+        "Talcahuano",
+        "San Pedro de la Paz",
+        "Chiguayante",
+        "Los Ángeles",
+        "Coronel",
+        "Lota",
+        "Tomé",
+        "Arauco",
+        "Lebu",
+        "Cañete",
+        "Cabrero"
+    ],
+    "araucania": [
+        "Temuco",
+        "Padre Las Casas",
+        "Angol",
+        "Villarrica",
+        "Pucón",
+        "Lautaro",
+        "Victoria",
+        "Nueva Imperial",
+        "Collipulli",
+        "Carahue"
+    ],
+    "los-rios": [
+        "Valdivia",
+        "La Unión",
+        "Río Bueno",
+        "Panguipulli",
+        "Paillaco",
+        "Mariquina",
+        "Lanco",
+        "Futrono"
+    ],
+    "los-lagos": [
+        "Puerto Montt",
+        "Osorno",
+        "Castro",
+        "Ancud",
+        "Puerto Varas",
+        "Quellón",
+        "Chaitén",
+        "Calbuco",
+        "Frutillar"
+    ],
+    "aysen": [
+        "Coyhaique",
+        "Puerto Aisén",
+        "Chile Chico",
+        "Cochrane",
+        "Melinka",
+        "Puerto Cisnes",
+        "Tortel"
+    ],
+    "magallanes": [
+        "Punta Arenas",
+        "Puerto Natales",
+        "Porvenir",
+        "Puerto Williams",
+        "Torres del Paine"
+    ]
+}

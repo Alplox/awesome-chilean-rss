@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de O'Higgins (24 feeds)</title>
+    <description>Feeds RSS de la Región de O'Higgins, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Diario El Cóndor" title="Diario El Cóndor" xmlUrl="https://diariocondor.cl/feed/" htmlUrl="https://diariocondor.cl"/>
+    <outline type="rss" text="Diario El Marino - Cardenal Caro" title="Diario El Marino - Cardenal Caro" xmlUrl="https://www.diarioelmarino.cl/cardenal-caro/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Marino - Cartas al Director" title="Diario El Marino - Cartas al Director" xmlUrl="https://www.diarioelmarino.cl/cartas-al-director/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Marino - Colchagua" title="Diario El Marino - Colchagua" xmlUrl="https://www.diarioelmarino.cl/colchagua/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Marino - Cultura y Entretenimiento" title="Diario El Marino - Cultura y Entretenimiento" xmlUrl="https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Marino - Deporte" title="Diario El Marino - Deporte" xmlUrl="https://www.diarioelmarino.cl/deporte/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Marino - Editorial" title="Diario El Marino - Editorial" xmlUrl="https://www.diarioelmarino.cl/editorial/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Marino - Legales" title="Diario El Marino - Legales" xmlUrl="https://www.diarioelmarino.cl/legales/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Marino - Nacional" title="Diario El Marino - Nacional" xmlUrl="https://www.diarioelmarino.cl/nacional/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Marino - Opinión" title="Diario El Marino - Opinión" xmlUrl="https://www.diarioelmarino.cl/opinion/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Marino - Política" title="Diario El Marino - Política" xmlUrl="https://www.diarioelmarino.cl/politica/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Marino - Sociedad" title="Diario El Marino - Sociedad" xmlUrl="https://www.diarioelmarino.cl/sociedad/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
+    <outline type="rss" text="Diario El Pulso" title="Diario El Pulso" xmlUrl="https://www.diarioelpulso.cl/feed/" htmlUrl="https://www.diarioelpulso.cl"/>
+    <outline type="rss" text="Diario VI Región" title="Diario VI Región" xmlUrl="https://www.diarioviregion.cl/?format=feed" htmlUrl="https://www.diarioviregion.cl"/>
+    <outline type="rss" text="Diario VI Región" title="Diario VI Región" xmlUrl="https://www.diarioviregion.cl/?format=feed&amp;amp;type=rss" htmlUrl="https://www.diarioviregion.cl"/>
+    <outline type="rss" text="El Rancagüino" title="El Rancagüino" xmlUrl="https://www.elrancaguino.cl/feed/" htmlUrl="https://www.elrancaguino.cl"/>
+    <outline type="rss" text="El Urbano Rural" title="El Urbano Rural" xmlUrl="https://www.elurbanorural.cl/feed" htmlUrl="https://www.elurbanorural.cl"/>
+    <outline type="rss" text="Enfoque Digital O&apos;Higgins" title="Enfoque Digital O&apos;Higgins" xmlUrl="https://www.vi.cl/feed" htmlUrl="https://www.vi.cl"/>
+    <outline type="rss" text="HDN" title="HDN" xmlUrl="https://www.hdn.cl/feed/" htmlUrl="https://www.hdn.cl"/>
+    <outline type="rss" text="Hora de Noticias" title="Hora de Noticias" xmlUrl="https://horadenoticias.cl/feed/" htmlUrl="https://horadenoticias.cl"/>
+    <outline type="rss" text="La Noticia" title="La Noticia" xmlUrl="https://lanoticia.cl/feed/" htmlUrl="https://lanoticia.cl"/>
+    <outline type="rss" text="La Tribuna de Colchagua" title="La Tribuna de Colchagua" xmlUrl="https://www.latribunadecolchagua.cl/feed/" htmlUrl="https://www.latribunadecolchagua.cl"/>
+    <outline type="rss" text="Pichilemu News" title="Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed" htmlUrl="https://www.pichilemunews.cl"/>
+    <outline type="rss" text="Rengo Notas" title="Rengo Notas" xmlUrl="https://rengonotas.cl/wp/feed/" htmlUrl="https://www.rengonotas.cl"/>
+  </body>
+</opml>

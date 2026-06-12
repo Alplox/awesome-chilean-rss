@@ -666,24 +666,6 @@
     "description": "Medio de comunicación de la Región de Los Lagos"
   },
   {
-    "id": "el-amaule",
-    "name": "El Amaule",
-    "url": "https://www.elamaule.cl",
-    "category": "regional",
-    "reason": "Sin feed RSS detectado",
-    "feeds": [],
-    "description": "Diario digital del Maule"
-  },
-  {
-    "id": "red-maule",
-    "name": "Red Maule",
-    "url": "https://www.redmaule.com",
-    "category": "regional",
-    "reason": "Sin feed RSS detectado",
-    "feeds": [],
-    "description": "Medio de comunicación del Maule"
-  },
-  {
     "id": "el-lector",
     "name": "El Lector",
     "url": "https://lectoronline.cl",
@@ -711,28 +693,11 @@
     "description": "Diario regional"
   },
   {
-    "id": "orbita-noticias",
-    "name": "Orbita Noticias",
-    "url": "https://orbitanoticias.cl",
-    "category": "regional",
-    "reason": "Sin feed RSS detectado",
-    "feeds": [],
-    "description": "Diario regional de Valle del Itata y la Provincia de Ñuble"
-  },
-  {
-    "id": "el-tipografo",
-    "name": "El Tipógrafo",
-    "url": "https://eltipografo.cl",
-    "category": "regional",
-    "reason": "Sin feed RSS detectado",
-    "feeds": [],
-    "description": "Diario regional de Rancagua"
-  },
-  {
     "id": "el-rancahuaso",
     "name": "El Rancahuaso",
     "url": "https://www.elrancahuaso.cl",
     "category": "regional",
+    "region": "ohiggins",
     "reason": "Sin feed RSS detectado",
     "feeds": [],
     "description": "Diario regional de la Región de O'Higgins"
@@ -742,6 +707,7 @@
     "name": "El Cachapoal",
     "url": "https://www.elcachapoal.cl",
     "category": "regional",
+    "region": "ohiggins",
     "reason": "Sin feed RSS detectado",
     "feeds": [],
     "description": "Diario regional de la Región de O'Higgins"
@@ -751,6 +717,7 @@
     "name": "SoyIquique",
     "url": "https://www.soyiquique.cl",
     "category": "regional",
+    "region": "tarapaca",
     "reason": "Sin feed RSS detectado",
     "feeds": [],
     "description": "Diario digital de Iquique"
@@ -760,15 +727,17 @@
     "name": "El Boyaldía",
     "url": "https://www.elboyaldia.cl",
     "category": "regional",
-    "reason": "Sin feed RSS detectado",
+    "region": "tarapaca",
+    "reason": "Sin feed RSS detectado - empresa matriz: Mi Voz",
     "feeds": [],
-    "description": "Diario regional"
+    "description": "Diario regional de Iquique y Tarapacá"
   },
   {
     "id": "iquique-online",
     "name": "Iquique Online",
     "url": "https://iquiqueonline.cl",
     "category": "regional",
+    "region": "tarapaca",
     "reason": "Sin feed RSS detectado",
     "feeds": [],
     "description": "Diario digital de Iquique"
@@ -778,6 +747,7 @@
     "name": "SoyValparaíso",
     "url": "https://www.soyvalparaiso.cl",
     "category": "regional",
+    "region": "valparaiso",
     "reason": "Sin feed RSS detectado",
     "feeds": [],
     "description": "Diario digital de Valparaíso"
@@ -787,7 +757,7 @@
     "name": "El Matutino",
     "url": "https://www.elmartutino.cl",
     "category": "regional",
-    "reason": "Sin feed RSS detectado",
+    "reason": "Sin feed RSS detectado - empresa matriz: Mi Voz",
     "feeds": [],
     "description": "Diario regional"
   },
@@ -796,6 +766,7 @@
     "name": "SoyQuillota",
     "url": "https://www.soyquillota.cl",
     "category": "regional",
+    "region": "valparaiso",
     "reason": "Sin feed RSS detectado",
     "feeds": [],
     "description": "Diario digital de Quillota"
@@ -844,5 +815,15 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [],
     "description": "Agregador de noticias de Chile y el Mundo"
+  },
+  {
+    "id": "grafelberg-noticias",
+    "name": "Grafelberg Noticias",
+    "url": "https://grafelbergnoticias.blogspot.com/",
+    "category": "regional",
+    "region": "los-lagos",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [],
+    "description": "Escudo de los sudetes. Grafelbergnoticias es un medio sin fines de lucro, cuyos objetivos son difundir la historia del Colegio Germania de Puerto Varas"
   }
 ]

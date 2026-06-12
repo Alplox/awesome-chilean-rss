@@ -2,33 +2,33 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Feeds](https://img.shields.io/badge/feeds-290-blue)
+![Feeds](https://img.shields.io/badge/feeds-351-blue)
 
-> El directorio más completo de feeds RSS chilenos. 290 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 351 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/chilean-rss.opml`
 
-## 📝 Feeds disponibles (290)
+## 📝 Feeds disponibles (351)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 67 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 20 feeds
+- [📰 Noticias Nacionales](#cat-news) — 73 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 21 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 12 feeds
 - [🏫 Universidades e Investigación](#cat-universities) — 6 feeds
-- [🌎 Medios Regionales](#cat-regional) — 148 feeds
-- [💼 Negocios y Finanzas](#cat-business) — 6 feeds
+- [🌎 Medios Regionales](#cat-regional) — 198 feeds
+- [💼 Negocios y Finanzas](#cat-business) — 7 feeds
 - [🎨 Cultura y Divulgación](#cat-culture) — 4 feeds
 - [⚽ Deportes](#cat-sports) — 10 feeds
 - [👥 Comunidad](#cat-community) — 10 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 7 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 10 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (67 feeds)
+### 📰 Noticias Nacionales (73 feeds)
 
 - **BioBioChile**: Portal de noticias generales con cobertura nacional e internacional
   - RSS: `https://feeds.feedburner.com/radiobiobio/NNeJ`
@@ -63,6 +63,14 @@
   - RSS: `https://www.elquintopoder.cl/feed/`
 - **El Siglo**: Periódico con cobertura política, social y sindical fundado en 1940
   - RSS: `https://elsiglo.cl/feed/`
+- **Ex-Ante** — Medio digital chileno de noticias y análisis político, económico y de actualidad
+  - Ex-Ante: `https://www.ex-ante.cl/feed/`
+  - Ex-Ante - Política: `https://www.ex-ante.cl/category/politica/rss`
+  - Ex-Ante - Entrevistas: `https://www.ex-ante.cl/category/entrevista/rss`
+  - Ex-Ante - Nacional: `https://www.ex-ante.cl/category/nacional/rss`
+  - Ex-Ante - Internacional: `https://www.ex-ante.cl/category/internacional/rss`
+  - Ex-Ante - Cine y Series: `https://www.ex-ante.cl/category/cine-y-series/rss`
+  - Ex-Ante - After Office: `https://www.ex-ante.cl/category/afteroffice/rss`
 - **FastCheckCL**: Verificación de noticias y fact-checking en Chile
   - RSS: `https://fastcheck.cl/feed/`
 - **G5 Noticias**: Portal de noticias nacionales
@@ -95,7 +103,6 @@
   - La Tercera - Cartas al Director: `https://www.latercera.com/arc/outboundfeeds/rss/category/cartas-al-director/?outputType=xml`
   - La Tercera - Finde: `https://www.latercera.com/arc/outboundfeeds/rss/category/finde/?outputType=xml`
   - La Tercera - Revista Paula: `https://www.latercera.com/arc/outboundfeeds/rss/category/paula/?outputType=xml`
-  - La Tercera - Sociales: `https://www.latercera.com/arc/outboundfeeds/rss/category/sociales/?outputType=xml`
   - La Tercera - Board: `https://www.latercera.com/arc/outboundfeeds/rss/category/lt-board/?outputType=xml`
 - **Piensa Chile**: Portal de análisis, opinión y noticias nacionales
   - RSS: `https://piensachile.com/feed/`
@@ -125,7 +132,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (20 feeds)
+### 💻 Tecnología y Startups (21 feeds)
 
 - **ACTI**: Asociación Chilena de Empresas de Tecnologías de Información - Gremio de TI en Chile
   - RSS: `https://acti.cl/feed/`
@@ -142,6 +149,8 @@
   - RSS: `https://www.derechosdigitales.org/feed/`
 - **Entreprenerd**: Medio enfocado en innovación, startups y tecnología en Latinoamérica y Europa
   - RSS: `https://www.entnerd.com/rss/global.xml`
+- **Ex-Ante**: Medio digital chileno de noticias y análisis político, económico y de actualidad
+  - RSS: `https://www.ex-ante.cl/category/ciencia-tecnologia/rss`
 - **FayerWayer**: Blog de tecnología, cultura digital y gadgets
   - RSS: `https://www.fayerwayer.com/feed/`
 - **Geeketing**: Blog chileno sobre marketing digital, growth hacking y tecnología aplicada a negocios
@@ -216,293 +225,486 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (148 feeds)
+### 🌎 Medios Regionales (198 feeds)
 
-- **Aconcagua Digital**: Diario regional de San Felipe, Valparaíso
-  - RSS: `https://aconcaguadigital.cl/feed/`
-- **Alerta Noticias Temuco**: Diario regional de Temuco, La Araucanía
-  - RSS: `https://alertanoticiastemuco.cl/feed/`
-- **Angol Noticias**: Diario regional de Angol, La Araucanía
-  - RSS: `https://www.angolnoticiasnew.cl/feed/`
+Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml)
+
+#### 📍 Arica y Parinacota (10 medios)
+
+*Descargar OPML regional: [`arica-y-parinacota.opml`](regions/arica-y-parinacota.opml)*
+
+- **Arica Al Día**: Diario regional de Arica y Parinacota
+  - RSS: `https://www.aricaldia.cl/feed/`
+- **Arica Chile**: Medio de comunicación de la Región de Arica y Parinacota.
+  - RSS: `https://www.aricachile.cl/rss/atom`
+- **Arica es Noticia**: Medio de comunicación de la Región de Arica y Parinacota.
+  - RSS: `https://aricaesnoticia.cl/feed`
+- **Arica Hoy**: Diario regional de Arica y Parinacota
+  - RSS: `https://www.aricahoy.cl/feed/`
+- **Arica365**: Diario regional de Arica y Parinacota
+  - RSS: `https://www.arica365.cl/feed/`
+- **El Morro de Arica**: Diario regional de Arica y Parinacota
+  - RSS: `https://elmorrodearica.cl/feed/`
+- **Frontera Norte**: Diario regional de Arica y Parinacota
+  - RSS: `https://www.fronteranorte.cl/feed/`
+- **La Estrella de Arica**: Medio de comunicación de la Región de Arica y Parinacota.
+  - RSS: `https://estrellaarica.cl/?feed=rss2`
+- **Puertanorte**: Medio de comunicación de la Región de Arica y Parinacota.
+  - RSS: `https://radiopuertanorte.cl/feed`
+- **Radio Siente**: Radio de emisión digital de la Región de Arica y Parinacota.
+  - RSS: `https://www.radiosiente.com/feed`
+
+#### 📍 Tarapacá (10 medios)
+
+*Descargar OPML regional: [`tarapaca.opml`](regions/tarapaca.opml)*
+
+- **CEI Noticias**: Diario regional de Iquique, Tarapacá
+  - RSS: `https://ceinoticias.cl/feed/`
+- **Chile Mosaico**: Medio de comunicación de la Región de Tarapacá.
+  - RSS: `https://chilemosaico.cl/eventos/feed/`
+- **Diario El Longino**: Diario regional de Iquique, Tarapacá
+  - RSS: `https://www.diariolongino.cl/feed/`
+- **Diario El Nortino**: Diario regional de Alto Hospicio, Tarapacá
+  - RSS: `https://diarioelnortino.cl/feed/`
+- **El Reportero de Iquique**: Diario regional de Iquique, Tarapacá
+  - RSS: `https://www.elreporterodeiquique.com/feed/`
+- **El Sol de Iquique**: Diario regional de Iquique, Tarapacá
+  - RSS: `https://www.elsoldeiquique.cl/feed/`
+- **Iquique TV**: Medio de comunicación de la Región de Tarapacá.
+  - RSS: `https://iquiquetv.cl/feed`
+- **La Estrella de Iquique**: Diario regional de Iquique
+  - RSS: `https://www.estrellaiquique.cl/?feed=rss2`
+- **La Mega FM**: Medio de comunicación de la Región de Tarapacá.
+  - RSS: `https://www.lamegafm.cl/feed`
+- **Tarapacá Online**: Diario regional de Iquique, Tarapacá
+  - RSS: `https://www.tarapacaonline.cl/feed/`
+
+#### 📍 Antofagasta (8 medios)
+
+*Descargar OPML regional: [`antofagasta.opml`](regions/antofagasta.opml)*
+
+- **Antofacity**: Medio de comunicación de la Región de Antofagasta.
+  - RSS: `https://www.antofacity.com/feed`
 - **Antofagasta Noticias**: Diario regional de Antofagasta, Antofagasta
   - RSS: `https://www.antofagastanoticias.cl/feed/`
-- **Araucanía Noticias**: Diario regional de Temuco, La Araucanía
-  - RSS: `https://www.araucanianoticias.cl/feed/`
-- **Arica Al Día**: Diario regional de Arica, Arica y Parinacota
-  - RSS: `https://www.aricaldia.cl/feed/`
-- **Arica Hoy**: Diario regional de Arica, Arica y Parinacota
-  - RSS: `https://www.aricahoy.cl/feed/`
-- **Arica365**: Diario regional de Arica, Arica y Parinacota
-  - RSS: `https://www.arica365.cl/feed/`
+- **Calama en Línea**: Medio de comunicación de la Región de Antofagasta.
+  - RSS: `https://noticias.calamaenlinea.cl/feed`
+- **Diario Antofagasta**: Diario regional de Antofagasta, Antofagasta
+  - RSS: `https://www.diarioantofagasta.cl/feed/`
+- **El América**: Diario regional de Calama, Antofagasta
+  - RSS: `https://www.elamerica.cl/feed/`
+- **En La Línea**: Diario regional de Calama, Antofagasta
+  - RSS: `https://www.enlalinea.cl/feed/`
+- **Regionalista**: Medio de comunicación de la Región de Antofagasta.
+  - RSS: `https://regionalista.cl/feed`
+- **Timeline**: Diario regional de Antofagasta, Antofagasta
+  - RSS: `https://www.timeline.cl/feed/`
+
+#### 📍 Atacama (9 medios)
+
+*Descargar OPML regional: [`atacama.opml`](regions/atacama.opml)*
+
 - **Atacama en Línea**: Diario regional de Copiapó, Atacama
   - RSS: `https://www.atacamaenlinea.cl/rss.xml`
 - **Atacama Noticias**: Portal de noticias de la Región de Atacama
   - RSS: `https://www.atacamanoticias.cl/feed/`
-- **Atentos**: Diario regional de Talca, Maule
-  - RSS: `https://www.atentos.cl/feed/`
-- **Aysén Ahora**: Diario regional de Puerto Aysén, Aysén
-  - RSS: `https://aysenahora.cl/feed/`
-- **CauquenesNet**: Diario regional de Cauquenes, Maule
-  - RSS: `https://www.cauquenesnet.cl/feed/`
-- **CEI Noticias**: Diario regional de Iquique, Tarapacá
-  - RSS: `https://ceinoticias.cl/feed/`
-- **Central Noticia**: Diario regional de Osorno, Los Lagos
-  - RSS: `https://www.centralnoticia.cl/feed/`
-- **Central Noticias**: Diario regional de Panguipulli, Los Ríos
-  - RSS: `https://centralnoticias.cl/?feed=rss2`
-- **Chillán Online**: Diario regional de Chillán, Ñuble
-  - RSS: `https://www.chillanonline.cl/V7/feed/`
-- **Clave 9**: Diario regional de Temuco, La Araucanía
-  - RSS: `https://www.clave9.cl/feed/`
-- **Crónica Digital**: Diario regional de Santiago, Metropolitana
-  - RSS: `https://www.cronicadigital.cl/feed/`
-- **Datos Sur**: Diario regional de Llanquihue, Puerto Montt
-  - RSS: `https://www.datossur.cl/index.php?format=feed`
-- **Diálogo Sur**: Diario regional de Punta Arenas, Magallanes
-  - RSS: `https://dialogosur.cl/feed/`
-- **Diario Antofagasta**: Diario regional de Antofagasta, Antofagasta
-  - RSS: `https://www.diarioantofagasta.cl/feed/`
-- **Diario Austral Osorno**: Diario regional de Osorno
-  - RSS: `https://www.australosorno.cl/?feed=rss2`
-- **Diario Austral Temuco**: Diario regional de La Araucanía
-  - RSS: `https://www.australtemuco.cl/?feed=rss2`
-- **Diario Aysén**: Diario regional de la Región de Aysén
-  - RSS: `https://www.diarioaysen.cl/feed/`
-- **Diario Cauquenes**: Diario regional de Cauquenes, Maule
-  - RSS: `https://www.diariocauquenes.cl/feed/`
 - **Diario Chañarcillo**: Diario regional de Atacama y Copiapó
   - RSS: `https://www.chanarcillo.cl/feed/`
-- **Diario Concepción**: Diario regional con cobertura informativa de la Región del Biobío
-  - RSS: `https://www.diarioconcepcion.cl/rss.xml`
-- **Diario Curicó**: Diario regional de Curicó, Maule
-  - RSS: `https://www.diariocurico.cl/feed/`
-- **Diario Digital Los Lagos**: Diario regional de Puerto Montt, Los Lagos
-  - RSS: `https://diarioloslagos.cl/feed/`
+- **El Diario de Atacama**: Medio de comunicación de la Región de Atacama.
+  - RSS: `https://www.diarioatacama.cl/?feed=rss2`
+- **El Noticiero del Huasco**: Diario regional de Vallenar, Atacama
+  - RSS: `https://elnoticierodelhuasco.cl/feed/`
+- **Enfoque Digital**: Medio de comunicación de la Región de Atacama.
+  - RSS: `https://www.enfoquedigital.cl/feed`
+- **Radio Maray**: Medio de comunicación de la Región de Atacama.
+  - RSS: `https://www.maray.cl/feed`
+- **Tierramarillano**: Diario regional de Copiapó, Atacama
+  - RSS: `https://www.tierramarillano.cl/feed/`
+- **Vallenar Digital**: Medio de comunicación de la Región de Atacama.
+  - RSS: `https://www.vallenardigital.cl/feed`
+
+#### 📍 Coquimbo (13 medios)
+
+*Descargar OPML regional: [`coquimbo.opml`](regions/coquimbo.opml)*
+
+- **David Noticias**: Diario regional de Los Vilos, Coquimbo
+  - RSS: `https://www.davidnoticias.cl/feed/`
 - **Diario El Día** — Diario regional de La Serena, Coquimbo
   - Diario El Día - Últimas noticias: `https://www.diarioeldia.cl/rss/noticias`
+  - Diario El Día - Deportes: `https://www.diarioeldia.cl/rss/deportes`
   - Diario El Día - Economía: `https://www.diarioeldia.cl/rss/economia`
   - Diario El Día - Región: `https://www.diarioeldia.cl/rss/region`
   - Diario El Día - Magazine: `https://www.diarioeldia.cl/rss/magazine`
   - Diario El Día - Policial: `https://www.diarioeldia.cl/rss/policial`
   - Diario El Día - Tendencias: `https://www.diarioeldia.cl/rss/tendencias`
+  - Diario El Día - Mundo: `https://www.diarioeldia.cl/rss/mundo`
   - Diario El Día - País: `https://www.diarioeldia.cl/rss/pais`
   - Diario El Día - Salud: `https://www.diarioeldia.cl/rss/salud`
   - Diario El Día - Actualidad: `https://www.diarioeldia.cl/rss/actualidad`
   - Diario El Día - Tiempo Libre: `https://www.diarioeldia.cl/rss/tiempo-libre`
   - Diario El Día - Educación: `https://www.diarioeldia.cl/rss/educacion`
   - Diario El Día - Política: `https://www.diarioeldia.cl/rss/politica`
-- **Diario Linares**: Diario regional de Linares, Maule
-  - RSS: `https://diariolinares.cl/feed/`
-- **Diario Puerto Varas**: Diario regional de Puerto Varas, Los Lagos
-  - RSS: `https://www.diariopuertovaras.cl/feed/`
-- **Diario Talca**: Diario regional de Talca, Maule
-  - RSS: `https://diariotalca.cl/feed/`
-- **Diario VI Región**: Diario regional de Libertador General Bernardo O'Higgins
-  - RSS: `https://www.diarioviregion.cl/?format=feed`
-- **Duplos**: Diario regional de Santiago, Metropolitana
-  - RSS: `https://www.duplos.cl/feed/`
-- **El Aconcagua**: Diario regional de San Felipe, Valparaíso
-  - RSS: `https://www.elaconcagua.cl/feed/`
-- **El América**: Diario regional de Calama, Antofagasta
-  - RSS: `https://www.elamerica.cl/feed/`
-- **El Calbucano**: Diario regional de Calbuco, Los Lagos
-  - RSS: `https://www.elcalbucano.cl/feed/`
-- **El Centro**: Diario regional de Talca, Maule
-  - RSS: `https://www.diarioelcentro.cl/feed/`
-- **El Comunicador**: Diario regional de Melipilla, Metropolitana
-  - RSS: `https://elcomunicador.cl/feed/`
-- **El Cóndor**: Diario regional de Santa Cruz, O'Higgins
-  - RSS: `https://diariocondor.cl/feed/`
-- **El Contraste**: Diario regional de Los Ángeles, Biobío
-  - RSS: `https://www.elcontraste.cl/feed/`
+  - Diario El Día: `https://www.diarioeldia.cl/rss/global.xml`
+- **Diario La Región**: Diario regional de Coquimbo, Coquimbo
+  - RSS: `https://www.diariolaregion.cl/feed/`
+- **El Andacollino**: Medio de comunicación de la Región de Coquimbo.
+  - RSS: `https://www.elandacollino.cl/feed`
 - **El Coquimbano**: Diario regional de Coquimbo, Coquimbo
   - RSS: `https://www.elcoquimbano.cl/feed/`
-- **El Diario de La Araucanía**: Diario regional de Angol, La Araucanía
-  - RSS: `https://www.eldiariodelaaraucania.cl/feed/`
-- **El Heraldo**: Diario regional de Linares, Maule
-  - RSS: `https://www.diarioelheraldo.cl/rss`
-- **El Huemul**: Diario regional de Chaitén, Los Lagos
-  - RSS: `https://www.elhuemul.cl/feed/`
-- **El Informador**: Diario regional de Los Andes, Valparaíso
-  - RSS: `https://www.elinformador.cl/feed/`
-- **El Insular**: Diario regional de Castro, Los Lagos
-  - RSS: `https://www.elinsular.cl/feed/`
-- **El Líder**: Diario regional de San Antonio, Valparaíso
-  - RSS: `https://www.lidersanantonio.cl/?feed=rss2`
-- **El Longino**: Diario regional de Iquique, Tarapacá
-  - RSS: `https://www.diariolongino.cl/feed/`
-- **El Magalánico**: Diario regional de Punta Arenas, Magallanes
-  - RSS: `https://www.elmagallanico.com/feed/`
-- **El Marino** — Diario regional de Pichilemu, O'Higgins
-  - El Marino - Nacional: `https://www.diarioelmarino.cl/nacional/feed/rss/`
-  - El Marino - Colchagua: `https://www.diarioelmarino.cl/colchagua/feed/rss/`
-  - El Marino - Cardenal Caro: `https://www.diarioelmarino.cl/cardenal-caro/feed/rss/`
-  - El Marino - Opinión: `https://www.diarioelmarino.cl/opinion/feed/rss/`
-  - El Marino - Sociedad: `https://www.diarioelmarino.cl/sociedad/feed/rss/`
-  - El Marino - Cultura y Entretenimiento: `https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/`
-  - El Marino - Deporte: `https://www.diarioelmarino.cl/deporte/feed/rss/`
-  - El Marino - Política: `https://www.diarioelmarino.cl/politica/feed/rss/`
-  - El Marino - Editorial: `https://www.diarioelmarino.cl/editorial/feed/rss/`
-  - El Marino - Cartas al Director: `https://www.diarioelmarino.cl/cartas-al-director/feed/rss/`
-  - El Marino - Legales: `https://www.diarioelmarino.cl/legales/feed/rss/`
-- **El Maule Informa**: Diario regional de Talca, Maule
-  - RSS: `https://elmauleinforma.cl/feed/`
-- **El Mercurio Valparaíso**: Diario regional de Valparaíso
-  - RSS: `https://www.mercuriovalpo.cl/?feed=rss2`
-- **El Morro de Arica**: Diario regional de Arica, Arica y Parinacota
-  - RSS: `https://elmorrodearica.cl/feed/`
-- **El Nortino**: Diario regional de Alto Hospicio, Tarapacá
-  - RSS: `https://diarioelnortino.cl/feed/`
-- **El Noticiero del Huasco**: Diario regional de Vallenar, Atacama
-  - RSS: `https://elnoticierodelhuasco.cl/feed/`
-- **El Observador**: Diario regional de Quillota, Valparaíso
-  - RSS: `https://www.observador.cl/feed/`
 - **El Ovallino**: Diario regional de Ovalle, Coquimbo
   - RSS: `https://www.elovallino.cl/feed/`
-- **El Periódico**: Diario regional de Temuco, La Araucanía
-  - RSS: `https://elperiodico.cl/feed/`
-- **El Periodista**: Diario regional de Santiago, Metropolitana
-  - RSS: `https://www.elperiodista.cl/feed/`
-- **El Pingüino**: Diario regional de Magallanes y la Antártica
-  - RSS: `https://www.elpinguino.com/feed/`
-- **El Proa**: Diario regional de San Antonio, Valparaíso
-  - RSS: `https://www.elproa.cl/feed/`
-- **El Pulso**: Diario regional de Rancagua, O'Higgins
-  - RSS: `https://www.diarioelpulso.cl/feed/`
-- **El Rancagüino**: Diario regional de O'Higgins
-  - RSS: `https://www.elrancaguino.cl/feed/`
-- **El Ranco**: Diario regional de La Unión, Los Ríos
-  - RSS: `https://www.diarioelranco.cl/feed/`
 - **El Regional**: Diario regional de Coquimbo, Coquimbo
   - RSS: `https://www.elregional.cl/?feed=rss2`
-- **El Reportero**: Diario regional de Iquique, Tarapacá
-  - RSS: `https://www.elreporterodeiquique.com/feed/`
-- **El Sancarlino**: Diario regional de San Carlos, Ñuble
-  - RSS: `https://www.elsancarlino.cl/rss.xml`
 - **El Serenense**: Diario regional de La Serena, Coquimbo
   - RSS: `https://www.elserenense.cl/feed/`
-- **El Sol de Iquique**: Diario regional de Iquique, Tarapacá
-  - RSS: `https://www.elsoldeiquique.cl/feed/`
-- **El Tirapiedras**: Diario regional de Puerto Natales, Magallanes
-  - RSS: `https://www.eltirapiedras.cl/feed/`
-- **El Trabajo**: Diario regional de San Felipe, Valparaíso
-  - RSS: `https://www.eltrabajo.cl/?feed=rss2`
 - **El Vicuñense**: Diario regional de Vicuña, Coquimbo
   - RSS: `https://www.xn--elvicuense-y9a.cl/feed/`
-- **En La Línea**: Diario regional de Calama, Antofagasta
-  - RSS: `https://www.enlalinea.cl/feed/`
-- **En Línea Maule**: Diario regional de Talca, Maule
-  - RSS: `https://enlineamaule.cl/feed/`
-- **Epicentro Chile**: Diario regional de Valparaíso, Valparaíso
-  - RSS: `https://www.epicentrochile.com/feed/`
-- **Frontera Norte**: Diario regional de Arica, Arica y Parinacota
-  - RSS: `https://www.fronteranorte.cl/feed/`
-- **Guardián del Sur**: Diario regional de Puerto Montt, Los Lagos
-  - RSS: `https://www.guardiandelsur.cl/feed/`
+- **Elqui Global**: Medio de comunicación de la Región de Coquimbo.
+  - RSS: `https://www.elquiglobal.cl/feed`
+- **La Perla del Limarí**: Diario regional de Ovalle, Coquimbo
+  - RSS: `https://www.laperladellimari.cl/feed/`
+- **La Serena Online**: Diario regional de La Serena, Coquimbo
+  - RSS: `https://www.laserenaonline.cl/feed/`
+- **Ovalle Hoy**: Diario regional de Ovalle, Coquimbo
+  - RSS: `https://www.ovallehoy.cl/feed/`
+
+#### 📍 Valparaíso (14 medios)
+
+*Descargar OPML regional: [`valparaiso.opml`](regions/valparaiso.opml)*
+
+- **Aconcagua Digital**: Diario regional de San Felipe, Valparaíso
+  - RSS: `https://aconcaguadigital.cl/feed/`
+- **Alerta Noticias**: Medio de comunicación de la Región de Valparaíso.
+  - RSS: `https://alertanoticias.cl/feed`
+- **Diario El Porteño**: Medio de comunicación de la Región de Valparaíso.
+  - RSS: `https://elporteno.cl/feed`
+- **Diario La Quinta**: Diario regional de Valparaíso, Valparaíso
+  - RSS: `https://www.diariolaquinta.cl/feed/`
+- **El Aconcagua**: Diario regional de San Felipe, Valparaíso
+  - RSS: `https://www.elaconcagua.cl/feed/`
+- **El Informador**: Diario regional de Los Andes, Valparaíso
+  - RSS: `https://www.elinformador.cl/feed/`
+- **El Líder**: Diario regional de San Antonio, Valparaíso
+  - RSS: `https://www.lidersanantonio.cl/?feed=rss2`
+- **El Observador**: Diario regional de Quillota, Valparaíso
+  - RSS: `https://www.observador.cl/feed/`
+- **El Proa**: Diario regional de San Antonio, Valparaíso
+  - RSS: `https://www.elproa.cl/feed/`
+- **El Trabajo**: Diario regional de San Felipe, Valparaíso
+  - RSS: `https://www.eltrabajo.cl/?feed=rss2`
+- **La Estrella de Valparaíso**: Medio de comunicación de la Región de Valparaíso.
+  - RSS: `https://estrellavalpo.cl/?feed=rss2`
+- **Más Noticia**: Diario regional de Quillota, Valparaíso
+  - RSS: `https://www.masnoticia.cl/feed/`
+- **Mi San Felipe**: Medio de comunicación de la Región de Valparaíso.
+  - RSS: `https://www.misanfelipe.cl/feed`
+- **Montealegre**: Medio de comunicación de la Región de Valparaíso.
+  - RSS: `https://montealegre.cl/feed`
+
+#### 📍 Metropolitana de Santiago (8 medios)
+
+*Descargar OPML regional: [`metropolitana.opml`](regions/metropolitana.opml)*
+
+- **Crónica Digital**: Diario regional de Santiago, Metropolitana
+  - RSS: `https://www.cronicadigital.cl/feed/`
+- **Diario Sur Noticias**: Diario regional de Santiago, Metropolitana
+  - RSS: `https://www.diariosurnoticias.com/feed/`
+- **Duplos**: Diario regional de Santiago, Metropolitana
+  - RSS: `https://www.duplos.cl/feed/`
+- **El Comunicador**: Diario regional de Melipilla, Metropolitana
+  - RSS: `https://elcomunicador.cl/feed/`
+- **El Periodista**: Diario regional de Santiago, Metropolitana
+  - RSS: `https://www.elperiodista.cl/feed/`
+- **Ex-Ante** — Medio digital chileno de noticias y análisis político, económico y de actualidad
+  - Ex-Ante: `https://www.ex-ante.cl/feed/`
+  - Ex-Ante - Política: `https://www.ex-ante.cl/category/politica/rss`
+  - Ex-Ante - Economía: `https://www.ex-ante.cl/category/economia/rss`
+  - Ex-Ante - Ciencia y Tecnología: `https://www.ex-ante.cl/category/ciencia-tecnologia/rss`
+  - Ex-Ante - Entrevistas: `https://www.ex-ante.cl/category/entrevista/rss`
+  - Ex-Ante - Nacional: `https://www.ex-ante.cl/category/nacional/rss`
+  - Ex-Ante - Internacional: `https://www.ex-ante.cl/category/internacional/rss`
+  - Ex-Ante - Cine y Series: `https://www.ex-ante.cl/category/cine-y-series/rss`
+  - Ex-Ante - After Office: `https://www.ex-ante.cl/category/afteroffice/rss`
+- **La Razón**: Diario regional de Santiago, Metropolitana
+  - RSS: `https://www.larazon.cl/feed/`
+- **Nuevo Poder**: Diario regional de Santiago, Metropolitana
+  - RSS: `https://www.nuevopoder.cl/feed/`
+
+#### 📍 O'Higgins (13 medios)
+
+*Descargar OPML regional: [`ohiggins.opml`](regions/ohiggins.opml)*
+
+- **Diario El Cóndor**: Diario regional de Santa Cruz, O'Higgins
+  - RSS: `https://diariocondor.cl/feed/`
+- **Diario El Marino** — Diario regional de Pichilemu, O'Higgins
+  - Diario El Marino - Nacional: `https://www.diarioelmarino.cl/nacional/feed/rss/`
+  - Diario El Marino - Colchagua: `https://www.diarioelmarino.cl/colchagua/feed/rss/`
+  - Diario El Marino - Cardenal Caro: `https://www.diarioelmarino.cl/cardenal-caro/feed/rss/`
+  - Diario El Marino - Opinión: `https://www.diarioelmarino.cl/opinion/feed/rss/`
+  - Diario El Marino - Sociedad: `https://www.diarioelmarino.cl/sociedad/feed/rss/`
+  - Diario El Marino - Cultura y Entretenimiento: `https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/`
+  - Diario El Marino - Deporte: `https://www.diarioelmarino.cl/deporte/feed/rss/`
+  - Diario El Marino - Política: `https://www.diarioelmarino.cl/politica/feed/rss/`
+  - Diario El Marino - Editorial: `https://www.diarioelmarino.cl/editorial/feed/rss/`
+  - Diario El Marino - Cartas al Director: `https://www.diarioelmarino.cl/cartas-al-director/feed/rss/`
+  - Diario El Marino - Legales: `https://www.diarioelmarino.cl/legales/feed/rss/`
+- **Diario El Pulso**: Diario regional de Rancagua, O'Higgins
+  - RSS: `https://www.diarioelpulso.cl/feed/`
+- **Diario VI Región** — Diario regional de Libertador General Bernardo O'Higgins
+  - Diario VI Región: `https://www.diarioviregion.cl/?format=feed`
+  - Diario VI Región: `https://www.diarioviregion.cl/?format=feed&amp;type=rss`
+- **El Rancagüino**: Diario regional de O'Higgins
+  - RSS: `https://www.elrancaguino.cl/feed/`
+- **El Urbano Rural**: Medio de comunicación de la Región de O'Higgins.
+  - RSS: `https://www.elurbanorural.cl/feed`
+- **Enfoque Digital O'Higgins**: Medio de comunicación de la Región de O'Higgins.
+  - RSS: `https://www.vi.cl/feed`
 - **HDN**: Diario regional de Santa Cruz, O'Higgins
   - RSS: `https://www.hdn.cl/feed/`
 - **Hora de Noticias**: Diario regional de Rancagua, O'Higgins
   - RSS: `https://horadenoticias.cl/feed/`
-- **Informa Al Minuto**: Diario regional de Valdivia, Los Ríos
-  - RSS: `https://informaalminuto.cl/feed/`
-- **La Discusión**: Diario de Ñuble - Medios regionales
-  - RSS: `https://www.ladiscusion.cl/rss`
-- **La Estrella de Iquique**: Diario regional de Iquique
-  - RSS: `https://www.estrellaiquique.cl/?feed=rss2`
-- **La Fontana**: Diario regional de San Carlos, Ñuble
-  - RSS: `https://www.lafontana.cl/feed/`
-- **La Hora**: Medio digital chileno de noticias y actualidad nacional e internacional.
-  - RSS: `https://www.lahora.cl/rss/global.xml`
 - **La Noticia**: Diario regional de Rancagua, O'Higgins
   - RSS: `https://lanoticia.cl/feed/`
-- **La Opinión de Chiloé**: Diario regional de Ancud, Los Lagos
-  - RSS: `https://www.laopiniondechiloe.cl/feed/`
-- **La Perla del Limarí**: Diario regional de Ovalle, Coquimbo
-  - RSS: `https://www.laperladellimari.cl/feed/`
-- **La Prensa Austral**: Diario regional de Magallanes y la Antártica Chilena
-  - RSS: `https://laprensaaustral.cl/feed`
-- **La Quinta**: Diario regional de Valparaíso, Valparaíso
-  - RSS: `https://www.diariolaquinta.cl/feed/`
-- **La Razón**: Diario regional de Santiago, Metropolitana
-  - RSS: `https://www.larazon.cl/feed/`
-- **La Región**: Diario regional de Coquimbo, Coquimbo
-  - RSS: `https://www.diariolaregion.cl/feed/`
-- **La Región Hoy**: Diario regional de Valparaíso, Valparaíso
-  - RSS: `https://www.laregionhoy.cl/feed/`
-- **La Serena Online**: Diario regional de La Serena, Coquimbo
-  - RSS: `https://www.laserenaonline.cl/feed/`
-- **La Tribuna**: Diario regional de Los Ángeles, Biobío
-  - RSS: `https://www.latribuna.cl/rss.xml`
 - **La Tribuna de Colchagua**: Diario regional de San Fernando, O'Higgins
   - RSS: `https://www.latribunadecolchagua.cl/feed/`
-- **Las Noticias de Malleco**: Diario regional de Angol, La Araucanía
-  - RSS: `https://lasnoticiasdemalleco.cl/feed/`
+- **Pichilemu News**: Medio de comunicación de la Región de O'Higgins.
+  - RSS: `https://www.pichilemunews.cl/feed`
+- **Rengo Notas**: Medio de comunicación de la Región de O'Higgins.
+  - RSS: `https://rengonotas.cl/wp/feed/`
+
+#### 📍 Maule (15 medios)
+
+*Descargar OPML regional: [`maule.opml`](regions/maule.opml)*
+
+- **Atentos**: Diario regional de Talca, Maule
+  - RSS: `https://www.atentos.cl/feed/`
+- **CauquenesNet**: Diario regional de Cauquenes, Maule
+  - RSS: `https://www.cauquenesnet.cl/feed/`
+- **Diario Cauquenes**: Diario regional de Cauquenes, Maule
+  - RSS: `https://www.diariocauquenes.cl/feed/`
+- **Diario Curicó**: Diario regional de Curicó, Maule
+  - RSS: `https://www.diariocurico.cl/feed/`
+- **Diario El Centro**: Diario regional de Talca, Maule
+  - RSS: `https://www.diarioelcentro.cl/feed/`
+- **Diario El Heraldo**: Diario regional de Linares, Maule
+  - RSS: `https://www.diarioelheraldo.cl/rss`
+- **Diario Linares**: Diario regional de Linares, Maule
+  - RSS: `https://diariolinares.cl/feed/`
+- **Diario Talca**: Diario regional de Talca, Maule
+  - RSS: `https://diariotalca.cl/feed/`
+- **El Maule Informa**: Diario regional de Talca, Maule
+  - RSS: `https://elmauleinforma.cl/feed/`
+- **En Línea Maule**: Diario regional de Talca, Maule
+  - RSS: `https://enlineamaule.cl/feed/`
 - **Linares en Línea**: Diario regional de Linares, Maule
   - RSS: `https://www.linaresenlinea.cl/feed/`
 - **Linares Noticia**: Diario regional de Linares, Maule
   - RSS: `https://www.linaresnoticia.cl/rss.xml`
-- **Los Ríos Al Día**: undefined
-  - RSS: `https://www.losriosaldia.cl/feed/`
-- **Los Ríos Noticias**: Diario regional de Valdivia, Los Ríos
-  - RSS: `https://www.losriosnoticias.cl/feed/`
-- **Malleco 7**: Diario regional de Angol, La Araucanía
-  - RSS: `https://www.malleco7.cl/feed/`
-- **Más Noticia**: Diario regional de Quillota, Valparaíso
-  - RSS: `https://www.masnoticia.cl/feed/`
 - **Maule Hoy**: Diario regional de Talca, Maule
   - RSS: `https://maulehoy.cl/feed/`
-- **Noticias Chiloé**: Diario regional de Castro, Los Lagos
-  - RSS: `https://www.noticiaschiloe.cl/feed/`
-- **Noticias del Lago**: Diario regional de Villarrica, La Araucanía
-  - RSS: `https://www.noticiasdellago.cl/feed/`
-- **Noticias Los Ríos**: Diario regional de La Unión, Los Ríos
-  - RSS: `https://www.noticiaslosrios.cl/feed/`
-- **Novena Digital**: Diario regional de Temuco, La Araucanía
-  - RSS: `https://novenadigital.cl/feed/`
-- **Nuevo Poder**: Diario regional de Santiago, Metropolitana
-  - RSS: `https://www.nuevopoder.cl/feed/`
-- **Ñuble Digital**: Diario regional de Chillán, Ñuble
-  - RSS: `https://www.nubledigital.cl/feed/`
-- **Ovalle Hoy**: Diario regional de Ovalle, Coquimbo
-  - RSS: `https://www.ovallehoy.cl/feed/`
-- **Ovejero Noticias**: Diario regional de Punta Arenas, Magallanes
-  - RSS: `https://www.ovejeronoticias.cl/feed/`
-- **País Lobo**: Diario regional de Osorno, Los Lagos
-  - RSS: `https://www.paislobo.cl/rss.xml`
-- **Periódico Los Ríos**: Diario regional de Valdivia, Los Ríos
-  - RSS: `https://www.periodicolosrios.cl/feed/`
-- **Prensa Ciudadana**: Diario regional de Temuco, La Araucanía
-  - RSS: `https://www.prensaciudadana.cl/feed/`
 - **Prensa Curicó**: Diario regional de Curicó, Maule
   - RSS: `https://www.prensacurico.cl/?feed=rss2`
-- **Río en Línea**: Diario regional de Valdivia, Los Ríos
-  - RSS: `https://www.rioenlinea.cl/feed/`
+- **VLN Radio**: Medio de comunicación de la Región de Maule.
+  - RSS: `https://www.vlnradio.cl/feed`
+
+#### 📍 Ñuble (10 medios)
+
+*Descargar OPML regional: [`nuble.opml`](regions/nuble.opml)*
+
+- **Chillán Online**: Diario regional de Chillán, Ñuble
+  - RSS: `https://www.chillanonline.cl/V7/feed/`
+- **El Sancarlino**: Diario regional de San Carlos, Ñuble
+  - RSS: `https://www.elsancarlino.cl/rss.xml`
+- **La Discusión** — Diario de Ñuble - Medios regionales
+  - La Discusión: `https://www.ladiscusion.cl/rss`
+  - La Discusión: `https://ladiscusion.cl/feed`
+- **La Fontana**: Diario regional de San Carlos, Ñuble
+  - RSS: `https://www.lafontana.cl/feed/`
+- **Municipalidad de Cobquecura**: Medio de comunicación de la Región de Ñuble.
+  - RSS: `https://www.cobquecura.cl/feed`
+- **Ñuble Actual**: Medio de comunicación de la Región de Ñuble.
+  - RSS: `https://www.nubleactual.cl/feed`
+- **Ñuble Digital**: Diario regional de Chillán, Ñuble
+  - RSS: `https://www.nubledigital.cl/feed/`
+- **Ñuble Online**: Medio de comunicación de la Región de Ñuble.
+  - RSS: `https://nubleonline.cl/feed`
 - **San Carlos Al Día**: Diario regional de San Carlos, Ñuble
   - RSS: `https://www.sancarlosaldia.cl/feed/`
-- **San Carlos On Line**: Diario regional de San Carlos, Ñuble
-  - RSS: `https://www.sancarlosonline.cl/rss.xml`
-- **Sur Noticias**: Diario regional de Santiago, Metropolitana
-  - RSS: `https://www.diariosurnoticias.com/feed/`
-- **Tarapacá Online**: Diario regional de Iquique, Tarapacá
-  - RSS: `https://www.tarapacaonline.cl/feed/`
+- **San Carlos On Line** — Diario regional de San Carlos, Ñuble
+  - San Carlos On Line: `https://www.sancarlosonline.cl/rss.xml`
+  - San Carlos Online: `https://www.sancarlosonline.cl/feeds/posts/default?alt=rss`
+
+#### 📍 Biobío (6 medios)
+
+*Descargar OPML regional: [`biobio.opml`](regions/biobio.opml)*
+
+- **Angelino**: Diario regional de Los Ángeles, Biobío
+  - RSS: `https://www.angelino.cl/feed/`
+- **Diario Concepción**: Diario regional con cobertura informativa de la Región del Biobío
+  - RSS: `https://www.diarioconcepcion.cl/rss.xml`
+- **La Tribuna**: Diario regional de Los Ángeles, Biobío
+  - RSS: `https://www.latribuna.cl/rss.xml`
+- **Nacimentano**: Medio de comunicación de la Región de Biobío.
+  - RSS: `https://nacimentano.cl/feed`
+- **Noticias Biobío**: Medio de comunicación de la Región de Biobío.
+  - RSS: `https://noticiasbiobio.cl/feed`
+- **Tomé al Día**: Medio de comunicación de la Región de Biobío.
+  - RSS: `http://www.tomealdia.com/feeds/posts/default?alt=rss`
+
+#### 📍 Araucanía (19 medios)
+
+*Descargar OPML regional: [`araucania.opml`](regions/araucania.opml)*
+
+- **Alerta Noticias Temuco**: Diario regional de Temuco, La Araucanía
+  - RSS: `https://alertanoticiastemuco.cl/feed/`
+- **Angol Noticias**: Diario regional de Angol, La Araucanía
+  - RSS: `https://www.angolnoticiasnew.cl/feed/`
+- **Araucanía Noticias**: Diario regional de Temuco, La Araucanía
+  - RSS: `https://www.araucanianoticias.cl/feed/`
+- **Clave 9**: Diario regional de Temuco, La Araucanía
+  - RSS: `https://www.clave9.cl/feed/`
+- **Diario Austral Temuco**: Diario regional de La Araucanía
+  - RSS: `https://www.australtemuco.cl/?feed=rss2`
+- **Diario El Cautín**: Medio de comunicación de la Región de Araucanía.
+  - RSS: `https://www.diarioelcautin.cl/feed`
+- **El Diario de La Araucanía**: Diario regional de Angol, La Araucanía
+  - RSS: `https://www.eldiariodelaaraucania.cl/feed/`
+- **El Periódico**: Diario regional de Temuco, La Araucanía
+  - RSS: `https://elperiodico.cl/feed/`
+- **Las Noticias de Malleco**: Diario regional de Angol, La Araucanía
+  - RSS: `https://lasnoticiasdemalleco.cl/feed/`
+- **Malleco 7**: Diario regional de Angol, La Araucanía
+  - RSS: `https://www.malleco7.cl/feed/`
+- **Noticias del Lago**: Diario regional de Villarrica, La Araucanía
+  - RSS: `https://www.noticiasdellago.cl/feed/`
+- **Noticias del Sur**: Medio de comunicación de la Región de Araucanía.
+  - RSS: `https://www.noticiasdelsur.cl/feed`
+- **Novena Digital**: Diario regional de Temuco, La Araucanía
+  - RSS: `https://novenadigital.cl/feed/`
+- **Prensa Ciudadana**: Diario regional de Temuco, La Araucanía
+  - RSS: `https://www.prensaciudadana.cl/feed/`
+- **Pucón TV**: Medio de comunicación de la Región de Araucanía.
+  - RSS: `https://www.pucontv.com/rss/atom`
+- **Red Informativa**: Medio de comunicación de la Región de Araucanía.
+  - RSS: `https://www.redinformativa.cl/feed`
 - **Temuco Diario**: Diario regional de Temuco, La Araucanía
   - RSS: `https://www.temucodiario.cl/feed/`
-- **Temuco21**: Diario regional de Temuco, La Araucanía
+- **Tiempo 21**: Diario regional de Temuco, La Araucanía
   - RSS: `https://www.tiempo21.cl/feed/`
-- **Tierramarillano**: Diario regional de Copiapó, Atacama
-  - RSS: `https://www.tierramarillano.cl/feed/`
-- **Timeline**: Diario regional de Antofagasta, Antofagasta
-  - RSS: `https://www.timeline.cl/feed/`
+- **Villarrica al Día**: Medio de comunicación de la Región de Araucanía.
+  - RSS: `https://www.villarricaldia.cl/feed`
+
+#### 📍 Los Ríos (7 medios)
+
+*Descargar OPML regional: [`los-rios.opml`](regions/los-rios.opml)*
+
+- **Central Noticias**: Diario regional de Panguipulli, Los Ríos
+  - RSS: `https://centralnoticias.cl/?feed=rss2`
+- **El Provincial**: Medio de comunicación de la Región de Los Ríos.
+  - RSS: `https://www.elprovincial.cl/feed`
+- **Informa Al Minuto**: Diario regional de Valdivia, Los Ríos
+  - RSS: `https://informaalminuto.cl/feed/`
+- **Los Ríos Noticias**: Diario regional de Valdivia, Los Ríos
+  - RSS: `https://www.losriosnoticias.cl/feed`
+- **Noticias Los Ríos**: Diario regional de La Unión, Los Ríos
+  - RSS: `https://www.noticiaslosrios.cl/feed/`
+- **Periódico Los Ríos**: Diario regional de Valdivia, Los Ríos
+  - RSS: `https://www.periodicolosrios.cl/feed/`
+- **Río en Línea**: Diario regional de Valdivia, Los Ríos
+  - RSS: `https://www.rioenlinea.cl/feed/`
+
+#### 📍 Los Lagos (13 medios)
+
+*Descargar OPML regional: [`los-lagos.opml`](regions/los-lagos.opml)*
+
+- **Central Noticia**: Diario regional de Osorno, Los Lagos
+  - RSS: `https://www.centralnoticia.cl/feed/`
+- **Datos Sur** — Diario regional de Llanquihue, Puerto Montt
+  - Datos Sur: `https://www.datossur.cl/index.php?format=feed`
+  - Datos Sur: `https://www.datossur.cl/index.php?format=feed&amp;type=rss`
+- **Diario Austral Osorno**: Diario regional de Osorno
+  - RSS: `https://www.australosorno.cl/?feed=rss2`
+- **Diario El Huemul**: Diario regional de Chaitén, Los Lagos
+  - RSS: `https://www.elhuemul.cl/feed/`
+- **Diario Puerto Varas**: Diario regional de Puerto Varas, Los Lagos
+  - RSS: `https://www.diariopuertovaras.cl/feed/`
+- **El Calbucano**: Diario regional de Calbuco, Los Lagos
+  - RSS: `https://www.elcalbucano.cl/feed/`
+- **El Insular**: Diario regional de Castro, Los Lagos
+  - RSS: `https://www.elinsular.cl/feed/`
+- **Guardián del Sur**: Diario regional de Puerto Montt, Los Lagos
+  - RSS: `https://www.guardiandelsur.cl/feed/`
+- **La Opinión de Chiloé**: Diario regional de Ancud, Los Lagos
+  - RSS: `https://www.laopiniondechiloe.cl/feed/`
+- **Noticias Chiloé**: Diario regional de Castro, Los Lagos
+  - RSS: `https://www.noticiaschiloe.cl/feed/`
+- **País Lobo**: Diario regional de Osorno, Los Lagos
+  - RSS: `https://www.paislobo.cl/rss.xml`
+- **Portal Informativo**: Medio de comunicación de la Región de Los Lagos.
+  - RSS: `https://portalinformativo.cl/feed`
+- **Queilen**: Medio de comunicación de la Región de Los Lagos.
+  - RSS: `https://www.queilen.cl/blog-feed.xml`
+
+#### 📍 Aysén (4 medios)
+
+*Descargar OPML regional: [`aysen.opml`](regions/aysen.opml)*
+
+- **Aysén Ahora**: Diario regional de Puerto Aysén, Aysén
+  - RSS: `https://aysenahora.cl/feed/`
+- **Diario Aysén**: Diario regional de la Región de Aysén
+  - RSS: `https://www.diarioaysen.cl/feed/`
+- **Radio Santa María**: Medio de comunicación de la Región de Aysén.
+  - RSS: `https://www.radiosantamaria.cl/feed`
+- **Radio Ventisqueros**: Medio de comunicación de la Región de Aysén.
+  - RSS: `https://www.radioventisqueros.cl/feed`
+
+#### 📍 Magallanes y de la Antártica Chilena (7 medios)
+
+*Descargar OPML regional: [`magallanes.opml`](regions/magallanes.opml)*
+
+- **Diálogo Sur**: Diario regional de Punta Arenas, Magallanes
+  - RSS: `https://dialogosur.cl/feed/`
+- **El Magalánico**: Diario regional de Punta Arenas, Magallanes
+  - RSS: `https://www.elmagallanico.com/feed/`
+- **El Pingüino**: Diario regional de Magallanes y la Antártica
+  - RSS: `https://www.elpinguino.com/feed/`
+- **El Tirapiedras**: Diario regional de Puerto Natales, Magallanes
+  - RSS: `https://www.eltirapiedras.cl/feed/`
+- **La Prensa Austral**: Diario regional de Magallanes y la Antártica Chilena
+  - RSS: `https://laprensaaustral.cl/feed`
+- **Ovejero Noticias**: Diario regional de Punta Arenas, Magallanes
+  - RSS: `https://www.ovejeronoticias.cl/feed/`
+- **Radio Magallanes**: Medio de comunicación de la Región de Magallanes y de la Antártica Chilena.
+  - RSS: `https://radiomagallanes.cl/feed`
+
+#### 📍 Otras Regiones o No Especificada (7 medios)
+
+- **Diario El Ranco**: Diario regional de La Unión, Los Ríos
+  - RSS: `https://www.diarioelranco.cl/feed/`
+- **El Contraste**: Diario regional de Los Ángeles, Biobío
+  - RSS: `https://www.elcontraste.cl/feed/`
+- **El Mercurio Valparaíso**: Diario regional de Valparaíso
+  - RSS: `https://www.mercuriovalpo.cl/?feed=rss2`
+- **Epicentro Chile**: Diario regional de Valparaíso, Valparaíso
+  - RSS: `https://www.epicentrochile.com/feed/`
+- **La Hora**: Medio digital chileno de noticias y actualidad nacional e internacional.
+  - RSS: `https://www.lahora.cl/rss/global.xml`
+- **La Región Hoy**: Diario regional de Valparaíso, Valparaíso
+  - RSS: `https://www.laregionhoy.cl/feed/`
+- **Los Ríos Al Día**: undefined
+  - RSS: `https://www.losriosaldia.cl/feed/`
 
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Negocios y Finanzas (6 feeds)
+### 💼 Negocios y Finanzas (7 feeds)
 
 - **Diario Financiero**: Diario especializado en economía y negocios
   - RSS: `https://www.df.cl/noticias/site/list/port/rss.xml`
 - **El Minuto**: Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales
   - RSS: `https://elminuto.cl/noticias/category/economia/rss`
+- **Ex-Ante**: Medio digital chileno de noticias y análisis político, económico y de actualidad
+  - RSS: `https://www.ex-ante.cl/category/economia/rss`
 - **La Tercera**: Diario con cobertura nacional, internacional y económica
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml`
 - **MCH**: MCH, medio de comunicación especializado en minería, construcción y energía
@@ -576,14 +778,20 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (7 feeds)
+### 🌐 Noticias Internacionales (10 feeds)
 
+- **BBC Mundo**: Cobertura de noticias globales y análisis desde una perspectiva internacional
+  - RSS: `https://feeds.bbci.co.uk/news/world/latin_america/rss.xml`
 - **Diario El Día**: Diario regional de La Serena, Coquimbo
   - RSS: `https://www.diarioeldia.cl/rss/mundo`
 - **El Desconcierto**: Portal de noticias con cobertura en política, derechos humanos, medioambiente y cultura
   - RSS: `https://eldesconcierto.cl/rss/pages/mundo.xml`
 - **El Minuto**: Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales
   - RSS: `https://elminuto.cl/noticias/category/mundo/rss`
+- **El País**: Medio de comunicación español de noticias internacionales
+  - RSS: `https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/chile/portada`
+- **France 24**: Medio de comunicación francés de noticias internacionales
+  - RSS: `https://www.france24.com/es/america-latina/rss`
 - **La Cuarta**: Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención.
   - RSS: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml`
 - **La Tercera**: Diario con cobertura nacional, internacional y económica

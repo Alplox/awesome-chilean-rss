@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de Magallanes y de la Antártica Chilena (7 feeds)</title>
+    <description>Feeds RSS de la Región de Magallanes y de la Antártica Chilena, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Diálogo Sur" title="Diálogo Sur" xmlUrl="https://dialogosur.cl/feed/" htmlUrl="https://dialogosur.cl"/>
+    <outline type="rss" text="El Magalánico" title="El Magalánico" xmlUrl="https://www.elmagallanico.com/feed/" htmlUrl="https://www.elmagallanico.com"/>
+    <outline type="rss" text="El Pingüino" title="El Pingüino" xmlUrl="https://www.elpinguino.com/feed/" htmlUrl="https://www.elpinguino.com"/>
+    <outline type="rss" text="El Tirapiedras" title="El Tirapiedras" xmlUrl="https://www.eltirapiedras.cl/feed/" htmlUrl="https://www.eltirapiedras.cl"/>
+    <outline type="rss" text="La Prensa Austral" title="La Prensa Austral" xmlUrl="https://laprensaaustral.cl/feed" htmlUrl="https://laprensaaustral.cl"/>
+    <outline type="rss" text="Ovejero Noticias" title="Ovejero Noticias" xmlUrl="https://www.ovejeronoticias.cl/feed/" htmlUrl="https://www.ovejeronoticias.cl"/>
+    <outline type="rss" text="Radio Magallanes" title="Radio Magallanes" xmlUrl="https://radiomagallanes.cl/feed" htmlUrl="https://radiomagallanes.cl"/>
+  </body>
+</opml>

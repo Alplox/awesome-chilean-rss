@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de Maule (15 feeds)</title>
+    <description>Feeds RSS de la Región de Maule, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Atentos" title="Atentos" xmlUrl="https://www.atentos.cl/feed/" htmlUrl="https://www.atentos.cl"/>
+    <outline type="rss" text="CauquenesNet" title="CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/" htmlUrl="https://www.cauquenesnet.cl"/>
+    <outline type="rss" text="Diario Cauquenes" title="Diario Cauquenes" xmlUrl="https://www.diariocauquenes.cl/feed/" htmlUrl="https://www.diariocauquenes.cl"/>
+    <outline type="rss" text="Diario Curicó" title="Diario Curicó" xmlUrl="https://www.diariocurico.cl/feed/" htmlUrl="https://www.diariocurico.cl"/>
+    <outline type="rss" text="Diario El Centro" title="Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/feed/" htmlUrl="https://www.diarioelcentro.cl"/>
+    <outline type="rss" text="Diario El Heraldo" title="Diario El Heraldo" xmlUrl="https://www.diarioelheraldo.cl/rss" htmlUrl="https://www.diarioelheraldo.cl"/>
+    <outline type="rss" text="Diario Linares" title="Diario Linares" xmlUrl="https://diariolinares.cl/feed/" htmlUrl="https://diariolinares.cl"/>
+    <outline type="rss" text="Diario Talca" title="Diario Talca" xmlUrl="https://diariotalca.cl/feed/" htmlUrl="https://diariotalca.cl"/>
+    <outline type="rss" text="El Maule Informa" title="El Maule Informa" xmlUrl="https://elmauleinforma.cl/feed/" htmlUrl="https://elmauleinforma.cl"/>
+    <outline type="rss" text="En Línea Maule" title="En Línea Maule" xmlUrl="https://enlineamaule.cl/feed/" htmlUrl="https://enlineamaule.cl"/>
+    <outline type="rss" text="Linares en Línea" title="Linares en Línea" xmlUrl="https://www.linaresenlinea.cl/feed/" htmlUrl="https://www.linaresenlinea.cl"/>
+    <outline type="rss" text="Linares Noticia" title="Linares Noticia" xmlUrl="https://www.linaresnoticia.cl/rss.xml" htmlUrl="https://www.linaresnoticia.cl"/>
+    <outline type="rss" text="Maule Hoy" title="Maule Hoy" xmlUrl="https://maulehoy.cl/feed/" htmlUrl="https://maulehoy.cl"/>
+    <outline type="rss" text="Prensa Curicó" title="Prensa Curicó" xmlUrl="https://www.prensacurico.cl/?feed=rss2" htmlUrl="https://www.prensacurico.cl"/>
+    <outline type="rss" text="VLN Radio" title="VLN Radio" xmlUrl="https://www.vlnradio.cl/feed" htmlUrl="https://www.vlnradio.cl"/>
+  </body>
+</opml>

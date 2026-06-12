@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { readFileSync, writeFileSync, accessSync, constants } from 'fs';
+import { readFileSync, writeFileSync, accessSync, constants, existsSync, mkdirSync } from 'fs';
 
 // ─── Verificar escritura ──────────────────────────────────────────────────────
 
@@ -18,6 +18,7 @@ const ownerName = pkg.author?.name ?? 'Alplox';
 
 const db = JSON.parse(readFileSync('feeds-database.json', 'utf-8'));
 const categories = JSON.parse(readFileSync('categories.json', 'utf-8'));
+const regions = JSON.parse(readFileSync('regions.json', 'utf-8'));
 const { sites } = db;
 
 // Resolver categoría de cada feed: feed.category ?? site.category
@@ -27,16 +28,39 @@ const feedsByCategory = {};
 // Para README: sitios agrupados por categoría resuelta, cada uno con solo sus feeds de esa categoría
 const sitesByResolvedCategory = {};
 
+// Resolver región de cada feed: feed.region ?? site.region
+// Estructura resultado para regiones: { regionKey: [feedData] }
+const feedsByRegion = {};
+
+// Para README de medios regionales: sitios agrupados por región resuelta
+const sitesByRegion = {};
+
 for (const site of sites) {
   const catGroups = {};
+  const regGroups = {};
 
   for (const feed of site.feeds) {
     if (feed.status !== 'active' || feed.verified !== true) continue;
+    
     const resolvedCat = feed.category ?? site.category;
-    const feedEntry = { ...feed, siteId: site.id, siteName: site.name, siteUrl: site.url, siteDescription: site.description };
+    const resolvedReg = feed.region ?? site.region;
+    
+    const feedEntry = { 
+      ...feed, 
+      siteId: site.id, 
+      siteName: site.name, 
+      siteUrl: site.url, 
+      siteDescription: site.description,
+      region: resolvedReg 
+    };
 
     (feedsByCategory[resolvedCat] ??= []).push(feedEntry);
     (catGroups[resolvedCat] ??= []).push(feed);
+
+    if (resolvedReg) {
+      (feedsByRegion[resolvedReg] ??= []).push(feedEntry);
+      (regGroups[resolvedReg] ??= []).push(feed);
+    }
   }
 
   for (const [cat, feeds] of Object.entries(catGroups)) {
@@ -46,6 +70,19 @@ for (const site of sites) {
       url: site.url,
       category: cat,
       description: site.description,
+      region: site.region,
+      feeds,
+    });
+  }
+
+  for (const [reg, feeds] of Object.entries(regGroups)) {
+    (sitesByRegion[reg] ??= []).push({
+      id: site.id,
+      name: site.name,
+      url: site.url,
+      category: site.category,
+      description: site.description,
+      region: reg,
       feeds,
     });
   }
@@ -54,6 +91,11 @@ for (const site of sites) {
 // Ordenar sitios alfabéticamente dentro de cada categoría
 for (const cat of Object.keys(sitesByResolvedCategory)) {
   sitesByResolvedCategory[cat].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+}
+
+// Ordenar sitios alfabéticamente dentro de cada región
+for (const reg of Object.keys(sitesByRegion)) {
+  sitesByRegion[reg].sort((a, b) => a.name.localeCompare(b.name, 'es'));
 }
 
 // Aplanar todos los feeds para conteos y OPML
@@ -118,6 +160,72 @@ function escapeXml(str) {
     .replace(/>/g, '&gt;');
 }
 
+// ─── Generar OPML Regional ───────────────────────────────────────────────────
+
+function generateRegionalOPML(feedsByRegion) {
+  const now = db.last_updated;
+  const regionalFeeds = Object.values(feedsByRegion).flat();
+  const totalFeeds = regionalFeeds.length;
+
+  const regionBlocks = Object.keys(regions)
+    .filter(regKey => feedsByRegion[regKey]?.length > 0)
+    .map(regKey => {
+      const label = regions[regKey];
+      const feeds = feedsByRegion[regKey] || [];
+      // Sort feeds alphabetically by name
+      const sortedFeeds = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+      const outlines = sortedFeeds
+        .map(feed =>
+          `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+        )
+        .join('\n');
+      return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${outlines}\n    </outline>`;
+    }).join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Regionales (${totalFeeds} feeds)</title>
+    <description>Feeds RSS de medios regionales chilenos agrupados por región.</description>
+    <dateCreated>${now}</dateCreated>
+    <ownerName>${escapeXml(ownerName)}</ownerName>
+  </head>
+  <body>
+${regionBlocks}
+  </body>
+</opml>
+`;
+}
+
+// ─── Generar OPML Regional Individual ────────────────────────────────────────
+
+function generateIndividualRegionalOPML(regKey, feeds) {
+  const now = db.last_updated;
+  const label = regions[regKey];
+  const totalFeeds = feeds.length;
+  // Sort feeds alphabetically by name
+  const sortedFeeds = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+  const outlines = sortedFeeds
+    .map(feed =>
+      `    <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+    )
+    .join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de ${label} (${totalFeeds} feeds)</title>
+    <description>Feeds RSS de la Región de ${label}, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>${now}</dateCreated>
+    <ownerName>${escapeXml(ownerName)}</ownerName>
+  </head>
+  <body>
+${outlines}
+  </body>
+</opml>
+`;
+}
+
 // ─── Generar README ───────────────────────────────────────────────────────────
 
 function feedCount(n) {
@@ -142,6 +250,69 @@ function generateReadme() {
     const label = categories[cat] ?? cat;
     const catSites = sitesByResolvedCategory[cat] || [];
     const totalFeedsInCat = feedsByCategory[cat]?.length || 0;
+
+    if (cat === 'regional') {
+      // Group by region
+      const regionSubsections = Object.keys(regions)
+        .map(regKey => {
+          const regionSites = sitesByRegion[regKey] || [];
+          if (regionSites.length === 0) return null;
+
+          const regionLabel = regions[regKey];
+          const siteLines = regionSites
+            .map(site => {
+              const activeFeeds = site.feeds.filter(f => f.status === 'active' && f.verified === true);
+              if (activeFeeds.length === 0) return null;
+
+              if (activeFeeds.length === 1) {
+                const feed = activeFeeds[0];
+                return `- **${site.name}**: ${site.description}\n  - RSS: \`${feed.rss_url}\``;
+              } else {
+                const feedLines = activeFeeds
+                  .map(feed => `  - ${feed.name}: \`${feed.rss_url}\``)
+                  .join('\n');
+                return `- **${site.name}** — ${site.description}\n${feedLines}`;
+              }
+            })
+            .filter(Boolean)
+            .join('\n');
+
+          if (!siteLines) return null;
+
+          return `#### 📍 ${regionLabel} (${regionSites.length} medios)\n\n*Descargar OPML regional: [\`${regKey}.opml\`](regions/${regKey}.opml)*\n\n${siteLines}`;
+        })
+        .filter(Boolean);
+
+      // Fallback: sites tagged as regional but with no region
+      const unassignedSites = catSites.filter(s => !s.region || !regions[s.region]);
+      if (unassignedSites.length > 0) {
+        const unassignedLines = unassignedSites
+          .map(site => {
+            const activeFeeds = site.feeds.filter(f => f.status === 'active' && f.verified === true);
+            if (activeFeeds.length === 0) return null;
+
+            if (activeFeeds.length === 1) {
+              const feed = activeFeeds[0];
+              return `- **${site.name}**: ${site.description}\n  - RSS: \`${feed.rss_url}\``;
+            } else {
+              const feedLines = activeFeeds
+                .map(feed => `  - ${feed.name}: \`${feed.rss_url}\``)
+                .join('\n');
+              return `- **${site.name}** — ${site.description}\n${feedLines}`;
+            }
+          })
+          .filter(Boolean)
+          .join('\n');
+
+        if (unassignedLines) {
+          regionSubsections.push(`#### 📍 Otras Regiones o No Especificada (${unassignedSites.length} medios)\n\n${unassignedLines}`);
+        }
+      }
+
+      if (regionSubsections.length === 0) return null;
+
+      return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\nConsolidado regional: [\`chilean-rss-regions.opml\`](chilean-rss-regions.opml)\n\n${regionSubsections.join('\n\n')}\n\n[↑ Volver al índice](#indice)`;
+    }
 
     const items = catSites.map(site => {
       const activeFeeds = site.feeds.filter(f => f.status === 'active' && f.verified === true);
@@ -211,10 +382,31 @@ Este proyecto está bajo licencia [CC0 1.0 Universal](LICENSE). Siéntete libre 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 try {
+  // Main OPML file
   const opml = generateOPML();
   writeFileSync('chilean-rss.opml', opml, 'utf-8');
   console.log(`✅ chilean-rss.opml generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
 
+  // Consolidated regional OPML file
+  const regionalOpml = generateRegionalOPML(feedsByRegion);
+  writeFileSync('chilean-rss-regions.opml', regionalOpml, 'utf-8');
+  const totalRegFeeds = Object.values(feedsByRegion).flat().length;
+  console.log(`✅ chilean-rss-regions.opml generado (${totalRegFeeds} feeds regionales de ${Object.keys(feedsByRegion).length} regiones)`);
+
+  // Individual regional OPML files
+  if (!existsSync('regions')) {
+    mkdirSync('regions');
+  }
+  for (const regKey of Object.keys(regions)) {
+    const feeds = feedsByRegion[regKey] || [];
+    if (feeds.length > 0) {
+      const regOpml = generateIndividualRegionalOPML(regKey, feeds);
+      writeFileSync(`regions/${regKey}.opml`, regOpml, 'utf-8');
+    }
+  }
+  console.log(`✅ OPMLs individuales por región generados en el directorio regions/`);
+
+  // README.md
   const readme = generateReadme();
   writeFileSync('README.md', readme, 'utf-8');
   console.log(`✅ README.md generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
