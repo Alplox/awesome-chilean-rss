@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de O'Higgins (24 feeds)</title>
+    <title>Awesome Chilean RSS - Región de O'Higgins (22 feeds)</title>
     <description>Feeds RSS de la Región de O'Higgins, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <dateCreated>2026-06-12T23:06:23.820Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -12,8 +12,6 @@
     <outline type="rss" text="Diario El Marino - Cartas al Director" title="Diario El Marino - Cartas al Director" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/cartas-al-director/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
     <outline type="rss" text="Diario El Marino - Colchagua" title="Diario El Marino - Colchagua" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/colchagua/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
     <outline type="rss" text="Diario El Marino - Cultura y Entretenimiento" title="Diario El Marino - Cultura y Entretenimiento" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
-    <outline type="rss" text="Diario El Marino - Deporte" title="Diario El Marino - Deporte" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/deporte/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
-    <outline type="rss" text="Diario El Marino - Editorial" title="Diario El Marino - Editorial" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/editorial/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
     <outline type="rss" text="Diario El Marino - Legales" title="Diario El Marino - Legales" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/legales/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
     <outline type="rss" text="Diario El Marino - Nacional" title="Diario El Marino - Nacional" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/nacional/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
     <outline type="rss" text="Diario El Marino - Opinión" title="Diario El Marino - Opinión" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/opinion/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>

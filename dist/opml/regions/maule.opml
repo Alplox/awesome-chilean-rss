@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Maule (15 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Maule (14 feeds)</title>
     <description>Feeds RSS de la Región de Maule, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <dateCreated>2026-06-12T23:06:23.820Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -20,7 +20,6 @@
     <outline type="rss" text="Linares en Línea" title="Linares en Línea" description="Diario regional de Linares, Maule" xmlUrl="https://www.linaresenlinea.cl/feed/" htmlUrl="https://www.linaresenlinea.cl"/>
     <outline type="rss" text="Linares Noticia" title="Linares Noticia" description="Diario regional de Linares, Maule" xmlUrl="https://www.linaresnoticia.cl/rss.xml" htmlUrl="https://www.linaresnoticia.cl"/>
     <outline type="rss" text="Maule Hoy" title="Maule Hoy" description="Diario regional de Talca, Maule" xmlUrl="https://maulehoy.cl/feed/" htmlUrl="https://maulehoy.cl"/>
-    <outline type="rss" text="Prensa Curicó" title="Prensa Curicó" description="Diario regional de Curicó, Maule" xmlUrl="https://www.prensacurico.cl/?feed=rss2" htmlUrl="https://www.prensacurico.cl"/>
     <outline type="rss" text="VLN Radio" title="VLN Radio" description="Medio de comunicación de la Región de Maule." xmlUrl="https://www.vlnradio.cl/feed" htmlUrl="https://www.vlnradio.cl"/>
   </body>
 </opml>

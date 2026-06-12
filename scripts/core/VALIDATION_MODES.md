@@ -115,7 +115,7 @@ npm run validate:watchlist -- --id adnradio [--update]
 **Flujo por entrada:**
 1. Redescubre feed vía `rediscoverFeed()` (HTML + patrones, sin duplicados entre etapas)
 2. Valida contenido vía `checkFeedUrl()` (RSS/Atom/JSON/RDF)
-3. Verifica frescura (< 365 días, salvo automático)
+3. Verifica frescura (< 30 días, salvo automático)
 4. Si todo ok → `promoteToSite()` llena `feeds[0]` y elimina `reason`
 5. Interactivo: pregunta si promover ahora o mantener en watchlist
 6. Automático: promueve directamente
@@ -179,7 +179,7 @@ En ambos modos:
 ## Detección de feeds obsoletos (stale)
 
 Cuando un feed responde correctamente, se extrae la fecha del item más reciente
-de sus entradas RSS/Atom/JSON. Si el último item tiene más de **365 días**, el feed
+de sus entradas RSS/Atom/JSON. Si el último item tiene más de **30 días**, el feed
 se marca como `stale` y se excluye de los archivos generados.
 
 El orden de resolución de fecha es:

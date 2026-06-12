@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-12T05:14:24.077Z",
-  "total_feeds": 351,
+  "last_updated": "2026-06-12T23:06:23.820Z",
+  "total_feeds": 370,
   "sites": [
     {
       "id": "as-chile",
@@ -14,7 +14,7 @@
           "name": "AS Chile - Portada",
           "rss_url": "https://as.com/rss/chile/portada.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:40:49.719Z",
+          "last_checked": "2026-06-12T23:01:05.004Z",
           "status": "stale",
           "verified": false,
           "last_known_item_date": "2022-04-10T06:01:32.000Z"
@@ -23,8 +23,10 @@
           "id": "as-chile-futbol",
           "name": "AS Chile - Fútbol",
           "rss_url": "https://as.com/rss/chile/futbol.xml",
+          "url": "https://chile.as.com/futbol/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:40:49.719Z",
+          "category": "sports",
+          "last_checked": "2026-06-12T23:01:05.005Z",
           "status": "stale",
           "verified": false,
           "last_known_item_date": "2022-03-02T21:08:21.000Z"
@@ -33,11 +35,34 @@
           "id": "as-chile-actualidad",
           "name": "AS Chile - Actualidad",
           "rss_url": "https://as.com/rss/chile/actualidad.xml",
+          "url": "https://chile.as.com/actualidad/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:40:49.719Z",
+          "last_checked": "2026-06-12T23:01:05.005Z",
           "status": "stale",
           "verified": false,
           "last_known_item_date": "2022-03-03T18:22:01.000Z"
+        },
+        {
+          "id": "as-chile-tikitakas",
+          "name": "AS Chile - Tikitakas",
+          "rss_url": "https://as.com/rss/chile/tikitakas.xml",
+          "url": "https://chile.as.com/tikitakas/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:01:05.005Z",
+          "status": "stale",
+          "verified": false,
+          "last_known_item_date": "2022-03-01T19:20:22.000Z"
+        },
+        {
+          "id": "as-chile-opinion",
+          "name": "AS Chile - Opinión",
+          "rss_url": "https://as.com/rss/chile/opinion.xml",
+          "url": "https://chile.as.com/opinion/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:01:05.005Z",
+          "status": "stale",
+          "verified": false,
+          "last_known_item_date": "2022-03-02T14:54:28.000Z"
         }
       ]
     },
@@ -120,6 +145,7 @@
           "id": "la-tercera-nacional",
           "name": "La Tercera - Nacional",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/nacional/?outputType=xml",
+          "url": "https://www.latercera.com/category/nacional/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.927Z",
           "status": "active",
@@ -130,6 +156,7 @@
           "id": "la-tercera-politica",
           "name": "La Tercera - Política",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/politica/?outputType=xml",
+          "url": "https://www.latercera.com/canal/politica/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.927Z",
           "status": "active",
@@ -140,6 +167,7 @@
           "id": "la-tercera-servicios",
           "name": "La Tercera - Servicios",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml",
+          "url": "https://www.latercera.com/canal/servicios/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.927Z",
           "status": "active",
@@ -150,6 +178,7 @@
           "id": "la-tercera-tendencias",
           "name": "La Tercera - Tendencias",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml",
+          "url": "https://www.latercera.com/canal/tendencias/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.927Z",
           "status": "active",
@@ -160,6 +189,7 @@
           "id": "la-tercera-tecnologia",
           "name": "La Tercera - Tecnología",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/tecnologia/?outputType=xml",
+          "url": "https://www.latercera.com/canal/tecnologia/",
           "feed_type": "RSS",
           "category": "technology",
           "last_checked": "2026-06-11T23:40:51.928Z",
@@ -171,6 +201,7 @@
           "id": "la-tercera-pulso",
           "name": "La Tercera - Pulso",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml",
+          "url": "https://www.latercera.com/canal/pulso/",
           "feed_type": "RSS",
           "category": "business",
           "last_checked": "2026-06-11T23:40:51.928Z",
@@ -182,6 +213,7 @@
           "id": "la-tercera-mineria",
           "name": "La Tercera - Minería",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/mineria/?outputType=xml",
+          "url": "https://www.latercera.com/canal/mineria/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.928Z",
           "status": "active",
@@ -192,6 +224,7 @@
           "id": "la-tercera-editorial",
           "name": "La Tercera - Editorial",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/editorial/?outputType=xml",
+          "url": "https://www.latercera.com/canal/editorial/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.928Z",
           "status": "active",
@@ -202,6 +235,7 @@
           "id": "la-tercera-opinion",
           "name": "La Tercera - Opinión",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/opinion/?outputType=xml",
+          "url": "https://www.latercera.com/opinion/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.928Z",
           "status": "active",
@@ -212,6 +246,7 @@
           "id": "la-tercera-cartas-al-director",
           "name": "La Tercera - Cartas al Director",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/cartas-al-director/?outputType=xml",
+          "url": "https://www.latercera.com/canal/cartas-al-director/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.928Z",
           "status": "active",
@@ -222,6 +257,7 @@
           "id": "la-tercera-culto",
           "name": "La Tercera - Culto",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml",
+          "url": "https://www.latercera.com/canal/culto/",
           "feed_type": "RSS",
           "category": "culture",
           "last_checked": "2026-06-11T23:40:51.928Z",
@@ -233,6 +269,7 @@
           "id": "la-tercera-finde",
           "name": "La Tercera - Finde",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/finde/?outputType=xml",
+          "url": "https://www.latercera.com/canal/finde/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.929Z",
           "status": "active",
@@ -243,6 +280,7 @@
           "id": "la-tercera-paula",
           "name": "La Tercera - Revista Paula",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/paula/?outputType=xml",
+          "url": "https://www.latercera.com/canal/paula/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.929Z",
           "status": "active",
@@ -253,6 +291,7 @@
           "id": "la-tercera-sociales",
           "name": "La Tercera - Sociales",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/sociales/?outputType=xml",
+          "url": "https://www.latercera.com/canal/sociales/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.929Z",
           "status": "no_feed",
@@ -263,6 +302,7 @@
           "id": "la-tercera-lt-board",
           "name": "La Tercera - Board",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/lt-board/?outputType=xml",
+          "url": "https://www.latercera.com/lt-board/",
           "feed_type": "RSS",
           "last_checked": "2026-06-11T23:40:51.929Z",
           "status": "active",
@@ -273,6 +313,7 @@
           "id": "la-tercera-el-deportivo",
           "name": "La Tercera - El Deportivo",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/el-deportivo/?outputType=xml",
+          "url": "https://www.latercera.com/canal/el-deportivo/",
           "feed_type": "RSS",
           "category": "sports",
           "last_checked": "2026-06-11T23:40:51.929Z",
@@ -284,6 +325,7 @@
           "id": "la-tercera-mundo",
           "name": "La Tercera - Mundo",
           "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml",
+          "url": "https://www.latercera.com/canal/mundo/",
           "feed_type": "RSS",
           "category": "news-international",
           "last_checked": "2026-06-11T23:40:51.929Z",
@@ -343,9 +385,75 @@
           "name": "FayerWayer",
           "rss_url": "https://www.fayerwayer.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:40:54.522Z",
+          "last_checked": "2026-06-12T22:10:55.560Z",
           "status": "active",
           "verified": true,
+          "last_known_item_date": "2026-06-12T21:17:45.000Z"
+        },
+        {
+          "id": "fayerwayer-moviles",
+          "name": "FayerWayer - Moviles",
+          "rss_url": "https://www.fayerwayer.com/arc/outboundfeeds/rss/category/moviles/?outputType=xml",
+          "url": "https://www.fayerwayer.com/moviles",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T18:19:49.000Z"
+        },
+        {
+          "id": "fayerwayer-internet",
+          "name": "FayerWayer - Internet",
+          "rss_url": "https://www.fayerwayer.com/arc/outboundfeeds/rss/category/internet/?outputType=xml",
+          "url": "https://www.fayerwayer.com/internet",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T20:56:49.000Z"
+        },
+        {
+          "id": "fayerwayer-sneakers",
+          "name": "FayerWayer - Sneakers",
+          "rss_url": "https://www.fayerwayer.com/arc/outboundfeeds/rss/category/sneakers/?outputType=xml",
+          "url": "https://www.fayerwayer.com/sneakers",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-09T15:30:59.000Z"
+        },
+        {
+          "id": "fayerwayer-ciencia",
+          "name": "FayerWayer - Ciencia",
+          "rss_url": "https://www.fayerwayer.com/arc/outboundfeeds/rss/category/ciencia/?outputType=xml",
+          "url": "https://www.fayerwayer.com/ciencia",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T15:59:47.000Z"
+        },
+        {
+          "id": "fayerwayer-entretenimiento",
+          "name": "FayerWayer - Entretenimiento",
+          "rss_url": "https://www.fayerwayer.com/arc/outboundfeeds/rss/category/entretenimiento/?outputType=xml",
+          "url": "https://www.fayerwayer.com/entretenimiento",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T21:17:45.000Z"
+        },
+        {
+          "id": "fayerwayer-comercial",
+          "name": "FayerWayer - Comercial",
+          "rss_url": "https://www.fayerwayer.com/arc/outboundfeeds/rss/category/comercial/?outputType=xml",
+          "url": "https://www.fayerwayer.com/comercial",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
           "last_known_item_date": "2026-06-11T21:00:00.000Z"
         }
       ]
@@ -362,10 +470,197 @@
           "name": "TransMedia",
           "rss_url": "https://www.transmedia.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:40:55.744Z",
+          "last_checked": "2026-06-12T23:05:16.421Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-analisis",
+          "name": "Transmedia - Análisis",
+          "rss_url": "https://www.transmedia.cl/blog/category/analisis/feed/",
+          "url": "https://www.transmedia.cl/blog/category/analisis/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.421Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-chile",
+          "name": "Transmedia - Chile",
+          "rss_url": "https://www.transmedia.cl/blog/category/chile/feed/",
+          "url": "https://www.transmedia.cl/blog/category/chile/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.421Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:20:27.000Z"
+        },
+        {
+          "id": "transmedia-cultura-pop",
+          "name": "Transmedia - Cultura POP",
+          "rss_url": "https://www.transmedia.cl/blog/category/cultura-pop/feed/",
+          "url": "https://www.transmedia.cl/blog/category/cultura-pop/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.421Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-dispositivo",
+          "name": "Transmedia - Dispositivo",
+          "rss_url": "https://www.transmedia.cl/blog/category/dispositivo/feed/",
+          "url": "https://www.transmedia.cl/blog/category/dispositivo/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.421Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-exclusivas",
+          "name": "Transmedia - Exclusivas",
+          "rss_url": "https://www.transmedia.cl/blog/category/exclusivas/feed/",
+          "url": "https://www.transmedia.cl/blog/category/exclusivas/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.421Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-filtrados",
+          "name": "Transmedia - Filtrados",
+          "rss_url": "https://www.transmedia.cl/blog/category/filtrados/feed/",
+          "url": "https://www.transmedia.cl/blog/category/filtrados/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.421Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-internet",
+          "name": "Transmedia - Internet",
+          "rss_url": "https://www.transmedia.cl/blog/category/internet/feed/",
+          "url": "https://www.transmedia.cl/blog/category/internet/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.421Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-noticias",
+          "name": "Transmedia - Noticias",
+          "rss_url": "https://www.transmedia.cl/blog/category/noticias/feed/",
+          "url": "https://www.transmedia.cl/blog/category/noticias/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.422Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-novedades",
+          "name": "Transmedia - Novedades",
+          "rss_url": "https://www.transmedia.cl/blog/category/novedades/feed/",
+          "url": "https://www.transmedia.cl/blog/category/novedades/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.422Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-opinion",
+          "name": "Transmedia - Opinión",
+          "rss_url": "https://www.transmedia.cl/blog/category/opinion/feed/",
+          "url": "https://www.transmedia.cl/blog/category/opinion/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.422Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-redes-sociales",
+          "name": "Transmedia - Redes Sociales",
+          "rss_url": "https://www.transmedia.cl/blog/category/redes-sociales/feed/",
+          "url": "https://www.transmedia.cl/blog/category/redes-sociales/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.422Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-review",
+          "name": "Transmedia - Review",
+          "rss_url": "https://www.transmedia.cl/blog/category/review/feed/",
+          "url": "https://www.transmedia.cl/blog/category/review/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.422Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:05:02.000Z"
+        },
+        {
+          "id": "transmedia-reviews",
+          "name": "Transmedia - Reviews",
+          "rss_url": "https://www.transmedia.cl/blog/category/reviews/feed/",
+          "url": "https://www.transmedia.cl/blog/category/reviews/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.422Z",
+          "status": "stale",
+          "verified": false,
+          "last_known_item_date": "2026-03-31T22:15:05.000Z"
+        },
+        {
+          "id": "transmedia-rumores",
+          "name": "Transmedia - Rumores",
+          "rss_url": "https://www.transmedia.cl/blog/category/rumores/feed/",
+          "url": "https://www.transmedia.cl/blog/category/rumores/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.422Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-tecnologia",
+          "name": "Transmedia - Tecnología",
+          "rss_url": "https://www.transmedia.cl/blog/category/tecnologia/feed/",
+          "url": "https://www.transmedia.cl/blog/category/tecnologia/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.422Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:25:38.000Z"
+        },
+        {
+          "id": "transmedia-tendencias",
+          "name": "Transmedia - Tendencias",
+          "rss_url": "https://www.transmedia.cl/blog/category/tendencias/feed/",
+          "url": "https://www.transmedia.cl/blog/category/tendencias/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.423Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-11T23:20:27.000Z"
+        },
+        {
+          "id": "transmedia-uncategorized",
+          "name": "Transmedia - Uncategorized",
+          "rss_url": "https://www.transmedia.cl/blog/category/uncategorized/feed/",
+          "url": "https://www.transmedia.cl/blog/category/uncategorized/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:16.423Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-08T18:21:25.000Z"
         }
       ]
     },
@@ -385,6 +680,292 @@
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-11T10:10:00.000Z"
+        },
+        {
+          "id": "trendtic-revistas",
+          "name": "trendTIC - Revistas",
+          "rss_url": "https://www.trendtic.cl/revistas/feed/",
+          "url": "https://www.trendtic.cl/revistas/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-inteligencia-artificial",
+          "name": "trendTIC - Inteligencia Artificial",
+          "rss_url": "https://www.trendtic.cl/category/transformaciondigital/ai/feed/",
+          "url": "https://www.trendtic.cl/category/transformaciondigital/ai/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-ciberseguridad",
+          "name": "trendTIC - Ciberseguridad",
+          "rss_url": "https://www.trendtic.cl/category/ciberseguridad/feed/",
+          "url": "https://www.trendtic.cl/category/ciberseguridad/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-transformacion-digital",
+          "name": "trendTIC - Transformación Digital",
+          "rss_url": "https://www.trendtic.cl/category/transformaciondigital/feed/",
+          "url": "https://www.trendtic.cl/category/transformaciondigital/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "active",
+          "verified": false,
+          "last_known_item_date": null
+        },
+        {
+          "id": "trendtic-cloud",
+          "name": "trendTIC - Cloud",
+          "rss_url": "https://www.trendtic.cl/category/cloud/feed/",
+          "url": "https://www.trendtic.cl/category/cloud/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-live",
+          "name": "trendTIC - trendTIC LIVE",
+          "rss_url": "https://www.trendtic.cl/trendtic-live/feed/",
+          "url": "https://www.trendtic.cl/trendtic-live/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-big-data",
+          "name": "trendTIC - Big Data",
+          "rss_url": "https://www.trendtic.cl/category/transformaciondigital/bigdata/feed/",
+          "url": "https://www.trendtic.cl/category/transformaciondigital/bigdata/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-iot",
+          "name": "trendTIC - IoT",
+          "rss_url": "https://www.trendtic.cl/category/transformaciondigital/iot/feed/",
+          "url": "https://www.trendtic.cl/category/transformaciondigital/iot/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-datacenter",
+          "name": "trendTIC - Datacenter",
+          "rss_url": "https://www.trendtic.cl/category/datacenter/feed/",
+          "url": "https://www.trendtic.cl/category/datacenter/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-telecomunicaciones",
+          "name": "trendTIC - Telecomunicaciones",
+          "rss_url": "https://www.trendtic.cl/category/telecomunicaciones/feed/",
+          "url": "https://www.trendtic.cl/category/telecomunicaciones/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-movil",
+          "name": "trendTIC - Móvil",
+          "rss_url": "https://www.trendtic.cl/category/movil/feed/",
+          "url": "https://www.trendtic.cl/category/movil/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-redes-sociales",
+          "name": "trendTIC - Redes Sociales",
+          "rss_url": "https://www.trendtic.cl/category/redessociales/feed/",
+          "url": "https://www.trendtic.cl/category/redessociales/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-industrias-mercados",
+          "name": "trendTIC - Industrias & Mercados",
+          "rss_url": "https://www.trendtic.cl/category/industriasymercados/feed/",
+          "url": "https://www.trendtic.cl/category/industriasymercados/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-e-salud",
+          "name": "trendTIC - e-SALUD",
+          "rss_url": "https://www.trendtic.cl/category/e-salud/feed/",
+          "url": "https://www.trendtic.cl/category/e-salud/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-e-commerce",
+          "name": "trendTIC - E-Commerce",
+          "rss_url": "https://www.trendtic.cl/category/industriasymercados/e-commerce/feed/",
+          "url": "https://www.trendtic.cl/category/industriasymercados/e-commerce/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-fintech",
+          "name": "trendTIC - FinTECH",
+          "rss_url": "https://www.trendtic.cl/category/industriasymercados/fintech/feed/",
+          "url": "https://www.trendtic.cl/category/industriasymercados/fintech/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-innovacion",
+          "name": "trendTIC - Innovación",
+          "rss_url": "https://www.trendtic.cl/category/innovacion/feed/",
+          "url": "https://www.trendtic.cl/category/innovacion/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-startup",
+          "name": "trendTIC - Start-Up",
+          "rss_url": "https://www.trendtic.cl/category/innovacion/startup/feed/",
+          "url": "https://www.trendtic.cl/category/innovacion/startup/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-i-d",
+          "name": "trendTIC - I+D",
+          "rss_url": "https://www.trendtic.cl/category/innovacion/id/feed/",
+          "url": "https://www.trendtic.cl/category/innovacion/id/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-app",
+          "name": "trendTIC - App",
+          "rss_url": "https://www.trendtic.cl/category/innovacion/app/feed/",
+          "url": "https://www.trendtic.cl/category/innovacion/app/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-mercados",
+          "name": "trendTIC - Mercados",
+          "rss_url": "https://www.trendtic.cl/category/industriasymercados/mercados/feed/",
+          "url": "https://www.trendtic.cl/category/industriasymercados/mercados/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-gadget",
+          "name": "trendTIC - Gadget",
+          "rss_url": "https://www.trendtic.cl/category/gadget/feed/",
+          "url": "https://www.trendtic.cl/category/gadget/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-gamers",
+          "name": "trendTIC - Gamers",
+          "rss_url": "https://www.trendtic.cl/category/gamers/feed/",
+          "url": "https://www.trendtic.cl/category/gamers/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-colombia",
+          "name": "trendTIC - Colombia",
+          "rss_url": "https://www.trendtic.cl/colombia/feed/",
+          "url": "https://www.trendtic.cl/colombia/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-mexico",
+          "name": "trendTIC - México",
+          "rss_url": "https://www.trendtic.cl/mexico/feed/",
+          "url": "https://www.trendtic.cl/mexico/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
+        },
+        {
+          "id": "trendtic-peru",
+          "name": "trendTIC - Perú",
+          "rss_url": "https://www.trendtic.cl/peru/feed/",
+          "url": "https://www.trendtic.cl/peru/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:10:55.561Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-11T21:00:00.000Z"
         }
       ]
     },
@@ -400,10 +981,43 @@
           "name": "MADBOXPC",
           "rss_url": "https://www.madboxpc.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:40:56.531Z",
+          "last_checked": "2026-06-12T22:35:12.176Z",
           "status": "active",
           "verified": true,
-          "last_known_item_date": "2026-06-11T23:17:22.000Z"
+          "last_known_item_date": "2026-06-12T20:20:31.000Z"
+        },
+        {
+          "id": "madboxpc-reviews",
+          "name": "MADBOXPC - Reviews",
+          "rss_url": "https://www.madboxpc.com/category/reviews/feed/",
+          "url": "https://www.madboxpc.com/category/reviews/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:35:12.177Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T00:13:09.000Z"
+        },
+        {
+          "id": "madboxpc-noticias",
+          "name": "MADBOXPC - Noticias",
+          "rss_url": "https://www.madboxpc.com/category/noticias/feed/",
+          "url": "https://www.madboxpc.com/category/noticias/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:35:12.177Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T20:20:31.000Z"
+        },
+        {
+          "id": "madboxpc-articulos",
+          "name": "MADBOXPC - Articulos",
+          "rss_url": "https://www.madboxpc.com/category/articulos/feed/",
+          "url": "https://www.madboxpc.com/category/articulos/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:35:12.177Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T22:18:26.000Z"
         }
       ]
     },
@@ -412,14 +1026,36 @@
       "name": "TiChile",
       "url": "https://www.tichile.cl",
       "category": "technology",
-      "description": "Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile",
+      "description": "Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile",
       "feeds": [
         {
           "id": "tichile-main",
           "name": "tichile",
           "rss_url": "https://www.tichile.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:40:58.538Z",
+          "last_checked": "2026-06-12T22:38:47.943Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-09T09:00:28.000Z"
+        },
+        {
+          "id": "tichile-ofertas",
+          "name": "tichile - Ofertas",
+          "rss_url": "https://www.tichile.cl/ofertas/feed",
+          "url": "https://www.tichile.cl/ofertas/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:38:47.943Z",
+          "status": "no_feed",
+          "verified": false,
+          "last_known_item_date": "2026-06-09T09:00:28.000Z"
+        },
+        {
+          "id": "tichile-blog",
+          "name": "tichile - Blog",
+          "rss_url": "https://www.tichile.cl/blog/feed",
+          "url": "https://www.tichile.cl/blog/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:38:47.943Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-09T09:00:28.000Z"
@@ -427,21 +1063,197 @@
       ]
     },
     {
-      "id": "alerta-geek",
+      "id": "alerta-geek-chile",
       "name": "Alerta Geek Chile",
       "url": "https://alertageekchile.cl",
       "category": "technology",
       "description": "Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena",
       "feeds": [
         {
-          "id": "alerta-geek-main",
-          "name": "Alerta Geek",
+          "id": "alerta-geek-chile-portada",
+          "name": "Alerta Geek - Portada",
           "rss_url": "https://alertageekchile.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:00.301Z",
+          "last_checked": "2026-06-12T23:05:52.355Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T18:57:00.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-noticias",
+          "name": "Alerta Geek - Noticias",
+          "rss_url": "https://www.alertageekchile.cl/category/contenido/noticias/feed/",
+          "url": "https://www.alertageekchile.cl/category/contenido/noticias/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.355Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T18:57:00.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-destacado",
+          "name": "Alerta Geek - Destacado",
+          "rss_url": "https://www.alertageekchile.cl/category/destacado/feed/",
+          "url": "https://www.alertageekchile.cl/category/destacado/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.355Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T17:54:29.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-reviews",
+          "name": "Alerta Geek - Reviews",
+          "rss_url": "https://www.alertageekchile.cl/category/contenido/reviews/feed/",
+          "url": "https://www.alertageekchile.cl/category/contenido/reviews/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.355Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T17:54:29.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-entrevistas",
+          "name": "Alerta Geek - Entrevistas",
+          "rss_url": "https://www.alertageekchile.cl/category/contenido/entrevistas/feed/",
+          "url": "https://www.alertageekchile.cl/category/contenido/entrevistas/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.355Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-04T20:03:59.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-reportajes",
+          "name": "Alerta Geek - Reportajes",
+          "rss_url": "https://www.alertageekchile.cl/category/contenido/reportajes/feed/",
+          "url": "https://www.alertageekchile.cl/category/contenido/reportajes/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.356Z",
+          "status": "stale",
+          "verified": false,
+          "last_known_item_date": "2026-03-30T13:19:49.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-mundo-geek",
+          "name": "Alerta Geek - Mundo Geek",
+          "rss_url": "https://www.alertageekchile.cl/category/tematicas/feed/",
+          "url": "https://www.alertageekchile.cl/category/tematicas/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.356Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T15:00:45.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-anime-y-manga",
+          "name": "Alerta Geek - Anime y Manga",
+          "rss_url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/anime-y-manga/feed/",
+          "url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/anime-y-manga/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.356Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-08T20:26:01.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-cine",
+          "name": "Alerta Geek - Cine",
+          "rss_url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/cine/feed/",
+          "url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/cine/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.356Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T17:49:13.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-comics",
+          "name": "Alerta Geek - Cómics",
+          "rss_url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/comics/feed/",
+          "url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/comics/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.356Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-04T16:05:42.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-cosplay",
+          "name": "Alerta Geek - Cosplay",
+          "rss_url": "https://www.alertageekchile.cl/category/tematicas/cosplay/feed/",
+          "url": "https://www.alertageekchile.cl/category/tematicas/cosplay/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.356Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T15:00:45.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-streaming",
+          "name": "Alerta Geek - Streaming",
+          "rss_url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/streaming/feed/",
+          "url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/streaming/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.356Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T17:49:13.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-tcg",
+          "name": "Alerta Geek - TCG",
+          "rss_url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/tcg/feed/",
+          "url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/tcg/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.356Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-08T22:00:00.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-tecnologia",
+          "name": "Alerta Geek - Tecnología",
+          "rss_url": "https://www.alertageekchile.cl/category/tematicas/tecnologia/feed/",
+          "url": "https://www.alertageekchile.cl/category/tematicas/tecnologia/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.356Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-11T20:45:52.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-videojuegos",
+          "name": "Alerta Geek - VideoJuegos",
+          "rss_url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/videojuegos/feed/",
+          "url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/videojuegos/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.357Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-12T17:54:29.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-esports",
+          "name": "Alerta Geek - Esports",
+          "rss_url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/videojuegos/esports/feed/",
+          "url": "https://www.alertageekchile.cl/category/tematicas/entretenimiento/videojuegos/esports/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.357Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-08T21:00:00.000Z"
+        },
+        {
+          "id": "alerta-geek-chile-calendario",
+          "name": "Alerta Geek - Calendario de Estrenos y Eventos",
+          "rss_url": "https://www.alertageekchile.cl/eventos/feed/",
+          "url": "https://www.alertageekchile.cl/eventos/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:05:52.357Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-10-01T03:00:00.000Z"
         }
       ]
     },
@@ -450,14 +1262,36 @@
       "name": "Nexoplay",
       "url": "https://www.nexoplay.com",
       "category": "technology",
-      "description": "Gaming competitivo y esports en Chile",
+      "description": "Empresa - Productora de contenidos audiovisual, agencia digital y plataforma medial 360",
       "feeds": [
         {
           "id": "nexoplay-main",
           "name": "NexoPlay",
           "rss_url": "https://www.nexoplay.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:03.296Z",
+          "last_checked": "2026-06-12T22:47:37.276Z",
+          "status": "stale",
+          "verified": false,
+          "last_known_item_date": "2025-05-26T20:48:07.000Z"
+        },
+        {
+          "id": "nexoplay-portafolio",
+          "name": "Nexoplay - Portafolio",
+          "rss_url": "https://nexoplay.com/portafolio/feed/",
+          "url": "https://nexoplay.com/portafolio/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:47:37.276Z",
+          "status": "stale",
+          "verified": false,
+          "last_known_item_date": "2025-04-17T17:26:21.000Z"
+        },
+        {
+          "id": "nexoplay-noticias",
+          "name": "Nexoplay - Noticias",
+          "rss_url": "https://nexoplay.com/categorias/noticias/feed/",
+          "url": "https://nexoplay.com/categorias/noticias/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T22:47:37.276Z",
           "status": "stale",
           "verified": false,
           "last_known_item_date": "2025-05-26T20:48:07.000Z"
@@ -476,10 +1310,32 @@
           "name": "Derechos Digitales",
           "rss_url": "https://www.derechosdigitales.org/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:04.042Z",
+          "last_checked": "2026-06-12T23:00:48.483Z",
+          "status": "stale",
+          "verified": false,
+          "last_known_item_date": "2025-07-17T16:46:51.000Z"
+        },
+        {
+          "id": "derechos-digitales-noticias",
+          "name": "Derechos Digitales - Noticias",
+          "rss_url": "https://www.derechosdigitales.org/noticias/feed/",
+          "url": "https://www.derechosdigitales.org/noticias/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:00:48.483Z",
           "status": "active",
           "verified": true,
-          "last_known_item_date": "2025-07-17T16:46:51.000Z"
+          "last_known_item_date": "2026-06-12T19:33:15.000Z"
+        },
+        {
+          "id": "derechos-digitales-recursos",
+          "name": "Derechos Digitales - Recursos",
+          "rss_url": "https://www.derechosdigitales.org/recursos/feed/",
+          "url": "https://www.derechosdigitales.org/recursos/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-12T23:00:48.483Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-05T14:50:01.000Z"
         }
       ]
     },
@@ -552,10 +1408,10 @@
           "name": "Alianza Chilena de Ciberseguridad",
           "rss_url": "https://alianzaciberseguridad.cl/category/blog/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:05.573Z",
+          "last_checked": "2026-06-12T23:02:28.725Z",
           "status": "active",
           "verified": true,
-          "last_known_item_date": "2026-05-04T19:22:43.000Z"
+          "last_known_item_date": "2026-06-12T17:02:20.000Z"
         }
       ]
     },
@@ -610,9 +1466,9 @@
           "name": "Buda.com",
           "rss_url": "https://www.buda.com/blog/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:06.174Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:02:49.491Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-04-29T12:53:36.000Z"
         }
       ]
@@ -629,9 +1485,9 @@
           "name": "Netsus",
           "rss_url": "https://netsus.com/blog/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:07.346Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:03:00.840Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-05-11T21:54:54.000Z"
         }
       ]
@@ -812,7 +1668,7 @@
           "name": "ANID",
           "rss_url": "https://www.anid.cl/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:15.995Z",
+          "last_checked": "2026-06-12T23:06:23.819Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-05-27T17:18:41.000Z"
@@ -1054,9 +1910,9 @@
           "name": "Santiago Times",
           "rss_url": "https://santiagotimes.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:37.572Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:01:59.571Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2025-06-12T02:41:04.000Z"
         }
       ]
@@ -1112,19 +1968,19 @@
           "name": "El Desconcierto - Últimas Noticias",
           "rss_url": "https://eldesconcierto.cl/rss/pages/ultimas-noticias.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:42.320Z",
+          "last_checked": "2026-06-12T23:05:27.019Z",
           "status": "active",
           "verified": true,
-          "last_known_item_date": "2026-06-12T00:30:00.000Z"
+          "last_known_item_date": "2026-06-13T00:00:00.000Z"
         },
         {
           "id": "el-desconcierto-medio-ambiente",
           "name": "El Desconcierto - Medio Ambiente",
           "rss_url": "https://eldesconcierto.cl/rss/pages/medio_ambiente.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:42.320Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:05:27.019Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-02-23T03:00:00.000Z"
         },
         {
@@ -1132,9 +1988,9 @@
           "name": "El Desconcierto - Actualidad",
           "rss_url": "https://eldesconcierto.cl/rss/pages/actualidad.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:42.320Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:05:27.019Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-03-25T13:50:00.000Z"
         },
         {
@@ -1142,9 +1998,9 @@
           "name": "El Desconcierto - Tendencias",
           "rss_url": "https://eldesconcierto.cl/rss/pages/tendencias.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:42.320Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:05:27.019Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-03-30T11:58:41.000Z"
         },
         {
@@ -1152,9 +2008,9 @@
           "name": "El Desconcierto - Hoja de Ruta",
           "rss_url": "https://eldesconcierto.cl/rss/pages/hoja-de-ruta.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:42.320Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:05:27.019Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-02-26T14:47:00.000Z"
         },
         {
@@ -1162,9 +2018,9 @@
           "name": "El Desconcierto - Reportajes",
           "rss_url": "https://eldesconcierto.cl/rss/pages/reportajes.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:42.320Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:05:27.020Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-03-25T13:00:00.000Z"
         },
         {
@@ -1172,9 +2028,9 @@
           "name": "El Desconcierto - Entrevistas",
           "rss_url": "https://eldesconcierto.cl/rss/pages/entrevistas.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:42.320Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:05:27.020Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-02-26T14:47:00.000Z"
         },
         {
@@ -1182,9 +2038,9 @@
           "name": "El Desconcierto - Opinión",
           "rss_url": "https://eldesconcierto.cl/rss/pages/opinion.xml",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:41:42.321Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:05:27.020Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-02-23T03:00:00.000Z"
         },
         {
@@ -1193,9 +2049,9 @@
           "rss_url": "https://eldesconcierto.cl/rss/pages/mundo.xml",
           "feed_type": "RSS",
           "category": "news-international",
-          "last_checked": "2026-06-11T23:41:42.321Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:05:27.020Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-02-23T03:00:00.000Z"
         }
       ]
@@ -1461,9 +2317,9 @@
           "name": "Diario Aysén",
           "rss_url": "https://www.diarioaysen.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:42:05.577Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:03:23.647Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-04-13T00:57:28.000Z"
         }
       ]
@@ -2077,9 +2933,9 @@
           "name": "Angelino",
           "rss_url": "https://www.angelino.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-11T23:43:14.075Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:05:02.278Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-04-11T14:53:40.000Z"
         }
       ]
@@ -3196,9 +4052,9 @@
           "name": "Prensa Curicó",
           "rss_url": "https://www.prensacurico.cl/?feed=rss2",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:10:00.472Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:04:48.595Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-04-28T21:27:53.000Z"
         }
       ]
@@ -3365,9 +4221,9 @@
           "name": "San Carlos Al Día",
           "rss_url": "https://www.sancarlosaldia.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:10:24.050Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:04:34.153Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-04-22T15:17:17.000Z"
         }
       ]
@@ -4374,6 +5230,7 @@
           "id": "reddit-chile",
           "name": "r/Chile",
           "rss_url": "https://www.reddit.com/r/chile/.rss",
+          "url": "https://www.reddit.com/r/chile/",
           "feed_type": "Atom",
           "last_checked": "2026-06-12T00:11:18.882Z",
           "status": "active",
@@ -4384,6 +5241,7 @@
           "id": "reddit-republica-de-chile",
           "name": "r/RepublicaDeChile",
           "rss_url": "https://www.reddit.com/r/republicadechile/.rss",
+          "url": "https://www.reddit.com/r/republicadechile/",
           "feed_type": "Atom",
           "last_checked": "2026-06-12T00:12:25.277Z",
           "status": "active",
@@ -4394,6 +5252,7 @@
           "id": "reddit-chileit",
           "name": "r/chileit",
           "rss_url": "https://www.reddit.com/r/chileit/.rss",
+          "url": "https://www.reddit.com/r/chileit/",
           "feed_type": "Atom",
           "last_checked": "2026-06-12T00:12:30.733Z",
           "status": "active",
@@ -4404,7 +5263,21 @@
           "id": "reddit-santiago",
           "name": "r/Santiago",
           "rss_url": "https://www.reddit.com/r/Santiago/.rss",
+          "url": "https://www.reddit.com/r/Santiago/",
           "feed_type": "Atom",
+          "last_checked": "2026-06-12T00:12:36.165Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-10T00:49:17.000Z"
+        },
+        {
+          "id": "reddit-casos-aislados-2",
+          "name": "r/CasosAislados2",
+          "rss_url": "https://www.reddit.com/r/CasosAislados2/.rss",
+          "url": "https://www.reddit.com/r/CasosAislados2/",
+          "feed_type": "Atom",
+          "category": "news",
+          "description": "Sub dedicado a la recopilación de noticias, en las que los involucrados en hechos delictivos o de dudosa calidad moral pertenezcan a Carabineros de Chile/PDI/Fuerzas Armadas.",
           "last_checked": "2026-06-12T00:12:36.165Z",
           "status": "active",
           "verified": true,
@@ -4558,30 +5431,30 @@
           "name": "Terra - Últimas Noticias",
           "rss_url": "https://www.terra.cl/rss/feed.html",
           "feed_type": "Atom",
-          "last_checked": "2026-06-12T00:12:42.824Z",
+          "last_checked": "2026-06-12T23:04:18.118Z",
           "status": "active",
           "verified": true,
-          "last_known_item_date": "2026-06-11T20:00:01.000Z"
+          "last_known_item_date": "2026-06-12T19:00:01.000Z"
         },
         {
           "id": "terra-cl-ultimas-noticias-con-imagenes",
           "name": "Terra - Últimas Noticias con imágenes",
           "rss_url": "https://www.terra.cl/rss/un_foto.html",
           "feed_type": "Atom",
-          "last_checked": "2026-06-12T00:12:42.824Z",
+          "last_checked": "2026-06-12T23:04:18.118Z",
           "status": "active",
           "verified": true,
-          "last_known_item_date": "2026-06-11T23:00:01.000Z"
+          "last_known_item_date": "2026-06-12T22:00:01.000Z"
         },
         {
           "id": "terra-cl-nacionales",
           "name": "Terra - Nacionales",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=1",
           "feed_type": "Atom",
-          "last_checked": "2026-06-12T00:12:42.824Z",
+          "last_checked": "2026-06-12T23:04:18.118Z",
           "status": "active",
           "verified": true,
-          "last_known_item_date": "2026-06-11T16:33:01.000Z"
+          "last_known_item_date": "2026-06-12T16:44:01.000Z"
         },
         {
           "id": "terra-cl-mundo",
@@ -4589,10 +5462,10 @@
           "rss_url": "https://www.terra.cl/rss/feed.html?r=2",
           "feed_type": "Atom",
           "category": "news-international",
-          "last_checked": "2026-06-12T00:12:42.824Z",
+          "last_checked": "2026-06-12T23:04:18.118Z",
           "status": "active",
           "verified": true,
-          "last_known_item_date": "2026-06-10T06:46:01.000Z"
+          "last_known_item_date": "2026-06-12T06:45:01.000Z"
         },
         {
           "id": "terra-cl-deportes",
@@ -4600,9 +5473,9 @@
           "rss_url": "https://www.terra.cl/rss/feed.html?r=3",
           "feed_type": "Atom",
           "category": "sports",
-          "last_checked": "2026-06-12T00:12:42.824Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:04:18.118Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-03-20T15:00:01.000Z"
         },
         {
@@ -4610,19 +5483,19 @@
           "name": "Terra - Estilo de vida",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=4",
           "feed_type": "Atom",
-          "last_checked": "2026-06-12T00:12:42.824Z",
+          "last_checked": "2026-06-12T23:04:18.118Z",
           "status": "active",
           "verified": true,
-          "last_known_item_date": "2026-06-11T20:00:01.000Z"
+          "last_known_item_date": "2026-06-12T18:00:01.000Z"
         },
         {
           "id": "terra-cl-entretenimiento",
           "name": "Terra - Entretenimiento",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=5",
           "feed_type": "Atom",
-          "last_checked": "2026-06-12T00:12:42.825Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:04:18.119Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-04-10T13:21:01.000Z"
         },
         {
@@ -4630,10 +5503,10 @@
           "name": "Terra - Tendencias",
           "rss_url": "https://www.terra.cl/rss/feed.html?r=6",
           "feed_type": "Atom",
-          "last_checked": "2026-06-12T00:12:42.825Z",
+          "last_checked": "2026-06-12T23:04:18.119Z",
           "status": "active",
           "verified": true,
-          "last_known_item_date": "2026-06-02T20:30:01.000Z"
+          "last_known_item_date": "2026-06-12T17:40:01.000Z"
         },
         {
           "id": "terra-cl-economia",
@@ -4641,7 +5514,7 @@
           "rss_url": "https://www.terra.cl/rss/feed.html?r=7",
           "feed_type": "Atom",
           "category": "business",
-          "last_checked": "2026-06-12T00:12:42.825Z",
+          "last_checked": "2026-06-12T23:04:18.119Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-03T21:15:01.000Z"
@@ -4822,7 +5695,7 @@
           "name": "Diario El Marino - Nacional",
           "rss_url": "https://www.diarioelmarino.cl/nacional/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.451Z",
+          "last_checked": "2026-06-12T23:04:07.310Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-01T17:21:53.000Z"
@@ -4832,7 +5705,7 @@
           "name": "Diario El Marino - Colchagua",
           "rss_url": "https://www.diarioelmarino.cl/colchagua/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.451Z",
+          "last_checked": "2026-06-12T23:04:07.310Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-06T12:41:11.000Z"
@@ -4842,7 +5715,7 @@
           "name": "Diario El Marino - Cardenal Caro",
           "rss_url": "https://www.diarioelmarino.cl/cardenal-caro/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.451Z",
+          "last_checked": "2026-06-12T23:04:07.310Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-08T03:03:23.000Z"
@@ -4852,7 +5725,7 @@
           "name": "Diario El Marino - Valparaíso",
           "rss_url": "https://www.diarioelmarino.cl/valparaiso/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.451Z",
+          "last_checked": "2026-06-12T23:04:07.310Z",
           "status": "stale",
           "verified": false,
           "last_known_item_date": "2025-05-13T05:11:33.000Z"
@@ -4862,7 +5735,7 @@
           "name": "Diario El Marino - Opinión",
           "rss_url": "https://www.diarioelmarino.cl/opinion/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.452Z",
+          "last_checked": "2026-06-12T23:04:07.310Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-02T03:24:24.000Z"
@@ -4872,7 +5745,7 @@
           "name": "Diario El Marino - Sociedad",
           "rss_url": "https://www.diarioelmarino.cl/sociedad/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.452Z",
+          "last_checked": "2026-06-12T23:04:07.310Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-04T21:59:21.000Z"
@@ -4882,7 +5755,7 @@
           "name": "Diario El Marino - Cultura y Entretenimiento",
           "rss_url": "https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.452Z",
+          "last_checked": "2026-06-12T23:04:07.310Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-05-30T02:49:17.000Z"
@@ -4892,9 +5765,9 @@
           "name": "Diario El Marino - Deporte",
           "rss_url": "https://www.diarioelmarino.cl/deporte/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.452Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:04:07.311Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-04-24T15:45:15.000Z"
         },
         {
@@ -4902,7 +5775,7 @@
           "name": "Diario El Marino - Política",
           "rss_url": "https://www.diarioelmarino.cl/politica/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.452Z",
+          "last_checked": "2026-06-12T23:04:07.311Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-06T12:37:04.000Z"
@@ -4912,9 +5785,9 @@
           "name": "Diario El Marino - Editorial",
           "rss_url": "https://www.diarioelmarino.cl/editorial/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.452Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:04:07.311Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-04-30T19:11:39.000Z"
         },
         {
@@ -4922,7 +5795,7 @@
           "name": "Diario El Marino - Cartas al Director",
           "rss_url": "https://www.diarioelmarino.cl/cartas-al-director/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.452Z",
+          "last_checked": "2026-06-12T23:04:07.311Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-05-16T03:21:23.000Z"
@@ -4932,7 +5805,7 @@
           "name": "Diario El Marino - Legales",
           "rss_url": "https://www.diarioelmarino.cl/legales/feed/rss/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:12:45.453Z",
+          "last_checked": "2026-06-12T23:04:07.311Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-05T03:30:10.000Z"
@@ -5150,7 +6023,7 @@
           "name": "El Minuto",
           "rss_url": "https://elminuto.cl/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:13:01.501Z",
+          "last_checked": "2026-06-12T23:01:36.034Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-10T00:05:59.000Z"
@@ -5160,7 +6033,7 @@
           "name": "El Minuto - Chile",
           "rss_url": "https://elminuto.cl/noticias/category/chile/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:13:01.501Z",
+          "last_checked": "2026-06-12T23:01:36.034Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-10T00:05:59.000Z"
@@ -5171,7 +6044,7 @@
           "rss_url": "https://elminuto.cl/noticias/category/mundo/rss",
           "feed_type": "RSS",
           "category": "news-international",
-          "last_checked": "2026-06-12T00:13:01.501Z",
+          "last_checked": "2026-06-12T23:01:36.034Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-05-27T23:12:19.000Z"
@@ -5182,9 +6055,9 @@
           "rss_url": "https://elminuto.cl/noticias/category/economia/rss",
           "feed_type": "RSS",
           "category": "business",
-          "last_checked": "2026-06-12T00:13:01.502Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:01:36.035Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-01-20T03:41:06.000Z"
         },
         {
@@ -5192,7 +6065,7 @@
           "name": "El Minuto - Coliseo Político",
           "rss_url": "https://elminuto.cl/noticias/category/coliseo-politico/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:13:01.502Z",
+          "last_checked": "2026-06-12T23:01:36.035Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-05-27T22:59:47.000Z"
@@ -5202,7 +6075,7 @@
           "name": "El Minuto - Entrevistas",
           "rss_url": "https://elminuto.cl/noticias/category/entrevistas/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:13:01.502Z",
+          "last_checked": "2026-06-12T23:01:36.035Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-05-18T18:02:22.000Z"
@@ -5212,7 +6085,7 @@
           "name": "El Minuto - Reportajes",
           "rss_url": "https://elminuto.cl/noticias/category/reportajes/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:13:01.502Z",
+          "last_checked": "2026-06-12T23:01:36.035Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-10T00:05:59.000Z"
@@ -5222,9 +6095,9 @@
           "name": "El Minuto - Análisis y Seguridad",
           "rss_url": "https://elminuto.cl/noticias/category/analisis-y-seguridad/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:13:01.502Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:01:36.035Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2025-06-22T10:22:11.000Z"
         },
         {
@@ -5233,9 +6106,9 @@
           "rss_url": "https://elminuto.cl/noticias/category/deporte/rss",
           "feed_type": "RSS",
           "category": "sports",
-          "last_checked": "2026-06-12T00:13:01.502Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:01:36.035Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2025-11-06T19:35:32.000Z"
         },
         {
@@ -5243,7 +6116,7 @@
           "name": "El Minuto - Opinión",
           "rss_url": "https://elminuto.cl/noticias/category/opinion/rss",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:13:01.502Z",
+          "last_checked": "2026-06-12T23:01:36.035Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-01T16:58:39.000Z"
@@ -5667,9 +6540,9 @@
           "name": "Radio Siente",
           "rss_url": "https://www.radiosiente.com/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T00:25:52.044Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:03:54.996Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-04-17T13:41:42.000Z"
         }
       ]
@@ -6468,9 +7341,9 @@
           "name": "Mi San Felipe",
           "rss_url": "https://www.misanfelipe.cl/feed",
           "feed_type": "RSS",
-          "last_checked": "2026-06-12T03:53:37.268Z",
-          "status": "active",
-          "verified": true,
+          "last_checked": "2026-06-12T23:03:39.565Z",
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-04-16T12:35:25.000Z"
         }
       ]

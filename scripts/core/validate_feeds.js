@@ -41,7 +41,7 @@ import { rediscoverFeed } from '../../lib/feed-rediscovery.js';
 
 // ─── Configuración ────────────────────────────────────────────────────────────
 
-const STALE_THRESHOLD_DAYS = 365;
+const STALE_THRESHOLD_DAYS = 30;
 
 const BROKEN_ERRORS = [
   'HTML (no es feed)',

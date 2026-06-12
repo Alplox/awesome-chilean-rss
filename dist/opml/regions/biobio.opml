@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Biobío (6 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Biobío (5 feeds)</title>
     <description>Feeds RSS de la Región de Biobío, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <dateCreated>2026-06-12T23:06:23.820Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
-    <outline type="rss" text="Angelino" title="Angelino" description="Diario regional de Los Ángeles, Biobío" xmlUrl="https://www.angelino.cl/feed/" htmlUrl="https://www.angelino.cl"/>
     <outline type="rss" text="Diario Concepción" title="Diario Concepción" description="Diario regional con cobertura informativa de la Región del Biobío" xmlUrl="https://www.diarioconcepcion.cl/rss.xml" htmlUrl="https://www.diarioconcepcion.cl"/>
     <outline type="rss" text="La Tribuna" title="La Tribuna" description="Diario regional de Los Ángeles, Biobío" xmlUrl="https://www.latribuna.cl/rss.xml" htmlUrl="https://www.latribuna.cl"/>
     <outline type="rss" text="Nacimentano" title="Nacimentano" description="Medio de comunicación de la Región de Biobío." xmlUrl="https://nacimentano.cl/feed" htmlUrl="https://nacimentano.cl"/>

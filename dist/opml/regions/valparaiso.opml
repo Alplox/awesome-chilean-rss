@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Valparaíso (14 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Valparaíso (13 feeds)</title>
     <description>Feeds RSS de la Región de Valparaíso, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <dateCreated>2026-06-12T23:06:23.820Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -19,7 +19,6 @@
     <outline type="rss" text="El Trabajo" title="El Trabajo" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://www.eltrabajo.cl/?feed=rss2" htmlUrl="https://www.eltrabajo.cl"/>
     <outline type="rss" text="La Estrella de Valparaíso" title="La Estrella de Valparaíso" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://estrellavalpo.cl/?feed=rss2" htmlUrl="https://estrellavalpo.cl"/>
     <outline type="rss" text="Más Noticia" title="Más Noticia" description="Diario regional de Quillota, Valparaíso" xmlUrl="https://www.masnoticia.cl/feed/" htmlUrl="https://www.masnoticia.cl"/>
-    <outline type="rss" text="Mi San Felipe" title="Mi San Felipe" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://www.misanfelipe.cl/feed" htmlUrl="https://www.misanfelipe.cl"/>
     <outline type="rss" text="Montealegre" title="Montealegre" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://montealegre.cl/feed" htmlUrl="https://montealegre.cl"/>
   </body>
 </opml>

@@ -62,6 +62,7 @@ Sitio con un solo feed:
       "id": "nombre-del-medio-main",
       "name": "Nombre del Medio",
       "rss_url": "https://ejemplo.cl/feed/",
+      "url": "https://ejemplo.cl/seccion/",   // OPTIONAL: override site.url for htmlUrl
       "feed_type": "RSS",
       "last_checked": "2026-01-01T00:00:00.000Z",
       "status": "active",
@@ -85,6 +86,7 @@ Sitio con múltiples feeds por sección:
       "id": "nombre-del-medio-noticias",
       "name": "Noticias",
       "rss_url": "https://ejemplo.cl/rss/noticias.xml",
+      "url": "https://ejemplo.cl/noticias/",   // OPTIONAL: override site.url for htmlUrl
       "feed_type": "RSS",
       "last_checked": "2026-01-01T00:00:00.000Z",
       "status": "active",
@@ -94,6 +96,7 @@ Sitio con múltiples feeds por sección:
       "id": "nombre-del-medio-opinion",
       "name": "Opinión",
       "rss_url": "https://ejemplo.cl/rss/opinion.xml",
+      "url": "https://ejemplo.cl/opinion/",    // OPTIONAL: override site.url for htmlUrl
       "feed_type": "RSS",
       "last_checked": "2026-01-01T00:00:00.000Z",
       "status": "active",
@@ -117,6 +120,7 @@ Sitio con **categorías diferentes por feed**:
       "id": "sitio-con-secciones-ultimas-noticias",
       "name": "Últimas Noticias",
       "rss_url": "https://ejemplo.cl/rss/noticias.xml",
+      "url": "https://ejemplo.cl",              // OPTIONAL: override site.url for htmlUrl
       "feed_type": "RSS",
       "last_checked": "2026-01-01T00:00:00.000Z",
       "status": "active",
@@ -126,6 +130,7 @@ Sitio con **categorías diferentes por feed**:
       "id": "sitio-con-secciones-tecnologia",
       "name": "Tecnología",
       "rss_url": "https://ejemplo.cl/rss/tecnologia.xml",
+      "url": "https://ejemplo.cl/tecnologia/",  // OPTIONAL: override site.url for htmlUrl
       "feed_type": "RSS",
       "category": "technology",
       "last_checked": "2026-01-01T00:00:00.000Z",
@@ -136,6 +141,7 @@ Sitio con **categorías diferentes por feed**:
       "id": "sitio-con-secciones-deportes",
       "name": "Deportes",
       "rss_url": "https://ejemplo.cl/rss/deportes.xml",
+      "url": "https://ejemplo.cl/deportes/",   // OPTIONAL: override site.url for htmlUrl
       "feed_type": "RSS",
       "category": "sports",
       "last_checked": "2026-01-01T00:00:00.000Z",

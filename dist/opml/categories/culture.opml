@@ -3,13 +3,13 @@
   <head>
     <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (4 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <dateCreated>2026-06-12T23:06:23.820Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Cooperativa -  Cultura" title="Cooperativa -  Cultura" description="Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_5___1.xml" htmlUrl="https://www.cooperativa.cl"/>
     <outline type="rss" text="CR2" title="CR2" description="Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena" xmlUrl="https://www.cr2.cl/feed/" htmlUrl="https://www.cr2.cl"/>
-    <outline type="rss" text="La Tercera - Culto" title="La Tercera - Culto" description="Diario con cobertura nacional, internacional y económica" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Culto" title="La Tercera - Culto" description="Diario con cobertura nacional, internacional y económica" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml" htmlUrl="https://www.latercera.com/canal/culto/"/>
     <outline type="rss" text="Pediatría y Salud" title="Pediatría y Salud" description="Divulgación de salud infantil para familias chilenas" xmlUrl="https://pediatriaysalud.cl/feed" htmlUrl="https://pediatriaysalud.cl"/>
   </body>
 </opml>

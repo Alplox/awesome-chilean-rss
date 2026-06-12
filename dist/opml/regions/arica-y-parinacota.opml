@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Arica y Parinacota (10 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Arica y Parinacota (9 feeds)</title>
     <description>Feeds RSS de la Región de Arica y Parinacota, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <dateCreated>2026-06-12T23:06:23.820Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -16,6 +16,5 @@
     <outline type="rss" text="Frontera Norte" title="Frontera Norte" description="Diario regional de Arica y Parinacota" xmlUrl="https://www.fronteranorte.cl/feed/" htmlUrl="https://www.fronteranorte.cl"/>
     <outline type="rss" text="La Estrella de Arica" title="La Estrella de Arica" description="Medio de comunicación de la Región de Arica y Parinacota." xmlUrl="https://estrellaarica.cl/?feed=rss2" htmlUrl="https://estrellaarica.cl"/>
     <outline type="rss" text="Puertanorte" title="Puertanorte" description="Medio de comunicación de la Región de Arica y Parinacota." xmlUrl="https://radiopuertanorte.cl/feed" htmlUrl="https://radiopuertanorte.cl"/>
-    <outline type="rss" text="Radio Siente" title="Radio Siente" description="Radio de emisión digital de la Región de Arica y Parinacota." xmlUrl="https://www.radiosiente.com/feed" htmlUrl="https://www.radiosiente.com"/>
   </body>
 </opml>

@@ -2,35 +2,35 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Feeds](https://img.shields.io/badge/feeds-351-blue)
+![Feeds](https://img.shields.io/badge/feeds-369-blue)
 
-> El directorio más completo de feeds RSS chilenos. 351 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 369 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 202 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 194 feeds agrupados por región
 4. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 
-## 📝 Feeds disponibles (351)
+## 📝 Feeds disponibles (369)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 73 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 10 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 21 feeds
+- [📰 Noticias Nacionales](#cat-news) — 64 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 9 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 60 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 12 feeds
 - [🏫 Universidades e Investigación](#cat-universities) — 6 feeds
-- [🌎 Medios Regionales](#cat-regional) — 198 feeds
-- [💼 Negocios y Finanzas](#cat-business) — 7 feeds
+- [🌎 Medios Regionales](#cat-regional) — 190 feeds
+- [💼 Negocios y Finanzas](#cat-business) — 6 feeds
 - [🎨 Cultura y Divulgación](#cat-culture) — 4 feeds
-- [⚽ Deportes](#cat-sports) — 10 feeds
+- [⚽ Deportes](#cat-sports) — 8 feeds
 - [👥 Comunidad](#cat-community) — 10 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (73 feeds)
+### 📰 Noticias Nacionales (64 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -46,22 +46,14 @@
   - RSS: `https://www.elciudadano.com/feed/`
 - **El Clarín de Chile**: Portal de noticias nacionales e internacionales
   - RSS: `https://www.elclarin.cl/feed`
-- **El Desconcierto** — Portal de noticias con cobertura en política, derechos humanos, medioambiente y cultura
-  - El Desconcierto - Últimas Noticias: `https://eldesconcierto.cl/rss/pages/ultimas-noticias.xml`
-  - El Desconcierto - Medio Ambiente: `https://eldesconcierto.cl/rss/pages/medio_ambiente.xml`
-  - El Desconcierto - Actualidad: `https://eldesconcierto.cl/rss/pages/actualidad.xml`
-  - El Desconcierto - Tendencias: `https://eldesconcierto.cl/rss/pages/tendencias.xml`
-  - El Desconcierto - Hoja de Ruta: `https://eldesconcierto.cl/rss/pages/hoja-de-ruta.xml`
-  - El Desconcierto - Reportajes: `https://eldesconcierto.cl/rss/pages/reportajes.xml`
-  - El Desconcierto - Entrevistas: `https://eldesconcierto.cl/rss/pages/entrevistas.xml`
-  - El Desconcierto - Opinión: `https://eldesconcierto.cl/rss/pages/opinion.xml`
+- **El Desconcierto**: Portal de noticias con cobertura en política, derechos humanos, medioambiente y cultura
+  - RSS: `https://eldesconcierto.cl/rss/pages/ultimas-noticias.xml`
 - **El Minuto** — Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales
   - El Minuto: `https://elminuto.cl/feed/`
   - El Minuto - Chile: `https://elminuto.cl/noticias/category/chile/rss`
   - El Minuto - Coliseo Político: `https://elminuto.cl/noticias/category/coliseo-politico/rss`
   - El Minuto - Entrevistas: `https://elminuto.cl/noticias/category/entrevistas/rss`
   - El Minuto - Reportajes: `https://elminuto.cl/noticias/category/reportajes/rss`
-  - El Minuto - Análisis y Seguridad: `https://elminuto.cl/noticias/category/analisis-y-seguridad/rss`
   - El Minuto - Opinión: `https://elminuto.cl/noticias/category/opinion/rss`
 - **El Quinto Poder**: Plataforma de periodismo ciudadano y opinión
   - RSS: `https://www.elquintopoder.cl/feed/`
@@ -121,14 +113,13 @@
   - Cooperativa - Entretención: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_4___1.xml`
   - Cooperativa - País: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_3___1.xml`
   - Cooperativa - Sociedad: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_7___1.xml`
-- **Santiago Times**: Noticias de Chile en inglés
-  - RSS: `https://santiagotimes.cl/feed/`
+- **Reddit**: Sub dedicado a la recopilación de noticias, en las que los involucrados en hechos delictivos o de dudosa calidad moral pertenezcan a Carabineros de Chile/PDI/Fuerzas Armadas.
+  - RSS: `https://www.reddit.com/r/CasosAislados2/.rss`
 - **Terra Chile** — Portal de noticias generalista con cobertura nacional e internacional
   - Terra - Últimas Noticias: `https://www.terra.cl/rss/feed.html`
   - Terra - Últimas Noticias con imágenes: `https://www.terra.cl/rss/un_foto.html`
   - Terra - Nacionales: `https://www.terra.cl/rss/feed.html?r=1`
   - Terra - Estilo de vida: `https://www.terra.cl/rss/feed.html?r=4`
-  - Terra - Entretenimiento: `https://www.terra.cl/rss/feed.html?r=5`
   - Terra - Tendencias: `https://www.terra.cl/rss/feed.html?r=6`
 - **The Clinic**: Periódico digital de análisis político, reportajes e investigación
   - RSS: `https://www.theclinic.cl/feed/`
@@ -136,7 +127,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (10 feeds)
+### 🌐 Noticias Internacionales (9 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -144,8 +135,6 @@
   - RSS: `https://feeds.bbci.co.uk/news/world/latin_america/rss.xml`
 - **Diario El Día**: Diario regional de La Serena, Coquimbo
   - RSS: `https://www.diarioeldia.cl/rss/mundo`
-- **El Desconcierto**: Portal de noticias con cobertura en política, derechos humanos, medioambiente y cultura
-  - RSS: `https://eldesconcierto.cl/rss/pages/mundo.xml`
 - **El Minuto**: Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales
   - RSS: `https://elminuto.cl/noticias/category/mundo/rss`
 - **El País**: Medio de comunicación español de noticias internacionales
@@ -164,47 +153,84 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (21 feeds)
+### 💻 Tecnología y Startups (60 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
 - **ACTI**: Asociación Chilena de Empresas de Tecnologías de Información - Gremio de TI en Chile
   - RSS: `https://acti.cl/feed/`
-- **Alerta Geek Chile**: Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
-  - RSS: `https://alertageekchile.cl/feed/`
+- **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
+  - Alerta Geek - Portada: `https://alertageekchile.cl/feed/`
+  - Alerta Geek - Noticias: `https://www.alertageekchile.cl/category/contenido/noticias/feed/`
+  - Alerta Geek - Destacado: `https://www.alertageekchile.cl/category/destacado/feed/`
+  - Alerta Geek - Reviews: `https://www.alertageekchile.cl/category/contenido/reviews/feed/`
+  - Alerta Geek - Entrevistas: `https://www.alertageekchile.cl/category/contenido/entrevistas/feed/`
+  - Alerta Geek - Mundo Geek: `https://www.alertageekchile.cl/category/tematicas/feed/`
+  - Alerta Geek - Anime y Manga: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/anime-y-manga/feed/`
+  - Alerta Geek - Cine: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/cine/feed/`
+  - Alerta Geek - Cómics: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/comics/feed/`
+  - Alerta Geek - Cosplay: `https://www.alertageekchile.cl/category/tematicas/cosplay/feed/`
+  - Alerta Geek - Streaming: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/streaming/feed/`
+  - Alerta Geek - TCG: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/tcg/feed/`
+  - Alerta Geek - Tecnología: `https://www.alertageekchile.cl/category/tematicas/tecnologia/feed/`
+  - Alerta Geek - VideoJuegos: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/videojuegos/feed/`
+  - Alerta Geek - Esports: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/videojuegos/esports/feed/`
+  - Alerta Geek - Calendario de Estrenos y Eventos: `https://www.alertageekchile.cl/eventos/feed/`
 - **Alianza Chilena de Ciberseguridad**: Coalición de instituciones chilenas sobre ciberataques locales y normativas de seguridad
   - RSS: `https://alianzaciberseguridad.cl/category/blog/feed/`
-- **Buda.com**: Exchange de criptomonedas chileno - Blog sobre tecnología blockchain y economía digital
-  - RSS: `https://www.buda.com/blog/feed/`
 - **CriptoNoticias Chile** — Sección chilena de CriptoNoticias sobre Bitcoin, blockchain y fintech en Chile
   - CriptoNoticias: `https://www.criptonoticias.com/feed/`
   - CriptoNoticias Bitcoin en Chile: `https://www.criptonoticias.com/etiquetas/bitcoin-chile/feed/`
-- **Derechos Digitales**: ONG chilena que analiza tecnología desde la perspectiva de derechos humanos, privacidad y leyes de internet
-  - RSS: `https://www.derechosdigitales.org/feed/`
+- **Derechos Digitales** — ONG chilena que analiza tecnología desde la perspectiva de derechos humanos, privacidad y leyes de internet
+  - Derechos Digitales - Noticias: `https://www.derechosdigitales.org/noticias/feed/`
+  - Derechos Digitales - Recursos: `https://www.derechosdigitales.org/recursos/feed/`
 - **Entreprenerd**: Medio enfocado en innovación, startups y tecnología en Latinoamérica y Europa
   - RSS: `https://www.entnerd.com/rss/global.xml`
 - **Ex-Ante**: Medio digital chileno de noticias y análisis político, económico y de actualidad
   - RSS: `https://www.ex-ante.cl/category/ciencia-tecnologia/rss`
-- **FayerWayer**: Blog de tecnología, cultura digital y gadgets
-  - RSS: `https://www.fayerwayer.com/feed/`
+- **FayerWayer** — Blog de tecnología, cultura digital y gadgets
+  - FayerWayer: `https://www.fayerwayer.com/feed/`
+  - FayerWayer - Moviles: `https://www.fayerwayer.com/arc/outboundfeeds/rss/category/moviles/?outputType=xml`
+  - FayerWayer - Internet: `https://www.fayerwayer.com/arc/outboundfeeds/rss/category/internet/?outputType=xml`
+  - FayerWayer - Sneakers: `https://www.fayerwayer.com/arc/outboundfeeds/rss/category/sneakers/?outputType=xml`
+  - FayerWayer - Ciencia: `https://www.fayerwayer.com/arc/outboundfeeds/rss/category/ciencia/?outputType=xml`
+  - FayerWayer - Entretenimiento: `https://www.fayerwayer.com/arc/outboundfeeds/rss/category/entretenimiento/?outputType=xml`
 - **Geeketing**: Blog chileno sobre marketing digital, growth hacking y tecnología aplicada a negocios
   - RSS: `https://geeketing.com/feed/`
 - **La Tercera**: Diario con cobertura nacional, internacional y económica
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/tecnologia/?outputType=xml`
-- **MadboxPC**: Portal chileno enfocado en software, videojuegos, hardware y cultura de internet
-  - RSS: `https://www.madboxpc.com/feed/`
-- **Netsus**: Especialistas en ciberseguridad y continuidad de negocio en Chile
-  - RSS: `https://netsus.com/blog/feed/`
+- **MadboxPC** — Portal chileno enfocado en software, videojuegos, hardware y cultura de internet
+  - MADBOXPC: `https://www.madboxpc.com/feed/`
+  - MADBOXPC - Reviews: `https://www.madboxpc.com/category/reviews/feed/`
+  - MADBOXPC - Noticias: `https://www.madboxpc.com/category/noticias/feed/`
+  - MADBOXPC - Articulos: `https://www.madboxpc.com/category/articulos/feed/`
 - **Pisapapeles**: Portal especializado en telefonía móvil, telecomunicaciones y electrónica de consumo.
   - RSS: `https://pisapapeles.net/feed/`
 - **Radio Cooperativa**: Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_8___1.xml`
 - **Tarreo**: Portal de videojuegos, hardware y cultura digital chileno
   - RSS: `https://www.tarreo.com/feed/`
-- **TiChile**: Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
-  - RSS: `https://www.tichile.cl/feed/`
-- **TransMedia**: Medio tecnológico chileno enfocado en análisis de mercado, gadgets, telefonía y opinión sobre la industria
-  - RSS: `https://www.transmedia.cl/feed/`
+- **TiChile** — Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
+  - tichile: `https://www.tichile.cl/feed/`
+  - tichile - Blog: `https://www.tichile.cl/blog/feed`
+- **TransMedia** — Medio tecnológico chileno enfocado en análisis de mercado, gadgets, telefonía y opinión sobre la industria
+  - TransMedia: `https://www.transmedia.cl/feed/`
+  - Transmedia - Análisis: `https://www.transmedia.cl/blog/category/analisis/feed/`
+  - Transmedia - Chile: `https://www.transmedia.cl/blog/category/chile/feed/`
+  - Transmedia - Cultura POP: `https://www.transmedia.cl/blog/category/cultura-pop/feed/`
+  - Transmedia - Dispositivo: `https://www.transmedia.cl/blog/category/dispositivo/feed/`
+  - Transmedia - Exclusivas: `https://www.transmedia.cl/blog/category/exclusivas/feed/`
+  - Transmedia - Filtrados: `https://www.transmedia.cl/blog/category/filtrados/feed/`
+  - Transmedia - Internet: `https://www.transmedia.cl/blog/category/internet/feed/`
+  - Transmedia - Noticias: `https://www.transmedia.cl/blog/category/noticias/feed/`
+  - Transmedia - Novedades: `https://www.transmedia.cl/blog/category/novedades/feed/`
+  - Transmedia - Opinión: `https://www.transmedia.cl/blog/category/opinion/feed/`
+  - Transmedia - Redes Sociales: `https://www.transmedia.cl/blog/category/redes-sociales/feed/`
+  - Transmedia - Review: `https://www.transmedia.cl/blog/category/review/feed/`
+  - Transmedia - Rumores: `https://www.transmedia.cl/blog/category/rumores/feed/`
+  - Transmedia - Tecnología: `https://www.transmedia.cl/blog/category/tecnologia/feed/`
+  - Transmedia - Tendencias: `https://www.transmedia.cl/blog/category/tendencias/feed/`
+  - Transmedia - Uncategorized: `https://www.transmedia.cl/blog/category/uncategorized/feed/`
 - **trendTIC**: Portal chileno especializado en tendencias tecnológicas, IA, infraestructura de redes y ciberseguridad corporativa
   - RSS: `https://www.trendtic.cl/feed/`
 - **TXS Plus**: Radio online de Chile dedicada a ciencia y tecnología
@@ -263,11 +289,11 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (198 feeds)
+### 🌎 Medios Regionales (190 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
-#### 📍 Arica y Parinacota (10 medios)
+#### 📍 Arica y Parinacota (9 medios)
 
 *Descargar OPML regional: [`arica-y-parinacota.opml`](dist/opml/regions/arica-y-parinacota.opml)*
 
@@ -289,8 +315,6 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://estrellaarica.cl/?feed=rss2`
 - **Puertanorte**: Medio de comunicación de la Región de Arica y Parinacota.
   - RSS: `https://radiopuertanorte.cl/feed`
-- **Radio Siente**: Radio de emisión digital de la Región de Arica y Parinacota.
-  - RSS: `https://www.radiosiente.com/feed`
 
 #### 📍 Tarapacá (10 medios)
 
@@ -406,7 +430,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Ovalle Hoy**: Diario regional de Ovalle, Coquimbo
   - RSS: `https://www.ovallehoy.cl/feed/`
 
-#### 📍 Valparaíso (14 medios)
+#### 📍 Valparaíso (13 medios)
 
 *Descargar OPML regional: [`valparaiso.opml`](dist/opml/regions/valparaiso.opml)*
 
@@ -434,8 +458,6 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://estrellavalpo.cl/?feed=rss2`
 - **Más Noticia**: Diario regional de Quillota, Valparaíso
   - RSS: `https://www.masnoticia.cl/feed/`
-- **Mi San Felipe**: Medio de comunicación de la Región de Valparaíso.
-  - RSS: `https://www.misanfelipe.cl/feed`
 - **Montealegre**: Medio de comunicación de la Región de Valparaíso.
   - RSS: `https://montealegre.cl/feed`
 
@@ -481,9 +503,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Diario El Marino - Opinión: `https://www.diarioelmarino.cl/opinion/feed/rss/`
   - Diario El Marino - Sociedad: `https://www.diarioelmarino.cl/sociedad/feed/rss/`
   - Diario El Marino - Cultura y Entretenimiento: `https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/`
-  - Diario El Marino - Deporte: `https://www.diarioelmarino.cl/deporte/feed/rss/`
   - Diario El Marino - Política: `https://www.diarioelmarino.cl/politica/feed/rss/`
-  - Diario El Marino - Editorial: `https://www.diarioelmarino.cl/editorial/feed/rss/`
   - Diario El Marino - Cartas al Director: `https://www.diarioelmarino.cl/cartas-al-director/feed/rss/`
   - Diario El Marino - Legales: `https://www.diarioelmarino.cl/legales/feed/rss/`
 - **Diario El Pulso**: Diario regional de Rancagua, O'Higgins
@@ -510,7 +530,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Rengo Notas**: Medio de comunicación de la Región de O'Higgins.
   - RSS: `https://rengonotas.cl/wp/feed/`
 
-#### 📍 Maule (15 medios)
+#### 📍 Maule (14 medios)
 
 *Descargar OPML regional: [`maule.opml`](dist/opml/regions/maule.opml)*
 
@@ -540,12 +560,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.linaresnoticia.cl/rss.xml`
 - **Maule Hoy**: Diario regional de Talca, Maule
   - RSS: `https://maulehoy.cl/feed/`
-- **Prensa Curicó**: Diario regional de Curicó, Maule
-  - RSS: `https://www.prensacurico.cl/?feed=rss2`
 - **VLN Radio**: Medio de comunicación de la Región de Maule.
   - RSS: `https://www.vlnradio.cl/feed`
 
-#### 📍 Ñuble (10 medios)
+#### 📍 Ñuble (9 medios)
 
 *Descargar OPML regional: [`nuble.opml`](dist/opml/regions/nuble.opml)*
 
@@ -566,18 +584,14 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.nubledigital.cl/feed/`
 - **Ñuble Online**: Medio de comunicación de la Región de Ñuble.
   - RSS: `https://nubleonline.cl/feed`
-- **San Carlos Al Día**: Diario regional de San Carlos, Ñuble
-  - RSS: `https://www.sancarlosaldia.cl/feed/`
 - **San Carlos On Line** — Diario regional de San Carlos, Ñuble
   - San Carlos On Line: `https://www.sancarlosonline.cl/rss.xml`
   - San Carlos Online: `https://www.sancarlosonline.cl/feeds/posts/default?alt=rss`
 
-#### 📍 Biobío (6 medios)
+#### 📍 Biobío (5 medios)
 
 *Descargar OPML regional: [`biobio.opml`](dist/opml/regions/biobio.opml)*
 
-- **Angelino**: Diario regional de Los Ángeles, Biobío
-  - RSS: `https://www.angelino.cl/feed/`
 - **Diario Concepción**: Diario regional con cobertura informativa de la Región del Biobío
   - RSS: `https://www.diarioconcepcion.cl/rss.xml`
 - **La Tribuna**: Diario regional de Los Ángeles, Biobío
@@ -683,14 +697,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Queilen**: Medio de comunicación de la Región de Los Lagos.
   - RSS: `https://www.queilen.cl/blog-feed.xml`
 
-#### 📍 Aysén (4 medios)
+#### 📍 Aysén (3 medios)
 
 *Descargar OPML regional: [`aysen.opml`](dist/opml/regions/aysen.opml)*
 
 - **Aysén Ahora**: Diario regional de Puerto Aysén, Aysén
   - RSS: `https://aysenahora.cl/feed/`
-- **Diario Aysén**: Diario regional de la Región de Aysén
-  - RSS: `https://www.diarioaysen.cl/feed/`
 - **Radio Santa María**: Medio de comunicación de la Región de Aysén.
   - RSS: `https://www.radiosantamaria.cl/feed`
 - **Radio Ventisqueros**: Medio de comunicación de la Región de Aysén.
@@ -735,14 +747,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Negocios y Finanzas (7 feeds)
+### 💼 Negocios y Finanzas (6 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
 - **Diario Financiero**: Diario especializado en economía y negocios
   - RSS: `https://www.df.cl/noticias/site/list/port/rss.xml`
-- **El Minuto**: Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales
-  - RSS: `https://elminuto.cl/noticias/category/economia/rss`
 - **Ex-Ante**: Medio digital chileno de noticias y análisis político, económico y de actualidad
   - RSS: `https://www.ex-ante.cl/category/economia/rss`
 - **La Tercera**: Diario con cobertura nacional, internacional y económica
@@ -773,7 +783,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (10 feeds)
+### ⚽ Deportes (8 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
@@ -783,8 +793,6 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://crtvchile.cl/rss`
 - **Diario El Día**: Diario regional de La Serena, Coquimbo
   - RSS: `https://www.diarioeldia.cl/rss/deportes`
-- **El Minuto**: Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales
-  - RSS: `https://elminuto.cl/noticias/category/deporte/rss`
 - **La Cuarta**: Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención.
   - RSS: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml`
 - **La Tercera**: Diario con cobertura nacional, internacional y económica
@@ -795,8 +803,6 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_1___1.xml`
 - **Redgol**: Portal deportivo con cobertura de fútbol nacional e internacional y otros deportes
   - RSS: `https://redgol.cl/rss/feed`
-- **Terra Chile**: Portal de noticias generalista con cobertura nacional e internacional
-  - RSS: `https://www.terra.cl/rss/feed.html?r=3`
 
 [↑ Volver al índice](#indice)
 

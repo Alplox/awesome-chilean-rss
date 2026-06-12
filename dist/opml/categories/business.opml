@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Negocios y Finanzas (7 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Negocios y Finanzas (6 feeds)</title>
     <description>Feeds RSS de 💼 Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <dateCreated>2026-06-12T23:06:23.820Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Cooperativa - Economía" title="Cooperativa - Economía" description="Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml" htmlUrl="https://www.cooperativa.cl"/>
     <outline type="rss" text="Diario Financiero" title="Diario Financiero" description="Diario especializado en economía y negocios" xmlUrl="https://www.df.cl/noticias/site/list/port/rss.xml" htmlUrl="https://www.df.cl"/>
-    <outline type="rss" text="El Minuto - Economía" title="El Minuto - Economía" description="Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales" xmlUrl="https://elminuto.cl/noticias/category/economia/rss" htmlUrl="https://elminuto.cl/"/>
     <outline type="rss" text="Ex-Ante - Economía" title="Ex-Ante - Economía" description="Medio digital chileno de noticias y análisis político, económico y de actualidad" xmlUrl="https://www.ex-ante.cl/category/economia/rss" htmlUrl="https://www.ex-ante.cl"/>
-    <outline type="rss" text="La Tercera - Pulso" title="La Tercera - Pulso" description="Diario con cobertura nacional, internacional y económica" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Pulso" title="La Tercera - Pulso" description="Diario con cobertura nacional, internacional y económica" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml" htmlUrl="https://www.latercera.com/canal/pulso/"/>
     <outline type="rss" text="MCH" title="MCH" description="MCH, medio de comunicación especializado en minería, construcción y energía" xmlUrl="https://www.mch.cl/feed/" htmlUrl="https://www.mch.cl"/>
     <outline type="rss" text="Terra - Economía" title="Terra - Economía" description="Portal de noticias generalista con cobertura nacional e internacional" xmlUrl="https://www.terra.cl/rss/feed.html?r=7" htmlUrl="https://www.terra.cl"/>
   </body>

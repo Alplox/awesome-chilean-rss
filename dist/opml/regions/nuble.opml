@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Ñuble (12 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Ñuble (11 feeds)</title>
     <description>Feeds RSS de la Región de Ñuble, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <dateCreated>2026-06-12T23:06:23.820Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -16,7 +16,6 @@
     <outline type="rss" text="Ñuble Actual" title="Ñuble Actual" description="Medio de comunicación de la Región de Ñuble." xmlUrl="https://www.nubleactual.cl/feed" htmlUrl="https://www.nubleactual.cl"/>
     <outline type="rss" text="Ñuble Digital" title="Ñuble Digital" description="Diario regional de Chillán, Ñuble" xmlUrl="https://www.nubledigital.cl/feed/" htmlUrl="https://www.nubledigital.cl"/>
     <outline type="rss" text="Ñuble Online" title="Ñuble Online" description="Medio de comunicación de la Región de Ñuble." xmlUrl="https://nubleonline.cl/feed" htmlUrl="https://nubleonline.cl"/>
-    <outline type="rss" text="San Carlos Al Día" title="San Carlos Al Día" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosaldia.cl/feed/" htmlUrl="https://www.sancarlosaldia.cl"/>
     <outline type="rss" text="San Carlos On Line" title="San Carlos On Line" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosonline.cl/rss.xml" htmlUrl="https://www.sancarlosonline.cl"/>
     <outline type="rss" text="San Carlos Online" title="San Carlos Online" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosonline.cl/feeds/posts/default?alt=rss" htmlUrl="https://www.sancarlosonline.cl"/>
   </body>

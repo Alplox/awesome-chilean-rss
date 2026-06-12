@@ -50,6 +50,7 @@ for (const site of sites) {
       siteId: site.id, 
       siteName: site.name, 
       siteUrl: site.url, 
+      feedUrl: feed.url ?? site.url, 
       siteDescription: site.description,
       feedDescription: feed.description ?? site.description ?? '',
       region: resolvedReg 
@@ -146,7 +147,7 @@ function generateOPML() {
           const sorted = [...regionFeeds[regKey]].sort((a, b) => a.name.localeCompare(b.name, 'es'));
           const outlines = sorted
             .map(feed =>
-              `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+              `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
             )
             .join('\n');
           return `      <outline text="${escapeXml(regLabel)}" title="${escapeXml(regLabel)}">\n${outlines}\n      </outline>`;
@@ -157,7 +158,7 @@ function generateOPML() {
         const sorted = [...unassigned].sort((a, b) => a.name.localeCompare(b.name, 'es'));
         const outlines = sorted
           .map(feed =>
-            `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+            `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
           )
           .join('\n');
         regionBlocks.push(`      <outline text="Otras Regiones o No Especificada" title="Otras Regiones o No Especificada">\n${outlines}\n      </outline>`);
@@ -168,7 +169,7 @@ function generateOPML() {
 
     const outlines = feeds
       .map(feed =>
-        `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+        `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
       )
       .join('\n');
     return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${outlines}\n    </outline>`;
@@ -213,7 +214,7 @@ function generateRegionalOPML(feedsByRegion) {
       const sortedFeeds = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
       const outlines = sortedFeeds
         .map(feed =>
-          `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+          `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
         )
         .join('\n');
       return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${outlines}\n    </outline>`;
@@ -244,7 +245,7 @@ function generateIndividualRegionalOPML(regKey, feeds) {
   const sortedFeeds = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
   const outlines = sortedFeeds
     .map(feed =>
-      `    <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+      `    <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
     )
     .join('\n');
 
@@ -272,7 +273,7 @@ function generateIndividualCategoryOPML(catKey, feeds) {
   const sortedFeeds = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
   const outlines = sortedFeeds
     .map(feed =>
-      `    <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+      `    <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
     )
     .join('\n');
 

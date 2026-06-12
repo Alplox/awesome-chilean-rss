@@ -139,7 +139,7 @@ npm run validate:watchlist -- --update --automatic
 npm run validate:watchlist -- --id adnradio --update
 ```
 
-Valida cada entrada de `watchlist.json`: redescubre feed, valida contenido, verifica frescura (< 365 días). Con `--update`, promueve los exitosos a `sites[]` en `feeds-database.json`. Al finalizar sin `--update`, pregunta si desea guardar los cambios (no obliga a re-ejecutar).
+Valida cada entrada de `watchlist.json`: redescubre feed, valida contenido, verifica frescura (< 30 días). Con `--update`, promueve los exitosos a `sites[]` en `feeds-database.json`. Al finalizar sin `--update`, pregunta si desea guardar los cambios (no obliga a re-ejecutar).
 
 ### Modo automático y CI
 
@@ -196,6 +196,7 @@ npm run validate -- --limit 10 --automatic
           "id": "ejemplo-main",
           "name": "Ejemplo",
           "rss_url": "https://ejemplo.cl/feed/",
+          "url": "https://ejemplo.cl",                              // OPTIONAL: override site.url for htmlUrl
           "feed_type": "RSS",
           "last_checked": "2026-06-06T00:00:00.000Z",
           "status": "active",
@@ -205,6 +206,7 @@ npm run validate -- --limit 10 --automatic
           "id": "ejemplo-deportes",
           "name": "Ejemplo Deportes",
           "rss_url": "https://ejemplo.cl/rss/deportes/",
+          "url": "https://ejemplo.cl/deportes/",                    // OPTIONAL: override site.url for htmlUrl
           "feed_type": "RSS",
           "category": "sports",
           "region": "biobio",
@@ -221,6 +223,8 @@ npm run validate -- --limit 10 --automatic
 **Categoría por feed**: Cada feed puede tener su propio `category` (opcional). Si se especifica, ese feed se lista en la categoría indicada. Si no, hereda la del sitio padre (`feed.category ?? site.category`).
 
 **Región por feed**: Cada feed puede tener su propio `region` (opcional). Si se especifica, ese feed se incluye en el OPML de esa región. Si no, hereda la del sitio padre (`feed.region ?? site.region`).
+
+**URL por feed**: Cada feed puede tener su propio `url` (opcional). Si se especifica, el `htmlUrl` del `<outline>` OPML apunta a esa URL en vez de la del sitio padre (`feed.url ?? site.url`). Útil cuando un subfeed corresponde a una sección o página específica del sitio.
 
 ### `categories.json`
 
@@ -294,7 +298,7 @@ Para cada feed en `sites[]`:
 1. **URL funciona con contenido RSS/Atom/JSON/RDF válido**
    - Soporta: RSS 2.0, Atom, JSON Feed (`application/feed+json`), RSS 1.0/RDF (<rdf:RDF)
    - Extrae la fecha del item más reciente (RSS `<pubDate>`, `<dc:date>`; Atom `<published>`, `<updated>`; JSON Feed `date_published`, `date_modified`)
-   - Si el último item tiene > 365 días → marca `status: stale`
+   - Si el último item tiene > 30 días → marca `status: stale`
    - Si el feed está vacío (0 items) → marca `status: no_feed`
    - Si no hay fechas en los items, usa `<lastBuildDate>` del canal como fallback
 
@@ -324,7 +328,7 @@ Para cada feed en `sites[]`:
 
 | Condición | Resultado |
 |-----------|-----------|
-| Feed responde, último item > 365 días | `stale` |
+| Feed responde, último item > 30 días | `stale` |
 | Feed responde, sin fecha en items (interactivo) | Pregunta al usuario (default: activo) |
 | Feed responde, sin fecha en items (automático) | Se mantiene activo (conservador) |
 | Fecha con año ≤ 1970 | Filtrada como placeholder |
