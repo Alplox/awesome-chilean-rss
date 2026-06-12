@@ -344,7 +344,7 @@ function generateReadme() {
 
           if (!siteLines) return null;
 
-          return `#### 📍 ${regionLabel} (${regionSites.length} medios)\n\n*Descargar OPML regional: [\`${regKey}.opml\`](regions/${regKey}.opml)*\n\n${siteLines}`;
+          return `#### 📍 ${regionLabel} (${regionSites.length} medios)\n\n*Descargar OPML regional: [\`${regKey}.opml\`](dist/opml/regions/${regKey}.opml)*\n\n${siteLines}`;
         })
         .filter(Boolean);
 
@@ -376,7 +376,7 @@ function generateReadme() {
 
       if (regionSubsections.length === 0) return null;
 
-      return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\nConsolidado regional: [\`chilean-rss-regions.opml\`](chilean-rss-regions.opml) — OPML por categoría: [\`regional.opml\`](categories/regional.opml)\n\n${regionSubsections.join('\n\n')}\n\n[↑ Volver al índice](#indice)`;
+      return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\nConsolidado regional: [\`chilean-rss-regions.opml\`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [\`regional.opml\`](dist/opml/categories/regional.opml)\n\n${regionSubsections.join('\n\n')}\n\n[↑ Volver al índice](#indice)`;
     }
 
     const items = catSites.map(site => {
@@ -396,7 +396,7 @@ function generateReadme() {
 
     if (!items) return null;
 
-    return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\n*Descargar OPML: [\`${cat}.opml\`](categories/${cat}.opml)*\n\n${items}\n\n[↑ Volver al índice](#indice)`;
+    return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\n*Descargar OPML: [\`${cat}.opml\`](dist/opml/categories/${cat}.opml)*\n\n${items}\n\n[↑ Volver al índice](#indice)`;
   }).filter(Boolean).join('\n\n');
 
   const regTotal = Object.values(feedsByRegion).flat().length;
@@ -404,17 +404,17 @@ function generateReadme() {
   return `
 # Awesome Chilean RSS
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
 ![Feeds](https://img.shields.io/badge/feeds-${total}-blue)
 
 > El directorio más completo de feeds RSS chilenos. ${total} fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
-1. **Importar en tu lector RSS favorito**: Descarga [\`chilean-rss.opml\`](chilean-rss.opml) e impórtalo directamente en tu lector preferido
-2. **O copia el enlace**: \`https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/chilean-rss.opml\`
-3. **¿Solo medios regionales?** Descarga [\`chilean-rss-regions.opml\`](chilean-rss-regions.opml) con ${regTotal} feeds agrupados por región
-4. **¿Una región específica?** Explora los OPML individuales en [\`regions/\`](regions/) o descarga por categoría en [\`categories/\`](categories/)
+1. **Importar en tu lector RSS favorito**: Descarga [\`chilean-rss.opml\`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
+2. **O copia el enlace**: \`https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml\`
+3. **¿Solo medios regionales?** Descarga [\`chilean-rss-regions.opml\`](dist/opml/chilean-rss-regions.opml) con ${regTotal} feeds agrupados por región
+4. **¿Una región específica?** Explora los OPML individuales en [\`regions/\`](dist/opml/regions/) o descarga por categoría en [\`categories/\`](dist/opml/categories/)
 
 ## 📝 Feeds disponibles (${total})
 
@@ -451,42 +451,53 @@ Este proyecto está bajo licencia [CC0 1.0 Universal](LICENSE). Siéntete libre 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 try {
+  const OPML_DIR = 'dist/opml';
+
+  if (!existsSync('dist')) {
+    mkdirSync('dist');
+  }
+  if (!existsSync(OPML_DIR)) {
+    mkdirSync(OPML_DIR);
+  }
+
   // Main OPML file
   const opml = generateOPML();
-  writeFileSync('chilean-rss.opml', opml, 'utf-8');
-  console.log(`✅ chilean-rss.opml generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
+  writeFileSync(`${OPML_DIR}/chilean-rss.opml`, opml, 'utf-8');
+  console.log(`✅ ${OPML_DIR}/chilean-rss.opml generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
 
   // Consolidated regional OPML file
   const regionalOpml = generateRegionalOPML(feedsByRegion);
-  writeFileSync('chilean-rss-regions.opml', regionalOpml, 'utf-8');
+  writeFileSync(`${OPML_DIR}/chilean-rss-regions.opml`, regionalOpml, 'utf-8');
   const totalRegFeeds = Object.values(feedsByRegion).flat().length;
-  console.log(`✅ chilean-rss-regions.opml generado (${totalRegFeeds} feeds regionales de ${Object.keys(feedsByRegion).length} regiones)`);
+  console.log(`✅ ${OPML_DIR}/chilean-rss-regions.opml generado (${totalRegFeeds} feeds regionales de ${Object.keys(feedsByRegion).length} regiones)`);
 
   // Individual regional OPML files
-  if (!existsSync('regions')) {
-    mkdirSync('regions');
+  const regionsDir = `${OPML_DIR}/regions`;
+  if (!existsSync(regionsDir)) {
+    mkdirSync(regionsDir);
   }
   for (const regKey of Object.keys(regions)) {
     const feeds = feedsByRegion[regKey] || [];
     if (feeds.length > 0) {
       const regOpml = generateIndividualRegionalOPML(regKey, feeds);
-      writeFileSync(`regions/${regKey}.opml`, regOpml, 'utf-8');
+      writeFileSync(`${regionsDir}/${regKey}.opml`, regOpml, 'utf-8');
     }
   }
-  console.log(`✅ OPMLs individuales por región generados en el directorio regions/`);
+  console.log(`✅ OPMLs individuales por región generados en el directorio ${regionsDir}/`);
 
   // Individual category OPML files
-  if (!existsSync('categories')) {
-    mkdirSync('categories');
+  const categoriesDir = `${OPML_DIR}/categories`;
+  if (!existsSync(categoriesDir)) {
+    mkdirSync(categoriesDir);
   }
   for (const catKey of orderedCategories) {
     const feeds = feedsByCategory[catKey] || [];
     if (feeds.length > 0) {
       const catOpml = generateIndividualCategoryOPML(catKey, feeds);
-      writeFileSync(`categories/${catKey}.opml`, catOpml, 'utf-8');
+      writeFileSync(`${categoriesDir}/${catKey}.opml`, catOpml, 'utf-8');
     }
   }
-  console.log(`✅ OPMLs individuales por categoría generados en el directorio categories/`);
+  console.log(`✅ OPMLs individuales por categoría generados en el directorio ${categoriesDir}/`);
 
   // README.md
   const readme = generateReadme();

@@ -172,7 +172,7 @@ Antes de contribuir, verifica que:
 4. **Edita** el archivo [`feeds-database.json`](feeds-database.json):
    - Agrega tu sitio en el array `sites` con los campos requeridos
    - Si el sitio ofrece múltiples feeds (por sección o temática), agrégalos todos bajo el campo `feeds[]` del mismo sitio
-   - Ejecuta `npm run generate` para regenerar `README.md` y `chilean-rss.opml` automáticamente:
+   - Ejecuta `npm run generate` para regenerar `README.md`, `dist/opml/chilean-rss.opml` y demás OPMLs automáticamente:
    ```bash
    npm install
    npm run generate

@@ -8,7 +8,7 @@ on:
       - 'watchlist.json'
       - 'categories.json'
       - 'scripts/**'
-      - 'chilean-rss.opml'
+      - 'dist/opml/chilean-rss.opml'
       - 'README.md'
       - '.github/workflows/*.yml'
   workflow_dispatch:

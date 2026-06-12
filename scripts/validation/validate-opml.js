@@ -57,26 +57,30 @@ function validateFile(filePath) {
   }
 }
 
-// 1. Validar archivos principales en la raíz
-validateFile('chilean-rss.opml');
+const OPML_DIR = 'dist/opml';
 
-if (existsSync('chilean-rss-regions.opml')) {
-  validateFile('chilean-rss-regions.opml');
+// 1. Validar archivos principales
+validateFile(`${OPML_DIR}/chilean-rss.opml`);
+
+if (existsSync(`${OPML_DIR}/chilean-rss-regions.opml`)) {
+  validateFile(`${OPML_DIR}/chilean-rss-regions.opml`);
 }
 
-// 2. Validar archivos individuales en regions/
-if (existsSync('regions')) {
-  const files = readdirSync('regions').filter(f => f.endsWith('.opml'));
+// 2. Validar archivos individuales por región
+const regionsDir = `${OPML_DIR}/regions`;
+if (existsSync(regionsDir)) {
+  const files = readdirSync(regionsDir).filter(f => f.endsWith('.opml'));
   for (const file of files) {
-    validateFile(`regions/${file}`);
+    validateFile(`${regionsDir}/${file}`);
   }
 }
 
-// 3. Validar archivos individuales por categoría en categories/
-if (existsSync('categories')) {
-  const files = readdirSync('categories').filter(f => f.endsWith('.opml'));
+// 3. Validar archivos individuales por categoría
+const categoriesDir = `${OPML_DIR}/categories`;
+if (existsSync(categoriesDir)) {
+  const files = readdirSync(categoriesDir).filter(f => f.endsWith('.opml'));
   for (const file of files) {
-    validateFile(`categories/${file}`);
+    validateFile(`${categoriesDir}/${file}`);
   }
 }
 

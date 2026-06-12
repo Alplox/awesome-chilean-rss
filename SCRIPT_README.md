@@ -15,7 +15,7 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 |                                          | `npm run validate -- --url <URL>`               | Valida una URL específica (feed o sitio) sin modificar BD          |
 |                                          | `npm run validate -- --watchlist`               | Muestra instrucciones para usar `npm run validate:watchlist`                            |
 |                                          | `npm run validate -- --update --automatic`      | Modo no interactivo para CI/desatendido                            |
-| `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json`, `categories.json` y `regions.json`, regenera `chilean-rss.opml`, `chilean-rss-regions.opml`, `regions/*.opml` y README |
+| `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json`, `categories.json` y `regions.json`, regenera `dist/opml/chilean-rss.opml`, `dist/opml/chilean-rss-regions.opml`, `dist/opml/regions/*.opml`, `dist/opml/categories/*.opml` y README |
 | `scripts/core/validate-watchlist.js`     | `npm run validate:watchlist`                   | Valida watchlist, promueve feeds válidos a sites con `--update`    |
 |                                          | `npm run validate:watchlist -- --update`        | Promueve automáticamente los feeds válidos a sites[]               |
 |                                          | `npm run validate:watchlist -- --automatic`     | Modo no interactivo (promueve todo sin preguntar)                  |
@@ -60,10 +60,11 @@ feeds-database.json    categories.json   regions.json      watchlist.json
   (lib/*, rediscover)        (by category + region)        (lib/watchlist-validator.js)
        │                       │                                   │
        ▼                       ▼                                   ▼
-  feeds-database.json    chilean-rss.opml                 feeds-database.json†
-                         chilean-rss-regions.opml         watchlist.json†
-                         regions/*.opml                   († con --update)
-                         README.md
+   feeds-database.json        dist/opml/chilean-rss.opml           feeds-database.json†
+                              dist/opml/chilean-rss-regions.opml   watchlist.json†
+                              dist/opml/regions/*.opml             († con --update)
+                              dist/opml/categories/*.opml
+                              README.md
 
   find-duplicates.js  ──►  reporte en consola (solo lectura)
 ```

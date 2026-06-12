@@ -1,17 +1,17 @@
 
 # Awesome Chilean RSS
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
 ![Feeds](https://img.shields.io/badge/feeds-351-blue)
 
 > El directorio más completo de feeds RSS chilenos. 351 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
-1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](chilean-rss.opml) e impórtalo directamente en tu lector preferido
-2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](chilean-rss-regions.opml) con 202 feeds agrupados por región
-4. **¿Una región específica?** Explora los OPML individuales en [`regions/`](regions/) o descarga por categoría en [`categories/`](categories/)
+1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
+2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 202 feeds agrupados por región
+4. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 
 ## 📝 Feeds disponibles (351)
 
@@ -32,7 +32,7 @@
 <a id="cat-news"></a>
 ### 📰 Noticias Nacionales (73 feeds)
 
-*Descargar OPML: [`news.opml`](categories/news.opml)*
+*Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
 - **BioBioChile**: Portal de noticias generales con cobertura nacional e internacional
   - RSS: `https://feeds.feedburner.com/radiobiobio/NNeJ`
@@ -138,7 +138,7 @@
 <a id="cat-news-international"></a>
 ### 🌐 Noticias Internacionales (10 feeds)
 
-*Descargar OPML: [`news-international.opml`](categories/news-international.opml)*
+*Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
 - **BBC Mundo**: Cobertura de noticias globales y análisis desde una perspectiva internacional
   - RSS: `https://feeds.bbci.co.uk/news/world/latin_america/rss.xml`
@@ -166,7 +166,7 @@
 <a id="cat-technology"></a>
 ### 💻 Tecnología y Startups (21 feeds)
 
-*Descargar OPML: [`technology.opml`](categories/technology.opml)*
+*Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
 - **ACTI**: Asociación Chilena de Empresas de Tecnologías de Información - Gremio de TI en Chile
   - RSS: `https://acti.cl/feed/`
@@ -215,7 +215,7 @@
 <a id="cat-government"></a>
 ### 🏛️ Gobierno y Datos Públicos (12 feeds)
 
-*Descargar OPML: [`government.opml`](categories/government.opml)*
+*Descargar OPML: [`government.opml`](dist/opml/categories/government.opml)*
 
 - **Biblioteca del Congreso Nacional (BCN)**: Biblioteca del Congreso Nacional de Chile - Servicios de información legislativa y parlamentaria
   - RSS: `http://feeds.feedburner.com/bcn/ulp?format=xml`
@@ -245,7 +245,7 @@
 <a id="cat-universities"></a>
 ### 🏫 Universidades e Investigación (6 feeds)
 
-*Descargar OPML: [`universities.opml`](categories/universities.opml)*
+*Descargar OPML: [`universities.opml`](dist/opml/categories/universities.opml)*
 
 - **ANID**: Agencia Nacional de Investigación y Desarrollo
   - RSS: `https://www.anid.cl/rss`
@@ -265,11 +265,11 @@
 <a id="cat-regional"></a>
 ### 🌎 Medios Regionales (198 feeds)
 
-Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](categories/regional.opml)
+Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
 #### 📍 Arica y Parinacota (10 medios)
 
-*Descargar OPML regional: [`arica-y-parinacota.opml`](regions/arica-y-parinacota.opml)*
+*Descargar OPML regional: [`arica-y-parinacota.opml`](dist/opml/regions/arica-y-parinacota.opml)*
 
 - **Arica Al Día**: Diario regional de Arica y Parinacota
   - RSS: `https://www.aricaldia.cl/feed/`
@@ -294,7 +294,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Tarapacá (10 medios)
 
-*Descargar OPML regional: [`tarapaca.opml`](regions/tarapaca.opml)*
+*Descargar OPML regional: [`tarapaca.opml`](dist/opml/regions/tarapaca.opml)*
 
 - **CEI Noticias**: Diario regional de Iquique, Tarapacá
   - RSS: `https://ceinoticias.cl/feed/`
@@ -319,7 +319,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Antofagasta (8 medios)
 
-*Descargar OPML regional: [`antofagasta.opml`](regions/antofagasta.opml)*
+*Descargar OPML regional: [`antofagasta.opml`](dist/opml/regions/antofagasta.opml)*
 
 - **Antofacity**: Medio de comunicación de la Región de Antofagasta.
   - RSS: `https://www.antofacity.com/feed`
@@ -340,7 +340,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Atacama (9 medios)
 
-*Descargar OPML regional: [`atacama.opml`](regions/atacama.opml)*
+*Descargar OPML regional: [`atacama.opml`](dist/opml/regions/atacama.opml)*
 
 - **Atacama en Línea**: Diario regional de Copiapó, Atacama
   - RSS: `https://www.atacamaenlinea.cl/rss.xml`
@@ -363,7 +363,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Coquimbo (13 medios)
 
-*Descargar OPML regional: [`coquimbo.opml`](regions/coquimbo.opml)*
+*Descargar OPML regional: [`coquimbo.opml`](dist/opml/regions/coquimbo.opml)*
 
 - **David Noticias**: Diario regional de Los Vilos, Coquimbo
   - RSS: `https://www.davidnoticias.cl/feed/`
@@ -408,7 +408,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Valparaíso (14 medios)
 
-*Descargar OPML regional: [`valparaiso.opml`](regions/valparaiso.opml)*
+*Descargar OPML regional: [`valparaiso.opml`](dist/opml/regions/valparaiso.opml)*
 
 - **Aconcagua Digital**: Diario regional de San Felipe, Valparaíso
   - RSS: `https://aconcaguadigital.cl/feed/`
@@ -441,7 +441,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Metropolitana de Santiago (8 medios)
 
-*Descargar OPML regional: [`metropolitana.opml`](regions/metropolitana.opml)*
+*Descargar OPML regional: [`metropolitana.opml`](dist/opml/regions/metropolitana.opml)*
 
 - **Crónica Digital**: Diario regional de Santiago, Metropolitana
   - RSS: `https://www.cronicadigital.cl/feed/`
@@ -470,7 +470,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 O'Higgins (13 medios)
 
-*Descargar OPML regional: [`ohiggins.opml`](regions/ohiggins.opml)*
+*Descargar OPML regional: [`ohiggins.opml`](dist/opml/regions/ohiggins.opml)*
 
 - **Diario El Cóndor**: Diario regional de Santa Cruz, O'Higgins
   - RSS: `https://diariocondor.cl/feed/`
@@ -512,7 +512,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Maule (15 medios)
 
-*Descargar OPML regional: [`maule.opml`](regions/maule.opml)*
+*Descargar OPML regional: [`maule.opml`](dist/opml/regions/maule.opml)*
 
 - **Atentos**: Diario regional de Talca, Maule
   - RSS: `https://www.atentos.cl/feed/`
@@ -547,7 +547,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Ñuble (10 medios)
 
-*Descargar OPML regional: [`nuble.opml`](regions/nuble.opml)*
+*Descargar OPML regional: [`nuble.opml`](dist/opml/regions/nuble.opml)*
 
 - **Chillán Online**: Diario regional de Chillán, Ñuble
   - RSS: `https://www.chillanonline.cl/V7/feed/`
@@ -574,7 +574,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Biobío (6 medios)
 
-*Descargar OPML regional: [`biobio.opml`](regions/biobio.opml)*
+*Descargar OPML regional: [`biobio.opml`](dist/opml/regions/biobio.opml)*
 
 - **Angelino**: Diario regional de Los Ángeles, Biobío
   - RSS: `https://www.angelino.cl/feed/`
@@ -591,7 +591,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Araucanía (19 medios)
 
-*Descargar OPML regional: [`araucania.opml`](regions/araucania.opml)*
+*Descargar OPML regional: [`araucania.opml`](dist/opml/regions/araucania.opml)*
 
 - **Alerta Noticias Temuco**: Diario regional de Temuco, La Araucanía
   - RSS: `https://alertanoticiastemuco.cl/feed/`
@@ -634,7 +634,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Los Ríos (7 medios)
 
-*Descargar OPML regional: [`los-rios.opml`](regions/los-rios.opml)*
+*Descargar OPML regional: [`los-rios.opml`](dist/opml/regions/los-rios.opml)*
 
 - **Central Noticias**: Diario regional de Panguipulli, Los Ríos
   - RSS: `https://centralnoticias.cl/?feed=rss2`
@@ -653,7 +653,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Los Lagos (13 medios)
 
-*Descargar OPML regional: [`los-lagos.opml`](regions/los-lagos.opml)*
+*Descargar OPML regional: [`los-lagos.opml`](dist/opml/regions/los-lagos.opml)*
 
 - **Central Noticia**: Diario regional de Osorno, Los Lagos
   - RSS: `https://www.centralnoticia.cl/feed/`
@@ -685,7 +685,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Aysén (4 medios)
 
-*Descargar OPML regional: [`aysen.opml`](regions/aysen.opml)*
+*Descargar OPML regional: [`aysen.opml`](dist/opml/regions/aysen.opml)*
 
 - **Aysén Ahora**: Diario regional de Puerto Aysén, Aysén
   - RSS: `https://aysenahora.cl/feed/`
@@ -698,7 +698,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 
 #### 📍 Magallanes y de la Antártica Chilena (7 medios)
 
-*Descargar OPML regional: [`magallanes.opml`](regions/magallanes.opml)*
+*Descargar OPML regional: [`magallanes.opml`](dist/opml/regions/magallanes.opml)*
 
 - **Diálogo Sur**: Diario regional de Punta Arenas, Magallanes
   - RSS: `https://dialogosur.cl/feed/`
@@ -737,7 +737,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 <a id="cat-business"></a>
 ### 💼 Negocios y Finanzas (7 feeds)
 
-*Descargar OPML: [`business.opml`](categories/business.opml)*
+*Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
 - **Diario Financiero**: Diario especializado en economía y negocios
   - RSS: `https://www.df.cl/noticias/site/list/port/rss.xml`
@@ -759,7 +759,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 <a id="cat-culture"></a>
 ### 🎨 Cultura y Divulgación (4 feeds)
 
-*Descargar OPML: [`culture.opml`](categories/culture.opml)*
+*Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
 - **CR2**: Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena
   - RSS: `https://www.cr2.cl/feed/`
@@ -775,7 +775,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 <a id="cat-sports"></a>
 ### ⚽ Deportes (10 feeds)
 
-*Descargar OPML: [`sports.opml`](categories/sports.opml)*
+*Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
 - **Al Aire Libre**: Medio chileno de noticias deportivas
   - RSS: `https://www.alairelibre.cl/feed.xml`
@@ -803,7 +803,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) —
 <a id="cat-community"></a>
 ### 👥 Comunidad (10 feeds)
 
-*Descargar OPML: [`community.opml`](categories/community.opml)*
+*Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
 
 - **Capa9** — Comunidad chilena de tecnología, hardware y reviews
   - Capa9 - Global: `https://www.capa9.net/forums/-/index.rss`
