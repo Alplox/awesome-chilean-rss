@@ -12,19 +12,25 @@
  * Para agregar nuevos sitios: edita feeds-database.json directamente,
  * luego corre este script para verificar y rellenar rss_url automáticamente.
  *
- * Uso: node validate_feeds.js [--update]
+ * Uso: node validate_feeds.js [--update] [--automatic]
  *      node validate_feeds.js --id <site-id> [--update]
- *      node validate_feeds.js --watchlist [--update]
  *      node validate_feeds.js --url <URL>
+ *      node validate_feeds.js --start-id <site-id> [--limit <N>]
+ *      node validate_feeds.js --from <N> --to <N> [--update]
  *      npm run validate
  *
  * Opciones:
- *   --update     Actualiza feeds-database.json con correcciones y redescubrimientos
- *                Por defecto solo valida sin modificar el archivo
- *   --automatic  Ejecuta en modo automático (sin prompts interactivos)
- *                Útil para CI o ejecución desatendida
- *   --watchlist  Solo valida los elementos en la watchlist (retest rápido)
- *   --url <URL>  Valida una URL específica directamente (test único)
+ *   --update         Actualiza feeds-database.json con correcciones y redescubrimientos
+ *                    Por defecto solo valida sin modificar el archivo
+ *   --automatic      Ejecuta en modo automático (sin prompts interactivos)
+ *                    Útil para CI o ejecución desatendida
+ *   --id <site-id>   Valida un sitio específico por su ID
+ *   --url <URL>      Valida una URL específica directamente (test único)
+ *   --start-id <id>  Comienza la validación desde este site-id (inclusive)
+ *   --from <N>       Índice numérico inicial (0-based)
+ *   --to <N>         Índice numérico final (inclusive)
+ *   --limit <N>      Máximo de sitios a validar (se aplica al final)
+ *   --watchlist      Muestra instrucciones para usar validate:watchlist
  */
 
 import { readFileSync, writeFileSync } from 'fs';
@@ -163,6 +169,144 @@ async function validateSingleUrl(url) {
   }
 }
 
+// ─── Helpers de redescubrimiento contextual ──────────────────────────────────
+
+/**
+ * Infiere patrones de URL preferidos desde el feed fallido para guiar el rediscovery.
+ * Combina señales de: segmentos de la URL original, nombre del feed, categoría.
+ */
+function getPreferredPatterns(feed, site) {
+  const patterns = [];
+  const name = (feed.name || '').toLowerCase();
+
+  // 1. Segmentos de la URL original
+  try {
+    const urlObj = new URL(feed.rss_url);
+    const segments = urlObj.pathname.split('/').filter(Boolean);
+    const generic = new Set(['feed', 'rss', 'atom', 'index', 'xml']);
+    for (let i = 0; i < segments.length; i++) {
+      const path = '/' + segments.slice(0, i + 1).join('/') + '/';
+      if (!generic.has(segments[i])) patterns.push(path);
+    }
+  } catch { /* URL inválida */ }
+
+  // 2. Palabras clave en el nombre del feed
+  if (/deporte(s)?|sport/.test(name)) {
+    patterns.push('/deportes/feed/rss/', '/deporte/feed/rss/', '/sports/feed/rss/');
+  }
+  if (/noticia|news/.test(name)) {
+    patterns.push('/noticias/feed/rss/', '/news/feed/rss/');
+  }
+  if (/econom|finanz|business/.test(name)) {
+    patterns.push('/economia/feed/rss/', '/finanzas/feed/rss/');
+  }
+  if (/tecnolog|tech/.test(name)) {
+    patterns.push('/tecnologia/feed/rss/', '/tech/feed/rss/');
+  }
+  if (/policial|seguridad/.test(name)) {
+    patterns.push('/policial/feed/rss/', '/seguridad/feed/rss/');
+  }
+  if (/cultura|cultur/.test(name)) {
+    patterns.push('/cultura/feed/rss/');
+  }
+  if (/opinion|opinión|columna/.test(name)) {
+    patterns.push('/opinion/feed/rss/', '/columnas/feed/rss/');
+  }
+
+  // 3. Categoría del feed/sitio
+  const category = feed.category ?? site.category;
+  if (category === 'sports') patterns.push('/deportes/feed/rss/', '/deporte/feed/rss/', '/sports/feed/rss/');
+  if (category === 'news' || category === 'news-international') patterns.push('/noticias/feed/rss/', '/news/feed/rss/');
+  if (category === 'business') patterns.push('/economia/feed/rss/', '/finanzas/feed/rss/');
+  if (category === 'technology') patterns.push('/tecnologia/feed/rss/', '/tech/feed/rss/');
+  if (category === 'culture') patterns.push('/cultura/feed/rss/');
+  if (category === 'opinion') patterns.push('/opinion/feed/rss/', '/columnas/feed/rss/');
+
+  return [...new Set(patterns)];
+}
+
+/**
+ * Comprueba si una URL de feed parece genérica (raíz del sitio) vs. específica de una sección.
+ */
+function isGenericFeedUrl(url) {
+  const genericBase = ['/feed/', '/rss/', '/atom/', '/feed.xml', '/rss.xml', '/atom.xml', '/index.xml'];
+  try {
+    const path = new URL(url).pathname.toLowerCase();
+    return genericBase.some(p => path === p || path.endsWith(p));
+  } catch {
+    return false;
+  }
+}
+
+function hasSpecificPath(url) {
+  const genericSegments = new Set(['feed', 'rss', 'atom', 'index', 'xml']);
+  try {
+    const segments = new URL(url).pathname.split('/').filter(Boolean);
+    return segments.some(s => !genericSegments.has(s));
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Decide si el feed descubierto (genérico) debería reemplazar al original (específico).
+ * En modo interactivo pregunta al usuario; en automático marca como broken.
+ */
+async function handleRediscoveryWithGuard(feed, site, results, found, shouldUpdate) {
+  const isNewUrl = found.feedUrl !== feed.rss_url;
+
+  if (!isNewUrl) {
+    // Misma URL — error intermitente
+    console.log(`   🔄 misma URL (posible error intermitente) — ${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''}`);
+    updateFeedState(feed, { status: 'active' }, shouldUpdate);
+    results.ok.push(feedLabel(site, feed));
+    return;
+  }
+
+  const looksGeneric = isGenericFeedUrl(found.feedUrl);
+  const wasSpecific = hasSpecificPath(feed.rss_url);
+  const nameHasTopic = /deporte(s)?|noticia|econom|tecnolog|cultura|policial|opinion|columna/.test((feed.name || '').toLowerCase());
+
+  if (looksGeneric && (wasSpecific || nameHasTopic)) {
+    if (!shouldUpdate || !process.stdin.isTTY || isAutomatic()) {
+      // Modo automático — no reemplazar, marcar como roto
+      console.log(`   ⚠️ feed descubierto parece genérico (${found.feedUrl}) — omitiendo para no degradar calidad`);
+      await handleRediscoveryFail(feed, site, results, 'broken', shouldUpdate);
+      return;
+    }
+    // Modo interactivo — preguntar
+    const replace = await promptUser(
+      `   ⚠️ El feed original (${feed.rss_url}) parece específico,\n` +
+      `     pero se encontró un feed genérico (${found.feedUrl}).\n` +
+      `     ¿Reemplazar de todas formas? [s/N]: `,
+      { defaultYes: false }
+    );
+    if (!replace) {
+      console.log(`   → manteniendo feed original como broken`);
+      await handleRediscoveryFail(feed, site, results, 'broken', shouldUpdate);
+      return;
+    }
+    console.log(`   → reemplazando con feed genérico (confirmado por usuario)`);
+  }
+
+  console.log(`   🔄 nueva URL: ${found.feedUrl} (${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''})`);
+  updateFeedState(feed, { status: 'active', feedType: found.feedType, rssUrl: found.feedUrl }, shouldUpdate);
+  results.fixed.push(feedLabel(site, feed));
+}
+
+/**
+ * Cache de checkSiteStatus para evitar consultas repetidas al mismo dominio.
+ */
+function createSiteStatusCache() {
+  const cache = new Map();
+  return async function getCachedSiteStatus(url) {
+    if (!cache.has(url)) {
+      cache.set(url, await checkSiteStatus(url));
+    }
+    return cache.get(url);
+  };
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -175,9 +319,30 @@ async function main() {
   const hasUrlMode = args.includes('--url');
   const targetId = args.includes('--id') ? args[args.indexOf('--id') + 1] : null;
   const targetUrl = hasUrlMode ? args[args.indexOf('--url') + 1] : null;
+  const targetFrom = args.includes('--from') ? parseInt(args[args.indexOf('--from') + 1], 10) : null;
+  const targetTo = args.includes('--to') ? parseInt(args[args.indexOf('--to') + 1], 10) : null;
+  const targetStartId = args.includes('--start-id') ? args[args.indexOf('--start-id') + 1] : null;
+  const targetLimit = args.includes('--limit') ? parseInt(args[args.indexOf('--limit') + 1], 10) : null;
 
   if (args.includes('--id') && (!targetId || targetId.startsWith('--'))) {
     console.error('❌ Error: --id requiere un valor (ID del sitio)');
+    process.exit(1);
+  }
+
+  if (args.includes('--from') && (targetFrom === null || isNaN(targetFrom))) {
+    console.error('❌ Error: --from requiere un número válido');
+    process.exit(1);
+  }
+  if (args.includes('--to') && (targetTo === null || isNaN(targetTo))) {
+    console.error('❌ Error: --to requiere un número válido');
+    process.exit(1);
+  }
+  if (args.includes('--start-id') && (!targetStartId || targetStartId.startsWith('--'))) {
+    console.error('❌ Error: --start-id requiere un valor (ID del sitio)');
+    process.exit(1);
+  }
+  if (args.includes('--limit') && (targetLimit === null || isNaN(targetLimit))) {
+    console.error('❌ Error: --limit requiere un número válido');
     process.exit(1);
   }
 
@@ -198,6 +363,7 @@ async function main() {
   }
 
   let sitesToValidate = db.sites;
+
   if (targetId) {
     sitesToValidate = db.sites.filter(s => s.id === targetId);
     if (sitesToValidate.length === 0) {
@@ -206,19 +372,53 @@ async function main() {
     }
   }
 
+  // --start-id: saltar hasta encontrar este ID
+  if (targetStartId) {
+    const startIdx = sitesToValidate.findIndex(s => s.id === targetStartId);
+    if (startIdx === -1) {
+      console.error(`❌ Sitio con ID "${targetStartId}" no encontrado para --start-id`);
+      process.exit(1);
+    }
+    sitesToValidate = sitesToValidate.slice(startIdx);
+  }
+
+  // --from: índice numérico inicial
+  if (targetFrom !== null) {
+    sitesToValidate = sitesToValidate.slice(targetFrom);
+  }
+
+  // --to: índice numérico final (inclusive)
+  if (targetTo !== null) {
+    sitesToValidate = sitesToValidate.slice(0, targetTo + 1);
+  }
+
+  // --limit: máximo de sitios
+  if (targetLimit !== null) {
+    sitesToValidate = sitesToValidate.slice(0, targetLimit);
+  }
+
+  if (sitesToValidate.length === 0) {
+    console.log('🏁 No hay sitios para validar en el rango especificado.');
+    return;
+  }
+
   const totalFeeds = sitesToValidate.reduce((sum, site) => sum + site.feeds.length, 0);
 
   console.log(`🔍 Revalidando ${sitesToValidate.length} sitio${sitesToValidate.length > 1 ? 's' : ''} (${totalFeeds} feed${totalFeeds > 1 ? 's' : ''}) desde feeds-database.json\n`);
   console.log('='.repeat(55));
 
   const results = { ok: [], fixed: [], stale: [], broken: [], offline: [], noFeed: [] };
+  const getCachedSiteStatus = createSiteStatusCache();
 
   for (const site of sitesToValidate) {
     console.log(`\n📌 ${site.name} (${site.feeds.length} feed${site.feeds.length > 1 ? 's' : ''})`);
 
     // Pre-check all feeds for this site in parallel (network-bound phase)
-    const checkResults = await Promise.all(
+    const settledResults = await Promise.allSettled(
       site.feeds.map(feed => checkFeedUrl(feed.rss_url))
+    );
+    const checkResults = settledResults.map(r =>
+      r.status === 'fulfilled' ? r.value : { error: 'error inesperado', code: null }
     );
 
     let siteDecision = null;
@@ -281,17 +481,10 @@ async function main() {
       const isBroken = BROKEN_ERRORS.includes(checkResult.error);
       if (isBroken) {
         console.log(`   ⚠️  contenido inválido — intentando redescubrir...`);
-        const found = await rediscoverFeed(site.url);
+        const hints = getPreferredPatterns(feed, site);
+        const found = await rediscoverFeed(site.url, hints);
         if (found.feedUrl) {
-            if (found.feedUrl === feed.rss_url) {
-            console.log(`   🔄 misma URL (posible error intermitente) — ${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''}`);
-            updateFeedState(feed, { status: 'active' }, shouldUpdate);
-            results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
-          } else {
-            console.log(`   🔄 nueva URL: ${found.feedUrl} (${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''})`);
-            updateFeedState(feed, { status: 'active', feedType: found.feedType, rssUrl: found.feedUrl }, shouldUpdate);
-            results.fixed.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
-          }
+          await handleRediscoveryWithGuard(feed, site, results, found, shouldUpdate);
         } else {
           console.log(`   ❌ feed no recuperable`);
           await handleRediscoveryFail(feed, site, results, 'broken', shouldUpdate);
@@ -299,7 +492,7 @@ async function main() {
         continue;
       }
 
-      const siteStatus = await checkSiteStatus(site.url);
+      const siteStatus = await getCachedSiteStatus(site.url);
 
       if (siteStatus === 'down') {
         if (siteDecision) {
@@ -362,18 +555,11 @@ async function main() {
       }
 
       process.stdout.write('   ⚠️  redescubriendo... ');
-      const found = await rediscoverFeed(site.url);
+      const hints = getPreferredPatterns(feed, site);
+      const found = await rediscoverFeed(site.url, hints);
 
-        if (found.feedUrl) {
-        if (found.feedUrl === feed.rss_url) {
-          console.log(`🔄 misma URL (posible error intermitente) — ${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''}`);
-          updateFeedState(feed, { status: 'active' }, shouldUpdate);
-          results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
-        } else {
-          console.log(`🔄 nueva URL: ${found.feedUrl} (${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''})`);
-          updateFeedState(feed, { status: 'active', feedType: found.feedType, rssUrl: found.feedUrl }, shouldUpdate);
-          results.fixed.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
-        }
+      if (found.feedUrl) {
+        await handleRediscoveryWithGuard(feed, site, results, found, shouldUpdate);
       } else {
         const rediscoverError = found.code
           ? `${found.error} (${found.code})`

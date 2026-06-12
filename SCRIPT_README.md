@@ -13,6 +13,9 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 |                                          | `npm run validate -- --id <site-id>`            | Valida solo un sitio específico por su ID                                      |
 |                                          | `npm run validate -- --id <site-id> --update`  | Valida y actualiza solo un sitio específico                                    |
 |                                          | `npm run validate -- --url <URL>`               | Valida una URL específica (feed o sitio) sin modificar BD          |
+|                                          | `npm run validate -- --start-id <id> [--limit <N>]` | Valida desde un site-id en adelante (opcionalmente limitado)      |
+|                                          | `npm run validate -- --from <N> --to <N>`       | Valida un rango numérico de sitios (--to inclusive)               |
+|                                          | `npm run validate -- --limit <N>`               | Valida solo los primeros N sitios                                   |
 |                                          | `npm run validate -- --watchlist`               | Muestra instrucciones para usar `npm run validate:watchlist`                            |
 |                                          | `npm run validate -- --update --automatic`      | Modo no interactivo para CI/desatendido                            |
 | `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json`, `categories.json` y `regions.json`, regenera `dist/opml/chilean-rss.opml`, `dist/opml/chilean-rss-regions.opml`, `dist/opml/regions/*.opml`, `dist/opml/categories/*.opml` y README |
@@ -157,6 +160,21 @@ npm run validate -- --update --automatic
 npm run validate -- --id nombre-del-sitio --update
 ```
 
+### Validación parcial por rango
+
+Útil para ejecuciones masivas por lotes o retomar validaciones interrumpidas:
+
+```bash
+# Validar desde un site-id en adelante (los primeros 25)
+npm run validate -- --start-id bbc-mundo --limit 25
+
+# Validar un rango numérico (inclusive)
+npm run validate -- --from 50 --to 100 --update
+
+# Validar solo los primeros 10 sitios
+npm run validate -- --limit 10 --automatic
+```
+
 ## Estructura de archivos
 
 ### `feeds-database.json`
@@ -246,7 +264,30 @@ Estructura site-like con `feeds: []` y campos extra `reason` + `description`. Cu
 
 ## Algoritmo de descubrimiento
 
-Los feeds se verifican **en paralelo por sitio** (`Promise.all`) para maximizar velocidad.
+Los feeds se verifican **en paralelo por sitio** (`Promise.allSettled`) para que la caída de un feed no interrumpa la validación de los demás.
+
+### Redescubrimiento contextual
+
+Cuando un feed falla, el script infiere patrones de URL preferidos desde 3 señales:
+- **Segmentos de la URL original** del feed roto (ej. `/deportes/feed/rss/`)
+- **Palabras clave en el nombre** del feed (ej. "Deportes" → patrones de deportes)
+- **Categoría** del feed o sitio padre (`feed.category ?? site.category`)
+
+Estos patrones se anteponen a los patrones genéricos (`FEED_PATTERNS`) en la etapa 4 del redescubrimiento, aumentando la probabilidad de encontrar la URL correcta del subfeed.
+
+### Protección contra reemplazo genérico
+
+Si el feed original parece específico (tenía path segments como `/deportes/`) y el redescubrimiento solo encuentra un feed genérico (`/feed/`), el script:
+- **Modo interactivo**: pregunta al usuario si reemplazar de todas formas
+- **Modo automático** (`--automatic`): omite el reemplazo y marca el feed como `broken`
+
+Esto evita degradar silenciosamente la base de datos reemplazando subfeeds temáticos por el feed principal del sitio.
+
+### Cache de estado del sitio
+
+`checkSiteStatus` se cachea por dominio para evitar consultas de red redundantes cuando un sitio tiene múltiples feeds fallidos.
+
+### Flujo por feed
 
 Para cada feed en `sites[]`:
 
@@ -258,11 +299,12 @@ Para cada feed en `sites[]`:
    - Si no hay fechas en los items, usa `<lastBuildDate>` del canal como fallback
 
 2. **URL responde con HTML, XML inválido o vacío** → `status: broken`
-   - Intenta redescubrir el feed en el HTML raíz del sitio
-   - Si encuentra nueva URL → actualiza `rss_url` y marca `active`
+   - Intenta redescubrir el feed en el HTML raíz del sitio (con contexto del feed original)
+   - Si encuentra nueva URL → valida con la protección contra reemplazo genérico
+   - Si es segura → actualiza `rss_url` y marca `active`
 
 3. **URL da HTTP error o timeout**
-   - Verifica si el sitio raíz responde mediante:
+   - Verifica si el sitio raíz responde mediante (usando cache por dominio):
      - **TLS socket** (puerto 443) — detecta si el sitio acepta conexiones SSL
      - **HTTPS sin verificación** (`rejectUnauthorized: false`) — para certificados vencidos
      - **HTTP** (puerto 80) — para sitios bloqueados por CDN (Cloudflare, etc.)
@@ -271,8 +313,8 @@ Para cada feed en `sites[]`:
      1. **HTTP Link header** (`Link: <...>; rel="alternate"`)
      2. **HTML `<link>` tags** (`<link rel="alternate" type="application/rss+xml">`)
      3. **JSON-LD** (`<script type="application/ld+json">` con `WebFeed`)
-     4. **Patrones URL comunes** (`/feed/`, `/rss/`, CMS patterns, well-known URIs)
-   - Si encuentra nueva URL → actualiza `rss_url` y marca `active`
+     4. **Patrones URL** (primero los preferidos por contexto, luego los comunes)
+   - Si encuentra nueva URL → valida con la protección contra reemplazo genérico
    - Si no encuentra → solicita URL manual o estado (interactivo) o marca `no_feed` (automático)
 
 4. **Decisiones cacheadas por sitio**: cuando el usuario confirma un estado para el primer feed,

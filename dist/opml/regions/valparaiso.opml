@@ -7,19 +7,19 @@
     <ownerName>Alplox</ownerName>
   </head>
   <body>
-    <outline type="rss" text="Aconcagua Digital" title="Aconcagua Digital" xmlUrl="https://aconcaguadigital.cl/feed/" htmlUrl="https://aconcaguadigital.cl"/>
-    <outline type="rss" text="Alerta Noticias" title="Alerta Noticias" xmlUrl="https://alertanoticias.cl/feed" htmlUrl="https://alertanoticias.cl"/>
-    <outline type="rss" text="Diario El Porteño" title="Diario El Porteño" xmlUrl="https://elporteno.cl/feed" htmlUrl="https://elporteno.cl"/>
-    <outline type="rss" text="Diario La Quinta" title="Diario La Quinta" xmlUrl="https://www.diariolaquinta.cl/feed/" htmlUrl="https://www.diariolaquinta.cl"/>
-    <outline type="rss" text="El Aconcagua" title="El Aconcagua" xmlUrl="https://www.elaconcagua.cl/feed/" htmlUrl="https://www.elaconcagua.cl"/>
-    <outline type="rss" text="El Informador" title="El Informador" xmlUrl="https://www.elinformador.cl/feed/" htmlUrl="https://www.elinformador.cl"/>
-    <outline type="rss" text="El Líder" title="El Líder" xmlUrl="https://www.lidersanantonio.cl/?feed=rss2" htmlUrl="https://www.lidersanantonio.cl"/>
-    <outline type="rss" text="El Observador" title="El Observador" xmlUrl="https://www.observador.cl/feed/" htmlUrl="https://www.observador.cl"/>
-    <outline type="rss" text="El Proa" title="El Proa" xmlUrl="https://www.elproa.cl/feed/" htmlUrl="https://www.elproa.cl"/>
-    <outline type="rss" text="El Trabajo" title="El Trabajo" xmlUrl="https://www.eltrabajo.cl/?feed=rss2" htmlUrl="https://www.eltrabajo.cl"/>
-    <outline type="rss" text="La Estrella de Valparaíso" title="La Estrella de Valparaíso" xmlUrl="https://estrellavalpo.cl/?feed=rss2" htmlUrl="https://estrellavalpo.cl"/>
-    <outline type="rss" text="Más Noticia" title="Más Noticia" xmlUrl="https://www.masnoticia.cl/feed/" htmlUrl="https://www.masnoticia.cl"/>
-    <outline type="rss" text="Mi San Felipe" title="Mi San Felipe" xmlUrl="https://www.misanfelipe.cl/feed" htmlUrl="https://www.misanfelipe.cl"/>
-    <outline type="rss" text="Montealegre" title="Montealegre" xmlUrl="https://montealegre.cl/feed" htmlUrl="https://montealegre.cl"/>
+    <outline type="rss" text="Aconcagua Digital" title="Aconcagua Digital" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://aconcaguadigital.cl/feed/" htmlUrl="https://aconcaguadigital.cl"/>
+    <outline type="rss" text="Alerta Noticias" title="Alerta Noticias" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://alertanoticias.cl/feed" htmlUrl="https://alertanoticias.cl"/>
+    <outline type="rss" text="Diario El Porteño" title="Diario El Porteño" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://elporteno.cl/feed" htmlUrl="https://elporteno.cl"/>
+    <outline type="rss" text="Diario La Quinta" title="Diario La Quinta" description="Diario regional de Valparaíso, Valparaíso" xmlUrl="https://www.diariolaquinta.cl/feed/" htmlUrl="https://www.diariolaquinta.cl"/>
+    <outline type="rss" text="El Aconcagua" title="El Aconcagua" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://www.elaconcagua.cl/feed/" htmlUrl="https://www.elaconcagua.cl"/>
+    <outline type="rss" text="El Informador" title="El Informador" description="Diario regional de Los Andes, Valparaíso" xmlUrl="https://www.elinformador.cl/feed/" htmlUrl="https://www.elinformador.cl"/>
+    <outline type="rss" text="El Líder" title="El Líder" description="Diario regional de San Antonio, Valparaíso" xmlUrl="https://www.lidersanantonio.cl/?feed=rss2" htmlUrl="https://www.lidersanantonio.cl"/>
+    <outline type="rss" text="El Observador" title="El Observador" description="Diario regional de Quillota, Valparaíso" xmlUrl="https://www.observador.cl/feed/" htmlUrl="https://www.observador.cl"/>
+    <outline type="rss" text="El Proa" title="El Proa" description="Diario regional de San Antonio, Valparaíso" xmlUrl="https://www.elproa.cl/feed/" htmlUrl="https://www.elproa.cl"/>
+    <outline type="rss" text="El Trabajo" title="El Trabajo" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://www.eltrabajo.cl/?feed=rss2" htmlUrl="https://www.eltrabajo.cl"/>
+    <outline type="rss" text="La Estrella de Valparaíso" title="La Estrella de Valparaíso" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://estrellavalpo.cl/?feed=rss2" htmlUrl="https://estrellavalpo.cl"/>
+    <outline type="rss" text="Más Noticia" title="Más Noticia" description="Diario regional de Quillota, Valparaíso" xmlUrl="https://www.masnoticia.cl/feed/" htmlUrl="https://www.masnoticia.cl"/>
+    <outline type="rss" text="Mi San Felipe" title="Mi San Felipe" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://www.misanfelipe.cl/feed" htmlUrl="https://www.misanfelipe.cl"/>
+    <outline type="rss" text="Montealegre" title="Montealegre" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://montealegre.cl/feed" htmlUrl="https://montealegre.cl"/>
   </body>
 </opml>

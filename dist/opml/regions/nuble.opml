@@ -7,17 +7,17 @@
     <ownerName>Alplox</ownerName>
   </head>
   <body>
-    <outline type="rss" text="Chillán Online" title="Chillán Online" xmlUrl="https://www.chillanonline.cl/V7/feed/" htmlUrl="https://www.chillanonline.cl"/>
-    <outline type="rss" text="El Sancarlino" title="El Sancarlino" xmlUrl="https://www.elsancarlino.cl/rss.xml" htmlUrl="https://www.elsancarlino.cl"/>
-    <outline type="rss" text="La Discusión" title="La Discusión" xmlUrl="https://www.ladiscusion.cl/rss" htmlUrl="https://www.ladiscusion.cl"/>
-    <outline type="rss" text="La Discusión" title="La Discusión" xmlUrl="https://ladiscusion.cl/feed" htmlUrl="https://www.ladiscusion.cl"/>
-    <outline type="rss" text="La Fontana" title="La Fontana" xmlUrl="https://www.lafontana.cl/feed/" htmlUrl="https://www.lafontana.cl"/>
-    <outline type="rss" text="Municipalidad de Cobquecura" title="Municipalidad de Cobquecura" xmlUrl="https://www.cobquecura.cl/feed" htmlUrl="https://www.cobquecura.cl"/>
-    <outline type="rss" text="Ñuble Actual" title="Ñuble Actual" xmlUrl="https://www.nubleactual.cl/feed" htmlUrl="https://www.nubleactual.cl"/>
-    <outline type="rss" text="Ñuble Digital" title="Ñuble Digital" xmlUrl="https://www.nubledigital.cl/feed/" htmlUrl="https://www.nubledigital.cl"/>
-    <outline type="rss" text="Ñuble Online" title="Ñuble Online" xmlUrl="https://nubleonline.cl/feed" htmlUrl="https://nubleonline.cl"/>
-    <outline type="rss" text="San Carlos Al Día" title="San Carlos Al Día" xmlUrl="https://www.sancarlosaldia.cl/feed/" htmlUrl="https://www.sancarlosaldia.cl"/>
-    <outline type="rss" text="San Carlos On Line" title="San Carlos On Line" xmlUrl="https://www.sancarlosonline.cl/rss.xml" htmlUrl="https://www.sancarlosonline.cl"/>
-    <outline type="rss" text="San Carlos Online" title="San Carlos Online" xmlUrl="https://www.sancarlosonline.cl/feeds/posts/default?alt=rss" htmlUrl="https://www.sancarlosonline.cl"/>
+    <outline type="rss" text="Chillán Online" title="Chillán Online" description="Diario regional de Chillán, Ñuble" xmlUrl="https://www.chillanonline.cl/V7/feed/" htmlUrl="https://www.chillanonline.cl"/>
+    <outline type="rss" text="El Sancarlino" title="El Sancarlino" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.elsancarlino.cl/rss.xml" htmlUrl="https://www.elsancarlino.cl"/>
+    <outline type="rss" text="La Discusión" title="La Discusión" description="Diario de Ñuble - Medios regionales" xmlUrl="https://www.ladiscusion.cl/rss" htmlUrl="https://www.ladiscusion.cl"/>
+    <outline type="rss" text="La Discusión" title="La Discusión" description="Diario de Ñuble - Medios regionales" xmlUrl="https://ladiscusion.cl/feed" htmlUrl="https://www.ladiscusion.cl"/>
+    <outline type="rss" text="La Fontana" title="La Fontana" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.lafontana.cl/feed/" htmlUrl="https://www.lafontana.cl"/>
+    <outline type="rss" text="Municipalidad de Cobquecura" title="Municipalidad de Cobquecura" description="Medio de comunicación de la Región de Ñuble." xmlUrl="https://www.cobquecura.cl/feed" htmlUrl="https://www.cobquecura.cl"/>
+    <outline type="rss" text="Ñuble Actual" title="Ñuble Actual" description="Medio de comunicación de la Región de Ñuble." xmlUrl="https://www.nubleactual.cl/feed" htmlUrl="https://www.nubleactual.cl"/>
+    <outline type="rss" text="Ñuble Digital" title="Ñuble Digital" description="Diario regional de Chillán, Ñuble" xmlUrl="https://www.nubledigital.cl/feed/" htmlUrl="https://www.nubledigital.cl"/>
+    <outline type="rss" text="Ñuble Online" title="Ñuble Online" description="Medio de comunicación de la Región de Ñuble." xmlUrl="https://nubleonline.cl/feed" htmlUrl="https://nubleonline.cl"/>
+    <outline type="rss" text="San Carlos Al Día" title="San Carlos Al Día" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosaldia.cl/feed/" htmlUrl="https://www.sancarlosaldia.cl"/>
+    <outline type="rss" text="San Carlos On Line" title="San Carlos On Line" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosonline.cl/rss.xml" htmlUrl="https://www.sancarlosonline.cl"/>
+    <outline type="rss" text="San Carlos Online" title="San Carlos Online" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosonline.cl/feeds/posts/default?alt=rss" htmlUrl="https://www.sancarlosonline.cl"/>
   </body>
 </opml>

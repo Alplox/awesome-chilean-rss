@@ -37,6 +37,49 @@ node scripts/core/validate_feeds.js --id ejemplo-cl --update
 
 ---
 
+### 📐 Modo rango numérico: `--from <N> --to <N>`
+
+Valida un rango de sitios por índice numérico (inclusive).
+
+```bash
+# Validar sitios del índice 50 al 100
+node scripts/core/validate_feeds.js --from 50 --to 100 --update
+
+# Solo validación, sin cambios
+node scripts/core/validate_feeds.js --from 0 --to 10 --automatic
+```
+
+Útil para ejecuciones por lotes o para retomar desde un punto específico.
+
+---
+
+### 🏁 Modo desde ID: `--start-id <site-id>`
+
+Comienza la validación desde un site-id específico (inclusive). Ideal para reanudar validaciones largas después de una interrupción.
+
+```bash
+# Desde un ID, solo los primeros 25
+node scripts/core/validate_feeds.js --start-id bbc-mundo --limit 25 --automatic
+
+# Desde un ID, hasta el final
+node scripts/core/validate_feeds.js --start-id bbc-mundo --update
+```
+
+Se puede combinar con `--limit` para controlar cuántos sitios procesar.
+
+---
+
+### 🔢 Modo límite: `--limit <N>`
+
+Procesa solo los primeros N sitios. Se aplica al final, después de cualquier otro filtro.
+
+```bash
+node scripts/core/validate_feeds.js --limit 5 --automatic
+node scripts/core/validate_feeds.js --start-id adnradio --limit 10
+```
+
+---
+
 ### 🔄 Modo completo: Sin opciones
 
 Valida todos los feeds de `sites` en feeds-database.json.
@@ -121,6 +164,9 @@ En ambos modos:
 | ------------------------ | ------------ | ----------- | --------- | ------------------- |
 | `--url <URL>`            | 1 feed/sitio | ❌ No       | ⚡ Rápido | Test individual     |
 | `--id <id>` + `--update`| 1 sitio BD   | ✅ Sí       | ⚡ Rápido | Fix individual      |
+| `--from <N> --to <N>`    | Rango BD     | según flag  | 🐢 Lento  | Lote por índice     |
+| `--start-id <id>`        | Desde ID     | según flag  | 🐢 Lento  | Reanudar validación |
+| `--limit <N>`            | Primeros N   | según flag  | 🐢 Lento  | Muestra rápida      |
 | Sin opciones             | Todos (BD)   | ❌ No       | 🐢 Lento  | Solo validación     |
 | `--automatic`            | Todos (BD)   | ❌ No       | 🐢 Lento  | CI / pre-commit    |
 | `--update --automatic`   | Todos (BD)   | ✅ Sí       | 🐢 Lento  | Batch silencioso    |
@@ -166,15 +212,40 @@ La lógica de validación está organizada en módulos separados:
 
 ## Algoritmo de redescubrimiento
 
+### Redescubrimiento contextual
+
+Cuando un feed falla, el script genera patrones de URL preferidos basados en:
+- **Segmentos de la URL original** del feed roto
+- **Palabras clave en el nombre** del feed
+- **Categoría** del feed o sitio padre
+
+Estos patrones se anteponen a los genéricos en la etapa 4, aumentando la probabilidad de hallar la URL correcta del subfeed.
+
+### Protección contra reemplazo genérico
+
+Si el feed original tiene un path específico (ej. `/deportes/`) y el redescubrimiento solo encuentra uno genérico (`/feed/`):
+- **Interactivo**: pregunta al usuario antes de reemplazar
+- **Automático** (`--automatic`): omite el reemplazo, marca `broken`
+
+Esto evita degradar la base reemplazando subfeeds temáticos por el feed principal.
+
+### Cache de estado del sitio
+
+`checkSiteStatus` se cachea por dominio para evitar consultas redundantes cuando un sitio tiene múltiples feeds fallidos.
+
+### Flujo
+
 Cuando una URL de feed falla:
 
 1. **Contenido inválido (HTML, XML roto, feed vacío)**
    - El sitio está vivo → intenta redescubrir el feed en el HTML raíz
-   - Si encuentra una URL nueva → actualiza `rss_url`, marca `active`
+   - Usa patrones preferidos según el contexto del feed original
+   - Si encuentra una URL nueva → aplica la protección contra reemplazo genérico
+   - Si es segura o el usuario confirma → actualiza `rss_url`, marca `active`
    - Si falla → marca `broken`
 
 2. **HTTP error o timeout**
-   - Verifica si el sitio raíz responde (HEAD/GET con detección de TLS)
+   - Verifica si el sitio raíz responde (HEAD/GET con detección de TLS, cacheado por dominio)
    - **SSL vencido** → intenta leer el feed ignorando el certificado
    - **Bloqueado por CDN** (Cloudflare) → cae a HTTP (puerto 80)
    - **Sitio realmente caído** → marca `offline` (con confirmación interactiva)
@@ -182,8 +253,8 @@ Cuando una URL de feed falla:
      1. **HTTP Link header** (`Link: <...>; rel="alternate"`)
      2. **HTML `<link>` tags** + `application/feed+json`
      3. **JSON-LD** (`WebFeed` type con `url`)
-     4. **Patrones URL comunes** (CMS, well-known, `/feed.json`)
-   - Si encuentra nueva URL → actualiza `rss_url` y marca `active`
+     4. **Patrones URL** (primero los preferidos por contexto, luego los comunes)
+   - Si encuentra nueva URL → aplica la protección contra reemplazo genérico
    - Si no encuentra → marca `no_feed`
 
 3. **Decisiones cacheadas** por sitio: una vez que el usuario confirma el estado

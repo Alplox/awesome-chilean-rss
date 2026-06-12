@@ -7,32 +7,32 @@
     <ownerName>Alplox</ownerName>
   </head>
   <body>
-    <outline type="rss" text="David Noticias" title="David Noticias" xmlUrl="https://www.davidnoticias.cl/feed/" htmlUrl="https://www.davidnoticias.cl"/>
-    <outline type="rss" text="Diario El Día" title="Diario El Día" xmlUrl="https://www.diarioeldia.cl/rss/global.xml" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Actualidad" title="Diario El Día - Actualidad" xmlUrl="https://www.diarioeldia.cl/rss/actualidad" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Deportes" title="Diario El Día - Deportes" xmlUrl="https://www.diarioeldia.cl/rss/deportes" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Economía" title="Diario El Día - Economía" xmlUrl="https://www.diarioeldia.cl/rss/economia" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Educación" title="Diario El Día - Educación" xmlUrl="https://www.diarioeldia.cl/rss/educacion" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Magazine" title="Diario El Día - Magazine" xmlUrl="https://www.diarioeldia.cl/rss/magazine" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Mundo" title="Diario El Día - Mundo" xmlUrl="https://www.diarioeldia.cl/rss/mundo" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - País" title="Diario El Día - País" xmlUrl="https://www.diarioeldia.cl/rss/pais" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Policial" title="Diario El Día - Policial" xmlUrl="https://www.diarioeldia.cl/rss/policial" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Política" title="Diario El Día - Política" xmlUrl="https://www.diarioeldia.cl/rss/politica" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Región" title="Diario El Día - Región" xmlUrl="https://www.diarioeldia.cl/rss/region" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Salud" title="Diario El Día - Salud" xmlUrl="https://www.diarioeldia.cl/rss/salud" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Tendencias" title="Diario El Día - Tendencias" xmlUrl="https://www.diarioeldia.cl/rss/tendencias" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Tiempo Libre" title="Diario El Día - Tiempo Libre" xmlUrl="https://www.diarioeldia.cl/rss/tiempo-libre" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario El Día - Últimas noticias" title="Diario El Día - Últimas noticias" xmlUrl="https://www.diarioeldia.cl/rss/noticias" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="Diario La Región" title="Diario La Región" xmlUrl="https://www.diariolaregion.cl/feed/" htmlUrl="https://www.diariolaregion.cl"/>
-    <outline type="rss" text="El Andacollino" title="El Andacollino" xmlUrl="https://www.elandacollino.cl/feed" htmlUrl="https://www.elandacollino.cl"/>
-    <outline type="rss" text="El Coquimbano" title="El Coquimbano" xmlUrl="https://www.elcoquimbano.cl/feed/" htmlUrl="https://www.elcoquimbano.cl"/>
-    <outline type="rss" text="El Ovallino" title="El Ovallino" xmlUrl="https://www.elovallino.cl/feed/" htmlUrl="https://www.elovallino.cl"/>
-    <outline type="rss" text="El Regional" title="El Regional" xmlUrl="https://www.elregional.cl/?feed=rss2" htmlUrl="https://www.elregional.cl"/>
-    <outline type="rss" text="El Serenense" title="El Serenense" xmlUrl="https://www.elserenense.cl/feed/" htmlUrl="https://www.elserenense.cl"/>
-    <outline type="rss" text="El Vicuñense" title="El Vicuñense" xmlUrl="https://www.xn--elvicuense-y9a.cl/feed/" htmlUrl="https://www.xn--elvicuense-y9a.cl"/>
-    <outline type="rss" text="Elqui Global" title="Elqui Global" xmlUrl="https://www.elquiglobal.cl/feed" htmlUrl="https://www.elquiglobal.cl"/>
-    <outline type="rss" text="La Perla del Limarí" title="La Perla del Limarí" xmlUrl="https://www.laperladellimari.cl/feed/" htmlUrl="https://www.laperladellimari.cl"/>
-    <outline type="rss" text="La Serena Online" title="La Serena Online" xmlUrl="https://www.laserenaonline.cl/feed/" htmlUrl="https://www.laserenaonline.cl"/>
-    <outline type="rss" text="Ovalle Hoy" title="Ovalle Hoy" xmlUrl="https://www.ovallehoy.cl/feed/" htmlUrl="https://www.ovallehoy.cl"/>
+    <outline type="rss" text="David Noticias" title="David Noticias" description="Diario regional de Los Vilos, Coquimbo" xmlUrl="https://www.davidnoticias.cl/feed/" htmlUrl="https://www.davidnoticias.cl"/>
+    <outline type="rss" text="Diario El Día" title="Diario El Día" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/global.xml" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Actualidad" title="Diario El Día - Actualidad" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/actualidad" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Deportes" title="Diario El Día - Deportes" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/deportes" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Economía" title="Diario El Día - Economía" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/economia" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Educación" title="Diario El Día - Educación" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/educacion" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Magazine" title="Diario El Día - Magazine" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/magazine" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Mundo" title="Diario El Día - Mundo" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/mundo" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - País" title="Diario El Día - País" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/pais" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Policial" title="Diario El Día - Policial" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/policial" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Política" title="Diario El Día - Política" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/politica" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Región" title="Diario El Día - Región" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/region" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Salud" title="Diario El Día - Salud" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/salud" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Tendencias" title="Diario El Día - Tendencias" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/tendencias" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Tiempo Libre" title="Diario El Día - Tiempo Libre" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/tiempo-libre" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario El Día - Últimas noticias" title="Diario El Día - Últimas noticias" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/noticias" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="Diario La Región" title="Diario La Región" description="Diario regional de Coquimbo, Coquimbo" xmlUrl="https://www.diariolaregion.cl/feed/" htmlUrl="https://www.diariolaregion.cl"/>
+    <outline type="rss" text="El Andacollino" title="El Andacollino" description="Medio de comunicación de la Región de Coquimbo." xmlUrl="https://www.elandacollino.cl/feed" htmlUrl="https://www.elandacollino.cl"/>
+    <outline type="rss" text="El Coquimbano" title="El Coquimbano" description="Diario regional de Coquimbo, Coquimbo" xmlUrl="https://www.elcoquimbano.cl/feed/" htmlUrl="https://www.elcoquimbano.cl"/>
+    <outline type="rss" text="El Ovallino" title="El Ovallino" description="Diario regional de Ovalle, Coquimbo" xmlUrl="https://www.elovallino.cl/feed/" htmlUrl="https://www.elovallino.cl"/>
+    <outline type="rss" text="El Regional" title="El Regional" description="Diario regional de Coquimbo, Coquimbo" xmlUrl="https://www.elregional.cl/?feed=rss2" htmlUrl="https://www.elregional.cl"/>
+    <outline type="rss" text="El Serenense" title="El Serenense" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.elserenense.cl/feed/" htmlUrl="https://www.elserenense.cl"/>
+    <outline type="rss" text="El Vicuñense" title="El Vicuñense" description="Diario regional de Vicuña, Coquimbo" xmlUrl="https://www.xn--elvicuense-y9a.cl/feed/" htmlUrl="https://www.xn--elvicuense-y9a.cl"/>
+    <outline type="rss" text="Elqui Global" title="Elqui Global" description="Medio de comunicación de la Región de Coquimbo." xmlUrl="https://www.elquiglobal.cl/feed" htmlUrl="https://www.elquiglobal.cl"/>
+    <outline type="rss" text="La Perla del Limarí" title="La Perla del Limarí" description="Diario regional de Ovalle, Coquimbo" xmlUrl="https://www.laperladellimari.cl/feed/" htmlUrl="https://www.laperladellimari.cl"/>
+    <outline type="rss" text="La Serena Online" title="La Serena Online" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.laserenaonline.cl/feed/" htmlUrl="https://www.laserenaonline.cl"/>
+    <outline type="rss" text="Ovalle Hoy" title="Ovalle Hoy" description="Diario regional de Ovalle, Coquimbo" xmlUrl="https://www.ovallehoy.cl/feed/" htmlUrl="https://www.ovallehoy.cl"/>
   </body>
 </opml>

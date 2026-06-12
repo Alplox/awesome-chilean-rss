@@ -7,12 +7,12 @@
     <ownerName>Alplox</ownerName>
   </head>
   <body>
-    <outline type="rss" text="Diálogo Sur" title="Diálogo Sur" xmlUrl="https://dialogosur.cl/feed/" htmlUrl="https://dialogosur.cl"/>
-    <outline type="rss" text="El Magalánico" title="El Magalánico" xmlUrl="https://www.elmagallanico.com/feed/" htmlUrl="https://www.elmagallanico.com"/>
-    <outline type="rss" text="El Pingüino" title="El Pingüino" xmlUrl="https://www.elpinguino.com/feed/" htmlUrl="https://www.elpinguino.com"/>
-    <outline type="rss" text="El Tirapiedras" title="El Tirapiedras" xmlUrl="https://www.eltirapiedras.cl/feed/" htmlUrl="https://www.eltirapiedras.cl"/>
-    <outline type="rss" text="La Prensa Austral" title="La Prensa Austral" xmlUrl="https://laprensaaustral.cl/feed" htmlUrl="https://laprensaaustral.cl"/>
-    <outline type="rss" text="Ovejero Noticias" title="Ovejero Noticias" xmlUrl="https://www.ovejeronoticias.cl/feed/" htmlUrl="https://www.ovejeronoticias.cl"/>
-    <outline type="rss" text="Radio Magallanes" title="Radio Magallanes" xmlUrl="https://radiomagallanes.cl/feed" htmlUrl="https://radiomagallanes.cl"/>
+    <outline type="rss" text="Diálogo Sur" title="Diálogo Sur" description="Diario regional de Punta Arenas, Magallanes" xmlUrl="https://dialogosur.cl/feed/" htmlUrl="https://dialogosur.cl"/>
+    <outline type="rss" text="El Magalánico" title="El Magalánico" description="Diario regional de Punta Arenas, Magallanes" xmlUrl="https://www.elmagallanico.com/feed/" htmlUrl="https://www.elmagallanico.com"/>
+    <outline type="rss" text="El Pingüino" title="El Pingüino" description="Diario regional de Magallanes y la Antártica" xmlUrl="https://www.elpinguino.com/feed/" htmlUrl="https://www.elpinguino.com"/>
+    <outline type="rss" text="El Tirapiedras" title="El Tirapiedras" description="Diario regional de Puerto Natales, Magallanes" xmlUrl="https://www.eltirapiedras.cl/feed/" htmlUrl="https://www.eltirapiedras.cl"/>
+    <outline type="rss" text="La Prensa Austral" title="La Prensa Austral" description="Diario regional de Magallanes y la Antártica Chilena" xmlUrl="https://laprensaaustral.cl/feed" htmlUrl="https://laprensaaustral.cl"/>
+    <outline type="rss" text="Ovejero Noticias" title="Ovejero Noticias" description="Diario regional de Punta Arenas, Magallanes" xmlUrl="https://www.ovejeronoticias.cl/feed/" htmlUrl="https://www.ovejeronoticias.cl"/>
+    <outline type="rss" text="Radio Magallanes" title="Radio Magallanes" description="Medio de comunicación de la Región de Magallanes y de la Antártica Chilena." xmlUrl="https://radiomagallanes.cl/feed" htmlUrl="https://radiomagallanes.cl"/>
   </body>
 </opml>

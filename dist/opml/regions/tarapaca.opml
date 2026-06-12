@@ -7,15 +7,15 @@
     <ownerName>Alplox</ownerName>
   </head>
   <body>
-    <outline type="rss" text="CEI Noticias" title="CEI Noticias" xmlUrl="https://ceinoticias.cl/feed/" htmlUrl="https://ceinoticias.cl"/>
-    <outline type="rss" text="Chile Mosaico" title="Chile Mosaico" xmlUrl="https://chilemosaico.cl/eventos/feed/" htmlUrl="https://www.chilemosaico.cl"/>
-    <outline type="rss" text="Diario El Longino" title="Diario El Longino" xmlUrl="https://www.diariolongino.cl/feed/" htmlUrl="https://www.diariolongino.cl"/>
-    <outline type="rss" text="Diario El Nortino" title="Diario El Nortino" xmlUrl="https://diarioelnortino.cl/feed/" htmlUrl="https://diarioelnortino.cl"/>
-    <outline type="rss" text="El Reportero de Iquique" title="El Reportero de Iquique" xmlUrl="https://www.elreporterodeiquique.com/feed/" htmlUrl="https://www.elreporterodeiquique.com"/>
-    <outline type="rss" text="El Sol de Iquique" title="El Sol de Iquique" xmlUrl="https://www.elsoldeiquique.cl/feed/" htmlUrl="https://www.elsoldeiquique.cl"/>
-    <outline type="rss" text="Iquique TV" title="Iquique TV" xmlUrl="https://iquiquetv.cl/feed" htmlUrl="https://iquiquetv.cl"/>
-    <outline type="rss" text="La Estrella de Iquique" title="La Estrella de Iquique" xmlUrl="https://www.estrellaiquique.cl/?feed=rss2" htmlUrl="https://www.estrellaiquique.cl"/>
-    <outline type="rss" text="La Mega FM" title="La Mega FM" xmlUrl="https://www.lamegafm.cl/feed" htmlUrl="https://www.lamegafm.cl"/>
-    <outline type="rss" text="Tarapacá Online" title="Tarapacá Online" xmlUrl="https://www.tarapacaonline.cl/feed/" htmlUrl="https://www.tarapacaonline.cl"/>
+    <outline type="rss" text="CEI Noticias" title="CEI Noticias" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://ceinoticias.cl/feed/" htmlUrl="https://ceinoticias.cl"/>
+    <outline type="rss" text="Chile Mosaico" title="Chile Mosaico" description="Medio de comunicación de la Región de Tarapacá." xmlUrl="https://chilemosaico.cl/eventos/feed/" htmlUrl="https://www.chilemosaico.cl"/>
+    <outline type="rss" text="Diario El Longino" title="Diario El Longino" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.diariolongino.cl/feed/" htmlUrl="https://www.diariolongino.cl"/>
+    <outline type="rss" text="Diario El Nortino" title="Diario El Nortino" description="Diario regional de Alto Hospicio, Tarapacá" xmlUrl="https://diarioelnortino.cl/feed/" htmlUrl="https://diarioelnortino.cl"/>
+    <outline type="rss" text="El Reportero de Iquique" title="El Reportero de Iquique" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.elreporterodeiquique.com/feed/" htmlUrl="https://www.elreporterodeiquique.com"/>
+    <outline type="rss" text="El Sol de Iquique" title="El Sol de Iquique" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.elsoldeiquique.cl/feed/" htmlUrl="https://www.elsoldeiquique.cl"/>
+    <outline type="rss" text="Iquique TV" title="Iquique TV" description="Medio de comunicación de la Región de Tarapacá." xmlUrl="https://iquiquetv.cl/feed" htmlUrl="https://iquiquetv.cl"/>
+    <outline type="rss" text="La Estrella de Iquique" title="La Estrella de Iquique" description="Diario regional de Iquique" xmlUrl="https://www.estrellaiquique.cl/?feed=rss2" htmlUrl="https://www.estrellaiquique.cl"/>
+    <outline type="rss" text="La Mega FM" title="La Mega FM" description="Medio de comunicación de la Región de Tarapacá." xmlUrl="https://www.lamegafm.cl/feed" htmlUrl="https://www.lamegafm.cl"/>
+    <outline type="rss" text="Tarapacá Online" title="Tarapacá Online" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.tarapacaonline.cl/feed/" htmlUrl="https://www.tarapacaonline.cl"/>
   </body>
 </opml>

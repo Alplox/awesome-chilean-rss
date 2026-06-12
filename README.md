@@ -729,7 +729,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.lahora.cl/rss/global.xml`
 - **La Región Hoy**: Diario regional de Valparaíso, Valparaíso
   - RSS: `https://www.laregionhoy.cl/feed/`
-- **Los Ríos Al Día**: undefined
+- **Los Ríos Al Día**: 
   - RSS: `https://www.losriosaldia.cl/feed/`
 
 [↑ Volver al índice](#indice)
