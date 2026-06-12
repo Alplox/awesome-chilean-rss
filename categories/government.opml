@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (12 feeds)</title>
+    <description>Feeds RSS de 🏛️ Gobierno y Datos Públicos, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="ChileCompra" title="ChileCompra" xmlUrl="https://www.chilecompra.cl/rss" htmlUrl="https://www.chilecompra.cl"/>
+    <outline type="rss" text="CONAF" title="CONAF" xmlUrl="https://www.conaf.cl/feed/" htmlUrl="https://www.conaf.cl"/>
+    <outline type="rss" text="Contenidos" title="Contenidos" xmlUrl="https://www.sii.cl/pagina/actualizada/noticias/rss/siiall_rss.xml" htmlUrl="https://www.sii.cl"/>
+    <outline type="rss" text="Gobierno de Chile" title="Gobierno de Chile" xmlUrl="https://www.gob.cl/noticias/feed/rss/" htmlUrl="https://www.gob.cl"/>
+    <outline type="rss" text="Índices y Valores Económicos" title="Índices y Valores Económicos" xmlUrl="https://zeus.sii.cl/admin/rss/sii_ind_rss.xml" htmlUrl="https://www.sii.cl"/>
+    <outline type="rss" text="Licitaciones de convenio marco" title="Licitaciones de convenio marco" xmlUrl="http://www.mercadopublico.cl/Portal/feedinstitucion.aspx?qs=obQz-pFgoa_RoXw00app6Q==" htmlUrl="http://www.mercadopublico.cl"/>
+    <outline type="rss" text="Ministerio de Educación" title="Ministerio de Educación" xmlUrl="https://www.mineduc.cl/feed/" htmlUrl="https://www.mineduc.cl"/>
+    <outline type="rss" text="Ministerio de Salud" title="Ministerio de Salud" xmlUrl="https://www.minsal.cl/feed/" htmlUrl="https://www.minsal.cl"/>
+    <outline type="rss" text="Noticias" title="Noticias" xmlUrl="https://www.sii.cl/pagina/actualizada/noticias/rss/siinot_rss.xml" htmlUrl="https://www.sii.cl"/>
+    <outline type="rss" text="Subtel" title="Subtel" xmlUrl="https://www.subtel.gob.cl/feed/" htmlUrl="https://www.subtel.gob.cl"/>
+    <outline type="rss" text="SUSESO" title="SUSESO" xmlUrl="https://www.suseso.gob.cl/601/rss3-channel.rss" htmlUrl="https://www.suseso.gob.cl"/>
+    <outline type="rss" text="Últimas leyes publicadas" title="Últimas leyes publicadas" xmlUrl="http://feeds.feedburner.com/bcn/ulp?format=xml" htmlUrl="https://www.bcn.cl"/>
+  </body>
+</opml>

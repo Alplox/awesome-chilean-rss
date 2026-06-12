@@ -72,6 +72,14 @@ if (existsSync('regions')) {
   }
 }
 
+// 3. Validar archivos individuales por categoría en categories/
+if (existsSync('categories')) {
+  const files = readdirSync('categories').filter(f => f.endsWith('.opml'));
+  for (const file of files) {
+    validateFile(`categories/${file}`);
+  }
+}
+
 if (exitCode) {
   process.exit(1);
 }

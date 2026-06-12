@@ -104,6 +104,7 @@ const allFeeds = Object.values(feedsByCategory).flat();
 // Orden de categorías en el documento
 const CATEGORY_ORDER = [
   'news',
+  'news-international',
   'technology',
   'government',
   'universities',
@@ -128,6 +129,42 @@ function generateOPML() {
   const categoryBlocks = orderedCategories.map(cat => {
     const label = categories[cat] ?? cat;
     const feeds = feedsByCategory[cat] || [];
+
+    if (cat === 'regional') {
+      const regionFeeds = {};
+      for (const feed of feeds) {
+        if (feed.region && regions[feed.region]) {
+          (regionFeeds[feed.region] ??= []).push(feed);
+        }
+      }
+
+      const regionBlocks = Object.keys(regions)
+        .filter(regKey => regionFeeds[regKey]?.length > 0)
+        .map(regKey => {
+          const regLabel = regions[regKey];
+          const sorted = [...regionFeeds[regKey]].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+          const outlines = sorted
+            .map(feed =>
+              `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+            )
+            .join('\n');
+          return `      <outline text="${escapeXml(regLabel)}" title="${escapeXml(regLabel)}">\n${outlines}\n      </outline>`;
+        });
+
+      const unassigned = feeds.filter(f => !f.region || !regions[f.region]);
+      if (unassigned.length > 0) {
+        const sorted = [...unassigned].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+        const outlines = sorted
+          .map(feed =>
+            `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+          )
+          .join('\n');
+        regionBlocks.push(`      <outline text="Otras Regiones o No Especificada" title="Otras Regiones o No Especificada">\n${outlines}\n      </outline>`);
+      }
+
+      return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${regionBlocks.join('\n')}\n    </outline>`;
+    }
+
     const outlines = feeds
       .map(feed =>
         `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
@@ -226,6 +263,34 @@ ${outlines}
 `;
 }
 
+// ─── Generar OPML por Categoría Individual ───────────────────────────────────
+
+function generateIndividualCategoryOPML(catKey, feeds) {
+  const now = db.last_updated;
+  const label = categories[catKey] ?? catKey;
+  const totalFeeds = feeds.length;
+  const sortedFeeds = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+  const outlines = sortedFeeds
+    .map(feed =>
+      `    <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.siteUrl)}"/>`
+    )
+    .join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - ${escapeXml(label)} (${totalFeeds} feeds)</title>
+    <description>Feeds RSS de ${escapeXml(label)}, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>${now}</dateCreated>
+    <ownerName>${escapeXml(ownerName)}</ownerName>
+  </head>
+  <body>
+${outlines}
+  </body>
+</opml>
+`;
+}
+
 // ─── Generar README ───────────────────────────────────────────────────────────
 
 function feedCount(n) {
@@ -311,7 +376,7 @@ function generateReadme() {
 
       if (regionSubsections.length === 0) return null;
 
-      return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\nConsolidado regional: [\`chilean-rss-regions.opml\`](chilean-rss-regions.opml)\n\n${regionSubsections.join('\n\n')}\n\n[↑ Volver al índice](#indice)`;
+      return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\nConsolidado regional: [\`chilean-rss-regions.opml\`](chilean-rss-regions.opml) — OPML por categoría: [\`regional.opml\`](categories/regional.opml)\n\n${regionSubsections.join('\n\n')}\n\n[↑ Volver al índice](#indice)`;
     }
 
     const items = catSites.map(site => {
@@ -331,8 +396,10 @@ function generateReadme() {
 
     if (!items) return null;
 
-    return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\n${items}\n\n[↑ Volver al índice](#indice)`;
+    return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\n*Descargar OPML: [\`${cat}.opml\`](categories/${cat}.opml)*\n\n${items}\n\n[↑ Volver al índice](#indice)`;
   }).filter(Boolean).join('\n\n');
+
+  const regTotal = Object.values(feedsByRegion).flat().length;
 
   return `
 # Awesome Chilean RSS
@@ -346,6 +413,8 @@ function generateReadme() {
 
 1. **Importar en tu lector RSS favorito**: Descarga [\`chilean-rss.opml\`](chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: \`https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/chilean-rss.opml\`
+3. **¿Solo medios regionales?** Descarga [\`chilean-rss-regions.opml\`](chilean-rss-regions.opml) con ${regTotal} feeds agrupados por región
+4. **¿Una región específica?** Explora los OPML individuales en [\`regions/\`](regions/) o descarga por categoría en [\`categories/\`](categories/)
 
 ## 📝 Feeds disponibles (${total})
 
@@ -405,6 +474,19 @@ try {
     }
   }
   console.log(`✅ OPMLs individuales por región generados en el directorio regions/`);
+
+  // Individual category OPML files
+  if (!existsSync('categories')) {
+    mkdirSync('categories');
+  }
+  for (const catKey of orderedCategories) {
+    const feeds = feedsByCategory[catKey] || [];
+    if (feeds.length > 0) {
+      const catOpml = generateIndividualCategoryOPML(catKey, feeds);
+      writeFileSync(`categories/${catKey}.opml`, catOpml, 'utf-8');
+    }
+  }
+  console.log(`✅ OPMLs individuales por categoría generados en el directorio categories/`);
 
   // README.md
   const readme = generateReadme();

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - ⚽ Deportes (10 feeds)</title>
+    <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Al Aire Libre" title="Al Aire Libre" xmlUrl="https://www.alairelibre.cl/feed.xml" htmlUrl="https://www.alairelibre.cl"/>
+    <outline type="rss" text="Cooperativa - Deportes" title="Cooperativa - Deportes" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_1___1.xml" htmlUrl="https://www.cooperativa.cl"/>
+    <outline type="rss" text="CRTV Chile" title="CRTV Chile" xmlUrl="https://crtvchile.cl/rss" htmlUrl="https://crtvchile.cl"/>
+    <outline type="rss" text="Diario El Día - Deportes" title="Diario El Día - Deportes" xmlUrl="https://www.diarioeldia.cl/rss/deportes" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="El Minuto - Deporte" title="El Minuto - Deporte" xmlUrl="https://elminuto.cl/noticias/category/deporte/rss" htmlUrl="https://elminuto.cl/"/>
+    <outline type="rss" text="La Cuarta - Deportes" title="La Cuarta - Deportes" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Tercera - El Deportivo" title="La Tercera - El Deportivo" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/el-deportivo/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="Publimetro Chile - Deportes" title="Publimetro Chile - Deportes" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/deportes/?outputType=xml" htmlUrl="https://www.publimetro.cl"/>
+    <outline type="rss" text="Redgol" title="Redgol" xmlUrl="https://redgol.cl/rss/feed" htmlUrl="https://www.redgol.cl"/>
+    <outline type="rss" text="Terra - Deportes" title="Terra - Deportes" xmlUrl="https://www.terra.cl/rss/feed.html?r=3" htmlUrl="https://www.terra.cl"/>
+  </body>
+</opml>

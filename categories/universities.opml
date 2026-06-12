@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 🏫 Universidades e Investigación (6 feeds)</title>
+    <description>Feeds RSS de 🏫 Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="ANID" title="ANID" xmlUrl="https://www.anid.cl/rss" htmlUrl="https://www.anid.cl"/>
+    <outline type="rss" text="CEP Chile" title="CEP Chile" xmlUrl="https://www.cepchile.cl/feed" htmlUrl="https://www.cepchile.cl"/>
+    <outline type="rss" text="Pontificia Universidad Católica (PUC)" title="Pontificia Universidad Católica (PUC)" xmlUrl="https://www.uc.cl/rss/" htmlUrl="https://www.uc.cl"/>
+    <outline type="rss" text="Universidad de Concepción" title="Universidad de Concepción" xmlUrl="https://noticias.udec.cl/feed/" htmlUrl="https://noticias.udec.cl"/>
+    <outline type="rss" text="Universidad de La Frontera" title="Universidad de La Frontera" xmlUrl="https://www.ufro.cl/feed/" htmlUrl="https://www.ufro.cl"/>
+    <outline type="rss" text="Universidad de Talca" title="Universidad de Talca" xmlUrl="https://www.utalca.cl/noticias/feed/" htmlUrl="https://www.utalca.cl"/>
+  </body>
+</opml>

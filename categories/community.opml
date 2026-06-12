@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 👥 Comunidad (10 feeds)</title>
+    <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="#chile" title="#chile" xmlUrl="https://mastodon.cl/tags/chile.rss" htmlUrl="https://mastodon.cl"/>
+    <outline type="rss" text="#tecnología" title="#tecnología" xmlUrl="https://mastodon.cl/tags/tecnología.rss" htmlUrl="https://mastodon.cl"/>
+    <outline type="rss" text="Capa9 - Global" title="Capa9 - Global" xmlUrl="https://www.capa9.net/forums/-/index.rss" htmlUrl="https://www.capa9.net"/>
+    <outline type="rss" text="Capa9 - Reviews" title="Capa9 - Reviews" xmlUrl="https://www.capa9.net/foro/reviews.45/index.rss" htmlUrl="https://www.capa9.net"/>
+    <outline type="rss" text="Colemono" title="Colemono" xmlUrl="https://colemono.com/feed/" htmlUrl="https://colemono.com"/>
+    <outline type="rss" text="r/Chile" title="r/Chile" xmlUrl="https://www.reddit.com/r/chile/.rss" htmlUrl="https://www.reddit.com/"/>
+    <outline type="rss" text="r/chileit" title="r/chileit" xmlUrl="https://www.reddit.com/r/chileit/.rss" htmlUrl="https://www.reddit.com/"/>
+    <outline type="rss" text="r/RepublicaDeChile" title="r/RepublicaDeChile" xmlUrl="https://www.reddit.com/r/republicadechile/.rss" htmlUrl="https://www.reddit.com/"/>
+    <outline type="rss" text="r/Santiago" title="r/Santiago" xmlUrl="https://www.reddit.com/r/Santiago/.rss" htmlUrl="https://www.reddit.com/"/>
+    <outline type="rss" text="Vanguardia Gamer" title="Vanguardia Gamer" xmlUrl="https://vanguardiagamer.cl/feed/" htmlUrl="https://vanguardiagamer.cl"/>
+  </body>
+</opml>

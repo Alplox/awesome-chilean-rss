@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (73 feeds)</title>
+    <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="BioBioChile" title="BioBioChile" xmlUrl="https://feeds.feedburner.com/radiobiobio/NNeJ" htmlUrl="https://www.biobiochile.cl"/>
+    <outline type="rss" text="Cambio21" title="Cambio21" xmlUrl="https://cambio21.cl/rss" htmlUrl="https://cambio21.cl"/>
+    <outline type="rss" text="Ciper Chile" title="Ciper Chile" xmlUrl="https://www.ciperchile.cl/feed/" htmlUrl="https://www.ciperchile.cl"/>
+    <outline type="rss" text="Cooperativa - Corporativo" title="Cooperativa - Corporativo" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_16___1.xml" htmlUrl="https://www.cooperativa.cl"/>
+    <outline type="rss" text="Cooperativa - Entretención" title="Cooperativa - Entretención" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_4___1.xml" htmlUrl="https://www.cooperativa.cl"/>
+    <outline type="rss" text="Cooperativa - País" title="Cooperativa - País" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_3___1.xml" htmlUrl="https://www.cooperativa.cl"/>
+    <outline type="rss" text="Cooperativa - Sociedad" title="Cooperativa - Sociedad" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_7___1.xml" htmlUrl="https://www.cooperativa.cl"/>
+    <outline type="rss" text="Desenfoque" title="Desenfoque" xmlUrl="https://desenfoque.cl/feed/" htmlUrl="https://desenfoque.cl"/>
+    <outline type="rss" text="El Ciudadano" title="El Ciudadano" xmlUrl="https://www.elciudadano.com/feed/" htmlUrl="https://www.elciudadano.com"/>
+    <outline type="rss" text="El Clarín de Chile" title="El Clarín de Chile" xmlUrl="https://www.elclarin.cl/feed" htmlUrl="https://www.elclarin.cl"/>
+    <outline type="rss" text="El Desconcierto - Actualidad" title="El Desconcierto - Actualidad" xmlUrl="https://eldesconcierto.cl/rss/pages/actualidad.xml" htmlUrl="https://eldesconcierto.cl"/>
+    <outline type="rss" text="El Desconcierto - Entrevistas" title="El Desconcierto - Entrevistas" xmlUrl="https://eldesconcierto.cl/rss/pages/entrevistas.xml" htmlUrl="https://eldesconcierto.cl"/>
+    <outline type="rss" text="El Desconcierto - Hoja de Ruta" title="El Desconcierto - Hoja de Ruta" xmlUrl="https://eldesconcierto.cl/rss/pages/hoja-de-ruta.xml" htmlUrl="https://eldesconcierto.cl"/>
+    <outline type="rss" text="El Desconcierto - Medio Ambiente" title="El Desconcierto - Medio Ambiente" xmlUrl="https://eldesconcierto.cl/rss/pages/medio_ambiente.xml" htmlUrl="https://eldesconcierto.cl"/>
+    <outline type="rss" text="El Desconcierto - Opinión" title="El Desconcierto - Opinión" xmlUrl="https://eldesconcierto.cl/rss/pages/opinion.xml" htmlUrl="https://eldesconcierto.cl"/>
+    <outline type="rss" text="El Desconcierto - Reportajes" title="El Desconcierto - Reportajes" xmlUrl="https://eldesconcierto.cl/rss/pages/reportajes.xml" htmlUrl="https://eldesconcierto.cl"/>
+    <outline type="rss" text="El Desconcierto - Tendencias" title="El Desconcierto - Tendencias" xmlUrl="https://eldesconcierto.cl/rss/pages/tendencias.xml" htmlUrl="https://eldesconcierto.cl"/>
+    <outline type="rss" text="El Desconcierto - Últimas Noticias" title="El Desconcierto - Últimas Noticias" xmlUrl="https://eldesconcierto.cl/rss/pages/ultimas-noticias.xml" htmlUrl="https://eldesconcierto.cl"/>
+    <outline type="rss" text="El Minuto" title="El Minuto" xmlUrl="https://elminuto.cl/feed/" htmlUrl="https://elminuto.cl/"/>
+    <outline type="rss" text="El Minuto - Análisis y Seguridad" title="El Minuto - Análisis y Seguridad" xmlUrl="https://elminuto.cl/noticias/category/analisis-y-seguridad/rss" htmlUrl="https://elminuto.cl/"/>
+    <outline type="rss" text="El Minuto - Chile" title="El Minuto - Chile" xmlUrl="https://elminuto.cl/noticias/category/chile/rss" htmlUrl="https://elminuto.cl/"/>
+    <outline type="rss" text="El Minuto - Coliseo Político" title="El Minuto - Coliseo Político" xmlUrl="https://elminuto.cl/noticias/category/coliseo-politico/rss" htmlUrl="https://elminuto.cl/"/>
+    <outline type="rss" text="El Minuto - Entrevistas" title="El Minuto - Entrevistas" xmlUrl="https://elminuto.cl/noticias/category/entrevistas/rss" htmlUrl="https://elminuto.cl/"/>
+    <outline type="rss" text="El Minuto - Opinión" title="El Minuto - Opinión" xmlUrl="https://elminuto.cl/noticias/category/opinion/rss" htmlUrl="https://elminuto.cl/"/>
+    <outline type="rss" text="El Minuto - Reportajes" title="El Minuto - Reportajes" xmlUrl="https://elminuto.cl/noticias/category/reportajes/rss" htmlUrl="https://elminuto.cl/"/>
+    <outline type="rss" text="El Quinto Poder" title="El Quinto Poder" xmlUrl="https://www.elquintopoder.cl/feed/" htmlUrl="https://www.elquintopoder.cl"/>
+    <outline type="rss" text="El Siglo" title="El Siglo" xmlUrl="https://elsiglo.cl/feed/" htmlUrl="https://elsiglo.cl"/>
+    <outline type="rss" text="Ex-Ante" title="Ex-Ante" xmlUrl="https://www.ex-ante.cl/feed/" htmlUrl="https://www.ex-ante.cl"/>
+    <outline type="rss" text="Ex-Ante - After Office" title="Ex-Ante - After Office" xmlUrl="https://www.ex-ante.cl/category/afteroffice/rss" htmlUrl="https://www.ex-ante.cl"/>
+    <outline type="rss" text="Ex-Ante - Cine y Series" title="Ex-Ante - Cine y Series" xmlUrl="https://www.ex-ante.cl/category/cine-y-series/rss" htmlUrl="https://www.ex-ante.cl"/>
+    <outline type="rss" text="Ex-Ante - Entrevistas" title="Ex-Ante - Entrevistas" xmlUrl="https://www.ex-ante.cl/category/entrevista/rss" htmlUrl="https://www.ex-ante.cl"/>
+    <outline type="rss" text="Ex-Ante - Internacional" title="Ex-Ante - Internacional" xmlUrl="https://www.ex-ante.cl/category/internacional/rss" htmlUrl="https://www.ex-ante.cl"/>
+    <outline type="rss" text="Ex-Ante - Nacional" title="Ex-Ante - Nacional" xmlUrl="https://www.ex-ante.cl/category/nacional/rss" htmlUrl="https://www.ex-ante.cl"/>
+    <outline type="rss" text="Ex-Ante - Política" title="Ex-Ante - Política" xmlUrl="https://www.ex-ante.cl/category/politica/rss" htmlUrl="https://www.ex-ante.cl"/>
+    <outline type="rss" text="FastCheckCL" title="FastCheckCL" xmlUrl="https://fastcheck.cl/feed/" htmlUrl="https://fastcheck.cl"/>
+    <outline type="rss" text="G5 Noticias" title="G5 Noticias" xmlUrl="https://g5noticias.cl/feed/" htmlUrl="https://g5noticias.cl"/>
+    <outline type="rss" text="Ilustrado" title="Ilustrado" xmlUrl="https://www.ilustrado.cl/feed/" htmlUrl="https://www.ilustrado.cl/"/>
+    <outline type="rss" text="Interferencia" title="Interferencia" xmlUrl="https://interferencia.cl/rss.xml" htmlUrl="https://interferencia.cl"/>
+    <outline type="rss" text="La Cuarta - Chile" title="La Cuarta - Chile" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/chile/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Espectáculos" title="La Cuarta - Espectáculos" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/espectaculos/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Glamorama" title="La Cuarta - Glamorama" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/glamorama/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Servicios" title="La Cuarta - Servicios" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Tendencias" title="La Cuarta - Tendencias" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Urbana" title="La Cuarta - Urbana" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/urbana/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Videos" title="La Cuarta - Videos" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/videos/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Máquina Medio" title="La Máquina Medio" xmlUrl="https://lamaquinamedio.com/feed/" htmlUrl="https://lamaquinamedio.com"/>
+    <outline type="rss" text="La Nación" title="La Nación" xmlUrl="https://www.lanacion.cl/feed/" htmlUrl="https://www.lanacion.cl"/>
+    <outline type="rss" text="La Tercera" title="La Tercera" xmlUrl="https://www.latercera.com/rss/" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Board" title="La Tercera - Board" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/lt-board/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Cartas al Director" title="La Tercera - Cartas al Director" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/cartas-al-director/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Editorial" title="La Tercera - Editorial" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/editorial/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Finde" title="La Tercera - Finde" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/finde/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Minería" title="La Tercera - Minería" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/mineria/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Nacional" title="La Tercera - Nacional" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/nacional/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Opinión" title="La Tercera - Opinión" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/opinion/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Política" title="La Tercera - Política" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/politica/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Revista Paula" title="La Tercera - Revista Paula" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/paula/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Servicios" title="La Tercera - Servicios" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="La Tercera - Tendencias" title="La Tercera - Tendencias" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="Piensa Chile" title="Piensa Chile" xmlUrl="https://piensachile.com/feed/" htmlUrl="https://piensachile.com"/>
+    <outline type="rss" text="Publimetro Chile" title="Publimetro Chile" xmlUrl="https://www.publimetro.cl/arc/outboundfeeds/rss/?outputType=xml" htmlUrl="https://www.publimetro.cl"/>
+    <outline type="rss" text="Publimetro Chile - Entretenimiento" title="Publimetro Chile - Entretenimiento" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/entretenimiento/?outputType=xml" htmlUrl="https://www.publimetro.cl"/>
+    <outline type="rss" text="Publimetro Chile - Estilo de Vida" title="Publimetro Chile - Estilo de Vida" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/estilo-vida/?outputType=xml" htmlUrl="https://www.publimetro.cl"/>
+    <outline type="rss" text="Publimetro Chile - Noticias" title="Publimetro Chile - Noticias" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/noticias/?outputType=xml" htmlUrl="https://www.publimetro.cl"/>
+    <outline type="rss" text="Publimetro Chile - Social" title="Publimetro Chile - Social" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/social/?outputType=xml" htmlUrl="https://www.publimetro.cl"/>
+    <outline type="rss" text="Santiago Times" title="Santiago Times" xmlUrl="https://santiagotimes.cl/feed/" htmlUrl="https://santiagotimes.cl"/>
+    <outline type="rss" text="Terra - Entretenimiento" title="Terra - Entretenimiento" xmlUrl="https://www.terra.cl/rss/feed.html?r=5" htmlUrl="https://www.terra.cl"/>
+    <outline type="rss" text="Terra - Estilo de vida" title="Terra - Estilo de vida" xmlUrl="https://www.terra.cl/rss/feed.html?r=4" htmlUrl="https://www.terra.cl"/>
+    <outline type="rss" text="Terra - Nacionales" title="Terra - Nacionales" xmlUrl="https://www.terra.cl/rss/feed.html?r=1" htmlUrl="https://www.terra.cl"/>
+    <outline type="rss" text="Terra - Tendencias" title="Terra - Tendencias" xmlUrl="https://www.terra.cl/rss/feed.html?r=6" htmlUrl="https://www.terra.cl"/>
+    <outline type="rss" text="Terra - Últimas Noticias" title="Terra - Últimas Noticias" xmlUrl="https://www.terra.cl/rss/feed.html" htmlUrl="https://www.terra.cl"/>
+    <outline type="rss" text="Terra - Últimas Noticias con imágenes" title="Terra - Últimas Noticias con imágenes" xmlUrl="https://www.terra.cl/rss/un_foto.html" htmlUrl="https://www.terra.cl"/>
+    <outline type="rss" text="The Clinic" title="The Clinic" xmlUrl="https://www.theclinic.cl/feed/" htmlUrl="https://www.theclinic.cl"/>
+  </body>
+</opml>

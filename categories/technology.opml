@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (21 feeds)</title>
+    <description>Feeds RSS de 💻 Tecnología y Startups, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="ACTI" title="ACTI" xmlUrl="https://acti.cl/feed/" htmlUrl="https://acti.cl"/>
+    <outline type="rss" text="Alerta Geek" title="Alerta Geek" xmlUrl="https://alertageekchile.cl/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alianza Chilena de Ciberseguridad" title="Alianza Chilena de Ciberseguridad" xmlUrl="https://alianzaciberseguridad.cl/category/blog/feed/" htmlUrl="https://alianzaciberseguridad.cl"/>
+    <outline type="rss" text="Buda.com" title="Buda.com" xmlUrl="https://www.buda.com/blog/feed/" htmlUrl="https://www.buda.com"/>
+    <outline type="rss" text="Cooperativa - Tecnología" title="Cooperativa - Tecnología" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_8___1.xml" htmlUrl="https://www.cooperativa.cl"/>
+    <outline type="rss" text="CriptoNoticias" title="CriptoNoticias" xmlUrl="https://www.criptonoticias.com/feed/" htmlUrl="https://www.criptonoticias.com"/>
+    <outline type="rss" text="CriptoNoticias Bitcoin en Chile" title="CriptoNoticias Bitcoin en Chile" xmlUrl="https://www.criptonoticias.com/etiquetas/bitcoin-chile/feed/" htmlUrl="https://www.criptonoticias.com"/>
+    <outline type="rss" text="Derechos Digitales" title="Derechos Digitales" xmlUrl="https://www.derechosdigitales.org/feed/" htmlUrl="https://www.derechosdigitales.org"/>
+    <outline type="rss" text="Entreprenerd" title="Entreprenerd" xmlUrl="https://www.entnerd.com/rss/global.xml" htmlUrl="https://www.entnerd.com"/>
+    <outline type="rss" text="Ex-Ante - Ciencia y Tecnología" title="Ex-Ante - Ciencia y Tecnología" xmlUrl="https://www.ex-ante.cl/category/ciencia-tecnologia/rss" htmlUrl="https://www.ex-ante.cl"/>
+    <outline type="rss" text="FayerWayer" title="FayerWayer" xmlUrl="https://www.fayerwayer.com/feed/" htmlUrl="https://www.fayerwayer.com"/>
+    <outline type="rss" text="Geeketing.com" title="Geeketing.com" xmlUrl="https://geeketing.com/feed/" htmlUrl="https://geeketing.com"/>
+    <outline type="rss" text="La Tercera - Tecnología" title="La Tercera - Tecnología" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/tecnologia/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="MADBOXPC" title="MADBOXPC" xmlUrl="https://www.madboxpc.com/feed/" htmlUrl="https://www.madboxpc.com"/>
+    <outline type="rss" text="Netsus" title="Netsus" xmlUrl="https://netsus.com/blog/feed/" htmlUrl="https://netsus.com"/>
+    <outline type="rss" text="Pisapapeles" title="Pisapapeles" xmlUrl="https://pisapapeles.net/feed/" htmlUrl="https://pisapapeles.net"/>
+    <outline type="rss" text="Tarreo Gamer" title="Tarreo Gamer" xmlUrl="https://www.tarreo.com/feed/" htmlUrl="https://www.tarreo.com"/>
+    <outline type="rss" text="tichile" title="tichile" xmlUrl="https://www.tichile.cl/feed/" htmlUrl="https://www.tichile.cl"/>
+    <outline type="rss" text="TransMedia" title="TransMedia" xmlUrl="https://www.transmedia.cl/feed/" htmlUrl="https://www.transmedia.cl"/>
+    <outline type="rss" text="trendTIC" title="trendTIC" xmlUrl="https://www.trendtic.cl/feed/" htmlUrl="https://www.trendtic.cl"/>
+    <outline type="rss" text="TXS+" title="TXS+" xmlUrl="https://txsplus.com/feed/" htmlUrl="https://txsplus.com"/>
+  </body>
+</opml>

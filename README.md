@@ -10,6 +10,8 @@
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/chilean-rss.opml`
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](chilean-rss-regions.opml) con 202 feeds agrupados por región
+4. **¿Una región específica?** Explora los OPML individuales en [`regions/`](regions/) o descarga por categoría en [`categories/`](categories/)
 
 ## 📝 Feeds disponibles (351)
 
@@ -17,6 +19,7 @@
 ### 📑 Índice de categorías
 
 - [📰 Noticias Nacionales](#cat-news) — 73 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 10 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 21 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 12 feeds
 - [🏫 Universidades e Investigación](#cat-universities) — 6 feeds
@@ -25,10 +28,11 @@
 - [🎨 Cultura y Divulgación](#cat-culture) — 4 feeds
 - [⚽ Deportes](#cat-sports) — 10 feeds
 - [👥 Comunidad](#cat-community) — 10 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 10 feeds
 
 <a id="cat-news"></a>
 ### 📰 Noticias Nacionales (73 feeds)
+
+*Descargar OPML: [`news.opml`](categories/news.opml)*
 
 - **BioBioChile**: Portal de noticias generales con cobertura nacional e internacional
   - RSS: `https://feeds.feedburner.com/radiobiobio/NNeJ`
@@ -131,8 +135,38 @@
 
 [↑ Volver al índice](#indice)
 
+<a id="cat-news-international"></a>
+### 🌐 Noticias Internacionales (10 feeds)
+
+*Descargar OPML: [`news-international.opml`](categories/news-international.opml)*
+
+- **BBC Mundo**: Cobertura de noticias globales y análisis desde una perspectiva internacional
+  - RSS: `https://feeds.bbci.co.uk/news/world/latin_america/rss.xml`
+- **Diario El Día**: Diario regional de La Serena, Coquimbo
+  - RSS: `https://www.diarioeldia.cl/rss/mundo`
+- **El Desconcierto**: Portal de noticias con cobertura en política, derechos humanos, medioambiente y cultura
+  - RSS: `https://eldesconcierto.cl/rss/pages/mundo.xml`
+- **El Minuto**: Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales
+  - RSS: `https://elminuto.cl/noticias/category/mundo/rss`
+- **El País**: Medio de comunicación español de noticias internacionales
+  - RSS: `https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/chile/portada`
+- **France 24**: Medio de comunicación francés de noticias internacionales
+  - RSS: `https://www.france24.com/es/america-latina/rss`
+- **La Cuarta**: Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención.
+  - RSS: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml`
+- **La Tercera**: Diario con cobertura nacional, internacional y económica
+  - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml`
+- **Radio Cooperativa**: Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional
+  - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml`
+- **Terra Chile**: Portal de noticias generalista con cobertura nacional e internacional
+  - RSS: `https://www.terra.cl/rss/feed.html?r=2`
+
+[↑ Volver al índice](#indice)
+
 <a id="cat-technology"></a>
 ### 💻 Tecnología y Startups (21 feeds)
+
+*Descargar OPML: [`technology.opml`](categories/technology.opml)*
 
 - **ACTI**: Asociación Chilena de Empresas de Tecnologías de Información - Gremio de TI en Chile
   - RSS: `https://acti.cl/feed/`
@@ -181,6 +215,8 @@
 <a id="cat-government"></a>
 ### 🏛️ Gobierno y Datos Públicos (12 feeds)
 
+*Descargar OPML: [`government.opml`](categories/government.opml)*
+
 - **Biblioteca del Congreso Nacional (BCN)**: Biblioteca del Congreso Nacional de Chile - Servicios de información legislativa y parlamentaria
   - RSS: `http://feeds.feedburner.com/bcn/ulp?format=xml`
 - **ChileCompra**: Plataforma estatal de licitaciones y compras públicas
@@ -209,6 +245,8 @@
 <a id="cat-universities"></a>
 ### 🏫 Universidades e Investigación (6 feeds)
 
+*Descargar OPML: [`universities.opml`](categories/universities.opml)*
+
 - **ANID**: Agencia Nacional de Investigación y Desarrollo
   - RSS: `https://www.anid.cl/rss`
 - **CEP Chile**: Centro de estudios e investigación dedicado al análisis de políticas públicas, economía y ciencias sociales en Chile.
@@ -227,7 +265,7 @@
 <a id="cat-regional"></a>
 ### 🌎 Medios Regionales (198 feeds)
 
-Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml)
+Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](categories/regional.opml)
 
 #### 📍 Arica y Parinacota (10 medios)
 
@@ -699,6 +737,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml)
 <a id="cat-business"></a>
 ### 💼 Negocios y Finanzas (7 feeds)
 
+*Descargar OPML: [`business.opml`](categories/business.opml)*
+
 - **Diario Financiero**: Diario especializado en economía y negocios
   - RSS: `https://www.df.cl/noticias/site/list/port/rss.xml`
 - **El Minuto**: Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales
@@ -719,6 +759,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml)
 <a id="cat-culture"></a>
 ### 🎨 Cultura y Divulgación (4 feeds)
 
+*Descargar OPML: [`culture.opml`](categories/culture.opml)*
+
 - **CR2**: Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena
   - RSS: `https://www.cr2.cl/feed/`
 - **La Tercera**: Diario con cobertura nacional, internacional y económica
@@ -732,6 +774,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml)
 
 <a id="cat-sports"></a>
 ### ⚽ Deportes (10 feeds)
+
+*Descargar OPML: [`sports.opml`](categories/sports.opml)*
 
 - **Al Aire Libre**: Medio chileno de noticias deportivas
   - RSS: `https://www.alairelibre.cl/feed.xml`
@@ -759,6 +803,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml)
 <a id="cat-community"></a>
 ### 👥 Comunidad (10 feeds)
 
+*Descargar OPML: [`community.opml`](categories/community.opml)*
+
 - **Capa9** — Comunidad chilena de tecnología, hardware y reviews
   - Capa9 - Global: `https://www.capa9.net/forums/-/index.rss`
   - Capa9 - Reviews: `https://www.capa9.net/foro/reviews.45/index.rss`
@@ -774,32 +820,6 @@ Consolidado regional: [`chilean-rss-regions.opml`](chilean-rss-regions.opml)
   - r/Santiago: `https://www.reddit.com/r/Santiago/.rss`
 - **Vanguardia Gamer**: Comunidad y noticias de videojuegos en Chile
   - RSS: `https://vanguardiagamer.cl/feed/`
-
-[↑ Volver al índice](#indice)
-
-<a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (10 feeds)
-
-- **BBC Mundo**: Cobertura de noticias globales y análisis desde una perspectiva internacional
-  - RSS: `https://feeds.bbci.co.uk/news/world/latin_america/rss.xml`
-- **Diario El Día**: Diario regional de La Serena, Coquimbo
-  - RSS: `https://www.diarioeldia.cl/rss/mundo`
-- **El Desconcierto**: Portal de noticias con cobertura en política, derechos humanos, medioambiente y cultura
-  - RSS: `https://eldesconcierto.cl/rss/pages/mundo.xml`
-- **El Minuto**: Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales
-  - RSS: `https://elminuto.cl/noticias/category/mundo/rss`
-- **El País**: Medio de comunicación español de noticias internacionales
-  - RSS: `https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/chile/portada`
-- **France 24**: Medio de comunicación francés de noticias internacionales
-  - RSS: `https://www.france24.com/es/america-latina/rss`
-- **La Cuarta**: Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención.
-  - RSS: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml`
-- **La Tercera**: Diario con cobertura nacional, internacional y económica
-  - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml`
-- **Radio Cooperativa**: Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional
-  - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml`
-- **Terra Chile**: Portal de noticias generalista con cobertura nacional e internacional
-  - RSS: `https://www.terra.cl/rss/feed.html?r=2`
 
 [↑ Volver al índice](#indice)
 

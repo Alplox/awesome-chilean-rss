@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 💼 Negocios y Finanzas (7 feeds)</title>
+    <description>Feeds RSS de 💼 Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Cooperativa - Economía" title="Cooperativa - Economía" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml" htmlUrl="https://www.cooperativa.cl"/>
+    <outline type="rss" text="Diario Financiero" title="Diario Financiero" xmlUrl="https://www.df.cl/noticias/site/list/port/rss.xml" htmlUrl="https://www.df.cl"/>
+    <outline type="rss" text="El Minuto - Economía" title="El Minuto - Economía" xmlUrl="https://elminuto.cl/noticias/category/economia/rss" htmlUrl="https://elminuto.cl/"/>
+    <outline type="rss" text="Ex-Ante - Economía" title="Ex-Ante - Economía" xmlUrl="https://www.ex-ante.cl/category/economia/rss" htmlUrl="https://www.ex-ante.cl"/>
+    <outline type="rss" text="La Tercera - Pulso" title="La Tercera - Pulso" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="MCH" title="MCH" xmlUrl="https://www.mch.cl/feed/" htmlUrl="https://www.mch.cl"/>
+    <outline type="rss" text="Terra - Economía" title="Terra - Economía" xmlUrl="https://www.terra.cl/rss/feed.html?r=7" htmlUrl="https://www.terra.cl"/>
+  </body>
+</opml>

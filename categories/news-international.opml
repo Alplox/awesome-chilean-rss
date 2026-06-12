@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (10 feeds)</title>
+    <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-12T05:14:24.077Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="BBC Mundo - Latin America" title="BBC Mundo - Latin America" xmlUrl="https://feeds.bbci.co.uk/news/world/latin_america/rss.xml" htmlUrl="https://www.bbc.com/mundo"/>
+    <outline type="rss" text="Cooperativa - Mundo" title="Cooperativa - Mundo" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml" htmlUrl="https://www.cooperativa.cl"/>
+    <outline type="rss" text="Diario El Día - Mundo" title="Diario El Día - Mundo" xmlUrl="https://www.diarioeldia.cl/rss/mundo" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="El Desconcierto - Mundo" title="El Desconcierto - Mundo" xmlUrl="https://eldesconcierto.cl/rss/pages/mundo.xml" htmlUrl="https://eldesconcierto.cl"/>
+    <outline type="rss" text="El Minuto - Mundo" title="El Minuto - Mundo" xmlUrl="https://elminuto.cl/noticias/category/mundo/rss" htmlUrl="https://elminuto.cl/"/>
+    <outline type="rss" text="El País - Chile - Portada" title="El País - Chile - Portada" xmlUrl="https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/chile/portada" htmlUrl="https://elpais.com/chile/"/>
+    <outline type="rss" text="France 24 - América Latina" title="France 24 - América Latina" xmlUrl="https://www.france24.com/es/america-latina/rss" htmlUrl="https://www.france24.com/es/america-latina"/>
+    <outline type="rss" text="La Cuarta - Mundo" title="La Cuarta - Mundo" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Tercera - Mundo" title="La Tercera - Mundo" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml" htmlUrl="https://www.latercera.com"/>
+    <outline type="rss" text="Terra - Mundo" title="Terra - Mundo" xmlUrl="https://www.terra.cl/rss/feed.html?r=2" htmlUrl="https://www.terra.cl"/>
+  </body>
+</opml>
