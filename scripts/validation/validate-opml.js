@@ -66,6 +66,10 @@ if (existsSync(`${OPML_DIR}/chilean-rss-regions.opml`)) {
   validateFile(`${OPML_DIR}/chilean-rss-regions.opml`);
 }
 
+if (existsSync(`${OPML_DIR}/chilean-rss-nested.opml`)) {
+  validateFile(`${OPML_DIR}/chilean-rss-nested.opml`);
+}
+
 // 2. Validar archivos individuales por región
 const regionsDir = `${OPML_DIR}/regions`;
 if (existsSync(regionsDir)) {

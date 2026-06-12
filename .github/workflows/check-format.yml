@@ -9,6 +9,7 @@ on:
       - 'categories.json'
       - 'scripts/**'
       - 'dist/opml/chilean-rss.opml'
+      - 'dist/opml/chilean-rss-nested.opml'
       - 'README.md'
       - '.github/workflows/*.yml'
   workflow_dispatch:

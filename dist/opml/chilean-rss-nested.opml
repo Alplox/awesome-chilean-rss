@@ -169,45 +169,52 @@
       <outline type="rss" text="Universidad de Talca" title="Universidad de Talca" description="Noticias e investigación de la Universidad de Talca" xmlUrl="https://www.utalca.cl/noticias/feed/" htmlUrl="https://www.utalca.cl"/>
     </outline>
     <outline text="🌎 Medios Regionales" title="🌎 Medios Regionales">
-      <outline type="rss" text="Aconcagua Digital" title="Aconcagua Digital" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://aconcaguadigital.cl/feed/" htmlUrl="https://aconcaguadigital.cl"/>
-      <outline type="rss" text="Alerta Noticias" title="Alerta Noticias" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://alertanoticias.cl/feed" htmlUrl="https://alertanoticias.cl"/>
-      <outline type="rss" text="Alerta Noticias Temuco" title="Alerta Noticias Temuco" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://alertanoticiastemuco.cl/feed/" htmlUrl="https://alertanoticiastemuco.cl"/>
-      <outline type="rss" text="Angol Noticias" title="Angol Noticias" description="Diario regional de Angol, La Araucanía" xmlUrl="https://www.angolnoticiasnew.cl/feed/" htmlUrl="https://www.angolnoticiasnew.cl"/>
-      <outline type="rss" text="Antofacity" title="Antofacity" description="Medio de comunicación de la Región de Antofagasta." xmlUrl="https://www.antofacity.com/feed" htmlUrl="https://www.antofacity.com"/>
-      <outline type="rss" text="Antofagasta Noticias" title="Antofagasta Noticias" description="Diario regional de Antofagasta, Antofagasta" xmlUrl="https://www.antofagastanoticias.cl/feed/" htmlUrl="https://www.antofagastanoticias.cl"/>
-      <outline type="rss" text="Araucanía Noticias" title="Araucanía Noticias" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://www.araucanianoticias.cl/feed/" htmlUrl="https://www.araucanianoticias.cl"/>
+      <outline text="Arica y Parinacota" title="Arica y Parinacota">
       <outline type="rss" text="Arica Al Día" title="Arica Al Día" description="Diario regional de Arica y Parinacota" xmlUrl="https://www.aricaldia.cl/feed/" htmlUrl="https://www.aricaldia.cl"/>
       <outline type="rss" text="Arica Chile" title="Arica Chile" description="Medio de comunicación de la Región de Arica y Parinacota." xmlUrl="https://www.aricachile.cl/rss/atom" htmlUrl="https://www.aricachile.cl"/>
       <outline type="rss" text="Arica es Noticia" title="Arica es Noticia" description="Medio de comunicación de la Región de Arica y Parinacota." xmlUrl="https://aricaesnoticia.cl/feed" htmlUrl="https://aricaesnoticia.cl"/>
       <outline type="rss" text="Arica Hoy" title="Arica Hoy" description="Diario regional de Arica y Parinacota" xmlUrl="https://www.aricahoy.cl/feed/" htmlUrl="https://www.aricahoy.cl"/>
       <outline type="rss" text="Arica365" title="Arica365" description="Diario regional de Arica y Parinacota" xmlUrl="https://www.arica365.cl/feed/" htmlUrl="https://www.arica365.cl"/>
+      <outline type="rss" text="El Morro de Arica" title="El Morro de Arica" description="Diario regional de Arica y Parinacota" xmlUrl="https://elmorrodearica.cl/feed/" htmlUrl="https://elmorrodearica.cl"/>
+      <outline type="rss" text="Frontera Norte" title="Frontera Norte" description="Diario regional de Arica y Parinacota" xmlUrl="https://www.fronteranorte.cl/feed/" htmlUrl="https://www.fronteranorte.cl"/>
+      <outline type="rss" text="La Estrella de Arica" title="La Estrella de Arica" description="Medio de comunicación de la Región de Arica y Parinacota." xmlUrl="https://estrellaarica.cl/?feed=rss2" htmlUrl="https://estrellaarica.cl"/>
+      <outline type="rss" text="Puertanorte" title="Puertanorte" description="Medio de comunicación de la Región de Arica y Parinacota." xmlUrl="https://radiopuertanorte.cl/feed" htmlUrl="https://radiopuertanorte.cl"/>
+      </outline>
+      <outline text="Tarapacá" title="Tarapacá">
+      <outline type="rss" text="CEI Noticias" title="CEI Noticias" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://ceinoticias.cl/feed/" htmlUrl="https://ceinoticias.cl"/>
+      <outline type="rss" text="Chile Mosaico" title="Chile Mosaico" description="Medio de comunicación de la Región de Tarapacá." xmlUrl="https://chilemosaico.cl/eventos/feed/" htmlUrl="https://www.chilemosaico.cl"/>
+      <outline type="rss" text="Diario El Longino" title="Diario El Longino" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.diariolongino.cl/feed/" htmlUrl="https://www.diariolongino.cl"/>
+      <outline type="rss" text="Diario El Nortino" title="Diario El Nortino" description="Diario regional de Alto Hospicio, Tarapacá" xmlUrl="https://diarioelnortino.cl/feed/" htmlUrl="https://diarioelnortino.cl"/>
+      <outline type="rss" text="El Reportero de Iquique" title="El Reportero de Iquique" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.elreporterodeiquique.com/feed/" htmlUrl="https://www.elreporterodeiquique.com"/>
+      <outline type="rss" text="El Sol de Iquique" title="El Sol de Iquique" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.elsoldeiquique.cl/feed/" htmlUrl="https://www.elsoldeiquique.cl"/>
+      <outline type="rss" text="Iquique TV" title="Iquique TV" description="Medio de comunicación de la Región de Tarapacá." xmlUrl="https://iquiquetv.cl/feed" htmlUrl="https://iquiquetv.cl"/>
+      <outline type="rss" text="La Estrella de Iquique" title="La Estrella de Iquique" description="Diario regional de Iquique" xmlUrl="https://www.estrellaiquique.cl/?feed=rss2" htmlUrl="https://www.estrellaiquique.cl"/>
+      <outline type="rss" text="La Mega FM" title="La Mega FM" description="Medio de comunicación de la Región de Tarapacá." xmlUrl="https://www.lamegafm.cl/feed" htmlUrl="https://www.lamegafm.cl"/>
+      <outline type="rss" text="Tarapacá Online" title="Tarapacá Online" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.tarapacaonline.cl/feed/" htmlUrl="https://www.tarapacaonline.cl"/>
+      </outline>
+      <outline text="Antofagasta" title="Antofagasta">
+      <outline type="rss" text="Antofacity" title="Antofacity" description="Medio de comunicación de la Región de Antofagasta." xmlUrl="https://www.antofacity.com/feed" htmlUrl="https://www.antofacity.com"/>
+      <outline type="rss" text="Antofagasta Noticias" title="Antofagasta Noticias" description="Diario regional de Antofagasta, Antofagasta" xmlUrl="https://www.antofagastanoticias.cl/feed/" htmlUrl="https://www.antofagastanoticias.cl"/>
+      <outline type="rss" text="Calama en Línea" title="Calama en Línea" description="Medio de comunicación de la Región de Antofagasta." xmlUrl="https://noticias.calamaenlinea.cl/feed" htmlUrl="https://noticias.calamaenlinea.cl"/>
+      <outline type="rss" text="Diario Antofagasta" title="Diario Antofagasta" description="Diario regional de Antofagasta, Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/feed/" htmlUrl="https://www.diarioantofagasta.cl"/>
+      <outline type="rss" text="El América" title="El América" description="Diario regional de Calama, Antofagasta" xmlUrl="https://www.elamerica.cl/feed/" htmlUrl="https://www.elamerica.cl"/>
+      <outline type="rss" text="En La Línea" title="En La Línea" description="Diario regional de Calama, Antofagasta" xmlUrl="https://www.enlalinea.cl/feed/" htmlUrl="https://www.enlalinea.cl"/>
+      <outline type="rss" text="Regionalista" title="Regionalista" description="Medio de comunicación de la Región de Antofagasta." xmlUrl="https://regionalista.cl/feed" htmlUrl="https://regionalista.cl"/>
+      <outline type="rss" text="Timeline" title="Timeline" description="Diario regional de Antofagasta, Antofagasta" xmlUrl="https://www.timeline.cl/feed/" htmlUrl="https://www.timeline.cl"/>
+      </outline>
+      <outline text="Atacama" title="Atacama">
       <outline type="rss" text="Atacama en Línea" title="Atacama en Línea" description="Diario regional de Copiapó, Atacama" xmlUrl="https://www.atacamaenlinea.cl/rss.xml" htmlUrl="https://www.atacamaenlinea.cl"/>
       <outline type="rss" text="Atacama Noticias" title="Atacama Noticias" description="Portal de noticias de la Región de Atacama" xmlUrl="https://www.atacamanoticias.cl/feed/" htmlUrl="https://www.atacamanoticias.cl"/>
-      <outline type="rss" text="Atentos" title="Atentos" description="Diario regional de Talca, Maule" xmlUrl="https://www.atentos.cl/feed/" htmlUrl="https://www.atentos.cl"/>
-      <outline type="rss" text="Aysén Ahora" title="Aysén Ahora" description="Diario regional de Puerto Aysén, Aysén" xmlUrl="https://aysenahora.cl/feed/" htmlUrl="https://aysenahora.cl"/>
-      <outline type="rss" text="Calama en Línea" title="Calama en Línea" description="Medio de comunicación de la Región de Antofagasta." xmlUrl="https://noticias.calamaenlinea.cl/feed" htmlUrl="https://noticias.calamaenlinea.cl"/>
-      <outline type="rss" text="CauquenesNet" title="CauquenesNet" description="Diario regional de Cauquenes, Maule" xmlUrl="https://www.cauquenesnet.cl/feed/" htmlUrl="https://www.cauquenesnet.cl"/>
-      <outline type="rss" text="CEI Noticias" title="CEI Noticias" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://ceinoticias.cl/feed/" htmlUrl="https://ceinoticias.cl"/>
-      <outline type="rss" text="Central Noticia" title="Central Noticia" description="Diario regional de Osorno, Los Lagos" xmlUrl="https://www.centralnoticia.cl/feed/" htmlUrl="https://www.centralnoticia.cl"/>
-      <outline type="rss" text="Central Noticias" title="Central Noticias" description="Diario regional de Panguipulli, Los Ríos" xmlUrl="https://centralnoticias.cl/?feed=rss2" htmlUrl="https://centralnoticias.cl"/>
-      <outline type="rss" text="Chile Mosaico" title="Chile Mosaico" description="Medio de comunicación de la Región de Tarapacá." xmlUrl="https://chilemosaico.cl/eventos/feed/" htmlUrl="https://www.chilemosaico.cl"/>
-      <outline type="rss" text="Chillán Online" title="Chillán Online" description="Diario regional de Chillán, Ñuble" xmlUrl="https://www.chillanonline.cl/V7/feed/" htmlUrl="https://www.chillanonline.cl"/>
-      <outline type="rss" text="Clave 9" title="Clave 9" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://www.clave9.cl/feed/" htmlUrl="https://www.clave9.cl"/>
-      <outline type="rss" text="Crónica Digital" title="Crónica Digital" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.cronicadigital.cl/feed/" htmlUrl="https://www.cronicadigital.cl"/>
-      <outline type="rss" text="Datos Sur" title="Datos Sur" description="Diario regional de Llanquihue, Puerto Montt" xmlUrl="https://www.datossur.cl/index.php?format=feed" htmlUrl="https://www.datossur.cl"/>
-      <outline type="rss" text="Datos Sur" title="Datos Sur" description="Diario regional de Llanquihue, Puerto Montt" xmlUrl="https://www.datossur.cl/index.php?format=feed&amp;amp;type=rss" htmlUrl="https://www.datossur.cl"/>
-      <outline type="rss" text="David Noticias" title="David Noticias" description="Diario regional de Los Vilos, Coquimbo" xmlUrl="https://www.davidnoticias.cl/feed/" htmlUrl="https://www.davidnoticias.cl"/>
-      <outline type="rss" text="Diálogo Sur" title="Diálogo Sur" description="Diario regional de Punta Arenas, Magallanes" xmlUrl="https://dialogosur.cl/feed/" htmlUrl="https://dialogosur.cl"/>
-      <outline type="rss" text="Diario Antofagasta" title="Diario Antofagasta" description="Diario regional de Antofagasta, Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/feed/" htmlUrl="https://www.diarioantofagasta.cl"/>
-      <outline type="rss" text="Diario Austral Osorno" title="Diario Austral Osorno" description="Diario regional de Osorno" xmlUrl="https://www.australosorno.cl/?feed=rss2" htmlUrl="https://www.australosorno.cl"/>
-      <outline type="rss" text="Diario Austral Temuco" title="Diario Austral Temuco" description="Diario regional de La Araucanía" xmlUrl="https://www.australtemuco.cl/?feed=rss2" htmlUrl="https://www.australtemuco.cl"/>
-      <outline type="rss" text="Diario Cauquenes" title="Diario Cauquenes" description="Diario regional de Cauquenes, Maule" xmlUrl="https://www.diariocauquenes.cl/feed/" htmlUrl="https://www.diariocauquenes.cl"/>
       <outline type="rss" text="Diario Chañarcillo" title="Diario Chañarcillo" description="Diario regional de Atacama y Copiapó" xmlUrl="https://www.chanarcillo.cl/feed/" htmlUrl="https://www.chanarcillo.cl"/>
-      <outline type="rss" text="Diario Concepción" title="Diario Concepción" description="Diario regional con cobertura informativa de la Región del Biobío" xmlUrl="https://www.diarioconcepcion.cl/rss.xml" htmlUrl="https://www.diarioconcepcion.cl"/>
-      <outline type="rss" text="Diario Curicó" title="Diario Curicó" description="Diario regional de Curicó, Maule" xmlUrl="https://www.diariocurico.cl/feed/" htmlUrl="https://www.diariocurico.cl"/>
-      <outline type="rss" text="Diario El Cautín" title="Diario El Cautín" description="Medio de comunicación de la Región de Araucanía." xmlUrl="https://www.diarioelcautin.cl/feed" htmlUrl="https://www.diarioelcautin.cl"/>
-      <outline type="rss" text="Diario El Centro" title="Diario El Centro" description="Diario regional de Talca, Maule" xmlUrl="https://www.diarioelcentro.cl/feed/" htmlUrl="https://www.diarioelcentro.cl"/>
-      <outline type="rss" text="Diario El Cóndor" title="Diario El Cóndor" description="Diario regional de Santa Cruz, O'Higgins" xmlUrl="https://diariocondor.cl/feed/" htmlUrl="https://diariocondor.cl"/>
+      <outline type="rss" text="El Diario de Atacama" title="El Diario de Atacama" description="Medio de comunicación de la Región de Atacama." xmlUrl="https://www.diarioatacama.cl/?feed=rss2" htmlUrl="https://www.diarioatacama.cl"/>
+      <outline type="rss" text="El Noticiero del Huasco" title="El Noticiero del Huasco" description="Diario regional de Vallenar, Atacama" xmlUrl="https://elnoticierodelhuasco.cl/feed/" htmlUrl="https://elnoticierodelhuasco.cl"/>
+      <outline type="rss" text="Enfoque Digital" title="Enfoque Digital" description="Medio de comunicación de la Región de Atacama." xmlUrl="https://www.enfoquedigital.cl/feed" htmlUrl="https://www.enfoquedigital.cl"/>
+      <outline type="rss" text="Radio Maray" title="Radio Maray" description="Medio de comunicación de la Región de Atacama." xmlUrl="https://www.maray.cl/feed" htmlUrl="https://www.maray.cl"/>
+      <outline type="rss" text="Tierramarillano" title="Tierramarillano" description="Diario regional de Copiapó, Atacama" xmlUrl="https://www.tierramarillano.cl/feed/" htmlUrl="https://www.tierramarillano.cl"/>
+      <outline type="rss" text="Vallenar Digital" title="Vallenar Digital" description="Medio de comunicación de la Región de Atacama." xmlUrl="https://www.vallenardigital.cl/feed" htmlUrl="https://www.vallenardigital.cl"/>
+      </outline>
+      <outline text="Coquimbo" title="Coquimbo">
+      <outline type="rss" text="David Noticias" title="David Noticias" description="Diario regional de Los Vilos, Coquimbo" xmlUrl="https://www.davidnoticias.cl/feed/" htmlUrl="https://www.davidnoticias.cl"/>
       <outline type="rss" text="Diario El Día" title="Diario El Día" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/global.xml" htmlUrl="https://www.diarioeldia.cl"/>
       <outline type="rss" text="Diario El Día - Actualidad" title="Diario El Día - Actualidad" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/actualidad" htmlUrl="https://www.diarioeldia.cl"/>
       <outline type="rss" text="Diario El Día - Economía" title="Diario El Día - Economía" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/economia" htmlUrl="https://www.diarioeldia.cl"/>
@@ -221,9 +228,44 @@
       <outline type="rss" text="Diario El Día - Tendencias" title="Diario El Día - Tendencias" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/tendencias" htmlUrl="https://www.diarioeldia.cl"/>
       <outline type="rss" text="Diario El Día - Tiempo Libre" title="Diario El Día - Tiempo Libre" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/tiempo-libre" htmlUrl="https://www.diarioeldia.cl"/>
       <outline type="rss" text="Diario El Día - Últimas noticias" title="Diario El Día - Últimas noticias" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/noticias" htmlUrl="https://www.diarioeldia.cl"/>
-      <outline type="rss" text="Diario El Heraldo" title="Diario El Heraldo" description="Diario regional de Linares, Maule" xmlUrl="https://www.diarioelheraldo.cl/rss" htmlUrl="https://www.diarioelheraldo.cl"/>
-      <outline type="rss" text="Diario El Huemul" title="Diario El Huemul" description="Diario regional de Chaitén, Los Lagos" xmlUrl="https://www.elhuemul.cl/feed/" htmlUrl="https://www.elhuemul.cl"/>
-      <outline type="rss" text="Diario El Longino" title="Diario El Longino" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.diariolongino.cl/feed/" htmlUrl="https://www.diariolongino.cl"/>
+      <outline type="rss" text="Diario La Región" title="Diario La Región" description="Diario regional de Coquimbo, Coquimbo" xmlUrl="https://www.diariolaregion.cl/feed/" htmlUrl="https://www.diariolaregion.cl"/>
+      <outline type="rss" text="El Andacollino" title="El Andacollino" description="Medio de comunicación de la Región de Coquimbo." xmlUrl="https://www.elandacollino.cl/feed" htmlUrl="https://www.elandacollino.cl"/>
+      <outline type="rss" text="El Coquimbano" title="El Coquimbano" description="Diario regional de Coquimbo, Coquimbo" xmlUrl="https://www.elcoquimbano.cl/feed/" htmlUrl="https://www.elcoquimbano.cl"/>
+      <outline type="rss" text="El Ovallino" title="El Ovallino" description="Diario regional de Ovalle, Coquimbo" xmlUrl="https://www.elovallino.cl/feed/" htmlUrl="https://www.elovallino.cl"/>
+      <outline type="rss" text="El Regional" title="El Regional" description="Diario regional de Coquimbo, Coquimbo" xmlUrl="https://www.elregional.cl/?feed=rss2" htmlUrl="https://www.elregional.cl"/>
+      <outline type="rss" text="El Serenense" title="El Serenense" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.elserenense.cl/feed/" htmlUrl="https://www.elserenense.cl"/>
+      <outline type="rss" text="El Vicuñense" title="El Vicuñense" description="Diario regional de Vicuña, Coquimbo" xmlUrl="https://www.xn--elvicuense-y9a.cl/feed/" htmlUrl="https://www.xn--elvicuense-y9a.cl"/>
+      <outline type="rss" text="Elqui Global" title="Elqui Global" description="Medio de comunicación de la Región de Coquimbo." xmlUrl="https://www.elquiglobal.cl/feed" htmlUrl="https://www.elquiglobal.cl"/>
+      <outline type="rss" text="La Perla del Limarí" title="La Perla del Limarí" description="Diario regional de Ovalle, Coquimbo" xmlUrl="https://www.laperladellimari.cl/feed/" htmlUrl="https://www.laperladellimari.cl"/>
+      <outline type="rss" text="La Serena Online" title="La Serena Online" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.laserenaonline.cl/feed/" htmlUrl="https://www.laserenaonline.cl"/>
+      <outline type="rss" text="Ovalle Hoy" title="Ovalle Hoy" description="Diario regional de Ovalle, Coquimbo" xmlUrl="https://www.ovallehoy.cl/feed/" htmlUrl="https://www.ovallehoy.cl"/>
+      </outline>
+      <outline text="Valparaíso" title="Valparaíso">
+      <outline type="rss" text="Aconcagua Digital" title="Aconcagua Digital" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://aconcaguadigital.cl/feed/" htmlUrl="https://aconcaguadigital.cl"/>
+      <outline type="rss" text="Alerta Noticias" title="Alerta Noticias" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://alertanoticias.cl/feed" htmlUrl="https://alertanoticias.cl"/>
+      <outline type="rss" text="Diario El Porteño" title="Diario El Porteño" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://elporteno.cl/feed" htmlUrl="https://elporteno.cl"/>
+      <outline type="rss" text="Diario La Quinta" title="Diario La Quinta" description="Diario regional de Valparaíso, Valparaíso" xmlUrl="https://www.diariolaquinta.cl/feed/" htmlUrl="https://www.diariolaquinta.cl"/>
+      <outline type="rss" text="El Aconcagua" title="El Aconcagua" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://www.elaconcagua.cl/feed/" htmlUrl="https://www.elaconcagua.cl"/>
+      <outline type="rss" text="El Informador" title="El Informador" description="Diario regional de Los Andes, Valparaíso" xmlUrl="https://www.elinformador.cl/feed/" htmlUrl="https://www.elinformador.cl"/>
+      <outline type="rss" text="El Líder" title="El Líder" description="Diario regional de San Antonio, Valparaíso" xmlUrl="https://www.lidersanantonio.cl/?feed=rss2" htmlUrl="https://www.lidersanantonio.cl"/>
+      <outline type="rss" text="El Observador" title="El Observador" description="Diario regional de Quillota, Valparaíso" xmlUrl="https://www.observador.cl/feed/" htmlUrl="https://www.observador.cl"/>
+      <outline type="rss" text="El Proa" title="El Proa" description="Diario regional de San Antonio, Valparaíso" xmlUrl="https://www.elproa.cl/feed/" htmlUrl="https://www.elproa.cl"/>
+      <outline type="rss" text="El Trabajo" title="El Trabajo" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://www.eltrabajo.cl/?feed=rss2" htmlUrl="https://www.eltrabajo.cl"/>
+      <outline type="rss" text="La Estrella de Valparaíso" title="La Estrella de Valparaíso" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://estrellavalpo.cl/?feed=rss2" htmlUrl="https://estrellavalpo.cl"/>
+      <outline type="rss" text="Más Noticia" title="Más Noticia" description="Diario regional de Quillota, Valparaíso" xmlUrl="https://www.masnoticia.cl/feed/" htmlUrl="https://www.masnoticia.cl"/>
+      <outline type="rss" text="Montealegre" title="Montealegre" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://montealegre.cl/feed" htmlUrl="https://montealegre.cl"/>
+      </outline>
+      <outline text="Metropolitana de Santiago" title="Metropolitana de Santiago">
+      <outline type="rss" text="Crónica Digital" title="Crónica Digital" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.cronicadigital.cl/feed/" htmlUrl="https://www.cronicadigital.cl"/>
+      <outline type="rss" text="Diario Sur Noticias" title="Diario Sur Noticias" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.diariosurnoticias.com/feed/" htmlUrl="https://www.diariosurnoticias.com"/>
+      <outline type="rss" text="Duplos" title="Duplos" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.duplos.cl/feed/" htmlUrl="https://www.duplos.cl"/>
+      <outline type="rss" text="El Comunicador" title="El Comunicador" description="Diario regional de Melipilla, Metropolitana" xmlUrl="https://elcomunicador.cl/feed/" htmlUrl="https://elcomunicador.cl"/>
+      <outline type="rss" text="El Periodista" title="El Periodista" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.elperiodista.cl/feed/" htmlUrl="https://www.elperiodista.cl"/>
+      <outline type="rss" text="La Razón" title="La Razón" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.larazon.cl/feed/" htmlUrl="https://www.larazon.cl"/>
+      <outline type="rss" text="Nuevo Poder" title="Nuevo Poder" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.nuevopoder.cl/feed/" htmlUrl="https://www.nuevopoder.cl"/>
+      </outline>
+      <outline text="O'Higgins" title="O'Higgins">
+      <outline type="rss" text="Diario El Cóndor" title="Diario El Cóndor" description="Diario regional de Santa Cruz, O'Higgins" xmlUrl="https://diariocondor.cl/feed/" htmlUrl="https://diariocondor.cl"/>
       <outline type="rss" text="Diario El Marino - Cardenal Caro" title="Diario El Marino - Cardenal Caro" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/cardenal-caro/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
       <outline type="rss" text="Diario El Marino - Cartas al Director" title="Diario El Marino - Cartas al Director" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/cartas-al-director/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
       <outline type="rss" text="Diario El Marino - Colchagua" title="Diario El Marino - Colchagua" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/colchagua/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
@@ -233,132 +275,124 @@
       <outline type="rss" text="Diario El Marino - Opinión" title="Diario El Marino - Opinión" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/opinion/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
       <outline type="rss" text="Diario El Marino - Política" title="Diario El Marino - Política" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/politica/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
       <outline type="rss" text="Diario El Marino - Sociedad" title="Diario El Marino - Sociedad" description="Diario regional de Pichilemu, O'Higgins" xmlUrl="https://www.diarioelmarino.cl/sociedad/feed/rss/" htmlUrl="https://www.diarioelmarino.cl"/>
-      <outline type="rss" text="Diario El Nortino" title="Diario El Nortino" description="Diario regional de Alto Hospicio, Tarapacá" xmlUrl="https://diarioelnortino.cl/feed/" htmlUrl="https://diarioelnortino.cl"/>
-      <outline type="rss" text="Diario El Porteño" title="Diario El Porteño" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://elporteno.cl/feed" htmlUrl="https://elporteno.cl"/>
       <outline type="rss" text="Diario El Pulso" title="Diario El Pulso" description="Diario regional de Rancagua, O'Higgins" xmlUrl="https://www.diarioelpulso.cl/feed/" htmlUrl="https://www.diarioelpulso.cl"/>
-      <outline type="rss" text="Diario El Ranco" title="Diario El Ranco" description="Diario regional de La Unión, Los Ríos" xmlUrl="https://www.diarioelranco.cl/feed/" htmlUrl="https://www.diarioelranco.cl"/>
-      <outline type="rss" text="Diario La Quinta" title="Diario La Quinta" description="Diario regional de Valparaíso, Valparaíso" xmlUrl="https://www.diariolaquinta.cl/feed/" htmlUrl="https://www.diariolaquinta.cl"/>
-      <outline type="rss" text="Diario La Región" title="Diario La Región" description="Diario regional de Coquimbo, Coquimbo" xmlUrl="https://www.diariolaregion.cl/feed/" htmlUrl="https://www.diariolaregion.cl"/>
-      <outline type="rss" text="Diario Linares" title="Diario Linares" description="Diario regional de Linares, Maule" xmlUrl="https://diariolinares.cl/feed/" htmlUrl="https://diariolinares.cl"/>
-      <outline type="rss" text="Diario Puerto Varas" title="Diario Puerto Varas" description="Diario regional de Puerto Varas, Los Lagos" xmlUrl="https://www.diariopuertovaras.cl/feed/" htmlUrl="https://www.diariopuertovaras.cl"/>
-      <outline type="rss" text="Diario Sur Noticias" title="Diario Sur Noticias" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.diariosurnoticias.com/feed/" htmlUrl="https://www.diariosurnoticias.com"/>
-      <outline type="rss" text="Diario Talca" title="Diario Talca" description="Diario regional de Talca, Maule" xmlUrl="https://diariotalca.cl/feed/" htmlUrl="https://diariotalca.cl"/>
       <outline type="rss" text="Diario VI Región" title="Diario VI Región" description="Diario regional de Libertador General Bernardo O'Higgins" xmlUrl="https://www.diarioviregion.cl/?format=feed" htmlUrl="https://www.diarioviregion.cl"/>
       <outline type="rss" text="Diario VI Región" title="Diario VI Región" description="Diario regional de Libertador General Bernardo O'Higgins" xmlUrl="https://www.diarioviregion.cl/?format=feed&amp;amp;type=rss" htmlUrl="https://www.diarioviregion.cl"/>
-      <outline type="rss" text="Duplos" title="Duplos" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.duplos.cl/feed/" htmlUrl="https://www.duplos.cl"/>
-      <outline type="rss" text="El Aconcagua" title="El Aconcagua" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://www.elaconcagua.cl/feed/" htmlUrl="https://www.elaconcagua.cl"/>
-      <outline type="rss" text="El América" title="El América" description="Diario regional de Calama, Antofagasta" xmlUrl="https://www.elamerica.cl/feed/" htmlUrl="https://www.elamerica.cl"/>
-      <outline type="rss" text="El Andacollino" title="El Andacollino" description="Medio de comunicación de la Región de Coquimbo." xmlUrl="https://www.elandacollino.cl/feed" htmlUrl="https://www.elandacollino.cl"/>
-      <outline type="rss" text="El Calbucano" title="El Calbucano" description="Diario regional de Calbuco, Los Lagos" xmlUrl="https://www.elcalbucano.cl/feed/" htmlUrl="https://www.elcalbucano.cl"/>
-      <outline type="rss" text="El Comunicador" title="El Comunicador" description="Diario regional de Melipilla, Metropolitana" xmlUrl="https://elcomunicador.cl/feed/" htmlUrl="https://elcomunicador.cl"/>
-      <outline type="rss" text="El Contraste" title="El Contraste" description="Diario regional de Los Ángeles, Biobío" xmlUrl="https://www.elcontraste.cl/feed/" htmlUrl="https://www.elcontraste.cl"/>
-      <outline type="rss" text="El Coquimbano" title="El Coquimbano" description="Diario regional de Coquimbo, Coquimbo" xmlUrl="https://www.elcoquimbano.cl/feed/" htmlUrl="https://www.elcoquimbano.cl"/>
-      <outline type="rss" text="El Diario de Atacama" title="El Diario de Atacama" description="Medio de comunicación de la Región de Atacama." xmlUrl="https://www.diarioatacama.cl/?feed=rss2" htmlUrl="https://www.diarioatacama.cl"/>
-      <outline type="rss" text="El Diario de La Araucanía" title="El Diario de La Araucanía" description="Diario regional de Angol, La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl"/>
-      <outline type="rss" text="El Informador" title="El Informador" description="Diario regional de Los Andes, Valparaíso" xmlUrl="https://www.elinformador.cl/feed/" htmlUrl="https://www.elinformador.cl"/>
-      <outline type="rss" text="El Insular" title="El Insular" description="Diario regional de Castro, Los Lagos" xmlUrl="https://www.elinsular.cl/feed/" htmlUrl="https://www.elinsular.cl"/>
-      <outline type="rss" text="El Líder" title="El Líder" description="Diario regional de San Antonio, Valparaíso" xmlUrl="https://www.lidersanantonio.cl/?feed=rss2" htmlUrl="https://www.lidersanantonio.cl"/>
-      <outline type="rss" text="El Magalánico" title="El Magalánico" description="Diario regional de Punta Arenas, Magallanes" xmlUrl="https://www.elmagallanico.com/feed/" htmlUrl="https://www.elmagallanico.com"/>
-      <outline type="rss" text="El Maule Informa" title="El Maule Informa" description="Diario regional de Talca, Maule" xmlUrl="https://elmauleinforma.cl/feed/" htmlUrl="https://elmauleinforma.cl"/>
-      <outline type="rss" text="El Mercurio Valparaíso" title="El Mercurio Valparaíso" description="Diario regional de Valparaíso" xmlUrl="https://www.mercuriovalpo.cl/?feed=rss2" htmlUrl="https://www.mercuriovalpo.cl"/>
-      <outline type="rss" text="El Morro de Arica" title="El Morro de Arica" description="Diario regional de Arica y Parinacota" xmlUrl="https://elmorrodearica.cl/feed/" htmlUrl="https://elmorrodearica.cl"/>
-      <outline type="rss" text="El Noticiero del Huasco" title="El Noticiero del Huasco" description="Diario regional de Vallenar, Atacama" xmlUrl="https://elnoticierodelhuasco.cl/feed/" htmlUrl="https://elnoticierodelhuasco.cl"/>
-      <outline type="rss" text="El Observador" title="El Observador" description="Diario regional de Quillota, Valparaíso" xmlUrl="https://www.observador.cl/feed/" htmlUrl="https://www.observador.cl"/>
-      <outline type="rss" text="El Ovallino" title="El Ovallino" description="Diario regional de Ovalle, Coquimbo" xmlUrl="https://www.elovallino.cl/feed/" htmlUrl="https://www.elovallino.cl"/>
-      <outline type="rss" text="El Periódico" title="El Periódico" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://elperiodico.cl/feed/" htmlUrl="https://elperiodico.cl"/>
-      <outline type="rss" text="El Periodista" title="El Periodista" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.elperiodista.cl/feed/" htmlUrl="https://www.elperiodista.cl"/>
-      <outline type="rss" text="El Pingüino" title="El Pingüino" description="Diario regional de Magallanes y la Antártica" xmlUrl="https://www.elpinguino.com/feed/" htmlUrl="https://www.elpinguino.com"/>
-      <outline type="rss" text="El Proa" title="El Proa" description="Diario regional de San Antonio, Valparaíso" xmlUrl="https://www.elproa.cl/feed/" htmlUrl="https://www.elproa.cl"/>
-      <outline type="rss" text="El Provincial" title="El Provincial" description="Medio de comunicación de la Región de Los Ríos." xmlUrl="https://www.elprovincial.cl/feed" htmlUrl="https://www.elprovincial.cl"/>
       <outline type="rss" text="El Rancagüino" title="El Rancagüino" description="Diario regional de O'Higgins" xmlUrl="https://www.elrancaguino.cl/feed/" htmlUrl="https://www.elrancaguino.cl"/>
-      <outline type="rss" text="El Regional" title="El Regional" description="Diario regional de Coquimbo, Coquimbo" xmlUrl="https://www.elregional.cl/?feed=rss2" htmlUrl="https://www.elregional.cl"/>
-      <outline type="rss" text="El Reportero de Iquique" title="El Reportero de Iquique" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.elreporterodeiquique.com/feed/" htmlUrl="https://www.elreporterodeiquique.com"/>
-      <outline type="rss" text="El Sancarlino" title="El Sancarlino" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.elsancarlino.cl/rss.xml" htmlUrl="https://www.elsancarlino.cl"/>
-      <outline type="rss" text="El Serenense" title="El Serenense" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.elserenense.cl/feed/" htmlUrl="https://www.elserenense.cl"/>
-      <outline type="rss" text="El Sol de Iquique" title="El Sol de Iquique" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.elsoldeiquique.cl/feed/" htmlUrl="https://www.elsoldeiquique.cl"/>
-      <outline type="rss" text="El Tirapiedras" title="El Tirapiedras" description="Diario regional de Puerto Natales, Magallanes" xmlUrl="https://www.eltirapiedras.cl/feed/" htmlUrl="https://www.eltirapiedras.cl"/>
-      <outline type="rss" text="El Trabajo" title="El Trabajo" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://www.eltrabajo.cl/?feed=rss2" htmlUrl="https://www.eltrabajo.cl"/>
       <outline type="rss" text="El Urbano Rural" title="El Urbano Rural" description="Medio de comunicación de la Región de O'Higgins." xmlUrl="https://www.elurbanorural.cl/feed" htmlUrl="https://www.elurbanorural.cl"/>
-      <outline type="rss" text="El Vicuñense" title="El Vicuñense" description="Diario regional de Vicuña, Coquimbo" xmlUrl="https://www.xn--elvicuense-y9a.cl/feed/" htmlUrl="https://www.xn--elvicuense-y9a.cl"/>
-      <outline type="rss" text="Elqui Global" title="Elqui Global" description="Medio de comunicación de la Región de Coquimbo." xmlUrl="https://www.elquiglobal.cl/feed" htmlUrl="https://www.elquiglobal.cl"/>
-      <outline type="rss" text="En La Línea" title="En La Línea" description="Diario regional de Calama, Antofagasta" xmlUrl="https://www.enlalinea.cl/feed/" htmlUrl="https://www.enlalinea.cl"/>
-      <outline type="rss" text="En Línea Maule" title="En Línea Maule" description="Diario regional de Talca, Maule" xmlUrl="https://enlineamaule.cl/feed/" htmlUrl="https://enlineamaule.cl"/>
-      <outline type="rss" text="Enfoque Digital" title="Enfoque Digital" description="Medio de comunicación de la Región de Atacama." xmlUrl="https://www.enfoquedigital.cl/feed" htmlUrl="https://www.enfoquedigital.cl"/>
       <outline type="rss" text="Enfoque Digital O'Higgins" title="Enfoque Digital O'Higgins" description="Medio de comunicación de la Región de O'Higgins." xmlUrl="https://www.vi.cl/feed" htmlUrl="https://www.vi.cl"/>
-      <outline type="rss" text="Epicentro Chile" title="Epicentro Chile" description="Diario regional de Valparaíso, Valparaíso" xmlUrl="https://www.epicentrochile.com/feed/" htmlUrl="https://www.epicentrochile.com"/>
-      <outline type="rss" text="Frontera Norte" title="Frontera Norte" description="Diario regional de Arica y Parinacota" xmlUrl="https://www.fronteranorte.cl/feed/" htmlUrl="https://www.fronteranorte.cl"/>
-      <outline type="rss" text="Guardián del Sur" title="Guardián del Sur" description="Diario regional de Puerto Montt, Los Lagos" xmlUrl="https://www.guardiandelsur.cl/feed/" htmlUrl="https://www.guardiandelsur.cl"/>
       <outline type="rss" text="HDN" title="HDN" description="Diario regional de Santa Cruz, O'Higgins" xmlUrl="https://www.hdn.cl/feed/" htmlUrl="https://www.hdn.cl"/>
       <outline type="rss" text="Hora de Noticias" title="Hora de Noticias" description="Diario regional de Rancagua, O'Higgins" xmlUrl="https://horadenoticias.cl/feed/" htmlUrl="https://horadenoticias.cl"/>
-      <outline type="rss" text="Informa Al Minuto" title="Informa Al Minuto" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://informaalminuto.cl/feed/" htmlUrl="https://informaalminuto.cl"/>
-      <outline type="rss" text="Iquique TV" title="Iquique TV" description="Medio de comunicación de la Región de Tarapacá." xmlUrl="https://iquiquetv.cl/feed" htmlUrl="https://iquiquetv.cl"/>
-      <outline type="rss" text="La Discusión" title="La Discusión" description="Diario de Ñuble - Medios regionales" xmlUrl="https://www.ladiscusion.cl/rss" htmlUrl="https://www.ladiscusion.cl"/>
-      <outline type="rss" text="La Discusión" title="La Discusión" description="Diario de Ñuble - Medios regionales" xmlUrl="https://ladiscusion.cl/feed" htmlUrl="https://www.ladiscusion.cl"/>
-      <outline type="rss" text="La Estrella de Arica" title="La Estrella de Arica" description="Medio de comunicación de la Región de Arica y Parinacota." xmlUrl="https://estrellaarica.cl/?feed=rss2" htmlUrl="https://estrellaarica.cl"/>
-      <outline type="rss" text="La Estrella de Iquique" title="La Estrella de Iquique" description="Diario regional de Iquique" xmlUrl="https://www.estrellaiquique.cl/?feed=rss2" htmlUrl="https://www.estrellaiquique.cl"/>
-      <outline type="rss" text="La Estrella de Valparaíso" title="La Estrella de Valparaíso" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://estrellavalpo.cl/?feed=rss2" htmlUrl="https://estrellavalpo.cl"/>
-      <outline type="rss" text="La Fontana" title="La Fontana" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.lafontana.cl/feed/" htmlUrl="https://www.lafontana.cl"/>
-      <outline type="rss" text="La Hora" title="La Hora" description="Medio digital chileno de noticias y actualidad nacional e internacional." xmlUrl="https://www.lahora.cl/rss/global.xml" htmlUrl="https://www.lahora.cl"/>
-      <outline type="rss" text="La Mega FM" title="La Mega FM" description="Medio de comunicación de la Región de Tarapacá." xmlUrl="https://www.lamegafm.cl/feed" htmlUrl="https://www.lamegafm.cl"/>
       <outline type="rss" text="La Noticia" title="La Noticia" description="Diario regional de Rancagua, O'Higgins" xmlUrl="https://lanoticia.cl/feed/" htmlUrl="https://lanoticia.cl"/>
-      <outline type="rss" text="La Opinión de Chiloé" title="La Opinión de Chiloé" description="Diario regional de Ancud, Los Lagos" xmlUrl="https://www.laopiniondechiloe.cl/feed/" htmlUrl="https://www.laopiniondechiloe.cl"/>
-      <outline type="rss" text="La Perla del Limarí" title="La Perla del Limarí" description="Diario regional de Ovalle, Coquimbo" xmlUrl="https://www.laperladellimari.cl/feed/" htmlUrl="https://www.laperladellimari.cl"/>
-      <outline type="rss" text="La Prensa Austral" title="La Prensa Austral" description="Diario regional de Magallanes y la Antártica Chilena" xmlUrl="https://laprensaaustral.cl/feed" htmlUrl="https://laprensaaustral.cl"/>
-      <outline type="rss" text="La Razón" title="La Razón" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.larazon.cl/feed/" htmlUrl="https://www.larazon.cl"/>
-      <outline type="rss" text="La Región Hoy" title="La Región Hoy" description="Diario regional de Valparaíso, Valparaíso" xmlUrl="https://www.laregionhoy.cl/feed/" htmlUrl="https://www.laregionhoy.cl"/>
-      <outline type="rss" text="La Serena Online" title="La Serena Online" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.laserenaonline.cl/feed/" htmlUrl="https://www.laserenaonline.cl"/>
-      <outline type="rss" text="La Tribuna" title="La Tribuna" description="Diario regional de Los Ángeles, Biobío" xmlUrl="https://www.latribuna.cl/rss.xml" htmlUrl="https://www.latribuna.cl"/>
       <outline type="rss" text="La Tribuna de Colchagua" title="La Tribuna de Colchagua" description="Diario regional de San Fernando, O'Higgins" xmlUrl="https://www.latribunadecolchagua.cl/feed/" htmlUrl="https://www.latribunadecolchagua.cl"/>
-      <outline type="rss" text="Las Noticias de Malleco" title="Las Noticias de Malleco" description="Diario regional de Angol, La Araucanía" xmlUrl="https://lasnoticiasdemalleco.cl/feed/" htmlUrl="https://lasnoticiasdemalleco.cl"/>
+      <outline type="rss" text="Pichilemu News" title="Pichilemu News" description="Medio de comunicación de la Región de O'Higgins." xmlUrl="https://www.pichilemunews.cl/feed" htmlUrl="https://www.pichilemunews.cl"/>
+      <outline type="rss" text="Rengo Notas" title="Rengo Notas" description="Medio de comunicación de la Región de O'Higgins." xmlUrl="https://rengonotas.cl/wp/feed/" htmlUrl="https://www.rengonotas.cl"/>
+      </outline>
+      <outline text="Maule" title="Maule">
+      <outline type="rss" text="Atentos" title="Atentos" description="Diario regional de Talca, Maule" xmlUrl="https://www.atentos.cl/feed/" htmlUrl="https://www.atentos.cl"/>
+      <outline type="rss" text="CauquenesNet" title="CauquenesNet" description="Diario regional de Cauquenes, Maule" xmlUrl="https://www.cauquenesnet.cl/feed/" htmlUrl="https://www.cauquenesnet.cl"/>
+      <outline type="rss" text="Diario Cauquenes" title="Diario Cauquenes" description="Diario regional de Cauquenes, Maule" xmlUrl="https://www.diariocauquenes.cl/feed/" htmlUrl="https://www.diariocauquenes.cl"/>
+      <outline type="rss" text="Diario Curicó" title="Diario Curicó" description="Diario regional de Curicó, Maule" xmlUrl="https://www.diariocurico.cl/feed/" htmlUrl="https://www.diariocurico.cl"/>
+      <outline type="rss" text="Diario El Centro" title="Diario El Centro" description="Diario regional de Talca, Maule" xmlUrl="https://www.diarioelcentro.cl/feed/" htmlUrl="https://www.diarioelcentro.cl"/>
+      <outline type="rss" text="Diario El Heraldo" title="Diario El Heraldo" description="Diario regional de Linares, Maule" xmlUrl="https://www.diarioelheraldo.cl/rss" htmlUrl="https://www.diarioelheraldo.cl"/>
+      <outline type="rss" text="Diario Linares" title="Diario Linares" description="Diario regional de Linares, Maule" xmlUrl="https://diariolinares.cl/feed/" htmlUrl="https://diariolinares.cl"/>
+      <outline type="rss" text="Diario Talca" title="Diario Talca" description="Diario regional de Talca, Maule" xmlUrl="https://diariotalca.cl/feed/" htmlUrl="https://diariotalca.cl"/>
+      <outline type="rss" text="El Maule Informa" title="El Maule Informa" description="Diario regional de Talca, Maule" xmlUrl="https://elmauleinforma.cl/feed/" htmlUrl="https://elmauleinforma.cl"/>
+      <outline type="rss" text="En Línea Maule" title="En Línea Maule" description="Diario regional de Talca, Maule" xmlUrl="https://enlineamaule.cl/feed/" htmlUrl="https://enlineamaule.cl"/>
       <outline type="rss" text="Linares en Línea" title="Linares en Línea" description="Diario regional de Linares, Maule" xmlUrl="https://www.linaresenlinea.cl/feed/" htmlUrl="https://www.linaresenlinea.cl"/>
       <outline type="rss" text="Linares Noticia" title="Linares Noticia" description="Diario regional de Linares, Maule" xmlUrl="https://www.linaresnoticia.cl/rss.xml" htmlUrl="https://www.linaresnoticia.cl"/>
-      <outline type="rss" text="Los Ríos Al Día" title="Los Ríos Al Día" description="" xmlUrl="https://www.losriosaldia.cl/feed/" htmlUrl="https://www.losriosaldia.cl"/>
-      <outline type="rss" text="Los Ríos Noticias" title="Los Ríos Noticias" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.losriosnoticias.cl/feed" htmlUrl="https://www.losriosnoticias.cl"/>
-      <outline type="rss" text="Malleco 7" title="Malleco 7" description="Diario regional de Angol, La Araucanía" xmlUrl="https://www.malleco7.cl/feed/" htmlUrl="https://www.malleco7.cl"/>
-      <outline type="rss" text="Más Noticia" title="Más Noticia" description="Diario regional de Quillota, Valparaíso" xmlUrl="https://www.masnoticia.cl/feed/" htmlUrl="https://www.masnoticia.cl"/>
       <outline type="rss" text="Maule Hoy" title="Maule Hoy" description="Diario regional de Talca, Maule" xmlUrl="https://maulehoy.cl/feed/" htmlUrl="https://maulehoy.cl"/>
-      <outline type="rss" text="Montealegre" title="Montealegre" description="Medio de comunicación de la Región de Valparaíso." xmlUrl="https://montealegre.cl/feed" htmlUrl="https://montealegre.cl"/>
+      <outline type="rss" text="VLN Radio" title="VLN Radio" description="Medio de comunicación de la Región de Maule." xmlUrl="https://www.vlnradio.cl/feed" htmlUrl="https://www.vlnradio.cl"/>
+      </outline>
+      <outline text="Ñuble" title="Ñuble">
+      <outline type="rss" text="Chillán Online" title="Chillán Online" description="Diario regional de Chillán, Ñuble" xmlUrl="https://www.chillanonline.cl/V7/feed/" htmlUrl="https://www.chillanonline.cl"/>
+      <outline type="rss" text="El Sancarlino" title="El Sancarlino" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.elsancarlino.cl/rss.xml" htmlUrl="https://www.elsancarlino.cl"/>
+      <outline type="rss" text="La Discusión" title="La Discusión" description="Diario de Ñuble - Medios regionales" xmlUrl="https://www.ladiscusion.cl/rss" htmlUrl="https://www.ladiscusion.cl"/>
+      <outline type="rss" text="La Discusión" title="La Discusión" description="Diario de Ñuble - Medios regionales" xmlUrl="https://ladiscusion.cl/feed" htmlUrl="https://www.ladiscusion.cl"/>
+      <outline type="rss" text="La Fontana" title="La Fontana" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.lafontana.cl/feed/" htmlUrl="https://www.lafontana.cl"/>
       <outline type="rss" text="Municipalidad de Cobquecura" title="Municipalidad de Cobquecura" description="Medio de comunicación de la Región de Ñuble." xmlUrl="https://www.cobquecura.cl/feed" htmlUrl="https://www.cobquecura.cl"/>
-      <outline type="rss" text="Nacimentano" title="Nacimentano" description="Medio de comunicación de la Región de Biobío." xmlUrl="https://nacimentano.cl/feed" htmlUrl="https://nacimentano.cl"/>
-      <outline type="rss" text="Noticias Biobío" title="Noticias Biobío" description="Medio de comunicación de la Región de Biobío." xmlUrl="https://noticiasbiobio.cl/feed" htmlUrl="https://noticiasbiobio.cl"/>
-      <outline type="rss" text="Noticias Chiloé" title="Noticias Chiloé" description="Diario regional de Castro, Los Lagos" xmlUrl="https://www.noticiaschiloe.cl/feed/" htmlUrl="https://www.noticiaschiloe.cl"/>
-      <outline type="rss" text="Noticias del Lago" title="Noticias del Lago" description="Diario regional de Villarrica, La Araucanía" xmlUrl="https://www.noticiasdellago.cl/feed/" htmlUrl="https://www.noticiasdellago.cl"/>
-      <outline type="rss" text="Noticias del Sur" title="Noticias del Sur" description="Medio de comunicación de la Región de Araucanía." xmlUrl="https://www.noticiasdelsur.cl/feed" htmlUrl="https://www.noticiasdelsur.cl"/>
-      <outline type="rss" text="Noticias Los Ríos" title="Noticias Los Ríos" description="Diario regional de La Unión, Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/feed/" htmlUrl="https://www.noticiaslosrios.cl"/>
-      <outline type="rss" text="Novena Digital" title="Novena Digital" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://novenadigital.cl/feed/" htmlUrl="https://novenadigital.cl"/>
-      <outline type="rss" text="Nuevo Poder" title="Nuevo Poder" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.nuevopoder.cl/feed/" htmlUrl="https://www.nuevopoder.cl"/>
       <outline type="rss" text="Ñuble Actual" title="Ñuble Actual" description="Medio de comunicación de la Región de Ñuble." xmlUrl="https://www.nubleactual.cl/feed" htmlUrl="https://www.nubleactual.cl"/>
       <outline type="rss" text="Ñuble Digital" title="Ñuble Digital" description="Diario regional de Chillán, Ñuble" xmlUrl="https://www.nubledigital.cl/feed/" htmlUrl="https://www.nubledigital.cl"/>
       <outline type="rss" text="Ñuble Online" title="Ñuble Online" description="Medio de comunicación de la Región de Ñuble." xmlUrl="https://nubleonline.cl/feed" htmlUrl="https://nubleonline.cl"/>
-      <outline type="rss" text="Ovalle Hoy" title="Ovalle Hoy" description="Diario regional de Ovalle, Coquimbo" xmlUrl="https://www.ovallehoy.cl/feed/" htmlUrl="https://www.ovallehoy.cl"/>
-      <outline type="rss" text="Ovejero Noticias" title="Ovejero Noticias" description="Diario regional de Punta Arenas, Magallanes" xmlUrl="https://www.ovejeronoticias.cl/feed/" htmlUrl="https://www.ovejeronoticias.cl"/>
-      <outline type="rss" text="País Lobo" title="País Lobo" description="Diario regional de Osorno, Los Lagos" xmlUrl="https://www.paislobo.cl/rss.xml" htmlUrl="https://www.paislobo.cl"/>
-      <outline type="rss" text="Periódico Los Ríos" title="Periódico Los Ríos" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.periodicolosrios.cl/feed/" htmlUrl="https://www.periodicolosrios.cl"/>
-      <outline type="rss" text="Pichilemu News" title="Pichilemu News" description="Medio de comunicación de la Región de O'Higgins." xmlUrl="https://www.pichilemunews.cl/feed" htmlUrl="https://www.pichilemunews.cl"/>
-      <outline type="rss" text="Portal Informativo" title="Portal Informativo" description="Medio de comunicación de la Región de Los Lagos." xmlUrl="https://portalinformativo.cl/feed" htmlUrl="https://portalinformativo.cl"/>
-      <outline type="rss" text="Prensa Ciudadana" title="Prensa Ciudadana" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://www.prensaciudadana.cl/feed/" htmlUrl="https://www.prensaciudadana.cl"/>
-      <outline type="rss" text="Pucón TV" title="Pucón TV" description="Medio de comunicación de la Región de Araucanía." xmlUrl="https://www.pucontv.com/rss/atom" htmlUrl="https://www.pucontv.com"/>
-      <outline type="rss" text="Puertanorte" title="Puertanorte" description="Medio de comunicación de la Región de Arica y Parinacota." xmlUrl="https://radiopuertanorte.cl/feed" htmlUrl="https://radiopuertanorte.cl"/>
-      <outline type="rss" text="Queilen" title="Queilen" description="Medio de comunicación de la Región de Los Lagos." xmlUrl="https://www.queilen.cl/blog-feed.xml" htmlUrl="https://www.queilen.cl"/>
-      <outline type="rss" text="Radio Magallanes" title="Radio Magallanes" description="Medio de comunicación de la Región de Magallanes y de la Antártica Chilena." xmlUrl="https://radiomagallanes.cl/feed" htmlUrl="https://radiomagallanes.cl"/>
-      <outline type="rss" text="Radio Maray" title="Radio Maray" description="Medio de comunicación de la Región de Atacama." xmlUrl="https://www.maray.cl/feed" htmlUrl="https://www.maray.cl"/>
-      <outline type="rss" text="Radio Santa María" title="Radio Santa María" description="Medio de comunicación de la Región de Aysén." xmlUrl="https://www.radiosantamaria.cl/feed" htmlUrl="https://www.radiosantamaria.cl"/>
-      <outline type="rss" text="Radio Ventisqueros" title="Radio Ventisqueros" description="Medio de comunicación de la Región de Aysén." xmlUrl="https://www.radioventisqueros.cl/feed" htmlUrl="https://www.radioventisqueros.cl"/>
-      <outline type="rss" text="Red Informativa" title="Red Informativa" description="Medio de comunicación de la Región de Araucanía." xmlUrl="https://www.redinformativa.cl/feed" htmlUrl="https://www.redinformativa.cl"/>
-      <outline type="rss" text="Regionalista" title="Regionalista" description="Medio de comunicación de la Región de Antofagasta." xmlUrl="https://regionalista.cl/feed" htmlUrl="https://regionalista.cl"/>
-      <outline type="rss" text="Rengo Notas" title="Rengo Notas" description="Medio de comunicación de la Región de O'Higgins." xmlUrl="https://rengonotas.cl/wp/feed/" htmlUrl="https://www.rengonotas.cl"/>
-      <outline type="rss" text="Río en Línea" title="Río en Línea" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.rioenlinea.cl/feed/" htmlUrl="https://www.rioenlinea.cl"/>
       <outline type="rss" text="San Carlos On Line" title="San Carlos On Line" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosonline.cl/rss.xml" htmlUrl="https://www.sancarlosonline.cl"/>
       <outline type="rss" text="San Carlos Online" title="San Carlos Online" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosonline.cl/feeds/posts/default?alt=rss" htmlUrl="https://www.sancarlosonline.cl"/>
-      <outline type="rss" text="Tarapacá Online" title="Tarapacá Online" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.tarapacaonline.cl/feed/" htmlUrl="https://www.tarapacaonline.cl"/>
+      </outline>
+      <outline text="Biobío" title="Biobío">
+      <outline type="rss" text="Diario Concepción" title="Diario Concepción" description="Diario regional con cobertura informativa de la Región del Biobío" xmlUrl="https://www.diarioconcepcion.cl/rss.xml" htmlUrl="https://www.diarioconcepcion.cl"/>
+      <outline type="rss" text="La Tribuna" title="La Tribuna" description="Diario regional de Los Ángeles, Biobío" xmlUrl="https://www.latribuna.cl/rss.xml" htmlUrl="https://www.latribuna.cl"/>
+      <outline type="rss" text="Nacimentano" title="Nacimentano" description="Medio de comunicación de la Región de Biobío." xmlUrl="https://nacimentano.cl/feed" htmlUrl="https://nacimentano.cl"/>
+      <outline type="rss" text="Noticias Biobío" title="Noticias Biobío" description="Medio de comunicación de la Región de Biobío." xmlUrl="https://noticiasbiobio.cl/feed" htmlUrl="https://noticiasbiobio.cl"/>
+      <outline type="rss" text="Tomé al Día" title="Tomé al Día" description="Medio de comunicación de la Región de Biobío." xmlUrl="http://www.tomealdia.com/feeds/posts/default?alt=rss" htmlUrl="http://www.tomealdia.com"/>
+      </outline>
+      <outline text="Araucanía" title="Araucanía">
+      <outline type="rss" text="Alerta Noticias Temuco" title="Alerta Noticias Temuco" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://alertanoticiastemuco.cl/feed/" htmlUrl="https://alertanoticiastemuco.cl"/>
+      <outline type="rss" text="Angol Noticias" title="Angol Noticias" description="Diario regional de Angol, La Araucanía" xmlUrl="https://www.angolnoticiasnew.cl/feed/" htmlUrl="https://www.angolnoticiasnew.cl"/>
+      <outline type="rss" text="Araucanía Noticias" title="Araucanía Noticias" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://www.araucanianoticias.cl/feed/" htmlUrl="https://www.araucanianoticias.cl"/>
+      <outline type="rss" text="Clave 9" title="Clave 9" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://www.clave9.cl/feed/" htmlUrl="https://www.clave9.cl"/>
+      <outline type="rss" text="Diario Austral Temuco" title="Diario Austral Temuco" description="Diario regional de La Araucanía" xmlUrl="https://www.australtemuco.cl/?feed=rss2" htmlUrl="https://www.australtemuco.cl"/>
+      <outline type="rss" text="Diario El Cautín" title="Diario El Cautín" description="Medio de comunicación de la Región de Araucanía." xmlUrl="https://www.diarioelcautin.cl/feed" htmlUrl="https://www.diarioelcautin.cl"/>
+      <outline type="rss" text="El Diario de La Araucanía" title="El Diario de La Araucanía" description="Diario regional de Angol, La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl"/>
+      <outline type="rss" text="El Periódico" title="El Periódico" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://elperiodico.cl/feed/" htmlUrl="https://elperiodico.cl"/>
+      <outline type="rss" text="Las Noticias de Malleco" title="Las Noticias de Malleco" description="Diario regional de Angol, La Araucanía" xmlUrl="https://lasnoticiasdemalleco.cl/feed/" htmlUrl="https://lasnoticiasdemalleco.cl"/>
+      <outline type="rss" text="Malleco 7" title="Malleco 7" description="Diario regional de Angol, La Araucanía" xmlUrl="https://www.malleco7.cl/feed/" htmlUrl="https://www.malleco7.cl"/>
+      <outline type="rss" text="Noticias del Lago" title="Noticias del Lago" description="Diario regional de Villarrica, La Araucanía" xmlUrl="https://www.noticiasdellago.cl/feed/" htmlUrl="https://www.noticiasdellago.cl"/>
+      <outline type="rss" text="Noticias del Sur" title="Noticias del Sur" description="Medio de comunicación de la Región de Araucanía." xmlUrl="https://www.noticiasdelsur.cl/feed" htmlUrl="https://www.noticiasdelsur.cl"/>
+      <outline type="rss" text="Novena Digital" title="Novena Digital" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://novenadigital.cl/feed/" htmlUrl="https://novenadigital.cl"/>
+      <outline type="rss" text="Prensa Ciudadana" title="Prensa Ciudadana" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://www.prensaciudadana.cl/feed/" htmlUrl="https://www.prensaciudadana.cl"/>
+      <outline type="rss" text="Pucón TV" title="Pucón TV" description="Medio de comunicación de la Región de Araucanía." xmlUrl="https://www.pucontv.com/rss/atom" htmlUrl="https://www.pucontv.com"/>
+      <outline type="rss" text="Red Informativa" title="Red Informativa" description="Medio de comunicación de la Región de Araucanía." xmlUrl="https://www.redinformativa.cl/feed" htmlUrl="https://www.redinformativa.cl"/>
       <outline type="rss" text="Temuco Diario" title="Temuco Diario" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://www.temucodiario.cl/feed/" htmlUrl="https://www.temucodiario.cl"/>
       <outline type="rss" text="Tiempo 21" title="Tiempo 21" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://www.tiempo21.cl/feed/" htmlUrl="https://www.tiempo21.cl"/>
-      <outline type="rss" text="Tierramarillano" title="Tierramarillano" description="Diario regional de Copiapó, Atacama" xmlUrl="https://www.tierramarillano.cl/feed/" htmlUrl="https://www.tierramarillano.cl"/>
-      <outline type="rss" text="Timeline" title="Timeline" description="Diario regional de Antofagasta, Antofagasta" xmlUrl="https://www.timeline.cl/feed/" htmlUrl="https://www.timeline.cl"/>
-      <outline type="rss" text="Tomé al Día" title="Tomé al Día" description="Medio de comunicación de la Región de Biobío." xmlUrl="http://www.tomealdia.com/feeds/posts/default?alt=rss" htmlUrl="http://www.tomealdia.com"/>
-      <outline type="rss" text="Vallenar Digital" title="Vallenar Digital" description="Medio de comunicación de la Región de Atacama." xmlUrl="https://www.vallenardigital.cl/feed" htmlUrl="https://www.vallenardigital.cl"/>
       <outline type="rss" text="Villarrica al Día" title="Villarrica al Día" description="Medio de comunicación de la Región de Araucanía." xmlUrl="https://www.villarricaldia.cl/feed" htmlUrl="https://www.villarricaldia.cl"/>
-      <outline type="rss" text="VLN Radio" title="VLN Radio" description="Medio de comunicación de la Región de Maule." xmlUrl="https://www.vlnradio.cl/feed" htmlUrl="https://www.vlnradio.cl"/>
+      </outline>
+      <outline text="Los Ríos" title="Los Ríos">
+      <outline type="rss" text="Central Noticias" title="Central Noticias" description="Diario regional de Panguipulli, Los Ríos" xmlUrl="https://centralnoticias.cl/?feed=rss2" htmlUrl="https://centralnoticias.cl"/>
+      <outline type="rss" text="El Provincial" title="El Provincial" description="Medio de comunicación de la Región de Los Ríos." xmlUrl="https://www.elprovincial.cl/feed" htmlUrl="https://www.elprovincial.cl"/>
+      <outline type="rss" text="Informa Al Minuto" title="Informa Al Minuto" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://informaalminuto.cl/feed/" htmlUrl="https://informaalminuto.cl"/>
+      <outline type="rss" text="Los Ríos Noticias" title="Los Ríos Noticias" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.losriosnoticias.cl/feed" htmlUrl="https://www.losriosnoticias.cl"/>
+      <outline type="rss" text="Noticias Los Ríos" title="Noticias Los Ríos" description="Diario regional de La Unión, Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/feed/" htmlUrl="https://www.noticiaslosrios.cl"/>
+      <outline type="rss" text="Periódico Los Ríos" title="Periódico Los Ríos" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.periodicolosrios.cl/feed/" htmlUrl="https://www.periodicolosrios.cl"/>
+      <outline type="rss" text="Río en Línea" title="Río en Línea" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.rioenlinea.cl/feed/" htmlUrl="https://www.rioenlinea.cl"/>
+      </outline>
+      <outline text="Los Lagos" title="Los Lagos">
+      <outline type="rss" text="Central Noticia" title="Central Noticia" description="Diario regional de Osorno, Los Lagos" xmlUrl="https://www.centralnoticia.cl/feed/" htmlUrl="https://www.centralnoticia.cl"/>
+      <outline type="rss" text="Datos Sur" title="Datos Sur" description="Diario regional de Llanquihue, Puerto Montt" xmlUrl="https://www.datossur.cl/index.php?format=feed" htmlUrl="https://www.datossur.cl"/>
+      <outline type="rss" text="Datos Sur" title="Datos Sur" description="Diario regional de Llanquihue, Puerto Montt" xmlUrl="https://www.datossur.cl/index.php?format=feed&amp;amp;type=rss" htmlUrl="https://www.datossur.cl"/>
+      <outline type="rss" text="Diario Austral Osorno" title="Diario Austral Osorno" description="Diario regional de Osorno" xmlUrl="https://www.australosorno.cl/?feed=rss2" htmlUrl="https://www.australosorno.cl"/>
+      <outline type="rss" text="Diario El Huemul" title="Diario El Huemul" description="Diario regional de Chaitén, Los Lagos" xmlUrl="https://www.elhuemul.cl/feed/" htmlUrl="https://www.elhuemul.cl"/>
+      <outline type="rss" text="Diario Puerto Varas" title="Diario Puerto Varas" description="Diario regional de Puerto Varas, Los Lagos" xmlUrl="https://www.diariopuertovaras.cl/feed/" htmlUrl="https://www.diariopuertovaras.cl"/>
+      <outline type="rss" text="El Calbucano" title="El Calbucano" description="Diario regional de Calbuco, Los Lagos" xmlUrl="https://www.elcalbucano.cl/feed/" htmlUrl="https://www.elcalbucano.cl"/>
+      <outline type="rss" text="El Insular" title="El Insular" description="Diario regional de Castro, Los Lagos" xmlUrl="https://www.elinsular.cl/feed/" htmlUrl="https://www.elinsular.cl"/>
+      <outline type="rss" text="Guardián del Sur" title="Guardián del Sur" description="Diario regional de Puerto Montt, Los Lagos" xmlUrl="https://www.guardiandelsur.cl/feed/" htmlUrl="https://www.guardiandelsur.cl"/>
+      <outline type="rss" text="La Opinión de Chiloé" title="La Opinión de Chiloé" description="Diario regional de Ancud, Los Lagos" xmlUrl="https://www.laopiniondechiloe.cl/feed/" htmlUrl="https://www.laopiniondechiloe.cl"/>
+      <outline type="rss" text="Noticias Chiloé" title="Noticias Chiloé" description="Diario regional de Castro, Los Lagos" xmlUrl="https://www.noticiaschiloe.cl/feed/" htmlUrl="https://www.noticiaschiloe.cl"/>
+      <outline type="rss" text="País Lobo" title="País Lobo" description="Diario regional de Osorno, Los Lagos" xmlUrl="https://www.paislobo.cl/rss.xml" htmlUrl="https://www.paislobo.cl"/>
+      <outline type="rss" text="Portal Informativo" title="Portal Informativo" description="Medio de comunicación de la Región de Los Lagos." xmlUrl="https://portalinformativo.cl/feed" htmlUrl="https://portalinformativo.cl"/>
+      <outline type="rss" text="Queilen" title="Queilen" description="Medio de comunicación de la Región de Los Lagos." xmlUrl="https://www.queilen.cl/blog-feed.xml" htmlUrl="https://www.queilen.cl"/>
+      </outline>
+      <outline text="Aysén" title="Aysén">
+      <outline type="rss" text="Aysén Ahora" title="Aysén Ahora" description="Diario regional de Puerto Aysén, Aysén" xmlUrl="https://aysenahora.cl/feed/" htmlUrl="https://aysenahora.cl"/>
+      <outline type="rss" text="Radio Santa María" title="Radio Santa María" description="Medio de comunicación de la Región de Aysén." xmlUrl="https://www.radiosantamaria.cl/feed" htmlUrl="https://www.radiosantamaria.cl"/>
+      <outline type="rss" text="Radio Ventisqueros" title="Radio Ventisqueros" description="Medio de comunicación de la Región de Aysén." xmlUrl="https://www.radioventisqueros.cl/feed" htmlUrl="https://www.radioventisqueros.cl"/>
+      </outline>
+      <outline text="Magallanes y de la Antártica Chilena" title="Magallanes y de la Antártica Chilena">
+      <outline type="rss" text="Diálogo Sur" title="Diálogo Sur" description="Diario regional de Punta Arenas, Magallanes" xmlUrl="https://dialogosur.cl/feed/" htmlUrl="https://dialogosur.cl"/>
+      <outline type="rss" text="El Magalánico" title="El Magalánico" description="Diario regional de Punta Arenas, Magallanes" xmlUrl="https://www.elmagallanico.com/feed/" htmlUrl="https://www.elmagallanico.com"/>
+      <outline type="rss" text="El Pingüino" title="El Pingüino" description="Diario regional de Magallanes y la Antártica" xmlUrl="https://www.elpinguino.com/feed/" htmlUrl="https://www.elpinguino.com"/>
+      <outline type="rss" text="El Tirapiedras" title="El Tirapiedras" description="Diario regional de Puerto Natales, Magallanes" xmlUrl="https://www.eltirapiedras.cl/feed/" htmlUrl="https://www.eltirapiedras.cl"/>
+      <outline type="rss" text="La Prensa Austral" title="La Prensa Austral" description="Diario regional de Magallanes y la Antártica Chilena" xmlUrl="https://laprensaaustral.cl/feed" htmlUrl="https://laprensaaustral.cl"/>
+      <outline type="rss" text="Ovejero Noticias" title="Ovejero Noticias" description="Diario regional de Punta Arenas, Magallanes" xmlUrl="https://www.ovejeronoticias.cl/feed/" htmlUrl="https://www.ovejeronoticias.cl"/>
+      <outline type="rss" text="Radio Magallanes" title="Radio Magallanes" description="Medio de comunicación de la Región de Magallanes y de la Antártica Chilena." xmlUrl="https://radiomagallanes.cl/feed" htmlUrl="https://radiomagallanes.cl"/>
+      </outline>
+      <outline text="Otras Regiones o No Especificada" title="Otras Regiones o No Especificada">
+      <outline type="rss" text="Diario El Ranco" title="Diario El Ranco" description="Diario regional de La Unión, Los Ríos" xmlUrl="https://www.diarioelranco.cl/feed/" htmlUrl="https://www.diarioelranco.cl"/>
+      <outline type="rss" text="El Contraste" title="El Contraste" description="Diario regional de Los Ángeles, Biobío" xmlUrl="https://www.elcontraste.cl/feed/" htmlUrl="https://www.elcontraste.cl"/>
+      <outline type="rss" text="El Mercurio Valparaíso" title="El Mercurio Valparaíso" description="Diario regional de Valparaíso" xmlUrl="https://www.mercuriovalpo.cl/?feed=rss2" htmlUrl="https://www.mercuriovalpo.cl"/>
+      <outline type="rss" text="Epicentro Chile" title="Epicentro Chile" description="Diario regional de Valparaíso, Valparaíso" xmlUrl="https://www.epicentrochile.com/feed/" htmlUrl="https://www.epicentrochile.com"/>
+      <outline type="rss" text="La Hora" title="La Hora" description="Medio digital chileno de noticias y actualidad nacional e internacional." xmlUrl="https://www.lahora.cl/rss/global.xml" htmlUrl="https://www.lahora.cl"/>
+      <outline type="rss" text="La Región Hoy" title="La Región Hoy" description="Diario regional de Valparaíso, Valparaíso" xmlUrl="https://www.laregionhoy.cl/feed/" htmlUrl="https://www.laregionhoy.cl"/>
+      <outline type="rss" text="Los Ríos Al Día" title="Los Ríos Al Día" description="" xmlUrl="https://www.losriosaldia.cl/feed/" htmlUrl="https://www.losriosaldia.cl"/>
+      </outline>
     </outline>
     <outline text="💼 Negocios y Finanzas" title="💼 Negocios y Finanzas">
       <outline type="rss" text="Cooperativa - Economía" title="Cooperativa - Economía" description="Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml" htmlUrl="https://www.cooperativa.cl"/>

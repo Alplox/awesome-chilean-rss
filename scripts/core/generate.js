@@ -132,6 +132,38 @@ function generateOPML() {
     const label = categories[cat] ?? cat;
     const feeds = feedsByCategory[cat] || [];
 
+    const sorted = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+    const outlines = sorted
+      .map(feed =>
+        `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
+      )
+      .join('\n');
+    return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${outlines}\n    </outline>`;
+  }).join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - ${totalFeeds} feeds</title>
+    <description>El directorio más completo de feeds RSS chilenos. ${totalFeeds} feeds RSS, organizadas por categoría y mantenidas activamente.</description>
+    <dateCreated>${now}</dateCreated>
+    <ownerName>${escapeXml(ownerName)}</ownerName>
+  </head>
+  <body>
+${categoryBlocks}
+  </body>
+</opml>
+`;
+}
+
+function generateNestedOPML() {
+  const now = db.last_updated;
+  const totalFeeds = allFeeds.length;
+
+  const categoryBlocks = orderedCategories.map(cat => {
+    const label = categories[cat] ?? cat;
+    const feeds = feedsByCategory[cat] || [];
+
     if (cat === 'regional') {
       const regionFeeds = {};
       for (const feed of feeds) {
@@ -167,7 +199,8 @@ function generateOPML() {
       return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${regionBlocks.join('\n')}\n    </outline>`;
     }
 
-    const outlines = feeds
+    const sorted = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+    const outlines = sorted
       .map(feed =>
         `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
       )
@@ -418,7 +451,8 @@ return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
 1. **Importar en tu lector RSS favorito**: Descarga [\`chilean-rss.opml\`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: \`https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml\`
 3. **¿Solo medios regionales?** Descarga [\`chilean-rss-regions.opml\`](dist/opml/chilean-rss-regions.opml) con ${regTotal} feeds agrupados por región
-4. **¿Una región específica?** Explora los OPML individuales en [\`regions/\`](dist/opml/regions/) o descarga por categoría en [\`categories/\`](dist/opml/categories/)
+4. **¿Tu lector soporta subcarpetas?** Prueba [\`chilean-rss-nested.opml\`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
+5. **¿Una región específica?** Explora los OPML individuales en [\`regions/\`](dist/opml/regions/) o descarga por categoría en [\`categories/\`](dist/opml/categories/)
 
 ## 📝 Feeds disponibles (${total})
 
@@ -464,10 +498,15 @@ try {
     mkdirSync(OPML_DIR);
   }
 
-  // Main OPML file
+  // Main OPML file (flat — todas las categorías en un solo nivel)
   const opml = generateOPML();
   writeFileSync(`${OPML_DIR}/chilean-rss.opml`, opml, 'utf-8');
   console.log(`✅ ${OPML_DIR}/chilean-rss.opml generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
+
+  // Nested OPML file (regionales con subcarpetas por región)
+  const nestedOpml = generateNestedOPML();
+  writeFileSync(`${OPML_DIR}/chilean-rss-nested.opml`, nestedOpml, 'utf-8');
+  console.log(`✅ ${OPML_DIR}/chilean-rss-nested.opml generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
 
   // Consolidated regional OPML file
   const regionalOpml = generateRegionalOPML(feedsByRegion);
