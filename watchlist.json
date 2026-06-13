@@ -918,40 +918,6 @@
     "description": "Diario chileno de circulación nacional"
   },
   {
-    "id": "en-cancha",
-    "name": "En Cancha",
-    "url": "https://www.encancha.cl",
-    "category": "sports",
-    "reason": "Sin feed RSS detectado",
-    "feeds": [
-      {
-        "id": "en-cancha-google-news",
-        "name": "En Cancha - Google News",
-        "rss_url": "https://news.google.com/rss/search?q=site:encancha.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "url": "https://news.google.com/search?q=site:encancha.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "feed_type": "RSS",
-        "description": "Resultados de site:encancha.cl en Google News de noticias Chilenas",
-        "last_checked": "2026-06-13T04:18:31.026Z",
-        "last_known_item_date": "2026-06-13T03:02:36.000Z",
-        "status": "active",
-        "verified": true
-      },
-      {
-        "id": "en-cancha-bing-news",
-        "name": "En Cancha - Bing News",
-        "rss_url": "https://www.bing.com/news/search?q=site:encancha.cl&format=RSS",
-        "url": "https://www.bing.com/news/search?q=site:encancha.cl",
-        "feed_type": "RSS",
-        "description": "Resultados de site:encancha.cl en Bing News",
-        "last_checked": "2026-06-13T04:18:31.026Z",
-        "last_known_item_date": "2026-06-13T03:02:36.000Z",
-        "status": "active",
-        "verified": true
-      }
-    ],
-    "description": "Medio chileno de análisis deportivo"
-  },
-  {
     "id": "soyantofagasta",
     "name": "SoyAntofagasta",
     "url": "https://www.soyantofagasta.cl",

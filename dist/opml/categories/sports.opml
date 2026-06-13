@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (17 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (20 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-13T07:28:36.576Z</dateCreated>
+    <dateCreated>2026-06-13T23:01:10.283Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -16,6 +16,9 @@
     <outline type="rss" text="CRTV Chile" title="CRTV Chile" description="CRTV Chile es una plataforma multimedia con enfoque en disciplinas deportivas" xmlUrl="https://crtvchile.cl/rss" htmlUrl="https://crtvchile.cl"/>
     <outline type="rss" text="CRTV Chile - Google News" title="CRTV Chile - Google News" description="Resultados de site:crtvchile.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:crtvchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:crtvchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario El Día - Deportes" title="Diario El Día - Deportes" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/deportes" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="En Cancha" title="En Cancha" description="Medio chileno de análisis deportivo" xmlUrl="https://www.encancha.cl/arc/outboundfeeds/rss/?outputType=xml" htmlUrl="https://www.encancha.cl"/>
+    <outline type="rss" text="En Cancha - Bing News" title="En Cancha - Bing News" description="Resultados de site:encancha.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:encancha.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:encancha.cl"/>
+    <outline type="rss" text="En Cancha - Google News" title="En Cancha - Google News" description="Resultados de site:encancha.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:encancha.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:encancha.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Resultados 'deportes'" title="Google News - Chile - Resultados 'deportes'" description="Página de resultados para keyword=deportes en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=deportes&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=deportes&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Sección Deportes" title="Google News - Chile - Sección Deportes" description="Sección Deportes de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRFp1ZEdvU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRFp1ZEdvU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Cuarta - Deportes" title="La Cuarta - Deportes" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>

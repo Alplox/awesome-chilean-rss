@@ -39,7 +39,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { checkFeedUrl } from '../../lib/feed-validator.js';
 import { isValidUrl, checkSiteStatus, checkSiteReachable, tryFetchFeedInsecure } from '../../lib/network-utils.js';
 import { isAutomatic, promptUser, promptUrl, promptStatus } from '../../lib/prompter.js';
-import { rediscoverFeed } from '../../lib/feed-rediscovery.js';
+import { rediscoverFeed, clearHomepageCache } from '../../lib/feed-rediscovery.js';
 
 // ─── Configuración ────────────────────────────────────────────────────────────
 
@@ -447,8 +447,12 @@ async function main() {
 
   const results = { ok: [], fixed: [], stale: [], broken: [], offline: [], noFeed: [], other: [] };
   const getCachedSiteStatus = createSiteStatusCache();
+  clearHomepageCache();
 
-  for (const site of sitesToValidate) {
+  const SITE_CONCURRENCY = Math.min(3, sitesToValidate.length);
+  let siteIndex = 0;
+
+  async function processSite(site) {
     console.log(`\n📌 ${site.name} (${site.feeds.length} feed${site.feeds.length > 1 ? 's' : ''})`);
 
     // Pre-check all feeds for this site in parallel (network-bound phase)
@@ -610,6 +614,15 @@ async function main() {
       }
     }
   }
+
+  await Promise.all(
+    Array.from({ length: SITE_CONCURRENCY }, async () => {
+      while (siteIndex < sitesToValidate.length) {
+        const site = sitesToValidate[siteIndex++];
+        await processSite(site);
+      }
+    })
+  );
 
   // ─── Resumen ───────────────────────────────────────────────────────────────
 

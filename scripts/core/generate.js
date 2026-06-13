@@ -102,6 +102,7 @@ for (const reg of Object.keys(sitesByRegion)) {
 
 // Aplanar todos los feeds para conteos y OPML
 const allFeeds = Object.values(feedsByCategory).flat();
+const realFeedCount = new Set(allFeeds.map(f => f.siteId)).size;
 
 // Orden de categorías en el documento
 const REGIONAL_CAT = 'regional';
@@ -313,7 +314,8 @@ function generateReadme() {
     const label = categories[cat] ?? cat;
     const feeds = feedsByCategory[cat] || [];
     if (feeds.length === 0) return null;
-    return `- [${label}](#cat-${cat}) — ${feeds.length} feeds`;
+    const sitesCount = (sitesByResolvedCategory[cat] || []).length;
+    return `- [${label}](#cat-${cat}) — ${sitesCount} sitios, ${feeds.length} feeds`;
   }).filter(Boolean);
 
   const index = `<a id="indice"></a>\n### 📑 Índice de categorías\n\n${indexLines.join('\n')}`;
@@ -386,7 +388,7 @@ return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
 
       if (regionSubsections.length === 0) return null;
 
-      return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\nConsolidado regional: [\`chilean-rss-regions.opml\`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [\`regional.opml\`](dist/opml/categories/regional.opml)\n\n${regionSubsections.join('\n\n')}\n\n[↑ Volver al índice](#indice)`;
+      return `<a id="cat-${cat}"></a>\n### ${label} (${catSites.length} sitios, ${feedCount(totalFeedsInCat)})\n\nConsolidado regional: [\`chilean-rss-regions.opml\`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [\`regional.opml\`](dist/opml/categories/regional.opml)\n\n${regionSubsections.join('\n\n')}\n\n[↑ Volver al índice](#indice)`;
     }
 
     const items = catSites.map(site => {
@@ -407,7 +409,7 @@ return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
 
     if (!items) return null;
 
-    return `<a id="cat-${cat}"></a>\n### ${label} (${feedCount(totalFeedsInCat)})\n\n*Descargar OPML: [\`${cat}.opml\`](dist/opml/categories/${cat}.opml)*\n\n${items}\n\n[↑ Volver al índice](#indice)`;
+    return `<a id="cat-${cat}"></a>\n### ${label} (${catSites.length} sitios, ${feedCount(totalFeedsInCat)})\n\n*Descargar OPML: [\`${cat}.opml\`](dist/opml/categories/${cat}.opml)*\n\n${items}\n\n[↑ Volver al índice](#indice)`;
   }).filter(Boolean).join('\n\n');
 
   const regTotal = Object.values(feedsByRegion).flat().length;
@@ -416,9 +418,9 @@ return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Feeds](https://img.shields.io/badge/feeds-${total}-blue)
+![Sitios](https://img.shields.io/badge/sitios-${realFeedCount}-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-${total}-blue)
 
-> El directorio más completo de feeds RSS chilenos. ${total} fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. ${realFeedCount} sitios, ${total} fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -429,7 +431,7 @@ return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
 5. **¿Una región específica?** Explora los OPML individuales en [\`regions/\`](dist/opml/regions/) o descarga por categoría en [\`categories/\`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [\`awesome-chilean-rss.html\`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Feeds disponibles (${total})
+## 📝 Fuentes disponibles (${realFeedCount} sitios, ${total} feeds)
 
 ${index}
 

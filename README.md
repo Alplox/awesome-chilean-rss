@@ -2,9 +2,9 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Feeds](https://img.shields.io/badge/feeds-725-blue)
+![Sitios](https://img.shields.io/badge/sitios-270-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-728-blue)
 
-> El directorio más completo de feeds RSS chilenos. 725 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 270 sitios, 728 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -15,24 +15,24 @@
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Feeds disponibles (725)
+## 📝 Fuentes disponibles (270 sitios, 728 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 133 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 13 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 79 feeds
-- [🏛️ Gobierno y Datos Públicos](#cat-government) — 24 feeds
-- [🏫 Universidades e Investigación](#cat-universities) — 14 feeds
-- [🌎 Medios Regionales](#cat-regional) — 401 feeds
-- [💼 Negocios y Finanzas](#cat-business) — 15 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 14 feeds
-- [⚽ Deportes](#cat-sports) — 17 feeds
-- [👥 Comunidad](#cat-community) — 15 feeds
+- [📰 Noticias Nacionales](#cat-news) — 32 sitios, 131 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 10 sitios, 15 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 19 sitios, 79 feeds
+- [🏛️ Gobierno y Datos Públicos](#cat-government) — 11 sitios, 24 feeds
+- [🏫 Universidades e Investigación](#cat-universities) — 8 sitios, 14 feeds
+- [🌎 Medios Regionales](#cat-regional) — 188 sitios, 401 feeds
+- [💼 Negocios y Finanzas](#cat-business) — 7 sitios, 15 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 8 sitios, 14 feeds
+- [⚽ Deportes](#cat-sports) — 11 sitios, 20 feeds
+- [👥 Comunidad](#cat-community) — 5 sitios, 15 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (133 feeds)
+### 📰 Noticias Nacionales (32 sitios, 131 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -197,15 +197,13 @@
   - The Clinic - Mastodon.cl BOT: `https://mastodon.cl/@theclinic.rss`
   - The Clinic - Google News: `https://news.google.com/rss/search?q=site:theclinic.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - The Clinic - Bing News: `https://www.bing.com/news/search?q=site:theclinic.cl&format=RSS`
-- **The Guardian** — Diario británico con cobertura nacional, internacional, política, económica y cultural
-  - The Guardian - Chile: `https://www.theguardian.com/world/chile/rss`
-  - The Guardian - Google News: `https://news.google.com/rss/search?q=site:theguardian.com&hl=es-419&gl=CL&ceid=CL:es-419`
-  - The Guardian - Bing News: `https://www.bing.com/news/search?q=site:theguardian.com&format=RSS`
+- **The Guardian**: Página del diario británico exclusiva para noticias pertenecientes a Chile
+  - RSS: `https://www.theguardian.com/world/chile/rss`
 
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (13 feeds)
+### 🌐 Noticias Internacionales (10 sitios, 15 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -231,11 +229,14 @@
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml`
 - **Terra Chile**: Portal de noticias generalista con cobertura nacional e internacional
   - RSS: `https://www.terra.cl/rss/feed.html?r=2`
+- **The Guardian** — Diario británico con cobertura nacional, internacional, política, económica y cultural
+  - The Guardian - Google News: `https://news.google.com/rss/search?q=site:theguardian.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - The Guardian - Bing News: `https://www.bing.com/news/search?q=site:theguardian.com&format=RSS`
 
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (79 feeds)
+### 💻 Tecnología y Startups (19 sitios, 79 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
@@ -341,7 +342,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-government"></a>
-### 🏛️ Gobierno y Datos Públicos (24 feeds)
+### 🏛️ Gobierno y Datos Públicos (11 sitios, 24 feeds)
 
 *Descargar OPML: [`government.opml`](dist/opml/categories/government.opml)*
 
@@ -384,7 +385,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-universities"></a>
-### 🏫 Universidades e Investigación (14 feeds)
+### 🏫 Universidades e Investigación (8 sitios, 14 feeds)
 
 *Descargar OPML: [`universities.opml`](dist/opml/categories/universities.opml)*
 
@@ -414,7 +415,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (401 feeds)
+### 🌎 Medios Regionales (188 sitios, 401 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
@@ -1138,7 +1139,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Negocios y Finanzas (15 feeds)
+### 💼 Negocios y Finanzas (7 sitios, 15 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
@@ -1168,7 +1169,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (14 feeds)
+### 🎨 Cultura y Divulgación (8 sitios, 14 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
@@ -1198,7 +1199,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (17 feeds)
+### ⚽ Deportes (11 sitios, 20 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
@@ -1214,6 +1215,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - CRTV Chile - Google News: `https://news.google.com/rss/search?q=site:crtvchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diario El Día**: Diario regional de La Serena, Coquimbo
   - RSS: `https://www.diarioeldia.cl/rss/deportes`
+- **En Cancha** — Medio chileno de análisis deportivo
+  - En Cancha: `https://www.encancha.cl/arc/outboundfeeds/rss/?outputType=xml`
+  - En Cancha - Google News: `https://news.google.com/rss/search?q=site:encancha.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - En Cancha - Bing News: `https://www.bing.com/news/search?q=site:encancha.cl&format=RSS`
 - **Google News** — Segregador de noticias de Google
   - Google News - Chile - Resultados 'deportes': `https://news.google.com/rss/search?q=deportes&hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Sección Deportes: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRFp1ZEdvU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
@@ -1233,7 +1238,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-community"></a>
-### 👥 Comunidad (15 feeds)
+### 👥 Comunidad (5 sitios, 15 feeds)
 
 *Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
 

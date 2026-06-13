@@ -94,12 +94,12 @@ const kept = [];
 const errors = { noResponse: [], httpError: [], emptyFeed: [], noFeed: [], stale: [], proxyBroken: [], proxyStale: [] };
 
 for (const entry of entries) {
-  process.stdout.write(`🔍 ${entry.name}... `);
   const result = await validateWatchlistEntry(entry);
 
+  const clearLine = '\r' + ' '.repeat(80) + '\r';
   if (result.ok) {
     const nativeFeed = result.siteEntry.feeds.find(f => f.id === `${entry.id}-main`);
-    console.log('🎉 feed válido!');
+    process.stdout.write(`${clearLine}🎉 feed válido!\n`);
     console.log(`   Feed nativo: ${nativeFeed?.rss_url} [${nativeFeed?.feed_type}]`);
     console.log(`   Último item: ${nativeFeed?.last_known_item_date?.slice(0, 10) ?? 'desconocido'}`);
 
@@ -122,7 +122,7 @@ for (const entry of entries) {
     }
     console.log();
   } else {
-    console.log(`❌ ${result.reason}\n`);
+    process.stdout.write(`${clearLine}❌ ${result.reason}\n`);
 
     if (result.entry?.feeds) {
       const proxyIssues = result.entry.feeds.filter(f => f.status !== 'active' && f.id !== `${entry.id}-main`);

@@ -62,6 +62,7 @@ La lógica de red y redescubrimiento está organizada en módulos independientes
 | `lib/feed-rediscovery.js`| Redescubrimiento: `extractFeedLinksFromHtml`, `rediscoverFeed`, `FEED_PATTERNS`, `parseLinkHeader`, `extractJsonLdFeeds` |
 | `lib/prompter.js`        | Prompts: `promptUser`, `promptUrl`, `promptStatus`, `isAutomatic` |
 | `lib/watchlist-validator.js` | Watchlist: `validateWatchlistEntry`, `promoteToSite` |
+| `lib/rate-limiter.js`    | Control de concurrencia: máximo 5 requests globales, mínimo 2s entre requests al mismo dominio |
 
 ### Flujo de trabajo
 
@@ -392,6 +393,11 @@ Para cada feed en `sites[]`:
 ### Resiliencia de red
 
 - **Reintentos automáticos**: hasta 3 intentos con backoff exponencial (500ms, 1500ms, 3000ms) ante errores de red transitorios
+- **Reintentos por rate limit**: HTTP 429 (Too Many Requests) y 503 (Service Unavailable) también se reintentan automáticamente
+- **Rotación de User-Agent**: 6 variantes de navegadores modernos, rotadas en cada request
+- **Control de concurrencia**: máximo 5 requests activos simultáneamente a nivel global
+- **Delay por dominio**: mínimo 2 segundos entre requests al mismo dominio para evitar rate limits
+- **Limpieza automática**: timestamps de dominios se purgan cada 60s para evitar fugas de memoria
 - **Sin duplicados en redescubrimiento**: las URLs ya verificadas en etapas previas (Link header → HTML → JSON-LD → patrones) se omiten automáticamente
 
 ### Límites de seguridad
@@ -399,6 +405,8 @@ Para cada feed en `sites[]`:
 - Respuestas HTTP > 5 MB se rechazan
 - Timeout de 10 segundos por petición
 - Solo URLs `http:` / `https:` permitidas, sin IPs privadas
+- Máximo 5 requests concurrentes activos a nivel global
+- Mínimo 2 segundos de separación entre requests al mismo dominio
 
 ## Categorías disponibles
 

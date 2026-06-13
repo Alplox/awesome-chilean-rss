@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-13T07:28:36.576Z",
-  "total_feeds": 725,
+  "last_updated": "2026-06-13T23:01:10.283Z",
+  "total_feeds": 728,
   "sites": [
     {
       "id": "as-chile",
@@ -10044,7 +10044,7 @@
           "name": "Colemono",
           "rss_url": "https://colemono.com/feed/",
           "feed_type": "RSS",
-          "last_checked": "2026-06-13T06:53:27.464Z",
+          "last_checked": "2026-06-13T23:01:10.281Z",
           "status": "active",
           "verified": true,
           "last_known_item_date": "2026-06-12T20:30:05.000Z"
@@ -10056,8 +10056,8 @@
           "url": "https://news.google.com/search?q=site:colemono.com&hl=es-419&gl=CL&ceid=CL:es-419",
           "feed_type": "RSS",
           "description": "Resultados de site:colemono.com en Google News de noticias Chilenas",
-          "last_checked": "2026-06-13T06:53:27.465Z",
-          "last_known_item_date": "2026-06-13T00:03:11.000Z",
+          "last_checked": "2026-06-13T23:01:10.282Z",
+          "last_known_item_date": "2026-06-13T09:57:05.000Z",
           "status": "active",
           "verified": true
         },
@@ -10068,7 +10068,7 @@
           "url": "https://www.bing.com/news/search?q=site:colemono.com",
           "feed_type": "RSS",
           "description": "Resultados de site:colemono.com en Bing News",
-          "last_checked": "2026-06-13T06:53:27.465Z",
+          "last_checked": "2026-06-13T23:01:10.282Z",
           "last_known_item_date": null,
           "status": "feed_empty",
           "verified": false
@@ -15090,6 +15090,7 @@
           "rss_url": "https://news.google.com/rss/search?q=site:theguardian.com&hl=es-419&gl=CL&ceid=CL:es-419",
           "url": "https://news.google.com/search?q=site:theguardian.com&hl=es-419&gl=CL&ceid=CL:es-419",
           "feed_type": "RSS",
+          "category": "news-international",
           "description": "Resultados de site:theguardian.com en Google News de noticias Chilenas",
           "last_checked": "2026-06-13T07:13:56.787Z",
           "last_known_item_date": "2026-05-22T07:00:00.000Z",
@@ -15101,6 +15102,7 @@
           "name": "The Guardian - Bing News",
           "rss_url": "https://www.bing.com/news/search?q=site:theguardian.com&format=RSS",
           "url": "https://www.bing.com/news/search?q=site:theguardian.com",
+          "category": "news-international",
           "feed_type": "RSS",
           "description": "Resultados de site:theguardian.com en Bing News",
           "last_checked": "2026-06-13T07:13:56.787Z",
@@ -15695,6 +15697,49 @@
           "description": "Resultados de site:adnradio.cl en Bing News",
           "last_checked": "2026-06-13T07:28:36.575Z",
           "last_known_item_date": "2026-06-12T23:54:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "en-cancha",
+      "name": "En Cancha",
+      "url": "https://www.encancha.cl",
+      "category": "sports",
+      "description": "Medio chileno de análisis deportivo",
+      "feeds": [
+        {
+          "id": "en-cancha-main",
+          "name": "En Cancha",
+          "rss_url": "https://www.encancha.cl/arc/outboundfeeds/rss/?outputType=xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-13T21:50:22.743Z",
+          "status": "active",
+          "verified": true,
+          "last_known_item_date": "2026-06-13T21:44:00.000Z"
+        },
+        {
+          "id": "en-cancha-google-news",
+          "name": "En Cancha - Google News",
+          "rss_url": "https://news.google.com/rss/search?q=site:encancha.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:encancha.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "feed_type": "RSS",
+          "description": "Resultados de site:encancha.cl en Google News de noticias Chilenas",
+          "last_checked": "2026-06-13T21:50:21.237Z",
+          "last_known_item_date": "2026-06-13T18:07:35.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "en-cancha-bing-news",
+          "name": "En Cancha - Bing News",
+          "rss_url": "https://www.bing.com/news/search?q=site:encancha.cl&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:encancha.cl",
+          "feed_type": "RSS",
+          "description": "Resultados de site:encancha.cl en Bing News",
+          "last_checked": "2026-06-13T21:50:21.122Z",
+          "last_known_item_date": "2026-06-13T14:03:00.000Z",
           "status": "active",
           "verified": true
         }
