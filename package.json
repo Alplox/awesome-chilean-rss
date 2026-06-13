@@ -9,6 +9,8 @@
     "validate:json": "node scripts/validation/validate-json.js",
     "validate:opml": "node scripts/validation/validate-opml.js",
     "validate:watchlist": "node scripts/core/validate-watchlist.js",
+    "fix:stale": "node scripts/utils/fix-stale-feeds.js",
+    "lint": "eslint .",
     "ci": "npm run validate:json && npm run validate:opml && npm run generate && git diff --exit-code dist/opml/chilean-rss.opml dist/opml/chilean-rss-nested.opml dist/opml/chilean-rss-regions.opml README.md"
   },
   "dependencies": {
@@ -21,5 +23,9 @@
   "engines": {
     "node": ">=18.13.0"
   },
-  "license": "CC0-1.0"
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "eslint": "^10.5.0",
+    "globals": "^17.6.0"
+  }
 }

@@ -104,13 +104,14 @@ for (const reg of Object.keys(sitesByRegion)) {
 const allFeeds = Object.values(feedsByCategory).flat();
 
 // Orden de categorías en el documento
+const REGIONAL_CAT = 'regional';
 const CATEGORY_ORDER = [
   'news',
   'news-international',
   'technology',
   'government',
   'universities',
-  'regional',
+  REGIONAL_CAT,
   'business',
   'culture',
   'sports',
@@ -124,6 +125,15 @@ const orderedCategories = [
 
 // ─── Generar OPML ─────────────────────────────────────────────────────────────
 
+function renderFeedOutlines(feeds, indent = '      ') {
+  const sorted = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+  return sorted
+    .map(feed =>
+      `${indent}<outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
+    )
+    .join('\n');
+}
+
 function generateOPML() {
   const now = db.last_updated;
   const totalFeeds = allFeeds.length;
@@ -131,29 +141,10 @@ function generateOPML() {
   const categoryBlocks = orderedCategories.map(cat => {
     const label = categories[cat] ?? cat;
     const feeds = feedsByCategory[cat] || [];
-
-    const sorted = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
-    const outlines = sorted
-      .map(feed =>
-        `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
-      )
-      .join('\n');
-    return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${outlines}\n    </outline>`;
+    return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${renderFeedOutlines(feeds)}\n    </outline>`;
   }).join('\n');
 
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<opml version="2.0">
-  <head>
-    <title>Awesome Chilean RSS - ${totalFeeds} feeds</title>
-    <description>El directorio más completo de feeds RSS chilenos. ${totalFeeds} feeds RSS, organizadas por categoría y mantenidas activamente.</description>
-    <dateCreated>${now}</dateCreated>
-    <ownerName>${escapeXml(ownerName)}</ownerName>
-  </head>
-  <body>
-${categoryBlocks}
-  </body>
-</opml>
-`;
+  return opmlEnvelope(categoryBlocks, totalFeeds, now);
 }
 
 function generateNestedOPML() {
@@ -164,7 +155,7 @@ function generateNestedOPML() {
     const label = categories[cat] ?? cat;
     const feeds = feedsByCategory[cat] || [];
 
-    if (cat === 'regional') {
+    if (cat === REGIONAL_CAT) {
       const regionFeeds = {};
       for (const feed of feeds) {
         if (feed.region && regions[feed.region]) {
@@ -174,50 +165,33 @@ function generateNestedOPML() {
 
       const regionBlocks = Object.keys(regions)
         .filter(regKey => regionFeeds[regKey]?.length > 0)
-        .map(regKey => {
-          const regLabel = regions[regKey];
-          const sorted = [...regionFeeds[regKey]].sort((a, b) => a.name.localeCompare(b.name, 'es'));
-          const outlines = sorted
-            .map(feed =>
-              `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
-            )
-            .join('\n');
-          return `      <outline text="${escapeXml(regLabel)}" title="${escapeXml(regLabel)}">\n${outlines}\n      </outline>`;
-        });
+        .map(regKey => `      <outline text="${escapeXml(regions[regKey])}" title="${escapeXml(regions[regKey])}">\n${renderFeedOutlines(regionFeeds[regKey])}\n      </outline>`);
 
       const unassigned = feeds.filter(f => !f.region || !regions[f.region]);
       if (unassigned.length > 0) {
-        const sorted = [...unassigned].sort((a, b) => a.name.localeCompare(b.name, 'es'));
-        const outlines = sorted
-          .map(feed =>
-            `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
-          )
-          .join('\n');
-        regionBlocks.push(`      <outline text="Otras Regiones o No Especificada" title="Otras Regiones o No Especificada">\n${outlines}\n      </outline>`);
+        regionBlocks.push(`      <outline text="Otras Regiones o No Especificada" title="Otras Regiones o No Especificada">\n${renderFeedOutlines(unassigned)}\n      </outline>`);
       }
 
       return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${regionBlocks.join('\n')}\n    </outline>`;
     }
 
-    const sorted = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
-    const outlines = sorted
-      .map(feed =>
-        `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
-      )
-      .join('\n');
-    return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${outlines}\n    </outline>`;
+    return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${renderFeedOutlines(feeds)}\n    </outline>`;
   }).join('\n');
 
+  return opmlEnvelope(categoryBlocks, totalFeeds, now);
+}
+
+function opmlEnvelope(body, totalFeeds, dateCreated) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
     <title>Awesome Chilean RSS - ${totalFeeds} feeds</title>
     <description>El directorio más completo de feeds RSS chilenos. ${totalFeeds} feeds RSS, organizadas por categoría y mantenidas activamente.</description>
-    <dateCreated>${now}</dateCreated>
+    <dateCreated>${dateCreated}</dateCreated>
     <ownerName>${escapeXml(ownerName)}</ownerName>
   </head>
   <body>
-${categoryBlocks}
+${body}
   </body>
 </opml>
 `;
@@ -350,7 +324,7 @@ function generateReadme() {
     const catSites = sitesByResolvedCategory[cat] || [];
     const totalFeedsInCat = feedsByCategory[cat]?.length || 0;
 
-    if (cat === 'regional') {
+    if (cat === REGIONAL_CAT) {
       // Group by region
       const regionSubsections = Object.keys(regions)
         .map(regKey => {

@@ -39,6 +39,7 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 |                                              | `node scripts/utils/verify-feeds.js <URL>`              | Verifica una URL de feed específica directamente                    |
 | `scripts/utils/find-duplicates.js`           | `node scripts/utils/find-duplicates.js`                 | Detecta entradas duplicadas en `feeds-database.json` (URLs de sitio, rss_url, dominio raíz, IDs) |
 |                                              | `node scripts/utils/find-duplicates.js --verbose`       | Igual que el anterior, mostrando todos los feeds de cada grupo     |
+| `scripts/utils/fix-stale-feeds.js`           | `npm run fix:stale`                                     | Marca como stale los feeds activos con último item > 30 días       |
 
 ### Módulos de validación (lib/)
 

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-12T23:06:23.820Z",
-  "total_feeds": 370,
+  "last_updated": "2026-06-12T23:59:30.922Z",
+  "total_feeds": 369,
   "sites": [
     {
       "id": "as-chile",
@@ -3634,8 +3634,8 @@
           "rss_url": "https://www.periodicolosrios.cl/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-12T00:09:19.950Z",
-          "status": "active",
-          "verified": true,
+          "status": "stale",
+          "verified": false,
           "last_known_item_date": "2026-05-05T16:18:37.000Z"
         }
       ]

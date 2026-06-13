@@ -76,7 +76,7 @@ function trackResult(results, feed, site, status) {
   else if (status === 'stale') results.stale.push(label);
 }
 
-async function testManualUrl(url, feedName) {
+async function testManualUrl(url, _feedName) {
   if (!isValidUrl(url)) {
     console.log(`     ❌ URL inválida o no permitida: ${url}`);
     return null;
@@ -346,6 +346,11 @@ async function main() {
     process.exit(1);
   }
 
+  if (targetFrom !== null && targetTo !== null && targetFrom > targetTo) {
+    console.error('❌ Error: --from no puede ser mayor que --to');
+    process.exit(1);
+  }
+
   if (hasUrlMode) {
     if (!targetUrl) {
       console.error('❌ Error: --url requiere una URL');
@@ -443,9 +448,9 @@ async function main() {
             continue;
           }
         } else if (itemCount === 0) {
-          console.log(`⚠️  vacío (${checkResult.type}, 0 items) — no tiene contenido`);
-          updateFeedState(feed, { status: 'no_feed', feedType: checkResult.type }, shouldUpdate);
-          results.noFeed.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+          console.log(`⚠️  vacío (${checkResult.type}, 0 items) — feed válido sin contenido`);
+          updateFeedState(feed, { status: 'active', feedType: checkResult.type }, shouldUpdate);
+          results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
           continue;
         } else {
           if (shouldUpdate && process.stdin.isTTY && !isAutomatic()) {

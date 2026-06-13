@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Los Ríos (7 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Los Ríos (6 feeds)</title>
     <description>Feeds RSS de la Región de Los Ríos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T23:06:23.820Z</dateCreated>
+    <dateCreated>2026-06-12T23:59:30.922Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -12,7 +12,6 @@
     <outline type="rss" text="Informa Al Minuto" title="Informa Al Minuto" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://informaalminuto.cl/feed/" htmlUrl="https://informaalminuto.cl"/>
     <outline type="rss" text="Los Ríos Noticias" title="Los Ríos Noticias" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.losriosnoticias.cl/feed" htmlUrl="https://www.losriosnoticias.cl"/>
     <outline type="rss" text="Noticias Los Ríos" title="Noticias Los Ríos" description="Diario regional de La Unión, Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/feed/" htmlUrl="https://www.noticiaslosrios.cl"/>
-    <outline type="rss" text="Periódico Los Ríos" title="Periódico Los Ríos" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.periodicolosrios.cl/feed/" htmlUrl="https://www.periodicolosrios.cl"/>
     <outline type="rss" text="Río en Línea" title="Río en Línea" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.rioenlinea.cl/feed/" htmlUrl="https://www.rioenlinea.cl"/>
   </body>
 </opml>

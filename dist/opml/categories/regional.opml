@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌎 Medios Regionales (190 feeds)</title>
+    <title>Awesome Chilean RSS - 🌎 Medios Regionales (189 feeds)</title>
     <description>Feeds RSS de 🌎 Medios Regionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T23:06:23.820Z</dateCreated>
+    <dateCreated>2026-06-12T23:59:30.922Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -171,7 +171,6 @@
     <outline type="rss" text="Ovalle Hoy" title="Ovalle Hoy" description="Diario regional de Ovalle, Coquimbo" xmlUrl="https://www.ovallehoy.cl/feed/" htmlUrl="https://www.ovallehoy.cl"/>
     <outline type="rss" text="Ovejero Noticias" title="Ovejero Noticias" description="Diario regional de Punta Arenas, Magallanes" xmlUrl="https://www.ovejeronoticias.cl/feed/" htmlUrl="https://www.ovejeronoticias.cl"/>
     <outline type="rss" text="País Lobo" title="País Lobo" description="Diario regional de Osorno, Los Lagos" xmlUrl="https://www.paislobo.cl/rss.xml" htmlUrl="https://www.paislobo.cl"/>
-    <outline type="rss" text="Periódico Los Ríos" title="Periódico Los Ríos" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.periodicolosrios.cl/feed/" htmlUrl="https://www.periodicolosrios.cl"/>
     <outline type="rss" text="Pichilemu News" title="Pichilemu News" description="Medio de comunicación de la Región de O'Higgins." xmlUrl="https://www.pichilemunews.cl/feed" htmlUrl="https://www.pichilemunews.cl"/>
     <outline type="rss" text="Portal Informativo" title="Portal Informativo" description="Medio de comunicación de la Región de Los Lagos." xmlUrl="https://portalinformativo.cl/feed" htmlUrl="https://portalinformativo.cl"/>
     <outline type="rss" text="Prensa Ciudadana" title="Prensa Ciudadana" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://www.prensaciudadana.cl/feed/" htmlUrl="https://www.prensaciudadana.cl"/>

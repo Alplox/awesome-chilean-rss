@@ -2,19 +2,19 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Feeds](https://img.shields.io/badge/feeds-369-blue)
+![Feeds](https://img.shields.io/badge/feeds-368-blue)
 
-> El directorio más completo de feeds RSS chilenos. 369 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 368 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 194 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 193 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 
-## 📝 Feeds disponibles (369)
+## 📝 Feeds disponibles (368)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
@@ -24,7 +24,7 @@
 - [💻 Tecnología y Startups](#cat-technology) — 60 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 12 feeds
 - [🏫 Universidades e Investigación](#cat-universities) — 6 feeds
-- [🌎 Medios Regionales](#cat-regional) — 190 feeds
+- [🌎 Medios Regionales](#cat-regional) — 189 feeds
 - [💼 Negocios y Finanzas](#cat-business) — 6 feeds
 - [🎨 Cultura y Divulgación](#cat-culture) — 4 feeds
 - [⚽ Deportes](#cat-sports) — 8 feeds
@@ -290,7 +290,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (190 feeds)
+### 🌎 Medios Regionales (189 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
@@ -647,7 +647,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Villarrica al Día**: Medio de comunicación de la Región de Araucanía.
   - RSS: `https://www.villarricaldia.cl/feed`
 
-#### 📍 Los Ríos (7 medios)
+#### 📍 Los Ríos (6 medios)
 
 *Descargar OPML regional: [`los-rios.opml`](dist/opml/regions/los-rios.opml)*
 
@@ -661,8 +661,6 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.losriosnoticias.cl/feed`
 - **Noticias Los Ríos**: Diario regional de La Unión, Los Ríos
   - RSS: `https://www.noticiaslosrios.cl/feed/`
-- **Periódico Los Ríos**: Diario regional de Valdivia, Los Ríos
-  - RSS: `https://www.periodicolosrios.cl/feed/`
 - **Río en Línea**: Diario regional de Valdivia, Los Ríos
   - RSS: `https://www.rioenlinea.cl/feed/`
 
