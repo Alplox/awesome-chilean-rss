@@ -3,9 +3,14 @@
  * Valida sitios en watchlist.json y promueve los que pasen todos los checks.
  *
  * Uso: node scripts/core/validate-watchlist.js [--update] [--automatic] [--id <site-id>]
- *   --update     Mueve los feeds válidos a sites[] en feeds-database.json
- *   --automatic  Modo no interactivo (sin prompts, promueve todo)
- *   --id <id>    Valida solo un sitio específico de la watchlist
+ *                                         [--from <N> --to <M>] [--start-id <id>] [--limit <N>]
+ *   --update       Mueve los feeds válidos a sites[] en feeds-database.json
+ *   --automatic    Modo no interactivo (sin prompts, promueve todo)
+ *   --id <id>      Valida solo un sitio específico de la watchlist
+ *   --from <N>     Índice numérico inicial (0-based)
+ *   --to <M>       Índice numérico final (inclusive)
+ *   --start-id <id>  Comienza desde este ID (inclusive) en la lista filtrada
+ *   --limit <N>    Máximo de entradas a validar
  *
  * Sin --update solo reporta (pregunta al final si guardar cambios).
  * Con --update, pregunta por cada entrada individualmente.
@@ -20,6 +25,10 @@ const args = process.argv.slice(2);
 const shouldUpdate = args.includes('--update');
 const idIndex = args.indexOf('--id');
 const targetId = idIndex !== -1 && args[idIndex + 1] ? args[idIndex + 1] : null;
+const targetFrom = args.includes('--from') ? parseInt(args[args.indexOf('--from') + 1], 10) : null;
+const targetTo = args.includes('--to') ? parseInt(args[args.indexOf('--to') + 1], 10) : null;
+const targetStartId = args.includes('--start-id') ? args[args.indexOf('--start-id') + 1] : null;
+const targetLimit = args.includes('--limit') ? parseInt(args[args.indexOf('--limit') + 1], 10) : null;
 
 function promptMove(name) {
   if (!process.stdin.isTTY || isAutomatic()) return Promise.resolve(true);
@@ -51,21 +60,55 @@ if (targetId) {
   entries = [found];
 }
 
+if (targetStartId) {
+  const startIdx = entries.findIndex(e => e.id === targetStartId);
+  if (startIdx === -1) {
+    console.log(`❌ No se encontró "${targetStartId}" en watchlist.json\n`);
+    process.exit(1);
+  }
+  entries = entries.slice(startIdx);
+}
+
+if (targetFrom !== null && targetTo !== null) {
+  entries = entries.slice(targetFrom, targetTo + 1);
+} else if (targetFrom !== null) {
+  entries = entries.slice(targetFrom);
+} else if (targetTo !== null) {
+  entries = entries.slice(0, targetTo + 1);
+}
+
+if (targetLimit !== null) {
+  entries = entries.slice(0, targetLimit);
+}
+
+if (entries.length === 0) {
+  console.log('🏁 No hay entradas para validar en el rango especificado.\n');
+  process.exit(0);
+}
+
 console.log(`🔭 Validando ${entries.length} sitio(s) de watchlist\n`);
 console.log('='.repeat(55));
 
 const promoted = [];
 const kept = [];
-const errors = { noResponse: [], httpError: [], emptyFeed: [], noFeed: [], stale: [] };
+const errors = { noResponse: [], httpError: [], emptyFeed: [], noFeed: [], stale: [], proxyBroken: [], proxyStale: [] };
 
 for (const entry of entries) {
   process.stdout.write(`🔍 ${entry.name}... `);
   const result = await validateWatchlistEntry(entry);
 
   if (result.ok) {
+    const nativeFeed = result.siteEntry.feeds.find(f => f.id === `${entry.id}-main`);
     console.log('🎉 feed válido!');
-    console.log(`   URL: ${result.siteEntry.feeds[0].rss_url} [${result.siteEntry.feeds[0].feed_type}]`);
-    console.log(`   Último item: ${result.siteEntry.feeds[0].last_known_item_date?.slice(0, 10) ?? 'desconocido'}`);
+    console.log(`   Feed nativo: ${nativeFeed?.rss_url} [${nativeFeed?.feed_type}]`);
+    console.log(`   Último item: ${nativeFeed?.last_known_item_date?.slice(0, 10) ?? 'desconocido'}`);
+
+    const proxyFeeds = result.siteEntry.feeds.filter(f => f.id !== `${entry.id}-main`);
+    if (proxyFeeds.length > 0) {
+      const proxyStatuses = proxyFeeds.map(f => `     ${f.name}: ${f.status}`).join('\n');
+      console.log(`   Subfeeds proxy:\n${proxyStatuses}`);
+    }
+
     if (shouldUpdate) {
       const move = await promptMove(entry.name);
       if (move) {
@@ -80,6 +123,15 @@ for (const entry of entries) {
     console.log();
   } else {
     console.log(`❌ ${result.reason}\n`);
+
+    if (result.entry?.feeds) {
+      const proxyIssues = result.entry.feeds.filter(f => f.status !== 'active' && f.id !== `${entry.id}-main`);
+      for (const pf of proxyIssues) {
+        if (pf.status === 'stale') errors.proxyStale.push(`${entry.name} › ${pf.name}`);
+        else errors.proxyBroken.push(`${entry.name} › ${pf.name}`);
+      }
+    }
+
     if (result.reason.startsWith('sitio no responde')) {
       errors.noResponse.push(entry.name);
     } else if (result.reason.startsWith('HTTP error')) {
@@ -99,9 +151,15 @@ console.log('='.repeat(55));
 if (promoted.length) {
   console.log(`\n✅ ${promoted.length} sitio(s) promovidos a sites:\n`);
   for (const site of promoted) {
+    const nativeFeed = site.feeds.find(f => f.id === `${site.id}-main`);
     console.log(`  ${site.name} (${site.category})`);
     console.log(`  URL   : ${site.url}`);
-    console.log(`  Feed  : ${site.feeds[0].rss_url} [${site.feeds[0].feed_type}]\n`);
+    console.log(`  Feed  : ${nativeFeed?.rss_url} [${nativeFeed?.feed_type}]`);
+    const proxyCount = site.feeds.length - 1;
+    if (proxyCount > 0) {
+      console.log(`  Proxy : ${proxyCount} subfeed(s) preservado(s)`);
+    }
+    console.log();
   }
 }
 
@@ -132,6 +190,14 @@ if (errors.emptyFeed.length) {
 if (errors.noFeed.length) {
   console.log(`🔵 Sin feed RSS: ${errors.noFeed.length}`);
   errors.noFeed.forEach(n => console.log(`   • ${n}`));
+}
+if (errors.proxyStale.length) {
+  console.log(`⏳ Proxy feeds stale: ${errors.proxyStale.length}`);
+  errors.proxyStale.forEach(n => console.log(`   • ${n}`));
+}
+if (errors.proxyBroken.length) {
+  console.log(`💔 Proxy feeds caídos: ${errors.proxyBroken.length}`);
+  errors.proxyBroken.forEach(n => console.log(`   • ${n}`));
 }
 
 let saveFiles;

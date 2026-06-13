@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Negocios y Finanzas (6 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Negocios y Finanzas (15 feeds)</title>
     <description>Feeds RSS de 💼 Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T23:59:30.922Z</dateCreated>
+    <dateCreated>2026-06-13T07:28:36.576Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Cooperativa - Economía" title="Cooperativa - Economía" description="Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml" htmlUrl="https://www.cooperativa.cl"/>
     <outline type="rss" text="Diario Financiero" title="Diario Financiero" description="Diario especializado en economía y negocios" xmlUrl="https://www.df.cl/noticias/site/list/port/rss.xml" htmlUrl="https://www.df.cl"/>
+    <outline type="rss" text="Diario Financiero - Bing News" title="Diario Financiero - Bing News" description="Resultados de site:df.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:df.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:df.cl"/>
+    <outline type="rss" text="Diario Financiero - Google News" title="Diario Financiero - Google News" description="Resultados de site:df.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:df.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:df.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Diario Financiero - Mastodon.cl BOT" title="Diario Financiero - Mastodon.cl BOT" description="BOT de mastodon.cl/@df" xmlUrl="https://mastodon.cl/@df.rss" htmlUrl="https://mastodon.cl/@df"/>
     <outline type="rss" text="Ex-Ante - Economía" title="Ex-Ante - Economía" description="Medio digital chileno de noticias y análisis político, económico y de actualidad" xmlUrl="https://www.ex-ante.cl/category/economia/rss" htmlUrl="https://www.ex-ante.cl"/>
+    <outline type="rss" text="Google News - Chile - Resultados 'afp'" title="Google News - Chile - Resultados 'afp'" description="Página de resultados para keyword=afp en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=afp&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=afp&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Google News - Chile - Resultados 'cobre'" title="Google News - Chile - Resultados 'cobre'" description="Página de resultados para keyword=cobre en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=cobre&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=cobre&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Google News - Chile - Resultados 'economía'" title="Google News - Chile - Resultados 'economía'" description="Página de resultados para keyword=economía en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=econom%C3%ADa&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=econom%C3%ADa&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Google News - Chile - Resultados 'minería'" title="Google News - Chile - Resultados 'minería'" description="Página de resultados para keyword=minería en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=miner%C3%ADa&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=miner%C3%ADa&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Google News - Chile - Sección Negocios" title="Google News - Chile - Sección Negocios" description="Sección Negocios de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx6TVdZU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx6TVdZU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Tercera - Pulso" title="La Tercera - Pulso" description="Diario con cobertura nacional, internacional y económica" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml" htmlUrl="https://www.latercera.com/canal/pulso/"/>
     <outline type="rss" text="MCH" title="MCH" description="MCH, medio de comunicación especializado en minería, construcción y energía" xmlUrl="https://www.mch.cl/feed/" htmlUrl="https://www.mch.cl"/>
+    <outline type="rss" text="MCH - Google News" title="MCH - Google News" description="Resultados de site:mch.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:mch.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:mch.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Terra - Economía" title="Terra - Economía" description="Portal de noticias generalista con cobertura nacional e internacional" xmlUrl="https://www.terra.cl/rss/feed.html?r=7" htmlUrl="https://www.terra.cl"/>
   </body>
 </opml>

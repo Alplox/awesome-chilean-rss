@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Aysén (3 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Aysén (10 feeds)</title>
     <description>Feeds RSS de la Región de Aysén, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T23:59:30.922Z</dateCreated>
+    <dateCreated>2026-06-13T07:28:36.576Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Aysén Ahora" title="Aysén Ahora" description="Diario regional de Puerto Aysén, Aysén" xmlUrl="https://aysenahora.cl/feed/" htmlUrl="https://aysenahora.cl"/>
-    <outline type="rss" text="Radio Santa María" title="Radio Santa María" description="Medio de comunicación de la Región de Aysén." xmlUrl="https://www.radiosantamaria.cl/feed" htmlUrl="https://www.radiosantamaria.cl"/>
-    <outline type="rss" text="Radio Ventisqueros" title="Radio Ventisqueros" description="Medio de comunicación de la Región de Aysén." xmlUrl="https://www.radioventisqueros.cl/feed" htmlUrl="https://www.radioventisqueros.cl"/>
+    <outline type="rss" text="Aysén Ahora - Google News" title="Aysén Ahora - Google News" description="Resultados de site:aysenahora.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="El Divisadero - Bing News" title="El Divisadero - Bing News" description="Resultados de site:eldivisadero.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:eldivisadero.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:eldivisadero.cl"/>
+    <outline type="rss" text="El Divisadero - Google News" title="El Divisadero - Google News" description="Resultados de site:eldivisadero.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:eldivisadero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:eldivisadero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Google News - Chile - Región Aysén" title="Google News - Chile - Región Aysén" description="Noticias locales de la Región de Aysén vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Radio Santa María" title="Radio Santa María" description="Medio de comunicación de la Región de Aysén" xmlUrl="https://www.radiosantamaria.cl/feed" htmlUrl="https://www.radiosantamaria.cl"/>
+    <outline type="rss" text="Radio Santa María - Bing News" title="Radio Santa María - Bing News" description="Resultados de site:radiosantamaria.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radiosantamaria.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radiosantamaria.cl"/>
+    <outline type="rss" text="Radio Santa María - Google News" title="Radio Santa María - Google News" description="Resultados de site:radiosantamaria.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiosantamaria.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiosantamaria.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Radio Ventisqueros" title="Radio Ventisqueros" description="Medio de comunicación de la Región de Aysén" xmlUrl="https://www.radioventisqueros.cl/feed" htmlUrl="https://www.radioventisqueros.cl"/>
+    <outline type="rss" text="Radio Ventisqueros - Google News" title="Radio Ventisqueros - Google News" description="Resultados de site:radioventisqueros.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radioventisqueros.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radioventisqueros.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

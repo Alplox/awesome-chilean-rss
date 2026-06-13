@@ -30,6 +30,8 @@
  *   --from <N>       Índice numérico inicial (0-based)
  *   --to <N>         Índice numérico final (inclusive)
  *   --limit <N>      Máximo de sitios a validar (se aplica al final)
+ *   --missing-date   Solo valida feeds sin last_known_item_date (nunca verificados)
+ *   --status <status>  Solo valida feeds con el estado especificado (active, stale, broken, offline, no_feed, feed_empty)
  *   --watchlist      Muestra instrucciones para usar validate:watchlist
  */
 
@@ -55,12 +57,12 @@ const BROKEN_ERRORS = [
 
 function updateFeedState(feed, { status, feedType, rssUrl, lastItemDate } = {}, shouldUpdate) {
   if (!shouldUpdate) return;
-  feed.last_checked = new Date().toISOString();
-  feed.status       = status;
-  feed.verified     = status === 'active';
-  if (feedType !== undefined)    feed.feed_type          = feedType;
-  if (rssUrl !== undefined)      feed.rss_url            = rssUrl;
-  if (lastItemDate != null)      feed.last_known_item_date = lastItemDate;
+  feed.last_checked          = new Date().toISOString();
+  feed.status                = status;
+  feed.verified              = status === 'active';
+  if (feedType !== undefined)     feed.feed_type            = feedType;
+  if (rssUrl !== undefined)       feed.rss_url              = rssUrl;
+  if (lastItemDate !== undefined) feed.last_known_item_date = lastItemDate;
 }
 
 function feedLabel(site, feed) {
@@ -74,6 +76,7 @@ function trackResult(results, feed, site, status) {
   else if (status === 'broken') results.broken.push(label);
   else if (status === 'no_feed') results.noFeed.push(label);
   else if (status === 'stale') results.stale.push(label);
+  else if (status === 'feed_empty') results.other.push(label);
 }
 
 async function testManualUrl(url, _feedName) {
@@ -97,14 +100,14 @@ async function testManualUrl(url, _feedName) {
 }
 
 function applyFeedDecision(feed, site, results, status, shouldUpdate, extra = {}) {
-  updateFeedState(feed, { status, ...extra }, shouldUpdate);
+  updateFeedState(feed, { status, lastItemDate: null, ...extra }, shouldUpdate);
   trackResult(results, feed, site, status);
 }
 
 async function handleRediscoveryFail(feed, site, results, defaultStatus, shouldUpdate) {
   if (!shouldUpdate || !process.stdin.isTTY || isAutomatic()) {
     applyFeedDecision(feed, site, results, defaultStatus, shouldUpdate);
-    return;
+    return defaultStatus;
   }
   const manualUrl = await promptUrl(feed.name, feed.rss_url);
   if (manualUrl) {
@@ -114,11 +117,12 @@ async function handleRediscoveryFail(feed, site, results, defaultStatus, shouldU
         feedType: tested.feedType, rssUrl: tested.feedUrl, lastItemDate: tested.lastItemDate
       });
       results.fixed.push(feedLabel(site, feed));
-      return;
+      return 'active';
     }
   }
   const chosen = await promptStatus(feed.name, feed.rss_url);
   applyFeedDecision(feed, site, results, chosen, shouldUpdate);
+  return chosen;
 }
 
 // ─── Modo: URL única ──────────────────────────────────────────────────────────
@@ -258,7 +262,7 @@ async function handleRediscoveryWithGuard(feed, site, results, found, shouldUpda
   if (!isNewUrl) {
     // Misma URL — error intermitente
     console.log(`   🔄 misma URL (posible error intermitente) — ${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''}`);
-    updateFeedState(feed, { status: 'active' }, shouldUpdate);
+    updateFeedState(feed, { status: 'active', lastItemDate: null }, shouldUpdate);
     results.ok.push(feedLabel(site, feed));
     return;
   }
@@ -290,7 +294,7 @@ async function handleRediscoveryWithGuard(feed, site, results, found, shouldUpda
   }
 
   console.log(`   🔄 nueva URL: ${found.feedUrl} (${found.feedType}, ${found.itemCount} item${found.itemCount > 1 ? 's' : ''})`);
-  updateFeedState(feed, { status: 'active', feedType: found.feedType, rssUrl: found.feedUrl }, shouldUpdate);
+  updateFeedState(feed, { status: 'active', feedType: found.feedType, rssUrl: found.feedUrl, lastItemDate: null }, shouldUpdate);
   results.fixed.push(feedLabel(site, feed));
 }
 
@@ -323,6 +327,8 @@ async function main() {
   const targetTo = args.includes('--to') ? parseInt(args[args.indexOf('--to') + 1], 10) : null;
   const targetStartId = args.includes('--start-id') ? args[args.indexOf('--start-id') + 1] : null;
   const targetLimit = args.includes('--limit') ? parseInt(args[args.indexOf('--limit') + 1], 10) : null;
+  const missingDate = args.includes('--missing-date');
+  const targetStatus = args.includes('--status') ? args[args.indexOf('--status') + 1] : null;
 
   if (args.includes('--id') && (!targetId || targetId.startsWith('--'))) {
     console.error('❌ Error: --id requiere un valor (ID del sitio)');
@@ -343,6 +349,12 @@ async function main() {
   }
   if (args.includes('--limit') && (targetLimit === null || isNaN(targetLimit))) {
     console.error('❌ Error: --limit requiere un número válido');
+    process.exit(1);
+  }
+
+  const ALLOWED_STATUSES = ['active', 'stale', 'broken', 'offline', 'no_feed', 'feed_empty'];
+  if (args.includes('--status') && (!targetStatus || !ALLOWED_STATUSES.includes(targetStatus))) {
+    console.error(`❌ Error: --status requiere un estado válido (${ALLOWED_STATUSES.join(', ')})`);
     process.exit(1);
   }
 
@@ -377,6 +389,28 @@ async function main() {
     }
   }
 
+  // --missing-date: filtrar feeds sin last_known_item_date (nunca verificados)
+  // Se aplica antes de los filtros de rango numérico para que --limit/--from/--to
+  // operen sobre el conjunto ya filtrado
+  if (missingDate) {
+    sitesToValidate = sitesToValidate
+      .map(site => ({
+        ...site,
+        feeds: site.feeds.filter(f => !f.last_known_item_date)
+      }))
+      .filter(site => site.feeds.length > 0);
+  }
+
+  // --status: filtrar feeds por estado actual
+  if (targetStatus) {
+    sitesToValidate = sitesToValidate
+      .map(site => ({
+        ...site,
+        feeds: site.feeds.filter(f => f.status === targetStatus)
+      }))
+      .filter(site => site.feeds.length > 0);
+  }
+
   // --start-id: saltar hasta encontrar este ID
   if (targetStartId) {
     const startIdx = sitesToValidate.findIndex(s => s.id === targetStartId);
@@ -387,13 +421,12 @@ async function main() {
     sitesToValidate = sitesToValidate.slice(startIdx);
   }
 
-  // --from: índice numérico inicial
-  if (targetFrom !== null) {
+  // --from / --to: rango numérico (índices 0-based, inclusivo)
+  if (targetFrom !== null && targetTo !== null) {
+    sitesToValidate = sitesToValidate.slice(targetFrom, targetTo + 1);
+  } else if (targetFrom !== null) {
     sitesToValidate = sitesToValidate.slice(targetFrom);
-  }
-
-  // --to: índice numérico final (inclusive)
-  if (targetTo !== null) {
+  } else if (targetTo !== null) {
     sitesToValidate = sitesToValidate.slice(0, targetTo + 1);
   }
 
@@ -412,7 +445,7 @@ async function main() {
   console.log(`🔍 Revalidando ${sitesToValidate.length} sitio${sitesToValidate.length > 1 ? 's' : ''} (${totalFeeds} feed${totalFeeds > 1 ? 's' : ''}) desde feeds-database.json\n`);
   console.log('='.repeat(55));
 
-  const results = { ok: [], fixed: [], stale: [], broken: [], offline: [], noFeed: [] };
+  const results = { ok: [], fixed: [], stale: [], broken: [], offline: [], noFeed: [], other: [] };
   const getCachedSiteStatus = createSiteStatusCache();
 
   for (const site of sitesToValidate) {
@@ -449,8 +482,8 @@ async function main() {
           }
         } else if (itemCount === 0) {
           console.log(`⚠️  vacío (${checkResult.type}, 0 items) — feed válido sin contenido`);
-          updateFeedState(feed, { status: 'active', feedType: checkResult.type }, shouldUpdate);
-          results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+          updateFeedState(feed, { status: 'feed_empty', feedType: checkResult.type, lastItemDate: null }, shouldUpdate);
+          results.other.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
           continue;
         } else {
           if (shouldUpdate && process.stdin.isTTY && !isAutomatic()) {
@@ -459,7 +492,7 @@ async function main() {
             );
             if (!keepActive) {
               console.log(`   → marcado como stale (sin info de fecha)`);
-              updateFeedState(feed, { status: 'stale', feedType: checkResult.type }, shouldUpdate);
+              updateFeedState(feed, { status: 'stale', feedType: checkResult.type, lastItemDate: null }, shouldUpdate);
               results.stale.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
               continue;
             }
@@ -472,7 +505,7 @@ async function main() {
           if (lastItemDate) {
             console.log(`✅ OK (${checkResult.type}, ${itemCount} item${itemCount > 1 ? 's' : ''})`);
           }
-          updateFeedState(feed, { status: 'active', feedType: checkResult.type, lastItemDate }, shouldUpdate);
+          updateFeedState(feed, { status: 'active', feedType: checkResult.type, lastItemDate: lastItemDate ?? null }, shouldUpdate);
           results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
           continue;
         }
@@ -492,7 +525,8 @@ async function main() {
           await handleRediscoveryWithGuard(feed, site, results, found, shouldUpdate);
         } else {
           console.log(`   ❌ feed no recuperable`);
-          await handleRediscoveryFail(feed, site, results, 'broken', shouldUpdate);
+          const chosen = await handleRediscoveryFail(feed, site, results, 'broken', shouldUpdate);
+          if (chosen !== 'broken') siteDecision = chosen;
         }
         continue;
       }
@@ -503,7 +537,7 @@ async function main() {
         if (siteDecision) {
           const remaining = site.feeds.length - feedIndex;
           console.log(`     → ${siteDecision} (aplicando a ${remaining} feed${remaining > 1 ? 's restantes' : ''} del sitio)`);
-          updateFeedState(feed, { status: siteDecision }, shouldUpdate);
+          updateFeedState(feed, { status: siteDecision, lastItemDate: null }, shouldUpdate);
           trackResult(results, feed, site, siteDecision);
           continue;
         }
@@ -525,7 +559,7 @@ async function main() {
         }
         if (confirmOffline) {
           siteDecision = 'offline';
-          updateFeedState(feed, { status: 'offline' }, shouldUpdate);
+          updateFeedState(feed, { status: 'offline', lastItemDate: null }, shouldUpdate);
           results.offline.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
           continue;
         }
@@ -539,7 +573,7 @@ async function main() {
             const feedData = await tryFetchFeedInsecure(feed.rss_url);
               if (feedData && feedData.itemCount > 0) {
                 console.log(`     ✅ feed válido a pesar del SSL (${feedData.type}, ${feedData.itemCount} item${feedData.itemCount > 1 ? 's' : ''})`);
-              updateFeedState(feed, { status: 'active', feedType: feedData.type, lastItemDate: feedData.lastItemDate }, shouldUpdate);
+              updateFeedState(feed, { status: 'active', feedType: feedData.type, lastItemDate: feedData.lastItemDate ?? null }, shouldUpdate);
               results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
               continue;
             }
@@ -550,11 +584,12 @@ async function main() {
 
           const chosen = await promptStatus(feed.name, feed.rss_url);
           siteDecision = chosen;
-          updateFeedState(feed, { status: chosen }, shouldUpdate);
+          updateFeedState(feed, { status: chosen, lastItemDate: null }, shouldUpdate);
           trackResult(results, feed, site, chosen);
         } else {
           console.log(`     ℹ️  El sitio no responde desde el script pero puede estar funcionando (${site.url}) — feed: ${feed.rss_url}`);
-          await handleRediscoveryFail(feed, site, results, 'no_feed', shouldUpdate);
+          const chosen2 = await handleRediscoveryFail(feed, site, results, 'no_feed', shouldUpdate);
+          if (chosen2 !== 'no_feed') siteDecision = chosen2;
         }
         continue;
       }
@@ -570,7 +605,8 @@ async function main() {
           ? `${found.error} (${found.code})`
           : found.error;
         console.log(`❌ ${rediscoverError}`);
-        await handleRediscoveryFail(feed, site, results, 'no_feed', shouldUpdate);
+        const chosen3 = await handleRediscoveryFail(feed, site, results, 'no_feed', shouldUpdate);
+        if (chosen3 !== 'no_feed') siteDecision = chosen3;
       }
     }
   }
@@ -579,6 +615,9 @@ async function main() {
 
   console.log('\n' + '='.repeat(55));
   console.log(`\n✅ Activos       : ${results.ok.length}`);
+  if (results.ok.length) {
+    for (const name of results.ok) console.log(`   • ${name}`);
+  }
 
   if (results.fixed.length) {
     console.log(`🔄 URL corregida : ${results.fixed.length}`);
@@ -599,6 +638,10 @@ async function main() {
   if (results.noFeed.length) {
     console.log(`❌ Sin feed       : ${results.noFeed.length}`);
     for (const name of results.noFeed) console.log(`   • ${name}`);
+  }
+  if (results.other.length) {
+    console.log(`📭 Feed vacío     : ${results.other.length}`);
+    for (const name of results.other) console.log(`   • ${name}`);
   }
 
   if (shouldUpdate) {

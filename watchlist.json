@@ -6,7 +6,32 @@
     "category": "technology",
     "reason": "Feed RSS existe (WordPress) pero devuelve 0 ítems en todas las rutas probadas",
     "description": "Programa de aceleración de startups chilenas",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "startup-chile-google-news",
+        "name": "StartupChile - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:startupchile.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:startupchile.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:startupchile.org en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "startup-chile-bing-news",
+        "name": "StartupChile - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:startupchile.org&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:startupchile.org",
+        "feed_type": "RSS",
+        "description": "Resultados de site:startupchile.org en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "uantof",
@@ -14,17 +39,33 @@
     "url": "https://www.uantof.cl",
     "category": "universities",
     "reason": "Feed RSS existe (WordPress) pero devuelve 0 ítems en todas las rutas probadas",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "uantof-google-news",
+        "name": "Universidad de Antofagasta - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:uantof.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:uantof.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uantof.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "uantof-bing-news",
+        "name": "Universidad de Antofagasta - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:uantof.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:uantof.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uantof.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Universidad estatal de la Región de Antofagasta"
-  },
-  {
-    "id": "adnradio",
-    "name": "ADN Radio",
-    "url": "https://www.adnradio.cl",
-    "category": "news",
-    "reason": "Sin feed RSS detectado",
-    "feeds": [],
-    "description": "Radio chilena de noticias y actualidad"
   },
   {
     "id": "cnn-chile",
@@ -32,7 +73,32 @@
     "url": "https://www.cnnchile.com",
     "category": "news",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "cnn-chile-google-news",
+        "name": "CNN Chile - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:cnnchile.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cnnchile.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cnnchile.com en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "cnn-chile-bing-news",
+        "name": "CNN Chile - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:cnnchile.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cnnchile.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cnnchile.com en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Canal de televisión chileno de noticias"
   },
   {
@@ -41,7 +107,32 @@
     "url": "https://www.t13.cl",
     "category": "news",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "t13-google-news",
+        "name": "T13 - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:t13.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:t13.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:t13.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "t13-bing-news",
+        "name": "T13 - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:t13.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:t13.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:t13.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Medio de comunicación chileno de noticias"
   },
   {
@@ -50,17 +141,33 @@
     "url": "https://www.meganoticias.cl",
     "category": "news",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "meganoticias-google-news",
+        "name": "Meganoticias - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:meganoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:meganoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:meganoticias.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "meganoticias-bing-news",
+        "name": "Meganoticias - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:meganoticias.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:meganoticias.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:meganoticias.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Medio de comunicación chileno de noticias"
-  },
-  {
-    "id": "emol",
-    "name": "Emol",
-    "url": "https://www.emol.com",
-    "category": "news",
-    "reason": "Dominio bloquea conexiones externas",
-    "feeds": [],
-    "description": "Diario chileno de noticias y actualidad"
   },
   {
     "id": "el-dinamo",
@@ -68,7 +175,32 @@
     "url": "https://www.eldinamo.cl",
     "category": "news",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-dinamo-google-news",
+        "name": "El Dínamo - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:eldinamo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:eldinamo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eldinamo.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-dinamo-bing-news",
+        "name": "El Dínamo - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:eldinamo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:eldinamo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eldinamo.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Medio de comunicación chileno independiente"
   },
   {
@@ -77,7 +209,32 @@
     "url": "https://www.soychile.cl",
     "category": "news",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soychile-google-news",
+        "name": "SoyChile - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soychile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soychile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soychile.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soychile-bing-news",
+        "name": "SoyChile - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soychile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soychile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soychile.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Red de diarios regionales chilenos"
   },
   {
@@ -86,7 +243,32 @@
     "url": "https://www.elsur.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-sur-google-news",
+        "name": "El Sur - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elsur.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elsur.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elsur.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-sur-bing-news",
+        "name": "El Sur - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elsur.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elsur.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elsur.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Concepción"
   },
   {
@@ -95,7 +277,32 @@
     "url": "https://www.elllanquihue.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-llanquihue-google-news",
+        "name": "El Llanquihue - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elllanquihue.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elllanquihue.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elllanquihue.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-llanquihue-bing-news",
+        "name": "El Llanquihue - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elllanquihue.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elllanquihue.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elllanquihue.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Puerto Montt"
   },
   {
@@ -104,7 +311,32 @@
     "url": "https://www.eldivisadero.cl",
     "category": "regional",
     "reason": "XML malformado, no parseable",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-divisadero-google-news",
+        "name": "El Divisadero - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:eldivisadero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:eldivisadero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eldivisadero.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-divisadero-bing-news",
+        "name": "El Divisadero - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:eldivisadero.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:eldivisadero.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eldivisadero.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Punta Arenas"
   },
   {
@@ -113,7 +345,32 @@
     "url": "https://new.diariolaprensa.cl",
     "category": "regional",
     "reason": "Devuelve HTML",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diariolaprensa-google-news",
+        "name": "Diario La Prensa - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:new.diariolaprensa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:new.diariolaprensa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:new.diariolaprensa.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diariolaprensa-bing-news",
+        "name": "Diario La Prensa - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:new.diariolaprensa.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:new.diariolaprensa.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:new.diariolaprensa.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -122,7 +379,32 @@
     "url": "https://www.elnaveghable.cl",
     "category": "regional",
     "reason": "XML malformado, no parseable",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "elnaveghable-google-news",
+        "name": "El Naveghable - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elnaveghable.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elnaveghable.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elnaveghable.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "elnaveghable-bing-news",
+        "name": "El Naveghable - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elnaveghable.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elnaveghable.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elnaveghable.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de la Región de Los Lagos"
   },
   {
@@ -131,7 +413,32 @@
     "url": "https://www.uchile.cl",
     "category": "universities",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "uchile-google-news",
+        "name": "Universidad de Chile - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uchile.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "uchile-bing-news",
+        "name": "Universidad de Chile - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:uchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:uchile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uchile.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Universidad pública chilena"
   },
   {
@@ -140,7 +447,32 @@
     "url": "https://www.pucv.cl",
     "category": "universities",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "pucv-google-news",
+        "name": "PUCV - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:pucv.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:pucv.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:pucv.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "pucv-bing-news",
+        "name": "PUCV - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:pucv.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:pucv.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:pucv.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Universidad privada chilena"
   },
   {
@@ -149,7 +481,32 @@
     "url": "https://www.uach.cl",
     "category": "universities",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "uach-google-news",
+        "name": "UACh - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:uach.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:uach.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uach.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "uach-bing-news",
+        "name": "UACh - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:uach.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:uach.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uach.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Universidad estatal de Valdivia"
   },
   {
@@ -158,7 +515,32 @@
     "url": "https://www.ucsc.cl",
     "category": "universities",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "ucsc-google-news",
+        "name": "UCSC - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:ucsc.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ucsc.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ucsc.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ucsc-bing-news",
+        "name": "UCSC - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:ucsc.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ucsc.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ucsc.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Universidad privada de la Región del Biobío"
   },
   {
@@ -167,7 +549,32 @@
     "url": "https://www.ubiobio.cl",
     "category": "universities",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "ubiobio-google-news",
+        "name": "U. del Bío-Bío - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:ubiobio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ubiobio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ubiobio.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ubiobio-bing-news",
+        "name": "U. del Bío-Bío - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:ubiobio.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ubiobio.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ubiobio.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Universidad estatal de la Región del Biobío"
   },
   {
@@ -176,7 +583,32 @@
     "url": "https://www.ine.gob.cl",
     "category": "government",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "ine-google-news",
+        "name": "INE - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:ine.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ine.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ine.gob.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ine-bing-news",
+        "name": "INE - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:ine.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ine.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ine.gob.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Organismo gubernamental de estadísticas"
   },
   {
@@ -185,7 +617,32 @@
     "url": "https://www.senado.cl",
     "category": "government",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "senado-google-news",
+        "name": "Senado - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:senado.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:senado.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:senado.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "senado-bing-news",
+        "name": "Senado - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:senado.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:senado.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:senado.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Poder Legislativo de Chile"
   },
   {
@@ -194,7 +651,32 @@
     "url": "https://www.camara.cl",
     "category": "government",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "camara-google-news",
+        "name": "Cámara de Diputadas y Diputados - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:camara.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:camara.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:camara.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "camara-bing-news",
+        "name": "Cámara de Diputadas y Diputados - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:camara.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:camara.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:camara.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Poder Legislativo de Chile"
   },
   {
@@ -203,7 +685,32 @@
     "url": "https://www.pjud.cl",
     "category": "government",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "pjud-google-news",
+        "name": "Poder Judicial - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:pjud.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:pjud.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:pjud.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "pjud-bing-news",
+        "name": "Poder Judicial - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:pjud.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:pjud.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:pjud.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Poder Judicial de Chile"
   },
   {
@@ -212,7 +719,32 @@
     "url": "https://www.sernac.cl",
     "category": "government",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "sernac-google-news",
+        "name": "SERNAC - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:sernac.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sernac.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sernac.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "sernac-bing-news",
+        "name": "SERNAC - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:sernac.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sernac.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sernac.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Organismo gubernamental de protección al consumidor"
   },
   {
@@ -221,7 +753,32 @@
     "url": "https://www.contraloria.cl",
     "category": "government",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "contraloria-google-news",
+        "name": "Contraloría General - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:contraloria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:contraloria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:contraloria.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "contraloria-bing-news",
+        "name": "Contraloría General - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:contraloria.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:contraloria.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:contraloria.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Organismo gubernamental de control fiscal"
   },
   {
@@ -230,7 +787,32 @@
     "url": "https://www.senapred.cl",
     "category": "government",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "senapred-google-news",
+        "name": "SENAPRED - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:senapred.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:senapred.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:senapred.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "senapred-bing-news",
+        "name": "SENAPRED - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:senapred.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:senapred.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:senapred.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Organismo gubernamental de emergencias y desastres"
   },
   {
@@ -239,7 +821,32 @@
     "url": "https://www.lun.com",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "las-ultimas-noticias-google-news",
+        "name": "Las Últimas Noticias - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:lun.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lun.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lun.com en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "las-ultimas-noticias-bing-news",
+        "name": "Las Últimas Noticias - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:lun.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lun.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lun.com en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario chileno de circulación nacional"
   },
   {
@@ -248,7 +855,32 @@
     "url": "https://www.elmostrador.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-mostrador-google-news",
+        "name": "El Mostrador - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elmostrador.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elmostrador.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elmostrador.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-mostrador-bing-news",
+        "name": "El Mostrador - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elmostrador.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elmostrador.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elmostrador.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital chileno de noticias"
   },
   {
@@ -257,7 +889,32 @@
     "url": "https://www.lasegunda.com",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "la-segunda-google-news",
+        "name": "La Segunda - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:lasegunda.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lasegunda.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lasegunda.com en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "la-segunda-bing-news",
+        "name": "La Segunda - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:lasegunda.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lasegunda.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lasegunda.com en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario chileno de circulación nacional"
   },
   {
@@ -266,7 +923,32 @@
     "url": "https://www.encancha.cl",
     "category": "sports",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "en-cancha-google-news",
+        "name": "En Cancha - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:encancha.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:encancha.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:encancha.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "en-cancha-bing-news",
+        "name": "En Cancha - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:encancha.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:encancha.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:encancha.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Medio chileno de análisis deportivo"
   },
   {
@@ -275,7 +957,32 @@
     "url": "https://www.soyantofagasta.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soyantofagasta-google-news",
+        "name": "SoyAntofagasta - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soyantofagasta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soyantofagasta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyantofagasta.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soyantofagasta-bing-news",
+        "name": "SoyAntofagasta - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soyantofagasta.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soyantofagasta.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyantofagasta.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de la Región de Antofagasta"
   },
   {
@@ -284,7 +991,32 @@
     "url": "https://www.elnortero.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-nortero-google-news",
+        "name": "El Nortero - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elnortero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elnortero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elnortero.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-nortero-bing-news",
+        "name": "El Nortero - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elnortero.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elnortero.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elnortero.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de la Región de Antofagasta"
   },
   {
@@ -293,7 +1025,32 @@
     "url": "https://www.soycalama.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soycalama-google-news",
+        "name": "SoyCalama - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soycalama.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soycalama.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soycalama.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soycalama-bing-news",
+        "name": "SoyCalama - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soycalama.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soycalama.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soycalama.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Calama"
   },
   {
@@ -302,7 +1059,32 @@
     "url": "https://www.soyarica.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soyarica-google-news",
+        "name": "SoyArica - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soyarica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soyarica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyarica.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soyarica-bing-news",
+        "name": "SoyArica - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soyarica.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soyarica.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyarica.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Arica"
   },
   {
@@ -311,7 +1093,32 @@
     "url": "https://www.elmorrocotudo.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-morrocotudo-google-news",
+        "name": "El Morrocotudo - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elmorrocotudo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elmorrocotudo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elmorrocotudo.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-morrocotudo-bing-news",
+        "name": "El Morrocotudo - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elmorrocotudo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elmorrocotudo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elmorrocotudo.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Arica"
   },
   {
@@ -320,7 +1127,32 @@
     "url": "https://www.chasquis.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "chasquis-google-news",
+        "name": "Chasquis - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:chasquis.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:chasquis.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chasquis.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "chasquis-bing-news",
+        "name": "Chasquis - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:chasquis.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:chasquis.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chasquis.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Medio de comunicación regional"
   },
   {
@@ -329,7 +1161,32 @@
     "url": "https://www.elquehaydecierto.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-quehaydecierto-google-news",
+        "name": "El Quehaydecierto - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elquehaydecierto.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elquehaydecierto.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elquehaydecierto.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-quehaydecierto-bing-news",
+        "name": "El Quehaydecierto - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elquehaydecierto.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elquehaydecierto.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elquehaydecierto.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -338,7 +1195,32 @@
     "url": "https://www.soycopiapo.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soycopiapo-google-news",
+        "name": "SoyCopiapó - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soycopiapo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soycopiapo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soycopiapo.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soycopiapo-bing-news",
+        "name": "SoyCopiapó - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soycopiapo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soycopiapo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soycopiapo.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Copiapó"
   },
   {
@@ -347,7 +1229,32 @@
     "url": "https://www.diarioregionalaysen.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-regional-aysen-google-news",
+        "name": "Diario Regional Aysén - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diarioregionalaysen.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diarioregionalaysen.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diarioregionalaysen.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-regional-aysen-bing-news",
+        "name": "Diario Regional Aysén - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diarioregionalaysen.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diarioregionalaysen.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diarioregionalaysen.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Aysén"
   },
   {
@@ -356,7 +1263,32 @@
     "url": "https://www.elpatagondomingo.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "epd-noticias-google-news",
+        "name": "EPD Noticias - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elpatagondomingo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elpatagondomingo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elpatagondomingo.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "epd-noticias-bing-news",
+        "name": "EPD Noticias - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elpatagondomingo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elpatagondomingo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elpatagondomingo.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de la Región de Los Ríos"
   },
   {
@@ -365,7 +1297,32 @@
     "url": "https://www.soyconcepcion.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soyconcepcion-google-news",
+        "name": "SoyConcepción - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soyconcepcion.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soyconcepcion.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyconcepcion.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soyconcepcion-bing-news",
+        "name": "SoyConcepción - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soyconcepcion.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soyconcepcion.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyconcepcion.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Concepción"
   },
   {
@@ -374,7 +1331,32 @@
     "url": "https://www.pagina7.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "pagina-7-google-news",
+        "name": "Página 7 - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:pagina7.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:pagina7.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:pagina7.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "pagina-7-bing-news",
+        "name": "Página 7 - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:pagina7.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:pagina7.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:pagina7.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -383,7 +1365,32 @@
     "url": "https://www.sabes.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "sabes-google-news",
+        "name": "Sabes - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:sabes.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sabes.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sabes.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "sabes-bing-news",
+        "name": "Sabes - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:sabes.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sabes.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sabes.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Medio de comunicación regional"
   },
   {
@@ -392,7 +1399,32 @@
     "url": "https://www.resumen.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "resumen-google-news",
+        "name": "Resumen - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:resumen.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:resumen.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:resumen.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "resumen-bing-news",
+        "name": "Resumen - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:resumen.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:resumen.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:resumen.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Medio de comunicación regional"
   },
   {
@@ -401,7 +1433,32 @@
     "url": "https://www.elconcecuente.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-concecuente-google-news",
+        "name": "El Concecuente - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elconcecuente.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elconcecuente.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elconcecuente.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-concecuente-bing-news",
+        "name": "El Concecuente - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elconcecuente.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elconcecuente.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elconcecuente.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de la Región de O'Higgins"
   },
   {
@@ -410,7 +1467,32 @@
     "url": "https://www.elobservatodo.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-observatodo-google-news",
+        "name": "El Observatodo - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elobservatodo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elobservatodo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elobservatodo.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-observatodo-bing-news",
+        "name": "El Observatodo - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elobservatodo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elobservatodo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elobservatodo.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de la Región de Coquimbo"
   },
   {
@@ -419,7 +1501,32 @@
     "url": "https://www.soytemuco.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soytemuco-google-news",
+        "name": "SoyTemuco - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soytemuco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soytemuco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soytemuco.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soytemuco-bing-news",
+        "name": "SoyTemuco - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soytemuco.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soytemuco.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soytemuco.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de La Araucanía"
   },
   {
@@ -428,7 +1535,32 @@
     "url": "https://www.araucaniadiario.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "araucania-diario-google-news",
+        "name": "Araucanía Diario - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:araucaniadiario.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:araucaniadiario.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:araucaniadiario.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "araucania-diario-bing-news",
+        "name": "Araucanía Diario - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:araucaniadiario.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:araucaniadiario.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:araucaniadiario.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de La Araucanía"
   },
   {
@@ -437,7 +1569,32 @@
     "url": "https://www.laopinon.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "la-opinon-google-news",
+        "name": "La Opiñón - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:laopinon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:laopinon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:laopinon.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "la-opinon-bing-news",
+        "name": "La Opiñón - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:laopinon.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:laopinon.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:laopinon.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -446,7 +1603,32 @@
     "url": "https://www.primeranota.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "primera-nota-google-news",
+        "name": "Primera Nota - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:primeranota.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:primeranota.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:primeranota.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "primera-nota-bing-news",
+        "name": "Primera Nota - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:primeranota.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:primeranota.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:primeranota.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Medio de comunicación regional"
   },
   {
@@ -455,7 +1637,32 @@
     "url": "https://www.soypuertomontt.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soypuerto-montt-google-news",
+        "name": "SoyPuerto Montt - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soypuertomontt.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soypuertomontt.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soypuertomontt.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soypuerto-montt-bing-news",
+        "name": "SoyPuerto Montt - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soypuertomontt.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soypuertomontt.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soypuertomontt.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Puerto Montt"
   },
   {
@@ -464,7 +1671,32 @@
     "url": "https://www.elrepuertero.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-repuertero-google-news",
+        "name": "El Repuertero - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elrepuertero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elrepuertero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elrepuertero.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-repuertero-bing-news",
+        "name": "El Repuertero - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elrepuertero.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elrepuertero.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elrepuertero.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de la Región de Los Ríos"
   },
   {
@@ -473,7 +1705,32 @@
     "url": "https://www.diariodepuertomontt.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-de-puerto-montt-google-news",
+        "name": "Diario de Puerto Montt - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariodepuertomontt.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariodepuertomontt.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariodepuertomontt.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-de-puerto-montt-bing-news",
+        "name": "Diario de Puerto Montt - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariodepuertomontt.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariodepuertomontt.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariodepuertomontt.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Puerto Montt"
   },
   {
@@ -482,7 +1739,32 @@
     "url": "https://www.diariochiloe.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-chiloe-google-news",
+        "name": "Diario Chiloé - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariochiloe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariochiloe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariochiloe.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-chiloe-bing-news",
+        "name": "Diario Chiloé - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariochiloe.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariochiloe.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariochiloe.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Chiloé"
   },
   {
@@ -491,7 +1773,32 @@
     "url": "https://www.soyosorno.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soyosorno-google-news",
+        "name": "SoyOsorno - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soyosorno.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soyosorno.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyosorno.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soyosorno-bing-news",
+        "name": "SoyOsorno - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soyosorno.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soyosorno.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyosorno.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Osorno"
   },
   {
@@ -500,7 +1807,32 @@
     "url": "https://www.elvacanudo.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-vacanudo-google-news",
+        "name": "El Vacanudo - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elvacanudo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elvacanudo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elvacanudo.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-vacanudo-bing-news",
+        "name": "El Vacanudo - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elvacanudo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elvacanudo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elvacanudo.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Osorno"
   },
   {
@@ -509,7 +1841,32 @@
     "url": "https://www.diariodeosorno.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-de-osorno-google-news",
+        "name": "Diario de Osorno - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariodeosorno.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariodeosorno.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariodeosorno.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-de-osorno-bing-news",
+        "name": "Diario de Osorno - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariodeosorno.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariodeosorno.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariodeosorno.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Osorno"
   },
   {
@@ -518,7 +1875,32 @@
     "url": "https://www.soychiloe.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soychiloe-google-news",
+        "name": "SoyChiloé - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soychiloe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soychiloe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soychiloe.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soychiloe-bing-news",
+        "name": "SoyChiloé - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soychiloe.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soychiloe.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soychiloe.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Chiloé"
   },
   {
@@ -527,7 +1909,32 @@
     "url": "https://www.eha.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-heraldo-austral-google-news",
+        "name": "El Heraldo Austral - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:eha.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:eha.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eha.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-heraldo-austral-bing-news",
+        "name": "El Heraldo Austral - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:eha.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:eha.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eha.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de la Región de Los Lagos"
   },
   {
@@ -536,7 +1943,32 @@
     "url": "https://www.diariodevaldivia.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-de-valdivia-google-news",
+        "name": "Diario de Valdivia - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariodevaldivia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariodevaldivia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariodevaldivia.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-de-valdivia-bing-news",
+        "name": "Diario de Valdivia - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariodevaldivia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariodevaldivia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariodevaldivia.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Valdivia"
   },
   {
@@ -545,7 +1977,32 @@
     "url": "https://www.diariolaguino.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-laguino-google-news",
+        "name": "Diario Laguino - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariolaguino.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariolaguino.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolaguino.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-laguino-bing-news",
+        "name": "Diario Laguino - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariolaguino.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariolaguino.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolaguino.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -554,7 +2011,32 @@
     "url": "https://www.diariolaunion.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "la-union-google-news",
+        "name": "La Unión - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariolaunion.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariolaunion.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolaunion.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "la-union-bing-news",
+        "name": "La Unión - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariolaunion.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariolaunion.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolaunion.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.026Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de La Unión"
   },
   {
@@ -563,7 +2045,32 @@
     "url": "https://www.lavozdepaillaco.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "la-voz-de-paillaco-google-news",
+        "name": "La Voz de Paillaco - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:lavozdepaillaco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lavozdepaillaco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lavozdepaillaco.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "la-voz-de-paillaco-bing-news",
+        "name": "La Voz de Paillaco - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:lavozdepaillaco.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lavozdepaillaco.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lavozdepaillaco.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Paillaco"
   },
   {
@@ -572,7 +2079,32 @@
     "url": "https://www.diariopaillaco.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-paillaco-google-news",
+        "name": "Diario Paillaco - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariopaillaco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariopaillaco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariopaillaco.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-paillaco-bing-news",
+        "name": "Diario Paillaco - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariopaillaco.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariopaillaco.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariopaillaco.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Paillaco"
   },
   {
@@ -581,7 +2113,32 @@
     "url": "https://www.lapaila.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-paila-google-news",
+        "name": "El Paila - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:lapaila.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lapaila.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lapaila.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-paila-bing-news",
+        "name": "El Paila - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:lapaila.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lapaila.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lapaila.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -590,7 +2147,32 @@
     "url": "https://www.diarioriobueno.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-rio-bueno-google-news",
+        "name": "Diario Río Bueno - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diarioriobueno.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diarioriobueno.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diarioriobueno.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-rio-bueno-bing-news",
+        "name": "Diario Río Bueno - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diarioriobueno.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diarioriobueno.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diarioriobueno.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Río Bueno"
   },
   {
@@ -599,7 +2181,32 @@
     "url": "https://www.diariofutrono.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-futrono-google-news",
+        "name": "Diario Futrono - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariofutrono.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariofutrono.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariofutrono.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-futrono-bing-news",
+        "name": "Diario Futrono - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariofutrono.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariofutrono.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariofutrono.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Futrono"
   },
   {
@@ -608,7 +2215,32 @@
     "url": "https://www.diariolagoranco.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-lago-ranco-google-news",
+        "name": "Diario Lago Ranco - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariolagoranco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariolagoranco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolagoranco.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-lago-ranco-bing-news",
+        "name": "Diario Lago Ranco - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariolagoranco.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariolagoranco.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolagoranco.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Lago Ranco"
   },
   {
@@ -617,7 +2249,32 @@
     "url": "https://www.diariolanco.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-lanco-google-news",
+        "name": "Diario Lanco - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariolanco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariolanco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolanco.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-lanco-bing-news",
+        "name": "Diario Lanco - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariolanco.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariolanco.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolanco.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Lanco"
   },
   {
@@ -626,7 +2283,32 @@
     "url": "https://www.diariomafil.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-mafil-google-news",
+        "name": "Diario Máfil - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariomafil.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariomafil.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariomafil.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-mafil-bing-news",
+        "name": "Diario Máfil - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariomafil.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariomafil.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariomafil.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Máfil"
   },
   {
@@ -635,7 +2317,32 @@
     "url": "https://www.eldiariopanguipulli.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-diario-panguipulli-google-news",
+        "name": "El Diario Panguipulli - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:eldiariopanguipulli.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:eldiariopanguipulli.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eldiariopanguipulli.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-diario-panguipulli-bing-news",
+        "name": "El Diario Panguipulli - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:eldiariopanguipulli.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:eldiariopanguipulli.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eldiariopanguipulli.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Panguipulli"
   },
   {
@@ -644,7 +2351,32 @@
     "url": "https://www.diariosanjose.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "diario-san-jose-google-news",
+        "name": "Diario San José - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariosanjose.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariosanjose.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariosanjose.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-san-jose-bing-news",
+        "name": "Diario San José - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariosanjose.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariosanjose.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariosanjose.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -653,7 +2385,32 @@
     "url": "https://www.elmagallanews.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-magallanews-google-news",
+        "name": "El Magallanews - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elmagallanews.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elmagallanews.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elmagallanews.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-magallanews-bing-news",
+        "name": "El Magallanews - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elmagallanews.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elmagallanews.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elmagallanews.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Magallanes"
   },
   {
@@ -662,7 +2419,32 @@
     "url": "https://www.opinionsur.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "opinion-sur-google-news",
+        "name": "Opinión Sur - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:opinionsur.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:opinionsur.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:opinionsur.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "opinion-sur-bing-news",
+        "name": "Opinión Sur - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:opinionsur.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:opinionsur.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:opinionsur.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Medio de comunicación de la Región de Los Lagos"
   },
   {
@@ -671,7 +2453,32 @@
     "url": "https://lectoronline.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-lector-google-news",
+        "name": "El Lector - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:lectoronline.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lectoronline.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lectoronline.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-lector-bing-news",
+        "name": "El Lector - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:lectoronline.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lectoronline.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lectoronline.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -680,7 +2487,32 @@
     "url": "https://www.septimapaginanoticias.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "septima-pagina-google-news",
+        "name": "Séptima Página - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:septimapaginanoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:septimapaginanoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:septimapaginanoticias.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "septima-pagina-bing-news",
+        "name": "Séptima Página - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:septimapaginanoticias.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:septimapaginanoticias.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:septimapaginanoticias.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -689,7 +2521,32 @@
     "url": "https://www.cronicanoticias.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "cronica-noticias-google-news",
+        "name": "Crónica Noticias - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:cronicanoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cronicanoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cronicanoticias.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "cronica-noticias-bing-news",
+        "name": "Crónica Noticias - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:cronicanoticias.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cronicanoticias.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cronicanoticias.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -699,7 +2556,32 @@
     "category": "regional",
     "region": "ohiggins",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-rancahuaso-google-news",
+        "name": "El Rancahuaso - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elrancahuaso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elrancahuaso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elrancahuaso.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-rancahuaso-bing-news",
+        "name": "El Rancahuaso - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elrancahuaso.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elrancahuaso.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elrancahuaso.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de la Región de O'Higgins"
   },
   {
@@ -709,7 +2591,32 @@
     "category": "regional",
     "region": "ohiggins",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-cachapoal-google-news",
+        "name": "El Cachapoal - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elcachapoal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elcachapoal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elcachapoal.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-cachapoal-bing-news",
+        "name": "El Cachapoal - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elcachapoal.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elcachapoal.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elcachapoal.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de la Región de O'Higgins"
   },
   {
@@ -719,7 +2626,32 @@
     "category": "regional",
     "region": "tarapaca",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soyiquique-google-news",
+        "name": "SoyIquique - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soyiquique.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soyiquique.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyiquique.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soyiquique-bing-news",
+        "name": "SoyIquique - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soyiquique.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soyiquique.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyiquique.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Iquique"
   },
   {
@@ -729,7 +2661,32 @@
     "category": "regional",
     "region": "tarapaca",
     "reason": "Sin feed RSS detectado - empresa matriz: Mi Voz",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-boyaldia-google-news",
+        "name": "El Boyaldía - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elboyaldia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elboyaldia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elboyaldia.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-boyaldia-bing-news",
+        "name": "El Boyaldía - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elboyaldia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elboyaldia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elboyaldia.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Iquique y Tarapacá"
   },
   {
@@ -739,7 +2696,32 @@
     "category": "regional",
     "region": "tarapaca",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "iquique-online-google-news",
+        "name": "Iquique Online - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:iquiqueonline.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:iquiqueonline.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:iquiqueonline.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "iquique-online-bing-news",
+        "name": "Iquique Online - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:iquiqueonline.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:iquiqueonline.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:iquiqueonline.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Iquique"
   },
   {
@@ -749,7 +2731,32 @@
     "category": "regional",
     "region": "valparaiso",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soyvalparaiso-google-news",
+        "name": "SoyValparaíso - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soyvalparaiso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soyvalparaiso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyvalparaiso.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soyvalparaiso-bing-news",
+        "name": "SoyValparaíso - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soyvalparaiso.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soyvalparaiso.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyvalparaiso.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Valparaíso"
   },
   {
@@ -758,7 +2765,32 @@
     "url": "https://www.elmartutino.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado - empresa matriz: Mi Voz",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-matutino-google-news",
+        "name": "El Matutino - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elmartutino.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elmartutino.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elmartutino.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-matutino-bing-news",
+        "name": "El Matutino - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elmartutino.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elmartutino.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elmartutino.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional"
   },
   {
@@ -768,7 +2800,32 @@
     "category": "regional",
     "region": "valparaiso",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "soyquillota-google-news",
+        "name": "SoyQuillota - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soyquillota.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soyquillota.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyquillota.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soyquillota-bing-news",
+        "name": "SoyQuillota - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soyquillota.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soyquillota.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soyquillota.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Quillota"
   },
   {
@@ -777,7 +2834,32 @@
     "url": "https://www.elandino.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "el-andino-google-news",
+        "name": "El Andino - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elandino.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elandino.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elandino.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-andino-bing-news",
+        "name": "El Andino - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elandino.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elandino.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elandino.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario regional de Los Andes"
   },
   {
@@ -786,7 +2868,32 @@
     "url": "https://www.losandesonline.cl",
     "category": "regional",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "los-andes-on-line-google-news",
+        "name": "Los Andes On Line - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:losandesonline.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:losandesonline.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:losandesonline.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "los-andes-on-line-bing-news",
+        "name": "Los Andes On Line - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:losandesonline.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:losandesonline.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:losandesonline.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Diario digital de Los Andes"
   },
   {
@@ -795,7 +2902,32 @@
     "url": "https://www.usach.cl",
     "category": "universities",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "usach-google-news",
+        "name": "USACH - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:usach.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:usach.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:usach.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "usach-bing-news",
+        "name": "USACH - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:usach.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:usach.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:usach.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Universidad pública chilena"
   },
   {
@@ -804,7 +2936,32 @@
     "url": "https://ground.news/interest/chile/",
     "category": "news-international",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "ground-news-google-news",
+        "name": "Ground News - Chile - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:ground.news&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ground.news&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ground.news en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ground-news-bing-news",
+        "name": "Ground News - Chile - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:ground.news&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ground.news",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ground.news en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Noticias internacionales sobre Chile"
   },
   {
@@ -813,7 +2970,32 @@
     "url": "https://www.chilenews.cl/",
     "category": "news",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "chilenews-google-news",
+        "name": "Chilenews - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:chilenews.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:chilenews.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chilenews.cl en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "chilenews-bing-news",
+        "name": "Chilenews - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:chilenews.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:chilenews.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chilenews.cl en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Agregador de noticias de Chile y el Mundo"
   },
   {
@@ -823,7 +3005,32 @@
     "category": "regional",
     "region": "los-lagos",
     "reason": "Sin feed RSS detectado",
-    "feeds": [],
+    "feeds": [
+      {
+        "id": "grafelberg-noticias-google-news",
+        "name": "Grafelberg Noticias - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:grafelbergnoticias.blogspot.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:grafelbergnoticias.blogspot.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:grafelbergnoticias.blogspot.com en Google News de noticias Chilenas",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "grafelberg-noticias-bing-news",
+        "name": "Grafelberg Noticias - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:grafelbergnoticias.blogspot.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:grafelbergnoticias.blogspot.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:grafelbergnoticias.blogspot.com en Bing News",
+        "last_checked": "2026-06-13T04:18:31.027Z",
+        "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
     "description": "Escudo de los sudetes. Grafelbergnoticias es un medio sin fines de lucro, cuyos objetivos son difundir la historia del Colegio Germania de Puerto Varas"
   }
 ]

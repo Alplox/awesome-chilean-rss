@@ -6,7 +6,7 @@ import { readFileSync } from 'fs';
 
 const REQUIRED_SITE_FIELDS = ['id', 'name', 'url', 'category', 'feeds'];
 const REQUIRED_FEED_FIELDS = ['id', 'name', 'rss_url'];
-const ALLOWED_STATUSES = ['active', 'stale', 'broken', 'offline', 'no_feed'];
+const ALLOWED_STATUSES = ['active', 'stale', 'broken', 'offline', 'no_feed', 'feed_empty'];
 const REQUIRED_WATCH_FIELDS = ['id', 'name', 'url', 'category', 'description', 'reason', 'feeds'];
 
 let exitCode = 0;

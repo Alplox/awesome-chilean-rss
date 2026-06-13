@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Los Ríos (6 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Los Ríos (14 feeds)</title>
     <description>Feeds RSS de la Región de Los Ríos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T23:59:30.922Z</dateCreated>
+    <dateCreated>2026-06-13T07:28:36.576Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Central Noticias" title="Central Noticias" description="Diario regional de Panguipulli, Los Ríos" xmlUrl="https://centralnoticias.cl/?feed=rss2" htmlUrl="https://centralnoticias.cl"/>
-    <outline type="rss" text="El Provincial" title="El Provincial" description="Medio de comunicación de la Región de Los Ríos." xmlUrl="https://www.elprovincial.cl/feed" htmlUrl="https://www.elprovincial.cl"/>
+    <outline type="rss" text="Central Noticias - Google News" title="Central Noticias - Google News" description="Resultados de site:centralnoticias.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:centralnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:centralnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Diario de Valdivia - Google News" title="Diario de Valdivia - Google News" description="Resultados de site:diariodevaldivia.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diariodevaldivia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diariodevaldivia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="El Provincial" title="El Provincial" description="Medio de comunicación de la Región de Los Ríos" xmlUrl="https://www.elprovincial.cl/feed" htmlUrl="https://www.elprovincial.cl"/>
+    <outline type="rss" text="El Provincial - Google News" title="El Provincial - Google News" description="Resultados de site:elprovincial.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elprovincial.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elprovincial.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Google News - Chile - Región Los Ríos" title="Google News - Chile - Región Los Ríos" description="Noticias locales de la Región de Los Ríos vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Valdivia?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Valdivia?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Informa Al Minuto" title="Informa Al Minuto" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://informaalminuto.cl/feed/" htmlUrl="https://informaalminuto.cl"/>
+    <outline type="rss" text="Informa Al Minuto - Google News" title="Informa Al Minuto - Google News" description="Resultados de site:informaalminuto.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:informaalminuto.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:informaalminuto.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Los Ríos Noticias" title="Los Ríos Noticias" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.losriosnoticias.cl/feed" htmlUrl="https://www.losriosnoticias.cl"/>
+    <outline type="rss" text="Los Ríos Noticias - Google News" title="Los Ríos Noticias - Google News" description="Resultados de site:losriosnoticias.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:losriosnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:losriosnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Noticias Los Ríos" title="Noticias Los Ríos" description="Diario regional de La Unión, Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/feed/" htmlUrl="https://www.noticiaslosrios.cl"/>
+    <outline type="rss" text="Noticias Los Ríos - Google News" title="Noticias Los Ríos - Google News" description="Resultados de site:noticiaslosrios.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:noticiaslosrios.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:noticiaslosrios.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Río en Línea" title="Río en Línea" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.rioenlinea.cl/feed/" htmlUrl="https://www.rioenlinea.cl"/>
+    <outline type="rss" text="Río en Línea - Google News" title="Río en Línea - Google News" description="Resultados de site:rioenlinea.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:rioenlinea.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:rioenlinea.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

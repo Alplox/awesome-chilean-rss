@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (8 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (17 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T23:59:30.922Z</dateCreated>
+    <dateCreated>2026-06-13T07:28:36.576Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Al Aire Libre" title="Al Aire Libre" description="Medio chileno de noticias deportivas" xmlUrl="https://www.alairelibre.cl/feed.xml" htmlUrl="https://www.alairelibre.cl"/>
+    <outline type="rss" text="Al Aire Libre - Bing News" title="Al Aire Libre - Bing News" description="Resultados de site:alairelibre.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:alairelibre.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:alairelibre.cl"/>
+    <outline type="rss" text="Al Aire Libre - Google News" title="Al Aire Libre - Google News" description="Resultados de site:alairelibre.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:alairelibre.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:alairelibre.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="AS Chile - Bing News" title="AS Chile - Bing News" description="Resultados de site:chile.as.com en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:chile.as.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:chile.as.com"/>
+    <outline type="rss" text="AS Chile - Google News" title="AS Chile - Google News" description="Resultados de site:chile.as.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chile.as.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chile.as.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Cooperativa - Deportes" title="Cooperativa - Deportes" description="Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_1___1.xml" htmlUrl="https://www.cooperativa.cl"/>
-    <outline type="rss" text="CRTV Chile" title="CRTV Chile" description="CRTV Chile es una plataforma multimedia con enfoque en disciplinas deportivas." xmlUrl="https://crtvchile.cl/rss" htmlUrl="https://crtvchile.cl"/>
+    <outline type="rss" text="CRTV Chile" title="CRTV Chile" description="CRTV Chile es una plataforma multimedia con enfoque en disciplinas deportivas" xmlUrl="https://crtvchile.cl/rss" htmlUrl="https://crtvchile.cl"/>
+    <outline type="rss" text="CRTV Chile - Google News" title="CRTV Chile - Google News" description="Resultados de site:crtvchile.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:crtvchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:crtvchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario El Día - Deportes" title="Diario El Día - Deportes" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/deportes" htmlUrl="https://www.diarioeldia.cl"/>
-    <outline type="rss" text="La Cuarta - Deportes" title="La Cuarta - Deportes" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención." xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="Google News - Chile - Resultados 'deportes'" title="Google News - Chile - Resultados 'deportes'" description="Página de resultados para keyword=deportes en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=deportes&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=deportes&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Google News - Chile - Sección Deportes" title="Google News - Chile - Sección Deportes" description="Sección Deportes de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRFp1ZEdvU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRFp1ZEdvU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="La Cuarta - Deportes" title="La Cuarta - Deportes" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
     <outline type="rss" text="La Tercera - El Deportivo" title="La Tercera - El Deportivo" description="Diario con cobertura nacional, internacional y económica" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/el-deportivo/?outputType=xml" htmlUrl="https://www.latercera.com/canal/el-deportivo/"/>
     <outline type="rss" text="Publimetro Chile - Deportes" title="Publimetro Chile - Deportes" description="Diario chileno de información general" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/deportes/?outputType=xml" htmlUrl="https://www.publimetro.cl"/>
     <outline type="rss" text="Redgol" title="Redgol" description="Portal deportivo con cobertura de fútbol nacional e internacional y otros deportes" xmlUrl="https://redgol.cl/rss/feed" htmlUrl="https://www.redgol.cl"/>
+    <outline type="rss" text="Redgol - Bing News" title="Redgol - Bing News" description="Resultados de site:redgol.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:redgol.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:redgol.cl"/>
+    <outline type="rss" text="Redgol - Google News" title="Redgol - Google News" description="Resultados de site:redgol.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:redgol.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:redgol.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

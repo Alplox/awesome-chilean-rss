@@ -427,6 +427,7 @@ return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
 3. **¿Solo medios regionales?** Descarga [\`chilean-rss-regions.opml\`](dist/opml/chilean-rss-regions.opml) con ${regTotal} feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [\`chilean-rss-nested.opml\`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [\`regions/\`](dist/opml/regions/) o descarga por categoría en [\`categories/\`](dist/opml/categories/)
+6. **¿Prefieres marcadores de navegador?** Importa [\`awesome-chilean-rss.html\`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
 ## 📝 Feeds disponibles (${total})
 
@@ -458,6 +459,74 @@ Todos los feeds de esta lista son validados automáticamente por nuestro [workfl
 
 Este proyecto está bajo licencia [CC0 1.0 Universal](LICENSE). Siéntete libre de usarlo, compartirlo y mejorarlo.
 `;
+}
+
+// ─── Generar Bookmark HTML ────────────────────────────────────────────────────
+
+function renderBookmarkEntries(feeds) {
+  const sorted = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+  return sorted
+    .map(feed =>
+      `        <DT><A HREF="${escapeXml(feed.feedUrl)}">${escapeXml(feed.name)}</A>`
+    )
+    .join('\n');
+}
+
+function renderBookmarkFile(title, bodyContent) {
+  return `<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<!-- This is an automatically generated file from awesome-chilean-rss. Do not edit manually. -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<TITLE>${escapeXml(title)}</TITLE>
+<H1>${escapeXml(title)}</H1>
+<DL><p>
+        <DT><A HREF="https://github.com/alplox/awesome-chilean-rss">awesome-chilean-rss</A>
+${bodyContent}
+</DL><p>`;
+}
+
+function generateBookmarks() {
+  const categoryBlocks = orderedCategories.map(cat => {
+    const label = categories[cat] ?? cat;
+    const feeds = feedsByCategory[cat] || [];
+
+    if (cat === REGIONAL_CAT) {
+      const regionFeeds = {};
+      for (const feed of feeds) {
+        if (feed.region && regions[feed.region]) {
+          (regionFeeds[feed.region] ??= []).push(feed);
+        }
+      }
+
+      const regionBlocks = Object.keys(regions)
+        .filter(regKey => regionFeeds[regKey]?.length > 0)
+        .map(regKey =>
+          `    <DT><H3>${escapeXml(regions[regKey])}</H3>\n    <DL><p>\n${renderBookmarkEntries(regionFeeds[regKey])}\n    </DL><p>`
+        );
+
+      const unassigned = feeds.filter(f => !f.region || !regions[f.region]);
+      if (unassigned.length > 0) {
+        regionBlocks.push(
+          `    <DT><H3>Otras Regiones o No Especificada</H3>\n    <DL><p>\n${renderBookmarkEntries(unassigned)}\n    </DL><p>`
+        );
+      }
+
+      return `  <DT><H3>${escapeXml(label)}</H3>\n  <DL><p>\n${regionBlocks.join('\n')}\n  </DL><p>`;
+    }
+
+    return `  <DT><H3>${escapeXml(label)}</H3>\n  <DL><p>\n${renderBookmarkEntries(feeds)}\n  </DL><p>`;
+  }).join('\n');
+
+  return renderBookmarkFile('awesome-chilean-rss', categoryBlocks);
+}
+
+function generateIndividualCategoryBookmark(catKey, feeds) {
+  const label = categories[catKey] ?? catKey;
+  return renderBookmarkFile(label, renderBookmarkEntries(feeds));
+}
+
+function generateIndividualRegionalBookmark(regKey, feeds) {
+  const label = regions[regKey] ?? regKey;
+  return renderBookmarkFile(label, renderBookmarkEntries(feeds));
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -520,6 +589,45 @@ try {
   const readme = generateReadme();
   writeFileSync('README.md', readme, 'utf-8');
   console.log(`✅ README.md generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
+
+  // Bookmarks HTML (Netscape Bookmark Format — compatible con navegadores)
+  const BOOKMARKS_DIR = 'dist/bookmarks';
+  if (!existsSync(BOOKMARKS_DIR)) {
+    mkdirSync(BOOKMARKS_DIR);
+  }
+
+  // Combined
+  const bookmarks = generateBookmarks();
+  writeFileSync(`${BOOKMARKS_DIR}/awesome-chilean-rss.html`, bookmarks, 'utf-8');
+  console.log(`✅ ${BOOKMARKS_DIR}/awesome-chilean-rss.html generado (${allFeeds.length} bookmarks)`);
+
+  // Individual category bookmark files
+  const bookmarksCategoriesDir = `${BOOKMARKS_DIR}/categories`;
+  if (!existsSync(bookmarksCategoriesDir)) {
+    mkdirSync(bookmarksCategoriesDir);
+  }
+  for (const catKey of orderedCategories) {
+    const feeds = feedsByCategory[catKey] || [];
+    if (feeds.length > 0) {
+      const catBookmark = generateIndividualCategoryBookmark(catKey, feeds);
+      writeFileSync(`${bookmarksCategoriesDir}/${catKey}.html`, catBookmark, 'utf-8');
+    }
+  }
+  console.log(`✅ Marcadores individuales por categoría generados en ${bookmarksCategoriesDir}/`);
+
+  // Individual regional bookmark files
+  const bookmarksRegionsDir = `${BOOKMARKS_DIR}/regions`;
+  if (!existsSync(bookmarksRegionsDir)) {
+    mkdirSync(bookmarksRegionsDir);
+  }
+  for (const regKey of Object.keys(regions)) {
+    const feeds = feedsByRegion[regKey] || [];
+    if (feeds.length > 0) {
+      const regBookmark = generateIndividualRegionalBookmark(regKey, feeds);
+      writeFileSync(`${bookmarksRegionsDir}/${regKey}.html`, regBookmark, 'utf-8');
+    }
+  }
+  console.log(`✅ Marcadores individuales por región generados en ${bookmarksRegionsDir}/`);
 } catch (err) {
   console.error('❌ Error al generar archivos:', err.message);
   process.exit(1);

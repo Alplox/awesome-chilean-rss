@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Universidades e Investigación (6 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Universidades e Investigación (14 feeds)</title>
     <description>Feeds RSS de 🏫 Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T23:59:30.922Z</dateCreated>
+    <dateCreated>2026-06-13T07:28:36.576Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="ANID" title="ANID" description="Agencia Nacional de Investigación y Desarrollo" xmlUrl="https://www.anid.cl/rss" htmlUrl="https://www.anid.cl"/>
-    <outline type="rss" text="CEP Chile" title="CEP Chile" description="Centro de estudios e investigación dedicado al análisis de políticas públicas, economía y ciencias sociales en Chile." xmlUrl="https://www.cepchile.cl/feed" htmlUrl="https://www.cepchile.cl"/>
+    <outline type="rss" text="ANID - Google News" title="ANID - Google News" description="Resultados de site:anid.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:anid.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:anid.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="CEP Chile" title="CEP Chile" description="Centro de estudios e investigación dedicado al análisis de políticas públicas, economía y ciencias sociales en Chile" xmlUrl="https://www.cepchile.cl/feed" htmlUrl="https://www.cepchile.cl"/>
+    <outline type="rss" text="CEP Chile - Google News" title="CEP Chile - Google News" description="Resultados de site:cepchile.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cepchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cepchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Google News - Chile - Resultados 'educación'" title="Google News - Chile - Resultados 'educación'" description="Página de resultados para keyword=educación en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=educaci%C3%B3n&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=educaci%C3%B3n&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Pontificia Universidad Católica (PUC)" title="Pontificia Universidad Católica (PUC)" description="Noticias e investigación de la PUC" xmlUrl="https://www.uc.cl/rss/" htmlUrl="https://www.uc.cl"/>
+    <outline type="rss" text="Pontificia Universidad Católica (PUC) - Google News" title="Pontificia Universidad Católica (PUC) - Google News" description="Resultados de site:uc.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:uc.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:uc.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Universidad de Concepción" title="Universidad de Concepción" description="Noticias e investigación de la Universidad de Concepción" xmlUrl="https://noticias.udec.cl/feed/" htmlUrl="https://noticias.udec.cl"/>
+    <outline type="rss" text="Universidad de Concepción - Google News" title="Universidad de Concepción - Google News" description="Resultados de site:noticias.udec.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:noticias.udec.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:noticias.udec.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Universidad de La Frontera" title="Universidad de La Frontera" description="Noticias e investigación de la UFRO, Temuco" xmlUrl="https://www.ufro.cl/feed/" htmlUrl="https://www.ufro.cl"/>
+    <outline type="rss" text="Universidad de La Frontera - Google News" title="Universidad de La Frontera - Google News" description="Resultados de site:ufro.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ufro.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ufro.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Universidad de Las Américas - Google News" title="Universidad de Las Américas - Google News" description="Resultados de site:udla.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:udla.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:udla.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Universidad de Talca" title="Universidad de Talca" description="Noticias e investigación de la Universidad de Talca" xmlUrl="https://www.utalca.cl/noticias/feed/" htmlUrl="https://www.utalca.cl"/>
+    <outline type="rss" text="Universidad de Talca - Google News" title="Universidad de Talca - Google News" description="Resultados de site:utalca.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:utalca.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:utalca.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

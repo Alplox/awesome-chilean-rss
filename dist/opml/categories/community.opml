@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (10 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (15 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T23:59:30.922Z</dateCreated>
+    <dateCreated>2026-06-13T07:28:36.576Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
-    <outline type="rss" text="#chile" title="#chile" description="Instancia chilena de Mastodon (red social descentralizada)" xmlUrl="https://mastodon.cl/tags/chile.rss" htmlUrl="https://mastodon.cl"/>
-    <outline type="rss" text="#tecnología" title="#tecnología" description="Instancia chilena de Mastodon (red social descentralizada)" xmlUrl="https://mastodon.cl/tags/tecnología.rss" htmlUrl="https://mastodon.cl"/>
     <outline type="rss" text="Capa9 - Global" title="Capa9 - Global" description="Comunidad chilena de tecnología, hardware y reviews" xmlUrl="https://www.capa9.net/forums/-/index.rss" htmlUrl="https://www.capa9.net"/>
+    <outline type="rss" text="Capa9 - Google News" title="Capa9 - Google News" description="Resultados de site:capa9.net en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:capa9.net&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:capa9.net&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Capa9 - Reviews" title="Capa9 - Reviews" description="Comunidad chilena de tecnología, hardware y reviews" xmlUrl="https://www.capa9.net/foro/reviews.45/index.rss" htmlUrl="https://www.capa9.net"/>
     <outline type="rss" text="Colemono" title="Colemono" description="Comunidad chilena de videojuegos de culto y retro" xmlUrl="https://colemono.com/feed/" htmlUrl="https://colemono.com"/>
+    <outline type="rss" text="Colemono - Google News" title="Colemono - Google News" description="Resultados de site:colemono.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:colemono.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:colemono.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Mastodon.cl - #chile" title="Mastodon.cl - #chile" description="Publicaciones bajo #chile en mastodon.cl" xmlUrl="https://mastodon.cl/tags/chile.rss" htmlUrl="https://mastodon.cl"/>
+    <outline type="rss" text="Mastodon.cl - #tecnología" title="Mastodon.cl - #tecnología" description="Publicaciones bajo #tecnología en mastodon.cl" xmlUrl="https://mastodon.cl/tags/tecnología.rss" htmlUrl="https://mastodon.cl"/>
+    <outline type="rss" text="Noticias_Chile - mas.to BOT" title="Noticias_Chile - mas.to BOT" description="Bot segregador de noticias, mas.to/@Noticias_Chile" xmlUrl="https://mas.to/@Noticias_Chile.rss" htmlUrl="https://mas.to/@Noticias_Chile"/>
     <outline type="rss" text="r/Chile" title="r/Chile" description="Reddit feeds from various subreddits" xmlUrl="https://www.reddit.com/r/chile/.rss" htmlUrl="https://www.reddit.com/r/chile/"/>
     <outline type="rss" text="r/chileit" title="r/chileit" description="Reddit feeds from various subreddits" xmlUrl="https://www.reddit.com/r/chileit/.rss" htmlUrl="https://www.reddit.com/r/chileit/"/>
     <outline type="rss" text="r/RepublicaDeChile" title="r/RepublicaDeChile" description="Reddit feeds from various subreddits" xmlUrl="https://www.reddit.com/r/republicadechile/.rss" htmlUrl="https://www.reddit.com/r/republicadechile/"/>
     <outline type="rss" text="r/Santiago" title="r/Santiago" description="Reddit feeds from various subreddits" xmlUrl="https://www.reddit.com/r/Santiago/.rss" htmlUrl="https://www.reddit.com/r/Santiago/"/>
+    <outline type="rss" text="Sismología UdeChile - Mastodon.cl BOT" title="Sismología UdeChile - Mastodon.cl BOT" description="Bot mastodon.cl/@sismos para alertas de sismos nacionales desde Sismología UdeChile" xmlUrl="https://mastodon.cl/@sismos.rss" htmlUrl="https://mastodon.cl/@sismos"/>
     <outline type="rss" text="Vanguardia Gamer" title="Vanguardia Gamer" description="Comunidad y noticias de videojuegos en Chile" xmlUrl="https://vanguardiagamer.cl/feed/" htmlUrl="https://vanguardiagamer.cl"/>
+    <outline type="rss" text="Vanguardia Gamer - Google News" title="Vanguardia Gamer - Google News" description="Resultados de site:vanguardiagamer.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:vanguardiagamer.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:vanguardiagamer.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

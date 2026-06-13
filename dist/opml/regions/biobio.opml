@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Biobío (5 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Biobío (14 feeds)</title>
     <description>Feeds RSS de la Región de Biobío, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-12T23:59:30.922Z</dateCreated>
+    <dateCreated>2026-06-13T07:28:36.576Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="Canal 9 Biobío - Google News" title="Canal 9 Biobío - Google News" description="Resultados de site:canal9.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:canal9.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:canal9.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario Concepción" title="Diario Concepción" description="Diario regional con cobertura informativa de la Región del Biobío" xmlUrl="https://www.diarioconcepcion.cl/rss.xml" htmlUrl="https://www.diarioconcepcion.cl"/>
+    <outline type="rss" text="Diario Concepción - Bing News" title="Diario Concepción - Bing News" description="Resultados de site:diarioconcepcion.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:diarioconcepcion.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:diarioconcepcion.cl"/>
+    <outline type="rss" text="Diario Concepción - Google News" title="Diario Concepción - Google News" description="Resultados de site:diarioconcepcion.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioconcepcion.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioconcepcion.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Google News - Chile - Región Biobío" title="Google News - Chile - Región Biobío" description="Noticias locales de la Región de Biobío vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Concepci%C3%B3n?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Concepci%C3%B3n?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Tribuna" title="La Tribuna" description="Diario regional de Los Ángeles, Biobío" xmlUrl="https://www.latribuna.cl/rss.xml" htmlUrl="https://www.latribuna.cl"/>
-    <outline type="rss" text="Nacimentano" title="Nacimentano" description="Medio de comunicación de la Región de Biobío." xmlUrl="https://nacimentano.cl/feed" htmlUrl="https://nacimentano.cl"/>
-    <outline type="rss" text="Noticias Biobío" title="Noticias Biobío" description="Medio de comunicación de la Región de Biobío." xmlUrl="https://noticiasbiobio.cl/feed" htmlUrl="https://noticiasbiobio.cl"/>
-    <outline type="rss" text="Tomé al Día" title="Tomé al Día" description="Medio de comunicación de la Región de Biobío." xmlUrl="http://www.tomealdia.com/feeds/posts/default?alt=rss" htmlUrl="http://www.tomealdia.com"/>
+    <outline type="rss" text="La Tribuna - Bing News" title="La Tribuna - Bing News" description="Resultados de site:latribuna.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:latribuna.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:latribuna.cl"/>
+    <outline type="rss" text="La Tribuna - Google News" title="La Tribuna - Google News" description="Resultados de site:latribuna.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:latribuna.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:latribuna.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Nacimentano" title="Nacimentano" description="Medio de comunicación de la Región de Biobío" xmlUrl="https://nacimentano.cl/feed" htmlUrl="https://nacimentano.cl"/>
+    <outline type="rss" text="Nacimentano - Google News" title="Nacimentano - Google News" description="Resultados de site:nacimentano.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:nacimentano.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:nacimentano.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Noticias Biobío" title="Noticias Biobío" description="Medio de comunicación de la Región de Biobío" xmlUrl="https://noticiasbiobio.cl/feed" htmlUrl="https://noticiasbiobio.cl"/>
+    <outline type="rss" text="Noticias Biobío - Google News" title="Noticias Biobío - Google News" description="Resultados de site:noticiasbiobio.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:noticiasbiobio.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:noticiasbiobio.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Resumen Biobío - Google News" title="Resumen Biobío - Google News" description="Resultados de site:resumen.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:resumen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:resumen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Tomé al Día" title="Tomé al Día" description="Medio de comunicación de la Región de Biobío" xmlUrl="http://www.tomealdia.com/feeds/posts/default?alt=rss" htmlUrl="http://www.tomealdia.com"/>
   </body>
 </opml>

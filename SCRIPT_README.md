@@ -16,9 +16,11 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 |                                          | `npm run validate -- --start-id <id> [--limit <N>]` | Valida desde un site-id en adelante (opcionalmente limitado)      |
 |                                          | `npm run validate -- --from <N> --to <N>`       | Valida un rango numérico de sitios (--to inclusive)               |
 |                                          | `npm run validate -- --limit <N>`               | Valida solo los primeros N sitios                                   |
+|                                          | `npm run validate -- --missing-date`            | Valida solo feeds sin `last_known_item_date` (nunca verificados). Con `--update` todos quedan con fecha ISO o `null` |
+|                                          | `npm run validate -- --status <estado>`         | Valida solo feeds con un estado específico (`active`, `stale`, `broken`, `offline`, `no_feed`, `feed_empty`) |
 |                                          | `npm run validate -- --watchlist`               | Muestra instrucciones para usar `npm run validate:watchlist`                            |
 |                                          | `npm run validate -- --update --automatic`      | Modo no interactivo para CI/desatendido                            |
-| `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json`, `categories.json` y `regions.json`, regenera `dist/opml/chilean-rss.opml`, `dist/opml/chilean-rss-nested.opml`, `dist/opml/chilean-rss-regions.opml`, `dist/opml/regions/*.opml`, `dist/opml/categories/*.opml` y README |
+| `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json`, `categories.json` y `regions.json`, regenera `dist/opml/chilean-rss.opml`, `dist/opml/chilean-rss-nested.opml`, `dist/opml/chilean-rss-regions.opml`, `dist/opml/regions/*.opml`, `dist/opml/categories/*.opml`, `dist/bookmarks/awesome-chilean-rss.html` y README |
 | `scripts/core/validate-watchlist.js`     | `npm run validate:watchlist`                   | Valida watchlist, promueve feeds válidos a sites con `--update`    |
 |                                          | `npm run validate:watchlist -- --update`        | Promueve automáticamente los feeds válidos a sites[]               |
 |                                          | `npm run validate:watchlist -- --automatic`     | Modo no interactivo (promueve todo sin preguntar)                  |
@@ -40,6 +42,14 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 | `scripts/utils/find-duplicates.js`           | `node scripts/utils/find-duplicates.js`                 | Detecta entradas duplicadas en `feeds-database.json` (URLs de sitio, rss_url, dominio raíz, IDs) |
 |                                              | `node scripts/utils/find-duplicates.js --verbose`       | Igual que el anterior, mostrando todos los feeds de cada grupo     |
 | `scripts/utils/fix-stale-feeds.js`           | `npm run fix:stale`                                     | Marca como stale los feeds activos con último item > 30 días       |
+| `scripts/utils/add-site-subfeeds.js`         | `node scripts/utils/add-site-subfeeds.js`               | Agrega subfeeds Google News + Bing News `site:` a sitios/watchlist elegibles (excluye redes sociales) |
+|                                              | `node scripts/utils/add-site-subfeeds.js --dry-run`     | Vista previa sin modificar archivos                                 |
+|                                              | `node scripts/utils/add-site-subfeeds.js --file database\|watchlist\|all` | Limita a qué archivo procesar (default: all) |
+|                                              | `node scripts/utils/add-site-subfeeds.js --id <id>`     | Procesa una sola entrada por ID                                     |
+|                                              | `node scripts/utils/add-site-subfeeds.js --from <N> --to <N>` | Procesa un rango numérico de entradas                        |
+|                                              | `node scripts/utils/add-site-subfeeds.js --limit <N>`   | Procesa solo las primeras N entradas                                 |
+|                                              | `node scripts/utils/add-site-subfeeds.js --start-id <id> [--limit <N>]` | Desde un ID en adelante, opcionalmente limitado |
+|                                              | `node scripts/utils/add-site-subfeeds.js --total-mode delta\|recalculate` | `delta`: incremento rápido (default); `recalculate`: reconteo completo |
 
 ### Módulos de validación (lib/)
 
@@ -64,14 +74,18 @@ feeds-database.json    categories.json   regions.json      watchlist.json
   (lib/*, rediscover)        (by category + region)        (lib/watchlist-validator.js)
        │                       │                                   │
        ▼                       ▼                                   ▼
-    feeds-database.json        dist/opml/chilean-rss.opml           feeds-database.json†
-                               dist/opml/chilean-rss-nested.opml    watchlist.json†
-                               dist/opml/chilean-rss-regions.opml   († con --update)
-                               dist/opml/regions/*.opml
-                               dist/opml/categories/*.opml
-                              README.md
+     feeds-database.json        dist/opml/chilean-rss.opml           feeds-database.json†
+                                dist/opml/chilean-rss-nested.opml    watchlist.json†
+                                dist/opml/chilean-rss-regions.opml   († con --update)
+                                dist/opml/regions/*.opml
+                                dist/opml/categories/*.opml
+                                dist/bookmarks/awesome-chilean-rss.html
+                               README.md
 
   find-duplicates.js  ──►  reporte en consola (solo lectura)
+
+  add-site-subfeeds.js ──►  agrega subfeeds Google News + Bing News
+                           │  a sitios/watchlist (--dry-run para previsualizar)
 ```
 
 **Para agregar un feed:** edita `feeds-database.json` y ejecuta `npm run generate`. Si es una categoría nueva, agrégala también en `categories.json`. Si es un medio regional, añade el campo `region` con la clave correspondiente de `regions.json`.
@@ -79,6 +93,8 @@ feeds-database.json    categories.json   regions.json      watchlist.json
 **Para agregar un candidato sin feed conocido:** agrega la entrada en `watchlist.json` con estructura site-like y `feeds: []`.
 
 **Para detectar duplicados:** ejecuta `node scripts/utils/find-duplicates.js`.
+
+**Para sincronizar subfeeds Google News / Bing News:** ejecuta `node scripts/utils/add-site-subfeeds.js`. Con `--dry-run` previsualiza sin modificar. Con `--total-mode recalculate` recontea todos los feeds activos desde cero.
 
 **Para revalidar feeds existentes:** ejecuta `npm run validate`.
 
@@ -97,7 +113,7 @@ npm install
 ## Uso
 
 ```bash
-# Regenerar OPML y README desde feeds-database.json + categories.json
+# Regenerar OPML, README y bookmarks desde feeds-database.json + categories.json
 npm run generate
 
 # Revalidar todos los feeds, redescubrir URLs rotas
@@ -112,6 +128,36 @@ npm run ci
 # Validar y promover watchlist
 npm run validate:watchlist
 ```
+
+## Mantenimiento de subfeeds `site:`
+
+Cada sitio elegible (excluyendo redes sociales y motores de búsqueda) tiene dos subfeeds de respaldo: Google News `site:` y Bing News `site:`. Cuando se agrega un nuevo sitio a `feeds-database.json` o `watchlist.json`, este script detecta los faltantes y los añade automáticamente.
+
+```bash
+# Previsualizar qué subfeeds faltan
+node scripts/utils/add-site-subfeeds.js --dry-run
+
+# Agregar los faltantes (modo normal)
+node scripts/utils/add-site-subfeeds.js
+
+# Solo database o solo watchlist
+node scripts/utils/add-site-subfeeds.js --file database
+node scripts/utils/add-site-subfeeds.js --file watchlist
+
+# Procesar una entrada específica
+node scripts/utils/add-site-subfeeds.js --id colegio-medicos
+
+# Rango numérico (entradas 10-20 de la lista combinada)
+node scripts/utils/add-site-subfeeds.js --from 10 --to 20
+
+# Desde un ID en adelante, máximo 5
+node scripts/utils/add-site-subfeeds.js --start-id bbc-mundo --limit 5
+
+# Reconteo completo de total_feeds (seguro pero más lento)
+node scripts/utils/add-site-subfeeds.js --total-mode recalculate
+```
+
+Los filtros se aplican en este orden: `--id` → `--start-id` → `--from` → `--to` → `--limit`.
 
 ## 🆕 Modos de Validación
 
@@ -162,9 +208,15 @@ npm run validate -- --update --automatic
 npm run validate -- --id nombre-del-sitio --update
 ```
 
-### Validación parcial por rango
+### Validación parcial por filtros
 
-Útil para ejecuciones masivas por lotes o retomar validaciones interrumpidas:
+Útil para ejecuciones masivas por lotes o retomar validaciones interrumpidas.
+
+Los filtros se aplican en este orden:
+1. **Feed-level**: `--missing-date`, `--status <estado>` — filtran primero por condición del feed
+2. **Site-level**: `--start-id`, `--from --to`, `--limit` — limitan cuántos sitios procesar
+
+Esto permite, por ejemplo, validar solo 3 sitios con feeds nunca verificados (`--missing-date --limit 3`).
 
 ```bash
 # Validar desde un site-id en adelante (los primeros 25)
@@ -301,7 +353,7 @@ Para cada feed en `sites[]`:
    - Soporta: RSS 2.0, Atom, JSON Feed (`application/feed+json`), RSS 1.0/RDF (<rdf:RDF)
    - Extrae la fecha del item más reciente (RSS `<pubDate>`, `<dc:date>`; Atom `<published>`, `<updated>`; JSON Feed `date_published`, `date_modified`)
    - Si el último item tiene > 30 días → marca `status: stale`
-   - Si el feed está vacío (0 items) → marca `status: no_feed`
+   - Si el feed está vacío (0 items) → marca `status: feed_empty`
    - Si no hay fechas en los items, usa `<lastBuildDate>` del canal como fallback
 
 2. **URL responde con HTML, XML inválido o vacío** → `status: broken`
