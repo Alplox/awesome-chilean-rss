@@ -2,9 +2,9 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-270-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-728-blue)
+![Sitios](https://img.shields.io/badge/sitios-270-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-737-blue)
 
-> El directorio más completo de feeds RSS chilenos. 270 sitios, 728 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 270 sitios, 737 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -15,24 +15,24 @@
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (270 sitios, 728 feeds)
+## 📝 Fuentes disponibles (270 sitios, 737 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 32 sitios, 131 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 10 sitios, 15 feeds
+- [📰 Noticias Nacionales](#cat-news) — 32 sitios, 135 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 11 sitios, 16 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 19 sitios, 79 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 11 sitios, 24 feeds
 - [🏫 Universidades e Investigación](#cat-universities) — 8 sitios, 14 feeds
 - [🌎 Medios Regionales](#cat-regional) — 188 sitios, 401 feeds
-- [💼 Negocios y Finanzas](#cat-business) — 7 sitios, 15 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 8 sitios, 14 feeds
+- [💼 Negocios y Finanzas](#cat-business) — 8 sitios, 16 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 9 sitios, 17 feeds
 - [⚽ Deportes](#cat-sports) — 11 sitios, 20 feeds
 - [👥 Comunidad](#cat-community) — 5 sitios, 15 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (32 sitios, 131 feeds)
+### 📰 Noticias Nacionales (32 sitios, 135 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -61,6 +61,10 @@
   - Desenfoque - Google News: `https://news.google.com/rss/search?q=site:desenfoque.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política
   - El Ciudadano: `https://www.elciudadano.com/feed/`
+  - El Ciudadano - Política: `https://www.elciudadano.com/noticias/politica/feed/`
+  - El Ciudadano - Justicia: `https://www.elciudadano.com/noticias/justicia/feed/`
+  - El Ciudadano - Género: `https://www.elciudadano.com/noticias/genero/feed/`
+  - El Ciudadano - Sociedad: `https://www.elciudadano.com/noticias/sociedad/feed/`
   - El Ciudadano - Mastodon.cl BOT: `https://mastodon.cl/@elciudadano.rss`
   - El Ciudadano - Google News: `https://news.google.com/rss/search?q=site:elciudadano.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - El Ciudadano - Bing News: `https://www.bing.com/news/search?q=site:elciudadano.com&format=RSS`
@@ -203,7 +207,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (10 sitios, 15 feeds)
+### 🌐 Noticias Internacionales (11 sitios, 16 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -213,6 +217,8 @@
   - BBC Mundo - Bing News: `https://www.bing.com/news/search?q=site:bbc.com&format=RSS`
 - **Diario El Día**: Diario regional de La Serena, Coquimbo
   - RSS: `https://www.diarioeldia.cl/rss/mundo`
+- **El Ciudadano**: Portal de noticias nacionales e internacionales con cobertura social y política
+  - RSS: `https://www.elciudadano.com/noticias/latinoamerica/feed`
 - **El Minuto**: Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales
   - RSS: `https://elminuto.cl/noticias/category/mundo/rss`
 - **France 24** — Medio de comunicación francés de noticias internacionales
@@ -1139,7 +1145,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Negocios y Finanzas (7 sitios, 15 feeds)
+### 💼 Negocios y Finanzas (8 sitios, 16 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
@@ -1148,6 +1154,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Diario Financiero - Mastodon.cl BOT: `https://mastodon.cl/@df.rss`
   - Diario Financiero - Google News: `https://news.google.com/rss/search?q=site:df.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Diario Financiero - Bing News: `https://www.bing.com/news/search?q=site:df.cl&format=RSS`
+- **El Ciudadano**: Portal de noticias nacionales e internacionales con cobertura social y política
+  - RSS: `https://www.elciudadano.com/noticias/economia/feed/`
 - **Ex-Ante**: Medio digital chileno de noticias y análisis político, económico y de actualidad
   - RSS: `https://www.ex-ante.cl/category/economia/rss`
 - **Google News** — Segregador de noticias de Google
@@ -1169,7 +1177,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (8 sitios, 14 feeds)
+### 🎨 Cultura y Divulgación (9 sitios, 17 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
@@ -1181,6 +1189,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **CR2** — Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena
   - CR2: `https://www.cr2.cl/feed/`
   - CR2 - Google News: `https://news.google.com/rss/search?q=site:cr2.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política
+  - El Ciudadano - Medio Ambiente: `https://www.elciudadano.com/noticias/medio-ambiente/feed/`
+  - El Ciudadano - Pueblos: `https://www.elciudadano.com/noticias/pueblos/feed/`
+  - El Ciudadano - Arte Cultura: `https://www.elciudadano.com/noticias/arte-cultura/feed/`
 - **Google News** — Segregador de noticias de Google
   - Google News - Chile - Resultados 'cultura': `https://news.google.com/rss/search?q=cultura&hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Sección Entretenimiento: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNREpxYW5RU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`

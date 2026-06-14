@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (131 feeds)</title>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (135 feeds)</title>
     <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-13T23:01:10.283Z</dateCreated>
+    <dateCreated>2026-06-13T23:44:18.964Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -31,8 +31,12 @@
     <outline type="rss" text="Desenfoque - Google News" title="Desenfoque - Google News" description="Resultados de site:desenfoque.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:desenfoque.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:desenfoque.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Ciudadano" title="El Ciudadano" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/feed/" htmlUrl="https://www.elciudadano.com"/>
     <outline type="rss" text="El Ciudadano - Bing News" title="El Ciudadano - Bing News" description="Resultados de site:elciudadano.com en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:elciudadano.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:elciudadano.com"/>
+    <outline type="rss" text="El Ciudadano - Género" title="El Ciudadano - Género" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/genero/feed/" htmlUrl="https://www.elciudadano.com/noticias/genero/"/>
     <outline type="rss" text="El Ciudadano - Google News" title="El Ciudadano - Google News" description="Resultados de site:elciudadano.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elciudadano.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elciudadano.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="El Ciudadano - Justicia" title="El Ciudadano - Justicia" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/justicia/feed/" htmlUrl="https://www.elciudadano.com/noticias/justicia/"/>
     <outline type="rss" text="El Ciudadano - Mastodon.cl BOT" title="El Ciudadano - Mastodon.cl BOT" description="BOT de mastodon.cl/@elciudadano" xmlUrl="https://mastodon.cl/@elciudadano.rss" htmlUrl="https://mastodon.cl/@elciudadano"/>
+    <outline type="rss" text="El Ciudadano - Política" title="El Ciudadano - Política" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/politica/feed/" htmlUrl="https://www.elciudadano.com/noticias/politica/"/>
+    <outline type="rss" text="El Ciudadano - Sociedad" title="El Ciudadano - Sociedad" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/sociedad/feed/" htmlUrl="https://www.elciudadano.com/noticias/sociedad/"/>
     <outline type="rss" text="El Clarín de Chile" title="El Clarín de Chile" description="Portal de noticias nacionales e internacionales" xmlUrl="https://www.elclarin.cl/feed" htmlUrl="https://www.elclarin.cl"/>
     <outline type="rss" text="El Clarín de Chile - Google News" title="El Clarín de Chile - Google News" description="Resultados de site:elclarin.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elclarin.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elclarin.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Desconcierto - Bing News" title="El Desconcierto - Bing News" description="Resultados de site:eldesconcierto.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:eldesconcierto.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:eldesconcierto.cl"/>

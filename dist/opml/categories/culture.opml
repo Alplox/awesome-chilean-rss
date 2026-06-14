@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (14 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (17 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-13T23:01:10.283Z</dateCreated>
+    <dateCreated>2026-06-13T23:44:18.964Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -13,6 +13,9 @@
     <outline type="rss" text="Cooperativa -  Cultura" title="Cooperativa -  Cultura" description="Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_5___1.xml" htmlUrl="https://www.cooperativa.cl"/>
     <outline type="rss" text="CR2" title="CR2" description="Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena" xmlUrl="https://www.cr2.cl/feed/" htmlUrl="https://www.cr2.cl"/>
     <outline type="rss" text="CR2 - Google News" title="CR2 - Google News" description="Resultados de site:cr2.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cr2.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cr2.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="El Ciudadano - Arte Cultura" title="El Ciudadano - Arte Cultura" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/arte-cultura/feed/" htmlUrl="https://www.elciudadano.com/noticias/arte-cultura/"/>
+    <outline type="rss" text="El Ciudadano - Medio Ambiente" title="El Ciudadano - Medio Ambiente" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/medio-ambiente/feed/" htmlUrl="https://www.elciudadano.com/noticias/medio-ambiente/"/>
+    <outline type="rss" text="El Ciudadano - Pueblos" title="El Ciudadano - Pueblos" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/pueblos/feed/" htmlUrl="https://www.elciudadano.com/noticias/pueblos/"/>
     <outline type="rss" text="Google News - Chile - Resultados 'cultura'" title="Google News - Chile - Resultados 'cultura'" description="Página de resultados para keyword=cultura en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=cultura&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=cultura&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Sección Entretenimiento" title="Google News - Chile - Sección Entretenimiento" description="Sección Entretenimiento de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNREpxYW5RU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNREpxYW5RU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Tercera - Culto" title="La Tercera - Culto" description="Diario con cobertura nacional, internacional y económica" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml" htmlUrl="https://www.latercera.com/canal/culto/"/>

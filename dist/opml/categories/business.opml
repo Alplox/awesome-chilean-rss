@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Negocios y Finanzas (15 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Negocios y Finanzas (16 feeds)</title>
     <description>Feeds RSS de 💼 Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-13T23:01:10.283Z</dateCreated>
+    <dateCreated>2026-06-13T23:44:18.964Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -12,6 +12,7 @@
     <outline type="rss" text="Diario Financiero - Bing News" title="Diario Financiero - Bing News" description="Resultados de site:df.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:df.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:df.cl"/>
     <outline type="rss" text="Diario Financiero - Google News" title="Diario Financiero - Google News" description="Resultados de site:df.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:df.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:df.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario Financiero - Mastodon.cl BOT" title="Diario Financiero - Mastodon.cl BOT" description="BOT de mastodon.cl/@df" xmlUrl="https://mastodon.cl/@df.rss" htmlUrl="https://mastodon.cl/@df"/>
+    <outline type="rss" text="El Ciudadano - Economía" title="El Ciudadano - Economía" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/economia/feed/" htmlUrl="https://www.elciudadano.com/noticias/economia/"/>
     <outline type="rss" text="Ex-Ante - Economía" title="Ex-Ante - Economía" description="Medio digital chileno de noticias y análisis político, económico y de actualidad" xmlUrl="https://www.ex-ante.cl/category/economia/rss" htmlUrl="https://www.ex-ante.cl"/>
     <outline type="rss" text="Google News - Chile - Resultados 'afp'" title="Google News - Chile - Resultados 'afp'" description="Página de resultados para keyword=afp en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=afp&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=afp&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Resultados 'cobre'" title="Google News - Chile - Resultados 'cobre'" description="Página de resultados para keyword=cobre en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=cobre&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=cobre&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

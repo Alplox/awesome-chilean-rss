@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (15 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (16 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-13T23:01:10.283Z</dateCreated>
+    <dateCreated>2026-06-13T23:44:18.964Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -12,6 +12,7 @@
     <outline type="rss" text="BBC Mundo - Latin America" title="BBC Mundo - Latin America" description="Cobertura de noticias globales y análisis desde una perspectiva internacional" xmlUrl="https://feeds.bbci.co.uk/news/world/latin_america/rss.xml" htmlUrl="https://www.bbc.com/mundo"/>
     <outline type="rss" text="Cooperativa - Mundo" title="Cooperativa - Mundo" description="Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml" htmlUrl="https://www.cooperativa.cl"/>
     <outline type="rss" text="Diario El Día - Mundo" title="Diario El Día - Mundo" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/mundo" htmlUrl="https://www.diarioeldia.cl"/>
+    <outline type="rss" text="El Ciudadano - Latinoamérica" title="El Ciudadano - Latinoamérica" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/latinoamerica/feed" htmlUrl="https://www.elciudadano.com/noticias/latinoamerica/"/>
     <outline type="rss" text="El Minuto - Mundo" title="El Minuto - Mundo" description="Plataforma informativa digital orientada a la cobertura de acontecimientos nacionales e internacionales" xmlUrl="https://elminuto.cl/noticias/category/mundo/rss" htmlUrl="https://elminuto.cl/"/>
     <outline type="rss" text="France 24 - América Latina" title="France 24 - América Latina" description="Medio de comunicación francés de noticias internacionales" xmlUrl="https://www.france24.com/es/america-latina/rss" htmlUrl="https://www.france24.com/es/america-latina"/>
     <outline type="rss" text="France 24 - Bing News" title="France 24 - Bing News" description="Resultados de site:france24.com en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:france24.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:france24.com"/>
