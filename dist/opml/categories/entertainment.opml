@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (11 feeds)</title>
+    <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Ilustrado" title="Ilustrado" description="Medio de comunicación digital de noticias culturales y de entretenimiento" xmlUrl="https://www.ilustrado.cl/feed/" htmlUrl="https://www.ilustrado.cl/"/>
+    <outline type="rss" text="Ilustrado - Google News" title="Ilustrado - Google News" description="Resultados de site:ilustrado.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ilustrado.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ilustrado.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="La Cuarta - Bing News" title="La Cuarta - Bing News" description="Resultados de site:lacuarta.com en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:lacuarta.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Chile" title="La Cuarta - Chile" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/chile/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Espectáculos" title="La Cuarta - Espectáculos" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/espectaculos/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Glamorama" title="La Cuarta - Glamorama" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/glamorama/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Google News" title="La Cuarta - Google News" description="Resultados de site:lacuarta.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:lacuarta.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:lacuarta.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="La Cuarta - Servicios" title="La Cuarta - Servicios" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Tendencias" title="La Cuarta - Tendencias" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Urbana" title="La Cuarta - Urbana" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/urbana/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+    <outline type="rss" text="La Cuarta - Videos" title="La Cuarta - Videos" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/videos/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
+  </body>
+</opml>

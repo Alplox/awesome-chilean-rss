@@ -140,7 +140,7 @@ function generateOPML() {
   const totalFeeds = allFeeds.length;
 
   const categoryBlocks = orderedCategories.map(cat => {
-    const label = categories[cat] ?? cat;
+    const label = categories[cat]?.label ?? cat;
     const feeds = feedsByCategory[cat] || [];
     return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${renderFeedOutlines(feeds)}\n    </outline>`;
   }).join('\n');
@@ -153,7 +153,7 @@ function generateNestedOPML() {
   const totalFeeds = allFeeds.length;
 
   const categoryBlocks = orderedCategories.map(cat => {
-    const label = categories[cat] ?? cat;
+    const label = categories[cat]?.label ?? cat;
     const feeds = feedsByCategory[cat] || [];
 
     if (cat === REGIONAL_CAT) {
@@ -276,7 +276,7 @@ ${outlines}
 
 function generateIndividualCategoryOPML(catKey, feeds) {
   const now = db.last_updated;
-  const label = categories[catKey] ?? catKey;
+  const label = categories[catKey]?.label ?? catKey;
   const totalFeeds = feeds.length;
   const sortedFeeds = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
   const outlines = sortedFeeds
@@ -311,7 +311,7 @@ function generateReadme() {
 
   // Construir índice
   const indexLines = orderedCategories.map(cat => {
-    const label = categories[cat] ?? cat;
+    const label = categories[cat]?.label ?? cat;
     const feeds = feedsByCategory[cat] || [];
     if (feeds.length === 0) return null;
     const sitesCount = (sitesByResolvedCategory[cat] || []).length;
@@ -322,7 +322,7 @@ function generateReadme() {
 
   // Sección de feeds por categoría
   const feedSections = orderedCategories.map(cat => {
-    const label = categories[cat] ?? cat;
+    const label = categories[cat]?.label ?? cat;
     const catSites = sitesByResolvedCategory[cat] || [];
     const totalFeedsInCat = feedsByCategory[cat]?.length || 0;
 
@@ -488,7 +488,7 @@ ${bodyContent}
 
 function generateBookmarks() {
   const categoryBlocks = orderedCategories.map(cat => {
-    const label = categories[cat] ?? cat;
+    const label = categories[cat]?.label ?? cat;
     const feeds = feedsByCategory[cat] || [];
 
     if (cat === REGIONAL_CAT) {
@@ -522,7 +522,7 @@ function generateBookmarks() {
 }
 
 function generateIndividualCategoryBookmark(catKey, feeds) {
-  const label = categories[catKey] ?? catKey;
+  const label = categories[catKey]?.label ?? catKey;
   return renderBookmarkFile(label, renderBookmarkEntries(feeds));
 }
 

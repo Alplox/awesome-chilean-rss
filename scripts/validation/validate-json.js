@@ -26,6 +26,15 @@ if (typeof categories !== 'object' || Array.isArray(categories) || !categories) 
 const categoryKeys = Object.keys(categories);
 console.log(`📁 Categorías (${categoryKeys.length}): ${categoryKeys.join(', ')}`);
 
+for (const [key, val] of Object.entries(categories)) {
+  if (typeof val !== 'object' || !val.label) {
+    error(`Categoría "${key}" debe tener un campo "label"`);
+  }
+  if (!Array.isArray(val.slugs)) {
+    error(`Categoría "${key}" debe tener un array "slugs"`);
+  }
+}
+
 // ─── regions.json ────────────────────────────────────────────────────
 
 const regions = JSON.parse(readFileSync('regions.json', 'utf-8'));

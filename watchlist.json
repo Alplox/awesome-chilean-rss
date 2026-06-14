@@ -2998,5 +2998,50 @@
       }
     ],
     "description": "Escudo de los sudetes. Grafelbergnoticias es un medio sin fines de lucro, cuyos objetivos son difundir la historia del Colegio Germania de Puerto Varas"
+  },
+  {
+    "id": "megatiempo",
+    "name": "Megatiempo",
+    "url": "https://www.megatiempo.cl",
+    "category": "news",
+    "description": "Sitio oficial del tiempo de Mega — pronóstico y noticias meteorológicas por regiones",
+    "reason": "No se detectó feed RSS",
+    "feeds": []
+  },
+  {
+    "id": "metro-de-santiago",
+    "name": "Metro de Santiago",
+    "url": "https://www.metro.cl",
+    "category": "government",
+    "description": "Portal de noticias y comunicados oficiales del Metro de Santiago",
+    "reason": "No se detectó feed RSS",
+    "feeds": []
+  },
+  {
+    "id": "providencia",
+    "name": "Municipalidad de Providencia",
+    "url": "https://providencia.cl",
+    "category": "government",
+    "description": "Sitio oficial de la Ilustre Municipalidad de Providencia",
+    "reason": "No se detectó feed RSS",
+    "feeds": []
+  },
+  {
+    "id": "olca",
+    "name": "OLCA",
+    "url": "https://olca.cl",
+    "category": "environment",
+    "description": "Observatorio Latinoamericano de Conflictos Ambientales",
+    "reason": "No se detectó feed RSS",
+    "feeds": []
+  },
+  {
+    "id": "sochob",
+    "name": "Sociedad Chilena de Obesidad",
+    "url": "https://www.sochob.cl",
+    "category": "health",
+    "description": "Sociedad científica médica dedicada al estudio de la obesidad",
+    "reason": "No se detectó feed RSS",
+    "feeds": []
   }
 ]

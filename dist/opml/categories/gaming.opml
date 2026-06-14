@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 🎮 Videojuegos y Gaming (24 feeds)</title>
+    <description>Feeds RSS de 🎮 Videojuegos y Gaming, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Alerta Geek Chile - Blizzard" title="Alerta Geek Chile - Blizzard" description="Feed de la categoría 'Blizzard' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/blizzard/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Gaming" title="Alerta Geek Chile - Gaming" description="Feed de la categoría 'Gaming' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/gaming/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Juegos Móviles" title="Alerta Geek Chile - Juegos Móviles" description="Feed de la categoría 'Juegos Móviles' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/juegos-moviles/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - League Of Legends" title="Alerta Geek Chile - League Of Legends" description="Feed de la categoría 'League Of Legends' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/league-of-legends/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Nintendo" title="Alerta Geek Chile - Nintendo" description="Feed de la categoría 'Nintendo' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/nintendo/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Pc" title="Alerta Geek Chile - Pc" description="Feed de la categoría 'Pc' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/pc/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Playstation" title="Alerta Geek Chile - Playstation" description="Feed de la categoría 'Playstation' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/playstation/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Pokémon" title="Alerta Geek Chile - Pokémon" description="Feed de la categoría 'Pokémon' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/pokemon/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Riot Games" title="Alerta Geek Chile - Riot Games" description="Feed de la categoría 'Riot Games' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/riot-games/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Valorant" title="Alerta Geek Chile - Valorant" description="Feed de la categoría 'Valorant' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/valorant/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Videojuegos" title="Alerta Geek Chile - Videojuegos" description="Feed de la categoría 'Videojuegos' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/videojuegos/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Xbox" title="Alerta Geek Chile - Xbox" description="Feed de la categoría 'Xbox' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/xbox/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Colemono" title="Colemono" description="Comunidad chilena de videojuegos de culto y retro" xmlUrl="https://colemono.com/feed/" htmlUrl="https://colemono.com"/>
+    <outline type="rss" text="Colemono - Google News" title="Colemono - Google News" description="Resultados de site:colemono.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:colemono.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:colemono.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="MADBOXPC" title="MADBOXPC" description="Portal chileno enfocado en software, videojuegos, hardware y cultura de internet" xmlUrl="https://www.madboxpc.com/feed/" htmlUrl="https://www.madboxpc.com"/>
+    <outline type="rss" text="MADBOXPC - Articulos" title="MADBOXPC - Articulos" description="Portal chileno enfocado en software, videojuegos, hardware y cultura de internet" xmlUrl="https://www.madboxpc.com/category/articulos/feed/" htmlUrl="https://www.madboxpc.com/category/articulos/"/>
+    <outline type="rss" text="MadboxPC - Google News" title="MadboxPC - Google News" description="Resultados de site:madboxpc.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:madboxpc.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:madboxpc.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="MADBOXPC - Noticias" title="MADBOXPC - Noticias" description="Portal chileno enfocado en software, videojuegos, hardware y cultura de internet" xmlUrl="https://www.madboxpc.com/category/noticias/feed/" htmlUrl="https://www.madboxpc.com/category/noticias/"/>
+    <outline type="rss" text="MADBOXPC - Reviews" title="MADBOXPC - Reviews" description="Portal chileno enfocado en software, videojuegos, hardware y cultura de internet" xmlUrl="https://www.madboxpc.com/category/reviews/feed/" htmlUrl="https://www.madboxpc.com/category/reviews/"/>
+    <outline type="rss" text="Tarreo - Google News" title="Tarreo - Google News" description="Resultados de site:tarreo.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:tarreo.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:tarreo.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Tarreo - Mastodon.cl BOT" title="Tarreo - Mastodon.cl BOT" description="BOT de mastodon.cl/@tarreo" xmlUrl="https://mastodon.cl/@tarreo.rss" htmlUrl="https://mastodon.cl/@tarreo"/>
+    <outline type="rss" text="Tarreo Gamer" title="Tarreo Gamer" description="Portal de videojuegos, hardware y cultura digital chileno" xmlUrl="https://www.tarreo.com/feed/" htmlUrl="https://www.tarreo.com"/>
+    <outline type="rss" text="Vanguardia Gamer" title="Vanguardia Gamer" description="Comunidad y noticias de videojuegos en Chile" xmlUrl="https://vanguardiagamer.cl/feed/" htmlUrl="https://vanguardiagamer.cl"/>
+    <outline type="rss" text="Vanguardia Gamer - Google News" title="Vanguardia Gamer - Google News" description="Resultados de site:vanguardiagamer.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:vanguardiagamer.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:vanguardiagamer.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+  </body>
+</opml>

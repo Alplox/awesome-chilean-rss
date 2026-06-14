@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (7 feeds)</title>
+    <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Codex Verde - Google News" title="Codex Verde - Google News" description="Resultados de site:codexverde.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:codexverde.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:codexverde.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Codex Verde - Mastodon.cl BOT" title="Codex Verde - Mastodon.cl BOT" description="BOT de mastodon.cl/@codexverde" xmlUrl="https://mastodon.cl/@codexverde.rss" htmlUrl="https://mastodon.cl/@codexverde"/>
+    <outline type="rss" text="CR2" title="CR2" description="Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena" xmlUrl="https://www.cr2.cl/feed/" htmlUrl="https://www.cr2.cl"/>
+    <outline type="rss" text="CR2 - Google News" title="CR2 - Google News" description="Resultados de site:cr2.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cr2.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cr2.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Ladera Sur - Bing News" title="Ladera Sur - Bing News" description="Resultados de site:laderasur.com en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:laderasur.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:laderasur.com"/>
+    <outline type="rss" text="Ladera Sur - Google News" title="Ladera Sur - Google News" description="Resultados de site:laderasur.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:laderasur.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:laderasur.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Ladera Sur - Mastodon.cl BOT" title="Ladera Sur - Mastodon.cl BOT" description="BOT de mastodon.cl/@laderasur" xmlUrl="https://mastodon.cl/@laderasur.rss" htmlUrl="https://mastodon.cl/@laderasur"/>
+  </body>
+</opml>

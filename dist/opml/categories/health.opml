@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (2 feeds)</title>
+    <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <ownerName>Alplox</ownerName>
+  </head>
+  <body>
+    <outline type="rss" text="Pediatría y Salud" title="Pediatría y Salud" description="Divulgación de salud infantil para familias chilenas" xmlUrl="https://pediatriaysalud.cl/feed" htmlUrl="https://pediatriaysalud.cl"/>
+    <outline type="rss" text="Pediatría y Salud - Google News" title="Pediatría y Salud - Google News" description="Resultados de site:pediatriaysalud.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pediatriaysalud.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pediatriaysalud.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+  </body>
+</opml>

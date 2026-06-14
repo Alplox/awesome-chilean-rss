@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (20 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (22 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-13T23:44:18.964Z</dateCreated>
+    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="Aconcagua Digital - Deportes" title="Aconcagua Digital - Deportes" description="Feed de la categoría 'Deportes' en Aconcagua Digital" xmlUrl="https://aconcaguadigital.cl/category/deportes/feed/" htmlUrl="https://aconcaguadigital.cl"/>
     <outline type="rss" text="Al Aire Libre" title="Al Aire Libre" description="Medio chileno de noticias deportivas" xmlUrl="https://www.alairelibre.cl/feed.xml" htmlUrl="https://www.alairelibre.cl"/>
     <outline type="rss" text="Al Aire Libre - Bing News" title="Al Aire Libre - Bing News" description="Resultados de site:alairelibre.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:alairelibre.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:alairelibre.cl"/>
     <outline type="rss" text="Al Aire Libre - Google News" title="Al Aire Libre - Google News" description="Resultados de site:alairelibre.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:alairelibre.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:alairelibre.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Alerta Geek Chile - Esports" title="Alerta Geek Chile - Esports" description="Feed de la categoría 'Esports' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/esports/feed/" htmlUrl="https://alertageekchile.cl"/>
     <outline type="rss" text="AS Chile - Bing News" title="AS Chile - Bing News" description="Resultados de site:chile.as.com en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:chile.as.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:chile.as.com"/>
     <outline type="rss" text="AS Chile - Google News" title="AS Chile - Google News" description="Resultados de site:chile.as.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chile.as.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chile.as.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Cooperativa - Deportes" title="Cooperativa - Deportes" description="Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_1___1.xml" htmlUrl="https://www.cooperativa.cl"/>

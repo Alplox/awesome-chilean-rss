@@ -1,12 +1,62 @@
 {
-  "news": "📰 Noticias Nacionales",
-  "news-international": "🌐 Noticias Internacionales",
-  "government": "🏛️ Gobierno y Datos Públicos",
-  "universities": "🏫 Universidades e Investigación",
-  "regional": "🌎 Medios Regionales",
-  "business": "💼 Negocios y Finanzas",
-  "technology": "💻 Tecnología y Startups",
-  "culture": "🎨 Cultura y Divulgación",
-  "community": "👥 Comunidad",
-  "sports": "⚽ Deportes"
+  "news": {
+    "label": "📰 Noticias Nacionales",
+    "slugs": ["noticias", "nacional", "actualidad", "chile", "pais", "noticia", "politica"]
+  },
+  "news-international": {
+    "label": "🌐 Noticias Internacionales",
+    "slugs": ["internacional", "mundo", "global", "exterior"]
+  },
+  "government": {
+    "label": "🏛️ Gobierno y Datos Públicos",
+    "slugs": ["gobierno", "municipal", "municipio", "publico"]
+  },
+  "universities": {
+    "label": "🏫 Universidades e Investigación",
+    "slugs": ["universidad", "universidades", "educacion", "academia"]
+  },
+  "regional": {
+    "label": "🌎 Medios Regionales",
+    "slugs": ["regional", "region", "local", "comuna", "provincia"]
+  },
+  "business": {
+    "label": "💼 Negocios y Finanzas",
+    "slugs": ["negocios", "finanzas", "economia", "empresarial", "mercados"]
+  },
+  "technology": {
+    "label": "💻 Tecnología y Startups",
+    "slugs": ["tecnologia", "tech", "ciencia", "innovacion", "digital"]
+  },
+  "culture": {
+    "label": "🎨 Cultura y Divulgación",
+    "slugs": ["cultura", "arte", "musica", "cine", "teatro", "anime-y-manga"]
+  },
+  "community": {
+    "label": "👥 Comunidad",
+    "slugs": ["comunidad", "social", "sociedad", "eventos"]
+  },
+  "sports": {
+    "label": "⚽ Deportes",
+    "slugs": ["deportes", "deporte", "futbol", "tenis"]
+  },
+  "gaming": {
+    "label": "🎮 Videojuegos y Gaming",
+    "slugs": ["videojuegos", "gaming", "gamer", "juegos", "e-sports", "nintendo", "playstation", "xbox", "ps5", "pc", "esports", "pokemon", "riot-games", "league-of-legends"]
+  },
+  "environment": {
+    "label": "🌿 Medio Ambiente y Naturaleza",
+    "slugs": ["medio-ambiente", "naturaleza", "sostenibilidad", "sustentabilidad", "clima", "conservacion", "ecologia"]
+  },
+  "entertainment": {
+    "label": "🎭 Espectáculos y Entretención",
+    "slugs": ["espectaculos", "entretencion", "entretenimiento", "farandula", "showbiz", "rumores"]
+  },
+  "radio": {
+    "label": "📻 Radio y Música",
+    "slugs": ["radio", "musica", "musical", "emisora"]
+  },
+  "health": {
+    "label": "🏥 Salud y Bienestar",
+    "slugs": ["salud", "medicina", "bienestar"]
+  }
 }

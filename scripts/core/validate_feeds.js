@@ -132,6 +132,9 @@ async function validateSingleUrl(url) {
 
   const feedResult = await checkFeedUrl(url);
   if (feedResult.type) {
+    if (feedResult.redirectUrl) {
+      console.log(`⚠ Redirige a ${feedResult.redirectUrl} (feed principal)`);
+    }
     console.log(`✅ Feed válido: ${feedResult.type}`);
     console.log(`   Items: ${feedResult.itemCount}`);
     if (feedResult.lastItemDate) {
@@ -449,7 +452,7 @@ async function main() {
   const getCachedSiteStatus = createSiteStatusCache();
   clearHomepageCache();
 
-  const SITE_CONCURRENCY = Math.min(3, sitesToValidate.length);
+  const SITE_CONCURRENCY = 1;
   let siteIndex = 0;
 
   async function processSite(site) {
@@ -472,6 +475,13 @@ async function main() {
 
       if (checkResult.type) {
         siteDecision = null;
+
+        if (checkResult.redirectUrl) {
+          const shortUrl = checkResult.redirectUrl.length > 60
+            ? new URL(checkResult.redirectUrl).pathname
+            : checkResult.redirectUrl;
+          console.log(`\n     ⚠ Redirige a ${shortUrl} (feed principal)`);
+        }
 
         const itemCount = checkResult.itemCount;
         const lastItemDate = checkResult.lastItemDate;

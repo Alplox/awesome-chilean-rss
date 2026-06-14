@@ -50,6 +50,14 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 |                                              | `node scripts/utils/add-site-subfeeds.js --limit <N>`   | Procesa solo las primeras N entradas                                 |
 |                                              | `node scripts/utils/add-site-subfeeds.js --start-id <id> [--limit <N>]` | Desde un ID en adelante, opcionalmente limitado |
 |                                              | `node scripts/utils/add-site-subfeeds.js --total-mode delta\|recalculate` | `delta`: incremento rápido (default); `recalculate`: reconteo completo |
+| `scripts/utils/discover-category-feeds.js`   | `node scripts/utils/discover-category-feeds.js`          | Descubre feeds por categoría en sitios WordPress vía REST API       |
+|                                              | `node scripts/utils/discover-category-feeds.js --id <id>`| Procesa un solo sitio                                               |
+|                                              | `node scripts/utils/discover-category-feeds.js --min-posts <N>` | Solo incluye categorías con ≥ N artículos (default: 1)      |
+|                                              | `node scripts/utils/discover-category-feeds.js --update` | Escribe los feeds descubiertos en `feeds-database.json`             |
+|                                              | `node scripts/utils/discover-category-feeds.js --dry-run`| Vista previa sin modificar archivos                                 |
+|                                              | `node scripts/utils/discover-category-feeds.js --from <N> --to <N>` | Rango numérico de sitios                                   |
+|                                              | `node scripts/utils/discover-category-feeds.js --limit <N>` | Solo los primeros N sitios                                          |
+|                                              | `node scripts/utils/discover-category-feeds.js --start-id <id> [--limit <N>]` | Desde un ID en adelante, opcionalmente limitado |
 
 ### Módulos de validación (lib/)
 
@@ -87,6 +95,10 @@ feeds-database.json    categories.json   regions.json      watchlist.json
 
   add-site-subfeeds.js ──►  agrega subfeeds Google News + Bing News
                            │  a sitios/watchlist (--dry-run para previsualizar)
+
+  discover-category-feeds.js ──►  descubre feeds por categoría
+                                  │  vía REST API de WordPress
+                                  │  (--update para escribir en database)
 ```
 
 **Para agregar un feed:** edita `feeds-database.json` y ejecuta `npm run generate`. Si es una categoría nueva, agrégala también en `categories.json`. Si es un medio regional, añade el campo `region` con la clave correspondiente de `regions.json`.
@@ -159,6 +171,25 @@ node scripts/utils/add-site-subfeeds.js --total-mode recalculate
 ```
 
 Los filtros se aplican en este orden: `--id` → `--start-id` → `--from` → `--to` → `--limit`.
+
+### Descubrir feeds por categoría (WordPress)
+
+```bash
+# Todos los sitios (solo vista previa)
+node scripts/utils/discover-category-feeds.js
+
+# Un sitio específico, categorías con ≥ 5 artículos
+node scripts/utils/discover-category-feeds.js --id radio-festival --min-posts 5
+
+# Escribir los feeds descubiertos en la base de datos
+node scripts/utils/discover-category-feeds.js --update
+
+# Solo los primeros 10 sitios
+node scripts/utils/discover-category-feeds.js --limit 10 --update
+```
+
+El script consulta la REST API de WordPress, construye URLs `/category/{slug}/feed/`,
+las valida, y auto-asigna la categoría según los `slugs` definidos en `categories.json`.
 
 ## 🆕 Modos de Validación
 
@@ -285,12 +316,19 @@ npm run validate -- --limit 10 --automatic
 
 ```json
 {
-  "news": "📰 Noticias Nacionales",
-  "technology": "💻 Tecnología y Startups"
+  "news": {
+    "label": "📰 Noticias Nacionales",
+    "slugs": ["noticias", "nacional", "actualidad", "chile", "pais", "politica"]
+  },
+  "technology": {
+    "label": "💻 Tecnología y Startups",
+    "slugs": ["tecnologia", "tech", "ciencia", "innovacion", "digital"]
+  }
 }
 ```
 
-Compartido entre generate.js, validate-json.js y validate-watchlist.js.
+Usado por generate.js, validate-json.js, discover-category-feeds.js y validate-watchlist.js.
+El array `slugs` permite que `discover-category-feeds.js` asigne automáticamente la categoría correcta a feeds descubiertos según el slug de WordPress.
 
 ### `regions.json`
 

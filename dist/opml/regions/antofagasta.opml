@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Antofagasta (23 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Antofagasta (24 feeds)</title>
     <description>Feeds RSS de la Región de Antofagasta, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-13T23:44:18.964Z</dateCreated>
+    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -16,8 +16,9 @@
     <outline type="rss" text="Diario Antofagasta" title="Diario Antofagasta" description="Diario regional de Antofagasta, Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/feed/" htmlUrl="https://www.diarioantofagasta.cl"/>
     <outline type="rss" text="Diario Antofagasta - Bing News" title="Diario Antofagasta - Bing News" description="Resultados de site:diarioantofagasta.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:diarioantofagasta.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:diarioantofagasta.cl"/>
     <outline type="rss" text="Diario Antofagasta - Google News" title="Diario Antofagasta - Google News" description="Resultados de site:diarioantofagasta.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioantofagasta.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioantofagasta.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Diario Sol" title="Diario Sol" description="Medio de comunicación de la Región de Antofagasta" xmlUrl="https://www.diariosol.cl/rss/atom" htmlUrl="https://www.diariosol.cl"/>
+    <outline type="rss" text="Diario Sol" title="Diario Sol" description="Feed Diario Sol en formato Atom" xmlUrl="https://www.diariosol.cl/rss/atom" htmlUrl="https://www.diariosol.cl"/>
     <outline type="rss" text="Diario Sol - Google News" title="Diario Sol - Google News" description="Resultados de site:diariosol.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diariosol.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diariosol.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Diario Sol - RSS" title="Diario Sol - RSS" description="Feed Diario Sol alternativo en formato RSS" xmlUrl="https://www.diariosol.cl/rss/feed" htmlUrl="https://www.diariosol.cl"/>
     <outline type="rss" text="El América" title="El América" description="Diario regional de Calama, Antofagasta" xmlUrl="https://www.elamerica.cl/feed/" htmlUrl="https://www.elamerica.cl"/>
     <outline type="rss" text="El América - Google News" title="El América - Google News" description="Resultados de site:elamerica.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elamerica.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elamerica.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="En La Línea" title="En La Línea" description="Diario regional de Calama, Antofagasta" xmlUrl="https://www.enlalinea.cl/feed/" htmlUrl="https://www.enlalinea.cl"/>

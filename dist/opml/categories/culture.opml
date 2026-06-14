@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (17 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (10 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-13T23:44:18.964Z</dateCreated>
+    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="Alerta Geek Chile - Anime Y Manga" title="Alerta Geek Chile - Anime Y Manga" description="Feed de la categoría 'Anime Y Manga' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/anime-y-manga/feed/" htmlUrl="https://alertageekchile.cl"/>
+    <outline type="rss" text="Alerta Geek Chile - Cine" title="Alerta Geek Chile - Cine" description="Feed de la categoría 'Cine' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/cine/feed/" htmlUrl="https://alertageekchile.cl"/>
     <outline type="rss" text="Chile Cultura - Mastodon.cl BOT" title="Chile Cultura - Mastodon.cl BOT" description="BOT de mastodon.cl/@chilecultura" xmlUrl="https://mastodon.cl/@chilecultura.rss" htmlUrl="https://mastodon.cl/@chilecultura"/>
-    <outline type="rss" text="Codex Verde - Google News" title="Codex Verde - Google News" description="Resultados de site:codexverde.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:codexverde.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:codexverde.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Codex Verde - Mastodon.cl BOT" title="Codex Verde - Mastodon.cl BOT" description="BOT de mastodon.cl/@codexverde" xmlUrl="https://mastodon.cl/@codexverde.rss" htmlUrl="https://mastodon.cl/@codexverde"/>
     <outline type="rss" text="Cooperativa -  Cultura" title="Cooperativa -  Cultura" description="Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_5___1.xml" htmlUrl="https://www.cooperativa.cl"/>
-    <outline type="rss" text="CR2" title="CR2" description="Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena" xmlUrl="https://www.cr2.cl/feed/" htmlUrl="https://www.cr2.cl"/>
-    <outline type="rss" text="CR2 - Google News" title="CR2 - Google News" description="Resultados de site:cr2.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cr2.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cr2.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Ciudadano - Arte Cultura" title="El Ciudadano - Arte Cultura" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/arte-cultura/feed/" htmlUrl="https://www.elciudadano.com/noticias/arte-cultura/"/>
     <outline type="rss" text="El Ciudadano - Medio Ambiente" title="El Ciudadano - Medio Ambiente" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/medio-ambiente/feed/" htmlUrl="https://www.elciudadano.com/noticias/medio-ambiente/"/>
     <outline type="rss" text="El Ciudadano - Pueblos" title="El Ciudadano - Pueblos" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/pueblos/feed/" htmlUrl="https://www.elciudadano.com/noticias/pueblos/"/>
     <outline type="rss" text="Google News - Chile - Resultados 'cultura'" title="Google News - Chile - Resultados 'cultura'" description="Página de resultados para keyword=cultura en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=cultura&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=cultura&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Sección Entretenimiento" title="Google News - Chile - Sección Entretenimiento" description="Sección Entretenimiento de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNREpxYW5RU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNREpxYW5RU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Tercera - Culto" title="La Tercera - Culto" description="Diario con cobertura nacional, internacional y económica" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml" htmlUrl="https://www.latercera.com/canal/culto/"/>
-    <outline type="rss" text="Ladera Sur - Bing News" title="Ladera Sur - Bing News" description="Resultados de site:laderasur.com en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:laderasur.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:laderasur.com"/>
-    <outline type="rss" text="Ladera Sur - Google News" title="Ladera Sur - Google News" description="Resultados de site:laderasur.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:laderasur.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:laderasur.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Ladera Sur - Mastodon.cl BOT" title="Ladera Sur - Mastodon.cl BOT" description="BOT de mastodon.cl/@laderasur" xmlUrl="https://mastodon.cl/@laderasur.rss" htmlUrl="https://mastodon.cl/@laderasur"/>
-    <outline type="rss" text="Pediatría y Salud" title="Pediatría y Salud" description="Divulgación de salud infantil para familias chilenas" xmlUrl="https://pediatriaysalud.cl/feed" htmlUrl="https://pediatriaysalud.cl"/>
-    <outline type="rss" text="Pediatría y Salud - Google News" title="Pediatría y Salud - Google News" description="Resultados de site:pediatriaysalud.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pediatriaysalud.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pediatriaysalud.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

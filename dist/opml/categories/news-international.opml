@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (16 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (18 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-13T23:44:18.964Z</dateCreated>
+    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -20,6 +20,8 @@
     <outline type="rss" text="Google News - Chile - Sección Internacional" title="Google News - Chile - Sección Internacional" description="Sección Internacional de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx1YlY4U0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx1YlY4U0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Cuarta - Mundo" title="La Cuarta - Mundo" description="Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml" htmlUrl="https://www.lacuarta.com"/>
     <outline type="rss" text="La Tercera - Mundo" title="La Tercera - Mundo" description="Diario con cobertura nacional, internacional y económica" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml" htmlUrl="https://www.latercera.com/canal/mundo/"/>
+    <outline type="rss" text="MercoPress - América Latina" title="MercoPress - América Latina" description="Agencia de noticias en español sobre América Latina y el Caribe, con sección especial de Chile" xmlUrl="https://es.mercopress.com/rss/america-latina" htmlUrl="https://es.mercopress.com"/>
+    <outline type="rss" text="MercoPress - Chile" title="MercoPress - Chile" description="Agencia de noticias en español sobre América Latina y el Caribe, con sección especial de Chile" xmlUrl="https://es.mercopress.com/rss/chile" htmlUrl="https://es.mercopress.com"/>
     <outline type="rss" text="Terra - Mundo" title="Terra - Mundo" description="Portal de noticias generalista con cobertura nacional e internacional" xmlUrl="https://www.terra.cl/rss/feed.html?r=2" htmlUrl="https://www.terra.cl"/>
     <outline type="rss" text="The Guardian - Bing News" title="The Guardian - Bing News" description="Resultados de site:theguardian.com en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:theguardian.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:theguardian.com"/>
     <outline type="rss" text="The Guardian - Google News" title="The Guardian - Google News" description="Resultados de site:theguardian.com en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:theguardian.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:theguardian.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

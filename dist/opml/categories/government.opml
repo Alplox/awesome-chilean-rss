@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (24 feeds)</title>
+    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (25 feeds)</title>
     <description>Feeds RSS de 🏛️ Gobierno y Datos Públicos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-13T23:44:18.964Z</dateCreated>
+    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -14,6 +14,7 @@
     <outline type="rss" text="CONAF" title="CONAF" description="Corporación Nacional Forestal — incendios, parques y biodiversidad" xmlUrl="https://www.conaf.cl/feed/" htmlUrl="https://www.conaf.cl"/>
     <outline type="rss" text="CONAF - Google News" title="CONAF - Google News" description="Resultados de site:conaf.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:conaf.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:conaf.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario Oficial - Google News" title="Diario Oficial - Google News" description="Resultados de site:diariooficial.interior.gob.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diariooficial.interior.gob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diariooficial.interior.gob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Fiscalía de Chile" title="Fiscalía de Chile" description="Ministerio Público de Chile — noticias y comunicados oficiales" xmlUrl="https://www.fiscaliadechile.cl/rss.xml" htmlUrl="https://www.fiscaliadechile.cl"/>
     <outline type="rss" text="Gobierno de Chile" title="Gobierno de Chile" description="Noticias oficiales y decretos del gobierno" xmlUrl="https://www.gob.cl/noticias/feed/rss/" htmlUrl="https://www.gob.cl"/>
     <outline type="rss" text="Gobierno de Chile - Google News" title="Gobierno de Chile - Google News" description="Resultados de site:gob.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:gob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:gob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Resultados 'congreso'" title="Google News - Chile - Resultados 'congreso'" description="Página de resultados para keyword=congreso en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=congreso&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=congreso&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

@@ -2,37 +2,42 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-270-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-737-blue)
+![Sitios](https://img.shields.io/badge/sitios-279-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-806-blue)
 
-> El directorio más completo de feeds RSS chilenos. 270 sitios, 737 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 279 sitios, 806 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 399 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 410 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (270 sitios, 737 feeds)
+## 📝 Fuentes disponibles (279 sitios, 806 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 32 sitios, 135 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 11 sitios, 16 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 19 sitios, 79 feeds
-- [🏛️ Gobierno y Datos Públicos](#cat-government) — 11 sitios, 24 feeds
+- [📰 Noticias Nacionales](#cat-news) — 33 sitios, 128 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 12 sitios, 18 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 17 sitios, 82 feeds
+- [🏛️ Gobierno y Datos Públicos](#cat-government) — 12 sitios, 25 feeds
 - [🏫 Universidades e Investigación](#cat-universities) — 8 sitios, 14 feeds
-- [🌎 Medios Regionales](#cat-regional) — 188 sitios, 401 feeds
+- [🌎 Medios Regionales](#cat-regional) — 188 sitios, 411 feeds
 - [💼 Negocios y Finanzas](#cat-business) — 8 sitios, 16 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 9 sitios, 17 feeds
-- [⚽ Deportes](#cat-sports) — 11 sitios, 20 feeds
-- [👥 Comunidad](#cat-community) — 5 sitios, 15 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 6 sitios, 10 feeds
+- [⚽ Deportes](#cat-sports) — 13 sitios, 22 feeds
+- [👥 Comunidad](#cat-community) — 4 sitios, 13 feeds
+- [🎭 Espectáculos y Entretención](#cat-entertainment) — 2 sitios, 11 feeds
+- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 3 sitios, 7 feeds
+- [🎮 Videojuegos y Gaming](#cat-gaming) — 5 sitios, 24 feeds
+- [🏥 Salud y Bienestar](#cat-health) — 1 sitios, 2 feeds
+- [📻 Radio y Música](#cat-radio) — 5 sitios, 23 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (32 sitios, 135 feeds)
+### 📰 Noticias Nacionales (33 sitios, 128 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -40,6 +45,8 @@
   - ADN Radio: `https://www.adnradio.cl/arc/outboundfeeds/rss/?outputType=xml`
   - ADN Radio - Google News: `https://news.google.com/rss/search?q=site:adnradio.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - ADN Radio - Bing News: `https://www.bing.com/news/search?q=site:adnradio.cl&format=RSS`
+- **Alerta Geek Chile**: Feed de la categoría 'Noticias' en Alerta Geek Chile
+  - RSS: `https://alertageekchile.cl/category/noticias/feed/`
 - **BioBioChile** — Portal de noticias generales con cobertura nacional e internacional
   - BioBioChile: `https://feeds.feedburner.com/radiobiobio/NNeJ`
   - BioBioChile - Mastodon.cl BOT: `https://mastodon.cl/@biobiochile.rss`
@@ -101,6 +108,8 @@
   - Emol - Mastodon.cl BOT: `https://mastodon.cl/@emol.rss`
   - Emol - Google News: `https://news.google.com/rss/search?q=site:emol.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - Emol - Bing News: `https://www.bing.com/news/search?q=site:emol.com&format=RSS`
+- **Está Pasando**: Medio digital de noticias de Chile y el mundo
+  - RSS: `https://estapasando.cl/feed`
 - **Ex-Ante** — Medio digital chileno de noticias y análisis político, económico y de actualidad
   - Ex-Ante: `https://www.ex-ante.cl/feed/`
   - Ex-Ante - Política: `https://www.ex-ante.cl/category/politica/rss`
@@ -128,28 +137,16 @@
   - Google News - Chile - Sección Chile: `https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNREZ3TVhZU0JtVnpMVFF4T1NnQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Sección Locales: `https://news.google.com/rss/topics/CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE?hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Sección Salud: `https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNR3QwTlRFU0JtVnpMVFF4T1NnQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
-- **Ilustrado** — Medio de comunicación digital de noticias culturales y de entretenimiento
-  - Ilustrado: `https://www.ilustrado.cl/feed/`
-  - Ilustrado - Google News: `https://news.google.com/rss/search?q=site:ilustrado.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Interferencia** — Medio digital chileno de noticias y reportajes
   - Interferencia: `https://interferencia.cl/rss.xml`
   - Interferencia - Mastodon.cl BOT: `https://mastodon.cl/@interferencia.rss`
   - Interferencia - Google News: `https://news.google.com/rss/search?q=site:interferencia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **La Cuarta** — Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención
-  - La Cuarta - Chile: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/chile/?outputType=xml`
-  - La Cuarta - Tendencias: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml`
-  - La Cuarta - Servicios: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml`
-  - La Cuarta - Videos: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/videos/?outputType=xml`
-  - La Cuarta - Urbana: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/urbana/?outputType=xml`
-  - La Cuarta - Espectáculos: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/espectaculos/?outputType=xml`
-  - La Cuarta - Glamorama: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/glamorama/?outputType=xml`
-  - La Cuarta - Google News: `https://news.google.com/rss/search?q=site:lacuarta.com&hl=es-419&gl=CL&ceid=CL:es-419`
-  - La Cuarta - Bing News: `https://www.bing.com/news/search?q=site:lacuarta.com&format=RSS`
 - **La Máquina Medio** — Medio digital con análisis político, cultural y social
   - La Máquina Medio: `https://lamaquinamedio.com/feed/`
   - La Máquina Medio - Google News: `https://news.google.com/rss/search?q=site:lamaquinamedio.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **La Nación** — Diario digital de noticias nacionales
   - La Nación: `https://www.lanacion.cl/feed/`
+  - La Nación - RSS: `http://lanacion.cl/rss`
   - La Nación - Google News: `https://news.google.com/rss/search?q=site:lanacion.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - La Nación - Bing News: `https://www.bing.com/news/search?q=site:lanacion.cl&format=RSS`
 - **La Tercera** — Diario con cobertura nacional, internacional y económica
@@ -167,6 +164,8 @@
   - La Tercera - Board: `https://www.latercera.com/arc/outboundfeeds/rss/category/lt-board/?outputType=xml`
   - La Tercera - Google News: `https://news.google.com/rss/search?q=site:latercera.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - La Tercera - Bing News: `https://www.bing.com/news/search?q=site:latercera.com&format=RSS`
+- **Meteored Chile**: Información meteorológica y pronóstico del tiempo a 14 días para Chile
+  - RSS: `https://www.meteored.cl/feed/`
 - **Piensa Chile** — Portal de análisis, opinión y noticias nacionales
   - Piensa Chile: `https://piensachile.com/feed/`
   - Piensa Chile - Google News: `https://news.google.com/rss/search?q=site:piensachile.com&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -207,7 +206,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (11 sitios, 16 feeds)
+### 🌐 Noticias Internacionales (12 sitios, 18 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -231,6 +230,9 @@
   - RSS: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml`
 - **La Tercera**: Diario con cobertura nacional, internacional y económica
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml`
+- **MercoPress** — Agencia de noticias en español sobre América Latina y el Caribe, con sección especial de Chile
+  - MercoPress - Chile: `https://es.mercopress.com/rss/chile`
+  - MercoPress - América Latina: `https://es.mercopress.com/rss/america-latina`
 - **Radio Cooperativa**: Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml`
 - **Terra Chile**: Portal de noticias generalista con cobertura nacional e internacional
@@ -242,7 +244,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (19 sitios, 79 feeds)
+### 💻 Tecnología y Startups (17 sitios, 82 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
@@ -250,22 +252,33 @@
   - ACTI: `https://acti.cl/feed/`
   - ACTI - Google News: `https://news.google.com/rss/search?q=site:acti.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
-  - Alerta Geek - Portada: `https://alertageekchile.cl/feed/`
-  - Alerta Geek - Noticias: `https://www.alertageekchile.cl/category/contenido/noticias/feed/`
-  - Alerta Geek - Destacado: `https://www.alertageekchile.cl/category/destacado/feed/`
-  - Alerta Geek - Reviews: `https://www.alertageekchile.cl/category/contenido/reviews/feed/`
-  - Alerta Geek - Entrevistas: `https://www.alertageekchile.cl/category/contenido/entrevistas/feed/`
-  - Alerta Geek - Mundo Geek: `https://www.alertageekchile.cl/category/tematicas/feed/`
-  - Alerta Geek - Anime y Manga: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/anime-y-manga/feed/`
-  - Alerta Geek - Cine: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/cine/feed/`
-  - Alerta Geek - Cómics: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/comics/feed/`
-  - Alerta Geek - Cosplay: `https://www.alertageekchile.cl/category/tematicas/cosplay/feed/`
-  - Alerta Geek - Streaming: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/streaming/feed/`
-  - Alerta Geek - TCG: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/tcg/feed/`
-  - Alerta Geek - Tecnología: `https://www.alertageekchile.cl/category/tematicas/tecnologia/feed/`
-  - Alerta Geek - VideoJuegos: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/videojuegos/feed/`
-  - Alerta Geek - Esports: `https://www.alertageekchile.cl/category/tematicas/entretenimiento/videojuegos/esports/feed/`
-  - Alerta Geek - Calendario de Estrenos y Eventos: `https://www.alertageekchile.cl/eventos/feed/`
+  - Alerta Geek Chile - Portada: `https://alertageekchile.cl/feed/`
+  - Alerta Geek Chile - Mundo Geek: `https://www.alertageekchile.cl/category/tematicas/feed/`
+  - Alerta Geek Chile - Cosplay: `https://www.alertageekchile.cl/category/tematicas/cosplay/feed/`
+  - Alerta Geek Chile - Destacado: `https://alertageekchile.cl/category/destacado/feed/`
+  - Alerta Geek Chile - Tecnología: `https://alertageekchile.cl/category/tecnologia/feed/`
+  - Alerta Geek Chile - Series: `https://alertageekchile.cl/category/series/feed/`
+  - Alerta Geek Chile - Reviews: `https://alertageekchile.cl/category/reviews/feed/`
+  - Alerta Geek Chile - Smartphones: `https://alertageekchile.cl/category/smartphones/feed/`
+  - Alerta Geek Chile - Hbo Max: `https://alertageekchile.cl/category/hbo-max/feed/`
+  - Alerta Geek Chile - Crunchyroll: `https://alertageekchile.cl/category/crunchyroll/feed/`
+  - Alerta Geek Chile - Qepd: `https://alertageekchile.cl/category/qepd/feed/`
+  - Alerta Geek Chile - Entretenimiento: `https://alertageekchile.cl/category/entretenimiento/feed/`
+  - Alerta Geek Chile - Streaming: `https://alertageekchile.cl/category/streaming/feed/`
+  - Alerta Geek Chile - Tendencias: `https://alertageekchile.cl/category/tendencias/feed/`
+  - Alerta Geek Chile - Inteligencia Artificial: `https://alertageekchile.cl/category/inteligencia-artificial/feed/`
+  - Alerta Geek Chile - Guías: `https://alertageekchile.cl/category/guias/feed/`
+  - Alerta Geek Chile - Tcg (Pokémon Trading Card Game): `https://alertageekchile.cl/category/tcg/feed/`
+  - Alerta Geek Chile - Dc: `https://alertageekchile.cl/category/dc/feed/`
+  - Alerta Geek Chile - Redes Sociales: `https://alertageekchile.cl/category/redes-sociales/feed/`
+  - Alerta Geek Chile - Música: `https://alertageekchile.cl/category/musica/feed/`
+  - Alerta Geek Chile - Cómics: `https://alertageekchile.cl/category/comics/feed/`
+  - Alerta Geek Chile - Marvel: `https://alertageekchile.cl/category/marvel/feed/`
+  - Alerta Geek Chile - Entrevistas: `https://alertageekchile.cl/category/entrevistas/feed/`
+  - Alerta Geek Chile - Geek: `https://alertageekchile.cl/category/geek/feed/`
+  - Alerta Geek Chile - Disney+: `https://alertageekchile.cl/category/disney/feed/`
+  - Alerta Geek Chile - J Music: `https://alertageekchile.cl/category/j-music/feed/`
+  - Alerta Geek Chile - Star Wars: `https://alertageekchile.cl/category/star-wars/feed/`
   - Alerta Geek Chile - Google News: `https://news.google.com/rss/search?q=site:alertageekchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Alianza Chilena de Ciberseguridad** — Coalición de instituciones chilenas sobre ciberataques locales y normativas de seguridad
   - Alianza Chilena de Ciberseguridad: `https://alianzaciberseguridad.cl/category/blog/feed/`
@@ -298,22 +311,12 @@
   - RSS: `https://geeketing.com/feed/`
 - **Google News**: Sección Ciencia y tecnología de Google News Chile
   - RSS: `https://news.google.com/rss/topics/CAAqLQgKIidDQkFTRndvSkwyMHZNR1ptZHpWbUVnWmxjeTAwTVRrYUFrTk1LQUFQAQ?hl=es-419&gl=CL&ceid=CL:es-419`
-- **MadboxPC** — Portal chileno enfocado en software, videojuegos, hardware y cultura de internet
-  - MADBOXPC: `https://www.madboxpc.com/feed/`
-  - MADBOXPC - Reviews: `https://www.madboxpc.com/category/reviews/feed/`
-  - MADBOXPC - Noticias: `https://www.madboxpc.com/category/noticias/feed/`
-  - MADBOXPC - Articulos: `https://www.madboxpc.com/category/articulos/feed/`
-  - MadboxPC - Google News: `https://news.google.com/rss/search?q=site:madboxpc.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Pisapapeles** — Portal especializado en telefonía móvil, telecomunicaciones y electrónica de consumo
   - Pisapapeles: `https://pisapapeles.net/feed/`
   - Pisapapeles - Google News: `https://news.google.com/rss/search?q=site:pisapapeles.net&hl=es-419&gl=CL&ceid=CL:es-419`
   - Pisapapeles - Bing News: `https://www.bing.com/news/search?q=site:pisapapeles.net&format=RSS`
 - **Radio Cooperativa**: Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_8___1.xml`
-- **Tarreo** — Portal de videojuegos, hardware y cultura digital chileno
-  - Tarreo Gamer: `https://www.tarreo.com/feed/`
-  - Tarreo - Mastodon.cl BOT: `https://mastodon.cl/@tarreo.rss`
-  - Tarreo - Google News: `https://news.google.com/rss/search?q=site:tarreo.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **TiChile** — Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
   - tichile: `https://www.tichile.cl/feed/`
   - tichile - Blog: `https://www.tichile.cl/blog/feed`
@@ -348,7 +351,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-government"></a>
-### 🏛️ Gobierno y Datos Públicos (11 sitios, 24 feeds)
+### 🏛️ Gobierno y Datos Públicos (12 sitios, 25 feeds)
 
 *Descargar OPML: [`government.opml`](dist/opml/categories/government.opml)*
 
@@ -363,6 +366,8 @@
   - CONAF - Google News: `https://news.google.com/rss/search?q=site:conaf.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diario Oficial**: Resultados de site:diariooficial.interior.gob.cl en Google News de noticias Chilenas
   - RSS: `https://news.google.com/rss/search?q=site:diariooficial.interior.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Fiscalía de Chile**: Ministerio Público de Chile — noticias y comunicados oficiales
+  - RSS: `https://www.fiscaliadechile.cl/rss.xml`
 - **Gobierno de Chile** — Noticias oficiales y decretos del gobierno
   - Gobierno de Chile: `https://www.gob.cl/noticias/feed/rss/`
   - Gobierno de Chile - Google News: `https://news.google.com/rss/search?q=site:gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -421,7 +426,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (188 sitios, 401 feeds)
+### 🌎 Medios Regionales (188 sitios, 411 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
@@ -518,6 +523,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Diario Antofagasta - Bing News: `https://www.bing.com/news/search?q=site:diarioantofagasta.cl&format=RSS`
 - **Diario Sol** — Medio de comunicación de la Región de Antofagasta
   - Diario Sol: `https://www.diariosol.cl/rss/atom`
+  - Diario Sol - RSS: `https://www.diariosol.cl/rss/feed`
   - Diario Sol - Google News: `https://news.google.com/rss/search?q=site:diariosol.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El América** — Diario regional de Calama, Antofagasta
   - El América: `https://www.elamerica.cl/feed/`
@@ -641,6 +647,16 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 
 - **Aconcagua Digital** — Diario regional de San Felipe, Valparaíso
   - Aconcagua Digital: `https://aconcaguadigital.cl/feed/`
+  - Aconcagua Digital - Comunas: `https://aconcaguadigital.cl/category/comunas/feed/`
+  - Aconcagua Digital - Destacada: `https://aconcaguadigital.cl/category/destacada/feed/`
+  - Aconcagua Digital - Policial: `https://aconcaguadigital.cl/category/policial/feed/`
+  - Aconcagua Digital - Los Andes: `https://aconcaguadigital.cl/category/los-andes/feed/`
+  - Aconcagua Digital - Deportes: `https://aconcaguadigital.cl/category/deportes/feed/`
+  - Aconcagua Digital - Región: `https://aconcaguadigital.cl/category/region/feed/`
+  - Aconcagua Digital - San Felipe: `https://aconcaguadigital.cl/category/san-felipe/feed/`
+  - Aconcagua Digital - Panquehue: `https://aconcaguadigital.cl/category/panquehue/feed/`
+  - Aconcagua Digital - Llay Llay: `https://aconcaguadigital.cl/category/llay-llay/feed/`
+  - Aconcagua Digital - Putaendo: `https://aconcaguadigital.cl/category/putaendo/feed/`
   - Aconcagua Digital - Google News: `https://news.google.com/rss/search?q=site:aconcaguadigital.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Alerta Noticias** — Medio de comunicación de la Región de Valparaíso
   - Alerta Noticias: `https://alertanoticias.cl/feed`
@@ -1177,18 +1193,15 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (9 sitios, 17 feeds)
+### 🎨 Cultura y Divulgación (6 sitios, 10 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
+- **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
+  - Alerta Geek Chile - Anime Y Manga: `https://alertageekchile.cl/category/anime-y-manga/feed/`
+  - Alerta Geek Chile - Cine: `https://alertageekchile.cl/category/cine/feed/`
 - **Chile Cultura**: BOT de mastodon.cl/@chilecultura
   - RSS: `https://mastodon.cl/@chilecultura.rss`
-- **Codex Verde** — Medio de noticias sobre medio ambiente y sostenibilidad
-  - Codex Verde - Mastodon.cl BOT: `https://mastodon.cl/@codexverde.rss`
-  - Codex Verde - Google News: `https://news.google.com/rss/search?q=site:codexverde.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **CR2** — Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena
-  - CR2: `https://www.cr2.cl/feed/`
-  - CR2 - Google News: `https://news.google.com/rss/search?q=site:cr2.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política
   - El Ciudadano - Medio Ambiente: `https://www.elciudadano.com/noticias/medio-ambiente/feed/`
   - El Ciudadano - Pueblos: `https://www.elciudadano.com/noticias/pueblos/feed/`
@@ -1198,27 +1211,24 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Google News - Chile - Sección Entretenimiento: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNREpxYW5RU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
 - **La Tercera**: Diario con cobertura nacional, internacional y económica
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml`
-- **Ladera Sur** — Medio de comunicación y multiplataforma sobre naturaleza, conservación, medio ambiente, ciencia, vida outdoor, viajes y más
-  - Ladera Sur - Mastodon.cl BOT: `https://mastodon.cl/@laderasur.rss`
-  - Ladera Sur - Google News: `https://news.google.com/rss/search?q=site:laderasur.com&hl=es-419&gl=CL&ceid=CL:es-419`
-  - Ladera Sur - Bing News: `https://www.bing.com/news/search?q=site:laderasur.com&format=RSS`
-- **Pediatría y Salud** — Divulgación de salud infantil para familias chilenas
-  - Pediatría y Salud: `https://pediatriaysalud.cl/feed`
-  - Pediatría y Salud - Google News: `https://news.google.com/rss/search?q=site:pediatriaysalud.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Cooperativa**: Radio Cooperativa, medio de comunicación chileno con cobertura nacional e internacional
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_5___1.xml`
 
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (11 sitios, 20 feeds)
+### ⚽ Deportes (13 sitios, 22 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
+- **Aconcagua Digital**: Feed de la categoría 'Deportes' en Aconcagua Digital
+  - RSS: `https://aconcaguadigital.cl/category/deportes/feed/`
 - **Al Aire Libre** — Medio chileno de noticias deportivas
   - Al Aire Libre: `https://www.alairelibre.cl/feed.xml`
   - Al Aire Libre - Google News: `https://news.google.com/rss/search?q=site:alairelibre.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Al Aire Libre - Bing News: `https://www.bing.com/news/search?q=site:alairelibre.cl&format=RSS`
+- **Alerta Geek Chile**: Feed de la categoría 'Esports' en Alerta Geek Chile
+  - RSS: `https://alertageekchile.cl/category/esports/feed/`
 - **AS Chile** — Diario online de deportes con noticias e información sobre fútbol y otros deportes en Chile
   - AS Chile - Google News: `https://news.google.com/rss/search?q=site:chile.as.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - AS Chile - Bing News: `https://www.bing.com/news/search?q=site:chile.as.com&format=RSS`
@@ -1250,17 +1260,17 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-community"></a>
-### 👥 Comunidad (5 sitios, 15 feeds)
+### 👥 Comunidad (4 sitios, 13 feeds)
 
 *Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
 
+- **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
+  - Alerta Geek Chile - Calendario de Estrenos y Eventos: `https://www.alertageekchile.cl/eventos/feed/`
+  - Alerta Geek Chile - Eventos: `https://alertageekchile.cl/category/eventos/feed/`
 - **Capa9** — Comunidad chilena de tecnología, hardware y reviews
   - Capa9 - Global: `https://www.capa9.net/forums/-/index.rss`
   - Capa9 - Reviews: `https://www.capa9.net/foro/reviews.45/index.rss`
   - Capa9 - Google News: `https://news.google.com/rss/search?q=site:capa9.net&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Colemono** — Comunidad chilena de videojuegos de culto y retro
-  - Colemono: `https://colemono.com/feed/`
-  - Colemono - Google News: `https://news.google.com/rss/search?q=site:colemono.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Mastodon Chile** — Instancia(s) chilena(s) de Mastodon (red social descentralizada)
   - Mastodon.cl - #chile: `https://mastodon.cl/tags/chile.rss`
   - Mastodon.cl - #tecnología: `https://mastodon.cl/tags/tecnología.rss`
@@ -1271,9 +1281,129 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - r/RepublicaDeChile: `https://www.reddit.com/r/republicadechile/.rss`
   - r/chileit: `https://www.reddit.com/r/chileit/.rss`
   - r/Santiago: `https://www.reddit.com/r/Santiago/.rss`
+
+[↑ Volver al índice](#indice)
+
+<a id="cat-entertainment"></a>
+### 🎭 Espectáculos y Entretención (2 sitios, 11 feeds)
+
+*Descargar OPML: [`entertainment.opml`](dist/opml/categories/entertainment.opml)*
+
+- **Ilustrado** — Medio de comunicación digital de noticias culturales y de entretenimiento
+  - Ilustrado: `https://www.ilustrado.cl/feed/`
+  - Ilustrado - Google News: `https://news.google.com/rss/search?q=site:ilustrado.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **La Cuarta** — Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención
+  - La Cuarta - Chile: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/chile/?outputType=xml`
+  - La Cuarta - Tendencias: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml`
+  - La Cuarta - Servicios: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml`
+  - La Cuarta - Videos: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/videos/?outputType=xml`
+  - La Cuarta - Urbana: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/urbana/?outputType=xml`
+  - La Cuarta - Espectáculos: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/espectaculos/?outputType=xml`
+  - La Cuarta - Glamorama: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/glamorama/?outputType=xml`
+  - La Cuarta - Google News: `https://news.google.com/rss/search?q=site:lacuarta.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - La Cuarta - Bing News: `https://www.bing.com/news/search?q=site:lacuarta.com&format=RSS`
+
+[↑ Volver al índice](#indice)
+
+<a id="cat-environment"></a>
+### 🌿 Medio Ambiente y Naturaleza (3 sitios, 7 feeds)
+
+*Descargar OPML: [`environment.opml`](dist/opml/categories/environment.opml)*
+
+- **Codex Verde** — Medio de noticias sobre medio ambiente y sostenibilidad
+  - Codex Verde - Mastodon.cl BOT: `https://mastodon.cl/@codexverde.rss`
+  - Codex Verde - Google News: `https://news.google.com/rss/search?q=site:codexverde.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **CR2** — Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena
+  - CR2: `https://www.cr2.cl/feed/`
+  - CR2 - Google News: `https://news.google.com/rss/search?q=site:cr2.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Ladera Sur** — Medio de comunicación y multiplataforma sobre naturaleza, conservación, medio ambiente, ciencia, vida outdoor, viajes y más
+  - Ladera Sur - Mastodon.cl BOT: `https://mastodon.cl/@laderasur.rss`
+  - Ladera Sur - Google News: `https://news.google.com/rss/search?q=site:laderasur.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Ladera Sur - Bing News: `https://www.bing.com/news/search?q=site:laderasur.com&format=RSS`
+
+[↑ Volver al índice](#indice)
+
+<a id="cat-gaming"></a>
+### 🎮 Videojuegos y Gaming (5 sitios, 24 feeds)
+
+*Descargar OPML: [`gaming.opml`](dist/opml/categories/gaming.opml)*
+
+- **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
+  - Alerta Geek Chile - Videojuegos: `https://alertageekchile.cl/category/videojuegos/feed/`
+  - Alerta Geek Chile - Nintendo: `https://alertageekchile.cl/category/nintendo/feed/`
+  - Alerta Geek Chile - Playstation: `https://alertageekchile.cl/category/playstation/feed/`
+  - Alerta Geek Chile - League Of Legends: `https://alertageekchile.cl/category/league-of-legends/feed/`
+  - Alerta Geek Chile - Xbox: `https://alertageekchile.cl/category/xbox/feed/`
+  - Alerta Geek Chile - Pokémon: `https://alertageekchile.cl/category/pokemon/feed/`
+  - Alerta Geek Chile - Riot Games: `https://alertageekchile.cl/category/riot-games/feed/`
+  - Alerta Geek Chile - Pc: `https://alertageekchile.cl/category/pc/feed/`
+  - Alerta Geek Chile - Valorant: `https://alertageekchile.cl/category/valorant/feed/`
+  - Alerta Geek Chile - Juegos Móviles: `https://alertageekchile.cl/category/juegos-moviles/feed/`
+  - Alerta Geek Chile - Blizzard: `https://alertageekchile.cl/category/blizzard/feed/`
+  - Alerta Geek Chile - Gaming: `https://alertageekchile.cl/category/gaming/feed/`
+- **Colemono** — Comunidad chilena de videojuegos de culto y retro
+  - Colemono: `https://colemono.com/feed/`
+  - Colemono - Google News: `https://news.google.com/rss/search?q=site:colemono.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **MadboxPC** — Portal chileno enfocado en software, videojuegos, hardware y cultura de internet
+  - MADBOXPC: `https://www.madboxpc.com/feed/`
+  - MADBOXPC - Reviews: `https://www.madboxpc.com/category/reviews/feed/`
+  - MADBOXPC - Noticias: `https://www.madboxpc.com/category/noticias/feed/`
+  - MADBOXPC - Articulos: `https://www.madboxpc.com/category/articulos/feed/`
+  - MadboxPC - Google News: `https://news.google.com/rss/search?q=site:madboxpc.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Tarreo** — Portal de videojuegos, hardware y cultura digital chileno
+  - Tarreo Gamer: `https://www.tarreo.com/feed/`
+  - Tarreo - Mastodon.cl BOT: `https://mastodon.cl/@tarreo.rss`
+  - Tarreo - Google News: `https://news.google.com/rss/search?q=site:tarreo.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Vanguardia Gamer** — Comunidad y noticias de videojuegos en Chile
   - Vanguardia Gamer: `https://vanguardiagamer.cl/feed/`
   - Vanguardia Gamer - Google News: `https://news.google.com/rss/search?q=site:vanguardiagamer.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+
+[↑ Volver al índice](#indice)
+
+<a id="cat-health"></a>
+### 🏥 Salud y Bienestar (1 sitios, 2 feeds)
+
+*Descargar OPML: [`health.opml`](dist/opml/categories/health.opml)*
+
+- **Pediatría y Salud** — Divulgación de salud infantil para familias chilenas
+  - Pediatría y Salud: `https://pediatriaysalud.cl/feed`
+  - Pediatría y Salud - Google News: `https://news.google.com/rss/search?q=site:pediatriaysalud.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+
+[↑ Volver al índice](#indice)
+
+<a id="cat-radio"></a>
+### 📻 Radio y Música (5 sitios, 23 feeds)
+
+*Descargar OPML: [`radio.opml`](dist/opml/categories/radio.opml)*
+
+- **Pudahuel**: Radio chilena de música, entretención y noticias
+  - RSS: `https://www.pudahuel.cl/feed`
+- **Radio Corazón**: Radio chilena de música popular
+  - RSS: `https://www.corazon.cl/feed`
+- **Radio Festival** — Radio chilena de música y entretenimiento
+  - Radio Festival: `https://www.radiofestival.cl/feed`
+  - Radio Festival - Regional: `https://www.radiofestival.cl/category/regional/feed/`
+  - Radio Festival - Nacional: `https://www.radiofestival.cl/category/nacional/feed/`
+  - Radio Festival - Policial: `https://www.radiofestival.cl/category/policial/feed/`
+  - Radio Festival - Promociones: `https://www.radiofestival.cl/category/promociones/feed/`
+  - Radio Festival - Salud: `https://www.radiofestival.cl/category/salud/feed/`
+  - Radio Festival - Cultura: `https://www.radiofestival.cl/category/cultura/feed/`
+  - Radio Festival - Educación: `https://www.radiofestival.cl/category/educacion/feed/`
+  - Radio Festival - Ciencia y Tecnología: `https://www.radiofestival.cl/category/tecnologia/feed/`
+  - Radio Festival - Cosas Pérdidas: `https://www.radiofestival.cl/category/cosas-perdidas/feed/`
+  - Radio Festival - Política: `https://www.radiofestival.cl/category/politica/feed/`
+  - Radio Festival - Entretención: `https://www.radiofestival.cl/category/entretencion/feed/`
+  - Radio Festival - Deportes: `https://www.radiofestival.cl/category/deportes/feed/`
+  - Radio Festival - Medio Ambiente: `https://www.radiofestival.cl/category/medio-ambiente/feed/`
+  - Radio Festival - Internacional: `https://www.radiofestival.cl/category/internacional/feed/`
+  - Radio Festival - Naturaleza: `https://www.radiofestival.cl/category/naturaleza/feed/`
+  - Radio Festival - Mascotas: `https://www.radiofestival.cl/category/mascotas/feed/`
+  - Radio Festival - Mercado de las Pulgas: `https://www.radiofestival.cl/category/mercado/feed/`
+  - Radio Festival - Economía: `https://www.radiofestival.cl/category/economia/feed/`
+- **Radio Imagina**: Radio chilena de música y noticias
+  - RSS: `https://www.radioimagina.cl/feed`
+- **Rock & Pop**: Radio chilena de rock, música y actualidad
+  - RSS: `https://www.rockandpop.cl/feed`
 
 [↑ Volver al índice](#indice)
 
