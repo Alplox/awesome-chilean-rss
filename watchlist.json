@@ -37,7 +37,7 @@
     "id": "uantof",
     "name": "Universidad de Antofagasta",
     "url": "https://www.uantof.cl",
-    "category": "universities",
+    "category": "education",
     "reason": "Feed RSS existe (WordPress) pero devuelve 0 ítems en todas las rutas probadas",
     "feeds": [
       {
@@ -411,7 +411,7 @@
     "id": "uchile",
     "name": "Universidad de Chile",
     "url": "https://www.uchile.cl",
-    "category": "universities",
+    "category": "education",
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
@@ -445,7 +445,7 @@
     "id": "pucv",
     "name": "PUCV",
     "url": "https://www.pucv.cl",
-    "category": "universities",
+    "category": "education",
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
@@ -479,7 +479,7 @@
     "id": "uach",
     "name": "UACh",
     "url": "https://www.uach.cl",
-    "category": "universities",
+    "category": "education",
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
@@ -513,7 +513,7 @@
     "id": "ucsc",
     "name": "UCSC",
     "url": "https://www.ucsc.cl",
-    "category": "universities",
+    "category": "education",
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
@@ -547,7 +547,7 @@
     "id": "ubiobio",
     "name": "U. del Bío-Bío",
     "url": "https://www.ubiobio.cl",
-    "category": "universities",
+    "category": "education",
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
@@ -2866,7 +2866,7 @@
     "id": "usach",
     "name": "USACH",
     "url": "https://www.usach.cl",
-    "category": "universities",
+    "category": "education",
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
@@ -3043,5 +3043,101 @@
     "description": "Sociedad científica médica dedicada al estudio de la obesidad",
     "reason": "No se detectó feed RSS",
     "feeds": []
+  },
+  {
+    "id": "spdigital",
+    "name": "SPDigital",
+    "url": "https://www.spdigital.cl",
+    "category": "technology",
+    "reason": "Sin feed RSS detectado",
+    "description": "Tienda chilena de tecnología y computación",
+    "feeds": [
+      {
+        "id": "spdigital-google-news",
+        "name": "SPDigital - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:spdigital.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:spdigital.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:spdigital.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true,
+        "last_checked": "2026-06-15T02:45:21.349Z"
+      },
+      {
+        "id": "spdigital-bing-news",
+        "name": "SPDigital - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:spdigital.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:spdigital.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:spdigital.cl en Bing News",
+        "status": "active",
+        "verified": true,
+        "last_checked": "2026-06-15T02:45:21.349Z"
+      }
+    ]
+  },
+  {
+    "id": "pc-factory",
+    "name": "PC Factory",
+    "url": "https://www.pcfactory.cl",
+    "category": "technology",
+    "reason": "Sin feed RSS detectado",
+    "description": "Tienda chilena de computación y tecnología",
+    "feeds": [
+      {
+        "id": "pc-factory-google-news",
+        "name": "PC Factory - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:pcfactory.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:pcfactory.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:pcfactory.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true,
+        "last_checked": "2026-06-15T02:45:21.349Z"
+      },
+      {
+        "id": "pc-factory-bing-news",
+        "name": "PC Factory - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:pcfactory.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:pcfactory.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:pcfactory.cl en Bing News",
+        "status": "active",
+        "verified": true,
+        "last_checked": "2026-06-15T02:45:21.349Z"
+      }
+    ]
+  },
+  {
+    "id": "los-40",
+    "name": "Los 40",
+    "url": "https://los40.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado (sitio SPA en Next.js)",
+    "description": "Radio chilena Los 40, música popular y actualidad",
+    "feeds": [
+      {
+        "id": "los-40-google-news",
+        "name": "Los 40 - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:los40.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:los40.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:los40.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true,
+        "last_checked": "2026-06-15T02:45:21.349Z"
+      },
+      {
+        "id": "los-40-bing-news",
+        "name": "Los 40 - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:los40.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:los40.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:los40.cl en Bing News",
+        "status": "active",
+        "verified": true,
+        "last_checked": "2026-06-15T02:45:21.349Z"
+      }
+    ]
   }
 ]

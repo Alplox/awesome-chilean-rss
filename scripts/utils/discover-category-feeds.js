@@ -20,38 +20,24 @@
 
 import fs from 'node:fs'
 import path from 'node:path'
+import readline from 'node:readline'
 import { fileURLToPath } from 'node:url'
-import { xmlParser, parseFeedXml } from '../../lib/feed-validator.js'
+import { checkFeedUrl, fetchSafe } from '../../lib/feed-validator.js'
+import { pathsMatch, daysSince, STALE_THRESHOLD_DAYS, recalculateTotalFeeds } from '../../lib/feed-utils.js'
+import { parseArgs, applyFiltersSites } from '../../lib/cli-args.js'
+import { isAutomatic } from '../../lib/prompter.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '../..')
 const DB_PATH = path.join(ROOT, 'feeds-database.json')
 const CATEGORIES_PATH = path.join(ROOT, 'categories.json')
 
-const FETCH_TIMEOUT = 10000
-const STALE_THRESHOLD_DAYS = 30
+const args = parseArgs(process.argv)
+const minPosts = process.argv.slice(2).includes('--min-posts')
+  ? parseInt(process.argv.slice(2)[process.argv.slice(2).indexOf('--min-posts') + 1], 10) : 1
 
-// ─── Arg parsing ─────────────────────────────────────────────────────────────
-
-const args = process.argv.slice(2)
-const isDryRun = args.includes('--dry-run')
-const isUpdate = args.includes('--update')
-const targetId = args.includes('--id') ? args[args.indexOf('--id') + 1] : null
-const targetFrom = args.includes('--from') ? parseInt(args[args.indexOf('--from') + 1], 10) : null
-const targetTo = args.includes('--to') ? parseInt(args[args.indexOf('--to') + 1], 10) : null
-const targetLimit = args.includes('--limit') ? parseInt(args[args.indexOf('--limit') + 1], 10) : null
-const targetStartId = args.includes('--start-id') ? args[args.indexOf('--start-id') + 1] : null
-const minPosts = args.includes('--min-posts') ? parseInt(args[args.indexOf('--min-posts') + 1], 10) : 1
-
-if (args.includes('--id') && (!targetId || targetId.startsWith('--'))) {
-  console.error('❌ Error: --id requiere un valor (ID del sitio)')
-  process.exit(1)
-}
-
-if (targetFrom !== null && targetTo !== null && targetFrom > targetTo) {
-  console.error('❌ Error: --from no puede ser mayor que --to')
-  process.exit(1)
-}
+const isDryRun = args.dryRun
+const isUpdate = args.update
 
 // ─── Load data ────────────────────────────────────────────────────────────────
 
@@ -68,26 +54,7 @@ const allKnownFeedIds = new Set(
 
 // ─── Apply filters ────────────────────────────────────────────────────────────
 
-if (targetId) {
-  sites = sites.filter(s => s.id === targetId)
-  if (sites.length === 0) {
-    console.error(`❌ No se encontró ningún sitio con ID "${targetId}"`)
-    process.exit(1)
-  }
-}
-
-if (targetStartId) {
-  const startIdx = sites.findIndex(s => s.id === targetStartId)
-  if (startIdx === -1) {
-    console.error(`❌ No se encontró ningún sitio con ID "${targetStartId}"`)
-    process.exit(1)
-  }
-  sites = sites.slice(startIdx)
-}
-
-if (targetFrom !== null) sites = sites.slice(targetFrom)
-if (targetTo !== null) sites = sites.slice(0, targetTo + 1)
-if (targetLimit !== null) sites = sites.slice(0, targetLimit)
+sites = applyFiltersSites(sites, args)
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -116,7 +83,7 @@ for (const [catKey, catVal] of Object.entries(categories)) {
 }
 
 function resolveCategory(slug) {
-  return SLUG_CATEGORY[slug.replace(/-/g, '_')] || null
+  return SLUG_CATEGORY[slug.replace(/_/g, '-')] || null
 }
 
 function findExistingSlugs(site) {
@@ -136,15 +103,16 @@ function isExcludedFeed(site, rssUrl) {
 }
 
 async function fetchJson(url) {
+  const res = await fetchSafe(url)
+  if (!res) return null
+  if (!res.ok) {
+    const noWww = url.replace('://www.', '://')
+    if (noWww !== url) return await fetchJson(noWww)
+    return null
+  }
+  const contentType = res.headers.get('content-type') || ''
+  if (!contentType.includes('json')) return null
   try {
-    const ctrl = new AbortController()
-    const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT)
-    const res = await fetch(url, {
-      signal: ctrl.signal,
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; FeedDiscoverer/1.0)' },
-    })
-    clearTimeout(t)
-    if (!res.ok) return null
     return await res.json()
   } catch {
     return null
@@ -152,42 +120,32 @@ async function fetchJson(url) {
 }
 
 async function testFeedUrl(url) {
-  try {
-    const ctrl = new AbortController()
-    const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT)
-    const res = await fetch(url, {
-      signal: ctrl.signal,
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; FeedDiscoverer/1.0)' },
-    })
-    clearTimeout(t)
-    if (!res.ok) return { ok: false, status: res.status }
+  const result = await checkFeedUrl(url);
+  if (!result) return { ok: false, status: 0, reason: 'no responde' };
 
-    // Track if the URL redirected to a different path
-    const redirected = res.url !== url
-      ? { redirectUrl: res.url, pathChanged: new URL(url).pathname.replace(/\/+$/, '') !== new URL(res.url).pathname.replace(/\/+$/, '') }
-      : null
+  const redirectInfo = result.redirectUrl ? { redirectUrl: result.redirectUrl } : {};
 
-    const text = await res.text()
-    const isRss = text.includes('<rss') || text.includes('<rdf:RDF')
-    const isAtom = text.includes('<feed') && text.includes('xmlns=')
-    const itemCount = (text.match(/<(item|entry)[^>]*>/gi) || []).length
-
-    if ((isRss || isAtom) && itemCount > 0) {
-      let lastItemDate = null
-      try {
-        const parsed = xmlParser.parse(text)
-        const feedData = parseFeedXml(parsed, isRss ? 'RSS' : 'Atom')
-        if (feedData) lastItemDate = feedData.lastItemDate
-      } catch {}
-      return { ok: true, status: res.status, type: isRss ? 'RSS' : 'Atom', items: itemCount, lastItemDate, ...(redirected?.pathChanged ? { redirectUrl: redirected.redirectUrl } : {}) }
-    }
-    if ((isRss || isAtom) && itemCount === 0) {
-      return { ok: false, status: res.status, reason: 'feed vacío' }
-    }
-    return { ok: false, status: res.status, reason: 'no es feed XML válido' }
-  } catch (e) {
-    return { ok: false, status: 0, reason: e.message }
+  if (result.type && result.itemCount > 0) {
+    return {
+      ok: true,
+      status: 200,
+      type: result.type,
+      items: result.itemCount,
+      lastItemDate: result.lastItemDate || null,
+      selfLink: result.selfLink || null,
+      ...redirectInfo,
+    };
   }
+
+  if (result.type && result.itemCount === 0) {
+    return { ok: false, status: 200, reason: 'feed vacío' };
+  }
+
+  const reason = result.error || 'error desconocido';
+  if (reason === 'HTML (no es feed)') {
+    return { ok: false, status: result.code ?? 0, reason: 'no es feed XML válido', ...redirectInfo };
+  }
+  return { ok: false, status: result.code ?? 0, reason, ...redirectInfo };
 }
 
 const EXCLUDED_SITEMAP_SEGMENTS = new Set([
@@ -207,19 +165,14 @@ const NAV_SELECTORS = [
 ]
 
 async function fetchText(url) {
-  try {
-    const ctrl = new AbortController()
-    const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT)
-    const res = await fetch(url, {
-      signal: ctrl.signal,
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; FeedDiscoverer/1.0)' },
-    })
-    clearTimeout(t)
-    if (!res.ok) return null
-    return await res.text()
-  } catch {
+  const res = await fetchSafe(url)
+  if (!res) return null
+  if (!res.ok) {
+    const noWww = url.replace('://www.', '://')
+    if (noWww !== url) return await fetchText(noWww)
     return null
   }
+  return await res.text()
 }
 
 function parseSitemapXml(text) {
@@ -288,30 +241,57 @@ async function discoverSitemapSections(siteUrl) {
  */
 async function discoverNavbarSections(siteUrl) {
   const baseUrl = siteUrl.replace(/\/+$/, '')
-  const html = await fetchText(baseUrl)
+  const baseHost = new URL(baseUrl).hostname.replace(/^www\./, '')
+  let html = await fetchText(baseUrl)
+  let wwwWarned = false
+
+  // Retry with alternative www/bare domain if no response
+  if (!html) {
+    const altUrl = baseUrl.includes('://www.')
+      ? baseUrl.replace('://www.', '://')
+      : baseUrl.replace('://', '://www.')
+    if (altUrl !== baseUrl) {
+      html = await fetchText(altUrl)
+      if (html) {
+        const dir = baseUrl.includes('://www.') ? 'quitando' : 'agregando'
+        console.warn(`  ⚠️  ${baseUrl} no responde, pero ${altUrl} sí. Considera actualizar site.url ${dir} www`)
+        wwwWarned = true
+      }
+    }
+  }
   if (!html) return null
 
   const navLinks = new Set()
 
   // Try to find nav elements first, extract all internal links
   for (const sel of NAV_SELECTORS) {
-    // Find nav container by selector pattern
-    const navPattern = new RegExp(`<${sel.replace(/^[.#]/, '')}[^>]*>[\\s\\S]*?<\\/${sel.replace(/^[.#]/, '')}>`, 'i')
-    // For class/ID selectors, use attribute selectors
-    const attrPattern = sel.startsWith('.')
-      ? new RegExp(`<[^>]+class="[^"]*${sel.slice(1)}[^"]*"[^>]*>[\\s\\S]*?<\\/[^>]+>`, 'i')
-      : sel.startsWith('#')
-        ? new RegExp(`<[^>]+id="${sel.slice(1)}"[^>]*>[\\s\\S]*?<\\/[^>]+>`, 'i')
-        : null
-
     let navHtml = null
-    if (navPattern) {
-      const m = html.match(navPattern)
+
+    if (sel.startsWith('[')) {
+      // Attribute selector like [role="navigation"]
+      const attrPart = sel.slice(1, -1)
+      const re = new RegExp(`<[^>]+${attrPart}[^>]*>[\\s\\S]*?<\\/[^>]+>`, 'i')
+      const m = html.match(re)
       if (m) navHtml = m[0]
-    }
-    if (!navHtml && attrPattern) {
-      const m = html.match(attrPattern)
-      if (m) navHtml = m[0]
+    } else {
+      // Tag or class/ID selector
+      const navPattern = sel.startsWith('.') || sel.startsWith('#')
+        ? null
+        : new RegExp(`<${sel}[^>]*>[\\s\\S]*?<\\/${sel}>`, 'i')
+      const attrPattern = sel.startsWith('.')
+        ? new RegExp(`<[^>]+class="[^"]*${sel.slice(1)}[^"]*"[^>]*>[\\s\\S]*?<\\/[^>]+>`, 'i')
+        : sel.startsWith('#')
+          ? new RegExp(`<[^>]+id="${sel.slice(1)}"[^>]*>[\\s\\S]*?<\\/[^>]+>`, 'i')
+          : null
+
+      if (navPattern) {
+        const m = html.match(navPattern)
+        if (m) navHtml = m[0]
+      }
+      if (!navHtml && attrPattern) {
+        const m = html.match(attrPattern)
+        if (m) navHtml = m[0]
+      }
     }
 
     if (navHtml) {
@@ -321,12 +301,13 @@ async function discoverNavbarSections(siteUrl) {
         const href = lm[1]
         try {
           const url = new URL(href, baseUrl)
-          if (url.hostname !== new URL(baseUrl).hostname) continue
+          if (url.hostname.replace(/^www\./, '') !== baseHost) continue
           const path = url.pathname.replace(/\/+$/, '').split('/').filter(Boolean)
           if (path.length === 0) continue
           const seg = path[0].toLowerCase()
           if (EXCLUDED_SITEMAP_SEGMENTS.has(seg)) continue
           if (seg.match(/\.\w+$/)) continue
+          if (seg.length > 25) continue
           navLinks.add(seg)
         } catch {}
       }
@@ -339,19 +320,70 @@ async function discoverNavbarSections(siteUrl) {
     for (const m of allLinks) {
       try {
         const url = new URL(m[1], baseUrl)
-        if (url.hostname !== new URL(baseUrl).hostname) continue
+        if (url.hostname.replace(/^www\./, '') !== baseHost) continue
         const path = url.pathname.replace(/\/+$/, '').split('/').filter(Boolean)
-        if (path.length <= 1) continue
+        if (path.length === 0) continue
         const seg = path[0].toLowerCase()
         if (EXCLUDED_SITEMAP_SEGMENTS.has(seg)) continue
         if (seg.match(/^\d+$/)) continue
         if (seg.match(/\.\w+$/)) continue
+        if (seg.length > 25) continue
         navLinks.add(seg)
       } catch {}
     }
   }
 
   return navLinks.size > 0 ? [...navLinks] : null
+}
+
+/**
+ * Interactive section selection. Shows a numbered list and lets the user
+ * exclude sections by index before testing (e.g. to skip article URLs).
+ * @param {string[]} sections
+ * @returns {Promise<string[]>} sections to test
+ */
+async function promptForSections(sections) {
+  return new Promise((resolve) => {
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout,
+    })
+
+    console.log('')
+    for (let i = 0; i < sections.length; i++) {
+      console.log(`     ${(i + 1).toString().padStart(2)}. ${sections[i]}`)
+    }
+    console.log('')
+
+    rl.question('   ¿Excluir alguna? (números separados por coma, ej: 1,3-5,10) o Enter para probar todas: ', (answer) => {
+      rl.close()
+      answer = answer.trim()
+      if (!answer) {
+        resolve(sections)
+        return
+      }
+
+      const excludeIndices = new Set()
+      for (let part of answer.split(',')) {
+        part = part.trim()
+        if (part.includes('-')) {
+          const [a, b] = part.split('-').map(n => parseInt(n.trim(), 10))
+          if (!isNaN(a) && !isNaN(b)) {
+            for (let i = a; i <= b; i++) excludeIndices.add(i - 1)
+          }
+        } else {
+          const n = parseInt(part, 10)
+          if (!isNaN(n)) excludeIndices.add(n - 1)
+        }
+      }
+
+      const filtered = sections.filter((_, i) => !excludeIndices.has(i))
+      if (filtered.length < sections.length) {
+        console.log(`   → probando ${filtered.length} secciones (${sections.length - filtered.length} excluidas)`)
+      }
+      resolve(filtered)
+    })
+  })
 }
 
 const FEED_PATTERNS = [
@@ -382,6 +414,13 @@ async function discoverSectionFeed(baseUrl, section) {
         console.log(`    ⚠ ${feedUrl} → ${result.redirectUrl}\n       (redirige al feed principal, se rechazó)`)
         return null
       }
+      // Self-link check: verify the feed serves content for the requested section
+      if (result.selfLink) {
+        if (!pathsMatch(feedUrl, result.selfLink)) {
+          console.log(`    ⚠ ${feedUrl} → self-link: ${result.selfLink}\n       (no coincide con la sección solicitada, se rechazó)`)
+          continue
+        }
+      }
       return { url: feedUrl, ...result }
     }
   }
@@ -407,6 +446,7 @@ async function discoverWpCategories(siteUrl) {
         name: c.name,
         count: c.count || 0,
         parent: c.parent || 0,
+        link: c.link || null,
       }))
     }
   }
@@ -419,150 +459,207 @@ let redirectCount = 0  // module-level, accessed from testFeedUrl
 
 ;(async () => {
   let totalNew = 0
-  let wpApiFound = 0
-  let fallbackFound = 0
+  let wpSections = 0
+  let wpFeeds = 0
+  let sitemapSections = 0
+  let sitemapFeeds = 0
+  let navbarSections = 0
+  let navbarFeeds = 0
 
   console.log(`🔍 Descubriendo feeds por categoría en ${sites.length} sitios...\n`)
 
   for (let i = 0; i < sites.length; i++) {
     const site = sites[i]
-    process.stdout.write(`[${i + 1}/${sites.length}] ${site.id}... `)
+    process.stdout.write(`[${i + 1}/${sites.length}] ${site.id}...`)
 
     // Skip Google News / Bing News proxy sites — they have no actual categories
     if (!site.url || site.url.includes('news.google.com') || site.url.includes('bing.com')) {
-      process.stdout.write('⏭ sin url\n')
+      process.stdout.write(' ⏭ sin url\n')
       continue
     }
 
     const baseUrl = site.url.replace(/\/+$/, '')
     const discovered = []
-    let wpDiscovered = false
-
     // Phase 0: WordPress REST API
+    process.stdout.write('\n  ⏳ consultando API WP...')
     const categories = await discoverWpCategories(site.url)
     if (categories && categories.length > 0) {
-      wpApiFound++
       const relevant = categories.filter(c => c.count >= minPosts && c.slug !== 'uncategorized' && c.slug !== 'sin-categoria')
 
       if (relevant.length > 0) {
+        process.stdout.write(` 📡 ${relevant.length} categorías con ≥${minPosts} posts\n`)
         for (const cat of relevant) {
-          const feedUrl = `${baseUrl}/category/${cat.slug}/feed/`
-          if (isExcludedFeed(site, feedUrl)) continue
+          wpSections++
+          const catLink = cat.link || `${baseUrl}/category/${cat.slug}/`
+          const feedUrl = `${catLink.replace(/\/+$/, '')}/feed/`
+
+          process.stdout.write(`  · ${cat.slug.padEnd(25)}`)
+          if (isExcludedFeed(site, feedUrl)) {
+            process.stdout.write(`ya existe\n`)
+            continue
+          }
 
           const result = await testFeedUrl(feedUrl)
           if (result.ok) {
+            // Verify self-link matches the requested category feed
+            if (result.selfLink) {
+              if (!pathsMatch(feedUrl, result.selfLink)) {
+                process.stdout.write(`✗ feed principal (self-link: ${result.selfLink})\n`)
+                continue
+              }
+            }
             const catName = toTitleCase(cat.name)
             const feedId = `${site.id}-${cat.slug}`
-            if (allKnownFeedIds.has(feedId)) continue
+            if (allKnownFeedIds.has(feedId)) {
+              process.stdout.write(`id duplicado, se omite\n`)
+              continue
+            }
             allKnownFeedIds.add(feedId)
+            const catPageUrl = catLink.replace(/\/+$/, '') + '/'
             discovered.push({
               id: feedId,
               name: `${site.name} - ${catName}`,
               rss_url: feedUrl,
+              pageUrl: catPageUrl,
               feed_type: result.type,
               description: `Feed de la categor\u00EDa '${catName}' en ${site.name}`,
               feed_category: resolveCategory(cat.slug),
               items: result.items,
               lastItemDate: result.lastItemDate,
             })
-            wpDiscovered = true
+            wpFeeds++
+            process.stdout.write(`✓ ${result.type} (${result.items} items)\n`)
+          } else {
+            process.stdout.write(`✗ ${result.reason || `HTTP ${result.status}`}\n`)
           }
         }
+      } else {
+        process.stdout.write(` 📡 ${categories.length} categorías, ninguna con ≥${minPosts} posts\n`)
       }
+    } else {
+      process.stdout.write(` ${categories ? 'sin categorías relevantes' : '✗ no disponible'}\n`)
     }
 
     // Phase 1: Sitemap (if WP API found nothing or had no relevant categories)
     if (discovered.length === 0) {
+      process.stdout.write('  ⏳ buscando sitemap...')
       const sections = await discoverSitemapSections(site.url)
       if (sections && sections.length > 0) {
+        process.stdout.write(` 📄 ${sections.length} secciones\n`)
         for (const section of sections) {
-          if (isExcludedFeed(site, `${baseUrl}/${section}/feed/`) && isExcludedFeed(site, `${baseUrl}/${section}/rss/`)) continue
+          sitemapSections++
+          process.stdout.write(`  · ${section.padEnd(25)}`)
+          if (isExcludedFeed(site, `${baseUrl}/${section}/feed/`) && isExcludedFeed(site, `${baseUrl}/${section}/rss/`)) {
+            process.stdout.write(`ya existe\n`)
+            continue
+          }
 
           const feed = await discoverSectionFeed(baseUrl, section)
           if (feed) {
             const sectionName = toTitleCase(section.replace(/-/g, ' '))
             const feedId = `${site.id}-${section}`
-            if (allKnownFeedIds.has(feedId)) continue
+            if (allKnownFeedIds.has(feedId)) {
+              process.stdout.write(`id duplicado, se omite\n`)
+              continue
+            }
             allKnownFeedIds.add(feedId)
+            const sectionPageUrl = `${baseUrl}/${section}/`
             discovered.push({
               id: feedId,
               name: `${site.name} - ${sectionName}`,
               rss_url: feed.url,
+              pageUrl: sectionPageUrl,
               feed_type: feed.type,
               description: `Feed de la secci\u00F3n '${sectionName}' en ${site.name}`,
               feed_category: resolveCategory(section),
               items: feed.items,
               lastItemDate: feed.lastItemDate,
             })
+            sitemapFeeds++
+            process.stdout.write(`✓ ${feed.type} (${feed.items} items)\n`)
+          } else {
+            process.stdout.write(`✗ sin feed\n`)
           }
         }
-        if (discovered.length > 0) fallbackFound++
+      } else {
+        process.stdout.write(' ✗ no encontrado\n')
       }
     }
 
     // Phase 2: Navbar scraping (if sitemap found nothing)
     if (discovered.length === 0) {
+      process.stdout.write('  ⏳ escaneando navegación...')
       const sections = await discoverNavbarSections(site.url)
       if (sections && sections.length > 0) {
-        for (const section of sections) {
-          if (isExcludedFeed(site, `${baseUrl}/${section}/feed/`) && isExcludedFeed(site, `${baseUrl}/${section}/rss/`)) continue
+        process.stdout.write(` 🧭 ${sections.length} secciones\n`)
+        let sectionsToTest = sections
+        if (!isAutomatic() && process.stdin.isTTY && sections.length > 5) {
+          sectionsToTest = await promptForSections(sections)
+        }
+        if (sectionsToTest.length === 0) {
+          process.stdout.write('   fase navbar saltada por el usuario\n')
+          continue
+        }
+        for (const section of sectionsToTest) {
+          navbarSections++
+          process.stdout.write(`  · ${section.padEnd(25)}`)
+          if (isExcludedFeed(site, `${baseUrl}/${section}/feed/`) && isExcludedFeed(site, `${baseUrl}/${section}/rss/`)) {
+            process.stdout.write(`ya existe\n`)
+            continue
+          }
 
           const feed = await discoverSectionFeed(baseUrl, section)
           if (feed) {
             const sectionName = toTitleCase(section.replace(/-/g, ' '))
             const feedId = `${site.id}-${section}`
-            if (allKnownFeedIds.has(feedId)) continue
+            if (allKnownFeedIds.has(feedId)) {
+              process.stdout.write(`id duplicado, se omite\n`)
+              continue
+            }
             allKnownFeedIds.add(feedId)
+            const sectionPageUrl = `${baseUrl}/${section}/`
             discovered.push({
               id: feedId,
               name: `${site.name} - ${sectionName}`,
               rss_url: feed.url,
+              pageUrl: sectionPageUrl,
               feed_type: feed.type,
               description: `Feed de la secci\u00F3n '${sectionName}' en ${site.name}`,
               feed_category: resolveCategory(section),
               items: feed.items,
               lastItemDate: feed.lastItemDate,
             })
+            navbarFeeds++
+            process.stdout.write(`✓ ${feed.type} (${feed.items} items)\n`)
+          } else {
+            process.stdout.write(`✗ sin feed\n`)
           }
         }
-        if (discovered.length > 0) fallbackFound++
-      }
-    }
-
-    if (discovered.length === 0) {
-      if (categories && categories.length > 0) {
-        process.stdout.write('⏭ sin feeds nuevos\n')
-      } else if (!categories) {
-        process.stdout.write('⏭ sin feeds detectados\n')
       } else {
-        process.stdout.write('⏭ sin secciones relevantes\n')
+        process.stdout.write(' ✗ no encontrada\n')
       }
-      continue
     }
 
     totalNew += discovered.length
-    const sourceLabel = wpDiscovered ? 'WP' : 'fallback'
-    process.stdout.write(`✅ ${discovered.length} feeds (${sourceLabel})\n`)
 
     for (const d of discovered) {
       const lastChecked = new Date().toISOString()
+      let isStale = false
+      if (d.lastItemDate) {
+        if (daysSince(d.lastItemDate) > STALE_THRESHOLD_DAYS) isStale = true
+      }
+
       const feedObj = {
         id: d.id,
         name: d.name,
         rss_url: d.rss_url,
-        description: d.description,
-        feed_type: d.feed_type,
       }
+      if (d.pageUrl) feedObj.url = d.pageUrl
+      feedObj.description = d.description
+      feedObj.feed_type = d.feed_type
       if (d.feed_category) feedObj.category = d.feed_category
       feedObj.last_checked = lastChecked
       feedObj.last_known_item_date = d.lastItemDate || lastChecked
-
-      // Staleness check: if the most recent item is older than 30 days, mark as stale
-      let isStale = false
-      if (d.lastItemDate) {
-        const daysSince = (Date.now() - new Date(d.lastItemDate).getTime()) / (1000 * 60 * 60 * 24)
-        if (daysSince > STALE_THRESHOLD_DAYS) isStale = true
-      }
       feedObj.status = isStale ? 'stale' : 'active'
       feedObj.verified = true
 
@@ -578,35 +675,31 @@ let redirectCount = 0  // module-level, accessed from testFeedUrl
 
   // ─── Report ──────────────────────────────────────────────────────────────────
 
-  const redirectNote = redirectCount > 0 ? `, ${redirectCount} rechazado(s) por redirección` : ''
-  const summary = `\n📊 Resumen: ${totalNew} feeds descubiertos (${wpApiFound} WP API, ${fallbackFound} fallback${redirectNote})`
+  const redirectNote = redirectCount > 0 ? `, ${redirectCount} por redirección` : ''
+  console.log(`\n📊 Resumen:`)
+  console.log(`  API WP:   ${wpSections.toString().padStart(3)} secciones → ${wpFeeds} feeds`)
+  console.log(`  Sitemap:  ${sitemapSections.toString().padStart(3)} secciones → ${sitemapFeeds} feeds`)
+  console.log(`  Navbar:   ${navbarSections.toString().padStart(3)} secciones → ${navbarFeeds} feeds`)
+  console.log(`  Total:    ${totalNew} feeds nuevos${redirectNote}`)
 
   if (isDryRun) {
-    console.log(summary)
     console.log('🔍 Dry-run — no se modificó ningún archivo')
     process.exit(0)
   }
 
   if (totalNew === 0) {
-    console.log(summary)
     console.log('✅ Todo al día — ningún feed nuevo por agregar')
     process.exit(0)
   }
 
   // ─── Update total_feeds ──────────────────────────────────────────────────────
 
-  const activeCount = db.sites.reduce((sum, s) =>
-    sum + s.feeds.filter(f => f.status === 'active' && f.verified === true).length, 0
-  )
-  db.total_feeds = activeCount
-  db.last_updated = new Date().toISOString()
+  const activeCount = recalculateTotalFeeds(db)
 
   if (isUpdate) {
     fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2) + '\n', 'utf8')
-    console.log(summary)
     console.log(`✅ feeds-database.json actualizado — ${db.sites.length} sitios, ${activeCount} feeds activos`)
   } else {
-    console.log(summary)
     console.log('ℹ️  Usa --update para escribir los cambios en feeds-database.json')
   }
 })()

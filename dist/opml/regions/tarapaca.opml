@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Tarapacá (21 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Tarapacá (32 feeds)</title>
     <description>Feeds RSS de la Región de Tarapacá, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <dateCreated>2026-06-15T04:32:04.909Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="CEI Noticias" title="CEI Noticias" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://ceinoticias.cl/feed/" htmlUrl="https://ceinoticias.cl"/>
+    <outline type="rss" text="CEI Noticias - Cultura" title="CEI Noticias - Cultura" description="Feed de la categoría 'Cultura' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/cultura/feed/" htmlUrl="https://ceinoticias.cl/category/cultura/"/>
+    <outline type="rss" text="CEI Noticias - Cultura Y Espectáculo" title="CEI Noticias - Cultura Y Espectáculo" description="Feed de la categoría 'Cultura Y Espectáculo' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/cultura/cultura-y-espectaculo/feed/" htmlUrl="https://ceinoticias.cl/category/cultura/cultura-y-espectaculo/"/>
+    <outline type="rss" text="CEI Noticias - Deporte" title="CEI Noticias - Deporte" description="Feed de la categoría 'Deporte' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/deporte/feed/" htmlUrl="https://ceinoticias.cl/category/deporte/"/>
+    <outline type="rss" text="CEI Noticias - Educación" title="CEI Noticias - Educación" description="Feed de la categoría 'Educación' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/educacion/feed/" htmlUrl="https://ceinoticias.cl/category/educacion/"/>
     <outline type="rss" text="CEI Noticias - Google News" title="CEI Noticias - Google News" description="Resultados de site:ceinoticias.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ceinoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ceinoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="CEI Noticias - Nacional" title="CEI Noticias - Nacional" description="Feed de la categoría 'Nacional' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/noticias/nacional/feed/" htmlUrl="https://ceinoticias.cl/category/noticias/nacional/"/>
+    <outline type="rss" text="CEI Noticias - Noticias" title="CEI Noticias - Noticias" description="Feed de la categoría 'Noticias' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/noticias/feed/" htmlUrl="https://ceinoticias.cl/category/noticias/"/>
+    <outline type="rss" text="CEI Noticias - Policial" title="CEI Noticias - Policial" description="Feed de la categoría 'Policial' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/policial/feed/" htmlUrl="https://ceinoticias.cl/category/policial/"/>
+    <outline type="rss" text="CEI Noticias - Política" title="CEI Noticias - Política" description="Feed de la categoría 'Política' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/politica/feed/" htmlUrl="https://ceinoticias.cl/category/politica/"/>
+    <outline type="rss" text="CEI Noticias - Regional" title="CEI Noticias - Regional" description="Feed de la categoría 'Regional' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/noticias/regional/feed/" htmlUrl="https://ceinoticias.cl/category/noticias/regional/"/>
+    <outline type="rss" text="CEI Noticias - Salud" title="CEI Noticias - Salud" description="Feed de la categoría 'Salud' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/salud/feed/" htmlUrl="https://ceinoticias.cl/category/salud/"/>
+    <outline type="rss" text="CEI Noticias - Tendencias" title="CEI Noticias - Tendencias" description="Feed de la categoría 'Tendencias' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/cultura/tendencias/feed/" htmlUrl="https://ceinoticias.cl/category/cultura/tendencias/"/>
     <outline type="rss" text="Chile Mosaico - Google News" title="Chile Mosaico - Google News" description="Resultados de site:chilemosaico.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chilemosaico.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chilemosaico.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario El Longino" title="Diario El Longino" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.diariolongino.cl/feed/" htmlUrl="https://www.diariolongino.cl"/>
     <outline type="rss" text="Diario El Longino - Bing News" title="Diario El Longino - Bing News" description="Resultados de site:diariolongino.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:diariolongino.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:diariolongino.cl"/>

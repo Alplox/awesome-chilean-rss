@@ -104,25 +104,11 @@ for (const reg of Object.keys(sitesByRegion)) {
 const allFeeds = Object.values(feedsByCategory).flat();
 const realFeedCount = new Set(allFeeds.map(f => f.siteId)).size;
 
-// Orden de categorías en el documento
+// Orden de categorías en el documento (desde categories[].order)
 const REGIONAL_CAT = 'regional';
-const CATEGORY_ORDER = [
-  'news',
-  'news-international',
-  'technology',
-  'government',
-  'universities',
-  REGIONAL_CAT,
-  'business',
-  'culture',
-  'sports',
-  'community',
-];
 
-const orderedCategories = [
-  ...CATEGORY_ORDER.filter(c => feedsByCategory[c]),
-  ...Object.keys(feedsByCategory).filter(c => !CATEGORY_ORDER.includes(c)).sort(),
-];
+const orderedCategories = Object.keys(feedsByCategory)
+  .sort((a, b) => (categories[a]?.order ?? 99) - (categories[b]?.order ?? 99));
 
 // ─── Generar OPML ─────────────────────────────────────────────────────────────
 

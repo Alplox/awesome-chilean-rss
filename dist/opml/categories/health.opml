@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (2 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (13 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <dateCreated>2026-06-15T04:32:04.909Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="Alerta Noticias - Salud" title="Alerta Noticias - Salud" description="Feed de la categoría 'Salud' en Alerta Noticias" xmlUrl="https://alertanoticias.cl/category/salud/feed/" htmlUrl="https://alertanoticias.cl/category/salud/"/>
+    <outline type="rss" text="Alerta Noticias Temuco - Salud" title="Alerta Noticias Temuco - Salud" description="Feed de la categoría 'Salud' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/salud/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/salud/"/>
+    <outline type="rss" text="Antofagasta Noticias - Salud" title="Antofagasta Noticias - Salud" description="Feed de la categoría 'Salud' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/salud/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/salud/"/>
+    <outline type="rss" text="Araucanía Noticias - Salud" title="Araucanía Noticias - Salud" description="Feed de la categoría 'Salud' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/salud/feed/" htmlUrl="https://araucanianoticias.cl/category/salud/"/>
+    <outline type="rss" text="Araucanía Noticias - Salud Mental" title="Araucanía Noticias - Salud Mental" description="Feed de la categoría 'Salud Mental' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/salud-mental/feed/" htmlUrl="https://araucanianoticias.cl/category/salud-mental/"/>
+    <outline type="rss" text="Atentos - Salud" title="Atentos - Salud" description="Feed de la categoría 'Salud' en Atentos" xmlUrl="https://www.atentos.cl/category/salud/feed/" htmlUrl="https://www.atentos.cl/category/salud/"/>
+    <outline type="rss" text="Calama en Línea - Salud" title="Calama en Línea - Salud" description="Feed de la categoría 'Salud' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/salud/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/salud/"/>
+    <outline type="rss" text="CEI Noticias - Salud" title="CEI Noticias - Salud" description="Feed de la categoría 'Salud' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/salud/feed/" htmlUrl="https://ceinoticias.cl/category/salud/"/>
+    <outline type="rss" text="ChileCompra - Salud" title="ChileCompra - Salud" description="Feed de la categoría 'Salud' en ChileCompra" xmlUrl="https://www.chilecompra.cl/category/centro-de-documentacion/normativa/salud/feed/" htmlUrl="https://www.chilecompra.cl/category/centro-de-documentacion/normativa/salud/"/>
+    <outline type="rss" text="Diálogo Sur - Salud" title="Diálogo Sur - Salud" description="Feed de la categoría 'Salud' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/salud/feed/" htmlUrl="https://dialogosur.cl/category/salud/"/>
+    <outline type="rss" text="Diario Antofagasta - Salud" title="Diario Antofagasta - Salud" description="Feed de la categoría 'Salud' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/salud/feed/" htmlUrl="https://www.diarioantofagasta.cl/salud/"/>
     <outline type="rss" text="Pediatría y Salud" title="Pediatría y Salud" description="Divulgación de salud infantil para familias chilenas" xmlUrl="https://pediatriaysalud.cl/feed" htmlUrl="https://pediatriaysalud.cl"/>
     <outline type="rss" text="Pediatría y Salud - Google News" title="Pediatría y Salud - Google News" description="Resultados de site:pediatriaysalud.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pediatriaysalud.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pediatriaysalud.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>

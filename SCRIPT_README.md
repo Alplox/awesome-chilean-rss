@@ -68,6 +68,8 @@ La lógica de red y redescubrimiento está organizada en módulos independientes
 | `lib/feed-validator.js`  | Parseo RSS/Atom/JSON/RDF: `fetchSafe`, `checkFeedUrl`, `detectFeedType`, `getMostRecentDate`, `readResponseBody` |
 | `lib/network-utils.js`   | Red: `checkSiteReachable`, `checkCertError`, `tryFetchFeedInsecure`, `isValidUrl` |
 | `lib/feed-rediscovery.js`| Redescubrimiento: `extractFeedLinksFromHtml`, `rediscoverFeed`, `FEED_PATTERNS`, `parseLinkHeader`, `extractJsonLdFeeds` |
+| `lib/feed-utils.js`      | Utilidades compartidas: `extractSelfLink`, `pathsMatch`, `daysSince`, `isStale`, `formatError`, `recalculateTotalFeeds`, `ALLOWED_STATUSES`, `BROKEN_ERRORS`, `getDomain`, `STALE_THRESHOLD_DAYS` |
+| `lib/cli-args.js`        | Parseo centralizado de args CLI: `parseArgs`, `applyFilters`, `applyFiltersSites` |
 | `lib/prompter.js`        | Prompts: `promptUser`, `promptUrl`, `promptStatus`, `isAutomatic` |
 | `lib/watchlist-validator.js` | Watchlist: `validateWatchlistEntry`, `promoteToSite` |
 | `lib/rate-limiter.js`    | Control de concurrencia: máximo 5 requests globales, mínimo 2s entre requests al mismo dominio |
@@ -318,15 +320,18 @@ npm run validate -- --limit 10 --automatic
 {
   "news": {
     "label": "📰 Noticias Nacionales",
-    "slugs": ["noticias", "nacional", "actualidad", "chile", "pais", "politica"]
+    "slugs": ["noticias", "nacional", "actualidad", "chile", "pais", "politica"],
+    "order": 1
   },
   "technology": {
     "label": "💻 Tecnología y Startups",
-    "slugs": ["tecnologia", "tech", "ciencia", "innovacion", "digital"]
+    "slugs": ["tecnologia", "tech", "ciencia", "innovacion", "digital"],
+    "order": 3
   }
 }
 ```
 
+`order` define la posición de la categoría en los outputs generados (OPML, README).
 Usado por generate.js, validate-json.js, discover-category-feeds.js y validate-watchlist.js.
 El array `slugs` permite que `discover-category-feeds.js` asigne automáticamente la categoría correcta a feeds descubiertos según el slug de WordPress.
 
@@ -453,7 +458,7 @@ Para cada feed en `sites[]`:
 | `news` | 📰 Noticias Nacionales |
 | `news-international` | 🌐 Noticias Internacionales |
 | `government` | 🏛️ Gobierno y Datos Públicos |
-| `universities` | 🏫 Universidades e Investigación |
+| `education` | 🏫 Educación, Universidades e Investigación |
 | `regional` | 🌎 Medios Regionales |
 | `business` | 💼 Negocios y Finanzas |
 | `technology` | 💻 Tecnología y Startups |

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Aysén (10 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Aysén (15 feeds)</title>
     <description>Feeds RSS de la Región de Aysén, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <dateCreated>2026-06-15T04:32:04.909Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Aysén Ahora" title="Aysén Ahora" description="Diario regional de Puerto Aysén, Aysén" xmlUrl="https://aysenahora.cl/feed/" htmlUrl="https://aysenahora.cl"/>
+    <outline type="rss" text="Aysén Ahora - Cultura" title="Aysén Ahora - Cultura" description="Feed de la categoría 'Cultura' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/cultura/feed/" htmlUrl="https://www.aysenahora.cl/category/cultura/"/>
+    <outline type="rss" text="Aysén Ahora - Deporte" title="Aysén Ahora - Deporte" description="Feed de la categoría 'Deporte' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/deporte/feed/" htmlUrl="https://www.aysenahora.cl/category/deporte/"/>
     <outline type="rss" text="Aysén Ahora - Google News" title="Aysén Ahora - Google News" description="Resultados de site:aysenahora.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Aysén Ahora - Nacional" title="Aysén Ahora - Nacional" description="Feed de la categoría 'Nacional' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/nacional/feed/" htmlUrl="https://www.aysenahora.cl/category/nacional/"/>
+    <outline type="rss" text="Aysén Ahora - Noticias" title="Aysén Ahora - Noticias" description="Feed de la categoría 'Noticias' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/noticias/feed/" htmlUrl="https://www.aysenahora.cl/category/noticias/"/>
+    <outline type="rss" text="Aysén Ahora - Regional" title="Aysén Ahora - Regional" description="Feed de la categoría 'Regional' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/regional/feed/" htmlUrl="https://www.aysenahora.cl/category/regional/"/>
     <outline type="rss" text="El Divisadero - Bing News" title="El Divisadero - Bing News" description="Resultados de site:eldivisadero.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:eldivisadero.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:eldivisadero.cl"/>
     <outline type="rss" text="El Divisadero - Google News" title="El Divisadero - Google News" description="Resultados de site:eldivisadero.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:eldivisadero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:eldivisadero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Región Aysén" title="Google News - Chile - Región Aysén" description="Noticias locales de la Región de Aysén vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

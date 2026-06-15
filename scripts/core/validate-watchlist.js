@@ -17,30 +17,13 @@
  */
 
 import { readFileSync, writeFileSync } from 'fs';
-import { createInterface } from 'readline';
 import { validateWatchlistEntry } from '../../lib/watchlist-validator.js';
-import { isAutomatic } from '../../lib/prompter.js';
+import { isAutomatic, promptUser } from '../../lib/prompter.js';
+import { parseArgs, applyFilters } from '../../lib/cli-args.js';
+import { recalculateTotalFeeds } from '../../lib/feed-utils.js';
 
-const args = process.argv.slice(2);
-const shouldUpdate = args.includes('--update');
-const idIndex = args.indexOf('--id');
-const targetId = idIndex !== -1 && args[idIndex + 1] ? args[idIndex + 1] : null;
-const targetFrom = args.includes('--from') ? parseInt(args[args.indexOf('--from') + 1], 10) : null;
-const targetTo = args.includes('--to') ? parseInt(args[args.indexOf('--to') + 1], 10) : null;
-const targetStartId = args.includes('--start-id') ? args[args.indexOf('--start-id') + 1] : null;
-const targetLimit = args.includes('--limit') ? parseInt(args[args.indexOf('--limit') + 1], 10) : null;
-
-function promptMove(name) {
-  if (!process.stdin.isTTY || isAutomatic()) return Promise.resolve(true);
-  const rl = createInterface({ input: process.stdin, output: process.stdout });
-  return new Promise(resolve => {
-    rl.question(`   ¿Promover "${name}" a sites ahora? [Y/n]: `, answer => {
-      rl.close();
-      const input = answer.trim().toLowerCase();
-      resolve(input === '' || input === 'y' || input === 'yes' || input === 's' || input === 'si');
-    });
-  });
-}
+const args = parseArgs(process.argv);
+const shouldUpdate = args.update;
 
 const watchlist = JSON.parse(readFileSync('watchlist.json', 'utf-8'));
 const db = JSON.parse(readFileSync('feeds-database.json', 'utf-8'));
@@ -50,36 +33,7 @@ if (!watchlist.length) {
   process.exit(0);
 }
 
-let entries = watchlist;
-if (targetId) {
-  const found = watchlist.find(e => e.id === targetId);
-  if (!found) {
-    console.log(`❌ No se encontró "${targetId}" en watchlist.json\n`);
-    process.exit(1);
-  }
-  entries = [found];
-}
-
-if (targetStartId) {
-  const startIdx = entries.findIndex(e => e.id === targetStartId);
-  if (startIdx === -1) {
-    console.log(`❌ No se encontró "${targetStartId}" en watchlist.json\n`);
-    process.exit(1);
-  }
-  entries = entries.slice(startIdx);
-}
-
-if (targetFrom !== null && targetTo !== null) {
-  entries = entries.slice(targetFrom, targetTo + 1);
-} else if (targetFrom !== null) {
-  entries = entries.slice(targetFrom);
-} else if (targetTo !== null) {
-  entries = entries.slice(0, targetTo + 1);
-}
-
-if (targetLimit !== null) {
-  entries = entries.slice(0, targetLimit);
-}
+let entries = applyFilters(watchlist, args);
 
 if (entries.length === 0) {
   console.log('🏁 No hay entradas para validar en el rango especificado.\n');
@@ -110,7 +64,7 @@ for (const entry of entries) {
     }
 
     if (shouldUpdate) {
-      const move = await promptMove(entry.name);
+      const move = await promptUser(`   ¿Promover "${entry.name}" a sites ahora? [Y/n]: `);
       if (move) {
         promoted.push(result.siteEntry);
       } else {
@@ -202,14 +156,7 @@ if (errors.proxyBroken.length) {
 
 let saveFiles;
 if (!shouldUpdate && promoted.length && !isAutomatic() && process.stdin.isTTY) {
-  const rl = createInterface({ input: process.stdin, output: process.stdout });
-  saveFiles = await new Promise(resolve => {
-    rl.question(`\n💾 ¿Guardar los cambios (promover ${promoted.length} sitio(s) a sites)? [y/N]: `, answer => {
-      rl.close();
-      const input = answer.trim().toLowerCase();
-      resolve(input === 'y' || input === 'yes' || input === 's' || input === 'si');
-    });
-  });
+  saveFiles = await promptUser(`\n💾 ¿Guardar los cambios (promover ${promoted.length} sitio(s) a sites)? [y/N]: `, { defaultYes: false });
 }
 
 if (shouldUpdate || saveFiles) {
@@ -217,11 +164,7 @@ if (shouldUpdate || saveFiles) {
     for (const siteEntry of promoted) {
       db.sites.push(siteEntry);
     }
-    db.total_feeds = db.sites.reduce(
-      (sum, site) => sum + site.feeds.filter(f => f.status === 'active' && f.verified).length,
-      0,
-    );
-    db.last_updated = new Date().toISOString();
+    db.total_feeds = recalculateTotalFeeds(db);
     writeFileSync('feeds-database.json', JSON.stringify(db, null, 2), 'utf-8');
 
     const remaining = watchlist.filter(w => !promoted.some(p => p.id === w.id));

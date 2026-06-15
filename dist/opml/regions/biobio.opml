@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Biobío (14 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Biobío (15 feeds)</title>
     <description>Feeds RSS de la Región de Biobío, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <dateCreated>2026-06-15T04:32:04.909Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="Angelino - Nacional" title="Angelino - Nacional" description="Feed de la categoría 'Nacional' en Angelino" xmlUrl="https://www.angelino.cl/?feed=rss2" htmlUrl="https://www.angelino.cl/category/nacional/"/>
     <outline type="rss" text="Canal 9 Biobío - Google News" title="Canal 9 Biobío - Google News" description="Resultados de site:canal9.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:canal9.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:canal9.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario Concepción" title="Diario Concepción" description="Diario regional con cobertura informativa de la Región del Biobío" xmlUrl="https://www.diarioconcepcion.cl/rss.xml" htmlUrl="https://www.diarioconcepcion.cl"/>
     <outline type="rss" text="Diario Concepción - Bing News" title="Diario Concepción - Bing News" description="Resultados de site:diarioconcepcion.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:diarioconcepcion.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:diarioconcepcion.cl"/>

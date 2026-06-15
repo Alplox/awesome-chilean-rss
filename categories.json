@@ -1,62 +1,232 @@
 {
   "news": {
     "label": "📰 Noticias Nacionales",
-    "slugs": ["noticias", "nacional", "actualidad", "chile", "pais", "noticia", "politica"]
+    "slugs": [
+      "noticias",
+      "nacional",
+      "actualidad",
+      "chile",
+      "pais",
+      "noticia",
+      "politica"
+    ],
+    "order": 1
   },
   "news-international": {
     "label": "🌐 Noticias Internacionales",
-    "slugs": ["internacional", "mundo", "global", "exterior"]
-  },
-  "government": {
-    "label": "🏛️ Gobierno y Datos Públicos",
-    "slugs": ["gobierno", "municipal", "municipio", "publico"]
-  },
-  "universities": {
-    "label": "🏫 Universidades e Investigación",
-    "slugs": ["universidad", "universidades", "educacion", "academia"]
+    "slugs": [
+      "internacional",
+      "mundo",
+      "global",
+      "exterior"
+    ],
+    "order": 2
   },
   "regional": {
     "label": "🌎 Medios Regionales",
-    "slugs": ["regional", "region", "local", "comuna", "provincia"]
-  },
-  "business": {
-    "label": "💼 Negocios y Finanzas",
-    "slugs": ["negocios", "finanzas", "economia", "empresarial", "mercados"]
+    "slugs": [
+      "regional",
+      "region",
+      "local",
+      "comuna",
+      "provincia"
+    ],
+    "order": 3
   },
   "technology": {
     "label": "💻 Tecnología y Startups",
-    "slugs": ["tecnologia", "tech", "ciencia", "innovacion", "digital"]
+    "slugs": [
+      "tecnologia",
+      "tech",
+      "ciencia",
+      "innovacion",
+      "digital",
+      "ciencia-y-tecnologia",
+      "ciencia-tecnologia"
+    ],
+    "order": 4
+  },
+  "government": {
+    "label": "🏛️ Gobierno y Datos Públicos",
+    "slugs": [
+      "gobierno",
+      "municipal",
+      "municipio",
+      "publico",
+      "licitaciones-y-publicaciones"
+    ],
+    "order": 5
+  },
+  "education": {
+    "label": "🏫 Educación, Universidades e Investigación",
+    "slugs": [
+      "universidad",
+      "universidades",
+      "educacion",
+      "academia",
+      "educacion-superior",
+      "educacionales"
+    ],
+    "order": 6
+  },
+  "business": {
+    "label": "💼 Negocios y Finanzas",
+    "slugs": [
+      "negocios",
+      "finanzas",
+      "economia",
+      "empresarial",
+      "mercados",
+      "emprendedores",
+      "emprendimiento",
+      "pymes"
+    ],
+    "order": 7
+  },
+  "jobs": {
+    "label": "💼 Ofertas laborales y empleabilidad",
+    "slugs": [
+      "jobs",
+      "empleos",
+      "clasificados",
+      "ofertas-trabajo",
+      "empleabilidad",
+      "trabajos",
+      "trabaja-con-nosotros"
+    ],
+    "order": 8
   },
   "culture": {
     "label": "🎨 Cultura y Divulgación",
-    "slugs": ["cultura", "arte", "musica", "cine", "teatro", "anime-y-manga"]
+    "slugs": [
+      "cultura",
+      "arte",
+      "musica",
+      "cine",
+      "teatro",
+      "anime-y-manga",
+      "cultura-y-espectaculo",
+      "cultura-y-espectaculos",
+      "culturales"
+    ],
+    "order": 9
   },
   "community": {
     "label": "👥 Comunidad",
-    "slugs": ["comunidad", "social", "sociedad", "eventos"]
+    "slugs": [
+      "comunidad",
+      "social",
+      "sociedad",
+      "eventos",
+      "turismo",
+      "capacitacion",
+      "inclusion",
+      "viajes-y-turismo"
+    ],
+    "order": 10
   },
   "sports": {
     "label": "⚽ Deportes",
-    "slugs": ["deportes", "deporte", "futbol", "tenis"]
+    "slugs": [
+      "deportes",
+      "deporte",
+      "futbol",
+      "tenis",
+      "deportes-locales",
+      "golf",
+      "deportes-acuaticos",
+      "polideportivo",
+      "judo",
+      "voleiball",
+      "atletismo",
+      "lucha",
+      "hockey",
+      "motociclismo",
+      "olimpicos",
+      "basquetboll",
+      "rugby",
+      "velerismo",
+      "automovilismo",
+      "lucha",
+      "canotaje"
+    ],
+    "order": 11
   },
   "gaming": {
     "label": "🎮 Videojuegos y Gaming",
-    "slugs": ["videojuegos", "gaming", "gamer", "juegos", "e-sports", "nintendo", "playstation", "xbox", "ps5", "pc", "esports", "pokemon", "riot-games", "league-of-legends"]
+    "slugs": [
+      "videojuegos",
+      "gaming",
+      "gamer",
+      "juegos",
+      "e-sports",
+      "nintendo",
+      "playstation",
+      "xbox",
+      "ps5",
+      "pc",
+      "esports",
+      "pokemon",
+      "riot-games",
+      "league-of-legends"
+    ],
+    "order": 12
   },
   "environment": {
     "label": "🌿 Medio Ambiente y Naturaleza",
-    "slugs": ["medio-ambiente", "naturaleza", "sostenibilidad", "sustentabilidad", "clima", "conservacion", "ecologia"]
+    "slugs": [
+      "medio-ambiente",
+      "medioambiente",
+      "medioambiente-y-turismo",
+      "naturaleza",
+      "nature",
+      "weather",
+      "sostenibilidad",
+      "sustentabilidad",
+      "clima",
+      "conservacion",
+      "ecologia"
+    ],
+    "order": 13
   },
   "entertainment": {
     "label": "🎭 Espectáculos y Entretención",
-    "slugs": ["espectaculos", "entretencion", "entretenimiento", "farandula", "showbiz", "rumores"]
+    "slugs": [
+      "espectaculos",
+      "entretencion",
+      "entretenimiento",
+      "farandula",
+      "showbiz",
+      "rumores",
+      "cine-y-television",
+      "television",
+      "series",
+      "tv-y-espectaculo"
+    ],
+    "order": 14
   },
   "radio": {
     "label": "📻 Radio y Música",
-    "slugs": ["radio", "musica", "musical", "emisora"]
+    "slugs": [
+      "radio",
+      "musica",
+      "musical",
+      "emisora"
+    ],
+    "order": 15
   },
   "health": {
     "label": "🏥 Salud y Bienestar",
-    "slugs": ["salud", "medicina", "bienestar"]
+    "slugs": [
+      "salud",
+      "medicina",
+      "bienestar",
+      "salud-mental",
+      "autocuidado",
+      "covid",
+      "coronavirus",
+      "pandemia"
+    ],
+    "order": 16
   }
 }

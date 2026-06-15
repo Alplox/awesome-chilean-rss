@@ -3,10 +3,10 @@
  * Usado por el workflow de CI.
  */
 import { readFileSync } from 'fs';
+import { ALLOWED_STATUSES } from '../../lib/feed-utils.js';
 
 const REQUIRED_SITE_FIELDS = ['id', 'name', 'url', 'category', 'feeds'];
 const REQUIRED_FEED_FIELDS = ['id', 'name', 'rss_url'];
-const ALLOWED_STATUSES = ['active', 'stale', 'broken', 'offline', 'no_feed', 'feed_empty'];
 const REQUIRED_WATCH_FIELDS = ['id', 'name', 'url', 'category', 'description', 'reason', 'feeds'];
 
 let exitCode = 0;
@@ -32,6 +32,9 @@ for (const [key, val] of Object.entries(categories)) {
   }
   if (!Array.isArray(val.slugs)) {
     error(`Categoría "${key}" debe tener un array "slugs"`);
+  }
+  if (val.order !== undefined && (!Number.isInteger(val.order) || val.order < 1)) {
+    error(`Categoría "${key}" — "order" debe ser un entero ≥ 1`);
   }
 }
 

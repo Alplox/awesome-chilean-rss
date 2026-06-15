@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Maule (29 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Maule (45 feeds)</title>
     <description>Feeds RSS de la Región de Maule, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <dateCreated>2026-06-15T04:32:04.909Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Atentos" title="Atentos" description="Diario regional de Talca, Maule" xmlUrl="https://www.atentos.cl/feed/" htmlUrl="https://www.atentos.cl"/>
+    <outline type="rss" text="Atentos - Columnas" title="Atentos - Columnas" description="Feed de la categoría 'Columnas' en Atentos" xmlUrl="https://www.atentos.cl/category/columnas/feed/" htmlUrl="https://www.atentos.cl/category/columnas/"/>
+    <outline type="rss" text="Atentos - Constitución" title="Atentos - Constitución" description="Feed de la categoría 'Constitución' en Atentos" xmlUrl="https://www.atentos.cl/category/constitucion/feed/" htmlUrl="https://www.atentos.cl/category/constitucion/"/>
     <outline type="rss" text="Atentos - Google News" title="Atentos - Google News" description="Resultados de site:atentos.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:atentos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:atentos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Atentos - Internacional" title="Atentos - Internacional" description="Feed de la categoría 'Internacional' en Atentos" xmlUrl="https://www.atentos.cl/category/internacional/feed/" htmlUrl="https://www.atentos.cl/category/internacional/"/>
+    <outline type="rss" text="Atentos - Opinión" title="Atentos - Opinión" description="Feed de la categoría 'Opinión' en Atentos" xmlUrl="https://www.atentos.cl/category/opinion/feed/" htmlUrl="https://www.atentos.cl/category/opinion/"/>
+    <outline type="rss" text="Atentos - Política" title="Atentos - Política" description="Feed de la categoría 'Política' en Atentos" xmlUrl="https://www.atentos.cl/category/politica/feed/" htmlUrl="https://www.atentos.cl/category/politica/"/>
+    <outline type="rss" text="Atentos - Regional" title="Atentos - Regional" description="Feed de la categoría 'Regional' en Atentos" xmlUrl="https://www.atentos.cl/category/regional/feed/" htmlUrl="https://www.atentos.cl/category/regional/"/>
+    <outline type="rss" text="Atentos - Salud" title="Atentos - Salud" description="Feed de la categoría 'Salud' en Atentos" xmlUrl="https://www.atentos.cl/category/salud/feed/" htmlUrl="https://www.atentos.cl/category/salud/"/>
+    <outline type="rss" text="Atentos - Talca" title="Atentos - Talca" description="Feed de la categoría 'Talca' en Atentos" xmlUrl="https://www.atentos.cl/category/talca/feed/" htmlUrl="https://www.atentos.cl/category/talca/"/>
+    <outline type="rss" text="Atentos - Trabajo" title="Atentos - Trabajo" description="Feed de la categoría 'Trabajo' en Atentos" xmlUrl="https://www.atentos.cl/category/trabajo/feed/" htmlUrl="https://www.atentos.cl/category/trabajo/"/>
+    <outline type="rss" text="Atentos - Vivienda" title="Atentos - Vivienda" description="Feed de la categoría 'Vivienda' en Atentos" xmlUrl="https://www.atentos.cl/category/vivienda/feed/" htmlUrl="https://www.atentos.cl/category/vivienda/"/>
     <outline type="rss" text="CauquenesNet" title="CauquenesNet" description="Diario regional de Cauquenes, Maule" xmlUrl="https://www.cauquenesnet.cl/feed/" htmlUrl="https://www.cauquenesnet.cl"/>
+    <outline type="rss" text="CauquenesNet - Avisos" title="CauquenesNet - Avisos" description="Feed de la sección 'Avisos' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=avisos" htmlUrl="https://www.cauquenesnet.cl/avisos/"/>
+    <outline type="rss" text="CauquenesNet - Corporativo" title="CauquenesNet - Corporativo" description="Feed de la sección 'Corporativo' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=corporativo" htmlUrl="https://www.cauquenesnet.cl/corporativo/"/>
+    <outline type="rss" text="CauquenesNet - Eltiempo" title="CauquenesNet - Eltiempo" description="Feed de la sección 'Eltiempo' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=eltiempo" htmlUrl="https://www.cauquenesnet.cl/eltiempo/"/>
+    <outline type="rss" text="CauquenesNet - Radio" title="CauquenesNet - Radio" description="Feed de la sección 'Radio' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=radio" htmlUrl="https://www.cauquenesnet.cl/radio/"/>
+    <outline type="rss" text="CauquenesNet - Radiopachanga" title="CauquenesNet - Radiopachanga" description="Feed de la sección 'Radiopachanga' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=radiopachanga" htmlUrl="https://www.cauquenesnet.cl/radiopachanga/"/>
+    <outline type="rss" text="CauquenesNet - Tv" title="CauquenesNet - Tv" description="Feed de la sección 'Tv' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=tv" htmlUrl="https://www.cauquenesnet.cl/tv/"/>
     <outline type="rss" text="Diario Cauquenes" title="Diario Cauquenes" description="Diario regional de Cauquenes, Maule" xmlUrl="https://www.diariocauquenes.cl/feed/" htmlUrl="https://www.diariocauquenes.cl"/>
     <outline type="rss" text="Diario Cauquenes - Google News" title="Diario Cauquenes - Google News" description="Resultados de site:diariocauquenes.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diariocauquenes.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diariocauquenes.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario Curicó" title="Diario Curicó" description="Diario regional de Curicó, Maule" xmlUrl="https://www.diariocurico.cl/feed/" htmlUrl="https://www.diariocurico.cl"/>

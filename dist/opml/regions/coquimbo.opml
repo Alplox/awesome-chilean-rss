@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Coquimbo (42 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Coquimbo (54 feeds)</title>
     <description>Feeds RSS de la Región de Coquimbo, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <dateCreated>2026-06-15T04:32:04.909Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="David Noticias" title="David Noticias" description="Diario regional de Los Vilos, Coquimbo" xmlUrl="https://www.davidnoticias.cl/feed/" htmlUrl="https://www.davidnoticias.cl"/>
+    <outline type="rss" text="David Noticias - Choapa" title="David Noticias - Choapa" description="Feed de la categoría 'Choapa' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/choapa/feed/" htmlUrl="https://www.davidnoticias.cl/category/choapa/"/>
+    <outline type="rss" text="David Noticias - Ciencia Y Tecnologia" title="David Noticias - Ciencia Y Tecnologia" description="Feed de la categoría 'Ciencia Y Tecnologia' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/ciencia/feed/" htmlUrl="https://www.davidnoticias.cl/category/ciencia/"/>
+    <outline type="rss" text="David Noticias - Cultura" title="David Noticias - Cultura" description="Feed de la categoría 'Cultura' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/cultura/feed/" htmlUrl="https://www.davidnoticias.cl/category/cultura/"/>
+    <outline type="rss" text="David Noticias - Deporte" title="David Noticias - Deporte" description="Feed de la categoría 'Deporte' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/deporte/feed/" htmlUrl="https://www.davidnoticias.cl/category/deporte/"/>
+    <outline type="rss" text="David Noticias - Destacados" title="David Noticias - Destacados" description="Feed de la categoría 'Destacados' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/destacados/feed/" htmlUrl="https://www.davidnoticias.cl/category/destacados/"/>
+    <outline type="rss" text="David Noticias - Economia" title="David Noticias - Economia" description="Feed de la categoría 'Economia' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/economia/feed/" htmlUrl="https://www.davidnoticias.cl/category/economia/"/>
+    <outline type="rss" text="David Noticias - Editorial" title="David Noticias - Editorial" description="Feed de la categoría 'Editorial' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/editorial/feed/" htmlUrl="https://www.davidnoticias.cl/category/editorial/"/>
     <outline type="rss" text="David Noticias - Google News" title="David Noticias - Google News" description="Resultados de site:davidnoticias.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:davidnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:davidnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="David Noticias - Mundo" title="David Noticias - Mundo" description="Feed de la categoría 'Mundo' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/mundo/feed/" htmlUrl="https://www.davidnoticias.cl/category/mundo/"/>
+    <outline type="rss" text="David Noticias - Nacional" title="David Noticias - Nacional" description="Feed de la categoría 'Nacional' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/nacional/feed/" htmlUrl="https://www.davidnoticias.cl/category/nacional/"/>
+    <outline type="rss" text="David Noticias - Opinión" title="David Noticias - Opinión" description="Feed de la categoría 'Opinión' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/opinion/feed/" htmlUrl="https://www.davidnoticias.cl/category/opinion/"/>
+    <outline type="rss" text="David Noticias - Policial" title="David Noticias - Policial" description="Feed de la categoría 'Policial' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/policial/feed/" htmlUrl="https://www.davidnoticias.cl/category/policial/"/>
+    <outline type="rss" text="David Noticias - Politica" title="David Noticias - Politica" description="Feed de la categoría 'Politica' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/politica/feed/" htmlUrl="https://www.davidnoticias.cl/category/politica/"/>
     <outline type="rss" text="Diario El Día - Actualidad" title="Diario El Día - Actualidad" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/actualidad" htmlUrl="https://www.diarioeldia.cl"/>
     <outline type="rss" text="Diario El Día - Bing News" title="Diario El Día - Bing News" description="Resultados de site:diarioeldia.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:diarioeldia.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:diarioeldia.cl"/>
     <outline type="rss" text="Diario El Día - Deportes" title="Diario El Día - Deportes" description="Diario regional de La Serena, Coquimbo" xmlUrl="https://www.diarioeldia.cl/rss/deportes" htmlUrl="https://www.diarioeldia.cl"/>

@@ -1,6 +1,8 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { parseArgs, applyFilters } from '../../lib/cli-args.js'
+import { recalculateTotalFeeds } from '../../lib/feed-utils.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '../..')
@@ -82,16 +84,14 @@ function buildSubfeeds(entry, domain) {
 
 // ─── Arg parsing ───────────────────────────────────────────────────────────
 
-const args = process.argv.slice(2)
+const args = parseArgs(process.argv, [
+  { flag: '--file', name: 'fileMode', type: 'value' },
+  { flag: '--total-mode', name: 'totalMode', type: 'value' },
+])
 
-const isDryRun = args.includes('--dry-run')
-const fileMode = args.includes('--file') ? args[args.indexOf('--file') + 1] : 'all'
-const totalMode = args.includes('--total-mode') ? args[args.indexOf('--total-mode') + 1] : 'delta'
-const targetId = args.includes('--id') ? args[args.indexOf('--id') + 1] : null
-const targetFrom = args.includes('--from') ? parseInt(args[args.indexOf('--from') + 1], 10) : null
-const targetTo = args.includes('--to') ? parseInt(args[args.indexOf('--to') + 1], 10) : null
-const targetLimit = args.includes('--limit') ? parseInt(args[args.indexOf('--limit') + 1], 10) : null
-const targetStartId = args.includes('--start-id') ? args[args.indexOf('--start-id') + 1] : null
+const isDryRun = args.dryRun
+const fileMode = args.fileMode || 'all'
+const totalMode = args.totalMode || 'delta'
 
 // ─── Arg validation ────────────────────────────────────────────────────────
 
@@ -102,36 +102,6 @@ if (!['database', 'watchlist', 'all'].includes(fileMode)) {
 
 if (!['delta', 'recalculate'].includes(totalMode)) {
   console.error('❌ Error: --total-mode debe ser delta o recalculate')
-  process.exit(1)
-}
-
-if (args.includes('--id') && (!targetId || targetId.startsWith('--'))) {
-  console.error('❌ Error: --id requiere un valor (ID del sitio)')
-  process.exit(1)
-}
-
-if (args.includes('--from') && (targetFrom === null || isNaN(targetFrom))) {
-  console.error('❌ Error: --from requiere un número válido')
-  process.exit(1)
-}
-
-if (args.includes('--to') && (targetTo === null || isNaN(targetTo))) {
-  console.error('❌ Error: --to requiere un número válido')
-  process.exit(1)
-}
-
-if (args.includes('--start-id') && (!targetStartId || targetStartId.startsWith('--'))) {
-  console.error('❌ Error: --start-id requiere un valor (ID del sitio)')
-  process.exit(1)
-}
-
-if (args.includes('--limit') && (targetLimit === null || isNaN(targetLimit))) {
-  console.error('❌ Error: --limit requiere un número válido')
-  process.exit(1)
-}
-
-if (targetFrom !== null && targetTo !== null && targetFrom > targetTo) {
-  console.error('❌ Error: --from no puede ser mayor que --to')
   process.exit(1)
 }
 
@@ -161,34 +131,17 @@ if (fileMode === 'all' || fileMode === 'watchlist') {
 
 // ─── Apply filters ─────────────────────────────────────────────────────────
 
-if (targetId) {
-  entries = entries.filter(e => e.entry.id === targetId)
-  if (entries.length === 0) {
-    console.error(`❌ No se encontró ninguna entrada con ID "${targetId}"`)
-    process.exit(1)
-  }
+const entriesWithIndex = entries.map((e, i) => ({ ...e, id: e.entry.id, _index: i }));
+let filtered = applyFilters(entriesWithIndex, args);
+
+if (filtered.length === 0 && (args.id || args.startId || args.from !== null || args.to !== null || args.limit !== null)) {
+  console.log('🏁 No hay entradas en el rango especificado.');
+  process.exit(0);
 }
 
-if (targetStartId) {
-  const startIdx = entries.findIndex(e => e.entry.id === targetStartId)
-  if (startIdx === -1) {
-    console.error(`❌ No se encontró ninguna entrada con ID "${targetStartId}" para --start-id`)
-    process.exit(1)
-  }
-  entries = entries.slice(startIdx)
-}
-
-if (targetFrom !== null) {
-  entries = entries.slice(targetFrom)
-}
-
-if (targetTo !== null) {
-  entries = entries.slice(0, targetTo + 1)
-}
-
-if (targetLimit !== null) {
-  entries = entries.slice(0, targetLimit)
-}
+// Rebuild entries from filtered, preserving original order/identity
+const filteredSet = new Set(filtered.map(e => e._index));
+entries = entries.filter((_, i) => filteredSet.has(i));
 
 // ─── Process entries ───────────────────────────────────────────────────────
 
@@ -239,11 +192,9 @@ const totalAdded = counts.database.addedGoogle + counts.database.addedBing +
 let dbDelta = counts.database.addedGoogle + counts.database.addedBing
 
 if (totalMode === 'recalculate') {
-  const activeCount = db.sites.reduce((sum, site) =>
-    sum + site.feeds.filter(f => f.status === 'active' && f.verified === true).length, 0
-  )
-  dbDelta = activeCount - db.total_feeds
-  db.total_feeds = activeCount
+  const oldTotal = db.total_feeds
+  const newTotal = recalculateTotalFeeds(db)
+  dbDelta = newTotal - oldTotal
 } else {
   db.total_feeds += dbDelta
 }

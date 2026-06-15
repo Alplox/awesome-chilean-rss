@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Los Lagos (28 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Los Lagos (34 feeds)</title>
     <description>Feeds RSS de la Región de Los Lagos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-14T03:43:25.718Z</dateCreated>
+    <dateCreated>2026-06-15T04:32:04.909Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Central Noticia" title="Central Noticia" description="Diario regional de Osorno, Los Lagos" xmlUrl="https://www.centralnoticia.cl/feed/" htmlUrl="https://www.centralnoticia.cl"/>
     <outline type="rss" text="Central Noticia - Google News" title="Central Noticia - Google News" description="Resultados de site:centralnoticia.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:centralnoticia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:centralnoticia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Central Noticia - Internacional" title="Central Noticia - Internacional" description="Feed de la categoría 'Internacional' en Central Noticia" xmlUrl="https://www.centralnoticia.cl/category/internacional/feed/" htmlUrl="https://www.centralnoticia.cl/category/internacional/"/>
+    <outline type="rss" text="Central Noticia - Nacional" title="Central Noticia - Nacional" description="Feed de la categoría 'Nacional' en Central Noticia" xmlUrl="https://www.centralnoticia.cl/category/nacional/feed/" htmlUrl="https://www.centralnoticia.cl/category/nacional/"/>
+    <outline type="rss" text="Central Noticia - Noticias" title="Central Noticia - Noticias" description="Feed de la categoría 'Noticias' en Central Noticia" xmlUrl="https://www.centralnoticia.cl/category/noticias/feed/" htmlUrl="https://www.centralnoticia.cl/category/noticias/"/>
+    <outline type="rss" text="Central Noticia - Región De Los Lagos" title="Central Noticia - Región De Los Lagos" description="Feed de la categoría 'Región De Los Lagos' en Central Noticia" xmlUrl="https://www.centralnoticia.cl/category/region-de-los-lagos/feed/" htmlUrl="https://www.centralnoticia.cl/category/region-de-los-lagos/"/>
+    <outline type="rss" text="Central Noticia - Servicios" title="Central Noticia - Servicios" description="Feed de la categoría 'Servicios' en Central Noticia" xmlUrl="https://www.centralnoticia.cl/category/servicios/feed/" htmlUrl="https://www.centralnoticia.cl/category/servicios/"/>
+    <outline type="rss" text="Central Noticia - Tendencia" title="Central Noticia - Tendencia" description="Feed de la categoría 'Tendencia' en Central Noticia" xmlUrl="https://www.centralnoticia.cl/category/tendencia/feed/" htmlUrl="https://www.centralnoticia.cl/category/tendencia/"/>
     <outline type="rss" text="Datos Sur" title="Datos Sur" description="Diario regional de Llanquihue, Puerto Montt" xmlUrl="https://www.datossur.cl/index.php?format=feed" htmlUrl="https://www.datossur.cl"/>
     <outline type="rss" text="Datos Sur - Bing News" title="Datos Sur - Bing News" description="Resultados de site:datossur.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:datossur.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:datossur.cl"/>
     <outline type="rss" text="Datos Sur - Google News" title="Datos Sur - Google News" description="Resultados de site:datossur.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:datossur.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:datossur.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
