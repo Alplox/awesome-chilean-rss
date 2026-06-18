@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (176 feeds)</title>
+    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (175 feeds)</title>
     <description>Feeds RSS de 💻 Tecnología y Startups, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -48,7 +48,6 @@
     <outline type="rss" text="Antofagasta Noticias - Ciencia y Tecnología" title="Antofagasta Noticias - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/ciencia-y-tecnologia/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/ciencia-y-tecnologia/"/>
     <outline type="rss" text="Araucanía Noticias - Ciencia y Tecnología" title="Araucanía Noticias - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/ciencia-tecnologia/feed/" htmlUrl="https://araucanianoticias.cl/category/ciencia-tecnologia/"/>
     <outline type="rss" text="Atacama Noticias - Ciencia y Tecnología" title="Atacama Noticias - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/ciencia_y_tecnologia/feed/" htmlUrl="https://www.atacamanoticias.cl/category/ciencia_y_tecnologia/"/>
-    <outline type="rss" text="Buda.com [Proxy Google News]" title="Buda.com [Proxy Google News]" description="Resultados de site:buda.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:buda.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:buda.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="CentralWeb - Tecnología" title="CentralWeb - Tecnología" description="Feed de la categoría 'Tecnología' en CentralWeb" xmlUrl="https://centralweb.cl/?cat=13&amp;feed=rss2" htmlUrl="https://centralweb.cl/?cat=13"/>
     <outline type="rss" text="Chocale - Tecnología" title="Chocale - Tecnología" description="Feed de la categoría 'Tecnología' en Chocale" xmlUrl="https://chocale.cl/tecnologia-y-moviles/feed/" htmlUrl="https://chocale.cl/tecnologia-y-moviles/"/>
     <outline type="rss" text="CriptoNoticias" title="CriptoNoticias" description="Sección chilena de CriptoNoticias sobre Bitcoin, blockchain y fintech en Chile" xmlUrl="https://www.criptonoticias.com/feed/" htmlUrl="https://www.criptonoticias.com"/>

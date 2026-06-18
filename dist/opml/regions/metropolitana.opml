@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Metropolitana de Santiago (134 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Metropolitana de Santiago (133 feeds)</title>
     <description>Feeds RSS de la Región de Metropolitana de Santiago, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -105,7 +105,6 @@
     <outline type="rss" text="Ex-Ante - Política" title="Ex-Ante - Política" description="Feed de la categoría 'Política' en Ex-Ante" xmlUrl="https://www.ex-ante.cl/category/politica/rss" htmlUrl="https://www.ex-ante.cl/category/politica/"/>
     <outline type="rss" text="Ex-Ante [Proxy Google News]" title="Ex-Ante [Proxy Google News]" description="Resultados de site:ex-ante.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ex-ante.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ex-ante.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Región Metropolitana" title="Google News - Chile - Región Metropolitana" description="Noticias locales de la Región de Metropolitana vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Santiago?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Santiago?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Hoyxhoy [Proxy Google News]" title="Hoyxhoy [Proxy Google News]" description="Resultados de site:hoyxhoy.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:hoyxhoy.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:hoyxhoy.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Razón" title="La Razón" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.larazon.cl/feed/" htmlUrl="https://www.larazon.cl"/>
     <outline type="rss" text="La Razón - Actualidad" title="La Razón - Actualidad" description="Feed de la categoría 'Actualidad' en La Razón" xmlUrl="https://www.larazon.cl/temas/actualidad/feed/" htmlUrl="https://www.larazon.cl/temas/actualidad/"/>
     <outline type="rss" text="La Razón - Arte y Cultura" title="La Razón - Arte y Cultura" description="Feed de la categoría 'Arte y Cultura' en La Razón" xmlUrl="https://www.larazon.cl/temas/arte-y-cultura/feed/" htmlUrl="https://www.larazon.cl/temas/arte-y-cultura/"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (120 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (118 feeds)</title>
     <description>Feeds RSS de 🏫 Educación, Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -79,7 +79,6 @@
     <outline type="rss" text="El Urbano Rural - Educación" title="El Urbano Rural - Educación" description="Feed de la categoría 'Educación' en El Urbano Rural" xmlUrl="https://elurbanorural.cl/category/educacion/feed/" htmlUrl="https://elurbanorural.cl/category/educacion/"/>
     <outline type="rss" text="En La Línea - Educación" title="En La Línea - Educación" description="Feed de la categoría 'Educación' en En La Línea" xmlUrl="https://www.enlalinea.cl/category/educacion/feed/" htmlUrl="https://www.enlalinea.cl/category/educacion/"/>
     <outline type="rss" text="Enfoque Digital - Educación" title="Enfoque Digital - Educación" description="Feed de la categoría 'Educación' en Enfoque Digital" xmlUrl="https://enfoquedigital.cl/categorias/educacion/feed/" htmlUrl="https://enfoquedigital.cl/categorias/educacion/"/>
-    <outline type="rss" text="Explora [Proxy Google News]" title="Explora [Proxy Google News]" description="Resultados de site:explora.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:explora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:explora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="G5 Noticias - Educación" title="G5 Noticias - Educación" description="Feed de la categoría 'Educación' en G5 Noticias" xmlUrl="https://g5noticias.cl/categoria/educacion/feed/" htmlUrl="https://g5noticias.cl/categoria/educacion/"/>
     <outline type="rss" text="Google News - Chile - Resultados 'educación'" title="Google News - Chile - Resultados 'educación'" description="Página de resultados para keyword=educación en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=educaci%C3%B3n&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=educaci%C3%B3n&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Hora de Noticias - Educación" title="Hora de Noticias - Educación" description="Feed de la categoría 'Educación' en Hora de Noticias" xmlUrl="https://horadenoticias.cl/seccion/educacion/feed/" htmlUrl="https://horadenoticias.cl/seccion/educacion/"/>
@@ -124,7 +123,6 @@
     <outline type="rss" text="Universidad de Concepción [Proxy Google News]" title="Universidad de Concepción [Proxy Google News]" description="Resultados de site:noticias.udec.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:noticias.udec.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:noticias.udec.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Universidad de La Frontera" title="Universidad de La Frontera" description="Noticias e investigación de la UFRO, Temuco" xmlUrl="https://www.ufro.cl/feed/" htmlUrl="https://www.ufro.cl"/>
     <outline type="rss" text="Universidad de La Frontera [Proxy Google News]" title="Universidad de La Frontera [Proxy Google News]" description="Resultados de site:ufro.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ufro.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ufro.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Universidad de Las Américas [Proxy Google News]" title="Universidad de Las Américas [Proxy Google News]" description="Resultados de site:udla.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:udla.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:udla.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Universidad de Talca" title="Universidad de Talca" description="Noticias e investigación de la Universidad de Talca" xmlUrl="https://www.utalca.cl/noticias/feed/" htmlUrl="https://www.utalca.cl"/>
     <outline type="rss" text="Universidad de Talca [Proxy Google News]" title="Universidad de Talca [Proxy Google News]" description="Resultados de site:utalca.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:utalca.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:utalca.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>

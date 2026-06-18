@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (119 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (121 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -27,6 +27,7 @@
     <outline type="rss" text="Diario Sur Noticias - Internacional" title="Diario Sur Noticias - Internacional" description="Feed de la categoría 'Internacional' en Diario Sur Noticias" xmlUrl="https://www.diariosurnoticias.com/internacional/feed/" htmlUrl="https://www.diariosurnoticias.com/internacional/"/>
     <outline type="rss" text="Diario Sur Noticias - Usa" title="Diario Sur Noticias - Usa" description="Feed de la categoría 'Usa' en Diario Sur Noticias" xmlUrl="https://www.diariosurnoticias.com/usa/feed/" htmlUrl="https://www.diariosurnoticias.com/usa/"/>
     <outline type="rss" text="Duplos - Internacional" title="Duplos - Internacional" description="Feed de la categoría 'Internacional' en Duplos" xmlUrl="https://duplos.cl/actualidad/internacional/feed/" htmlUrl="https://duplos.cl/actualidad/internacional/"/>
+    <outline type="rss" text="ECOceanos - Internacional" title="ECOceanos - Internacional" description="Feed de la categoría 'Internacional' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/internacional/feed/" htmlUrl="https://www.ecoceanos.cl/ver/internacional/"/>
     <outline type="rss" text="El Ciudadano - Argentina" title="El Ciudadano - Argentina" description="Feed de la categoría 'Argentina' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/latinoamerica/argentina/feed/" htmlUrl="https://www.elciudadano.com/noticias/latinoamerica/argentina/"/>
     <outline type="rss" text="El Ciudadano - English Edition" title="El Ciudadano - English Edition" description="Feed de la categoría 'English Edition' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/en/feed/" htmlUrl="https://www.elciudadano.com/noticias/en/"/>
     <outline type="rss" text="El Ciudadano - Estados Unidos" title="El Ciudadano - Estados Unidos" description="Feed de la categoría 'Estados Unidos' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/mundo/estados-unidos/feed/" htmlUrl="https://www.elciudadano.com/noticias/mundo/estados-unidos/"/>
@@ -56,6 +57,7 @@
     <outline type="rss" text="Frontera Norte - Internacional" title="Frontera Norte - Internacional" description="Feed de la categoría 'Internacional' en Frontera Norte" xmlUrl="https://www.fronteranorte.cl/category/internacional/feed/" htmlUrl="https://www.fronteranorte.cl/category/internacional/"/>
     <outline type="rss" text="G5 Noticias - Internacional" title="G5 Noticias - Internacional" description="Feed de la categoría 'Internacional' en G5 Noticias" xmlUrl="https://g5noticias.cl/categoria/internacional/feed/" htmlUrl="https://g5noticias.cl/categoria/internacional/"/>
     <outline type="rss" text="Google News - Chile - Sección Internacional" title="Google News - Chile - Sección Internacional" description="Sección Internacional de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx1YlY4U0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx1YlY4U0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="iRock.CL - Internacional" title="iRock.CL - Internacional" description="Feed de la categoría 'Internacional' en iRock.CL" xmlUrl="https://www.irock.cl/category/internacional/feed/" htmlUrl="https://www.irock.cl/category/internacional/"/>
     <outline type="rss" text="La Cuarta - Mundo" title="La Cuarta - Mundo" description="Feed de la categoría 'Mundo' en La Cuarta" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml" htmlUrl="https://www.lacuarta.com/category/mundo/"/>
     <outline type="rss" text="La Discusión - Internacional" title="La Discusión - Internacional" description="Feed de la categoría 'Internacional' en La Discusión" xmlUrl="https://ladiscusion.cl/category/internacional/feed/" htmlUrl="https://ladiscusion.cl/category/internacional/"/>
     <outline type="rss" text="La Nación - Internacional" title="La Nación - Internacional" description="Feed de la sección 'Internacional' en La Nación" xmlUrl="https://www.lanacion.cl/feed/?category=internacional" htmlUrl="https://www.lanacion.cl/internacional/"/>

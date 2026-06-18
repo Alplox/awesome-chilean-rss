@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de O'Higgins (198 feeds)</title>
+    <title>Awesome Chilean RSS - Región de O'Higgins (196 feeds)</title>
     <description>Feeds RSS de la Región de O'Higgins, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -88,8 +88,6 @@
     <outline type="rss" text="El Rancagüino" title="El Rancagüino" description="Diario regional de O'Higgins" xmlUrl="https://www.elrancaguino.cl/feed/" htmlUrl="https://www.elrancaguino.cl"/>
     <outline type="rss" text="El Rancagüino [Proxy Bing News]" title="El Rancagüino [Proxy Bing News]" description="Resultados de site:elrancaguino.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:elrancaguino.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:elrancaguino.cl"/>
     <outline type="rss" text="El Rancagüino [Proxy Google News]" title="El Rancagüino [Proxy Google News]" description="Resultados de site:elrancaguino.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elrancaguino.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elrancaguino.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="El Tipógrafo [Proxy Bing News]" title="El Tipógrafo [Proxy Bing News]" description="Resultados de site:eltipografo.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:eltipografo.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:eltipografo.cl"/>
-    <outline type="rss" text="El Tipógrafo [Proxy Google News]" title="El Tipógrafo [Proxy Google News]" description="Resultados de site:eltipografo.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:eltipografo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:eltipografo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Urbano Rural" title="El Urbano Rural" description="Medio de comunicación de la Región de O'Higgins" xmlUrl="https://www.elurbanorural.cl/feed" htmlUrl="https://www.elurbanorural.cl"/>
     <outline type="rss" text="El Urbano Rural - Actualidad" title="El Urbano Rural - Actualidad" description="Feed de la categoría 'Actualidad' en El Urbano Rural" xmlUrl="https://elurbanorural.cl/category/actualidad/feed/" htmlUrl="https://elurbanorural.cl/category/actualidad/"/>
     <outline type="rss" text="El Urbano Rural - Agro" title="El Urbano Rural - Agro" description="Feed de la categoría 'Agro' en El Urbano Rural" xmlUrl="https://elurbanorural.cl/category/agro/feed/" htmlUrl="https://elurbanorural.cl/category/agro/"/>

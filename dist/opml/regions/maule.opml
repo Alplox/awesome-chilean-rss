@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Maule (224 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Maule (222 feeds)</title>
     <description>Feeds RSS de la Región de Maule, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -67,7 +67,6 @@
     <outline type="rss" text="Diario El Centro [Proxy Google News]" title="Diario El Centro [Proxy Google News]" description="Resultados de site:diarioelcentro.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioelcentro.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioelcentro.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario El Heraldo" title="Diario El Heraldo" description="Diario regional de Linares, Maule" xmlUrl="https://www.diarioelheraldo.cl/rss" htmlUrl="https://www.diarioelheraldo.cl"/>
     <outline type="rss" text="Diario El Heraldo [Proxy Google News]" title="Diario El Heraldo [Proxy Google News]" description="Resultados de site:diarioelheraldo.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioelheraldo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioelheraldo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Diario La Prensa [Proxy Google News]" title="Diario La Prensa [Proxy Google News]" description="Resultados de site:new.diariolaprensa.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:new.diariolaprensa.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:new.diariolaprensa.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario Linares" title="Diario Linares" description="Diario regional de Linares, Maule" xmlUrl="https://diariolinares.cl/feed/" htmlUrl="https://diariolinares.cl"/>
     <outline type="rss" text="Diario Linares - Crónica" title="Diario Linares - Crónica" description="Feed de la categoría 'Crónica' en Diario Linares" xmlUrl="https://diariolinares.cl/categoria/cronica/feed/" htmlUrl="https://diariolinares.cl/categoria/cronica/"/>
     <outline type="rss" text="Diario Linares - Destacado" title="Diario Linares - Destacado" description="Feed de la categoría 'Destacado' en Diario Linares" xmlUrl="https://diariolinares.cl/categoria/destacado/feed/" htmlUrl="https://diariolinares.cl/categoria/destacado/"/>
@@ -87,7 +86,6 @@
     <outline type="rss" text="Diario Talca - Titulares" title="Diario Talca - Titulares" description="Feed de la categoría 'Titulares' en Diario Talca" xmlUrl="https://diariotalca.cl/categoria/titulares/feed/" htmlUrl="https://diariotalca.cl/categoria/titulares/"/>
     <outline type="rss" text="Diario Talca - Tribunales" title="Diario Talca - Tribunales" description="Feed de la categoría 'Tribunales' en Diario Talca" xmlUrl="https://diariotalca.cl/categoria/tribunales/feed/" htmlUrl="https://diariotalca.cl/categoria/tribunales/"/>
     <outline type="rss" text="Diario Talca [Proxy Google News]" title="Diario Talca [Proxy Google News]" description="Resultados de site:diariotalca.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diariotalca.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diariotalca.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="El Amaule [Proxy Google News]" title="El Amaule [Proxy Google News]" description="Resultados de site:elamaule.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elamaule.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elamaule.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Maule Informa" title="El Maule Informa" description="Diario regional de Talca, Maule" xmlUrl="https://elmauleinforma.cl/feed/" htmlUrl="https://elmauleinforma.cl"/>
     <outline type="rss" text="El Maule Informa - Deportes" title="El Maule Informa - Deportes" description="Feed de la categoría 'Deportes' en El Maule Informa" xmlUrl="https://elmauleinforma.cl/deportes/feed/" htmlUrl="https://elmauleinforma.cl/deportes/"/>
     <outline type="rss" text="El Maule Informa - Destacados" title="El Maule Informa - Destacados" description="Feed de la categoría 'Destacados' en El Maule Informa" xmlUrl="https://elmauleinforma.cl/destacados/feed/" htmlUrl="https://elmauleinforma.cl/destacados/"/>

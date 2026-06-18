@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (165 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (164 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Aconcagua Digital - Deportes" title="Aconcagua Digital - Deportes" description="Feed de la categoría 'Deportes' en Aconcagua Digital" xmlUrl="https://aconcaguadigital.cl/category/deportes/feed/" htmlUrl="https://aconcaguadigital.cl/category/deportes/"/>
+    <outline type="rss" text="Agencia de Noticias - Deportes" title="Agencia de Noticias - Deportes" description="Feed de la categoría 'Deportes' en Agencia de Noticias" xmlUrl="https://agenciadenoticias.org/category/deportes/feed/" htmlUrl="https://agenciadenoticias.org/category/deportes/"/>
     <outline type="rss" text="Al Aire Libre" title="Al Aire Libre" description="Medio chileno de noticias deportivas" xmlUrl="https://www.alairelibre.cl/feed.xml" htmlUrl="https://www.alairelibre.cl"/>
     <outline type="rss" text="Al Aire Libre [Proxy Bing News]" title="Al Aire Libre [Proxy Bing News]" description="Resultados de site:alairelibre.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:alairelibre.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:alairelibre.cl"/>
     <outline type="rss" text="Al Aire Libre [Proxy Google News]" title="Al Aire Libre [Proxy Google News]" description="Resultados de site:alairelibre.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:alairelibre.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:alairelibre.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
@@ -18,8 +19,6 @@
     <outline type="rss" text="Arica Al Día - Deportes" title="Arica Al Día - Deportes" description="Feed de la categoría 'Deportes' en Arica Al Día" xmlUrl="https://www.aricaldia.cl/category/deportes/feed/" htmlUrl="https://www.aricaldia.cl/category/deportes/"/>
     <outline type="rss" text="Arica es Noticia - Deportes" title="Arica es Noticia - Deportes" description="Feed de la categoría 'Deportes' en Arica es Noticia" xmlUrl="https://aricaesnoticia.cl/category/deportes/feed/" htmlUrl="https://aricaesnoticia.cl/category/deportes/"/>
     <outline type="rss" text="Arica365 - Deportes" title="Arica365 - Deportes" description="Feed de la categoría 'Deportes' en Arica365" xmlUrl="https://www.arica365.cl/blog/category/deportes/feed/" htmlUrl="https://www.arica365.cl/blog/category/deportes/"/>
-    <outline type="rss" text="AS Chile [Proxy Bing News]" title="AS Chile [Proxy Bing News]" description="Resultados de site:chile.as.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:chile.as.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:chile.as.com"/>
-    <outline type="rss" text="AS Chile [Proxy Google News]" title="AS Chile [Proxy Google News]" description="Resultados de site:chile.as.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chile.as.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chile.as.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Atacama Noticias - Deportes" title="Atacama Noticias - Deportes" description="Feed de la categoría 'Deportes' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/deportes/feed/" htmlUrl="https://www.atacamanoticias.cl/category/deportes/"/>
     <outline type="rss" text="Aysén Ahora - Deporte" title="Aysén Ahora - Deporte" description="Feed de la categoría 'Deporte' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/deporte/feed/" htmlUrl="https://www.aysenahora.cl/category/deporte/"/>
     <outline type="rss" text="Calama en Línea - Deporte" title="Calama en Línea - Deporte" description="Feed de la categoría 'Deporte' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/deporte/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/deporte/"/>

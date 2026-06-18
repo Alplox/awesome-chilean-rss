@@ -45,6 +45,7 @@ console.log('='.repeat(55));
 
 const promoted = [];
 const kept = [];
+const failed = [];
 const errors = { noResponse: [], httpError: [], emptyFeed: [], noFeed: [], stale: [], proxyBroken: [], proxyStale: [] };
 
 for (const entry of entries) {
@@ -97,6 +98,8 @@ for (const entry of entries) {
     } else {
       errors.noFeed.push(entry.name);
     }
+
+    failed.push({ id: entry.id, reason: result.reason });
   }
 }
 
@@ -160,21 +163,26 @@ if (!shouldUpdate && promoted.length && !isAutomatic() && process.stdin.isTTY) {
 }
 
 if (shouldUpdate || saveFiles) {
-  if (promoted.length || kept.length) {
-    for (const siteEntry of promoted) {
-      if (db.sites.some(s => s.id === siteEntry.id)) {
-        console.warn(`  ⚠️  "${siteEntry.id}" ya existe en sites — se omite duplicado`);
-        continue;
+  if (promoted.length || kept.length || failed.length) {
+    if (promoted.length) {
+      for (const siteEntry of promoted) {
+        if (db.sites.some(s => s.id === siteEntry.id)) {
+          console.warn(`  ⚠️  "${siteEntry.id}" ya existe en sites — se omite duplicado`);
+          continue;
+        }
+        db.sites.push(siteEntry);
       }
-      db.sites.push(siteEntry);
+      db.total_feeds = recalculateTotalFeeds(db);
+      writeFileSync('feeds-database.json', JSON.stringify(db, null, 2), 'utf-8');
     }
-    db.total_feeds = recalculateTotalFeeds(db);
-    writeFileSync('feeds-database.json', JSON.stringify(db, null, 2), 'utf-8');
 
     const remaining = watchlist.filter(w => !promoted.some(p => p.id === w.id));
     const withKept = remaining.map(w => {
       const k = kept.find(k => k.id === w.id);
-      return k ?? w;
+      if (k) return k;
+      const f = failed.find(f => f.id === w.id);
+      if (f) return { ...w, reason: f.reason };
+      return w;
     });
     writeFileSync('watchlist.json', JSON.stringify(withKept, null, 2), 'utf-8');
 
@@ -183,6 +191,9 @@ if (shouldUpdate || saveFiles) {
     }
     if (kept.length) {
       console.log(`💾 ${kept.length} sitio(s) con feed poblado guardados en watchlist.json`);
+    }
+    if (failed.length) {
+      console.log(`💾 ${failed.length} sitio(s) con razón actualizada en watchlist.json`);
     }
     console.log(`📊 Total feeds activos: ${db.total_feeds}`);
   }

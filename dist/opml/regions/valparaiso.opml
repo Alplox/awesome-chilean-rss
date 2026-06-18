@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Valparaíso (131 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Valparaíso (129 feeds)</title>
     <description>Feeds RSS de la Región de Valparaíso, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -113,13 +113,11 @@
     <outline type="rss" text="Más Noticia" title="Más Noticia" description="Diario regional de Quillota, Valparaíso" xmlUrl="https://www.masnoticia.cl/feed/" htmlUrl="https://www.masnoticia.cl"/>
     <outline type="rss" text="Más Noticia - Región" title="Más Noticia - Región" description="Feed de la categoría 'Región' en Más Noticia" xmlUrl="https://www.masnoticia.cl/category/todas-las-noticias/region/feed/" htmlUrl="https://www.masnoticia.cl/category/todas-las-noticias/region/"/>
     <outline type="rss" text="Más Noticia [Proxy Google News]" title="Más Noticia [Proxy Google News]" description="Resultados de site:masnoticia.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:masnoticia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:masnoticia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Mi San Felipe [Proxy Google News]" title="Mi San Felipe [Proxy Google News]" description="Resultados de site:misanfelipe.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:misanfelipe.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:misanfelipe.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Montealegre" title="Montealegre" description="Medio de comunicación de la Región de Valparaíso" xmlUrl="https://montealegre.cl/feed" htmlUrl="https://montealegre.cl"/>
     <outline type="rss" text="Montealegre - Informaciones" title="Montealegre - Informaciones" description="Feed de la categoría 'Informaciones' en Montealegre" xmlUrl="https://montealegre.cl/sitio/informaciones/feed/" htmlUrl="https://montealegre.cl/sitio/informaciones/"/>
     <outline type="rss" text="Montealegre - Portada" title="Montealegre - Portada" description="Feed de la categoría 'Portada' en Montealegre" xmlUrl="https://montealegre.cl/sitio/portada/feed/" htmlUrl="https://montealegre.cl/sitio/portada/"/>
     <outline type="rss" text="Montealegre - Provincial" title="Montealegre - Provincial" description="Feed de la categoría 'Provincial' en Montealegre" xmlUrl="https://montealegre.cl/sitio/informaciones/provincial/feed/" htmlUrl="https://montealegre.cl/sitio/informaciones/provincial/"/>
     <outline type="rss" text="Montealegre [Proxy Google News]" title="Montealegre [Proxy Google News]" description="Resultados de site:montealegre.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:montealegre.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:montealegre.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Periódico Contraplano [Proxy Google News]" title="Periódico Contraplano [Proxy Google News]" description="Resultados de site:contraplano.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:contraplano.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:contraplano.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Quilpué Online - Noticias" title="Quilpué Online - Noticias" description="Feed de la categoría 'Noticias' en Quilpué Online" xmlUrl="https://www.quilpueonline.cl/category/noticias/feed/" htmlUrl="https://www.quilpueonline.cl/category/noticias/"/>
     <outline type="rss" text="Quilpué Online [Proxy Google News]" title="Quilpué Online [Proxy Google News]" description="Resultados de site:quilpueonline.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:quilpueonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:quilpueonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Radio Valparaíso" title="Radio Valparaíso" description="Emisora regional de Valparaíso 102.5 FM - 121 AM. 90.9 FM IV región" xmlUrl="https://www.radiovalparaiso.cl/feed/" htmlUrl="https://www.radiovalparaiso.cl"/>

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Ñuble (93 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Ñuble (92 feeds)</title>
     <description>Feeds RSS de la Región de Ñuble, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Chillán Online" title="Chillán Online" description="Diario regional de Chillán, Ñuble" xmlUrl="https://www.chillanonline.cl/V7/feed/" htmlUrl="https://www.chillanonline.cl"/>
     <outline type="rss" text="Chillán Online [Proxy Google News]" title="Chillán Online [Proxy Google News]" description="Resultados de site:chillanonline.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chillanonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chillanonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Crónica Chillán [Proxy Google News]" title="Crónica Chillán [Proxy Google News]" description="Resultados de site:cronicachillan.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cronicachillan.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cronicachillan.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Sancarlino" title="El Sancarlino" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.elsancarlino.cl/rss.xml" htmlUrl="https://www.elsancarlino.cl"/>
     <outline type="rss" text="El Sancarlino [Proxy Google News]" title="El Sancarlino [Proxy Google News]" description="Resultados de site:elsancarlino.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elsancarlino.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elsancarlino.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Región Ñuble" title="Google News - Chile - Región Ñuble" description="Noticias locales de la Región de Ñuble vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Chill%C3%A1n?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Chill%C3%A1n?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

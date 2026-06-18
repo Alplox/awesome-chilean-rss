@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (138 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (141 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -57,6 +57,9 @@
     <outline type="rss" text="Diario El Centro - Social" title="Diario El Centro - Social" description="Feed de la categoría 'Social' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/social/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/social/"/>
     <outline type="rss" text="Diario El Huemul - Eventos" title="Diario El Huemul - Eventos" description="Feed de la categoría 'Eventos' en Diario El Huemul" xmlUrl="https://elhuemul.cl/category/eventos/feed/" htmlUrl="https://elhuemul.cl/category/eventos/"/>
     <outline type="rss" text="Diario El Huemul - Social" title="Diario El Huemul - Social" description="Feed de la categoría 'Social' en Diario El Huemul" xmlUrl="https://elhuemul.cl/category/social/feed/" htmlUrl="https://elhuemul.cl/category/social/"/>
+    <outline type="rss" text="Diario El Itihue - Portada" title="Diario El Itihue - Portada" description="Feed principal de Diario El Itihue" xmlUrl="https://diarioelitihue.blogspot.com/feeds/posts/default" htmlUrl="https://diarioelitihue.blogspot.com"/>
+    <outline type="rss" text="Diario El Itihue [Proxy Bing News]" title="Diario El Itihue [Proxy Bing News]" description="Resultados de site:diarioelitihue.blogspot.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:diarioelitihue.blogspot.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:diarioelitihue.blogspot.com"/>
+    <outline type="rss" text="Diario El Itihue [Proxy Google News]" title="Diario El Itihue [Proxy Google News]" description="Resultados de site:diarioelitihue.blogspot.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioelitihue.blogspot.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioelitihue.blogspot.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario El Marino - Vida Social" title="Diario El Marino - Vida Social" description="Feed de la categoría 'Vida Social' en Diario El Marino" xmlUrl="https://www.diarioelmarino.cl/categoria/vida-social/feed/" htmlUrl="https://www.diarioelmarino.cl/categoria/vida-social/"/>
     <outline type="rss" text="Diario El Nortino - Sociedad" title="Diario El Nortino - Sociedad" description="Feed de la categoría 'Sociedad' en Diario El Nortino" xmlUrl="https://diarioelnortino.cl/category/sociedad/feed/" htmlUrl="https://diarioelnortino.cl/category/sociedad/"/>
     <outline type="rss" text="Diario El Nortino - Turismo" title="Diario El Nortino - Turismo" description="Feed de la categoría 'Turismo' en Diario El Nortino" xmlUrl="https://diarioelnortino.cl/category/turismo/feed/" htmlUrl="https://diarioelnortino.cl/category/turismo/"/>

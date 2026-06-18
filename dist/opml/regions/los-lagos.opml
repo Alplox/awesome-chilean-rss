@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Los Lagos (185 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Los Lagos (180 feeds)</title>
     <description>Feeds RSS de la Región de Los Lagos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -20,8 +20,6 @@
     <outline type="rss" text="Datos Sur [Proxy Google News]" title="Datos Sur [Proxy Google News]" description="Resultados de site:datossur.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:datossur.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:datossur.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario Austral Osorno" title="Diario Austral Osorno" description="Diario regional de Osorno" xmlUrl="https://www.australosorno.cl/?feed=rss2" htmlUrl="https://www.australosorno.cl"/>
     <outline type="rss" text="Diario Austral Osorno [Proxy Google News]" title="Diario Austral Osorno [Proxy Google News]" description="Resultados de site:australosorno.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:australosorno.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:australosorno.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Diario Chiloé [Proxy Google News]" title="Diario Chiloé [Proxy Google News]" description="Resultados de site:diariochiloe.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diariochiloe.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diariochiloe.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Diario de Osorno [Proxy Google News]" title="Diario de Osorno [Proxy Google News]" description="Resultados de site:diariodeosorno.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diariodeosorno.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diariodeosorno.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario El Huemul" title="Diario El Huemul" description="Diario regional de Chaitén, Los Lagos" xmlUrl="https://www.elhuemul.cl/feed/" htmlUrl="https://www.elhuemul.cl"/>
     <outline type="rss" text="Diario El Huemul - Chaiten" title="Diario El Huemul - Chaiten" description="Feed de la categoría 'Chaiten' en Diario El Huemul" xmlUrl="https://elhuemul.cl/category/chaiten/feed/" htmlUrl="https://elhuemul.cl/category/chaiten/"/>
     <outline type="rss" text="Diario El Huemul - Cochamo" title="Diario El Huemul - Cochamo" description="Feed de la categoría 'Cochamo' en Diario El Huemul" xmlUrl="https://elhuemul.cl/category/cochamo/feed/" htmlUrl="https://elhuemul.cl/category/cochamo/"/>
@@ -99,9 +97,6 @@
     <outline type="rss" text="El Calbucano - Salud" title="El Calbucano - Salud" description="Feed de la categoría 'Salud' en El Calbucano" xmlUrl="https://www.elcalbucano.cl/cat/salud/feed/" htmlUrl="https://www.elcalbucano.cl/cat/salud/"/>
     <outline type="rss" text="El Calbucano - Tecnología" title="El Calbucano - Tecnología" description="Feed de la categoría 'Tecnología' en El Calbucano" xmlUrl="https://www.elcalbucano.cl/cat/tecnologia/feed/" htmlUrl="https://www.elcalbucano.cl/cat/tecnologia/"/>
     <outline type="rss" text="El Calbucano [Proxy Google News]" title="El Calbucano [Proxy Google News]" description="Resultados de site:elcalbucano.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elcalbucano.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elcalbucano.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="El Gong [Proxy Bing News]" title="El Gong [Proxy Bing News]" description="Resultados de site:diarioelgong.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:diarioelgong.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:diarioelgong.cl"/>
-    <outline type="rss" text="El Gong [Proxy Google News]" title="El Gong [Proxy Google News]" description="Resultados de site:diarioelgong.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioelgong.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioelgong.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="El Heraldo Austral [Proxy Google News]" title="El Heraldo Austral [Proxy Google News]" description="Resultados de site:eha.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:eha.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:eha.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Insular" title="El Insular" description="Diario regional de Castro, Los Lagos" xmlUrl="https://www.elinsular.cl/feed/" htmlUrl="https://www.elinsular.cl"/>
     <outline type="rss" text="El Insular - Ancud" title="El Insular - Ancud" description="Feed de la categoría 'Ancud' en El Insular" xmlUrl="https://elinsular.cl/category/noticias/chiloe/ancud/feed/" htmlUrl="https://elinsular.cl/category/noticias/chiloe/ancud/"/>
     <outline type="rss" text="El Insular - Castro" title="El Insular - Castro" description="Feed de la categoría 'Castro' en El Insular" xmlUrl="https://elinsular.cl/category/noticias/chiloe/castro/feed/" htmlUrl="https://elinsular.cl/category/noticias/chiloe/castro/"/>

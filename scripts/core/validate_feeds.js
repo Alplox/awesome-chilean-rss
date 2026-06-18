@@ -531,7 +531,7 @@ async function main() {
         } else {
           console.log(`   🔴 sitio no responde (${site.url})`);
         }
-        let confirmOffline = true;
+        let confirmOffline = false;
         if (shouldUpdate && process.stdin.isTTY && !isAutomatic()) {
           confirmOffline = await promptUser(
             `     ⚠️  ¿"${site.name}" (${site.url}) realmente está caído? [s/N]: `,
@@ -552,10 +552,22 @@ async function main() {
           if (reachable.type === 'cert') {
             console.log(`     ℹ️  ${label} — intentando leer feed ignorando SSL...`);
             const feedData = await tryFetchFeedInsecure(feed.rss_url);
-              if (feedData && feedData.itemCount > 0) {
-                console.log(`     ✅ feed válido a pesar del SSL (${feedData.type}, ${feedData.itemCount} item${feedData.itemCount > 1 ? 's' : ''})`);
+            if (feedData && feedData.itemCount > 0) {
+              if (feedData.lastItemDate && daysSince(feedData.lastItemDate) > STALE_THRESHOLD_DAYS) {
+                console.log(`     ⚠️  STALE (último item: ${feedData.lastItemDate.slice(0, 10)}, ${Math.round(daysSince(feedData.lastItemDate))} días)`);
+                updateFeedState(feed, { status: 'stale', feedType: feedData.type, lastItemDate: feedData.lastItemDate }, shouldUpdate);
+                results.stale.push(feedLabel(site, feed));
+                continue;
+              }
+              console.log(`     ✅ feed válido a pesar del SSL (${feedData.type}, ${feedData.itemCount} item${feedData.itemCount > 1 ? 's' : ''})`);
               updateFeedState(feed, { status: 'active', feedType: feedData.type, lastItemDate: feedData.lastItemDate ?? null }, shouldUpdate);
               results.ok.push(feedLabel(site, feed));
+              continue;
+            }
+            if (feedData && feedData.itemCount === 0) {
+              console.log(`     ⚠️  vacío (${feedData.type}, 0 items) — feed válido sin contenido`);
+              updateFeedState(feed, { status: 'feed_empty', feedType: feedData.type, lastItemDate: null }, shouldUpdate);
+              results.other.push(feedLabel(site, feed));
               continue;
             }
             console.log(`     ❌ feed no válido incluso ignorando SSL`);

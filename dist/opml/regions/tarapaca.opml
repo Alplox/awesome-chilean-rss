@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Tarapacá (183 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Tarapacá (182 feeds)</title>
     <description>Feeds RSS de la Región de Tarapacá, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -20,7 +20,6 @@
     <outline type="rss" text="CEI Noticias - Salud" title="CEI Noticias - Salud" description="Feed de la categoría 'Salud' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/salud/feed/" htmlUrl="https://ceinoticias.cl/category/salud/"/>
     <outline type="rss" text="CEI Noticias - Tendencias" title="CEI Noticias - Tendencias" description="Feed de la categoría 'Tendencias' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/cultura/tendencias/feed/" htmlUrl="https://ceinoticias.cl/category/cultura/tendencias/"/>
     <outline type="rss" text="CEI Noticias [Proxy Google News]" title="CEI Noticias [Proxy Google News]" description="Resultados de site:ceinoticias.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ceinoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ceinoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Chile Mosaico [Proxy Google News]" title="Chile Mosaico [Proxy Google News]" description="Resultados de site:chilemosaico.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chilemosaico.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chilemosaico.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario El Longino" title="Diario El Longino" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.diariolongino.cl/feed/" htmlUrl="https://www.diariolongino.cl"/>
     <outline type="rss" text="Diario El Longino - Alto Hospicio" title="Diario El Longino - Alto Hospicio" description="Feed de la categoría 'Alto Hospicio' en Diario El Longino" xmlUrl="https://diariolongino.cl/alto-hospicio/feed/" htmlUrl="https://diariolongino.cl/alto-hospicio/"/>
     <outline type="rss" text="Diario El Longino - Ciencia y Tecnología" title="Diario El Longino - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Diario El Longino" xmlUrl="https://diariolongino.cl/ciencia-y-tecnologia/feed/" htmlUrl="https://diariolongino.cl/ciencia-y-tecnologia/"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Aysén (38 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Aysén (36 feeds)</title>
     <description>Feeds RSS de la Región de Aysén, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -14,8 +14,6 @@
     <outline type="rss" text="Aysén Ahora - Noticias" title="Aysén Ahora - Noticias" description="Feed de la categoría 'Noticias' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/noticias/feed/" htmlUrl="https://www.aysenahora.cl/category/noticias/"/>
     <outline type="rss" text="Aysén Ahora - Regional" title="Aysén Ahora - Regional" description="Feed de la categoría 'Regional' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/regional/feed/" htmlUrl="https://www.aysenahora.cl/category/regional/"/>
     <outline type="rss" text="Aysén Ahora [Proxy Google News]" title="Aysén Ahora [Proxy Google News]" description="Resultados de site:aysenahora.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="El Divisadero [Proxy Bing News]" title="El Divisadero [Proxy Bing News]" description="Resultados de site:eldivisadero.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:eldivisadero.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:eldivisadero.cl"/>
-    <outline type="rss" text="El Divisadero [Proxy Google News]" title="El Divisadero [Proxy Google News]" description="Resultados de site:eldivisadero.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:eldivisadero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:eldivisadero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Región Aysén" title="Google News - Chile - Región Aysén" description="Noticias locales de la Región de Aysén vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Radio Santa María" title="Radio Santa María" description="Medio de comunicación de la Región de Aysén" xmlUrl="https://www.radiosantamaria.cl/feed" htmlUrl="https://www.radiosantamaria.cl"/>
     <outline type="rss" text="Radio Santa María - Cultura" title="Radio Santa María - Cultura" description="Feed de la categoría 'Cultura' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/cultura/feed/" htmlUrl="https://www.radiosantamaria.cl/category/cultura/"/>

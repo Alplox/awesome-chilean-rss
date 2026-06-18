@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Araucanía (369 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Araucanía (362 feeds)</title>
     <description>Feeds RSS de la Región de Araucanía, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -57,7 +57,6 @@
     <outline type="rss" text="Angol Noticias" title="Angol Noticias" description="Diario regional de Angol, La Araucanía" xmlUrl="https://www.angolnoticiasnew.cl/feed/" htmlUrl="https://www.angolnoticiasnew.cl"/>
     <outline type="rss" text="Angol Noticias - Regional" title="Angol Noticias - Regional" description="Feed de la categoría 'Regional' en Angol Noticias" xmlUrl="https://www.angolnoticiasnew.cl/Categorias/regional/feed/" htmlUrl="https://www.angolnoticiasnew.cl/Categorias/regional/"/>
     <outline type="rss" text="Angol Noticias [Proxy Google News]" title="Angol Noticias [Proxy Google News]" description="Resultados de site:angolnoticiasnew.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:angolnoticiasnew.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:angolnoticiasnew.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Araucanía Diario [Proxy Google News]" title="Araucanía Diario [Proxy Google News]" description="Resultados de site:araucaniadiario.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:araucaniadiario.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:araucaniadiario.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Araucanía Noticias" title="Araucanía Noticias" description="Diario regional de Temuco, La Araucanía" xmlUrl="https://www.araucanianoticias.cl/feed/" htmlUrl="https://www.araucanianoticias.cl"/>
     <outline type="rss" text="Araucanía Noticias - Actualidad" title="Araucanía Noticias - Actualidad" description="Feed de la categoría 'Actualidad' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/actualidad/feed/" htmlUrl="https://araucanianoticias.cl/category/actualidad/"/>
     <outline type="rss" text="Araucanía Noticias - Agenda" title="Araucanía Noticias - Agenda" description="Feed de la categoría 'Agenda' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/agenda/feed/" htmlUrl="https://araucanianoticias.cl/category/agenda/"/>
@@ -259,8 +258,6 @@
     <outline type="rss" text="Prensa Ciudadana [Proxy Google News]" title="Prensa Ciudadana [Proxy Google News]" description="Resultados de site:prensaciudadana.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:prensaciudadana.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:prensaciudadana.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Pucón TV" title="Pucón TV" description="Medio de comunicación de la Región de Araucanía" xmlUrl="https://www.pucontv.com/rss/atom" htmlUrl="https://www.pucontv.com"/>
     <outline type="rss" text="Pucón TV [Proxy Google News]" title="Pucón TV [Proxy Google News]" description="Resultados de site:pucontv.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pucontv.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pucontv.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Radio Araucanía [Proxy Bing News]" title="Radio Araucanía [Proxy Bing News]" description="Resultados de site:radioaraucania.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radioaraucania.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radioaraucania.cl"/>
-    <outline type="rss" text="Radio Araucanía [Proxy Google News]" title="Radio Araucanía [Proxy Google News]" description="Resultados de site:radioaraucania.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radioaraucania.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radioaraucania.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Red Informativa" title="Red Informativa" description="Medio de comunicación de la Región de Araucanía" xmlUrl="https://www.redinformativa.cl/feed" htmlUrl="https://www.redinformativa.cl"/>
     <outline type="rss" text="Red Informativa - Actualidad" title="Red Informativa - Actualidad" description="Feed de la categoría 'Actualidad' en Red Informativa" xmlUrl="https://www.redinformativa.cl/actualidad/feed/" htmlUrl="https://www.redinformativa.cl/actualidad/"/>
     <outline type="rss" text="Red Informativa - Deportes" title="Red Informativa - Deportes" description="Feed de la categoría 'Deportes' en Red Informativa" xmlUrl="https://www.redinformativa.cl/deportes/feed/" htmlUrl="https://www.redinformativa.cl/deportes/"/>
@@ -371,10 +368,6 @@
     <outline type="rss" text="Traiguén City - Traiguén" title="Traiguén City - Traiguén" description="Feed de la categoría 'Traiguén' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/"/>
     <outline type="rss" text="Traiguén City - Turismo" title="Traiguén City - Turismo" description="Feed de la categoría 'Turismo' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/turismo/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/turismo/"/>
     <outline type="rss" text="Traiguén City [Proxy Google News]" title="Traiguén City [Proxy Google News]" description="Resultados de site:traiguencity.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:traiguencity.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:traiguencity.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Ufro Medios [Proxy Bing News]" title="Ufro Medios [Proxy Bing News]" description="Resultados de site:ufromedios.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:ufromedios.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:ufromedios.cl"/>
-    <outline type="rss" text="Ufro Medios [Proxy Google News]" title="Ufro Medios [Proxy Google News]" description="Resultados de site:ufromedios.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ufromedios.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ufromedios.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Villarrica al Día" title="Villarrica al Día" description="Medio de comunicación de la Región de Araucanía" xmlUrl="https://www.villarricaldia.cl/feed" htmlUrl="https://www.villarricaldia.cl"/>
-    <outline type="rss" text="Werken [Proxy Bing News]" title="Werken [Proxy Bing News]" description="Resultados de site:werken.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:werken.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:werken.cl"/>
-    <outline type="rss" text="Werken [Proxy Google News]" title="Werken [Proxy Google News]" description="Resultados de site:werken.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:werken.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:werken.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

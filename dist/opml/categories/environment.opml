@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (100 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (106 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
+    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -40,6 +40,12 @@
     <outline type="rss" text="Diario La Región - Medio Ambiente" title="Diario La Región - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Diario La Región" xmlUrl="https://www.diariolaregion.cl/category/ambiente/feed/" htmlUrl="https://www.diariolaregion.cl/category/ambiente/"/>
     <outline type="rss" text="Diario Los Lagos - Clima" title="Diario Los Lagos - Clima" description="Feed de la categoría 'Clima' en Diario Los Lagos" xmlUrl="https://diarioloslagos.cl/category/clima/feed/" htmlUrl="https://diarioloslagos.cl/category/clima/"/>
     <outline type="rss" text="Diario Puerto Varas - Ciencia y Medio" title="Diario Puerto Varas - Ciencia y Medio" description="Feed de la categoría 'Ciencia y Medio' en Diario Puerto Varas" xmlUrl="https://diariopuertovaras.cl/category/ciencia-medio/feed/" htmlUrl="https://diariopuertovaras.cl/category/ciencia-medio/"/>
+    <outline type="rss" text="ECOceanos - Acuicultura" title="ECOceanos - Acuicultura" description="Feed de la categoría 'Acuicultura' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/acuicultura/feed/" htmlUrl="https://www.ecoceanos.cl/ver/acuicultura/"/>
+    <outline type="rss" text="ECOceanos - Ballenas" title="ECOceanos - Ballenas" description="Feed de la categoría 'Ballenas' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/ballenas/feed/" htmlUrl="https://www.ecoceanos.cl/ver/ballenas/"/>
+    <outline type="rss" text="ECOceanos - Laboral" title="ECOceanos - Laboral" description="Feed de la categoría 'Laboral' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/laboral/feed/" htmlUrl="https://www.ecoceanos.cl/ver/laboral/"/>
+    <outline type="rss" text="ECOceanos - Pesca" title="ECOceanos - Pesca" description="Feed de la categoría 'Pesca' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/pesca/feed/" htmlUrl="https://www.ecoceanos.cl/ver/pesca/"/>
+    <outline type="rss" text="ECOceanos - Portada" title="ECOceanos - Portada" description="Feed principal de ECOceanos" xmlUrl="https://www.ecoceanos.cl/feed/" htmlUrl="https://www.ecoceanos.cl"/>
+    <outline type="rss" text="ECOceanos [Proxy Google News]" title="ECOceanos [Proxy Google News]" description="Resultados de site:ecoceanos.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ecoceanos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ecoceanos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Ciudadano - Animales" title="El Ciudadano - Animales" description="Feed de la categoría 'Animales' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/animal/feed/" htmlUrl="https://www.elciudadano.com/noticias/animal/"/>
     <outline type="rss" text="El Ciudadano - Medio Ambiente" title="El Ciudadano - Medio Ambiente" description="Feed de la sección 'Medio Ambiente' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/medio-ambiente/feed/" htmlUrl="https://www.elciudadano.com/noticias/medio-ambiente/"/>
     <outline type="rss" text="El Contraste - El Tiempo" title="El Contraste - El Tiempo" description="Feed de la categoría 'El Tiempo' en El Contraste" xmlUrl="https://elcontraste.cl/el-tiempo/feed/" htmlUrl="https://elcontraste.cl/el-tiempo/"/>
