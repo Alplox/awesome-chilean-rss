@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (163 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (165 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
+    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -24,6 +24,7 @@
     <outline type="rss" text="Aysén Ahora - Deporte" title="Aysén Ahora - Deporte" description="Feed de la categoría 'Deporte' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/deporte/feed/" htmlUrl="https://www.aysenahora.cl/category/deporte/"/>
     <outline type="rss" text="Calama en Línea - Deporte" title="Calama en Línea - Deporte" description="Feed de la categoría 'Deporte' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/deporte/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/deporte/"/>
     <outline type="rss" text="CEI Noticias - Deporte" title="CEI Noticias - Deporte" description="Feed de la categoría 'Deporte' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/deporte/feed/" htmlUrl="https://ceinoticias.cl/category/deporte/"/>
+    <outline type="rss" text="CentralWeb - Deportes" title="CentralWeb - Deportes" description="Feed de la categoría 'Deportes' en CentralWeb" xmlUrl="https://centralweb.cl/?cat=3&amp;feed=rss2" htmlUrl="https://centralweb.cl/?cat=3"/>
     <outline type="rss" text="CRTV Chile" title="CRTV Chile" description="CRTV Chile es una plataforma multimedia con enfoque en disciplinas deportivas" xmlUrl="https://crtvchile.cl/rss" htmlUrl="https://crtvchile.cl"/>
     <outline type="rss" text="CRTV Chile - Basquetbol" title="CRTV Chile - Basquetbol" description="Feed de la categoría 'Basquetbol' en CRTV Chile" xmlUrl="https://crtvchile.cl/category/basquetbol/feed/" htmlUrl="https://crtvchile.cl/category/basquetbol/"/>
     <outline type="rss" text="CRTV Chile - Canotaje" title="CRTV Chile - Canotaje" description="Feed de la categoría 'Canotaje' en CRTV Chile" xmlUrl="https://crtvchile.cl/category/canotaje/feed/" htmlUrl="https://crtvchile.cl/category/canotaje/"/>
@@ -159,6 +160,7 @@
     <outline type="rss" text="Redgol [Proxy Bing News]" title="Redgol [Proxy Bing News]" description="Resultados de site:redgol.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:redgol.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:redgol.cl"/>
     <outline type="rss" text="Redgol [Proxy Google News]" title="Redgol [Proxy Google News]" description="Resultados de site:redgol.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:redgol.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:redgol.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="RLN (Radio Las Nieves) - Deportes" title="RLN (Radio Las Nieves) - Deportes" description="Feed de la categoría 'Deportes' en RLN (Radio Las Nieves)" xmlUrl="https://www.rln.cl/category/deportes/feed/" htmlUrl="https://www.rln.cl/category/deportes/"/>
+    <outline type="rss" text="Sala de Prensa - Deportes" title="Sala de Prensa - Deportes" description="Feed de la categoría 'Deportes' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=31&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=31"/>
     <outline type="rss" text="Sera Noticia - Deporte" title="Sera Noticia - Deporte" description="Feed de la categoría 'Deporte' en Sera Noticia" xmlUrl="https://seranoticia.cl/deporte/feed/" htmlUrl="https://seranoticia.cl/deporte/"/>
     <outline type="rss" text="Tarapacá Online - Deportes" title="Tarapacá Online - Deportes" description="Feed de la categoría 'Deportes' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/deportes/feed/" htmlUrl="https://tarapacaonline.cl/category/deportes/"/>
     <outline type="rss" text="Temuco Diario - Deportes" title="Temuco Diario - Deportes" description="Feed de la categoría 'Deportes' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/deportes/feed/" htmlUrl="https://temucodiario.cl/category/deportes/"/>

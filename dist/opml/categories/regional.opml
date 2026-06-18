@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1555 feeds)</title>
+    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1561 feeds)</title>
     <description>Feeds RSS de 🌎 Medios Regionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
+    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -1393,6 +1393,12 @@
     <outline type="rss" text="Río en Línea [Proxy Google News]" title="Río en Línea [Proxy Google News]" description="Resultados de site:rioenlinea.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:rioenlinea.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:rioenlinea.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="RLN (Radio Las Nieves) - Local" title="RLN (Radio Las Nieves) - Local" description="Feed de la categoría 'Local' en RLN (Radio Las Nieves)" xmlUrl="https://www.rln.cl/category/local/feed/" htmlUrl="https://www.rln.cl/category/local/"/>
     <outline type="rss" text="RLN (Radio Las Nieves) - Regional" title="RLN (Radio Las Nieves) - Regional" description="Feed de la categoría 'Regional' en RLN (Radio Las Nieves)" xmlUrl="https://www.rln.cl/category/regional/feed/" htmlUrl="https://www.rln.cl/category/regional/"/>
+    <outline type="rss" text="Sala de Prensa" title="Sala de Prensa" description="Medio de comunicación regional de Concepción y la Región del Biobío" xmlUrl="https://saladeprensa.cl/feed/" htmlUrl="https://saladeprensa.cl"/>
+    <outline type="rss" text="Sala de Prensa - Chile" title="Sala de Prensa - Chile" description="Feed de la categoría 'Chile' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=29&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=29"/>
+    <outline type="rss" text="Sala de Prensa - Entrevistas" title="Sala de Prensa - Entrevistas" description="Feed de la categoría 'Entrevistas' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=27&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=27"/>
+    <outline type="rss" text="Sala de Prensa - Gran Concepción" title="Sala de Prensa - Gran Concepción" description="Feed de la categoría 'Gran Concepción' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=28&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=28"/>
+    <outline type="rss" text="Sala de Prensa - Región del Biobío" title="Sala de Prensa - Región del Biobío" description="Feed de la categoría 'Región del Biobío' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=279&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=279"/>
+    <outline type="rss" text="Sala de Prensa [Proxy Google News]" title="Sala de Prensa [Proxy Google News]" description="Resultados de site:saladeprensa.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:saladeprensa.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:saladeprensa.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="San Carlos On Line" title="San Carlos On Line" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosonline.cl/rss.xml" htmlUrl="https://www.sancarlosonline.cl"/>
     <outline type="rss" text="San Carlos On Line [Proxy Bing News]" title="San Carlos On Line [Proxy Bing News]" description="Resultados de site:sancarlosonline.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:sancarlosonline.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:sancarlosonline.cl"/>
     <outline type="rss" text="San Carlos On Line [Proxy Google News]" title="San Carlos On Line [Proxy Google News]" description="Resultados de site:sancarlosonline.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:sancarlosonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:sancarlosonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

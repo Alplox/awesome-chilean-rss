@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Biobío (43 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Biobío (51 feeds)</title>
     <description>Feeds RSS de la Región de Biobío, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
+    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -49,6 +49,14 @@
     <outline type="rss" text="Radio UdeC [Proxy Bing News]" title="Radio UdeC [Proxy Bing News]" description="Resultados de site:radioudec.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radioudec.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radioudec.cl"/>
     <outline type="rss" text="Radio UdeC [Proxy Google News]" title="Radio UdeC [Proxy Google News]" description="Resultados de site:radioudec.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radioudec.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radioudec.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Resumen Biobío [Proxy Google News]" title="Resumen Biobío [Proxy Google News]" description="Resultados de site:resumen.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:resumen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:resumen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Sala de Prensa" title="Sala de Prensa" description="Medio de comunicación regional de Concepción y la Región del Biobío" xmlUrl="https://saladeprensa.cl/feed/" htmlUrl="https://saladeprensa.cl"/>
+    <outline type="rss" text="Sala de Prensa - Chile" title="Sala de Prensa - Chile" description="Feed de la categoría 'Chile' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=29&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=29"/>
+    <outline type="rss" text="Sala de Prensa - Cultura" title="Sala de Prensa - Cultura" description="Feed de la categoría 'Cultura' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=32&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=32"/>
+    <outline type="rss" text="Sala de Prensa - Deportes" title="Sala de Prensa - Deportes" description="Feed de la categoría 'Deportes' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=31&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=31"/>
+    <outline type="rss" text="Sala de Prensa - Entrevistas" title="Sala de Prensa - Entrevistas" description="Feed de la categoría 'Entrevistas' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=27&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=27"/>
+    <outline type="rss" text="Sala de Prensa - Gran Concepción" title="Sala de Prensa - Gran Concepción" description="Feed de la categoría 'Gran Concepción' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=28&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=28"/>
+    <outline type="rss" text="Sala de Prensa - Región del Biobío" title="Sala de Prensa - Región del Biobío" description="Feed de la categoría 'Región del Biobío' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=279&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=279"/>
+    <outline type="rss" text="Sala de Prensa [Proxy Google News]" title="Sala de Prensa [Proxy Google News]" description="Resultados de site:saladeprensa.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:saladeprensa.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:saladeprensa.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Tomé al Día" title="Tomé al Día" description="Medio de comunicación de la Región de Biobío" xmlUrl="http://www.tomealdia.com/feeds/posts/default?alt=rss" htmlUrl="http://www.tomealdia.com"/>
   </body>
 </opml>

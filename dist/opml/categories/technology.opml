@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (175 feeds)</title>
+    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (176 feeds)</title>
     <description>Feeds RSS de 💻 Tecnología y Startups, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
+    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -49,6 +49,7 @@
     <outline type="rss" text="Araucanía Noticias - Ciencia y Tecnología" title="Araucanía Noticias - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/ciencia-tecnologia/feed/" htmlUrl="https://araucanianoticias.cl/category/ciencia-tecnologia/"/>
     <outline type="rss" text="Atacama Noticias - Ciencia y Tecnología" title="Atacama Noticias - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/ciencia_y_tecnologia/feed/" htmlUrl="https://www.atacamanoticias.cl/category/ciencia_y_tecnologia/"/>
     <outline type="rss" text="Buda.com [Proxy Google News]" title="Buda.com [Proxy Google News]" description="Resultados de site:buda.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:buda.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:buda.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="CentralWeb - Tecnología" title="CentralWeb - Tecnología" description="Feed de la categoría 'Tecnología' en CentralWeb" xmlUrl="https://centralweb.cl/?cat=13&amp;feed=rss2" htmlUrl="https://centralweb.cl/?cat=13"/>
     <outline type="rss" text="Chocale - Tecnología" title="Chocale - Tecnología" description="Feed de la categoría 'Tecnología' en Chocale" xmlUrl="https://chocale.cl/tecnologia-y-moviles/feed/" htmlUrl="https://chocale.cl/tecnologia-y-moviles/"/>
     <outline type="rss" text="CriptoNoticias" title="CriptoNoticias" description="Sección chilena de CriptoNoticias sobre Bitcoin, blockchain y fintech en Chile" xmlUrl="https://www.criptonoticias.com/feed/" htmlUrl="https://www.criptonoticias.com"/>
     <outline type="rss" text="CriptoNoticias - Bitcoin en Chile" title="CriptoNoticias - Bitcoin en Chile" description="Feed de la sección 'CriptoNoticias - Bitcoin en Chile' en CriptoNoticias Chile" xmlUrl="https://www.criptonoticias.com/etiquetas/bitcoin-chile/feed/" htmlUrl="https://www.criptonoticias.com/etiquetas/bitcoin-chile/"/>

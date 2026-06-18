@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (15 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (16 feeds)</title>
     <description>Feeds RSS de 💼 Ofertas laborales y empleabilidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
+    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Alerta Noticias Temuco - Empleabilidad" title="Alerta Noticias Temuco - Empleabilidad" description="Feed de la categoría 'Empleabilidad' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/empleabilidad/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/empleabilidad/"/>
     <outline type="rss" text="Anda - Laboral" title="Anda - Laboral" description="Feed de la categoría 'Laboral' en Anda" xmlUrl="https://anda.cl/categoria/laboral/feed/" htmlUrl="https://anda.cl/categoria/laboral/"/>
     <outline type="rss" text="ANID - Trabaja Con Nosotros" title="ANID - Trabaja Con Nosotros" description="Feed de la sección 'Trabaja Con Nosotros' en ANID" xmlUrl="https://anid.cl/feed/?category=trabaja-con-nosotros" htmlUrl="https://anid.cl/trabaja-con-nosotros/"/>
+    <outline type="rss" text="AQUA - Laboral" title="AQUA - Laboral" description="Feed de la categoría 'Laboral' en AQUA" xmlUrl="https://www.aqua.cl/?cat=7&amp;feed=rss2" htmlUrl="https://www.aqua.cl/?cat=7"/>
     <outline type="rss" text="Atentos - Trabajo" title="Atentos - Trabajo" description="Feed de la categoría 'Trabajo' en Atentos" xmlUrl="https://www.atentos.cl/category/trabajo/feed/" htmlUrl="https://www.atentos.cl/category/trabajo/"/>
     <outline type="rss" text="ChileTrabajos" title="ChileTrabajos" description="Portal de empleos en Chile" xmlUrl="https://www.chiletrabajos.cl/rss.xml" htmlUrl="https://www.chiletrabajos.cl"/>
     <outline type="rss" text="ChileTrabajos [Proxy Google News]" title="ChileTrabajos [Proxy Google News]" description="Resultados de site:chiletrabajos.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chiletrabajos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chiletrabajos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

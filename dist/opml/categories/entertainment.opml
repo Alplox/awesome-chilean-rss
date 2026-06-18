@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (63 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (69 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
+    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -50,6 +50,12 @@
     <outline type="rss" text="La Nación - Espectaculos" title="La Nación - Espectaculos" description="Feed de la sección 'Espectaculos' en La Nación" xmlUrl="https://www.lanacion.cl/feed/?category=espectaculos" htmlUrl="https://www.lanacion.cl/espectaculos/"/>
     <outline type="rss" text="La Prensa Austral - Cultura y Espectáculos" title="La Prensa Austral - Cultura y Espectáculos" description="Feed de la categoría 'Cultura y Espectáculos' en La Prensa Austral" xmlUrl="https://laprensaaustral.cl/category/espectaculos/feed/" htmlUrl="https://laprensaaustral.cl/category/espectaculos/"/>
     <outline type="rss" text="La Región Hoy - Cultura y Espectáculos" title="La Región Hoy - Cultura y Espectáculos" description="Feed de la categoría 'Cultura y Espectáculos' en La Región Hoy" xmlUrl="https://laregionhoy.cl/category/actualidad/culturayesp/feed/" htmlUrl="https://laregionhoy.cl/category/actualidad/culturayesp/"/>
+    <outline type="rss" text="Majos" title="Majos" description="Blog de moda, lifestyle, tendencias y actualidad" xmlUrl="https://majos.cl/feed/" htmlUrl="https://majos.cl"/>
+    <outline type="rss" text="Majos - Actualidad" title="Majos - Actualidad" description="Feed de la categoría 'Actualidad' en Majos" xmlUrl="https://majos.cl/category/actualidad/feed/" htmlUrl="https://majos.cl/category/actualidad/"/>
+    <outline type="rss" text="Majos - Lanzamiento" title="Majos - Lanzamiento" description="Feed de la categoría 'Lanzamiento' en Majos" xmlUrl="https://majos.cl/category/lanzamientos/feed/" htmlUrl="https://majos.cl/category/lanzamientos/"/>
+    <outline type="rss" text="Majos - Sabores" title="Majos - Sabores" description="Feed de la categoría 'Sabores' en Majos" xmlUrl="https://majos.cl/category/sabores/feed/" htmlUrl="https://majos.cl/category/sabores/"/>
+    <outline type="rss" text="Majos - Tips" title="Majos - Tips" description="Feed de la categoría 'Tips' en Majos" xmlUrl="https://majos.cl/category/tips/feed/" htmlUrl="https://majos.cl/category/tips/"/>
+    <outline type="rss" text="Majos [Proxy Google News]" title="Majos [Proxy Google News]" description="Resultados de site:majos.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:majos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:majos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Nostálgica - Espectáculos" title="Nostálgica - Espectáculos" description="Feed de la categoría 'Espectáculos' en Nostálgica" xmlUrl="https://www.nostalgica.cl/category/espectaculos/feed/" htmlUrl="https://www.nostalgica.cl/category/espectaculos/"/>
     <outline type="rss" text="Ñuble Online - Espectaculos" title="Ñuble Online - Espectaculos" description="Feed de la categoría 'Espectaculos' en Ñuble Online" xmlUrl="https://nubleonline.cl/category/espectaculos/feed/" htmlUrl="https://nubleonline.cl/category/espectaculos/"/>
     <outline type="rss" text="Ovalle Hoy - Espectáculos" title="Ovalle Hoy - Espectáculos" description="Feed de la categoría 'Espectáculos' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/espectaculos/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/espectaculos/"/>

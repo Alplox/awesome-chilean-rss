@@ -2,43 +2,43 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-338-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3588-blue)
+![Sitios](https://img.shields.io/badge/sitios-344-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3627-blue)
 
-> El directorio más completo de feeds RSS chilenos. 338 sitios, 3588 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 344 sitios, 3627 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2383 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2391 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (338 sitios, 3588 feeds)
+## 📝 Fuentes disponibles (344 sitios, 3627 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 190 sitios, 633 feeds
+- [📰 Noticias Nacionales](#cat-news) — 193 sitios, 647 feeds
 - [🌐 Noticias Internacionales](#cat-news-international) — 63 sitios, 119 feeds
-- [🌎 Medios Regionales](#cat-regional) — 202 sitios, 1555 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 72 sitios, 175 feeds
+- [🌎 Medios Regionales](#cat-regional) — 203 sitios, 1561 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 73 sitios, 176 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 22 sitios, 82 feeds
 - [🏫 Educación, Universidades e Investigación](#cat-education) — 61 sitios, 110 feeds
-- [💼 Economia, Negocios y Finanzas](#cat-business) — 79 sitios, 130 feeds
-- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 14 sitios, 15 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 88 sitios, 102 feeds
+- [💼 Economia, Negocios y Finanzas](#cat-business) — 80 sitios, 138 feeds
+- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 15 sitios, 16 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 89 sitios, 103 feeds
 - [👥 Comunidad](#cat-community) — 73 sitios, 138 feeds
-- [⚽ Deportes](#cat-sports) — 116 sitios, 163 feeds
+- [⚽ Deportes](#cat-sports) — 118 sitios, 165 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 13 sitios, 106 feeds
 - [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 56 sitios, 100 feeds
-- [🎭 Espectáculos y Entretención](#cat-entertainment) — 42 sitios, 63 feeds
+- [🎭 Espectáculos y Entretención](#cat-entertainment) — 43 sitios, 69 feeds
 - [📻 Radio y Música](#cat-radio) — 16 sitios, 28 feeds
 - [🏥 Salud y Bienestar](#cat-health) — 63 sitios, 69 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (190 sitios, 633 feeds)
+### 📰 Noticias Nacionales (193 sitios, 647 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -98,6 +98,14 @@
 - **Central Noticia** — Diario regional de Osorno, Los Lagos
   - Central Noticia - Nacional: `https://www.centralnoticia.cl/category/nacional/feed/`
   - Central Noticia - Noticias: `https://www.centralnoticia.cl/category/noticias/feed/`
+- **CentralWeb** — Noticias de Chile con cobertura nacional e internacional
+  - CentralWeb: `https://centralweb.cl/feed/`
+  - CentralWeb - Nacional: `https://centralweb.cl/?cat=5&feed=rss2`
+  - CentralWeb - Internacional: `https://centralweb.cl/?cat=4&feed=rss2`
+  - CentralWeb - Magazine: `https://centralweb.cl/?cat=6&feed=rss2`
+  - CentralWeb - Opinión: `https://centralweb.cl/?cat=3023&feed=rss2`
+  - CentralWeb - Fin de Semana: `https://centralweb.cl/?cat=369&feed=rss2`
+  - CentralWeb [Proxy Google News]: `https://news.google.com/rss/search?q=site:centralweb.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **ChileCompra**: Feed de la categoría 'Noticias' en ChileCompra
   - RSS: `https://www.chilecompra.cl/category/noticias/feed/`
 - **Chilena FM** — Emisora FM regional
@@ -500,6 +508,10 @@
   - La Tercera - Board: `https://www.latercera.com/arc/outboundfeeds/rss/category/lt-board/?outputType=xml`
   - La Tercera [Proxy Google News]: `https://news.google.com/rss/search?q=site:latercera.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - La Tercera [Proxy Bing News]: `https://www.bing.com/news/search?q=site:latercera.com&format=RSS`
+- **La Voz de los que Sobran** — Medio de comunicación independiente con enfoque de derechos humanos, cultura y política
+  - La Voz de los que Sobran: `https://lavozdelosquesobran.cl/feed/`
+  - La Voz de los que Sobran [Proxy Google News]: `https://news.google.com/rss/search?q=site:lavozdelosquesobran.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - La Voz de los que Sobran [Proxy Bing News]: `https://www.bing.com/news/search?q=site:lavozdelosquesobran.cl&format=RSS`
 - **Las Noticias de Malleco** — Diario regional de Angol, La Araucanía
   - Las Noticias de Malleco - Política: `https://lasnoticiasdemalleco.cl/category/politica/feed/`
   - Las Noticias de Malleco - Nacional: `https://lasnoticiasdemalleco.cl/category/nacional/feed/`
@@ -795,6 +807,11 @@
   - RSS: `https://www.reddit.com/r/CasosAislados2/.rss`
 - **Regionalista**: Feed de la categoría 'Noticias' en Regionalista
   - RSS: `https://regionalista.cl/category/noticias/feed/`
+- **Reportea** — Periodismo de investigación e información de actualidad
+  - Reportea: `https://reportea.cl/feed/`
+  - Reportea - Reportajes: `https://reportea.cl/category/reportajes/feed/`
+  - Reportea - Apuntes: `https://reportea.cl/category/apuntes/feed/`
+  - Reportea [Proxy Google News]: `https://news.google.com/rss/search?q=site:reportea.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Río en Línea**: Feed de la categoría 'Política' en Río en Línea
   - RSS: `https://www.rioenlinea.cl/seccion/politica/feed/`
 - **RLN (Radio Las Nieves)** — Radio regional ubicada en el 102.9 MHz del dial FM en Puerto Aysén
@@ -1059,7 +1076,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (202 sitios, 1555 feeds)
+### 🌎 Medios Regionales (203 sitios, 1561 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
@@ -2780,7 +2797,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - San Carlos On Line [Proxy Google News]: `https://news.google.com/rss/search?q=site:sancarlosonline.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - San Carlos On Line [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sancarlosonline.cl&format=RSS`
 
-#### 📍 Biobío (10 medios)
+#### 📍 Biobío (11 medios)
 
 *Descargar OPML regional: [`biobio.opml`](dist/opml/regions/biobio.opml)*
 
@@ -2835,6 +2852,15 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Radio UdeC [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radioudec.cl&format=RSS`
 - **Resumen Biobío**: Resultados de site:resumen.cl en Proxy Google News de noticias Chilenas
   - RSS: `https://news.google.com/rss/search?q=site:resumen.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Sala de Prensa** — Medio de comunicación regional de Concepción y la Región del Biobío
+  - Sala de Prensa: `https://saladeprensa.cl/feed/`
+  - Sala de Prensa - Gran Concepción: `https://saladeprensa.cl/?cat=28&feed=rss2`
+  - Sala de Prensa - Deportes: `https://saladeprensa.cl/?cat=31&feed=rss2`
+  - Sala de Prensa - Chile: `https://saladeprensa.cl/?cat=29&feed=rss2`
+  - Sala de Prensa - Región del Biobío: `https://saladeprensa.cl/?cat=279&feed=rss2`
+  - Sala de Prensa - Cultura: `https://saladeprensa.cl/?cat=32&feed=rss2`
+  - Sala de Prensa - Entrevistas: `https://saladeprensa.cl/?cat=27&feed=rss2`
+  - Sala de Prensa [Proxy Google News]: `https://news.google.com/rss/search?q=site:saladeprensa.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Tomé al Día**: Medio de comunicación de la Región de Biobío
   - RSS: `http://www.tomealdia.com/feeds/posts/default?alt=rss`
 
@@ -3866,7 +3892,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (72 sitios, 175 feeds)
+### 💻 Tecnología y Startups (73 sitios, 176 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
@@ -3922,6 +3948,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.atacamanoticias.cl/category/ciencia_y_tecnologia/feed/`
 - **Buda.com**: Resultados de site:buda.com en Proxy Google News de noticias Chilenas
   - RSS: `https://news.google.com/rss/search?q=site:buda.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **CentralWeb**: Feed de la categoría 'Tecnología' en CentralWeb
+  - RSS: `https://centralweb.cl/?cat=13&feed=rss2`
 - **Chocale**: Feed de la categoría 'Tecnología' en Chocale
   - RSS: `https://chocale.cl/tecnologia-y-moviles/feed/`
 - **CriptoNoticias Chile** — Sección chilena de CriptoNoticias sobre Bitcoin, blockchain y fintech en Chile
@@ -4412,7 +4440,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Economia, Negocios y Finanzas (79 sitios, 130 feeds)
+### 💼 Economia, Negocios y Finanzas (80 sitios, 138 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
@@ -4421,6 +4449,15 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Alerta Noticias Temuco - Emprendimiento: `https://alertanoticiastemuco.cl/category/emprendimiento/feed/`
 - **Anda**: Feed de la categoría 'Economía' en Anda
   - RSS: `https://anda.cl/categoria/economia/feed/`
+- **AQUA** — Revista especializada del sector acuícola, pesquero y medio ambiente
+  - AQUA: `https://www.aqua.cl/feed/`
+  - AQUA - Salmonicultura: `https://www.aqua.cl/?cat=80538&feed=rss2`
+  - AQUA - Pesca: `https://www.aqua.cl/?cat=80539&feed=rss2`
+  - AQUA - Acuicultura: `https://www.aqua.cl/?cat=80540&feed=rss2`
+  - AQUA - Designaciones: `https://www.aqua.cl/?cat=4787&feed=rss2`
+  - AQUA - I+D: `https://www.aqua.cl/?cat=654&feed=rss2`
+  - AQUA - Sostenibilidad: `https://www.aqua.cl/?cat=81123&feed=rss2`
+  - AQUA [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.aqua.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Araucanía Noticias**: Feed de la categoría 'Economía y Negocios' en Araucanía Noticias
   - RSS: `https://araucanianoticias.cl/category/economia/feed/`
 - **Arica365**: Feed de la categoría '#emprendedores' en Arica365
@@ -4629,7 +4666,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-jobs"></a>
-### 💼 Ofertas laborales y empleabilidad (14 sitios, 15 feeds)
+### 💼 Ofertas laborales y empleabilidad (15 sitios, 16 feeds)
 
 *Descargar OPML: [`jobs.opml`](dist/opml/categories/jobs.opml)*
 
@@ -4639,6 +4676,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://anda.cl/categoria/laboral/feed/`
 - **ANID**: Feed de la sección 'Trabaja Con Nosotros' en ANID
   - RSS: `https://anid.cl/feed/?category=trabaja-con-nosotros`
+- **AQUA**: Feed de la categoría 'Laboral' en AQUA
+  - RSS: `https://www.aqua.cl/?cat=7&feed=rss2`
 - **Atentos**: Feed de la categoría 'Trabajo' en Atentos
   - RSS: `https://www.atentos.cl/category/trabajo/feed/`
 - **ChileTrabajos** — Portal de empleos en Chile
@@ -4666,7 +4705,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (88 sitios, 102 feeds)
+### 🎨 Cultura y Divulgación (89 sitios, 103 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
@@ -4847,6 +4886,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Río en Línea** — Diario regional de Valdivia, Los Ríos
   - Río en Línea - Cultura Y Espectáculos: `https://www.rioenlinea.cl/seccion/gamma/cultura-y-espectaculos/feed/`
   - Río en Línea - Cultura: `https://www.rioenlinea.cl/seccion/cultura/feed/`
+- **Sala de Prensa**: Feed de la categoría 'Cultura' en Sala de Prensa
+  - RSS: `https://saladeprensa.cl/?cat=32&feed=rss2`
 - **Sera Noticia**: Feed de la categoría 'Cultura' en Sera Noticia
   - RSS: `https://seranoticia.cl/cultura/feed/`
 - **Temuco Diario** — Diario regional de Temuco, La Araucanía
@@ -5083,7 +5124,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (116 sitios, 163 feeds)
+### ⚽ Deportes (118 sitios, 165 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
@@ -5118,6 +5159,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://noticias.calamaenlinea.cl/category/deporte/feed/`
 - **CEI Noticias**: Feed de la categoría 'Deporte' en CEI Noticias
   - RSS: `https://ceinoticias.cl/category/deporte/feed/`
+- **CentralWeb**: Feed de la categoría 'Deportes' en CentralWeb
+  - RSS: `https://centralweb.cl/?cat=3&feed=rss2`
 - **CRTV Chile** — CRTV Chile es una plataforma multimedia con enfoque en disciplinas deportivas
   - CRTV Chile: `https://crtvchile.cl/rss`
   - CRTV Chile - Golf: `https://crtvchile.cl/category/golf/feed/`
@@ -5345,6 +5388,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Redgol [Proxy Bing News]: `https://www.bing.com/news/search?q=site:redgol.cl&format=RSS`
 - **RLN (Radio Las Nieves)**: Feed de la categoría 'Deportes' en RLN (Radio Las Nieves)
   - RSS: `https://www.rln.cl/category/deportes/feed/`
+- **Sala de Prensa**: Feed de la categoría 'Deportes' en Sala de Prensa
+  - RSS: `https://saladeprensa.cl/?cat=31&feed=rss2`
 - **Sera Noticia**: Feed de la categoría 'Deporte' en Sera Noticia
   - RSS: `https://seranoticia.cl/deporte/feed/`
 - **Tarapacá Online**: Feed de la categoría 'Deportes' en Tarapacá Online
@@ -5661,7 +5706,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-entertainment"></a>
-### 🎭 Espectáculos y Entretención (42 sitios, 63 feeds)
+### 🎭 Espectáculos y Entretención (43 sitios, 69 feeds)
 
 *Descargar OPML: [`entertainment.opml`](dist/opml/categories/entertainment.opml)*
 
@@ -5733,6 +5778,13 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://laprensaaustral.cl/category/espectaculos/feed/`
 - **La Región Hoy**: Feed de la categoría 'Cultura y Espectáculos' en La Región Hoy
   - RSS: `https://laregionhoy.cl/category/actualidad/culturayesp/feed/`
+- **Majos** — Blog de moda, lifestyle, tendencias y actualidad
+  - Majos: `https://majos.cl/feed/`
+  - Majos - Actualidad: `https://majos.cl/category/actualidad/feed/`
+  - Majos - Lanzamiento: `https://majos.cl/category/lanzamientos/feed/`
+  - Majos - Sabores: `https://majos.cl/category/sabores/feed/`
+  - Majos - Tips: `https://majos.cl/category/tips/feed/`
+  - Majos [Proxy Google News]: `https://news.google.com/rss/search?q=site:majos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Nostálgica**: Feed de la categoría 'Espectáculos' en Nostálgica
   - RSS: `https://www.nostalgica.cl/category/espectaculos/feed/`
 - **Ñuble Online**: Feed de la categoría 'Espectaculos' en Ñuble Online

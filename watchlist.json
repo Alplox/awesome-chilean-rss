@@ -3869,5 +3869,65 @@
         "verified": false
       }
     ]
+  },
+  {
+    "id": "ellibero",
+    "name": "El Líbero",
+    "url": "https://ellibero.cl",
+    "category": "news",
+    "description": "Diario digital de opinión, análisis e investigación",
+    "reason": "RSS feeds deshabilitados por el sitio mediante plugin de redirección",
+    "feeds": [
+      {
+        "id": "ellibero-proxy-google-news",
+        "name": "El Líbero [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ellibero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ellibero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ellibero.cl en Proxy Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ellibero-proxy-bing-news",
+        "name": "El Líbero [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ellibero.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ellibero.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ellibero.cl en Proxy Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "iglesia",
+    "name": "Iglesia.cl",
+    "url": "https://www.iglesia.cl",
+    "category": "community",
+    "description": "Portal oficial de la Conferencia Episcopal de Chile",
+    "reason": "No se detectó feed RSS — sitio web con CMS PHP personalizado sin soporte RSS",
+    "feeds": [
+      {
+        "id": "iglesia-proxy-google-news",
+        "name": "Iglesia.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:www.iglesia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:www.iglesia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:www.iglesia.cl en Proxy Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "iglesia-proxy-bing-news",
+        "name": "Iglesia.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:www.iglesia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:www.iglesia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:www.iglesia.cl en Proxy Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
   }
 ]

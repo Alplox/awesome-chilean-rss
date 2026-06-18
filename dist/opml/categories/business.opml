@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (130 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (138 feeds)</title>
     <description>Feeds RSS de 💼 Economia, Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
+    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Alerta Noticias Temuco - Economía y Negocios" title="Alerta Noticias Temuco - Economía y Negocios" description="Feed de la categoría 'Economía y Negocios' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/economia-y-negocios/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/economia-y-negocios/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Emprendimiento" title="Alerta Noticias Temuco - Emprendimiento" description="Feed de la categoría 'Emprendimiento' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/emprendimiento/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/emprendimiento/"/>
     <outline type="rss" text="Anda - Economía" title="Anda - Economía" description="Feed de la categoría 'Economía' en Anda" xmlUrl="https://anda.cl/categoria/economia/feed/" htmlUrl="https://anda.cl/categoria/economia/"/>
+    <outline type="rss" text="AQUA" title="AQUA" description="Revista especializada del sector acuícola, pesquero y medio ambiente" xmlUrl="https://www.aqua.cl/feed/" htmlUrl="https://www.aqua.cl"/>
+    <outline type="rss" text="AQUA - Acuicultura" title="AQUA - Acuicultura" description="Feed de la categoría 'Acuicultura' en AQUA" xmlUrl="https://www.aqua.cl/?cat=80540&amp;feed=rss2" htmlUrl="https://www.aqua.cl/?cat=80540"/>
+    <outline type="rss" text="AQUA - Designaciones" title="AQUA - Designaciones" description="Feed de la categoría 'Designaciones' en AQUA" xmlUrl="https://www.aqua.cl/?cat=4787&amp;feed=rss2" htmlUrl="https://www.aqua.cl/?cat=4787"/>
+    <outline type="rss" text="AQUA - I+D" title="AQUA - I+D" description="Feed de la categoría 'I+D' en AQUA" xmlUrl="https://www.aqua.cl/?cat=654&amp;feed=rss2" htmlUrl="https://www.aqua.cl/?cat=654"/>
+    <outline type="rss" text="AQUA - Pesca" title="AQUA - Pesca" description="Feed de la categoría 'Pesca' en AQUA" xmlUrl="https://www.aqua.cl/?cat=80539&amp;feed=rss2" htmlUrl="https://www.aqua.cl/?cat=80539"/>
+    <outline type="rss" text="AQUA - Salmonicultura" title="AQUA - Salmonicultura" description="Feed de la categoría 'Salmonicultura' en AQUA" xmlUrl="https://www.aqua.cl/?cat=80538&amp;feed=rss2" htmlUrl="https://www.aqua.cl/?cat=80538"/>
+    <outline type="rss" text="AQUA - Sostenibilidad" title="AQUA - Sostenibilidad" description="Feed de la categoría 'Sostenibilidad' en AQUA" xmlUrl="https://www.aqua.cl/?cat=81123&amp;feed=rss2" htmlUrl="https://www.aqua.cl/?cat=81123"/>
+    <outline type="rss" text="AQUA [Proxy Google News]" title="AQUA [Proxy Google News]" description="Resultados de site:www.aqua.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:www.aqua.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:www.aqua.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Araucanía Noticias - Economía y Negocios" title="Araucanía Noticias - Economía y Negocios" description="Feed de la categoría 'Economía y Negocios' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/economia/feed/" htmlUrl="https://araucanianoticias.cl/category/economia/"/>
     <outline type="rss" text="Arica365 - #emprendedores" title="Arica365 - #emprendedores" description="Feed de la categoría '#emprendedores' en Arica365" xmlUrl="https://www.arica365.cl/blog/category/emprendedores/feed/" htmlUrl="https://www.arica365.cl/blog/category/emprendedores/"/>
     <outline type="rss" text="Atacama Noticias - Minería y Economía" title="Atacama Noticias - Minería y Economía" description="Feed de la categoría 'Minería y Economía' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/mineria_y_economia/feed/" htmlUrl="https://www.atacamanoticias.cl/category/mineria_y_economia/"/>

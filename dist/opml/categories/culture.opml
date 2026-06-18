@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (102 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (103 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
+    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -102,6 +102,7 @@
     <outline type="rss" text="Radio UdeC - Cultura" title="Radio UdeC - Cultura" description="Feed de la categoría 'Cultura' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/cultura/feed/" htmlUrl="https://www.radioudec.cl/category/cultura/"/>
     <outline type="rss" text="Río en Línea - Cultura" title="Río en Línea - Cultura" description="Feed de la categoría 'Cultura' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/cultura/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/cultura/"/>
     <outline type="rss" text="Río en Línea - Cultura Y Espectáculos" title="Río en Línea - Cultura Y Espectáculos" description="Feed de la categoría 'Cultura Y Espectáculos' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/gamma/cultura-y-espectaculos/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/gamma/cultura-y-espectaculos/"/>
+    <outline type="rss" text="Sala de Prensa - Cultura" title="Sala de Prensa - Cultura" description="Feed de la categoría 'Cultura' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=32&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=32"/>
     <outline type="rss" text="Sera Noticia - Cultura" title="Sera Noticia - Cultura" description="Feed de la categoría 'Cultura' en Sera Noticia" xmlUrl="https://seranoticia.cl/cultura/feed/" htmlUrl="https://seranoticia.cl/cultura/"/>
     <outline type="rss" text="Temuco Diario - Arte" title="Temuco Diario - Arte" description="Feed de la categoría 'Arte' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/arte/feed/" htmlUrl="https://temucodiario.cl/category/arte/"/>
     <outline type="rss" text="Temuco Diario - Cultura" title="Temuco Diario - Cultura" description="Feed de la categoría 'Cultura' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/temucodiario-cl/feed/" htmlUrl="https://temucodiario.cl/category/temucodiario-cl/"/>
