@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (99 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (100 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T05:55:09.197Z</dateCreated>
+    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -41,7 +41,7 @@
     <outline type="rss" text="Diario Los Lagos - Clima" title="Diario Los Lagos - Clima" description="Feed de la categoría 'Clima' en Diario Los Lagos" xmlUrl="https://diarioloslagos.cl/category/clima/feed/" htmlUrl="https://diarioloslagos.cl/category/clima/"/>
     <outline type="rss" text="Diario Puerto Varas - Ciencia y Medio" title="Diario Puerto Varas - Ciencia y Medio" description="Feed de la categoría 'Ciencia y Medio' en Diario Puerto Varas" xmlUrl="https://diariopuertovaras.cl/category/ciencia-medio/feed/" htmlUrl="https://diariopuertovaras.cl/category/ciencia-medio/"/>
     <outline type="rss" text="El Ciudadano - Animales" title="El Ciudadano - Animales" description="Feed de la categoría 'Animales' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/animal/feed/" htmlUrl="https://www.elciudadano.com/noticias/animal/"/>
-    <outline type="rss" text="El Ciudadano - Medio Ambiente" title="El Ciudadano - Medio Ambiente" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/noticias/medio-ambiente/feed/" htmlUrl="https://www.elciudadano.com/noticias/medio-ambiente/"/>
+    <outline type="rss" text="El Ciudadano - Medio Ambiente" title="El Ciudadano - Medio Ambiente" description="Feed de la sección 'Medio Ambiente' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/medio-ambiente/feed/" htmlUrl="https://www.elciudadano.com/noticias/medio-ambiente/"/>
     <outline type="rss" text="El Contraste - El Tiempo" title="El Contraste - El Tiempo" description="Feed de la categoría 'El Tiempo' en El Contraste" xmlUrl="https://elcontraste.cl/el-tiempo/feed/" htmlUrl="https://elcontraste.cl/el-tiempo/"/>
     <outline type="rss" text="El Diario de La Araucanía - Agricultura" title="El Diario de La Araucanía - Agricultura" description="Feed de la categoría 'Agricultura' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/ciencias-y-tecnologias/agricultura/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/ciencias-y-tecnologias/agricultura/"/>
     <outline type="rss" text="El Diario de La Araucanía - Medio Ambiente" title="El Diario de La Araucanía - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/medio-ambiente/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/medio-ambiente/"/>
@@ -95,6 +95,7 @@
     <outline type="rss" text="Radio Festival - Naturaleza" title="Radio Festival - Naturaleza" description="Feed de la categoría 'Naturaleza' en Radio Festival" xmlUrl="https://www.radiofestival.cl/category/naturaleza/feed/" htmlUrl="https://www.radiofestival.cl/category/naturaleza/"/>
     <outline type="rss" text="Radio UdeC - Medio Ambiente" title="Radio UdeC - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/medio-ambiente/feed/" htmlUrl="https://www.radioudec.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Río en Línea - Medio Ambiente" title="Río en Línea - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/medio-ambiente/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/medio-ambiente/"/>
+    <outline type="rss" text="Supervivencia y Desastres - Clima" title="Supervivencia y Desastres - Clima" description="Feed de la categoría 'Clima' en Supervivencia y Desastres" xmlUrl="https://www.supervivencia-y-desastres.cl/category/clima/feed/" htmlUrl="https://www.supervivencia-y-desastres.cl/category/clima/"/>
     <outline type="rss" text="Temuco Diario - Agricultura" title="Temuco Diario - Agricultura" description="Feed de la categoría 'Agricultura' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/agricultura/feed/" htmlUrl="https://temucodiario.cl/category/agricultura/"/>
     <outline type="rss" text="Temuco Diario - Medio Ambiente" title="Temuco Diario - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/medio-ambiente/feed/" htmlUrl="https://temucodiario.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Temuco Diario - Medioambiente" title="Temuco Diario - Medioambiente" description="Feed de la categoría 'Medioambiente' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/medioambiente/feed/" htmlUrl="https://temucodiario.cl/category/medioambiente/"/>

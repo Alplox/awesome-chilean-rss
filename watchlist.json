@@ -3579,5 +3579,295 @@
         "verified": false
       }
     ]
+  },
+  {
+    "id": "ccs",
+    "name": "Cámara de Comercio de Santiago",
+    "url": "https://www.ccs.cl",
+    "category": "business",
+    "reason": "Feed RSS detectado (WordPress) pero devuelve error 500",
+    "description": "Cámara de Comercio de Santiago, gremio empresarial",
+    "feeds": [
+      {
+        "id": "ccs-proxy-google-news",
+        "name": "Cámara de Comercio de Santiago [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ccs.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ccs.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ccs.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "ccs-proxy-bing-news",
+        "name": "Cámara de Comercio de Santiago [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ccs.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ccs.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ccs.cl en Proxy Bing News",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "id": "tecomtel",
+    "name": "TeComTel",
+    "url": "https://www.tecomtel.cl",
+    "category": "technology",
+    "reason": "Sitio construido con Wix, sin feed RSS",
+    "description": "Tienda de tecnología y telecomunicaciones",
+    "feeds": [
+      {
+        "id": "tecomtel-proxy-google-news",
+        "name": "TeComTel [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tecomtel.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tecomtel.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tecomtel.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "tecomtel-proxy-bing-news",
+        "name": "TeComTel [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tecomtel.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tecomtel.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tecomtel.cl en Proxy Bing News",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "id": "anci",
+    "name": "ANCI",
+    "url": "https://anci.gob.cl",
+    "category": "government",
+    "reason": "Sitio gubernamental sin feed RSS detectado",
+    "description": "Agencia Nacional de Inteligencia de Chile",
+    "feeds": [
+      {
+        "id": "anci-proxy-google-news",
+        "name": "ANCI [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:anci.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:anci.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:anci.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "anci-proxy-bing-news",
+        "name": "ANCI [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:anci.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:anci.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:anci.gob.cl en Proxy Bing News",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "id": "noticias-importantes",
+    "name": "Noticias Importantes",
+    "url": "https://noticiasimportantes.cl",
+    "category": "news",
+    "reason": "Sitio sin feed RSS detectado",
+    "description": "Agregador de noticias chilenas",
+    "feeds": [
+      {
+        "id": "noticias-importantes-proxy-google-news",
+        "name": "Noticias Importantes [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:noticiasimportantes.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:noticiasimportantes.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:noticiasimportantes.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "noticias-importantes-proxy-bing-news",
+        "name": "Noticias Importantes [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:noticiasimportantes.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:noticiasimportantes.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:noticiasimportantes.cl en Proxy Bing News",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "id": "hoy",
+    "name": "Hoy",
+    "url": "https://hoy.cl",
+    "category": "news",
+    "reason": "Agregador de noticias sin feed RSS propio",
+    "description": "Agregador de noticias chilenas",
+    "feeds": [
+      {
+        "id": "hoy-proxy-google-news",
+        "name": "Hoy [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:hoy.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:hoy.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:hoy.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "hoy-proxy-bing-news",
+        "name": "Hoy [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:hoy.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:hoy.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:hoy.cl en Proxy Bing News",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "id": "mtraiguen",
+    "name": "Municipalidad de Traiguén",
+    "url": "https://mtraiguen.cl",
+    "category": "government",
+    "region": "araucania",
+    "reason": "Sitio municipal redirige (302), sin feed RSS",
+    "description": "Municipalidad de Traiguén, Región de La Araucanía",
+    "feeds": [
+      {
+        "id": "mtraiguen-proxy-google-news",
+        "name": "Municipalidad de Traiguén [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:mtraiguen.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mtraiguen.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mtraiguen.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "mtraiguen-proxy-bing-news",
+        "name": "Municipalidad de Traiguén [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:mtraiguen.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mtraiguen.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mtraiguen.cl en Proxy Bing News",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "id": "m360",
+    "name": "M360",
+    "url": "https://m360.cl",
+    "category": "news",
+    "reason": "Sitio construido con Prontus, sin feed RSS",
+    "description": "Medio digital chileno",
+    "feeds": [
+      {
+        "id": "m360-proxy-google-news",
+        "name": "M360 [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:m360.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:m360.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:m360.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "m360-proxy-bing-news",
+        "name": "M360 [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:m360.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:m360.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:m360.cl en Proxy Bing News",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "id": "el-definido",
+    "name": "El Definido",
+    "url": "https://eldefinido.cl",
+    "category": "news",
+    "reason": "Feed RSS sin actualizar desde 2019, sitio parece inactivo",
+    "description": "Medio digital chileno de actualidad y análisis",
+    "feeds": [
+      {
+        "id": "el-definido-proxy-google-news",
+        "name": "El Definido [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:eldefinido.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:eldefinido.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eldefinido.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "el-definido-proxy-bing-news",
+        "name": "El Definido [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:eldefinido.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:eldefinido.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eldefinido.cl en Proxy Bing News",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "id": "diario-labrador",
+    "name": "Diario Labrador",
+    "url": "https://diariolabrador.cl",
+    "category": "regional",
+    "region": "los-rios",
+    "reason": "Sitio inalcanzable (error de transporte/dns)",
+    "description": "Diario regional de Los Ríos",
+    "feeds": [
+      {
+        "id": "diario-labrador-proxy-google-news",
+        "name": "Diario Labrador [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariolabrador.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariolabrador.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolabrador.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "diario-labrador-proxy-bing-news",
+        "name": "Diario Labrador [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariolabrador.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariolabrador.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolabrador.cl en Proxy Bing News",
+        "last_checked": "2026-06-18T19:17:08.057Z",
+        "status": "feed_empty",
+        "verified": false
+      }
+    ]
   }
 ]

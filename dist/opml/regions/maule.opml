@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Maule (204 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Maule (224 feeds)</title>
     <description>Feeds RSS de la Región de Maule, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T05:55:09.197Z</dateCreated>
+    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -170,6 +170,26 @@
     <outline type="rss" text="Radio Buena Nueva - Urgente" title="Radio Buena Nueva - Urgente" description="Feed de la categoría 'Urgente' en Radio Buena Nueva" xmlUrl="https://radiobuenanueva.cl/rb30/archivos/category/urgente/feed/" htmlUrl="https://radiobuenanueva.cl/rb30/archivos/category/urgente/"/>
     <outline type="rss" text="Radio Buena Nueva [Proxy Bing News]" title="Radio Buena Nueva [Proxy Bing News]" description="Resultados de site:radiobuenanueva.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radiobuenanueva.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radiobuenanueva.cl"/>
     <outline type="rss" text="Radio Buena Nueva [Proxy Google News]" title="Radio Buena Nueva [Proxy Google News]" description="Resultados de site:radiobuenanueva.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiobuenanueva.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiobuenanueva.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Sera Noticia" title="Sera Noticia" description="Diario regional del Maule" xmlUrl="https://seranoticia.cl/feed/" htmlUrl="https://seranoticia.cl"/>
+    <outline type="rss" text="Sera Noticia - Actualidad" title="Sera Noticia - Actualidad" description="Feed de la categoría 'Actualidad' en Sera Noticia" xmlUrl="https://seranoticia.cl/actualidad/feed/" htmlUrl="https://seranoticia.cl/actualidad/"/>
+    <outline type="rss" text="Sera Noticia - Comunas" title="Sera Noticia - Comunas" description="Feed de la categoría 'Comunas' en Sera Noticia" xmlUrl="https://seranoticia.cl/comunas/feed/" htmlUrl="https://seranoticia.cl/comunas/"/>
+    <outline type="rss" text="Sera Noticia - Cultura" title="Sera Noticia - Cultura" description="Feed de la categoría 'Cultura' en Sera Noticia" xmlUrl="https://seranoticia.cl/cultura/feed/" htmlUrl="https://seranoticia.cl/cultura/"/>
+    <outline type="rss" text="Sera Noticia - Curicó" title="Sera Noticia - Curicó" description="Feed de la categoría 'Curicó' en Sera Noticia" xmlUrl="https://seranoticia.cl/curico/feed/" htmlUrl="https://seranoticia.cl/curico/"/>
+    <outline type="rss" text="Sera Noticia - Deporte" title="Sera Noticia - Deporte" description="Feed de la categoría 'Deporte' en Sera Noticia" xmlUrl="https://seranoticia.cl/deporte/feed/" htmlUrl="https://seranoticia.cl/deporte/"/>
+    <outline type="rss" text="Sera Noticia - Destacado" title="Sera Noticia - Destacado" description="Feed de la categoría 'Destacado' en Sera Noticia" xmlUrl="https://seranoticia.cl/destacado/feed/" htmlUrl="https://seranoticia.cl/destacado/"/>
+    <outline type="rss" text="Sera Noticia - H1" title="Sera Noticia - H1" description="Feed de la categoría 'H1' en Sera Noticia" xmlUrl="https://seranoticia.cl/h1/feed/" htmlUrl="https://seranoticia.cl/h1/"/>
+    <outline type="rss" text="Sera Noticia - Internacional" title="Sera Noticia - Internacional" description="Feed de la categoría 'Internacional' en Sera Noticia" xmlUrl="https://seranoticia.cl/internacional/feed/" htmlUrl="https://seranoticia.cl/internacional/"/>
+    <outline type="rss" text="Sera Noticia - Linares" title="Sera Noticia - Linares" description="Feed de la categoría 'Linares' en Sera Noticia" xmlUrl="https://seranoticia.cl/region/linares/feed/" htmlUrl="https://seranoticia.cl/region/linares/"/>
+    <outline type="rss" text="Sera Noticia - Nacional" title="Sera Noticia - Nacional" description="Feed de la categoría 'Nacional' en Sera Noticia" xmlUrl="https://seranoticia.cl/nacional/feed/" htmlUrl="https://seranoticia.cl/nacional/"/>
+    <outline type="rss" text="Sera Noticia - Panoramas" title="Sera Noticia - Panoramas" description="Feed de la categoría 'Panoramas' en Sera Noticia" xmlUrl="https://seranoticia.cl/panoramas/feed/" htmlUrl="https://seranoticia.cl/panoramas/"/>
+    <outline type="rss" text="Sera Noticia - Policial" title="Sera Noticia - Policial" description="Feed de la categoría 'Policial' en Sera Noticia" xmlUrl="https://seranoticia.cl/policial/feed/" htmlUrl="https://seranoticia.cl/policial/"/>
+    <outline type="rss" text="Sera Noticia - Región Del Maule" title="Sera Noticia - Región Del Maule" description="Feed de la categoría 'Región Del Maule' en Sera Noticia" xmlUrl="https://seranoticia.cl/region/feed/" htmlUrl="https://seranoticia.cl/region/"/>
+    <outline type="rss" text="Sera Noticia - Salud" title="Sera Noticia - Salud" description="Feed de la categoría 'Salud' en Sera Noticia" xmlUrl="https://seranoticia.cl/salud/feed/" htmlUrl="https://seranoticia.cl/salud/"/>
+    <outline type="rss" text="Sera Noticia - Santiago" title="Sera Noticia - Santiago" description="Feed de la categoría 'Santiago' en Sera Noticia" xmlUrl="https://seranoticia.cl/comunas/santiago/feed/" htmlUrl="https://seranoticia.cl/comunas/santiago/"/>
+    <outline type="rss" text="Sera Noticia - Sexta Región" title="Sera Noticia - Sexta Región" description="Feed de la categoría 'Sexta Región' en Sera Noticia" xmlUrl="https://seranoticia.cl/sexta-region/feed/" htmlUrl="https://seranoticia.cl/sexta-region/"/>
+    <outline type="rss" text="Sera Noticia - Sucede" title="Sera Noticia - Sucede" description="Feed de la categoría 'Sucede' en Sera Noticia" xmlUrl="https://seranoticia.cl/sucede/feed/" htmlUrl="https://seranoticia.cl/sucede/"/>
+    <outline type="rss" text="Sera Noticia - Talca" title="Sera Noticia - Talca" description="Feed de la categoría 'Talca' en Sera Noticia" xmlUrl="https://seranoticia.cl/region/talca/feed/" htmlUrl="https://seranoticia.cl/region/talca/"/>
+    <outline type="rss" text="Sera Noticia - Tribunales" title="Sera Noticia - Tribunales" description="Feed de la categoría 'Tribunales' en Sera Noticia" xmlUrl="https://seranoticia.cl/tribunales/feed/" htmlUrl="https://seranoticia.cl/tribunales/"/>
     <outline type="rss" text="Vivimos la Noticia" title="Vivimos la Noticia" description="Medio de noticias regional de Curicó 105.7 FM" xmlUrl="https://feeds.feedburner.com/vlnradio/Mf9xP3NYqrm" htmlUrl="https://www.vivimoslanoticia.cl"/>
     <outline type="rss" text="VLN Radio" title="VLN Radio" description="Medio de comunicación de la Región de Maule" xmlUrl="https://www.vlnradio.cl/feed" htmlUrl="https://www.vlnradio.cl"/>
     <outline type="rss" text="VLN Radio - Actualidad" title="VLN Radio - Actualidad" description="Feed de la categoría 'Actualidad' en VLN Radio" xmlUrl="https://www.vlnradio.cl/actualidad/feed/" htmlUrl="https://www.vlnradio.cl/actualidad/"/>

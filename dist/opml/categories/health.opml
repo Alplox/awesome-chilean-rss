@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (66 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (69 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T05:55:09.197Z</dateCreated>
+    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -67,11 +67,14 @@
     <outline type="rss" text="Radio Santa María - Salud" title="Radio Santa María - Salud" description="Feed de la categoría 'Salud' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/salud/feed/" htmlUrl="https://www.radiosantamaria.cl/category/salud/"/>
     <outline type="rss" text="Radio UdeC - Salud" title="Radio UdeC - Salud" description="Feed de la categoría 'Salud' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/salud/feed/" htmlUrl="https://www.radioudec.cl/category/salud/"/>
     <outline type="rss" text="Río en Línea - Salud" title="Río en Línea - Salud" description="Feed de la categoría 'Salud' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/salud/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/salud/"/>
+    <outline type="rss" text="Sera Noticia - Salud" title="Sera Noticia - Salud" description="Feed de la categoría 'Salud' en Sera Noticia" xmlUrl="https://seranoticia.cl/salud/feed/" htmlUrl="https://seranoticia.cl/salud/"/>
     <outline type="rss" text="Sociedad Chilena de Obesidad" title="Sociedad Chilena de Obesidad" description="Sociedad científica médica dedicada al estudio de la obesidad" xmlUrl="https://www.sochob.cl/web/feed/" htmlUrl="https://www.sochob.cl"/>
     <outline type="rss" text="Sociedad Chilena de Obesidad [Proxy Google News]" title="Sociedad Chilena de Obesidad [Proxy Google News]" description="Resultados de site:sochob.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:sochob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:sochob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Supervivencia y Desastres - Medicina" title="Supervivencia y Desastres - Medicina" description="Feed de la categoría 'Medicina' en Supervivencia y Desastres" xmlUrl="https://www.supervivencia-y-desastres.cl/category/medicina/feed/" htmlUrl="https://www.supervivencia-y-desastres.cl/category/medicina/"/>
     <outline type="rss" text="Temuco Diario - Salud" title="Temuco Diario - Salud" description="Feed de la categoría 'Salud' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/salud/feed/" htmlUrl="https://temucodiario.cl/category/salud/"/>
     <outline type="rss" text="Tiempo 21 - Salud" title="Tiempo 21 - Salud" description="Feed de la categoría 'Salud' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/vida-y-salud/feed/" htmlUrl="https://www.tiempo21.cl/vida-y-salud/"/>
     <outline type="rss" text="Tierramarillano - Salud" title="Tierramarillano - Salud" description="Feed de la categoría 'Salud' en Tierramarillano" xmlUrl="https://tierramarillano.cl/category/salud/feed/" htmlUrl="https://tierramarillano.cl/category/salud/"/>
+    <outline type="rss" text="Vilas Radio - Salud" title="Vilas Radio - Salud" description="Feed de la categoría 'Salud' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/salud/feed/" htmlUrl="https://vilasradio.cl/category/salud/"/>
     <outline type="rss" text="VLN Radio - Salud Y Bienestar" title="VLN Radio - Salud Y Bienestar" description="Feed de la categoría 'Salud Y Bienestar' en VLN Radio" xmlUrl="https://www.vlnradio.cl/tendencias/salud-y-bienestar/feed/" htmlUrl="https://www.vlnradio.cl/tendencias/salud-y-bienestar/"/>
   </body>
 </opml>

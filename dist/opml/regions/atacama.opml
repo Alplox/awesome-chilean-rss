@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Atacama (140 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Atacama (142 feeds)</title>
     <description>Feeds RSS de la Región de Atacama, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T05:55:09.197Z</dateCreated>
+    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -73,6 +73,8 @@
     <outline type="rss" text="El Noticiero del Huasco - Turismo" title="El Noticiero del Huasco - Turismo" description="Feed de la categoría 'Turismo' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/turismo/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/turismo/"/>
     <outline type="rss" text="El Noticiero del Huasco - Vallenar" title="El Noticiero del Huasco - Vallenar" description="Feed de la categoría 'Vallenar' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/provincia/vallenar/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/provincia/vallenar/"/>
     <outline type="rss" text="El Noticiero del Huasco [Proxy Google News]" title="El Noticiero del Huasco [Proxy Google News]" description="Resultados de site:elnoticierodelhuasco.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elnoticierodelhuasco.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elnoticierodelhuasco.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="El Zorro Nortino" title="El Zorro Nortino" description="Diario regional de Atacama" xmlUrl="https://www.elzorronortino.cl/feed/" htmlUrl="https://www.elzorronortino.cl"/>
+    <outline type="rss" text="El Zorro Nortino [Proxy Google News]" title="El Zorro Nortino [Proxy Google News]" description="Resultados de site:elzorronortino.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elzorronortino.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elzorronortino.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Enfoque Digital" title="Enfoque Digital" description="Medio de comunicación de la Región de Atacama" xmlUrl="https://www.enfoquedigital.cl/feed" htmlUrl="https://www.enfoquedigital.cl"/>
     <outline type="rss" text="Enfoque Digital - Ciencia y Tecnología" title="Enfoque Digital - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Enfoque Digital" xmlUrl="https://enfoquedigital.cl/categorias/ciencia-y-tecnologia/feed/" htmlUrl="https://enfoquedigital.cl/categorias/ciencia-y-tecnologia/"/>
     <outline type="rss" text="Enfoque Digital - Columna" title="Enfoque Digital - Columna" description="Feed de la categoría 'Columna' en Enfoque Digital" xmlUrl="https://enfoquedigital.cl/categorias/columna/feed/" htmlUrl="https://enfoquedigital.cl/categorias/columna/"/>

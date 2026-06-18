@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (109 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (110 feeds)</title>
     <description>Feeds RSS de 🏫 Educación, Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T05:55:09.197Z</dateCreated>
+    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -105,6 +105,7 @@
     <outline type="rss" text="Temuco Diario - Educación" title="Temuco Diario - Educación" description="Feed de la categoría 'Educación' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/educacion/feed/" htmlUrl="https://temucodiario.cl/category/educacion/"/>
     <outline type="rss" text="Tiempo 21 - Educación" title="Tiempo 21 - Educación" description="Feed de la categoría 'Educación' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/educacion/feed/" htmlUrl="https://www.tiempo21.cl/educacion/"/>
     <outline type="rss" text="Tiempo 21 - Universidades" title="Tiempo 21 - Universidades" description="Feed de la categoría 'Universidades' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/universidades/feed/" htmlUrl="https://www.tiempo21.cl/universidades/"/>
+    <outline type="rss" text="Traiguén City - Educación" title="Traiguén City - Educación" description="Feed de la categoría 'Educación' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/educacion/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/educacion/"/>
     <outline type="rss" text="Universidad de Concepción" title="Universidad de Concepción" description="Noticias e investigación de la Universidad de Concepción" xmlUrl="https://noticias.udec.cl/feed/" htmlUrl="https://noticias.udec.cl"/>
     <outline type="rss" text="Universidad de Concepción - Humanidades y Sociedad" title="Universidad de Concepción - Humanidades y Sociedad" description="Feed de la categoría 'Humanidades y Sociedad' en Universidad de Concepción" xmlUrl="https://noticias.udec.cl/category/humanidades-sociedad/feed/" htmlUrl="https://noticias.udec.cl/category/humanidades-sociedad/"/>
     <outline type="rss" text="Universidad de Concepción - Opinión" title="Universidad de Concepción - Opinión" description="Feed de la categoría 'Opinión' en Universidad de Concepción" xmlUrl="https://noticias.udec.cl/category/opinion/feed/" htmlUrl="https://noticias.udec.cl/category/opinion/"/>

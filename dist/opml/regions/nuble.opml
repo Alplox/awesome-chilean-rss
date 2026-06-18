@@ -3,7 +3,7 @@
   <head>
     <title>Awesome Chilean RSS - Región de Ñuble (93 feeds)</title>
     <description>Feeds RSS de la Región de Ñuble, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T05:55:09.197Z</dateCreated>
+    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -99,6 +99,6 @@
     <outline type="rss" text="San Carlos On Line" title="San Carlos On Line" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosonline.cl/rss.xml" htmlUrl="https://www.sancarlosonline.cl"/>
     <outline type="rss" text="San Carlos On Line [Proxy Bing News]" title="San Carlos On Line [Proxy Bing News]" description="Resultados de site:sancarlosonline.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:sancarlosonline.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:sancarlosonline.cl"/>
     <outline type="rss" text="San Carlos On Line [Proxy Google News]" title="San Carlos On Line [Proxy Google News]" description="Resultados de site:sancarlosonline.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:sancarlosonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:sancarlosonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="San Carlos Online" title="San Carlos Online" description="Diario regional de San Carlos, Ñuble" xmlUrl="https://www.sancarlosonline.cl/feeds/posts/default?alt=rss" htmlUrl="https://www.sancarlosonline.cl"/>
+    <outline type="rss" text="San Carlos Online" title="San Carlos Online" description="Feed de la sección 'San Carlos Online' en San Carlos On Line" xmlUrl="https://www.sancarlosonline.cl/feeds/posts/default?alt=rss" htmlUrl="https://www.sancarlosonline.cl"/>
   </body>
 </opml>

@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Los Ríos (89 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Los Ríos (91 feeds)</title>
     <description>Feeds RSS de la Región de Los Ríos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T05:55:09.197Z</dateCreated>
+    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Central Noticias" title="Central Noticias" description="Diario regional de Panguipulli, Los Ríos" xmlUrl="https://centralnoticias.cl/?feed=rss2" htmlUrl="https://centralnoticias.cl"/>
     <outline type="rss" text="Central Noticias [Proxy Google News]" title="Central Noticias [Proxy Google News]" description="Resultados de site:centralnoticias.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:centralnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:centralnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario de Valdivia [Proxy Google News]" title="Diario de Valdivia [Proxy Google News]" description="Resultados de site:diariodevaldivia.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diariodevaldivia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diariodevaldivia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Dirario Austral" title="Dirario Austral" description="Diario regional de Los Ríos" xmlUrl="https://www.australvaldivia.cl/?feed=rss2" htmlUrl="https://www.australvaldivia.cl"/>
+    <outline type="rss" text="Dirario Austral [Proxy Google News]" title="Dirario Austral [Proxy Google News]" description="Resultados de site:australvaldivia.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:australvaldivia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:australvaldivia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Provincial" title="El Provincial" description="Medio de comunicación de la Región de Los Ríos" xmlUrl="https://www.elprovincial.cl/feed" htmlUrl="https://www.elprovincial.cl"/>
     <outline type="rss" text="El Provincial - Avisos Legales" title="El Provincial - Avisos Legales" description="Feed de la categoría 'Avisos Legales' en El Provincial" xmlUrl="https://www.elprovincial.cl/category/avisos-legales/feed/" htmlUrl="https://www.elprovincial.cl/category/avisos-legales/"/>
     <outline type="rss" text="El Provincial - Citaciones" title="El Provincial - Citaciones" description="Feed de la categoría 'Citaciones' en El Provincial" xmlUrl="https://www.elprovincial.cl/category/avisos-legales/citaciones/feed/" htmlUrl="https://www.elprovincial.cl/category/avisos-legales/citaciones/"/>

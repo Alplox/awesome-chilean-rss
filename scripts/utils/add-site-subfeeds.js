@@ -160,8 +160,8 @@ for (const { entry, feeds, source } of entries) {
     continue
   }
 
-  const hasGoogle = feeds.some(f => f.id === entry.id + '-google-news')
-  const hasBing = feeds.some(f => f.id === entry.id + '-bing-news')
+  const hasGoogle = feeds.some(f => f.id === entry.id + '-proxy-google-news')
+  const hasBing = feeds.some(f => f.id === entry.id + '-proxy-bing-news')
 
   if (hasGoogle && hasBing) {
     counts[source].alreadyBoth++

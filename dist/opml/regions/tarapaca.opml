@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Tarapacá (175 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Tarapacá (183 feeds)</title>
     <description>Feeds RSS de la Región de Tarapacá, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T05:55:09.197Z</dateCreated>
+    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -158,7 +158,7 @@
     <outline type="rss" text="Radio Paulina - Comunicados" title="Radio Paulina - Comunicados" description="Feed de la categoría 'Comunicados' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/comunicados/feed/" htmlUrl="https://radiopaulina.cl/category/comunicados/"/>
     <outline type="rss" text="Radio Paulina - Deportes" title="Radio Paulina - Deportes" description="Feed de la categoría 'Deportes' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/deportes/feed/" htmlUrl="https://radiopaulina.cl/category/deportes/"/>
     <outline type="rss" text="Radio Paulina - Destacadas" title="Radio Paulina - Destacadas" description="Feed de la categoría 'Destacadas' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/destacadas/feed/" htmlUrl="https://radiopaulina.cl/category/destacadas/"/>
-    <outline type="rss" text="Radio Paulina - Economía &amp;amp; Presupuestos" title="Radio Paulina - Economía &amp;amp; Presupuestos" description="Feed de la categoría 'Economía &amp;amp; Presupuestos' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/economia_presupuestos/feed/" htmlUrl="https://radiopaulina.cl/category/economia_presupuestos/"/>
+    <outline type="rss" text="Radio Paulina - Economía y Presupuestos" title="Radio Paulina - Economía y Presupuestos" description="Feed de la categoría 'Economía y Presupuestos' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/economia_presupuestos/feed/" htmlUrl="https://radiopaulina.cl/category/economia_presupuestos/"/>
     <outline type="rss" text="Radio Paulina - Emprendedores" title="Radio Paulina - Emprendedores" description="Feed de la categoría 'Emprendedores' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/emprendedores/feed/" htmlUrl="https://radiopaulina.cl/category/emprendedores/"/>
     <outline type="rss" text="Radio Paulina - Internacional" title="Radio Paulina - Internacional" description="Feed de la categoría 'Internacional' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/internacional/feed/" htmlUrl="https://radiopaulina.cl/category/internacional/"/>
     <outline type="rss" text="Radio Paulina - Iquique" title="Radio Paulina - Iquique" description="Feed de la categoría 'Iquique' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/regional/iquique/feed/" htmlUrl="https://radiopaulina.cl/category/regional/iquique/"/>
@@ -182,5 +182,13 @@
     <outline type="rss" text="Tarapacá Online - Nacional" title="Tarapacá Online - Nacional" description="Feed de la categoría 'Nacional' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/nacional/feed/" htmlUrl="https://tarapacaonline.cl/category/nacional/"/>
     <outline type="rss" text="Tarapacá Online - Policial" title="Tarapacá Online - Policial" description="Feed de la categoría 'Policial' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/policial/feed/" htmlUrl="https://tarapacaonline.cl/category/policial/"/>
     <outline type="rss" text="Tarapacá Online [Proxy Google News]" title="Tarapacá Online [Proxy Google News]" description="Resultados de site:tarapacaonline.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:tarapacaonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:tarapacaonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Vilas Radio" title="Vilas Radio" description="Radio de la Región de Tarapacá" xmlUrl="https://vilasradio.cl/feed/" htmlUrl="https://vilasradio.cl"/>
+    <outline type="rss" text="Vilas Radio - Deportes" title="Vilas Radio - Deportes" description="Feed de la categoría 'Deportes' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/deportes/feed/" htmlUrl="https://vilasradio.cl/category/deportes/"/>
+    <outline type="rss" text="Vilas Radio - Internacional" title="Vilas Radio - Internacional" description="Feed de la categoría 'Internacional' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/internacional/feed/" htmlUrl="https://vilasradio.cl/category/internacional/"/>
+    <outline type="rss" text="Vilas Radio - Local" title="Vilas Radio - Local" description="Feed de la categoría 'Local' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/local/feed/" htmlUrl="https://vilasradio.cl/category/local/"/>
+    <outline type="rss" text="Vilas Radio - Nacional" title="Vilas Radio - Nacional" description="Feed de la categoría 'Nacional' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/nacional/feed/" htmlUrl="https://vilasradio.cl/category/nacional/"/>
+    <outline type="rss" text="Vilas Radio - Noticias" title="Vilas Radio - Noticias" description="Feed de la categoría 'Noticias' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/noticias/feed/" htmlUrl="https://vilasradio.cl/category/noticias/"/>
+    <outline type="rss" text="Vilas Radio - Salud" title="Vilas Radio - Salud" description="Feed de la categoría 'Salud' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/salud/feed/" htmlUrl="https://vilasradio.cl/category/salud/"/>
+    <outline type="rss" text="Vilas Radio [Proxy Google News]" title="Vilas Radio [Proxy Google News]" description="Resultados de site:vilasradio.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:vilasradio.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:vilasradio.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

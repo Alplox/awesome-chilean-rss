@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📻 Radio y Música (26 feeds)</title>
+    <title>Awesome Chilean RSS - 📻 Radio y Música (28 feeds)</title>
     <description>Feeds RSS de 📻 Radio y Música, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T05:55:09.197Z</dateCreated>
+    <dateCreated>2026-06-18T20:04:50.110Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -33,5 +33,7 @@
     <outline type="rss" text="Rock &amp; Pop - Rp30" title="Rock &amp; Pop - Rp30" description="Feed de la sección 'Rp30' en Rock &amp; Pop" xmlUrl="https://www.rockandpop.cl/feed/?category=rp30" htmlUrl="https://www.rockandpop.cl/rp30/"/>
     <outline type="rss" text="Rock &amp; Pop [Proxy Bing News]" title="Rock &amp; Pop [Proxy Bing News]" description="Resultados de site:rockandpop.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:rockandpop.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:rockandpop.cl"/>
     <outline type="rss" text="Rock &amp; Pop [Proxy Google News]" title="Rock &amp; Pop [Proxy Google News]" description="Resultados de site:rockandpop.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:rockandpop.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:rockandpop.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Vilas Radio" title="Vilas Radio" description="Radio de la Región de Tarapacá" xmlUrl="https://vilasradio.cl/feed/" htmlUrl="https://vilasradio.cl"/>
+    <outline type="rss" text="Vilas Radio [Proxy Google News]" title="Vilas Radio [Proxy Google News]" description="Resultados de site:vilasradio.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:vilasradio.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:vilasradio.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>
