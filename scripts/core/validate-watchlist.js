@@ -162,6 +162,10 @@ if (!shouldUpdate && promoted.length && !isAutomatic() && process.stdin.isTTY) {
 if (shouldUpdate || saveFiles) {
   if (promoted.length || kept.length) {
     for (const siteEntry of promoted) {
+      if (db.sites.some(s => s.id === siteEntry.id)) {
+        console.warn(`  ⚠️  "${siteEntry.id}" ya existe en sites — se omite duplicado`);
+        continue;
+      }
       db.sites.push(siteEntry);
     }
     db.total_feeds = recalculateTotalFeeds(db);

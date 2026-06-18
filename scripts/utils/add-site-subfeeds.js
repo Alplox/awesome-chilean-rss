@@ -52,27 +52,27 @@ function buildSubfeeds(entry, domain) {
   const feeds = []
 
   const googleFeed = {
-    id: siteId + '-google-news',
-    name: siteName + ' - Google News',
+    id: siteId + '-proxy-google-news',
+    name: siteName + ' [Proxy Google News]',
     rss_url: `https://news.google.com/rss/search?q=site:${domain}&hl=es-419&gl=CL&ceid=CL:es-419`,
     url: `https://news.google.com/search?q=site:${domain}&hl=es-419&gl=CL&ceid=CL:es-419`,
     feed_type: 'RSS',
-    description: `Resultados de site:${domain} en Google News de noticias Chilenas`,
+    description: `Resultados de site:${domain} en Proxy Google News de noticias Chilenas`,
     last_checked: lastChecked,
-    last_known_item_date: '2026-06-13T03:02:36.000Z',
+    last_known_item_date: null,
     status: 'active',
     verified: true,
   }
 
   const bingFeed = {
-    id: siteId + '-bing-news',
-    name: siteName + ' - Bing News',
+    id: siteId + '-proxy-bing-news',
+    name: siteName + ' [Proxy Bing News]',
     rss_url: `https://www.bing.com/news/search?q=site:${domain}&format=RSS`,
     url: `https://www.bing.com/news/search?q=site:${domain}`,
     feed_type: 'RSS',
-    description: `Resultados de site:${domain} en Bing News`,
+    description: `Resultados de site:${domain} en Proxy Bing News`,
     last_checked: lastChecked,
-    last_known_item_date: '2026-06-13T03:02:36.000Z',
+    last_known_item_date: null,
     status: 'active',
     verified: true,
   }

@@ -73,7 +73,7 @@ for (const site of data.sites) {
   const activeFeeds = site.feeds.filter(f => f.status === 'active');
   totalActiveFeeds += activeFeeds.length;
 
-  for (const feed of activeFeeds) {
+  for (const feed of site.feeds) {
     for (const key of REQUIRED_FEED_FIELDS) {
       if (!feed[key]) error(`Feed "${feed.name ?? '?'}" en sitio "${site.name}" sin campo '${key}'`);
     }

@@ -60,8 +60,12 @@ for (const site of sites) {
     (catGroups[resolvedCat] ??= []).push(feed);
 
     if (resolvedReg) {
-      (feedsByRegion[resolvedReg] ??= []).push(feedEntry);
-      (regGroups[resolvedReg] ??= []).push(feed);
+      if (!regions[resolvedReg]) {
+        console.warn(`  ⚠️  "${site.id}" › feed "${feed.id}" tiene region desconocida "${resolvedReg}" — se omite de OPML regional`)
+      } else {
+        (feedsByRegion[resolvedReg] ??= []).push(feedEntry);
+        (regGroups[resolvedReg] ??= []).push(feed);
+      }
     }
   }
 

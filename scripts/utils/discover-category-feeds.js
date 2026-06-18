@@ -189,7 +189,7 @@ function extractSectionFromUrl(url, baseUrl) {
   try {
     const u = new URL(url)
     const base = new URL(baseUrl)
-    if (u.hostname !== base.hostname) return null
+    if (u.hostname.replace(/^www\./, '') !== base.hostname.replace(/^www\./, '')) return null
 
     const path = u.pathname.replace(/\/+$/, '').split('/').filter(Boolean)
     if (path.length === 0) return null
@@ -490,7 +490,19 @@ let redirectCount = 0  // module-level, accessed from testFeedUrl
         process.stdout.write(` 📡 ${relevant.length} categorías con ≥${minPosts} posts\n`)
         for (const cat of relevant) {
           wpSections++
-          const catLink = cat.link || `${baseUrl}/category/${cat.slug}/`
+          let catLink
+          if (cat.link) {
+            try {
+              const catDomain = new URL(cat.link).hostname.replace(/^www\./, '')
+              const siteDomain = new URL(baseUrl).hostname.replace(/^www\./, '')
+              catLink = catDomain === siteDomain ? cat.link : null
+            } catch {
+              catLink = null
+            }
+          }
+          if (!catLink) {
+            catLink = `${baseUrl}/category/${cat.slug}/`
+          }
           const feedUrl = `${catLink.replace(/\/+$/, '')}/feed/`
 
           process.stdout.write(`  · ${cat.slug.padEnd(25)}`)

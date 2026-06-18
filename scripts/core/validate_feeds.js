@@ -58,7 +58,7 @@ function updateFeedState(feed, { status, feedType, rssUrl, lastItemDate } = {}, 
 }
 
 function feedLabel(site, feed) {
-  return `${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`;
+  return `${site.name} › ${feed.name}`;
 }
 
 function trackResult(results, feed, site, status) {
@@ -169,6 +169,21 @@ async function validateSingleUrl(url) {
 }
 
 // ─── Helpers de redescubrimiento contextual ──────────────────────────────────
+
+/**
+ * Determina el origen (protocolo + hostname) desde el que intentar rediscovery.
+ * Si el feed está en un dominio diferente al sitio principal, usa el dominio del feed.
+ */
+function getFeedOrigin(feedUrl, siteUrl) {
+  try {
+    const feed = new URL(feedUrl);
+    const site = new URL(siteUrl);
+    if (feed.hostname.replace(/^www\./, '') !== site.hostname.replace(/^www\./, '')) {
+      return feed.origin;
+    }
+  } catch { /* ignorar */ }
+  return siteUrl;
+}
 
 /**
  * Infiere patrones de URL preferidos desde el feed fallido para guiar el rediscovery.
@@ -360,7 +375,7 @@ async function main() {
     sitesToValidate = sitesToValidate
       .map(site => ({
         ...site,
-        feeds: site.feeds.filter(f => !f.last_known_item_date)
+        feeds: site.feeds.filter(f => !('last_known_item_date' in f))
       }))
       .filter(site => site.feeds.length > 0);
   }
@@ -409,7 +424,7 @@ async function main() {
 
     for (const [feedIndex, feed] of site.feeds.entries()) {
       const checkResult = checkResults[feedIndex];
-      const label = site.feeds.length > 1 ? `  🔍 ${feed.name}... ` : `🔍 ${site.name}... `;
+      const label = `  🔍 ${feed.name}... `;
       process.stdout.write(label);
 
       if (checkResult.type) {
@@ -427,7 +442,7 @@ async function main() {
           if (!pathsMatch(feed.rss_url, checkResult.selfLink)) {
             console.log(`⚠️  feed principal (self-link: ${checkResult.selfLink}) — no es específico de la categoría`);
             updateFeedState(feed, { status: 'broken', feedType: checkResult.type, lastItemDate: null }, shouldUpdate);
-            results.broken.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+            results.broken.push(feedLabel(site, feed));
             continue;
           }
         }
@@ -437,15 +452,15 @@ async function main() {
 
         if (lastItemDate) {
           if (daysSince(lastItemDate) > STALE_THRESHOLD_DAYS) {
-            console.log(`⚠️  STALE (último item: ${lastItemDate.slice(0, 10)}, ${Math.round(daysSince)} días)`);
+            console.log(`⚠️  STALE (último item: ${lastItemDate.slice(0, 10)}, ${Math.round(daysSince(lastItemDate))} días)`);
             updateFeedState(feed, { status: 'stale', feedType: checkResult.type, lastItemDate }, shouldUpdate);
-            results.stale.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+            results.stale.push(feedLabel(site, feed));
             continue;
           }
         } else if (itemCount === 0) {
           console.log(`⚠️  vacío (${checkResult.type}, 0 items) — feed válido sin contenido`);
           updateFeedState(feed, { status: 'feed_empty', feedType: checkResult.type, lastItemDate: null }, shouldUpdate);
-          results.other.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+          results.other.push(feedLabel(site, feed));
           continue;
         } else {
           if (shouldUpdate && process.stdin.isTTY && !isAutomatic()) {
@@ -455,7 +470,7 @@ async function main() {
             if (!keepActive) {
               console.log(`   → marcado como stale (sin info de fecha)`);
               updateFeedState(feed, { status: 'stale', feedType: checkResult.type, lastItemDate: null }, shouldUpdate);
-              results.stale.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+              results.stale.push(feedLabel(site, feed));
               continue;
             }
           } else {
@@ -468,7 +483,7 @@ async function main() {
             console.log(`✅ OK (${checkResult.type}, ${itemCount} item${itemCount > 1 ? 's' : ''})`);
           }
           updateFeedState(feed, { status: 'active', feedType: checkResult.type, lastItemDate: lastItemDate ?? null }, shouldUpdate);
-          results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+          results.ok.push(feedLabel(site, feed));
           continue;
         }
       }
@@ -480,7 +495,13 @@ async function main() {
       if (isBroken) {
         console.log(`   ⚠️  contenido inválido — intentando redescubrir...`);
         const hints = getPreferredPatterns(feed, site);
-        const found = await rediscoverFeed(site.url, hints);
+        const feedOrigin = getFeedOrigin(feed.rss_url, site.url);
+        const found = await rediscoverFeed(feedOrigin, hints);
+        if (!found.feedUrl && feedOrigin !== site.url) {
+          console.log(`   ↪ también buscando desde ${site.url}...`);
+          const fallback = await rediscoverFeed(site.url, hints);
+          if (fallback.feedUrl) Object.assign(found, fallback);
+        }
         if (found.feedUrl) {
           await handleRediscoveryWithGuard(feed, site, results, found, shouldUpdate);
         } else {
@@ -520,7 +541,7 @@ async function main() {
         if (confirmOffline) {
           siteDecision = 'offline';
           updateFeedState(feed, { status: 'offline', lastItemDate: null }, shouldUpdate);
-          results.offline.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+          results.offline.push(feedLabel(site, feed));
           continue;
         }
         if (reachable.reachable) {
@@ -534,7 +555,7 @@ async function main() {
               if (feedData && feedData.itemCount > 0) {
                 console.log(`     ✅ feed válido a pesar del SSL (${feedData.type}, ${feedData.itemCount} item${feedData.itemCount > 1 ? 's' : ''})`);
               updateFeedState(feed, { status: 'active', feedType: feedData.type, lastItemDate: feedData.lastItemDate ?? null }, shouldUpdate);
-              results.ok.push(`${site.name}${site.feeds.length > 1 ? ` › ${feed.name}` : ''}`);
+              results.ok.push(feedLabel(site, feed));
               continue;
             }
             console.log(`     ❌ feed no válido incluso ignorando SSL`);
@@ -556,7 +577,12 @@ async function main() {
 
       process.stdout.write('   ⚠️  redescubriendo... ');
       const hints = getPreferredPatterns(feed, site);
-      const found = await rediscoverFeed(site.url, hints);
+      const feedOrigin = getFeedOrigin(feed.rss_url, site.url);
+      const found = await rediscoverFeed(feedOrigin, hints);
+      if (!found.feedUrl && feedOrigin !== site.url) {
+        const fallback = await rediscoverFeed(site.url, hints);
+        if (fallback.feedUrl) Object.assign(found, fallback);
+      }
 
       if (found.feedUrl) {
         await handleRediscoveryWithGuard(feed, site, results, found, shouldUpdate);
@@ -613,7 +639,7 @@ async function main() {
 
   if (shouldUpdate) {
     const activeFeedCount = db.sites.reduce(
-      (sum, site) => sum + site.feeds.filter(f => f.status === 'active').length,
+      (sum, site) => sum + site.feeds.filter(f => f.status === 'active' && f.verified === true).length,
       0
     );
     db.total_feeds  = activeFeedCount;

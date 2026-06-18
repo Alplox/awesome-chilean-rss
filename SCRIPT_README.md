@@ -6,77 +6,77 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 
 ### Scripts principales (core/)
 
-| Script                                  | Comando                                          | Propósito                                                                      |
-|------------------------------------------|--------------------------------------------------|--------------------------------------------------------------------------------|
-| `scripts/core/validate_feeds.js`         | `npm run validate`                             | Valida feeds sin modificar feeds-database.json                                 |
-|                                          | `npm run validate -- --update`                 | Revalida feeds, redescubre URLs rotas y actualiza feeds-database.json          |
-|                                          | `npm run validate -- --id <site-id>`            | Valida solo un sitio específico por su ID                                      |
-|                                          | `npm run validate -- --id <site-id> --update`  | Valida y actualiza solo un sitio específico                                    |
-|                                          | `npm run validate -- --url <URL>`               | Valida una URL específica (feed o sitio) sin modificar BD          |
-|                                          | `npm run validate -- --start-id <id> [--limit <N>]` | Valida desde un site-id en adelante (opcionalmente limitado)      |
-|                                          | `npm run validate -- --from <N> --to <N>`       | Valida un rango numérico de sitios (--to inclusive)               |
-|                                          | `npm run validate -- --limit <N>`               | Valida solo los primeros N sitios                                   |
-|                                          | `npm run validate -- --missing-date`            | Valida solo feeds sin `last_known_item_date` (nunca verificados). Con `--update` todos quedan con fecha ISO o `null` |
-|                                          | `npm run validate -- --status <estado>`         | Valida solo feeds con un estado específico (`active`, `stale`, `broken`, `offline`, `no_feed`, `feed_empty`) |
-|                                          | `npm run validate -- --watchlist`               | Muestra instrucciones para usar `npm run validate:watchlist`                            |
-|                                          | `npm run validate -- --update --automatic`      | Modo no interactivo para CI/desatendido                            |
-| `scripts/core/generate.js`               | `npm run generate`                              | Lee `feeds-database.json`, `categories.json` y `regions.json`, regenera `dist/opml/chilean-rss.opml`, `dist/opml/chilean-rss-nested.opml`, `dist/opml/chilean-rss-regions.opml`, `dist/opml/regions/*.opml`, `dist/opml/categories/*.opml`, `dist/bookmarks/awesome-chilean-rss.html` y README |
-| `scripts/core/validate-watchlist.js`     | `npm run validate:watchlist`                   | Valida watchlist, promueve feeds válidos a sites con `--update`    |
-|                                          | `npm run validate:watchlist -- --update`        | Promueve automáticamente los feeds válidos a sites[]               |
-|                                          | `npm run validate:watchlist -- --automatic`     | Modo no interactivo (promueve todo sin preguntar)                  |
-|                                          | `npm run validate:watchlist -- --id <id>`       | Valida y promueve solo un sitio específico de la watchlist         |
+| Script                               | Comando                                             | Propósito                                                                                                                                                                                                                                                                                      |
+| ------------------------------------ | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `scripts/core/validate_feeds.js`     | `npm run validate`                                  | Valida feeds sin modificar feeds-database.json                                                                                                                                                                                                                                                 |
+|                                      | `npm run validate -- --update`                      | Revalida feeds, redescubre URLs rotas y actualiza feeds-database.json                                                                                                                                                                                                                          |
+|                                      | `npm run validate -- --id <site-id>`                | Valida solo un sitio específico por su ID                                                                                                                                                                                                                                                      |
+|                                      | `npm run validate -- --id <site-id> --update`       | Valida y actualiza solo un sitio específico                                                                                                                                                                                                                                                    |
+|                                      | `npm run validate -- --url <URL>`                   | Valida una URL específica (feed o sitio) sin modificar BD                                                                                                                                                                                                                                      |
+|                                      | `npm run validate -- --start-id <id> [--limit <N>]` | Valida desde un site-id en adelante (opcionalmente limitado)                                                                                                                                                                                                                                   |
+|                                      | `npm run validate -- --from <N> --to <N>`           | Valida un rango numérico de sitios (--to inclusive)                                                                                                                                                                                                                                            |
+|                                      | `npm run validate -- --limit <N>`                   | Valida solo los primeros N sitios                                                                                                                                                                                                                                                              |
+|                                      | `npm run validate -- --missing-date`                | Valida solo feeds sin `last_known_item_date` (nunca verificados). Con `--update` todos quedan con fecha ISO o `null`                                                                                                                                                                           |
+|                                      | `npm run validate -- --status <estado>`             | Valida solo feeds con un estado específico (`active`, `stale`, `broken`, `offline`, `no_feed`, `feed_empty`)                                                                                                                                                                                   |
+|                                      | `npm run validate -- --watchlist`                   | Muestra instrucciones para usar `npm run validate:watchlist`                                                                                                                                                                                                                                   |
+|                                      | `npm run validate -- --update --automatic`          | Modo no interactivo para CI/desatendido                                                                                                                                                                                                                                                        |
+| `scripts/core/generate.js`           | `npm run generate`                                  | Lee `feeds-database.json`, `categories.json` y `regions.json`, regenera `dist/opml/chilean-rss.opml`, `dist/opml/chilean-rss-nested.opml`, `dist/opml/chilean-rss-regions.opml`, `dist/opml/regions/*.opml`, `dist/opml/categories/*.opml`, `dist/bookmarks/awesome-chilean-rss.html` y README |
+| `scripts/core/validate-watchlist.js` | `npm run validate:watchlist`                        | Valida watchlist, promueve feeds válidos a sites con `--update`                                                                                                                                                                                                                                |
+|                                      | `npm run validate:watchlist -- --update`            | Promueve automáticamente los feeds válidos a sites[]                                                                                                                                                                                                                                           |
+|                                      | `npm run validate:watchlist -- --automatic`         | Modo no interactivo (promueve todo sin preguntar)                                                                                                                                                                                                                                              |
+|                                      | `npm run validate:watchlist -- --id <id>`           | Valida y promueve solo un sitio específico de la watchlist                                                                                                                                                                                                                                     |
 
 ### Scripts de validación (validation/)
 
-| Script                                      | Comando                  | Propósito                                    |
-|----------------------------------------------|--------------------------|----------------------------------------------|
-| `scripts/validation/validate-json.js`        | `npm run validate:json`  | Valida la estructura del JSON (categorías, regiones, estados) — (CI) |
-| `scripts/validation/validate-opml.js`        | `npm run validate:opml`  | Valida la sintaxis de todos los archivos OPML generados — (CI) |
+| Script                                | Comando                 | Propósito                                                            |
+| ------------------------------------- | ----------------------- | -------------------------------------------------------------------- |
+| `scripts/validation/validate-json.js` | `npm run validate:json` | Valida la estructura del JSON (categorías, regiones, estados) — (CI) |
+| `scripts/validation/validate-opml.js` | `npm run validate:opml` | Valida la sintaxis de todos los archivos OPML generados — (CI)       |
 
 ### Scripts utilitarios (utils/)
 
-| Script                                      | Comando                                                 | Propósito                                                          |
-|----------------------------------------------|---------------------------------------------------------|--------------------------------------------------------------------|
-| `scripts/utils/verify-feeds.js`              | `node scripts/utils/verify-feeds.js <feeds.json>`        | Verifica feeds RSS/Atom desde un archivo JSON                       |
-|                                              | `node scripts/utils/verify-feeds.js <URL>`              | Verifica una URL de feed específica directamente                    |
-| `scripts/utils/find-duplicates.js`           | `node scripts/utils/find-duplicates.js`                 | Detecta entradas duplicadas en `feeds-database.json` (URLs de sitio, rss_url, dominio raíz, IDs) |
-|                                              | `node scripts/utils/find-duplicates.js --verbose`       | Igual que el anterior, mostrando todos los feeds de cada grupo     |
-| `scripts/utils/fix-stale-feeds.js`           | `npm run fix:stale`                                     | Marca como stale los feeds activos con último item > 30 días       |
-| `scripts/utils/add-site-subfeeds.js`         | `node scripts/utils/add-site-subfeeds.js`               | Agrega subfeeds Google News + Bing News `site:` a sitios/watchlist elegibles (excluye redes sociales) |
-|                                              | `node scripts/utils/add-site-subfeeds.js --dry-run`     | Vista previa sin modificar archivos                                 |
-|                                              | `node scripts/utils/add-site-subfeeds.js --file database\|watchlist\|all` | Limita a qué archivo procesar (default: all) |
-|                                              | `node scripts/utils/add-site-subfeeds.js --id <id>`     | Procesa una sola entrada por ID                                     |
-|                                              | `node scripts/utils/add-site-subfeeds.js --from <N> --to <N>` | Procesa un rango numérico de entradas                        |
-|                                              | `node scripts/utils/add-site-subfeeds.js --limit <N>`   | Procesa solo las primeras N entradas                                 |
-|                                              | `node scripts/utils/add-site-subfeeds.js --start-id <id> [--limit <N>]` | Desde un ID en adelante, opcionalmente limitado |
-|                                              | `node scripts/utils/add-site-subfeeds.js --total-mode delta\|recalculate` | `delta`: incremento rápido (default); `recalculate`: reconteo completo |
-| `scripts/utils/discover-category-feeds.js`   | `node scripts/utils/discover-category-feeds.js`          | Descubre feeds por categoría en sitios WordPress vía REST API       |
-|                                              | `node scripts/utils/discover-category-feeds.js --id <id>`| Procesa un solo sitio                                               |
-|                                              | `node scripts/utils/discover-category-feeds.js --min-posts <N>` | Solo incluye categorías con ≥ N artículos (default: 1)      |
-|                                              | `node scripts/utils/discover-category-feeds.js --update` | Escribe los feeds descubiertos en `feeds-database.json`             |
-|                                              | `node scripts/utils/discover-category-feeds.js --dry-run`| Vista previa sin modificar archivos                                 |
-|                                              | `node scripts/utils/discover-category-feeds.js --from <N> --to <N>` | Rango numérico de sitios                                   |
-|                                              | `node scripts/utils/discover-category-feeds.js --limit <N>` | Solo los primeros N sitios                                          |
-|                                              | `node scripts/utils/discover-category-feeds.js --start-id <id> [--limit <N>]` | Desde un ID en adelante, opcionalmente limitado |
+| Script                                     | Comando                                                                       | Propósito                                                                                             |
+| ------------------------------------------ | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `scripts/utils/verify-feeds.js`            | `node scripts/utils/verify-feeds.js <feeds.json>`                             | Verifica feeds RSS/Atom desde un archivo JSON                                                         |
+|                                            | `node scripts/utils/verify-feeds.js <URL>`                                    | Verifica una URL de feed específica directamente                                                      |
+| `scripts/utils/find-duplicates.js`         | `node scripts/utils/find-duplicates.js`                                       | Detecta entradas duplicadas en `feeds-database.json` (URLs de sitio, rss_url, dominio raíz, IDs)      |
+|                                            | `node scripts/utils/find-duplicates.js --verbose`                             | Igual que el anterior, mostrando todos los feeds de cada grupo                                        |
+| `scripts/utils/fix-stale-feeds.js`         | `npm run fix:stale`                                                           | Marca como stale los feeds activos con último item > 30 días                                          |
+| `scripts/utils/add-site-subfeeds.js`       | `node scripts/utils/add-site-subfeeds.js`                                     | Agrega subfeeds Google News + Bing News `site:` a sitios/watchlist elegibles (excluye redes sociales) |
+|                                            | `node scripts/utils/add-site-subfeeds.js --dry-run`                           | Vista previa sin modificar archivos                                                                   |
+|                                            | `node scripts/utils/add-site-subfeeds.js --file database\|watchlist\|all`     | Limita a qué archivo procesar (default: all)                                                          |
+|                                            | `node scripts/utils/add-site-subfeeds.js --id <id>`                           | Procesa una sola entrada por ID                                                                       |
+|                                            | `node scripts/utils/add-site-subfeeds.js --from <N> --to <N>`                 | Procesa un rango numérico de entradas                                                                 |
+|                                            | `node scripts/utils/add-site-subfeeds.js --limit <N>`                         | Procesa solo las primeras N entradas                                                                  |
+|                                            | `node scripts/utils/add-site-subfeeds.js --start-id <id> [--limit <N>]`       | Desde un ID en adelante, opcionalmente limitado                                                       |
+|                                            | `node scripts/utils/add-site-subfeeds.js --total-mode delta\|recalculate`     | `delta`: incremento rápido (default); `recalculate`: reconteo completo                                |
+| `scripts/utils/discover-category-feeds.js` | `node scripts/utils/discover-category-feeds.js`                               | Descubre feeds por categoría en sitios WordPress vía REST API                                         |
+|                                            | `node scripts/utils/discover-category-feeds.js --id <id>`                     | Procesa un solo sitio                                                                                 |
+|                                            | `node scripts/utils/discover-category-feeds.js --min-posts <N>`               | Solo incluye categorías con ≥ N artículos (default: 1)                                                |
+|                                            | `node scripts/utils/discover-category-feeds.js --update`                      | Escribe los feeds descubiertos en `feeds-database.json`                                               |
+|                                            | `node scripts/utils/discover-category-feeds.js --dry-run`                     | Vista previa sin modificar archivos                                                                   |
+|                                            | `node scripts/utils/discover-category-feeds.js --from <N> --to <N>`           | Rango numérico de sitios                                                                              |
+|                                            | `node scripts/utils/discover-category-feeds.js --limit <N>`                   | Solo los primeros N sitios                                                                            |
+|                                            | `node scripts/utils/discover-category-feeds.js --start-id <id> [--limit <N>]` | Desde un ID en adelante, opcionalmente limitado                                                       |
 
 ### Módulos de validación (lib/)
 
 La lógica de red y redescubrimiento está organizada en módulos independientes:
 
-| Módulo | Propósito |
-|--------|-----------|
-| `lib/feed-validator.js`  | Parseo RSS/Atom/JSON/RDF: `fetchSafe`, `checkFeedUrl`, `detectFeedType`, `getMostRecentDate`, `readResponseBody` |
-| `lib/network-utils.js`   | Red: `checkSiteReachable`, `checkCertError`, `tryFetchFeedInsecure`, `isValidUrl` |
-| `lib/feed-rediscovery.js`| Redescubrimiento: `extractFeedLinksFromHtml`, `rediscoverFeed`, `FEED_PATTERNS`, `parseLinkHeader`, `extractJsonLdFeeds` |
-| `lib/feed-utils.js`      | Utilidades compartidas: `extractSelfLink`, `pathsMatch`, `daysSince`, `isStale`, `formatError`, `recalculateTotalFeeds`, `ALLOWED_STATUSES`, `BROKEN_ERRORS`, `getDomain`, `STALE_THRESHOLD_DAYS` |
-| `lib/cli-args.js`        | Parseo centralizado de args CLI: `parseArgs`, `applyFilters`, `applyFiltersSites` |
-| `lib/prompter.js`        | Prompts: `promptUser`, `promptUrl`, `promptStatus`, `isAutomatic` |
-| `lib/watchlist-validator.js` | Watchlist: `validateWatchlistEntry`, `promoteToSite` |
-| `lib/rate-limiter.js`    | Control de concurrencia: máximo 5 requests globales, mínimo 2s entre requests al mismo dominio |
+| Módulo                       | Propósito                                                                                                                                                                                         |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `lib/feed-validator.js`      | Parseo RSS/Atom/JSON/RDF: `fetchSafe`, `checkFeedUrl`, `detectFeedType`, `getMostRecentDate`, `readResponseBody`                                                                                  |
+| `lib/network-utils.js`       | Red: `checkSiteReachable`, `checkCertError`, `tryFetchFeedInsecure`, `isValidUrl`                                                                                                                 |
+| `lib/feed-rediscovery.js`    | Redescubrimiento: `extractFeedLinksFromHtml`, `rediscoverFeed`, `FEED_PATTERNS`, `parseLinkHeader`, `extractJsonLdFeeds`                                                                          |
+| `lib/feed-utils.js`          | Utilidades compartidas: `extractSelfLink`, `pathsMatch`, `daysSince`, `isStale`, `formatError`, `recalculateTotalFeeds`, `ALLOWED_STATUSES`, `BROKEN_ERRORS`, `getDomain`, `STALE_THRESHOLD_DAYS` |
+| `lib/cli-args.js`            | Parseo centralizado de args CLI: `parseArgs`, `applyFilters`, `applyFiltersSites`                                                                                                                 |
+| `lib/prompter.js`            | Prompts: `promptUser`, `promptUrl`, `promptStatus`, `isAutomatic`                                                                                                                                 |
+| `lib/watchlist-validator.js` | Watchlist: `validateWatchlistEntry`, `promoteToSite`                                                                                                                                              |
+| `lib/rate-limiter.js`        | Control de concurrencia: máximo 5 requests globales, mínimo 2s entre requests al mismo dominio                                                                                                    |
 
 ### Flujo de trabajo
 
-```
+```markdown
 feeds-database.json    categories.json   regions.json      watchlist.json
   └── sites[]           └── categories{}  └── regions{}      └── sites sin feed
        │                       │                │                   │
@@ -247,6 +247,7 @@ npm run validate -- --id nombre-del-sitio --update
 Útil para ejecuciones masivas por lotes o retomar validaciones interrumpidas.
 
 Los filtros se aplican en este orden:
+
 1. **Feed-level**: `--missing-date`, `--status <estado>` — filtran primero por condición del feed
 2. **Site-level**: `--start-id`, `--from --to`, `--limit` — limitan cuántos sitios procesar
 
@@ -284,7 +285,7 @@ npm run validate -- --limit 10 --automatic
           "id": "ejemplo-main",
           "name": "Ejemplo",
           "rss_url": "https://ejemplo.cl/feed/",
-          "url": "https://ejemplo.cl",                              // OPTIONAL: override site.url for htmlUrl
+          "url": "https://ejemplo.cl", // OPTIONAL: override site.url for htmlUrl
           "feed_type": "RSS",
           "last_checked": "2026-06-06T00:00:00.000Z",
           "status": "active",
@@ -294,7 +295,7 @@ npm run validate -- --limit 10 --automatic
           "id": "ejemplo-deportes",
           "name": "Ejemplo Deportes",
           "rss_url": "https://ejemplo.cl/rss/deportes/",
-          "url": "https://ejemplo.cl/deportes/",                    // OPTIONAL: override site.url for htmlUrl
+          "url": "https://ejemplo.cl/deportes/", // OPTIONAL: override site.url for htmlUrl
           "feed_type": "RSS",
           "category": "sports",
           "region": "biobio",
@@ -320,7 +321,14 @@ npm run validate -- --limit 10 --automatic
 {
   "news": {
     "label": "📰 Noticias Nacionales",
-    "slugs": ["noticias", "nacional", "actualidad", "chile", "pais", "politica"],
+    "slugs": [
+      "noticias",
+      "nacional",
+      "actualidad",
+      "chile",
+      "pais",
+      "politica"
+    ],
     "order": 1
   },
   "technology": {
@@ -371,6 +379,7 @@ Los feeds se verifican **en paralelo por sitio** (`Promise.allSettled`) para que
 ### Redescubrimiento contextual
 
 Cuando un feed falla, el script infiere patrones de URL preferidos desde 3 señales:
+
 - **Segmentos de la URL original** del feed roto (ej. `/deportes/feed/rss/`)
 - **Palabras clave en el nombre** del feed (ej. "Deportes" → patrones de deportes)
 - **Categoría** del feed o sitio padre (`feed.category ?? site.category`)
@@ -380,6 +389,7 @@ Estos patrones se anteponen a los patrones genéricos (`FEED_PATTERNS`) en la et
 ### Protección contra reemplazo genérico
 
 Si el feed original parece específico (tenía path segments como `/deportes/`) y el redescubrimiento solo encuentra un feed genérico (`/feed/`), el script:
+
 - **Modo interactivo**: pregunta al usuario si reemplazar de todas formas
 - **Modo automático** (`--automatic`): omite el reemplazo y marca el feed como `broken`
 
@@ -424,14 +434,14 @@ Para cada feed en `sites[]`:
 
 ### Detección de stale
 
-| Condición | Resultado |
-|-----------|-----------|
-| Feed responde, último item > 30 días | `stale` |
-| Feed responde, sin fecha en items (interactivo) | Pregunta al usuario (default: activo) |
-| Feed responde, sin fecha en items (automático) | Se mantiene activo (conservador) |
-| Fecha con año ≤ 1970 | Filtrada como placeholder |
-| Meses abreviados en español | Normalizados automáticamente (`ene.`→ Jan, etc.) |
-| Sin fecha en items pero con `<lastBuildDate>` | Usa la del canal como fallback |
+| Condición                                       | Resultado                                        |
+| ----------------------------------------------- | ------------------------------------------------ |
+| Feed responde, último item > 30 días            | `stale`                                          |
+| Feed responde, sin fecha en items (interactivo) | Pregunta al usuario (default: activo)            |
+| Feed responde, sin fecha en items (automático)  | Se mantiene activo (conservador)                 |
+| Fecha con año ≤ 1970                            | Filtrada como placeholder                        |
+| Meses abreviados en español                     | Normalizados automáticamente (`ene.`→ Jan, etc.) |
+| Sin fecha en items pero con `<lastBuildDate>`   | Usa la del canal como fallback                   |
 
 ### Resiliencia de red
 
@@ -453,39 +463,39 @@ Para cada feed en `sites[]`:
 
 ## Categorías disponibles
 
-| Clave | Etiqueta |
-|---|---|
-| `news` | 📰 Noticias Nacionales |
-| `news-international` | 🌐 Noticias Internacionales |
-| `government` | 🏛️ Gobierno y Datos Públicos |
-| `education` | 🏫 Educación, Universidades e Investigación |
-| `regional` | 🌎 Medios Regionales |
-| `business` | 💼 Negocios y Finanzas |
-| `technology` | 💻 Tecnología y Startups |
-| `culture` | 🎨 Cultura y Divulgación |
-| `sports` | ⚽ Deportes |
-| `community` | 👥 Comunidad |
+| Clave                | Etiqueta                                    |
+| -------------------- | ------------------------------------------- |
+| `news`               | 📰 Noticias Nacionales                      |
+| `news-international` | 🌐 Noticias Internacionales                 |
+| `government`         | 🏛️ Gobierno y Datos Públicos                |
+| `education`          | 🏫 Educación, Universidades e Investigación |
+| `regional`           | 🌎 Medios Regionales                        |
+| `business`           | 💼 Negocios y Finanzas                      |
+| `technology`         | 💻 Tecnología y Startups                    |
+| `culture`            | 🎨 Cultura y Divulgación                    |
+| `sports`             | ⚽ Deportes                                 |
+| `community`          | 👥 Comunidad                                |
 
 ## Regiones disponibles
 
-| Clave | Nombre oficial |
-|---|---|
-| `arica-y-parinacota` | Arica y Parinacota |
-| `tarapaca` | Tarapacá |
-| `antofagasta` | Antofagasta |
-| `atacama` | Atacama |
-| `coquimbo` | Coquimbo |
-| `valparaiso` | Valparaíso |
-| `metropolitana` | Metropolitana de Santiago |
-| `ohiggins` | O'Higgins |
-| `maule` | Maule |
-| `nuble` | Ñuble |
-| `biobio` | Biobío |
-| `araucania` | Araucanía |
-| `los-rios` | Los Ríos |
-| `los-lagos` | Los Lagos |
-| `aysen` | Aysén |
-| `magallanes` | Magallanes y de la Antártica Chilena |
+| Clave                | Nombre oficial                       |
+| -------------------- | ------------------------------------ |
+| `arica-y-parinacota` | Arica y Parinacota                   |
+| `tarapaca`           | Tarapacá                             |
+| `antofagasta`        | Antofagasta                          |
+| `atacama`            | Atacama                              |
+| `coquimbo`           | Coquimbo                             |
+| `valparaiso`         | Valparaíso                           |
+| `metropolitana`      | Metropolitana de Santiago            |
+| `ohiggins`           | O'Higgins                            |
+| `maule`              | Maule                                |
+| `nuble`              | Ñuble                                |
+| `biobio`             | Biobío                               |
+| `araucania`          | Araucanía                            |
+| `los-rios`           | Los Ríos                             |
+| `los-lagos`          | Los Lagos                            |
+| `aysen`              | Aysén                                |
+| `magallanes`         | Magallanes y de la Antártica Chilena |
 
 ## Limitaciones
 

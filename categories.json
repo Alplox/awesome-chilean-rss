@@ -42,7 +42,8 @@
       "innovacion",
       "digital",
       "ciencia-y-tecnologia",
-      "ciencia-tecnologia"
+      "ciencia-tecnologia",
+      "tecnologia-y-ciencia"
     ],
     "order": 4
   },
@@ -70,7 +71,7 @@
     "order": 6
   },
   "business": {
-    "label": "💼 Negocios y Finanzas",
+    "label": "💼 Economia, Negocios y Finanzas",
     "slugs": [
       "negocios",
       "finanzas",
@@ -92,7 +93,8 @@
       "ofertas-trabajo",
       "empleabilidad",
       "trabajos",
-      "trabaja-con-nosotros"
+      "trabaja-con-nosotros",
+      "trabajo"
     ],
     "order": 8
   },
@@ -107,7 +109,9 @@
       "anime-y-manga",
       "cultura-y-espectaculo",
       "cultura-y-espectaculos",
-      "culturales"
+      "culturales",
+      "artes-cultura",
+      "cultura-patrimonio"
     ],
     "order": 9
   },
@@ -121,7 +125,8 @@
       "turismo",
       "capacitacion",
       "inclusion",
-      "viajes-y-turismo"
+      "viajes-y-turismo",
+      "defunciones"
     ],
     "order": 10
   },
@@ -144,11 +149,15 @@
       "motociclismo",
       "olimpicos",
       "basquetboll",
+      "basquetbol",
+      "patinaje",
+      "voleibol",
       "rugby",
       "velerismo",
       "automovilismo",
       "lucha",
-      "canotaje"
+      "canotaje",
+      "deportes-entretenimiento"
     ],
     "order": 11
   },
@@ -185,7 +194,9 @@
       "sustentabilidad",
       "clima",
       "conservacion",
-      "ecologia"
+      "ecologia",
+      "agricultura",
+      "sismo"
     ],
     "order": 13
   },
@@ -201,7 +212,8 @@
       "cine-y-television",
       "television",
       "series",
-      "tv-y-espectaculo"
+      "tv-y-espectaculo",
+      "humor"
     ],
     "order": 14
   },
@@ -225,7 +237,8 @@
       "autocuidado",
       "covid",
       "coronavirus",
-      "pandemia"
+      "pandemia",
+      "salud-y-bienestar"
     ],
     "order": 16
   }
