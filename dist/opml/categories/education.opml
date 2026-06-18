@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (110 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (120 feeds)</title>
     <description>Feeds RSS de 🏫 Educación, Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
+    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -79,10 +79,20 @@
     <outline type="rss" text="El Urbano Rural - Educación" title="El Urbano Rural - Educación" description="Feed de la categoría 'Educación' en El Urbano Rural" xmlUrl="https://elurbanorural.cl/category/educacion/feed/" htmlUrl="https://elurbanorural.cl/category/educacion/"/>
     <outline type="rss" text="En La Línea - Educación" title="En La Línea - Educación" description="Feed de la categoría 'Educación' en En La Línea" xmlUrl="https://www.enlalinea.cl/category/educacion/feed/" htmlUrl="https://www.enlalinea.cl/category/educacion/"/>
     <outline type="rss" text="Enfoque Digital - Educación" title="Enfoque Digital - Educación" description="Feed de la categoría 'Educación' en Enfoque Digital" xmlUrl="https://enfoquedigital.cl/categorias/educacion/feed/" htmlUrl="https://enfoquedigital.cl/categorias/educacion/"/>
+    <outline type="rss" text="Explora [Proxy Google News]" title="Explora [Proxy Google News]" description="Resultados de site:explora.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:explora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:explora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="G5 Noticias - Educación" title="G5 Noticias - Educación" description="Feed de la categoría 'Educación' en G5 Noticias" xmlUrl="https://g5noticias.cl/categoria/educacion/feed/" htmlUrl="https://g5noticias.cl/categoria/educacion/"/>
     <outline type="rss" text="Google News - Chile - Resultados 'educación'" title="Google News - Chile - Resultados 'educación'" description="Página de resultados para keyword=educación en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=educaci%C3%B3n&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=educaci%C3%B3n&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Hora de Noticias - Educación" title="Hora de Noticias - Educación" description="Feed de la categoría 'Educación' en Hora de Noticias" xmlUrl="https://horadenoticias.cl/seccion/educacion/feed/" htmlUrl="https://horadenoticias.cl/seccion/educacion/"/>
     <outline type="rss" text="Iquique TV - Educación" title="Iquique TV - Educación" description="Feed de la categoría 'Educación' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/educacion/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/educacion/"/>
+    <outline type="rss" text="JUNJI" title="JUNJI" description="Junta Nacional de Jardines Infantiles - institución de educación parvularia" xmlUrl="https://junji.cl/feed/" htmlUrl="https://junji.cl"/>
+    <outline type="rss" text="JUNJI - Buen Trato" title="JUNJI - Buen Trato" description="Feed de la categoría 'Buen Trato' en JUNJI" xmlUrl="https://junji.cl/category/buen-trato/feed/" htmlUrl="https://junji.cl/category/buen-trato/"/>
+    <outline type="rss" text="JUNJI - Calidad Educativa" title="JUNJI - Calidad Educativa" description="Feed de la categoría 'Calidad Educativa' en JUNJI" xmlUrl="https://junji.cl/category/calidad-educativa/feed/" htmlUrl="https://junji.cl/category/calidad-educativa/"/>
+    <outline type="rss" text="JUNJI - Dirección Nacional" title="JUNJI - Dirección Nacional" description="Feed de la categoría 'Dirección Nacional' en JUNJI" xmlUrl="https://junji.cl/category/direccion-nacional/feed/" htmlUrl="https://junji.cl/category/direccion-nacional/"/>
+    <outline type="rss" text="JUNJI - Noticias Regionales" title="JUNJI - Noticias Regionales" description="Feed de la categoría 'Noticias Regionales' en JUNJI" xmlUrl="https://junji.cl/category/noticias-home/feed/" htmlUrl="https://junji.cl/category/noticias-home/"/>
+    <outline type="rss" text="JUNJI - Participación Ciudadana" title="JUNJI - Participación Ciudadana" description="Feed de la categoría 'Participación Ciudadana' en JUNJI" xmlUrl="https://junji.cl/category/participacion_ciudadana/feed/" htmlUrl="https://junji.cl/category/participacion_ciudadana/"/>
+    <outline type="rss" text="JUNJI - Revista Niñez Hoy" title="JUNJI - Revista Niñez Hoy" description="Feed de la categoría 'Revista Niñez Hoy' en JUNJI" xmlUrl="https://junji.cl/category/revista-ninez-hoy/feed/" htmlUrl="https://junji.cl/category/revista-ninez-hoy/"/>
+    <outline type="rss" text="JUNJI [Proxy Bing News]" title="JUNJI [Proxy Bing News]" description="Resultados de site:junji.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:junji.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:junji.cl"/>
+    <outline type="rss" text="JUNJI [Proxy Google News]" title="JUNJI [Proxy Google News]" description="Resultados de site:junji.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:junji.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:junji.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Fontana - Educación" title="La Fontana - Educación" description="Feed de la categoría 'Educación' en La Fontana" xmlUrl="https://lafontana.cl/category/educacion/feed/" htmlUrl="https://lafontana.cl/category/educacion/"/>
     <outline type="rss" text="La Mega FM - Educación" title="La Mega FM - Educación" description="Feed de la categoría 'Educación' en La Mega FM" xmlUrl="https://lamegafm.cl/category/tarapaca/educacion/feed/" htmlUrl="https://lamegafm.cl/category/tarapaca/educacion/"/>
     <outline type="rss" text="La Noticia - Educación" title="La Noticia - Educación" description="Feed de la categoría 'Educación' en La Noticia" xmlUrl="https://lanoticia.cl/category/educacion/feed/" htmlUrl="https://lanoticia.cl/category/educacion/"/>

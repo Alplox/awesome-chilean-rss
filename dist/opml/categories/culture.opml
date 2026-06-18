@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (103 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (105 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
+    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -22,6 +22,8 @@
     <outline type="rss" text="CEI Noticias - Cultura" title="CEI Noticias - Cultura" description="Feed de la categoría 'Cultura' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/cultura/feed/" htmlUrl="https://ceinoticias.cl/category/cultura/"/>
     <outline type="rss" text="CEI Noticias - Cultura y Espectáculo" title="CEI Noticias - Cultura y Espectáculo" description="Feed de la categoría 'Cultura y Espectáculo' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/cultura/cultura-y-espectaculo/feed/" htmlUrl="https://ceinoticias.cl/category/cultura/cultura-y-espectaculo/"/>
     <outline type="rss" text="Chile Cultura - Mastodon.cl BOT" title="Chile Cultura - Mastodon.cl BOT" description="BOT de mastodon.cl/@chilecultura" xmlUrl="https://mastodon.cl/@chilecultura.rss" htmlUrl="https://mastodon.cl/@chilecultura"/>
+    <outline type="rss" text="Chile es Tuyo" title="Chile es Tuyo" description="Portal de turismo y viajes del Gobierno de Chile" xmlUrl="https://chileestuyo.cl/feed/" htmlUrl="https://chileestuyo.cl"/>
+    <outline type="rss" text="Chile es Tuyo [Proxy Google News]" title="Chile es Tuyo [Proxy Google News]" description="Resultados de site:chileestuyo.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chileestuyo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chileestuyo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Crónica Digital - Cultura" title="Crónica Digital - Cultura" description="Feed de la categoría 'Cultura' en Crónica Digital" xmlUrl="https://cronicadigital.cl/category/cultura/feed/" htmlUrl="https://cronicadigital.cl/category/cultura/"/>
     <outline type="rss" text="David Noticias - Cultura" title="David Noticias - Cultura" description="Feed de la categoría 'Cultura' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/cultura/feed/" htmlUrl="https://www.davidnoticias.cl/category/cultura/"/>
     <outline type="rss" text="Desenfoque - Cultura" title="Desenfoque - Cultura" description="Feed de la categoría 'Cultura' en Desenfoque" xmlUrl="https://desenfoque.cl/categoria/cultura/feed/" htmlUrl="https://desenfoque.cl/categoria/cultura/"/>

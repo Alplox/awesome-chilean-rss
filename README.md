@@ -2,9 +2,9 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-344-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3627-blue)
+![Sitios](https://img.shields.io/badge/sitios-355-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3663-blue)
 
-> El directorio más completo de feeds RSS chilenos. 344 sitios, 3627 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 355 sitios, 3663 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -15,7 +15,7 @@
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (344 sitios, 3627 feeds)
+## 📝 Fuentes disponibles (355 sitios, 3663 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
@@ -24,18 +24,18 @@
 - [🌐 Noticias Internacionales](#cat-news-international) — 63 sitios, 119 feeds
 - [🌎 Medios Regionales](#cat-regional) — 203 sitios, 1561 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 73 sitios, 176 feeds
-- [🏛️ Gobierno y Datos Públicos](#cat-government) — 22 sitios, 82 feeds
-- [🏫 Educación, Universidades e Investigación](#cat-education) — 61 sitios, 110 feeds
+- [🏛️ Gobierno y Datos Públicos](#cat-government) — 29 sitios, 104 feeds
+- [🏫 Educación, Universidades e Investigación](#cat-education) — 63 sitios, 120 feeds
 - [💼 Economia, Negocios y Finanzas](#cat-business) — 80 sitios, 138 feeds
 - [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 15 sitios, 16 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 89 sitios, 103 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 90 sitios, 105 feeds
 - [👥 Comunidad](#cat-community) — 73 sitios, 138 feeds
 - [⚽ Deportes](#cat-sports) — 118 sitios, 165 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 13 sitios, 106 feeds
 - [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 56 sitios, 100 feeds
 - [🎭 Espectáculos y Entretención](#cat-entertainment) — 43 sitios, 69 feeds
 - [📻 Radio y Música](#cat-radio) — 16 sitios, 28 feeds
-- [🏥 Salud y Bienestar](#cat-health) — 63 sitios, 69 feeds
+- [🏥 Salud y Bienestar](#cat-health) — 64 sitios, 71 feeds
 
 <a id="cat-news"></a>
 ### 📰 Noticias Nacionales (193 sitios, 647 feeds)
@@ -4149,7 +4149,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-government"></a>
-### 🏛️ Gobierno y Datos Públicos (22 sitios, 82 feeds)
+### 🏛️ Gobierno y Datos Públicos (29 sitios, 104 feeds)
 
 *Descargar OPML: [`government.opml`](dist/opml/categories/government.opml)*
 
@@ -4182,10 +4182,21 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - CONAF - Cms: `https://www.conaf.cl/feed/?category=cms`
   - CONAF - Conaf En Regiones: `https://www.conaf.cl/feed/?category=conaf-en-regiones`
   - CONAF [Proxy Google News]: `https://news.google.com/rss/search?q=site:conaf.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Defensoría de la Niñez** — Defensoría de los Derechos de la Niñez Chile
+  - Defensoría de la Niñez: `https://www.defensorianinez.cl/feed/`
+  - Defensoría de la Niñez - Noticias: `https://www.defensorianinez.cl/category/noticias/feed/`
+  - Defensoría de la Niñez - Prensa: `https://www.defensorianinez.cl/category/prensa/feed/`
 - **Diálogo Sur**: Feed de la categoría 'Gobierno' en Diálogo Sur
   - RSS: `https://dialogosur.cl/category/gobierno/feed/`
 - **Diario Oficial**: Resultados de site:diariooficial.interior.gob.cl en Proxy Google News de noticias Chilenas
   - RSS: `https://news.google.com/rss/search?q=site:diariooficial.interior.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **EFE** — Empresa de Ferrocarriles del Estado de Chile
+  - EFE: `https://www.efe.cl/feed/`
+  - EFE - EFE Central: `https://www.efe.cl/category/efe-central/feed/`
+  - EFE - EFE Valparaíso: `https://www.efe.cl/category/efe-valparaiso/feed/`
+  - EFE - EFE Sur: `https://www.efe.cl/category/efe-sur/feed/`
+  - EFE - Cultura: `https://www.efe.cl/category/efe-cultura/feed/`
+  - EFE [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.efe.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El Ciudadano**: Feed de la categoría 'Congreso' en El Ciudadano
   - RSS: `https://www.elciudadano.com/noticias/congreso/feed/`
 - **Fiscalía de Chile** — Ministerio Público de Chile - noticias y comunicados oficiales
@@ -4195,6 +4206,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Gobierno de Chile** — Noticias oficiales y decretos del gobierno
   - Gobierno de Chile: `https://www.gob.cl/noticias/feed/rss/`
   - Gobierno de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Gobierno Regional Metropolitano de Santiago** — Gobierno Regional de la Región Metropolitana de Santiago
+  - Gobierno Regional Metropolitano de Santiago: `https://www.gobiernosantiago.cl/feed/`
+  - Gobierno Regional Metropolitano de Santiago - Noticias: `https://www.gobiernosantiago.cl/category/noticias/feed/`
+  - Gobierno Regional Metropolitano de Santiago [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.gobiernosantiago.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Google News** — Segregador de noticias de Google
   - Google News - Chile - Resultados 'congreso': `https://news.google.com/rss/search?q=congreso&hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Resultados 'leyes': `https://news.google.com/rss/search?q=leyes&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -4207,6 +4222,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Ministerio de Educación - Servicios: `https://www.mineduc.cl/feed/?category=servicios`
   - Ministerio de Educación [Proxy Google News]: `https://news.google.com/rss/search?q=site:mineduc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Ministerio de Educación [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mineduc.cl&format=RSS`
+- **Ministerio de la Mujer y la Equidad de Género** — Sitio oficial del Ministerio de la Mujer y la Equidad de Género de Chile
+  - Ministerio de la Mujer y la Equidad de Género: `https://minmujeryeg.gob.cl/?feed=rss2`
+  - Ministerio de la Mujer y la Equidad de Género [Proxy Google News]: `https://news.google.com/rss/search?q=site:minmujeryeg.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Ministerio de las Culturas, las Artes y el Patrimonio** — Sitio oficial del Ministerio de las Culturas, las Artes y el Patrimonio de Chile
+  - Ministerio de las Culturas, las Artes y el Patrimonio: `https://www.cultura.gob.cl/feed/`
+  - Ministerio de las Culturas, las Artes y el Patrimonio [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.cultura.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Ministerio de Salud** — Noticias y comunicados del Ministerio de Salud de Chile
   - Ministerio de Salud: `https://www.minsal.cl/feed/`
   - Ministerio de Salud - Mision y Vision: `https://www.minsal.cl/feed/?category=mision-y-vision`
@@ -4229,6 +4250,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Ministerio de Salud - Portal Ciudadano: `https://www.minsal.cl/feed/?category=portal-ciudadano`
   - Ministerio de Salud - Medicinas Complementarias: `https://www.minsal.cl/feed/?category=medicinas-complementarias`
   - Ministerio de Salud [Proxy Google News]: `https://news.google.com/rss/search?q=site:minsal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Ministerio del Trabajo y Previsión Social** — Sitio oficial del Ministerio del Trabajo y Previsión Social de Chile
+  - Ministerio del Trabajo y Previsión Social: `https://www.mintrab.gob.cl/feed/`
+  - Ministerio del Trabajo y Previsión Social - Noticias Gobierno Ja Kast: `https://www.mintrab.gob.cl/category/noticias-gobierno-ja-kast/feed/`
+  - Ministerio del Trabajo y Previsión Social - Consejo Superior Laboral: `https://www.mintrab.gob.cl/category/consejo-superior-laboral-2/feed/`
+  - Ministerio del Trabajo y Previsión Social [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.mintrab.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Municipalidad de Viña del Mar** — Sitio oficial de la Ilustre Municipalidad de Viña del Mar
   - Municipalidad de Viña del Mar [Proxy Google News]: `https://news.google.com/rss/search?q=site:munivina.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Municipalidad de Viña del Mar [Proxy Bing News]: `https://www.bing.com/news/search?q=site:munivina.cl&format=RSS`
@@ -4244,6 +4270,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Radio Cámara: `https://www.radiocamara.cl/rss.aspx`
   - Radio Cámara [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiocamara.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio Cámara [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radiocamara.cl&format=RSS`
+- **SENCE** — Servicio Nacional de Capacitación y Empleo
+  - SENCE: `https://sence.gob.cl/rss.xml`
+  - SENCE [Proxy Google News]: `https://news.google.com/rss/search?q=site:sence.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **SII (Servicio de Impuestos Internos)** — Servicio de Impuestos Internos de Chile
   - SII (Servicio de Impuestos Internos) - Noticias: `https://www.sii.cl/pagina/actualizada/noticias/rss/siinot_rss.xml`
   - SII (Servicio de Impuestos Internos) - Contenidos: `https://www.sii.cl/pagina/actualizada/noticias/rss/siiall_rss.xml`
@@ -4261,7 +4290,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-education"></a>
-### 🏫 Educación, Universidades e Investigación (61 sitios, 110 feeds)
+### 🏫 Educación, Universidades e Investigación (63 sitios, 120 feeds)
 
 *Descargar OPML: [`education.opml`](dist/opml/categories/education.opml)*
 
@@ -4370,6 +4399,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.enlalinea.cl/category/educacion/feed/`
 - **Enfoque Digital**: Feed de la categoría 'Educación' en Enfoque Digital
   - RSS: `https://enfoquedigital.cl/categorias/educacion/feed/`
+- **Explora**: Resultados de site:explora.cl en Proxy Google News de noticias Chilenas
+  - RSS: `https://news.google.com/rss/search?q=site:explora.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **G5 Noticias**: Feed de la categoría 'Educación' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/educacion/feed/`
 - **Google News**: Página de resultados para keyword=educación en Google News de noticias Chilenas
@@ -4378,6 +4409,16 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://horadenoticias.cl/seccion/educacion/feed/`
 - **Iquique TV**: Feed de la categoría 'Educación' en Iquique TV
   - RSS: `https://iquiquetv.cl/category/noticias/educacion/feed/`
+- **JUNJI** — Junta Nacional de Jardines Infantiles - institución de educación parvularia
+  - JUNJI: `https://junji.cl/feed/`
+  - JUNJI - Noticias Regionales: `https://junji.cl/category/noticias-home/feed/`
+  - JUNJI - Dirección Nacional: `https://junji.cl/category/direccion-nacional/feed/`
+  - JUNJI - Calidad Educativa: `https://junji.cl/category/calidad-educativa/feed/`
+  - JUNJI - Buen Trato: `https://junji.cl/category/buen-trato/feed/`
+  - JUNJI - Participación Ciudadana: `https://junji.cl/category/participacion_ciudadana/feed/`
+  - JUNJI - Revista Niñez Hoy: `https://junji.cl/category/revista-ninez-hoy/feed/`
+  - JUNJI [Proxy Google News]: `https://news.google.com/rss/search?q=site:junji.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - JUNJI [Proxy Bing News]: `https://www.bing.com/news/search?q=site:junji.cl&format=RSS`
 - **La Fontana**: Feed de la categoría 'Educación' en La Fontana
   - RSS: `https://lafontana.cl/category/educacion/feed/`
 - **La Mega FM**: Feed de la categoría 'Educación' en La Mega FM
@@ -4705,7 +4746,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (89 sitios, 103 feeds)
+### 🎨 Cultura y Divulgación (90 sitios, 105 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
@@ -4736,6 +4777,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - CEI Noticias - Cultura: `https://ceinoticias.cl/category/cultura/feed/`
 - **Chile Cultura**: BOT de mastodon.cl/@chilecultura
   - RSS: `https://mastodon.cl/@chilecultura.rss`
+- **Chile es Tuyo** — Portal de turismo y viajes del Gobierno de Chile
+  - Chile es Tuyo: `https://chileestuyo.cl/feed/`
+  - Chile es Tuyo [Proxy Google News]: `https://news.google.com/rss/search?q=site:chileestuyo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Crónica Digital**: Feed de la categoría 'Cultura' en Crónica Digital
   - RSS: `https://cronicadigital.cl/category/cultura/feed/`
 - **David Noticias**: Feed de la categoría 'Cultura' en David Noticias
@@ -5878,7 +5922,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-health"></a>
-### 🏥 Salud y Bienestar (63 sitios, 69 feeds)
+### 🏥 Salud y Bienestar (64 sitios, 71 feeds)
 
 *Descargar OPML: [`health.opml`](dist/opml/categories/health.opml)*
 
@@ -5997,6 +6041,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.radioudec.cl/category/salud/feed/`
 - **Río en Línea**: Feed de la categoría 'Salud' en Río en Línea
   - RSS: `https://www.rioenlinea.cl/seccion/salud/feed/`
+- **Salud Responde** — Portal de información del Ministerio de Salud para la ciudadanía
+  - Salud Responde: `https://saludresponde.minsal.cl/feed/`
+  - Salud Responde [Proxy Google News]: `https://news.google.com/rss/search?q=site:saludresponde.minsal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Sera Noticia**: Feed de la categoría 'Salud' en Sera Noticia
   - RSS: `https://seranoticia.cl/salud/feed/`
 - **Sociedad Chilena de Obesidad** — Sociedad científica médica dedicada al estudio de la obesidad

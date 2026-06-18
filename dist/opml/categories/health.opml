@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (69 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (71 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T20:23:31.212Z</dateCreated>
+    <dateCreated>2026-06-18T20:47:26.106Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -67,6 +67,8 @@
     <outline type="rss" text="Radio Santa María - Salud" title="Radio Santa María - Salud" description="Feed de la categoría 'Salud' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/salud/feed/" htmlUrl="https://www.radiosantamaria.cl/category/salud/"/>
     <outline type="rss" text="Radio UdeC - Salud" title="Radio UdeC - Salud" description="Feed de la categoría 'Salud' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/salud/feed/" htmlUrl="https://www.radioudec.cl/category/salud/"/>
     <outline type="rss" text="Río en Línea - Salud" title="Río en Línea - Salud" description="Feed de la categoría 'Salud' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/salud/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/salud/"/>
+    <outline type="rss" text="Salud Responde" title="Salud Responde" description="Portal de información del Ministerio de Salud para la ciudadanía" xmlUrl="https://saludresponde.minsal.cl/feed/" htmlUrl="https://saludresponde.minsal.cl"/>
+    <outline type="rss" text="Salud Responde [Proxy Google News]" title="Salud Responde [Proxy Google News]" description="Resultados de site:saludresponde.minsal.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:saludresponde.minsal.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:saludresponde.minsal.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Sera Noticia - Salud" title="Sera Noticia - Salud" description="Feed de la categoría 'Salud' en Sera Noticia" xmlUrl="https://seranoticia.cl/salud/feed/" htmlUrl="https://seranoticia.cl/salud/"/>
     <outline type="rss" text="Sociedad Chilena de Obesidad" title="Sociedad Chilena de Obesidad" description="Sociedad científica médica dedicada al estudio de la obesidad" xmlUrl="https://www.sochob.cl/web/feed/" htmlUrl="https://www.sochob.cl"/>
     <outline type="rss" text="Sociedad Chilena de Obesidad [Proxy Google News]" title="Sociedad Chilena de Obesidad [Proxy Google News]" description="Resultados de site:sochob.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:sochob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:sochob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

@@ -3929,5 +3929,125 @@
         "verified": true
       }
     ]
+  },
+  {
+    "id": "senadis",
+    "name": "SENADIS",
+    "url": "https://www.senadis.gob.cl",
+    "category": "government",
+    "description": "Servicio Nacional de la Discapacidad",
+    "reason": "No se detectó feed RSS — sitio web sin soporte RSS",
+    "feeds": [
+      {
+        "id": "senadis-proxy-google-news",
+        "name": "SENADIS [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:www.senadis.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:www.senadis.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:www.senadis.gob.cl en Proxy Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "senadis-proxy-bing-news",
+        "name": "SENADIS [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:www.senadis.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:www.senadis.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:www.senadis.gob.cl en Proxy Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "energia-gob",
+    "name": "Ministerio de Energía",
+    "url": "https://energia.gob.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio de Energía de Chile",
+    "reason": "No se detectó feed RSS — sitio web sin soporte RSS",
+    "feeds": [
+      {
+        "id": "energia-gob-proxy-google-news",
+        "name": "Ministerio de Energía [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:energia.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:energia.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:energia.gob.cl en Proxy Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "energia-gob-proxy-bing-news",
+        "name": "Ministerio de Energía [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:energia.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:energia.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:energia.gob.cl en Proxy Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "chile-gob",
+    "name": "Chile",
+    "url": "https://www.chile.gob.cl",
+    "category": "government",
+    "description": "Portal oficial de Chile para turismo, inversión e imagen país",
+    "reason": "No se detectó feed RSS — sitio web sin soporte RSS",
+    "feeds": [
+      {
+        "id": "chile-gob-proxy-google-news",
+        "name": "Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:www.chile.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:www.chile.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:www.chile.gob.cl en Proxy Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "chile-gob-proxy-bing-news",
+        "name": "Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:www.chile.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:www.chile.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:www.chile.gob.cl en Proxy Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "dpp",
+    "name": "Dirección de Presupuestos",
+    "url": "https://www.dpp.cl",
+    "category": "government",
+    "description": "Dirección de Presupuestos del Ministerio de Hacienda de Chile",
+    "reason": "No se detectó feed RSS — sitio web sin soporte RSS",
+    "feeds": [
+      {
+        "id": "dpp-proxy-google-news",
+        "name": "Dirección de Presupuestos [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:www.dpp.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:www.dpp.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:www.dpp.cl en Proxy Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "dpp-proxy-bing-news",
+        "name": "Dirección de Presupuestos [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:www.dpp.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:www.dpp.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:www.dpp.cl en Proxy Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
   }
 ]
