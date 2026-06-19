@@ -2,43 +2,43 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-328-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3747-blue)
+![Sitios](https://img.shields.io/badge/sitios-331-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3776-blue)
 
-> El directorio más completo de feeds RSS chilenos. 328 sitios, 3747 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 331 sitios, 3776 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2380 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2406 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (328 sitios, 3747 feeds)
+## 📝 Fuentes disponibles (331 sitios, 3776 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 188 sitios, 672 feeds
+- [📰 Noticias Nacionales](#cat-news) — 190 sitios, 674 feeds
 - [🌐 Noticias Internacionales](#cat-news-international) — 66 sitios, 122 feeds
-- [🌎 Medios Regionales](#cat-regional) — 183 sitios, 1539 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 74 sitios, 200 feeds
+- [🌎 Medios Regionales](#cat-regional) — 185 sitios, 1551 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 75 sitios, 202 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 26 sitios, 100 feeds
-- [🏫 Educación, Universidades e Investigación](#cat-education) — 63 sitios, 121 feeds
-- [💼 Economia, Negocios y Finanzas](#cat-business) — 81 sitios, 140 feeds
+- [🏫 Educación, Universidades e Investigación](#cat-education) — 64 sitios, 122 feeds
+- [💼 Economia, Negocios y Finanzas](#cat-business) — 83 sitios, 144 feeds
 - [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 15 sitios, 16 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 91 sitios, 106 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 92 sitios, 107 feeds
 - [👥 Comunidad](#cat-community) — 76 sitios, 143 feeds
-- [⚽ Deportes](#cat-sports) — 119 sitios, 165 feeds
+- [⚽ Deportes](#cat-sports) — 121 sitios, 170 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 14 sitios, 107 feeds
 - [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 58 sitios, 107 feeds
-- [🎭 Espectáculos y Entretención](#cat-entertainment) — 45 sitios, 95 feeds
+- [🎭 Espectáculos y Entretención](#cat-entertainment) — 46 sitios, 96 feeds
 - [📻 Radio y Música](#cat-radio) — 17 sitios, 40 feeds
-- [🏥 Salud y Bienestar](#cat-health) — 66 sitios, 74 feeds
+- [🏥 Salud y Bienestar](#cat-health) — 67 sitios, 75 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (188 sitios, 672 feeds)
+### 📰 Noticias Nacionales (190 sitios, 674 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -257,6 +257,8 @@
   - El América - Política: `https://elamerica.cl/category/politica/feed/`
 - **El Calbucano**: Feed de la categoría 'Actualidad' en El Calbucano
   - RSS: `https://www.elcalbucano.cl/cat/actualidad/feed/`
+- **El Capo de Provincia**: Feed de la categoría 'Noticias' en El Capo de Provincia
+  - RSS: `https://capodeprovincia.cl/category/noticias/feed/`
 - **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política
   - El Ciudadano: `https://www.elciudadano.com/feed/`
   - El Ciudadano - Política: `https://www.elciudadano.com/noticias/politica/feed/`
@@ -889,6 +891,8 @@
   - RSS: `https://www.timeline.cl/category/politica/feed/`
 - **Traiguén City**: Feed de la categoría 'Nacional' en Traiguén City
   - RSS: `https://traiguencity.cl/noticias/nacional/feed/`
+- **Tus Noticias**: Feed de la categoría 'Nacional' en Tus Noticias
+  - RSS: `https://www.tusnoticias.cl/noticias/nacional/feed/`
 - **Universidad de La Frontera**: Feed de la categoría 'Noticias' en Universidad de La Frontera
   - RSS: `https://www.ufro.cl/category/noticias/feed/`
 - **Vanguardia Gamer**: Feed de la categoría 'Noticias' en Vanguardia Gamer
@@ -1102,7 +1106,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (183 sitios, 1539 feeds)
+### 🌎 Medios Regionales (185 sitios, 1551 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
@@ -1929,7 +1933,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Radio San Bartolomé [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiosanbartolome.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio San Bartolomé [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radiosanbartolome.cl&format=RSS`
 
-#### 📍 Valparaíso (17 medios)
+#### 📍 Valparaíso (18 medios)
 
 *Descargar OPML regional: [`valparaiso.opml`](dist/opml/regions/valparaiso.opml)*
 
@@ -1996,6 +2000,14 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - El Aconcagua - Rinconada: `https://www.elaconcagua.cl/category/rinconada/feed/`
   - El Aconcagua - Catemu: `https://www.elaconcagua.cl/category/catemu/feed/`
   - El Aconcagua [Proxy Google News]: `https://news.google.com/rss/search?q=site:elaconcagua.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **El Capo de Provincia** — Medio digital de la Provincia de San Antonio, Región de Valparaíso
+  - El Capo de Provincia: `https://www.capodeprovincia.cl/feed/`
+  - El Capo de Provincia - Noticias: `https://capodeprovincia.cl/category/noticias/feed/`
+  - El Capo de Provincia - Sudamericana: `https://capodeprovincia.cl/category/sudamericana/feed/`
+  - El Capo de Provincia - Liga De Primera: `https://capodeprovincia.cl/category/liga-de-primera/feed/`
+  - El Capo de Provincia - Copa De La Liga: `https://capodeprovincia.cl/category/copa-de-la-liga/feed/`
+  - El Capo de Provincia - Mundial 2026: `https://capodeprovincia.cl/category/mundial-2026/feed/`
+  - El Capo de Provincia - Google News: `https://news.google.com/rss/search?q=site:capodeprovincia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El Informador** — Diario regional de Los Andes, Valparaíso
   - El Informador: `https://www.elinformador.cl/feed/`
   - El Informador - Comunas De Aconcagua: `https://www.elinformador.cl/category/comunas-de-aconcagua/feed/`
@@ -2827,7 +2839,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - San Carlos On Line [Proxy Google News]: `https://news.google.com/rss/search?q=site:sancarlosonline.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - San Carlos On Line [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sancarlosonline.cl&format=RSS`
 
-#### 📍 Biobío (8 medios)
+#### 📍 Biobío (9 medios)
 
 *Descargar OPML regional: [`biobio.opml`](dist/opml/regions/biobio.opml)*
 
@@ -2886,6 +2898,26 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Sala de Prensa [Proxy Google News]: `https://news.google.com/rss/search?q=site:saladeprensa.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Tomé al Día**: Medio de comunicación de la Región de Biobío
   - RSS: `http://www.tomealdia.com/feeds/posts/default?alt=rss`
+- **Tus Noticias** — Medio digital de San Pedro de la Paz, Región del Biobío
+  - Tus Noticias: `https://www.tusnoticias.cl/feed/`
+  - Tus Noticias - Nacional: `https://www.tusnoticias.cl/noticias/nacional/feed/`
+  - Tus Noticias - Deportes: `https://www.tusnoticias.cl/noticias/deportes/feed/`
+  - Tus Noticias - Regional: `https://www.tusnoticias.cl/noticias/regional/feed/`
+  - Tus Noticias - Magazine: `https://www.tusnoticias.cl/noticias/magazine/feed/`
+  - Tus Noticias - Opinión: `https://www.tusnoticias.cl/noticias/opinion/feed/`
+  - Tus Noticias - Tendencias: `https://www.tusnoticias.cl/noticias/tendencias/feed/`
+  - Tus Noticias - Columna: `https://www.tusnoticias.cl/noticias/columna/feed/`
+  - Tus Noticias - Cultura: `https://www.tusnoticias.cl/noticias/cultura/feed/`
+  - Tus Noticias - Salud: `https://www.tusnoticias.cl/noticias/salud/feed/`
+  - Tus Noticias - Ciencia: `https://www.tusnoticias.cl/noticias/ciencia/feed/`
+  - Tus Noticias - Destacado: `https://www.tusnoticias.cl/noticias/noticia-destacada/feed/`
+  - Tus Noticias - Tecnologia: `https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/feed/`
+  - Tus Noticias - Espectaculos: `https://www.tusnoticias.cl/noticias/espectaculos/feed/`
+  - Tus Noticias - Educación: `https://www.tusnoticias.cl/noticias/educacion/feed/`
+  - Tus Noticias - Misceláneo: `https://www.tusnoticias.cl/noticias/miscelaneo/feed/`
+  - Tus Noticias - Economía: `https://www.tusnoticias.cl/noticias/economia/feed/`
+  - Tus Noticias - Historieta: `https://www.tusnoticias.cl/noticias/historieta/feed/`
+  - Tus Noticias - Google News: `https://news.google.com/rss/search?q=site:tusnoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
 #### 📍 Araucanía (23 medios)
 
@@ -3881,7 +3913,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (74 sitios, 200 feeds)
+### 💻 Tecnología y Startups (75 sitios, 202 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
@@ -4146,6 +4178,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - trendTIC - Autos y Electromovilidad: `https://www.trendtic.cl/category/autos/feed/`
   - trendTIC - Smart Home: `https://www.trendtic.cl/category/smarthome/feed/`
   - trendTIC [Proxy Google News]: `https://news.google.com/rss/search?q=site:trendtic.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Tus Noticias** — Medio digital de San Pedro de la Paz, Región del Biobío
+  - Tus Noticias - Ciencia: `https://www.tusnoticias.cl/noticias/ciencia/feed/`
+  - Tus Noticias - Tecnologia: `https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/feed/`
 - **TXS Plus** — Medio audiovisual dedicado a ciencia y tecnología
   - TXS Plus: `https://txsplus.com/feed/`
   - TXS Plus - Industria: `https://txsplus.com/industria/feed/`
@@ -4297,7 +4332,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-education"></a>
-### 🏫 Educación, Universidades e Investigación (63 sitios, 121 feeds)
+### 🏫 Educación, Universidades e Investigación (64 sitios, 122 feeds)
 
 *Descargar OPML: [`education.opml`](dist/opml/categories/education.opml)*
 
@@ -4472,6 +4507,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Tiempo 21 - Universidades: `https://www.tiempo21.cl/universidades/feed/`
 - **Traiguén City**: Feed de la categoría 'Educación' en Traiguén City
   - RSS: `https://traiguencity.cl/noticias/traiguen/educacion/feed/`
+- **Tus Noticias**: Feed de la categoría 'Educación' en Tus Noticias
+  - RSS: `https://www.tusnoticias.cl/noticias/educacion/feed/`
 - **Universidad de Concepción** — Noticias e investigación de la Universidad de Concepción
   - Universidad de Concepción: `https://noticias.udec.cl/feed/`
   - Universidad de Concepción - Universidad: `https://noticias.udec.cl/category/universidad/feed/`
@@ -4489,7 +4526,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Economia, Negocios y Finanzas (81 sitios, 140 feeds)
+### 💼 Economia, Negocios y Finanzas (83 sitios, 144 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
@@ -4689,6 +4726,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://ovallehoy.cl/categoria/ultimas/actualidad/economia/feed/`
 - **Piensa Chile**: Feed de la categoría 'Economía' en Piensa Chile
   - RSS: `https://piensachile.com/category/economia/feed/`
+- **Pulso** — Suplemento de economía, finanzas y negocios de La Tercera
+  - Pulso: `https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml`
+  - Pulso - Google News: `https://news.google.com/rss/search?q=site:pulso.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Pulso - Bing News: `https://www.bing.com/news/search?q=site:pulso.cl&format=RSS`
 - **Radio Cooperativa**: Feed de la sección 'Economía' en Radio Cooperativa
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml`
 - **Radio Nuevo Mundo**: Feed de la categoría 'Economía' en Radio Nuevo Mundo
@@ -4712,6 +4753,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Traiguén City - Empresarial: `https://traiguencity.cl/noticias/traiguen/empresarial/feed/`
   - Traiguén City - Ecónomia: `https://traiguencity.cl/noticias/traiguen/economia/feed/`
   - Traiguén City - Laboral: `https://traiguencity.cl/noticias/traiguen/laboral-traiguen/feed/`
+- **Tus Noticias**: Feed de la categoría 'Economía' en Tus Noticias
+  - RSS: `https://www.tusnoticias.cl/noticias/economia/feed/`
 - **VLN Radio**: Feed de la categoría 'Economía' en VLN Radio
   - RSS: `https://www.vlnradio.cl/economia/feed/`
 
@@ -4757,7 +4800,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (91 sitios, 106 feeds)
+### 🎨 Cultura y Divulgación (92 sitios, 107 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
@@ -4954,6 +4997,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.tiempo21.cl/cultura/feed/`
 - **Traiguén City**: Feed de la categoría 'Cultura' en Traiguén City
   - RSS: `https://traiguencity.cl/noticias/traiguen/cultura/feed/`
+- **Tus Noticias**: Feed de la categoría 'Cultura' en Tus Noticias
+  - RSS: `https://www.tusnoticias.cl/noticias/cultura/feed/`
 - **TXS Plus**: Feed de la categoría 'Cultura' en TXS Plus
   - RSS: `https://txsplus.com/cultura/feed/`
 - **Universidad de Concepción**: Feed de la categoría 'Cultura' en Universidad de Concepción
@@ -5189,7 +5234,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (119 sitios, 165 feeds)
+### ⚽ Deportes (121 sitios, 170 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
@@ -5276,6 +5321,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://duplos.cl/deportes/feed/`
 - **El Calbucano**: Feed de la categoría 'Deportes' en El Calbucano
   - RSS: `https://www.elcalbucano.cl/cat/deportes/feed/`
+- **El Capo de Provincia** — Medio digital de la Provincia de San Antonio, Región de Valparaíso
+  - El Capo de Provincia - Sudamericana: `https://capodeprovincia.cl/category/sudamericana/feed/`
+  - El Capo de Provincia - Liga De Primera: `https://capodeprovincia.cl/category/liga-de-primera/feed/`
+  - El Capo de Provincia - Copa De La Liga: `https://capodeprovincia.cl/category/copa-de-la-liga/feed/`
+  - El Capo de Provincia - Mundial 2026: `https://capodeprovincia.cl/category/mundial-2026/feed/`
 - **El Ciudadano**: Feed de la categoría 'Deportes' en El Ciudadano
   - RSS: `https://www.elciudadano.com/noticias/deportes/feed/`
 - **El Coquimbano**: Feed de la categoría 'Deportes' en El Coquimbano
@@ -5471,6 +5521,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://tierramarillano.cl/category/deportes/feed/`
 - **Timeline**: Feed de la categoría 'Deportes' en Timeline
   - RSS: `https://www.timeline.cl/category/deportes/feed/`
+- **Tus Noticias**: Feed de la categoría 'Deportes' en Tus Noticias
+  - RSS: `https://www.tusnoticias.cl/noticias/deportes/feed/`
 - **Universidad de Concepción**: Feed de la categoría 'Deporte' en Universidad de Concepción
   - RSS: `https://noticias.udec.cl/category/deporte/feed/`
 - **Vilas Radio**: Feed de la categoría 'Deportes' en Vilas Radio
@@ -5783,7 +5835,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-entertainment"></a>
-### 🎭 Espectáculos y Entretención (45 sitios, 95 feeds)
+### 🎭 Espectáculos y Entretención (46 sitios, 96 feeds)
 
 *Descargar OPML: [`entertainment.opml`](dist/opml/categories/entertainment.opml)*
 
@@ -5925,6 +5977,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.timeline.cl/category/espectaculos/feed/`
 - **Traiguén City**: Feed de la categoría 'Entretención' en Traiguén City
   - RSS: `https://traiguencity.cl/noticias/traiguen/entretencion/feed/`
+- **Tus Noticias**: Feed de la categoría 'Espectaculos' en Tus Noticias
+  - RSS: `https://www.tusnoticias.cl/noticias/espectaculos/feed/`
 - **VLN Radio**: Feed de la categoría 'Espectáculos Y Tv' en VLN Radio
   - RSS: `https://www.vlnradio.cl/tendencias/espectaculos-y-tv/feed/`
 
@@ -5996,7 +6050,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-health"></a>
-### 🏥 Salud y Bienestar (66 sitios, 74 feeds)
+### 🏥 Salud y Bienestar (67 sitios, 75 feeds)
 
 *Descargar OPML: [`health.opml`](dist/opml/categories/health.opml)*
 
@@ -6136,6 +6190,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.tiempo21.cl/vida-y-salud/feed/`
 - **Tierramarillano**: Feed de la categoría 'Salud' en Tierramarillano
   - RSS: `https://tierramarillano.cl/category/salud/feed/`
+- **Tus Noticias**: Feed de la categoría 'Salud' en Tus Noticias
+  - RSS: `https://www.tusnoticias.cl/noticias/salud/feed/`
 - **Vilas Radio**: Feed de la categoría 'Salud' en Vilas Radio
   - RSS: `https://vilasradio.cl/category/salud/feed/`
 - **VLN Radio**: Feed de la categoría 'Salud Y Bienestar' en VLN Radio

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (672 feeds)</title>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (674 feeds)</title>
     <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T01:12:31.582Z</dateCreated>
+    <dateCreated>2026-06-19T01:57:50.274Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -168,6 +168,7 @@
     <outline type="rss" text="El América - Nacional" title="El América - Nacional" description="Feed de la categoría 'Nacional' en El América" xmlUrl="https://elamerica.cl/category/nacional/feed/" htmlUrl="https://elamerica.cl/category/nacional/"/>
     <outline type="rss" text="El América - Política" title="El América - Política" description="Feed de la categoría 'Política' en El América" xmlUrl="https://elamerica.cl/category/politica/feed/" htmlUrl="https://elamerica.cl/category/politica/"/>
     <outline type="rss" text="El Calbucano - Actualidad" title="El Calbucano - Actualidad" description="Feed de la categoría 'Actualidad' en El Calbucano" xmlUrl="https://www.elcalbucano.cl/cat/actualidad/feed/" htmlUrl="https://www.elcalbucano.cl/cat/actualidad/"/>
+    <outline type="rss" text="El Capo de Provincia - Noticias" title="El Capo de Provincia - Noticias" description="Feed de la categoría 'Noticias' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/noticias/feed/" htmlUrl="https://capodeprovincia.cl/category/noticias/"/>
     <outline type="rss" text="El Ciudadano" title="El Ciudadano" description="Portal de noticias nacionales e internacionales con cobertura social y política" xmlUrl="https://www.elciudadano.com/feed/" htmlUrl="https://www.elciudadano.com"/>
     <outline type="rss" text="El Ciudadano - Actualidad" title="El Ciudadano - Actualidad" description="Feed de la categoría 'Actualidad' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/actualidad/feed/" htmlUrl="https://www.elciudadano.com/noticias/actualidad/"/>
     <outline type="rss" text="El Ciudadano - Artes Visuales" title="El Ciudadano - Artes Visuales" description="Feed de la categoría 'Artes Visuales' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/arte-cultura/artes-visuales/feed/" htmlUrl="https://www.elciudadano.com/noticias/arte-cultura/artes-visuales/"/>
@@ -671,6 +672,7 @@
     <outline type="rss" text="Tierramarillano - Noticias" title="Tierramarillano - Noticias" description="Feed de la categoría 'Noticias' en Tierramarillano" xmlUrl="https://tierramarillano.cl/category/noticias/feed/" htmlUrl="https://tierramarillano.cl/category/noticias/"/>
     <outline type="rss" text="Timeline - Política" title="Timeline - Política" description="Feed de la categoría 'Política' en Timeline" xmlUrl="https://www.timeline.cl/category/politica/feed/" htmlUrl="https://www.timeline.cl/category/politica/"/>
     <outline type="rss" text="Traiguén City - Nacional" title="Traiguén City - Nacional" description="Feed de la categoría 'Nacional' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/nacional/feed/" htmlUrl="https://traiguencity.cl/noticias/nacional/"/>
+    <outline type="rss" text="Tus Noticias - Nacional" title="Tus Noticias - Nacional" description="Feed de la categoría 'Nacional' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/nacional/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/nacional/"/>
     <outline type="rss" text="Universidad de La Frontera - Noticias" title="Universidad de La Frontera - Noticias" description="Feed de la categoría 'Noticias' en Universidad de La Frontera" xmlUrl="https://www.ufro.cl/category/noticias/feed/" htmlUrl="https://www.ufro.cl/category/noticias/"/>
     <outline type="rss" text="Vanguardia Gamer - Noticias" title="Vanguardia Gamer - Noticias" description="Feed de la categoría 'Noticias' en Vanguardia Gamer" xmlUrl="https://vanguardiagamer.cl/category/noticias/feed/" htmlUrl="https://vanguardiagamer.cl/category/noticias/"/>
     <outline type="rss" text="Vilas Radio - Nacional" title="Vilas Radio - Nacional" description="Feed de la categoría 'Nacional' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/nacional/feed/" htmlUrl="https://vilasradio.cl/category/nacional/"/>

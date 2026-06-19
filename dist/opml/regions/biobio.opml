@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Biobío (47 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Biobío (66 feeds)</title>
     <description>Feeds RSS de la Región de Biobío, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T01:12:31.582Z</dateCreated>
+    <dateCreated>2026-06-19T01:57:50.274Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -54,5 +54,24 @@
     <outline type="rss" text="Sala de Prensa - Región del Biobío" title="Sala de Prensa - Región del Biobío" description="Feed de la categoría 'Región del Biobío' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=279&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=279"/>
     <outline type="rss" text="Sala de Prensa [Proxy Google News]" title="Sala de Prensa [Proxy Google News]" description="Resultados de site:saladeprensa.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:saladeprensa.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:saladeprensa.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Tomé al Día" title="Tomé al Día" description="Medio de comunicación de la Región de Biobío" xmlUrl="http://www.tomealdia.com/feeds/posts/default?alt=rss" htmlUrl="http://www.tomealdia.com"/>
+    <outline type="rss" text="Tus Noticias" title="Tus Noticias" description="Medio digital de San Pedro de la Paz, Región del Biobío" xmlUrl="https://www.tusnoticias.cl/feed/" htmlUrl="https://www.tusnoticias.cl"/>
+    <outline type="rss" text="Tus Noticias - Ciencia" title="Tus Noticias - Ciencia" description="Feed de la categoría 'Ciencia' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/ciencia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/ciencia/"/>
+    <outline type="rss" text="Tus Noticias - Columna" title="Tus Noticias - Columna" description="Feed de la categoría 'Columna' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/columna/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/columna/"/>
+    <outline type="rss" text="Tus Noticias - Cultura" title="Tus Noticias - Cultura" description="Feed de la categoría 'Cultura' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/cultura/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/cultura/"/>
+    <outline type="rss" text="Tus Noticias - Deportes" title="Tus Noticias - Deportes" description="Feed de la categoría 'Deportes' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/deportes/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/deportes/"/>
+    <outline type="rss" text="Tus Noticias - Destacado" title="Tus Noticias - Destacado" description="Feed de la categoría 'Destacado' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/noticia-destacada/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/noticia-destacada/"/>
+    <outline type="rss" text="Tus Noticias - Economía" title="Tus Noticias - Economía" description="Feed de la categoría 'Economía' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/economia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/economia/"/>
+    <outline type="rss" text="Tus Noticias - Educación" title="Tus Noticias - Educación" description="Feed de la categoría 'Educación' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/educacion/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/educacion/"/>
+    <outline type="rss" text="Tus Noticias - Espectaculos" title="Tus Noticias - Espectaculos" description="Feed de la categoría 'Espectaculos' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/espectaculos/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/espectaculos/"/>
+    <outline type="rss" text="Tus Noticias - Google News" title="Tus Noticias - Google News" description="Resultados de site:tusnoticias.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:tusnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:tusnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Tus Noticias - Historieta" title="Tus Noticias - Historieta" description="Feed de la categoría 'Historieta' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/historieta/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/historieta/"/>
+    <outline type="rss" text="Tus Noticias - Magazine" title="Tus Noticias - Magazine" description="Feed de la categoría 'Magazine' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/magazine/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/magazine/"/>
+    <outline type="rss" text="Tus Noticias - Misceláneo" title="Tus Noticias - Misceláneo" description="Feed de la categoría 'Misceláneo' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/miscelaneo/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/miscelaneo/"/>
+    <outline type="rss" text="Tus Noticias - Nacional" title="Tus Noticias - Nacional" description="Feed de la categoría 'Nacional' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/nacional/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/nacional/"/>
+    <outline type="rss" text="Tus Noticias - Opinión" title="Tus Noticias - Opinión" description="Feed de la categoría 'Opinión' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/opinion/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/opinion/"/>
+    <outline type="rss" text="Tus Noticias - Regional" title="Tus Noticias - Regional" description="Feed de la categoría 'Regional' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/regional/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/regional/"/>
+    <outline type="rss" text="Tus Noticias - Salud" title="Tus Noticias - Salud" description="Feed de la categoría 'Salud' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/salud/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/salud/"/>
+    <outline type="rss" text="Tus Noticias - Tecnologia" title="Tus Noticias - Tecnologia" description="Feed de la categoría 'Tecnologia' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/"/>
+    <outline type="rss" text="Tus Noticias - Tendencias" title="Tus Noticias - Tendencias" description="Feed de la categoría 'Tendencias' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/tendencias/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/tendencias/"/>
   </body>
 </opml>

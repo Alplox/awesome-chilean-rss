@@ -623,10 +623,11 @@ async function main() {
         if (shouldUpdate) {
           const nativeFeeds = site.feeds.filter(f => !isProxyFeed(f));
           const proxyFeeds = site.feeds.filter(f => isProxyFeed(f));
-          if (nativeFeeds.length > 0 && proxyFeeds.length > 0) {
+          if (nativeFeeds.length > 0) {
             const allNativeInactive = nativeFeeds.every(f => f.status !== 'active' || !f.verified);
             const someProxyActive = proxyFeeds.some(f => f.status === 'active' && f.verified);
-            if (allNativeInactive && someProxyActive) {
+            const allFeedsInactive = site.feeds.every(f => f.status !== 'active' || !f.verified);
+            if ((allNativeInactive && someProxyActive) || allFeedsInactive) {
               watchlistCandidates.push(site);
             }
           }
@@ -671,13 +672,12 @@ async function main() {
   if (shouldUpdate) {
     // ─── Watchlist candidates ────────────────────────────────────────────────
     if (watchlistCandidates.length > 0) {
-      console.log(`\n📋 Sitios con solo feeds proxy activos:`);
+      console.log(`\n📋 Candidatos a watchlist (todos los feeds nativos inactivos):`);
       for (const site of watchlistCandidates) {
-        const details = site.feeds
-          .filter(f => isProxyFeed(f) && f.status === 'active' && f.verified)
-          .map(f => `     • ${f.name}: activo`);
+        const allInactive = site.feeds.every(f => f.status !== 'active' || !f.verified);
+        const reason = allInactive ? 'Sin actividad (todos los feeds inactivos)' : 'Solo feeds proxy activos (feeds nativos inactivos)';
         console.log(`\n   ${site.name} (${site.id})`);
-        for (const d of details) console.log(d);
+        console.log(`     Estado: ${reason}`);
         const move = await promptUser(
           `   ¿Mover "${site.name}" a watchlist? [y/N]: `,
           { defaultYes: false }
@@ -686,7 +686,7 @@ async function main() {
           const dbIndex = db.sites.findIndex(s => s.id === site.id);
           if (dbIndex !== -1) {
             const [removed] = db.sites.splice(dbIndex, 1);
-            removed.reason = 'Solo feeds proxy activos (feeds nativos inactivos)';
+            removed.reason = reason;
             let watchlist = [];
             try {
               watchlist = JSON.parse(readFileSync('watchlist.json', 'utf-8'));

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (106 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (107 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T01:12:31.582Z</dateCreated>
+    <dateCreated>2026-06-19T01:57:50.274Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -111,6 +111,7 @@
     <outline type="rss" text="Temuco Diario - Cultura" title="Temuco Diario - Cultura" description="Feed de la categoría 'Cultura' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/temucodiario-cl/feed/" htmlUrl="https://temucodiario.cl/category/temucodiario-cl/"/>
     <outline type="rss" text="Tiempo 21 - Cultura" title="Tiempo 21 - Cultura" description="Feed de la categoría 'Cultura' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/cultura/feed/" htmlUrl="https://www.tiempo21.cl/cultura/"/>
     <outline type="rss" text="Traiguén City - Cultura" title="Traiguén City - Cultura" description="Feed de la categoría 'Cultura' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/cultura/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/cultura/"/>
+    <outline type="rss" text="Tus Noticias - Cultura" title="Tus Noticias - Cultura" description="Feed de la categoría 'Cultura' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/cultura/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/cultura/"/>
     <outline type="rss" text="TXS Plus - Cultura" title="TXS Plus - Cultura" description="Feed de la categoría 'Cultura' en TXS Plus" xmlUrl="https://txsplus.com/cultura/feed/" htmlUrl="https://txsplus.com/cultura/"/>
     <outline type="rss" text="Universidad de Concepción - Cultura" title="Universidad de Concepción - Cultura" description="Feed de la categoría 'Cultura' en Universidad de Concepción" xmlUrl="https://noticias.udec.cl/category/cultura/feed/" htmlUrl="https://noticias.udec.cl/category/cultura/"/>
   </body>

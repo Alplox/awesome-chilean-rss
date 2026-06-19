@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (200 feeds)</title>
+    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (202 feeds)</title>
     <description>Feeds RSS de 💻 Tecnología y Startups, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T01:12:31.582Z</dateCreated>
+    <dateCreated>2026-06-19T01:57:50.274Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -197,6 +197,8 @@
     <outline type="rss" text="trendTIC - Opinión" title="trendTIC - Opinión" description="Feed de la categoría 'Opinión' en trendTIC" xmlUrl="https://www.trendtic.cl/category/opinion/feed/" htmlUrl="https://www.trendtic.cl/category/opinion/"/>
     <outline type="rss" text="trendTIC - Smart Home" title="trendTIC - Smart Home" description="Feed de la categoría 'Smart Home' en trendTIC" xmlUrl="https://www.trendtic.cl/category/smarthome/feed/" htmlUrl="https://www.trendtic.cl/category/smarthome/"/>
     <outline type="rss" text="trendTIC [Proxy Google News]" title="trendTIC [Proxy Google News]" description="Resultados de site:trendtic.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:trendtic.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:trendtic.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Tus Noticias - Ciencia" title="Tus Noticias - Ciencia" description="Feed de la categoría 'Ciencia' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/ciencia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/ciencia/"/>
+    <outline type="rss" text="Tus Noticias - Tecnologia" title="Tus Noticias - Tecnologia" description="Feed de la categoría 'Tecnologia' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/"/>
     <outline type="rss" text="TXS Plus" title="TXS Plus" description="Medio audiovisual dedicado a ciencia y tecnología" xmlUrl="https://txsplus.com/feed/" htmlUrl="https://txsplus.com"/>
     <outline type="rss" text="TXS Plus - Ciencia" title="TXS Plus - Ciencia" description="Feed de la categoría 'Ciencia' en TXS Plus" xmlUrl="https://txsplus.com/ciencia/feed/" htmlUrl="https://txsplus.com/ciencia/"/>
     <outline type="rss" text="TXS Plus - Industria" title="TXS Plus - Industria" description="Feed de la categoría 'Industria' en TXS Plus" xmlUrl="https://txsplus.com/industria/feed/" htmlUrl="https://txsplus.com/industria/"/>

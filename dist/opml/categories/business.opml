@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (140 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (144 feeds)</title>
     <description>Feeds RSS de 💼 Economia, Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T01:12:31.582Z</dateCreated>
+    <dateCreated>2026-06-19T01:57:50.274Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -133,6 +133,9 @@
     <outline type="rss" text="Nuevo Poder - Economía" title="Nuevo Poder - Economía" description="Feed de la categoría 'Economía' en Nuevo Poder" xmlUrl="https://www.nuevopoder.cl/category/economia/feed/" htmlUrl="https://www.nuevopoder.cl/category/economia/"/>
     <outline type="rss" text="Ovalle Hoy - Economía" title="Ovalle Hoy - Economía" description="Feed de la categoría 'Economía' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/actualidad/economia/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/actualidad/economia/"/>
     <outline type="rss" text="Piensa Chile - Economía" title="Piensa Chile - Economía" description="Feed de la categoría 'Economía' en Piensa Chile" xmlUrl="https://piensachile.com/category/economia/feed/" htmlUrl="https://piensachile.com/category/economia/"/>
+    <outline type="rss" text="Pulso" title="Pulso" description="Suplemento de economía, finanzas y negocios de La Tercera" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml" htmlUrl="https://www.pulso.cl"/>
+    <outline type="rss" text="Pulso - Bing News" title="Pulso - Bing News" description="Resultados de site:pulso.cl en Bing News" xmlUrl="https://www.bing.com/news/search?q=site:pulso.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:pulso.cl"/>
+    <outline type="rss" text="Pulso - Google News" title="Pulso - Google News" description="Resultados de site:pulso.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pulso.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pulso.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Radio Cooperativa - Economía" title="Radio Cooperativa - Economía" description="Feed de la sección 'Economía' en Radio Cooperativa" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml" htmlUrl="https://www.cooperativa.cl"/>
     <outline type="rss" text="Radio Nuevo Mundo - Economía" title="Radio Nuevo Mundo - Economía" description="Feed de la categoría 'Economía' en Radio Nuevo Mundo" xmlUrl="https://radionuevomundo.cl/categoria/noticias/economia/feed/" htmlUrl="https://radionuevomundo.cl/categoria/noticias/economia/"/>
     <outline type="rss" text="Radio Paulina - Emprendedores" title="Radio Paulina - Emprendedores" description="Feed de la categoría 'Emprendedores' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/emprendedores/feed/" htmlUrl="https://radiopaulina.cl/category/emprendedores/"/>
@@ -146,6 +149,7 @@
     <outline type="rss" text="Traiguén City - Ecónomia" title="Traiguén City - Ecónomia" description="Feed de la categoría 'Ecónomia' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/economia/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/economia/"/>
     <outline type="rss" text="Traiguén City - Empresarial" title="Traiguén City - Empresarial" description="Feed de la categoría 'Empresarial' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/empresarial/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/empresarial/"/>
     <outline type="rss" text="Traiguén City - Laboral" title="Traiguén City - Laboral" description="Feed de la categoría 'Laboral' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/laboral-traiguen/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/laboral-traiguen/"/>
+    <outline type="rss" text="Tus Noticias - Economía" title="Tus Noticias - Economía" description="Feed de la categoría 'Economía' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/economia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/economia/"/>
     <outline type="rss" text="VLN Radio - Economía" title="VLN Radio - Economía" description="Feed de la categoría 'Economía' en VLN Radio" xmlUrl="https://www.vlnradio.cl/economia/feed/" htmlUrl="https://www.vlnradio.cl/economia/"/>
   </body>
 </opml>

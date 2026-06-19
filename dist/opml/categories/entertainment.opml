@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (95 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (96 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T01:12:31.582Z</dateCreated>
+    <dateCreated>2026-06-19T01:57:50.274Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -101,6 +101,7 @@
     <outline type="rss" text="Tierramarillano - Espectáculos" title="Tierramarillano - Espectáculos" description="Feed de la categoría 'Espectáculos' en Tierramarillano" xmlUrl="https://tierramarillano.cl/category/espectaculos/feed/" htmlUrl="https://tierramarillano.cl/category/espectaculos/"/>
     <outline type="rss" text="Timeline - Espectáculos" title="Timeline - Espectáculos" description="Feed de la categoría 'Espectáculos' en Timeline" xmlUrl="https://www.timeline.cl/category/espectaculos/feed/" htmlUrl="https://www.timeline.cl/category/espectaculos/"/>
     <outline type="rss" text="Traiguén City - Entretención" title="Traiguén City - Entretención" description="Feed de la categoría 'Entretención' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/entretencion/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/entretencion/"/>
+    <outline type="rss" text="Tus Noticias - Espectaculos" title="Tus Noticias - Espectaculos" description="Feed de la categoría 'Espectaculos' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/espectaculos/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/espectaculos/"/>
     <outline type="rss" text="VLN Radio - Espectáculos Y Tv" title="VLN Radio - Espectáculos Y Tv" description="Feed de la categoría 'Espectáculos Y Tv' en VLN Radio" xmlUrl="https://www.vlnradio.cl/tendencias/espectaculos-y-tv/feed/" htmlUrl="https://www.vlnradio.cl/tendencias/espectaculos-y-tv/"/>
   </body>
 </opml>

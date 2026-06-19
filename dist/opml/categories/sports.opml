@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (165 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (170 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T01:12:31.582Z</dateCreated>
+    <dateCreated>2026-06-19T01:57:50.274Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -54,6 +54,10 @@
     <outline type="rss" text="Diario VI Región - Deportes" title="Diario VI Región - Deportes" description="Feed de la sección 'Deportes' en Diario VI Región" xmlUrl="https://www.diarioviregion.cl/deportes?format=feed" htmlUrl="https://www.diarioviregion.cl/deportes/"/>
     <outline type="rss" text="Duplos - Deportes" title="Duplos - Deportes" description="Feed de la categoría 'Deportes' en Duplos" xmlUrl="https://duplos.cl/deportes/feed/" htmlUrl="https://duplos.cl/deportes/"/>
     <outline type="rss" text="El Calbucano - Deportes" title="El Calbucano - Deportes" description="Feed de la categoría 'Deportes' en El Calbucano" xmlUrl="https://www.elcalbucano.cl/cat/deportes/feed/" htmlUrl="https://www.elcalbucano.cl/cat/deportes/"/>
+    <outline type="rss" text="El Capo de Provincia - Copa De La Liga" title="El Capo de Provincia - Copa De La Liga" description="Feed de la categoría 'Copa De La Liga' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/copa-de-la-liga/feed/" htmlUrl="https://capodeprovincia.cl/category/copa-de-la-liga/"/>
+    <outline type="rss" text="El Capo de Provincia - Liga De Primera" title="El Capo de Provincia - Liga De Primera" description="Feed de la categoría 'Liga De Primera' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/liga-de-primera/feed/" htmlUrl="https://capodeprovincia.cl/category/liga-de-primera/"/>
+    <outline type="rss" text="El Capo de Provincia - Mundial 2026" title="El Capo de Provincia - Mundial 2026" description="Feed de la categoría 'Mundial 2026' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/mundial-2026/feed/" htmlUrl="https://capodeprovincia.cl/category/mundial-2026/"/>
+    <outline type="rss" text="El Capo de Provincia - Sudamericana" title="El Capo de Provincia - Sudamericana" description="Feed de la categoría 'Sudamericana' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/sudamericana/feed/" htmlUrl="https://capodeprovincia.cl/category/sudamericana/"/>
     <outline type="rss" text="El Ciudadano - Deportes" title="El Ciudadano - Deportes" description="Feed de la categoría 'Deportes' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/deportes/feed/" htmlUrl="https://www.elciudadano.com/noticias/deportes/"/>
     <outline type="rss" text="El Coquimbano - Deportes" title="El Coquimbano - Deportes" description="Feed de la categoría 'Deportes' en El Coquimbano" xmlUrl="https://www.elcoquimbano.cl/category/deportes/feed/" htmlUrl="https://www.elcoquimbano.cl/category/deportes/"/>
     <outline type="rss" text="El Diario de La Araucanía - Noticias Deportivas" title="El Diario de La Araucanía - Noticias Deportivas" description="Feed de la categoría 'Noticias Deportivas' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/noticias-deportivas/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/noticias-deportivas/"/>
@@ -169,6 +173,7 @@
     <outline type="rss" text="Tiempo 21 - Fútbol" title="Tiempo 21 - Fútbol" description="Feed de la categoría 'Fútbol' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/futbol/feed/" htmlUrl="https://www.tiempo21.cl/futbol/"/>
     <outline type="rss" text="Tierramarillano - Deportes" title="Tierramarillano - Deportes" description="Feed de la categoría 'Deportes' en Tierramarillano" xmlUrl="https://tierramarillano.cl/category/deportes/feed/" htmlUrl="https://tierramarillano.cl/category/deportes/"/>
     <outline type="rss" text="Timeline - Deportes" title="Timeline - Deportes" description="Feed de la categoría 'Deportes' en Timeline" xmlUrl="https://www.timeline.cl/category/deportes/feed/" htmlUrl="https://www.timeline.cl/category/deportes/"/>
+    <outline type="rss" text="Tus Noticias - Deportes" title="Tus Noticias - Deportes" description="Feed de la categoría 'Deportes' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/deportes/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/deportes/"/>
     <outline type="rss" text="Universidad de Concepción - Deporte" title="Universidad de Concepción - Deporte" description="Feed de la categoría 'Deporte' en Universidad de Concepción" xmlUrl="https://noticias.udec.cl/category/deporte/feed/" htmlUrl="https://noticias.udec.cl/category/deporte/"/>
     <outline type="rss" text="Vilas Radio - Deportes" title="Vilas Radio - Deportes" description="Feed de la categoría 'Deportes' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/deportes/feed/" htmlUrl="https://vilasradio.cl/category/deportes/"/>
     <outline type="rss" text="VLN Radio - Deportes" title="VLN Radio - Deportes" description="Feed de la categoría 'Deportes' en VLN Radio" xmlUrl="https://www.vlnradio.cl/deportes/feed/" htmlUrl="https://www.vlnradio.cl/deportes/"/>

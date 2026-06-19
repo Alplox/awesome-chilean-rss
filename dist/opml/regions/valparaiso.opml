@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Valparaíso (131 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Valparaíso (138 feeds)</title>
     <description>Feeds RSS de la Región de Valparaíso, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T01:12:31.582Z</dateCreated>
+    <dateCreated>2026-06-19T01:57:50.274Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -65,6 +65,13 @@
     <outline type="rss" text="El Aconcagua - San Esteban" title="El Aconcagua - San Esteban" description="Feed de la categoría 'San Esteban' en El Aconcagua" xmlUrl="https://www.elaconcagua.cl/category/san-esteban/feed/" htmlUrl="https://www.elaconcagua.cl/category/san-esteban/"/>
     <outline type="rss" text="El Aconcagua - San Felipe" title="El Aconcagua - San Felipe" description="Feed de la categoría 'San Felipe' en El Aconcagua" xmlUrl="https://www.elaconcagua.cl/category/san-felipe/feed/" htmlUrl="https://www.elaconcagua.cl/category/san-felipe/"/>
     <outline type="rss" text="El Aconcagua [Proxy Google News]" title="El Aconcagua [Proxy Google News]" description="Resultados de site:elaconcagua.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elaconcagua.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elaconcagua.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="El Capo de Provincia" title="El Capo de Provincia" description="Medio digital de la Provincia de San Antonio, Región de Valparaíso" xmlUrl="https://www.capodeprovincia.cl/feed/" htmlUrl="https://www.capodeprovincia.cl"/>
+    <outline type="rss" text="El Capo de Provincia - Copa De La Liga" title="El Capo de Provincia - Copa De La Liga" description="Feed de la categoría 'Copa De La Liga' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/copa-de-la-liga/feed/" htmlUrl="https://capodeprovincia.cl/category/copa-de-la-liga/"/>
+    <outline type="rss" text="El Capo de Provincia - Google News" title="El Capo de Provincia - Google News" description="Resultados de site:capodeprovincia.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:capodeprovincia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:capodeprovincia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="El Capo de Provincia - Liga De Primera" title="El Capo de Provincia - Liga De Primera" description="Feed de la categoría 'Liga De Primera' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/liga-de-primera/feed/" htmlUrl="https://capodeprovincia.cl/category/liga-de-primera/"/>
+    <outline type="rss" text="El Capo de Provincia - Mundial 2026" title="El Capo de Provincia - Mundial 2026" description="Feed de la categoría 'Mundial 2026' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/mundial-2026/feed/" htmlUrl="https://capodeprovincia.cl/category/mundial-2026/"/>
+    <outline type="rss" text="El Capo de Provincia - Noticias" title="El Capo de Provincia - Noticias" description="Feed de la categoría 'Noticias' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/noticias/feed/" htmlUrl="https://capodeprovincia.cl/category/noticias/"/>
+    <outline type="rss" text="El Capo de Provincia - Sudamericana" title="El Capo de Provincia - Sudamericana" description="Feed de la categoría 'Sudamericana' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/sudamericana/feed/" htmlUrl="https://capodeprovincia.cl/category/sudamericana/"/>
     <outline type="rss" text="El Informador" title="El Informador" description="Diario regional de Los Andes, Valparaíso" xmlUrl="https://www.elinformador.cl/feed/" htmlUrl="https://www.elinformador.cl"/>
     <outline type="rss" text="El Informador - Actualidad Regional" title="El Informador - Actualidad Regional" description="Feed de la categoría 'Actualidad Regional' en El Informador" xmlUrl="https://www.elinformador.cl/category/actualidad-regional/feed/" htmlUrl="https://www.elinformador.cl/category/actualidad-regional/"/>
     <outline type="rss" text="El Informador - Agricultura" title="El Informador - Agricultura" description="Feed de la categoría 'Agricultura' en El Informador" xmlUrl="https://www.elinformador.cl/category/agricultura/feed/" htmlUrl="https://www.elinformador.cl/category/agricultura/"/>
