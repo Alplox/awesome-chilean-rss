@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (656 feeds)</title>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (657 feeds)</title>
     <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
+    <dateCreated>2026-06-19T00:50:08.093Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -606,6 +606,7 @@
     <outline type="rss" text="Radio UdeC - Udec" title="Radio UdeC - Udec" description="Feed de la categoría 'Udec' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/udec/feed/" htmlUrl="https://www.radioudec.cl/category/udec/"/>
     <outline type="rss" text="Radio UdeC [Proxy Bing News]" title="Radio UdeC [Proxy Bing News]" description="Resultados de site:radioudec.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radioudec.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radioudec.cl"/>
     <outline type="rss" text="Radio UdeC [Proxy Google News]" title="Radio UdeC [Proxy Google News]" description="Resultados de site:radioudec.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radioudec.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radioudec.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Radio Universidad de Chile - Noticias" title="Radio Universidad de Chile - Noticias" description="Feed de la categoría 'Noticias' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/noticias/feed/" htmlUrl="https://radio.uchile.cl/noticias/"/>
     <outline type="rss" text="Radio Valparaíso" title="Radio Valparaíso" description="Emisora regional de Valparaíso 102.5 FM - 121 AM. 90.9 FM IV región" xmlUrl="https://www.radiovalparaiso.cl/feed/" htmlUrl="https://www.radiovalparaiso.cl"/>
     <outline type="rss" text="Radio Valparaíso - Nacional" title="Radio Valparaíso - Nacional" description="Feed de la categoría 'Nacional' en Radio Valparaíso" xmlUrl="https://radiovalparaiso.cl/categoria/nacional/feed/" htmlUrl="https://radiovalparaiso.cl/categoria/nacional/"/>
     <outline type="rss" text="Radio Valparaíso - Región De Valparaíso" title="Radio Valparaíso - Región De Valparaíso" description="Feed de la categoría 'Región De Valparaíso' en Radio Valparaíso" xmlUrl="https://radiovalparaiso.cl/categoria/region-de-valparaiso/feed/" htmlUrl="https://radiovalparaiso.cl/categoria/region-de-valparaiso/"/>

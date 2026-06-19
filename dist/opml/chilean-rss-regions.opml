@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Regionales (2353 feeds)</title>
+    <title>Awesome Chilean RSS - Regionales (2366 feeds)</title>
     <description>Feeds RSS de medios regionales chilenos agrupados por región.</description>
-    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
+    <dateCreated>2026-06-19T00:50:08.093Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -1022,6 +1022,19 @@
       <outline type="rss" text="Nuevo Poder - Tecnociencia" title="Nuevo Poder - Tecnociencia" description="Feed de la categoría 'Tecnociencia' en Nuevo Poder" xmlUrl="https://www.nuevopoder.cl/category/tecnologia/feed/" htmlUrl="https://www.nuevopoder.cl/category/tecnologia/"/>
       <outline type="rss" text="Nuevo Poder - Tendencias" title="Nuevo Poder - Tendencias" description="Feed de la categoría 'Tendencias' en Nuevo Poder" xmlUrl="https://www.nuevopoder.cl/category/tendencias/feed/" htmlUrl="https://www.nuevopoder.cl/category/tendencias/"/>
       <outline type="rss" text="Nuevo Poder [Proxy Google News]" title="Nuevo Poder [Proxy Google News]" description="Resultados de site:nuevopoder.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:nuevopoder.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:nuevopoder.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Radio Universidad de Chile - Agenda Derechos Humanos" title="Radio Universidad de Chile - Agenda Derechos Humanos" description="Feed de la categoría 'Agenda Derechos Humanos' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/agendaderechoshumanos/feed/" htmlUrl="https://radio.uchile.cl/agendaderechoshumanos/"/>
+      <outline type="rss" text="Radio Universidad de Chile - Cartas Al Director" title="Radio Universidad de Chile - Cartas Al Director" description="Feed de la categoría 'Cartas Al Director' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/cartas-al-director/feed/" htmlUrl="https://radio.uchile.cl/cartas-al-director/"/>
+      <outline type="rss" text="Radio Universidad de Chile - Columna Del Director" title="Radio Universidad de Chile - Columna Del Director" description="Feed de la categoría 'Columna Del Director' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/columnas/columna-del-director/feed/" htmlUrl="https://radio.uchile.cl/columnas/columna-del-director/"/>
+      <outline type="rss" text="Radio Universidad de Chile - Columnas" title="Radio Universidad de Chile - Columnas" description="Feed de la categoría 'Columnas' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/columnas/feed/" htmlUrl="https://radio.uchile.cl/columnas/"/>
+      <outline type="rss" text="Radio Universidad de Chile - Cultura" title="Radio Universidad de Chile - Cultura" description="Feed de la categoría 'Cultura' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/ruchtv/cultura-ruchtv/feed/" htmlUrl="https://radio.uchile.cl/ruchtv/cultura-ruchtv/"/>
+      <outline type="rss" text="Radio Universidad de Chile - Diario Tv" title="Radio Universidad de Chile - Diario Tv" description="Feed de la categoría 'Diario Tv' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/ruchtv/feed/" htmlUrl="https://radio.uchile.cl/ruchtv/"/>
+      <outline type="rss" text="Radio Universidad de Chile - Noticias" title="Radio Universidad de Chile - Noticias" description="Feed de la categoría 'Noticias' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/noticias/feed/" htmlUrl="https://radio.uchile.cl/noticias/"/>
+      <outline type="rss" text="Radio Universidad de Chile - Opiniones" title="Radio Universidad de Chile - Opiniones" description="Feed de la categoría 'Opiniones' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/opiniones/feed/" htmlUrl="https://radio.uchile.cl/opiniones/"/>
+      <outline type="rss" text="Radio Universidad de Chile - Portada" title="Radio Universidad de Chile - Portada" description="Feed principal de Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/feed/" htmlUrl="https://radio.uchile.cl"/>
+      <outline type="rss" text="Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional" title="Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional" description="Feed de la categoría 'Radio Universidad De Chile Y Amnistía Internacional' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/ruch_amnistiainternacional/feed/" htmlUrl="https://radio.uchile.cl/ruch_amnistiainternacional/"/>
+      <outline type="rss" text="Radio Universidad de Chile - Vuelve A Escuchar" title="Radio Universidad de Chile - Vuelve A Escuchar" description="Feed de la categoría 'Vuelve A Escuchar' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/vuelve-a-escuchar/feed/" htmlUrl="https://radio.uchile.cl/vuelve-a-escuchar/"/>
+      <outline type="rss" text="Radio Universidad de Chile [Proxy Bing News]" title="Radio Universidad de Chile [Proxy Bing News]" description="Resultados de site:radio.uchile.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radio.uchile.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radio.uchile.cl"/>
+      <outline type="rss" text="Radio Universidad de Chile [Proxy Google News]" title="Radio Universidad de Chile [Proxy Google News]" description="Resultados de site:radio.uchile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radio.uchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radio.uchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     </outline>
     <outline text="O'Higgins" title="O'Higgins">
       <outline type="rss" text="Diario El Cóndor" title="Diario El Cóndor" description="Diario regional de Santa Cruz, O'Higgins" xmlUrl="https://diariocondor.cl/feed/" htmlUrl="https://diariocondor.cl"/>

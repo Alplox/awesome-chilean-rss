@@ -7324,5 +7324,314 @@
       }
     ],
     "reason": "feed stale (último item: 2026-03-27, 84 días)"
+  },
+  {
+    "id": "triunfo",
+    "name": "Triunfo",
+    "url": "https://www.triunfo.cl",
+    "category": "community",
+    "reason": "Sin feed RSS detectado (sitio tipo red social/Elgg)",
+    "feeds": [
+      {
+        "id": "triunfo-proxy-google-news",
+        "name": "Triunfo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:triunfo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:triunfo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:triunfo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "triunfo-proxy-bing-news",
+        "name": "Triunfo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:triunfo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:triunfo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:triunfo.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Red social chilena"
+  },
+  {
+    "id": "123-cl",
+    "name": "123.cl",
+    "url": "https://noticias.123.cl",
+    "category": "news",
+    "reason": "Sitio no responde (timeout)",
+    "feeds": [
+      {
+        "id": "123-cl-proxy-google-news",
+        "name": "123.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:noticias.123.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:noticias.123.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:noticias.123.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "123-cl-proxy-bing-news",
+        "name": "123.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:noticias.123.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:noticias.123.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:noticias.123.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de noticias chileno"
+  },
+  {
+    "id": "universia-cl",
+    "name": "Universia Chile",
+    "url": "https://noticias.universia.cl",
+    "category": "education",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "universia-cl-proxy-google-news",
+        "name": "Universia Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:noticias.universia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:noticias.universia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:noticias.universia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "universia-cl-proxy-bing-news",
+        "name": "Universia Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:noticias.universia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:noticias.universia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:noticias.universia.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de noticias de educación superior"
+  },
+  {
+    "id": "economia-y-negocios",
+    "name": "Economía y Negocios",
+    "url": "https://www.economiaynegocios.cl",
+    "category": "business",
+    "reason": "Sitio no responde (error de conexión)",
+    "feeds": [
+      {
+        "id": "economia-y-negocios-proxy-google-news",
+        "name": "Economía y Negocios [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:economiaynegocios.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:economiaynegocios.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:economiaynegocios.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "economia-y-negocios-proxy-bing-news",
+        "name": "Economía y Negocios [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:economiaynegocios.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:economiaynegocios.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:economiaynegocios.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Sección de economía y negocios de El Mercurio"
+  },
+  {
+    "id": "g80",
+    "name": "G80",
+    "url": "https://www.g80.cl",
+    "category": "news",
+    "reason": "Sitio no responde (error de conexión)",
+    "feeds": [
+      {
+        "id": "g80-proxy-google-news",
+        "name": "G80 [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:g80.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:g80.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:g80.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "g80-proxy-bing-news",
+        "name": "G80 [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:g80.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:g80.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:g80.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio de análisis y opinión política"
+  },
+  {
+    "id": "gran-valparaiso",
+    "name": "Gran Valparaíso",
+    "url": "https://www.granvalparaiso.cl",
+    "category": "regional",
+    "region": "valparaiso",
+    "reason": "Sin feed RSS detectado (HTTP error en todas las rutas)",
+    "feeds": [
+      {
+        "id": "gran-valparaiso-proxy-google-news",
+        "name": "Gran Valparaíso [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:granvalparaiso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:granvalparaiso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:granvalparaiso.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "gran-valparaiso-proxy-bing-news",
+        "name": "Gran Valparaíso [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:granvalparaiso.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:granvalparaiso.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:granvalparaiso.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de noticias de la Región de Valparaíso"
+  },
+  {
+    "id": "puranoticia",
+    "name": "Puranoticia",
+    "url": "https://www.puranoticia.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado (responde HTML en lugar de feed)",
+    "feeds": [
+      {
+        "id": "puranoticia-proxy-google-news",
+        "name": "Puranoticia [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:puranoticia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:puranoticia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:puranoticia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "puranoticia-proxy-bing-news",
+        "name": "Puranoticia [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:puranoticia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:puranoticia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:puranoticia.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T00:50:36.232Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de noticias chileno"
+  },
+  {
+    "id": "quinta-interior",
+    "name": "Quinta Interior",
+    "url": "https://www.quintainterior.cl",
+    "category": "regional",
+    "region": "valparaiso",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "quinta-interior-proxy-google-news",
+        "name": "Quinta Interior [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:quintainterior.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:quintainterior.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:quintainterior.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T00:50:36.233Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "quinta-interior-proxy-bing-news",
+        "name": "Quinta Interior [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:quintainterior.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:quintainterior.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:quintainterior.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T00:50:36.233Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de noticias del interior de la Región de Valparaíso"
+  },
+  {
+    "id": "radio-santiago",
+    "name": "Radio Santiago",
+    "url": "https://www.radiosantiago.cl",
+    "category": "radio",
+    "region": "metropolitana",
+    "reason": "Sitio no responde (timeout)",
+    "feeds": [
+      {
+        "id": "radio-santiago-proxy-google-news",
+        "name": "Radio Santiago [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiosantiago.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiosantiago.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiosantiago.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T00:50:36.233Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-santiago-proxy-bing-news",
+        "name": "Radio Santiago [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiosantiago.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiosantiago.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiosantiago.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T00:50:36.233Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio online santiaguina"
   }
 ]

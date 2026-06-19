@@ -2,25 +2,25 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-326-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3720-blue)
+![Sitios](https://img.shields.io/badge/sitios-327-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3733-blue)
 
-> El directorio más completo de feeds RSS chilenos. 326 sitios, 3720 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 327 sitios, 3733 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2353 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2366 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (326 sitios, 3720 feeds)
+## 📝 Fuentes disponibles (327 sitios, 3733 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 186 sitios, 656 feeds
+- [📰 Noticias Nacionales](#cat-news) — 187 sitios, 657 feeds
 - [🌐 Noticias Internacionales](#cat-news-international) — 66 sitios, 122 feeds
 - [🌎 Medios Regionales](#cat-regional) — 183 sitios, 1539 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 74 sitios, 200 feeds
@@ -34,11 +34,11 @@
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 14 sitios, 107 feeds
 - [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 58 sitios, 107 feeds
 - [🎭 Espectáculos y Entretención](#cat-entertainment) — 45 sitios, 95 feeds
-- [📻 Radio y Música](#cat-radio) — 16 sitios, 29 feeds
+- [📻 Radio y Música](#cat-radio) — 17 sitios, 41 feeds
 - [🏥 Salud y Bienestar](#cat-health) — 66 sitios, 74 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (186 sitios, 656 feeds)
+### 📰 Noticias Nacionales (187 sitios, 657 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -802,6 +802,8 @@
   - Radio UdeC - Política: `https://www.radioudec.cl/category/politica/feed/`
   - Radio UdeC [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioudec.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio UdeC [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radioudec.cl&format=RSS`
+- **Radio Universidad de Chile**: Feed de la categoría 'Noticias' en Radio Universidad de Chile
+  - RSS: `https://radio.uchile.cl/noticias/feed/`
 - **Radio Valparaíso** — Emisora regional de Valparaíso 102.5 FM - 121 AM. 90.9 FM IV región
   - Radio Valparaíso: `https://www.radiovalparaiso.cl/feed/`
   - Radio Valparaíso - Región De Valparaíso: `https://radiovalparaiso.cl/categoria/region-de-valparaiso/feed/`
@@ -2064,7 +2066,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Valparaíso Noticias - Portada: `https://valparaisonoticias.cl/feed/`
   - Valparaíso Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:valparaisonoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Metropolitana de Santiago (9 medios)
+#### 📍 Metropolitana de Santiago (10 medios)
 
 *Descargar OPML regional: [`metropolitana.opml`](dist/opml/regions/metropolitana.opml)*
 
@@ -2210,6 +2212,20 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Nuevo Poder - Tendencias: `https://www.nuevopoder.cl/category/tendencias/feed/`
   - Nuevo Poder - Monitor Indo Pacífico: `https://www.nuevopoder.cl/category/monitor-indo-pacifico/feed/`
   - Nuevo Poder [Proxy Google News]: `https://news.google.com/rss/search?q=site:nuevopoder.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Universidad de Chile** — Radio online de la Universidad de Chile
+  - Radio Universidad de Chile - Portada: `https://radio.uchile.cl/feed/`
+  - Radio Universidad de Chile - Noticias: `https://radio.uchile.cl/noticias/feed/`
+  - Radio Universidad de Chile - Columnas: `https://radio.uchile.cl/columnas/feed/`
+  - Radio Universidad de Chile - Opiniones: `https://radio.uchile.cl/opiniones/feed/`
+  - Radio Universidad de Chile - Cartas Al Director: `https://radio.uchile.cl/cartas-al-director/feed/`
+  - Radio Universidad de Chile - Diario Tv: `https://radio.uchile.cl/ruchtv/feed/`
+  - Radio Universidad de Chile - Columna Del Director: `https://radio.uchile.cl/columnas/columna-del-director/feed/`
+  - Radio Universidad de Chile - Cultura: `https://radio.uchile.cl/ruchtv/cultura-ruchtv/feed/`
+  - Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional: `https://radio.uchile.cl/ruch_amnistiainternacional/feed/`
+  - Radio Universidad de Chile - Agenda Derechos Humanos: `https://radio.uchile.cl/agendaderechoshumanos/feed/`
+  - Radio Universidad de Chile - Vuelve A Escuchar: `https://radio.uchile.cl/vuelve-a-escuchar/feed/`
+  - Radio Universidad de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radio.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Universidad de Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radio.uchile.cl&format=RSS`
 
 #### 📍 O'Higgins (14 medios)
 
@@ -5884,7 +5900,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-radio"></a>
-### 📻 Radio y Música (16 sitios, 29 feeds)
+### 📻 Radio y Música (17 sitios, 41 feeds)
 
 *Descargar OPML: [`radio.opml`](dist/opml/categories/radio.opml)*
 
@@ -5919,6 +5935,19 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Radio Konciencia - Portada: `https://www.radiokonciencia.org/feed/`
   - Radio Konciencia [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiokonciencia.org&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio Konciencia [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radiokonciencia.org&format=RSS`
+- **Radio Universidad de Chile** — Radio online de la Universidad de Chile
+  - Radio Universidad de Chile - Portada: `https://radio.uchile.cl/feed/`
+  - Radio Universidad de Chile - Columnas: `https://radio.uchile.cl/columnas/feed/`
+  - Radio Universidad de Chile - Opiniones: `https://radio.uchile.cl/opiniones/feed/`
+  - Radio Universidad de Chile - Cartas Al Director: `https://radio.uchile.cl/cartas-al-director/feed/`
+  - Radio Universidad de Chile - Diario Tv: `https://radio.uchile.cl/ruchtv/feed/`
+  - Radio Universidad de Chile - Columna Del Director: `https://radio.uchile.cl/columnas/columna-del-director/feed/`
+  - Radio Universidad de Chile - Cultura: `https://radio.uchile.cl/ruchtv/cultura-ruchtv/feed/`
+  - Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional: `https://radio.uchile.cl/ruch_amnistiainternacional/feed/`
+  - Radio Universidad de Chile - Agenda Derechos Humanos: `https://radio.uchile.cl/agendaderechoshumanos/feed/`
+  - Radio Universidad de Chile - Vuelve A Escuchar: `https://radio.uchile.cl/vuelve-a-escuchar/feed/`
+  - Radio Universidad de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radio.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Universidad de Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radio.uchile.cl&format=RSS`
 - **Región Visual**: Feed de la categoría 'Música' en Región Visual
   - RSS: `https://regionvisual.com/category/musica/feed/`
 - **Rock & Pop** — Radio chilena de rock, música y actualidad
