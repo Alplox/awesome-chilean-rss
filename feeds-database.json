@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T01:57:50.274Z",
+  "last_updated": "2026-06-19T02:30:43.798Z",
   "total_feeds": 3776,
   "sites": [
     {
@@ -76765,45 +76765,6 @@
           "last_known_item_date": null,
           "status": "feed_empty",
           "verified": false
-        }
-      ]
-    },
-    {
-      "id": "pulso",
-      "name": "Pulso",
-      "url": "https://www.pulso.cl",
-      "category": "business",
-      "description": "Suplemento de economía, finanzas y negocios de La Tercera",
-      "feeds": [
-        {
-          "id": "pulso-main",
-          "name": "Pulso",
-          "rss_url": "https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml",
-          "url": "https://www.pulso.cl",
-          "feed_type": "RSS",
-          "last_checked": "2026-06-19T01:36:08.772Z",
-          "status": "active",
-          "verified": true
-        },
-        {
-          "id": "pulso-google-news",
-          "name": "Pulso - Google News",
-          "rss_url": "https://news.google.com/rss/search?q=site:pulso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-          "url": "https://news.google.com/search?q=site:pulso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-          "description": "Resultados de site:pulso.cl en Google News de noticias Chilenas",
-          "feed_type": "RSS",
-          "status": "active",
-          "verified": true
-        },
-        {
-          "id": "pulso-bing-news",
-          "name": "Pulso - Bing News",
-          "rss_url": "https://www.bing.com/news/search?q=site:pulso.cl&format=RSS",
-          "url": "https://www.bing.com/news/search?q=site:pulso.cl",
-          "description": "Resultados de site:pulso.cl en Bing News",
-          "feed_type": "RSS",
-          "status": "active",
-          "verified": true
         }
       ]
     },

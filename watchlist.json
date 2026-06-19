@@ -34,6 +34,36 @@
     "description": "Portal de noticias chileno"
   },
   {
+    "id": "24horas",
+    "name": "24 Horas",
+    "url": "https://www.24horas.cl",
+    "category": "news",
+    "description": "Noticiero chileno de televisión",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "24horas-google-news",
+        "name": "24 Horas - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:24horas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:24horas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:24horas.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "24horas-bing-news",
+        "name": "24 Horas - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:24horas.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:24horas.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:24horas.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
     "id": "anci",
     "name": "ANCI",
     "url": "https://anci.gob.cl",
@@ -140,6 +170,37 @@
       }
     ],
     "description": "Diario regional de La Araucanía"
+  },
+  {
+    "id": "araucaniacuenta",
+    "name": "Araucanía Cuenta",
+    "url": "https://www.araucaniacuenta.cl",
+    "category": "regional",
+    "region": "araucania",
+    "description": "Medio digital de la Región de La Araucanía",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "araucaniacuenta-google-news",
+        "name": "Araucanía Cuenta - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:araucaniacuenta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:araucaniacuenta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:araucaniacuenta.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "araucaniacuenta-bing-news",
+        "name": "Araucanía Cuenta - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:araucaniacuenta.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:araucaniacuenta.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:araucaniacuenta.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "arica-mia",
@@ -1840,6 +1901,36 @@
     "description": "Diario regional"
   },
   {
+    "id": "diariopyme",
+    "name": "Diario Pyme",
+    "url": "https://www.diariopyme.com",
+    "category": "business",
+    "description": "Medio digital de noticias financieras y PYME",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "diariopyme-google-news",
+        "name": "Diario Pyme - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariopyme.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariopyme.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariopyme.com en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diariopyme-bing-news",
+        "name": "Diario Pyme - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariopyme.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariopyme.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariopyme.com en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
     "id": "dpp",
     "name": "Dirección de Presupuestos",
     "url": "https://www.dpp.cl",
@@ -1864,6 +1955,36 @@
         "url": "https://www.bing.com/news/search?q=site:www.dpp.cl",
         "feed_type": "RSS",
         "description": "Resultados de site:www.dpp.cl en Proxy Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "duna",
+    "name": "Duna",
+    "url": "https://www.duna.cl",
+    "category": "radio",
+    "description": "Radio Duna, emisora chilena de noticias y actualidad",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "duna-google-news",
+        "name": "Duna - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:duna.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:duna.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:duna.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "duna-bing-news",
+        "name": "Duna - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:duna.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:duna.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:duna.cl en Bing News",
         "status": "active",
         "verified": true
       }
@@ -2558,6 +2679,36 @@
     ]
   },
   {
+    "id": "el-grafico-chile",
+    "name": "El Gráfico Chile",
+    "url": "https://www.elgraficochile.cl",
+    "category": "sports",
+    "description": "Medio digital deportivo chileno",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "el-grafico-chile-google-news",
+        "name": "El Gráfico Chile - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elgraficochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elgraficochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elgraficochile.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-grafico-chile-bing-news",
+        "name": "El Gráfico Chile - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elgraficochile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elgraficochile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elgraficochile.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
     "id": "el-heraldo-austral",
     "name": "El Heraldo Austral",
     "url": "https://www.eha.cl",
@@ -2949,6 +3100,37 @@
       }
     ],
     "description": "Diario regional"
+  },
+  {
+    "id": "el-paradiario14",
+    "name": "El Paradiario 14",
+    "url": "https://www.elparadiario14.cl",
+    "category": "regional",
+    "region": "los-rios",
+    "description": "Medio digital de la Región de Los Ríos",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "el-paradiario14-google-news",
+        "name": "El Paradiario 14 - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:elparadiario14.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elparadiario14.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elparadiario14.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-paradiario14-bing-news",
+        "name": "El Paradiario 14 - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:elparadiario14.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elparadiario14.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elparadiario14.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "el-patagonico",
@@ -3634,6 +3816,66 @@
         "description": "Resultados de site:fantechesports.cl en Proxy Bing News",
         "feed_type": "RSS",
         "last_checked": "2026-06-15T02:43:32.351Z",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "fmjoven",
+    "name": "FM Joven",
+    "url": "https://www.fmjoven.com",
+    "category": "radio",
+    "description": "Radio FM Joven, emisora regional chilena",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "fmjoven-google-news",
+        "name": "FM Joven - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:fmjoven.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fmjoven.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fmjoven.com en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fmjoven-bing-news",
+        "name": "FM Joven - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:fmjoven.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fmjoven.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fmjoven.com en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "fmstylo",
+    "name": "FM Stylo",
+    "url": "https://www.fmstylo.cl",
+    "category": "radio",
+    "description": "Radio FM Stylo, emisora regional chilena",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "fmstylo-google-news",
+        "name": "FM Stylo - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:fmstylo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fmstylo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fmstylo.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fmstylo-bing-news",
+        "name": "FM Stylo - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:fmstylo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fmstylo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fmstylo.cl en Bing News",
         "status": "active",
         "verified": true
       }
@@ -4665,6 +4907,66 @@
     ]
   },
   {
+    "id": "lacoyuntura",
+    "name": "La Coyuntura",
+    "url": "https://www.lacoyuntura.cl",
+    "category": "news",
+    "description": "Medio universitario de información y análisis",
+    "reason": "Feed RSS vacío",
+    "feeds": [
+      {
+        "id": "lacoyuntura-google-news",
+        "name": "La Coyuntura - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:lacoyuntura.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lacoyuntura.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lacoyuntura.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "lacoyuntura-bing-news",
+        "name": "La Coyuntura - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:lacoyuntura.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lacoyuntura.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lacoyuntura.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "lacuarta-cl",
+    "name": "La Cuarta",
+    "url": "https://www.lacuarta.cl",
+    "category": "news",
+    "description": "Diario popular chileno de información general",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "lacuarta-cl-google-news",
+        "name": "La Cuarta - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:lacuarta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lacuarta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lacuarta.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "lacuarta-cl-bing-news",
+        "name": "La Cuarta - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:lacuarta.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lacuarta.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lacuarta.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
     "id": "las-ultimas-noticias",
     "name": "Las Últimas Noticias",
     "url": "https://www.lun.com",
@@ -4697,6 +4999,36 @@
       }
     ],
     "description": "Diario chileno de circulación nacional"
+  },
+  {
+    "id": "lasegunda-cl",
+    "name": "La Segunda",
+    "url": "https://www.lasegunda.cl",
+    "category": "news",
+    "description": "Diario chileno de información vespertina",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "lasegunda-cl-google-news",
+        "name": "La Segunda - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:lasegunda.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lasegunda.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lasegunda.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "lasegunda-cl-bing-news",
+        "name": "La Segunda - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:lasegunda.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lasegunda.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lasegunda.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "libertad-digital-cl",
@@ -4850,34 +5182,90 @@
     "reason": "feed stale (último item: 2026-03-27, 84 días)"
   },
   {
-    "id": "mapuexpress",
-    "name": "Mapuexpress",
-    "url": "http://mapuexpress.org",
-    "category": "news",
-    "description": "Agencia de noticias mapuche",
-    "reason": "Sitio no alcanzable, sin feed RSS detectado",
+    "id": "mapuche-info",
+    "name": "Mapuche Info",
+    "url": "https://www.mapuche.info",
+    "category": "community",
+    "description": "Portal de información y cultura mapuche",
+    "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "mapuexpress-proxy-google-news",
-        "name": "Mapuexpress [Proxy Google News]",
-        "rss_url": "https://news.google.com/rss/search?q=site:mapuexpress.org&hl=es-419&gl=CL&ceid=CL:es-419",
-        "url": "https://news.google.com/search?q=site:mapuexpress.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "id": "mapuche-info-google-news",
+        "name": "Mapuche Info - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:mapuche.info&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mapuche.info&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:mapuexpress.org en Proxy Google News de noticias Chilenas",
-        "last_checked": "2026-06-18T21:06:50.283Z",
-        "last_known_item_date": null,
+        "description": "Resultados de site:mapuche.info en Google News de noticias Chilenas",
         "status": "active",
         "verified": true
       },
       {
-        "id": "mapuexpress-proxy-bing-news",
-        "name": "Mapuexpress [Proxy Bing News]",
+        "id": "mapuche-info-bing-news",
+        "name": "Mapuche Info - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:mapuche.info&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mapuche.info",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mapuche.info en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "mapuche-nl",
+    "name": "Mapuche NL",
+    "url": "https://www.mapuche.nl",
+    "category": "community",
+    "description": "Sitio de información sobre el pueblo mapuche",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "mapuche-nl-google-news",
+        "name": "Mapuche NL - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:mapuche.nl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mapuche.nl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mapuche.nl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "mapuche-nl-bing-news",
+        "name": "Mapuche NL - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:mapuche.nl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mapuche.nl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mapuche.nl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "mapuexpress",
+    "name": "Mapuexpress",
+    "url": "http://mapuexpress.org",
+    "category": "news",
+    "description": "Medio digital mapuche de información, cultura y derechos humanos",
+    "reason": "Sitio no accesible (mapuexpress.org caído, mapuexpress.net ahora es sitio vietnamita)",
+    "feeds": [
+      {
+        "id": "mapuexpress-google-news",
+        "name": "Mapuexpress - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:mapuexpress.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mapuexpress.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mapuexpress.org en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "mapuexpress-bing-news",
+        "name": "Mapuexpress - Bing News",
         "rss_url": "https://www.bing.com/news/search?q=site:mapuexpress.org&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:mapuexpress.org",
         "feed_type": "RSS",
-        "description": "Resultados de site:mapuexpress.org en Proxy Bing News",
-        "last_checked": "2026-06-18T21:06:50.283Z",
-        "last_known_item_date": null,
+        "description": "Resultados de site:mapuexpress.org en Bing News",
         "status": "active",
         "verified": true
       }
@@ -5240,6 +5628,36 @@
     ]
   },
   {
+    "id": "miradorfm",
+    "name": "Mirador FM",
+    "url": "https://www.miradorfm.cl",
+    "category": "radio",
+    "description": "Radio Mirador FM, emisora regional chilena",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "miradorfm-google-news",
+        "name": "Mirador FM - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:miradorfm.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:miradorfm.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:miradorfm.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "miradorfm-bing-news",
+        "name": "Mirador FM - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:miradorfm.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:miradorfm.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:miradorfm.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
     "id": "mtraiguen",
     "name": "Municipalidad de Traiguén",
     "url": "https://mtraiguen.cl",
@@ -5269,6 +5687,36 @@
         "last_checked": "2026-06-18T19:17:08.057Z",
         "status": "feed_empty",
         "verified": false
+      }
+    ]
+  },
+  {
+    "id": "mums",
+    "name": "MUMS",
+    "url": "https://www.mums.cl",
+    "category": "community",
+    "description": "Movimiento por la Diversidad Sexual en Chile",
+    "reason": "Feed RSS sin actividad reciente",
+    "feeds": [
+      {
+        "id": "mums-google-news",
+        "name": "MUMS - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:mums.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mums.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mums.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "mums-bing-news",
+        "name": "MUMS - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:mums.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mums.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mums.cl en Bing News",
+        "status": "active",
+        "verified": true
       }
     ]
   },
@@ -5377,6 +5825,36 @@
         "last_checked": "2026-06-18T19:17:08.057Z",
         "status": "feed_empty",
         "verified": false
+      }
+    ]
+  },
+  {
+    "id": "observatorio-cl",
+    "name": "Observatorio Ciudadano",
+    "url": "https://www.observatorio.cl",
+    "category": "community",
+    "description": "Organización de derechos humanos y medio ambiente",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "observatorio-cl-google-news",
+        "name": "Observatorio Ciudadano - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:observatorio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:observatorio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:observatorio.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "observatorio-cl-bing-news",
+        "name": "Observatorio Ciudadano - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:observatorio.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:observatorio.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:observatorio.cl en Bing News",
+        "status": "active",
+        "verified": true
       }
     ]
   },
@@ -5775,6 +6253,37 @@
         "description": "Resultados de site:providencia.cl en Proxy Bing News",
         "last_checked": "2026-06-16T02:53:14.087Z",
         "last_known_item_date": "2026-06-13T03:02:36.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ptowilliams",
+    "name": "Pto. Williams",
+    "url": "https://www.ptowilliams.cl",
+    "category": "regional",
+    "region": "magallanes",
+    "description": "Medio digital de Puerto Williams, Región de Magallanes",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "ptowilliams-google-news",
+        "name": "Pto. Williams - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:ptowilliams.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ptowilliams.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ptowilliams.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ptowilliams-bing-news",
+        "name": "Pto. Williams - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:ptowilliams.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ptowilliams.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ptowilliams.cl en Bing News",
         "status": "active",
         "verified": true
       }
@@ -6492,6 +7001,246 @@
     "description": "Radio online santiaguina"
   },
   {
+    "id": "radio-usach",
+    "name": "Radio Usach",
+    "url": "https://www.radio.usach.cl",
+    "category": "radio",
+    "description": "Radio de la Universidad de Santiago de Chile",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "radio-usach-google-news",
+        "name": "Radio Usach - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:radio.usach.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radio.usach.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radio.usach.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-usach-bing-news",
+        "name": "Radio Usach - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:radio.usach.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radio.usach.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radio.usach.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radioalborada",
+    "name": "Radio Alborada",
+    "url": "https://www.radioalborada.cl",
+    "category": "radio",
+    "description": "Radio Alborada, emisora regional chilena",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radioalborada-google-news",
+        "name": "Radio Alborada - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:radioalborada.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radioalborada.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioalborada.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radioalborada-bing-news",
+        "name": "Radio Alborada - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:radioalborada.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radioalborada.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioalborada.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radioalternativa-cl",
+    "name": "Radio Alternativa",
+    "url": "https://www.radioalternativa.cl",
+    "category": "radio",
+    "description": "Radio Alternativa, emisora regional chilena",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "radioalternativa-cl-google-news",
+        "name": "Radio Alternativa - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:radioalternativa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radioalternativa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioalternativa.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radioalternativa-cl-bing-news",
+        "name": "Radio Alternativa - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:radioalternativa.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radioalternativa.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioalternativa.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radiocarillon",
+    "name": "Radio Carillón",
+    "url": "https://www.radiocarillon.cl",
+    "category": "radio",
+    "description": "Radio Carillón, emisora sindical chilena",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "radiocarillon-google-news",
+        "name": "Radio Carillón - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiocarillon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiocarillon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiocarillon.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radiocarillon-bing-news",
+        "name": "Radio Carillón - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiocarillon.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiocarillon.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiocarillon.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radiojgm",
+    "name": "Radio JGM",
+    "url": "https://www.radiojgm.cl",
+    "category": "radio",
+    "description": "Radio Juan Gómez Millas, de la Universidad de Chile",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "radiojgm-google-news",
+        "name": "Radio JGM - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiojgm.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiojgm.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiojgm.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radiojgm-bing-news",
+        "name": "Radio JGM - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiojgm.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiojgm.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiojgm.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radioportales",
+    "name": "Radio Portales",
+    "url": "https://www.radioportales.cl",
+    "category": "radio",
+    "description": "Radio Portales, emisora regional chilena",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "radioportales-google-news",
+        "name": "Radio Portales - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:radioportales.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radioportales.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioportales.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radioportales-bing-news",
+        "name": "Radio Portales - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:radioportales.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radioportales.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioportales.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radiouniversal",
+    "name": "Radio Universal",
+    "url": "https://www.radiouniversal.cl",
+    "category": "radio",
+    "description": "Radio Universal, emisora regional chilena",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "radiouniversal-google-news",
+        "name": "Radio Universal - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiouniversal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiouniversal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiouniversal.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radiouniversal-bing-news",
+        "name": "Radio Universal - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiouniversal.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiouniversal.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiouniversal.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radiovillafrancia",
+    "name": "Radio Villa Francia",
+    "url": "https://www.radiovillafrancia.cl",
+    "category": "radio",
+    "description": "Radio Villa Francia, emisora comunitaria chilena",
+    "reason": "Sitio no accesible",
+    "feeds": [
+      {
+        "id": "radiovillafrancia-google-news",
+        "name": "Radio Villa Francia - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiovillafrancia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiovillafrancia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiovillafrancia.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radiovillafrancia-bing-news",
+        "name": "Radio Villa Francia - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiovillafrancia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiovillafrancia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiovillafrancia.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
     "id": "rap-chile",
     "name": "Rap Chile",
     "url": "http://www.rap-chile.com",
@@ -7171,6 +7920,37 @@
     ]
   },
   {
+    "id": "redaraucania",
+    "name": "Red Araucanía",
+    "url": "https://www.redaraucania.com",
+    "category": "regional",
+    "region": "araucania",
+    "description": "Medio digital de la Región de La Araucanía",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "redaraucania-google-news",
+        "name": "Red Araucanía - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:redaraucania.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:redaraucania.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:redaraucania.com en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "redaraucania-bing-news",
+        "name": "Red Araucanía - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:redaraucania.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:redaraucania.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:redaraucania.com en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
     "id": "region-2",
     "name": "Región 2",
     "url": "https://www.region2.cl",
@@ -7521,6 +8301,36 @@
     "description": "Medio digital de noticias de la Sexta Región (O Higgins)",
     "reason": "Sitio no responde, sin feed RSS detectado",
     "feeds": []
+  },
+  {
+    "id": "soberaniaradio",
+    "name": "Soberanía Radio",
+    "url": "https://www.soberaniaradio.cl",
+    "category": "radio",
+    "description": "Radio comunitaria chilena de información",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "soberaniaradio-google-news",
+        "name": "Soberanía Radio - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:soberaniaradio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:soberaniaradio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soberaniaradio.cl en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "soberaniaradio-bing-news",
+        "name": "Soberanía Radio - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:soberaniaradio.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:soberaniaradio.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:soberaniaradio.cl en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "somos9",
