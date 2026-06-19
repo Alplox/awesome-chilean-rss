@@ -2,48 +2,65 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-320-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3651-blue)
+![Sitios](https://img.shields.io/badge/sitios-326-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3720-blue)
 
-> El directorio más completo de feeds RSS chilenos. 320 sitios, 3651 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 326 sitios, 3720 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2349 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2353 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (320 sitios, 3651 feeds)
+## 📝 Fuentes disponibles (326 sitios, 3720 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 184 sitios, 631 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 65 sitios, 121 feeds
-- [🌎 Medios Regionales](#cat-regional) — 181 sitios, 1535 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 72 sitios, 175 feeds
+- [📰 Noticias Nacionales](#cat-news) — 186 sitios, 656 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 66 sitios, 122 feeds
+- [🌎 Medios Regionales](#cat-regional) — 183 sitios, 1539 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 74 sitios, 200 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 26 sitios, 100 feeds
-- [🏫 Educación, Universidades e Investigación](#cat-education) — 61 sitios, 118 feeds
-- [💼 Economia, Negocios y Finanzas](#cat-business) — 80 sitios, 138 feeds
+- [🏫 Educación, Universidades e Investigación](#cat-education) — 63 sitios, 121 feeds
+- [💼 Economia, Negocios y Finanzas](#cat-business) — 81 sitios, 140 feeds
 - [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 15 sitios, 16 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 90 sitios, 105 feeds
-- [👥 Comunidad](#cat-community) — 74 sitios, 141 feeds
-- [⚽ Deportes](#cat-sports) — 118 sitios, 164 feeds
-- [🎮 Videojuegos y Gaming](#cat-gaming) — 13 sitios, 106 feeds
-- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 57 sitios, 106 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 91 sitios, 106 feeds
+- [👥 Comunidad](#cat-community) — 76 sitios, 143 feeds
+- [⚽ Deportes](#cat-sports) — 119 sitios, 165 feeds
+- [🎮 Videojuegos y Gaming](#cat-gaming) — 14 sitios, 107 feeds
+- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 58 sitios, 107 feeds
 - [🎭 Espectáculos y Entretención](#cat-entertainment) — 45 sitios, 95 feeds
 - [📻 Radio y Música](#cat-radio) — 16 sitios, 29 feeds
-- [🏥 Salud y Bienestar](#cat-health) — 64 sitios, 71 feeds
+- [🏥 Salud y Bienestar](#cat-health) — 66 sitios, 74 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (184 sitios, 631 feeds)
+### 📰 Noticias Nacionales (186 sitios, 656 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
 - **(Empresa) TiChile**: Feed de la categoría 'Noticias' en (Empresa) TiChile
   - RSS: `https://www.tichile.cl/category/noticias/feed/`
+- **aDiarioCR** — Periódico digital con noticias de Chile y el mundo
+  - aDiarioCR - Portada: `https://adiariocr.com/feed/`
+  - aDiarioCR - Nacionales: `https://adiariocr.com/feed/?category=nacionales`
+  - aDiarioCR - Consumidores: `https://adiariocr.com/feed/?category=consumidores`
+  - aDiarioCR - Soluciones: `https://adiariocr.com/feed/?category=soluciones`
+  - aDiarioCR - Eventos Anteriores: `https://adiariocr.com/feed/?category=eventos-anteriores`
+  - aDiarioCR - Opinion: `https://adiariocr.com/feed/?category=opinion`
+  - aDiarioCR - Editorial: `https://adiariocr.com/feed/?category=editorial`
+  - aDiarioCR - Tendencias: `https://adiariocr.com/feed/?category=tendencias`
+  - aDiarioCR - Decoracion: `https://adiariocr.com/feed/?category=decoracion`
+  - aDiarioCR - Gastronomia: `https://adiariocr.com/feed/?category=gastronomia`
+  - aDiarioCR - Moda: `https://adiariocr.com/feed/?category=moda`
+  - aDiarioCR - Edicto: `https://adiariocr.com/feed/?category=edicto`
+  - aDiarioCR - Esquelas: `https://adiariocr.com/feed/?category=esquelas`
+  - aDiarioCR - Contactenos: `https://adiariocr.com/feed/?category=contactenos`
+  - aDiarioCR - Patrocinios: `https://adiariocr.com/feed/?category=patrocinios`
+  - aDiarioCR [Proxy Google News]: `https://news.google.com/rss/search?q=site:adiariocr.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **ADN Radio** — Radio chilena de noticias y actualidad
   - ADN Radio: `https://www.adnradio.cl/arc/outboundfeeds/rss/?outputType=xml`
   - ADN Radio [Proxy Google News]: `https://news.google.com/rss/search?q=site:adnradio.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -168,6 +185,16 @@
   - RSS: `https://www.diarioantofagasta.cl/politica/feed/`
 - **Diario Chañarcillo**: Feed de la categoría 'Política' en Diario Chañarcillo
   - RSS: `https://www.chanarcillo.cl/category/politica/feed/`
+- **Diario Chile** — Medio de comunicación digital independiente con noticias nacionales e internacionales
+  - Diario Chile - Portada: `https://diariochile.cl/feed/`
+  - Diario Chile - Destacados: `https://diariochile.cl/category/destacados/feed/`
+  - Diario Chile - Gobierno & Política: `https://diariochile.cl/category/gobierno-y-politica/feed/`
+  - Diario Chile - Nacional: `https://diariochile.cl/category/nacional/feed/`
+  - Diario Chile - Actualidad: `https://diariochile.cl/category/actualidad/feed/`
+  - Diario Chile - Espectáculo & Cultura: `https://diariochile.cl/category/espectaculo-cultura/feed/`
+  - Diario Chile - Economía & Empresa: `https://diariochile.cl/category/economia-y-empresa/feed/`
+  - Diario Chile - Reportajes: `https://diariochile.cl/category/reportajes/feed/`
+  - Diario Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:diariochile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diario El Cautín**: Feed de la categoría 'Actualidad' en Diario El Cautín
   - RSS: `https://diarioelcautin.cl/category/actualidad/feed/`
 - **Diario El Centro** — Diario regional de Talca, Maule
@@ -861,7 +888,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (65 sitios, 121 feeds)
+### 🌐 Noticias Internacionales (66 sitios, 122 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -885,6 +912,8 @@
   - RSS: `https://www.davidnoticias.cl/category/mundo/feed/`
 - **Desenfoque**: Feed de la categoría 'Exterior' en Desenfoque
   - RSS: `https://desenfoque.cl/categoria/internacional/feed/`
+- **Diario Chile**: Feed de la categoría 'Internacional' en Diario Chile
+  - RSS: `https://diariochile.cl/category/internacional/feed/`
 - **Diario El Centro**: Feed de la categoría 'Internacional' en Diario El Centro
   - RSS: `https://www.diarioelcentro.cl/categoria/internacional/feed/`
 - **Diario El Día**: Feed de la sección 'Mundo' en Diario El Día
@@ -1055,7 +1084,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (181 sitios, 1535 feeds)
+### 🌎 Medios Regionales (183 sitios, 1539 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
@@ -1676,10 +1705,13 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Vallenar Digital: `https://www.vallenardigital.cl/feed`
   - Vallenar Digital [Proxy Google News]: `https://news.google.com/rss/search?q=site:vallenardigital.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Coquimbo (15 medios)
+#### 📍 Coquimbo (16 medios)
 
 *Descargar OPML regional: [`coquimbo.opml`](dist/opml/regions/coquimbo.opml)*
 
+- **Coquimbo Noticias** — Medio digital de noticias de la Región de Coquimbo
+  - Coquimbo Noticias - Portada: `https://coquimbonoticias.cl/feed/`
+  - Coquimbo Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:coquimbonoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **David Noticias** — Diario regional de Los Vilos, Coquimbo
   - David Noticias: `https://www.davidnoticias.cl/feed/`
   - David Noticias - Choapa: `https://www.davidnoticias.cl/category/choapa/feed/`
@@ -1879,7 +1911,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Radio San Bartolomé [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiosanbartolome.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio San Bartolomé [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radiosanbartolome.cl&format=RSS`
 
-#### 📍 Valparaíso (16 medios)
+#### 📍 Valparaíso (17 medios)
 
 *Descargar OPML regional: [`valparaiso.opml`](dist/opml/regions/valparaiso.opml)*
 
@@ -2028,6 +2060,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Región Visual - Regional: `https://regionvisual.com/category/regional/feed/`
   - Región Visual - Comiccon Chile: `https://regionvisual.com/category/eventos/comiccon-chile/feed/`
   - Región Visual [Proxy Google News]: `https://news.google.com/rss/search?q=site:regionvisual.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Valparaíso Noticias** — Medio digital de noticias de la Región de Valparaíso
+  - Valparaíso Noticias - Portada: `https://valparaisonoticias.cl/feed/`
+  - Valparaíso Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:valparaisonoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
 #### 📍 Metropolitana de Santiago (9 medios)
 
@@ -3799,7 +3834,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (72 sitios, 175 feeds)
+### 💻 Tecnología y Startups (74 sitios, 200 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
@@ -3810,6 +3845,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **ACTI** — Asociación Chilena de Empresas de Tecnologías de Información - Gremio de TI en Chile
   - ACTI: `https://acti.cl/feed/`
   - ACTI [Proxy Google News]: `https://news.google.com/rss/search?q=site:acti.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **aDiarioCR**: Feed de la sección 'Tecnologia' en aDiarioCR
+  - RSS: `https://adiariocr.com/feed/?category=tecnologia`
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Portada: `https://alertageekchile.cl/feed/`
   - Alerta Geek Chile - Mundo Geek: `https://www.alertageekchile.cl/category/tematicas/feed/`
@@ -3948,6 +3985,31 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://news.google.com/rss/topics/CAAqLQgKIidDQkFTRndvSkwyMHZNR1ptZHpWbUVnWmxjeTAwTVRrYUFrTk1LQUFQAQ?hl=es-419&gl=CL&ceid=CL:es-419`
 - **Hora de Noticias**: Feed de la categoría 'Ciencia Tecnología' en Hora de Noticias
   - RSS: `https://horadenoticias.cl/seccion/ciencia-tecnologia/feed/`
+- **ITseller Chile** — Plataforma chilena de comercio y contenido especializado en tecnología
+  - ITseller Chile - Portada: `https://itseller.cl/feed/`
+  - ITseller Chile - Destacadas: `https://www.itseller.cl/category/transversales/destacadas/feed/`
+  - ITseller Chile - Canales: `https://www.itseller.cl/category/canales/feed/`
+  - ITseller Chile - Empresas: `https://www.itseller.cl/category/empresas/feed/`
+  - ITseller Chile - Seguridad: `https://www.itseller.cl/category/valor-agregado/seguridad/feed/`
+  - ITseller Chile - Distribuidores: `https://www.itseller.cl/category/canales/distribuidores/feed/`
+  - ITseller Chile - Productos: `https://www.itseller.cl/category/productos/feed/`
+  - ITseller Chile - Nombramientos: `https://www.itseller.cl/category/empresas/nombramiento/feed/`
+  - ITseller Chile - Hardware: `https://www.itseller.cl/category/productos/hardware/feed/`
+  - ITseller Chile - Infraestructura & Data Centers: `https://www.itseller.cl/category/valor-agregado/infraestructura/feed/`
+  - ITseller Chile - Movilidad: `https://www.itseller.cl/category/productos/movilidad/feed/`
+  - ITseller Chile - Ciberseguridad: `https://www.itseller.cl/category/valor-agregado/seguridad/ciberseguridad/feed/`
+  - ITseller Chile - Retail: `https://www.itseller.cl/category/retail/feed/`
+  - ITseller Chile - Entrevistas: `https://www.itseller.cl/category/transversales/entrevistas/feed/`
+  - ITseller Chile - Lanzamientos: `https://www.itseller.cl/category/transversales/lanzamientos/feed/`
+  - ITseller Chile - Software & Servicios: `https://www.itseller.cl/category/software_y_servicios/feed/`
+  - ITseller Chile - Alianzas: `https://www.itseller.cl/category/empresas/alianzas/feed/`
+  - ITseller Chile - Energia: `https://www.itseller.cl/category/productos/energia-noticias-de-productos/feed/`
+  - ITseller Chile - Coberturas De Eventos: `https://www.itseller.cl/category/transversales/eventos/coberturas/feed/`
+  - ITseller Chile - Seguridad Electronica & Video Vigilancia: `https://www.itseller.cl/category/valor-agregado/seguridad/seguridad-electronica-video-vigilancia/feed/`
+  - ITseller Chile - Gadgets: `https://www.itseller.cl/category/productos/gadgets/feed/`
+  - ITseller Chile - Videoentrevistas: `https://www.itseller.cl/category/transversales/videoentrevistas/feed/`
+  - ITseller Chile - Notebooks: `https://www.itseller.cl/category/productos/movilidad/notebooks/feed/`
+  - ITseller Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:itseller.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **La Nación** — Diario digital de noticias nacionales
   - La Nación - Ciencia: `https://www.lanacion.cl/feed/?category=ciencia`
   - La Nación - Tecnologia: `https://www.lanacion.cl/feed/?category=tecnologia`
@@ -4188,10 +4250,15 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-education"></a>
-### 🏫 Educación, Universidades e Investigación (61 sitios, 118 feeds)
+### 🏫 Educación, Universidades e Investigación (63 sitios, 121 feeds)
 
 *Descargar OPML: [`education.opml`](dist/opml/categories/education.opml)*
 
+- **Actualidad UDLA** — Portal de actualidad e información de la Universidad de Las Américas
+  - Actualidad UDLA - Portada: `https://actualidad.udla.cl/feed/`
+  - Actualidad UDLA [Proxy Google News]: `https://news.google.com/rss/search?q=site:actualidad.udla.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **aDiarioCR**: Feed de la sección 'Educacion' en aDiarioCR
+  - RSS: `https://adiariocr.com/feed/?category=educacion`
 - **Alerta Noticias Temuco** — Diario regional de Temuco, La Araucanía
   - Alerta Noticias Temuco - Educación: `https://alertanoticiastemuco.cl/category/educacion/feed/`
   - Alerta Noticias Temuco - Educación Superior: `https://alertanoticiastemuco.cl/category/educacion-superior/feed/`
@@ -4375,10 +4442,13 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Economia, Negocios y Finanzas (80 sitios, 138 feeds)
+### 💼 Economia, Negocios y Finanzas (81 sitios, 140 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
+- **aDiarioCR** — Periódico digital con noticias de Chile y el mundo
+  - aDiarioCR - Economia: `https://adiariocr.com/feed/?category=economia`
+  - aDiarioCR - Negocios: `https://adiariocr.com/feed/?category=negocios`
 - **Alerta Noticias Temuco** — Diario regional de Temuco, La Araucanía
   - Alerta Noticias Temuco - Economía y Negocios: `https://alertanoticiastemuco.cl/category/economia-y-negocios/feed/`
   - Alerta Noticias Temuco - Emprendimiento: `https://alertanoticiastemuco.cl/category/emprendimiento/feed/`
@@ -4640,10 +4710,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (90 sitios, 105 feeds)
+### 🎨 Cultura y Divulgación (91 sitios, 106 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
+- **aDiarioCR**: Feed de la sección 'Cultura' en aDiarioCR
+  - RSS: `https://adiariocr.com/feed/?category=cultura`
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Anime y Manga: `https://alertageekchile.cl/category/anime-y-manga/feed/`
   - Alerta Geek Chile - Cine: `https://alertageekchile.cl/category/cine/feed/`
@@ -4843,10 +4915,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-community"></a>
-### 👥 Comunidad (74 sitios, 141 feeds)
+### 👥 Comunidad (76 sitios, 143 feeds)
 
 *Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
 
+- **aDiarioCR**: Feed de la sección 'Voluntariado' en aDiarioCR
+  - RSS: `https://adiariocr.com/feed/?category=voluntariado`
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Calendario de Estrenos y Eventos: `https://www.alertageekchile.cl/eventos/feed/`
   - Alerta Geek Chile - Eventos: `https://alertageekchile.cl/category/eventos/feed/`
@@ -4983,6 +5057,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Iquique TV** — Medio de comunicación de la Región de Tarapacá
   - Iquique TV - Turismo: `https://iquiquetv.cl/category/noticias/turismo/feed/`
   - Iquique TV - Sociedad: `https://iquiquetv.cl/category/noticias/sociedad/feed/`
+- **ITseller Chile**: Feed de la categoría 'Eventos' en ITseller Chile
+  - RSS: `https://www.itseller.cl/category/transversales/eventos/feed/`
 - **La Nación**: Feed de la sección 'Panoramas' en La Nación
   - RSS: `https://www.lanacion.cl/feed/?category=panoramas`
 - **La Noticia** — Diario regional de Rancagua, O'Higgins
@@ -5066,12 +5142,14 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (118 sitios, 164 feeds)
+### ⚽ Deportes (119 sitios, 165 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
 - **Aconcagua Digital**: Feed de la categoría 'Deportes' en Aconcagua Digital
   - RSS: `https://aconcaguadigital.cl/category/deportes/feed/`
+- **aDiarioCR**: Feed de la sección 'Deporte' en aDiarioCR
+  - RSS: `https://adiariocr.com/feed/?category=deporte`
 - **Agencia de Noticias**: Feed de la categoría 'Deportes' en Agencia de Noticias
   - RSS: `https://agenciadenoticias.org/category/deportes/feed/`
 - **Al Aire Libre** — Medio chileno de noticias deportivas
@@ -5356,7 +5434,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-gaming"></a>
-### 🎮 Videojuegos y Gaming (13 sitios, 106 feeds)
+### 🎮 Videojuegos y Gaming (14 sitios, 107 feeds)
 
 *Descargar OPML: [`gaming.opml`](dist/opml/categories/gaming.opml)*
 
@@ -5421,6 +5499,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Gamers Forever [Proxy Google News]: `https://news.google.com/rss/search?q=site:gamersforever.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Iquique TV**: Feed de la categoría 'Zona D Juegos' en Iquique TV
   - RSS: `https://iquiquetv.cl/category/zona-d-juegos/feed/`
+- **ITseller Chile**: Feed de la categoría 'Gaming' en ITseller Chile
+  - RSS: `https://www.itseller.cl/category/productos/gaming/feed/`
 - **LanCenter** — Centro chileno de gaming y cibercafé
   - LanCenter: `https://lancenter.cl/feed/`
   - LanCenter - Novedades: `https://lancenter.cl/category/novedades/feed/`
@@ -5483,10 +5563,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-environment"></a>
-### 🌿 Medio Ambiente y Naturaleza (57 sitios, 106 feeds)
+### 🌿 Medio Ambiente y Naturaleza (58 sitios, 107 feeds)
 
 *Descargar OPML: [`environment.opml`](dist/opml/categories/environment.opml)*
 
+- **aDiarioCR**: Feed de la sección 'Ambiente' en aDiarioCR
+  - RSS: `https://adiariocr.com/feed/?category=ambiente`
 - **Alerta Noticias Temuco**: Feed de la categoría 'Medio Ambiente' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/medio-ambiente/feed/`
 - **Anda**: Feed de la categoría 'Sostenibilidad' en Anda
@@ -5855,10 +5937,13 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-health"></a>
-### 🏥 Salud y Bienestar (64 sitios, 71 feeds)
+### 🏥 Salud y Bienestar (66 sitios, 74 feeds)
 
 *Descargar OPML: [`health.opml`](dist/opml/categories/health.opml)*
 
+- **aDiarioCR** — Periódico digital con noticias de Chile y el mundo
+  - aDiarioCR - Salud: `https://adiariocr.com/feed/?category=salud`
+  - aDiarioCR - Fitness: `https://adiariocr.com/feed/?category=fitness`
 - **Alerta Noticias**: Feed de la categoría 'Salud' en Alerta Noticias
   - RSS: `https://alertanoticias.cl/category/salud/feed/`
 - **Alerta Noticias Temuco**: Feed de la categoría 'Salud' en Alerta Noticias Temuco
@@ -5880,6 +5965,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://dialogosur.cl/category/salud/feed/`
 - **Diario Antofagasta**: Feed de la categoría 'Salud' en Diario Antofagasta
   - RSS: `https://www.diarioantofagasta.cl/salud/feed/`
+- **Diario Chile**: Feed de la categoría 'Salud & Bienestar' en Diario Chile
+  - RSS: `https://diariochile.cl/category/salud-y-bienestar/feed/`
 - **Diario El Centro**: Feed de la categoría 'Salud' en Diario El Centro
   - RSS: `https://www.diarioelcentro.cl/categoria/salud/feed/`
 - **Diario El Longino**: Feed de la categoría 'Salud' en Diario El Longino

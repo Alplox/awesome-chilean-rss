@@ -7167,5 +7167,162 @@
         "last_known_item_date": null
       }
     ]
+  },
+  {
+    "id": "revista-enfoque",
+    "name": "Revista Enfoque",
+    "url": "https://revistaenfoque.cl",
+    "category": "news",
+    "description": "Revista digital de noticias y actualidad",
+    "reason": "Sitio no responde, sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "tecnopymes",
+    "name": "Tecnopymes",
+    "url": "https://tecnopymes.cl",
+    "category": "technology",
+    "description": "Portal chileno de tecnología para pequeñas y medianas empresas",
+    "reason": "Sitio no responde, sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "seguridad-y-firewall",
+    "name": "Seguridad y Firewall",
+    "url": "https://seguridadyfirewall.cl",
+    "category": "technology",
+    "description": "Portal chileno especializado en seguridad informática",
+    "reason": "Sitio caído (HTTP 410 Gone), sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "los-lagos-al-dia",
+    "name": "Los Lagos al Día",
+    "url": "https://loslagosaldia.cl",
+    "category": "regional",
+    "region": "los-lagos",
+    "description": "Medio digital informativo de la Región de Los Lagos",
+    "reason": "Sitio sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "sexta-noticias",
+    "name": "Sexta Noticias",
+    "url": "https://sextanoticias.cl",
+    "category": "regional",
+    "region": "ohiggins",
+    "description": "Medio digital de noticias de la Sexta Región (O Higgins)",
+    "reason": "Sitio no responde, sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "portal-del-agro",
+    "name": "Portal del Agro",
+    "url": "https://portaldelagro.cl",
+    "category": "business",
+    "description": "Portal chileno de noticias del agro y agricultura",
+    "reason": "Sitio no responde, sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "maulee",
+    "name": "Maule EE",
+    "url": "https://maulee.cl",
+    "category": "regional",
+    "region": "maule",
+    "description": "Medio digital de noticias de la Región del Maule",
+    "reason": "Sitio no responde, sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "puerto-al-dia",
+    "name": "Puerto al Día",
+    "url": "https://puertoaldia.cl",
+    "category": "regional",
+    "region": "los-lagos",
+    "description": "Medio digital de noticias de Puerto Montt y la Región de Los Lagos",
+    "reason": "Sitio no responde, sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "diario-la-portada",
+    "name": "Diario La Portada",
+    "url": "https://diariolaportada.cl",
+    "category": "news",
+    "description": "Diario digital de noticias",
+    "reason": "Sitio no responde, sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "infogate",
+    "name": "Infogate",
+    "url": "https://infogate.cl",
+    "category": "news",
+    "description": "Portal chileno de noticias y actualidad",
+    "reason": "Sitio sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "comercial-mi-voz",
+    "name": "Mi Voz",
+    "url": "https://comercial.mivoz.cl",
+    "category": "community",
+    "description": "Plataforma de comunicación comunitaria",
+    "reason": "Sitio sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "canal-de-noticias",
+    "name": "Canal de Noticias",
+    "url": "https://canaldenoticias.cl",
+    "category": "news",
+    "description": "Portal de noticias",
+    "reason": "Sitio caído (HTTP 410 Gone), sin feed RSS detectado",
+    "feeds": []
+  },
+  {
+    "id": "magia-digital",
+    "name": "Magia Digital",
+    "url": "https://magiadigital.cl",
+    "category": "news",
+    "description": "Noticias de autos, mundo, viajes, tecnología y más",
+    "feeds": [
+      {
+        "id": "magia-digital-main",
+        "name": "Magia Digital - Portada",
+        "rss_url": "https://magiadigital.cl/feed/",
+        "feed_type": "RSS",
+        "description": "Feed principal de Magia Digital",
+        "status": "stale",
+        "verified": false,
+        "last_checked": "2026-06-18T23:42:48.941Z",
+        "last_known_item_date": "2026-03-27T01:29:43.000Z"
+      },
+      {
+        "id": "magia-digital-proxy-google-news",
+        "name": "Magia Digital [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:magiadigital.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:magiadigital.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:magiadigital.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-18T23:42:48.941Z",
+        "last_known_item_date": "2026-03-27T02:40:06.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "magia-digital-proxy-bing-news",
+        "name": "Magia Digital [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:magiadigital.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:magiadigital.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:magiadigital.cl en Proxy Bing News",
+        "last_checked": "2026-06-18T23:42:48.941Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "feed stale (último item: 2026-03-27, 84 días)"
   }
 ]

@@ -71,6 +71,10 @@ function trackResult(results, feed, site, status) {
   else if (status === 'feed_empty') results.other.push(label);
 }
 
+function isProxyFeed(feed) {
+  return feed.id.endsWith('-proxy-google-news') || feed.id.endsWith('-proxy-bing-news');
+}
+
 async function testManualUrl(url, _feedName) {
   if (!isValidUrl(url)) {
     console.log(`     ❌ URL inválida o no permitida: ${url}`);
@@ -607,11 +611,26 @@ async function main() {
     }
   }
 
+  // Detectar sitios con solo feeds proxy activos (candidatos a watchlist)
+  const watchlistCandidates = [];
+
   await Promise.all(
     Array.from({ length: SITE_CONCURRENCY }, async () => {
       while (siteIndex < sitesToValidate.length) {
         const site = sitesToValidate[siteIndex++];
         await processSite(site);
+        // Evaluar después de procesar todos los feeds del sitio
+        if (shouldUpdate) {
+          const nativeFeeds = site.feeds.filter(f => !isProxyFeed(f));
+          const proxyFeeds = site.feeds.filter(f => isProxyFeed(f));
+          if (nativeFeeds.length > 0 && proxyFeeds.length > 0) {
+            const allNativeInactive = nativeFeeds.every(f => f.status !== 'active' || !f.verified);
+            const someProxyActive = proxyFeeds.some(f => f.status === 'active' && f.verified);
+            if (allNativeInactive && someProxyActive) {
+              watchlistCandidates.push(site);
+            }
+          }
+        }
       }
     })
   );
@@ -650,6 +669,39 @@ async function main() {
   }
 
   if (shouldUpdate) {
+    // ─── Watchlist candidates ────────────────────────────────────────────────
+    if (watchlistCandidates.length > 0) {
+      console.log(`\n📋 Sitios con solo feeds proxy activos:`);
+      for (const site of watchlistCandidates) {
+        const details = site.feeds
+          .filter(f => isProxyFeed(f) && f.status === 'active' && f.verified)
+          .map(f => `     • ${f.name}: activo`);
+        console.log(`\n   ${site.name} (${site.id})`);
+        for (const d of details) console.log(d);
+        const move = await promptUser(
+          `   ¿Mover "${site.name}" a watchlist? [y/N]: `,
+          { defaultYes: false }
+        );
+        if (move) {
+          const dbIndex = db.sites.findIndex(s => s.id === site.id);
+          if (dbIndex !== -1) {
+            const [removed] = db.sites.splice(dbIndex, 1);
+            removed.reason = 'Solo feeds proxy activos (feeds nativos inactivos)';
+            let watchlist = [];
+            try {
+              watchlist = JSON.parse(readFileSync('watchlist.json', 'utf-8'));
+              if (!Array.isArray(watchlist)) watchlist = [];
+            } catch { watchlist = []; }
+            watchlist.push(removed);
+            writeFileSync('watchlist.json', JSON.stringify(watchlist, null, 2), 'utf-8');
+            console.log(`     → Movido a watchlist`);
+          }
+        } else {
+          console.log(`     → Mantenido en database`);
+        }
+      }
+    }
+
     const activeFeedCount = db.sites.reduce(
       (sum, site) => sum + site.feeds.filter(f => f.status === 'active' && f.verified === true).length,
       0

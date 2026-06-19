@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎮 Videojuegos y Gaming (106 feeds)</title>
+    <title>Awesome Chilean RSS - 🎮 Videojuegos y Gaming (107 feeds)</title>
     <description>Feeds RSS de 🎮 Videojuegos y Gaming, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -61,6 +61,7 @@
     <outline type="rss" text="Gamers Forever - Xbox Series" title="Gamers Forever - Xbox Series" description="Feed de la categoría 'Xbox Series' en Gamers Forever" xmlUrl="https://gamersforever.cl/category/noticias/xbox-series/feed/" htmlUrl="https://gamersforever.cl/category/noticias/xbox-series/"/>
     <outline type="rss" text="Gamers Forever [Proxy Google News]" title="Gamers Forever [Proxy Google News]" description="Resultados de site:gamersforever.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:gamersforever.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:gamersforever.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Iquique TV - Zona D Juegos" title="Iquique TV - Zona D Juegos" description="Feed de la categoría 'Zona D Juegos' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/zona-d-juegos/feed/" htmlUrl="https://iquiquetv.cl/category/zona-d-juegos/"/>
+    <outline type="rss" text="ITseller Chile - Gaming" title="ITseller Chile - Gaming" description="Feed de la categoría 'Gaming' en ITseller Chile" xmlUrl="https://www.itseller.cl/category/productos/gaming/feed/" htmlUrl="https://www.itseller.cl/category/productos/gaming/"/>
     <outline type="rss" text="LanCenter" title="LanCenter" description="Centro chileno de gaming y cibercafé" xmlUrl="https://lancenter.cl/feed/" htmlUrl="https://lancenter.cl"/>
     <outline type="rss" text="LanCenter - Novedades" title="LanCenter - Novedades" description="Feed de la categoría 'Novedades' en LanCenter" xmlUrl="https://lancenter.cl/category/novedades/feed/" htmlUrl="https://lancenter.cl/category/novedades/"/>
     <outline type="rss" text="LanCenter [Proxy Google News]" title="LanCenter [Proxy Google News]" description="Resultados de site:lancenter.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:lancenter.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:lancenter.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

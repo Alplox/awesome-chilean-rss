@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Coquimbo (183 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Coquimbo (185 feeds)</title>
     <description>Feeds RSS de la Región de Coquimbo, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="Coquimbo Noticias - Portada" title="Coquimbo Noticias - Portada" description="Feed principal de Coquimbo Noticias" xmlUrl="https://coquimbonoticias.cl/feed/" htmlUrl="https://coquimbonoticias.cl"/>
+    <outline type="rss" text="Coquimbo Noticias [Proxy Google News]" title="Coquimbo Noticias [Proxy Google News]" description="Resultados de site:coquimbonoticias.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:coquimbonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:coquimbonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="David Noticias" title="David Noticias" description="Diario regional de Los Vilos, Coquimbo" xmlUrl="https://www.davidnoticias.cl/feed/" htmlUrl="https://www.davidnoticias.cl"/>
     <outline type="rss" text="David Noticias - Choapa" title="David Noticias - Choapa" description="Feed de la categoría 'Choapa' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/choapa/feed/" htmlUrl="https://www.davidnoticias.cl/category/choapa/"/>
     <outline type="rss" text="David Noticias - Ciencia y Tecnologia" title="David Noticias - Ciencia y Tecnologia" description="Feed de la categoría 'Ciencia y Tecnologia' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/ciencia/feed/" htmlUrl="https://www.davidnoticias.cl/category/ciencia/"/>

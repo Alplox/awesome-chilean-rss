@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Regionales (2349 feeds)</title>
+    <title>Awesome Chilean RSS - Regionales (2353 feeds)</title>
     <description>Feeds RSS de medios regionales chilenos agrupados por región.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -569,6 +569,8 @@
       <outline type="rss" text="Vallenar Digital [Proxy Google News]" title="Vallenar Digital [Proxy Google News]" description="Resultados de site:vallenardigital.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:vallenardigital.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:vallenardigital.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     </outline>
     <outline text="Coquimbo" title="Coquimbo">
+      <outline type="rss" text="Coquimbo Noticias - Portada" title="Coquimbo Noticias - Portada" description="Feed principal de Coquimbo Noticias" xmlUrl="https://coquimbonoticias.cl/feed/" htmlUrl="https://coquimbonoticias.cl"/>
+      <outline type="rss" text="Coquimbo Noticias [Proxy Google News]" title="Coquimbo Noticias [Proxy Google News]" description="Resultados de site:coquimbonoticias.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:coquimbonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:coquimbonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="David Noticias" title="David Noticias" description="Diario regional de Los Vilos, Coquimbo" xmlUrl="https://www.davidnoticias.cl/feed/" htmlUrl="https://www.davidnoticias.cl"/>
       <outline type="rss" text="David Noticias - Choapa" title="David Noticias - Choapa" description="Feed de la categoría 'Choapa' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/choapa/feed/" htmlUrl="https://www.davidnoticias.cl/category/choapa/"/>
       <outline type="rss" text="David Noticias - Ciencia y Tecnologia" title="David Noticias - Ciencia y Tecnologia" description="Feed de la categoría 'Ciencia y Tecnologia' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/ciencia/feed/" htmlUrl="https://www.davidnoticias.cl/category/ciencia/"/>
@@ -883,6 +885,8 @@
       <outline type="rss" text="Región Visual - Regional" title="Región Visual - Regional" description="Feed de la categoría 'Regional' en Región Visual" xmlUrl="https://regionvisual.com/category/regional/feed/" htmlUrl="https://regionvisual.com/category/regional/"/>
       <outline type="rss" text="Región Visual - Viña Del Mar" title="Región Visual - Viña Del Mar" description="Feed de la categoría 'Viña Del Mar' en Región Visual" xmlUrl="https://regionvisual.com/category/regional/vina-del-mar-regional/feed/" htmlUrl="https://regionvisual.com/category/regional/vina-del-mar-regional/"/>
       <outline type="rss" text="Región Visual [Proxy Google News]" title="Región Visual [Proxy Google News]" description="Resultados de site:regionvisual.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:regionvisual.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:regionvisual.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Valparaíso Noticias - Portada" title="Valparaíso Noticias - Portada" description="Feed principal de Valparaíso Noticias" xmlUrl="https://valparaisonoticias.cl/feed/" htmlUrl="https://valparaisonoticias.cl"/>
+      <outline type="rss" text="Valparaíso Noticias [Proxy Google News]" title="Valparaíso Noticias [Proxy Google News]" description="Resultados de site:valparaisonoticias.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:valparaisonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:valparaisonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     </outline>
     <outline text="Metropolitana de Santiago" title="Metropolitana de Santiago">
       <outline type="rss" text="Crónica Digital" title="Crónica Digital" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.cronicadigital.cl/feed/" htmlUrl="https://www.cronicadigital.cl"/>

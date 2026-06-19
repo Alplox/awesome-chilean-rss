@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (71 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (74 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="aDiarioCR - Fitness" title="aDiarioCR - Fitness" description="Feed de la sección 'Fitness' en aDiarioCR" xmlUrl="https://adiariocr.com/feed/?category=fitness" htmlUrl="https://adiariocr.com/fitness/"/>
+    <outline type="rss" text="aDiarioCR - Salud" title="aDiarioCR - Salud" description="Feed de la sección 'Salud' en aDiarioCR" xmlUrl="https://adiariocr.com/feed/?category=salud" htmlUrl="https://adiariocr.com/salud/"/>
     <outline type="rss" text="Alerta Noticias - Salud" title="Alerta Noticias - Salud" description="Feed de la categoría 'Salud' en Alerta Noticias" xmlUrl="https://alertanoticias.cl/category/salud/feed/" htmlUrl="https://alertanoticias.cl/category/salud/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Salud" title="Alerta Noticias Temuco - Salud" description="Feed de la categoría 'Salud' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/salud/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/salud/"/>
     <outline type="rss" text="Antofagasta Noticias - Salud" title="Antofagasta Noticias - Salud" description="Feed de la categoría 'Salud' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/salud/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/salud/"/>
@@ -18,6 +20,7 @@
     <outline type="rss" text="ChileCompra - Salud" title="ChileCompra - Salud" description="Feed de la categoría 'Salud' en ChileCompra" xmlUrl="https://www.chilecompra.cl/category/centro-de-documentacion/normativa/salud/feed/" htmlUrl="https://www.chilecompra.cl/category/centro-de-documentacion/normativa/salud/"/>
     <outline type="rss" text="Diálogo Sur - Salud" title="Diálogo Sur - Salud" description="Feed de la categoría 'Salud' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/salud/feed/" htmlUrl="https://dialogosur.cl/category/salud/"/>
     <outline type="rss" text="Diario Antofagasta - Salud" title="Diario Antofagasta - Salud" description="Feed de la categoría 'Salud' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/salud/feed/" htmlUrl="https://www.diarioantofagasta.cl/salud/"/>
+    <outline type="rss" text="Diario Chile - Salud &amp; Bienestar" title="Diario Chile - Salud &amp; Bienestar" description="Feed de la categoría 'Salud &amp; Bienestar' en Diario Chile" xmlUrl="https://diariochile.cl/category/salud-y-bienestar/feed/" htmlUrl="https://diariochile.cl/category/salud-y-bienestar/"/>
     <outline type="rss" text="Diario El Centro - Salud" title="Diario El Centro - Salud" description="Feed de la categoría 'Salud' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/salud/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/salud/"/>
     <outline type="rss" text="Diario El Longino - Salud" title="Diario El Longino - Salud" description="Feed de la categoría 'Salud' en Diario El Longino" xmlUrl="https://diariolongino.cl/salud/feed/" htmlUrl="https://diariolongino.cl/salud/"/>
     <outline type="rss" text="Diario El Nortino - Salud y Bienestar" title="Diario El Nortino - Salud y Bienestar" description="Feed de la categoría 'Salud y Bienestar' en Diario El Nortino" xmlUrl="https://diarioelnortino.cl/category/salud-y-bienestar/feed/" htmlUrl="https://diarioelnortino.cl/category/salud-y-bienestar/"/>

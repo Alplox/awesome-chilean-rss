@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Valparaíso (129 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Valparaíso (131 feeds)</title>
     <description>Feeds RSS de la Región de Valparaíso, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -136,5 +136,7 @@
     <outline type="rss" text="Región Visual - Regional" title="Región Visual - Regional" description="Feed de la categoría 'Regional' en Región Visual" xmlUrl="https://regionvisual.com/category/regional/feed/" htmlUrl="https://regionvisual.com/category/regional/"/>
     <outline type="rss" text="Región Visual - Viña Del Mar" title="Región Visual - Viña Del Mar" description="Feed de la categoría 'Viña Del Mar' en Región Visual" xmlUrl="https://regionvisual.com/category/regional/vina-del-mar-regional/feed/" htmlUrl="https://regionvisual.com/category/regional/vina-del-mar-regional/"/>
     <outline type="rss" text="Región Visual [Proxy Google News]" title="Región Visual [Proxy Google News]" description="Resultados de site:regionvisual.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:regionvisual.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:regionvisual.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Valparaíso Noticias - Portada" title="Valparaíso Noticias - Portada" description="Feed principal de Valparaíso Noticias" xmlUrl="https://valparaisonoticias.cl/feed/" htmlUrl="https://valparaisonoticias.cl"/>
+    <outline type="rss" text="Valparaíso Noticias [Proxy Google News]" title="Valparaíso Noticias [Proxy Google News]" description="Resultados de site:valparaisonoticias.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:valparaisonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:valparaisonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

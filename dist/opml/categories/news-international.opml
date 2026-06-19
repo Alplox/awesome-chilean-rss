@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (121 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (122 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -18,6 +18,7 @@
     <outline type="rss" text="Central Noticia - Internacional" title="Central Noticia - Internacional" description="Feed de la categoría 'Internacional' en Central Noticia" xmlUrl="https://www.centralnoticia.cl/category/internacional/feed/" htmlUrl="https://www.centralnoticia.cl/category/internacional/"/>
     <outline type="rss" text="David Noticias - Mundo" title="David Noticias - Mundo" description="Feed de la categoría 'Mundo' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/mundo/feed/" htmlUrl="https://www.davidnoticias.cl/category/mundo/"/>
     <outline type="rss" text="Desenfoque - Exterior" title="Desenfoque - Exterior" description="Feed de la categoría 'Exterior' en Desenfoque" xmlUrl="https://desenfoque.cl/categoria/internacional/feed/" htmlUrl="https://desenfoque.cl/categoria/internacional/"/>
+    <outline type="rss" text="Diario Chile - Internacional" title="Diario Chile - Internacional" description="Feed de la categoría 'Internacional' en Diario Chile" xmlUrl="https://diariochile.cl/category/internacional/feed/" htmlUrl="https://diariochile.cl/category/internacional/"/>
     <outline type="rss" text="Diario El Centro - Internacional" title="Diario El Centro - Internacional" description="Feed de la categoría 'Internacional' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/internacional/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/internacional/"/>
     <outline type="rss" text="Diario El Día - Mundo" title="Diario El Día - Mundo" description="Feed de la sección 'Mundo' en Diario El Día" xmlUrl="https://www.diarioeldia.cl/rss/mundo" htmlUrl="https://www.diarioeldia.cl"/>
     <outline type="rss" text="Diario El Longino - Mundial" title="Diario El Longino - Mundial" description="Feed de la categoría 'Mundial' en Diario El Longino" xmlUrl="https://diariolongino.cl/mundial/feed/" htmlUrl="https://diariolongino.cl/mundial/"/>

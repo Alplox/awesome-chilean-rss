@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (141 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (143 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="aDiarioCR - Voluntariado" title="aDiarioCR - Voluntariado" description="Feed de la sección 'Voluntariado' en aDiarioCR" xmlUrl="https://adiariocr.com/feed/?category=voluntariado" htmlUrl="https://adiariocr.com/voluntariado/"/>
     <outline type="rss" text="Alerta Geek Chile - Calendario de Estrenos y Eventos" title="Alerta Geek Chile - Calendario de Estrenos y Eventos" description="Feed de la sección 'Calendario de Estrenos y Eventos' en Alerta Geek Chile" xmlUrl="https://www.alertageekchile.cl/eventos/feed/" htmlUrl="https://www.alertageekchile.cl/eventos/"/>
     <outline type="rss" text="Alerta Geek Chile - Eventos" title="Alerta Geek Chile - Eventos" description="Feed de la categoría 'Eventos' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/eventos/feed/" htmlUrl="https://alertageekchile.cl/category/eventos/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Capacitación" title="Alerta Noticias Temuco - Capacitación" description="Feed de la categoría 'Capacitación' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/capacitacion/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/capacitacion/"/>
@@ -96,6 +97,7 @@
     <outline type="rss" text="Hora de Noticias - Turismo" title="Hora de Noticias - Turismo" description="Feed de la categoría 'Turismo' en Hora de Noticias" xmlUrl="https://horadenoticias.cl/seccion/turismo/feed/" htmlUrl="https://horadenoticias.cl/seccion/turismo/"/>
     <outline type="rss" text="Iquique TV - Sociedad" title="Iquique TV - Sociedad" description="Feed de la categoría 'Sociedad' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/sociedad/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/sociedad/"/>
     <outline type="rss" text="Iquique TV - Turismo" title="Iquique TV - Turismo" description="Feed de la categoría 'Turismo' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/turismo/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/turismo/"/>
+    <outline type="rss" text="ITseller Chile - Eventos" title="ITseller Chile - Eventos" description="Feed de la categoría 'Eventos' en ITseller Chile" xmlUrl="https://www.itseller.cl/category/transversales/eventos/feed/" htmlUrl="https://www.itseller.cl/category/transversales/eventos/"/>
     <outline type="rss" text="La Nación - Panoramas" title="La Nación - Panoramas" description="Feed de la sección 'Panoramas' en La Nación" xmlUrl="https://www.lanacion.cl/feed/?category=panoramas" htmlUrl="https://www.lanacion.cl/panoramas/"/>
     <outline type="rss" text="La Noticia - Social" title="La Noticia - Social" description="Feed de la categoría 'Social' en La Noticia" xmlUrl="https://lanoticia.cl/category/social/feed/" htmlUrl="https://lanoticia.cl/category/social/"/>
     <outline type="rss" text="La Noticia - Turismo" title="La Noticia - Turismo" description="Feed de la categoría 'Turismo' en La Noticia" xmlUrl="https://lanoticia.cl/category/turismo/feed/" htmlUrl="https://lanoticia.cl/category/turismo/"/>

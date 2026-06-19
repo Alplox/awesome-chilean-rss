@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (105 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (106 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="aDiarioCR - Cultura" title="aDiarioCR - Cultura" description="Feed de la sección 'Cultura' en aDiarioCR" xmlUrl="https://adiariocr.com/feed/?category=cultura" htmlUrl="https://adiariocr.com/cultura/"/>
     <outline type="rss" text="Alerta Geek Chile - Anime y Manga" title="Alerta Geek Chile - Anime y Manga" description="Feed de la categoría 'Anime y Manga' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/anime-y-manga/feed/" htmlUrl="https://alertageekchile.cl/category/anime-y-manga/"/>
     <outline type="rss" text="Alerta Geek Chile - Cine" title="Alerta Geek Chile - Cine" description="Feed de la categoría 'Cine' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/cine/feed/" htmlUrl="https://alertageekchile.cl/category/cine/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Cultura" title="Alerta Noticias Temuco - Cultura" description="Feed de la categoría 'Cultura' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/cultura/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/cultura/"/>

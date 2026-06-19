@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (138 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (140 feeds)</title>
     <description>Feeds RSS de 💼 Economia, Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="aDiarioCR - Economia" title="aDiarioCR - Economia" description="Feed de la sección 'Economia' en aDiarioCR" xmlUrl="https://adiariocr.com/feed/?category=economia" htmlUrl="https://adiariocr.com/economia/"/>
+    <outline type="rss" text="aDiarioCR - Negocios" title="aDiarioCR - Negocios" description="Feed de la sección 'Negocios' en aDiarioCR" xmlUrl="https://adiariocr.com/feed/?category=negocios" htmlUrl="https://adiariocr.com/negocios/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Economía y Negocios" title="Alerta Noticias Temuco - Economía y Negocios" description="Feed de la categoría 'Economía y Negocios' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/economia-y-negocios/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/economia-y-negocios/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Emprendimiento" title="Alerta Noticias Temuco - Emprendimiento" description="Feed de la categoría 'Emprendimiento' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/emprendimiento/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/emprendimiento/"/>
     <outline type="rss" text="Anda - Economía" title="Anda - Economía" description="Feed de la categoría 'Economía' en Anda" xmlUrl="https://anda.cl/categoria/economia/feed/" htmlUrl="https://anda.cl/categoria/economia/"/>

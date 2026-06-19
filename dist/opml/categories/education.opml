@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (118 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (121 feeds)</title>
     <description>Feeds RSS de 🏫 Educación, Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="Actualidad UDLA - Portada" title="Actualidad UDLA - Portada" description="Feed principal de Actualidad UDLA" xmlUrl="https://actualidad.udla.cl/feed/" htmlUrl="https://actualidad.udla.cl"/>
+    <outline type="rss" text="Actualidad UDLA [Proxy Google News]" title="Actualidad UDLA [Proxy Google News]" description="Resultados de site:actualidad.udla.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:actualidad.udla.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:actualidad.udla.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="aDiarioCR - Educacion" title="aDiarioCR - Educacion" description="Feed de la sección 'Educacion' en aDiarioCR" xmlUrl="https://adiariocr.com/feed/?category=educacion" htmlUrl="https://adiariocr.com/educacion/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Educación" title="Alerta Noticias Temuco - Educación" description="Feed de la categoría 'Educación' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/educacion/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/educacion/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Educación Superior" title="Alerta Noticias Temuco - Educación Superior" description="Feed de la categoría 'Educación Superior' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/educacion-superior/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/educacion-superior/"/>
     <outline type="rss" text="Anda - Educación" title="Anda - Educación" description="Feed de la categoría 'Educación' en Anda" xmlUrl="https://anda.cl/categoria/educacion/feed/" htmlUrl="https://anda.cl/categoria/educacion/"/>

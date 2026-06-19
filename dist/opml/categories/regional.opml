@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1535 feeds)</title>
+    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1539 feeds)</title>
     <description>Feeds RSS de 🌎 Medios Regionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -168,6 +168,8 @@
     <outline type="rss" text="Clave 9 - Portada" title="Clave 9 - Portada" description="Feed de la categoría 'Portada' en Clave 9" xmlUrl="https://www.clave9.cl/category/portada/feed/" htmlUrl="https://www.clave9.cl/category/portada/"/>
     <outline type="rss" text="Clave 9 - Región" title="Clave 9 - Región" description="Feed de la categoría 'Región' en Clave 9" xmlUrl="https://www.clave9.cl/category/region/feed/" htmlUrl="https://www.clave9.cl/category/region/"/>
     <outline type="rss" text="Clave 9 [Proxy Google News]" title="Clave 9 [Proxy Google News]" description="Resultados de site:clave9.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:clave9.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:clave9.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Coquimbo Noticias - Portada" title="Coquimbo Noticias - Portada" description="Feed principal de Coquimbo Noticias" xmlUrl="https://coquimbonoticias.cl/feed/" htmlUrl="https://coquimbonoticias.cl"/>
+    <outline type="rss" text="Coquimbo Noticias [Proxy Google News]" title="Coquimbo Noticias [Proxy Google News]" description="Resultados de site:coquimbonoticias.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:coquimbonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:coquimbonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Crónica Digital" title="Crónica Digital" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.cronicadigital.cl/feed/" htmlUrl="https://www.cronicadigital.cl"/>
     <outline type="rss" text="Crónica Digital - Crónica Deportiva" title="Crónica Digital - Crónica Deportiva" description="Feed de la categoría 'Crónica Deportiva' en Crónica Digital" xmlUrl="https://cronicadigital.cl/category/cronica_deportiva/feed/" htmlUrl="https://cronicadigital.cl/category/cronica_deportiva/"/>
     <outline type="rss" text="Crónica Digital - Dd.hh." title="Crónica Digital - Dd.hh." description="Feed de la categoría 'Dd.hh.' en Crónica Digital" xmlUrl="https://cronicadigital.cl/category/ddhh/feed/" htmlUrl="https://cronicadigital.cl/category/ddhh/"/>
@@ -1510,6 +1512,8 @@
     <outline type="rss" text="Traiguén City [Proxy Google News]" title="Traiguén City [Proxy Google News]" description="Resultados de site:traiguencity.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:traiguencity.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:traiguencity.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Vallenar Digital" title="Vallenar Digital" description="Medio de comunicación de la Región de Atacama" xmlUrl="https://www.vallenardigital.cl/feed" htmlUrl="https://www.vallenardigital.cl"/>
     <outline type="rss" text="Vallenar Digital [Proxy Google News]" title="Vallenar Digital [Proxy Google News]" description="Resultados de site:vallenardigital.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:vallenardigital.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:vallenardigital.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Valparaíso Noticias - Portada" title="Valparaíso Noticias - Portada" description="Feed principal de Valparaíso Noticias" xmlUrl="https://valparaisonoticias.cl/feed/" htmlUrl="https://valparaisonoticias.cl"/>
+    <outline type="rss" text="Valparaíso Noticias [Proxy Google News]" title="Valparaíso Noticias [Proxy Google News]" description="Resultados de site:valparaisonoticias.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:valparaisonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:valparaisonoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Vilas Radio - Local" title="Vilas Radio - Local" description="Feed de la categoría 'Local' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/local/feed/" htmlUrl="https://vilasradio.cl/category/local/"/>
     <outline type="rss" text="Villarrica al Día" title="Villarrica al Día" description="Medio de comunicación de la Región de Araucanía" xmlUrl="https://www.villarricaldia.cl/feed" htmlUrl="https://www.villarricaldia.cl"/>
     <outline type="rss" text="VLN Radio" title="VLN Radio" description="Medio de comunicación de la Región de Maule" xmlUrl="https://www.vlnradio.cl/feed" htmlUrl="https://www.vlnradio.cl"/>

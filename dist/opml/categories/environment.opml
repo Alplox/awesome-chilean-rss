@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (106 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (107 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-18T23:06:22.242Z</dateCreated>
+    <dateCreated>2026-06-18T23:47:27.622Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="aDiarioCR - Ambiente" title="aDiarioCR - Ambiente" description="Feed de la sección 'Ambiente' en aDiarioCR" xmlUrl="https://adiariocr.com/feed/?category=ambiente" htmlUrl="https://adiariocr.com/ambiente/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Medio Ambiente" title="Alerta Noticias Temuco - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/medio-ambiente/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Anda - Sostenibilidad" title="Anda - Sostenibilidad" description="Feed de la categoría 'Sostenibilidad' en Anda" xmlUrl="https://anda.cl/categoria/sostenibilidad/feed/" htmlUrl="https://anda.cl/categoria/sostenibilidad/"/>
     <outline type="rss" text="Antofagasta Noticias - Medioambiente" title="Antofagasta Noticias - Medioambiente" description="Feed de la categoría 'Medioambiente' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/medioambiente/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/medioambiente/"/>
