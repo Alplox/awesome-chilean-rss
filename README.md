@@ -2,25 +2,25 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-327-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3733-blue)
+![Sitios](https://img.shields.io/badge/sitios-328-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3747-blue)
 
-> El directorio más completo de feeds RSS chilenos. 327 sitios, 3733 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 328 sitios, 3747 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2366 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2380 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (327 sitios, 3733 feeds)
+## 📝 Fuentes disponibles (328 sitios, 3747 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 187 sitios, 657 feeds
+- [📰 Noticias Nacionales](#cat-news) — 188 sitios, 672 feeds
 - [🌐 Noticias Internacionales](#cat-news-international) — 66 sitios, 122 feeds
 - [🌎 Medios Regionales](#cat-regional) — 183 sitios, 1539 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 74 sitios, 200 feeds
@@ -34,11 +34,11 @@
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 14 sitios, 107 feeds
 - [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 58 sitios, 107 feeds
 - [🎭 Espectáculos y Entretención](#cat-entertainment) — 45 sitios, 95 feeds
-- [📻 Radio y Música](#cat-radio) — 17 sitios, 41 feeds
+- [📻 Radio y Música](#cat-radio) — 17 sitios, 40 feeds
 - [🏥 Salud y Bienestar](#cat-health) — 66 sitios, 74 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (187 sitios, 657 feeds)
+### 📰 Noticias Nacionales (188 sitios, 672 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -152,6 +152,22 @@
   - RSS: `https://colemono.com/category/noticias/feed/`
 - **CONAF**: Feed de la sección 'Noticias' en CONAF
   - RSS: `https://www.conaf.cl/noticias/feed/`
+- **Cóndor** — Periódico digital chileno de información general y análisis político
+  - Cóndor - Portada: `https://www.condor.cl/feed/`
+  - Cóndor - Gemeinschaft: `https://www.condor.cl/themen/gemeinschaft/feed/`
+  - Cóndor - Geschichte: `https://www.condor.cl/themen/magazin/geschichte/feed/`
+  - Cóndor - Porträt: `https://www.condor.cl/themen/portrat/feed/`
+  - Cóndor - Magazin: `https://www.condor.cl/themen/magazin/feed/`
+  - Cóndor - Kultur: `https://www.condor.cl/themen/kultur/feed/`
+  - Cóndor - Featured: `https://www.condor.cl/themen/featured/feed/`
+  - Cóndor - Events: `https://www.condor.cl/themen/events/feed/`
+  - Cóndor - Nachrichten: `https://www.condor.cl/themen/nachrichten/feed/`
+  - Cóndor - Wirtschaft: `https://www.condor.cl/themen/nachrichten/wirtschaft/feed/`
+  - Cóndor - Musik: `https://www.condor.cl/themen/kultur/musik/feed/`
+  - Cóndor - Schule: `https://www.condor.cl/themen/gemeinschaft/schule/feed/`
+  - Cóndor - Bücher: `https://www.condor.cl/themen/kultur/bucher/feed/`
+  - Cóndor - Interview: `https://www.condor.cl/themen/interview/feed/`
+  - Cóndor - Naturschutz: `https://www.condor.cl/themen/naturschutz/feed/`
 - **Contrapoder Chile** — Medio Chileno de noticias de política y actualidad
   - Contrapoder Chile: `https://contrapoderchile.cl/feed/`
   - Contrapoder Chile - Portada: `https://contrapoderchile.cl/category/portada/feed/`
@@ -2066,10 +2082,26 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Valparaíso Noticias - Portada: `https://valparaisonoticias.cl/feed/`
   - Valparaíso Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:valparaisonoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Metropolitana de Santiago (10 medios)
+#### 📍 Metropolitana de Santiago (11 medios)
 
 *Descargar OPML regional: [`metropolitana.opml`](dist/opml/regions/metropolitana.opml)*
 
+- **Cóndor** — Periódico digital chileno de información general y análisis político
+  - Cóndor - Portada: `https://www.condor.cl/feed/`
+  - Cóndor - Gemeinschaft: `https://www.condor.cl/themen/gemeinschaft/feed/`
+  - Cóndor - Geschichte: `https://www.condor.cl/themen/magazin/geschichte/feed/`
+  - Cóndor - Porträt: `https://www.condor.cl/themen/portrat/feed/`
+  - Cóndor - Magazin: `https://www.condor.cl/themen/magazin/feed/`
+  - Cóndor - Kultur: `https://www.condor.cl/themen/kultur/feed/`
+  - Cóndor - Featured: `https://www.condor.cl/themen/featured/feed/`
+  - Cóndor - Events: `https://www.condor.cl/themen/events/feed/`
+  - Cóndor - Nachrichten: `https://www.condor.cl/themen/nachrichten/feed/`
+  - Cóndor - Wirtschaft: `https://www.condor.cl/themen/nachrichten/wirtschaft/feed/`
+  - Cóndor - Musik: `https://www.condor.cl/themen/kultur/musik/feed/`
+  - Cóndor - Schule: `https://www.condor.cl/themen/gemeinschaft/schule/feed/`
+  - Cóndor - Bücher: `https://www.condor.cl/themen/kultur/bucher/feed/`
+  - Cóndor - Interview: `https://www.condor.cl/themen/interview/feed/`
+  - Cóndor - Naturschutz: `https://www.condor.cl/themen/naturschutz/feed/`
 - **Crónica Digital** — Diario regional de Santiago, Metropolitana
   - Crónica Digital: `https://www.cronicadigital.cl/feed/`
   - Crónica Digital - Portada: `https://cronicadigital.cl/category/portada/feed/`
@@ -2225,7 +2257,6 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Radio Universidad de Chile - Agenda Derechos Humanos: `https://radio.uchile.cl/agendaderechoshumanos/feed/`
   - Radio Universidad de Chile - Vuelve A Escuchar: `https://radio.uchile.cl/vuelve-a-escuchar/feed/`
   - Radio Universidad de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radio.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-  - Radio Universidad de Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radio.uchile.cl&format=RSS`
 
 #### 📍 O'Higgins (14 medios)
 
@@ -5900,7 +5931,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-radio"></a>
-### 📻 Radio y Música (17 sitios, 41 feeds)
+### 📻 Radio y Música (17 sitios, 40 feeds)
 
 *Descargar OPML: [`radio.opml`](dist/opml/categories/radio.opml)*
 
@@ -5947,7 +5978,6 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Radio Universidad de Chile - Agenda Derechos Humanos: `https://radio.uchile.cl/agendaderechoshumanos/feed/`
   - Radio Universidad de Chile - Vuelve A Escuchar: `https://radio.uchile.cl/vuelve-a-escuchar/feed/`
   - Radio Universidad de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radio.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-  - Radio Universidad de Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radio.uchile.cl&format=RSS`
 - **Región Visual**: Feed de la categoría 'Música' en Región Visual
   - RSS: `https://regionvisual.com/category/musica/feed/`
 - **Rock & Pop** — Radio chilena de rock, música y actualidad

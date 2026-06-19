@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Metropolitana de Santiago (146 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Metropolitana de Santiago (160 feeds)</title>
     <description>Feeds RSS de la Región de Metropolitana de Santiago, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T00:50:08.093Z</dateCreated>
+    <dateCreated>2026-06-19T01:12:31.582Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="Cóndor - Bücher" title="Cóndor - Bücher" description="Feed de la categoría 'Bücher' en Cóndor" xmlUrl="https://www.condor.cl/themen/kultur/bucher/feed/" htmlUrl="https://www.condor.cl/themen/kultur/bucher/"/>
+    <outline type="rss" text="Cóndor - Events" title="Cóndor - Events" description="Feed de la categoría 'Events' en Cóndor" xmlUrl="https://www.condor.cl/themen/events/feed/" htmlUrl="https://www.condor.cl/themen/events/"/>
+    <outline type="rss" text="Cóndor - Featured" title="Cóndor - Featured" description="Feed de la categoría 'Featured' en Cóndor" xmlUrl="https://www.condor.cl/themen/featured/feed/" htmlUrl="https://www.condor.cl/themen/featured/"/>
+    <outline type="rss" text="Cóndor - Gemeinschaft" title="Cóndor - Gemeinschaft" description="Feed de la categoría 'Gemeinschaft' en Cóndor" xmlUrl="https://www.condor.cl/themen/gemeinschaft/feed/" htmlUrl="https://www.condor.cl/themen/gemeinschaft/"/>
+    <outline type="rss" text="Cóndor - Geschichte" title="Cóndor - Geschichte" description="Feed de la categoría 'Geschichte' en Cóndor" xmlUrl="https://www.condor.cl/themen/magazin/geschichte/feed/" htmlUrl="https://www.condor.cl/themen/magazin/geschichte/"/>
+    <outline type="rss" text="Cóndor - Interview" title="Cóndor - Interview" description="Feed de la categoría 'Interview' en Cóndor" xmlUrl="https://www.condor.cl/themen/interview/feed/" htmlUrl="https://www.condor.cl/themen/interview/"/>
+    <outline type="rss" text="Cóndor - Kultur" title="Cóndor - Kultur" description="Feed de la categoría 'Kultur' en Cóndor" xmlUrl="https://www.condor.cl/themen/kultur/feed/" htmlUrl="https://www.condor.cl/themen/kultur/"/>
+    <outline type="rss" text="Cóndor - Magazin" title="Cóndor - Magazin" description="Feed de la categoría 'Magazin' en Cóndor" xmlUrl="https://www.condor.cl/themen/magazin/feed/" htmlUrl="https://www.condor.cl/themen/magazin/"/>
+    <outline type="rss" text="Cóndor - Musik" title="Cóndor - Musik" description="Feed de la categoría 'Musik' en Cóndor" xmlUrl="https://www.condor.cl/themen/kultur/musik/feed/" htmlUrl="https://www.condor.cl/themen/kultur/musik/"/>
+    <outline type="rss" text="Cóndor - Nachrichten" title="Cóndor - Nachrichten" description="Feed de la categoría 'Nachrichten' en Cóndor" xmlUrl="https://www.condor.cl/themen/nachrichten/feed/" htmlUrl="https://www.condor.cl/themen/nachrichten/"/>
+    <outline type="rss" text="Cóndor - Naturschutz" title="Cóndor - Naturschutz" description="Feed de la categoría 'Naturschutz' en Cóndor" xmlUrl="https://www.condor.cl/themen/naturschutz/feed/" htmlUrl="https://www.condor.cl/themen/naturschutz/"/>
+    <outline type="rss" text="Cóndor - Portada" title="Cóndor - Portada" description="Feed principal de Cóndor" xmlUrl="https://www.condor.cl/feed/" htmlUrl="https://www.condor.cl"/>
+    <outline type="rss" text="Cóndor - Porträt" title="Cóndor - Porträt" description="Feed de la categoría 'Porträt' en Cóndor" xmlUrl="https://www.condor.cl/themen/portrat/feed/" htmlUrl="https://www.condor.cl/themen/portrat/"/>
+    <outline type="rss" text="Cóndor - Schule" title="Cóndor - Schule" description="Feed de la categoría 'Schule' en Cóndor" xmlUrl="https://www.condor.cl/themen/gemeinschaft/schule/feed/" htmlUrl="https://www.condor.cl/themen/gemeinschaft/schule/"/>
+    <outline type="rss" text="Cóndor - Wirtschaft" title="Cóndor - Wirtschaft" description="Feed de la categoría 'Wirtschaft' en Cóndor" xmlUrl="https://www.condor.cl/themen/nachrichten/wirtschaft/feed/" htmlUrl="https://www.condor.cl/themen/nachrichten/wirtschaft/"/>
     <outline type="rss" text="Crónica Digital" title="Crónica Digital" description="Diario regional de Santiago, Metropolitana" xmlUrl="https://www.cronicadigital.cl/feed/" htmlUrl="https://www.cronicadigital.cl"/>
     <outline type="rss" text="Crónica Digital - Ciencia y Tecnología" title="Crónica Digital - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Crónica Digital" xmlUrl="https://cronicadigital.cl/category/ciencia-y-tecnologia/feed/" htmlUrl="https://cronicadigital.cl/category/ciencia-y-tecnologia/"/>
     <outline type="rss" text="Crónica Digital - Crónica Deportiva" title="Crónica Digital - Crónica Deportiva" description="Feed de la categoría 'Crónica Deportiva' en Crónica Digital" xmlUrl="https://cronicadigital.cl/category/cronica_deportiva/feed/" htmlUrl="https://cronicadigital.cl/category/cronica_deportiva/"/>
@@ -151,7 +166,6 @@
     <outline type="rss" text="Radio Universidad de Chile - Portada" title="Radio Universidad de Chile - Portada" description="Feed principal de Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/feed/" htmlUrl="https://radio.uchile.cl"/>
     <outline type="rss" text="Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional" title="Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional" description="Feed de la categoría 'Radio Universidad De Chile Y Amnistía Internacional' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/ruch_amnistiainternacional/feed/" htmlUrl="https://radio.uchile.cl/ruch_amnistiainternacional/"/>
     <outline type="rss" text="Radio Universidad de Chile - Vuelve A Escuchar" title="Radio Universidad de Chile - Vuelve A Escuchar" description="Feed de la categoría 'Vuelve A Escuchar' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/vuelve-a-escuchar/feed/" htmlUrl="https://radio.uchile.cl/vuelve-a-escuchar/"/>
-    <outline type="rss" text="Radio Universidad de Chile [Proxy Bing News]" title="Radio Universidad de Chile [Proxy Bing News]" description="Resultados de site:radio.uchile.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radio.uchile.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radio.uchile.cl"/>
     <outline type="rss" text="Radio Universidad de Chile [Proxy Google News]" title="Radio Universidad de Chile [Proxy Google News]" description="Resultados de site:radio.uchile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radio.uchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radio.uchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

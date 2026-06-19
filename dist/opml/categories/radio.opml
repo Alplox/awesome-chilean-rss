@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📻 Radio y Música (41 feeds)</title>
+    <title>Awesome Chilean RSS - 📻 Radio y Música (40 feeds)</title>
     <description>Feeds RSS de 📻 Radio y Música, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T00:50:08.093Z</dateCreated>
+    <dateCreated>2026-06-19T01:12:31.582Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -35,7 +35,6 @@
     <outline type="rss" text="Radio Universidad de Chile - Portada" title="Radio Universidad de Chile - Portada" description="Feed principal de Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/feed/" htmlUrl="https://radio.uchile.cl"/>
     <outline type="rss" text="Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional" title="Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional" description="Feed de la categoría 'Radio Universidad De Chile Y Amnistía Internacional' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/ruch_amnistiainternacional/feed/" htmlUrl="https://radio.uchile.cl/ruch_amnistiainternacional/"/>
     <outline type="rss" text="Radio Universidad de Chile - Vuelve A Escuchar" title="Radio Universidad de Chile - Vuelve A Escuchar" description="Feed de la categoría 'Vuelve A Escuchar' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/vuelve-a-escuchar/feed/" htmlUrl="https://radio.uchile.cl/vuelve-a-escuchar/"/>
-    <outline type="rss" text="Radio Universidad de Chile [Proxy Bing News]" title="Radio Universidad de Chile [Proxy Bing News]" description="Resultados de site:radio.uchile.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radio.uchile.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radio.uchile.cl"/>
     <outline type="rss" text="Radio Universidad de Chile [Proxy Google News]" title="Radio Universidad de Chile [Proxy Google News]" description="Resultados de site:radio.uchile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radio.uchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radio.uchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Región Visual - Música" title="Región Visual - Música" description="Feed de la categoría 'Música' en Región Visual" xmlUrl="https://regionvisual.com/category/musica/feed/" htmlUrl="https://regionvisual.com/category/musica/"/>
     <outline type="rss" text="Rock &amp; Pop" title="Rock &amp; Pop" description="Radio chilena de rock, música y actualidad" xmlUrl="https://www.rockandpop.cl/feed" htmlUrl="https://www.rockandpop.cl"/>

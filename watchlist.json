@@ -7633,5 +7633,280 @@
       }
     ],
     "description": "Radio online santiaguina"
+  },
+  {
+    "id": "impresa-lasegunda",
+    "name": "La Segunda (Edición Impresa)",
+    "url": "https://impresa.lasegunda.com",
+    "category": "news",
+    "reason": "Sitio no responde (edición impresa digital)",
+    "feeds": [
+      {
+        "id": "impresa-lasegunda-proxy-google-news",
+        "name": "La Segunda (Edición Impresa) [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:impresa.lasegunda.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:impresa.lasegunda.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:impresa.lasegunda.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T01:06:21.105Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "impresa-lasegunda-proxy-bing-news",
+        "name": "La Segunda (Edición Impresa) [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:impresa.lasegunda.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:impresa.lasegunda.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:impresa.lasegunda.com en Proxy Bing News",
+        "last_checked": "2026-06-19T01:06:21.105Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Versión digital de la edición impresa de La Segunda"
+  },
+  {
+    "id": "diario-la-prensa-web",
+    "name": "Diario La Prensa",
+    "url": "https://www.diariolaprensa.cl",
+    "category": "regional",
+    "region": "biobio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "diario-la-prensa-web-proxy-google-news",
+        "name": "Diario La Prensa [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariolaprensa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariolaprensa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolaprensa.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-la-prensa-web-proxy-bing-news",
+        "name": "Diario La Prensa [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariolaprensa.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariolaprensa.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolaprensa.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Periódico regional de la Región del Biobío"
+  },
+  {
+    "id": "diario-la-tribuna",
+    "name": "Diario La Tribuna",
+    "url": "https://www.diariolatribuna.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado (responde HTML en todas las rutas)",
+    "feeds": [
+      {
+        "id": "diario-la-tribuna-proxy-google-news",
+        "name": "Diario La Tribuna [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariolatribuna.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariolatribuna.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolatribuna.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-la-tribuna-proxy-bing-news",
+        "name": "Diario La Tribuna [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariolatribuna.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariolatribuna.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolatribuna.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Periódico chileno de información general"
+  },
+  {
+    "id": "estrategia",
+    "name": "Estrategia",
+    "url": "https://www.estrategia.cl",
+    "category": "business",
+    "reason": "Sitio no responde (error de conexión)",
+    "feeds": [
+      {
+        "id": "estrategia-proxy-google-news",
+        "name": "Estrategia [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:estrategia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:estrategia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:estrategia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "estrategia-proxy-bing-news",
+        "name": "Estrategia [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:estrategia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:estrategia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:estrategia.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Diario de negocios y economía chileno"
+  },
+  {
+    "id": "diario-el-observador",
+    "name": "Diario El Observador",
+    "url": "https://www.diarioelobservador.cl",
+    "category": "news",
+    "reason": "Sitio no responde (error de conexión)",
+    "feeds": [
+      {
+        "id": "diario-el-observador-proxy-google-news",
+        "name": "Diario El Observador [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:diarioelobservador.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diarioelobservador.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diarioelobservador.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-el-observador-proxy-bing-news",
+        "name": "Diario El Observador [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:diarioelobservador.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diarioelobservador.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diarioelobservador.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Periódico regional chileno"
+  },
+  {
+    "id": "puente-alto-al-dia",
+    "name": "Puente Alto al Día",
+    "url": "https://puentealtoaldia.cl",
+    "category": "regional",
+    "region": "metropolitana",
+    "reason": "Sitio no responde (timeout)",
+    "feeds": [
+      {
+        "id": "puente-alto-al-dia-proxy-google-news",
+        "name": "Puente Alto al Día [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:puentealtoaldia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:puentealtoaldia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:puentealtoaldia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "puente-alto-al-dia-proxy-bing-news",
+        "name": "Puente Alto al Día [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:puentealtoaldia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:puentealtoaldia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:puentealtoaldia.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Periódico local de Puente Alto, Región Metropolitana"
+  },
+  {
+    "id": "heraldo-austral",
+    "name": "El Heraldo Austral",
+    "url": "https://www.elheraldoaustral.cl",
+    "category": "regional",
+    "region": "aysen",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "heraldo-austral-proxy-google-news",
+        "name": "El Heraldo Austral [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:elheraldoaustral.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elheraldoaustral.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elheraldoaustral.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "heraldo-austral-proxy-bing-news",
+        "name": "El Heraldo Austral [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:elheraldoaustral.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elheraldoaustral.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elheraldoaustral.cl en Proxy Bing News",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Periódico regional de Aysén"
+  },
+  {
+    "id": "impresa-elmercurio",
+    "name": "El Mercurio (Edición Impresa)",
+    "url": "https://impresa.elmercurio.com",
+    "category": "news",
+    "reason": "Sitio no responde (edición impresa digital)",
+    "feeds": [
+      {
+        "id": "impresa-elmercurio-proxy-google-news",
+        "name": "El Mercurio (Edición Impresa) [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:impresa.elmercurio.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:impresa.elmercurio.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:impresa.elmercurio.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "impresa-elmercurio-proxy-bing-news",
+        "name": "El Mercurio (Edición Impresa) [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:impresa.elmercurio.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:impresa.elmercurio.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:impresa.elmercurio.com en Proxy Bing News",
+        "last_checked": "2026-06-19T01:06:21.106Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Versión digital de la edición impresa de El Mercurio"
   }
 ]
