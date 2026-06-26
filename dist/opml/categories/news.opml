@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (674 feeds)</title>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (675 feeds)</title>
     <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-19T02:30:43.798Z</dateCreated>
+    <dateCreated>2026-06-26T20:21:52.357Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -645,6 +645,7 @@
     <outline type="rss" text="RLN (Radio Las Nieves) [Proxy Google News]" title="RLN (Radio Las Nieves) [Proxy Google News]" description="Resultados de site:rln.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:rln.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:rln.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Sera Noticia - Actualidad" title="Sera Noticia - Actualidad" description="Feed de la categoría 'Actualidad' en Sera Noticia" xmlUrl="https://seranoticia.cl/actualidad/feed/" htmlUrl="https://seranoticia.cl/actualidad/"/>
     <outline type="rss" text="Sera Noticia - Nacional" title="Sera Noticia - Nacional" description="Feed de la categoría 'Nacional' en Sera Noticia" xmlUrl="https://seranoticia.cl/nacional/feed/" htmlUrl="https://seranoticia.cl/nacional/"/>
+    <outline type="rss" text="SERNATUR (Servicio Nacional de Turismo) - Noticias" title="SERNATUR (Servicio Nacional de Turismo) - Noticias" description="Feed de la categoría 'Noticias' en SERNATUR (Servicio Nacional de Turismo)" xmlUrl="https://www.sernatur.cl/category/noticias/feed/" htmlUrl="https://www.sernatur.cl/category/noticias/"/>
     <outline type="rss" text="SoloGamer - Noticias" title="SoloGamer - Noticias" description="Feed de la categoría 'Noticias' en SoloGamer" xmlUrl="https://sologamer.cl/category/noticias/feed/" htmlUrl="https://sologamer.cl/category/noticias/"/>
     <outline type="rss" text="Tarapacá Online - Nacional" title="Tarapacá Online - Nacional" description="Feed de la categoría 'Nacional' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/nacional/feed/" htmlUrl="https://tarapacaonline.cl/category/nacional/"/>
     <outline type="rss" text="Tarreo - Noticia" title="Tarreo - Noticia" description="Feed de la sección 'Noticia' en Tarreo" xmlUrl="https://www.tarreo.com/feed/?category=noticia" htmlUrl="https://www.tarreo.com/noticia/"/>

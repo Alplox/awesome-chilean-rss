@@ -2,9 +2,9 @@
 # Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-331-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3776-blue)
+![Sitios](https://img.shields.io/badge/sitios-334-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3795-blue)
 
-> El directorio más completo de feeds RSS chilenos. 331 sitios, 3776 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 334 sitios, 3795 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -15,21 +15,21 @@
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (331 sitios, 3776 feeds)
+## 📝 Fuentes disponibles (334 sitios, 3795 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 190 sitios, 674 feeds
+- [📰 Noticias Nacionales](#cat-news) — 191 sitios, 675 feeds
 - [🌐 Noticias Internacionales](#cat-news-international) — 66 sitios, 122 feeds
 - [🌎 Medios Regionales](#cat-regional) — 185 sitios, 1551 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 75 sitios, 202 feeds
-- [🏛️ Gobierno y Datos Públicos](#cat-government) — 26 sitios, 100 feeds
+- [🏛️ Gobierno y Datos Públicos](#cat-government) — 28 sitios, 113 feeds
 - [🏫 Educación, Universidades e Investigación](#cat-education) — 64 sitios, 122 feeds
-- [💼 Economia, Negocios y Finanzas](#cat-business) — 83 sitios, 144 feeds
+- [💼 Economia, Negocios y Finanzas](#cat-business) — 82 sitios, 141 feeds
 - [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 15 sitios, 16 feeds
 - [🎨 Cultura y Divulgación](#cat-culture) — 92 sitios, 107 feeds
-- [👥 Comunidad](#cat-community) — 76 sitios, 143 feeds
+- [👥 Comunidad](#cat-community) — 78 sitios, 151 feeds
 - [⚽ Deportes](#cat-sports) — 121 sitios, 170 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 14 sitios, 107 feeds
 - [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 58 sitios, 107 feeds
@@ -38,7 +38,7 @@
 - [🏥 Salud y Bienestar](#cat-health) — 67 sitios, 75 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (190 sitios, 674 feeds)
+### 📰 Noticias Nacionales (191 sitios, 675 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -853,6 +853,8 @@
 - **Sera Noticia** — Diario regional del Maule
   - Sera Noticia - Nacional: `https://seranoticia.cl/nacional/feed/`
   - Sera Noticia - Actualidad: `https://seranoticia.cl/actualidad/feed/`
+- **SERNATUR (Servicio Nacional de Turismo)**: Feed de la categoría 'Noticias' en SERNATUR (Servicio Nacional de Turismo)
+  - RSS: `https://www.sernatur.cl/category/noticias/feed/`
 - **SoloGamer**: Feed de la categoría 'Noticias' en SoloGamer
   - RSS: `https://sologamer.cl/category/noticias/feed/`
 - **Tarapacá Online**: Feed de la categoría 'Nacional' en Tarapacá Online
@@ -4198,7 +4200,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-government"></a>
-### 🏛️ Gobierno y Datos Públicos (26 sitios, 100 feeds)
+### 🏛️ Gobierno y Datos Públicos (28 sitios, 113 feeds)
 
 *Descargar OPML: [`government.opml`](dist/opml/categories/government.opml)*
 
@@ -4315,10 +4317,25 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **SENCE** — Servicio Nacional de Capacitación y Empleo
   - SENCE: `https://sence.gob.cl/rss.xml`
   - SENCE [Proxy Google News]: `https://news.google.com/rss/search?q=site:sence.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **SERNATUR (Servicio Nacional de Turismo)** — Servicio Nacional de Turismo de Chile - promoción y desarrollo del turismo nacional
+  - SERNATUR (Servicio Nacional de Turismo): `https://www.sernatur.cl/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticia Nacional: `https://www.sernatur.cl/category/noticia-nacional/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Aysén: `https://www.sernatur.cl/category/aysen/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Atacama: `https://www.sernatur.cl/category/atacama/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Antofagasta: `https://www.sernatur.cl/category/antofagasta/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias De Ñuble: `https://www.sernatur.cl/category/nuble/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Magallanes: `https://www.sernatur.cl/category/magallanes/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) [Proxy Google News]: `https://news.google.com/rss/search?q=site:sernatur.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **SII (Servicio de Impuestos Internos)** — Servicio de Impuestos Internos de Chile
   - SII (Servicio de Impuestos Internos) - Noticias: `https://www.sii.cl/pagina/actualizada/noticias/rss/siinot_rss.xml`
   - SII (Servicio de Impuestos Internos) - Contenidos: `https://www.sii.cl/pagina/actualizada/noticias/rss/siiall_rss.xml`
   - SII (Servicio de Impuestos Internos) [Proxy Google News]: `https://news.google.com/rss/search?q=site:sii.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Subsecretaría de Turismo** — Subsecretaría de Turismo del Gobierno de Chile - políticas y desarrollo del turismo
+  - Subsecretaría de Turismo: `https://www.subturismo.gob.cl/feed/`
+  - Subsecretaría de Turismo - Subsecretaria De Turismo: `https://www.subturismo.gob.cl/feed/?category=subsecretaria-de-turismo`
+  - Subsecretaría de Turismo - Estadisticas Y Estudios: `https://www.subturismo.gob.cl/feed/?category=estadisticas-y-estudios`
+  - Subsecretaría de Turismo - Fomento E Inversion: `https://www.subturismo.gob.cl/feed/?category=fomento-e-inversion`
+  - Subsecretaría de Turismo - Publicaciones: `https://www.subturismo.gob.cl/feed/?category=publicaciones`
 - **SUBTEL (Subsecretaría de Telecomunicaciones)** — Subsecretaría de Telecomunicaciones - regulación y conectividad en Chile
   - SUBTEL (Subsecretaría de Telecomunicaciones): `https://www.subtel.gob.cl/feed/`
   - SUBTEL (Subsecretaría de Telecomunicaciones) - Noticias: `https://www.subtel.gob.cl/category/noticias-2/feed/`
@@ -4526,7 +4543,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Economia, Negocios y Finanzas (83 sitios, 144 feeds)
+### 💼 Economia, Negocios y Finanzas (82 sitios, 141 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
@@ -4726,10 +4743,6 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://ovallehoy.cl/categoria/ultimas/actualidad/economia/feed/`
 - **Piensa Chile**: Feed de la categoría 'Economía' en Piensa Chile
   - RSS: `https://piensachile.com/category/economia/feed/`
-- **Pulso** — Suplemento de economía, finanzas y negocios de La Tercera
-  - Pulso: `https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml`
-  - Pulso - Google News: `https://news.google.com/rss/search?q=site:pulso.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-  - Pulso - Bing News: `https://www.bing.com/news/search?q=site:pulso.cl&format=RSS`
 - **Radio Cooperativa**: Feed de la sección 'Economía' en Radio Cooperativa
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml`
 - **Radio Nuevo Mundo**: Feed de la categoría 'Economía' en Radio Nuevo Mundo
@@ -5007,7 +5020,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-community"></a>
-### 👥 Comunidad (76 sitios, 143 feeds)
+### 👥 Comunidad (78 sitios, 151 feeds)
 
 *Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
 
@@ -5062,6 +5075,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.cauquenesnet.cl/feed/?category=avisos`
 - **CEP Chile**: Feed de la categoría 'Eventos' en CEP Chile
   - RSS: `https://www.cepchile.cl/category/eventos/feed/`
+- **Chile Travel** — Sitio Servicio Nacional de Turismo para impulsar turismo
+  - Chile Travel: `https://chile.travel/feed/`
+  - Chile Travel - Industria: `https://chile.travel/blog/category/industria/feed/`
 - **Codex Verde**: Feed de la categoría 'Eventos' en Codex Verde
   - RSS: `https://codexverde.cl/category/eventos/feed/`
 - **Colemono**: Feed de la categoría 'Eventos' en Colemono
@@ -5143,6 +5159,13 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Enfoque Digital O'Higgins - Eventos: `https://vi.cl/category/eventos/feed/`
 - **Frontera Norte**: Feed de la categoría 'Sociedad' en Frontera Norte
   - RSS: `https://www.fronteranorte.cl/category/sociedad/feed/`
+- **Guía Turismo Chile** — Guía turística de destinos y actividades en Chile
+  - Guía Turismo Chile: `https://guiaturismo.cl/feed/`
+  - Guía Turismo Chile - Villarrica: `https://guiaturismo.cl/category/macrozona/zona-sur/region-araucania/villarrica/feed/`
+  - Guía Turismo Chile - Región De La Araucanía: `https://guiaturismo.cl/category/macrozona/zona-sur/region-araucania/feed/`
+  - Guía Turismo Chile - Zona Sur: `https://guiaturismo.cl/category/macrozona/zona-sur/feed/`
+  - Guía Turismo Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:guiaturismo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Guía Turismo Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:guiaturismo.cl&format=RSS`
 - **Hora de Noticias** — Diario regional de Rancagua, O'Higgins
   - Hora de Noticias - Social: `https://horadenoticias.cl/seccion/social/feed/`
   - Hora de Noticias - Turismo: `https://horadenoticias.cl/seccion/turismo/feed/`

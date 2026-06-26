@@ -9652,5 +9652,151 @@
         "last_known_item_date": "2026-06-13T03:02:36.000Z"
       }
     ]
+  },
+  {
+    "id": "turismochile-beta",
+    "name": "Turismochile.cl (Beta)",
+    "url": "https://beta.turismochile.cl",
+    "category": "community",
+    "description": "Portal turístico chileno con guías de destinos, actividades y servicios",
+    "reason": "Sitio HTML estático sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "turismochile-beta-proxy-google-news",
+        "name": "Turismochile.cl (Beta) [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:beta.turismochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:beta.turismochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:beta.turismochile.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-26T20:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "turismochile-beta-proxy-bing-news",
+        "name": "Turismochile.cl (Beta) [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:beta.turismochile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:beta.turismochile.cl",
+        "description": "Resultados de site:beta.turismochile.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-26T20:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "turismo-en-chile",
+    "name": "Turismo en Chile",
+    "url": "https://turismoenchile.cl",
+    "category": "community",
+    "description": "Directorio de viajes y turismo con anuncios, blog y guías de destinos",
+    "reason": "Sitio PHP personalizado sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "turismo-en-chile-proxy-google-news",
+        "name": "Turismo en Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:turismoenchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:turismoenchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:turismoenchile.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-26T20:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "turismo-en-chile-proxy-bing-news",
+        "name": "Turismo en Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:turismoenchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:turismoenchile.cl",
+        "description": "Resultados de site:turismoenchile.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-26T20:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prensa-presidencia",
+    "name": "Prensa Presidencia",
+    "url": "https://prensa.presidencia.cl",
+    "category": "government",
+    "description": "Comunicados y agenda de la Presidencia de Chile",
+    "reason": "sitio no responde",
+    "feeds": [
+      {
+        "id": "prensa-presidencia-proxy-google-news",
+        "name": "Prensa Presidencia [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:prensa.presidencia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:prensa.presidencia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:prensa.presidencia.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-26T20:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "prensa-presidencia-proxy-bing-news",
+        "name": "Prensa Presidencia [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:prensa.presidencia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:prensa.presidencia.cl",
+        "description": "Resultados de site:prensa.presidencia.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-26T20:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "superintendencia-pensiones",
+    "name": "SP (Superintendencia de Pensiones)",
+    "url": "https://www.spensiones.cl",
+    "category": "government",
+    "description": "Superintendencia de Pensiones de Chile - regulación y supervisión del sistema previsional",
+    "feeds": [
+      {
+        "id": "superintendencia-pensiones-main",
+        "name": "SP (Superintendencia de Pensiones)",
+        "rss_url": "https://www.spensiones.cl/portal/institucional/594/rss3-channel.rss",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-26T20:21:38.629Z",
+        "status": "stale",
+        "verified": false,
+        "last_known_item_date": "2022-08-12T20:18:00.000Z"
+      },
+      {
+        "id": "superintendencia-pensiones-proxy-google-news",
+        "name": "SP (Superintendencia de Pensiones) [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:spensiones.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:spensiones.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:spensiones.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-26T20:21:38.630Z",
+        "status": "stale",
+        "verified": false,
+        "last_known_item_date": "2026-05-15T07:00:00.000Z"
+      },
+      {
+        "id": "superintendencia-pensiones-proxy-bing-news",
+        "name": "SP (Superintendencia de Pensiones) [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:spensiones.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:spensiones.cl",
+        "description": "Resultados de site:spensiones.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-26T20:21:38.630Z",
+        "status": "feed_empty",
+        "verified": false,
+        "last_known_item_date": null
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
   }
 ]
