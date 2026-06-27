@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T20:21:52.357Z",
+  "last_updated": "2026-06-26T23:33:52.552Z",
   "total_feeds": 3795,
   "sites": [
     {
@@ -55760,10 +55760,21 @@
           "rss_url": "https://www.sii.cl/pagina/actualizada/noticias/rss/siinot_rss.xml",
           "description": "Feed de la sección 'Noticias' en SII (Servicio de Impuestos Internos)",
           "feed_type": "RSS",
-          "last_checked": "2026-06-13T05:13:16.887Z",
-          "last_known_item_date": "2026-10-06T09:22:30.000Z",
+          "last_checked": "2026-06-26T23:33:52.550Z",
+          "last_known_item_date": "2026-06-24T11:21:04.000Z",
           "status": "active",
           "verified": true
+        },
+        {
+          "id": "servicio-impuestos-internos-circulares",
+          "name": "SII (Servicio de Impuestos Internos) - Circulares y Resoluciones",
+          "rss_url": "https://zeus.sii.cl/admin/rss/siicyr_rss.xml",
+          "description": "Circulares y resoluciones publicadas por el SII",
+          "feed_type": "RSS",
+          "status": "active",
+          "verified": true,
+          "last_checked": "2026-06-26T23:33:52.550Z",
+          "last_known_item_date": "2026-06-26T16:37:09.000Z"
         },
         {
           "id": "servicio-impuestos-internos-contenidos",
@@ -55771,8 +55782,8 @@
           "rss_url": "https://www.sii.cl/pagina/actualizada/noticias/rss/siiall_rss.xml",
           "description": "Feed de la sección 'Contenidos' en SII (Servicio de Impuestos Internos)",
           "feed_type": "RSS",
-          "last_checked": "2026-06-13T05:13:16.887Z",
-          "last_known_item_date": "2026-12-06T18:50:43.000Z",
+          "last_checked": "2026-06-26T23:33:52.550Z",
+          "last_known_item_date": "2026-06-26T16:37:09.000Z",
           "status": "active",
           "verified": true
         },
@@ -55783,8 +55794,8 @@
           "description": "UF, UTM y otros índices económicos actualizados diariamente por el SII",
           "feed_type": "RSS",
           "category": "business",
-          "last_checked": "2026-06-13T05:13:16.887Z",
-          "last_known_item_date": "2026-06-10T09:09:39.000Z",
+          "last_checked": "2026-06-26T23:33:52.550Z",
+          "last_known_item_date": "2026-06-26T08:02:18.000Z",
           "status": "active",
           "verified": true
         },
@@ -55795,10 +55806,10 @@
           "url": "https://news.google.com/search?q=site:sii.cl&hl=es-419&gl=CL&ceid=CL:es-419",
           "description": "Resultados de site:sii.cl en Proxy Google News de noticias Chilenas",
           "feed_type": "RSS",
-          "last_checked": "2026-06-13T05:13:16.887Z",
-          "last_known_item_date": "2026-06-12T18:37:11.000Z",
-          "status": "active",
-          "verified": true
+          "last_checked": "2026-06-26T23:33:52.550Z",
+          "last_known_item_date": "2026-04-15T21:44:06.000Z",
+          "status": "stale",
+          "verified": false
         },
         {
           "id": "servicio-impuestos-internos-proxy-bing-news",
@@ -55807,7 +55818,7 @@
           "url": "https://www.bing.com/news/search?q=site:sii.cl",
           "description": "Resultados de site:sii.cl en Proxy Bing News",
           "feed_type": "RSS",
-          "last_checked": "2026-06-13T05:13:16.887Z",
+          "last_checked": "2026-06-26T23:33:52.550Z",
           "last_known_item_date": null,
           "status": "feed_empty",
           "verified": false

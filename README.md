@@ -4328,8 +4328,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - SERNATUR (Servicio Nacional de Turismo) [Proxy Google News]: `https://news.google.com/rss/search?q=site:sernatur.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **SII (Servicio de Impuestos Internos)** — Servicio de Impuestos Internos de Chile
   - SII (Servicio de Impuestos Internos) - Noticias: `https://www.sii.cl/pagina/actualizada/noticias/rss/siinot_rss.xml`
+  - SII (Servicio de Impuestos Internos) - Circulares y Resoluciones: `https://zeus.sii.cl/admin/rss/siicyr_rss.xml`
   - SII (Servicio de Impuestos Internos) - Contenidos: `https://www.sii.cl/pagina/actualizada/noticias/rss/siiall_rss.xml`
-  - SII (Servicio de Impuestos Internos) [Proxy Google News]: `https://news.google.com/rss/search?q=site:sii.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Subsecretaría de Turismo** — Subsecretaría de Turismo del Gobierno de Chile - políticas y desarrollo del turismo
   - Subsecretaría de Turismo: `https://www.subturismo.gob.cl/feed/`
   - Subsecretaría de Turismo - Subsecretaria De Turismo: `https://www.subturismo.gob.cl/feed/?category=subsecretaria-de-turismo`
