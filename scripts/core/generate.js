@@ -405,7 +405,7 @@ return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
   const regTotal = Object.values(feedsByRegion).flat().length;
 
   return `
-# Awesome Chilean RSS
+# 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
 ![Sitios](https://img.shields.io/badge/sitios-${realFeedCount}-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-${total}-blue)

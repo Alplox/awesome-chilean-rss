@@ -1,5 +1,5 @@
 
-# Awesome Chilean RSS
+# 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
 ![Sitios](https://img.shields.io/badge/sitios-334-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3795-blue)
