@@ -2,9 +2,9 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-366-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4271-blue)
+![Sitios](https://img.shields.io/badge/sitios-371-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4373-blue)
 
-> El directorio más completo de feeds RSS chilenos. 366 sitios, 4271 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 371 sitios, 4373 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -15,30 +15,30 @@
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (366 sitios, 4271 feeds)
+## 📝 Fuentes disponibles (371 sitios, 4373 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 212 sitios, 818 feeds
+- [📰 Noticias Nacionales](#cat-news) — 213 sitios, 819 feeds
 - [🌐 Noticias Internacionales](#cat-news-international) — 75 sitios, 144 feeds
 - [🌎 Medios Regionales](#cat-regional) — 193 sitios, 1637 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 81 sitios, 263 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 83 sitios, 308 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 29 sitios, 114 feeds
-- [🏫 Educación, Universidades e Investigación](#cat-education) — 66 sitios, 124 feeds
-- [💼 Economia, Negocios y Finanzas](#cat-business) — 90 sitios, 196 feeds
-- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 18 sitios, 20 feeds
+- [🏫 Educación, Universidades e Investigación](#cat-education) — 67 sitios, 125 feeds
+- [💼 Economia, Negocios y Finanzas](#cat-business) — 95 sitios, 246 feeds
+- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 19 sitios, 21 feeds
 - [🎨 Cultura y Divulgación](#cat-culture) — 97 sitios, 116 feeds
-- [👥 Comunidad](#cat-community) — 85 sitios, 170 feeds
+- [👥 Comunidad](#cat-community) — 87 sitios, 172 feeds
 - [⚽ Deportes](#cat-sports) — 132 sitios, 181 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 14 sitios, 107 feeds
-- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 62 sitios, 112 feeds
+- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 63 sitios, 113 feeds
 - [🎭 Espectáculos y Entretención](#cat-entertainment) — 50 sitios, 100 feeds
 - [📻 Radio y Música](#cat-radio) — 23 sitios, 58 feeds
-- [🏥 Salud y Bienestar](#cat-health) — 72 sitios, 111 feeds
+- [🏥 Salud y Bienestar](#cat-health) — 73 sitios, 112 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (212 sitios, 818 feeds)
+### 📰 Noticias Nacionales (213 sitios, 819 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -805,6 +805,8 @@
   - Portal Metropolitano - Industrias: `https://portalmetropolitano.cl/category/industrias/feed/`
   - Portal Metropolitano - Congreso: `https://portalmetropolitano.cl/category/congreso/feed/`
   - Portal Metropolitano [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalmetropolitano.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Portal Minero**: Feed de la sección 'Noticias' en Portal Minero
+  - RSS: `https://www.portalminero.com/feed/?category=noticias`
 - **Portal Red Salud** — Portal chileno de noticias y contenidos sobre salud
   - Portal Red Salud - Noticias: `https://portalredsalud.cl/category/noticias/feed/`
   - Portal Red Salud - Actualidad: `https://portalredsalud.cl/category/actualidad/feed/`
@@ -4227,7 +4229,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (81 sitios, 263 feeds)
+### 💻 Tecnología y Startups (83 sitios, 308 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
@@ -4329,6 +4331,51 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.diariolaregion.cl/category/ciencia/feed/`
 - **Diario Sur Noticias**: Feed de la categoría 'Tecnología' en Diario Sur Noticias
   - RSS: `https://www.diariosurnoticias.com/tecnologia/feed/`
+- **DPL News** — Noticias de tecnología, digitalización e innovación en América Latina
+  - DPL News: `https://dplnews.com/feed/`
+  - DPL News - Chile: `https://dplnews.com/tag/chile/rss`
+  - DPL News - Dpl News: `https://dplnews.com/category/dplnews/feed/`
+  - DPL News - Tecnología: `https://dplnews.com/category/tecnologia/feed/`
+  - DPL News - Redes: `https://dplnews.com/category/redes/feed/`
+  - DPL News - Transformación Digital: `https://dplnews.com/category/transformacion-digital/feed/`
+  - DPL News - Dpl Tech: `https://dplnews.com/category/tecnologia/dpl-tech/feed/`
+  - DPL News - Rp News: `https://dplnews.com/category/rp-news/feed/`
+  - DPL News - Inteligencia Artificial: `https://dplnews.com/category/tecnologia/inteligencia-artificial/feed/`
+  - DPL News - Brasil: `https://dplnews.com/category/brasil/feed/`
+  - DPL News - Ciberseguridad: `https://dplnews.com/category/transformacion-digital/ciberseguridad/feed/`
+  - DPL News - Apps: `https://dplnews.com/category/tecnologia/apps/feed/`
+  - DPL News - Internet: `https://dplnews.com/category/tecnologia/internet/feed/`
+  - DPL News - Editor's Picks: `https://dplnews.com/category/dplnews/editors-picks/feed/`
+  - DPL News - Gadgets: `https://dplnews.com/category/tecnologia/gadgets/feed/`
+  - DPL News - Medios: `https://dplnews.com/category/medios/feed/`
+  - DPL News - Redes Sociales: `https://dplnews.com/category/tecnologia/redes-sociales/feed/`
+  - DPL News - 5g: `https://dplnews.com/category/redes/5g/feed/`
+  - DPL News - Columnistas: `https://dplnews.com/category/columnistas/feed/`
+  - DPL News - Regulação: `https://dplnews.com/category/brasil/regulacao/feed/`
+  - DPL News - Tecnologia: `https://dplnews.com/category/brasil/tecnologia-brasil/feed/`
+  - DPL News - Cultura Digital: `https://dplnews.com/category/tecnologia/cultura-digital/feed/`
+  - DPL News - Negócios: `https://dplnews.com/category/brasil/negocios-brasil/feed/`
+  - DPL News - Entrevistas: `https://dplnews.com/category/entrevistas/feed/`
+  - DPL News - Análisis: `https://dplnews.com/category/analisis/feed/`
+  - DPL News - Chips: `https://dplnews.com/category/transformacion-digital/chips/feed/`
+  - DPL News - Opinión: `https://dplnews.com/category/opinion/feed/`
+  - DPL News - Redes: `https://dplnews.com/category/brasil/redes-brasil/feed/`
+  - DPL News - Ott: `https://dplnews.com/category/medios/ott/feed/`
+  - DPL News - Fintech: `https://dplnews.com/category/transformacion-digital/fintech/feed/`
+  - DPL News - Satélites: `https://dplnews.com/category/redes/satelites-redes/feed/`
+  - DPL News - Fusiones Y Consolidaciones: `https://dplnews.com/category/negocios/fusiones-y-consolidaciones/feed/`
+  - DPL News - Cripto: `https://dplnews.com/category/transformacion-digital/cripto/feed/`
+  - DPL News - Políticas Públicas: `https://dplnews.com/category/brasil/politicas-publicas-brasil/feed/`
+  - DPL News - Plataformas: `https://dplnews.com/category/transformacion-digital/plataformas/feed/`
+  - DPL News - Nube: `https://dplnews.com/category/transformacion-digital/nube/feed/`
+  - DPL News - Mujer Tic: `https://dplnews.com/category/tecnologia/mujer-tic/feed/`
+  - DPL News - Robots: `https://dplnews.com/category/tecnologia/robots/feed/`
+  - DPL News - Metrics: `https://dplnews.com/category/metrics/feed/`
+  - DPL News - 5g: `https://dplnews.com/category/brasil/5g-brasil-2/feed/`
+  - DPL News - Conteúdo: `https://dplnews.com/category/brasil/conteudo/feed/`
+  - DPL News - Vehículos Autónomos: `https://dplnews.com/category/tecnologia/vehiculos-autonomos/feed/`
+  - DPL News - Políticas Públicas: `https://dplnews.com/category/politicas-publicas/feed/`
+  - DPL News [Proxy Google News]: `https://news.google.com/rss/search?q=site:dplnews.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Duplos**: Feed de la categoría 'Tecnología' en Duplos
   - RSS: `https://duplos.cl/tecnologia/feed/`
 - **Ecosistema Startup** — Portal sobre startups y ecosistema emprendedor en Latinoamérica
@@ -4392,6 +4439,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://elmorrodearica.cl/category/innovacion/feed/`
 - **El Periódico**: Feed de la categoría 'Ciencia y Tecnología' en El Periódico
   - RSS: `https://elperiodico.cl/category/cienciaytecnologia/feed/`
+- **El Periódico de la Energía**: Feed de la sección 'Tech' en El Periódico de la Energía
+  - RSS: `https://elperiodicodelaenergia.com/tech/feed/`
 - **El Quinto Poder**: Feed de la categoría 'Tecnología' en El Quinto Poder
   - RSS: `https://elquintopoder.cl/temas/tecnologia/feed/`
 - **El Reportero de Iquique**: Feed de la categoría 'Tecnología' en El Reportero de Iquique
@@ -4730,7 +4779,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-education"></a>
-### 🏫 Educación, Universidades e Investigación (66 sitios, 124 feeds)
+### 🏫 Educación, Universidades e Investigación (67 sitios, 125 feeds)
 
 *Descargar OPML: [`education.opml`](dist/opml/categories/education.opml)*
 
@@ -4814,6 +4863,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://diarioloslagos.cl/category/noticias/educacion/feed/`
 - **Diario Puerto Varas**: Feed de la categoría 'Investigación' en Diario Puerto Varas
   - RSS: `https://diariopuertovaras.cl/category/investigacion/feed/`
+- **DPL News**: Feed de la categoría 'Educación' en DPL News
+  - RSS: `https://dplnews.com/category/transformacion-digital/educacion/feed/`
 - **El Calbucano**: Feed de la categoría 'Educación' en El Calbucano
   - RSS: `https://www.elcalbucano.cl/cat/educacion/feed/`
 - **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política
@@ -4928,7 +4979,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Economia, Negocios y Finanzas (90 sitios, 196 feeds)
+### 💼 Economia, Negocios y Finanzas (95 sitios, 246 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
@@ -5018,6 +5069,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.diariosurnoticias.com/economia/feed/`
 - **Diario Talca**: Feed de la categoría 'Economía' en Diario Talca
   - RSS: `https://diariotalca.cl/categoria/economia/feed/`
+- **DPL News**: Feed de la categoría 'Negocios' en DPL News
+  - RSS: `https://dplnews.com/category/negocios/feed/`
 - **Duplos**: Feed de la categoría 'Negocios' en Duplos
   - RSS: `https://duplos.cl/negocios/feed/`
 - **El Ciudadano**: Feed de la sección 'Economía' en El Ciudadano
@@ -5041,6 +5094,27 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://elnoticierodelhuasco.cl/category/economia/feed/`
 - **El Periódico**: Feed de la categoría 'Economía' en El Periódico
   - RSS: `https://elperiodico.cl/category/economia/feed/`
+- **El Periódico de la Energía** — Noticias del sector energético en español
+  - El Periódico de la Energía: `https://elperiodicodelaenergia.com/feed/`
+  - El Periódico de la Energía - Opinion: `https://elperiodicodelaenergia.com/opinion/feed/`
+  - El Periódico de la Energía - Politica Energetica: `https://elperiodicodelaenergia.com/politica-energetica/feed/`
+  - El Periódico de la Energía - Renovables: `https://elperiodicodelaenergia.com/renovables/feed/`
+  - El Periódico de la Energía - Mercados: `https://elperiodicodelaenergia.com/mercados/feed/`
+  - El Periódico de la Energía - Electricas: `https://elperiodicodelaenergia.com/electricas/feed/`
+  - El Periódico de la Energía - Petroleo Gas: `https://elperiodicodelaenergia.com/petroleo-gas/feed/`
+  - El Periódico de la Energía - Net Zero: `https://elperiodicodelaenergia.com/net-zero/feed/`
+  - El Periódico de la Energía - Movilidad: `https://elperiodicodelaenergia.com/movilidad/feed/`
+  - El Periódico de la Energía - Almacenamiento: `https://elperiodicodelaenergia.com/almacenamiento/feed/`
+  - El Periódico de la Energía - Startups: `https://elperiodicodelaenergia.com/startups/feed/`
+  - El Periódico de la Energía - Hidrogeno: `https://elperiodicodelaenergia.com/hidrogeno/feed/`
+  - El Periódico de la Energía - Top Ten: `https://elperiodicodelaenergia.com/top-ten/feed/`
+  - El Periódico de la Energía - Bioenergia: `https://elperiodicodelaenergia.com/bioenergia/feed/`
+  - El Periódico de la Energía - Latam: `https://elperiodicodelaenergia.com/latam/feed/`
+  - El Periódico de la Energía - Eficiencia: `https://elperiodicodelaenergia.com/eficiencia/feed/`
+  - El Periódico de la Energía - Digitalizacion: `https://elperiodicodelaenergia.com/digitalizacion/feed/`
+  - El Periódico de la Energía - Especiales: `https://elperiodicodelaenergia.com/especiales/feed/`
+  - El Periódico de la Energía - Media Kit: `https://elperiodicodelaenergia.com/feed/?category=media-kit`
+  - El Periódico de la Energía [Proxy Google News]: `https://news.google.com/rss/search?q=site:elperiodicodelaenergia.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El Periodista**: Feed de la categoría 'Economía' en El Periodista
   - RSS: `https://www.elperiodista.cl/category/economia/feed/`
 - **El Quinto Poder**: Feed de la categoría 'Economía' en El Quinto Poder
@@ -5049,6 +5123,16 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://elsoldeiquique.cl/empresas/feed/`
 - **El Tirapiedras**: Feed de la categoría 'Economía' en El Tirapiedras
   - RSS: `https://www.eltirapiedras.cl/economia/feed/`
+- **Electrominería** — Medio chileno especializado en electromovilidad y minería
+  - Electrominería: `https://electromineria.cl/feed/`
+  - Electrominería - Panorama Energético: `https://electromineria.cl/category/panorama-energetico/feed/`
+  - Electrominería - Crónica Minera: `https://electromineria.cl/category/cronica-minera-cronica-minera/feed/`
+  - Electrominería - Pulso Ambiental: `https://electromineria.cl/category/pulso-ambiental-pulso-ambiental/feed/`
+  - Electrominería - Nuevos Cargos: `https://electromineria.cl/category/nuevos-cargos/feed/`
+  - Electrominería - Opinión: `https://electromineria.cl/category/opinion/feed/`
+  - Electrominería - Vitrina Electrominera: `https://electromineria.cl/category/vitrina-electrominera/feed/`
+  - Electrominería - Publireportajes: `https://electromineria.cl/category/publireportajes/feed/`
+  - Electrominería [Proxy Google News]: `https://news.google.com/rss/search?q=site:electromineria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Elqui Global**: Feed de la categoría 'Economía' en Elqui Global
   - RSS: `https://www.elquiglobal.cl/categoria/economia/feed/`
 - **En La Línea**: Feed de la categoría 'Economía y Negocios' en En La Línea
@@ -5152,6 +5236,19 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Portal Metropolitano** — Portal de noticias de la Región Metropolitana, Chile
   - Portal Metropolitano - Economía: `https://portalmetropolitano.cl/category/economia/feed/`
   - Portal Metropolitano - Empresas: `https://portalmetropolitano.cl/category/empresas/feed/`
+- **Portal Minero** — Portal chileno de la industria minera
+  - Portal Minero: `https://www.portalminero.com/feed/`
+  - Portal Minero - Informacion De Negocios: `https://www.portalminero.com/feed/?category=informacion-de-negocios`
+  - Portal Minero - Publicidad Y Marketing: `https://www.portalminero.com/feed/?category=publicidad-y-marketing`
+  - Portal Minero - Directorio De Proveedores: `https://www.portalminero.com/feed/?category=directorio-de-proveedores`
+  - Portal Minero - Bolsa De Metales: `https://www.portalminero.com/feed/?category=bolsa-de-metales`
+  - Portal Minero - Plataforma De Rs: `https://www.portalminero.com/feed/?category=plataforma-de-rs`
+  - Portal Minero - Notas De Prensa: `https://www.portalminero.com/feed/?category=notas-de-prensa`
+  - Portal Minero - Columna De Opinion: `https://www.portalminero.com/feed/?category=columna-de-opinion`
+  - Portal Minero - Video Entrevista: `https://www.portalminero.com/feed/?category=video-entrevista`
+  - Portal Minero - Podcast Avance: `https://www.portalminero.com/feed/?category=podcast-avance`
+  - Portal Minero - Contactar: `https://www.portalminero.com/feed/?category=contactar`
+  - Portal Minero [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalminero.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **PortalPortuario** — Medio especializado en puertos, transporte marítimo y comercio exterior en español
   - PortalPortuario: `https://portalportuario.cl/feed/`
   - PortalPortuario - Titulares: `https://portalportuario.cl/category/titulares/feed/`
@@ -5175,6 +5272,15 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - PortalPortuario [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalportuario.cl&format=RSS`
 - **Publimicro**: Feed de la categoría 'Economía' en Publimicro
   - RSS: `https://publimicro.cl/contenidos-noticias/economia/feed/`
+- **pv magazine Latin America** — Noticias de la industria solar fotovoltaica en Latinoamérica
+  - pv magazine Latin America: `https://www.pv-magazine-latam.com/feed/`
+  - pv magazine Latin America - Chile: `https://www.pv-magazine-latam.com/tag/chile/feed`
+  - pv magazine Latin America - Mercados & Política: `https://www.pv-magazine-latam.com/category/mercados-politica/feed/`
+  - pv magazine Latin America - Instalaciones: `https://www.pv-magazine-latam.com/category/instalaciones/feed/`
+  - pv magazine Latin America - Tecnología & Productos: `https://www.pv-magazine-latam.com/category/tecnologia-productos/feed/`
+  - pv magazine Latin America - Investigación: `https://www.pv-magazine-latam.com/category/investigacion/feed/`
+  - pv magazine Latin America [Proxy Google News]: `https://news.google.com/rss/search?q=site:pv-magazine-latam.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - pv magazine Latin America [Proxy Bing News]: `https://www.bing.com/news/search?q=site:pv-magazine-latam.com&format=RSS`
 - **Radio Cooperativa**: Feed de la sección 'Economía' en Radio Cooperativa
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml`
 - **Radio Nuevo Mundo**: Feed de la categoría 'Economía' en Radio Nuevo Mundo
@@ -5222,7 +5328,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-jobs"></a>
-### 💼 Ofertas laborales y empleabilidad (18 sitios, 20 feeds)
+### 💼 Ofertas laborales y empleabilidad (19 sitios, 21 feeds)
 
 *Descargar OPML: [`jobs.opml`](dist/opml/categories/jobs.opml)*
 
@@ -5258,6 +5364,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.mineduc.cl/feed/?category=trabaje-con-nosotros`
 - **Portal Metropolitano**: Feed de la categoría 'Trabajo' en Portal Metropolitano
   - RSS: `https://portalmetropolitano.cl/category/trabajo/feed/`
+- **Portal Minero**: Feed de la sección 'Ofertas Laborales' en Portal Minero
+  - RSS: `https://www.portalminero.com/feed/?category=ofertas-laborales`
 - **Radio Festival**: Feed de la sección 'Bolsa Del Trabajo' en Radio Festival
   - RSS: `https://www.radiofestival.cl/feed/?category=bolsa-del-trabajo`
 - **REDIMIN**: Feed de la categoría 'Laboral' en REDIMIN
@@ -5489,7 +5597,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-community"></a>
-### 👥 Comunidad (85 sitios, 170 feeds)
+### 👥 Comunidad (87 sitios, 172 feeds)
 
 *Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
 
@@ -5629,6 +5737,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.elovallino.cl/category/social/feed/`
 - **El Periódico**: Feed de la categoría 'Foto Denuncia' en El Periódico
   - RSS: `https://elperiodico.cl/category/foto-denuncia/feed/`
+- **El Periódico de la Energía**: Feed de la sección 'Eventos' en El Periódico de la Energía
+  - RSS: `https://elperiodicodelaenergia.com/eventos/feed/`
 - **El Quinto Poder**: Feed de la categoría 'Sociedad' en El Quinto Poder
   - RSS: `https://elquintopoder.cl/temas/sociedad/feed/`
 - **El Urbano Rural** — Medio de comunicación de la Región de O'Higgins
@@ -5699,6 +5809,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Portal Metropolitano - Sociedad: `https://portalmetropolitano.cl/category/sociedad/feed/`
   - Portal Metropolitano - Turismo: `https://portalmetropolitano.cl/category/turismo/feed/`
   - Portal Metropolitano - Festivales: `https://portalmetropolitano.cl/category/festivales/feed/`
+- **Portal Minero**: Feed de la sección 'Eventos' en Portal Minero
+  - RSS: `https://www.portalminero.com/feed/?category=eventos`
 - **Portal Red Salud**: Feed de la categoría ' Eventos' en Portal Red Salud
   - RSS: `https://portalredsalud.cl/category/eventos/feed/`
 - **Publimetro Chile**: Feed de la categoría 'Social' en Publimetro Chile
@@ -6202,7 +6314,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-environment"></a>
-### 🌿 Medio Ambiente y Naturaleza (62 sitios, 112 feeds)
+### 🌿 Medio Ambiente y Naturaleza (63 sitios, 113 feeds)
 
 *Descargar OPML: [`environment.opml`](dist/opml/categories/environment.opml)*
 
@@ -6258,6 +6370,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://diarioloslagos.cl/category/clima/feed/`
 - **Diario Puerto Varas**: Feed de la categoría 'Ciencia y Medio' en Diario Puerto Varas
   - RSS: `https://diariopuertovaras.cl/category/ciencia-medio/feed/`
+- **DPL News**: Feed de la categoría 'Sustentabilidad' en DPL News
+  - RSS: `https://dplnews.com/category/tecnologia/sustentabilidad/feed/`
 - **ECOceanos** — Organización chilena dedicada a la defensa del océano, la biodiversidad marina y los ecosistemas costeros
   - ECOceanos - Portada: `https://www.ecoceanos.cl/feed/`
   - ECOceanos - Acuicultura: `https://www.ecoceanos.cl/ver/acuicultura/feed/`
@@ -6631,7 +6745,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-health"></a>
-### 🏥 Salud y Bienestar (72 sitios, 111 feeds)
+### 🏥 Salud y Bienestar (73 sitios, 112 feeds)
 
 *Descargar OPML: [`health.opml`](dist/opml/categories/health.opml)*
 
@@ -6675,6 +6789,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://diarioloslagos.cl/category/noticias/salud/feed/`
 - **Diario Puerto Varas**: Feed de la categoría 'Cultura y Vida Sana' en Diario Puerto Varas
   - RSS: `https://diariopuertovaras.cl/category/cultura-vida-sana/feed/`
+- **DPL News**: Feed de la categoría 'Salud' en DPL News
+  - RSS: `https://dplnews.com/category/transformacion-digital/salud/feed/`
 - **El Calbucano**: Feed de la categoría 'Salud' en El Calbucano
   - RSS: `https://www.elcalbucano.cl/cat/salud/feed/`
 - **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (124 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (125 feeds)</title>
     <description>Feeds RSS de 🏫 Educación, Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
+    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -66,6 +66,7 @@
     <outline type="rss" text="Diario La Región - Educación" title="Diario La Región - Educación" description="Feed de la categoría 'Educación' en Diario La Región" xmlUrl="https://www.diariolaregion.cl/category/eduacion/feed/" htmlUrl="https://www.diariolaregion.cl/category/eduacion/"/>
     <outline type="rss" text="Diario Los Lagos - Educación" title="Diario Los Lagos - Educación" description="Feed de la categoría 'Educación' en Diario Los Lagos" xmlUrl="https://diarioloslagos.cl/category/noticias/educacion/feed/" htmlUrl="https://diarioloslagos.cl/category/noticias/educacion/"/>
     <outline type="rss" text="Diario Puerto Varas - Investigación" title="Diario Puerto Varas - Investigación" description="Feed de la categoría 'Investigación' en Diario Puerto Varas" xmlUrl="https://diariopuertovaras.cl/category/investigacion/feed/" htmlUrl="https://diariopuertovaras.cl/category/investigacion/"/>
+    <outline type="rss" text="DPL News - Educación" title="DPL News - Educación" description="Feed de la categoría 'Educación' en DPL News" xmlUrl="https://dplnews.com/category/transformacion-digital/educacion/feed/" htmlUrl="https://dplnews.com/category/transformacion-digital/educacion/"/>
     <outline type="rss" text="El Calbucano - Educación" title="El Calbucano - Educación" description="Feed de la categoría 'Educación' en El Calbucano" xmlUrl="https://www.elcalbucano.cl/cat/educacion/feed/" htmlUrl="https://www.elcalbucano.cl/cat/educacion/"/>
     <outline type="rss" text="El Ciudadano - Educación" title="El Ciudadano - Educación" description="Feed de la categoría 'Educación' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/educacion/feed/" htmlUrl="https://www.elciudadano.com/noticias/educacion/"/>
     <outline type="rss" text="El Ciudadano - Reportajes y Investigación" title="El Ciudadano - Reportajes y Investigación" description="Feed de la categoría 'Reportajes y Investigación' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/reportaje-investigacion/feed/" htmlUrl="https://www.elciudadano.com/noticias/reportaje-investigacion/"/>

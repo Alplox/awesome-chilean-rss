@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (818 feeds)</title>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (819 feeds)</title>
     <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
+    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -616,6 +616,7 @@
     <outline type="rss" text="Portal Metropolitano - Seguridad" title="Portal Metropolitano - Seguridad" description="Feed de la categoría 'Seguridad' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/seguridad/feed/" htmlUrl="https://portalmetropolitano.cl/category/seguridad/"/>
     <outline type="rss" text="Portal Metropolitano - Servicios" title="Portal Metropolitano - Servicios" description="Feed de la categoría 'Servicios' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/servicios/feed/" htmlUrl="https://portalmetropolitano.cl/category/servicios/"/>
     <outline type="rss" text="Portal Metropolitano [Proxy Google News]" title="Portal Metropolitano [Proxy Google News]" description="Resultados de site:portalmetropolitano.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:portalmetropolitano.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:portalmetropolitano.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Portal Minero - Noticias" title="Portal Minero - Noticias" description="Feed de la sección 'Noticias' en Portal Minero" xmlUrl="https://www.portalminero.com/feed/?category=noticias" htmlUrl="https://www.portalminero.com/noticias/"/>
     <outline type="rss" text="Portal Red Salud - Actualidad" title="Portal Red Salud - Actualidad" description="Feed de la categoría 'Actualidad' en Portal Red Salud" xmlUrl="https://portalredsalud.cl/category/actualidad/feed/" htmlUrl="https://portalredsalud.cl/category/actualidad/"/>
     <outline type="rss" text="Portal Red Salud - Noticias" title="Portal Red Salud - Noticias" description="Feed de la categoría 'Noticias' en Portal Red Salud" xmlUrl="https://portalredsalud.cl/category/noticias/feed/" htmlUrl="https://portalredsalud.cl/category/noticias/"/>
     <outline type="rss" text="Prensa Fútbol - Noticias" title="Prensa Fútbol - Noticias" description="Feed de la categoría 'Noticias' en Prensa Fútbol" xmlUrl="https://www.prensafutbol.cl/noticias/feed/" htmlUrl="https://www.prensafutbol.cl/noticias/"/>

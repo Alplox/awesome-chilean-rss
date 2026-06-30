@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (112 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (113 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
+    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -41,6 +41,7 @@
     <outline type="rss" text="Diario La Región - Medio Ambiente" title="Diario La Región - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Diario La Región" xmlUrl="https://www.diariolaregion.cl/category/ambiente/feed/" htmlUrl="https://www.diariolaregion.cl/category/ambiente/"/>
     <outline type="rss" text="Diario Los Lagos - Clima" title="Diario Los Lagos - Clima" description="Feed de la categoría 'Clima' en Diario Los Lagos" xmlUrl="https://diarioloslagos.cl/category/clima/feed/" htmlUrl="https://diarioloslagos.cl/category/clima/"/>
     <outline type="rss" text="Diario Puerto Varas - Ciencia y Medio" title="Diario Puerto Varas - Ciencia y Medio" description="Feed de la categoría 'Ciencia y Medio' en Diario Puerto Varas" xmlUrl="https://diariopuertovaras.cl/category/ciencia-medio/feed/" htmlUrl="https://diariopuertovaras.cl/category/ciencia-medio/"/>
+    <outline type="rss" text="DPL News - Sustentabilidad" title="DPL News - Sustentabilidad" description="Feed de la categoría 'Sustentabilidad' en DPL News" xmlUrl="https://dplnews.com/category/tecnologia/sustentabilidad/feed/" htmlUrl="https://dplnews.com/category/tecnologia/sustentabilidad/"/>
     <outline type="rss" text="ECOceanos - Acuicultura" title="ECOceanos - Acuicultura" description="Feed de la categoría 'Acuicultura' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/acuicultura/feed/" htmlUrl="https://www.ecoceanos.cl/ver/acuicultura/"/>
     <outline type="rss" text="ECOceanos - Ballenas" title="ECOceanos - Ballenas" description="Feed de la categoría 'Ballenas' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/ballenas/feed/" htmlUrl="https://www.ecoceanos.cl/ver/ballenas/"/>
     <outline type="rss" text="ECOceanos - Laboral" title="ECOceanos - Laboral" description="Feed de la categoría 'Laboral' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/laboral/feed/" htmlUrl="https://www.ecoceanos.cl/ver/laboral/"/>

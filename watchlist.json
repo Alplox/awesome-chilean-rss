@@ -10179,5 +10179,69 @@
       }
     ],
     "reason": "CMS Prontus sin feed RSS"
+  },
+  {
+    "id": "energia-estrategica",
+    "name": "Energía Estratégica",
+    "url": "https://www.energiaestrategica.com/",
+    "category": "business",
+    "description": "Noticias del sector energético en Latinoamérica",
+    "reason": "No RSS feed detected (site returns HTML en todas las rutas de /feed/, /rss/)",
+    "feeds": [
+      {
+        "id": "energia-estrategica-proxy-google-news",
+        "name": "Energía Estratégica [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:energiaestrategica.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:energiaestrategica.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:energiaestrategica.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T21:15:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "energia-estrategica-proxy-bing-news",
+        "name": "Energía Estratégica [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:energiaestrategica.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:energiaestrategica.com",
+        "description": "Resultados de site:energiaestrategica.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T21:15:00.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "reporte-minero",
+    "name": "Reporte Minero",
+    "url": "https://www.reporteminero.cl/",
+    "category": "business",
+    "description": "Noticias de la minería chilena y latinoamericana",
+    "reason": "WordPress sin feed RSS detectable (todas las rutas /* retornan HTML homepage)",
+    "feeds": [
+      {
+        "id": "reporte-minero-proxy-google-news",
+        "name": "Reporte Minero [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:reporteminero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:reporteminero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:reporteminero.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T21:15:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "reporte-minero-proxy-bing-news",
+        "name": "Reporte Minero [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:reporteminero.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:reporteminero.cl",
+        "description": "Resultados de site:reporteminero.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T21:15:00.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ]
   }
 ]

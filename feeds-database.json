@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-30T21:15:43.255Z",
-  "total_feeds": 4271,
+  "last_updated": "2026-06-30T21:49:16.525Z",
+  "total_feeds": 4373,
   "sites": [
     {
       "id": "aconcagua-digital",
@@ -84230,9 +84230,9 @@
           "rss_url": "https://www.laborum.cl/blog/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:36:18.997Z",
+          "last_known_item_date": "2026-06-30T15:48:00.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T15:48:00.000Z"
+          "verified": true
         },
         {
           "id": "laborum-proxy-google-news",
@@ -84242,9 +84242,9 @@
           "description": "Resultados de site:laborum.cl en Proxy Google News de noticias Chilenas",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:36:18.997Z",
+          "last_known_item_date": "2026-06-30T15:30:46.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T15:30:46.000Z"
+          "verified": true
         },
         {
           "id": "laborum-proxy-bing-news",
@@ -84254,9 +84254,9 @@
           "description": "Resultados de site:laborum.cl en Proxy Bing News",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:36:18.998Z",
+          "last_known_item_date": null,
           "status": "feed_empty",
-          "verified": false,
-          "last_known_item_date": null
+          "verified": false
         }
       ]
     },
@@ -84273,9 +84273,9 @@
           "rss_url": "https://holanews.com/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:38:21.029Z",
+          "last_known_item_date": "2026-06-30T19:20:32.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T19:20:32.000Z"
+          "verified": true
         },
         {
           "id": "holanews-deportes",
@@ -84394,9 +84394,9 @@
           "description": "Resultados de site:holanews.com en Proxy Google News de noticias Chilenas",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:38:21.030Z",
+          "last_known_item_date": "2026-06-30T17:40:32.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T17:40:32.000Z"
+          "verified": true
         },
         {
           "id": "holanews-proxy-bing-news",
@@ -84406,9 +84406,9 @@
           "description": "Resultados de site:holanews.com en Proxy Bing News",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:38:21.030Z",
+          "last_known_item_date": "2026-06-25T11:26:00.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-25T11:26:00.000Z"
+          "verified": true
         }
       ]
     },
@@ -84425,9 +84425,9 @@
           "rss_url": "https://televitos.com/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:43:38.882Z",
+          "last_known_item_date": "2026-06-30T18:28:14.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T18:28:14.000Z"
+          "verified": true
         },
         {
           "id": "televitos-peliculas",
@@ -84572,9 +84572,9 @@
           "description": "Resultados de site:televitos.com en Proxy Google News de noticias Chilenas",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:43:38.884Z",
+          "last_known_item_date": "2026-06-30T15:34:03.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T15:34:03.000Z"
+          "verified": true
         },
         {
           "id": "televitos-proxy-bing-news",
@@ -84584,9 +84584,9 @@
           "description": "Resultados de site:televitos.com en Proxy Bing News",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:43:38.884Z",
+          "last_known_item_date": null,
           "status": "feed_empty",
-          "verified": false,
-          "last_known_item_date": null
+          "verified": false
         }
       ]
     },
@@ -84603,9 +84603,9 @@
           "rss_url": "https://news.samsung.com/latin/feed",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:44:34.161Z",
+          "last_known_item_date": "2026-06-26T14:49:04.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-26T14:49:04.000Z"
+          "verified": true
         },
         {
           "id": "samsung-news-latin-latin",
@@ -84640,9 +84640,9 @@
           "description": "Resultados de site:news.samsung.com en Proxy Google News de noticias Chilenas",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:44:34.161Z",
+          "last_known_item_date": "2026-06-30T18:42:35.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T18:42:35.000Z"
+          "verified": true
         },
         {
           "id": "samsung-news-latin-proxy-bing-news",
@@ -84652,9 +84652,9 @@
           "description": "Resultados de site:news.samsung.com en Proxy Bing News",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:44:34.161Z",
+          "last_known_item_date": null,
           "status": "feed_empty",
-          "verified": false,
-          "last_known_item_date": null
+          "verified": false
         }
       ]
     },
@@ -84671,9 +84671,9 @@
           "rss_url": "https://ecosistemastartup.com/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:46:56.196Z",
+          "last_known_item_date": "2026-06-30T19:32:54.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T19:32:54.000Z"
+          "verified": true
         },
         {
           "id": "ecosistema-startup-chile",
@@ -84683,9 +84683,9 @@
           "description": "Feed de startups chilenas en Ecosistema Startup",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:46:56.197Z",
+          "last_known_item_date": "2026-06-28T15:05:07.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-28T15:05:07.000Z"
+          "verified": true
         },
         {
           "id": "ecosistema-startup-actualidad",
@@ -85284,9 +85284,9 @@
           "description": "Resultados de site:ecosistemastartup.com en Proxy Google News de noticias Chilenas",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:46:56.197Z",
+          "last_known_item_date": "2026-06-26T17:19:51.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-26T17:19:51.000Z"
+          "verified": true
         },
         {
           "id": "ecosistema-startup-proxy-bing-news",
@@ -85296,9 +85296,9 @@
           "description": "Resultados de site:ecosistemastartup.com en Proxy Bing News",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T19:46:56.197Z",
+          "last_known_item_date": null,
           "status": "feed_empty",
-          "verified": false,
-          "last_known_item_date": null
+          "verified": false
         }
       ]
     },
@@ -85315,9 +85315,9 @@
           "rss_url": "https://portalredsalud.cl/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T20:28:33.781Z",
+          "last_known_item_date": "2026-06-30T19:43:32.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T19:43:32.000Z"
+          "verified": true
         },
         {
           "id": "portal-red-salud-noticias",
@@ -85922,9 +85922,9 @@
           "description": "Resultados de site:portalredsalud.cl en Proxy Google News de noticias Chilenas",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T20:28:33.781Z",
+          "last_known_item_date": "2026-06-27T23:54:29.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-27T23:54:29.000Z"
+          "verified": true
         },
         {
           "id": "portal-red-salud-proxy-bing-news",
@@ -85934,9 +85934,9 @@
           "description": "Resultados de site:portalredsalud.cl en Proxy Bing News",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T20:28:33.782Z",
+          "last_known_item_date": null,
           "status": "feed_empty",
-          "verified": false,
-          "last_known_item_date": null
+          "verified": false
         }
       ]
     },
@@ -85953,9 +85953,9 @@
           "rss_url": "https://nuevotropezon.tropezon.cl/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T20:32:46.656Z",
+          "last_known_item_date": "2026-06-30T01:09:50.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T01:09:50.000Z"
+          "verified": true
         },
         {
           "id": "nuevo-tropezon-policial",
@@ -86562,9 +86562,9 @@
           "description": "Resultados de site:nuevotropezon.tropezon.cl en Proxy Google News de noticias Chilenas",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T20:32:46.656Z",
+          "last_known_item_date": "2026-06-30T01:10:55.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T01:10:55.000Z"
+          "verified": true
         },
         {
           "id": "nuevo-tropezon-proxy-bing-news",
@@ -86574,9 +86574,9 @@
           "description": "Resultados de site:nuevotropezon.tropezon.cl en Proxy Bing News",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T20:32:46.657Z",
+          "last_known_item_date": null,
           "status": "feed_empty",
-          "verified": false,
-          "last_known_item_date": null
+          "verified": false
         }
       ]
     },
@@ -86593,9 +86593,9 @@
           "rss_url": "https://portalmetropolitano.cl/feed/",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T20:35:27.996Z",
+          "last_known_item_date": "2026-06-30T17:00:00.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T17:00:00.000Z"
+          "verified": true
         },
         {
           "id": "portal-metropolitano-destacados",
@@ -87228,9 +87228,9 @@
           "description": "Resultados de site:portalmetropolitano.cl en Proxy Google News de noticias Chilenas",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T20:35:27.996Z",
+          "last_known_item_date": "2026-06-30T17:00:26.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T17:00:26.000Z"
+          "verified": true
         },
         {
           "id": "portal-metropolitano-proxy-bing-news",
@@ -87240,9 +87240,9 @@
           "description": "Resultados de site:portalmetropolitano.cl en Proxy Bing News",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T20:35:27.997Z",
+          "last_known_item_date": null,
           "status": "feed_empty",
-          "verified": false,
-          "last_known_item_date": null
+          "verified": false
         }
       ]
     },
@@ -87259,9 +87259,9 @@
           "rss_url": "https://www.rfi.fr/es/rss",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T21:06:44.241Z",
+          "last_known_item_date": "2026-06-30T15:42:58.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T15:42:58.000Z"
+          "verified": true
         },
         {
           "id": "rfi-espanol-fr",
@@ -87283,9 +87283,9 @@
           "description": "Resultados de site:rfi.fr/es en Proxy Google News de noticias Chilenas",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T21:06:44.241Z",
+          "last_known_item_date": "2026-06-30T15:42:58.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T15:42:58.000Z"
+          "verified": true
         },
         {
           "id": "rfi-espanol-proxy-bing-news",
@@ -87295,9 +87295,1421 @@
           "description": "Resultados de site:rfi.fr/es en Proxy Bing News",
           "feed_type": "RSS",
           "last_checked": "2026-06-30T21:06:44.241Z",
+          "last_known_item_date": "2026-06-30T13:51:00.000Z",
           "status": "active",
-          "verified": true,
-          "last_known_item_date": "2026-06-30T13:51:00.000Z"
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "dplnews",
+      "name": "DPL News",
+      "url": "https://dplnews.com/",
+      "category": "technology",
+      "description": "Noticias de tecnología, digitalización e innovación en América Latina",
+      "feeds": [
+        {
+          "id": "dplnews-main",
+          "name": "DPL News",
+          "rss_url": "https://dplnews.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.131Z",
+          "last_known_item_date": "2026-06-30T21:20:59.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-chile",
+          "name": "DPL News - Chile",
+          "rss_url": "https://dplnews.com/tag/chile/rss",
+          "description": "Feed de la sección 'Chile' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.131Z",
+          "last_known_item_date": "2026-06-30T17:43:23.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-dplnews",
+          "name": "DPL News - Dpl News",
+          "rss_url": "https://dplnews.com/category/dplnews/feed/",
+          "url": "https://dplnews.com/category/dplnews/",
+          "description": "Feed de la categoría 'Dpl News' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.131Z",
+          "last_known_item_date": "2026-06-30T21:20:59.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-tecnologia",
+          "name": "DPL News - Tecnología",
+          "rss_url": "https://dplnews.com/category/tecnologia/feed/",
+          "url": "https://dplnews.com/category/tecnologia/",
+          "description": "Feed de la categoría 'Tecnología' en DPL News",
+          "feed_type": "RSS",
+          "category": "technology",
+          "last_checked": "2026-06-30T21:35:45.132Z",
+          "last_known_item_date": "2026-06-30T18:50:04.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-redes",
+          "name": "DPL News - Redes",
+          "rss_url": "https://dplnews.com/category/redes/feed/",
+          "url": "https://dplnews.com/category/redes/",
+          "description": "Feed de la categoría 'Redes' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.132Z",
+          "last_known_item_date": "2026-06-30T21:20:59.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-negocios",
+          "name": "DPL News - Negocios",
+          "rss_url": "https://dplnews.com/category/negocios/feed/",
+          "url": "https://dplnews.com/category/negocios/",
+          "description": "Feed de la categoría 'Negocios' en DPL News",
+          "feed_type": "RSS",
+          "category": "business",
+          "last_checked": "2026-06-30T21:35:45.132Z",
+          "last_known_item_date": "2026-06-30T11:24:07.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-transformacion-digital",
+          "name": "DPL News - Transformación Digital",
+          "rss_url": "https://dplnews.com/category/transformacion-digital/feed/",
+          "url": "https://dplnews.com/category/transformacion-digital/",
+          "description": "Feed de la categoría 'Transformación Digital' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.132Z",
+          "last_known_item_date": "2026-06-30T19:48:39.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-dpl-tech",
+          "name": "DPL News - Dpl Tech",
+          "rss_url": "https://dplnews.com/category/tecnologia/dpl-tech/feed/",
+          "url": "https://dplnews.com/category/tecnologia/dpl-tech/",
+          "description": "Feed de la categoría 'Dpl Tech' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.132Z",
+          "last_known_item_date": "2026-06-30T18:50:04.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-rp-news",
+          "name": "DPL News - Rp News",
+          "rss_url": "https://dplnews.com/category/rp-news/feed/",
+          "url": "https://dplnews.com/category/rp-news/",
+          "description": "Feed de la categoría 'Rp News' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.132Z",
+          "last_known_item_date": "2026-06-30T19:25:32.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-inteligencia-artificial",
+          "name": "DPL News - Inteligencia Artificial",
+          "rss_url": "https://dplnews.com/category/tecnologia/inteligencia-artificial/feed/",
+          "url": "https://dplnews.com/category/tecnologia/inteligencia-artificial/",
+          "description": "Feed de la categoría 'Inteligencia Artificial' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-30T18:50:04.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-brasil",
+          "name": "DPL News - Brasil",
+          "rss_url": "https://dplnews.com/category/brasil/feed/",
+          "url": "https://dplnews.com/category/brasil/",
+          "description": "Feed de la categoría 'Brasil' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-30T17:21:56.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-ciberseguridad",
+          "name": "DPL News - Ciberseguridad",
+          "rss_url": "https://dplnews.com/category/transformacion-digital/ciberseguridad/feed/",
+          "url": "https://dplnews.com/category/transformacion-digital/ciberseguridad/",
+          "description": "Feed de la categoría 'Ciberseguridad' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-30T19:48:39.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-apps",
+          "name": "DPL News - Apps",
+          "rss_url": "https://dplnews.com/category/tecnologia/apps/feed/",
+          "url": "https://dplnews.com/category/tecnologia/apps/",
+          "description": "Feed de la categoría 'Apps' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-29T16:41:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-internet",
+          "name": "DPL News - Internet",
+          "rss_url": "https://dplnews.com/category/tecnologia/internet/feed/",
+          "url": "https://dplnews.com/category/tecnologia/internet/",
+          "description": "Feed de la categoría 'Internet' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-23T17:14:25.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-editors-picks",
+          "name": "DPL News - Editor's Picks",
+          "rss_url": "https://dplnews.com/category/dplnews/editors-picks/feed/",
+          "url": "https://dplnews.com/category/dplnews/editors-picks/",
+          "description": "Feed de la categoría 'Editor's Picks' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-30T02:40:43.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-gadgets",
+          "name": "DPL News - Gadgets",
+          "rss_url": "https://dplnews.com/category/tecnologia/gadgets/feed/",
+          "url": "https://dplnews.com/category/tecnologia/gadgets/",
+          "description": "Feed de la categoría 'Gadgets' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-25T19:33:31.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-medios",
+          "name": "DPL News - Medios",
+          "rss_url": "https://dplnews.com/category/medios/feed/",
+          "url": "https://dplnews.com/category/medios/",
+          "description": "Feed de la categoría 'Medios' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-30T16:05:59.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-redes-sociales",
+          "name": "DPL News - Redes Sociales",
+          "rss_url": "https://dplnews.com/category/tecnologia/redes-sociales/feed/",
+          "url": "https://dplnews.com/category/tecnologia/redes-sociales/",
+          "description": "Feed de la categoría 'Redes Sociales' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-30T16:16:01.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-5g",
+          "name": "DPL News - 5g",
+          "rss_url": "https://dplnews.com/category/redes/5g/feed/",
+          "url": "https://dplnews.com/category/redes/5g/",
+          "description": "Feed de la categoría '5g' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-30T17:43:41.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-columnistas",
+          "name": "DPL News - Columnistas",
+          "rss_url": "https://dplnews.com/category/columnistas/feed/",
+          "url": "https://dplnews.com/category/columnistas/",
+          "description": "Feed de la categoría 'Columnistas' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.133Z",
+          "last_known_item_date": "2026-06-26T12:51:42.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-regulacao",
+          "name": "DPL News - Regulação",
+          "rss_url": "https://dplnews.com/category/brasil/regulacao/feed/",
+          "url": "https://dplnews.com/category/brasil/regulacao/",
+          "description": "Feed de la categoría 'Regulação' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.134Z",
+          "last_known_item_date": "2026-06-29T14:02:47.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-tecnologia-brasil",
+          "name": "DPL News - Tecnologia",
+          "rss_url": "https://dplnews.com/category/brasil/tecnologia-brasil/feed/",
+          "url": "https://dplnews.com/category/brasil/tecnologia-brasil/",
+          "description": "Feed de la categoría 'Tecnologia' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.134Z",
+          "last_known_item_date": "2026-06-29T14:04:16.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-covid19",
+          "name": "DPL News - Covid 19",
+          "rss_url": "https://dplnews.com/category/covid19/feed/",
+          "url": "https://dplnews.com/category/covid19/",
+          "description": "Feed de la categoría 'Covid 19' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.134Z",
+          "last_known_item_date": "2023-02-20T19:27:17.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "dplnews-cultura-digital",
+          "name": "DPL News - Cultura Digital",
+          "rss_url": "https://dplnews.com/category/tecnologia/cultura-digital/feed/",
+          "url": "https://dplnews.com/category/tecnologia/cultura-digital/",
+          "description": "Feed de la categoría 'Cultura Digital' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.134Z",
+          "last_known_item_date": "2026-06-11T21:44:37.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-negocios-brasil",
+          "name": "DPL News - Negócios",
+          "rss_url": "https://dplnews.com/category/brasil/negocios-brasil/feed/",
+          "url": "https://dplnews.com/category/brasil/negocios-brasil/",
+          "description": "Feed de la categoría 'Negócios' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.134Z",
+          "last_known_item_date": "2026-06-29T13:58:21.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-entrevistas",
+          "name": "DPL News - Entrevistas",
+          "rss_url": "https://dplnews.com/category/entrevistas/feed/",
+          "url": "https://dplnews.com/category/entrevistas/",
+          "description": "Feed de la categoría 'Entrevistas' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.134Z",
+          "last_known_item_date": "2026-06-30T19:48:39.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-informes-financieros",
+          "name": "DPL News - Informes Financieros",
+          "rss_url": "https://dplnews.com/category/negocios/informes-financieros/feed/",
+          "url": "https://dplnews.com/category/negocios/informes-financieros/",
+          "description": "Feed de la categoría 'Informes Financieros' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.134Z",
+          "last_known_item_date": "2026-05-27T15:18:12.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "dplnews-analisis",
+          "name": "DPL News - Análisis",
+          "rss_url": "https://dplnews.com/category/analisis/feed/",
+          "url": "https://dplnews.com/category/analisis/",
+          "description": "Feed de la categoría 'Análisis' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.134Z",
+          "last_known_item_date": "2026-06-30T02:40:43.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-transformacion",
+          "name": "DPL News - Transformación",
+          "rss_url": "https://dplnews.com/category/transformacion/feed/",
+          "url": "https://dplnews.com/category/transformacion/",
+          "description": "Feed de la categoría 'Transformación' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.134Z",
+          "last_known_item_date": "2026-05-06T14:22:15.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "dplnews-chips",
+          "name": "DPL News - Chips",
+          "rss_url": "https://dplnews.com/category/transformacion-digital/chips/feed/",
+          "url": "https://dplnews.com/category/transformacion-digital/chips/",
+          "description": "Feed de la categoría 'Chips' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.135Z",
+          "last_known_item_date": "2026-06-30T04:02:32.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-opinion",
+          "name": "DPL News - Opinión",
+          "rss_url": "https://dplnews.com/category/opinion/feed/",
+          "url": "https://dplnews.com/category/opinion/",
+          "description": "Feed de la categoría 'Opinión' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.135Z",
+          "last_known_item_date": "2026-06-26T12:51:42.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-redes-brasil",
+          "name": "DPL News - Redes",
+          "rss_url": "https://dplnews.com/category/brasil/redes-brasil/feed/",
+          "url": "https://dplnews.com/category/brasil/redes-brasil/",
+          "description": "Feed de la categoría 'Redes' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.135Z",
+          "last_known_item_date": "2026-06-30T10:29:57.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-ott",
+          "name": "DPL News - Ott",
+          "rss_url": "https://dplnews.com/category/medios/ott/feed/",
+          "url": "https://dplnews.com/category/medios/ott/",
+          "description": "Feed de la categoría 'Ott' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.135Z",
+          "last_known_item_date": "2026-06-23T13:10:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-salud",
+          "name": "DPL News - Salud",
+          "rss_url": "https://dplnews.com/category/transformacion-digital/salud/feed/",
+          "url": "https://dplnews.com/category/transformacion-digital/salud/",
+          "description": "Feed de la categoría 'Salud' en DPL News",
+          "feed_type": "RSS",
+          "category": "health",
+          "last_checked": "2026-06-30T21:35:45.135Z",
+          "last_known_item_date": "2026-06-30T16:01:51.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-trends",
+          "name": "DPL News - Trends",
+          "rss_url": "https://dplnews.com/category/trends/feed/",
+          "url": "https://dplnews.com/category/trends/",
+          "description": "Feed de la categoría 'Trends' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.135Z",
+          "last_known_item_date": "2026-02-16T13:20:00.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "dplnews-educacion",
+          "name": "DPL News - Educación",
+          "rss_url": "https://dplnews.com/category/transformacion-digital/educacion/feed/",
+          "url": "https://dplnews.com/category/transformacion-digital/educacion/",
+          "description": "Feed de la categoría 'Educación' en DPL News",
+          "feed_type": "RSS",
+          "category": "education",
+          "last_checked": "2026-06-30T21:35:45.135Z",
+          "last_known_item_date": "2026-06-26T14:11:44.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-fintech",
+          "name": "DPL News - Fintech",
+          "rss_url": "https://dplnews.com/category/transformacion-digital/fintech/feed/",
+          "url": "https://dplnews.com/category/transformacion-digital/fintech/",
+          "description": "Feed de la categoría 'Fintech' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.135Z",
+          "last_known_item_date": "2026-06-19T04:13:48.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-satelites-redes",
+          "name": "DPL News - Satélites",
+          "rss_url": "https://dplnews.com/category/redes/satelites-redes/feed/",
+          "url": "https://dplnews.com/category/redes/satelites-redes/",
+          "description": "Feed de la categoría 'Satélites' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.135Z",
+          "last_known_item_date": "2026-06-29T17:02:09.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-sustentabilidad",
+          "name": "DPL News - Sustentabilidad",
+          "rss_url": "https://dplnews.com/category/tecnologia/sustentabilidad/feed/",
+          "url": "https://dplnews.com/category/tecnologia/sustentabilidad/",
+          "description": "Feed de la categoría 'Sustentabilidad' en DPL News",
+          "feed_type": "RSS",
+          "category": "environment",
+          "last_checked": "2026-06-30T21:35:45.136Z",
+          "last_known_item_date": "2026-06-19T15:30:23.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-fusiones-y-consolidaciones",
+          "name": "DPL News - Fusiones Y Consolidaciones",
+          "rss_url": "https://dplnews.com/category/negocios/fusiones-y-consolidaciones/feed/",
+          "url": "https://dplnews.com/category/negocios/fusiones-y-consolidaciones/",
+          "description": "Feed de la categoría 'Fusiones Y Consolidaciones' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.136Z",
+          "last_known_item_date": "2026-06-16T17:57:10.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-cripto",
+          "name": "DPL News - Cripto",
+          "rss_url": "https://dplnews.com/category/transformacion-digital/cripto/feed/",
+          "url": "https://dplnews.com/category/transformacion-digital/cripto/",
+          "description": "Feed de la categoría 'Cripto' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.136Z",
+          "last_known_item_date": "2026-06-29T16:21:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-politicas-publicas-brasil",
+          "name": "DPL News - Políticas Públicas",
+          "rss_url": "https://dplnews.com/category/brasil/politicas-publicas-brasil/feed/",
+          "url": "https://dplnews.com/category/brasil/politicas-publicas-brasil/",
+          "description": "Feed de la categoría 'Políticas Públicas' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.136Z",
+          "last_known_item_date": "2026-06-29T13:28:59.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-plataformas",
+          "name": "DPL News - Plataformas",
+          "rss_url": "https://dplnews.com/category/transformacion-digital/plataformas/feed/",
+          "url": "https://dplnews.com/category/transformacion-digital/plataformas/",
+          "description": "Feed de la categoría 'Plataformas' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.136Z",
+          "last_known_item_date": "2026-06-26T14:08:41.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-nube",
+          "name": "DPL News - Nube",
+          "rss_url": "https://dplnews.com/category/transformacion-digital/nube/feed/",
+          "url": "https://dplnews.com/category/transformacion-digital/nube/",
+          "description": "Feed de la categoría 'Nube' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.136Z",
+          "last_known_item_date": "2026-06-26T12:16:19.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-mujer-tic",
+          "name": "DPL News - Mujer Tic",
+          "rss_url": "https://dplnews.com/category/tecnologia/mujer-tic/feed/",
+          "url": "https://dplnews.com/category/tecnologia/mujer-tic/",
+          "description": "Feed de la categoría 'Mujer Tic' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.136Z",
+          "last_known_item_date": "2026-06-23T06:03:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-robots",
+          "name": "DPL News - Robots",
+          "rss_url": "https://dplnews.com/category/tecnologia/robots/feed/",
+          "url": "https://dplnews.com/category/tecnologia/robots/",
+          "description": "Feed de la categoría 'Robots' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.136Z",
+          "last_known_item_date": "2026-06-03T04:35:28.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-metrics",
+          "name": "DPL News - Metrics",
+          "rss_url": "https://dplnews.com/category/metrics/feed/",
+          "url": "https://dplnews.com/category/metrics/",
+          "description": "Feed de la categoría 'Metrics' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.137Z",
+          "last_known_item_date": "2026-06-25T17:34:57.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-5g-brasil-2",
+          "name": "DPL News - 5g",
+          "rss_url": "https://dplnews.com/category/brasil/5g-brasil-2/feed/",
+          "url": "https://dplnews.com/category/brasil/5g-brasil-2/",
+          "description": "Feed de la categoría '5g' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.137Z",
+          "last_known_item_date": "2026-06-30T17:21:56.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-conteudo",
+          "name": "DPL News - Conteúdo",
+          "rss_url": "https://dplnews.com/category/brasil/conteudo/feed/",
+          "url": "https://dplnews.com/category/brasil/conteudo/",
+          "description": "Feed de la categoría 'Conteúdo' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.137Z",
+          "last_known_item_date": "2026-06-02T16:43:25.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-vehiculos-autonomos",
+          "name": "DPL News - Vehículos Autónomos",
+          "rss_url": "https://dplnews.com/category/tecnologia/vehiculos-autonomos/feed/",
+          "url": "https://dplnews.com/category/tecnologia/vehiculos-autonomos/",
+          "description": "Feed de la categoría 'Vehículos Autónomos' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.137Z",
+          "last_known_item_date": "2026-06-02T21:05:32.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-politicas-publicas",
+          "name": "DPL News - Políticas Públicas",
+          "rss_url": "https://dplnews.com/category/politicas-publicas/feed/",
+          "url": "https://dplnews.com/category/politicas-publicas/",
+          "description": "Feed de la categoría 'Políticas Públicas' en DPL News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.137Z",
+          "last_known_item_date": "2026-06-29T03:47:09.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-proxy-google-news",
+          "name": "DPL News [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:dplnews.com&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:dplnews.com&hl=es-419&gl=CL&ceid=CL:es-419",
+          "description": "Resultados de site:dplnews.com en Proxy Google News de noticias Chilenas",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.131Z",
+          "last_known_item_date": "2026-06-16T07:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "dplnews-proxy-bing-news",
+          "name": "DPL News [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:dplnews.com&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:dplnews.com",
+          "description": "Resultados de site:dplnews.com en Proxy Bing News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:35:45.131Z",
+          "last_known_item_date": null,
+          "status": "feed_empty",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "pv-magazine-latam",
+      "name": "pv magazine Latin America",
+      "url": "https://www.pv-magazine-latam.com/",
+      "category": "business",
+      "description": "Noticias de la industria solar fotovoltaica en Latinoamérica",
+      "feeds": [
+        {
+          "id": "pv-magazine-latam-main",
+          "name": "pv magazine Latin America",
+          "rss_url": "https://www.pv-magazine-latam.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:37:44.449Z",
+          "last_known_item_date": "2026-06-30T17:56:54.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "pv-magazine-latam-chile",
+          "name": "pv magazine Latin America - Chile",
+          "rss_url": "https://www.pv-magazine-latam.com/tag/chile/feed",
+          "description": "Feed de la categoría 'Chile' en pv magazine Latin America",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:37:44.449Z",
+          "last_known_item_date": "2026-06-30T16:30:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "pv-magazine-latam-mercados-politica",
+          "name": "pv magazine Latin America - Mercados & Política",
+          "rss_url": "https://www.pv-magazine-latam.com/category/mercados-politica/feed/",
+          "url": "https://www.pv-magazine-latam.com/category/mercados-politica/",
+          "description": "Feed de la categoría 'Mercados & Política' en pv magazine Latin America",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:37:44.449Z",
+          "last_known_item_date": "2026-06-30T15:52:33.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "pv-magazine-latam-instalaciones",
+          "name": "pv magazine Latin America - Instalaciones",
+          "rss_url": "https://www.pv-magazine-latam.com/category/instalaciones/feed/",
+          "url": "https://www.pv-magazine-latam.com/category/instalaciones/",
+          "description": "Feed de la categoría 'Instalaciones' en pv magazine Latin America",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:37:44.449Z",
+          "last_known_item_date": "2026-06-30T17:56:54.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "pv-magazine-latam-tecnologia-productos",
+          "name": "pv magazine Latin America - Tecnología & Productos",
+          "rss_url": "https://www.pv-magazine-latam.com/category/tecnologia-productos/feed/",
+          "url": "https://www.pv-magazine-latam.com/category/tecnologia-productos/",
+          "description": "Feed de la categoría 'Tecnología & Productos' en pv magazine Latin America",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:37:44.449Z",
+          "last_known_item_date": "2026-06-30T12:35:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "pv-magazine-latam-investigacion",
+          "name": "pv magazine Latin America - Investigación",
+          "rss_url": "https://www.pv-magazine-latam.com/category/investigacion/feed/",
+          "url": "https://www.pv-magazine-latam.com/category/investigacion/",
+          "description": "Feed de la categoría 'Investigación' en pv magazine Latin America",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:37:44.450Z",
+          "last_known_item_date": "2026-06-29T14:47:10.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "pv-magazine-latam-proxy-google-news",
+          "name": "pv magazine Latin America [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:pv-magazine-latam.com&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:pv-magazine-latam.com&hl=es-419&gl=CL&ceid=CL:es-419",
+          "description": "Resultados de site:pv-magazine-latam.com en Proxy Google News de noticias Chilenas",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:37:44.450Z",
+          "last_known_item_date": "2026-06-30T13:09:14.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "pv-magazine-latam-proxy-bing-news",
+          "name": "pv magazine Latin America [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:pv-magazine-latam.com&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:pv-magazine-latam.com",
+          "description": "Resultados de site:pv-magazine-latam.com en Proxy Bing News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:37:44.450Z",
+          "last_known_item_date": "2026-06-30T08:00:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "electromineria",
+      "name": "Electrominería",
+      "url": "https://electromineria.cl/",
+      "category": "business",
+      "description": "Medio chileno especializado en electromovilidad y minería",
+      "feeds": [
+        {
+          "id": "electromineria-main",
+          "name": "Electrominería",
+          "rss_url": "https://electromineria.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.795Z",
+          "last_known_item_date": "2026-06-30T19:46:47.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "electromineria-panorama-energetico",
+          "name": "Electrominería - Panorama Energético",
+          "rss_url": "https://electromineria.cl/category/panorama-energetico/feed/",
+          "url": "https://electromineria.cl/category/panorama-energetico/",
+          "description": "Feed de la categoría 'Panorama Energético' en Electrominería",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.795Z",
+          "last_known_item_date": "2026-06-30T18:23:16.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "electromineria-cronica-minera-cronica-minera",
+          "name": "Electrominería - Crónica Minera",
+          "rss_url": "https://electromineria.cl/category/cronica-minera-cronica-minera/feed/",
+          "url": "https://electromineria.cl/category/cronica-minera-cronica-minera/",
+          "description": "Feed de la categoría 'Crónica Minera' en Electrominería",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.796Z",
+          "last_known_item_date": "2026-06-30T19:46:47.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "electromineria-pulso-ambiental-pulso-ambiental",
+          "name": "Electrominería - Pulso Ambiental",
+          "rss_url": "https://electromineria.cl/category/pulso-ambiental-pulso-ambiental/feed/",
+          "url": "https://electromineria.cl/category/pulso-ambiental-pulso-ambiental/",
+          "description": "Feed de la categoría 'Pulso Ambiental' en Electrominería",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.796Z",
+          "last_known_item_date": "2026-06-26T12:19:28.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "electromineria-nuevos-cargos",
+          "name": "Electrominería - Nuevos Cargos",
+          "rss_url": "https://electromineria.cl/category/nuevos-cargos/feed/",
+          "url": "https://electromineria.cl/category/nuevos-cargos/",
+          "description": "Feed de la categoría 'Nuevos Cargos' en Electrominería",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.796Z",
+          "last_known_item_date": "2026-06-23T16:31:51.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "electromineria-destacados",
+          "name": "Electrominería - Destacados",
+          "rss_url": "https://electromineria.cl/category/destacados/feed/",
+          "url": "https://electromineria.cl/category/destacados/",
+          "description": "Feed de la categoría 'Destacados' en Electrominería",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.796Z",
+          "last_known_item_date": "2025-06-26T00:15:37.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "electromineria-opinion",
+          "name": "Electrominería - Opinión",
+          "rss_url": "https://electromineria.cl/category/opinion/feed/",
+          "url": "https://electromineria.cl/category/opinion/",
+          "description": "Feed de la categoría 'Opinión' en Electrominería",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.796Z",
+          "last_known_item_date": "2026-06-22T14:23:31.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "electromineria-vitrina-electrominera",
+          "name": "Electrominería - Vitrina Electrominera",
+          "rss_url": "https://electromineria.cl/category/vitrina-electrominera/feed/",
+          "url": "https://electromineria.cl/category/vitrina-electrominera/",
+          "description": "Feed de la categoría 'Vitrina Electrominera' en Electrominería",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.796Z",
+          "last_known_item_date": "2026-06-17T16:49:22.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "electromineria-lupa-latinoamericana",
+          "name": "Electrominería - Lupa Latinoamericana",
+          "rss_url": "https://electromineria.cl/category/lupa-latinoamericana/feed/",
+          "url": "https://electromineria.cl/category/lupa-latinoamericana/",
+          "description": "Feed de la categoría 'Lupa Latinoamericana' en Electrominería",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.796Z",
+          "last_known_item_date": "2025-11-06T12:12:16.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "electromineria-columna-editorial",
+          "name": "Electrominería - Columna Editorial",
+          "rss_url": "https://electromineria.cl/category/columna-editorial/feed/",
+          "url": "https://electromineria.cl/category/columna-editorial/",
+          "description": "Feed de la categoría 'Columna Editorial' en Electrominería",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.797Z",
+          "last_known_item_date": "2026-05-14T12:20:00.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "electromineria-publireportajes",
+          "name": "Electrominería - Publireportajes",
+          "rss_url": "https://electromineria.cl/category/publireportajes/feed/",
+          "url": "https://electromineria.cl/category/publireportajes/",
+          "description": "Feed de la categoría 'Publireportajes' en Electrominería",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.797Z",
+          "last_known_item_date": "2026-06-15T19:41:44.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "electromineria-proxy-google-news",
+          "name": "Electrominería [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:electromineria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:electromineria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "description": "Resultados de site:electromineria.cl en Proxy Google News de noticias Chilenas",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.795Z",
+          "last_known_item_date": "2026-06-30T13:01:51.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "electromineria-proxy-bing-news",
+          "name": "Electrominería [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:electromineria.cl&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:electromineria.cl",
+          "description": "Resultados de site:electromineria.cl en Proxy Bing News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:40:23.795Z",
+          "last_known_item_date": null,
+          "status": "feed_empty",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "portal-minero",
+      "name": "Portal Minero",
+      "url": "https://www.portalminero.com/",
+      "category": "business",
+      "description": "Portal chileno de la industria minera",
+      "feeds": [
+        {
+          "id": "portal-minero-main",
+          "name": "Portal Minero",
+          "rss_url": "https://www.portalminero.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.338Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-informacion-de-negocios",
+          "name": "Portal Minero - Informacion De Negocios",
+          "rss_url": "https://www.portalminero.com/feed/?category=informacion-de-negocios",
+          "url": "https://www.portalminero.com/informacion-de-negocios/",
+          "description": "Feed de la sección 'Informacion De Negocios' en Portal Minero",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.338Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-publicidad-y-marketing",
+          "name": "Portal Minero - Publicidad Y Marketing",
+          "rss_url": "https://www.portalminero.com/feed/?category=publicidad-y-marketing",
+          "url": "https://www.portalminero.com/publicidad-y-marketing/",
+          "description": "Feed de la sección 'Publicidad Y Marketing' en Portal Minero",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.338Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-directorio-de-proveedores",
+          "name": "Portal Minero - Directorio De Proveedores",
+          "rss_url": "https://www.portalminero.com/feed/?category=directorio-de-proveedores",
+          "url": "https://www.portalminero.com/directorio-de-proveedores/",
+          "description": "Feed de la sección 'Directorio De Proveedores' en Portal Minero",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.339Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-bolsa-de-metales",
+          "name": "Portal Minero - Bolsa De Metales",
+          "rss_url": "https://www.portalminero.com/feed/?category=bolsa-de-metales",
+          "url": "https://www.portalminero.com/bolsa-de-metales/",
+          "description": "Feed de la sección 'Bolsa De Metales' en Portal Minero",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.339Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-plataforma-de-rs",
+          "name": "Portal Minero - Plataforma De Rs",
+          "rss_url": "https://www.portalminero.com/feed/?category=plataforma-de-rs",
+          "url": "https://www.portalminero.com/plataforma-de-rs/",
+          "description": "Feed de la sección 'Plataforma De Rs' en Portal Minero",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.339Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-ofertas-laborales",
+          "name": "Portal Minero - Ofertas Laborales",
+          "rss_url": "https://www.portalminero.com/feed/?category=ofertas-laborales",
+          "url": "https://www.portalminero.com/ofertas-laborales/",
+          "description": "Feed de la sección 'Ofertas Laborales' en Portal Minero",
+          "feed_type": "RSS",
+          "category": "jobs",
+          "last_checked": "2026-06-30T21:44:58.339Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-noticias",
+          "name": "Portal Minero - Noticias",
+          "rss_url": "https://www.portalminero.com/feed/?category=noticias",
+          "url": "https://www.portalminero.com/noticias/",
+          "description": "Feed de la sección 'Noticias' en Portal Minero",
+          "feed_type": "RSS",
+          "category": "news",
+          "last_checked": "2026-06-30T21:44:58.339Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-notas-de-prensa",
+          "name": "Portal Minero - Notas De Prensa",
+          "rss_url": "https://www.portalminero.com/feed/?category=notas-de-prensa",
+          "url": "https://www.portalminero.com/notas-de-prensa/",
+          "description": "Feed de la sección 'Notas De Prensa' en Portal Minero",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.339Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-columna-de-opinion",
+          "name": "Portal Minero - Columna De Opinion",
+          "rss_url": "https://www.portalminero.com/feed/?category=columna-de-opinion",
+          "url": "https://www.portalminero.com/columna-de-opinion/",
+          "description": "Feed de la sección 'Columna De Opinion' en Portal Minero",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.339Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-video-entrevista",
+          "name": "Portal Minero - Video Entrevista",
+          "rss_url": "https://www.portalminero.com/feed/?category=video-entrevista",
+          "url": "https://www.portalminero.com/video-entrevista/",
+          "description": "Feed de la sección 'Video Entrevista' en Portal Minero",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.340Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-podcast-avance",
+          "name": "Portal Minero - Podcast Avance",
+          "rss_url": "https://www.portalminero.com/feed/?category=podcast-avance",
+          "url": "https://www.portalminero.com/podcast-avance/",
+          "description": "Feed de la sección 'Podcast Avance' en Portal Minero",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.340Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-eventos",
+          "name": "Portal Minero - Eventos",
+          "rss_url": "https://www.portalminero.com/feed/?category=eventos",
+          "url": "https://www.portalminero.com/eventos/",
+          "description": "Feed de la sección 'Eventos' en Portal Minero",
+          "feed_type": "RSS",
+          "category": "community",
+          "last_checked": "2026-06-30T21:44:58.340Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-contactar",
+          "name": "Portal Minero - Contactar",
+          "rss_url": "https://www.portalminero.com/feed/?category=contactar",
+          "url": "https://www.portalminero.com/contactar/",
+          "description": "Feed de la sección 'Contactar' en Portal Minero",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.340Z",
+          "last_known_item_date": "2026-06-30T00:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-proxy-google-news",
+          "name": "Portal Minero [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:portalminero.com&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:portalminero.com&hl=es-419&gl=CL&ceid=CL:es-419",
+          "description": "Resultados de site:portalminero.com en Proxy Google News de noticias Chilenas",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.338Z",
+          "last_known_item_date": "2026-06-26T07:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "portal-minero-proxy-bing-news",
+          "name": "Portal Minero [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:portalminero.com&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:portalminero.com",
+          "description": "Resultados de site:portalminero.com en Proxy Bing News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:44:58.338Z",
+          "last_known_item_date": null,
+          "status": "feed_empty",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "el-periodico-de-la-energia",
+      "name": "El Periódico de la Energía",
+      "url": "https://elperiodicodelaenergia.com/",
+      "category": "business",
+      "description": "Noticias del sector energético en español",
+      "feeds": [
+        {
+          "id": "el-periodico-de-la-energia-main",
+          "name": "El Periódico de la Energía",
+          "rss_url": "https://elperiodicodelaenergia.com/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.520Z",
+          "last_known_item_date": "2026-06-30T14:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-opinion",
+          "name": "El Periódico de la Energía - Opinion",
+          "rss_url": "https://elperiodicodelaenergia.com/opinion/feed/",
+          "url": "https://elperiodicodelaenergia.com/opinion/",
+          "description": "Feed de la sección 'Opinion' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.520Z",
+          "last_known_item_date": "2026-06-30T06:39:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-politica-energetica",
+          "name": "El Periódico de la Energía - Politica Energetica",
+          "rss_url": "https://elperiodicodelaenergia.com/politica-energetica/feed/",
+          "url": "https://elperiodicodelaenergia.com/politica-energetica/",
+          "description": "Feed de la sección 'Politica Energetica' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.520Z",
+          "last_known_item_date": "2026-06-30T13:56:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-renovables",
+          "name": "El Periódico de la Energía - Renovables",
+          "rss_url": "https://elperiodicodelaenergia.com/renovables/feed/",
+          "url": "https://elperiodicodelaenergia.com/renovables/",
+          "description": "Feed de la sección 'Renovables' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.520Z",
+          "last_known_item_date": "2026-06-30T13:44:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-mercados",
+          "name": "El Periódico de la Energía - Mercados",
+          "rss_url": "https://elperiodicodelaenergia.com/mercados/feed/",
+          "url": "https://elperiodicodelaenergia.com/mercados/",
+          "description": "Feed de la sección 'Mercados' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "category": "business",
+          "last_checked": "2026-06-30T21:49:16.520Z",
+          "last_known_item_date": "2026-06-30T13:48:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-electricas",
+          "name": "El Periódico de la Energía - Electricas",
+          "rss_url": "https://elperiodicodelaenergia.com/electricas/feed/",
+          "url": "https://elperiodicodelaenergia.com/electricas/",
+          "description": "Feed de la sección 'Electricas' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.521Z",
+          "last_known_item_date": "2026-06-30T10:15:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-petroleo-gas",
+          "name": "El Periódico de la Energía - Petroleo Gas",
+          "rss_url": "https://elperiodicodelaenergia.com/petroleo-gas/feed/",
+          "url": "https://elperiodicodelaenergia.com/petroleo-gas/",
+          "description": "Feed de la sección 'Petroleo Gas' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.521Z",
+          "last_known_item_date": "2026-06-30T13:53:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-videopodcast",
+          "name": "El Periódico de la Energía - Videopodcast",
+          "rss_url": "https://elperiodicodelaenergia.com/videopodcast/feed/",
+          "url": "https://elperiodicodelaenergia.com/videopodcast/",
+          "description": "Feed de la sección 'Videopodcast' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.521Z",
+          "last_known_item_date": "2026-04-15T06:42:00.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "el-periodico-de-la-energia-net-zero",
+          "name": "El Periódico de la Energía - Net Zero",
+          "rss_url": "https://elperiodicodelaenergia.com/net-zero/feed/",
+          "url": "https://elperiodicodelaenergia.com/net-zero/",
+          "description": "Feed de la sección 'Net Zero' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.521Z",
+          "last_known_item_date": "2026-06-30T13:56:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-movilidad",
+          "name": "El Periódico de la Energía - Movilidad",
+          "rss_url": "https://elperiodicodelaenergia.com/movilidad/feed/",
+          "url": "https://elperiodicodelaenergia.com/movilidad/",
+          "description": "Feed de la sección 'Movilidad' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.521Z",
+          "last_known_item_date": "2026-06-30T14:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-almacenamiento",
+          "name": "El Periódico de la Energía - Almacenamiento",
+          "rss_url": "https://elperiodicodelaenergia.com/almacenamiento/feed/",
+          "url": "https://elperiodicodelaenergia.com/almacenamiento/",
+          "description": "Feed de la sección 'Almacenamiento' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.521Z",
+          "last_known_item_date": "2026-06-29T03:32:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-startups",
+          "name": "El Periódico de la Energía - Startups",
+          "rss_url": "https://elperiodicodelaenergia.com/startups/feed/",
+          "url": "https://elperiodicodelaenergia.com/startups/",
+          "description": "Feed de la sección 'Startups' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.521Z",
+          "last_known_item_date": "2026-06-24T10:42:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-hidrogeno",
+          "name": "El Periódico de la Energía - Hidrogeno",
+          "rss_url": "https://elperiodicodelaenergia.com/hidrogeno/feed/",
+          "url": "https://elperiodicodelaenergia.com/hidrogeno/",
+          "description": "Feed de la sección 'Hidrogeno' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.522Z",
+          "last_known_item_date": "2026-06-30T13:50:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-top-ten",
+          "name": "El Periódico de la Energía - Top Ten",
+          "rss_url": "https://elperiodicodelaenergia.com/top-ten/feed/",
+          "url": "https://elperiodicodelaenergia.com/top-ten/",
+          "description": "Feed de la sección 'Top Ten' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.522Z",
+          "last_known_item_date": "2026-06-12T05:10:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-tech",
+          "name": "El Periódico de la Energía - Tech",
+          "rss_url": "https://elperiodicodelaenergia.com/tech/feed/",
+          "url": "https://elperiodicodelaenergia.com/tech/",
+          "description": "Feed de la sección 'Tech' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "category": "technology",
+          "last_checked": "2026-06-30T21:49:16.522Z",
+          "last_known_item_date": "2026-06-29T14:39:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-bioenergia",
+          "name": "El Periódico de la Energía - Bioenergia",
+          "rss_url": "https://elperiodicodelaenergia.com/bioenergia/feed/",
+          "url": "https://elperiodicodelaenergia.com/bioenergia/",
+          "description": "Feed de la sección 'Bioenergia' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.522Z",
+          "last_known_item_date": "2026-06-30T08:48:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-latam",
+          "name": "El Periódico de la Energía - Latam",
+          "rss_url": "https://elperiodicodelaenergia.com/latam/feed/",
+          "url": "https://elperiodicodelaenergia.com/latam/",
+          "description": "Feed de la sección 'Latam' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.522Z",
+          "last_known_item_date": "2026-06-30T08:36:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-eficiencia",
+          "name": "El Periódico de la Energía - Eficiencia",
+          "rss_url": "https://elperiodicodelaenergia.com/eficiencia/feed/",
+          "url": "https://elperiodicodelaenergia.com/eficiencia/",
+          "description": "Feed de la sección 'Eficiencia' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.522Z",
+          "last_known_item_date": "2026-06-29T12:29:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-digitalizacion",
+          "name": "El Periódico de la Energía - Digitalizacion",
+          "rss_url": "https://elperiodicodelaenergia.com/digitalizacion/feed/",
+          "url": "https://elperiodicodelaenergia.com/digitalizacion/",
+          "description": "Feed de la sección 'Digitalizacion' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.522Z",
+          "last_known_item_date": "2026-06-30T10:10:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-eventos",
+          "name": "El Periódico de la Energía - Eventos",
+          "rss_url": "https://elperiodicodelaenergia.com/eventos/feed/",
+          "url": "https://elperiodicodelaenergia.com/eventos/",
+          "description": "Feed de la sección 'Eventos' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "category": "community",
+          "last_checked": "2026-06-30T21:49:16.522Z",
+          "last_known_item_date": "2026-06-24T08:18:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-especiales",
+          "name": "El Periódico de la Energía - Especiales",
+          "rss_url": "https://elperiodicodelaenergia.com/especiales/feed/",
+          "url": "https://elperiodicodelaenergia.com/especiales/",
+          "description": "Feed de la sección 'Especiales' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.522Z",
+          "last_known_item_date": "2026-06-23T11:42:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-media-kit",
+          "name": "El Periódico de la Energía - Media Kit",
+          "rss_url": "https://elperiodicodelaenergia.com/feed/?category=media-kit",
+          "url": "https://elperiodicodelaenergia.com/media-kit/",
+          "description": "Feed de la sección 'Media Kit' en El Periódico de la Energía",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.522Z",
+          "last_known_item_date": "2026-06-30T14:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-proxy-google-news",
+          "name": "El Periódico de la Energía [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:elperiodicodelaenergia.com&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:elperiodicodelaenergia.com&hl=es-419&gl=CL&ceid=CL:es-419",
+          "description": "Resultados de site:elperiodicodelaenergia.com en Proxy Google News de noticias Chilenas",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.523Z",
+          "last_known_item_date": "2026-06-29T14:03:31.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "el-periodico-de-la-energia-proxy-bing-news",
+          "name": "El Periódico de la Energía [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:elperiodicodelaenergia.com&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:elperiodicodelaenergia.com",
+          "description": "Resultados de site:elperiodicodelaenergia.com en Proxy Bing News",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-30T21:49:16.523Z",
+          "last_known_item_date": null,
+          "status": "feed_empty",
+          "verified": false
         }
       ]
     }

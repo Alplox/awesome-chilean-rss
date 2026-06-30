@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (20 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (21 feeds)</title>
     <description>Feeds RSS de 💼 Ofertas laborales y empleabilidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
+    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -24,6 +24,7 @@
     <outline type="rss" text="Linares en Línea - Laboral" title="Linares en Línea - Laboral" description="Feed de la categoría 'Laboral' en Linares en Línea" xmlUrl="https://www.linaresenlinea.cl/category/laboral/feed/" htmlUrl="https://www.linaresenlinea.cl/category/laboral/"/>
     <outline type="rss" text="Ministerio de Educación - Trabaje Con Nosotros" title="Ministerio de Educación - Trabaje Con Nosotros" description="Feed de la sección 'Trabaje Con Nosotros' en Ministerio de Educación" xmlUrl="https://www.mineduc.cl/feed/?category=trabaje-con-nosotros" htmlUrl="https://www.mineduc.cl/trabaje-con-nosotros/"/>
     <outline type="rss" text="Portal Metropolitano - Trabajo" title="Portal Metropolitano - Trabajo" description="Feed de la categoría 'Trabajo' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/trabajo/feed/" htmlUrl="https://portalmetropolitano.cl/category/trabajo/"/>
+    <outline type="rss" text="Portal Minero - Ofertas Laborales" title="Portal Minero - Ofertas Laborales" description="Feed de la sección 'Ofertas Laborales' en Portal Minero" xmlUrl="https://www.portalminero.com/feed/?category=ofertas-laborales" htmlUrl="https://www.portalminero.com/ofertas-laborales/"/>
     <outline type="rss" text="Radio Festival - Bolsa Del Trabajo" title="Radio Festival - Bolsa Del Trabajo" description="Feed de la sección 'Bolsa Del Trabajo' en Radio Festival" xmlUrl="https://www.radiofestival.cl/feed/?category=bolsa-del-trabajo" htmlUrl="https://www.radiofestival.cl/bolsa-del-trabajo/"/>
     <outline type="rss" text="REDIMIN - Laboral" title="REDIMIN - Laboral" description="Feed de la categoría 'Laboral' en REDIMIN" xmlUrl="https://www.redimin.cl/categoria/laboral/feed/" htmlUrl="https://www.redimin.cl/categoria/laboral/"/>
     <outline type="rss" text="Temuco Diario - Trabajo" title="Temuco Diario - Trabajo" description="Feed de la categoría 'Trabajo' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/trabajo/feed/" htmlUrl="https://temucodiario.cl/category/trabajo/"/>

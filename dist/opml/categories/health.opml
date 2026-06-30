@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (111 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (112 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
+    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -28,6 +28,7 @@
     <outline type="rss" text="Diario La Región - Salud" title="Diario La Región - Salud" description="Feed de la categoría 'Salud' en Diario La Región" xmlUrl="https://www.diariolaregion.cl/category/salud/feed/" htmlUrl="https://www.diariolaregion.cl/category/salud/"/>
     <outline type="rss" text="Diario Los Lagos - Salud" title="Diario Los Lagos - Salud" description="Feed de la categoría 'Salud' en Diario Los Lagos" xmlUrl="https://diarioloslagos.cl/category/noticias/salud/feed/" htmlUrl="https://diarioloslagos.cl/category/noticias/salud/"/>
     <outline type="rss" text="Diario Puerto Varas - Cultura y Vida Sana" title="Diario Puerto Varas - Cultura y Vida Sana" description="Feed de la categoría 'Cultura y Vida Sana' en Diario Puerto Varas" xmlUrl="https://diariopuertovaras.cl/category/cultura-vida-sana/feed/" htmlUrl="https://diariopuertovaras.cl/category/cultura-vida-sana/"/>
+    <outline type="rss" text="DPL News - Salud" title="DPL News - Salud" description="Feed de la categoría 'Salud' en DPL News" xmlUrl="https://dplnews.com/category/transformacion-digital/salud/feed/" htmlUrl="https://dplnews.com/category/transformacion-digital/salud/"/>
     <outline type="rss" text="El Calbucano - Salud" title="El Calbucano - Salud" description="Feed de la categoría 'Salud' en El Calbucano" xmlUrl="https://www.elcalbucano.cl/cat/salud/feed/" htmlUrl="https://www.elcalbucano.cl/cat/salud/"/>
     <outline type="rss" text="El Ciudadano - Alimentación" title="El Ciudadano - Alimentación" description="Feed de la categoría 'Alimentación' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/alimentacion/feed/" htmlUrl="https://www.elciudadano.com/noticias/alimentacion/"/>
     <outline type="rss" text="El Ciudadano - Salud" title="El Ciudadano - Salud" description="Feed de la categoría 'Salud' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/salud/feed/" htmlUrl="https://www.elciudadano.com/noticias/salud/"/>

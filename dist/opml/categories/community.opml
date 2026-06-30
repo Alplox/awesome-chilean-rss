@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (170 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (172 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
+    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -99,6 +99,7 @@
     <outline type="rss" text="El Noticiero del Huasco - Turismo" title="El Noticiero del Huasco - Turismo" description="Feed de la categoría 'Turismo' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/turismo/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/turismo/"/>
     <outline type="rss" text="El Ovallino - Social" title="El Ovallino - Social" description="Feed de la categoría 'Social' en El Ovallino" xmlUrl="https://www.elovallino.cl/category/social/feed/" htmlUrl="https://www.elovallino.cl/category/social/"/>
     <outline type="rss" text="El Periódico - Foto Denuncia" title="El Periódico - Foto Denuncia" description="Feed de la categoría 'Foto Denuncia' en El Periódico" xmlUrl="https://elperiodico.cl/category/foto-denuncia/feed/" htmlUrl="https://elperiodico.cl/category/foto-denuncia/"/>
+    <outline type="rss" text="El Periódico de la Energía - Eventos" title="El Periódico de la Energía - Eventos" description="Feed de la sección 'Eventos' en El Periódico de la Energía" xmlUrl="https://elperiodicodelaenergia.com/eventos/feed/" htmlUrl="https://elperiodicodelaenergia.com/eventos/"/>
     <outline type="rss" text="El Quinto Poder - Sociedad" title="El Quinto Poder - Sociedad" description="Feed de la categoría 'Sociedad' en El Quinto Poder" xmlUrl="https://elquintopoder.cl/temas/sociedad/feed/" htmlUrl="https://elquintopoder.cl/temas/sociedad/"/>
     <outline type="rss" text="El Urbano Rural - Social" title="El Urbano Rural - Social" description="Feed de la categoría 'Social' en El Urbano Rural" xmlUrl="https://elurbanorural.cl/category/social/feed/" htmlUrl="https://elurbanorural.cl/category/social/"/>
     <outline type="rss" text="El Urbano Rural - Turismo" title="El Urbano Rural - Turismo" description="Feed de la categoría 'Turismo' en El Urbano Rural" xmlUrl="https://elurbanorural.cl/category/turismo/feed/" htmlUrl="https://elurbanorural.cl/category/turismo/"/>
@@ -143,6 +144,7 @@
     <outline type="rss" text="Portal Metropolitano - Festivales" title="Portal Metropolitano - Festivales" description="Feed de la categoría 'Festivales' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/festivales/feed/" htmlUrl="https://portalmetropolitano.cl/category/festivales/"/>
     <outline type="rss" text="Portal Metropolitano - Sociedad" title="Portal Metropolitano - Sociedad" description="Feed de la categoría 'Sociedad' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/sociedad/feed/" htmlUrl="https://portalmetropolitano.cl/category/sociedad/"/>
     <outline type="rss" text="Portal Metropolitano - Turismo" title="Portal Metropolitano - Turismo" description="Feed de la categoría 'Turismo' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/turismo/feed/" htmlUrl="https://portalmetropolitano.cl/category/turismo/"/>
+    <outline type="rss" text="Portal Minero - Eventos" title="Portal Minero - Eventos" description="Feed de la sección 'Eventos' en Portal Minero" xmlUrl="https://www.portalminero.com/feed/?category=eventos" htmlUrl="https://www.portalminero.com/eventos/"/>
     <outline type="rss" text="Portal Red Salud -  Eventos" title="Portal Red Salud -  Eventos" description="Feed de la categoría ' Eventos' en Portal Red Salud" xmlUrl="https://portalredsalud.cl/category/eventos/feed/" htmlUrl="https://portalredsalud.cl/category/eventos/"/>
     <outline type="rss" text="Publimetro Chile - Social" title="Publimetro Chile - Social" description="Feed de la categoría 'Social' en Publimetro Chile" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/social/?outputType=xml" htmlUrl="https://www.publimetro.cl/category/social/"/>
     <outline type="rss" text="r/Chile" title="r/Chile" description="Feed de la sección 'r/Chile' en Reddit" xmlUrl="https://www.reddit.com/r/chile/.rss" htmlUrl="https://www.reddit.com/r/chile/"/>
