@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (122 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (123 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-26T23:33:52.552Z</dateCreated>
+    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -86,6 +86,7 @@
     <outline type="rss" text="Radio Nuevo Mundo - Internacional" title="Radio Nuevo Mundo - Internacional" description="Feed de la categoría 'Internacional' en Radio Nuevo Mundo" xmlUrl="https://radionuevomundo.cl/categoria/internacional/feed/" htmlUrl="https://radionuevomundo.cl/categoria/internacional/"/>
     <outline type="rss" text="Radio Paulina - Internacional" title="Radio Paulina - Internacional" description="Feed de la categoría 'Internacional' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/internacional/feed/" htmlUrl="https://radiopaulina.cl/category/internacional/"/>
     <outline type="rss" text="Radio Valparaíso - Internacional" title="Radio Valparaíso - Internacional" description="Feed de la categoría 'Internacional' en Radio Valparaíso" xmlUrl="https://radiovalparaiso.cl/categoria/internacional/feed/" htmlUrl="https://radiovalparaiso.cl/categoria/internacional/"/>
+    <outline type="rss" text="REDIMIN - Mundo" title="REDIMIN - Mundo" description="Feed de la categoría 'Mundo' en REDIMIN" xmlUrl="https://www.redimin.cl/categoria/mundo/feed/" htmlUrl="https://www.redimin.cl/categoria/mundo/"/>
     <outline type="rss" text="Sera Noticia - Internacional" title="Sera Noticia - Internacional" description="Feed de la categoría 'Internacional' en Sera Noticia" xmlUrl="https://seranoticia.cl/internacional/feed/" htmlUrl="https://seranoticia.cl/internacional/"/>
     <outline type="rss" text="Tarapacá Online - Internacional" title="Tarapacá Online - Internacional" description="Feed de la categoría 'Internacional' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/internacional/feed/" htmlUrl="https://tarapacaonline.cl/category/internacional/"/>
     <outline type="rss" text="Terra - Mundo" title="Terra - Mundo" description="Feed de la sección 'Mundo' en Terra Chile" xmlUrl="https://www.terra.cl/rss/feed.html?r=2" htmlUrl="https://www.terra.cl"/>

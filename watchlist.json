@@ -9798,5 +9798,65 @@
       }
     ],
     "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "pauta",
+    "name": "Radio Pauta",
+    "url": "https://www.pauta.cl/",
+    "category": "news",
+    "description": "Radioemisora chilena con programación informativa, de análisis y actualidad",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "pauta-proxy-google-news",
+        "name": "Radio Pauta [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:pauta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:pauta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:pauta.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "pauta-proxy-bing-news",
+        "name": "Radio Pauta [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:pauta.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:pauta.cl",
+        "description": "Resultados de site:pauta.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "minrel",
+    "name": "Ministerio de Relaciones Exteriores",
+    "url": "https://www.minrel.gob.cl/",
+    "category": "government",
+    "description": "Ministerio de Relaciones Exteriores de Chile - política exterior, embajadas y servicios consulares",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "minrel-proxy-google-news",
+        "name": "Ministerio de Relaciones Exteriores [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:minrel.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:minrel.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:minrel.gob.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "minrel-proxy-bing-news",
+        "name": "Ministerio de Relaciones Exteriores [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:minrel.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:minrel.gob.cl",
+        "description": "Resultados de site:minrel.gob.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      }
+    ]
   }
 ]

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Atacama (142 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Atacama (144 feeds)</title>
     <description>Feeds RSS de la Región de Atacama, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-26T23:33:52.552Z</dateCreated>
+    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -86,6 +86,8 @@
     <outline type="rss" text="Enfoque Digital - Tendencias" title="Enfoque Digital - Tendencias" description="Feed de la categoría 'Tendencias' en Enfoque Digital" xmlUrl="https://enfoquedigital.cl/categorias/tendencias/feed/" htmlUrl="https://enfoquedigital.cl/categorias/tendencias/"/>
     <outline type="rss" text="Enfoque Digital [Proxy Google News]" title="Enfoque Digital [Proxy Google News]" description="Resultados de site:enfoquedigital.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:enfoquedigital.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:enfoquedigital.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Región Atacama" title="Google News - Chile - Región Atacama" description="Noticias locales de la Región de Atacama vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Copiap%C3%B3?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Copiap%C3%B3?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Radio Atacama" title="Radio Atacama" description="Radioemisora de la Región de Atacama con noticias regionales, nacionales y deportivas" xmlUrl="https://www.radioatacama.cl/rss/feed" htmlUrl="https://www.radioatacama.cl/"/>
+    <outline type="rss" text="Radio Atacama [Proxy Google News]" title="Radio Atacama [Proxy Google News]" description="Resultados de site:radioatacama.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radioatacama.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radioatacama.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Radio Maray" title="Radio Maray" description="Medio de comunicación de la Región de Atacama" xmlUrl="https://www.maray.cl/feed" htmlUrl="https://www.maray.cl"/>
     <outline type="rss" text="Radio Maray - Atacama" title="Radio Maray - Atacama" description="Feed de la categoría 'Atacama' en Radio Maray" xmlUrl="https://www.maray.cl/category/atacama/feed/" htmlUrl="https://www.maray.cl/category/atacama/"/>
     <outline type="rss" text="Radio Maray - Ciencia y Tecnología" title="Radio Maray - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Radio Maray" xmlUrl="https://www.maray.cl/category/ciencia-tecnologia/feed/" htmlUrl="https://www.maray.cl/category/ciencia-tecnologia/"/>

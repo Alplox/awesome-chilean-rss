@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (170 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (171 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-26T23:33:52.552Z</dateCreated>
+    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -90,6 +90,7 @@
     <outline type="rss" text="Hora de Noticias - Deporte" title="Hora de Noticias - Deporte" description="Feed de la categoría 'Deporte' en Hora de Noticias" xmlUrl="https://horadenoticias.cl/seccion/deporte/feed/" htmlUrl="https://horadenoticias.cl/seccion/deporte/"/>
     <outline type="rss" text="Informa Al Minuto - Deportes" title="Informa Al Minuto - Deportes" description="Feed de la categoría 'Deportes' en Informa Al Minuto" xmlUrl="https://informaalminuto.cl/category/deportes/feed/" htmlUrl="https://informaalminuto.cl/category/deportes/"/>
     <outline type="rss" text="Iquique TV - Deportes" title="Iquique TV - Deportes" description="Feed de la categoría 'Deportes' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/deportes/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/deportes/"/>
+    <outline type="rss" text="La Batalla de Maipú - Deportes" title="La Batalla de Maipú - Deportes" description="Feed de la categoría 'Deportes' en La Batalla de Maipú" xmlUrl="https://www.labatalla.cl/secciones/deportes/feed/" htmlUrl="https://www.labatalla.cl/secciones/deportes/"/>
     <outline type="rss" text="La Cuarta - Deportes" title="La Cuarta - Deportes" description="Feed de la categoría 'Deportes' en La Cuarta" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml" htmlUrl="https://www.lacuarta.com/category/deportes/"/>
     <outline type="rss" text="La Discusión - Deporte" title="La Discusión - Deporte" description="Feed de la categoría 'Deporte' en La Discusión" xmlUrl="https://ladiscusion.cl/category/deporte/feed/" htmlUrl="https://ladiscusion.cl/category/deporte/"/>
     <outline type="rss" text="La Fontana - Deportes" title="La Fontana - Deportes" description="Feed de la categoría 'Deportes' en La Fontana" xmlUrl="https://lafontana.cl/category/deportes/feed/" htmlUrl="https://lafontana.cl/category/deportes/"/>

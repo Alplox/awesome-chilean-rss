@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (107 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (108 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-26T23:33:52.552Z</dateCreated>
+    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -101,6 +101,7 @@
     <outline type="rss" text="Radio Festival - Medio Ambiente" title="Radio Festival - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Radio Festival" xmlUrl="https://www.radiofestival.cl/category/medio-ambiente/feed/" htmlUrl="https://www.radiofestival.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Radio Festival - Naturaleza" title="Radio Festival - Naturaleza" description="Feed de la categoría 'Naturaleza' en Radio Festival" xmlUrl="https://www.radiofestival.cl/category/naturaleza/feed/" htmlUrl="https://www.radiofestival.cl/category/naturaleza/"/>
     <outline type="rss" text="Radio UdeC - Medio Ambiente" title="Radio UdeC - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/medio-ambiente/feed/" htmlUrl="https://www.radioudec.cl/category/medio-ambiente/"/>
+    <outline type="rss" text="REDIMIN - Medio Ambiente" title="REDIMIN - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en REDIMIN" xmlUrl="https://www.redimin.cl/categoria/medio-ambiente/feed/" htmlUrl="https://www.redimin.cl/categoria/medio-ambiente/"/>
     <outline type="rss" text="Río en Línea - Medio Ambiente" title="Río en Línea - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/medio-ambiente/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/medio-ambiente/"/>
     <outline type="rss" text="Supervivencia y Desastres - Clima" title="Supervivencia y Desastres - Clima" description="Feed de la categoría 'Clima' en Supervivencia y Desastres" xmlUrl="https://www.supervivencia-y-desastres.cl/category/clima/feed/" htmlUrl="https://www.supervivencia-y-desastres.cl/category/clima/"/>
     <outline type="rss" text="Temuco Diario - Agricultura" title="Temuco Diario - Agricultura" description="Feed de la categoría 'Agricultura' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/agricultura/feed/" htmlUrl="https://temucodiario.cl/category/agricultura/"/>

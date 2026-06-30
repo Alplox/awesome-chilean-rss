@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (151 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (155 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-26T23:33:52.552Z</dateCreated>
+    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -54,6 +54,9 @@
     <outline type="rss" text="CriptoNoticias Chile - Eventos" title="CriptoNoticias Chile - Eventos" description="Feed de la categoría 'Eventos' en CriptoNoticias Chile" xmlUrl="https://www.criptonoticias.com/categorias/comunidad/eventos/feed/" htmlUrl="https://www.criptonoticias.com/categorias/comunidad/eventos/"/>
     <outline type="rss" text="Cupones Chile" title="Cupones Chile" description="Sitio chileno de ofertas, descuentos y cupones de compras online" xmlUrl="https://www.cuponeschile.cl/feed/" htmlUrl="https://www.cuponeschile.cl"/>
     <outline type="rss" text="Cupones Chile [Proxy Google News]" title="Cupones Chile [Proxy Google News]" description="Resultados de site:cuponeschile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cuponeschile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cuponeschile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="CUT (Central Unitaria de Trabajadores de Chile)" title="CUT (Central Unitaria de Trabajadores de Chile)" description="Central sindical que representa a trabajadores del sector público y privado en Chile" xmlUrl="https://cut.cl/web/feed/" htmlUrl="https://cut.cl/web/"/>
+    <outline type="rss" text="CUT (Central Unitaria de Trabajadores de Chile) - Portada" title="CUT (Central Unitaria de Trabajadores de Chile) - Portada" description="Feed de la categoría 'Portada' en CUT (Central Unitaria de Trabajadores de Chile)" xmlUrl="https://cut.cl/web/category/portada/feed/" htmlUrl="https://cut.cl/web/category/portada/"/>
+    <outline type="rss" text="CUT (Central Unitaria de Trabajadores de Chile) [Proxy Google News]" title="CUT (Central Unitaria de Trabajadores de Chile) [Proxy Google News]" description="Resultados de site:cut.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cut.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cut.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diálogo Sur - Turismo" title="Diálogo Sur - Turismo" description="Feed de la categoría 'Turismo' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/turismo/feed/" htmlUrl="https://dialogosur.cl/category/turismo/"/>
     <outline type="rss" text="Diario Antofagasta - Panoramas" title="Diario Antofagasta - Panoramas" description="Feed de la categoría 'Panoramas' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/panoramas/feed/" htmlUrl="https://www.diarioantofagasta.cl/panoramas/"/>
     <outline type="rss" text="Diario El Centro - Efeméride" title="Diario El Centro - Efeméride" description="Feed de la categoría 'Efeméride' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/efemeride/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/efemeride/"/>
@@ -106,6 +109,7 @@
     <outline type="rss" text="Iquique TV - Sociedad" title="Iquique TV - Sociedad" description="Feed de la categoría 'Sociedad' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/sociedad/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/sociedad/"/>
     <outline type="rss" text="Iquique TV - Turismo" title="Iquique TV - Turismo" description="Feed de la categoría 'Turismo' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/turismo/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/turismo/"/>
     <outline type="rss" text="ITseller Chile - Eventos" title="ITseller Chile - Eventos" description="Feed de la categoría 'Eventos' en ITseller Chile" xmlUrl="https://www.itseller.cl/category/transversales/eventos/feed/" htmlUrl="https://www.itseller.cl/category/transversales/eventos/"/>
+    <outline type="rss" text="La Batalla de Maipú - Comunidad" title="La Batalla de Maipú - Comunidad" description="Feed de la categoría 'Comunidad' en La Batalla de Maipú" xmlUrl="https://www.labatalla.cl/secciones/comunidad/feed/" htmlUrl="https://www.labatalla.cl/secciones/comunidad/"/>
     <outline type="rss" text="La Nación - Panoramas" title="La Nación - Panoramas" description="Feed de la sección 'Panoramas' en La Nación" xmlUrl="https://www.lanacion.cl/feed/?category=panoramas" htmlUrl="https://www.lanacion.cl/panoramas/"/>
     <outline type="rss" text="La Noticia - Social" title="La Noticia - Social" description="Feed de la categoría 'Social' en La Noticia" xmlUrl="https://lanoticia.cl/category/social/feed/" htmlUrl="https://lanoticia.cl/category/social/"/>
     <outline type="rss" text="La Noticia - Turismo" title="La Noticia - Turismo" description="Feed de la categoría 'Turismo' en La Noticia" xmlUrl="https://lanoticia.cl/category/turismo/feed/" htmlUrl="https://lanoticia.cl/category/turismo/"/>

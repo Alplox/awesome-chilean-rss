@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (75 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (76 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-26T23:33:52.552Z</dateCreated>
+    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -48,6 +48,7 @@
     <outline type="rss" text="Google News - Chile - Sección Salud" title="Google News - Chile - Sección Salud" description="Sección Salud de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNR3QwTlRFU0JtVnpMVFF4T1NnQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNR3QwTlRFU0JtVnpMVFF4T1NnQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Hora de Noticias - Salud" title="Hora de Noticias - Salud" description="Feed de la categoría 'Salud' en Hora de Noticias" xmlUrl="https://horadenoticias.cl/seccion/salud/feed/" htmlUrl="https://horadenoticias.cl/seccion/salud/"/>
     <outline type="rss" text="Iquique TV - Salud" title="Iquique TV - Salud" description="Feed de la categoría 'Salud' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/salud/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/salud/"/>
+    <outline type="rss" text="La Batalla de Maipú - Salud" title="La Batalla de Maipú - Salud" description="Feed de la categoría 'Salud' en La Batalla de Maipú" xmlUrl="https://www.labatalla.cl/secciones/salud/feed/" htmlUrl="https://www.labatalla.cl/secciones/salud/"/>
     <outline type="rss" text="La Fontana - Salud" title="La Fontana - Salud" description="Feed de la categoría 'Salud' en La Fontana" xmlUrl="https://lafontana.cl/category/salud/feed/" htmlUrl="https://lafontana.cl/category/salud/"/>
     <outline type="rss" text="La Noticia - Salud" title="La Noticia - Salud" description="Feed de la categoría 'Salud' en La Noticia" xmlUrl="https://lanoticia.cl/category/salud/feed/" htmlUrl="https://lanoticia.cl/category/salud/"/>
     <outline type="rss" text="La Opinión de Chiloé - Salud" title="La Opinión de Chiloé - Salud" description="Feed de la categoría 'Salud' en La Opinión de Chiloé" xmlUrl="https://laopiniondechiloe.cl/category/salud/feed/" htmlUrl="https://laopiniondechiloe.cl/category/salud/"/>

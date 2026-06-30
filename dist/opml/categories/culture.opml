@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (107 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (108 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-26T23:33:52.552Z</dateCreated>
+    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -69,6 +69,7 @@
     <outline type="rss" text="Informa Al Minuto - Cultura" title="Informa Al Minuto - Cultura" description="Feed de la categoría 'Cultura' en Informa Al Minuto" xmlUrl="https://informaalminuto.cl/category/cultura/feed/" htmlUrl="https://informaalminuto.cl/category/cultura/"/>
     <outline type="rss" text="Iquique TV - Arte" title="Iquique TV - Arte" description="Feed de la categoría 'Arte' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/arte/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/arte/"/>
     <outline type="rss" text="Iquique TV - Cultura" title="Iquique TV - Cultura" description="Feed de la categoría 'Cultura' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/cultura/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/cultura/"/>
+    <outline type="rss" text="La Batalla de Maipú - Arte Y Cultura" title="La Batalla de Maipú - Arte Y Cultura" description="Feed de la categoría 'Arte Y Cultura' en La Batalla de Maipú" xmlUrl="https://www.labatalla.cl/secciones/cultura/feed/" htmlUrl="https://www.labatalla.cl/secciones/cultura/"/>
     <outline type="rss" text="La Discusión - Cultura" title="La Discusión - Cultura" description="Feed de la categoría 'Cultura' en La Discusión" xmlUrl="https://ladiscusion.cl/category/cultura/feed/" htmlUrl="https://ladiscusion.cl/category/cultura/"/>
     <outline type="rss" text="La Discusión - Culturac" title="La Discusión - Culturac" description="Feed de la categoría 'Culturac' en La Discusión" xmlUrl="https://ladiscusion.cl/category/culturac/feed/" htmlUrl="https://ladiscusion.cl/category/culturac/"/>
     <outline type="rss" text="La Fontana - Cultura y Espectáculo" title="La Fontana - Cultura y Espectáculo" description="Feed de la categoría 'Cultura y Espectáculo' en La Fontana" xmlUrl="https://lafontana.cl/category/cultura-y-espectaculo/feed/" htmlUrl="https://lafontana.cl/category/cultura-y-espectaculo/"/>
