@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (76 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (78 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
+    <dateCreated>2026-06-30T02:14:07.282Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -59,6 +59,7 @@
     <outline type="rss" text="Las Noticias de Malleco - Salud" title="Las Noticias de Malleco - Salud" description="Feed de la categoría 'Salud' en Las Noticias de Malleco" xmlUrl="https://lasnoticiasdemalleco.cl/category/salud/feed/" htmlUrl="https://lasnoticiasdemalleco.cl/category/salud/"/>
     <outline type="rss" text="Linares en Línea - Salud" title="Linares en Línea - Salud" description="Feed de la categoría 'Salud' en Linares en Línea" xmlUrl="https://www.linaresenlinea.cl/category/salud/feed/" htmlUrl="https://www.linaresenlinea.cl/category/salud/"/>
     <outline type="rss" text="Los Ríos Noticias - Salud" title="Los Ríos Noticias - Salud" description="Feed de la categoría 'Salud' en Los Ríos Noticias" xmlUrl="https://www.losriosnoticias.cl/category/salud/feed/" htmlUrl="https://www.losriosnoticias.cl/category/salud/"/>
+    <outline type="rss" text="Mirada Sur TV - Salud, Ciencia Y Tecnologia" title="Mirada Sur TV - Salud, Ciencia Y Tecnologia" description="Feed de la categoría 'Salud, Ciencia Y Tecnologia' en Mirada Sur TV" xmlUrl="https://miradasurtv.cl/category/salud/feed/" htmlUrl="https://miradasurtv.cl/category/salud/"/>
     <outline type="rss" text="Noticias Biobío - Salud" title="Noticias Biobío - Salud" description="Feed de la categoría 'Salud' en Noticias Biobío" xmlUrl="https://noticiasbiobio.cl/category/salud/feed/" htmlUrl="https://noticiasbiobio.cl/category/salud/"/>
     <outline type="rss" text="Noticias Los Ríos - Salud" title="Noticias Los Ríos - Salud" description="Feed de la categoría 'Salud' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/salud/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/salud/"/>
     <outline type="rss" text="Ovalle Hoy - Salud" title="Ovalle Hoy - Salud" description="Feed de la categoría 'Salud' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/salud/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/salud/"/>
@@ -66,6 +67,7 @@
     <outline type="rss" text="Pediatría y Salud - General" title="Pediatría y Salud - General" description="Feed de la categoría 'General' en Pediatría y Salud" xmlUrl="https://pediatriaysalud.cl/category/general/feed/" htmlUrl="https://pediatriaysalud.cl/category/general/"/>
     <outline type="rss" text="Pediatría y Salud [Proxy Google News]" title="Pediatría y Salud [Proxy Google News]" description="Resultados de site:pediatriaysalud.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pediatriaysalud.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pediatriaysalud.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Piensa Chile - Salud" title="Piensa Chile - Salud" description="Feed de la categoría 'Salud' en Piensa Chile" xmlUrl="https://piensachile.com/category/salud-3/feed/" htmlUrl="https://piensachile.com/category/salud-3/"/>
+    <outline type="rss" text="Publimicro - Salud" title="Publimicro - Salud" description="Feed de la categoría 'Salud' en Publimicro" xmlUrl="https://publimicro.cl/contenidos-noticias/salud/feed/" htmlUrl="https://publimicro.cl/contenidos-noticias/salud/"/>
     <outline type="rss" text="Radio Magallanes - Salud" title="Radio Magallanes - Salud" description="Feed de la categoría 'Salud' en Radio Magallanes" xmlUrl="https://radiomagallanes.cl/category/salud/feed/" htmlUrl="https://radiomagallanes.cl/category/salud/"/>
     <outline type="rss" text="Radio Maray - Vida y Salud" title="Radio Maray - Vida y Salud" description="Feed de la categoría 'Vida y Salud' en Radio Maray" xmlUrl="https://www.maray.cl/category/vida-salud/feed/" htmlUrl="https://www.maray.cl/category/vida-salud/"/>
     <outline type="rss" text="Radio Santa María - Salud" title="Radio Santa María - Salud" description="Feed de la categoría 'Salud' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/salud/feed/" htmlUrl="https://www.radiosantamaria.cl/category/salud/"/>

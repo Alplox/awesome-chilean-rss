@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (108 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (110 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
+    <dateCreated>2026-06-30T02:14:07.282Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -86,6 +86,7 @@
     <outline type="rss" text="Linares en Línea - Cultura" title="Linares en Línea - Cultura" description="Feed de la categoría 'Cultura' en Linares en Línea" xmlUrl="https://www.linaresenlinea.cl/category/cultura/feed/" htmlUrl="https://www.linaresenlinea.cl/category/cultura/"/>
     <outline type="rss" text="Los Ríos Noticias - Cultura y Espectáculos" title="Los Ríos Noticias - Cultura y Espectáculos" description="Feed de la categoría 'Cultura y Espectáculos' en Los Ríos Noticias" xmlUrl="https://www.losriosnoticias.cl/category/cultura-y-espectaculos/feed/" htmlUrl="https://www.losriosnoticias.cl/category/cultura-y-espectaculos/"/>
     <outline type="rss" text="Malleco 7 - Cultura" title="Malleco 7 - Cultura" description="Feed de la categoría 'Cultura' en Malleco 7" xmlUrl="https://www.malleco7.cl/canal/cultura/feed/" htmlUrl="https://www.malleco7.cl/canal/cultura/"/>
+    <outline type="rss" text="Música y Noticias - Cultura Y Espectáculos" title="Música y Noticias - Cultura Y Espectáculos" description="Feed de la categoría 'Cultura Y Espectáculos' en Música y Noticias" xmlUrl="https://www.musicaynoticias.cl/category/cultura-y-espectaculos/feed/" htmlUrl="https://www.musicaynoticias.cl/category/cultura-y-espectaculos/"/>
     <outline type="rss" text="Noticias Biobío - Cultura y Espectaculos" title="Noticias Biobío - Cultura y Espectaculos" description="Feed de la categoría 'Cultura y Espectaculos' en Noticias Biobío" xmlUrl="https://noticiasbiobio.cl/category/cultura-y-espectaculos/feed/" htmlUrl="https://noticiasbiobio.cl/category/cultura-y-espectaculos/"/>
     <outline type="rss" text="Noticias Chiloé - Cultura y Espectaculos" title="Noticias Chiloé - Cultura y Espectaculos" description="Feed de la categoría 'Cultura y Espectaculos' en Noticias Chiloé" xmlUrl="https://loslagosnoticias.cl/category/cultura-y-espectaculos/feed/" htmlUrl="https://loslagosnoticias.cl/category/cultura-y-espectaculos/"/>
     <outline type="rss" text="Noticias del Lago - Cultura y Espectáculos" title="Noticias del Lago - Cultura y Espectáculos" description="Feed de la categoría 'Cultura y Espectáculos' en Noticias del Lago" xmlUrl="https://www.noticiasdellago.cl/category/cultura-y-espectaculos/feed/" htmlUrl="https://www.noticiasdellago.cl/category/cultura-y-espectaculos/"/>
@@ -108,6 +109,7 @@
     <outline type="rss" text="Río en Línea - Cultura Y Espectáculos" title="Río en Línea - Cultura Y Espectáculos" description="Feed de la categoría 'Cultura Y Espectáculos' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/gamma/cultura-y-espectaculos/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/gamma/cultura-y-espectaculos/"/>
     <outline type="rss" text="Sala de Prensa - Cultura" title="Sala de Prensa - Cultura" description="Feed de la categoría 'Cultura' en Sala de Prensa" xmlUrl="https://saladeprensa.cl/?cat=32&amp;feed=rss2" htmlUrl="https://saladeprensa.cl/?cat=32"/>
     <outline type="rss" text="Sera Noticia - Cultura" title="Sera Noticia - Cultura" description="Feed de la categoría 'Cultura' en Sera Noticia" xmlUrl="https://seranoticia.cl/cultura/feed/" htmlUrl="https://seranoticia.cl/cultura/"/>
+    <outline type="rss" text="Serena y Coquimbo - Cultura" title="Serena y Coquimbo - Cultura" description="Feed de la categoría 'Cultura' en Serena y Coquimbo" xmlUrl="https://serenaycoquimbo.cl/category/cultura/feed/" htmlUrl="https://serenaycoquimbo.cl/category/cultura/"/>
     <outline type="rss" text="Temuco Diario - Arte" title="Temuco Diario - Arte" description="Feed de la categoría 'Arte' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/arte/feed/" htmlUrl="https://temucodiario.cl/category/arte/"/>
     <outline type="rss" text="Temuco Diario - Cultura" title="Temuco Diario - Cultura" description="Feed de la categoría 'Cultura' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/temucodiario-cl/feed/" htmlUrl="https://temucodiario.cl/category/temucodiario-cl/"/>
     <outline type="rss" text="Tiempo 21 - Cultura" title="Tiempo 21 - Cultura" description="Feed de la categoría 'Cultura' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/cultura/feed/" htmlUrl="https://www.tiempo21.cl/cultura/"/>

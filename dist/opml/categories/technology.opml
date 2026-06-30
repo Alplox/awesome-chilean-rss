@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (202 feeds)</title>
+    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (204 feeds)</title>
     <description>Feeds RSS de 💻 Tecnología y Startups, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
+    <dateCreated>2026-06-30T02:14:07.282Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -146,11 +146,13 @@
     <outline type="rss" text="Los Ríos Noticias - Ciencia y Tecnología" title="Los Ríos Noticias - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Los Ríos Noticias" xmlUrl="https://www.losriosnoticias.cl/category/ciencia-y-tecnologia/feed/" htmlUrl="https://www.losriosnoticias.cl/category/ciencia-y-tecnologia/"/>
     <outline type="rss" text="MadboxPC - Tecnología" title="MadboxPC - Tecnología" description="Feed de la categoría 'Tecnología' en MadboxPC" xmlUrl="https://www.madboxpc.com/category/tecnologia/feed/" htmlUrl="https://www.madboxpc.com/category/tecnologia/"/>
     <outline type="rss" text="MCH (Mineria Chilena) - Minerí­a 4.0" title="MCH (Mineria Chilena) - Minerí­a 4.0" description="Feed de la categoría 'Minerí­a 4.0' en MCH (Mineria Chilena)" xmlUrl="https://www.mch.cl/categoria/innovacion/feed/" htmlUrl="https://www.mch.cl/categoria/innovacion/"/>
+    <outline type="rss" text="Música y Noticias - Ciencia Y Tecnología" title="Música y Noticias - Ciencia Y Tecnología" description="Feed de la categoría 'Ciencia Y Tecnología' en Música y Noticias" xmlUrl="https://www.musicaynoticias.cl/category/ciencia-y-tecnologia/feed/" htmlUrl="https://www.musicaynoticias.cl/category/ciencia-y-tecnologia/"/>
     <outline type="rss" text="Noticias Biobío - Ciencia y Tecnología" title="Noticias Biobío - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Noticias Biobío" xmlUrl="https://noticiasbiobio.cl/category/ciencia-y-tecnologia/feed/" htmlUrl="https://noticiasbiobio.cl/category/ciencia-y-tecnologia/"/>
     <outline type="rss" text="Noticias Chiloé - Ciencia y Tecnología" title="Noticias Chiloé - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Noticias Chiloé" xmlUrl="https://loslagosnoticias.cl/category/ciencia-y-tecnologia/feed/" htmlUrl="https://loslagosnoticias.cl/category/ciencia-y-tecnologia/"/>
     <outline type="rss" text="Noticias del Lago - Ciencia y Tecnología" title="Noticias del Lago - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Noticias del Lago" xmlUrl="https://www.noticiasdellago.cl/category/ciencia-tecnologia/feed/" htmlUrl="https://www.noticiasdellago.cl/category/ciencia-tecnologia/"/>
     <outline type="rss" text="Novena Digital - Tecnología" title="Novena Digital - Tecnología" description="Feed de la categoría 'Tecnología' en Novena Digital" xmlUrl="https://novenadigital.cl/category/tecnologia/feed/" htmlUrl="https://novenadigital.cl/category/tecnologia/"/>
     <outline type="rss" text="Nuevo Poder - Tecnociencia" title="Nuevo Poder - Tecnociencia" description="Feed de la categoría 'Tecnociencia' en Nuevo Poder" xmlUrl="https://www.nuevopoder.cl/category/tecnologia/feed/" htmlUrl="https://www.nuevopoder.cl/category/tecnologia/"/>
+    <outline type="rss" text="Panorama Noticioso - Tecnología" title="Panorama Noticioso - Tecnología" description="Feed de la categoría 'Tecnología' en Panorama Noticioso" xmlUrl="https://www.panoramanoticioso.cl/category/tecnologia/feed/" htmlUrl="https://www.panoramanoticioso.cl/category/tecnologia/"/>
     <outline type="rss" text="Pisapapeles" title="Pisapapeles" description="Portal especializado en telefonía móvil, telecomunicaciones y electrónica de consumo" xmlUrl="https://pisapapeles.net/feed/" htmlUrl="https://pisapapeles.net"/>
     <outline type="rss" text="Pisapapeles - Aplicaciones" title="Pisapapeles - Aplicaciones" description="Feed de la categoría 'Aplicaciones' en Pisapapeles" xmlUrl="https://pisapapeles.net/category/aplicaciones/feed/" htmlUrl="https://pisapapeles.net/category/aplicaciones/"/>
     <outline type="rss" text="Pisapapeles - Entrevistas" title="Pisapapeles - Entrevistas" description="Feed de la categoría 'Entrevistas' en Pisapapeles" xmlUrl="https://pisapapeles.net/category/entrevistas/feed/" htmlUrl="https://pisapapeles.net/category/entrevistas/"/>

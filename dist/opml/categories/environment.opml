@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (108 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (110 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
+    <dateCreated>2026-06-30T02:14:07.282Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -93,11 +93,13 @@
     <outline type="rss" text="Meteored Chile - Videos" title="Meteored Chile - Videos" description="Feed de la sección 'Videos' en Meteored Chile" xmlUrl="https://www.meteored.cl/feed/?category=videos" htmlUrl="https://www.meteored.cl/videos/"/>
     <outline type="rss" text="Meteored Chile [Proxy Bing News]" title="Meteored Chile [Proxy Bing News]" description="Resultados de site:meteored.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:meteored.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:meteored.cl"/>
     <outline type="rss" text="Meteored Chile [Proxy Google News]" title="Meteored Chile [Proxy Google News]" description="Resultados de site:meteored.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:meteored.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:meteored.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Mirada Sur TV - Medioambiente" title="Mirada Sur TV - Medioambiente" description="Feed de la categoría 'Medioambiente' en Mirada Sur TV" xmlUrl="https://miradasurtv.cl/category/medioambiente/feed/" htmlUrl="https://miradasurtv.cl/category/medioambiente/"/>
     <outline type="rss" text="Noticias Biobío - Medioambiente" title="Noticias Biobío - Medioambiente" description="Feed de la categoría 'Medioambiente' en Noticias Biobío" xmlUrl="https://noticiasbiobio.cl/category/medioambiente/feed/" htmlUrl="https://noticiasbiobio.cl/category/medioambiente/"/>
     <outline type="rss" text="Noticias Los Ríos - Medio Ambiente" title="Noticias Los Ríos - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/medio-ambiente/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/medio-ambiente/"/>
     <outline type="rss" text="Nuevo Poder - Ecomundo" title="Nuevo Poder - Ecomundo" description="Feed de la categoría 'Ecomundo' en Nuevo Poder" xmlUrl="https://www.nuevopoder.cl/category/ecomundo/feed/" htmlUrl="https://www.nuevopoder.cl/category/ecomundo/"/>
     <outline type="rss" text="Ñuble Actual - Medio Ambiente" title="Ñuble Actual - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Ñuble Actual" xmlUrl="https://www.nubleactual.cl/categoria/medio-ambiente/feed/" htmlUrl="https://www.nubleactual.cl/categoria/medio-ambiente/"/>
     <outline type="rss" text="Ovalle Hoy - Medio Ambiente" title="Ovalle Hoy - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/medio-ambiente/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/medio-ambiente/"/>
+    <outline type="rss" text="Portal Frutícola - Sostenibilidad F" title="Portal Frutícola - Sostenibilidad F" description="Feed de la categoría 'Sostenibilidad F' en Portal Frutícola" xmlUrl="https://www.portalfruticola.com/noticias/category/sostenibilidad/feed/" htmlUrl="https://www.portalfruticola.com/noticias/category/sostenibilidad/"/>
     <outline type="rss" text="Radio Festival - Medio Ambiente" title="Radio Festival - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Radio Festival" xmlUrl="https://www.radiofestival.cl/category/medio-ambiente/feed/" htmlUrl="https://www.radiofestival.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Radio Festival - Naturaleza" title="Radio Festival - Naturaleza" description="Feed de la categoría 'Naturaleza' en Radio Festival" xmlUrl="https://www.radiofestival.cl/category/naturaleza/feed/" htmlUrl="https://www.radiofestival.cl/category/naturaleza/"/>
     <outline type="rss" text="Radio UdeC - Medio Ambiente" title="Radio UdeC - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/medio-ambiente/feed/" htmlUrl="https://www.radioudec.cl/category/medio-ambiente/"/>

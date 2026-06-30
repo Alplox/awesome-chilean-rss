@@ -2,43 +2,43 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-343-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-3889-blue)
+![Sitios](https://img.shields.io/badge/sitios-357-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4092-blue)
 
-> El directorio más completo de feeds RSS chilenos. 343 sitios, 3889 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 357 sitios, 4092 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2450 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2512 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (343 sitios, 3889 feeds)
+## 📝 Fuentes disponibles (357 sitios, 4092 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 196 sitios, 682 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 67 sitios, 123 feeds
-- [🌎 Medios Regionales](#cat-regional) — 187 sitios, 1582 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 75 sitios, 202 feeds
+- [📰 Noticias Nacionales](#cat-news) — 207 sitios, 774 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 71 sitios, 127 feeds
+- [🌎 Medios Regionales](#cat-regional) — 193 sitios, 1637 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 77 sitios, 204 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 28 sitios, 113 feeds
 - [🏫 Educación, Universidades e Investigación](#cat-education) — 65 sitios, 123 feeds
-- [💼 Economia, Negocios y Finanzas](#cat-business) — 86 sitios, 180 feeds
+- [💼 Economia, Negocios y Finanzas](#cat-business) — 89 sitios, 194 feeds
 - [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 16 sitios, 17 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 93 sitios, 108 feeds
-- [👥 Comunidad](#cat-community) — 80 sitios, 155 feeds
-- [⚽ Deportes](#cat-sports) — 122 sitios, 171 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 95 sitios, 110 feeds
+- [👥 Comunidad](#cat-community) — 82 sitios, 165 feeds
+- [⚽ Deportes](#cat-sports) — 129 sitios, 178 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 14 sitios, 107 feeds
-- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 59 sitios, 108 feeds
-- [🎭 Espectáculos y Entretención](#cat-entertainment) — 47 sitios, 97 feeds
-- [📻 Radio y Música](#cat-radio) — 20 sitios, 45 feeds
-- [🏥 Salud y Bienestar](#cat-health) — 68 sitios, 76 feeds
+- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 61 sitios, 110 feeds
+- [🎭 Espectáculos y Entretención](#cat-entertainment) — 48 sitios, 98 feeds
+- [📻 Radio y Música](#cat-radio) — 22 sitios, 57 feeds
+- [🏥 Salud y Bienestar](#cat-health) — 70 sitios, 78 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (196 sitios, 682 feeds)
+### 📰 Noticias Nacionales (207 sitios, 774 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -81,6 +81,8 @@
   - Alerta Noticias Temuco - Política: `https://alertanoticiastemuco.cl/category/politica/feed/`
 - **Anda**: Feed de la categoría 'Noticias' en Anda
   - RSS: `https://anda.cl/categoria/noticias/feed/`
+- **ANEF**: Feed de la categoría 'Noticias' en ANEF
+  - RSS: `https://anef.cl/category/noticias/feed/`
 - **ANID**: Feed de la sección 'Noticias' en ANID
   - RSS: `https://anid.cl/feed/?category=noticias`
 - **Antofagasta Noticias** — Diario regional de Antofagasta, Antofagasta
@@ -317,6 +319,22 @@
 - **El Informador** — Diario regional de Los Andes, Valparaíso
   - El Informador - Nacional: `https://www.elinformador.cl/category/nacional/feed/`
   - El Informador - Política: `https://www.elinformador.cl/category/politica/feed/`
+- **El Informador Chile** — Portal de noticias chileno
+  - El Informador Chile: `https://www.elinformadorchile.cl/feed/`
+  - El Informador Chile - Noticias: `https://www.elinformadorchile.cl/category/noticias/feed/`
+  - El Informador Chile - Noticias Chile: `https://www.elinformadorchile.cl/category/noticias-chile/feed/`
+  - El Informador Chile - Informadorchile: `https://www.elinformadorchile.cl/category/noticias/informadorchile/feed/`
+  - El Informador Chile - Policial: `https://www.elinformadorchile.cl/category/policial/feed/`
+  - El Informador Chile - Tendencia: `https://www.elinformadorchile.cl/category/tendencia/feed/`
+  - El Informador Chile - Política: `https://www.elinformadorchile.cl/category/politica/feed/`
+  - El Informador Chile - Emergencia: `https://www.elinformadorchile.cl/category/emergencia/feed/`
+  - El Informador Chile - Último Minuto Informadorchile: `https://www.elinformadorchile.cl/category/ultimo-minuto-informadorchile/feed/`
+  - El Informador Chile - Tiempo: `https://www.elinformadorchile.cl/category/tiempo/feed/`
+  - El Informador Chile - Perrita Maravilla: `https://www.elinformadorchile.cl/category/perrita-maravilla/feed/`
+  - El Informador Chile - Noticias Ñuñoa: `https://www.elinformadorchile.cl/category/noticias-nunoa/feed/`
+  - El Informador Chile - Precipitaciones: `https://www.elinformadorchile.cl/category/precipitaciones/feed/`
+  - El Informador Chile - Temblor: `https://www.elinformadorchile.cl/category/temblor/feed/`
+  - El Informador Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:elinformadorchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El Insular** — Diario regional de Castro, Los Lagos
   - El Insular - Noticias: `https://elinsular.cl/category/noticias/feed/`
   - El Insular - Nacional: `https://elinsular.cl/category/noticias/nacional/feed/`
@@ -435,6 +453,8 @@
 - **FastCheckCL** — Verificación de noticias y fact-checking en Chile
   - FastCheckCL: `https://fastcheck.cl/feed/`
   - FastCheckCL [Proxy Google News]: `https://news.google.com/rss/search?q=site:fastcheck.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Federación CCU**: Feed de la categoría 'Noticias' en Federación CCU
+  - RSS: `https://federacionccu.cl/category/noticias/feed/`
 - **FM Dos**: Feed de la sección 'Noticias' en FM Dos
   - RSS: `https://www.fmdos.cl/feed/?category=noticias`
 - **Frontera Norte**: Feed de la categoría 'Nacional' en Frontera Norte
@@ -587,8 +607,63 @@
   - Mercurio de Calama [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mercuriocalama.cl&format=RSS`
 - **Meteored Chile**: Feed de la sección 'Noticias' en Meteored Chile
   - RSS: `https://www.meteored.cl/feed/?category=noticias`
+- **Mi Radio LS** — Radioemisora chilena con programación musical e informativa
+  - Mi Radio LS: `https://www.miradiols.cl/feed/`
+  - Mi Radio LS - Actualidad: `https://www.miradiols.cl/category/actualidad/feed/`
+  - Mi Radio LS - Policial: `https://www.miradiols.cl/category/policial/feed/`
+  - Mi Radio LS - Política: `https://www.miradiols.cl/category/politica/feed/`
+  - Mi Radio LS - Tendencias: `https://www.miradiols.cl/category/tendencias/feed/`
+  - Mi Radio LS - Denuncias Ciudadanas: `https://www.miradiols.cl/category/denuncias-ciudadanas/feed/`
+  - Mi Radio LS - Horóscopo: `https://www.miradiols.cl/category/horoscopo/feed/`
+  - Mi Radio LS - Destacada: `https://www.miradiols.cl/category/destacada/feed/`
+  - Mi Radio LS - Actualidad Internacional: `https://www.miradiols.cl/category/actualidad-internacional/feed/`
+  - Mi Radio LS [Proxy Google News]: `https://news.google.com/rss/search?q=site:miradiols.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Mirada Sur TV**: Feed de la categoría 'Nacional' en Mirada Sur TV
+  - RSS: `https://miradasurtv.cl/category/nacional/feed/`
 - **Municipalidad de Cobquecura**: Feed de la categoría 'Actualidad' en Municipalidad de Cobquecura
   - RSS: `https://cobquecura.cl/categoria/actualidad/feed/`
+- **Música y Noticias** — Diario electrónico de las regiones del Maule y O’Higgins
+  - Música y Noticias: `https://www.musicaynoticias.cl/feed/`
+  - Música y Noticias - Curicó: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-curico/curico/feed/`
+  - Música y Noticias - Nacional: `https://www.musicaynoticias.cl/category/nacional/feed/`
+  - Música y Noticias - Policial: `https://www.musicaynoticias.cl/category/policial/feed/`
+  - Música y Noticias - Talca: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-talca/talca/feed/`
+  - Música y Noticias - Molina: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-curico/molina/feed/`
+  - Música y Noticias - Romeral: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-curico/romeral/feed/`
+  - Música y Noticias - Rancagua: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/rancagua/feed/`
+  - Música y Noticias - Linares: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-linares/linares/feed/`
+  - Música y Noticias - San Fernando: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-colchagua/san-fernando/feed/`
+  - Música y Noticias - Teno: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-curico/teno/feed/`
+  - Música y Noticias - Sagrada Familia: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-curico/sagrada-familia/feed/`
+  - Música y Noticias - Licantén: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-curico/licanten/feed/`
+  - Música y Noticias - Constitución: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-talca/constitucion/feed/`
+  - Música y Noticias - San Javier: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-linares/san-javier/feed/`
+  - Música y Noticias - Rengo: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/rengo/feed/`
+  - Música y Noticias - San Clemente: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-talca/san-clemente/feed/`
+  - Música y Noticias - Parral: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-linares/parral/feed/`
+  - Música y Noticias - Vichuquén: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-curico/vichuquen/feed/`
+  - Música y Noticias - Rauco: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-curico/rauco/feed/`
+  - Música y Noticias - Cauquenes: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-cauquenes/cauquenes/feed/`
+  - Música y Noticias - Santa Cruz: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-colchagua/santa-cruz/feed/`
+  - Música y Noticias - Pichilemu: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cardenal-caro/pichilemu/feed/`
+  - Música y Noticias - Chimbarongo: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-colchagua/chimbarongo/feed/`
+  - Música y Noticias - San Vicente De Tagua Tagua: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/san-vicente-de-tagua-tagua/feed/`
+  - Música y Noticias - Hualañé: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-curico/hualane/feed/`
+  - Música y Noticias - Mostazal: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/mostazal/feed/`
+  - Música y Noticias - Graneros: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/graneros/feed/`
+  - Música y Noticias - Requínoa: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/requinoa/feed/`
+  - Música y Noticias - Nancagua: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-colchagua/nancagua/feed/`
+  - Música y Noticias - Las Cabras: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/las-cabras/feed/`
+  - Música y Noticias - Machalí: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/machali/feed/`
+  - Música y Noticias - Palmilla: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-colchagua/palmilla/feed/`
+  - Música y Noticias - Pelluhue: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-cauquenes/pelluhue/feed/`
+  - Música y Noticias - Río Claro: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-talca/rio-claro/feed/`
+  - Música y Noticias - Malloa: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/malloa/feed/`
+  - Música y Noticias - Yerbas Buenas: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-linares/yerbas-buenas/feed/`
+  - Música y Noticias - Placilla: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-colchagua/placilla/feed/`
+  - Música y Noticias - San Rafael: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-talca/san-rafael/feed/`
+  - Música y Noticias - Peumo: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/peumo/feed/`
+  - Música y Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:musicaynoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Nostálgica** — Emisora con música y noticias de Copiapó 88.1 FM
   - Nostálgica: `https://www.nostalgica.cl/feed/`
   - Nostálgica - Atacama: `https://www.nostalgica.cl/category/atacama/feed/`
@@ -636,6 +711,20 @@
   - Ovalle Hoy - Política: `https://ovallehoy.cl/categoria/ultimas/actualidad/politica/feed/`
   - Ovalle Hoy - Actualidad: `https://ovallehoy.cl/categoria/ultimas/actualidad/feed/`
   - Ovalle Hoy - Nacional: `https://ovallehoy.cl/categoria/ultimas/actualidad/politica/nacional/feed/`
+- **Panorama Noticioso** — Portal de noticias chileno
+  - Panorama Noticioso: `https://www.panoramanoticioso.cl/feed/`
+  - Panorama Noticioso - Provincia De Valparaíso: `https://www.panoramanoticioso.cl/category/regionales/provvalparaiso/feed/`
+  - Panorama Noticioso - Provincia De Quillota: `https://www.panoramanoticioso.cl/category/regionales/provquillota/feed/`
+  - Panorama Noticioso - Nacionales: `https://www.panoramanoticioso.cl/category/nacionales/feed/`
+  - Panorama Noticioso - Región De Valparaíso: `https://www.panoramanoticioso.cl/category/regionales/feed/`
+  - Panorama Noticioso - Provincia De Marga Marga: `https://www.panoramanoticioso.cl/category/regionales/provmargamarga/feed/`
+  - Panorama Noticioso - Internacionales: `https://www.panoramanoticioso.cl/category/internacionales/feed/`
+  - Panorama Noticioso - Provincia De Los Andes: `https://www.panoramanoticioso.cl/category/regionales/provlosandes/feed/`
+  - Panorama Noticioso - Provincia De San Felipe: `https://www.panoramanoticioso.cl/category/regionales/provsanfelipe/feed/`
+  - Panorama Noticioso - Espectáculo: `https://www.panoramanoticioso.cl/category/espectaculo/feed/`
+  - Panorama Noticioso - Provincia De Petorca: `https://www.panoramanoticioso.cl/category/regionales/provpetorca/feed/`
+  - Panorama Noticioso - Provincia De San Antonio: `https://www.panoramanoticioso.cl/category/regionales/provsanantonio/feed/`
+  - Panorama Noticioso [Proxy Google News]: `https://news.google.com/rss/search?q=site:panoramanoticioso.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Pichilemu News** — Medio de comunicación de la Región de O'Higgins
   - Pichilemu News - Noticias: `https://www.pichilemunews.cl/feed/?category=noticias`
   - Pichilemu News - Chile: `https://www.pichilemunews.cl/feed/?category=chile`
@@ -680,6 +769,8 @@
   - Piensa Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:piensachile.com&format=RSS`
 - **Pisapapeles**: Feed de la categoría 'Noticias' en Pisapapeles
   - RSS: `https://pisapapeles.net/category/noticias/feed/`
+- **Portal Frutícola**: Feed de la categoría 'Noticias F' en Portal Frutícola
+  - RSS: `https://www.portalfruticola.com/noticias/category/noticias/feed/`
 - **Portal Informativo**: Feed de la categoría 'Nacional' en Portal Informativo
   - RSS: `https://portalinformativo.cl/category/nacional/feed/`
 - **Prensa Fútbol**: Feed de la categoría 'Noticias' en Prensa Fútbol
@@ -690,6 +781,14 @@
   - Publimetro Chile - Estilo de Vida: ` https://www.publimetro.cl/arc/outboundfeeds/rss/category/estilo-vida/?outputType=xml`
   - Publimetro Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:publimetro.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Publimetro Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:publimetro.cl&format=RSS`
+- **Publimicro** — Medio de comunicación independiente de noticias de Chile
+  - Publimicro: `https://publimicro.cl/feed/`
+  - Publimicro - Nacional: `https://publimicro.cl/contenidos-noticias/nacional/feed/`
+  - Publimicro - Policial: `https://publimicro.cl/contenidos-noticias/policial/feed/`
+  - Publimicro - Opinión: `https://publimicro.cl/contenidos-noticias/opinion/feed/`
+  - Publimicro - Actualidad: `https://publimicro.cl/contenidos-noticias/actualidad/feed/`
+  - Publimicro - Política: `https://publimicro.cl/contenidos-noticias/politica/feed/`
+  - Publimicro [Proxy Google News]: `https://news.google.com/rss/search?q=site:publimicro.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Puranoticia** — Diario digital con cobertura nacional e internacional, con énfasis en la Región de Valparaíso
   - Puranoticia: `https://puranoticia.pnt.cl/cms/site/list/port/feed.rss`
   - Puranoticia [Proxy Google News]: `https://news.google.com/rss/search?q=site:puranoticia.pnt.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -817,6 +916,8 @@
   - Radio Pudahuel [Proxy Bing News]: `https://www.bing.com/news/search?q=site:pudahuel.cl&format=RSS`
 - **Radio Puerta Norte**: Feed de la categoría 'Actualidad' en Radio Puerta Norte
   - RSS: `https://radiopuertanorte.cl/category/actualidad/feed/`
+- **Radio Riquelme**: Feed de la categoría 'Nacional' en Radio Riquelme
+  - RSS: `https://radioriquelme.cl/category/nacional/feed/`
 - **Radio San Bartolomé** — Emisora regional de coquimbo 96.7 FM
   - Radio San Bartolomé: `https://www.radiosanbartolome.cl/news/feed/`
   - Radio San Bartolomé [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiosanbartolome.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -865,6 +966,8 @@
 - **Sera Noticia** — Diario regional del Maule
   - Sera Noticia - Nacional: `https://seranoticia.cl/nacional/feed/`
   - Sera Noticia - Actualidad: `https://seranoticia.cl/actualidad/feed/`
+- **Serena y Coquimbo**: Feed de la categoría 'Política' en Serena y Coquimbo
+  - RSS: `https://serenaycoquimbo.cl/category/politica/feed/`
 - **SERNATUR (Servicio Nacional de Turismo)**: Feed de la categoría 'Noticias' en SERNATUR (Servicio Nacional de Turismo)
   - RSS: `https://www.sernatur.cl/category/noticias/feed/`
 - **SoloGamer**: Feed de la categoría 'Noticias' en SoloGamer
@@ -924,7 +1027,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (67 sitios, 123 feeds)
+### 🌐 Noticias Internacionales (71 sitios, 127 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -987,6 +1090,8 @@
   - RSS: `https://elcontraste.cl/internacional/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Noticias Internacionales' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/noticias-internacionales/feed/`
+- **El Informador Chile**: Feed de la categoría 'Internacional' en El Informador Chile
+  - RSS: `https://www.elinformadorchile.cl/category/internacional/feed/`
 - **El Minuto**: Feed de la categoría 'Mundo' en El Minuto
   - RSS: `https://elminuto.cl/noticias/category/mundo/rss`
 - **El Morro de Arica**: Feed de la categoría 'Internacional' en El Morro de Arica
@@ -1038,6 +1143,8 @@
   - MercoPress - América Latina: `https://es.mercopress.com/rss/america-latina`
   - MercoPress [Proxy Google News]: `https://news.google.com/rss/search?q=site:es.mercopress.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - MercoPress [Proxy Bing News]: `https://www.bing.com/news/search?q=site:es.mercopress.com&format=RSS`
+- **Música y Noticias**: Feed de la categoría 'Internacional' en Música y Noticias
+  - RSS: `https://www.musicaynoticias.cl/category/internacional/feed/`
 - **Nostálgica**: Feed de la categoría 'Internacional' en Nostálgica
   - RSS: `https://www.nostalgica.cl/category/internacional/feed/`
 - **Noticias Los Ríos**: Feed de la categoría 'Internacional' en Noticias Los Ríos
@@ -1051,6 +1158,8 @@
   - Piensa Chile - Sionismo: `https://piensachile.com/category/politica/sionismo/feed/`
   - Piensa Chile - Ee.uu.: `https://piensachile.com/category/internacional/ee-uu/feed/`
   - Piensa Chile - Internacional: `https://piensachile.com/category/internacional/feed/`
+- **Publimicro**: Feed de la categoría 'Internacional' en Publimicro
+  - RSS: `https://publimicro.cl/contenidos-noticias/internacional/feed/`
 - **Radio Cooperativa**: Feed de la sección 'Mundo' en Radio Cooperativa
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml`
 - **Radio Festival**: Feed de la categoría 'Internacional' en Radio Festival
@@ -1062,6 +1171,8 @@
   - RSS: `https://radionuevomundo.cl/categoria/internacional/feed/`
 - **Radio Paulina**: Feed de la categoría 'Internacional' en Radio Paulina
   - RSS: `https://radiopaulina.cl/category/internacional/feed/`
+- **Radio Riquelme**: Feed de la categoría 'Internacional' en Radio Riquelme
+  - RSS: `https://radioriquelme.cl/category/internacional/feed/`
 - **Radio Valparaíso**: Feed de la categoría 'Internacional' en Radio Valparaíso
   - RSS: `https://radiovalparaiso.cl/categoria/internacional/feed/`
 - **REDIMIN**: Feed de la categoría 'Mundo' en REDIMIN
@@ -1122,7 +1233,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (187 sitios, 1582 feeds)
+### 🌎 Medios Regionales (193 sitios, 1637 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
@@ -1746,7 +1857,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Vallenar Digital: `https://www.vallenardigital.cl/feed`
   - Vallenar Digital [Proxy Google News]: `https://news.google.com/rss/search?q=site:vallenardigital.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Coquimbo (16 medios)
+#### 📍 Coquimbo (17 medios)
 
 *Descargar OPML regional: [`coquimbo.opml`](dist/opml/regions/coquimbo.opml)*
 
@@ -1951,8 +2062,35 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Radio San Bartolomé: `https://www.radiosanbartolome.cl/news/feed/`
   - Radio San Bartolomé [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiosanbartolome.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio San Bartolomé [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radiosanbartolome.cl&format=RSS`
+- **Serena y Coquimbo** — Portal de noticias de La Serena y Coquimbo
+  - Serena y Coquimbo: `https://serenaycoquimbo.cl/feed/`
+  - Serena y Coquimbo - Regional: `https://serenaycoquimbo.cl/category/regional/feed/`
+  - Serena y Coquimbo - Nacionales: `https://serenaycoquimbo.cl/category/nacionales/feed/`
+  - Serena y Coquimbo - La Serena: `https://serenaycoquimbo.cl/category/la-serena-y-coquimbo/la-serena/feed/`
+  - Serena y Coquimbo - La Serena Y Coquimbo: `https://serenaycoquimbo.cl/category/la-serena-y-coquimbo/feed/`
+  - Serena y Coquimbo - Regionales: `https://serenaycoquimbo.cl/category/regional/regionales/feed/`
+  - Serena y Coquimbo - Policial: `https://serenaycoquimbo.cl/category/policial/feed/`
+  - Serena y Coquimbo - Coquimbo: `https://serenaycoquimbo.cl/category/la-serena-y-coquimbo/coquimbo/feed/`
+  - Serena y Coquimbo - Elqui: `https://serenaycoquimbo.cl/category/elqui-limari-choapa/elqui/feed/`
+  - Serena y Coquimbo - Elqui Limarí Choapa: `https://serenaycoquimbo.cl/category/elqui-limari-choapa/feed/`
+  - Serena y Coquimbo - Desarrollo Social: `https://serenaycoquimbo.cl/category/desarrollo-social/feed/`
+  - Serena y Coquimbo - Breves Regionales: `https://serenaycoquimbo.cl/category/regional/breves-regionales/feed/`
+  - Serena y Coquimbo - Limarí: `https://serenaycoquimbo.cl/category/elqui-limari-choapa/limari/feed/`
+  - Serena y Coquimbo - Choapa: `https://serenaycoquimbo.cl/category/elqui-limari-choapa/choapa/feed/`
+  - Serena y Coquimbo - Destacados: `https://serenaycoquimbo.cl/category/destacados/feed/`
+  - Serena y Coquimbo - Utilidad Pública: `https://serenaycoquimbo.cl/category/utilidad-publica/feed/`
+  - Serena y Coquimbo - Zona Centro: `https://serenaycoquimbo.cl/category/nacionales/zona-centro/feed/`
+  - Serena y Coquimbo - Cultura: `https://serenaycoquimbo.cl/category/cultura/feed/`
+  - Serena y Coquimbo - Zona Sur: `https://serenaycoquimbo.cl/category/nacionales/zona-sur/feed/`
+  - Serena y Coquimbo - Fomento Productivo: `https://serenaycoquimbo.cl/category/fomento-productivo/feed/`
+  - Serena y Coquimbo - Política: `https://serenaycoquimbo.cl/category/politica/feed/`
+  - Serena y Coquimbo - Deportes: `https://serenaycoquimbo.cl/category/deportes/feed/`
+  - Serena y Coquimbo - Organizaciones Sociales: `https://serenaycoquimbo.cl/category/desarrollo-social/organizaciones-sociales/feed/`
+  - Serena y Coquimbo - Zona Norte: `https://serenaycoquimbo.cl/category/nacionales/zona-norte/feed/`
+  - Serena y Coquimbo - Columna De Opinión: `https://serenaycoquimbo.cl/category/columna-de-opinion/feed/`
+  - Serena y Coquimbo [Proxy Google News]: `https://news.google.com/rss/search?q=site:serenaycoquimbo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Valparaíso (18 medios)
+#### 📍 Valparaíso (19 medios)
 
 *Descargar OPML regional: [`valparaiso.opml`](dist/opml/regions/valparaiso.opml)*
 
@@ -2078,6 +2216,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - El Trabajo [Proxy Google News]: `https://news.google.com/rss/search?q=site:eltrabajo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Google News**: Noticias locales de la Región de Valparaíso vía Google News Chile
   - RSS: `https://news.google.com/rss/headlines/section/geo/Valpara%C3%ADso?hl=es-419&gl=CL&ceid=CL:es-419`
+- **Margamarga TV** — Canal de televisión regional de la Provincia de Marga Marga, Región de Valparaíso
+  - Margamarga TV: `https://margamargatv.cl/rss.xml`
+  - Margamarga TV [Proxy Google News]: `https://news.google.com/rss/search?q=site:margamargatv.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Más Noticia** — Diario regional de Quillota, Valparaíso
   - Más Noticia: `https://www.masnoticia.cl/feed/`
   - Más Noticia - Región: `https://www.masnoticia.cl/category/todas-las-noticias/region/feed/`
@@ -3474,7 +3615,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Río en Línea - Ahora: `https://www.rioenlinea.cl/seccion/ahora/feed/`
   - Río en Línea [Proxy Google News]: `https://news.google.com/rss/search?q=site:rioenlinea.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Los Lagos (17 medios)
+#### 📍 Los Lagos (19 medios)
 
 *Descargar OPML regional: [`los-lagos.opml`](dist/opml/regions/los-lagos.opml)*
 
@@ -3608,6 +3749,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Guardián del Sur** — Diario regional de Puerto Montt, Los Lagos
   - Guardián del Sur: `https://www.guardiandelsur.cl/feed/`
   - Guardián del Sur - Locales: `https://guardiandelsur.cl/category/locales/feed/`
+- **Insular FM** — Radio Insular FM desde Castro, Chiloé, Región de Los Lagos
+  - Insular FM: `https://www.insularfm.cl/feed/`
+  - Insular FM - Quienes Somos: `https://www.insularfm.cl/feed/?category=quienes-somos`
+  - Insular FM - Secciones: `https://www.insularfm.cl/feed/?category=secciones`
+  - Insular FM - Fondo De Medios: `https://www.insularfm.cl/feed/?category=fondo-de-medios`
+  - Insular FM [Proxy Google News]: `https://news.google.com/rss/search?q=site:insularfm.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **La Estrella de Chiloé** — Diario regional de Chiloé
   - La Estrella de Chiloé: `https://www.laestrellachiloe.cl/?feed=rss2`
   - La Estrella de Chiloé [Proxy Google News]: `https://news.google.com/rss/search?q=site:laestrellachiloe.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -3636,6 +3783,36 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - La Opinión de Chiloé - Calbuco: `https://laopiniondechiloe.cl/category/calbuco/feed/`
   - La Opinión de Chiloé - Caguach: `https://laopiniondechiloe.cl/category/caguach/feed/`
   - La Opinión de Chiloé - Osorno: `https://laopiniondechiloe.cl/category/osorno/feed/`
+- **Mirada Sur TV** — Medio de comunicación de la Región de Los Lagos
+  - Mirada Sur TV: `https://miradasurtv.cl/feed/`
+  - Mirada Sur TV - Regional: `https://miradasurtv.cl/category/regional/feed/`
+  - Mirada Sur TV - Nacional: `https://miradasurtv.cl/category/nacional/feed/`
+  - Mirada Sur TV - Osorno: `https://miradasurtv.cl/category/regional/osorno/feed/`
+  - Mirada Sur TV - Discover: `https://miradasurtv.cl/category/discover/feed/`
+  - Mirada Sur TV - Puerto Montt: `https://miradasurtv.cl/category/regional/puertomontt/feed/`
+  - Mirada Sur TV - Los Rios: `https://miradasurtv.cl/category/nacional/los-rios/feed/`
+  - Mirada Sur TV - Deportes: `https://miradasurtv.cl/category/deportes/feed/`
+  - Mirada Sur TV - Economia: `https://miradasurtv.cl/category/economia/feed/`
+  - Mirada Sur TV - Chiloé: `https://miradasurtv.cl/category/regional/chiloe/feed/`
+  - Mirada Sur TV - Hero: `https://miradasurtv.cl/category/hero/feed/`
+  - Mirada Sur TV - Medioambiente: `https://miradasurtv.cl/category/medioambiente/feed/`
+  - Mirada Sur TV - Salud, Ciencia Y Tecnologia: `https://miradasurtv.cl/category/salud/feed/`
+  - Mirada Sur TV - Puerto Varas: `https://miradasurtv.cl/category/regional/puertovaras/feed/`
+  - Mirada Sur TV - Purranque: `https://miradasurtv.cl/category/regional/purranque/feed/`
+  - Mirada Sur TV - Frutillar: `https://miradasurtv.cl/category/regional/frutillar/feed/`
+  - Mirada Sur TV - San Juan De La Costa: `https://miradasurtv.cl/category/regional/sanjuandelacosta/feed/`
+  - Mirada Sur TV - Palena: `https://miradasurtv.cl/category/regional/palena/feed/`
+  - Mirada Sur TV - Puyehue: `https://miradasurtv.cl/category/regional/puyehue/feed/`
+  - Mirada Sur TV - Mirada Sur Tv: `https://miradasurtv.cl/category/podcast/feed/`
+  - Mirada Sur TV - Río Negro: `https://miradasurtv.cl/category/regional/rionegro/feed/`
+  - Mirada Sur TV - San Pablo: `https://miradasurtv.cl/category/regional/sanplablo/feed/`
+  - Mirada Sur TV - Video: `https://miradasurtv.cl/category/video/feed/`
+  - Mirada Sur TV - Impulso Sur Podcast: `https://miradasurtv.cl/category/emprendimiento/feed/`
+  - Mirada Sur TV - Columna De Opinión: `https://miradasurtv.cl/category/columna-de-opinion/feed/`
+  - Mirada Sur TV - Panoramas: `https://miradasurtv.cl/category/podcast/panoramas/feed/`
+  - Mirada Sur TV - Puerto Octay: `https://miradasurtv.cl/category/regional/puertooctay/feed/`
+  - Mirada Sur TV - Impulso Sur: `https://miradasurtv.cl/category/podcast/impulsosur/feed/`
+  - Mirada Sur TV [Proxy Google News]: `https://news.google.com/rss/search?q=site:miradasurtv.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Noticias Chiloé** — Diario regional de Castro, Los Lagos
   - Noticias Chiloé: `https://www.noticiaschiloe.cl/feed/`
   - Noticias Chiloé - Actualidad: `https://loslagosnoticias.cl/category/actualidad/feed/`
@@ -3864,7 +4041,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Radio Presidente Ibáñez [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiopresidenteibanez.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio Presidente Ibáñez [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radiopresidenteibanez.cl&format=RSS`
 
-#### 📍 Otras Regiones o No Especificada (10 medios)
+#### 📍 Otras Regiones o No Especificada (12 medios)
 
 - **Diario El Ranco** — Diario regional de La Unión, Los Ríos
   - Diario El Ranco: `https://www.diarioelranco.cl/feed/`
@@ -3972,11 +4149,15 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Primera Nota** — Medio de comunicación regional
   - Primera Nota: `https://www.primeranota.cl/web/feed/`
   - Primera Nota [Proxy Google News]: `https://news.google.com/rss/search?q=site:primeranota.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Publimicro**: Feed de la categoría 'Regional' en Publimicro
+  - RSS: `https://publimicro.cl/contenidos-noticias/regional/feed/`
+- **Radio Riquelme**: Feed de la categoría 'Regional' en Radio Riquelme
+  - RSS: `https://radioriquelme.cl/category/regional/feed/`
 
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (75 sitios, 202 feeds)
+### 💻 Tecnología y Startups (77 sitios, 204 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
@@ -4172,6 +4353,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.madboxpc.com/category/tecnologia/feed/`
 - **MCH (Mineria Chilena)**: Feed de la categoría 'Minerí­a 4.0' en MCH (Mineria Chilena)
   - RSS: `https://www.mch.cl/categoria/innovacion/feed/`
+- **Música y Noticias**: Feed de la categoría 'Ciencia Y Tecnología' en Música y Noticias
+  - RSS: `https://www.musicaynoticias.cl/category/ciencia-y-tecnologia/feed/`
 - **Noticias Biobío**: Feed de la categoría 'Ciencia y Tecnología' en Noticias Biobío
   - RSS: `https://noticiasbiobio.cl/category/ciencia-y-tecnologia/feed/`
 - **Noticias Chiloé**: Feed de la categoría 'Ciencia y Tecnología' en Noticias Chiloé
@@ -4182,6 +4365,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://novenadigital.cl/category/tecnologia/feed/`
 - **Nuevo Poder**: Feed de la categoría 'Tecnociencia' en Nuevo Poder
   - RSS: `https://www.nuevopoder.cl/category/tecnologia/feed/`
+- **Panorama Noticioso**: Feed de la categoría 'Tecnología' en Panorama Noticioso
+  - RSS: `https://www.panoramanoticioso.cl/category/tecnologia/feed/`
 - **Pisapapeles** — Portal especializado en telefonía móvil, telecomunicaciones y electrónica de consumo
   - Pisapapeles: `https://pisapapeles.net/feed/`
   - Pisapapeles - Reviews: `https://pisapapeles.net/category/reviews/feed/`
@@ -4606,7 +4791,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Economia, Negocios y Finanzas (86 sitios, 180 feeds)
+### 💼 Economia, Negocios y Finanzas (89 sitios, 194 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
@@ -4799,6 +4984,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - MCH (Mineria Chilena) - Tecnología Innovación Minería Subterranea: `https://www.mch.cl/categoria/mineria-subterranea/tecnologia-innovacion-mineria-subterranea/feed/`
   - MCH (Mineria Chilena) - Sustentabilidad Minería Subterranea: `https://www.mch.cl/categoria/mineria-subterranea/sustentabilidad-mineria-subterranea/feed/`
   - MCH (Mineria Chilena) [Proxy Google News]: `https://news.google.com/rss/search?q=site:mch.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Mirada Sur TV** — Medio de comunicación de la Región de Los Lagos
+  - Mirada Sur TV - Economia: `https://miradasurtv.cl/category/economia/feed/`
+  - Mirada Sur TV - Impulso Sur Podcast: `https://miradasurtv.cl/category/emprendimiento/feed/`
 - **Noticias del Lago**: Feed de la categoría 'Economía y Negocios' en Noticias del Lago
   - RSS: `https://www.noticiasdellago.cl/category/economia/feed/`
 - **Noticias Los Ríos** — Diario regional de La Unión, Los Ríos
@@ -4812,6 +5000,18 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://ovallehoy.cl/categoria/ultimas/actualidad/economia/feed/`
 - **Piensa Chile**: Feed de la categoría 'Economía' en Piensa Chile
   - RSS: `https://piensachile.com/category/economia/feed/`
+- **Portal Frutícola** — Portal especializado en el sector frutícola chileno
+  - Portal Frutícola: `https://www.portalfruticola.com/feed/`
+  - Portal Frutícola - Mercado Y Economia F: `https://www.portalfruticola.com/noticias/category/mercado-y-economia/feed/`
+  - Portal Frutícola - Frutas F: `https://www.portalfruticola.com/noticias/category/frutas/feed/`
+  - Portal Frutícola - Más Noticias: `https://www.portalfruticola.com/noticias/category/mas-noticias/feed/`
+  - Portal Frutícola - Destacados: `https://www.portalfruticola.com/noticias/category/destacados/feed/`
+  - Portal Frutícola - Innovación Y Tecnología F: `https://www.portalfruticola.com/noticias/category/innovacion-y-tecnologia/feed/`
+  - Portal Frutícola - Eventos Y Ferias F: `https://www.portalfruticola.com/noticias/category/eventos-y-ferias/feed/`
+  - Portal Frutícola - Cultivo F: `https://www.portalfruticola.com/noticias/category/cultivo/feed/`
+  - Portal Frutícola - Destacado Top: `https://www.portalfruticola.com/noticias/category/destacados-top/feed/`
+  - Portal Frutícola - Grape Reporter F: `https://www.portalfruticola.com/noticias/category/grape-reporter/feed/`
+  - Portal Frutícola [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalfruticola.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **PortalPortuario** — Medio especializado en puertos, transporte marítimo y comercio exterior en español
   - PortalPortuario: `https://portalportuario.cl/feed/`
   - PortalPortuario - Titulares: `https://portalportuario.cl/category/titulares/feed/`
@@ -4833,6 +5033,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - PortalPortuario - Radar: `https://portalportuario.cl/category/radar/feed/`
   - PortalPortuario [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalportuario.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - PortalPortuario [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalportuario.cl&format=RSS`
+- **Publimicro**: Feed de la categoría 'Economía' en Publimicro
+  - RSS: `https://publimicro.cl/contenidos-noticias/economia/feed/`
 - **Radio Cooperativa**: Feed de la sección 'Economía' en Radio Cooperativa
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml`
 - **Radio Nuevo Mundo**: Feed de la categoría 'Economía' en Radio Nuevo Mundo
@@ -4921,7 +5123,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (93 sitios, 108 feeds)
+### 🎨 Cultura y Divulgación (95 sitios, 110 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
@@ -5070,6 +5272,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.losriosnoticias.cl/category/cultura-y-espectaculos/feed/`
 - **Malleco 7**: Feed de la categoría 'Cultura' en Malleco 7
   - RSS: `https://www.malleco7.cl/canal/cultura/feed/`
+- **Música y Noticias**: Feed de la categoría 'Cultura Y Espectáculos' en Música y Noticias
+  - RSS: `https://www.musicaynoticias.cl/category/cultura-y-espectaculos/feed/`
 - **Noticias Biobío**: Feed de la categoría 'Cultura y Espectaculos' en Noticias Biobío
   - RSS: `https://noticiasbiobio.cl/category/cultura-y-espectaculos/feed/`
 - **Noticias Chiloé**: Feed de la categoría 'Cultura y Espectaculos' en Noticias Chiloé
@@ -5113,6 +5317,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://saladeprensa.cl/?cat=32&feed=rss2`
 - **Sera Noticia**: Feed de la categoría 'Cultura' en Sera Noticia
   - RSS: `https://seranoticia.cl/cultura/feed/`
+- **Serena y Coquimbo**: Feed de la categoría 'Cultura' en Serena y Coquimbo
+  - RSS: `https://serenaycoquimbo.cl/category/cultura/feed/`
 - **Temuco Diario** — Diario regional de Temuco, La Araucanía
   - Temuco Diario - Cultura: `https://temucodiario.cl/category/temucodiario-cl/feed/`
   - Temuco Diario - Arte: `https://temucodiario.cl/category/arte/feed/`
@@ -5130,7 +5336,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-community"></a>
-### 👥 Comunidad (80 sitios, 155 feeds)
+### 👥 Comunidad (82 sitios, 165 feeds)
 
 *Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
 
@@ -5162,6 +5368,15 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Anda - Legal: `https://anda.cl/categoria/legal/feed/`
   - Anda - Redes Sociales: `https://anda.cl/categoria/redes-sociales/feed/`
   - Anda [Proxy Google News]: `https://news.google.com/rss/search?q=site:anda.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **ANEF** — Asociación Nacional de Empleados Fiscales
+  - ANEF: `https://anef.cl/feed/`
+  - ANEF - Galería Multimedia: `https://anef.cl/category/galeria-multimedia/feed/`
+  - ANEF - Consejos Regionales: `https://anef.cl/category/noticias/consejos-regionales/feed/`
+  - ANEF - Comunicados: `https://anef.cl/category/noticias/comunicados/feed/`
+  - ANEF - Actividades: `https://anef.cl/category/noticias/actividades/feed/`
+  - ANEF - Beneficios: `https://anef.cl/category/noticias/beneficios/feed/`
+  - ANEF - Capacitacion: `https://anef.cl/category/noticias/beneficios/capacitacion/feed/`
+  - ANEF [Proxy Google News]: `https://news.google.com/rss/search?q=site:anef.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **ANID**: Feed de la sección 'Inclusion Laboral' en ANID
   - RSS: `https://anid.cl/feed/?category=inclusion-laboral`
 - **Antofagasta Noticias** — Diario regional de Antofagasta, Antofagasta
@@ -5271,6 +5486,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Enfoque Digital O'Higgins** — Medio de comunicación de la Región de O'Higgins
   - Enfoque Digital O'Higgins - Turismo: `https://vi.cl/category/turismo/feed/`
   - Enfoque Digital O'Higgins - Eventos: `https://vi.cl/category/eventos/feed/`
+- **Federación CCU** — Federación Nacional Sindicatos Holding Heineken CCU
+  - Federación CCU: `https://federacionccu.cl/feed/`
+  - Federación CCU [Proxy Google News]: `https://news.google.com/rss/search?q=site:federacionccu.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Frontera Norte**: Feed de la categoría 'Sociedad' en Frontera Norte
   - RSS: `https://www.fronteranorte.cl/category/sociedad/feed/`
 - **Guía Turismo Chile** — Guía turística de destinos y actividades en Chile
@@ -5373,7 +5591,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (122 sitios, 171 feeds)
+### ⚽ Deportes (129 sitios, 178 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
@@ -5558,6 +5776,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.malleco7.cl/canal/deportes/feed/`
 - **Maule Hoy**: Feed de la categoría 'Deportes' en Maule Hoy
   - RSS: `https://maulehoy.cl/deportes/feed/`
+- **Mi Radio LS**: Feed de la categoría 'Deportes' en Mi Radio LS
+  - RSS: `https://www.miradiols.cl/category/deportes/feed/`
+- **Mirada Sur TV**: Feed de la categoría 'Deportes' en Mirada Sur TV
+  - RSS: `https://miradasurtv.cl/category/deportes/feed/`
+- **Música y Noticias**: Feed de la categoría 'Deportes' en Música y Noticias
+  - RSS: `https://www.musicaynoticias.cl/category/deportes/feed/`
 - **Nacimentano**: Feed de la categoría 'Deportes' en Nacimentano
   - RSS: `https://nacimentano.cl/category/deportes/feed/`
 - **Nostálgica**: Feed de la categoría 'Deportes' en Nostálgica
@@ -5582,6 +5806,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Ovalle Hoy** — Diario regional de Ovalle, Coquimbo
   - Ovalle Hoy - Deportes: `https://ovallehoy.cl/categoria/ultimas/deportes/feed/`
   - Ovalle Hoy - Fútbol Amateur: `https://ovallehoy.cl/categoria/ultimas/deportes/futbol-amateur/feed/`
+- **Panorama Noticioso**: Feed de la categoría 'Deportes' en Panorama Noticioso
+  - RSS: `https://www.panoramanoticioso.cl/category/deporte/feed/`
 - **Pichilemu News** — Medio de comunicación de la Región de O'Higgins
   - Pichilemu News - Surf: `https://www.pichilemunews.cl/feed/?category=surf`
   - Pichilemu News - Futbol: `https://www.pichilemunews.cl/feed/?category=futbol`
@@ -5615,6 +5841,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Prensa Fútbol [Proxy Bing News]: `https://www.bing.com/news/search?q=site:prensafutbol.cl&format=RSS`
 - **Publimetro Chile**: Feed de la categoría 'Deportes' en Publimetro Chile
   - RSS: ` https://www.publimetro.cl/arc/outboundfeeds/rss/category/deportes/?outputType=xml`
+- **Publimicro**: Feed de la categoría 'Deportes' en Publimicro
+  - RSS: `https://publimicro.cl/contenidos-noticias/deportes/feed/`
 - **Radio Cooperativa**: Feed de la sección 'Deportes' en Radio Cooperativa
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_1___1.xml`
 - **Radio Festival**: Feed de la categoría 'Deportes' en Radio Festival
@@ -5631,6 +5859,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://radiopaulina.cl/category/deportes/feed/`
 - **Radio Puerta Norte**: Feed de la categoría 'Deporte' en Radio Puerta Norte
   - RSS: `https://radiopuertanorte.cl/category/deporte/feed/`
+- **Radio Riquelme**: Feed de la categoría 'Deportes' en Radio Riquelme
+  - RSS: `https://radioriquelme.cl/category/deportes/feed/`
 - **Radio Santa María**: Feed de la categoría 'Deportes' en Radio Santa María
   - RSS: `https://www.radiosantamaria.cl/category/deportes/feed/`
 - **Radio UdeC**: Feed de la categoría 'Deportes' en Radio UdeC
@@ -5649,6 +5879,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://saladeprensa.cl/?cat=31&feed=rss2`
 - **Sera Noticia**: Feed de la categoría 'Deporte' en Sera Noticia
   - RSS: `https://seranoticia.cl/deporte/feed/`
+- **Serena y Coquimbo**: Feed de la categoría 'Deportes' en Serena y Coquimbo
+  - RSS: `https://serenaycoquimbo.cl/category/deportes/feed/`
 - **Tarapacá Online**: Feed de la categoría 'Deportes' en Tarapacá Online
   - RSS: `https://tarapacaonline.cl/category/deportes/feed/`
 - **Temuco Diario**: Feed de la categoría 'Deportes' en Temuco Diario
@@ -5803,7 +6035,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-environment"></a>
-### 🌿 Medio Ambiente y Naturaleza (59 sitios, 108 feeds)
+### 🌿 Medio Ambiente y Naturaleza (61 sitios, 110 feeds)
 
 *Descargar OPML: [`environment.opml`](dist/opml/categories/environment.opml)*
 
@@ -5938,6 +6170,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Meteored Chile - Esqui: `https://www.meteored.cl/feed/?category=esqui`
   - Meteored Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:meteored.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Meteored Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:meteored.cl&format=RSS`
+- **Mirada Sur TV**: Feed de la categoría 'Medioambiente' en Mirada Sur TV
+  - RSS: `https://miradasurtv.cl/category/medioambiente/feed/`
 - **Noticias Biobío**: Feed de la categoría 'Medioambiente' en Noticias Biobío
   - RSS: `https://noticiasbiobio.cl/category/medioambiente/feed/`
 - **Noticias Los Ríos**: Feed de la categoría 'Medio Ambiente' en Noticias Los Ríos
@@ -5948,6 +6182,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.nubleactual.cl/categoria/medio-ambiente/feed/`
 - **Ovalle Hoy**: Feed de la categoría 'Medio Ambiente' en Ovalle Hoy
   - RSS: `https://ovallehoy.cl/categoria/ultimas/sociedad/medio-ambiente/feed/`
+- **Portal Frutícola**: Feed de la categoría 'Sostenibilidad F' en Portal Frutícola
+  - RSS: `https://www.portalfruticola.com/noticias/category/sostenibilidad/feed/`
 - **Radio Festival** — Radio chilena de música y entretenimiento
   - Radio Festival - Medio Ambiente: `https://www.radiofestival.cl/category/medio-ambiente/feed/`
   - Radio Festival - Naturaleza: `https://www.radiofestival.cl/category/naturaleza/feed/`
@@ -5978,7 +6214,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-entertainment"></a>
-### 🎭 Espectáculos y Entretención (47 sitios, 97 feeds)
+### 🎭 Espectáculos y Entretención (48 sitios, 98 feeds)
 
 *Descargar OPML: [`entertainment.opml`](dist/opml/categories/entertainment.opml)*
 
@@ -6010,6 +6246,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - El América - Noticias Tv: `https://elamerica.cl/category/noticias-tv/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Entretenimiento' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/entretenimiento/feed/`
+- **El Informador Chile**: Feed de la categoría 'Farándula' en El Informador Chile
+  - RSS: `https://www.elinformadorchile.cl/category/farandula/feed/`
 - **El Morro de Arica**: Feed de la categoría 'Espectáculos' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/espectaculos/feed/`
 - **El Reportero de Iquique**: Feed de la categoría 'Cultura y Espectáculos' en El Reportero de Iquique
@@ -6130,7 +6368,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-radio"></a>
-### 📻 Radio y Música (20 sitios, 45 feeds)
+### 📻 Radio y Música (22 sitios, 57 feeds)
 
 *Descargar OPML: [`radio.opml`](dist/opml/categories/radio.opml)*
 
@@ -6161,6 +6399,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Los 40 [Proxy Bing News]: `https://www.bing.com/news/search?q=site:los40.cl&format=RSS`
 - **Pichilemu News**: Feed de la sección 'Musicos' en Pichilemu News
   - RSS: `https://www.pichilemunews.cl/feed/?category=musicos`
+- **Radio Activa** — Radioemisora chilena de música contemporánea
+  - Radio Activa: `https://www.radioactiva.cl/feed/`
+  - Radio Activa - '+parametros.perfil_url+': `https://www.radioactiva.cl/feed/?category='+parametros.perfil_url+'`
+  - Radio Activa - Programas: `https://www.radioactiva.cl/feed/?category=programas`
+  - Radio Activa - Frecuencias: `https://www.radioactiva.cl/feed/?category=frecuencias`
+  - Radio Activa [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioactiva.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Atacama** — Radioemisora de la Región de Atacama con noticias regionales, nacionales y deportivas
   - Radio Atacama: `https://www.radioatacama.cl/rss/feed`
   - Radio Atacama [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioatacama.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -6173,6 +6417,14 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Radio La Señal** — Cadena de radioemisoras con cobertura en Valparaíso, Concepción, Temuco, Victoria, Osorno y Puerto Montt
   - Radio La Señal: `https://radiolasenal.cl/feed/`
   - Radio La Señal [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiolasenal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Riquelme** — Radioemisora chilena con programación informativa y musical
+  - Radio Riquelme: `https://radioriquelme.cl/feed/`
+  - Radio Riquelme - Coquimbo: `https://radioriquelme.cl/category/coquimbo/feed/`
+  - Radio Riquelme - Policial: `https://radioriquelme.cl/category/policial/feed/`
+  - Radio Riquelme - La Serena: `https://radioriquelme.cl/category/serena/feed/`
+  - Radio Riquelme - Provincia Del Choapa: `https://radioriquelme.cl/category/choapa/feed/`
+  - Radio Riquelme - Provincia Del Limarí: `https://radioriquelme.cl/category/limari/feed/`
+  - Radio Riquelme [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioriquelme.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Universidad de Chile** — Radio online de la Universidad de Chile
   - Radio Universidad de Chile - Portada: `https://radio.uchile.cl/feed/`
   - Radio Universidad de Chile - Columnas: `https://radio.uchile.cl/columnas/feed/`
@@ -6203,7 +6455,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-health"></a>
-### 🏥 Salud y Bienestar (68 sitios, 76 feeds)
+### 🏥 Salud y Bienestar (70 sitios, 78 feeds)
 
 *Descargar OPML: [`health.opml`](dist/opml/categories/health.opml)*
 
@@ -6307,6 +6559,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.linaresenlinea.cl/category/salud/feed/`
 - **Los Ríos Noticias**: Feed de la categoría 'Salud' en Los Ríos Noticias
   - RSS: `https://www.losriosnoticias.cl/category/salud/feed/`
+- **Mirada Sur TV**: Feed de la categoría 'Salud, Ciencia Y Tecnologia' en Mirada Sur TV
+  - RSS: `https://miradasurtv.cl/category/salud/feed/`
 - **Noticias Biobío**: Feed de la categoría 'Salud' en Noticias Biobío
   - RSS: `https://noticiasbiobio.cl/category/salud/feed/`
 - **Noticias Los Ríos**: Feed de la categoría 'Salud' en Noticias Los Ríos
@@ -6319,6 +6573,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Pediatría y Salud [Proxy Google News]: `https://news.google.com/rss/search?q=site:pediatriaysalud.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Piensa Chile**: Feed de la categoría 'Salud' en Piensa Chile
   - RSS: `https://piensachile.com/category/salud-3/feed/`
+- **Publimicro**: Feed de la categoría 'Salud' en Publimicro
+  - RSS: `https://publimicro.cl/contenidos-noticias/salud/feed/`
 - **Radio Magallanes**: Feed de la categoría 'Salud' en Radio Magallanes
   - RSS: `https://radiomagallanes.cl/category/salud/feed/`
 - **Radio Maray**: Feed de la categoría 'Vida y Salud' en Radio Maray

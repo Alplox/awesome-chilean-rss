@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Valparaíso (138 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Valparaíso (140 feeds)</title>
     <description>Feeds RSS de la Región de Valparaíso, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
+    <dateCreated>2026-06-30T02:14:07.282Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -117,6 +117,8 @@
     <outline type="rss" text="El Trabajo - Web" title="El Trabajo - Web" description="Feed de la sección 'Web' en El Trabajo" xmlUrl="https://www.eltrabajo.cl/web/feed/" htmlUrl="https://www.eltrabajo.cl/web/"/>
     <outline type="rss" text="El Trabajo [Proxy Google News]" title="El Trabajo [Proxy Google News]" description="Resultados de site:eltrabajo.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:eltrabajo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:eltrabajo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Región Valparaíso" title="Google News - Chile - Región Valparaíso" description="Noticias locales de la Región de Valparaíso vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Valpara%C3%ADso?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Valpara%C3%ADso?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Margamarga TV" title="Margamarga TV" description="Canal de televisión regional de la Provincia de Marga Marga, Región de Valparaíso" xmlUrl="https://margamargatv.cl/rss.xml" htmlUrl="https://margamargatv.cl/"/>
+    <outline type="rss" text="Margamarga TV [Proxy Google News]" title="Margamarga TV [Proxy Google News]" description="Resultados de site:margamargatv.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:margamargatv.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:margamargatv.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Más Noticia" title="Más Noticia" description="Diario regional de Quillota, Valparaíso" xmlUrl="https://www.masnoticia.cl/feed/" htmlUrl="https://www.masnoticia.cl"/>
     <outline type="rss" text="Más Noticia - Región" title="Más Noticia - Región" description="Feed de la categoría 'Región' en Más Noticia" xmlUrl="https://www.masnoticia.cl/category/todas-las-noticias/region/feed/" htmlUrl="https://www.masnoticia.cl/category/todas-las-noticias/region/"/>
     <outline type="rss" text="Más Noticia [Proxy Google News]" title="Más Noticia [Proxy Google News]" description="Resultados de site:masnoticia.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:masnoticia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:masnoticia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

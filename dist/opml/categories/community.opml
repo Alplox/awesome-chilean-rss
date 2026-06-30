@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (155 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (165 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T00:30:07.718Z</dateCreated>
+    <dateCreated>2026-06-30T02:14:07.282Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -31,6 +31,14 @@
     <outline type="rss" text="Anda - Socios" title="Anda - Socios" description="Feed de la categoría 'Socios' en Anda" xmlUrl="https://anda.cl/categoria/socios/feed/" htmlUrl="https://anda.cl/categoria/socios/"/>
     <outline type="rss" text="Anda - Tendencias" title="Anda - Tendencias" description="Feed de la categoría 'Tendencias' en Anda" xmlUrl="https://anda.cl/categoria/tendencias/feed/" htmlUrl="https://anda.cl/categoria/tendencias/"/>
     <outline type="rss" text="Anda [Proxy Google News]" title="Anda [Proxy Google News]" description="Resultados de site:anda.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:anda.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:anda.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="ANEF" title="ANEF" description="Asociación Nacional de Empleados Fiscales" xmlUrl="https://anef.cl/feed/" htmlUrl="https://anef.cl/"/>
+    <outline type="rss" text="ANEF - Actividades" title="ANEF - Actividades" description="Feed de la categoría 'Actividades' en ANEF" xmlUrl="https://anef.cl/category/noticias/actividades/feed/" htmlUrl="https://anef.cl/category/noticias/actividades/"/>
+    <outline type="rss" text="ANEF - Beneficios" title="ANEF - Beneficios" description="Feed de la categoría 'Beneficios' en ANEF" xmlUrl="https://anef.cl/category/noticias/beneficios/feed/" htmlUrl="https://anef.cl/category/noticias/beneficios/"/>
+    <outline type="rss" text="ANEF - Capacitacion" title="ANEF - Capacitacion" description="Feed de la categoría 'Capacitacion' en ANEF" xmlUrl="https://anef.cl/category/noticias/beneficios/capacitacion/feed/" htmlUrl="https://anef.cl/category/noticias/beneficios/capacitacion/"/>
+    <outline type="rss" text="ANEF - Comunicados" title="ANEF - Comunicados" description="Feed de la categoría 'Comunicados' en ANEF" xmlUrl="https://anef.cl/category/noticias/comunicados/feed/" htmlUrl="https://anef.cl/category/noticias/comunicados/"/>
+    <outline type="rss" text="ANEF - Consejos Regionales" title="ANEF - Consejos Regionales" description="Feed de la categoría 'Consejos Regionales' en ANEF" xmlUrl="https://anef.cl/category/noticias/consejos-regionales/feed/" htmlUrl="https://anef.cl/category/noticias/consejos-regionales/"/>
+    <outline type="rss" text="ANEF - Galería Multimedia" title="ANEF - Galería Multimedia" description="Feed de la categoría 'Galería Multimedia' en ANEF" xmlUrl="https://anef.cl/category/galeria-multimedia/feed/" htmlUrl="https://anef.cl/category/galeria-multimedia/"/>
+    <outline type="rss" text="ANEF [Proxy Google News]" title="ANEF [Proxy Google News]" description="Resultados de site:anef.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:anef.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:anef.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="ANID - Inclusion Laboral" title="ANID - Inclusion Laboral" description="Feed de la sección 'Inclusion Laboral' en ANID" xmlUrl="https://anid.cl/feed/?category=inclusion-laboral" htmlUrl="https://anid.cl/inclusion-laboral/"/>
     <outline type="rss" text="Antofagasta Noticias - Eventos" title="Antofagasta Noticias - Eventos" description="Feed de la categoría 'Eventos' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/eventos/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/eventos/"/>
     <outline type="rss" text="Antofagasta Noticias - Sociedad" title="Antofagasta Noticias - Sociedad" description="Feed de la categoría 'Sociedad' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/sociedad/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/sociedad/"/>
@@ -97,6 +105,8 @@
     <outline type="rss" text="En La Línea - Social" title="En La Línea - Social" description="Feed de la categoría 'Social' en En La Línea" xmlUrl="https://www.enlalinea.cl/category/social/feed/" htmlUrl="https://www.enlalinea.cl/category/social/"/>
     <outline type="rss" text="Enfoque Digital O'Higgins - Eventos" title="Enfoque Digital O'Higgins - Eventos" description="Feed de la categoría 'Eventos' en Enfoque Digital O'Higgins" xmlUrl="https://vi.cl/category/eventos/feed/" htmlUrl="https://vi.cl/category/eventos/"/>
     <outline type="rss" text="Enfoque Digital O'Higgins - Turismo" title="Enfoque Digital O'Higgins - Turismo" description="Feed de la categoría 'Turismo' en Enfoque Digital O'Higgins" xmlUrl="https://vi.cl/category/turismo/feed/" htmlUrl="https://vi.cl/category/turismo/"/>
+    <outline type="rss" text="Federación CCU" title="Federación CCU" description="Federación Nacional Sindicatos Holding Heineken CCU" xmlUrl="https://federacionccu.cl/feed/" htmlUrl="https://federacionccu.cl/"/>
+    <outline type="rss" text="Federación CCU [Proxy Google News]" title="Federación CCU [Proxy Google News]" description="Resultados de site:federacionccu.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:federacionccu.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:federacionccu.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Frontera Norte - Sociedad" title="Frontera Norte - Sociedad" description="Feed de la categoría 'Sociedad' en Frontera Norte" xmlUrl="https://www.fronteranorte.cl/category/sociedad/feed/" htmlUrl="https://www.fronteranorte.cl/category/sociedad/"/>
     <outline type="rss" text="Guía Turismo Chile" title="Guía Turismo Chile" description="Guía turística de destinos y actividades en Chile" xmlUrl="https://guiaturismo.cl/feed/" htmlUrl="https://guiaturismo.cl"/>
     <outline type="rss" text="Guía Turismo Chile - Región De La Araucanía" title="Guía Turismo Chile - Región De La Araucanía" description="Feed de la categoría 'Región De La Araucanía' en Guía Turismo Chile" xmlUrl="https://guiaturismo.cl/category/macrozona/zona-sur/region-araucania/feed/" htmlUrl="https://guiaturismo.cl/category/macrozona/zona-sur/region-araucania/"/>

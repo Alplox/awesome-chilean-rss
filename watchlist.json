@@ -9858,5 +9858,125 @@
         "verified": true
       }
     ]
+  },
+  {
+    "id": "radios-regionales",
+    "name": "Radios Regionales",
+    "url": "https://radiosregionales.cl/",
+    "category": "radio",
+    "description": "Directorio de radios chilenas por región",
+    "reason": "SSL handshake failed (sitio no accesible)",
+    "feeds": [
+      {
+        "id": "radios-regionales-proxy-google-news",
+        "name": "Radios Regionales [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiosregionales.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiosregionales.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:radiosregionales.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radios-regionales-proxy-bing-news",
+        "name": "Radios Regionales [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiosregionales.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiosregionales.cl",
+        "description": "Resultados de site:radiosregionales.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ansa-latina",
+    "name": "ANSA Latina",
+    "url": "https://www.ansalatina.com/",
+    "category": "news-international",
+    "description": "Agencia de noticias italiana ANSA, sección Latinoamérica",
+    "reason": "No se detectó feed RSS en el sitio (agencia de noticias italiana, no chilena)",
+    "feeds": [
+      {
+        "id": "ansa-latina-proxy-google-news",
+        "name": "ANSA Latina [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ansalatina.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ansalatina.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:ansalatina.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ansa-latina-proxy-bing-news",
+        "name": "ANSA Latina [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ansalatina.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ansalatina.com",
+        "description": "Resultados de site:ansalatina.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "tnt-sports",
+    "name": "TNT Sports Chile",
+    "url": "https://tntsports.cl/",
+    "category": "sports",
+    "description": "Portal deportivo chileno de TNT Sports",
+    "reason": "Sitio bloqueado (HTTP 403 - Cloudflare)",
+    "feeds": [
+      {
+        "id": "tnt-sports-proxy-google-news",
+        "name": "TNT Sports Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tntsports.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tntsports.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:tntsports.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "tnt-sports-proxy-bing-news",
+        "name": "TNT Sports Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tntsports.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tntsports.cl",
+        "description": "Resultados de site:tntsports.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "fm-plus",
+    "name": "FM Plus",
+    "url": "https://www.fmplus.cl/",
+    "category": "radio",
+    "description": "Radioemisora chilena FM Plus",
+    "reason": "No se detectó feed RSS en el sitio (Next.js, sin soporte RSS)",
+    "feeds": [
+      {
+        "id": "fm-plus-proxy-google-news",
+        "name": "FM Plus [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fmplus.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fmplus.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:fmplus.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fm-plus-proxy-bing-news",
+        "name": "FM Plus [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fmplus.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fmplus.cl",
+        "description": "Resultados de site:fmplus.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      }
+    ]
   }
 ]
