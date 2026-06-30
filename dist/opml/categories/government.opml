@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (113 feeds)</title>
+    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (114 feeds)</title>
     <description>Feeds RSS de 🏛️ Gobierno y Datos Públicos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
+    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -93,6 +93,7 @@
     <outline type="rss" text="Noticias Los Ríos - Cuenta Pública" title="Noticias Los Ríos - Cuenta Pública" description="Feed de la categoría 'Cuenta Pública' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/cuenta-publica/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/cuenta-publica/"/>
     <outline type="rss" text="Noticias Los Ríos - Gobierno" title="Noticias Los Ríos - Gobierno" description="Feed de la categoría 'Gobierno' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/gobierno/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/gobierno/"/>
     <outline type="rss" text="Noticias Los Ríos - Registro Civil" title="Noticias Los Ríos - Registro Civil" description="Feed de la categoría 'Registro Civil' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/registro-civil/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/registro-civil/"/>
+    <outline type="rss" text="Portal Metropolitano - Gobierno" title="Portal Metropolitano - Gobierno" description="Feed de la categoría 'Gobierno' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/gobierno/feed/" htmlUrl="https://portalmetropolitano.cl/category/gobierno/"/>
     <outline type="rss" text="Radio Cámara" title="Radio Cámara" description="Radio de la Cámara de Diputadas y Diputados de Chile" xmlUrl="https://www.radiocamara.cl/rss.aspx" htmlUrl="https://www.radiocamara.cl"/>
     <outline type="rss" text="Radio Cámara [Proxy Bing News]" title="Radio Cámara [Proxy Bing News]" description="Resultados de site:radiocamara.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radiocamara.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radiocamara.cl"/>
     <outline type="rss" text="Radio Cámara [Proxy Google News]" title="Radio Cámara [Proxy Google News]" description="Resultados de site:radiocamara.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiocamara.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiocamara.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

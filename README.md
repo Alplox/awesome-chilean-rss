@@ -2,9 +2,9 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-362-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4168-blue)
+![Sitios](https://img.shields.io/badge/sitios-366-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4271-blue)
 
-> El directorio más completo de feeds RSS chilenos. 362 sitios, 4168 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 366 sitios, 4271 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -15,30 +15,30 @@
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (362 sitios, 4168 feeds)
+## 📝 Fuentes disponibles (366 sitios, 4271 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 209 sitios, 776 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 73 sitios, 139 feeds
+- [📰 Noticias Nacionales](#cat-news) — 212 sitios, 818 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 75 sitios, 144 feeds
 - [🌎 Medios Regionales](#cat-regional) — 193 sitios, 1637 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 80 sitios, 261 feeds
-- [🏛️ Gobierno y Datos Públicos](#cat-government) — 28 sitios, 113 feeds
-- [🏫 Educación, Universidades e Investigación](#cat-education) — 65 sitios, 123 feeds
-- [💼 Economia, Negocios y Finanzas](#cat-business) — 89 sitios, 194 feeds
-- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 17 sitios, 19 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 95 sitios, 110 feeds
-- [👥 Comunidad](#cat-community) — 83 sitios, 166 feeds
-- [⚽ Deportes](#cat-sports) — 130 sitios, 179 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 81 sitios, 263 feeds
+- [🏛️ Gobierno y Datos Públicos](#cat-government) — 29 sitios, 114 feeds
+- [🏫 Educación, Universidades e Investigación](#cat-education) — 66 sitios, 124 feeds
+- [💼 Economia, Negocios y Finanzas](#cat-business) — 90 sitios, 196 feeds
+- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 18 sitios, 20 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 97 sitios, 116 feeds
+- [👥 Comunidad](#cat-community) — 85 sitios, 170 feeds
+- [⚽ Deportes](#cat-sports) — 132 sitios, 181 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 14 sitios, 107 feeds
-- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 61 sitios, 110 feeds
-- [🎭 Espectáculos y Entretención](#cat-entertainment) — 49 sitios, 99 feeds
-- [📻 Radio y Música](#cat-radio) — 22 sitios, 57 feeds
-- [🏥 Salud y Bienestar](#cat-health) — 70 sitios, 78 feeds
+- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 62 sitios, 112 feeds
+- [🎭 Espectáculos y Entretención](#cat-entertainment) — 50 sitios, 100 feeds
+- [📻 Radio y Música](#cat-radio) — 23 sitios, 58 feeds
+- [🏥 Salud y Bienestar](#cat-health) — 72 sitios, 111 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (209 sitios, 776 feeds)
+### 📰 Noticias Nacionales (212 sitios, 818 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -775,6 +775,39 @@
   - RSS: `https://www.portalfruticola.com/noticias/category/noticias/feed/`
 - **Portal Informativo**: Feed de la categoría 'Nacional' en Portal Informativo
   - RSS: `https://portalinformativo.cl/category/nacional/feed/`
+- **Portal Metropolitano** — Portal de noticias de la Región Metropolitana, Chile
+  - Portal Metropolitano: `https://portalmetropolitano.cl/feed/`
+  - Portal Metropolitano - Destacados: `https://portalmetropolitano.cl/category/destacados/feed/`
+  - Portal Metropolitano - Municipio: `https://portalmetropolitano.cl/category/municipios-rm/feed/`
+  - Portal Metropolitano - Autoridades: `https://portalmetropolitano.cl/category/autoridades/feed/`
+  - Portal Metropolitano - Cartelera Pm: `https://portalmetropolitano.cl/category/cartelera-pm/feed/`
+  - Portal Metropolitano - Movilidad: `https://portalmetropolitano.cl/category/movilidad/feed/`
+  - Portal Metropolitano - Seguridad: `https://portalmetropolitano.cl/category/seguridad/feed/`
+  - Portal Metropolitano - Barrios: `https://portalmetropolitano.cl/category/barrios/feed/`
+  - Portal Metropolitano - Servicios: `https://portalmetropolitano.cl/category/servicios/feed/`
+  - Portal Metropolitano - Comercio: `https://portalmetropolitano.cl/category/comercio/feed/`
+  - Portal Metropolitano - Regiones: `https://portalmetropolitano.cl/category/regiones/feed/`
+  - Portal Metropolitano - Gastronomía: `https://portalmetropolitano.cl/category/gastronomia/feed/`
+  - Portal Metropolitano - Política: `https://portalmetropolitano.cl/category/politica/feed/`
+  - Portal Metropolitano - Opinión: `https://portalmetropolitano.cl/category/opinion/feed/`
+  - Portal Metropolitano - Consejos: `https://portalmetropolitano.cl/category/consejos/feed/`
+  - Portal Metropolitano - Infraestructura: `https://portalmetropolitano.cl/category/infraestructura/feed/`
+  - Portal Metropolitano - Exposiciones: `https://portalmetropolitano.cl/category/cartelera-pm/exposiciones/feed/`
+  - Portal Metropolitano - Ruralidad: `https://portalmetropolitano.cl/category/ruralidad/feed/`
+  - Portal Metropolitano - Justicia: `https://portalmetropolitano.cl/category/justicia/feed/`
+  - Portal Metropolitano - Productos: `https://portalmetropolitano.cl/category/productos/feed/`
+  - Portal Metropolitano - Fiestas: `https://portalmetropolitano.cl/category/fiestas/feed/`
+  - Portal Metropolitano - Construcción: `https://portalmetropolitano.cl/category/construccion/feed/`
+  - Portal Metropolitano - Emergencias: `https://portalmetropolitano.cl/category/emergencias/feed/`
+  - Portal Metropolitano - Historia: `https://portalmetropolitano.cl/category/historia/feed/`
+  - Portal Metropolitano - Danza: `https://portalmetropolitano.cl/category/cartelera-pm/danza/feed/`
+  - Portal Metropolitano - Energía: `https://portalmetropolitano.cl/category/energia/feed/`
+  - Portal Metropolitano - Industrias: `https://portalmetropolitano.cl/category/industrias/feed/`
+  - Portal Metropolitano - Congreso: `https://portalmetropolitano.cl/category/congreso/feed/`
+  - Portal Metropolitano [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalmetropolitano.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Portal Red Salud** — Portal chileno de noticias y contenidos sobre salud
+  - Portal Red Salud - Noticias: `https://portalredsalud.cl/category/noticias/feed/`
+  - Portal Red Salud - Actualidad: `https://portalredsalud.cl/category/actualidad/feed/`
 - **Prensa Fútbol**: Feed de la categoría 'Noticias' en Prensa Fútbol
   - RSS: `https://www.prensafutbol.cl/noticias/feed/`
 - **Publimetro Chile** — Diario chileno de información general
@@ -1012,6 +1045,18 @@
   - RSS: `https://www.timeline.cl/category/politica/feed/`
 - **Traiguén City**: Feed de la categoría 'Nacional' en Traiguén City
   - RSS: `https://traiguencity.cl/noticias/nacional/feed/`
+- **Tropezón Tu Diario** — Diario con noticias de actualidad, policial y emergencias
+  - Tropezón Tu Diario: `https://nuevotropezon.tropezon.cl/feed/`
+  - Tropezón Tu Diario - Policial: `https://nuevotropezon.tropezon.cl/category/policial/feed/`
+  - Tropezón Tu Diario - Denuncias: `https://nuevotropezon.tropezon.cl/category/denuncias/feed/`
+  - Tropezón Tu Diario - Accidente: `https://nuevotropezon.tropezon.cl/category/accidente/feed/`
+  - Tropezón Tu Diario - Opinión: `https://nuevotropezon.tropezon.cl/category/opinion/feed/`
+  - Tropezón Tu Diario - Politica: `https://nuevotropezon.tropezon.cl/category/politica/feed/`
+  - Tropezón Tu Diario - Destacado: `https://nuevotropezon.tropezon.cl/category/destacado/feed/`
+  - Tropezón Tu Diario - Bomberos: `https://nuevotropezon.tropezon.cl/category/bomberos/feed/`
+  - Tropezón Tu Diario - Bomberos|emergencia: `https://nuevotropezon.tropezon.cl/category/bomberosemergencia/feed/`
+  - Tropezón Tu Diario - Opinión|política|social: `https://nuevotropezon.tropezon.cl/category/opinionpoliticasocial/feed/`
+  - Tropezón Tu Diario [Proxy Google News]: `https://news.google.com/rss/search?q=site:nuevotropezon.tropezon.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Tus Noticias**: Feed de la categoría 'Nacional' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/nacional/feed/`
 - **Universidad de La Frontera**: Feed de la categoría 'Noticias' en Universidad de La Frontera
@@ -1031,7 +1076,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (73 sitios, 139 feeds)
+### 🌐 Noticias Internacionales (75 sitios, 144 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -1174,6 +1219,8 @@
   - Piensa Chile - Sionismo: `https://piensachile.com/category/politica/sionismo/feed/`
   - Piensa Chile - Ee.uu.: `https://piensachile.com/category/internacional/ee-uu/feed/`
   - Piensa Chile - Internacional: `https://piensachile.com/category/internacional/feed/`
+- **Portal Metropolitano**: Feed de la categoría 'Internacional' en Portal Metropolitano
+  - RSS: `https://portalmetropolitano.cl/category/internacional/feed/`
 - **Publimicro**: Feed de la categoría 'Internacional' en Publimicro
   - RSS: `https://publimicro.cl/contenidos-noticias/internacional/feed/`
 - **Radio Cooperativa**: Feed de la sección 'Mundo' en Radio Cooperativa
@@ -1193,6 +1240,11 @@
   - RSS: `https://radiovalparaiso.cl/categoria/internacional/feed/`
 - **REDIMIN**: Feed de la categoría 'Mundo' en REDIMIN
   - RSS: `https://www.redimin.cl/categoria/mundo/feed/`
+- **RFI Español** — Radio Francia Internacional en español — noticias internacionales, América Latina y el mundo
+  - RFI Español: `https://www.rfi.fr/es/rss`
+  - RFI Español - Fr: `https://www.rfi.fr/es/fr/rss/`
+  - RFI Español [Proxy Google News]: `https://news.google.com/rss/search?q=site:rfi.fr/es&hl=es-419&gl=CL&ceid=CL:es-419`
+  - RFI Español [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rfi.fr/es&format=RSS`
 - **Samsung Newsroom Latin America**: Feed de la sección 'Global' en Samsung Newsroom Latin America
   - RSS: `https://news.samsung.com/latin/feed/?category=global`
 - **Sera Noticia**: Feed de la categoría 'Internacional' en Sera Noticia
@@ -4175,7 +4227,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (80 sitios, 261 feeds)
+### 💻 Tecnología y Startups (81 sitios, 263 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
@@ -4438,6 +4490,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Pisapapeles - Entrevistas: `https://pisapapeles.net/category/entrevistas/feed/`
   - Pisapapeles [Proxy Google News]: `https://news.google.com/rss/search?q=site:pisapapeles.net&hl=es-419&gl=CL&ceid=CL:es-419`
   - Pisapapeles [Proxy Bing News]: `https://www.bing.com/news/search?q=site:pisapapeles.net&format=RSS`
+- **Portal Metropolitano** — Portal de noticias de la Región Metropolitana, Chile
+  - Portal Metropolitano - Tecnología: `https://portalmetropolitano.cl/category/tecnologia/feed/`
+  - Portal Metropolitano - Ciencia: `https://portalmetropolitano.cl/category/ciencia/feed/`
 - **Radio Cooperativa**: Feed de la sección 'Tecnología' en Radio Cooperativa
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_8___1.xml`
 - **Radio Festival**: Feed de la categoría 'Ciencia y Tecnología' en Radio Festival
@@ -4524,7 +4579,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-government"></a>
-### 🏛️ Gobierno y Datos Públicos (28 sitios, 113 feeds)
+### 🏛️ Gobierno y Datos Públicos (29 sitios, 114 feeds)
 
 *Descargar OPML: [`government.opml`](dist/opml/categories/government.opml)*
 
@@ -4634,6 +4689,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Noticias Los Ríos - Gobierno: `https://www.noticiaslosrios.cl/seccion/gobierno/feed/`
   - Noticias Los Ríos - Registro Civil: `https://www.noticiaslosrios.cl/seccion/registro-civil/feed/`
   - Noticias Los Ríos - Cuenta Pública: `https://www.noticiaslosrios.cl/seccion/cuenta-publica/feed/`
+- **Portal Metropolitano**: Feed de la categoría 'Gobierno' en Portal Metropolitano
+  - RSS: `https://portalmetropolitano.cl/category/gobierno/feed/`
 - **Radio Cámara** — Radio de la Cámara de Diputadas y Diputados de Chile
   - Radio Cámara: `https://www.radiocamara.cl/rss.aspx`
   - Radio Cámara [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiocamara.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -4673,7 +4730,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-education"></a>
-### 🏫 Educación, Universidades e Investigación (65 sitios, 123 feeds)
+### 🏫 Educación, Universidades e Investigación (66 sitios, 124 feeds)
 
 *Descargar OPML: [`education.opml`](dist/opml/categories/education.opml)*
 
@@ -4829,6 +4886,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://ovallehoy.cl/categoria/ultimas/sociedad/educacion/feed/`
 - **Piensa Chile**: Feed de la categoría 'Educación' en Piensa Chile
   - RSS: `https://piensachile.com/category/desarrollo/educacion/feed/`
+- **Portal Metropolitano**: Feed de la categoría 'Educación' en Portal Metropolitano
+  - RSS: `https://portalmetropolitano.cl/category/educacion/feed/`
 - **PUC (Pontificia Universidad Católica)** — Noticias e investigación de la PUC
   - PUC (Pontificia Universidad Católica): `https://www.uc.cl/rss/`
   - PUC (Pontificia Universidad Católica) - Calendario Academico: `https://www.uc.cl/calendario-academico/rss/`
@@ -4869,7 +4928,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Economia, Negocios y Finanzas (89 sitios, 194 feeds)
+### 💼 Economia, Negocios y Finanzas (90 sitios, 196 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
@@ -5090,6 +5149,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Portal Frutícola - Destacado Top: `https://www.portalfruticola.com/noticias/category/destacados-top/feed/`
   - Portal Frutícola - Grape Reporter F: `https://www.portalfruticola.com/noticias/category/grape-reporter/feed/`
   - Portal Frutícola [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalfruticola.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Portal Metropolitano** — Portal de noticias de la Región Metropolitana, Chile
+  - Portal Metropolitano - Economía: `https://portalmetropolitano.cl/category/economia/feed/`
+  - Portal Metropolitano - Empresas: `https://portalmetropolitano.cl/category/empresas/feed/`
 - **PortalPortuario** — Medio especializado en puertos, transporte marítimo y comercio exterior en español
   - PortalPortuario: `https://portalportuario.cl/feed/`
   - PortalPortuario - Titulares: `https://portalportuario.cl/category/titulares/feed/`
@@ -5160,7 +5222,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-jobs"></a>
-### 💼 Ofertas laborales y empleabilidad (17 sitios, 19 feeds)
+### 💼 Ofertas laborales y empleabilidad (18 sitios, 20 feeds)
 
 *Descargar OPML: [`jobs.opml`](dist/opml/categories/jobs.opml)*
 
@@ -5194,6 +5256,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.linaresenlinea.cl/category/laboral/feed/`
 - **Ministerio de Educación**: Feed de la sección 'Trabaje Con Nosotros' en Ministerio de Educación
   - RSS: `https://www.mineduc.cl/feed/?category=trabaje-con-nosotros`
+- **Portal Metropolitano**: Feed de la categoría 'Trabajo' en Portal Metropolitano
+  - RSS: `https://portalmetropolitano.cl/category/trabajo/feed/`
 - **Radio Festival**: Feed de la sección 'Bolsa Del Trabajo' en Radio Festival
   - RSS: `https://www.radiofestival.cl/feed/?category=bolsa-del-trabajo`
 - **REDIMIN**: Feed de la categoría 'Laboral' en REDIMIN
@@ -5204,7 +5268,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (95 sitios, 110 feeds)
+### 🎨 Cultura y Divulgación (97 sitios, 116 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
@@ -5375,6 +5439,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.pichilemunews.cl/feed/?category=cultura`
 - **Piensa Chile**: Feed de la categoría 'Cultura' en Piensa Chile
   - RSS: `https://piensachile.com/category/cultura/feed/`
+- **Portal Metropolitano** — Portal de noticias de la Región Metropolitana, Chile
+  - Portal Metropolitano - Cultura: `https://portalmetropolitano.cl/category/cultura/feed/`
+  - Portal Metropolitano - Arte: `https://portalmetropolitano.cl/category/arte/feed/`
+  - Portal Metropolitano - Teatro: `https://portalmetropolitano.cl/category/teatro/feed/`
+  - Portal Metropolitano - Literatura: `https://portalmetropolitano.cl/category/cartelera-pm/literatura/feed/`
+  - Portal Metropolitano - Cine: `https://portalmetropolitano.cl/category/cartelera-pm/cine/feed/`
 - **Prensa Ciudadana**: Feed de la categoría 'Cultura' en Prensa Ciudadana
   - RSS: `https://www.prensaciudadana.cl/category/cultura/feed/`
 - **Radio Cooperativa**: Feed de la sección ' Cultura' en Radio Cooperativa
@@ -5407,6 +5477,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.tiempo21.cl/cultura/feed/`
 - **Traiguén City**: Feed de la categoría 'Cultura' en Traiguén City
   - RSS: `https://traiguencity.cl/noticias/traiguen/cultura/feed/`
+- **Tropezón Tu Diario**: Feed de la categoría 'Cultura' en Tropezón Tu Diario
+  - RSS: `https://nuevotropezon.tropezon.cl/category/cultura/feed/`
 - **Tus Noticias**: Feed de la categoría 'Cultura' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/cultura/feed/`
 - **TXS Plus**: Feed de la categoría 'Cultura' en TXS Plus
@@ -5417,7 +5489,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-community"></a>
-### 👥 Comunidad (83 sitios, 166 feeds)
+### 👥 Comunidad (85 sitios, 170 feeds)
 
 *Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
 
@@ -5623,6 +5695,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Ovalle Hoy - Turismo: `https://ovallehoy.cl/categoria/ultimas/gastronomia-y-turismo/turismo/feed/`
 - **Pichilemu News**: Feed de la sección 'Turismo' en Pichilemu News
   - RSS: `https://www.pichilemunews.cl/feed/?category=turismo`
+- **Portal Metropolitano** — Portal de noticias de la Región Metropolitana, Chile
+  - Portal Metropolitano - Sociedad: `https://portalmetropolitano.cl/category/sociedad/feed/`
+  - Portal Metropolitano - Turismo: `https://portalmetropolitano.cl/category/turismo/feed/`
+  - Portal Metropolitano - Festivales: `https://portalmetropolitano.cl/category/festivales/feed/`
+- **Portal Red Salud**: Feed de la categoría ' Eventos' en Portal Red Salud
+  - RSS: `https://portalredsalud.cl/category/eventos/feed/`
 - **Publimetro Chile**: Feed de la categoría 'Social' en Publimetro Chile
   - RSS: ` https://www.publimetro.cl/arc/outboundfeeds/rss/category/social/?outputType=xml`
 - **Radio Corazón**: Feed de la categoría 'Concursos' en Radio Corazón
@@ -5674,7 +5752,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (130 sitios, 179 feeds)
+### ⚽ Deportes (132 sitios, 181 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
@@ -5902,6 +5980,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Pichilemu News - Tenis De Mesa: `https://www.pichilemunews.cl/feed/?category=tenis-de-esa`
 - **Portal Informativo**: Feed de la categoría 'Deportes' en Portal Informativo
   - RSS: `https://portalinformativo.cl/category/deportes/feed/`
+- **Portal Metropolitano**: Feed de la categoría 'Deportes' en Portal Metropolitano
+  - RSS: `https://portalmetropolitano.cl/category/deportes/feed/`
+- **Portal Red Salud**: Feed de la categoría 'Deporte' en Portal Red Salud
+  - RSS: `https://portalredsalud.cl/category/deporte/feed/`
 - **Prensa Fútbol** — Portal chileno de noticias de fútbol
   - Prensa Fútbol: `https://www.prensafutbol.cl/feed/`
   - Prensa Fútbol - Destacadas: `https://www.prensafutbol.cl/noticias/destacadas/feed/`
@@ -6120,7 +6202,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-environment"></a>
-### 🌿 Medio Ambiente y Naturaleza (61 sitios, 110 feeds)
+### 🌿 Medio Ambiente y Naturaleza (62 sitios, 112 feeds)
 
 *Descargar OPML: [`environment.opml`](dist/opml/categories/environment.opml)*
 
@@ -6269,6 +6351,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://ovallehoy.cl/categoria/ultimas/sociedad/medio-ambiente/feed/`
 - **Portal Frutícola**: Feed de la categoría 'Sostenibilidad F' en Portal Frutícola
   - RSS: `https://www.portalfruticola.com/noticias/category/sostenibilidad/feed/`
+- **Portal Metropolitano** — Portal de noticias de la Región Metropolitana, Chile
+  - Portal Metropolitano - Medio Ambiente: `https://portalmetropolitano.cl/category/medio-ambiente/feed/`
+  - Portal Metropolitano - Agricultura: `https://portalmetropolitano.cl/category/agricultura/feed/`
 - **Radio Festival** — Radio chilena de música y entretenimiento
   - Radio Festival - Medio Ambiente: `https://www.radiofestival.cl/category/medio-ambiente/feed/`
   - Radio Festival - Naturaleza: `https://www.radiofestival.cl/category/naturaleza/feed/`
@@ -6299,7 +6384,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-entertainment"></a>
-### 🎭 Espectáculos y Entretención (49 sitios, 99 feeds)
+### 🎭 Espectáculos y Entretención (50 sitios, 100 feeds)
 
 *Descargar OPML: [`entertainment.opml`](dist/opml/categories/entertainment.opml)*
 
@@ -6418,6 +6503,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Parlante.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:parlante.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Pisapapeles**: Feed de la categoría 'Rumores' en Pisapapeles
   - RSS: `https://pisapapeles.net/category/rumores/feed/`
+- **Portal Metropolitano**: Feed de la categoría 'Entretención' en Portal Metropolitano
+  - RSS: `https://portalmetropolitano.cl/category/entretencion/feed/`
 - **Publimetro Chile**: Feed de la categoría 'Entretenimiento' en Publimetro Chile
   - RSS: ` https://www.publimetro.cl/arc/outboundfeeds/rss/category/entretenimiento/?outputType=xml`
 - **Radio Cooperativa**: Feed de la sección 'Entretención' en Radio Cooperativa
@@ -6455,7 +6542,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-radio"></a>
-### 📻 Radio y Música (22 sitios, 57 feeds)
+### 📻 Radio y Música (23 sitios, 58 feeds)
 
 *Descargar OPML: [`radio.opml`](dist/opml/categories/radio.opml)*
 
@@ -6486,6 +6573,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Los 40 [Proxy Bing News]: `https://www.bing.com/news/search?q=site:los40.cl&format=RSS`
 - **Pichilemu News**: Feed de la sección 'Musicos' en Pichilemu News
   - RSS: `https://www.pichilemunews.cl/feed/?category=musicos`
+- **Portal Metropolitano**: Feed de la categoría 'Música' en Portal Metropolitano
+  - RSS: `https://portalmetropolitano.cl/category/cartelera-pm/musica/feed/`
 - **Radio Activa** — Radioemisora chilena de música contemporánea
   - Radio Activa: `https://www.radioactiva.cl/feed/`
   - Radio Activa - '+parametros.perfil_url+': `https://www.radioactiva.cl/feed/?category='+parametros.perfil_url+'`
@@ -6542,7 +6631,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-health"></a>
-### 🏥 Salud y Bienestar (70 sitios, 78 feeds)
+### 🏥 Salud y Bienestar (72 sitios, 111 feeds)
 
 *Descargar OPML: [`health.opml`](dist/opml/categories/health.opml)*
 
@@ -6660,6 +6749,41 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Pediatría y Salud [Proxy Google News]: `https://news.google.com/rss/search?q=site:pediatriaysalud.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Piensa Chile**: Feed de la categoría 'Salud' en Piensa Chile
   - RSS: `https://piensachile.com/category/salud-3/feed/`
+- **Portal Metropolitano**: Feed de la categoría 'Salud' en Portal Metropolitano
+  - RSS: `https://portalmetropolitano.cl/category/salud/feed/`
+- **Portal Red Salud** — Portal chileno de noticias y contenidos sobre salud
+  - Portal Red Salud: `https://portalredsalud.cl/feed/`
+  - Portal Red Salud -  Salud: `https://portalredsalud.cl/category/salud/feed/`
+  - Portal Red Salud -  Minsal: `https://portalredsalud.cl/category/minsal/feed/`
+  - Portal Red Salud - Dato Útil: `https://portalredsalud.cl/category/dato-util/feed/`
+  - Portal Red Salud - Reportajes: `https://portalredsalud.cl/category/reportajes/feed/`
+  - Portal Red Salud -  Salud Mental: `https://portalredsalud.cl/category/salud-mental/feed/`
+  - Portal Red Salud - Alimentación: `https://portalredsalud.cl/category/alimentacion/feed/`
+  - Portal Red Salud -  Mayo Clinic: `https://portalredsalud.cl/category/mayo-clinic/feed/`
+  - Portal Red Salud - Cáncer: `https://portalredsalud.cl/category/cancer/feed/`
+  - Portal Red Salud - Adultos Mayores: `https://portalredsalud.cl/category/adultos-mayores/feed/`
+  - Portal Red Salud -  Columnas Y Reportajes: `https://portalredsalud.cl/category/columnas-y-reportajes/feed/`
+  - Portal Red Salud - Tecnologías Para La Salud: `https://portalredsalud.cl/category/tecnologias-para-la-salud/feed/`
+  - Portal Red Salud - Udla: `https://portalredsalud.cl/category/udla/feed/`
+  - Portal Red Salud - Unab: `https://portalredsalud.cl/category/unab/feed/`
+  - Portal Red Salud - Sector De La Salud: `https://portalredsalud.cl/category/sector-de-la-salud/feed/`
+  - Portal Red Salud - Salud Responsable: `https://portalredsalud.cl/category/salud-responsable/feed/`
+  - Portal Red Salud - Salud Física: `https://portalredsalud.cl/category/salud-fisica/feed/`
+  - Portal Red Salud - Ucsc: `https://portalredsalud.cl/category/ucsc/feed/`
+  - Portal Red Salud - Vacunación: `https://portalredsalud.cl/category/vacunacion/feed/`
+  - Portal Red Salud - Salud De La Piel: `https://portalredsalud.cl/category/salud-de-la-piel/feed/`
+  - Portal Red Salud - Salud Niños Y Jóvenes: `https://portalredsalud.cl/category/salud-ninos-y-jovenes/feed/`
+  - Portal Red Salud - Salud Mental: `https://portalredsalud.cl/category/salud-mental-2/feed/`
+  - Portal Red Salud - Invierno: `https://portalredsalud.cl/category/invierno/feed/`
+  - Portal Red Salud - Cáncer De Mama: `https://portalredsalud.cl/category/cancer-de-mama/feed/`
+  - Portal Red Salud - Inteligencia Artificial: `https://portalredsalud.cl/category/inteligencia-artificial/feed/`
+  - Portal Red Salud - Tecnología Médica: `https://portalredsalud.cl/category/tecnologia-medica/feed/`
+  - Portal Red Salud - Alimentos: `https://portalredsalud.cl/category/alimentos/feed/`
+  - Portal Red Salud - Alimentación Y Nutrición: `https://portalredsalud.cl/category/alimentacion-y-nutricion/feed/`
+  - Portal Red Salud - Seguridad: `https://portalredsalud.cl/category/seguridad/feed/`
+  - Portal Red Salud - Salud Cardiovascular: `https://portalredsalud.cl/category/salud-cardiovascular/feed/`
+  - Portal Red Salud - Enfermedades Respiratorias: `https://portalredsalud.cl/category/enfermedades-respiratorias/feed/`
+  - Portal Red Salud [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalredsalud.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Publimicro**: Feed de la categoría 'Salud' en Publimicro
   - RSS: `https://publimicro.cl/contenidos-noticias/salud/feed/`
 - **Radio Magallanes**: Feed de la categoría 'Salud' en Radio Magallanes

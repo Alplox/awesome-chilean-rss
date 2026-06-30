@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (99 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (100 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
+    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -88,6 +88,7 @@
     <outline type="rss" text="Parlante.cl - Portada" title="Parlante.cl - Portada" description="Feed principal de Parlante.cl" xmlUrl="https://www.parlante.cl/?feed=rss2" htmlUrl="https://www.parlante.cl"/>
     <outline type="rss" text="Parlante.cl [Proxy Google News]" title="Parlante.cl [Proxy Google News]" description="Resultados de site:parlante.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:parlante.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:parlante.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Pisapapeles - Rumores" title="Pisapapeles - Rumores" description="Feed de la categoría 'Rumores' en Pisapapeles" xmlUrl="https://pisapapeles.net/category/rumores/feed/" htmlUrl="https://pisapapeles.net/category/rumores/"/>
+    <outline type="rss" text="Portal Metropolitano - Entretención" title="Portal Metropolitano - Entretención" description="Feed de la categoría 'Entretención' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/entretencion/feed/" htmlUrl="https://portalmetropolitano.cl/category/entretencion/"/>
     <outline type="rss" text="Publimetro Chile - Entretenimiento" title="Publimetro Chile - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en Publimetro Chile" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/entretenimiento/?outputType=xml" htmlUrl="https://www.publimetro.cl/category/entretenimiento/"/>
     <outline type="rss" text="Radio Cooperativa - Entretención" title="Radio Cooperativa - Entretención" description="Feed de la sección 'Entretención' en Radio Cooperativa" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_4___1.xml" htmlUrl="https://www.cooperativa.cl"/>
     <outline type="rss" text="Radio Corazón" title="Radio Corazón" description="Radio chilena de música popular" xmlUrl="https://www.corazon.cl/feed" htmlUrl="https://www.corazon.cl"/>

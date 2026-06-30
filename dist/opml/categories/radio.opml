@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📻 Radio y Música (57 feeds)</title>
+    <title>Awesome Chilean RSS - 📻 Radio y Música (58 feeds)</title>
     <description>Feeds RSS de 📻 Radio y Música, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
+    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -22,6 +22,7 @@
     <outline type="rss" text="Los 40 [Proxy Bing News]" title="Los 40 [Proxy Bing News]" description="Resultados de site:los40.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:los40.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:los40.cl"/>
     <outline type="rss" text="Los 40 [Proxy Google News]" title="Los 40 [Proxy Google News]" description="Resultados de site:los40.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:los40.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:los40.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Pichilemu News - Musicos" title="Pichilemu News - Musicos" description="Feed de la sección 'Musicos' en Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed/?category=musicos" htmlUrl="https://www.pichilemunews.cl/musicos/"/>
+    <outline type="rss" text="Portal Metropolitano - Música" title="Portal Metropolitano - Música" description="Feed de la categoría 'Música' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/cartelera-pm/musica/feed/" htmlUrl="https://portalmetropolitano.cl/category/cartelera-pm/musica/"/>
     <outline type="rss" text="Radio Activa" title="Radio Activa" description="Radioemisora chilena de música contemporánea" xmlUrl="https://www.radioactiva.cl/feed/" htmlUrl="https://www.radioactiva.cl/"/>
     <outline type="rss" text="Radio Activa - '+parametros.perfil_url+'" title="Radio Activa - '+parametros.perfil_url+'" description="Feed de la sección ''+parametros.perfil_url+'' en Radio Activa" xmlUrl="https://www.radioactiva.cl/feed/?category='+parametros.perfil_url+'" htmlUrl="https://www.radioactiva.cl/'+parametros.perfil_url+'/"/>
     <outline type="rss" text="Radio Activa - Frecuencias" title="Radio Activa - Frecuencias" description="Feed de la sección 'Frecuencias' en Radio Activa" xmlUrl="https://www.radioactiva.cl/feed/?category=frecuencias" htmlUrl="https://www.radioactiva.cl/frecuencias/"/>

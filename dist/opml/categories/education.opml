@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (123 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (124 feeds)</title>
     <description>Feeds RSS de 🏫 Educación, Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
+    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -107,6 +107,7 @@
     <outline type="rss" text="Noticias Los Ríos - Educación" title="Noticias Los Ríos - Educación" description="Feed de la categoría 'Educación' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/educacion/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/educacion/"/>
     <outline type="rss" text="Ovalle Hoy - Educación" title="Ovalle Hoy - Educación" description="Feed de la categoría 'Educación' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/educacion/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/educacion/"/>
     <outline type="rss" text="Piensa Chile - Educación" title="Piensa Chile - Educación" description="Feed de la categoría 'Educación' en Piensa Chile" xmlUrl="https://piensachile.com/category/desarrollo/educacion/feed/" htmlUrl="https://piensachile.com/category/desarrollo/educacion/"/>
+    <outline type="rss" text="Portal Metropolitano - Educación" title="Portal Metropolitano - Educación" description="Feed de la categoría 'Educación' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/educacion/feed/" htmlUrl="https://portalmetropolitano.cl/category/educacion/"/>
     <outline type="rss" text="PUC (Pontificia Universidad Católica)" title="PUC (Pontificia Universidad Católica)" description="Noticias e investigación de la PUC" xmlUrl="https://www.uc.cl/rss/" htmlUrl="https://www.uc.cl"/>
     <outline type="rss" text="PUC (Pontificia Universidad Católica) - Calendario Academico" title="PUC (Pontificia Universidad Católica) - Calendario Academico" description="Feed de la sección 'Calendario Academico' en PUC (Pontificia Universidad Católica)" xmlUrl="https://www.uc.cl/calendario-academico/rss/" htmlUrl="https://www.uc.cl/calendario-academico/"/>
     <outline type="rss" text="PUC (Pontificia Universidad Católica) [Proxy Google News]" title="PUC (Pontificia Universidad Católica) [Proxy Google News]" description="Resultados de site:uc.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:uc.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:uc.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (179 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (181 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
+    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -131,6 +131,8 @@
     <outline type="rss" text="Pichilemu News - Tenis" title="Pichilemu News - Tenis" description="Feed de la sección 'Tenis' en Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed/?category=tenis" htmlUrl="https://www.pichilemunews.cl/tenis/"/>
     <outline type="rss" text="Pichilemu News - Tenis De Mesa" title="Pichilemu News - Tenis De Mesa" description="Feed de la sección 'Tenis De Mesa' en Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed/?category=tenis-de-esa" htmlUrl="https://www.pichilemunews.cl/tenis-de-esa/"/>
     <outline type="rss" text="Portal Informativo - Deportes" title="Portal Informativo - Deportes" description="Feed de la categoría 'Deportes' en Portal Informativo" xmlUrl="https://portalinformativo.cl/category/deportes/feed/" htmlUrl="https://portalinformativo.cl/category/deportes/"/>
+    <outline type="rss" text="Portal Metropolitano - Deportes" title="Portal Metropolitano - Deportes" description="Feed de la categoría 'Deportes' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/deportes/feed/" htmlUrl="https://portalmetropolitano.cl/category/deportes/"/>
+    <outline type="rss" text="Portal Red Salud - Deporte" title="Portal Red Salud - Deporte" description="Feed de la categoría 'Deporte' en Portal Red Salud" xmlUrl="https://portalredsalud.cl/category/deporte/feed/" htmlUrl="https://portalredsalud.cl/category/deporte/"/>
     <outline type="rss" text="Prensa Fútbol" title="Prensa Fútbol" description="Portal chileno de noticias de fútbol" xmlUrl="https://www.prensafutbol.cl/feed/" htmlUrl="https://www.prensafutbol.cl"/>
     <outline type="rss" text="Prensa Fútbol - 1xbet" title="Prensa Fútbol - 1xbet" description="Feed de la categoría '1xbet' en Prensa Fútbol" xmlUrl="https://www.prensafutbol.cl/casas-de-apuestas/1xbet/feed/" htmlUrl="https://www.prensafutbol.cl/casas-de-apuestas/1xbet/"/>
     <outline type="rss" text="Prensa Fútbol - Apuestas Mundial" title="Prensa Fútbol - Apuestas Mundial" description="Feed de la categoría 'Apuestas Mundial' en Prensa Fútbol" xmlUrl="https://www.prensafutbol.cl/mundial-apuestas/feed/" htmlUrl="https://www.prensafutbol.cl/mundial-apuestas/"/>

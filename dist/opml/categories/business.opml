@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (194 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (196 feeds)</title>
     <description>Feeds RSS de 💼 Economia, Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
+    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -150,6 +150,8 @@
     <outline type="rss" text="Portal Frutícola - Más Noticias" title="Portal Frutícola - Más Noticias" description="Feed de la categoría 'Más Noticias' en Portal Frutícola" xmlUrl="https://www.portalfruticola.com/noticias/category/mas-noticias/feed/" htmlUrl="https://www.portalfruticola.com/noticias/category/mas-noticias/"/>
     <outline type="rss" text="Portal Frutícola - Mercado Y Economia F" title="Portal Frutícola - Mercado Y Economia F" description="Feed de la categoría 'Mercado Y Economia F' en Portal Frutícola" xmlUrl="https://www.portalfruticola.com/noticias/category/mercado-y-economia/feed/" htmlUrl="https://www.portalfruticola.com/noticias/category/mercado-y-economia/"/>
     <outline type="rss" text="Portal Frutícola [Proxy Google News]" title="Portal Frutícola [Proxy Google News]" description="Resultados de site:portalfruticola.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:portalfruticola.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:portalfruticola.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Portal Metropolitano - Economía" title="Portal Metropolitano - Economía" description="Feed de la categoría 'Economía' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/economia/feed/" htmlUrl="https://portalmetropolitano.cl/category/economia/"/>
+    <outline type="rss" text="Portal Metropolitano - Empresas" title="Portal Metropolitano - Empresas" description="Feed de la categoría 'Empresas' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/empresas/feed/" htmlUrl="https://portalmetropolitano.cl/category/empresas/"/>
     <outline type="rss" text="PortalPortuario" title="PortalPortuario" description="Medio especializado en puertos, transporte marítimo y comercio exterior en español" xmlUrl="https://portalportuario.cl/feed/" htmlUrl="https://portalportuario.cl/"/>
     <outline type="rss" text="PortalPortuario - Aduanas" title="PortalPortuario - Aduanas" description="Feed de la categoría 'Aduanas' en PortalPortuario" xmlUrl="https://portalportuario.cl/category/aduanas/feed/" htmlUrl="https://portalportuario.cl/category/aduanas/"/>
     <outline type="rss" text="PortalPortuario - Br" title="PortalPortuario - Br" description="Feed de la categoría 'Br' en PortalPortuario" xmlUrl="https://portalportuario.cl/category/br/feed/" htmlUrl="https://portalportuario.cl/category/br/"/>

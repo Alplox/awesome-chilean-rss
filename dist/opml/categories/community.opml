@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (166 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (170 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
+    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -140,6 +140,10 @@
     <outline type="rss" text="Ovalle Hoy - Sociedad" title="Ovalle Hoy - Sociedad" description="Feed de la categoría 'Sociedad' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/"/>
     <outline type="rss" text="Ovalle Hoy - Turismo" title="Ovalle Hoy - Turismo" description="Feed de la categoría 'Turismo' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/gastronomia-y-turismo/turismo/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/gastronomia-y-turismo/turismo/"/>
     <outline type="rss" text="Pichilemu News - Turismo" title="Pichilemu News - Turismo" description="Feed de la sección 'Turismo' en Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed/?category=turismo" htmlUrl="https://www.pichilemunews.cl/turismo/"/>
+    <outline type="rss" text="Portal Metropolitano - Festivales" title="Portal Metropolitano - Festivales" description="Feed de la categoría 'Festivales' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/festivales/feed/" htmlUrl="https://portalmetropolitano.cl/category/festivales/"/>
+    <outline type="rss" text="Portal Metropolitano - Sociedad" title="Portal Metropolitano - Sociedad" description="Feed de la categoría 'Sociedad' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/sociedad/feed/" htmlUrl="https://portalmetropolitano.cl/category/sociedad/"/>
+    <outline type="rss" text="Portal Metropolitano - Turismo" title="Portal Metropolitano - Turismo" description="Feed de la categoría 'Turismo' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/turismo/feed/" htmlUrl="https://portalmetropolitano.cl/category/turismo/"/>
+    <outline type="rss" text="Portal Red Salud -  Eventos" title="Portal Red Salud -  Eventos" description="Feed de la categoría ' Eventos' en Portal Red Salud" xmlUrl="https://portalredsalud.cl/category/eventos/feed/" htmlUrl="https://portalredsalud.cl/category/eventos/"/>
     <outline type="rss" text="Publimetro Chile - Social" title="Publimetro Chile - Social" description="Feed de la categoría 'Social' en Publimetro Chile" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/social/?outputType=xml" htmlUrl="https://www.publimetro.cl/category/social/"/>
     <outline type="rss" text="r/Chile" title="r/Chile" description="Feed de la sección 'r/Chile' en Reddit" xmlUrl="https://www.reddit.com/r/chile/.rss" htmlUrl="https://www.reddit.com/r/chile/"/>
     <outline type="rss" text="r/chileit" title="r/chileit" description="Feed de la sección 'r/chileit' en Reddit" xmlUrl="https://www.reddit.com/r/chileit/.rss" htmlUrl="https://www.reddit.com/r/chileit/"/>

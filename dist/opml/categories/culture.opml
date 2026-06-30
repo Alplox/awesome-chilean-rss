@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (110 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (116 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
+    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -97,6 +97,11 @@
     <outline type="rss" text="Ovalle Hoy - Artes y Cultura" title="Ovalle Hoy - Artes y Cultura" description="Feed de la categoría 'Artes y Cultura' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/"/>
     <outline type="rss" text="Pichilemu News - Cultura" title="Pichilemu News - Cultura" description="Feed de la sección 'Cultura' en Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed/?category=cultura" htmlUrl="https://www.pichilemunews.cl/cultura/"/>
     <outline type="rss" text="Piensa Chile - Cultura" title="Piensa Chile - Cultura" description="Feed de la categoría 'Cultura' en Piensa Chile" xmlUrl="https://piensachile.com/category/cultura/feed/" htmlUrl="https://piensachile.com/category/cultura/"/>
+    <outline type="rss" text="Portal Metropolitano - Arte" title="Portal Metropolitano - Arte" description="Feed de la categoría 'Arte' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/arte/feed/" htmlUrl="https://portalmetropolitano.cl/category/arte/"/>
+    <outline type="rss" text="Portal Metropolitano - Cine" title="Portal Metropolitano - Cine" description="Feed de la categoría 'Cine' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/cartelera-pm/cine/feed/" htmlUrl="https://portalmetropolitano.cl/category/cartelera-pm/cine/"/>
+    <outline type="rss" text="Portal Metropolitano - Cultura" title="Portal Metropolitano - Cultura" description="Feed de la categoría 'Cultura' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/cultura/feed/" htmlUrl="https://portalmetropolitano.cl/category/cultura/"/>
+    <outline type="rss" text="Portal Metropolitano - Literatura" title="Portal Metropolitano - Literatura" description="Feed de la categoría 'Literatura' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/cartelera-pm/literatura/feed/" htmlUrl="https://portalmetropolitano.cl/category/cartelera-pm/literatura/"/>
+    <outline type="rss" text="Portal Metropolitano - Teatro" title="Portal Metropolitano - Teatro" description="Feed de la categoría 'Teatro' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/teatro/feed/" htmlUrl="https://portalmetropolitano.cl/category/teatro/"/>
     <outline type="rss" text="Prensa Ciudadana - Cultura" title="Prensa Ciudadana - Cultura" description="Feed de la categoría 'Cultura' en Prensa Ciudadana" xmlUrl="https://www.prensaciudadana.cl/category/cultura/feed/" htmlUrl="https://www.prensaciudadana.cl/category/cultura/"/>
     <outline type="rss" text="Radio Cooperativa -  Cultura" title="Radio Cooperativa -  Cultura" description="Feed de la sección ' Cultura' en Radio Cooperativa" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_5___1.xml" htmlUrl="https://www.cooperativa.cl"/>
     <outline type="rss" text="Radio Festival - Cultura" title="Radio Festival - Cultura" description="Feed de la categoría 'Cultura' en Radio Festival" xmlUrl="https://www.radiofestival.cl/category/cultura/feed/" htmlUrl="https://www.radiofestival.cl/category/cultura/"/>
@@ -114,6 +119,7 @@
     <outline type="rss" text="Temuco Diario - Cultura" title="Temuco Diario - Cultura" description="Feed de la categoría 'Cultura' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/temucodiario-cl/feed/" htmlUrl="https://temucodiario.cl/category/temucodiario-cl/"/>
     <outline type="rss" text="Tiempo 21 - Cultura" title="Tiempo 21 - Cultura" description="Feed de la categoría 'Cultura' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/cultura/feed/" htmlUrl="https://www.tiempo21.cl/cultura/"/>
     <outline type="rss" text="Traiguén City - Cultura" title="Traiguén City - Cultura" description="Feed de la categoría 'Cultura' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/cultura/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/cultura/"/>
+    <outline type="rss" text="Tropezón Tu Diario - Cultura" title="Tropezón Tu Diario - Cultura" description="Feed de la categoría 'Cultura' en Tropezón Tu Diario" xmlUrl="https://nuevotropezon.tropezon.cl/category/cultura/feed/" htmlUrl="https://nuevotropezon.tropezon.cl/category/cultura/"/>
     <outline type="rss" text="Tus Noticias - Cultura" title="Tus Noticias - Cultura" description="Feed de la categoría 'Cultura' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/cultura/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/cultura/"/>
     <outline type="rss" text="TXS Plus - Cultura" title="TXS Plus - Cultura" description="Feed de la categoría 'Cultura' en TXS Plus" xmlUrl="https://txsplus.com/cultura/feed/" htmlUrl="https://txsplus.com/cultura/"/>
     <outline type="rss" text="Universidad de Concepción - Cultura" title="Universidad de Concepción - Cultura" description="Feed de la categoría 'Cultura' en Universidad de Concepción" xmlUrl="https://noticias.udec.cl/category/cultura/feed/" htmlUrl="https://noticias.udec.cl/category/cultura/"/>

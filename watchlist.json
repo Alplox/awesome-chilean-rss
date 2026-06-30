@@ -10082,5 +10082,102 @@
       }
     ],
     "reason": "Solo feeds proxy activos (feeds nativos inactivos)"
+  },
+  {
+    "id": "los-angeles",
+    "name": "Los Angeles",
+    "url": "https://www.losangeles.cl/",
+    "category": "community",
+    "region": "biobio",
+    "description": "Portal de la ciudad de Los Ángeles, Región del Biobío",
+    "feeds": [
+      {
+        "id": "los-angeles-proxy-google-news",
+        "name": "Los Angeles [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:losangeles.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:losangeles.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:losangeles.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T20:00:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "los-angeles-proxy-bing-news",
+        "name": "Los Angeles [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:losangeles.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:losangeles.cl",
+        "description": "Resultados de site:losangeles.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T20:00:00.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "reason": "/feed/ devuelve 500 error (WordPress con problemas técnicos)"
+  },
+  {
+    "id": "clinica-alemana-temuco",
+    "name": "Clínica Alemana Temuco",
+    "url": "https://www.clinicaalemanatemuco.cl/",
+    "category": "health",
+    "description": "Clínica Alemana de Temuco, Región de La Araucanía",
+    "feeds": [
+      {
+        "id": "clinica-alemana-temuco-proxy-google-news",
+        "name": "Clínica Alemana Temuco [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:clinicaalemanatemuco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:clinicaalemanatemuco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:clinicaalemanatemuco.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T20:00:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "clinica-alemana-temuco-proxy-bing-news",
+        "name": "Clínica Alemana Temuco [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:clinicaalemanatemuco.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:clinicaalemanatemuco.cl",
+        "description": "Resultados de site:clinicaalemanatemuco.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T20:00:00.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "reason": "Sitefinity CMS sin soporte RSS"
+  },
+  {
+    "id": "diario-usach",
+    "name": "Diario USACH",
+    "url": "https://www.diariousach.cl/",
+    "category": "news",
+    "description": "Diario de la Universidad de Santiago de Chile",
+    "feeds": [
+      {
+        "id": "diario-usach-proxy-google-news",
+        "name": "Diario USACH [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariousach.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariousach.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:diariousach.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T20:00:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-usach-proxy-bing-news",
+        "name": "Diario USACH [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariousach.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariousach.cl",
+        "description": "Resultados de site:diariousach.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T20:00:00.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "reason": "CMS Prontus sin feed RSS"
   }
 ]

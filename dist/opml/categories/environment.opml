@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (110 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (112 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
+    <dateCreated>2026-06-30T21:15:43.255Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -100,6 +100,8 @@
     <outline type="rss" text="Ñuble Actual - Medio Ambiente" title="Ñuble Actual - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Ñuble Actual" xmlUrl="https://www.nubleactual.cl/categoria/medio-ambiente/feed/" htmlUrl="https://www.nubleactual.cl/categoria/medio-ambiente/"/>
     <outline type="rss" text="Ovalle Hoy - Medio Ambiente" title="Ovalle Hoy - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/medio-ambiente/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/medio-ambiente/"/>
     <outline type="rss" text="Portal Frutícola - Sostenibilidad F" title="Portal Frutícola - Sostenibilidad F" description="Feed de la categoría 'Sostenibilidad F' en Portal Frutícola" xmlUrl="https://www.portalfruticola.com/noticias/category/sostenibilidad/feed/" htmlUrl="https://www.portalfruticola.com/noticias/category/sostenibilidad/"/>
+    <outline type="rss" text="Portal Metropolitano - Agricultura" title="Portal Metropolitano - Agricultura" description="Feed de la categoría 'Agricultura' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/agricultura/feed/" htmlUrl="https://portalmetropolitano.cl/category/agricultura/"/>
+    <outline type="rss" text="Portal Metropolitano - Medio Ambiente" title="Portal Metropolitano - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/medio-ambiente/feed/" htmlUrl="https://portalmetropolitano.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Radio Festival - Medio Ambiente" title="Radio Festival - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Radio Festival" xmlUrl="https://www.radiofestival.cl/category/medio-ambiente/feed/" htmlUrl="https://www.radiofestival.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Radio Festival - Naturaleza" title="Radio Festival - Naturaleza" description="Feed de la categoría 'Naturaleza' en Radio Festival" xmlUrl="https://www.radiofestival.cl/category/naturaleza/feed/" htmlUrl="https://www.radiofestival.cl/category/naturaleza/"/>
     <outline type="rss" text="Radio UdeC - Medio Ambiente" title="Radio UdeC - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/medio-ambiente/feed/" htmlUrl="https://www.radioudec.cl/category/medio-ambiente/"/>
