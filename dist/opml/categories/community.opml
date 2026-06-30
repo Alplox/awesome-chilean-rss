@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (165 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (166 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T02:14:07.282Z</dateCreated>
+    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -166,6 +166,7 @@
     <outline type="rss" text="Supervivencia y Desastres - Preparacionismo" title="Supervivencia y Desastres - Preparacionismo" description="Feed de la categoría 'Preparacionismo' en Supervivencia y Desastres" xmlUrl="https://www.supervivencia-y-desastres.cl/category/preparacionismo/feed/" htmlUrl="https://www.supervivencia-y-desastres.cl/category/preparacionismo/"/>
     <outline type="rss" text="Supervivencia y Desastres - Seguridad" title="Supervivencia y Desastres - Seguridad" description="Feed de la categoría 'Seguridad' en Supervivencia y Desastres" xmlUrl="https://www.supervivencia-y-desastres.cl/category/seguridad/feed/" htmlUrl="https://www.supervivencia-y-desastres.cl/category/seguridad/"/>
     <outline type="rss" text="Supervivencia y Desastres - Supervivencia" title="Supervivencia y Desastres - Supervivencia" description="Feed de la categoría 'Supervivencia' en Supervivencia y Desastres" xmlUrl="https://www.supervivencia-y-desastres.cl/category/supervivencia/feed/" htmlUrl="https://www.supervivencia-y-desastres.cl/category/supervivencia/"/>
+    <outline type="rss" text="Televitos - Eventos" title="Televitos - Eventos" description="Feed de la sección 'Eventos' en Televitos" xmlUrl="https://televitos.com/feed/?category=eventos" htmlUrl="https://televitos.com/eventos/"/>
     <outline type="rss" text="Temuco Diario - Social" title="Temuco Diario - Social" description="Feed de la categoría 'Social' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/social/feed/" htmlUrl="https://temucodiario.cl/category/social/"/>
     <outline type="rss" text="Temuco Diario - Turismo" title="Temuco Diario - Turismo" description="Feed de la categoría 'Turismo' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/turismo/feed/" htmlUrl="https://temucodiario.cl/category/turismo/"/>
     <outline type="rss" text="Tiempo 21 - Turismo" title="Tiempo 21 - Turismo" description="Feed de la categoría 'Turismo' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/turismo/feed/" htmlUrl="https://www.tiempo21.cl/turismo/"/>

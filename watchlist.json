@@ -9978,5 +9978,109 @@
         "verified": true
       }
     ]
+  },
+  {
+    "id": "observatorio-medicina-uc",
+    "name": "Observatorio de Salud Pública UC",
+    "url": "https://observatorio.medicina.uc.cl/",
+    "category": "health",
+    "description": "Observatorio de Salud Pública de la Pontificia Universidad Católica de Chile",
+    "reason": "Feed RSS no disponible (HTTP 500 en /feed/)",
+    "feeds": [
+      {
+        "id": "observatorio-medicina-uc-proxy-google-news",
+        "name": "Observatorio de Salud Pública UC [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:observatorio.medicina.uc.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:observatorio.medicina.uc.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:observatorio.medicina.uc.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "observatorio-medicina-uc-proxy-bing-news",
+        "name": "Observatorio de Salud Pública UC [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:observatorio.medicina.uc.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:observatorio.medicina.uc.cl",
+        "description": "Resultados de site:observatorio.medicina.uc.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radio-angelina",
+    "name": "Radio Angelina",
+    "url": "https://www.radioangelina.cl/",
+    "category": "radio",
+    "description": "Radioemisora chilena con programación informativa y musical",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "radio-angelina-proxy-google-news",
+        "name": "Radio Angelina [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radioangelina.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radioangelina.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:radioangelina.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-angelina-proxy-bing-news",
+        "name": "Radio Angelina [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radioangelina.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radioangelina.cl",
+        "description": "Resultados de site:radioangelina.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "trabajando",
+    "name": "Trabajando",
+    "url": "https://www.trabajando.cl/",
+    "category": "jobs",
+    "description": "Portal de empleos chileno",
+    "feeds": [
+      {
+        "id": "trabajando-main",
+        "name": "Trabajando",
+        "rss_url": "https://www.trabajando.cl/blog/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T19:34:59.639Z",
+        "status": "stale",
+        "verified": false,
+        "last_known_item_date": "2026-05-07T14:53:44.000Z"
+      },
+      {
+        "id": "trabajando-proxy-google-news",
+        "name": "Trabajando [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:trabajando.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:trabajando.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:trabajando.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T19:34:59.639Z",
+        "status": "active",
+        "verified": true,
+        "last_known_item_date": "2026-06-30T19:20:58.000Z"
+      },
+      {
+        "id": "trabajando-proxy-bing-news",
+        "name": "Trabajando [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:trabajando.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:trabajando.cl",
+        "description": "Resultados de site:trabajando.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-06-30T19:34:59.639Z",
+        "status": "feed_empty",
+        "verified": false,
+        "last_known_item_date": null
+      }
+    ],
+    "reason": "Solo feeds proxy activos (feeds nativos inactivos)"
   }
 ]

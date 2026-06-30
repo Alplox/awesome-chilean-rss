@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (17 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (19 feeds)</title>
     <description>Feeds RSS de 💼 Ofertas laborales y empleabilidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T02:14:07.282Z</dateCreated>
+    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -19,6 +19,8 @@
     <outline type="rss" text="El Ciudadano - Trabajo" title="El Ciudadano - Trabajo" description="Feed de la categoría 'Trabajo' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/trabajo/feed/" htmlUrl="https://www.elciudadano.com/noticias/trabajo/"/>
     <outline type="rss" text="El Clarín de Chile - Trabajo" title="El Clarín de Chile - Trabajo" description="Feed de la categoría 'Trabajo' en El Clarín de Chile" xmlUrl="https://www.elclarin.cl/category/trabajo/feed/" htmlUrl="https://www.elclarin.cl/category/trabajo/"/>
     <outline type="rss" text="El Diario de La Araucanía - Empleabilidad" title="El Diario de La Araucanía - Empleabilidad" description="Feed de la categoría 'Empleabilidad' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/economia-y-negocios/empleabilidad/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/economia-y-negocios/empleabilidad/"/>
+    <outline type="rss" text="Laborum" title="Laborum" description="Portal de empleos chileno" xmlUrl="https://www.laborum.cl/blog/feed/" htmlUrl="https://www.laborum.cl/"/>
+    <outline type="rss" text="Laborum [Proxy Google News]" title="Laborum [Proxy Google News]" description="Resultados de site:laborum.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:laborum.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:laborum.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Linares en Línea - Laboral" title="Linares en Línea - Laboral" description="Feed de la categoría 'Laboral' en Linares en Línea" xmlUrl="https://www.linaresenlinea.cl/category/laboral/feed/" htmlUrl="https://www.linaresenlinea.cl/category/laboral/"/>
     <outline type="rss" text="Ministerio de Educación - Trabaje Con Nosotros" title="Ministerio de Educación - Trabaje Con Nosotros" description="Feed de la sección 'Trabaje Con Nosotros' en Ministerio de Educación" xmlUrl="https://www.mineduc.cl/feed/?category=trabaje-con-nosotros" htmlUrl="https://www.mineduc.cl/trabaje-con-nosotros/"/>
     <outline type="rss" text="Radio Festival - Bolsa Del Trabajo" title="Radio Festival - Bolsa Del Trabajo" description="Feed de la sección 'Bolsa Del Trabajo' en Radio Festival" xmlUrl="https://www.radiofestival.cl/feed/?category=bolsa-del-trabajo" htmlUrl="https://www.radiofestival.cl/bolsa-del-trabajo/"/>

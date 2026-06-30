@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (178 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (179 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T02:14:07.282Z</dateCreated>
+    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -87,6 +87,7 @@
     <outline type="rss" text="G5 Noticias - Deportes" title="G5 Noticias - Deportes" description="Feed de la categoría 'Deportes' en G5 Noticias" xmlUrl="https://g5noticias.cl/categoria/deportes/feed/" htmlUrl="https://g5noticias.cl/categoria/deportes/"/>
     <outline type="rss" text="Google News - Chile - Resultados 'deportes'" title="Google News - Chile - Resultados 'deportes'" description="Página de resultados para keyword=deportes en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=deportes&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=deportes&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Sección Deportes" title="Google News - Chile - Sección Deportes" description="Sección Deportes de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRFp1ZEdvU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRFp1ZEdvU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="HolaNews - Deportes" title="HolaNews - Deportes" description="Feed de la categoría 'Deportes' en HolaNews" xmlUrl="https://holanews.com/category/deportes/feed/" htmlUrl="https://holanews.com/category/deportes/"/>
     <outline type="rss" text="Hora de Noticias - Deporte" title="Hora de Noticias - Deporte" description="Feed de la categoría 'Deporte' en Hora de Noticias" xmlUrl="https://horadenoticias.cl/seccion/deporte/feed/" htmlUrl="https://horadenoticias.cl/seccion/deporte/"/>
     <outline type="rss" text="Informa Al Minuto - Deportes" title="Informa Al Minuto - Deportes" description="Feed de la categoría 'Deportes' en Informa Al Minuto" xmlUrl="https://informaalminuto.cl/category/deportes/feed/" htmlUrl="https://informaalminuto.cl/category/deportes/"/>
     <outline type="rss" text="Iquique TV - Deportes" title="Iquique TV - Deportes" description="Feed de la categoría 'Deportes' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/deportes/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/deportes/"/>

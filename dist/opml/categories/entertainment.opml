@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (98 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (99 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T02:14:07.282Z</dateCreated>
+    <dateCreated>2026-06-30T19:46:56.208Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -97,6 +97,7 @@
     <outline type="rss" text="Radio Pudahuel - Horoscopo" title="Radio Pudahuel - Horoscopo" description="Feed de la sección 'Horoscopo' en Radio Pudahuel" xmlUrl="https://www.pudahuel.cl/feed/?category=horoscopo" htmlUrl="https://www.pudahuel.cl/horoscopo/"/>
     <outline type="rss" text="Radio Valparaíso - Espectáculos" title="Radio Valparaíso - Espectáculos" description="Feed de la categoría 'Espectáculos' en Radio Valparaíso" xmlUrl="https://radiovalparaiso.cl/categoria/espectaculos/feed/" htmlUrl="https://radiovalparaiso.cl/categoria/espectaculos/"/>
     <outline type="rss" text="RLN (Radio Las Nieves) - Cultura Y Espectáculos" title="RLN (Radio Las Nieves) - Cultura Y Espectáculos" description="Feed de la categoría 'Cultura Y Espectáculos' en RLN (Radio Las Nieves)" xmlUrl="https://www.rln.cl/category/culturayespectaculos/feed/" htmlUrl="https://www.rln.cl/category/culturayespectaculos/"/>
+    <outline type="rss" text="Televitos - Series" title="Televitos - Series" description="Feed de la sección 'Series' en Televitos" xmlUrl="https://televitos.com/feed/?category=series" htmlUrl="https://televitos.com/series/"/>
     <outline type="rss" text="Temuco Diario - Entretención" title="Temuco Diario - Entretención" description="Feed de la categoría 'Entretención' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/entretencion/feed/" htmlUrl="https://temucodiario.cl/category/entretencion/"/>
     <outline type="rss" text="Temuco Diario - Espectáculos" title="Temuco Diario - Espectáculos" description="Feed de la categoría 'Espectáculos' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/espectaculos/feed/" htmlUrl="https://temucodiario.cl/category/espectaculos/"/>
     <outline type="rss" text="Tiempo 21 - Rrss" title="Tiempo 21 - Rrss" description="Feed de la categoría 'Rrss' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/rrss/feed/" htmlUrl="https://www.tiempo21.cl/rrss/"/>

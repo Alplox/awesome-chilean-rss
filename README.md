@@ -2,9 +2,9 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-357-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4092-blue)
+![Sitios](https://img.shields.io/badge/sitios-362-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4168-blue)
 
-> El directorio más completo de feeds RSS chilenos. 357 sitios, 4092 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 362 sitios, 4168 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -15,30 +15,30 @@
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (357 sitios, 4092 feeds)
+## 📝 Fuentes disponibles (362 sitios, 4168 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 207 sitios, 774 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 71 sitios, 127 feeds
+- [📰 Noticias Nacionales](#cat-news) — 209 sitios, 776 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 73 sitios, 139 feeds
 - [🌎 Medios Regionales](#cat-regional) — 193 sitios, 1637 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 77 sitios, 204 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 80 sitios, 261 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 28 sitios, 113 feeds
 - [🏫 Educación, Universidades e Investigación](#cat-education) — 65 sitios, 123 feeds
 - [💼 Economia, Negocios y Finanzas](#cat-business) — 89 sitios, 194 feeds
-- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 16 sitios, 17 feeds
+- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 17 sitios, 19 feeds
 - [🎨 Cultura y Divulgación](#cat-culture) — 95 sitios, 110 feeds
-- [👥 Comunidad](#cat-community) — 82 sitios, 165 feeds
-- [⚽ Deportes](#cat-sports) — 129 sitios, 178 feeds
+- [👥 Comunidad](#cat-community) — 83 sitios, 166 feeds
+- [⚽ Deportes](#cat-sports) — 130 sitios, 179 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 14 sitios, 107 feeds
 - [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 61 sitios, 110 feeds
-- [🎭 Espectáculos y Entretención](#cat-entertainment) — 48 sitios, 98 feeds
+- [🎭 Espectáculos y Entretención](#cat-entertainment) — 49 sitios, 99 feeds
 - [📻 Radio y Música](#cat-radio) — 22 sitios, 57 feeds
 - [🏥 Salud y Bienestar](#cat-health) — 70 sitios, 78 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (207 sitios, 774 feeds)
+### 📰 Noticias Nacionales (209 sitios, 776 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -256,6 +256,8 @@
 - **ECOceanos** — Organización chilena dedicada a la defensa del océano, la biodiversidad marina y los ecosistemas costeros
   - ECOceanos - Noticias: `https://www.ecoceanos.cl/ver/noticias/feed/`
   - ECOceanos - Actualidad: `https://www.ecoceanos.cl/ver/actualidad/feed/`
+- **Ecosistema Startup**: Feed de la categoría 'Actualidad Startup' en Ecosistema Startup
+  - RSS: `https://ecosistemastartup.com/category/blog/actualidad/feed/`
 - **El América** — Diario regional de Calama, Antofagasta
   - El América - Nacional: `https://elamerica.cl/category/nacional/feed/`
   - El América - Política: `https://elamerica.cl/category/politica/feed/`
@@ -976,6 +978,8 @@
   - RSS: `https://tarapacaonline.cl/category/nacional/feed/`
 - **Tarreo**: Feed de la sección 'Noticia' en Tarreo
   - RSS: `https://www.tarreo.com/feed/?category=noticia`
+- **Televitos**: Feed de la sección 'Noticias' en Televitos
+  - RSS: `https://televitos.com/feed/?category=noticias`
 - **Temuco Diario** — Diario regional de Temuco, La Araucanía
   - Temuco Diario - Actualidad: `https://temucodiario.cl/category/actualidad/feed/`
   - Temuco Diario - Política: `https://temucodiario.cl/category/politica/feed/`
@@ -1027,7 +1031,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (71 sitios, 127 feeds)
+### 🌐 Noticias Internacionales (73 sitios, 139 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -1120,6 +1124,18 @@
   - RSS: `https://g5noticias.cl/categoria/internacional/feed/`
 - **Google News**: Sección Internacional de Google News Chile
   - RSS: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx1YlY4U0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
+- **HolaNews** — Agregador de noticias latinoamericano basado en Estados Unidos
+  - HolaNews: `https://holanews.com/feed/`
+  - HolaNews - Entérate: `https://holanews.com/category/enterate/feed/`
+  - HolaNews - Greenville, Sc: `https://holanews.com/category/locales/las-carolinas/greenville-sc/feed/`
+  - HolaNews - Charleston, Sc: `https://holanews.com/category/locales/las-carolinas/charleston-sc/feed/`
+  - HolaNews - Columbia, Sc: `https://holanews.com/category/locales/las-carolinas/columbia-sc/feed/`
+  - HolaNews - Triad: `https://holanews.com/category/locales/las-carolinas/triad-nc/feed/`
+  - HolaNews - Wilmington, Nc: `https://holanews.com/category/locales/las-carolinas/wilmington-nc/feed/`
+  - HolaNews - Las Carolinas: `https://holanews.com/category/locales/las-carolinas/feed/`
+  - HolaNews - Estados Unidos: `https://holanews.com/category/estados-unidos/feed/`
+  - HolaNews [Proxy Google News]: `https://news.google.com/rss/search?q=site:holanews.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - HolaNews [Proxy Bing News]: `https://www.bing.com/news/search?q=site:holanews.com&format=RSS`
 - **iRock.CL**: Feed de la categoría 'Internacional' en iRock.CL
   - RSS: `https://www.irock.cl/category/internacional/feed/`
 - **La Cuarta**: Feed de la categoría 'Mundo' en La Cuarta
@@ -1177,6 +1193,8 @@
   - RSS: `https://radiovalparaiso.cl/categoria/internacional/feed/`
 - **REDIMIN**: Feed de la categoría 'Mundo' en REDIMIN
   - RSS: `https://www.redimin.cl/categoria/mundo/feed/`
+- **Samsung Newsroom Latin America**: Feed de la sección 'Global' en Samsung Newsroom Latin America
+  - RSS: `https://news.samsung.com/latin/feed/?category=global`
 - **Sera Noticia**: Feed de la categoría 'Internacional' en Sera Noticia
   - RSS: `https://seranoticia.cl/internacional/feed/`
 - **Tarapacá Online**: Feed de la categoría 'Internacional' en Tarapacá Online
@@ -4157,7 +4175,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (77 sitios, 204 feeds)
+### 💻 Tecnología y Startups (80 sitios, 261 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
@@ -4261,6 +4279,51 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.diariosurnoticias.com/tecnologia/feed/`
 - **Duplos**: Feed de la categoría 'Tecnología' en Duplos
   - RSS: `https://duplos.cl/tecnologia/feed/`
+- **Ecosistema Startup** — Portal sobre startups y ecosistema emprendedor en Latinoamérica
+  - Ecosistema Startup: `https://ecosistemastartup.com/feed/`
+  - Ecosistema Startup - Startup Chile: `https://ecosistemastartup.com/category/startups-por-pais/startup-chile/feed/`
+  - Ecosistema Startup - Startup España: `https://ecosistemastartup.com/category/startups-por-pais/startup-espana/feed/`
+  - Ecosistema Startup - Startup Estados Unidos: `https://ecosistemastartup.com/category/startups-por-pais/startup-estados-unidos/feed/`
+  - Ecosistema Startup - Startup Colombia: `https://ecosistemastartup.com/category/startups-por-pais/startup-colombia/feed/`
+  - Ecosistema Startup - Startup México: `https://ecosistemastartup.com/category/startups-por-pais/startup-mexico/feed/`
+  - Ecosistema Startup - Startup Perú: `https://ecosistemastartup.com/category/startups-por-pais/startup-peru/feed/`
+  - Ecosistema Startup - Startup Argentina: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-argentina/feed/`
+  - Ecosistema Startup - Startup Ecuador: `https://ecosistemastartup.com/category/startups-por-pais/startup-ecuador/feed/`
+  - Ecosistema Startup - Startup China: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-china/feed/`
+  - Ecosistema Startup - Startup Reino Unido: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-reino-unido/feed/`
+  - Ecosistema Startup - Startup Brasil: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-brasil/feed/`
+  - Ecosistema Startup - Startup Uruguay: `https://ecosistemastartup.com/category/startups-por-pais/startup-uruguay/feed/`
+  - Ecosistema Startup - Startup Francia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-francia/feed/`
+  - Ecosistema Startup - Startup Alemania: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-alemania/feed/`
+  - Ecosistema Startup - Startup Costa Rica: `https://ecosistemastartup.com/category/startups-por-pais/startup-costa-rica/feed/`
+  - Ecosistema Startup - Startup India: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-india/feed/`
+  - Ecosistema Startup - Startup Canadá: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-canada/feed/`
+  - Ecosistema Startup - Startup Japón: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-japon/feed/`
+  - Ecosistema Startup - Startup Italia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-italia/feed/`
+  - Ecosistema Startup - Startup Israel: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-israel/feed/`
+  - Ecosistema Startup - Startup Países Bajos: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-paises-bajos/feed/`
+  - Ecosistema Startup - Startup Corea Del Sur: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-corea-del-sur/feed/`
+  - Ecosistema Startup - Startup Australia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-australia/feed/`
+  - Ecosistema Startup - Startup Emiratos Árabes Unidos: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-emiratos-arabes-unidos/feed/`
+  - Ecosistema Startup - Startup Rusia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-rusia/feed/`
+  - Ecosistema Startup - Startup Singapur: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-singapur/feed/`
+  - Ecosistema Startup - Startup Portugal: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-portugal/feed/`
+  - Ecosistema Startup - Educación Y Aprendizaje Startup: `https://ecosistemastartup.com/category/educacion-y-aprendizaje/feed/`
+  - Ecosistema Startup - Startup Suecia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-suecia/feed/`
+  - Ecosistema Startup - Startup Suiza: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-suiza/feed/`
+  - Ecosistema Startup - Startup Ucrania: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-ucrania/feed/`
+  - Ecosistema Startup - Startup Venezuela: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-venezuela/feed/`
+  - Ecosistema Startup - Startup Noruega: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-noruega/feed/`
+  - Ecosistema Startup - Startup Dinamarca: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-dinamarca/feed/`
+  - Ecosistema Startup - Startup Arabia Saudita: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-arabia-saudita/feed/`
+  - Ecosistema Startup - Startup Finlandia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-finlandia/feed/`
+  - Ecosistema Startup - Startup Vietnam: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-vietnam/feed/`
+  - Ecosistema Startup - Startup Irlanda: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-irlanda/feed/`
+  - Ecosistema Startup - Startup Bélgica: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-belgica/feed/`
+  - Ecosistema Startup - Última Noticia: `https://ecosistemastartup.com/category/ultima-noticia/feed/`
+  - Ecosistema Startup - Startup Kenia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-kenia/feed/`
+  - Ecosistema Startup - Startup Panamá: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-panama/feed/`
+  - Ecosistema Startup [Proxy Google News]: `https://news.google.com/rss/search?q=site:ecosistemastartup.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El Calbucano**: Feed de la categoría 'Tecnología' en El Calbucano
   - RSS: `https://www.elcalbucano.cl/cat/tecnologia/feed/`
 - **El Ciudadano**: Feed de la categoría 'Ciencia y Tecnologí­a' en El Ciudadano
@@ -4389,6 +4452,21 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.radioudec.cl/category/ciencia/feed/`
 - **Río en Línea**: Feed de la categoría 'Tecnología' en Río en Línea
   - RSS: `https://www.rioenlinea.cl/seccion/tecnologia/feed/`
+- **Samsung Newsroom Latin America** — Sala de prensa de Samsung para América Latina
+  - Samsung Newsroom Latin America: `https://news.samsung.com/latin/feed`
+  - Samsung Newsroom Latin America - Latin: `https://news.samsung.com/latin/feed/?category=latin`
+  - Samsung Newsroom Latin America [Proxy Google News]: `https://news.google.com/rss/search?q=site:news.samsung.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Televitos** — Blog chileno de tecnología y entretenimiento
+  - Televitos: `https://televitos.com/feed/`
+  - Televitos - Peliculas: `https://televitos.com/feed/?category=peliculas`
+  - Televitos - Tecnovitos: `https://televitos.com/feed/?category=tecnovitos`
+  - Televitos - T Plus: `https://televitos.com/feed/?category=t-plus`
+  - Televitos - Suscribete: `https://televitos.com/feed/?category=suscribete`
+  - Televitos - Review De Supergirl: `https://televitos.com/feed/?category=review-de-supergirl`
+  - Televitos - Reviews: `https://televitos.com/feed/?category=reviews`
+  - Televitos - Entrevistas: `https://televitos.com/feed/?category=entrevistas`
+  - Televitos - Televitos2023: `https://televitos.com/feed/?category=televitos2023`
+  - Televitos [Proxy Google News]: `https://news.google.com/rss/search?q=site:televitos.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Temuco Diario**: Feed de la categoría 'Tecnología' en Temuco Diario
   - RSS: `https://temucodiario.cl/category/tecnologia/feed/`
 - **Tiempo 21**: Feed de la categoría 'Ciencia Tecnología' en Tiempo 21
@@ -5082,7 +5160,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-jobs"></a>
-### 💼 Ofertas laborales y empleabilidad (16 sitios, 17 feeds)
+### 💼 Ofertas laborales y empleabilidad (17 sitios, 19 feeds)
 
 *Descargar OPML: [`jobs.opml`](dist/opml/categories/jobs.opml)*
 
@@ -5109,6 +5187,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.elclarin.cl/category/trabajo/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Empleabilidad' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/economia-y-negocios/empleabilidad/feed/`
+- **Laborum** — Portal de empleos chileno
+  - Laborum: `https://www.laborum.cl/blog/feed/`
+  - Laborum [Proxy Google News]: `https://news.google.com/rss/search?q=site:laborum.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Linares en Línea**: Feed de la categoría 'Laboral' en Linares en Línea
   - RSS: `https://www.linaresenlinea.cl/category/laboral/feed/`
 - **Ministerio de Educación**: Feed de la sección 'Trabaje Con Nosotros' en Ministerio de Educación
@@ -5336,7 +5417,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-community"></a>
-### 👥 Comunidad (82 sitios, 165 feeds)
+### 👥 Comunidad (83 sitios, 166 feeds)
 
 *Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
 
@@ -5577,6 +5658,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Supervivencia y Desastres - Huerto: `https://www.supervivencia-y-desastres.cl/category/alimentacion/huerto/feed/`
   - Supervivencia y Desastres - Construcción: `https://www.supervivencia-y-desastres.cl/category/construccion/feed/`
   - Supervivencia y Desastres - Conflictos: `https://www.supervivencia-y-desastres.cl/category/conflictos/feed/`
+- **Televitos**: Feed de la sección 'Eventos' en Televitos
+  - RSS: `https://televitos.com/feed/?category=eventos`
 - **Temuco Diario** — Diario regional de Temuco, La Araucanía
   - Temuco Diario - Social: `https://temucodiario.cl/category/social/feed/`
   - Temuco Diario - Turismo: `https://temucodiario.cl/category/turismo/feed/`
@@ -5591,7 +5674,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (129 sitios, 178 feeds)
+### ⚽ Deportes (130 sitios, 179 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
@@ -5738,6 +5821,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Google News** — Segregador de noticias de Google
   - Google News - Chile - Resultados 'deportes': `https://news.google.com/rss/search?q=deportes&hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Sección Deportes: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRFp1ZEdvU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
+- **HolaNews**: Feed de la categoría 'Deportes' en HolaNews
+  - RSS: `https://holanews.com/category/deportes/feed/`
 - **Hora de Noticias**: Feed de la categoría 'Deporte' en Hora de Noticias
   - RSS: `https://horadenoticias.cl/seccion/deporte/feed/`
 - **Informa Al Minuto**: Feed de la categoría 'Deportes' en Informa Al Minuto
@@ -6214,7 +6299,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-entertainment"></a>
-### 🎭 Espectáculos y Entretención (48 sitios, 98 feeds)
+### 🎭 Espectáculos y Entretención (49 sitios, 99 feeds)
 
 *Descargar OPML: [`entertainment.opml`](dist/opml/categories/entertainment.opml)*
 
@@ -6349,6 +6434,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://radiovalparaiso.cl/categoria/espectaculos/feed/`
 - **RLN (Radio Las Nieves)**: Feed de la categoría 'Cultura Y Espectáculos' en RLN (Radio Las Nieves)
   - RSS: `https://www.rln.cl/category/culturayespectaculos/feed/`
+- **Televitos**: Feed de la sección 'Series' en Televitos
+  - RSS: `https://televitos.com/feed/?category=series`
 - **Temuco Diario** — Diario regional de Temuco, La Araucanía
   - Temuco Diario - Espectáculos: `https://temucodiario.cl/category/espectaculos/feed/`
   - Temuco Diario - Entretención: `https://temucodiario.cl/category/entretencion/feed/`
