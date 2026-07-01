@@ -10243,5 +10243,203 @@
         "verified": true
       }
     ]
+  },
+  {
+    "id": "perfil-ar",
+    "name": "Perfil",
+    "url": "https://www.perfil.com/",
+    "category": "news-international",
+    "description": "Diario argentino de noticias, política, economía y actualidad",
+    "reason": "Feed válido 'Internacionales' está roto (HTTP 404), otros feeds activos,",
+    "feeds": [
+      {
+        "id": "perfil-ar-main",
+        "name": "Perfil",
+        "rss_url": "https://www.perfil.com/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-01T01:27:30.216Z",
+        "last_known_item_date": "2026-07-01T00:18:49.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-ultimo-momento",
+        "name": "Perfil - Último Momento",
+        "rss_url": "https://www.perfil.com/feed",
+        "url": "https://www.perfil.com/",
+        "description": "Feed de últimas noticias de Perfil",
+        "feed_type": "RSS",
+        "category": "news-international",
+        "last_checked": "2026-07-01T01:27:30.216Z",
+        "last_known_item_date": "2026-07-01T00:18:49.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-politica",
+        "name": "Perfil - Política",
+        "rss_url": "https://www.perfil.com/feed/politica",
+        "url": "https://www.perfil.com/politica/",
+        "description": "Feed de política de Perfil",
+        "feed_type": "RSS",
+        "category": "news-international",
+        "last_checked": "2026-07-01T01:27:30.216Z",
+        "last_known_item_date": "2026-07-01T00:18:49.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-policia",
+        "name": "Perfil - Policía",
+        "rss_url": "https://www.perfil.com/feed/policia",
+        "url": "https://www.perfil.com/policia/",
+        "description": "Feed de policía de Perfil",
+        "feed_type": "RSS",
+        "category": "news-international",
+        "last_checked": "2026-07-01T01:27:30.217Z",
+        "last_known_item_date": "2026-06-30T20:26:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-internacionales",
+        "name": "Perfil - Internacionales",
+        "rss_url": "https://www.perfil.com/feed/internacionales",
+        "url": "https://www.perfil.com/internacionales/",
+        "description": "Feed de noticias internacionales de Perfil",
+        "feed_type": "RSS",
+        "category": "news-international",
+        "last_checked": "2026-07-01T01:28:09.471Z",
+        "last_known_item_date": null,
+        "status": "no_feed",
+        "verified": false
+      },
+      {
+        "id": "perfil-ar-economia",
+        "name": "Perfil - Economía",
+        "rss_url": "https://www.perfil.com/feed/economia",
+        "url": "https://www.perfil.com/economia/",
+        "description": "Feed de economía de Perfil",
+        "feed_type": "RSS",
+        "category": "business",
+        "last_checked": "2026-07-01T01:28:09.472Z",
+        "last_known_item_date": "2026-06-30T22:25:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-deportes",
+        "name": "Perfil - Deportes",
+        "rss_url": "https://www.perfil.com/feed/deportes",
+        "url": "https://www.perfil.com/deportes/",
+        "description": "Feed de deportes de Perfil",
+        "feed_type": "RSS",
+        "category": "sports",
+        "last_checked": "2026-07-01T01:28:09.472Z",
+        "last_known_item_date": "2026-07-01T00:36:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-opinion",
+        "name": "Perfil - Opinión",
+        "rss_url": "https://www.perfil.com/feed/opinion",
+        "url": "https://www.perfil.com/opinion/",
+        "description": "Feed de opinión de Perfil",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-01T01:28:09.472Z",
+        "last_known_item_date": "2026-06-30T22:54:44.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-sociedad",
+        "name": "Perfil - Sociedad",
+        "rss_url": "https://www.perfil.com/feed/sociedad",
+        "url": "https://www.perfil.com/sociedad/",
+        "description": "Feed de sociedad de Perfil",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-01T01:28:09.472Z",
+        "last_known_item_date": "2026-06-30T23:52:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-espectaculos",
+        "name": "Perfil - Espectáculos",
+        "rss_url": "https://www.perfil.com/feed/espectaculos",
+        "url": "https://www.perfil.com/espectaculos/",
+        "description": "Feed de espectáculos de Perfil",
+        "feed_type": "RSS",
+        "category": "entertainment",
+        "last_checked": "2026-07-01T01:28:09.472Z",
+        "last_known_item_date": "2026-06-30T21:18:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-ciencia",
+        "name": "Perfil - Ciencia",
+        "rss_url": "https://www.perfil.com/feed/ciencia",
+        "url": "https://www.perfil.com/ciencia/",
+        "description": "Feed de ciencia de Perfil",
+        "feed_type": "RSS",
+        "category": "technology",
+        "last_checked": "2026-07-01T01:28:09.472Z",
+        "last_known_item_date": "2026-06-30T21:40:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-salud",
+        "name": "Perfil - Salud",
+        "rss_url": "https://www.perfil.com/feed/salud",
+        "url": "https://www.perfil.com/salud/",
+        "description": "Feed de salud de Perfil",
+        "feed_type": "RSS",
+        "category": "health",
+        "last_checked": "2026-07-01T01:28:09.472Z",
+        "last_known_item_date": "2026-06-30T21:09:38.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-tecnologia",
+        "name": "Perfil - Tecnología",
+        "rss_url": "https://www.perfil.com/feed/tecnologia",
+        "url": "https://www.perfil.com/tecnologia/",
+        "description": "Feed de tecnología de Perfil",
+        "feed_type": "RSS",
+        "category": "technology",
+        "last_checked": "2026-07-01T01:28:09.473Z",
+        "last_known_item_date": "2026-06-30T23:52:00.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-proxy-google-news",
+        "name": "Perfil [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:perfil.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:perfil.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:perfil.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-01T01:28:09.473Z",
+        "last_known_item_date": "2026-06-30T22:27:36.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "perfil-ar-proxy-bing-news",
+        "name": "Perfil [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:perfil.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:perfil.com",
+        "description": "Resultados de site:perfil.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-01T01:28:09.473Z",
+        "last_known_item_date": "2026-06-30T18:22:00.000Z",
+        "status": "active",
+        "verified": true
+      }
+    ]
   }
 ]

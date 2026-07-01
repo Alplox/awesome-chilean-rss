@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (855 feeds)</title>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (860 feeds)</title>
     <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -66,6 +66,7 @@
     <outline type="rss" text="BioBioChile - Mastodon.cl BOT" title="BioBioChile - Mastodon.cl BOT" description="BOT de mastodon.cl/@biobiochile" xmlUrl="https://mastodon.cl/@biobiochile.rss" htmlUrl="https://mastodon.cl/@biobiochile"/>
     <outline type="rss" text="BioBioChile [Proxy Bing News]" title="BioBioChile [Proxy Bing News]" description="Resultados de site:biobiochile.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:biobiochile.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:biobiochile.cl"/>
     <outline type="rss" text="BioBioChile [Proxy Google News]" title="BioBioChile [Proxy Google News]" description="Resultados de site:biobiochile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:biobiochile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:biobiochile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Cadena Política - Nacional" title="Cadena Política - Nacional" description="Feed de la categoría 'Nacional' en Cadena Política" xmlUrl="https://cadenapolitica.com/category/nacional/feed/" htmlUrl="https://cadenapolitica.com/category/nacional/"/>
     <outline type="rss" text="Calama en Línea - Nacional" title="Calama en Línea - Nacional" description="Feed de la categoría 'Nacional' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/nacional/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/nacional/"/>
     <outline type="rss" text="Calama en Línea - Política" title="Calama en Línea - Política" description="Feed de la categoría 'Política' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/politica/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/politica/"/>
     <outline type="rss" text="Cambio21" title="Cambio21" description="Medio digital de noticias nacionales e internacionales" xmlUrl="https://cambio21.cl/rss" htmlUrl="https://cambio21.cl"/>
@@ -143,6 +144,8 @@
     <outline type="rss" text="Desierto FM - Noticias" title="Desierto FM - Noticias" description="Feed de la categoría 'Noticias' en Desierto FM" xmlUrl="https://www.desiertofm.cl/category/noticias/feed/" htmlUrl="https://www.desiertofm.cl/category/noticias/"/>
     <outline type="rss" text="Desierto FM - Política" title="Desierto FM - Política" description="Feed de la categoría 'Política' en Desierto FM" xmlUrl="https://www.desiertofm.cl/category/noticias/politica/feed/" htmlUrl="https://www.desiertofm.cl/category/noticias/politica/"/>
     <outline type="rss" text="Diálogo Sur - Noticias" title="Diálogo Sur - Noticias" description="Feed de la categoría 'Noticias' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/noticias/feed/" htmlUrl="https://dialogosur.cl/category/noticias/"/>
+    <outline type="rss" text="Diario Angamos - Nacional" title="Diario Angamos - Nacional" description="Feed de la categoría 'Nacional' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/nacional/feed/" htmlUrl="https://diarioangamos.com/categorías/nacional/"/>
+    <outline type="rss" text="Diario Angamos - Política" title="Diario Angamos - Política" description="Feed de la categoría 'Política' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/politica/feed/" htmlUrl="https://diarioangamos.com/categorías/politica/"/>
     <outline type="rss" text="Diario Antofagasta - Pauta Politica" title="Diario Antofagasta - Pauta Politica" description="Feed de la categoría 'Pauta Politica' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/politica/feed/" htmlUrl="https://www.diarioantofagasta.cl/politica/"/>
     <outline type="rss" text="Diario Chañarcillo - Política" title="Diario Chañarcillo - Política" description="Feed de la categoría 'Política' en Diario Chañarcillo" xmlUrl="https://www.chanarcillo.cl/category/politica/feed/" htmlUrl="https://www.chanarcillo.cl/category/politica/"/>
     <outline type="rss" text="Diario Chile - Actualidad" title="Diario Chile - Actualidad" description="Feed de la categoría 'Actualidad' en Diario Chile" xmlUrl="https://diariochile.cl/category/actualidad/feed/" htmlUrl="https://diariochile.cl/category/actualidad/"/>
@@ -268,6 +271,8 @@
     <outline type="rss" text="El Mostrador - Mastodon.cl BOT" title="El Mostrador - Mastodon.cl BOT" description="BOT de mastodon.cl/@elmostrador" xmlUrl="https://mastodon.cl/@elmostrador.rss" htmlUrl="https://mastodon.cl/@elmostrador"/>
     <outline type="rss" text="El Mostrador [Proxy Bing News]" title="El Mostrador [Proxy Bing News]" description="Resultados de site:elmostrador.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:elmostrador.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:elmostrador.cl"/>
     <outline type="rss" text="El Mostrador [Proxy Google News]" title="El Mostrador [Proxy Google News]" description="Resultados de site:elmostrador.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elmostrador.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elmostrador.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="El Nacional - Noticias" title="El Nacional - Noticias" description="Feed de la categoría 'Noticias' en El Nacional" xmlUrl="https://www.elnacional.com/noticias/feed/" htmlUrl="https://www.elnacional.com/noticias/"/>
+    <outline type="rss" text="El Nacional - Política" title="El Nacional - Política" description="Feed de la categoría 'Política' en El Nacional" xmlUrl="https://www.elnacional.com/venezuela/politica/feed/" htmlUrl="https://www.elnacional.com/venezuela/politica/"/>
     <outline type="rss" text="El Noticiero del Huasco - Actualidad" title="El Noticiero del Huasco - Actualidad" description="Feed de la categoría 'Actualidad' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/medio-ambiente/actualidad/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/medio-ambiente/actualidad/"/>
     <outline type="rss" text="El Noticiero del Huasco - Noticias" title="El Noticiero del Huasco - Noticias" description="Feed de la categoría 'Noticias' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/atacama/noticias/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/atacama/noticias/"/>
     <outline type="rss" text="El Noticiero del Huasco - Politica" title="El Noticiero del Huasco - Politica" description="Feed de la categoría 'Politica' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/politica/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/politica/"/>

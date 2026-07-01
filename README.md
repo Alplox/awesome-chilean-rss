@@ -2,43 +2,43 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-378-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4492-blue)
+![Sitios](https://img.shields.io/badge/sitios-381-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4595-blue)
 
-> El directorio más completo de feeds RSS chilenos. 378 sitios, 4492 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 381 sitios, 4595 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2567 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2579 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (378 sitios, 4492 feeds)
+## 📝 Fuentes disponibles (381 sitios, 4595 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 219 sitios, 855 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 77 sitios, 146 feeds
-- [🌎 Medios Regionales](#cat-regional) — 198 sitios, 1664 feeds
+- [📰 Noticias Nacionales](#cat-news) — 222 sitios, 860 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 80 sitios, 220 feeds
+- [🌎 Medios Regionales](#cat-regional) — 199 sitios, 1671 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 85 sitios, 325 feeds
-- [🏛️ Gobierno y Datos Públicos](#cat-government) — 30 sitios, 115 feeds
-- [🏫 Educación, Universidades e Investigación](#cat-education) — 71 sitios, 129 feeds
-- [💼 Economia, Negocios y Finanzas](#cat-business) — 101 sitios, 253 feeds
+- [🏛️ Gobierno y Datos Públicos](#cat-government) — 31 sitios, 116 feeds
+- [🏫 Educación, Universidades e Investigación](#cat-education) — 72 sitios, 130 feeds
+- [💼 Economia, Negocios y Finanzas](#cat-business) — 103 sitios, 256 feeds
 - [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 20 sitios, 22 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 101 sitios, 121 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 102 sitios, 123 feeds
 - [👥 Comunidad](#cat-community) — 89 sitios, 174 feeds
-- [⚽ Deportes](#cat-sports) — 137 sitios, 186 feeds
+- [⚽ Deportes](#cat-sports) — 139 sitios, 188 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 14 sitios, 107 feeds
 - [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 66 sitios, 118 feeds
-- [🎭 Espectáculos y Entretención](#cat-entertainment) — 52 sitios, 102 feeds
-- [📻 Radio y Música](#cat-radio) — 23 sitios, 58 feeds
-- [🏥 Salud y Bienestar](#cat-health) — 78 sitios, 117 feeds
+- [🎭 Espectáculos y Entretención](#cat-entertainment) — 54 sitios, 106 feeds
+- [📻 Radio y Música](#cat-radio) — 25 sitios, 60 feeds
+- [🏥 Salud y Bienestar](#cat-health) — 80 sitios, 119 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (219 sitios, 855 feeds)
+### 📰 Noticias Nacionales (222 sitios, 860 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -121,6 +121,8 @@
   - BioBioChile - Mastodon.cl BOT: `https://mastodon.cl/@biobiochile.rss`
   - BioBioChile [Proxy Google News]: `https://news.google.com/rss/search?q=site:biobiochile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - BioBioChile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:biobiochile.cl&format=RSS`
+- **Cadena Política**: Feed de la categoría 'Nacional' en Cadena Política
+  - RSS: `https://cadenapolitica.com/category/nacional/feed/`
 - **Calama en Línea** — Medio de comunicación de la Región de Antofagasta
   - Calama en Línea - Nacional: `https://noticias.calamaenlinea.cl/category/nacional/feed/`
   - Calama en Línea - Política: `https://noticias.calamaenlinea.cl/category/politica/feed/`
@@ -219,6 +221,9 @@
   - Desierto FM - Nacional: `https://www.desiertofm.cl/category/noticias/nacional/feed/`
 - **Diálogo Sur**: Feed de la categoría 'Noticias' en Diálogo Sur
   - RSS: `https://dialogosur.cl/category/noticias/feed/`
+- **Diario Angamos** — Diario digital de la Región de Antofagasta, Chile
+  - Diario Angamos - Nacional: `https://diarioangamos.com/categorías/nacional/feed/`
+  - Diario Angamos - Política: `https://diarioangamos.com/categorías/politica/feed/`
 - **Diario Antofagasta**: Feed de la categoría 'Pauta Politica' en Diario Antofagasta
   - RSS: `https://www.diarioantofagasta.cl/politica/feed/`
 - **Diario Chañarcillo**: Feed de la categoría 'Política' en Diario Chañarcillo
@@ -379,6 +384,9 @@
   - El Mostrador - Mastodon.cl BOT: `https://mastodon.cl/@elmostrador.rss`
   - El Mostrador [Proxy Google News]: `https://news.google.com/rss/search?q=site:elmostrador.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - El Mostrador [Proxy Bing News]: `https://www.bing.com/news/search?q=site:elmostrador.cl&format=RSS`
+- **El Nacional** — Diario venezolano de noticias nacionales e internacionales
+  - El Nacional - Noticias: `https://www.elnacional.com/noticias/feed/`
+  - El Nacional - Política: `https://www.elnacional.com/venezuela/politica/feed/`
 - **El Noticiero del Huasco** — Diario regional de Vallenar, Atacama
   - El Noticiero del Huasco - Noticias: `https://elnoticierodelhuasco.cl/category/atacama/noticias/feed/`
   - El Noticiero del Huasco - Politica: `https://elnoticierodelhuasco.cl/category/politica/feed/`
@@ -1120,7 +1128,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (77 sitios, 146 feeds)
+### 🌐 Noticias Internacionales (80 sitios, 220 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -1140,6 +1148,48 @@
   - BBC Mundo - Latin America: `https://feeds.bbci.co.uk/news/world/latin_america/rss.xml`
   - BBC Mundo [Proxy Google News]: `https://news.google.com/rss/search?q=site:bbc.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - BBC Mundo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:bbc.com&format=RSS`
+- **Cadena Política** — Portal mexicano de noticias políticas, salud y actualidad
+  - Cadena Política: `https://cadenapolitica.com/feed/`
+  - Cadena Política - Destacadas: `https://cadenapolitica.com/category/destacada/feed/`
+  - Cadena Política - Últimas Noticias: `https://cadenapolitica.com/category/ultimas-noticias/feed/`
+  - Cadena Política - Estatal: `https://cadenapolitica.com/category/estatal/feed/`
+  - Cadena Política - Edoméx: `https://cadenapolitica.com/category/estatal/edomex/feed/`
+  - Cadena Política - Central: `https://cadenapolitica.com/category/central/feed/`
+  - Cadena Política - Cadena Radio: `https://cadenapolitica.com/category/cadena-radio/feed/`
+  - Cadena Política - Coyuntura: `https://cadenapolitica.com/category/coyuntura/feed/`
+  - Cadena Política - Opinión: `https://cadenapolitica.com/category/opinion/feed/`
+  - Cadena Política - Cdmx: `https://cadenapolitica.com/category/estatal/cdmx/feed/`
+  - Cadena Política - Gem: `https://cadenapolitica.com/category/estatal/edomex/gem/feed/`
+  - Cadena Política - Usa: `https://cadenapolitica.com/category/internacional/usa/feed/`
+  - Cadena Política - Cadena Estilo: `https://cadenapolitica.com/category/radio/cadena-estilo/feed/`
+  - Cadena Política - Cadena Deportes: `https://cadenapolitica.com/category/radio/cadena-deportes/feed/`
+  - Cadena Política - Cadena Tech: `https://cadenapolitica.com/category/radio/cadena-tech/feed/`
+  - Cadena Política - Toluca: `https://cadenapolitica.com/category/municipal/toluca/feed/`
+  - Cadena Política - Cadena Verde: `https://cadenapolitica.com/category/cadena-verde/feed/`
+  - Cadena Política - Principal: `https://cadenapolitica.com/category/principal/feed/`
+  - Cadena Política - Cadena Turística: `https://cadenapolitica.com/category/cadena-turistica/feed/`
+  - Cadena Política - Legismex: `https://cadenapolitica.com/category/estatal/edomex/legismex/feed/`
+  - Cadena Política - Latam: `https://cadenapolitica.com/category/internacional/latam/feed/`
+  - Cadena Política - Huixquilucan: `https://cadenapolitica.com/category/municipal/huixquilucan/feed/`
+  - Cadena Política - Seguridad: `https://cadenapolitica.com/category/seguridad/feed/`
+  - Cadena Política - Uaem: `https://cadenapolitica.com/category/estatal/edomex/uaem/feed/`
+  - Cadena Política - Tlalnepantla: `https://cadenapolitica.com/category/municipal/tlalnepantla/feed/`
+  - Cadena Política - Alianza: `https://cadenapolitica.com/category/alianza/feed/`
+  - Cadena Política - Cuautitlán Izcalli: `https://cadenapolitica.com/category/municipal/cuautitlan-izcalli/feed/`
+  - Cadena Política - Atizapán De Zaragoza: `https://cadenapolitica.com/category/municipal/atizapan-de-zaragoza/feed/`
+  - Cadena Política - Naucalpan: `https://cadenapolitica.com/category/municipal/naucalpan/feed/`
+  - Cadena Política - Codhem: `https://cadenapolitica.com/category/estatal/edomex/codhem/feed/`
+  - Cadena Política - Ieem: `https://cadenapolitica.com/category/estatal/edomex/ieem/feed/`
+  - Cadena Política - Coacalco De Berriozábal: `https://cadenapolitica.com/category/municipal/coacalco-de-berriozabal/feed/`
+  - Cadena Política - Ecatepec: `https://cadenapolitica.com/category/municipal/ecatepec/feed/`
+  - Cadena Política - San Mateo Atenco: `https://cadenapolitica.com/category/municipal/san-mateo-atenco/feed/`
+  - Cadena Política - Cuauhtemoc: `https://cadenapolitica.com/category/estatal/cdmx/cuauhtemoc-cdmx/feed/`
+  - Cadena Política - Zinacantepec: `https://cadenapolitica.com/category/municipal/zinacantepec/feed/`
+  - Cadena Política - Metepec: `https://cadenapolitica.com/category/municipal/metepec/feed/`
+  - Cadena Política - Efemérides: `https://cadenapolitica.com/category/efemerides/feed/`
+  - Cadena Política - Sindicato De Maestros: `https://cadenapolitica.com/category/estatal/edomex/sindicato-de-maestros/feed/`
+  - Cadena Política - Pjedomex: `https://cadenapolitica.com/category/estatal/edomex/pjedomex/feed/`
+  - Cadena Política [Proxy Google News]: `https://news.google.com/rss/search?q=site:cadenapolitica.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Calama en Línea**: Feed de la categoría 'Internacional' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/internacional/feed/`
 - **Central Noticia**: Feed de la categoría 'Internacional' en Central Noticia
@@ -1148,6 +1198,8 @@
   - RSS: `https://www.davidnoticias.cl/category/mundo/feed/`
 - **Desenfoque**: Feed de la categoría 'Exterior' en Desenfoque
   - RSS: `https://desenfoque.cl/categoria/internacional/feed/`
+- **Diario Angamos**: Feed de la categoría 'Mundo' en Diario Angamos
+  - RSS: `https://diarioangamos.com/categorías/mundo/feed/`
 - **Diario Chile**: Feed de la categoría 'Internacional' en Diario Chile
   - RSS: `https://diariochile.cl/category/internacional/feed/`
 - **Diario El Centro**: Feed de la categoría 'Internacional' en Diario El Centro
@@ -1193,6 +1245,39 @@
   - RSS: `https://elminuto.cl/noticias/category/mundo/rss`
 - **El Morro de Arica**: Feed de la categoría 'Internacional' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/internacional/feed/`
+- **El Nacional** — Diario venezolano de noticias nacionales e internacionales
+  - El Nacional: `https://www.elnacional.com/feed/`
+  - El Nacional - Motores: `https://www.elnacional.com/deportes/motores/feed/`
+  - El Nacional - Empleo: `https://www.elnacional.com/economia/empleo/feed/`
+  - El Nacional - Gerencia: `https://www.elnacional.com/economia/gerencia/feed/`
+  - El Nacional - Petróleo: `https://www.elnacional.com/economia/petroleo/feed/`
+  - El Nacional - Criptomonedas: `https://www.elnacional.com/economia/criptomonedas/feed/`
+  - El Nacional - Empresas Y Productos: `https://www.elnacional.com/empresas-y-productos/feed/`
+  - El Nacional - Literatura: `https://www.elnacional.com/entretenimiento/literatura/feed/`
+  - El Nacional - Artes Plásticas: `https://www.elnacional.com/entretenimiento/artes-plasticas/feed/`
+  - El Nacional - Estilo De Vida: `https://www.elnacional.com/estilo-de-vida/feed/`
+  - El Nacional - Moda: `https://www.elnacional.com/estilo-de-vida/moda/feed/`
+  - El Nacional - Gastronomía: `https://www.elnacional.com/estilo-de-vida/gastronomia/feed/`
+  - El Nacional - Variedades: `https://www.elnacional.com/estilo-de-vida/variedades/feed/`
+  - El Nacional - Mascotas: `https://www.elnacional.com/estilo-de-vida/mascotas/feed/`
+  - El Nacional - Mundo: `https://www.elnacional.com/mundo/feed/`
+  - El Nacional - Ee Uu: `https://www.elnacional.com/mundo/ee-uu/feed/`
+  - El Nacional - Latinoamérica: `https://www.elnacional.com/mundo/latinoamerica/feed/`
+  - El Nacional - Colombia: `https://www.elnacional.com/mundo/colombia/feed/`
+  - El Nacional - España: `https://www.elnacional.com/mundo/espana/feed/`
+  - El Nacional - Europa: `https://www.elnacional.com/mundo/europa/feed/`
+  - El Nacional - Inmigración: `https://www.elnacional.com/mundo/inmigracion/feed/`
+  - El Nacional - Opinión: `https://www.elnacional.com/opinion/feed/`
+  - El Nacional - Venezuela: `https://www.elnacional.com/venezuela/feed/`
+  - El Nacional - Ciudad: `https://www.elnacional.com/venezuela/ciudad/feed/`
+  - El Nacional - Sucesos: `https://www.elnacional.com/venezuela/sucesos/feed/`
+  - El Nacional - Regiones: `https://www.elnacional.com/venezuela/regiones/feed/`
+  - El Nacional - Servicios: `https://www.elnacional.com/venezuela/servicios/feed/`
+  - El Nacional - Protestas: `https://www.elnacional.com/venezuela/protestas/feed/`
+  - El Nacional - Denuncias: `https://www.elnacional.com/venezuela/denuncias/feed/`
+  - El Nacional - Video: `https://www.elnacional.com/video/feed/`
+  - El Nacional [Proxy Google News]: `https://news.google.com/rss/search?q=site:elnacional.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - El Nacional [Proxy Bing News]: `https://www.bing.com/news/search?q=site:elnacional.com&format=RSS`
 - **El Periódico**: Feed de la categoría 'Internacional' en El Periódico
   - RSS: `https://elperiodico.cl/category/internacional/feed/`
 - **El Periodista**: Feed de la categoría 'Internacional' en El Periodista
@@ -1351,7 +1436,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (198 sitios, 1664 feeds)
+### 🌎 Medios Regionales (199 sitios, 1671 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
@@ -1641,7 +1726,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Vilas Radio - Salud: `https://vilasradio.cl/category/salud/feed/`
   - Vilas Radio [Proxy Google News]: `https://news.google.com/rss/search?q=site:vilasradio.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Antofagasta (15 medios)
+#### 📍 Antofagasta (16 medios)
 
 *Descargar OPML regional: [`antofagasta.opml`](dist/opml/regions/antofagasta.opml)*
 
@@ -1738,6 +1823,19 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Desierto FM - Economía: `https://www.desiertofm.cl/category/noticias/economia/feed/`
   - Desierto FM - Deportes: `https://www.desiertofm.cl/category/noticias/deportes/feed/`
   - Desierto FM [Proxy Google News]: `https://news.google.com/rss/search?q=site:desiertofm.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Diario Angamos** — Diario digital de la Región de Antofagasta, Chile
+  - Diario Angamos: `https://diarioangamos.com/feed/`
+  - Diario Angamos - Antofagasta: `https://diarioangamos.com/categorías/antofagasta/feed/`
+  - Diario Angamos - Nacional: `https://diarioangamos.com/categorías/nacional/feed/`
+  - Diario Angamos - Crónicas: `https://diarioangamos.com/categorías/cronicas/feed/`
+  - Diario Angamos - Policial: `https://diarioangamos.com/categorías/policial/feed/`
+  - Diario Angamos - Política: `https://diarioangamos.com/categorías/politica/feed/`
+  - Diario Angamos - Mundo: `https://diarioangamos.com/categorías/mundo/feed/`
+  - Diario Angamos - Opinión: `https://diarioangamos.com/categorías/opinion/feed/`
+  - Diario Angamos - Calama: `https://diarioangamos.com/categorías/calama/feed/`
+  - Diario Angamos - Espectáculos Y Cultura: `https://diarioangamos.com/categorías/espectaculos/feed/`
+  - Diario Angamos - Deportes: `https://diarioangamos.com/categorías/deportes/feed/`
+  - Diario Angamos [Proxy Google News]: `https://news.google.com/rss/search?q=site:diarioangamos.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diario Antofagasta** — Diario regional de Antofagasta, Antofagasta
   - Diario Antofagasta: `https://www.diarioantofagasta.cl/feed/`
   - Diario Antofagasta - Antofagasta: `https://www.diarioantofagasta.cl/regional/antofagasta/feed/`
@@ -4754,7 +4852,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-government"></a>
-### 🏛️ Gobierno y Datos Públicos (30 sitios, 115 feeds)
+### 🏛️ Gobierno y Datos Públicos (31 sitios, 116 feeds)
 
 *Descargar OPML: [`government.opml`](dist/opml/categories/government.opml)*
 
@@ -4763,6 +4861,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Biblioteca del Congreso Nacional (BCN)** — Biblioteca del Congreso Nacional de Chile - Servicios de información legislativa y parlamentaria
   - BCN - Últimas leyes publicadas: `http://feeds.feedburner.com/bcn/ulp?format=xml`
   - Biblioteca del Congreso Nacional (BCN) [Proxy Google News]: `https://news.google.com/rss/search?q=site:bcn.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Cadena Política**: Feed de la categoría 'Municipal' en Cadena Política
+  - RSS: `https://cadenapolitica.com/category/municipal/feed/`
 - **ChileCompra** — Plataforma estatal de licitaciones y compras públicas
   - ChileCompra: `https://www.chilecompra.cl/rss`
   - ChileCompra - Noticias Chilecompra: `https://www.chilecompra.cl/category/noticias/noticias-chilecompra/feed/`
@@ -4907,7 +5007,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-education"></a>
-### 🏫 Educación, Universidades e Investigación (71 sitios, 129 feeds)
+### 🏫 Educación, Universidades e Investigación (72 sitios, 130 feeds)
 
 *Descargar OPML: [`education.opml`](dist/opml/categories/education.opml)*
 
@@ -5013,6 +5113,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - El Diario de La Araucanía - Educación Superior: `https://www.eldiariodelaaraucania.cl/category/educacion/educacion-superior/feed/`
 - **El Morro de Arica**: Feed de la categoría 'Educación' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/educacion/feed/`
+- **El Nacional**: Feed de la categoría 'Educación' en El Nacional
+  - RSS: `https://www.elnacional.com/venezuela/educacion/feed/`
 - **El Noticiero del Huasco**: Feed de la categoría 'Educación' en El Noticiero del Huasco
   - RSS: `https://elnoticierodelhuasco.cl/category/educacion/feed/`
 - **El Periódico**: Feed de la categoría 'Educación' en El Periódico
@@ -5115,7 +5217,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Economia, Negocios y Finanzas (101 sitios, 253 feeds)
+### 💼 Economia, Negocios y Finanzas (103 sitios, 256 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
@@ -5146,6 +5248,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.atacamanoticias.cl/category/mineria_y_economia/feed/`
 - **Aurora Noticias**: Feed de la categoría 'Economía' en Aurora Noticias
   - RSS: `https://auroranoticias.cl/economia/feed/`
+- **Cadena Política**: Feed de la categoría 'Economía' en Cadena Política
+  - RSS: `https://cadenapolitica.com/category/economia/feed/`
 - **Calama en Línea**: Feed de la categoría 'Economía' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/economia/feed/`
 - **Chocale** — Diario de economía y negocios de Chile
@@ -5235,6 +5339,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://elmauleinforma.cl/economia/feed/`
 - **El Morro de Arica**: Feed de la categoría 'Economía' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/economia/feed/`
+- **El Nacional** — Diario venezolano de noticias nacionales e internacionales
+  - El Nacional - Economía: `https://www.elnacional.com/economia/feed/`
+  - El Nacional - Finanzas: `https://www.elnacional.com/economia/finanzas/feed/`
 - **El Noticiero del Huasco**: Feed de la categoría 'Economía' en El Noticiero del Huasco
   - RSS: `https://elnoticierodelhuasco.cl/category/economia/feed/`
 - **El Periódico**: Feed de la categoría 'Economía' en El Periódico
@@ -5527,7 +5634,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (101 sitios, 121 feeds)
+### 🎨 Cultura y Divulgación (102 sitios, 123 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
@@ -5615,6 +5722,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **El Morro de Arica** — Diario regional de Arica y Parinacota
   - El Morro de Arica - Cultural: `https://elmorrodearica.cl/category/cultural/feed/`
   - El Morro de Arica - Cultura: `https://elmorrodearica.cl/category/cultura/feed/`
+- **El Nacional** — Diario venezolano de noticias nacionales e internacionales
+  - El Nacional - Cine: `https://www.elnacional.com/entretenimiento/cine/feed/`
+  - El Nacional - Teatro: `https://www.elnacional.com/entretenimiento/teatro/feed/`
 - **El Noticiero del Huasco**: Feed de la categoría 'Cultura' en El Noticiero del Huasco
   - RSS: `https://elnoticierodelhuasco.cl/category/cultura/feed/`
 - **El Observador**: Feed de la categoría 'Cultura y Espectáculos' en El Observador
@@ -6028,7 +6138,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (137 sitios, 186 feeds)
+### ⚽ Deportes (139 sitios, 188 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
@@ -6091,6 +6201,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.desiertofm.cl/category/noticias/deportes/feed/`
 - **Diálogo Sur**: Feed de la categoría 'Deporte' en Diálogo Sur
   - RSS: `https://dialogosur.cl/category/deporte/feed/`
+- **Diario Angamos**: Feed de la categoría 'Deportes' en Diario Angamos
+  - RSS: `https://diarioangamos.com/categorías/deportes/feed/`
 - **Diario Antofagasta**: Feed de la categoría 'Deportes' en Diario Antofagasta
   - RSS: `https://www.diarioantofagasta.cl/deportes/feed/`
 - **Diario Chañarcillo**: Feed de la categoría 'Deportes' en Diario Chañarcillo
@@ -6140,6 +6252,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://elmauleinforma.cl/deportes/feed/`
 - **El Morro de Arica**: Feed de la categoría 'Deportes' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/deportes/feed/`
+- **El Nacional**: Feed de la categoría 'Tenis' en El Nacional
+  - RSS: `https://www.elnacional.com/deportes/tenis/feed/`
 - **El Noticiero del Huasco**: Feed de la categoría 'Deportes' en El Noticiero del Huasco
   - RSS: `https://elnoticierodelhuasco.cl/category/deportes/feed/`
 - **El Observador**: Feed de la categoría 'Deportes' en El Observador
@@ -6680,7 +6794,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-entertainment"></a>
-### 🎭 Espectáculos y Entretención (52 sitios, 102 feeds)
+### 🎭 Espectáculos y Entretención (54 sitios, 106 feeds)
 
 *Descargar OPML: [`entertainment.opml`](dist/opml/categories/entertainment.opml)*
 
@@ -6701,6 +6815,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Colemono - Entretenimiento: `https://colemono.com/category/noticias/entretenimiento/feed/`
 - **CriptoNoticias Chile**: Feed de la categoría 'Entretenimiento' en CriptoNoticias Chile
   - RSS: `https://www.criptonoticias.com/categorias/comunidad/entretenimiento/feed/`
+- **Diario Angamos**: Feed de la categoría 'Espectáculos Y Cultura' en Diario Angamos
+  - RSS: `https://diarioangamos.com/categorías/espectaculos/feed/`
 - **Diario Antofagasta**: Feed de la categoría 'Espectaculos' en Diario Antofagasta
   - RSS: `https://www.diarioantofagasta.cl/cultura/espectaculos/feed/`
 - **Diario El Centro**: Feed de la categoría 'Tiempo Libre' en Diario El Centro
@@ -6718,6 +6834,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.elinformadorchile.cl/category/farandula/feed/`
 - **El Morro de Arica**: Feed de la categoría 'Espectáculos' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/espectaculos/feed/`
+- **El Nacional** — Diario venezolano de noticias nacionales e internacionales
+  - El Nacional - Entretenimiento: `https://www.elnacional.com/entretenimiento/feed/`
+  - El Nacional - Televisión: `https://www.elnacional.com/entretenimiento/television/feed/`
+  - El Nacional - Farándula: `https://www.elnacional.com/entretenimiento/farandula/feed/`
 - **El Reportero de Iquique**: Feed de la categoría 'Cultura y Espectáculos' en El Reportero de Iquique
   - RSS: `https://elreporterodeiquique.com/category/espectaculos/feed/`
 - **El Sol de Iquique**: Feed de la categoría 'Humor' en El Sol de Iquique
@@ -6842,12 +6962,14 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-radio"></a>
-### 📻 Radio y Música (23 sitios, 58 feeds)
+### 📻 Radio y Música (25 sitios, 60 feeds)
 
 *Descargar OPML: [`radio.opml`](dist/opml/categories/radio.opml)*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Música' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/musica/feed/`
+- **Cadena Política**: Feed de la categoría 'Radio' en Cadena Política
+  - RSS: `https://cadenapolitica.com/category/radio/feed/`
 - **CauquenesNet** — Diario regional de Cauquenes, Maule
   - CauquenesNet - Radio: `https://www.cauquenesnet.cl/feed/?category=radio`
   - CauquenesNet - Radiopachanga: `https://www.cauquenesnet.cl/feed/?category=radiopachanga`
@@ -6859,6 +6981,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://duplos.cl/musica/feed/`
 - **El Ciudadano**: Feed de la categoría 'Música' en El Ciudadano
   - RSS: `https://www.elciudadano.com/noticias/arte-cultura/musica-artes/feed/`
+- **El Nacional**: Feed de la categoría 'Música' en El Nacional
+  - RSS: `https://www.elnacional.com/entretenimiento/musica/feed/`
 - **El Sol de Iquique**: Feed de la categoría 'Música' en El Sol de Iquique
   - RSS: `https://elsoldeiquique.cl/cultura/musica-cultura/feed/`
 - **G5 Noticias**: Feed de la categoría 'G5 Radio y Podcasts' en G5 Noticias
@@ -6931,7 +7055,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-health"></a>
-### 🏥 Salud y Bienestar (78 sitios, 117 feeds)
+### 🏥 Salud y Bienestar (80 sitios, 119 feeds)
 
 *Descargar OPML: [`health.opml`](dist/opml/categories/health.opml)*
 
@@ -6953,6 +7077,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.atentos.cl/category/salud/feed/`
 - **Aurora Noticias**: Feed de la categoría 'Salud' en Aurora Noticias
   - RSS: `https://auroranoticias.cl/salud/feed/`
+- **Cadena Política**: Feed de la categoría 'Salud' en Cadena Política
+  - RSS: `https://cadenapolitica.com/category/salud/feed/`
 - **Calama en Línea**: Feed de la categoría 'Salud' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/salud/feed/`
 - **CEI Noticias**: Feed de la categoría 'Salud' en CEI Noticias
@@ -6996,6 +7122,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.eldiariodelaaraucania.cl/category/estilo-de-vida/salud/feed/`
 - **El Morro de Arica**: Feed de la categoría 'Salud' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/salud/feed/`
+- **El Nacional**: Feed de la categoría 'Bienestar' en El Nacional
+  - RSS: `https://www.elnacional.com/estilo-de-vida/bienestar/feed/`
 - **El Noticiero del Huasco**: Feed de la categoría 'Salud' en El Noticiero del Huasco
   - RSS: `https://elnoticierodelhuasco.cl/category/salud/feed/`
 - **El Periodista**: Feed de la categoría 'Salud y Sociedad' en El Periodista

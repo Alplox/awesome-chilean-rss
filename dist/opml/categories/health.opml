@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (117 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (119 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -17,6 +17,7 @@
     <outline type="rss" text="Araucanía Noticias - Salud Mental" title="Araucanía Noticias - Salud Mental" description="Feed de la categoría 'Salud Mental' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/salud-mental/feed/" htmlUrl="https://araucanianoticias.cl/category/salud-mental/"/>
     <outline type="rss" text="Atentos - Salud" title="Atentos - Salud" description="Feed de la categoría 'Salud' en Atentos" xmlUrl="https://www.atentos.cl/category/salud/feed/" htmlUrl="https://www.atentos.cl/category/salud/"/>
     <outline type="rss" text="Aurora Noticias - Salud" title="Aurora Noticias - Salud" description="Feed de la categoría 'Salud' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/salud/feed/" htmlUrl="https://auroranoticias.cl/salud/"/>
+    <outline type="rss" text="Cadena Política - Salud" title="Cadena Política - Salud" description="Feed de la categoría 'Salud' en Cadena Política" xmlUrl="https://cadenapolitica.com/category/salud/feed/" htmlUrl="https://cadenapolitica.com/category/salud/"/>
     <outline type="rss" text="Calama en Línea - Salud" title="Calama en Línea - Salud" description="Feed de la categoría 'Salud' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/salud/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/salud/"/>
     <outline type="rss" text="CEI Noticias - Salud" title="CEI Noticias - Salud" description="Feed de la categoría 'Salud' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/salud/feed/" htmlUrl="https://ceinoticias.cl/category/salud/"/>
     <outline type="rss" text="ChileCompra - Salud" title="ChileCompra - Salud" description="Feed de la categoría 'Salud' en ChileCompra" xmlUrl="https://www.chilecompra.cl/category/centro-de-documentacion/normativa/salud/feed/" htmlUrl="https://www.chilecompra.cl/category/centro-de-documentacion/normativa/salud/"/>
@@ -39,6 +40,7 @@
     <outline type="rss" text="El Contraste - Salud" title="El Contraste - Salud" description="Feed de la categoría 'Salud' en El Contraste" xmlUrl="https://elcontraste.cl/salud/feed/" htmlUrl="https://elcontraste.cl/salud/"/>
     <outline type="rss" text="El Diario de La Araucanía - Salud" title="El Diario de La Araucanía - Salud" description="Feed de la categoría 'Salud' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/estilo-de-vida/salud/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/estilo-de-vida/salud/"/>
     <outline type="rss" text="El Morro de Arica - Salud" title="El Morro de Arica - Salud" description="Feed de la categoría 'Salud' en El Morro de Arica" xmlUrl="https://elmorrodearica.cl/category/salud/feed/" htmlUrl="https://elmorrodearica.cl/category/salud/"/>
+    <outline type="rss" text="El Nacional - Bienestar" title="El Nacional - Bienestar" description="Feed de la categoría 'Bienestar' en El Nacional" xmlUrl="https://www.elnacional.com/estilo-de-vida/bienestar/feed/" htmlUrl="https://www.elnacional.com/estilo-de-vida/bienestar/"/>
     <outline type="rss" text="El Noticiero del Huasco - Salud" title="El Noticiero del Huasco - Salud" description="Feed de la categoría 'Salud' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/salud/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/salud/"/>
     <outline type="rss" text="El Periodista - Salud y Sociedad" title="El Periodista - Salud y Sociedad" description="Feed de la categoría 'Salud y Sociedad' en El Periodista" xmlUrl="https://www.elperiodista.cl/category/salud/feed/" htmlUrl="https://www.elperiodista.cl/category/salud/"/>
     <outline type="rss" text="El Quinto Poder - Salud" title="El Quinto Poder - Salud" description="Feed de la categoría 'Salud' en El Quinto Poder" xmlUrl="https://elquintopoder.cl/temas/salud/feed/" htmlUrl="https://elquintopoder.cl/temas/salud/"/>

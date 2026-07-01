@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (186 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (188 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -42,6 +42,7 @@
     <outline type="rss" text="Desenfoque - Deportes" title="Desenfoque - Deportes" description="Feed de la categoría 'Deportes' en Desenfoque" xmlUrl="https://desenfoque.cl/categoria/deportes/feed/" htmlUrl="https://desenfoque.cl/categoria/deportes/"/>
     <outline type="rss" text="Desierto FM - Deportes" title="Desierto FM - Deportes" description="Feed de la categoría 'Deportes' en Desierto FM" xmlUrl="https://www.desiertofm.cl/category/noticias/deportes/feed/" htmlUrl="https://www.desiertofm.cl/category/noticias/deportes/"/>
     <outline type="rss" text="Diálogo Sur - Deporte" title="Diálogo Sur - Deporte" description="Feed de la categoría 'Deporte' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/deporte/feed/" htmlUrl="https://dialogosur.cl/category/deporte/"/>
+    <outline type="rss" text="Diario Angamos - Deportes" title="Diario Angamos - Deportes" description="Feed de la categoría 'Deportes' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/deportes/feed/" htmlUrl="https://diarioangamos.com/categorías/deportes/"/>
     <outline type="rss" text="Diario Antofagasta - Deportes" title="Diario Antofagasta - Deportes" description="Feed de la categoría 'Deportes' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/deportes/feed/" htmlUrl="https://www.diarioantofagasta.cl/deportes/"/>
     <outline type="rss" text="Diario Chañarcillo - Deportes" title="Diario Chañarcillo - Deportes" description="Feed de la categoría 'Deportes' en Diario Chañarcillo" xmlUrl="https://www.chanarcillo.cl/category/deportes/feed/" htmlUrl="https://www.chanarcillo.cl/category/deportes/"/>
     <outline type="rss" text="Diario El Cautín - Deporte" title="Diario El Cautín - Deporte" description="Feed de la categoría 'Deporte' en Diario El Cautín" xmlUrl="https://diarioelcautin.cl/category/deporte/feed/" htmlUrl="https://diarioelcautin.cl/category/deporte/"/>
@@ -68,6 +69,7 @@
     <outline type="rss" text="El Insular - Deporte" title="El Insular - Deporte" description="Feed de la categoría 'Deporte' en El Insular" xmlUrl="https://elinsular.cl/category/deporte/feed/" htmlUrl="https://elinsular.cl/category/deporte/"/>
     <outline type="rss" text="El Maule Informa - Deportes" title="El Maule Informa - Deportes" description="Feed de la categoría 'Deportes' en El Maule Informa" xmlUrl="https://elmauleinforma.cl/deportes/feed/" htmlUrl="https://elmauleinforma.cl/deportes/"/>
     <outline type="rss" text="El Morro de Arica - Deportes" title="El Morro de Arica - Deportes" description="Feed de la categoría 'Deportes' en El Morro de Arica" xmlUrl="https://elmorrodearica.cl/category/deportes/feed/" htmlUrl="https://elmorrodearica.cl/category/deportes/"/>
+    <outline type="rss" text="El Nacional - Tenis" title="El Nacional - Tenis" description="Feed de la categoría 'Tenis' en El Nacional" xmlUrl="https://www.elnacional.com/deportes/tenis/feed/" htmlUrl="https://www.elnacional.com/deportes/tenis/"/>
     <outline type="rss" text="El Noticiero del Huasco - Deportes" title="El Noticiero del Huasco - Deportes" description="Feed de la categoría 'Deportes' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/deportes/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/deportes/"/>
     <outline type="rss" text="El Observador - Deportes" title="El Observador - Deportes" description="Feed de la categoría 'Deportes' en El Observador" xmlUrl="https://www.observador.cl/category/deportes/feed/" htmlUrl="https://www.observador.cl/category/deportes/"/>
     <outline type="rss" text="El Ovallino - Deportes" title="El Ovallino - Deportes" description="Feed de la categoría 'Deportes' en El Ovallino" xmlUrl="https://www.elovallino.cl/category/deportes/feed/" htmlUrl="https://www.elovallino.cl/category/deportes/"/>

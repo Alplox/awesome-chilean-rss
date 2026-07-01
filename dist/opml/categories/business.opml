@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (253 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (256 feeds)</title>
     <description>Feeds RSS de 💼 Economia, Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -25,6 +25,7 @@
     <outline type="rss" text="Arica365 - #emprendedores" title="Arica365 - #emprendedores" description="Feed de la categoría '#emprendedores' en Arica365" xmlUrl="https://www.arica365.cl/blog/category/emprendedores/feed/" htmlUrl="https://www.arica365.cl/blog/category/emprendedores/"/>
     <outline type="rss" text="Atacama Noticias - Minería y Economía" title="Atacama Noticias - Minería y Economía" description="Feed de la categoría 'Minería y Economía' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/mineria_y_economia/feed/" htmlUrl="https://www.atacamanoticias.cl/category/mineria_y_economia/"/>
     <outline type="rss" text="Aurora Noticias - Economía" title="Aurora Noticias - Economía" description="Feed de la categoría 'Economía' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/economia/feed/" htmlUrl="https://auroranoticias.cl/economia/"/>
+    <outline type="rss" text="Cadena Política - Economía" title="Cadena Política - Economía" description="Feed de la categoría 'Economía' en Cadena Política" xmlUrl="https://cadenapolitica.com/category/economia/feed/" htmlUrl="https://cadenapolitica.com/category/economia/"/>
     <outline type="rss" text="Calama en Línea - Economía" title="Calama en Línea - Economía" description="Feed de la categoría 'Economía' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/economia/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/economia/"/>
     <outline type="rss" text="Chocale" title="Chocale" description="Diario de economía y negocios de Chile" xmlUrl="https://chocale.cl/feed/" htmlUrl="https://chocale.cl"/>
     <outline type="rss" text="Chocale - Compras" title="Chocale - Compras" description="Feed de la categoría 'Compras' en Chocale" xmlUrl="https://chocale.cl/consumo-retail/feed/" htmlUrl="https://chocale.cl/consumo-retail/"/>
@@ -82,6 +83,8 @@
     <outline type="rss" text="El Magallánico - Empresas" title="El Magallánico - Empresas" description="Feed de la categoría 'Empresas' en El Magallánico" xmlUrl="https://elmagallanico.com/category/instituciones/empresas/feed/" htmlUrl="https://elmagallanico.com/category/instituciones/empresas/"/>
     <outline type="rss" text="El Maule Informa - Economía" title="El Maule Informa - Economía" description="Feed de la categoría 'Economía' en El Maule Informa" xmlUrl="https://elmauleinforma.cl/economia/feed/" htmlUrl="https://elmauleinforma.cl/economia/"/>
     <outline type="rss" text="El Morro de Arica - Economía" title="El Morro de Arica - Economía" description="Feed de la categoría 'Economía' en El Morro de Arica" xmlUrl="https://elmorrodearica.cl/category/economia/feed/" htmlUrl="https://elmorrodearica.cl/category/economia/"/>
+    <outline type="rss" text="El Nacional - Economía" title="El Nacional - Economía" description="Feed de la categoría 'Economía' en El Nacional" xmlUrl="https://www.elnacional.com/economia/feed/" htmlUrl="https://www.elnacional.com/economia/"/>
+    <outline type="rss" text="El Nacional - Finanzas" title="El Nacional - Finanzas" description="Feed de la categoría 'Finanzas' en El Nacional" xmlUrl="https://www.elnacional.com/economia/finanzas/feed/" htmlUrl="https://www.elnacional.com/economia/finanzas/"/>
     <outline type="rss" text="El Noticiero del Huasco - Economía" title="El Noticiero del Huasco - Economía" description="Feed de la categoría 'Economía' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/economia/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/economia/"/>
     <outline type="rss" text="El Periódico - Economía" title="El Periódico - Economía" description="Feed de la categoría 'Economía' en El Periódico" xmlUrl="https://elperiodico.cl/category/economia/feed/" htmlUrl="https://elperiodico.cl/category/economia/"/>
     <outline type="rss" text="El Periódico de la Energía" title="El Periódico de la Energía" description="Noticias del sector energético en español" xmlUrl="https://elperiodicodelaenergia.com/feed/" htmlUrl="https://elperiodicodelaenergia.com/"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Regionales (2567 feeds)</title>
+    <title>Awesome Chilean RSS - Regionales (2579 feeds)</title>
     <description>Feeds RSS de medios regionales chilenos agrupados por región.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -354,6 +354,18 @@
       <outline type="rss" text="Desierto FM - Regional" title="Desierto FM - Regional" description="Feed de la categoría 'Regional' en Desierto FM" xmlUrl="https://www.desiertofm.cl/category/noticias/regional/feed/" htmlUrl="https://www.desiertofm.cl/category/noticias/regional/"/>
       <outline type="rss" text="Desierto FM - Salud" title="Desierto FM - Salud" description="Feed de la categoría 'Salud' en Desierto FM" xmlUrl="https://www.desiertofm.cl/category/noticias/salud/feed/" htmlUrl="https://www.desiertofm.cl/category/noticias/salud/"/>
       <outline type="rss" text="Desierto FM [Proxy Google News]" title="Desierto FM [Proxy Google News]" description="Resultados de site:desiertofm.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:desiertofm.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:desiertofm.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Diario Angamos" title="Diario Angamos" description="Diario digital de la Región de Antofagasta, Chile" xmlUrl="https://diarioangamos.com/feed/" htmlUrl="https://diarioangamos.com/"/>
+      <outline type="rss" text="Diario Angamos - Antofagasta" title="Diario Angamos - Antofagasta" description="Feed de la categoría 'Antofagasta' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/antofagasta/feed/" htmlUrl="https://diarioangamos.com/categorías/antofagasta/"/>
+      <outline type="rss" text="Diario Angamos - Calama" title="Diario Angamos - Calama" description="Feed de la categoría 'Calama' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/calama/feed/" htmlUrl="https://diarioangamos.com/categorías/calama/"/>
+      <outline type="rss" text="Diario Angamos - Crónicas" title="Diario Angamos - Crónicas" description="Feed de la categoría 'Crónicas' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/cronicas/feed/" htmlUrl="https://diarioangamos.com/categorías/cronicas/"/>
+      <outline type="rss" text="Diario Angamos - Deportes" title="Diario Angamos - Deportes" description="Feed de la categoría 'Deportes' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/deportes/feed/" htmlUrl="https://diarioangamos.com/categorías/deportes/"/>
+      <outline type="rss" text="Diario Angamos - Espectáculos Y Cultura" title="Diario Angamos - Espectáculos Y Cultura" description="Feed de la categoría 'Espectáculos Y Cultura' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/espectaculos/feed/" htmlUrl="https://diarioangamos.com/categorías/espectaculos/"/>
+      <outline type="rss" text="Diario Angamos - Mundo" title="Diario Angamos - Mundo" description="Feed de la categoría 'Mundo' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/mundo/feed/" htmlUrl="https://diarioangamos.com/categorías/mundo/"/>
+      <outline type="rss" text="Diario Angamos - Nacional" title="Diario Angamos - Nacional" description="Feed de la categoría 'Nacional' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/nacional/feed/" htmlUrl="https://diarioangamos.com/categorías/nacional/"/>
+      <outline type="rss" text="Diario Angamos - Opinión" title="Diario Angamos - Opinión" description="Feed de la categoría 'Opinión' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/opinion/feed/" htmlUrl="https://diarioangamos.com/categorías/opinion/"/>
+      <outline type="rss" text="Diario Angamos - Policial" title="Diario Angamos - Policial" description="Feed de la categoría 'Policial' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/policial/feed/" htmlUrl="https://diarioangamos.com/categorías/policial/"/>
+      <outline type="rss" text="Diario Angamos - Política" title="Diario Angamos - Política" description="Feed de la categoría 'Política' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/politica/feed/" htmlUrl="https://diarioangamos.com/categorías/politica/"/>
+      <outline type="rss" text="Diario Angamos [Proxy Google News]" title="Diario Angamos [Proxy Google News]" description="Resultados de site:diarioangamos.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioangamos.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioangamos.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Diario Antofagasta" title="Diario Antofagasta" description="Diario regional de Antofagasta, Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/feed/" htmlUrl="https://www.diarioantofagasta.cl"/>
       <outline type="rss" text="Diario Antofagasta - #antofalover" title="Diario Antofagasta - #antofalover" description="Feed de la categoría '#antofalover' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/antofalovers/feed/" htmlUrl="https://www.diarioantofagasta.cl/antofalovers/"/>
       <outline type="rss" text="Diario Antofagasta - Antofagasta" title="Diario Antofagasta - Antofagasta" description="Feed de la categoría 'Antofagasta' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/regional/antofagasta/feed/" htmlUrl="https://www.diarioantofagasta.cl/regional/antofagasta/"/>

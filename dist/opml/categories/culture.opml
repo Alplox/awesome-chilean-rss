@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (121 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (123 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -54,6 +54,8 @@
     <outline type="rss" text="El Diario de La Araucanía - Cultura" title="El Diario de La Araucanía - Cultura" description="Feed de la categoría 'Cultura' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/entretenimiento/cultura/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/entretenimiento/cultura/"/>
     <outline type="rss" text="El Morro de Arica - Cultura" title="El Morro de Arica - Cultura" description="Feed de la categoría 'Cultura' en El Morro de Arica" xmlUrl="https://elmorrodearica.cl/category/cultura/feed/" htmlUrl="https://elmorrodearica.cl/category/cultura/"/>
     <outline type="rss" text="El Morro de Arica - Cultural" title="El Morro de Arica - Cultural" description="Feed de la categoría 'Cultural' en El Morro de Arica" xmlUrl="https://elmorrodearica.cl/category/cultural/feed/" htmlUrl="https://elmorrodearica.cl/category/cultural/"/>
+    <outline type="rss" text="El Nacional - Cine" title="El Nacional - Cine" description="Feed de la categoría 'Cine' en El Nacional" xmlUrl="https://www.elnacional.com/entretenimiento/cine/feed/" htmlUrl="https://www.elnacional.com/entretenimiento/cine/"/>
+    <outline type="rss" text="El Nacional - Teatro" title="El Nacional - Teatro" description="Feed de la categoría 'Teatro' en El Nacional" xmlUrl="https://www.elnacional.com/entretenimiento/teatro/feed/" htmlUrl="https://www.elnacional.com/entretenimiento/teatro/"/>
     <outline type="rss" text="El Noticiero del Huasco - Cultura" title="El Noticiero del Huasco - Cultura" description="Feed de la categoría 'Cultura' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/cultura/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/cultura/"/>
     <outline type="rss" text="El Observador - Cultura y Espectáculos" title="El Observador - Cultura y Espectáculos" description="Feed de la categoría 'Cultura y Espectáculos' en El Observador" xmlUrl="https://www.observador.cl/category/cultura-y-espectaculos/feed/" htmlUrl="https://www.observador.cl/category/cultura-y-espectaculos/"/>
     <outline type="rss" text="El Ovallino - Cultura" title="El Ovallino - Cultura" description="Feed de la categoría 'Cultura' en El Ovallino" xmlUrl="https://www.elovallino.cl/category/cultura/feed/" htmlUrl="https://www.elovallino.cl/category/cultura/"/>

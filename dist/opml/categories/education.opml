@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (129 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (130 feeds)</title>
     <description>Feeds RSS de 🏫 Educación, Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -78,6 +78,7 @@
     <outline type="rss" text="El Diario de La Araucanía - Educación" title="El Diario de La Araucanía - Educación" description="Feed de la categoría 'Educación' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/educacion/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/educacion/"/>
     <outline type="rss" text="El Diario de La Araucanía - Educación Superior" title="El Diario de La Araucanía - Educación Superior" description="Feed de la categoría 'Educación Superior' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/educacion/educacion-superior/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/educacion/educacion-superior/"/>
     <outline type="rss" text="El Morro de Arica - Educación" title="El Morro de Arica - Educación" description="Feed de la categoría 'Educación' en El Morro de Arica" xmlUrl="https://elmorrodearica.cl/category/educacion/feed/" htmlUrl="https://elmorrodearica.cl/category/educacion/"/>
+    <outline type="rss" text="El Nacional - Educación" title="El Nacional - Educación" description="Feed de la categoría 'Educación' en El Nacional" xmlUrl="https://www.elnacional.com/venezuela/educacion/feed/" htmlUrl="https://www.elnacional.com/venezuela/educacion/"/>
     <outline type="rss" text="El Noticiero del Huasco - Educación" title="El Noticiero del Huasco - Educación" description="Feed de la categoría 'Educación' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/educacion/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/educacion/"/>
     <outline type="rss" text="El Periódico - Educación" title="El Periódico - Educación" description="Feed de la categoría 'Educación' en El Periódico" xmlUrl="https://elperiodico.cl/category/educacion/feed/" htmlUrl="https://elperiodico.cl/category/educacion/"/>
     <outline type="rss" text="El Quinto Poder - Educación" title="El Quinto Poder - Educación" description="Feed de la categoría 'Educación' en El Quinto Poder" xmlUrl="https://elquintopoder.cl/temas/educacion/feed/" htmlUrl="https://elquintopoder.cl/temas/educacion/"/>

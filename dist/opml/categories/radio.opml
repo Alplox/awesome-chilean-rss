@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📻 Radio y Música (58 feeds)</title>
+    <title>Awesome Chilean RSS - 📻 Radio y Música (60 feeds)</title>
     <description>Feeds RSS de 📻 Radio y Música, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Alerta Noticias Temuco - Música" title="Alerta Noticias Temuco - Música" description="Feed de la categoría 'Música' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/musica/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/musica/"/>
+    <outline type="rss" text="Cadena Política - Radio" title="Cadena Política - Radio" description="Feed de la categoría 'Radio' en Cadena Política" xmlUrl="https://cadenapolitica.com/category/radio/feed/" htmlUrl="https://cadenapolitica.com/category/radio/"/>
     <outline type="rss" text="CauquenesNet - Radio" title="CauquenesNet - Radio" description="Feed de la sección 'Radio' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=radio" htmlUrl="https://www.cauquenesnet.cl/radio/"/>
     <outline type="rss" text="CauquenesNet - Radiopachanga" title="CauquenesNet - Radiopachanga" description="Feed de la sección 'Radiopachanga' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=radiopachanga" htmlUrl="https://www.cauquenesnet.cl/radiopachanga/"/>
     <outline type="rss" text="Colemono - Música" title="Colemono - Música" description="Feed de la categoría 'Música' en Colemono" xmlUrl="https://colemono.com/category/noticias/musica/feed/" htmlUrl="https://colemono.com/category/noticias/musica/"/>
     <outline type="rss" text="Diario El Nortino - Arte Musical" title="Diario El Nortino - Arte Musical" description="Feed de la categoría 'Arte Musical' en Diario El Nortino" xmlUrl="https://diarioelnortino.cl/category/arte-musical/feed/" htmlUrl="https://diarioelnortino.cl/category/arte-musical/"/>
     <outline type="rss" text="Duplos - Música" title="Duplos - Música" description="Feed de la categoría 'Música' en Duplos" xmlUrl="https://duplos.cl/musica/feed/" htmlUrl="https://duplos.cl/musica/"/>
     <outline type="rss" text="El Ciudadano - Música" title="El Ciudadano - Música" description="Feed de la categoría 'Música' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/arte-cultura/musica-artes/feed/" htmlUrl="https://www.elciudadano.com/noticias/arte-cultura/musica-artes/"/>
+    <outline type="rss" text="El Nacional - Música" title="El Nacional - Música" description="Feed de la categoría 'Música' en El Nacional" xmlUrl="https://www.elnacional.com/entretenimiento/musica/feed/" htmlUrl="https://www.elnacional.com/entretenimiento/musica/"/>
     <outline type="rss" text="El Sol de Iquique - Música" title="El Sol de Iquique - Música" description="Feed de la categoría 'Música' en El Sol de Iquique" xmlUrl="https://elsoldeiquique.cl/cultura/musica-cultura/feed/" htmlUrl="https://elsoldeiquique.cl/cultura/musica-cultura/"/>
     <outline type="rss" text="G5 Noticias - G5 Radio y Podcasts" title="G5 Noticias - G5 Radio y Podcasts" description="Feed de la categoría 'G5 Radio y Podcasts' en G5 Noticias" xmlUrl="https://g5noticias.cl/categoria/g5radio/feed/" htmlUrl="https://g5noticias.cl/categoria/g5radio/"/>
     <outline type="rss" text="La Batalla de Maipú - Música" title="La Batalla de Maipú - Música" description="Feed de la categoría 'Música' en La Batalla de Maipú" xmlUrl="https://www.labatalla.cl/secciones/secciones/espectaculos/musica/feed/" htmlUrl="https://www.labatalla.cl/secciones/secciones/espectaculos/musica/"/>

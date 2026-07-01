@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (102 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (106 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -16,6 +16,7 @@
     <outline type="rss" text="Colemono - Entretenimiento" title="Colemono - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en Colemono" xmlUrl="https://colemono.com/category/noticias/entretenimiento/feed/" htmlUrl="https://colemono.com/category/noticias/entretenimiento/"/>
     <outline type="rss" text="Colemono - Rumores / Especulación" title="Colemono - Rumores / Especulación" description="Feed de la categoría 'Rumores / Especulación' en Colemono" xmlUrl="https://colemono.com/category/noticias/rumores/feed/" htmlUrl="https://colemono.com/category/noticias/rumores/"/>
     <outline type="rss" text="CriptoNoticias Chile - Entretenimiento" title="CriptoNoticias Chile - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en CriptoNoticias Chile" xmlUrl="https://www.criptonoticias.com/categorias/comunidad/entretenimiento/feed/" htmlUrl="https://www.criptonoticias.com/categorias/comunidad/entretenimiento/"/>
+    <outline type="rss" text="Diario Angamos - Espectáculos Y Cultura" title="Diario Angamos - Espectáculos Y Cultura" description="Feed de la categoría 'Espectáculos Y Cultura' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/espectaculos/feed/" htmlUrl="https://diarioangamos.com/categorías/espectaculos/"/>
     <outline type="rss" text="Diario Antofagasta - Espectaculos" title="Diario Antofagasta - Espectaculos" description="Feed de la categoría 'Espectaculos' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/cultura/espectaculos/feed/" htmlUrl="https://www.diarioantofagasta.cl/cultura/espectaculos/"/>
     <outline type="rss" text="Diario El Centro - Tiempo Libre" title="Diario El Centro - Tiempo Libre" description="Feed de la categoría 'Tiempo Libre' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/tiempo-libre/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/tiempo-libre/"/>
     <outline type="rss" text="Diario Sur Noticias - Espectáculos y Tv" title="Diario Sur Noticias - Espectáculos y Tv" description="Feed de la categoría 'Espectáculos y Tv' en Diario Sur Noticias" xmlUrl="https://www.diariosurnoticias.com/espectaculos-y-tv/feed/" htmlUrl="https://www.diariosurnoticias.com/espectaculos-y-tv/"/>
@@ -25,6 +26,9 @@
     <outline type="rss" text="El Diario de La Araucanía - Entretenimiento" title="El Diario de La Araucanía - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/entretenimiento/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/entretenimiento/"/>
     <outline type="rss" text="El Informador Chile - Farándula" title="El Informador Chile - Farándula" description="Feed de la categoría 'Farándula' en El Informador Chile" xmlUrl="https://www.elinformadorchile.cl/category/farandula/feed/" htmlUrl="https://www.elinformadorchile.cl/category/farandula/"/>
     <outline type="rss" text="El Morro de Arica - Espectáculos" title="El Morro de Arica - Espectáculos" description="Feed de la categoría 'Espectáculos' en El Morro de Arica" xmlUrl="https://elmorrodearica.cl/category/espectaculos/feed/" htmlUrl="https://elmorrodearica.cl/category/espectaculos/"/>
+    <outline type="rss" text="El Nacional - Entretenimiento" title="El Nacional - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en El Nacional" xmlUrl="https://www.elnacional.com/entretenimiento/feed/" htmlUrl="https://www.elnacional.com/entretenimiento/"/>
+    <outline type="rss" text="El Nacional - Farándula" title="El Nacional - Farándula" description="Feed de la categoría 'Farándula' en El Nacional" xmlUrl="https://www.elnacional.com/entretenimiento/farandula/feed/" htmlUrl="https://www.elnacional.com/entretenimiento/farandula/"/>
+    <outline type="rss" text="El Nacional - Televisión" title="El Nacional - Televisión" description="Feed de la categoría 'Televisión' en El Nacional" xmlUrl="https://www.elnacional.com/entretenimiento/television/feed/" htmlUrl="https://www.elnacional.com/entretenimiento/television/"/>
     <outline type="rss" text="El Reportero de Iquique - Cultura y Espectáculos" title="El Reportero de Iquique - Cultura y Espectáculos" description="Feed de la categoría 'Cultura y Espectáculos' en El Reportero de Iquique" xmlUrl="https://elreporterodeiquique.com/category/espectaculos/feed/" htmlUrl="https://elreporterodeiquique.com/category/espectaculos/"/>
     <outline type="rss" text="El Sol de Iquique - Humor" title="El Sol de Iquique - Humor" description="Feed de la categoría 'Humor' en El Sol de Iquique" xmlUrl="https://elsoldeiquique.cl/cultura/artes/humor/feed/" htmlUrl="https://elsoldeiquique.cl/cultura/artes/humor/"/>
     <outline type="rss" text="Epicentro Chile - Espectáculos" title="Epicentro Chile - Espectáculos" description="Feed de la categoría 'Espectáculos' en Epicentro Chile" xmlUrl="https://www.epicentrochile.com/espectaculos/feed/" htmlUrl="https://www.epicentrochile.com/espectaculos/"/>

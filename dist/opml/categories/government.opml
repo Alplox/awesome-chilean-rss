@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (115 feeds)</title>
+    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (116 feeds)</title>
     <description>Feeds RSS de 🏛️ Gobierno y Datos Públicos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Atacama Noticias - Avisos Legales" title="Atacama Noticias - Avisos Legales" description="Feed de la categoría 'Avisos Legales' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/avisos-legales/feed/" htmlUrl="https://www.atacamanoticias.cl/category/avisos-legales/"/>
     <outline type="rss" text="BCN - Últimas leyes publicadas" title="BCN - Últimas leyes publicadas" description="Feed de la sección 'Últimas leyes publicadas' en Biblioteca del Congreso Nacional (BCN)" xmlUrl="http://feeds.feedburner.com/bcn/ulp?format=xml" htmlUrl="https://www.bcn.cl"/>
     <outline type="rss" text="Biblioteca del Congreso Nacional (BCN) [Proxy Google News]" title="Biblioteca del Congreso Nacional (BCN) [Proxy Google News]" description="Resultados de site:bcn.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:bcn.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:bcn.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Cadena Política - Municipal" title="Cadena Política - Municipal" description="Feed de la categoría 'Municipal' en Cadena Política" xmlUrl="https://cadenapolitica.com/category/municipal/feed/" htmlUrl="https://cadenapolitica.com/category/municipal/"/>
     <outline type="rss" text="ChileCompra" title="ChileCompra" description="Plataforma estatal de licitaciones y compras públicas" xmlUrl="https://www.chilecompra.cl/rss" htmlUrl="https://www.chilecompra.cl"/>
     <outline type="rss" text="ChileCompra - Centro De Documentación" title="ChileCompra - Centro De Documentación" description="Feed de la categoría 'Centro De Documentación' en ChileCompra" xmlUrl="https://www.chilecompra.cl/category/centro-de-documentacion/feed/" htmlUrl="https://www.chilecompra.cl/category/centro-de-documentacion/"/>
     <outline type="rss" text="ChileCompra - Destacados" title="ChileCompra - Destacados" description="Feed de la categoría 'Destacados' en ChileCompra" xmlUrl="https://www.chilecompra.cl/category/noticias/destacados/feed/" htmlUrl="https://www.chilecompra.cl/category/noticias/destacados/"/>

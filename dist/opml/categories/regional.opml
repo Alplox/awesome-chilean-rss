@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1664 feeds)</title>
+    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1671 feeds)</title>
     <description>Feeds RSS de 🌎 Medios Regionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
+    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -245,6 +245,13 @@
     <outline type="rss" text="Diálogo Sur - Servicios" title="Diálogo Sur - Servicios" description="Feed de la categoría 'Servicios' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/servicios/feed/" htmlUrl="https://dialogosur.cl/category/servicios/"/>
     <outline type="rss" text="Diálogo Sur - Vivienda" title="Diálogo Sur - Vivienda" description="Feed de la categoría 'Vivienda' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/vivienda/feed/" htmlUrl="https://dialogosur.cl/category/vivienda/"/>
     <outline type="rss" text="Diálogo Sur [Proxy Google News]" title="Diálogo Sur [Proxy Google News]" description="Resultados de site:dialogosur.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:dialogosur.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:dialogosur.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Diario Angamos" title="Diario Angamos" description="Diario digital de la Región de Antofagasta, Chile" xmlUrl="https://diarioangamos.com/feed/" htmlUrl="https://diarioangamos.com/"/>
+    <outline type="rss" text="Diario Angamos - Antofagasta" title="Diario Angamos - Antofagasta" description="Feed de la categoría 'Antofagasta' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/antofagasta/feed/" htmlUrl="https://diarioangamos.com/categorías/antofagasta/"/>
+    <outline type="rss" text="Diario Angamos - Calama" title="Diario Angamos - Calama" description="Feed de la categoría 'Calama' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/calama/feed/" htmlUrl="https://diarioangamos.com/categorías/calama/"/>
+    <outline type="rss" text="Diario Angamos - Crónicas" title="Diario Angamos - Crónicas" description="Feed de la categoría 'Crónicas' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/cronicas/feed/" htmlUrl="https://diarioangamos.com/categorías/cronicas/"/>
+    <outline type="rss" text="Diario Angamos - Opinión" title="Diario Angamos - Opinión" description="Feed de la categoría 'Opinión' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/opinion/feed/" htmlUrl="https://diarioangamos.com/categorías/opinion/"/>
+    <outline type="rss" text="Diario Angamos - Policial" title="Diario Angamos - Policial" description="Feed de la categoría 'Policial' en Diario Angamos" xmlUrl="https://diarioangamos.com/categorías/policial/feed/" htmlUrl="https://diarioangamos.com/categorías/policial/"/>
+    <outline type="rss" text="Diario Angamos [Proxy Google News]" title="Diario Angamos [Proxy Google News]" description="Resultados de site:diarioangamos.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioangamos.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioangamos.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Diario Antofagasta" title="Diario Antofagasta" description="Diario regional de Antofagasta, Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/feed/" htmlUrl="https://www.diarioantofagasta.cl"/>
     <outline type="rss" text="Diario Antofagasta - #antofalover" title="Diario Antofagasta - #antofalover" description="Feed de la categoría '#antofalover' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/antofalovers/feed/" htmlUrl="https://www.diarioantofagasta.cl/antofalovers/"/>
     <outline type="rss" text="Diario Antofagasta - Antofagasta" title="Diario Antofagasta - Antofagasta" description="Feed de la categoría 'Antofagasta' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/regional/antofagasta/feed/" htmlUrl="https://www.diarioantofagasta.cl/regional/antofagasta/"/>
