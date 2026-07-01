@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (100 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (102 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
+    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Alerta Geek Chile - Series" title="Alerta Geek Chile - Series" description="Feed de la categoría 'Series' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/series/feed/" htmlUrl="https://alertageekchile.cl/category/series/"/>
     <outline type="rss" text="Antofacity - Espectáculos y Entretención" title="Antofacity - Espectáculos y Entretención" description="Feed de la categoría 'Espectáculos y Entretención' en Antofacity" xmlUrl="https://antofacity.com/category/esp_y_ent/feed/" htmlUrl="https://antofacity.com/category/esp_y_ent/"/>
+    <outline type="rss" text="Antofagasta al Día - Cine Y Espectáculos" title="Antofagasta al Día - Cine Y Espectáculos" description="Feed de la categoría 'Cine Y Espectáculos' en Antofagasta al Día" xmlUrl="https://antofagastaaldia.cl/category/cine-y-espectaculos/feed/" htmlUrl="https://antofagastaaldia.cl/category/cine-y-espectaculos/"/>
     <outline type="rss" text="Atacama Noticias - Tv y Espectáculo" title="Atacama Noticias - Tv y Espectáculo" description="Feed de la categoría 'Tv y Espectáculo' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/tv-y-espectaculo/feed/" htmlUrl="https://www.atacamanoticias.cl/category/tv-y-espectaculo/"/>
     <outline type="rss" text="Calama en Línea - Entretención" title="Calama en Línea - Entretención" description="Feed de la categoría 'Entretención' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/entretencion/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/entretencion/"/>
     <outline type="rss" text="CauquenesNet - Tv" title="CauquenesNet - Tv" description="Feed de la sección 'Tv' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=tv" htmlUrl="https://www.cauquenesnet.cl/tv/"/>
@@ -82,6 +83,7 @@
     <outline type="rss" text="Majos - Sabores" title="Majos - Sabores" description="Feed de la categoría 'Sabores' en Majos" xmlUrl="https://majos.cl/category/sabores/feed/" htmlUrl="https://majos.cl/category/sabores/"/>
     <outline type="rss" text="Majos - Tips" title="Majos - Tips" description="Feed de la categoría 'Tips' en Majos" xmlUrl="https://majos.cl/category/tips/feed/" htmlUrl="https://majos.cl/category/tips/"/>
     <outline type="rss" text="Majos [Proxy Google News]" title="Majos [Proxy Google News]" description="Resultados de site:majos.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:majos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:majos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Mediabanco - Entretención" title="Mediabanco - Entretención" description="Feed de la categoría 'Entretención' en Mediabanco" xmlUrl="https://www.mediabanco.com/categoria/comunicados-de-prensa/entretencion/feed/" htmlUrl="https://www.mediabanco.com/categoria/comunicados-de-prensa/entretencion/"/>
     <outline type="rss" text="Nostálgica - Espectáculos" title="Nostálgica - Espectáculos" description="Feed de la categoría 'Espectáculos' en Nostálgica" xmlUrl="https://www.nostalgica.cl/category/espectaculos/feed/" htmlUrl="https://www.nostalgica.cl/category/espectaculos/"/>
     <outline type="rss" text="Ñuble Online - Espectaculos" title="Ñuble Online - Espectaculos" description="Feed de la categoría 'Espectaculos' en Ñuble Online" xmlUrl="https://nubleonline.cl/category/espectaculos/feed/" htmlUrl="https://nubleonline.cl/category/espectaculos/"/>
     <outline type="rss" text="Ovalle Hoy - Espectáculos" title="Ovalle Hoy - Espectáculos" description="Feed de la categoría 'Espectáculos' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/espectaculos/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/espectaculos/"/>

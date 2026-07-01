@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (172 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (174 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
+    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -65,6 +65,7 @@
     <outline type="rss" text="CUT (Central Unitaria de Trabajadores de Chile)" title="CUT (Central Unitaria de Trabajadores de Chile)" description="Central sindical que representa a trabajadores del sector público y privado en Chile" xmlUrl="https://cut.cl/web/feed/" htmlUrl="https://cut.cl/web/"/>
     <outline type="rss" text="CUT (Central Unitaria de Trabajadores de Chile) - Portada" title="CUT (Central Unitaria de Trabajadores de Chile) - Portada" description="Feed de la categoría 'Portada' en CUT (Central Unitaria de Trabajadores de Chile)" xmlUrl="https://cut.cl/web/category/portada/feed/" htmlUrl="https://cut.cl/web/category/portada/"/>
     <outline type="rss" text="CUT (Central Unitaria de Trabajadores de Chile) [Proxy Google News]" title="CUT (Central Unitaria de Trabajadores de Chile) [Proxy Google News]" description="Resultados de site:cut.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cut.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cut.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="De Mar a Cordillera TV - Turismo" title="De Mar a Cordillera TV - Turismo" description="Feed de la categoría 'Turismo' en De Mar a Cordillera TV" xmlUrl="https://demaracordilleratv.cl/category/turismo/feed/" htmlUrl="https://demaracordilleratv.cl/category/turismo/"/>
     <outline type="rss" text="Diálogo Sur - Turismo" title="Diálogo Sur - Turismo" description="Feed de la categoría 'Turismo' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/turismo/feed/" htmlUrl="https://dialogosur.cl/category/turismo/"/>
     <outline type="rss" text="Diario Antofagasta - Panoramas" title="Diario Antofagasta - Panoramas" description="Feed de la categoría 'Panoramas' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/panoramas/feed/" htmlUrl="https://www.diarioantofagasta.cl/panoramas/"/>
     <outline type="rss" text="Diario El Centro - Efeméride" title="Diario El Centro - Efeméride" description="Feed de la categoría 'Efeméride' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/efemeride/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/efemeride/"/>
@@ -176,6 +177,7 @@
     <outline type="rss" text="Temuco Diario - Social" title="Temuco Diario - Social" description="Feed de la categoría 'Social' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/social/feed/" htmlUrl="https://temucodiario.cl/category/social/"/>
     <outline type="rss" text="Temuco Diario - Turismo" title="Temuco Diario - Turismo" description="Feed de la categoría 'Turismo' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/turismo/feed/" htmlUrl="https://temucodiario.cl/category/turismo/"/>
     <outline type="rss" text="Tiempo 21 - Turismo" title="Tiempo 21 - Turismo" description="Feed de la categoría 'Turismo' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/turismo/feed/" htmlUrl="https://www.tiempo21.cl/turismo/"/>
+    <outline type="rss" text="Tour Innovación - Eventos" title="Tour Innovación - Eventos" description="Feed de la categoría 'Eventos' en Tour Innovación" xmlUrl="https://www.tourinnovacion.cl/seccion/eventos/feed/" htmlUrl="https://www.tourinnovacion.cl/seccion/eventos/"/>
     <outline type="rss" text="Traiguén City - Obituario" title="Traiguén City - Obituario" description="Feed de la categoría 'Obituario' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/obituario/feed/" htmlUrl="https://traiguencity.cl/noticias/obituario/"/>
     <outline type="rss" text="Traiguén City - Turismo" title="Traiguén City - Turismo" description="Feed de la categoría 'Turismo' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/turismo/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/turismo/"/>
     <outline type="rss" text="VLN Radio - Sociedad" title="VLN Radio - Sociedad" description="Feed de la categoría 'Sociedad' en VLN Radio" xmlUrl="https://www.vlnradio.cl/tendencias/sociedad/feed/" htmlUrl="https://www.vlnradio.cl/tendencias/sociedad/"/>

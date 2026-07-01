@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (114 feeds)</title>
+    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (115 feeds)</title>
     <description>Feeds RSS de 🏛️ Gobierno y Datos Públicos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
+    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -54,6 +54,7 @@
     <outline type="rss" text="Google News - Chile - Resultados 'congreso'" title="Google News - Chile - Resultados 'congreso'" description="Página de resultados para keyword=congreso en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=congreso&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=congreso&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Resultados 'leyes'" title="Google News - Chile - Resultados 'leyes'" description="Página de resultados para keyword=leyes en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=leyes&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=leyes&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Noticia - Gobierno" title="La Noticia - Gobierno" description="Feed de la categoría 'Gobierno' en La Noticia" xmlUrl="https://lanoticia.cl/category/gobierno/feed/" htmlUrl="https://lanoticia.cl/category/gobierno/"/>
+    <outline type="rss" text="Mediabanco - Gobierno" title="Mediabanco - Gobierno" description="Feed de la categoría 'Gobierno' en Mediabanco" xmlUrl="https://www.mediabanco.com/categoria/comunicados-de-prensa/gobierno/feed/" htmlUrl="https://www.mediabanco.com/categoria/comunicados-de-prensa/gobierno/"/>
     <outline type="rss" text="Ministerio de Educación" title="Ministerio de Educación" description="Noticias y comunicados del Ministerio de Educación de Chile" xmlUrl="https://www.mineduc.cl/feed/" htmlUrl="https://www.mineduc.cl"/>
     <outline type="rss" text="Ministerio de Educación - Ministerio" title="Ministerio de Educación - Ministerio" description="Feed de la sección 'Ministerio' en Ministerio de Educación" xmlUrl="https://www.mineduc.cl/feed/?category=ministerio" htmlUrl="https://www.mineduc.cl/ministerio/"/>
     <outline type="rss" text="Ministerio de Educación - Organigrama" title="Ministerio de Educación - Organigrama" description="Feed de la sección 'Organigrama' en Ministerio de Educación" xmlUrl="https://www.mineduc.cl/feed/?category=organigrama" htmlUrl="https://www.mineduc.cl/organigrama/"/>

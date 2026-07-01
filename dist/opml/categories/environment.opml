@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (113 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (118 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
+    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -12,6 +12,7 @@
     <outline type="rss" text="Anda - Sostenibilidad" title="Anda - Sostenibilidad" description="Feed de la categoría 'Sostenibilidad' en Anda" xmlUrl="https://anda.cl/categoria/sostenibilidad/feed/" htmlUrl="https://anda.cl/categoria/sostenibilidad/"/>
     <outline type="rss" text="Antofagasta Noticias - Medioambiente" title="Antofagasta Noticias - Medioambiente" description="Feed de la categoría 'Medioambiente' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/medioambiente/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/medioambiente/"/>
     <outline type="rss" text="Araucanía Noticias - Medioambiente" title="Araucanía Noticias - Medioambiente" description="Feed de la categoría 'Medioambiente' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/medioambiente-2/feed/" htmlUrl="https://araucanianoticias.cl/category/medioambiente-2/"/>
+    <outline type="rss" text="Aurora Noticias - Medio Ambiente" title="Aurora Noticias - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/medio-ambiente/feed/" htmlUrl="https://auroranoticias.cl/medio-ambiente/"/>
     <outline type="rss" text="Calama en Línea - Medio Ambiente" title="Calama en Línea - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/medio-ambiente/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/medio-ambiente/"/>
     <outline type="rss" text="CauquenesNet - Eltiempo" title="CauquenesNet - Eltiempo" description="Feed de la sección 'Eltiempo' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=eltiempo" htmlUrl="https://www.cauquenesnet.cl/eltiempo/"/>
     <outline type="rss" text="Codex Verde - Destacados" title="Codex Verde - Destacados" description="Feed de la categoría 'Destacados' en Codex Verde" xmlUrl="https://codexverde.cl/category/destacados/feed/" htmlUrl="https://codexverde.cl/category/destacados/"/>
@@ -28,6 +29,8 @@
     <outline type="rss" text="CR2 - Sistemas Urbanos Resilientes" title="CR2 - Sistemas Urbanos Resilientes" description="Feed de la categoría 'Sistemas Urbanos Resilientes' en CR2 - Centro de Ciencia del Clima y la Resiliencia" xmlUrl="https://www.cr2.cl/category/sistemas-urbanos-resilientes/feed/" htmlUrl="https://www.cr2.cl/category/sistemas-urbanos-resilientes/"/>
     <outline type="rss" text="CR2 - Slider" title="CR2 - Slider" description="Feed de la categoría 'Slider' en CR2 - Centro de Ciencia del Clima y la Resiliencia" xmlUrl="https://www.cr2.cl/category/slider/feed/" htmlUrl="https://www.cr2.cl/category/slider/"/>
     <outline type="rss" text="CR2 [Proxy Google News]" title="CR2 [Proxy Google News]" description="Resultados de site:cr2.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cr2.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cr2.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="De Mar a Cordillera TV - Agricultura" title="De Mar a Cordillera TV - Agricultura" description="Feed de la categoría 'Agricultura' en De Mar a Cordillera TV" xmlUrl="https://demaracordilleratv.cl/category/agricultura/feed/" htmlUrl="https://demaracordilleratv.cl/category/agricultura/"/>
+    <outline type="rss" text="De Mar a Cordillera TV - Medio Ambiente" title="De Mar a Cordillera TV - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en De Mar a Cordillera TV" xmlUrl="https://demaracordilleratv.cl/category/medio-ambiente/feed/" htmlUrl="https://demaracordilleratv.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Diálogo Sur - Hidrógeno" title="Diálogo Sur - Hidrógeno" description="Feed de la categoría 'Hidrógeno' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/hidrogeno/feed/" htmlUrl="https://dialogosur.cl/category/hidrogeno/"/>
     <outline type="rss" text="Diálogo Sur - Medio Ambiente" title="Diálogo Sur - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/medio-ambiente/feed/" htmlUrl="https://dialogosur.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Diario Antofagasta - Medio Ambiente" title="Diario Antofagasta - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/medio-ambiente/feed/" htmlUrl="https://www.diarioantofagasta.cl/medio-ambiente/"/>
@@ -118,6 +121,8 @@
     <outline type="rss" text="Tiempo 21 - Crisis Climática" title="Tiempo 21 - Crisis Climática" description="Feed de la categoría 'Crisis Climática' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/crisis-climatica/feed/" htmlUrl="https://www.tiempo21.cl/crisis-climatica/"/>
     <outline type="rss" text="Tiempo 21 - Desarrollo Sostenible" title="Tiempo 21 - Desarrollo Sostenible" description="Feed de la categoría 'Desarrollo Sostenible' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/desarrollo-sostenible/feed/" htmlUrl="https://www.tiempo21.cl/desarrollo-sostenible/"/>
     <outline type="rss" text="Tiempo 21 - Emprendimiento Verde" title="Tiempo 21 - Emprendimiento Verde" description="Feed de la categoría 'Emprendimiento Verde' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/emprendimiento-verde/feed/" htmlUrl="https://www.tiempo21.cl/emprendimiento-verde/"/>
+    <outline type="rss" text="Tour Innovación - Agricultura" title="Tour Innovación - Agricultura" description="Feed de la categoría 'Agricultura' en Tour Innovación" xmlUrl="https://www.tourinnovacion.cl/seccion/agricultura/feed/" htmlUrl="https://www.tourinnovacion.cl/seccion/agricultura/"/>
+    <outline type="rss" text="Tour Innovación - Sustentabilidad" title="Tour Innovación - Sustentabilidad" description="Feed de la categoría 'Sustentabilidad' en Tour Innovación" xmlUrl="https://www.tourinnovacion.cl/seccion/sustentabilidad/feed/" htmlUrl="https://www.tourinnovacion.cl/seccion/sustentabilidad/"/>
     <outline type="rss" text="trendTIC - Sustentabilidad" title="trendTIC - Sustentabilidad" description="Feed de la categoría 'Sustentabilidad' en trendTIC" xmlUrl="https://www.trendtic.cl/category/sustentabilidad/feed/" htmlUrl="https://www.trendtic.cl/category/sustentabilidad/"/>
     <outline type="rss" text="Universidad de Concepción - Salud y Medio Ambiente" title="Universidad de Concepción - Salud y Medio Ambiente" description="Feed de la categoría 'Salud y Medio Ambiente' en Universidad de Concepción" xmlUrl="https://noticias.udec.cl/category/salud-medio-ambiente/feed/" htmlUrl="https://noticias.udec.cl/category/salud-medio-ambiente/"/>
   </body>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (125 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (129 feeds)</title>
     <description>Feeds RSS de 🏫 Educación, Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
+    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -51,12 +51,15 @@
     <outline type="rss" text="Antofagasta Noticias - Educación" title="Antofagasta Noticias - Educación" description="Feed de la categoría 'Educación' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/educacion/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/educacion/"/>
     <outline type="rss" text="Araucanía Noticias - Educación" title="Araucanía Noticias - Educación" description="Feed de la categoría 'Educación' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/educacion-2/feed/" htmlUrl="https://araucanianoticias.cl/category/educacion-2/"/>
     <outline type="rss" text="Arica365 - Educación" title="Arica365 - Educación" description="Feed de la categoría 'Educación' en Arica365" xmlUrl="https://www.arica365.cl/blog/category/educacion/feed/" htmlUrl="https://www.arica365.cl/blog/category/educacion/"/>
+    <outline type="rss" text="Aurora Noticias - Educación" title="Aurora Noticias - Educación" description="Feed de la categoría 'Educación' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/educacion/feed/" htmlUrl="https://auroranoticias.cl/educacion/"/>
     <outline type="rss" text="Calama en Línea - Educación" title="Calama en Línea - Educación" description="Feed de la categoría 'Educación' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/educacion/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/educacion/"/>
     <outline type="rss" text="CEI Noticias - Educación" title="CEI Noticias - Educación" description="Feed de la categoría 'Educación' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/educacion/feed/" htmlUrl="https://ceinoticias.cl/category/educacion/"/>
     <outline type="rss" text="CEP Chile" title="CEP Chile" description="Centro de estudios e investigación dedicado al análisis de políticas públicas, economía y ciencias sociales en Chile" xmlUrl="https://www.cepchile.cl/feed" htmlUrl="https://www.cepchile.cl"/>
     <outline type="rss" text="CEP Chile - Entrevistas" title="CEP Chile - Entrevistas" description="Feed de la categoría 'Entrevistas' en CEP Chile" xmlUrl="https://www.cepchile.cl/category/entrevistas/feed/" htmlUrl="https://www.cepchile.cl/category/entrevistas/"/>
     <outline type="rss" text="CEP Chile - Opinión" title="CEP Chile - Opinión" description="Feed de la categoría 'Opinión' en CEP Chile" xmlUrl="https://www.cepchile.cl/category/opinion/feed/" htmlUrl="https://www.cepchile.cl/category/opinion/"/>
     <outline type="rss" text="CEP Chile [Proxy Google News]" title="CEP Chile [Proxy Google News]" description="Resultados de site:cepchile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cepchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cepchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="De Mar a Cordillera TV - Universidades" title="De Mar a Cordillera TV - Universidades" description="Feed de la categoría 'Universidades' en De Mar a Cordillera TV" xmlUrl="https://demaracordilleratv.cl/category/universidades/feed/" htmlUrl="https://demaracordilleratv.cl/category/universidades/"/>
+    <outline type="rss" text="Desierto FM - Educación" title="Desierto FM - Educación" description="Feed de la categoría 'Educación' en Desierto FM" xmlUrl="https://www.desiertofm.cl/category/noticias/educacion/feed/" htmlUrl="https://www.desiertofm.cl/category/noticias/educacion/"/>
     <outline type="rss" text="Diálogo Sur - Educación" title="Diálogo Sur - Educación" description="Feed de la categoría 'Educación' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/educacion/feed/" htmlUrl="https://dialogosur.cl/category/educacion/"/>
     <outline type="rss" text="Diario El Cautín - Educación" title="Diario El Cautín - Educación" description="Feed de la categoría 'Educación' en Diario El Cautín" xmlUrl="https://diarioelcautin.cl/category/educacion/feed/" htmlUrl="https://diarioelcautin.cl/category/educacion/"/>
     <outline type="rss" text="Diario El Centro - Educación" title="Diario El Centro - Educación" description="Feed de la categoría 'Educación' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/educacion/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/educacion/"/>
@@ -120,6 +123,7 @@
     <outline type="rss" text="Temuco Diario - Educación" title="Temuco Diario - Educación" description="Feed de la categoría 'Educación' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/educacion/feed/" htmlUrl="https://temucodiario.cl/category/educacion/"/>
     <outline type="rss" text="Tiempo 21 - Educación" title="Tiempo 21 - Educación" description="Feed de la categoría 'Educación' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/educacion/feed/" htmlUrl="https://www.tiempo21.cl/educacion/"/>
     <outline type="rss" text="Tiempo 21 - Universidades" title="Tiempo 21 - Universidades" description="Feed de la categoría 'Universidades' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/universidades/feed/" htmlUrl="https://www.tiempo21.cl/universidades/"/>
+    <outline type="rss" text="Tour Innovación - Educación" title="Tour Innovación - Educación" description="Feed de la categoría 'Educación' en Tour Innovación" xmlUrl="https://www.tourinnovacion.cl/seccion/educacion/feed/" htmlUrl="https://www.tourinnovacion.cl/seccion/educacion/"/>
     <outline type="rss" text="Traiguén City - Educación" title="Traiguén City - Educación" description="Feed de la categoría 'Educación' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/educacion/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/educacion/"/>
     <outline type="rss" text="Tus Noticias - Educación" title="Tus Noticias - Educación" description="Feed de la categoría 'Educación' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/educacion/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/educacion/"/>
     <outline type="rss" text="Universidad de Concepción" title="Universidad de Concepción" description="Noticias e investigación de la Universidad de Concepción" xmlUrl="https://noticias.udec.cl/feed/" htmlUrl="https://noticias.udec.cl"/>

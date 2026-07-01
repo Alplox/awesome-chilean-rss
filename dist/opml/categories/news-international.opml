@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (144 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (146 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
+    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Alerta Noticias - Internacional" title="Alerta Noticias - Internacional" description="Feed de la categoría 'Internacional' en Alerta Noticias" xmlUrl="https://alertanoticias.cl/category/internacional/feed/" htmlUrl="https://alertanoticias.cl/category/internacional/"/>
     <outline type="rss" text="Alerta Noticias Temuco - El Mundo" title="Alerta Noticias Temuco - El Mundo" description="Feed de la categoría 'El Mundo' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/el-mundo/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/el-mundo/"/>
+    <outline type="rss" text="Antofagasta al Día - Internacional" title="Antofagasta al Día - Internacional" description="Feed de la categoría 'Internacional' en Antofagasta al Día" xmlUrl="https://antofagastaaldia.cl/category/internacional/feed/" htmlUrl="https://antofagastaaldia.cl/category/internacional/"/>
     <outline type="rss" text="Atacama Noticias - Internacional" title="Atacama Noticias - Internacional" description="Feed de la categoría 'Internacional' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/internacional/feed/" htmlUrl="https://www.atacamanoticias.cl/category/internacional/"/>
     <outline type="rss" text="Atentos - Internacional" title="Atentos - Internacional" description="Feed de la categoría 'Internacional' en Atentos" xmlUrl="https://www.atentos.cl/category/internacional/feed/" htmlUrl="https://www.atentos.cl/category/internacional/"/>
+    <outline type="rss" text="Aurora Noticias - Internacional" title="Aurora Noticias - Internacional" description="Feed de la categoría 'Internacional' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/internacional/feed/" htmlUrl="https://auroranoticias.cl/internacional/"/>
     <outline type="rss" text="BBC Mundo - Latin America" title="BBC Mundo - Latin America" description="Feed de la sección 'Latin America' en BBC Mundo" xmlUrl="https://feeds.bbci.co.uk/news/world/latin_america/rss.xml" htmlUrl="https://www.bbc.com/mundo"/>
     <outline type="rss" text="BBC Mundo [Proxy Bing News]" title="BBC Mundo [Proxy Bing News]" description="Resultados de site:bbc.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:bbc.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:bbc.com"/>
     <outline type="rss" text="BBC Mundo [Proxy Google News]" title="BBC Mundo [Proxy Google News]" description="Resultados de site:bbc.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:bbc.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:bbc.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

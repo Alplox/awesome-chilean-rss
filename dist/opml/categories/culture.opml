@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (116 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (121 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-06-30T21:49:16.525Z</dateCreated>
+    <dateCreated>2026-07-01T00:28:41.917Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -12,12 +12,14 @@
     <outline type="rss" text="Alerta Geek Chile - Cine" title="Alerta Geek Chile - Cine" description="Feed de la categoría 'Cine' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/cine/feed/" htmlUrl="https://alertageekchile.cl/category/cine/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Cultura" title="Alerta Noticias Temuco - Cultura" description="Feed de la categoría 'Cultura' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/cultura/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/cultura/"/>
     <outline type="rss" text="Antofacity - Cultura" title="Antofacity - Cultura" description="Feed de la categoría 'Cultura' en Antofacity" xmlUrl="https://antofacity.com/category/cul/feed/" htmlUrl="https://antofacity.com/category/cul/"/>
+    <outline type="rss" text="Antofagasta al Día - Cultura" title="Antofagasta al Día - Cultura" description="Feed de la categoría 'Cultura' en Antofagasta al Día" xmlUrl="https://antofagastaaldia.cl/category/cultura/feed/" htmlUrl="https://antofagastaaldia.cl/category/cultura/"/>
     <outline type="rss" text="Antofagasta Noticias - Cultura y Espectaculos" title="Antofagasta Noticias - Cultura y Espectaculos" description="Feed de la categoría 'Cultura y Espectaculos' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/cultura-y-espectaculos/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/cultura-y-espectaculos/"/>
     <outline type="rss" text="Araucanía Noticias - Cultura y Espectáculos" title="Araucanía Noticias - Cultura y Espectáculos" description="Feed de la categoría 'Cultura y Espectáculos' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/cultura-y-espectaculos/feed/" htmlUrl="https://araucanianoticias.cl/category/cultura-y-espectaculos/"/>
     <outline type="rss" text="Arica Al Día - Cultura" title="Arica Al Día - Cultura" description="Feed de la categoría 'Cultura' en Arica Al Día" xmlUrl="https://www.aricaldia.cl/category/cultura/feed/" htmlUrl="https://www.aricaldia.cl/category/cultura/"/>
     <outline type="rss" text="Arica es Noticia - Cultura" title="Arica es Noticia - Cultura" description="Feed de la categoría 'Cultura' en Arica es Noticia" xmlUrl="https://aricaesnoticia.cl/category/cultura-y-espectaculos/feed/" htmlUrl="https://aricaesnoticia.cl/category/cultura-y-espectaculos/"/>
     <outline type="rss" text="Arica365 - Cultura" title="Arica365 - Cultura" description="Feed de la categoría 'Cultura' en Arica365" xmlUrl="https://www.arica365.cl/blog/category/cultura/feed/" htmlUrl="https://www.arica365.cl/blog/category/cultura/"/>
     <outline type="rss" text="Arica365 - Culturales" title="Arica365 - Culturales" description="Feed de la categoría 'Culturales' en Arica365" xmlUrl="https://www.arica365.cl/blog/category/culturales/feed/" htmlUrl="https://www.arica365.cl/blog/category/culturales/"/>
+    <outline type="rss" text="Aurora Noticias - Cultura" title="Aurora Noticias - Cultura" description="Feed de la categoría 'Cultura' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/cultura/feed/" htmlUrl="https://auroranoticias.cl/cultura/"/>
     <outline type="rss" text="Aysén Ahora - Cultura" title="Aysén Ahora - Cultura" description="Feed de la categoría 'Cultura' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/cultura/feed/" htmlUrl="https://www.aysenahora.cl/category/cultura/"/>
     <outline type="rss" text="Calama en Línea - Cultura" title="Calama en Línea - Cultura" description="Feed de la categoría 'Cultura' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/cultura/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/cultura/"/>
     <outline type="rss" text="CEI Noticias - Cultura" title="CEI Noticias - Cultura" description="Feed de la categoría 'Cultura' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/cultura/feed/" htmlUrl="https://ceinoticias.cl/category/cultura/"/>
@@ -27,7 +29,10 @@
     <outline type="rss" text="Chile es Tuyo [Proxy Google News]" title="Chile es Tuyo [Proxy Google News]" description="Resultados de site:chileestuyo.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chileestuyo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chileestuyo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Crónica Digital - Cultura" title="Crónica Digital - Cultura" description="Feed de la categoría 'Cultura' en Crónica Digital" xmlUrl="https://cronicadigital.cl/category/cultura/feed/" htmlUrl="https://cronicadigital.cl/category/cultura/"/>
     <outline type="rss" text="David Noticias - Cultura" title="David Noticias - Cultura" description="Feed de la categoría 'Cultura' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/cultura/feed/" htmlUrl="https://www.davidnoticias.cl/category/cultura/"/>
+    <outline type="rss" text="De Mar a Cordillera TV - Cine" title="De Mar a Cordillera TV - Cine" description="Feed de la categoría 'Cine' en De Mar a Cordillera TV" xmlUrl="https://demaracordilleratv.cl/category/cine/feed/" htmlUrl="https://demaracordilleratv.cl/category/cine/"/>
+    <outline type="rss" text="De Mar a Cordillera TV - Cultura" title="De Mar a Cordillera TV - Cultura" description="Feed de la categoría 'Cultura' en De Mar a Cordillera TV" xmlUrl="https://demaracordilleratv.cl/category/cultura/feed/" htmlUrl="https://demaracordilleratv.cl/category/cultura/"/>
     <outline type="rss" text="Desenfoque - Cultura" title="Desenfoque - Cultura" description="Feed de la categoría 'Cultura' en Desenfoque" xmlUrl="https://desenfoque.cl/categoria/cultura/feed/" htmlUrl="https://desenfoque.cl/categoria/cultura/"/>
+    <outline type="rss" text="Desierto FM - Cultura Y Espectáculo" title="Desierto FM - Cultura Y Espectáculo" description="Feed de la categoría 'Cultura Y Espectáculo' en Desierto FM" xmlUrl="https://www.desiertofm.cl/category/noticias/cultura/feed/" htmlUrl="https://www.desiertofm.cl/category/noticias/cultura/"/>
     <outline type="rss" text="Diario Antofagasta - Cultura" title="Diario Antofagasta - Cultura" description="Feed de la categoría 'Cultura' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/cultura/feed/" htmlUrl="https://www.diarioantofagasta.cl/cultura/"/>
     <outline type="rss" text="Diario Chañarcillo - Entretención Cultura" title="Diario Chañarcillo - Entretención Cultura" description="Feed de la categoría 'Entretención Cultura' en Diario Chañarcillo" xmlUrl="https://www.chanarcillo.cl/category/entretecion-cultura/feed/" htmlUrl="https://www.chanarcillo.cl/category/entretecion-cultura/"/>
     <outline type="rss" text="Diario El Cautín - Cultura" title="Diario El Cautín - Cultura" description="Feed de la categoría 'Cultura' en Diario El Cautín" xmlUrl="https://diarioelcautin.cl/category/cultura/feed/" htmlUrl="https://diarioelcautin.cl/category/cultura/"/>
