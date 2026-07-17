@@ -7,6 +7,7 @@ on:
       - 'feeds-database.json'
       - 'watchlist.json'
       - 'categories.json'
+      - 'regions.json'
       - 'scripts/**'
       - 'dist/opml/chilean-rss.opml'
       - 'dist/opml/chilean-rss-nested.opml'

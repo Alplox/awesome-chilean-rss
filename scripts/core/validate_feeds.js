@@ -585,8 +585,9 @@ async function main() {
           trackResult(results, feed, site, chosen);
         } else {
           console.log(`     ℹ️  El sitio no responde desde el script pero puede estar funcionando (${site.url}) — feed: ${feed.rss_url}`);
-          const chosen2 = await handleRediscoveryFail(feed, site, results, 'no_feed', shouldUpdate);
-          if (chosen2 !== 'no_feed') siteDecision = chosen2;
+          const initialStatus = isAutomatic() ? 'offline' : 'no_feed';
+          const chosen2 = await handleRediscoveryFail(feed, site, results, initialStatus, shouldUpdate);
+          if (chosen2 !== initialStatus) siteDecision = chosen2;
         }
         continue;
       }

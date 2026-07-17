@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (22 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (20 feeds)</title>
     <description>Feeds RSS de 💼 Ofertas laborales y empleabilidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-01T01:34:57.438Z</dateCreated>
+    <dateCreated>2026-07-17T22:31:09.875Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -14,7 +14,6 @@
     <outline type="rss" text="Atentos - Trabajo" title="Atentos - Trabajo" description="Feed de la categoría 'Trabajo' en Atentos" xmlUrl="https://www.atentos.cl/category/trabajo/feed/" htmlUrl="https://www.atentos.cl/category/trabajo/"/>
     <outline type="rss" text="ChileTrabajos" title="ChileTrabajos" description="Portal de empleos en Chile" xmlUrl="https://www.chiletrabajos.cl/rss.xml" htmlUrl="https://www.chiletrabajos.cl"/>
     <outline type="rss" text="ChileTrabajos [Proxy Google News]" title="ChileTrabajos [Proxy Google News]" description="Resultados de site:chiletrabajos.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chiletrabajos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chiletrabajos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
-    <outline type="rss" text="Chocale - Empleo" title="Chocale - Empleo" description="Feed de la categoría 'Empleo' en Chocale" xmlUrl="https://chocale.cl/actualidad/empleo/feed/" htmlUrl="https://chocale.cl/actualidad/empleo/"/>
     <outline type="rss" text="De Mar a Cordillera TV - Trabajo" title="De Mar a Cordillera TV - Trabajo" description="Feed de la categoría 'Trabajo' en De Mar a Cordillera TV" xmlUrl="https://demaracordilleratv.cl/category/trabajo/feed/" htmlUrl="https://demaracordilleratv.cl/category/trabajo/"/>
     <outline type="rss" text="Diálogo Sur - Trabajo" title="Diálogo Sur - Trabajo" description="Feed de la categoría 'Trabajo' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/trabajo/feed/" htmlUrl="https://dialogosur.cl/category/trabajo/"/>
     <outline type="rss" text="El Ciudadano - Trabajo" title="El Ciudadano - Trabajo" description="Feed de la categoría 'Trabajo' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/trabajo/feed/" htmlUrl="https://www.elciudadano.com/noticias/trabajo/"/>
@@ -27,7 +26,6 @@
     <outline type="rss" text="Portal Metropolitano - Trabajo" title="Portal Metropolitano - Trabajo" description="Feed de la categoría 'Trabajo' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/trabajo/feed/" htmlUrl="https://portalmetropolitano.cl/category/trabajo/"/>
     <outline type="rss" text="Portal Minero - Ofertas Laborales" title="Portal Minero - Ofertas Laborales" description="Feed de la sección 'Ofertas Laborales' en Portal Minero" xmlUrl="https://www.portalminero.com/feed/?category=ofertas-laborales" htmlUrl="https://www.portalminero.com/ofertas-laborales/"/>
     <outline type="rss" text="Radio Festival - Bolsa Del Trabajo" title="Radio Festival - Bolsa Del Trabajo" description="Feed de la sección 'Bolsa Del Trabajo' en Radio Festival" xmlUrl="https://www.radiofestival.cl/feed/?category=bolsa-del-trabajo" htmlUrl="https://www.radiofestival.cl/bolsa-del-trabajo/"/>
-    <outline type="rss" text="REDIMIN - Laboral" title="REDIMIN - Laboral" description="Feed de la categoría 'Laboral' en REDIMIN" xmlUrl="https://www.redimin.cl/categoria/laboral/feed/" htmlUrl="https://www.redimin.cl/categoria/laboral/"/>
     <outline type="rss" text="Temuco Diario - Trabajo" title="Temuco Diario - Trabajo" description="Feed de la categoría 'Trabajo' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/trabajo/feed/" htmlUrl="https://temucodiario.cl/category/trabajo/"/>
   </body>
 </opml>
