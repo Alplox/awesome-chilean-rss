@@ -13251,5 +13251,36 @@
       }
     ],
     "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "redvalparaiso",
+    "name": "Red Valparaíso",
+    "url": "https://www.redvalparaiso.com",
+    "category": "regional",
+    "region": "valparaiso",
+    "description": "Diario regional de Valparaíso, parte de la red Diarios en Red",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "redvalparaiso-google-news",
+        "name": "Red Valparaíso - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:redvalparaiso.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:redvalparaiso.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:redvalparaiso.com en Google News de noticias Chilenas",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "redvalparaiso-bing-news",
+        "name": "Red Valparaíso - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:redvalparaiso.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:redvalparaiso.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:redvalparaiso.com en Bing News",
+        "status": "active",
+        "verified": true
+      }
+    ]
   }
 ]

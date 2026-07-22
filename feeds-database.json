@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-07-17T22:31:09.875Z",
-  "total_feeds": 4378,
+  "total_feeds": 4381,
   "sites": [
     {
       "id": "aconcagua-digital",
@@ -90497,6 +90497,50 @@
           "feed_type": "RSS",
           "last_checked": "2026-07-17T22:24:24.218Z",
           "last_known_item_date": "2026-07-16T08:32:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zonazero",
+      "name": "Zona Zero",
+      "url": "https://zonazero.cl",
+      "category": "regional",
+      "region": "magallanes",
+      "description": "Periodismo independiente desde Magallanes",
+      "feeds": [
+        {
+          "id": "zonazero-main",
+          "name": "Zona Zero",
+          "rss_url": "https://zonazero.cl/feed.xml",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-22T00:00:00.000Z",
+          "last_known_item_date": "2026-07-21T22:53:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "zonazero-proxy-google-news",
+          "name": "Zona Zero [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:zonazero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:zonazero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "feed_type": "RSS",
+          "description": "Resultados de site:zonazero.cl en Proxy Google News de noticias Chilenas",
+          "last_checked": "2026-07-22T21:46:23.311Z",
+          "last_known_item_date": null,
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "zonazero-proxy-bing-news",
+          "name": "Zona Zero [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:zonazero.cl&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:zonazero.cl",
+          "feed_type": "RSS",
+          "description": "Resultados de site:zonazero.cl en Proxy Bing News",
+          "last_checked": "2026-07-22T21:46:23.311Z",
+          "last_known_item_date": null,
           "status": "active",
           "verified": true
         }

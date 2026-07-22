@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Regionales (2470 feeds)</title>
+    <title>Awesome Chilean RSS - Regionales (2473 feeds)</title>
     <description>Feeds RSS de medios regionales chilenos agrupados por región.</description>
     <dateCreated>2026-07-17T22:31:09.875Z</dateCreated>
     <ownerName>Alplox</ownerName>
@@ -2508,6 +2508,9 @@
       <outline type="rss" text="Radio Magallanes [Proxy Google News]" title="Radio Magallanes [Proxy Google News]" description="Resultados de site:radiomagallanes.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiomagallanes.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiomagallanes.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio Presidente Ibáñez" title="Radio Presidente Ibáñez" description="Emisora regional de Magallanes 88.5 FM" xmlUrl="https://www.radiopresidenteibanez.cl/web/feed/" htmlUrl="https://www.radiopresidenteibanez.cl"/>
       <outline type="rss" text="Radio Presidente Ibáñez [Proxy Google News]" title="Radio Presidente Ibáñez [Proxy Google News]" description="Resultados de site:radiopresidenteibanez.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiopresidenteibanez.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiopresidenteibanez.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Zona Zero" title="Zona Zero" description="Periodismo independiente desde Magallanes" xmlUrl="https://zonazero.cl/feed.xml" htmlUrl="https://zonazero.cl"/>
+      <outline type="rss" text="Zona Zero [Proxy Bing News]" title="Zona Zero [Proxy Bing News]" description="Resultados de site:zonazero.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:zonazero.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:zonazero.cl"/>
+      <outline type="rss" text="Zona Zero [Proxy Google News]" title="Zona Zero [Proxy Google News]" description="Resultados de site:zonazero.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:zonazero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:zonazero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     </outline>
   </body>
 </opml>

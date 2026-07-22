@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 4378 feeds</title>
-    <description>El directorio más completo de feeds RSS chilenos. 4378 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
+    <title>Awesome Chilean RSS - 4381 feeds</title>
+    <description>El directorio más completo de feeds RSS chilenos. 4381 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
     <dateCreated>2026-07-17T22:31:09.875Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
@@ -2592,6 +2592,9 @@
       <outline type="rss" text="Radio Magallanes - Sucesos" title="Radio Magallanes - Sucesos" description="Feed de la categoría 'Sucesos' en Radio Magallanes" xmlUrl="https://radiomagallanes.cl/category/sucesos/feed/" htmlUrl="https://radiomagallanes.cl/category/sucesos/"/>
       <outline type="rss" text="Radio Magallanes - Tribunales" title="Radio Magallanes - Tribunales" description="Feed de la categoría 'Tribunales' en Radio Magallanes" xmlUrl="https://radiomagallanes.cl/category/tribunales/feed/" htmlUrl="https://radiomagallanes.cl/category/tribunales/"/>
       <outline type="rss" text="Radio Magallanes [Proxy Google News]" title="Radio Magallanes [Proxy Google News]" description="Resultados de site:radiomagallanes.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiomagallanes.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiomagallanes.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Zona Zero" title="Zona Zero" description="Periodismo independiente desde Magallanes" xmlUrl="https://zonazero.cl/feed.xml" htmlUrl="https://zonazero.cl"/>
+      <outline type="rss" text="Zona Zero [Proxy Bing News]" title="Zona Zero [Proxy Bing News]" description="Resultados de site:zonazero.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:zonazero.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:zonazero.cl"/>
+      <outline type="rss" text="Zona Zero [Proxy Google News]" title="Zona Zero [Proxy Google News]" description="Resultados de site:zonazero.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:zonazero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:zonazero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       </outline>
       <outline text="Otras Regiones o No Especificada" title="Otras Regiones o No Especificada">
       <outline type="rss" text="Diario El Ranco" title="Diario El Ranco" description="Diario regional de La Unión, Los Ríos" xmlUrl="https://www.diarioelranco.cl/feed/" htmlUrl="https://www.diarioelranco.cl"/>

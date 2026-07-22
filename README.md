@@ -2,27 +2,27 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-376-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4378-blue)
+![Sitios](https://img.shields.io/badge/sitios-377-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4381-blue)
 
-> El directorio más completo de feeds RSS chilenos. 376 sitios, 4378 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 377 sitios, 4381 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2470 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2473 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (376 sitios, 4378 feeds)
+## 📝 Fuentes disponibles (377 sitios, 4381 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
 - [📰 Noticias Nacionales](#cat-news) — 216 sitios, 802 feeds
 - [🌐 Noticias Internacionales](#cat-news-international) — 73 sitios, 204 feeds
-- [🌎 Medios Regionales](#cat-regional) — 198 sitios, 1623 feeds
+- [🌎 Medios Regionales](#cat-regional) — 199 sitios, 1626 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 81 sitios, 325 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 30 sitios, 111 feeds
 - [🏫 Educación, Universidades e Investigación](#cat-education) — 66 sitios, 119 feeds
@@ -1349,7 +1349,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (198 sitios, 1623 feeds)
+### 🌎 Medios Regionales (199 sitios, 1626 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
@@ -3975,7 +3975,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RLN (Radio Las Nieves) [Proxy Google News]: `https://news.google.com/rss/search?q=site:rln.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - RLN (Radio Las Nieves) [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rln.cl&format=RSS`
 
-#### 📍 Magallanes y de la Antártica Chilena (9 medios)
+#### 📍 Magallanes y de la Antártica Chilena (10 medios)
 
 *Descargar OPML regional: [`magallanes.opml`](dist/opml/regions/magallanes.opml)*
 
@@ -4117,6 +4117,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Radio Presidente Ibáñez** — Emisora regional de Magallanes 88.5 FM
   - Radio Presidente Ibáñez: `https://www.radiopresidenteibanez.cl/web/feed/`
   - Radio Presidente Ibáñez [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiopresidenteibanez.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Zona Zero** — Periodismo independiente desde Magallanes
+  - Zona Zero: `https://zonazero.cl/feed.xml`
+  - Zona Zero [Proxy Google News]: `https://news.google.com/rss/search?q=site:zonazero.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Zona Zero [Proxy Bing News]: `https://www.bing.com/news/search?q=site:zonazero.cl&format=RSS`
 
 #### 📍 Otras Regiones o No Especificada (13 medios)
 

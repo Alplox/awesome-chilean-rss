@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 4378 feeds</title>
-    <description>El directorio más completo de feeds RSS chilenos. 4378 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
+    <title>Awesome Chilean RSS - 4381 feeds</title>
+    <description>El directorio más completo de feeds RSS chilenos. 4381 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
     <dateCreated>2026-07-17T22:31:09.875Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
@@ -2641,6 +2641,9 @@
       <outline type="rss" text="VLN Radio - Teno" title="VLN Radio - Teno" description="Feed de la categoría 'Teno' en VLN Radio" xmlUrl="https://www.vlnradio.cl/nacional/region-del-maule/teno/feed/" htmlUrl="https://www.vlnradio.cl/nacional/region-del-maule/teno/"/>
       <outline type="rss" text="VLN Radio - Vichuquén" title="VLN Radio - Vichuquén" description="Feed de la categoría 'Vichuquén' en VLN Radio" xmlUrl="https://www.vlnradio.cl/nacional/region-del-maule/vichuquen/feed/" htmlUrl="https://www.vlnradio.cl/nacional/region-del-maule/vichuquen/"/>
       <outline type="rss" text="VLN Radio [Proxy Google News]" title="VLN Radio [Proxy Google News]" description="Resultados de site:vlnradio.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:vlnradio.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:vlnradio.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Zona Zero" title="Zona Zero" description="Periodismo independiente desde Magallanes" xmlUrl="https://zonazero.cl/feed.xml" htmlUrl="https://zonazero.cl"/>
+      <outline type="rss" text="Zona Zero [Proxy Bing News]" title="Zona Zero [Proxy Bing News]" description="Resultados de site:zonazero.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:zonazero.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:zonazero.cl"/>
+      <outline type="rss" text="Zona Zero [Proxy Google News]" title="Zona Zero [Proxy Google News]" description="Resultados de site:zonazero.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:zonazero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:zonazero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     </outline>
     <outline text="💻 Tecnología y Startups" title="💻 Tecnología y Startups">
       <outline type="rss" text="(Empresa) tichile" title="(Empresa) tichile" description="Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile" xmlUrl="https://www.tichile.cl/feed/" htmlUrl="https://www.tichile.cl"/>
