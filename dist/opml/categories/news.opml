@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (802 feeds)</title>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (811 feeds)</title>
     <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-17T22:31:09.875Z</dateCreated>
+    <dateCreated>2026-07-25T23:01:15.148Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -288,6 +288,8 @@
     <outline type="rss" text="Emol - Mastodon.cl BOT" title="Emol - Mastodon.cl BOT" description="BOT de mastodon.cl/@emol" xmlUrl="https://mastodon.cl/@emol.rss" htmlUrl="https://mastodon.cl/@emol"/>
     <outline type="rss" text="Emol [Proxy Bing News]" title="Emol [Proxy Bing News]" description="Resultados de site:emol.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:emol.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:emol.com"/>
     <outline type="rss" text="Emol [Proxy Google News]" title="Emol [Proxy Google News]" description="Resultados de site:emol.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:emol.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:emol.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="En la Ciudad" title="En la Ciudad" description="Blog de noticias locales en Blogger, con secciones de economía, tecnología, deportes y actualidad nacional." xmlUrl="https://www.enlaciudad.cl/feeds/posts/default?alt=rss" htmlUrl="https://www.enlaciudad.cl"/>
+    <outline type="rss" text="En la Ciudad [Proxy Google News]" title="En la Ciudad [Proxy Google News]" description="Resultados de site:enlaciudad.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:enlaciudad.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:enlaciudad.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="En La Línea - Nacional" title="En La Línea - Nacional" description="Feed de la categoría 'Nacional' en En La Línea" xmlUrl="https://www.enlalinea.cl/category/nacional/feed/" htmlUrl="https://www.enlalinea.cl/category/nacional/"/>
     <outline type="rss" text="En La Línea - Política" title="En La Línea - Política" description="Feed de la categoría 'Política' en En La Línea" xmlUrl="https://www.enlalinea.cl/category/politica/feed/" htmlUrl="https://www.enlalinea.cl/category/politica/"/>
     <outline type="rss" text="En Línea Maule - Nacional" title="En Línea Maule - Nacional" description="Feed de la categoría 'Nacional' en En Línea Maule" xmlUrl="https://enlineamaule.cl/archivo/category/nacional/feed/" htmlUrl="https://enlineamaule.cl/archivo/category/nacional/"/>
@@ -412,6 +414,13 @@
     <outline type="rss" text="Los Ríos Noticias - Actualidad" title="Los Ríos Noticias - Actualidad" description="Feed de la categoría 'Actualidad' en Los Ríos Noticias" xmlUrl="https://www.losriosnoticias.cl/category/actualidad/feed/" htmlUrl="https://www.losriosnoticias.cl/category/actualidad/"/>
     <outline type="rss" text="Los Ríos Noticias - Nacional" title="Los Ríos Noticias - Nacional" description="Feed de la categoría 'Nacional' en Los Ríos Noticias" xmlUrl="https://www.losriosnoticias.cl/category/nacional/feed/" htmlUrl="https://www.losriosnoticias.cl/category/nacional/"/>
     <outline type="rss" text="MadboxPC - Actualidad" title="MadboxPC - Actualidad" description="Feed de la categoría 'Actualidad' en MadboxPC" xmlUrl="https://www.madboxpc.com/category/actualidad/feed/" htmlUrl="https://www.madboxpc.com/category/actualidad/"/>
+    <outline type="rss" text="Mala Espina" title="Mala Espina" description="Medio de fact checking chileno. Verificaciones de actualidad, noticias y explicativos sobre Chile, América Latina y el mundo." xmlUrl="https://www.malaespinacheck.cl/feed/" htmlUrl="https://www.malaespinacheck.cl"/>
+    <outline type="rss" text="Mala Espina - Ciencia Y Salud" title="Mala Espina - Ciencia Y Salud" description="Feed de la categoría 'Ciencia Y Salud' en Mala Espina" xmlUrl="https://www.malaespinacheck.cl/noticias/ciencia-y-salud/feed/" htmlUrl="https://www.malaespinacheck.cl/noticias/ciencia-y-salud/"/>
+    <outline type="rss" text="Mala Espina - Explicativo" title="Mala Espina - Explicativo" description="Feed de la categoría 'Explicativo' en Mala Espina" xmlUrl="https://www.malaespinacheck.cl/noticias/explicativo/feed/" htmlUrl="https://www.malaespinacheck.cl/noticias/explicativo/"/>
+    <outline type="rss" text="Mala Espina - País" title="Mala Espina - País" description="Feed de la categoría 'País' en Mala Espina" xmlUrl="https://www.malaespinacheck.cl/noticias/pais/feed/" htmlUrl="https://www.malaespinacheck.cl/noticias/pais/"/>
+    <outline type="rss" text="Mala Espina - Política" title="Mala Espina - Política" description="Feed de la categoría 'Política' en Mala Espina" xmlUrl="https://www.malaespinacheck.cl/noticias/politica/feed/" htmlUrl="https://www.malaespinacheck.cl/noticias/politica/"/>
+    <outline type="rss" text="Mala Espina - Tecnología Y Redes" title="Mala Espina - Tecnología Y Redes" description="Feed de la categoría 'Tecnología Y Redes' en Mala Espina" xmlUrl="https://www.malaespinacheck.cl/noticias/tecnologia-y-redes/feed/" htmlUrl="https://www.malaespinacheck.cl/noticias/tecnologia-y-redes/"/>
+    <outline type="rss" text="Mala Espina [Proxy Google News]" title="Mala Espina [Proxy Google News]" description="Resultados de site:malaespinacheck.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:malaespinacheck.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:malaespinacheck.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Malleco 7 - Actualidad" title="Malleco 7 - Actualidad" description="Feed de la categoría 'Actualidad' en Malleco 7" xmlUrl="https://www.malleco7.cl/canal/actualidad/feed/" htmlUrl="https://www.malleco7.cl/canal/actualidad/"/>
     <outline type="rss" text="Más Noticia - Actualidad" title="Más Noticia - Actualidad" description="Feed de la categoría 'Actualidad' en Más Noticia" xmlUrl="https://www.masnoticia.cl/category/todas-las-noticias/actualidad/feed/" htmlUrl="https://www.masnoticia.cl/category/todas-las-noticias/actualidad/"/>
     <outline type="rss" text="Maule Hoy - Nacional" title="Maule Hoy - Nacional" description="Feed de la categoría 'Nacional' en Maule Hoy" xmlUrl="https://maulehoy.cl/nacional/feed/" htmlUrl="https://maulehoy.cl/nacional/"/>

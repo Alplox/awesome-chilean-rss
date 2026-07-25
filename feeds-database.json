@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-17T22:31:09.875Z",
-  "total_feeds": 4381,
+  "last_updated": "2026-07-25T23:01:15.148Z",
+  "total_feeds": 4391,
   "sites": [
     {
       "id": "aconcagua-digital",
@@ -90543,6 +90543,167 @@
           "last_known_item_date": null,
           "status": "active",
           "verified": true
+        }
+      ]
+    },
+    {
+      "id": "mala-espina-check",
+      "name": "Mala Espina",
+      "url": "https://www.malaespinacheck.cl",
+      "category": "news",
+      "description": "Medio de fact checking chileno. Verificaciones de actualidad, noticias y explicativos sobre Chile, América Latina y el mundo.",
+      "feeds": [
+        {
+          "id": "mala-espina-check-main",
+          "name": "Mala Espina",
+          "rss_url": "https://www.malaespinacheck.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-25T23:01:15.143Z",
+          "last_known_item_date": "2026-07-25T13:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "mala-espina-check-pais",
+          "name": "Mala Espina - País",
+          "rss_url": "https://www.malaespinacheck.cl/noticias/pais/feed/",
+          "url": "https://www.malaespinacheck.cl/noticias/pais/",
+          "description": "Feed de la categoría 'País' en Mala Espina",
+          "feed_type": "RSS",
+          "category": "news",
+          "last_checked": "2026-07-25T23:01:15.144Z",
+          "last_known_item_date": "2026-07-24T20:26:37.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "mala-espina-check-mundo",
+          "name": "Mala Espina - Mundo",
+          "rss_url": "https://www.malaespinacheck.cl/noticias/mundo/feed/",
+          "url": "https://www.malaespinacheck.cl/noticias/mundo/",
+          "description": "Feed de la categoría 'Mundo' en Mala Espina",
+          "feed_type": "RSS",
+          "category": "news-international",
+          "last_checked": "2026-07-25T23:01:15.144Z",
+          "last_known_item_date": "2026-07-25T13:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "mala-espina-check-ciencia-y-salud",
+          "name": "Mala Espina - Ciencia Y Salud",
+          "rss_url": "https://www.malaespinacheck.cl/noticias/ciencia-y-salud/feed/",
+          "url": "https://www.malaespinacheck.cl/noticias/ciencia-y-salud/",
+          "description": "Feed de la categoría 'Ciencia Y Salud' en Mala Espina",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-25T23:01:15.144Z",
+          "last_known_item_date": "2026-07-10T13:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "mala-espina-check-politica",
+          "name": "Mala Espina - Política",
+          "rss_url": "https://www.malaespinacheck.cl/noticias/politica/feed/",
+          "url": "https://www.malaespinacheck.cl/noticias/politica/",
+          "description": "Feed de la categoría 'Política' en Mala Espina",
+          "feed_type": "RSS",
+          "category": "news",
+          "last_checked": "2026-07-25T23:01:15.144Z",
+          "last_known_item_date": "2026-07-24T13:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "mala-espina-check-explicativo",
+          "name": "Mala Espina - Explicativo",
+          "rss_url": "https://www.malaespinacheck.cl/noticias/explicativo/feed/",
+          "url": "https://www.malaespinacheck.cl/noticias/explicativo/",
+          "description": "Feed de la categoría 'Explicativo' en Mala Espina",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-25T23:01:15.144Z",
+          "last_known_item_date": "2026-07-05T13:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "mala-espina-check-tecnologia-y-redes",
+          "name": "Mala Espina - Tecnología Y Redes",
+          "rss_url": "https://www.malaespinacheck.cl/noticias/tecnologia-y-redes/feed/",
+          "url": "https://www.malaespinacheck.cl/noticias/tecnologia-y-redes/",
+          "description": "Feed de la categoría 'Tecnología Y Redes' en Mala Espina",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-25T23:01:15.144Z",
+          "last_known_item_date": "2026-07-23T13:00:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "mala-espina-check-proxy-google-news",
+          "name": "Mala Espina [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:malaespinacheck.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:malaespinacheck.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "feed_type": "RSS",
+          "description": "Resultados de site:malaespinacheck.cl en Proxy Google News de noticias Chilenas",
+          "last_checked": "2026-07-25T23:01:15.145Z",
+          "last_known_item_date": "2026-07-23T18:32:30.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "mala-espina-check-proxy-bing-news",
+          "name": "Mala Espina [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:malaespinacheck.cl&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:malaespinacheck.cl",
+          "feed_type": "RSS",
+          "description": "Resultados de site:malaespinacheck.cl en Proxy Bing News",
+          "last_checked": "2026-07-25T23:01:15.145Z",
+          "last_known_item_date": null,
+          "status": "feed_empty",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "en-la-ciudad",
+      "name": "En la Ciudad",
+      "url": "https://www.enlaciudad.cl",
+      "category": "news",
+      "description": "Blog de noticias locales en Blogger, con secciones de economía, tecnología, deportes y actualidad nacional.",
+      "feeds": [
+        {
+          "id": "en-la-ciudad-main",
+          "name": "En la Ciudad",
+          "rss_url": "https://www.enlaciudad.cl/feeds/posts/default?alt=rss",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-25T23:00:53.551Z",
+          "last_known_item_date": "2026-07-24T20:37:02.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "en-la-ciudad-proxy-google-news",
+          "name": "En la Ciudad [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:enlaciudad.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:enlaciudad.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "feed_type": "RSS",
+          "description": "Resultados de site:enlaciudad.cl en Proxy Google News de noticias Chilenas",
+          "last_checked": "2026-07-25T23:00:53.552Z",
+          "last_known_item_date": "2026-07-24T22:55:03.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "en-la-ciudad-proxy-bing-news",
+          "name": "En la Ciudad [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:enlaciudad.cl&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:enlaciudad.cl",
+          "feed_type": "RSS",
+          "description": "Resultados de site:enlaciudad.cl en Proxy Bing News",
+          "last_checked": "2026-07-25T23:00:53.552Z",
+          "last_known_item_date": null,
+          "status": "feed_empty",
+          "verified": false
         }
       ]
     }

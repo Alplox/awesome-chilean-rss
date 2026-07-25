@@ -13282,5 +13282,74 @@
         "verified": true
       }
     ]
+  },
+  {
+    "id": "magallanescheck",
+    "name": "Magallanes Check",
+    "url": "https://magallanescheck.cl",
+    "category": "regional",
+    "region": "magallanes",
+    "description": "Medio de fact checking regional de Magallanes",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "magallanescheck-proxy-google-news",
+        "name": "Magallanes Check - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:magallanescheck.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:magallanescheck.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:magallanescheck.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-25T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "magallanescheck-proxy-bing-news",
+        "name": "Magallanes Check - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:magallanescheck.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:magallanescheck.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:magallanescheck.cl en Proxy Bing News",
+        "last_checked": "2026-07-25T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "eltelescopio",
+    "name": "El Telescopio",
+    "url": "https://eltelescopio.cl",
+    "category": "news",
+    "description": "Medio de noticias chileno (sitio no disponible al momento de la revisión)",
+    "reason": "Sitio no disponible (transport error)",
+    "feeds": [
+      {
+        "id": "eltelescopio-proxy-google-news",
+        "name": "El Telescopio - Google News",
+        "rss_url": "https://news.google.com/rss/search?q=site:eltelescopio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:eltelescopio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eltelescopio.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-25T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "eltelescopio-proxy-bing-news",
+        "name": "El Telescopio - Bing News",
+        "rss_url": "https://www.bing.com/news/search?q=site:eltelescopio.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:eltelescopio.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eltelescopio.cl en Proxy Bing News",
+        "last_checked": "2026-07-25T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   }
 ]

@@ -2,9 +2,9 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-377-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4381-blue)
+![Sitios](https://img.shields.io/badge/sitios-379-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4391-blue)
 
-> El directorio más completo de feeds RSS chilenos. 377 sitios, 4381 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 379 sitios, 4391 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -15,13 +15,13 @@
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
-## 📝 Fuentes disponibles (377 sitios, 4381 feeds)
+## 📝 Fuentes disponibles (379 sitios, 4391 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 216 sitios, 802 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 73 sitios, 204 feeds
+- [📰 Noticias Nacionales](#cat-news) — 218 sitios, 811 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 74 sitios, 205 feeds
 - [🌎 Medios Regionales](#cat-regional) — 199 sitios, 1626 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 81 sitios, 325 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 30 sitios, 111 feeds
@@ -38,7 +38,7 @@
 - [🏥 Salud y Bienestar](#cat-health) — 71 sitios, 107 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (216 sitios, 802 feeds)
+### 📰 Noticias Nacionales (218 sitios, 811 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -415,6 +415,9 @@
   - Emol - Mastodon.cl BOT: `https://mastodon.cl/@emol.rss`
   - Emol [Proxy Google News]: `https://news.google.com/rss/search?q=site:emol.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - Emol [Proxy Bing News]: `https://www.bing.com/news/search?q=site:emol.com&format=RSS`
+- **En la Ciudad** — Blog de noticias locales en Blogger, con secciones de economía, tecnología, deportes y actualidad nacional.
+  - En la Ciudad: `https://www.enlaciudad.cl/feeds/posts/default?alt=rss`
+  - En la Ciudad [Proxy Google News]: `https://news.google.com/rss/search?q=site:enlaciudad.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **En La Línea** — Diario regional de Calama, Antofagasta
   - En La Línea - Política: `https://www.enlalinea.cl/category/politica/feed/`
   - En La Línea - Nacional: `https://www.enlalinea.cl/category/nacional/feed/`
@@ -578,6 +581,14 @@
   - Los Ríos Noticias - Nacional: `https://www.losriosnoticias.cl/category/nacional/feed/`
 - **MadboxPC**: Feed de la categoría 'Actualidad' en MadboxPC
   - RSS: `https://www.madboxpc.com/category/actualidad/feed/`
+- **Mala Espina** — Medio de fact checking chileno. Verificaciones de actualidad, noticias y explicativos sobre Chile, América Latina y el mundo.
+  - Mala Espina: `https://www.malaespinacheck.cl/feed/`
+  - Mala Espina - País: `https://www.malaespinacheck.cl/noticias/pais/feed/`
+  - Mala Espina - Ciencia Y Salud: `https://www.malaespinacheck.cl/noticias/ciencia-y-salud/feed/`
+  - Mala Espina - Política: `https://www.malaespinacheck.cl/noticias/politica/feed/`
+  - Mala Espina - Explicativo: `https://www.malaespinacheck.cl/noticias/explicativo/feed/`
+  - Mala Espina - Tecnología Y Redes: `https://www.malaespinacheck.cl/noticias/tecnologia-y-redes/feed/`
+  - Mala Espina [Proxy Google News]: `https://news.google.com/rss/search?q=site:malaespinacheck.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Malleco 7**: Feed de la categoría 'Actualidad' en Malleco 7
   - RSS: `https://www.malleco7.cl/canal/actualidad/feed/`
 - **Más Noticia**: Feed de la categoría 'Actualidad' en Más Noticia
@@ -1064,7 +1075,7 @@
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (73 sitios, 204 feeds)
+### 🌐 Noticias Internacionales (74 sitios, 205 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -1251,6 +1262,8 @@
   - RSS: `https://laregionhoy.cl/category/noticias/internacional/feed/`
 - **La Tercera**: Feed de la categoría 'Mundo' en La Tercera
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml`
+- **Mala Espina**: Feed de la categoría 'Mundo' en Mala Espina
+  - RSS: `https://www.malaespinacheck.cl/noticias/mundo/feed/`
 - **MercoPress** — Agencia de noticias en español sobre América Latina y el Caribe, con sección especial de Chile
   - MercoPress - Chile: `https://es.mercopress.com/rss/chile`
   - MercoPress - América Latina: `https://es.mercopress.com/rss/america-latina`

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (204 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (205 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-17T22:31:09.875Z</dateCreated>
+    <dateCreated>2026-07-25T23:01:15.148Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -142,6 +142,7 @@
     <outline type="rss" text="La Razón - Internacional" title="La Razón - Internacional" description="Feed de la categoría 'Internacional' en La Razón" xmlUrl="https://www.larazon.cl/temas/internacional/feed/" htmlUrl="https://www.larazon.cl/temas/internacional/"/>
     <outline type="rss" text="La Región Hoy - Internacional" title="La Región Hoy - Internacional" description="Feed de la categoría 'Internacional' en La Región Hoy" xmlUrl="https://laregionhoy.cl/category/noticias/internacional/feed/" htmlUrl="https://laregionhoy.cl/category/noticias/internacional/"/>
     <outline type="rss" text="La Tercera - Mundo" title="La Tercera - Mundo" description="Feed de la categoría 'Mundo' en La Tercera" xmlUrl="https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml" htmlUrl="https://www.latercera.com/canal/mundo/"/>
+    <outline type="rss" text="Mala Espina - Mundo" title="Mala Espina - Mundo" description="Feed de la categoría 'Mundo' en Mala Espina" xmlUrl="https://www.malaespinacheck.cl/noticias/mundo/feed/" htmlUrl="https://www.malaespinacheck.cl/noticias/mundo/"/>
     <outline type="rss" text="MercoPress - América Latina" title="MercoPress - América Latina" description="Feed de la sección 'América Latina' en MercoPress" xmlUrl="https://es.mercopress.com/rss/america-latina" htmlUrl="https://es.mercopress.com"/>
     <outline type="rss" text="MercoPress - Chile" title="MercoPress - Chile" description="Feed de la sección 'Chile' en MercoPress" xmlUrl="https://es.mercopress.com/rss/chile" htmlUrl="https://es.mercopress.com"/>
     <outline type="rss" text="MercoPress [Proxy Bing News]" title="MercoPress [Proxy Bing News]" description="Resultados de site:es.mercopress.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:es.mercopress.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:es.mercopress.com"/>
