@@ -15,6 +15,12 @@
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
 
+### 🌐 Aplicación Web
+
+Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la web complementaria:
+
+<https://alplox.github.io/awesome-chilean-rss-app/>
+
 ## 📝 Fuentes disponibles (379 sitios, 4391 feeds)
 
 <a id="indice"></a>
