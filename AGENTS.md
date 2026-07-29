@@ -16,8 +16,10 @@ These generate:
 - `dist/opml/chilean-rss.opml` (full database OPML, flat — todas las categorías en un solo nivel; compatible con todos los lectores RSS)
 - `dist/opml/chilean-rss-nested.opml` (full database OPML, versión con regiones agrupadas en subcarpetas; para lectores que soporten anidación)
 - `dist/opml/chilean-rss-regions.opml` (consolidated regional feeds OPML, grouped by region)
-- `dist/opml/regions/*.opml` (individual OPML files for each region, e.g., `dist/opml/regions/biobio.opml`)
-- `dist/opml/categories/*.opml` (individual OPML files for each category, e.g., `dist/opml/categories/news.opml`)
+- `dist/opml/regions/*.opml` (individual OPML files for each region, with region grouping, e.g., `dist/opml/regions/biobio.opml`)
+- `dist/opml/regions/*-without-category.opml` (individual region OPMLs, flat — sin agrupación, e.g., `dist/opml/regions/biobio-without-category.opml`)
+- `dist/opml/categories/*.opml` (individual OPML files for each category, with category grouping, e.g., `dist/opml/categories/news.opml`)
+- `dist/opml/categories/*-without-category.opml` (individual category OPMLs, flat — sin agrupación, e.g., `dist/opml/categories/news-without-category.opml`)
 - `README.md` (GitHub listing, with regional feeds grouped under regional subheaders)
 - `dist/bookmarks/awesome-chilean-rss.html` (Netscape Bookmark HTML — compatible con navegadores, para importar feeds como favoritos)
 

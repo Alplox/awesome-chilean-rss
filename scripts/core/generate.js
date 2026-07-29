@@ -239,7 +239,34 @@ function generateIndividualRegionalOPML(regKey, feeds) {
   const now = db.last_updated;
   const label = regions[regKey];
   const totalFeeds = feeds.length;
-  // Sort feeds alphabetically by name
+  const sortedFeeds = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+  const outlines = sortedFeeds
+    .map(feed =>
+      `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
+    )
+    .join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - Región de ${label} (${totalFeeds} feeds)</title>
+    <description>Feeds RSS de la Región de ${label}, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>${now}</dateCreated>
+    <ownerName>${escapeXml(ownerName)}</ownerName>
+  </head>
+  <body>
+    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">
+${outlines}
+    </outline>
+  </body>
+</opml>
+`;
+}
+
+function generateIndividualRegionalFlatOPML(regKey, feeds) {
+  const now = db.last_updated;
+  const label = regions[regKey];
+  const totalFeeds = feeds.length;
   const sortedFeeds = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
   const outlines = sortedFeeds
     .map(feed =>
@@ -265,6 +292,34 @@ ${outlines}
 // ─── Generar OPML por Categoría Individual ───────────────────────────────────
 
 function generateIndividualCategoryOPML(catKey, feeds) {
+  const now = db.last_updated;
+  const label = categories[catKey]?.label ?? catKey;
+  const totalFeeds = feeds.length;
+  const sortedFeeds = [...feeds].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+  const outlines = sortedFeeds
+    .map(feed =>
+      `      <outline type="rss" text="${escapeXml(feed.name)}" title="${escapeXml(feed.name)}" description="${escapeXml(feed.feedDescription)}" xmlUrl="${escapeXml(feed.rss_url)}" htmlUrl="${escapeXml(feed.feedUrl)}"/>`
+    )
+    .join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Chilean RSS - ${escapeXml(label)} (${totalFeeds} feeds)</title>
+    <description>Feeds RSS de ${escapeXml(label)}, parte del directorio Awesome Chilean RSS.</description>
+    <dateCreated>${now}</dateCreated>
+    <ownerName>${escapeXml(ownerName)}</ownerName>
+  </head>
+  <body>
+    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">
+${outlines}
+    </outline>
+  </body>
+</opml>
+`;
+}
+
+function generateIndividualCategoryFlatOPML(catKey, feeds) {
   const now = db.last_updated;
   const label = categories[catKey]?.label ?? catKey;
   const totalFeeds = feeds.length;
@@ -555,7 +610,7 @@ try {
   const totalRegFeeds = Object.values(feedsByRegion).flat().length;
   console.log(`✅ ${OPML_DIR}/chilean-rss-regions.opml generado (${totalRegFeeds} feeds regionales de ${Object.keys(feedsByRegion).length} regiones)`);
 
-  // Individual regional OPML files
+  // Individual regional OPML files (with region grouping + flat variants)
   const regionsDir = `${OPML_DIR}/regions`;
   if (!existsSync(regionsDir)) {
     mkdirSync(regionsDir);
@@ -565,11 +620,13 @@ try {
     if (feeds.length > 0) {
       const regOpml = generateIndividualRegionalOPML(regKey, feeds);
       writeFileSync(`${regionsDir}/${regKey}.opml`, regOpml, 'utf-8');
+      const regFlatOpml = generateIndividualRegionalFlatOPML(regKey, feeds);
+      writeFileSync(`${regionsDir}/${regKey}-without-category.opml`, regFlatOpml, 'utf-8');
     }
   }
-  console.log(`✅ OPMLs individuales por región generados en el directorio ${regionsDir}/`);
+  console.log(`✅ OPMLs individuales por región generados en el directorio ${regionsDir}/ (con y sin agrupación)`);
 
-  // Individual category OPML files
+  // Individual category OPML files (with category grouping + flat variants)
   const categoriesDir = `${OPML_DIR}/categories`;
   if (!existsSync(categoriesDir)) {
     mkdirSync(categoriesDir);
@@ -579,9 +636,11 @@ try {
     if (feeds.length > 0) {
       const catOpml = generateIndividualCategoryOPML(catKey, feeds);
       writeFileSync(`${categoriesDir}/${catKey}.opml`, catOpml, 'utf-8');
+      const catFlatOpml = generateIndividualCategoryFlatOPML(catKey, feeds);
+      writeFileSync(`${categoriesDir}/${catKey}-without-category.opml`, catFlatOpml, 'utf-8');
     }
   }
-  console.log(`✅ OPMLs individuales por categoría generados en el directorio ${categoriesDir}/`);
+  console.log(`✅ OPMLs individuales por categoría generados en el directorio ${categoriesDir}/ (con y sin agrupación)`);
 
   // README.md
   const readme = generateReadme();

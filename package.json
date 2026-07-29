@@ -11,7 +11,7 @@
     "validate:watchlist": "node scripts/core/validate-watchlist.js",
     "fix:stale": "node scripts/utils/fix-stale-feeds.js",
     "lint": "eslint .",
-    "ci": "npm run validate:json && npm run validate:opml && npm run generate && git diff --exit-code dist/opml/chilean-rss.opml dist/opml/chilean-rss-nested.opml dist/opml/chilean-rss-regions.opml dist/bookmarks/awesome-chilean-rss.html README.md"
+    "ci": "npm run validate:json && npm run validate:opml && npm run generate && git diff --exit-code dist/opml/chilean-rss.opml dist/opml/chilean-rss-without-category.opml dist/opml/chilean-rss-nested.opml dist/opml/chilean-rss-regions.opml dist/bookmarks/awesome-chilean-rss.html README.md"
   },
   "dependencies": {
     "fast-xml-parser": "5.8.0"
