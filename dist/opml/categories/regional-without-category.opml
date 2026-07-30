@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1626 feeds)</title>
+    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1628 feeds)</title>
     <description>Feeds RSS de 🌎 Medios Regionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-25T23:01:15.148Z</dateCreated>
+    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -1464,6 +1464,8 @@
     <outline type="rss" text="Serena y Coquimbo - Zona Norte" title="Serena y Coquimbo - Zona Norte" description="Feed de la categoría 'Zona Norte' en Serena y Coquimbo" xmlUrl="https://serenaycoquimbo.cl/category/nacionales/zona-norte/feed/" htmlUrl="https://serenaycoquimbo.cl/category/nacionales/zona-norte/"/>
     <outline type="rss" text="Serena y Coquimbo - Zona Sur" title="Serena y Coquimbo - Zona Sur" description="Feed de la categoría 'Zona Sur' en Serena y Coquimbo" xmlUrl="https://serenaycoquimbo.cl/category/nacionales/zona-sur/feed/" htmlUrl="https://serenaycoquimbo.cl/category/nacionales/zona-sur/"/>
     <outline type="rss" text="Serena y Coquimbo [Proxy Google News]" title="Serena y Coquimbo [Proxy Google News]" description="Resultados de site:serenaycoquimbo.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:serenaycoquimbo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:serenaycoquimbo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Sitio del Suceso" title="Sitio del Suceso" description="Cobertura de sucesos y noticias de Santiago, Región Metropolitana y Región de Valparaíso" xmlUrl="https://sitiodelsuceso.cl/feed/" htmlUrl="https://sitiodelsuceso.cl"/>
+    <outline type="rss" text="Sitio del Suceso [Proxy Google News]" title="Sitio del Suceso [Proxy Google News]" description="Resultados de site:sitiodelsuceso.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:sitiodelsuceso.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:sitiodelsuceso.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Tarapacá Online" title="Tarapacá Online" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.tarapacaonline.cl/feed/" htmlUrl="https://www.tarapacaonline.cl"/>
     <outline type="rss" text="Tarapacá Online - Alto Hospicio" title="Tarapacá Online - Alto Hospicio" description="Feed de la categoría 'Alto Hospicio' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/alto-hospicio/feed/" htmlUrl="https://tarapacaonline.cl/category/alto-hospicio/"/>
     <outline type="rss" text="Tarapacá Online - Iquique" title="Tarapacá Online - Iquique" description="Feed de la categoría 'Iquique' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/iquique/feed/" htmlUrl="https://tarapacaonline.cl/category/iquique/"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (180 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (182 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-25T23:01:15.148Z</dateCreated>
+    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -27,6 +27,7 @@
       <outline type="rss" text="Atacama Noticias - Deportes" title="Atacama Noticias - Deportes" description="Feed de la categoría 'Deportes' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/deportes/feed/" htmlUrl="https://www.atacamanoticias.cl/category/deportes/"/>
       <outline type="rss" text="Aurora Noticias - Deportes" title="Aurora Noticias - Deportes" description="Feed de la categoría 'Deportes' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/deportes/feed/" htmlUrl="https://auroranoticias.cl/deportes/"/>
       <outline type="rss" text="Aysén Ahora - Deporte" title="Aysén Ahora - Deporte" description="Feed de la categoría 'Deporte' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/deporte/feed/" htmlUrl="https://www.aysenahora.cl/category/deporte/"/>
+      <outline type="rss" text="Base Nacional - Deportes" title="Base Nacional - Deportes" description="Feed de la categoría 'Deportes' en Base Nacional" xmlUrl="https://basenacional.cl/category/deportes/feed/" htmlUrl="https://basenacional.cl/category/deportes/"/>
       <outline type="rss" text="Calama en Línea - Deporte" title="Calama en Línea - Deporte" description="Feed de la categoría 'Deporte' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/deporte/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/deporte/"/>
       <outline type="rss" text="CEI Noticias - Deporte" title="CEI Noticias - Deporte" description="Feed de la categoría 'Deporte' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/deporte/feed/" htmlUrl="https://ceinoticias.cl/category/deporte/"/>
       <outline type="rss" text="CentralWeb - Deportes" title="CentralWeb - Deportes" description="Feed de la categoría 'Deportes' en CentralWeb" xmlUrl="https://centralweb.cl/?cat=3&amp;feed=rss2" htmlUrl="https://centralweb.cl/?cat=3"/>
@@ -181,6 +182,7 @@
       <outline type="rss" text="Tarapacá Online - Deportes" title="Tarapacá Online - Deportes" description="Feed de la categoría 'Deportes' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/deportes/feed/" htmlUrl="https://tarapacaonline.cl/category/deportes/"/>
       <outline type="rss" text="Temuco Diario - Deportes" title="Temuco Diario - Deportes" description="Feed de la categoría 'Deportes' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/deportes/feed/" htmlUrl="https://temucodiario.cl/category/deportes/"/>
       <outline type="rss" text="The Clinic - En La B" title="The Clinic - En La B" description="Feed de la sección 'En La B' en The Clinic" xmlUrl="https://www.theclinic.cl/feed/?category=en-la-b" htmlUrl="https://www.theclinic.cl/en-la-b/"/>
+      <outline type="rss" text="The Times en Español - Deportes" title="The Times en Español - Deportes" description="Feed de la categoría 'Deportes' en The Times en Español" xmlUrl="https://www.thetime.cl/category/deportes/feed/" htmlUrl="https://www.thetime.cl/category/deportes/"/>
       <outline type="rss" text="Tiempo 21 - Deporte" title="Tiempo 21 - Deporte" description="Feed de la categoría 'Deporte' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/deporte/feed/" htmlUrl="https://www.tiempo21.cl/deporte/"/>
       <outline type="rss" text="Tiempo 21 - Fútbol" title="Tiempo 21 - Fútbol" description="Feed de la categoría 'Fútbol' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/futbol/feed/" htmlUrl="https://www.tiempo21.cl/futbol/"/>
       <outline type="rss" text="Tierramarillano - Deportes" title="Tierramarillano - Deportes" description="Feed de la categoría 'Deportes' en Tierramarillano" xmlUrl="https://tierramarillano.cl/category/deportes/feed/" htmlUrl="https://tierramarillano.cl/category/deportes/"/>

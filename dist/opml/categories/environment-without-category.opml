@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (127 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (128 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-25T23:01:15.148Z</dateCreated>
+    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -13,6 +13,7 @@
     <outline type="rss" text="Antofagasta Noticias - Medioambiente" title="Antofagasta Noticias - Medioambiente" description="Feed de la categoría 'Medioambiente' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/medioambiente/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/medioambiente/"/>
     <outline type="rss" text="Araucanía Noticias - Medioambiente" title="Araucanía Noticias - Medioambiente" description="Feed de la categoría 'Medioambiente' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/medioambiente-2/feed/" htmlUrl="https://araucanianoticias.cl/category/medioambiente-2/"/>
     <outline type="rss" text="Aurora Noticias - Medio Ambiente" title="Aurora Noticias - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/medio-ambiente/feed/" htmlUrl="https://auroranoticias.cl/medio-ambiente/"/>
+    <outline type="rss" text="Base Nacional - Medio Ambiente" title="Base Nacional - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Base Nacional" xmlUrl="https://basenacional.cl/category/medio-ambiente/feed/" htmlUrl="https://basenacional.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Calama en Línea - Medio Ambiente" title="Calama en Línea - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/medio-ambiente/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/medio-ambiente/"/>
     <outline type="rss" text="CauquenesNet - Eltiempo" title="CauquenesNet - Eltiempo" description="Feed de la sección 'Eltiempo' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=eltiempo" htmlUrl="https://www.cauquenesnet.cl/eltiempo/"/>
     <outline type="rss" text="Codex Verde" title="Codex Verde" description="Medio de noticias sobre medio ambiente y sostenibilidad" xmlUrl="https://codexverde.cl/feed/" htmlUrl="http://www.codexverde.cl/"/>

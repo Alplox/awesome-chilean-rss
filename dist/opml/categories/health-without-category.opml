@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (107 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (108 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-25T23:01:15.148Z</dateCreated>
+    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -16,6 +16,7 @@
     <outline type="rss" text="Araucanía Noticias - Salud Mental" title="Araucanía Noticias - Salud Mental" description="Feed de la categoría 'Salud Mental' en Araucanía Noticias" xmlUrl="https://araucanianoticias.cl/category/salud-mental/feed/" htmlUrl="https://araucanianoticias.cl/category/salud-mental/"/>
     <outline type="rss" text="Atentos - Salud" title="Atentos - Salud" description="Feed de la categoría 'Salud' en Atentos" xmlUrl="https://www.atentos.cl/category/salud/feed/" htmlUrl="https://www.atentos.cl/category/salud/"/>
     <outline type="rss" text="Aurora Noticias - Salud" title="Aurora Noticias - Salud" description="Feed de la categoría 'Salud' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/salud/feed/" htmlUrl="https://auroranoticias.cl/salud/"/>
+    <outline type="rss" text="Base Nacional - Salud" title="Base Nacional - Salud" description="Feed de la categoría 'Salud' en Base Nacional" xmlUrl="https://basenacional.cl/category/salud/feed/" htmlUrl="https://basenacional.cl/category/salud/"/>
     <outline type="rss" text="Cadena Política - Salud" title="Cadena Política - Salud" description="Feed de la categoría 'Salud' en Cadena Política" xmlUrl="https://cadenapolitica.com/category/salud/feed/" htmlUrl="https://cadenapolitica.com/category/salud/"/>
     <outline type="rss" text="Calama en Línea - Salud" title="Calama en Línea - Salud" description="Feed de la categoría 'Salud' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/salud/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/salud/"/>
     <outline type="rss" text="CEI Noticias - Salud" title="CEI Noticias - Salud" description="Feed de la categoría 'Salud' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/salud/feed/" htmlUrl="https://ceinoticias.cl/category/salud/"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Metropolitana de Santiago (202 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Metropolitana de Santiago (204 feeds)</title>
     <description>Feeds RSS de la Región de Metropolitana de Santiago, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-25T23:01:15.148Z</dateCreated>
+    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -210,6 +210,8 @@
       <outline type="rss" text="Radio Universidad de Chile - Opiniones" title="Radio Universidad de Chile - Opiniones" description="Feed de la categoría 'Opiniones' en Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/opiniones/feed/" htmlUrl="https://radio.uchile.cl/opiniones/"/>
       <outline type="rss" text="Radio Universidad de Chile - Portada" title="Radio Universidad de Chile - Portada" description="Feed principal de Radio Universidad de Chile" xmlUrl="https://radio.uchile.cl/feed/" htmlUrl="https://radio.uchile.cl"/>
       <outline type="rss" text="Radio Universidad de Chile [Proxy Google News]" title="Radio Universidad de Chile [Proxy Google News]" description="Resultados de site:radio.uchile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radio.uchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radio.uchile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Sitio del Suceso" title="Sitio del Suceso" description="Cobertura de sucesos y noticias de Santiago, Región Metropolitana y Región de Valparaíso" xmlUrl="https://sitiodelsuceso.cl/feed/" htmlUrl="https://sitiodelsuceso.cl"/>
+      <outline type="rss" text="Sitio del Suceso [Proxy Google News]" title="Sitio del Suceso [Proxy Google News]" description="Resultados de site:sitiodelsuceso.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:sitiodelsuceso.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:sitiodelsuceso.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     </outline>
   </body>
 </opml>

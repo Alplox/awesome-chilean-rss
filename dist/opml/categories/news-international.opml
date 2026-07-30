@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (205 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (206 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-25T23:01:15.148Z</dateCreated>
+    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -13,6 +13,7 @@
       <outline type="rss" text="Atacama Noticias - Internacional" title="Atacama Noticias - Internacional" description="Feed de la categoría 'Internacional' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/internacional/feed/" htmlUrl="https://www.atacamanoticias.cl/category/internacional/"/>
       <outline type="rss" text="Atentos - Internacional" title="Atentos - Internacional" description="Feed de la categoría 'Internacional' en Atentos" xmlUrl="https://www.atentos.cl/category/internacional/feed/" htmlUrl="https://www.atentos.cl/category/internacional/"/>
       <outline type="rss" text="Aurora Noticias - Internacional" title="Aurora Noticias - Internacional" description="Feed de la categoría 'Internacional' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/internacional/feed/" htmlUrl="https://auroranoticias.cl/internacional/"/>
+      <outline type="rss" text="Base Nacional - Internacional" title="Base Nacional - Internacional" description="Feed de la categoría 'Internacional' en Base Nacional" xmlUrl="https://basenacional.cl/category/internacional/feed/" htmlUrl="https://basenacional.cl/category/internacional/"/>
       <outline type="rss" text="BBC Mundo - Latin America" title="BBC Mundo - Latin America" description="Feed de la sección 'Latin America' en BBC Mundo" xmlUrl="https://feeds.bbci.co.uk/news/world/latin_america/rss.xml" htmlUrl="https://www.bbc.com/mundo"/>
       <outline type="rss" text="BBC Mundo [Proxy Bing News]" title="BBC Mundo [Proxy Bing News]" description="Resultados de site:bbc.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:bbc.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:bbc.com"/>
       <outline type="rss" text="BBC Mundo [Proxy Google News]" title="BBC Mundo [Proxy Google News]" description="Resultados de site:bbc.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:bbc.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:bbc.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

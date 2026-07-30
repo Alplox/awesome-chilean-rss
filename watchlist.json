@@ -13351,5 +13351,1558 @@
         "verified": true
       }
     ]
+  },
+  {
+    "id": "the-times-latino",
+    "name": "The Times Latino",
+    "url": "https://thetimeslatino.com",
+    "category": "news",
+    "description": "Medio de comunicación chileno con noticias de la comunidad latina",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "the-times-latino-proxy-google-news",
+        "name": "The Times Latino [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:thetimeslatino.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:thetimeslatino.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:thetimeslatino.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "the-times-latino-proxy-bing-news",
+        "name": "The Times Latino [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:thetimeslatino.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:thetimeslatino.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:thetimeslatino.com en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "minsegpres",
+    "name": "Ministerio Secretaría General de la Presidencia",
+    "url": "https://www.minsegpres.gob.cl",
+    "category": "government",
+    "description": "Sitio oficial de la Secretaría General de la Presidencia de Chile - Noticias y comunicados",
+    "reason": "Feed no accesible (HTTP 403)",
+    "feeds": [
+      {
+        "id": "minsegpres-proxy-google-news",
+        "name": "Min. Segpres [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:minsegpres.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:minsegpres.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minsegpres.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "minsegpres-proxy-bing-news",
+        "name": "Min. Segpres [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:minsegpres.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:minsegpres.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minsegpres.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "msgg",
+    "name": "Ministerio Secretaría General de Gobierno",
+    "url": "https://www.msgg.gob.cl",
+    "category": "government",
+    "description": "Sitio oficial de la Secretaría General de Gobierno de Chile - Noticias y comunicados",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "msgg-proxy-google-news",
+        "name": "Min. Segegob [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:msgg.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:msgg.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:msgg.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "msgg-proxy-bing-news",
+        "name": "Min. Segegob [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:msgg.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:msgg.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:msgg.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ministerio-de-hacienda",
+    "name": "Ministerio de Hacienda",
+    "url": "https://www.hacienda.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio de Hacienda de Chile - Noticias sobre economía y finanzas públicas",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "ministerio-de-hacienda-proxy-google-news",
+        "name": "Ministerio de Hacienda [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:hacienda.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:hacienda.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:hacienda.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ministerio-de-hacienda-proxy-bing-news",
+        "name": "Ministerio de Hacienda [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:hacienda.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:hacienda.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:hacienda.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ministerio-de-mineria",
+    "name": "Ministerio de Minería",
+    "url": "https://www.minmineria.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio de Minería de Chile - Noticias del sector minero",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "ministerio-de-mineria-proxy-google-news",
+        "name": "Ministerio de Minería [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:minmineria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:minmineria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minmineria.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ministerio-de-mineria-proxy-bing-news",
+        "name": "Ministerio de Minería [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:minmineria.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:minmineria.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minmineria.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ministerio-del-interior",
+    "name": "Ministerio del Interior",
+    "url": "https://www.interior.gob.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio del Interior y Seguridad Pública de Chile",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "ministerio-del-interior-proxy-google-news",
+        "name": "Ministerio del Interior [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:interior.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:interior.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:interior.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ministerio-del-interior-proxy-bing-news",
+        "name": "Ministerio del Interior [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:interior.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:interior.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:interior.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ministerio-de-justicia",
+    "name": "Ministerio de Justicia y Derechos Humanos",
+    "url": "https://www.minjusticia.gob.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio de Justicia y Derechos Humanos de Chile",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "ministerio-de-justicia-proxy-google-news",
+        "name": "Ministerio de Justicia [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:minjusticia.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:minjusticia.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minjusticia.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ministerio-de-justicia-proxy-bing-news",
+        "name": "Ministerio de Justicia [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:minjusticia.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:minjusticia.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minjusticia.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ministerio-de-rr-ee",
+    "name": "Ministerio de Relaciones Exteriores",
+    "url": "https://www.minrel.gob.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio de Relaciones Exteriores de Chile - Noticias de la cancillería",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "ministerio-de-rr-ee-proxy-google-news",
+        "name": "Ministerio de RR.EE. [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:minrel.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:minrel.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minrel.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ministerio-de-rr-ee-proxy-bing-news",
+        "name": "Ministerio de RR.EE. [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:minrel.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:minrel.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minrel.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ministerio-de-vivienda",
+    "name": "Ministerio de Vivienda y Urbanismo",
+    "url": "https://www.minvu.gob.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio de Vivienda y Urbanismo de Chile",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "ministerio-de-vivienda-proxy-google-news",
+        "name": "Ministerio de Vivienda [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:minvu.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:minvu.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minvu.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ministerio-de-vivienda-proxy-bing-news",
+        "name": "Ministerio de Vivienda [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:minvu.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:minvu.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minvu.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ministerio-del-deporte",
+    "name": "Ministerio del Deporte",
+    "url": "https://www.mindep.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio del Deporte de Chile",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "ministerio-del-deporte-proxy-google-news",
+        "name": "Ministerio del Deporte [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:mindep.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mindep.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mindep.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ministerio-del-deporte-proxy-bing-news",
+        "name": "Ministerio del Deporte [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:mindep.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mindep.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mindep.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ministerio-de-ciencia",
+    "name": "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación",
+    "url": "https://www.minciencia.gob.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio de Ciencia, Tecnología, Conocimiento e Innovación de Chile",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "ministerio-de-ciencia-proxy-google-news",
+        "name": "Ministerio de Ciencia [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:minciencia.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:minciencia.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minciencia.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ministerio-de-ciencia-proxy-bing-news",
+        "name": "Ministerio de Ciencia [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:minciencia.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:minciencia.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minciencia.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ministerio-de-desarrollo-social",
+    "name": "Ministerio de Desarrollo Social y Familia",
+    "url": "https://www.desarrollosocialyfamilia.gob.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio de Desarrollo Social y Familia de Chile",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "ministerio-de-desarrollo-social-proxy-google-news",
+        "name": "Ministerio de Desarrollo Social [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:desarrollosocialyfamilia.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:desarrollosocialyfamilia.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:desarrollosocialyfamilia.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ministerio-de-desarrollo-social-proxy-bing-news",
+        "name": "Ministerio de Desarrollo Social [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:desarrollosocialyfamilia.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:desarrollosocialyfamilia.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:desarrollosocialyfamilia.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "sii",
+    "name": "Servicio de Impuestos Internos",
+    "url": "https://www.sii.cl",
+    "category": "government",
+    "description": "Sitio oficial del Servicio de Impuestos Internos de Chile",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "sii-proxy-google-news",
+        "name": "SII [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sii.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sii.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sii.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "sii-proxy-bing-news",
+        "name": "SII [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sii.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sii.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sii.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "aduana-chile",
+    "name": "Servicio Nacional de Aduanas",
+    "url": "https://www.aduana.cl",
+    "category": "government",
+    "description": "Sitio oficial del Servicio Nacional de Aduanas de Chile",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "aduana-chile-proxy-google-news",
+        "name": "Aduanas [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:aduana.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:aduana.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:aduana.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "aduana-chile-proxy-bing-news",
+        "name": "Aduanas [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:aduana.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:aduana.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:aduana.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "tesoreria-general",
+    "name": "Tesorería General de la República",
+    "url": "https://www.tgr.cl",
+    "category": "government",
+    "description": "Sitio oficial de la Tesorería General de la República de Chile",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "tesoreria-general-proxy-google-news",
+        "name": "TGR [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tgr.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tgr.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tgr.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "tesoreria-general-proxy-bing-news",
+        "name": "TGR [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tgr.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tgr.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tgr.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "renovacion-nacional",
+    "name": "Renovación Nacional",
+    "url": "https://rn.cl",
+    "category": "news",
+    "description": "Partido político chileno - Sitio oficial de Renovación Nacional",
+    "reason": "Sin feed RSS detectado (sitio Wix sin soporte RSS)",
+    "feeds": [
+      {
+        "id": "renovacion-nacional-proxy-google-news",
+        "name": "Renovación Nacional [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:rn.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:rn.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:rn.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "renovacion-nacional-proxy-bing-news",
+        "name": "Renovación Nacional [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:rn.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:rn.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:rn.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "partido-de-la-gente",
+    "name": "Partido de la Gente",
+    "url": "https://partidodelagente.cl",
+    "category": "news",
+    "description": "Partido político chileno - Sitio oficial del Partido de la Gente (PDG)",
+    "reason": "Feed sin actividad desde Jun 2023",
+    "feeds": [
+      {
+        "id": "partido-de-la-gente-proxy-google-news",
+        "name": "PDG [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:partidodelagente.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:partidodelagente.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:partidodelagente.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "partido-de-la-gente-proxy-bing-news",
+        "name": "PDG [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:partidodelagente.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:partidodelagente.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:partidodelagente.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "partido-social-cristiano",
+    "name": "Partido Social Cristiano",
+    "url": "https://pscchile.cl",
+    "category": "news",
+    "description": "Partido político chileno - Disuelto Feb 2026, renombrado a Partido Cristiano de Chile",
+    "reason": "Sitio no responde (DNS no resuelve, partido disuelto Feb 2026)",
+    "feeds": [
+      {
+        "id": "partido-social-cristiano-proxy-google-news",
+        "name": "PSC [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:pscchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:pscchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:pscchile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "partido-social-cristiano-proxy-bing-news",
+        "name": "PSC [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:pscchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:pscchile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:pscchile.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "amarillos-por-chile",
+    "name": "Amarillos por Chile",
+    "url": "https://amarillosxchile.cl",
+    "category": "news",
+    "description": "Partido político chileno - Disuelto Feb 2026",
+    "reason": "Sitio no responde (DNS no resuelve, partido disuelto Feb 2026)",
+    "feeds": [
+      {
+        "id": "amarillos-por-chile-proxy-google-news",
+        "name": "Amarillos por Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:amarillosxchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:amarillosxchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:amarillosxchile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "amarillos-por-chile-proxy-bing-news",
+        "name": "Amarillos por Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:amarillosxchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:amarillosxchile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:amarillosxchile.cl en Proxy Bing News",
+        "last_checked": "2026-07-29T12:00:00.000Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "ministerio-de-agricultura",
+    "name": "Ministerio de Agricultura",
+    "url": "https://www.minagri.gob.cl",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio de Agricultura de Chile - Noticias del sector agrícola",
+    "feeds": [
+      {
+        "id": "ministerio-de-agricultura-main",
+        "name": "Ministerio de Agricultura",
+        "rss_url": "https://www.minagri.gob.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.518Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-noticia",
+        "name": "Ministerio de Agricultura - Noticia",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=noticia",
+        "url": "https://www.minagri.gob.cl/noticia/",
+        "description": "Feed de la sección 'Noticia' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "category": "news",
+        "last_checked": "2026-07-30T22:29:46.518Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-de-tarapaca",
+        "name": "Ministerio de Agricultura - Region De Tarapaca",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-de-tarapaca",
+        "url": "https://www.minagri.gob.cl/region-de-tarapaca/",
+        "description": "Feed de la sección 'Region De Tarapaca' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.519Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-de-antofagasta",
+        "name": "Ministerio de Agricultura - Region De Antofagasta",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-de-antofagasta",
+        "url": "https://www.minagri.gob.cl/region-de-antofagasta/",
+        "description": "Feed de la sección 'Region De Antofagasta' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.519Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-de-atacama",
+        "name": "Ministerio de Agricultura - Region De Atacama",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-de-atacama",
+        "url": "https://www.minagri.gob.cl/region-de-atacama/",
+        "description": "Feed de la sección 'Region De Atacama' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.519Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-de-coquimbo",
+        "name": "Ministerio de Agricultura - Region De Coquimbo",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-de-coquimbo",
+        "url": "https://www.minagri.gob.cl/region-de-coquimbo/",
+        "description": "Feed de la sección 'Region De Coquimbo' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.519Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-de-valparaiso",
+        "name": "Ministerio de Agricultura - Region De Valparaiso",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-de-valparaiso",
+        "url": "https://www.minagri.gob.cl/region-de-valparaiso/",
+        "description": "Feed de la sección 'Region De Valparaiso' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.519Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-metropolitana",
+        "name": "Ministerio de Agricultura - Region Metropolitana",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-metropolitana",
+        "url": "https://www.minagri.gob.cl/region-metropolitana/",
+        "description": "Feed de la sección 'Region Metropolitana' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.519Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-del-maule",
+        "name": "Ministerio de Agricultura - Region Del Maule",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-del-maule",
+        "url": "https://www.minagri.gob.cl/region-del-maule/",
+        "description": "Feed de la sección 'Region Del Maule' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.519Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-de-nuble",
+        "name": "Ministerio de Agricultura - Region De Nuble",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-de-nuble",
+        "url": "https://www.minagri.gob.cl/region-de-nuble/",
+        "description": "Feed de la sección 'Region De Nuble' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.519Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-del-biobio",
+        "name": "Ministerio de Agricultura - Region Del Biobio",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-del-biobio",
+        "url": "https://www.minagri.gob.cl/region-del-biobio/",
+        "description": "Feed de la sección 'Region Del Biobio' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.519Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-de-la-araucania",
+        "name": "Ministerio de Agricultura - Region De La Araucania",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-de-la-araucania",
+        "url": "https://www.minagri.gob.cl/region-de-la-araucania/",
+        "description": "Feed de la sección 'Region De La Araucania' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.519Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-de-los-rios",
+        "name": "Ministerio de Agricultura - Region De Los Rios",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-de-los-rios",
+        "url": "https://www.minagri.gob.cl/region-de-los-rios/",
+        "description": "Feed de la sección 'Region De Los Rios' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.520Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-de-los-lagos",
+        "name": "Ministerio de Agricultura - Region De Los Lagos",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-de-los-lagos",
+        "url": "https://www.minagri.gob.cl/region-de-los-lagos/",
+        "description": "Feed de la sección 'Region De Los Lagos' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.520Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-region-de-aysen",
+        "name": "Ministerio de Agricultura - Region De Aysen",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=region-de-aysen",
+        "url": "https://www.minagri.gob.cl/region-de-aysen/",
+        "description": "Feed de la sección 'Region De Aysen' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.520Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-agroseguros",
+        "name": "Ministerio de Agricultura - Agroseguros",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=agroseguros",
+        "url": "https://www.minagri.gob.cl/agroseguros/",
+        "description": "Feed de la sección 'Agroseguros' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.520Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-ministro-de-agricultura",
+        "name": "Ministerio de Agricultura - Ministro De Agricultura",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=ministro-de-agricultura",
+        "url": "https://www.minagri.gob.cl/ministro-de-agricultura/",
+        "description": "Feed de la sección 'Ministro De Agricultura' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.520Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-seremis",
+        "name": "Ministerio de Agricultura - Seremis",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=seremis",
+        "url": "https://www.minagri.gob.cl/seremis/",
+        "description": "Feed de la sección 'Seremis' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.520Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-agregados-agricolas",
+        "name": "Ministerio de Agricultura - Agregados Agricolas",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=agregados-agricolas",
+        "url": "https://www.minagri.gob.cl/agregados-agricolas/",
+        "description": "Feed de la sección 'Agregados Agricolas' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.520Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-quienes-somos-2",
+        "name": "Ministerio de Agricultura - Quienes Somos 2",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=quienes-somos-2",
+        "url": "https://www.minagri.gob.cl/quienes-somos-2/",
+        "description": "Feed de la sección 'Quienes Somos 2' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.520Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-cuentas-publicas",
+        "name": "Ministerio de Agricultura - Cuentas Publicas",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=cuentas-publicas",
+        "url": "https://www.minagri.gob.cl/cuentas-publicas/",
+        "description": "Feed de la sección 'Cuentas Publicas' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.520Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-participacion-ciudadana",
+        "name": "Ministerio de Agricultura - Participacion Ciudadana",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=participacion-ciudadana",
+        "url": "https://www.minagri.gob.cl/participacion-ciudadana/",
+        "description": "Feed de la sección 'Participacion Ciudadana' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.520Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-centro-de-documentacion-2",
+        "name": "Ministerio de Agricultura - Centro De Documentacion 2",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=centro-de-documentacion-2",
+        "url": "https://www.minagri.gob.cl/centro-de-documentacion-2/",
+        "description": "Feed de la sección 'Centro De Documentacion 2' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.521Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-noticias-minagri",
+        "name": "Ministerio de Agricultura - Noticias Minagri",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=noticias-minagri",
+        "url": "https://www.minagri.gob.cl/noticias-minagri/",
+        "description": "Feed de la sección 'Noticias Minagri' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.521Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-contacto-prensa",
+        "name": "Ministerio de Agricultura - Contacto Prensa",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=contacto-prensa",
+        "url": "https://www.minagri.gob.cl/contacto-prensa/",
+        "description": "Feed de la sección 'Contacto Prensa' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.521Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-formulario-contacto",
+        "name": "Ministerio de Agricultura - Formulario Contacto",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=formulario-contacto",
+        "url": "https://www.minagri.gob.cl/formulario-contacto/",
+        "description": "Feed de la sección 'Formulario Contacto' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.521Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-contacto-y-redes-sociales",
+        "name": "Ministerio de Agricultura - Contacto Y Redes Sociales",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=contacto-y-redes-sociales",
+        "url": "https://www.minagri.gob.cl/contacto-y-redes-sociales/",
+        "description": "Feed de la sección 'Contacto Y Redes Sociales' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.521Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-consultas-ciudadanas",
+        "name": "Ministerio de Agricultura - Consultas Ciudadanas",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=consultas-ciudadanas",
+        "url": "https://www.minagri.gob.cl/consultas-ciudadanas/",
+        "description": "Feed de la sección 'Consultas Ciudadanas' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.521Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-no-mosca-de-la-fruta",
+        "name": "Ministerio de Agricultura - No Mosca De La Fruta",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=no-mosca-de-la-fruta",
+        "url": "https://www.minagri.gob.cl/no-mosca-de-la-fruta/",
+        "description": "Feed de la sección 'No Mosca De La Fruta' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.521Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-memoria_22_26",
+        "name": "Ministerio de Agricultura - Memoria_22_26",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=memoria_22_26",
+        "url": "https://www.minagri.gob.cl/memoria_22_26/",
+        "description": "Feed de la sección 'Memoria_22_26' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.521Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-estrategia_mujeres",
+        "name": "Ministerio de Agricultura - Estrategia_mujeres",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=estrategia_mujeres",
+        "url": "https://www.minagri.gob.cl/estrategia_mujeres/",
+        "description": "Feed de la sección 'Estrategia_mujeres' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.521Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-atencion-en-linea",
+        "name": "Ministerio de Agricultura - Atencion En Linea",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=atencion-en-linea",
+        "url": "https://www.minagri.gob.cl/atencion-en-linea/",
+        "description": "Feed de la sección 'Atencion En Linea' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.521Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-cuentapublica2026",
+        "name": "Ministerio de Agricultura - Cuentapublica2026",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=cuentapublica2026",
+        "url": "https://www.minagri.gob.cl/cuentapublica2026/",
+        "description": "Feed de la sección 'Cuentapublica2026' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.522Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-minagriprod",
+        "name": "Ministerio de Agricultura - Minagriprod",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=minagriprod",
+        "url": "https://www.minagri.gob.cl/minagriprod/",
+        "description": "Feed de la sección 'Minagriprod' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.522Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-sistema-de-integridad",
+        "name": "Ministerio de Agricultura - Sistema De Integridad",
+        "rss_url": "https://www.minagri.gob.cl/feed/?category=sistema-de-integridad",
+        "url": "https://www.minagri.gob.cl/sistema-de-integridad/",
+        "description": "Feed de la sección 'Sistema De Integridad' en Ministerio de Agricultura",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:46.522Z",
+        "last_known_item_date": "2025-12-23T11:17:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "ministerio-de-agricultura-proxy-google-news",
+        "name": "Ministerio de Agricultura [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:minagri.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:minagri.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minagri.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-30T22:29:46.522Z",
+        "last_known_item_date": "2026-07-29T22:40:19.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ministerio-de-agricultura-proxy-bing-news",
+        "name": "Ministerio de Agricultura [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:minagri.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:minagri.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:minagri.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-30T22:29:46.522Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Solo feeds proxy activos (feeds nativos inactivos)"
+  },
+  {
+    "id": "comision-nacional-de-energia",
+    "name": "Comisión Nacional de Energía",
+    "url": "https://www.cne.cl",
+    "category": "government",
+    "description": "Sitio oficial de la Comisión Nacional de Energía de Chile",
+    "feeds": [
+      {
+        "id": "comision-nacional-de-energia-main",
+        "name": "Comisión Nacional de Energía",
+        "rss_url": "https://www.cne.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:48.441Z",
+        "last_known_item_date": "2025-05-30T16:41:27.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "comision-nacional-de-energia-informacion-y-estadisticas",
+        "name": "Comisión Nacional de Energía - Información Y Estadísticas",
+        "rss_url": "https://www.cne.cl/category/informacion-y-estadisticas/feed/",
+        "url": "https://www.cne.cl/category/informacion-y-estadisticas/",
+        "description": "Feed de la categoría 'Información Y Estadísticas' en Comisión Nacional de Energía",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:29:48.441Z",
+        "last_known_item_date": "2025-05-30T16:41:27.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "comision-nacional-de-energia-proxy-google-news",
+        "name": "Comisión Nacional de Energía [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:cne.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cne.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cne.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-30T22:29:48.442Z",
+        "last_known_item_date": "2026-06-24T17:07:11.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "comision-nacional-de-energia-proxy-bing-news",
+        "name": "Comisión Nacional de Energía [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:cne.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cne.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cne.cl en Proxy Bing News",
+        "last_checked": "2026-07-30T22:29:48.442Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "union-democrata-independiente",
+    "name": "Unión Demócrata Independiente",
+    "url": "https://udi.cl",
+    "category": "political-parties",
+    "description": "Partido político chileno - Noticias, comunicados y actividades de la UDI",
+    "feeds": [
+      {
+        "id": "union-democrata-independiente-main",
+        "name": "UDI",
+        "rss_url": "https://udi.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:06.260Z",
+        "last_known_item_date": "2026-02-05T19:16:37.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "union-democrata-independiente-principios",
+        "name": "Unión Demócrata Independiente - Principios",
+        "rss_url": "https://udi.cl/feed/?category=principios",
+        "url": "https://udi.cl/principios/",
+        "description": "Feed de la sección 'Principios' en Unión Demócrata Independiente",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:06.260Z",
+        "last_known_item_date": "2026-02-05T19:16:37.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "union-democrata-independiente-estructuras",
+        "name": "Unión Demócrata Independiente - Estructuras",
+        "rss_url": "https://udi.cl/feed/?category=estructuras",
+        "url": "https://udi.cl/estructuras/",
+        "description": "Feed de la sección 'Estructuras' en Unión Demócrata Independiente",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:06.260Z",
+        "last_known_item_date": "2026-02-05T19:16:37.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "union-democrata-independiente-representantes",
+        "name": "Unión Demócrata Independiente - Representantes",
+        "rss_url": "https://udi.cl/feed/?category=representantes",
+        "url": "https://udi.cl/representantes/",
+        "description": "Feed de la sección 'Representantes' en Unión Demócrata Independiente",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:06.260Z",
+        "last_known_item_date": "2026-02-05T19:16:37.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "union-democrata-independiente-proxy-google-news",
+        "name": "UDI [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:udi.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:udi.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:udi.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-30T22:30:06.260Z",
+        "last_known_item_date": "2026-02-05T08:00:00.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "union-democrata-independiente-proxy-bing-news",
+        "name": "UDI [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:udi.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:udi.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:udi.cl en Proxy Bing News",
+        "last_checked": "2026-07-30T22:30:06.260Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "evopoli",
+    "name": "Evópoli",
+    "url": "https://evopoli.cl",
+    "category": "political-parties",
+    "description": "Partido político chileno - Noticias, comunicados y actividades de Evópoli",
+    "feeds": [
+      {
+        "id": "evopoli-main",
+        "name": "Evópoli",
+        "rss_url": "https://evopoli.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:13.721Z",
+        "last_known_item_date": "2026-06-15T20:12:29.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "evopoli-conoce-evopoli",
+        "name": "Evópoli - Conoce Evopoli",
+        "rss_url": "https://evopoli.cl/feed/?category=conoce-evopoli",
+        "url": "https://evopoli.cl/conoce-evopoli/",
+        "description": "Feed de la sección 'Conoce Evopoli' en Evópoli",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:13.721Z",
+        "last_known_item_date": "2026-06-15T20:12:29.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "evopoli-evopoli-en-chile",
+        "name": "Evópoli - Evopoli En Chile",
+        "rss_url": "https://evopoli.cl/feed/?category=evopoli-en-chile",
+        "url": "https://evopoli.cl/evopoli-en-chile/",
+        "description": "Feed de la sección 'Evopoli En Chile' en Evópoli",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:13.721Z",
+        "last_known_item_date": "2026-06-15T20:12:29.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "evopoli-noticias",
+        "name": "Evópoli - Noticias",
+        "rss_url": "https://evopoli.cl/feed/?category=noticias",
+        "url": "https://evopoli.cl/noticias/",
+        "description": "Feed de la sección 'Noticias' en Evópoli",
+        "feed_type": "RSS",
+        "category": "news",
+        "last_checked": "2026-07-30T22:30:13.721Z",
+        "last_known_item_date": "2026-06-15T20:12:29.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "evopoli-agenda",
+        "name": "Evópoli - Agenda",
+        "rss_url": "https://evopoli.cl/feed/?category=agenda",
+        "url": "https://evopoli.cl/agenda/",
+        "description": "Feed de la sección 'Agenda' en Evópoli",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:13.721Z",
+        "last_known_item_date": "2026-06-15T20:12:29.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "evopoli-transparencia-evopoli",
+        "name": "Evópoli - Transparencia Evopoli",
+        "rss_url": "https://evopoli.cl/feed/?category=transparencia-evopoli",
+        "url": "https://evopoli.cl/transparencia-evopoli/",
+        "description": "Feed de la sección 'Transparencia Evopoli' en Evópoli",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:13.722Z",
+        "last_known_item_date": "2026-06-15T20:12:29.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "evopoli-militancia",
+        "name": "Evópoli - Militancia",
+        "rss_url": "https://evopoli.cl/feed/?category=militancia",
+        "url": "https://evopoli.cl/militancia/",
+        "description": "Feed de la sección 'Militancia' en Evópoli",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:13.722Z",
+        "last_known_item_date": "2026-06-15T20:12:29.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "evopoli-aportes",
+        "name": "Evópoli - Aportes",
+        "rss_url": "https://evopoli.cl/feed/?category=aportes",
+        "url": "https://evopoli.cl/aportes/",
+        "description": "Feed de la sección 'Aportes' en Evópoli",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:30:13.722Z",
+        "last_known_item_date": "2026-06-15T20:12:29.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "evopoli-proxy-google-news",
+        "name": "Evópoli [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:evopoli.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:evopoli.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:evopoli.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-30T22:30:13.722Z",
+        "last_known_item_date": "2026-05-22T07:00:00.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "evopoli-proxy-bing-news",
+        "name": "Evópoli [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:evopoli.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:evopoli.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:evopoli.cl en Proxy Bing News",
+        "last_checked": "2026-07-30T22:30:13.722Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "partido-humanista",
+    "name": "Partido Humanista de Chile",
+    "url": "https://partidohumanista.cl",
+    "category": "political-parties",
+    "description": "Partido político chileno - Noticias, comunicados y actividades del Partido Humanista",
+    "feeds": [
+      {
+        "id": "partido-humanista-main",
+        "name": "Partido Humanista",
+        "rss_url": "https://partidohumanista.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.681Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-noticias",
+        "name": "Partido Humanista de Chile - Noticias",
+        "rss_url": "https://partidohumanista.cl/feed/?category=noticias",
+        "url": "https://partidohumanista.cl/noticias/",
+        "description": "Feed de la sección 'Noticias' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "category": "news",
+        "last_checked": "2026-07-30T22:31:34.681Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-elecciones-internas-2025",
+        "name": "Partido Humanista de Chile - Elecciones Internas 2025",
+        "rss_url": "https://partidohumanista.cl/feed/?category=elecciones-internas-2025",
+        "url": "https://partidohumanista.cl/elecciones-internas-2025/",
+        "description": "Feed de la sección 'Elecciones Internas 2025' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.681Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-transparencia",
+        "name": "Partido Humanista de Chile - Transparencia",
+        "rss_url": "https://partidohumanista.cl/feed/?category=transparencia",
+        "url": "https://partidohumanista.cl/transparencia/",
+        "description": "Feed de la sección 'Transparencia' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.681Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-politicos",
+        "name": "Partido Humanista de Chile - Politicos",
+        "rss_url": "https://partidohumanista.cl/feed/?category=politicos",
+        "url": "https://partidohumanista.cl/politicos/",
+        "description": "Feed de la sección 'Politicos' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.681Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-legales",
+        "name": "Partido Humanista de Chile - Legales",
+        "rss_url": "https://partidohumanista.cl/feed/?category=legales",
+        "url": "https://partidohumanista.cl/legales/",
+        "description": "Feed de la sección 'Legales' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.681Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-referentes",
+        "name": "Partido Humanista de Chile - Referentes",
+        "rss_url": "https://partidohumanista.cl/feed/?category=referentes",
+        "url": "https://partidohumanista.cl/referentes/",
+        "description": "Feed de la sección 'Referentes' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.681Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-ideologia",
+        "name": "Partido Humanista de Chile - Ideologia",
+        "rss_url": "https://partidohumanista.cl/feed/?category=ideologia",
+        "url": "https://partidohumanista.cl/ideologia/",
+        "description": "Feed de la sección 'Ideologia' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.682Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-materiales-oficiales",
+        "name": "Partido Humanista de Chile - Materiales Oficiales",
+        "rss_url": "https://partidohumanista.cl/feed/?category=materiales-oficiales",
+        "url": "https://partidohumanista.cl/materiales-oficiales/",
+        "description": "Feed de la sección 'Materiales Oficiales' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.682Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-formacion-ph",
+        "name": "Partido Humanista de Chile - Formacion Ph",
+        "rss_url": "https://partidohumanista.cl/feed/?category=formacion-ph",
+        "url": "https://partidohumanista.cl/formacion-ph/",
+        "description": "Feed de la sección 'Formacion Ph' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.682Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-inicio",
+        "name": "Partido Humanista de Chile - Inicio",
+        "rss_url": "https://partidohumanista.cl/feed/?category=inicio",
+        "url": "https://partidohumanista.cl/inicio/",
+        "description": "Feed de la sección 'Inicio' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.682Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-ecn",
+        "name": "Partido Humanista de Chile - Ecn",
+        "rss_url": "https://partidohumanista.cl/feed/?category=ecn",
+        "url": "https://partidohumanista.cl/ecn/",
+        "description": "Feed de la sección 'Ecn' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.682Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-videoteca",
+        "name": "Partido Humanista de Chile - Videoteca",
+        "rss_url": "https://partidohumanista.cl/feed/?category=videoteca",
+        "url": "https://partidohumanista.cl/videoteca/",
+        "description": "Feed de la sección 'Videoteca' en Partido Humanista de Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-30T22:31:34.682Z",
+        "last_known_item_date": "2026-05-11T20:02:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-proxy-google-news",
+        "name": "Partido Humanista [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:partidohumanista.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:partidohumanista.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:partidohumanista.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-30T22:31:34.682Z",
+        "last_known_item_date": "2026-05-11T07:00:00.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "partido-humanista-proxy-bing-news",
+        "name": "Partido Humanista [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:partidohumanista.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:partidohumanista.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:partidohumanista.cl en Proxy Bing News",
+        "last_checked": "2026-07-30T22:31:34.682Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
   }
 ]

@@ -242,5 +242,38 @@
       "salud-y-bienestar"
     ],
     "order": 16
+  },
+  "political-parties": {
+    "label": "🗳️ Partidos Políticos",
+    "slugs": [
+      "partido-politico",
+      "partidos-politicos",
+      "partido",
+      "politico",
+      "politica-partidaria",
+      "colectividad",
+      "coalicion",
+      "movimiento-politico",
+      "frente-politico",
+      "partido-politico-chile",
+      "udi",
+      "rn",
+      "evopoli",
+      "republicanos",
+      "democratas",
+      "amarillos",
+      "dc",
+      "pdc",
+      "partido-socialista",
+      "ppd",
+      "pc",
+      "frvs",
+      "frente-amplio",
+      "fa",
+      "partido-liberal",
+      "accion-humanista",
+      "partido-humanista"
+    ],
+    "order": 17
   }
 }

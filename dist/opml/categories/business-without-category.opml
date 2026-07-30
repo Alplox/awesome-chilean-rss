@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (236 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (237 feeds)</title>
     <description>Feeds RSS de 💼 Economia, Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-25T23:01:15.148Z</dateCreated>
+    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -27,6 +27,7 @@
     <outline type="rss" text="Atacama Noticias - Minería y Economía" title="Atacama Noticias - Minería y Economía" description="Feed de la categoría 'Minería y Economía' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/mineria_y_economia/feed/" htmlUrl="https://www.atacamanoticias.cl/category/mineria_y_economia/"/>
     <outline type="rss" text="Aurora Noticias - Economía" title="Aurora Noticias - Economía" description="Feed de la categoría 'Economía' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/economia/feed/" htmlUrl="https://auroranoticias.cl/economia/"/>
     <outline type="rss" text="Aurora Noticias - Emprendimiento" title="Aurora Noticias - Emprendimiento" description="Feed de la categoría 'Emprendimiento' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/emprendimiento/feed/" htmlUrl="https://auroranoticias.cl/emprendimiento/"/>
+    <outline type="rss" text="Base Nacional - Economía" title="Base Nacional - Economía" description="Feed de la categoría 'Economía' en Base Nacional" xmlUrl="https://basenacional.cl/category/economia/feed/" htmlUrl="https://basenacional.cl/category/economia/"/>
     <outline type="rss" text="Cadena Política - Economía" title="Cadena Política - Economía" description="Feed de la categoría 'Economía' en Cadena Política" xmlUrl="https://cadenapolitica.com/category/economia/feed/" htmlUrl="https://cadenapolitica.com/category/economia/"/>
     <outline type="rss" text="Calama en Línea - Economía" title="Calama en Línea - Economía" description="Feed de la categoría 'Economía' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/economia/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/economia/"/>
     <outline type="rss" text="Chocale" title="Chocale" description="Diario de economía y negocios de Chile" xmlUrl="https://chocale.cl/feed/" htmlUrl="https://chocale.cl"/>
