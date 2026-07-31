@@ -2,15 +2,15 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-404-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4527-blue)
+![Sitios](https://img.shields.io/badge/sitios-409-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4553-blue)
 
-> El directorio más completo de feeds RSS chilenos. 404 sitios, 4527 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 409 sitios, 4553 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2475 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2484 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
@@ -21,14 +21,14 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 
 <https://alplox.github.io/awesome-chilean-rss-app/>
 
-## 📝 Fuentes disponibles (404 sitios, 4527 feeds)
+## 📝 Fuentes disponibles (409 sitios, 4553 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 230 sitios, 856 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 75 sitios, 206 feeds
-- [🌎 Medios Regionales](#cat-regional) — 200 sitios, 1628 feeds
+- [📰 Noticias Nacionales](#cat-news) — 232 sitios, 859 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 76 sitios, 207 feeds
+- [🌎 Medios Regionales](#cat-regional) — 201 sitios, 1629 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 82 sitios, 326 feeds
 - [🏛️ Gobierno y Datos Públicos](#cat-government) — 39 sitios, 156 feeds
 - [🏫 Educación, Universidades e Investigación](#cat-education) — 67 sitios, 120 feeds
@@ -36,16 +36,16 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 - [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 18 sitios, 20 feeds
 - [🎨 Cultura y Divulgación](#cat-culture) — 98 sitios, 117 feeds
 - [👥 Comunidad](#cat-community) — 82 sitios, 154 feeds
-- [⚽ Deportes](#cat-sports) — 135 sitios, 182 feeds
+- [⚽ Deportes](#cat-sports) — 137 sitios, 190 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 12 sitios, 95 feeds
 - [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 65 sitios, 128 feeds
 - [🎭 Espectáculos y Entretención](#cat-entertainment) — 50 sitios, 100 feeds
-- [📻 Radio y Música](#cat-radio) — 24 sitios, 58 feeds
+- [📻 Radio y Música](#cat-radio) — 27 sitios, 71 feeds
 - [🏥 Salud y Bienestar](#cat-health) — 72 sitios, 108 feeds
 - [🗳️ Partidos Políticos](#cat-political-parties) — 9 sitios, 36 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (230 sitios, 856 feeds)
+### 📰 Noticias Nacionales (232 sitios, 859 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -82,6 +82,9 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - Alerta Noticias Temuco - Actualidad: `https://alertanoticiastemuco.cl/category/actualidad/feed/`
   - Alerta Noticias Temuco - Nacional: `https://alertanoticiastemuco.cl/category/nacional/feed/`
   - Alerta Noticias Temuco - Política: `https://alertanoticiastemuco.cl/category/politica/feed/`
+- **Amigos Penquistas** — Sitio de hinchas del club de fútbol Deportes Concepción
+  - Amigos Penquistas - Noticias: `https://amigospenquistas.cl/category/noticias/feed/`
+  - Amigos Penquistas - Nacional: `https://amigospenquistas.cl/category/nacional/feed/`
 - **Anda**: Feed de la categoría 'Noticias' en Anda
   - RSS: `https://anda.cl/categoria/noticias/feed/`
 - **ANEF**: Feed de la categoría 'Noticias' en ANEF
@@ -972,6 +975,8 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - RSS: `https://radiomagallanes.cl/category/politica/feed/`
 - **Radio Maray**: Feed de la categoría 'País' en Radio Maray
   - RSS: `https://www.maray.cl/category/pais/feed/`
+- **Radio Modelo**: Feed de la categoría 'Noticias' en Radio Modelo
+  - RSS: `https://radiomodelo.cl/category/noticias/feed/`
 - **Radio Nuevo Mundo** — Emisora nacional 104.7 FM
   - Radio Nuevo Mundo: `https://radionuevomundo.cl/feed/`
   - Radio Nuevo Mundo - Noticias: `https://radionuevomundo.cl/categoria/noticias/feed/`
@@ -1139,12 +1144,14 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (75 sitios, 206 feeds)
+### 🌐 Noticias Internacionales (76 sitios, 207 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'El Mundo' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/el-mundo/feed/`
+- **Amigos Penquistas**: Feed de la categoría 'Internacional' en Amigos Penquistas
+  - RSS: `https://amigospenquistas.cl/category/internacional/feed/`
 - **Antofagasta al Día**: Feed de la categoría 'Internacional' en Antofagasta al Día
   - RSS: `https://antofagastaaldia.cl/category/internacional/feed/`
 - **Atacama Noticias**: Feed de la categoría 'Internacional' en Atacama Noticias
@@ -1428,7 +1435,7 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (200 sitios, 1628 feeds)
+### 🌎 Medios Regionales (201 sitios, 1629 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
@@ -3246,10 +3253,20 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - San Carlos On Line [Proxy Google News]: `https://news.google.com/rss/search?q=site:sancarlosonline.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - San Carlos On Line [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sancarlosonline.cl&format=RSS`
 
-#### 📍 Biobío (9 medios)
+#### 📍 Biobío (10 medios)
 
 *Descargar OPML regional: [`biobio.opml`](dist/opml/regions/biobio.opml)*
 
+- **Amigos Penquistas** — Sitio de hinchas del club de fútbol Deportes Concepción
+  - Amigos Penquistas: `https://amigospenquistas.cl/feed/`
+  - Amigos Penquistas - Noticias: `https://amigospenquistas.cl/category/noticias/feed/`
+  - Amigos Penquistas - Ultimo Minuto: `https://amigospenquistas.cl/category/ultimo-minuto/feed/`
+  - Amigos Penquistas - Nacional: `https://amigospenquistas.cl/category/nacional/feed/`
+  - Amigos Penquistas - Regional: `https://amigospenquistas.cl/category/regional/feed/`
+  - Amigos Penquistas - Miscelanea: `https://amigospenquistas.cl/category/miscelanea/feed/`
+  - Amigos Penquistas - Internacional: `https://amigospenquistas.cl/category/internacional/feed/`
+  - Amigos Penquistas - Deportes: `https://amigospenquistas.cl/category/deportes/feed/`
+  - Amigos Penquistas [Proxy Google News]: `https://news.google.com/rss/search?q=site:amigospenquistas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diario Concepción** — Diario regional con cobertura informativa de la Región del Biobío
   - Diario Concepción: `https://www.diarioconcepcion.cl/rss.xml`
   - Diario Concepción [Proxy Google News]: `https://news.google.com/rss/search?q=site:diarioconcepcion.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -5991,7 +6008,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (135 sitios, 182 feeds)
+### ⚽ Deportes (137 sitios, 190 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
@@ -6011,6 +6028,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://alertanoticias.cl/category/deportes/feed/`
 - **Alerta Noticias Temuco**: Feed de la categoría 'Deporte' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/deporte/feed/`
+- **Amigos Penquistas** — Sitio de hinchas del club de fútbol Deportes Concepción
+  - Amigos Penquistas: `https://amigospenquistas.cl/feed/`
+  - Amigos Penquistas - Ultimo Minuto: `https://amigospenquistas.cl/category/ultimo-minuto/feed/`
+  - Amigos Penquistas - Miscelanea: `https://amigospenquistas.cl/category/miscelanea/feed/`
+  - Amigos Penquistas - Deportes: `https://amigospenquistas.cl/category/deportes/feed/`
+  - Amigos Penquistas [Proxy Google News]: `https://news.google.com/rss/search?q=site:amigospenquistas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Antofacity**: Feed de la categoría 'Salud y Deporte' en Antofacity
   - RSS: `https://antofacity.com/category/sal_y_dep/feed/`
 - **Antofagasta al Día**: Feed de la categoría 'Deportes' en Antofagasta al Día
@@ -6193,6 +6216,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://miradasurtv.cl/category/deportes/feed/`
 - **Música y Noticias**: Feed de la categoría 'Deportes' en Música y Noticias
   - RSS: `https://www.musicaynoticias.cl/category/deportes/feed/`
+- **Nevasport Chile** — Portal de nieve y ski Nevasport - Noticias de centros de ski de Chile
+  - Nevasport Chile: `https://www.nevasport.com/feeds.php?from=blogs&id_blogs=39`
+  - Nevasport Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:nevasport.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Nevasport Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:nevasport.com&format=RSS`
 - **Nostálgica**: Feed de la categoría 'Deportes' en Nostálgica
   - RSS: `https://www.nostalgica.cl/category/deportes/feed/`
 - **Noticias Chiloé** — Diario regional de Castro, Los Lagos
@@ -6790,7 +6817,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-radio"></a>
-### 📻 Radio y Música (24 sitios, 58 feeds)
+### 📻 Radio y Música (27 sitios, 71 feeds)
 
 *Descargar OPML: [`radio.opml`](dist/opml/categories/radio.opml)*
 
@@ -6839,9 +6866,25 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Radio Atacama [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioatacama.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Buena Nueva**: Feed de la categoría 'Radio' en Radio Buena Nueva
   - RSS: `https://radiobuenanueva.cl/rb30/archivos/category/radio/feed/`
+- **Radio Futuro** — Emisora de rock chilena del grupo Prisa Radio
+  - Radio Futuro: `https://www.futuro.cl/feed/`
+  - Radio Futuro - Programas: `https://www.futuro.cl/feed/?category=programas`
+  - Radio Futuro - Frecuencias: `https://www.futuro.cl/feed/?category=frecuencias`
+  - Radio Futuro - '+parametros.perfil_url+': `https://www.futuro.cl/feed/?category='+parametros.perfil_url+'`
+  - Radio Futuro - Lo Ultimo: `https://www.futuro.cl/feed/?category=lo-ultimo`
+  - Radio Futuro [Proxy Google News]: `https://news.google.com/rss/search?q=site:futuro.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Futuro [Proxy Bing News]: `https://www.bing.com/news/search?q=site:futuro.cl&format=RSS`
 - **Radio La Señal** — Cadena de radioemisoras con cobertura en Valparaíso, Concepción, Temuco, Victoria, Osorno y Puerto Montt
   - Radio La Señal: `https://radiolasenal.cl/feed/`
   - Radio La Señal [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiolasenal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio María Chile** — Emisora católica de alcance nacional en Chile
+  - Radio María Chile: `https://radiomaria.cl/feed/`
+  - Radio María Chile - News: `https://radiomaria.cl/category/news/feed/`
+  - Radio María Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiomaria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Modelo** — Emisora chilena de música y entretención
+  - Radio Modelo: `https://radiomodelo.cl/feed/`
+  - Radio Modelo - Peñalolen: `https://radiomodelo.cl/category/penalolen/feed/`
+  - Radio Modelo [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiomodelo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Riquelme** — Radioemisora chilena con programación informativa y musical
   - Radio Riquelme: `https://radioriquelme.cl/feed/`
   - Radio Riquelme - Coquimbo: `https://radioriquelme.cl/category/coquimbo/feed/`

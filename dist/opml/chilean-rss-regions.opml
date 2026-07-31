@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Regionales (2475 feeds)</title>
+    <title>Awesome Chilean RSS - Regionales (2484 feeds)</title>
     <description>Feeds RSS de medios regionales chilenos agrupados por región.</description>
-    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
+    <dateCreated>2026-07-31T21:28:50.019Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -1650,6 +1650,15 @@
       <outline type="rss" text="San Carlos Online" title="San Carlos Online" description="Feed de la sección 'San Carlos Online' en San Carlos On Line" xmlUrl="https://www.sancarlosonline.cl/feeds/posts/default?alt=rss" htmlUrl="https://www.sancarlosonline.cl"/>
     </outline>
     <outline text="Biobío" title="Biobío">
+      <outline type="rss" text="Amigos Penquistas" title="Amigos Penquistas" description="Sitio de hinchas del club de fútbol Deportes Concepción" xmlUrl="https://amigospenquistas.cl/feed/" htmlUrl="https://amigospenquistas.cl"/>
+      <outline type="rss" text="Amigos Penquistas - Deportes" title="Amigos Penquistas - Deportes" description="Feed de la categoría 'Deportes' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/deportes/feed/" htmlUrl="https://amigospenquistas.cl/category/deportes/"/>
+      <outline type="rss" text="Amigos Penquistas - Internacional" title="Amigos Penquistas - Internacional" description="Feed de la categoría 'Internacional' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/internacional/feed/" htmlUrl="https://amigospenquistas.cl/category/internacional/"/>
+      <outline type="rss" text="Amigos Penquistas - Miscelanea" title="Amigos Penquistas - Miscelanea" description="Feed de la categoría 'Miscelanea' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/miscelanea/feed/" htmlUrl="https://amigospenquistas.cl/category/miscelanea/"/>
+      <outline type="rss" text="Amigos Penquistas - Nacional" title="Amigos Penquistas - Nacional" description="Feed de la categoría 'Nacional' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/nacional/feed/" htmlUrl="https://amigospenquistas.cl/category/nacional/"/>
+      <outline type="rss" text="Amigos Penquistas - Noticias" title="Amigos Penquistas - Noticias" description="Feed de la categoría 'Noticias' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/noticias/feed/" htmlUrl="https://amigospenquistas.cl/category/noticias/"/>
+      <outline type="rss" text="Amigos Penquistas - Regional" title="Amigos Penquistas - Regional" description="Feed de la categoría 'Regional' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/regional/feed/" htmlUrl="https://amigospenquistas.cl/category/regional/"/>
+      <outline type="rss" text="Amigos Penquistas - Ultimo Minuto" title="Amigos Penquistas - Ultimo Minuto" description="Feed de la categoría 'Ultimo Minuto' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/ultimo-minuto/feed/" htmlUrl="https://amigospenquistas.cl/category/ultimo-minuto/"/>
+      <outline type="rss" text="Amigos Penquistas [Proxy Google News]" title="Amigos Penquistas [Proxy Google News]" description="Resultados de site:amigospenquistas.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:amigospenquistas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:amigospenquistas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Diario Concepción" title="Diario Concepción" description="Diario regional con cobertura informativa de la Región del Biobío" xmlUrl="https://www.diarioconcepcion.cl/rss.xml" htmlUrl="https://www.diarioconcepcion.cl"/>
       <outline type="rss" text="Diario Concepción [Proxy Bing News]" title="Diario Concepción [Proxy Bing News]" description="Resultados de site:diarioconcepcion.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:diarioconcepcion.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:diarioconcepcion.cl"/>
       <outline type="rss" text="Diario Concepción [Proxy Google News]" title="Diario Concepción [Proxy Google News]" description="Resultados de site:diarioconcepcion.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioconcepcion.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioconcepcion.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

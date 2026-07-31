@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-30T22:32:57.027Z",
-  "total_feeds": 4527,
+  "last_updated": "2026-07-31T21:28:50.019Z",
+  "total_feeds": 4553,
   "sites": [
     {
       "id": "aconcagua-digital",
@@ -68454,6 +68454,231 @@
       ]
     },
     {
+      "id": "amigos-penquistas",
+      "name": "Amigos Penquistas",
+      "url": "https://amigospenquistas.cl",
+      "category": "sports",
+      "region": "biobio",
+      "description": "Sitio de hinchas del club de fútbol Deportes Concepción",
+      "feeds": [
+        {
+          "id": "amigos-penquistas-main",
+          "name": "Amigos Penquistas",
+          "rss_url": "https://amigospenquistas.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:27:29.091Z",
+          "last_known_item_date": "2026-07-31T20:09:36.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "amigos-penquistas-noticias",
+          "name": "Amigos Penquistas - Noticias",
+          "rss_url": "https://amigospenquistas.cl/category/noticias/feed/",
+          "url": "https://amigospenquistas.cl/category/noticias/",
+          "description": "Feed de la categoría 'Noticias' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "category": "news",
+          "last_checked": "2026-07-31T21:27:29.092Z",
+          "last_known_item_date": "2026-07-31T20:09:36.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "amigos-penquistas-ultimo-minuto",
+          "name": "Amigos Penquistas - Ultimo Minuto",
+          "rss_url": "https://amigospenquistas.cl/category/ultimo-minuto/feed/",
+          "url": "https://amigospenquistas.cl/category/ultimo-minuto/",
+          "description": "Feed de la categoría 'Ultimo Minuto' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:27:29.092Z",
+          "last_known_item_date": "2026-07-31T20:09:36.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "amigos-penquistas-nacional",
+          "name": "Amigos Penquistas - Nacional",
+          "rss_url": "https://amigospenquistas.cl/category/nacional/feed/",
+          "url": "https://amigospenquistas.cl/category/nacional/",
+          "description": "Feed de la categoría 'Nacional' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "category": "news",
+          "last_checked": "2026-07-31T21:27:29.092Z",
+          "last_known_item_date": "2026-07-31T18:49:16.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "amigos-penquistas-regional",
+          "name": "Amigos Penquistas - Regional",
+          "rss_url": "https://amigospenquistas.cl/category/regional/feed/",
+          "url": "https://amigospenquistas.cl/category/regional/",
+          "description": "Feed de la categoría 'Regional' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "category": "regional",
+          "last_checked": "2026-07-31T21:27:29.092Z",
+          "last_known_item_date": "2026-07-31T20:09:36.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "amigos-penquistas-miscelanea",
+          "name": "Amigos Penquistas - Miscelanea",
+          "rss_url": "https://amigospenquistas.cl/category/miscelanea/feed/",
+          "url": "https://amigospenquistas.cl/category/miscelanea/",
+          "description": "Feed de la categoría 'Miscelanea' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:27:29.092Z",
+          "last_known_item_date": "2026-07-31T19:25:34.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "amigos-penquistas-internacional",
+          "name": "Amigos Penquistas - Internacional",
+          "rss_url": "https://amigospenquistas.cl/category/internacional/feed/",
+          "url": "https://amigospenquistas.cl/category/internacional/",
+          "description": "Feed de la categoría 'Internacional' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "category": "news-international",
+          "last_checked": "2026-07-31T21:27:29.093Z",
+          "last_known_item_date": "2026-07-26T04:51:37.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "amigos-penquistas-deportes",
+          "name": "Amigos Penquistas - Deportes",
+          "rss_url": "https://amigospenquistas.cl/category/deportes/feed/",
+          "url": "https://amigospenquistas.cl/category/deportes/",
+          "description": "Feed de la categoría 'Deportes' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "category": "sports",
+          "last_checked": "2026-07-31T21:27:29.093Z",
+          "last_known_item_date": "2026-07-25T01:09:06.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "amigos-penquistas-datos-utiles",
+          "name": "Amigos Penquistas - Datos Utiles",
+          "rss_url": "https://amigospenquistas.cl/category/datos-utiles/feed/",
+          "url": "https://amigospenquistas.cl/category/datos-utiles/",
+          "description": "Feed de la categoría 'Datos Utiles' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:27:29.093Z",
+          "last_known_item_date": "2026-02-15T18:40:49.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "amigos-penquistas-relatos",
+          "name": "Amigos Penquistas - Relatos",
+          "rss_url": "https://amigospenquistas.cl/category/relatos/feed/",
+          "url": "https://amigospenquistas.cl/category/relatos/",
+          "description": "Feed de la categoría 'Relatos' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:27:29.093Z",
+          "last_known_item_date": "2025-02-26T21:47:38.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "amigos-penquistas-picadas-penquistas",
+          "name": "Amigos Penquistas - Picadas Penquistas",
+          "rss_url": "https://amigospenquistas.cl/category/picadas-penquistas/feed/",
+          "url": "https://amigospenquistas.cl/category/picadas-penquistas/",
+          "description": "Feed de la categoría 'Picadas Penquistas' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:27:29.094Z",
+          "last_known_item_date": "2023-07-12T16:16:45.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "amigos-penquistas-publicidad",
+          "name": "Amigos Penquistas - Publicidad",
+          "rss_url": "https://amigospenquistas.cl/category/publicidad/feed/",
+          "url": "https://amigospenquistas.cl/category/publicidad/",
+          "description": "Feed de la categoría 'Publicidad' en Amigos Penquistas",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:27:29.094Z",
+          "last_known_item_date": "2023-09-13T12:43:28.000Z",
+          "status": "stale",
+          "verified": false
+        },
+        {
+          "id": "amigos-penquistas-proxy-google-news",
+          "name": "Amigos Penquistas [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:amigospenquistas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:amigospenquistas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "feed_type": "RSS",
+          "description": "Resultados de site:amigospenquistas.cl en Proxy Google News de noticias Chilenas",
+          "last_checked": "2026-07-31T21:27:29.094Z",
+          "last_known_item_date": "2026-07-30T23:19:04.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "amigos-penquistas-proxy-bing-news",
+          "name": "Amigos Penquistas [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:amigospenquistas.cl&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:amigospenquistas.cl",
+          "feed_type": "RSS",
+          "description": "Resultados de site:amigospenquistas.cl en Proxy Bing News",
+          "last_checked": "2026-07-31T21:27:29.094Z",
+          "last_known_item_date": null,
+          "status": "feed_empty",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "nevasport",
+      "name": "Nevasport Chile",
+      "url": "https://www.nevasport.com/chile/",
+      "category": "sports",
+      "description": "Portal de nieve y ski Nevasport - Noticias de centros de ski de Chile",
+      "feeds": [
+        {
+          "id": "nevasport-chile",
+          "name": "Nevasport Chile",
+          "rss_url": "https://www.nevasport.com/feeds.php?from=blogs&id_blogs=39",
+          "url": "https://www.nevasport.com/chile/",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:27:41.222Z",
+          "last_known_item_date": "2026-07-29T20:05:00.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "nevasport-proxy-google-news",
+          "name": "Nevasport Chile [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:nevasport.com&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:nevasport.com&hl=es-419&gl=CL&ceid=CL:es-419",
+          "feed_type": "RSS",
+          "description": "Resultados de site:nevasport.com en Proxy Google News de noticias Chilenas",
+          "last_checked": "2026-07-31T21:27:41.223Z",
+          "last_known_item_date": "2026-07-31T20:29:33.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "nevasport-proxy-bing-news",
+          "name": "Nevasport Chile [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:nevasport.com&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:nevasport.com",
+          "feed_type": "RSS",
+          "description": "Resultados de site:nevasport.com en Proxy Bing News",
+          "last_checked": "2026-07-31T21:27:41.223Z",
+          "last_known_item_date": "2026-07-31T09:17:00.000Z",
+          "status": "active",
+          "verified": true
+        }
+      ]
+    },
+    {
       "id": "centralweb",
       "name": "CentralWeb",
       "url": "https://centralweb.cl",
@@ -81460,6 +81685,220 @@
           "last_known_item_date": null,
           "status": "feed_empty",
           "verified": false
+        }
+      ]
+    },
+    {
+      "id": "radio-maria-chile",
+      "name": "Radio María Chile",
+      "url": "https://radiomaria.cl",
+      "category": "radio",
+      "description": "Emisora católica de alcance nacional en Chile",
+      "feeds": [
+        {
+          "id": "radio-maria-chile-main",
+          "name": "Radio María Chile",
+          "rss_url": "https://radiomaria.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:27:07.889Z",
+          "last_known_item_date": "2026-07-30T15:52:08.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-maria-chile-news",
+          "name": "Radio María Chile - News",
+          "rss_url": "https://radiomaria.cl/category/news/feed/",
+          "url": "https://radiomaria.cl/category/news/",
+          "description": "Feed de la categoría 'News' en Radio María Chile",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:27:07.890Z",
+          "last_known_item_date": "2026-07-30T15:52:08.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-maria-chile-proxy-google-news",
+          "name": "Radio María Chile [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:radiomaria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:radiomaria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "feed_type": "RSS",
+          "description": "Resultados de site:radiomaria.cl en Proxy Google News de noticias Chilenas",
+          "last_checked": "2026-07-31T21:27:07.890Z",
+          "last_known_item_date": "2026-07-27T01:10:03.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-maria-chile-proxy-bing-news",
+          "name": "Radio María Chile [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:radiomaria.cl&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:radiomaria.cl",
+          "feed_type": "RSS",
+          "description": "Resultados de site:radiomaria.cl en Proxy Bing News",
+          "last_checked": "2026-07-31T21:27:07.890Z",
+          "last_known_item_date": null,
+          "status": "feed_empty",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "radio-modelo",
+      "name": "Radio Modelo",
+      "url": "https://radiomodelo.cl",
+      "category": "radio",
+      "description": "Emisora chilena de música y entretención",
+      "feeds": [
+        {
+          "id": "radio-modelo-main",
+          "name": "Radio Modelo",
+          "rss_url": "https://radiomodelo.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:26:41.279Z",
+          "last_known_item_date": "2026-07-31T20:36:52.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-modelo-noticias",
+          "name": "Radio Modelo - Noticias",
+          "rss_url": "https://radiomodelo.cl/category/noticias/feed/",
+          "url": "https://radiomodelo.cl/category/noticias/",
+          "description": "Feed de la categoría 'Noticias' en Radio Modelo",
+          "feed_type": "RSS",
+          "category": "news",
+          "last_checked": "2026-07-31T21:26:41.279Z",
+          "last_known_item_date": "2026-07-31T20:36:52.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-modelo-penalolen",
+          "name": "Radio Modelo - Peñalolen",
+          "rss_url": "https://radiomodelo.cl/category/penalolen/feed/",
+          "url": "https://radiomodelo.cl/category/penalolen/",
+          "description": "Feed de la categoría 'Peñalolen' en Radio Modelo",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:26:41.280Z",
+          "last_known_item_date": "2026-07-21T20:47:58.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-modelo-proxy-google-news",
+          "name": "Radio Modelo [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:radiomodelo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:radiomodelo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "feed_type": "RSS",
+          "description": "Resultados de site:radiomodelo.cl en Proxy Google News de noticias Chilenas",
+          "last_checked": "2026-07-31T21:26:41.280Z",
+          "last_known_item_date": "2026-07-31T20:34:51.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-modelo-proxy-bing-news",
+          "name": "Radio Modelo [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:radiomodelo.cl&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:radiomodelo.cl",
+          "feed_type": "RSS",
+          "description": "Resultados de site:radiomodelo.cl en Proxy Bing News",
+          "last_checked": "2026-07-31T21:26:41.280Z",
+          "last_known_item_date": null,
+          "status": "feed_empty",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "radio-futuro",
+      "name": "Radio Futuro",
+      "url": "https://www.futuro.cl",
+      "category": "radio",
+      "description": "Emisora de rock chilena del grupo Prisa Radio",
+      "feeds": [
+        {
+          "id": "radio-futuro-main",
+          "name": "Radio Futuro",
+          "rss_url": "https://www.futuro.cl/feed/",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:26:09.739Z",
+          "last_known_item_date": "2026-07-31T18:23:46.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-futuro-programas",
+          "name": "Radio Futuro - Programas",
+          "rss_url": "https://www.futuro.cl/feed/?category=programas",
+          "url": "https://www.futuro.cl/programas/",
+          "description": "Feed de la sección 'Programas' en Radio Futuro",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:26:09.739Z",
+          "last_known_item_date": "2026-07-31T18:23:46.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-futuro-frecuencias",
+          "name": "Radio Futuro - Frecuencias",
+          "rss_url": "https://www.futuro.cl/feed/?category=frecuencias",
+          "url": "https://www.futuro.cl/frecuencias/",
+          "description": "Feed de la sección 'Frecuencias' en Radio Futuro",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:26:09.739Z",
+          "last_known_item_date": "2026-07-31T18:23:46.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-futuro-'+parametros.perfil_url+'",
+          "name": "Radio Futuro - '+parametros.perfil_url+'",
+          "rss_url": "https://www.futuro.cl/feed/?category='+parametros.perfil_url+'",
+          "url": "https://www.futuro.cl/'+parametros.perfil_url+'/",
+          "description": "Feed de la sección ''+parametros.perfil_url+'' en Radio Futuro",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:26:09.740Z",
+          "last_known_item_date": "2026-07-31T18:23:46.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-futuro-lo-ultimo",
+          "name": "Radio Futuro - Lo Ultimo",
+          "rss_url": "https://www.futuro.cl/feed/?category=lo-ultimo",
+          "url": "https://www.futuro.cl/lo-ultimo/",
+          "description": "Feed de la sección 'Lo Ultimo' en Radio Futuro",
+          "feed_type": "RSS",
+          "last_checked": "2026-07-31T21:26:09.740Z",
+          "last_known_item_date": "2026-07-31T18:23:46.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-futuro-proxy-google-news",
+          "name": "Radio Futuro [Proxy Google News]",
+          "rss_url": "https://news.google.com/rss/search?q=site:futuro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "url": "https://news.google.com/search?q=site:futuro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+          "feed_type": "RSS",
+          "description": "Resultados de site:futuro.cl en Proxy Google News de noticias Chilenas",
+          "last_checked": "2026-07-31T21:26:09.740Z",
+          "last_known_item_date": "2026-07-31T15:57:54.000Z",
+          "status": "active",
+          "verified": true
+        },
+        {
+          "id": "radio-futuro-proxy-bing-news",
+          "name": "Radio Futuro [Proxy Bing News]",
+          "rss_url": "https://www.bing.com/news/search?q=site:futuro.cl&format=RSS",
+          "url": "https://www.bing.com/news/search?q=site:futuro.cl",
+          "feed_type": "RSS",
+          "description": "Resultados de site:futuro.cl en Proxy Bing News",
+          "last_checked": "2026-07-31T21:26:09.740Z",
+          "last_known_item_date": "2026-07-31T06:53:00.000Z",
+          "status": "active",
+          "verified": true
         }
       ]
     },

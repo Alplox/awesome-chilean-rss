@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📻 Radio y Música (58 feeds)</title>
+    <title>Awesome Chilean RSS - 📻 Radio y Música (71 feeds)</title>
     <description>Feeds RSS de 📻 Radio y Música, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
+    <dateCreated>2026-07-31T21:28:50.019Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -35,8 +35,21 @@
       <outline type="rss" text="Radio Atacama" title="Radio Atacama" description="Radioemisora de la Región de Atacama con noticias regionales, nacionales y deportivas" xmlUrl="https://www.radioatacama.cl/rss/feed" htmlUrl="https://www.radioatacama.cl/"/>
       <outline type="rss" text="Radio Atacama [Proxy Google News]" title="Radio Atacama [Proxy Google News]" description="Resultados de site:radioatacama.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radioatacama.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radioatacama.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio Buena Nueva - Radio" title="Radio Buena Nueva - Radio" description="Feed de la categoría 'Radio' en Radio Buena Nueva" xmlUrl="https://radiobuenanueva.cl/rb30/archivos/category/radio/feed/" htmlUrl="https://radiobuenanueva.cl/rb30/archivos/category/radio/"/>
+      <outline type="rss" text="Radio Futuro" title="Radio Futuro" description="Emisora de rock chilena del grupo Prisa Radio" xmlUrl="https://www.futuro.cl/feed/" htmlUrl="https://www.futuro.cl"/>
+      <outline type="rss" text="Radio Futuro - '+parametros.perfil_url+'" title="Radio Futuro - '+parametros.perfil_url+'" description="Feed de la sección ''+parametros.perfil_url+'' en Radio Futuro" xmlUrl="https://www.futuro.cl/feed/?category='+parametros.perfil_url+'" htmlUrl="https://www.futuro.cl/'+parametros.perfil_url+'/"/>
+      <outline type="rss" text="Radio Futuro - Frecuencias" title="Radio Futuro - Frecuencias" description="Feed de la sección 'Frecuencias' en Radio Futuro" xmlUrl="https://www.futuro.cl/feed/?category=frecuencias" htmlUrl="https://www.futuro.cl/frecuencias/"/>
+      <outline type="rss" text="Radio Futuro - Lo Ultimo" title="Radio Futuro - Lo Ultimo" description="Feed de la sección 'Lo Ultimo' en Radio Futuro" xmlUrl="https://www.futuro.cl/feed/?category=lo-ultimo" htmlUrl="https://www.futuro.cl/lo-ultimo/"/>
+      <outline type="rss" text="Radio Futuro - Programas" title="Radio Futuro - Programas" description="Feed de la sección 'Programas' en Radio Futuro" xmlUrl="https://www.futuro.cl/feed/?category=programas" htmlUrl="https://www.futuro.cl/programas/"/>
+      <outline type="rss" text="Radio Futuro [Proxy Bing News]" title="Radio Futuro [Proxy Bing News]" description="Resultados de site:futuro.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:futuro.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:futuro.cl"/>
+      <outline type="rss" text="Radio Futuro [Proxy Google News]" title="Radio Futuro [Proxy Google News]" description="Resultados de site:futuro.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:futuro.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:futuro.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio La Señal" title="Radio La Señal" description="Cadena de radioemisoras con cobertura en Valparaíso, Concepción, Temuco, Victoria, Osorno y Puerto Montt" xmlUrl="https://radiolasenal.cl/feed/" htmlUrl="https://radiolasenal.cl/"/>
       <outline type="rss" text="Radio La Señal [Proxy Google News]" title="Radio La Señal [Proxy Google News]" description="Resultados de site:radiolasenal.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiolasenal.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiolasenal.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Radio María Chile" title="Radio María Chile" description="Emisora católica de alcance nacional en Chile" xmlUrl="https://radiomaria.cl/feed/" htmlUrl="https://radiomaria.cl"/>
+      <outline type="rss" text="Radio María Chile - News" title="Radio María Chile - News" description="Feed de la categoría 'News' en Radio María Chile" xmlUrl="https://radiomaria.cl/category/news/feed/" htmlUrl="https://radiomaria.cl/category/news/"/>
+      <outline type="rss" text="Radio María Chile [Proxy Google News]" title="Radio María Chile [Proxy Google News]" description="Resultados de site:radiomaria.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiomaria.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiomaria.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Radio Modelo" title="Radio Modelo" description="Emisora chilena de música y entretención" xmlUrl="https://radiomodelo.cl/feed/" htmlUrl="https://radiomodelo.cl"/>
+      <outline type="rss" text="Radio Modelo - Peñalolen" title="Radio Modelo - Peñalolen" description="Feed de la categoría 'Peñalolen' en Radio Modelo" xmlUrl="https://radiomodelo.cl/category/penalolen/feed/" htmlUrl="https://radiomodelo.cl/category/penalolen/"/>
+      <outline type="rss" text="Radio Modelo [Proxy Google News]" title="Radio Modelo [Proxy Google News]" description="Resultados de site:radiomodelo.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiomodelo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiomodelo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio Riquelme" title="Radio Riquelme" description="Radioemisora chilena con programación informativa y musical" xmlUrl="https://radioriquelme.cl/feed/" htmlUrl="https://radioriquelme.cl/"/>
       <outline type="rss" text="Radio Riquelme - Coquimbo" title="Radio Riquelme - Coquimbo" description="Feed de la categoría 'Coquimbo' en Radio Riquelme" xmlUrl="https://radioriquelme.cl/category/coquimbo/feed/" htmlUrl="https://radioriquelme.cl/category/coquimbo/"/>
       <outline type="rss" text="Radio Riquelme - La Serena" title="Radio Riquelme - La Serena" description="Feed de la categoría 'La Serena' en Radio Riquelme" xmlUrl="https://radioriquelme.cl/category/serena/feed/" htmlUrl="https://radioriquelme.cl/category/serena/"/>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (206 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (207 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
+    <dateCreated>2026-07-31T21:28:50.019Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Alerta Noticias Temuco - El Mundo" title="Alerta Noticias Temuco - El Mundo" description="Feed de la categoría 'El Mundo' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/el-mundo/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/el-mundo/"/>
+    <outline type="rss" text="Amigos Penquistas - Internacional" title="Amigos Penquistas - Internacional" description="Feed de la categoría 'Internacional' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/internacional/feed/" htmlUrl="https://amigospenquistas.cl/category/internacional/"/>
     <outline type="rss" text="Antofagasta al Día - Internacional" title="Antofagasta al Día - Internacional" description="Feed de la categoría 'Internacional' en Antofagasta al Día" xmlUrl="https://antofagastaaldia.cl/category/internacional/feed/" htmlUrl="https://antofagastaaldia.cl/category/internacional/"/>
     <outline type="rss" text="Atacama Noticias - Internacional" title="Atacama Noticias - Internacional" description="Feed de la categoría 'Internacional' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/internacional/feed/" htmlUrl="https://www.atacamanoticias.cl/category/internacional/"/>
     <outline type="rss" text="Atentos - Internacional" title="Atentos - Internacional" description="Feed de la categoría 'Internacional' en Atentos" xmlUrl="https://www.atentos.cl/category/internacional/feed/" htmlUrl="https://www.atentos.cl/category/internacional/"/>

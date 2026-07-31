@@ -1731,6 +1731,41 @@
     ]
   },
   {
+    "id": "delegacion-presidencial-la-araucania",
+    "name": "Delegación Presidencial Regional La Araucanía",
+    "url": "https://dprlaaraucania.dpr.gob.cl",
+    "category": "government",
+    "region": "araucania",
+    "description": "Sitio oficial de la Delegación Presidencial Regional de La Araucanía",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "delegacion-presidencial-la-araucania-proxy-google-news",
+        "name": "Delegación Presidencial Regional La Araucanía [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:dprlaaraucania.dpr.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:dprlaaraucania.dpr.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:dprlaaraucania.dpr.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T17:04:47.622Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "delegacion-presidencial-la-araucania-proxy-bing-news",
+        "name": "Delegación Presidencial Regional La Araucanía [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:dprlaaraucania.dpr.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:dprlaaraucania.dpr.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:dprlaaraucania.dpr.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T17:04:47.622Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
     "id": "diario-paillaco",
     "name": "Diario Paillaco",
     "url": "https://www.diariopaillaco.cl",
@@ -5345,6 +5380,584 @@
       }
     ],
     "description": "Medio de comunicación chileno de noticias"
+  },
+  {
+    "id": "espn-chile",
+    "name": "ESPN Chile",
+    "url": "https://espn.cl",
+    "category": "sports",
+    "description": "Señal chilena de la cadena deportiva ESPN",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "espn-chile-proxy-google-news",
+        "name": "ESPN Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:espn.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:espn.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:espn.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T17:21:53.684Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "espn-chile-proxy-bing-news",
+        "name": "ESPN Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:espn.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:espn.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:espn.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T17:21:53.684Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "mega",
+    "name": "Mega",
+    "url": "https://www.mega.cl",
+    "category": "news",
+    "description": "Canal de televisión chileno",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "mega-proxy-google-news",
+        "name": "Mega [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:mega.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mega.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mega.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T17:21:53.559Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "mega-proxy-bing-news",
+        "name": "Mega [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:mega.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mega.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mega.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T17:21:53.559Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radio-carolina",
+    "name": "Radio Carolina",
+    "url": "https://carolina.cl",
+    "category": "radio",
+    "description": "Emisora chilena de música",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "radio-carolina-proxy-google-news",
+        "name": "Radio Carolina [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:carolina.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:carolina.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:carolina.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:58.666Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-carolina-proxy-bing-news",
+        "name": "Radio Carolina [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:carolina.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:carolina.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:carolina.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:58.666Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radio-romantica",
+    "name": "Radio Romántica",
+    "url": "https://www.romantica.cl",
+    "category": "radio",
+    "description": "Emisora chilena de música romántica",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "radio-romantica-proxy-google-news",
+        "name": "Radio Romántica [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:romantica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:romantica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:romantica.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:58.535Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-romantica-proxy-bing-news",
+        "name": "Radio Romántica [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:romantica.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:romantica.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:romantica.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:58.535Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "rec-tv",
+    "name": "Rec TV",
+    "url": "https://www.rec-tv.cl",
+    "category": "entertainment",
+    "description": "Canal de televisión chileno de teleseries clásicas",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "rec-tv-proxy-google-news",
+        "name": "Rec TV [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:rec-tv.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:rec-tv.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:rec-tv.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:58.405Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "rec-tv-proxy-bing-news",
+        "name": "Rec TV [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:rec-tv.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:rec-tv.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:rec-tv.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:58.405Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radio-azucar",
+    "name": "Radio Azúcar",
+    "url": "https://www.radioazucar.cl",
+    "category": "radio",
+    "description": "Emisora chilena de música",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "radio-azucar-proxy-google-news",
+        "name": "Radio Azúcar [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radioazucar.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radioazucar.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioazucar.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:58.278Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-azucar-proxy-bing-news",
+        "name": "Radio Azúcar [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radioazucar.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radioazucar.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioazucar.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:58.278Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radio-colo-colo",
+    "name": "Radio Colo-Colo",
+    "url": "https://www.radiocolocolo.cl",
+    "category": "radio",
+    "description": "Emisora del club de fútbol Colo-Colo",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "radio-colo-colo-proxy-google-news",
+        "name": "Radio Colo-Colo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiocolocolo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiocolocolo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiocolocolo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:58.142Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-colo-colo-proxy-bing-news",
+        "name": "Radio Colo-Colo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiocolocolo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiocolocolo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiocolocolo.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:58.142Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radio-universo",
+    "name": "Radio Universo",
+    "url": "https://www.radiouniverso.cl",
+    "category": "radio",
+    "description": "Emisora chilena de música",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "radio-universo-proxy-google-news",
+        "name": "Radio Universo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiouniverso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiouniverso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiouniverso.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:10:19.351Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-universo-proxy-bing-news",
+        "name": "Radio Universo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiouniverso.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiouniverso.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiouniverso.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T19:10:19.351Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radio-la-clave",
+    "name": "Radio La Clave",
+    "url": "https://www.laclave.cl",
+    "category": "radio",
+    "description": "Emisora chilena de rock",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "radio-la-clave-proxy-google-news",
+        "name": "Radio La Clave [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:laclave.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:laclave.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:laclave.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:57.873Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-la-clave-proxy-bing-news",
+        "name": "Radio La Clave [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:laclave.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:laclave.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:laclave.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:57.873Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "radio-uno",
+    "name": "Radio Uno",
+    "url": "https://www.radiouno.cl",
+    "category": "radio",
+    "description": "Emisora chilena de música",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "radio-uno-proxy-google-news",
+        "name": "Radio Uno [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiouno.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiouno.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiouno.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:57.732Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-uno-proxy-bing-news",
+        "name": "Radio Uno [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiouno.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiouno.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiouno.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:57.732Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "forbes-chile",
+    "name": "Forbes Chile",
+    "url": "https://forbeschile.com",
+    "category": "business",
+    "description": "Edición chilena de la revista Forbes",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "forbes-chile-proxy-google-news",
+        "name": "Forbes Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:forbeschile.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:forbeschile.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:forbeschile.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:57.602Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "forbes-chile-proxy-bing-news",
+        "name": "Forbes Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:forbeschile.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:forbeschile.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:forbeschile.com en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:57.602Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "america-economia",
+    "name": "América Economía",
+    "url": "https://www.americaeconomia.com",
+    "category": "business",
+    "description": "Revista de negocios de América Latina",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "america-economia-proxy-google-news",
+        "name": "América Economía [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:americaeconomia.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:americaeconomia.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:americaeconomia.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:57.475Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "america-economia-proxy-bing-news",
+        "name": "América Economía [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:americaeconomia.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:americaeconomia.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:americaeconomia.com en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:57.475Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "capital",
+    "name": "Revista Capital",
+    "url": "https://www.capital.cl",
+    "category": "business",
+    "description": "Revista chilena de negocios",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "capital-proxy-google-news",
+        "name": "Revista Capital [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:capital.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:capital.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:capital.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:57.352Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "capital-proxy-bing-news",
+        "name": "Revista Capital [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:capital.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:capital.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:capital.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:57.352Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "quepasa",
+    "name": "Qué Pasa",
+    "url": "https://www.quepasa.cl",
+    "category": "news",
+    "description": "Revista de actualidad chilena",
+    "reason": "Sitio no responde",
+    "feeds": [
+      {
+        "id": "quepasa-proxy-google-news",
+        "name": "Qué Pasa [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:quepasa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:quepasa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:quepasa.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T19:09:57.233Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "quepasa-proxy-bing-news",
+        "name": "Qué Pasa [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:quepasa.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:quepasa.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:quepasa.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T19:09:57.233Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "tvn",
+    "name": "TVN",
+    "url": "https://www.tvn.cl",
+    "category": "news",
+    "description": "Televisión Nacional de Chile, canal público estatal",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "tvn-proxy-google-news",
+        "name": "TVN [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tvn.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tvn.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tvn.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T17:21:53.424Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "tvn-proxy-bing-news",
+        "name": "TVN [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tvn.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tvn.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tvn.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T17:21:53.424Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "canal-13",
+    "name": "Canal 13",
+    "url": "https://www.13.cl",
+    "category": "news",
+    "description": "Canal de televisión chileno",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "canal-13-proxy-google-news",
+        "name": "Canal 13 [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:13.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:13.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:13.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T17:21:53.297Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "canal-13-proxy-bing-news",
+        "name": "Canal 13 [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:13.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:13.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:13.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T17:21:53.297Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "chilevision",
+    "name": "Chilevisión",
+    "url": "https://www.chilevision.cl",
+    "category": "news",
+    "description": "Canal de televisión chileno",
+    "reason": "No se detectó feed RSS en el sitio",
+    "feeds": [
+      {
+        "id": "chilevision-proxy-google-news",
+        "name": "Chilevisión [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:chilevision.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:chilevision.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chilevision.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T17:21:53.179Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "chilevision-proxy-bing-news",
+        "name": "Chilevisión [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:chilevision.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:chilevision.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chilevision.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T17:21:53.179Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "megatiempo",
@@ -14898,6 +15511,190 @@
         "feed_type": "RSS",
         "description": "Resultados de site:partidohumanista.cl en Proxy Bing News",
         "last_checked": "2026-07-30T22:31:34.682Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "radio-beethoven",
+    "name": "UC Radio Beethoven",
+    "url": "https://www.beethovenfm.cl",
+    "category": "radio",
+    "description": "Emisora de música clásica de la Pontificia Universidad Católica de Chile",
+    "feeds": [
+      {
+        "id": "radio-beethoven-main",
+        "name": "UC Radio Beethoven",
+        "rss_url": "https://www.beethovenfm.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-31T21:26:25.140Z",
+        "last_known_item_date": "2021-04-02T16:52:09.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "radio-beethoven-programacion-radio",
+        "name": "UC Radio Beethoven - Programacion Radio",
+        "rss_url": "https://www.beethovenfm.cl/feed/?category=programacion-radio",
+        "url": "https://www.beethovenfm.cl/programacion-radio/",
+        "description": "Feed de la sección 'Programacion Radio' en UC Radio Beethoven",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-31T21:26:25.140Z",
+        "last_known_item_date": "2021-04-02T16:52:09.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "radio-beethoven-programas",
+        "name": "UC Radio Beethoven - Programas",
+        "rss_url": "https://www.beethovenfm.cl/feed/?category=programas",
+        "url": "https://www.beethovenfm.cl/programas/",
+        "description": "Feed de la sección 'Programas' en UC Radio Beethoven",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-31T21:26:25.141Z",
+        "last_known_item_date": "2021-04-02T16:52:09.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "radio-beethoven-agenda-cultural",
+        "name": "UC Radio Beethoven - Agenda Cultural",
+        "rss_url": "https://www.beethovenfm.cl/feed/?category=agenda-cultural",
+        "url": "https://www.beethovenfm.cl/agenda-cultural/",
+        "description": "Feed de la sección 'Agenda Cultural' en UC Radio Beethoven",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-31T21:26:25.141Z",
+        "last_known_item_date": "2021-04-02T16:52:09.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "radio-beethoven-podcasts",
+        "name": "UC Radio Beethoven - Podcasts",
+        "rss_url": "https://www.beethovenfm.cl/feed/?category=podcasts",
+        "url": "https://www.beethovenfm.cl/podcasts/",
+        "description": "Feed de la sección 'Podcasts' en UC Radio Beethoven",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-31T21:26:25.141Z",
+        "last_known_item_date": "2021-04-02T16:52:09.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "radio-beethoven-recomendados",
+        "name": "UC Radio Beethoven - Recomendados",
+        "rss_url": "https://www.beethovenfm.cl/feed/?category=recomendados",
+        "url": "https://www.beethovenfm.cl/recomendados/",
+        "description": "Feed de la sección 'Recomendados' en UC Radio Beethoven",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-31T21:26:25.141Z",
+        "last_known_item_date": "2021-04-02T16:52:09.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "radio-beethoven-quienes-somos",
+        "name": "UC Radio Beethoven - Quienes Somos",
+        "rss_url": "https://www.beethovenfm.cl/feed/?category=quienes-somos",
+        "url": "https://www.beethovenfm.cl/quienes-somos/",
+        "description": "Feed de la sección 'Quienes Somos' en UC Radio Beethoven",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-31T21:26:25.141Z",
+        "last_known_item_date": "2021-04-02T16:52:09.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "radio-beethoven-player2",
+        "name": "UC Radio Beethoven - Player2",
+        "rss_url": "https://www.beethovenfm.cl/feed/?category=player2",
+        "url": "https://www.beethovenfm.cl/player2/",
+        "description": "Feed de la sección 'Player2' en UC Radio Beethoven",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-31T21:26:25.141Z",
+        "last_known_item_date": "2021-04-02T16:52:09.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "radio-beethoven-club-de-amigos",
+        "name": "UC Radio Beethoven - Club De Amigos",
+        "rss_url": "https://www.beethovenfm.cl/feed/?category=club-de-amigos",
+        "url": "https://www.beethovenfm.cl/club-de-amigos/",
+        "description": "Feed de la sección 'Club De Amigos' en UC Radio Beethoven",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-31T21:26:25.141Z",
+        "last_known_item_date": "2021-04-02T16:52:09.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "radio-beethoven-proxy-google-news",
+        "name": "UC Radio Beethoven [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:beethovenfm.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:beethovenfm.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:beethovenfm.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T21:26:25.142Z",
+        "last_known_item_date": "2026-07-31T06:49:31.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-beethoven-proxy-bing-news",
+        "name": "UC Radio Beethoven [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:beethovenfm.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:beethovenfm.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:beethovenfm.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T21:26:25.142Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Solo feeds proxy activos (feeds nativos inactivos)"
+  },
+  {
+    "id": "gobierno-en-terreno",
+    "name": "Gobierno en Terreno",
+    "url": "https://gobiernoenterreno.interior.gob.cl",
+    "category": "government",
+    "description": "Sitio del programa Gobierno en Terreno del Ministerio del Interior de Chile",
+    "feeds": [
+      {
+        "id": "gobierno-en-terreno-main",
+        "name": "Gobierno en Terreno",
+        "rss_url": "https://gobiernoenterreno.interior.gob.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-07-31T21:28:46.761Z",
+        "last_known_item_date": null,
+        "status": "no_feed",
+        "verified": false
+      },
+      {
+        "id": "gobierno-en-terreno-proxy-google-news",
+        "name": "Gobierno en Terreno [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:gobiernoenterreno.interior.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:gobiernoenterreno.interior.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gobiernoenterreno.interior.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-07-31T21:28:46.761Z",
+        "last_known_item_date": "2026-04-29T03:30:52.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "gobierno-en-terreno-proxy-bing-news",
+        "name": "Gobierno en Terreno [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:gobiernoenterreno.interior.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:gobiernoenterreno.interior.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gobiernoenterreno.interior.gob.cl en Proxy Bing News",
+        "last_checked": "2026-07-31T21:28:46.761Z",
         "last_known_item_date": null,
         "status": "feed_empty",
         "verified": false

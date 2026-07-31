@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (856 feeds)</title>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (859 feeds)</title>
     <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
+    <dateCreated>2026-07-31T21:28:50.019Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -35,6 +35,8 @@
       <outline type="rss" text="Alerta Noticias Temuco - Actualidad" title="Alerta Noticias Temuco - Actualidad" description="Feed de la categoría 'Actualidad' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/actualidad/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/actualidad/"/>
       <outline type="rss" text="Alerta Noticias Temuco - Nacional" title="Alerta Noticias Temuco - Nacional" description="Feed de la categoría 'Nacional' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/nacional/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/nacional/"/>
       <outline type="rss" text="Alerta Noticias Temuco - Política" title="Alerta Noticias Temuco - Política" description="Feed de la categoría 'Política' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/politica/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/politica/"/>
+      <outline type="rss" text="Amigos Penquistas - Nacional" title="Amigos Penquistas - Nacional" description="Feed de la categoría 'Nacional' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/nacional/feed/" htmlUrl="https://amigospenquistas.cl/category/nacional/"/>
+      <outline type="rss" text="Amigos Penquistas - Noticias" title="Amigos Penquistas - Noticias" description="Feed de la categoría 'Noticias' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/noticias/feed/" htmlUrl="https://amigospenquistas.cl/category/noticias/"/>
       <outline type="rss" text="Anda - Noticias" title="Anda - Noticias" description="Feed de la categoría 'Noticias' en Anda" xmlUrl="https://anda.cl/categoria/noticias/feed/" htmlUrl="https://anda.cl/categoria/noticias/"/>
       <outline type="rss" text="ANEF - Noticias" title="ANEF - Noticias" description="Feed de la categoría 'Noticias' en ANEF" xmlUrl="https://anef.cl/category/noticias/feed/" htmlUrl="https://anef.cl/category/noticias/"/>
       <outline type="rss" text="ANID - Noticias" title="ANID - Noticias" description="Feed de la sección 'Noticias' en ANID" xmlUrl="https://anid.cl/feed/?category=noticias" htmlUrl="https://anid.cl/noticias/"/>
@@ -741,6 +743,7 @@
       <outline type="rss" text="Radio La Señal - Noticias" title="Radio La Señal - Noticias" description="Feed de la categoría 'Noticias' en Radio La Señal" xmlUrl="https://radiolasenal.cl/category/noticias/feed/" htmlUrl="https://radiolasenal.cl/category/noticias/"/>
       <outline type="rss" text="Radio Magallanes - Política" title="Radio Magallanes - Política" description="Feed de la categoría 'Política' en Radio Magallanes" xmlUrl="https://radiomagallanes.cl/category/politica/feed/" htmlUrl="https://radiomagallanes.cl/category/politica/"/>
       <outline type="rss" text="Radio Maray - País" title="Radio Maray - País" description="Feed de la categoría 'País' en Radio Maray" xmlUrl="https://www.maray.cl/category/pais/feed/" htmlUrl="https://www.maray.cl/category/pais/"/>
+      <outline type="rss" text="Radio Modelo - Noticias" title="Radio Modelo - Noticias" description="Feed de la categoría 'Noticias' en Radio Modelo" xmlUrl="https://radiomodelo.cl/category/noticias/feed/" htmlUrl="https://radiomodelo.cl/category/noticias/"/>
       <outline type="rss" text="Radio Nuevo Mundo" title="Radio Nuevo Mundo" description="Emisora nacional 104.7 FM" xmlUrl="https://radionuevomundo.cl/feed/" htmlUrl="https://radionuevomundo.cl"/>
       <outline type="rss" text="Radio Nuevo Mundo - Columnas" title="Radio Nuevo Mundo - Columnas" description="Feed de la categoría 'Columnas' en Radio Nuevo Mundo" xmlUrl="https://radionuevomundo.cl/categoria/columnas/feed/" htmlUrl="https://radionuevomundo.cl/categoria/columnas/"/>
       <outline type="rss" text="Radio Nuevo Mundo - De Domingo A Domingo" title="Radio Nuevo Mundo - De Domingo A Domingo" description="Feed de la categoría 'De Domingo A Domingo' en Radio Nuevo Mundo" xmlUrl="https://radionuevomundo.cl/categoria/podcast/de-domingo-a-domingo/feed/" htmlUrl="https://radionuevomundo.cl/categoria/podcast/de-domingo-a-domingo/"/>

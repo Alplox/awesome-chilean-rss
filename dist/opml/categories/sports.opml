@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (182 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (190 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
+    <dateCreated>2026-07-31T21:28:50.019Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -17,6 +17,11 @@
       <outline type="rss" text="Alerta Geek Chile - Esports" title="Alerta Geek Chile - Esports" description="Feed de la categoría 'Esports' en Alerta Geek Chile" xmlUrl="https://alertageekchile.cl/category/esports/feed/" htmlUrl="https://alertageekchile.cl/category/esports/"/>
       <outline type="rss" text="Alerta Noticias - Deportes" title="Alerta Noticias - Deportes" description="Feed de la categoría 'Deportes' en Alerta Noticias" xmlUrl="https://alertanoticias.cl/category/deportes/feed/" htmlUrl="https://alertanoticias.cl/category/deportes/"/>
       <outline type="rss" text="Alerta Noticias Temuco - Deporte" title="Alerta Noticias Temuco - Deporte" description="Feed de la categoría 'Deporte' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/deporte/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/deporte/"/>
+      <outline type="rss" text="Amigos Penquistas" title="Amigos Penquistas" description="Sitio de hinchas del club de fútbol Deportes Concepción" xmlUrl="https://amigospenquistas.cl/feed/" htmlUrl="https://amigospenquistas.cl"/>
+      <outline type="rss" text="Amigos Penquistas - Deportes" title="Amigos Penquistas - Deportes" description="Feed de la categoría 'Deportes' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/deportes/feed/" htmlUrl="https://amigospenquistas.cl/category/deportes/"/>
+      <outline type="rss" text="Amigos Penquistas - Miscelanea" title="Amigos Penquistas - Miscelanea" description="Feed de la categoría 'Miscelanea' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/miscelanea/feed/" htmlUrl="https://amigospenquistas.cl/category/miscelanea/"/>
+      <outline type="rss" text="Amigos Penquistas - Ultimo Minuto" title="Amigos Penquistas - Ultimo Minuto" description="Feed de la categoría 'Ultimo Minuto' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/ultimo-minuto/feed/" htmlUrl="https://amigospenquistas.cl/category/ultimo-minuto/"/>
+      <outline type="rss" text="Amigos Penquistas [Proxy Google News]" title="Amigos Penquistas [Proxy Google News]" description="Resultados de site:amigospenquistas.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:amigospenquistas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:amigospenquistas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Antofacity - Salud y Deporte" title="Antofacity - Salud y Deporte" description="Feed de la categoría 'Salud y Deporte' en Antofacity" xmlUrl="https://antofacity.com/category/sal_y_dep/feed/" htmlUrl="https://antofacity.com/category/sal_y_dep/"/>
       <outline type="rss" text="Antofagasta al Día - Deportes" title="Antofagasta al Día - Deportes" description="Feed de la categoría 'Deportes' en Antofagasta al Día" xmlUrl="https://antofagastaaldia.cl/category/deportes/feed/" htmlUrl="https://antofagastaaldia.cl/category/deportes/"/>
       <outline type="rss" text="Antofagasta Noticias - Deportes" title="Antofagasta Noticias - Deportes" description="Feed de la categoría 'Deportes' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/deportes/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/deportes/"/>
@@ -113,6 +118,9 @@
       <outline type="rss" text="Mi Radio LS - Deportes" title="Mi Radio LS - Deportes" description="Feed de la categoría 'Deportes' en Mi Radio LS" xmlUrl="https://www.miradiols.cl/category/deportes/feed/" htmlUrl="https://www.miradiols.cl/category/deportes/"/>
       <outline type="rss" text="Mirada Sur TV - Deportes" title="Mirada Sur TV - Deportes" description="Feed de la categoría 'Deportes' en Mirada Sur TV" xmlUrl="https://miradasurtv.cl/category/deportes/feed/" htmlUrl="https://miradasurtv.cl/category/deportes/"/>
       <outline type="rss" text="Música y Noticias - Deportes" title="Música y Noticias - Deportes" description="Feed de la categoría 'Deportes' en Música y Noticias" xmlUrl="https://www.musicaynoticias.cl/category/deportes/feed/" htmlUrl="https://www.musicaynoticias.cl/category/deportes/"/>
+      <outline type="rss" text="Nevasport Chile" title="Nevasport Chile" description="Portal de nieve y ski Nevasport - Noticias de centros de ski de Chile" xmlUrl="https://www.nevasport.com/feeds.php?from=blogs&amp;id_blogs=39" htmlUrl="https://www.nevasport.com/chile/"/>
+      <outline type="rss" text="Nevasport Chile [Proxy Bing News]" title="Nevasport Chile [Proxy Bing News]" description="Resultados de site:nevasport.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:nevasport.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:nevasport.com"/>
+      <outline type="rss" text="Nevasport Chile [Proxy Google News]" title="Nevasport Chile [Proxy Google News]" description="Resultados de site:nevasport.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:nevasport.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:nevasport.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Nostálgica - Deportes" title="Nostálgica - Deportes" description="Feed de la categoría 'Deportes' en Nostálgica" xmlUrl="https://www.nostalgica.cl/category/deportes/feed/" htmlUrl="https://www.nostalgica.cl/category/deportes/"/>
       <outline type="rss" text="Noticias Chiloé - Deporte" title="Noticias Chiloé - Deporte" description="Feed de la categoría 'Deporte' en Noticias Chiloé" xmlUrl="https://loslagosnoticias.cl/category/deporte/feed/" htmlUrl="https://loslagosnoticias.cl/category/deporte/"/>
       <outline type="rss" text="Noticias Chiloé - Deportes" title="Noticias Chiloé - Deportes" description="Feed de la categoría 'Deportes' en Noticias Chiloé" xmlUrl="https://loslagosnoticias.cl/category/deportes/feed/" htmlUrl="https://loslagosnoticias.cl/category/deportes/"/>

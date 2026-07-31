@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1628 feeds)</title>
+    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1629 feeds)</title>
     <description>Feeds RSS de 🌎 Medios Regionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-30T22:32:57.027Z</dateCreated>
+    <dateCreated>2026-07-31T21:28:50.019Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -47,6 +47,7 @@
     <outline type="rss" text="Alerta Noticias Temuco - Tribunal" title="Alerta Noticias Temuco - Tribunal" description="Feed de la categoría 'Tribunal' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/tribunal/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/tribunal/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Victoria" title="Alerta Noticias Temuco - Victoria" description="Feed de la categoría 'Victoria' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/victoria/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/victoria/"/>
     <outline type="rss" text="Alerta Noticias Temuco - Villarrica" title="Alerta Noticias Temuco - Villarrica" description="Feed de la categoría 'Villarrica' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/villarrica/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/villarrica/"/>
+    <outline type="rss" text="Amigos Penquistas - Regional" title="Amigos Penquistas - Regional" description="Feed de la categoría 'Regional' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/regional/feed/" htmlUrl="https://amigospenquistas.cl/category/regional/"/>
     <outline type="rss" text="Angol Noticias" title="Angol Noticias" description="Diario regional de Angol, La Araucanía" xmlUrl="https://www.angolnoticiasnew.cl/feed/" htmlUrl="https://www.angolnoticiasnew.cl"/>
     <outline type="rss" text="Angol Noticias - Regional" title="Angol Noticias - Regional" description="Feed de la categoría 'Regional' en Angol Noticias" xmlUrl="https://www.angolnoticiasnew.cl/Categorias/regional/feed/" htmlUrl="https://www.angolnoticiasnew.cl/Categorias/regional/"/>
     <outline type="rss" text="Angol Noticias [Proxy Google News]" title="Angol Noticias [Proxy Google News]" description="Resultados de site:angolnoticiasnew.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:angolnoticiasnew.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:angolnoticiasnew.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
