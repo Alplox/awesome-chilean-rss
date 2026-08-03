@@ -15701,5 +15701,367 @@
       }
     ],
     "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "tu-mundo",
+    "name": "Tu Mundo",
+    "url": "https://www.tumundo.cl/",
+    "category": "technology",
+    "description": "Proveedor chileno de internet fibra óptica, TV Smart y telefonía móvil",
+    "reason": "feed stale (último item: 2025-10-01, 306 días)",
+    "feeds": [
+      {
+        "id": "tu-mundo-proxy-google-news",
+        "name": "Tu Mundo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tumundo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tumundo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tumundo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "tu-mundo-proxy-bing-news",
+        "name": "Tu Mundo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tumundo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tumundo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tumundo.cl en Proxy Bing News",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "entel",
+    "name": "Entel",
+    "url": "https://www.entel.cl/",
+    "category": "technology",
+    "description": "Empresa de telecomunicaciones chilena: telefonía móvil, internet hogar y fibra",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "entel-proxy-google-news",
+        "name": "Entel [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:entel.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:entel.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:entel.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "entel-proxy-bing-news",
+        "name": "Entel [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:entel.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:entel.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:entel.cl en Proxy Bing News",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "wom",
+    "name": "WOM",
+    "url": "https://www.wom.cl/",
+    "category": "technology",
+    "description": "Operador chileno de telefonía móvil, prepago e internet hogar",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "wom-proxy-google-news",
+        "name": "WOM [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:wom.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:wom.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:wom.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "wom-proxy-bing-news",
+        "name": "WOM [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:wom.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:wom.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:wom.cl en Proxy Bing News",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "vtr",
+    "name": "VTR",
+    "url": "https://vtr.com/",
+    "category": "technology",
+    "description": "Proveedor chileno de internet hogar, TV y streaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "vtr-proxy-google-news",
+        "name": "VTR [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:vtr.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:vtr.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:vtr.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "vtr-proxy-bing-news",
+        "name": "VTR [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:vtr.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:vtr.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:vtr.com en Proxy Bing News",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "movistar-chile",
+    "name": "Movistar Chile",
+    "url": "https://ww2.movistar.cl/",
+    "category": "technology",
+    "description": "Operador de telecomunicaciones en Chile: internet, celulares y portabilidad",
+    "reason": "Feed del blog sin contenido reciente (stale)",
+    "feeds": [
+      {
+        "id": "movistar-chile-proxy-google-news",
+        "name": "Movistar Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ww2.movistar.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ww2.movistar.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ww2.movistar.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "movistar-chile-proxy-bing-news",
+        "name": "Movistar Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ww2.movistar.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ww2.movistar.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ww2.movistar.cl en Proxy Bing News",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "claro-chile",
+    "name": "Claro Chile",
+    "url": "https://www.clarochile.cl/personas/",
+    "category": "technology",
+    "description": "Operador de telecomunicaciones en Chile: servicios para personas",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "claro-chile-proxy-google-news",
+        "name": "Claro Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:clarochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:clarochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:clarochile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "claro-chile-proxy-bing-news",
+        "name": "Claro Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:clarochile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:clarochile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:clarochile.cl en Proxy Bing News",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "shoa",
+    "name": "Servicio Hidrográfico y Oceanográfico de la Armada (SHOA)",
+    "url": "https://www.shoa.cl/php/inicio.php",
+    "category": "government",
+    "description": "Servicio Hidrográfico y Oceanográfico de la Armada de Chile",
+    "reason": "Sitio gubernamental sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "shoa-proxy-google-news",
+        "name": "Servicio Hidrográfico y Oceanográfico de la Armada (SHOA) [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:shoa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:shoa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:shoa.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "shoa-proxy-bing-news",
+        "name": "Servicio Hidrográfico y Oceanográfico de la Armada (SHOA) [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:shoa.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:shoa.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:shoa.cl en Proxy Bing News",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "sea-chile",
+    "name": "SEA Chile",
+    "url": "https://www.sea.gob.cl/",
+    "category": "government",
+    "description": "Servicio de Evaluación Ambiental de Chile",
+    "reason": "feed stale (último item: 2025-12-09, 237 días)",
+    "feeds": [
+      {
+        "id": "sea-chile-proxy-google-news",
+        "name": "SEA Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sea.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sea.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sea.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "sea-chile-proxy-bing-news",
+        "name": "SEA Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sea.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sea.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sea.gob.cl en Proxy Bing News",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "snam-chile",
+    "name": "Servicio Hidrográfico y Oceanográfico de la Armada de Chile",
+    "url": "https://snamchile.cl/",
+    "category": "government",
+    "description": "Servicio Hidrográfico y Oceanográfico de la Armada de Chile",
+    "reason": "Sitio gubernamental sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "snam-chile-proxy-google-news",
+        "name": "Servicio Hidrográfico y Oceanográfico de la Armada de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:snamchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:snamchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:snamchile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "snam-chile-proxy-bing-news",
+        "name": "Servicio Hidrográfico y Oceanográfico de la Armada de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:snamchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:snamchile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:snamchile.cl en Proxy Bing News",
+        "last_checked": "2026-08-03T22:21:13.411Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "municipalidad-alto-biobio",
+    "name": "Municipalidad de Alto Biobío",
+    "url": "https://munialtobiobio.cl/",
+    "category": "government",
+    "description": "Sitio web oficial de la Municipalidad de Alto Biobío, Región del Biobío",
+    "feeds": [
+      {
+        "id": "municipalidad-alto-biobio-main",
+        "name": "Municipalidad de Alto Biobío",
+        "rss_url": "https://munialtobiobio.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-03T23:13:14.563Z",
+        "status": "stale",
+        "verified": false,
+        "last_known_item_date": "2024-11-14T23:19:51.000Z"
+      },
+      {
+        "id": "municipalidad-alto-biobio-archivo-historico",
+        "name": "Municipalidad de Alto Biobío - Archivo Histórico",
+        "rss_url": "https://munialtobiobio.cl/categoria/noticias/archivo-historico/feed/",
+        "url": "https://munialtobiobio.cl/categoria/noticias/archivo-historico/",
+        "description": "Feed de la categoría 'Archivo Histórico' en Municipalidad de Alto Biobío",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-03T23:13:14.563Z",
+        "last_known_item_date": "2024-11-14T23:19:51.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "municipalidad-alto-biobio-proxy-google-news",
+        "name": "Municipalidad de Alto Biobío [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:munialtobiobio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:munialtobiobio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:munialtobiobio.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-03T23:13:14.563Z",
+        "last_known_item_date": "2026-07-30T22:41:23.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "municipalidad-alto-biobio-proxy-bing-news",
+        "name": "Municipalidad de Alto Biobío [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:munialtobiobio.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:munialtobiobio.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:munialtobiobio.cl en Proxy Bing News",
+        "last_checked": "2026-08-03T23:13:14.563Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Solo feeds proxy activos (feeds nativos inactivos)"
   }
 ]

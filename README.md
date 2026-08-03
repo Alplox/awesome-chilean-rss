@@ -2,9 +2,9 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-409-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4553-blue)
+![Sitios](https://img.shields.io/badge/sitios-413-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4577-blue)
 
-> El directorio más completo de feeds RSS chilenos. 409 sitios, 4553 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 413 sitios, 4577 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -21,20 +21,20 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 
 <https://alplox.github.io/awesome-chilean-rss-app/>
 
-## 📝 Fuentes disponibles (409 sitios, 4553 feeds)
+## 📝 Fuentes disponibles (413 sitios, 4577 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 232 sitios, 859 feeds
+- [📰 Noticias Nacionales](#cat-news) — 233 sitios, 868 feeds
 - [🌐 Noticias Internacionales](#cat-news-international) — 76 sitios, 207 feeds
 - [🌎 Medios Regionales](#cat-regional) — 201 sitios, 1629 feeds
 - [💻 Tecnología y Startups](#cat-technology) — 82 sitios, 326 feeds
-- [🏛️ Gobierno y Datos Públicos](#cat-government) — 39 sitios, 156 feeds
+- [🏛️ Gobierno y Datos Públicos](#cat-government) — 40 sitios, 160 feeds
 - [🏫 Educación, Universidades e Investigación](#cat-education) — 67 sitios, 120 feeds
 - [💼 Economia, Negocios y Finanzas](#cat-business) — 100 sitios, 237 feeds
 - [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 18 sitios, 20 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 98 sitios, 117 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 100 sitios, 128 feeds
 - [👥 Comunidad](#cat-community) — 82 sitios, 154 feeds
 - [⚽ Deportes](#cat-sports) — 137 sitios, 190 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 12 sitios, 95 feeds
@@ -45,7 +45,7 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 - [🗳️ Partidos Políticos](#cat-political-parties) — 9 sitios, 36 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (232 sitios, 859 feeds)
+### 📰 Noticias Nacionales (233 sitios, 868 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -157,6 +157,16 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - CentralWeb - Opinión: `https://centralweb.cl/?cat=3023&feed=rss2`
   - CentralWeb - Fin de Semana: `https://centralweb.cl/?cat=369&feed=rss2`
   - CentralWeb [Proxy Google News]: `https://news.google.com/rss/search?q=site:centralweb.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Chile Mejor Sin TLC** — Plataforma ciudadana de organizaciones, parlamentarios y ciudadanos en rechazo al secretismo del TPP
+  - Chile Mejor Sin TLC: `https://mejorsintlc.cl/feed/`
+  - Chile Mejor Sin TLC - Quienes Somos: `https://mejorsintlc.cl/feed/?category=quienes-somos`
+  - Chile Mejor Sin TLC - Declaration Tpp: `https://mejorsintlc.cl/feed/?category=declaration-tpp`
+  - Chile Mejor Sin TLC - Tpp Anweisung: `https://mejorsintlc.cl/feed/?category=tpp-anweisung`
+  - Chile Mejor Sin TLC - Multimedia: `https://mejorsintlc.cl/feed/?category=multimedia`
+  - Chile Mejor Sin TLC - Audios: `https://mejorsintlc.cl/feed/?category=audios`
+  - Chile Mejor Sin TLC - Videos: `https://mejorsintlc.cl/feed/?category=videos`
+  - Chile Mejor Sin TLC - Imagenes: `https://mejorsintlc.cl/feed/?category=imagenes`
+  - Chile Mejor Sin TLC [Proxy Google News]: `https://news.google.com/rss/search?q=site:mejorsintlc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **ChileCompra**: Feed de la categoría 'Noticias' en ChileCompra
   - RSS: `https://www.chilecompra.cl/category/noticias/feed/`
 - **Chilena FM**: Emisora FM regional
@@ -4752,7 +4762,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-government"></a>
-### 🏛️ Gobierno y Datos Públicos (39 sitios, 156 feeds)
+### 🏛️ Gobierno y Datos Públicos (40 sitios, 160 feeds)
 
 *Descargar OPML: [`government.opml`](dist/opml/categories/government.opml)*
 
@@ -4807,6 +4817,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Gobierno de Chile** — Noticias oficiales y decretos del gobierno
   - Gobierno de Chile: `https://www.gob.cl/noticias/feed/rss/`
   - Gobierno de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Gobierno Regional de Tarapacá** — Gobierno Regional de Tarapacá
+  - Gobierno Regional de Tarapacá: `https://www.goretarapaca.gov.cl/feed/`
+  - Gobierno Regional de Tarapacá - En Qué Estamos: `https://www.goretarapaca.gov.cl/categoria/en-que-estamos/feed/`
+  - Gobierno Regional de Tarapacá - Noticia Destacada: `https://www.goretarapaca.gov.cl/categoria/en-que-estamos/noticia-destacada/feed/`
+  - Gobierno Regional de Tarapacá - Patrimonio: `https://www.goretarapaca.gov.cl/categoria/en-que-estamos/noticia-destacada/patrimonio/feed/`
 - **Gobierno Regional Metropolitano de Santiago** — Gobierno Regional de la Región Metropolitana de Santiago
   - Gobierno Regional Metropolitano de Santiago: `https://www.gobiernosantiago.cl/feed/`
   - Gobierno Regional Metropolitano de Santiago - Noticias: `https://www.gobiernosantiago.cl/category/noticias/feed/`
@@ -5541,7 +5556,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (98 sitios, 117 feeds)
+### 🎨 Cultura y Divulgación (100 sitios, 128 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
@@ -5681,6 +5696,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.larazon.cl/temas/arte-y-cultura/feed/`
 - **La Serena Online**: Feed de la categoría 'Cultura' en La Serena Online
   - RSS: `https://laserenaonline.cl/category/cultura/feed/`
+- **La Tendencia** — Medio digital de noticias y tendencias de cultura, internet, deportes y vida sana
+  - La Tendencia: `https://latendencia.cl/feed/`
+  - La Tendencia - General: `https://latendencia.cl/category/general/feed/`
+  - La Tendencia - Internet: `https://latendencia.cl/category/internet/feed/`
+  - La Tendencia [Proxy Google News]: `https://news.google.com/rss/search?q=site:latendencia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **La Tercera**: Feed de la categoría 'Culto' en La Tercera
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml`
 - **Las Noticias de Malleco**: Feed de la categoría 'Cultura' en Las Noticias de Malleco
@@ -5693,6 +5713,14 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.malleco7.cl/canal/cultura/feed/`
 - **Más Noticia**: Feed de la categoría 'Cultura y Espectáculo' en Más Noticia
   - RSS: `https://www.masnoticia.cl/category/todas-las-noticias/cultura/feed/`
+- **Mestizos Magazine** — Revista digital chilena de cultura y tendencias
+  - Mestizos Magazine: `https://www.mestizos.cl/feed/`
+  - Mestizos Magazine - Se Busca: `https://www.mestizos.cl/se-busca/feed/`
+  - Mestizos Magazine - Animate A Adoptar: `https://www.mestizos.cl/animate-a-adoptar/feed/`
+  - Mestizos Magazine - Cdn Cgi: `https://www.mestizos.cl/cdn-cgi/feed/`
+  - Mestizos Magazine - Categoria: `https://www.mestizos.cl/categoria/feed/`
+  - Mestizos Magazine - Buscador: `https://www.mestizos.cl/buscador/feed/`
+  - Mestizos Magazine [Proxy Google News]: `https://news.google.com/rss/search?q=site:mestizos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Música y Noticias**: Feed de la categoría 'Cultura Y Espectáculos' en Música y Noticias
   - RSS: `https://www.musicaynoticias.cl/category/cultura-y-espectaculos/feed/`
 - **Noticias Biobío**: Feed de la categoría 'Cultura y Espectaculos' en Noticias Biobío

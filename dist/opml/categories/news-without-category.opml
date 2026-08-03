@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (859 feeds)</title>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (868 feeds)</title>
     <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-31T21:28:50.019Z</dateCreated>
+    <dateCreated>2026-08-03T23:13:30.143Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -88,6 +88,15 @@
     <outline type="rss" text="CentralWeb - Nacional" title="CentralWeb - Nacional" description="Feed de la categoría 'Nacional' en CentralWeb" xmlUrl="https://centralweb.cl/?cat=5&amp;feed=rss2" htmlUrl="https://centralweb.cl/?cat=5"/>
     <outline type="rss" text="CentralWeb - Opinión" title="CentralWeb - Opinión" description="Feed de la categoría 'Opinión' en CentralWeb" xmlUrl="https://centralweb.cl/?cat=3023&amp;feed=rss2" htmlUrl="https://centralweb.cl/?cat=3023"/>
     <outline type="rss" text="CentralWeb [Proxy Google News]" title="CentralWeb [Proxy Google News]" description="Resultados de site:centralweb.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:centralweb.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:centralweb.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Chile Mejor Sin TLC" title="Chile Mejor Sin TLC" description="Plataforma ciudadana de organizaciones, parlamentarios y ciudadanos en rechazo al secretismo del TPP" xmlUrl="https://mejorsintlc.cl/feed/" htmlUrl="https://mejorsintlc.cl/"/>
+    <outline type="rss" text="Chile Mejor Sin TLC - Audios" title="Chile Mejor Sin TLC - Audios" description="Feed de la sección 'Audios' en Chile Mejor Sin TLC" xmlUrl="https://mejorsintlc.cl/feed/?category=audios" htmlUrl="https://mejorsintlc.cl/audios/"/>
+    <outline type="rss" text="Chile Mejor Sin TLC - Declaration Tpp" title="Chile Mejor Sin TLC - Declaration Tpp" description="Feed de la sección 'Declaration Tpp' en Chile Mejor Sin TLC" xmlUrl="https://mejorsintlc.cl/feed/?category=declaration-tpp" htmlUrl="https://mejorsintlc.cl/declaration-tpp/"/>
+    <outline type="rss" text="Chile Mejor Sin TLC - Imagenes" title="Chile Mejor Sin TLC - Imagenes" description="Feed de la sección 'Imagenes' en Chile Mejor Sin TLC" xmlUrl="https://mejorsintlc.cl/feed/?category=imagenes" htmlUrl="https://mejorsintlc.cl/imagenes/"/>
+    <outline type="rss" text="Chile Mejor Sin TLC - Multimedia" title="Chile Mejor Sin TLC - Multimedia" description="Feed de la sección 'Multimedia' en Chile Mejor Sin TLC" xmlUrl="https://mejorsintlc.cl/feed/?category=multimedia" htmlUrl="https://mejorsintlc.cl/multimedia/"/>
+    <outline type="rss" text="Chile Mejor Sin TLC - Quienes Somos" title="Chile Mejor Sin TLC - Quienes Somos" description="Feed de la sección 'Quienes Somos' en Chile Mejor Sin TLC" xmlUrl="https://mejorsintlc.cl/feed/?category=quienes-somos" htmlUrl="https://mejorsintlc.cl/quienes-somos/"/>
+    <outline type="rss" text="Chile Mejor Sin TLC - Tpp Anweisung" title="Chile Mejor Sin TLC - Tpp Anweisung" description="Feed de la sección 'Tpp Anweisung' en Chile Mejor Sin TLC" xmlUrl="https://mejorsintlc.cl/feed/?category=tpp-anweisung" htmlUrl="https://mejorsintlc.cl/tpp-anweisung/"/>
+    <outline type="rss" text="Chile Mejor Sin TLC - Videos" title="Chile Mejor Sin TLC - Videos" description="Feed de la sección 'Videos' en Chile Mejor Sin TLC" xmlUrl="https://mejorsintlc.cl/feed/?category=videos" htmlUrl="https://mejorsintlc.cl/videos/"/>
+    <outline type="rss" text="Chile Mejor Sin TLC [Proxy Google News]" title="Chile Mejor Sin TLC [Proxy Google News]" description="Resultados de site:mejorsintlc.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:mejorsintlc.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:mejorsintlc.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="ChileCompra - Noticias" title="ChileCompra - Noticias" description="Feed de la categoría 'Noticias' en ChileCompra" xmlUrl="https://www.chilecompra.cl/category/noticias/feed/" htmlUrl="https://www.chilecompra.cl/category/noticias/"/>
     <outline type="rss" text="Chilena FM" title="Chilena FM" description="Emisora FM regional" xmlUrl="https://cablenoticias.cl/feed" htmlUrl="https://www.chilenafm.cl"/>
     <outline type="rss" text="ChileNoticias" title="ChileNoticias" description="Periodismo de inteligencia - Reportes sobre política y contingencia nacional" xmlUrl="https://chilenoticias.cl/feed/" htmlUrl="https://chilenoticias.cl"/>

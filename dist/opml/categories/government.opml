@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (156 feeds)</title>
+    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (160 feeds)</title>
     <description>Feeds RSS de 🏛️ Gobierno y Datos Públicos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-07-31T21:28:50.019Z</dateCreated>
+    <dateCreated>2026-08-03T23:13:30.143Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -48,6 +48,10 @@
       <outline type="rss" text="Fiscalía de Chile [Proxy Google News]" title="Fiscalía de Chile [Proxy Google News]" description="Resultados de site:fiscaliadechile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:fiscaliadechile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:fiscaliadechile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Gobierno de Chile" title="Gobierno de Chile" description="Noticias oficiales y decretos del gobierno" xmlUrl="https://www.gob.cl/noticias/feed/rss/" htmlUrl="https://www.gob.cl"/>
       <outline type="rss" text="Gobierno de Chile [Proxy Google News]" title="Gobierno de Chile [Proxy Google News]" description="Resultados de site:gob.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:gob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:gob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Gobierno Regional de Tarapacá" title="Gobierno Regional de Tarapacá" description="Gobierno Regional de Tarapacá" xmlUrl="https://www.goretarapaca.gov.cl/feed/" htmlUrl="https://www.goretarapaca.gov.cl/"/>
+      <outline type="rss" text="Gobierno Regional de Tarapacá - En Qué Estamos" title="Gobierno Regional de Tarapacá - En Qué Estamos" description="Feed de la categoría 'En Qué Estamos' en Gobierno Regional de Tarapacá" xmlUrl="https://www.goretarapaca.gov.cl/categoria/en-que-estamos/feed/" htmlUrl="https://www.goretarapaca.gov.cl/categoria/en-que-estamos/"/>
+      <outline type="rss" text="Gobierno Regional de Tarapacá - Noticia Destacada" title="Gobierno Regional de Tarapacá - Noticia Destacada" description="Feed de la categoría 'Noticia Destacada' en Gobierno Regional de Tarapacá" xmlUrl="https://www.goretarapaca.gov.cl/categoria/en-que-estamos/noticia-destacada/feed/" htmlUrl="https://www.goretarapaca.gov.cl/categoria/en-que-estamos/noticia-destacada/"/>
+      <outline type="rss" text="Gobierno Regional de Tarapacá - Patrimonio" title="Gobierno Regional de Tarapacá - Patrimonio" description="Feed de la categoría 'Patrimonio' en Gobierno Regional de Tarapacá" xmlUrl="https://www.goretarapaca.gov.cl/categoria/en-que-estamos/noticia-destacada/patrimonio/feed/" htmlUrl="https://www.goretarapaca.gov.cl/categoria/en-que-estamos/noticia-destacada/patrimonio/"/>
       <outline type="rss" text="Gobierno Regional Metropolitano de Santiago" title="Gobierno Regional Metropolitano de Santiago" description="Gobierno Regional de la Región Metropolitana de Santiago" xmlUrl="https://www.gobiernosantiago.cl/feed/" htmlUrl="https://www.gobiernosantiago.cl"/>
       <outline type="rss" text="Gobierno Regional Metropolitano de Santiago - Gobierno Regional" title="Gobierno Regional Metropolitano de Santiago - Gobierno Regional" description="Feed de la categoría 'Gobierno Regional' en Gobierno Regional Metropolitano de Santiago" xmlUrl="https://www.gobiernosantiago.cl/category/gobierno-regional/feed/" htmlUrl="https://www.gobiernosantiago.cl/category/gobierno-regional/"/>
       <outline type="rss" text="Gobierno Regional Metropolitano de Santiago - Noticias" title="Gobierno Regional Metropolitano de Santiago - Noticias" description="Feed de la categoría 'Noticias' en Gobierno Regional Metropolitano de Santiago" xmlUrl="https://www.gobiernosantiago.cl/category/noticias/feed/" htmlUrl="https://www.gobiernosantiago.cl/category/noticias/"/>
