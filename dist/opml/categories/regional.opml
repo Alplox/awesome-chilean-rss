@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1629 feeds)</title>
+    <title>Awesome Chilean RSS - 🌎 Medios Regionales (1635 feeds)</title>
     <description>Feeds RSS de 🌎 Medios Regionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-03T23:13:30.143Z</dateCreated>
+    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -532,6 +532,11 @@
       <outline type="rss" text="Duplos - Región Metropolitana" title="Duplos - Región Metropolitana" description="Feed de la categoría 'Región Metropolitana' en Duplos" xmlUrl="https://duplos.cl/actualidad/region-metropolitana/feed/" htmlUrl="https://duplos.cl/actualidad/region-metropolitana/"/>
       <outline type="rss" text="Duplos - Tendencias" title="Duplos - Tendencias" description="Feed de la categoría 'Tendencias' en Duplos" xmlUrl="https://duplos.cl/tendencias/feed/" htmlUrl="https://duplos.cl/tendencias/"/>
       <outline type="rss" text="Duplos [Proxy Google News]" title="Duplos [Proxy Google News]" description="Resultados de site:duplos.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:duplos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:duplos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Edición Cero" title="Edición Cero" description="Medio de comunicación independiente de Iquique, Región de Tarapacá." xmlUrl="https://edicioncero.cl/feed/" htmlUrl="https://edicioncero.cl"/>
+      <outline type="rss" text="Edición Cero - Crónicas" title="Edición Cero - Crónicas" description="Feed de la categoría 'Crónicas' en Edición Cero" xmlUrl="https://edicioncero.cl/category/cronicas/feed/" htmlUrl="https://edicioncero.cl/category/cronicas/"/>
+      <outline type="rss" text="Edición Cero - Deportes" title="Edición Cero - Deportes" description="Feed de la categoría 'Deportes' en Edición Cero" xmlUrl="https://edicioncero.cl/category/deportes-local-y-nacional/feed/" htmlUrl="https://edicioncero.cl/category/deportes-local-y-nacional/"/>
+      <outline type="rss" text="Edición Cero - Opinión Y Comentarios" title="Edición Cero - Opinión Y Comentarios" description="Feed de la categoría 'Opinión Y Comentarios' en Edición Cero" xmlUrl="https://edicioncero.cl/category/opinion-y-comentarios/feed/" htmlUrl="https://edicioncero.cl/category/opinion-y-comentarios/"/>
+      <outline type="rss" text="Edición Cero [Proxy Google News]" title="Edición Cero [Proxy Google News]" description="Resultados de site:edicioncero.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:edicioncero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:edicioncero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="El Aconcagua" title="El Aconcagua" description="Diario regional de San Felipe, Valparaíso" xmlUrl="https://www.elaconcagua.cl/feed/" htmlUrl="https://www.elaconcagua.cl"/>
       <outline type="rss" text="El Aconcagua - Aconcagua" title="El Aconcagua - Aconcagua" description="Feed de la categoría 'Aconcagua' en El Aconcagua" xmlUrl="https://www.elaconcagua.cl/category/aconcagua/feed/" htmlUrl="https://www.elaconcagua.cl/category/aconcagua/"/>
       <outline type="rss" text="El Aconcagua - Calle Larga" title="El Aconcagua - Calle Larga" description="Feed de la categoría 'Calle Larga' en El Aconcagua" xmlUrl="https://www.elaconcagua.cl/category/calle-larga/feed/" htmlUrl="https://www.elaconcagua.cl/category/calle-larga/"/>
@@ -1366,6 +1371,7 @@
       <outline type="rss" text="Queilen [Proxy Google News]" title="Queilen [Proxy Google News]" description="Resultados de site:queilen.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:queilen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:queilen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Quilpué Online [Proxy Google News]" title="Quilpué Online [Proxy Google News]" description="Resultados de site:quilpueonline.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:quilpueonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:quilpueonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio Buena Nueva - Regional" title="Radio Buena Nueva - Regional" description="Feed de la categoría 'Regional' en Radio Buena Nueva" xmlUrl="https://radiobuenanueva.cl/rb30/archivos/category/regional/feed/" htmlUrl="https://radiobuenanueva.cl/rb30/archivos/category/regional/"/>
+      <outline type="rss" text="Radio Cristalina - Regional" title="Radio Cristalina - Regional" description="Feed de la categoría 'Regional' en Radio Cristalina" xmlUrl="https://radiocristalina.cl/category/regional/feed/" htmlUrl="https://radiocristalina.cl/category/regional/"/>
       <outline type="rss" text="Radio Magallanes" title="Radio Magallanes" description="Medio de comunicación de la Región de Magallanes y de la Antártica Chilena" xmlUrl="https://radiomagallanes.cl/feed" htmlUrl="https://radiomagallanes.cl"/>
       <outline type="rss" text="Radio Magallanes - Policiales" title="Radio Magallanes - Policiales" description="Feed de la categoría 'Policiales' en Radio Magallanes" xmlUrl="https://radiomagallanes.cl/category/policiales/feed/" htmlUrl="https://radiomagallanes.cl/category/policiales/"/>
       <outline type="rss" text="Radio Magallanes - Reportajes" title="Radio Magallanes - Reportajes" description="Feed de la categoría 'Reportajes' en Radio Magallanes" xmlUrl="https://radiomagallanes.cl/category/reportajes/feed/" htmlUrl="https://radiomagallanes.cl/category/reportajes/"/>

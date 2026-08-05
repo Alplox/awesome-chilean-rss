@@ -498,6 +498,108 @@
     ]
   },
   {
+    "id": "ayuda-mineduc",
+    "name": "Ayuda Mineduc",
+    "url": "https://www.ayudamineduc.cl",
+    "category": "education",
+    "reason": "Feed RSS existe pero sin contenido reciente (último item 2021)",
+    "feeds": [
+      {
+        "id": "ayuda-mineduc-proxy-google-news",
+        "name": "Ayuda Mineduc [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ayudamineduc.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ayudamineduc.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ayudamineduc.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ayuda-mineduc-proxy-bing-news",
+        "name": "Ayuda Mineduc [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ayudamineduc.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ayudamineduc.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ayudamineduc.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de atención ciudadana del Ministerio de Educación de Chile"
+  },
+  {
+    "id": "banco-central",
+    "name": "Banco Central de Chile",
+    "url": "https://www.bcentral.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "banco-central-proxy-google-news",
+        "name": "Banco Central de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:bcentral.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:bcentral.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:bcentral.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "banco-central-proxy-bing-news",
+        "name": "Banco Central de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:bcentral.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:bcentral.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:bcentral.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Banco Central de Chile, información económica y financiera"
+  },
+  {
+    "id": "biblioteca-nacional",
+    "name": "Biblioteca Nacional de Chile",
+    "url": "https://www.bibliotecanacional.gob.cl",
+    "category": "culture",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "biblioteca-nacional-proxy-google-news",
+        "name": "Biblioteca Nacional de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:bibliotecanacional.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:bibliotecanacional.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:bibliotecanacional.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "biblioteca-nacional-proxy-bing-news",
+        "name": "Biblioteca Nacional de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:bibliotecanacional.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:bibliotecanacional.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:bibliotecanacional.gob.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Biblioteca Nacional de Chile, patrimonio bibliográfico nacional"
+  },
+  {
     "id": "buda",
     "name": "Buda.com",
     "url": "https://www.buda.com",
@@ -697,6 +799,40 @@
     ]
   },
   {
+    "id": "centro-gam",
+    "name": "Centro GAM",
+    "url": "https://www.gam.cl",
+    "category": "culture",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "centro-gam-proxy-google-news",
+        "name": "Centro GAM [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:gam.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:gam.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gam.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "centro-gam-proxy-bing-news",
+        "name": "Centro GAM [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:gam.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:gam.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gam.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Centro Gabriela Mistral, espacio cultural de Santiago"
+  },
+  {
     "id": "chasquis",
     "name": "Chasquis",
     "url": "https://www.chasquis.cl",
@@ -807,6 +943,40 @@
     ]
   },
   {
+    "id": "chileatiende",
+    "name": "ChileAtiende",
+    "url": "https://www.chileatiende.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "chileatiende-proxy-google-news",
+        "name": "ChileAtiende [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:chileatiende.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:chileatiende.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chileatiende.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "chileatiende-proxy-bing-news",
+        "name": "ChileAtiende [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:chileatiende.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:chileatiende.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chileatiende.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Plataforma de trámites y beneficios del Estado de Chile"
+  },
+  {
     "id": "chilenews",
     "name": "Chilenews",
     "url": "https://www.chilenews.cl/",
@@ -904,6 +1074,40 @@
       }
     ],
     "description": "Canal de televisión chileno de noticias"
+  },
+  {
+    "id": "colegio-atenea",
+    "name": "Colegio Atenea",
+    "url": "https://colegioatenea.cl",
+    "category": "education",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "colegio-atenea-proxy-google-news",
+        "name": "Colegio Atenea [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:colegioatenea.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:colegioatenea.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:colegioatenea.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "colegio-atenea-proxy-bing-news",
+        "name": "Colegio Atenea [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:colegioatenea.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:colegioatenea.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:colegioatenea.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Establecimiento educacional particular"
   },
   {
     "id": "comercial-mi-voz",
@@ -1071,6 +1275,40 @@
       }
     ],
     "description": "Diario regional"
+  },
+  {
+    "id": "cultura-50-anos-golpe",
+    "name": "50 años del Golpe de Estado",
+    "url": "https://50.cultura.gob.cl",
+    "category": "culture",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "cultura-50-anos-golpe-proxy-google-news",
+        "name": "50 años del Golpe de Estado [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:50.cultura.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:50.cultura.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:50.cultura.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "cultura-50-anos-golpe-proxy-bing-news",
+        "name": "50 años del Golpe de Estado [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:50.cultura.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:50.cultura.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:50.cultura.gob.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Sitio conmemorativo de los 50 años del golpe de Estado, del Ministerio de las Culturas"
   },
   {
     "id": "diario-aysen-opina",
@@ -3917,6 +4155,40 @@
     ]
   },
   {
+    "id": "fundacion-chile",
+    "name": "Fundación Chile",
+    "url": "https://fch.cl",
+    "category": "community",
+    "reason": "Feed RSS existe pero sin contenido reciente (último item 2026-03)",
+    "feeds": [
+      {
+        "id": "fundacion-chile-proxy-google-news",
+        "name": "Fundación Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fch.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fch.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fch.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:12:50.365Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fundacion-chile-proxy-bing-news",
+        "name": "Fundación Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fch.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fch.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fch.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:12:50.365Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Corporación chilena dedicada a la innovación y el desarrollo"
+  },
+  {
     "id": "fundacion-teatro-a-mil",
     "name": "Fundación Teatro a Mil",
     "url": "https://www.teatroamil.cl",
@@ -4374,6 +4646,40 @@
     "description": "Portal chileno de noticias y actualidad",
     "reason": "Sitio sin feed RSS detectado",
     "feeds": []
+  },
+  {
+    "id": "instituto-de-la-construccion",
+    "name": "Instituto de la Construcción",
+    "url": "https://www.iconstruccion.cl",
+    "category": "business",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "instituto-de-la-construccion-proxy-google-news",
+        "name": "Instituto de la Construcción [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:iconstruccion.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:iconstruccion.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:iconstruccion.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "instituto-de-la-construccion-proxy-bing-news",
+        "name": "Instituto de la Construcción [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:iconstruccion.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:iconstruccion.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:iconstruccion.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Instituto de la Construcción, corporación gremial del sector construcción"
   },
   {
     "id": "iquique-online",
@@ -5382,40 +5688,6 @@
     "description": "Medio de comunicación chileno de noticias"
   },
   {
-    "id": "espn-chile",
-    "name": "ESPN Chile",
-    "url": "https://espn.cl",
-    "category": "sports",
-    "description": "Señal chilena de la cadena deportiva ESPN",
-    "reason": "No se detectó feed RSS en el sitio",
-    "feeds": [
-      {
-        "id": "espn-chile-proxy-google-news",
-        "name": "ESPN Chile [Proxy Google News]",
-        "rss_url": "https://news.google.com/rss/search?q=site:espn.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "url": "https://news.google.com/search?q=site:espn.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "feed_type": "RSS",
-        "description": "Resultados de site:espn.cl en Proxy Google News de noticias Chilenas",
-        "last_checked": "2026-07-31T17:21:53.684Z",
-        "last_known_item_date": null,
-        "status": "active",
-        "verified": true
-      },
-      {
-        "id": "espn-chile-proxy-bing-news",
-        "name": "ESPN Chile [Proxy Bing News]",
-        "rss_url": "https://www.bing.com/news/search?q=site:espn.cl&format=RSS",
-        "url": "https://www.bing.com/news/search?q=site:espn.cl",
-        "feed_type": "RSS",
-        "description": "Resultados de site:espn.cl en Proxy Bing News",
-        "last_checked": "2026-07-31T17:21:53.684Z",
-        "last_known_item_date": null,
-        "status": "active",
-        "verified": true
-      }
-    ]
-  },
-  {
     "id": "mega",
     "name": "Mega",
     "url": "https://www.mega.cl",
@@ -5448,6 +5720,210 @@
         "verified": true
       }
     ]
+  },
+  {
+    "id": "memoria-chilena",
+    "name": "Memoria Chilena",
+    "url": "https://www.memoriachilena.gob.cl",
+    "category": "culture",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "memoria-chilena-proxy-google-news",
+        "name": "Memoria Chilena [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:memoriachilena.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:memoriachilena.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:memoriachilena.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "memoria-chilena-proxy-bing-news",
+        "name": "Memoria Chilena [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:memoriachilena.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:memoriachilena.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:memoriachilena.gob.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de la Biblioteca Nacional de Chile con patrimonio documental y cultural chileno"
+  },
+  {
+    "id": "mnba",
+    "name": "Museo Nacional de Bellas Artes",
+    "url": "https://www.mnba.gob.cl",
+    "category": "culture",
+    "reason": "Feed RSS existe pero vacío (0 ítems en rss.xml)",
+    "feeds": [
+      {
+        "id": "mnba-proxy-google-news",
+        "name": "Museo Nacional de Bellas Artes [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:mnba.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mnba.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mnba.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "mnba-proxy-bing-news",
+        "name": "Museo Nacional de Bellas Artes [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:mnba.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mnba.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:mnba.gob.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Museo Nacional de Bellas Artes de Santiago"
+  },
+  {
+    "id": "museo-de-la-memoria",
+    "name": "Museo de la Memoria",
+    "url": "https://museodelamemoria.cl",
+    "category": "culture",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "museo-de-la-memoria-proxy-google-news",
+        "name": "Museo de la Memoria [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:museodelamemoria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:museodelamemoria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:museodelamemoria.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "museo-de-la-memoria-proxy-bing-news",
+        "name": "Museo de la Memoria [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:museodelamemoria.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:museodelamemoria.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:museodelamemoria.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:06:40.804Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Museo de la Memoria y los Derechos Humanos de Santiago"
+  },
+  {
+    "id": "museo-violeta-parra",
+    "name": "Museo Violeta Parra",
+    "url": "https://museovioletaparra.cl",
+    "category": "culture",
+    "reason": "Feed RSS existe pero sin contenido reciente (último item 2026-06)",
+    "feeds": [
+      {
+        "id": "museo-violeta-parra-proxy-google-news",
+        "name": "Museo Violeta Parra [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:museovioletaparra.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:museovioletaparra.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:museovioletaparra.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:14:00.033Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "museo-violeta-parra-proxy-bing-news",
+        "name": "Museo Violeta Parra [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:museovioletaparra.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:museovioletaparra.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:museovioletaparra.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:14:00.034Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Museo dedicado a la vida y obra de Violeta Parra"
+  },
+  {
+    "id": "musica-popular",
+    "name": "MusicaPopular.cl",
+    "url": "https://www.musicapopular.cl",
+    "category": "culture",
+    "reason": "Feed RSS existe pero vacío (0 ítems en feed)",
+    "feeds": [
+      {
+        "id": "musica-popular-proxy-google-news",
+        "name": "MusicaPopular.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:musicapopular.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:musicapopular.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:musicapopular.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:12:50.365Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "musica-popular-proxy-bing-news",
+        "name": "MusicaPopular.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:musicapopular.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:musicapopular.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:musicapopular.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:12:50.365Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Enciclopedia de la música popular chilena"
+  },
+  {
+    "id": "profesor-en-linea",
+    "name": "Profesor en línea",
+    "url": "https://www.profesorenlinea.cl",
+    "category": "education",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "profesor-en-linea-proxy-google-news",
+        "name": "Profesor en línea [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:profesorenlinea.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:profesorenlinea.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:profesorenlinea.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "profesor-en-linea-proxy-bing-news",
+        "name": "Profesor en línea [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:profesorenlinea.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:profesorenlinea.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:profesorenlinea.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal educativo chileno con contenidos de estudio escolar"
   },
   {
     "id": "radio-carolina",
@@ -5516,6 +5992,40 @@
         "verified": true
       }
     ]
+  },
+  {
+    "id": "radio-zero",
+    "name": "Radio Zero",
+    "url": "https://radiozero.cl",
+    "category": "radio",
+    "reason": "Feed RSS existe pero vacío (0 ítems en feed)",
+    "feeds": [
+      {
+        "id": "radio-zero-proxy-google-news",
+        "name": "Radio Zero [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiozero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiozero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiozero.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:12:50.365Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-zero-proxy-bing-news",
+        "name": "Radio Zero [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiozero.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiozero.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiozero.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:12:50.365Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Emisora de rock y música alternativa de Santiago"
   },
   {
     "id": "rec-tv",
@@ -5856,6 +6366,142 @@
         "verified": true
       }
     ]
+  },
+  {
+    "id": "red-crecemos",
+    "name": "Red Educacional Crecemos",
+    "url": "https://www.redcrecemos.cl",
+    "category": "education",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "red-crecemos-proxy-google-news",
+        "name": "Red Educacional Crecemos [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:redcrecemos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:redcrecemos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:redcrecemos.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "red-crecemos-proxy-bing-news",
+        "name": "Red Educacional Crecemos [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:redcrecemos.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:redcrecemos.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:redcrecemos.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Red educacional de colegios"
+  },
+  {
+    "id": "sistema-de-admision-escolar",
+    "name": "Sistema de Admisión Escolar",
+    "url": "https://www.sistemadeadmisionescolar.cl",
+    "category": "education",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "sistema-de-admision-escolar-proxy-google-news",
+        "name": "Sistema de Admisión Escolar [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sistemadeadmisionescolar.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sistemadeadmisionescolar.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sistemadeadmisionescolar.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "sistema-de-admision-escolar-proxy-bing-news",
+        "name": "Sistema de Admisión Escolar [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sistemadeadmisionescolar.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sistemadeadmisionescolar.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sistemadeadmisionescolar.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Sistema de Admisión Escolar del Ministerio de Educación de Chile"
+  },
+  {
+    "id": "st-georges-college",
+    "name": "Saint George's College",
+    "url": "https://www.saintgeorge.cl",
+    "category": "education",
+    "reason": "Feed RSS existe pero sin contenido reciente (último item 2022)",
+    "feeds": [
+      {
+        "id": "st-georges-college-proxy-google-news",
+        "name": "Saint George's College [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:saintgeorge.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:saintgeorge.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:saintgeorge.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "st-georges-college-proxy-bing-news",
+        "name": "Saint George's College [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:saintgeorge.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:saintgeorge.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:saintgeorge.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Colegio privado de Santiago"
+  },
+  {
+    "id": "teatro-municipal",
+    "name": "Teatro Municipal de Santiago",
+    "url": "https://municipal.cl",
+    "category": "culture",
+    "reason": "Feed RSS existe pero sin contenido reciente (último item 2022)",
+    "feeds": [
+      {
+        "id": "teatro-municipal-proxy-google-news",
+        "name": "Teatro Municipal de Santiago [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:municipal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:municipal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:municipal.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:12:50.365Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "teatro-municipal-proxy-bing-news",
+        "name": "Teatro Municipal de Santiago [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:municipal.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:municipal.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:municipal.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:12:50.365Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Teatro Municipal de Santiago, ópera y ballet"
   },
   {
     "id": "tvn",
@@ -9757,6 +10403,40 @@
     "description": "Universidad estatal de Valdivia"
   },
   {
+    "id": "uai",
+    "name": "Universidad Adolfo Ibáñez",
+    "url": "https://www.uai.cl",
+    "category": "education",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "uai-proxy-google-news",
+        "name": "Universidad Adolfo Ibáñez [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:uai.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:uai.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uai.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "uai-proxy-bing-news",
+        "name": "Universidad Adolfo Ibáñez [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:uai.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:uai.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uai.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Universidad privada chilena"
+  },
+  {
     "id": "uantof",
     "name": "Universidad de Antofagasta",
     "url": "https://www.uantof.cl",
@@ -9789,6 +10469,40 @@
       }
     ],
     "description": "Universidad estatal de la Región de Antofagasta"
+  },
+  {
+    "id": "uautonoma",
+    "name": "Universidad Autónoma de Chile",
+    "url": "https://www.uautonoma.cl",
+    "category": "education",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "uautonoma-proxy-google-news",
+        "name": "Universidad Autónoma de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:uautonoma.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:uautonoma.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uautonoma.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "uautonoma-proxy-bing-news",
+        "name": "Universidad Autónoma de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:uautonoma.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:uautonoma.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uautonoma.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Universidad privada chilena"
   },
   {
     "id": "ubiobio",
@@ -9857,6 +10571,40 @@
       }
     ],
     "description": "Universidad pública chilena"
+  },
+  {
+    "id": "ucn",
+    "name": "Universidad Católica del Norte",
+    "url": "https://www.ucn.cl",
+    "category": "education",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "ucn-proxy-google-news",
+        "name": "Universidad Católica del Norte [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ucn.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ucn.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ucn.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ucn-proxy-bing-news",
+        "name": "Universidad Católica del Norte [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ucn.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ucn.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ucn.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Universidad católica con sedes en Antofagasta y Coquimbo"
   },
   {
     "id": "ucsc",
@@ -10079,6 +10827,40 @@
     ]
   },
   {
+    "id": "umayor",
+    "name": "Universidad Mayor",
+    "url": "https://www.umayor.cl",
+    "category": "education",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "umayor-proxy-google-news",
+        "name": "Universidad Mayor [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:umayor.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:umayor.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:umayor.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "umayor-proxy-bing-news",
+        "name": "Universidad Mayor [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:umayor.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:umayor.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:umayor.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Universidad privada chilena"
+  },
+  {
     "id": "universia-cl",
     "name": "Universia Chile",
     "url": "https://noticias.universia.cl",
@@ -10117,7 +10899,7 @@
     "name": "USACH",
     "url": "https://www.usach.cl",
     "category": "education",
-    "reason": "Sin feed RSS detectado",
+    "reason": "Feed RSS existe pero vacío (0 ítems en rss.xml)",
     "feeds": [
       {
         "id": "usach-proxy-google-news",
@@ -10145,6 +10927,74 @@
       }
     ],
     "description": "Universidad pública chilena"
+  },
+  {
+    "id": "uss",
+    "name": "Universidad San Sebastián",
+    "url": "https://www.uss.cl",
+    "category": "education",
+    "reason": "Feed RSS existe pero sin contenido reciente (último item 2023)",
+    "feeds": [
+      {
+        "id": "uss-proxy-google-news",
+        "name": "Universidad San Sebastián [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:uss.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:uss.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uss.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "uss-proxy-bing-news",
+        "name": "Universidad San Sebastián [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:uss.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:uss.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uss.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Universidad privada chilena"
+  },
+  {
+    "id": "uv",
+    "name": "Universidad de Valparaíso",
+    "url": "https://www.uv.cl",
+    "category": "education",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "uv-proxy-google-news",
+        "name": "Universidad de Valparaíso [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:uv.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:uv.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uv.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "uv-proxy-bing-news",
+        "name": "Universidad de Valparaíso [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:uv.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:uv.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:uv.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:45:32.376Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Universidad estatal de Valparaíso"
   },
   {
     "id": "vgamers",
@@ -10177,6 +11027,40 @@
         "verified": true
       }
     ]
+  },
+  {
+    "id": "vicaria-de-la-solidaridad",
+    "name": "Vicaría de la Solidaridad",
+    "url": "https://www.vicariadelasolidaridad.cl",
+    "category": "community",
+    "reason": "Feed RSS existe pero sin contenido reciente (último item 2022)",
+    "feeds": [
+      {
+        "id": "vicaria-de-la-solidaridad-proxy-google-news",
+        "name": "Vicaría de la Solidaridad [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:vicariadelasolidaridad.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:vicariadelasolidaridad.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:vicariadelasolidaridad.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "vicaria-de-la-solidaridad-proxy-bing-news",
+        "name": "Vicaría de la Solidaridad [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:vicariadelasolidaridad.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:vicariadelasolidaridad.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:vicariadelasolidaridad.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T00:55:50.637Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Archivo histórico de derechos humanos de la Vicaría de la Solidaridad"
   },
   {
     "id": "viento-patagon",
@@ -16063,5 +16947,3633 @@
       }
     ],
     "reason": "Solo feeds proxy activos (feeds nativos inactivos)"
+  },
+  {
+    "id": "chile-valora",
+    "name": "ChileValora",
+    "url": "https://www.chilevalora.cl",
+    "category": "jobs",
+    "reason": "Feed RSS existe pero sin contenido reciente (último item 2026-04)",
+    "feeds": [
+      {
+        "id": "chile-valora-proxy-google-news",
+        "name": "ChileValora [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:chilevalora.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:chilevalora.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chilevalora.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:18:40.525Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "chile-valora-proxy-bing-news",
+        "name": "ChileValora [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:chilevalora.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:chilevalora.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chilevalora.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:18:40.525Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "ChileValora, sistema de certificación de competencias laborales de Chile"
+  },
+  {
+    "id": "colegio-de-enfermeras",
+    "name": "Colegio de Enfermeras de Chile",
+    "url": "https://www.colegiodeenfermeras.cl",
+    "category": "health",
+    "reason": "Feed RSS existe pero sin contenido reciente (último item 2026-02)",
+    "feeds": [
+      {
+        "id": "colegio-de-enfermeras-proxy-google-news",
+        "name": "Colegio de Enfermeras de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:colegiodeenfermeras.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:colegiodeenfermeras.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:colegiodeenfermeras.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:24:56.257Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "colegio-de-enfermeras-proxy-bing-news",
+        "name": "Colegio de Enfermeras de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:colegiodeenfermeras.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:colegiodeenfermeras.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:colegiodeenfermeras.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:24:56.257Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Colegio de Enfermeras de Chile, colegio profesional de enfermería"
+  },
+  {
+    "id": "fundacion-las-rosas",
+    "name": "Fundación Las Rosas",
+    "url": "https://www.lasrosas.cl",
+    "category": "community",
+    "reason": "Feed RSS existe pero sin contenido reciente (último item 2020-01)",
+    "feeds": [
+      {
+        "id": "fundacion-las-rosas-proxy-google-news",
+        "name": "Fundación Las Rosas [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:lasrosas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lasrosas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lasrosas.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:30:33.565Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fundacion-las-rosas-proxy-bing-news",
+        "name": "Fundación Las Rosas [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:lasrosas.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lasrosas.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lasrosas.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:30:33.565Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Fundación Las Rosas, obra social católica de acogida a adultos mayores"
+  },
+  {
+    "id": "fundacion-reforestemos",
+    "name": "Fundación Reforestemos",
+    "url": "https://www.reforestemos.cl",
+    "category": "environment",
+    "reason": "Feed RSS existe pero vacío (0 ítems en feed)",
+    "feeds": [
+      {
+        "id": "fundacion-reforestemos-proxy-google-news",
+        "name": "Fundación Reforestemos [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:reforestemos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:reforestemos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:reforestemos.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:30:33.565Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fundacion-reforestemos-proxy-bing-news",
+        "name": "Fundación Reforestemos [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:reforestemos.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:reforestemos.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:reforestemos.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:30:33.565Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Fundación Reforestemos, organización chilena de restauración de bosques nativos"
+  },
+  {
+    "id": "senda",
+    "name": "SENDA",
+    "url": "https://www.senda.gob.cl",
+    "category": "government",
+    "reason": "Feed RSS existe pero vacío (0 ítems en feed)",
+    "feeds": [
+      {
+        "id": "senda-proxy-google-news",
+        "name": "SENDA [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:senda.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:senda.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:senda.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:30:33.565Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "senda-proxy-bing-news",
+        "name": "SENDA [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:senda.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:senda.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:senda.gob.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:30:33.565Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "SENDA, Servicio Nacional para la Prevención y Rehabilitación del Consumo de Drogas y Alcohol"
+  },
+  {
+    "id": "amcham-chile",
+    "name": "AmCham Chile",
+    "url": "https://www.amchamchile.cl",
+    "category": "business",
+    "reason": "Feed RSS existe pero vacío (0 ítems en feed)",
+    "feeds": [
+      {
+        "id": "amcham-chile-proxy-google-news",
+        "name": "AmCham Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:amchamchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:amchamchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:amchamchile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:35:16.669Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "amcham-chile-proxy-bing-news",
+        "name": "AmCham Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:amchamchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:amchamchile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:amchamchile.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:35:16.669Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Cámara Chilena Norteamericana de Comercio, gremio de empresas con inversión estadounidense en Chile"
+  },
+  {
+    "id": "empleos-publicos",
+    "name": "EmpleosPúblicos",
+    "url": "https://www.empleospublicos.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "empleos-publicos-proxy-google-news",
+        "name": "EmpleosPúblicos [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:empleospublicos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:empleospublicos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:empleospublicos.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "empleos-publicos-proxy-bing-news",
+        "name": "EmpleosPúblicos [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:empleospublicos.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:empleospublicos.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:empleospublicos.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de empleo público del Servicio Civil de Chile"
+  },
+  {
+    "id": "opcion-empleo",
+    "name": "Opción Empleo",
+    "url": "https://www.opcionempleo.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "opcion-empleo-proxy-google-news",
+        "name": "Opción Empleo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:opcionempleo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:opcionempleo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:opcionempleo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "opcion-empleo-proxy-bing-news",
+        "name": "Opción Empleo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:opcionempleo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:opcionempleo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:opcionempleo.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de ofertas de empleo para Chile"
+  },
+  {
+    "id": "jooble-chile",
+    "name": "Jooble Chile",
+    "url": "https://cl.jooble.org",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "jooble-chile-proxy-google-news",
+        "name": "Jooble Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:cl.jooble.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cl.jooble.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cl.jooble.org en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "jooble-chile-proxy-bing-news",
+        "name": "Jooble Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:cl.jooble.org&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cl.jooble.org",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cl.jooble.org en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Buscador de empleo con ofertas en Chile"
+  },
+  {
+    "id": "jobsora-chile",
+    "name": "Jobsora Chile",
+    "url": "https://cl.jobsora.com",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "jobsora-chile-proxy-google-news",
+        "name": "Jobsora Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:cl.jobsora.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cl.jobsora.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cl.jobsora.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "jobsora-chile-proxy-bing-news",
+        "name": "Jobsora Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:cl.jobsora.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cl.jobsora.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cl.jobsora.com en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Buscador de ofertas de empleo en Chile"
+  },
+  {
+    "id": "occ-chile",
+    "name": "OCC Chile",
+    "url": "https://www.occ.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "occ-chile-proxy-google-news",
+        "name": "OCC Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:occ.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:occ.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:occ.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "occ-chile-proxy-bing-news",
+        "name": "OCC Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:occ.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:occ.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:occ.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de empleo y búsqueda de trabajo en Chile"
+  },
+  {
+    "id": "rrhh-chile",
+    "name": "RRHH.cl",
+    "url": "https://www.rrhh.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "rrhh-chile-proxy-google-news",
+        "name": "RRHH.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:rrhh.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:rrhh.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:rrhh.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "rrhh-chile-proxy-bing-news",
+        "name": "RRHH.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:rrhh.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:rrhh.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:rrhh.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal chileno de recursos humanos y empleo"
+  },
+  {
+    "id": "portal-empleo",
+    "name": "Portal Empleo",
+    "url": "https://www.portalempleo.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "portal-empleo-proxy-google-news",
+        "name": "Portal Empleo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:portalempleo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:portalempleo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:portalempleo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "portal-empleo-proxy-bing-news",
+        "name": "Portal Empleo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:portalempleo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:portalempleo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:portalempleo.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de ofertas de empleo en Chile"
+  },
+  {
+    "id": "empleos-tic",
+    "name": "Empleos TIC",
+    "url": "https://www.empleostic.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "empleos-tic-proxy-google-news",
+        "name": "Empleos TIC [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:empleostic.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:empleostic.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:empleostic.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "empleos-tic-proxy-bing-news",
+        "name": "Empleos TIC [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:empleostic.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:empleostic.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:empleostic.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de empleos del sector tecnológico en Chile"
+  },
+  {
+    "id": "emplea-cl",
+    "name": "Emplea.cl",
+    "url": "https://emplea.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "emplea-cl-proxy-google-news",
+        "name": "Emplea.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:emplea.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:emplea.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:emplea.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "emplea-cl-proxy-bing-news",
+        "name": "Emplea.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:emplea.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:emplea.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:emplea.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de ofertas de empleo en Chile"
+  },
+  {
+    "id": "capacitacion-chile",
+    "name": "Capacitación Chile",
+    "url": "https://www.capacitacionchile.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "capacitacion-chile-proxy-google-news",
+        "name": "Capacitación Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:capacitacionchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:capacitacionchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:capacitacionchile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "capacitacion-chile-proxy-bing-news",
+        "name": "Capacitación Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:capacitacionchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:capacitacionchile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:capacitacionchile.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de cursos de capacitación laboral en Chile"
+  },
+  {
+    "id": "empleo-municipal",
+    "name": "Empleo Municipal",
+    "url": "https://www.empleomunicipal.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "empleo-municipal-proxy-google-news",
+        "name": "Empleo Municipal [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:empleomunicipal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:empleomunicipal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:empleomunicipal.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "empleo-municipal-proxy-bing-news",
+        "name": "Empleo Municipal [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:empleomunicipal.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:empleomunicipal.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:empleomunicipal.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de ofertas de empleo municipal en Chile"
+  },
+  {
+    "id": "santiago-empleo",
+    "name": "Santiago Empleo",
+    "url": "https://www.santiagoempleo.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "santiago-empleo-proxy-google-news",
+        "name": "Santiago Empleo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:santiagoempleo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:santiagoempleo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:santiagoempleo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "santiago-empleo-proxy-bing-news",
+        "name": "Santiago Empleo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:santiagoempleo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:santiagoempleo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:santiagoempleo.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de ofertas de empleo de la Región Metropolitana"
+  },
+  {
+    "id": "oit-chile",
+    "name": "OIT Chile",
+    "url": "https://www.ilo.org/santiago",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "oit-chile-proxy-google-news",
+        "name": "OIT Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ilo.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ilo.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ilo.org en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "oit-chile-proxy-bing-news",
+        "name": "OIT Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ilo.org&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ilo.org",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ilo.org en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Oficina de la Organización Internacional del Trabajo para el Cono Sur"
+  },
+  {
+    "id": "direccion-del-trabajo",
+    "name": "Dirección del Trabajo",
+    "url": "https://www.dt.gob.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "direccion-del-trabajo-proxy-google-news",
+        "name": "Dirección del Trabajo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:dt.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:dt.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:dt.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "direccion-del-trabajo-proxy-bing-news",
+        "name": "Dirección del Trabajo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:dt.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:dt.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:dt.gob.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Dirección del Trabajo, servicio público de fiscalización laboral"
+  },
+  {
+    "id": "buk",
+    "name": "BUK",
+    "url": "https://www.buk.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "buk-proxy-google-news",
+        "name": "BUK [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:buk.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:buk.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:buk.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "buk-proxy-bing-news",
+        "name": "BUK [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:buk.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:buk.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:buk.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Plataforma chilena de gestión de recursos humanos"
+  },
+  {
+    "id": "randstad-chile",
+    "name": "Randstad Chile",
+    "url": "https://www.randstad.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "randstad-chile-proxy-google-news",
+        "name": "Randstad Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:randstad.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:randstad.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:randstad.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "randstad-chile-proxy-bing-news",
+        "name": "Randstad Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:randstad.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:randstad.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:randstad.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Empresa de recursos humanos y selección de personal"
+  },
+  {
+    "id": "computrabajo-chile",
+    "name": "Computrabajo Chile",
+    "url": "https://cl.computrabajo.com",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "computrabajo-chile-proxy-google-news",
+        "name": "Computrabajo Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:cl.computrabajo.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cl.computrabajo.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cl.computrabajo.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "computrabajo-chile-proxy-bing-news",
+        "name": "Computrabajo Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:cl.computrabajo.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cl.computrabajo.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cl.computrabajo.com en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal de ofertas de empleo en Chile"
+  },
+  {
+    "id": "bolsa-nacional-empleo",
+    "name": "Bolsa Nacional de Empleo",
+    "url": "https://www.bne.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "bolsa-nacional-empleo-proxy-google-news",
+        "name": "Bolsa Nacional de Empleo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:bne.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:bne.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:bne.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "bolsa-nacional-empleo-proxy-bing-news",
+        "name": "Bolsa Nacional de Empleo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:bne.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:bne.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:bne.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Bolsa Nacional de Empleo del SENCE"
+  },
+  {
+    "id": "worki",
+    "name": "Worki",
+    "url": "https://www.worki.cl",
+    "category": "jobs",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "worki-proxy-google-news",
+        "name": "Worki [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:worki.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:worki.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:worki.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "worki-proxy-bing-news",
+        "name": "Worki [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:worki.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:worki.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:worki.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Plataforma de empleo y búsqueda de trabajo en Chile"
+  },
+  {
+    "id": "supersalud",
+    "name": "Superintendencia de Salud",
+    "url": "https://www.supersalud.gob.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "supersalud-proxy-google-news",
+        "name": "Superintendencia de Salud [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:supersalud.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:supersalud.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:supersalud.gob.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "supersalud-proxy-bing-news",
+        "name": "Superintendencia de Salud [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:supersalud.gob.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:supersalud.gob.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:supersalud.gob.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Superintendencia de Salud de Chile"
+  },
+  {
+    "id": "clinica-las-condes",
+    "name": "Clínica Las Condes",
+    "url": "https://www.clinicalascondes.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "clinica-las-condes-proxy-google-news",
+        "name": "Clínica Las Condes [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:clinicalascondes.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:clinicalascondes.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:clinicalascondes.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "clinica-las-condes-proxy-bing-news",
+        "name": "Clínica Las Condes [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:clinicalascondes.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:clinicalascondes.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:clinicalascondes.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Clínica privada chilena"
+  },
+  {
+    "id": "clinica-alemana",
+    "name": "Clínica Alemana",
+    "url": "https://www.alemana.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "clinica-alemana-proxy-google-news",
+        "name": "Clínica Alemana [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:alemana.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:alemana.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:alemana.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "clinica-alemana-proxy-bing-news",
+        "name": "Clínica Alemana [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:alemana.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:alemana.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:alemana.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Clínica privada chilena de Santiago"
+  },
+  {
+    "id": "hospital-clinico-uchile",
+    "name": "Hospital Clínico U. de Chile",
+    "url": "https://www.hospitalclinico.uchile.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "hospital-clinico-uchile-proxy-google-news",
+        "name": "Hospital Clínico U. de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:hospitalclinico.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:hospitalclinico.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:hospitalclinico.uchile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "hospital-clinico-uchile-proxy-bing-news",
+        "name": "Hospital Clínico U. de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:hospitalclinico.uchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:hospitalclinico.uchile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:hospitalclinico.uchile.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Hospital Clínico de la Universidad de Chile"
+  },
+  {
+    "id": "sochipe",
+    "name": "Sociedad Chilena de Pediatría",
+    "url": "https://www.sochipe.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "sochipe-proxy-google-news",
+        "name": "Sociedad Chilena de Pediatría [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sochipe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sochipe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sochipe.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "sochipe-proxy-bing-news",
+        "name": "Sociedad Chilena de Pediatría [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sochipe.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sochipe.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sochipe.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Sociedad Chilena de Pediatría (SOCHIPE)"
+  },
+  {
+    "id": "escuela-salud-publica",
+    "name": "Escuela de Salud Pública U. de Chile",
+    "url": "https://escuela.medicina.uchile.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "escuela-salud-publica-proxy-google-news",
+        "name": "Escuela de Salud Pública U. de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:escuela.medicina.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:escuela.medicina.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:escuela.medicina.uchile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "escuela-salud-publica-proxy-bing-news",
+        "name": "Escuela de Salud Pública U. de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:escuela.medicina.uchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:escuela.medicina.uchile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:escuela.medicina.uchile.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Escuela de Salud Pública de la Universidad de Chile"
+  },
+  {
+    "id": "medwave",
+    "name": "Medwave",
+    "url": "https://www.medwave.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "medwave-proxy-google-news",
+        "name": "Medwave [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:medwave.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:medwave.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:medwave.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "medwave-proxy-bing-news",
+        "name": "Medwave [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:medwave.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:medwave.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:medwave.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Revista biomédica chilena"
+  },
+  {
+    "id": "revista-medica-chile",
+    "name": "Revista Médica de Chile",
+    "url": "https://www.revistamedicadechile.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "revista-medica-chile-proxy-google-news",
+        "name": "Revista Médica de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:revistamedicadechile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:revistamedicadechile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:revistamedicadechile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "revista-medica-chile-proxy-bing-news",
+        "name": "Revista Médica de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:revistamedicadechile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:revistamedicadechile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:revistamedicadechile.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Revista Médica de Chile, publicación científica"
+  },
+  {
+    "id": "anamed",
+    "name": "ANAMED",
+    "url": "https://www.anamed.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "anamed-proxy-google-news",
+        "name": "ANAMED [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:anamed.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:anamed.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:anamed.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "anamed-proxy-bing-news",
+        "name": "ANAMED [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:anamed.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:anamed.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:anamed.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Agencia Nacional de Medicamentos de Chile"
+  },
+  {
+    "id": "instituto-nacional-torax",
+    "name": "Instituto Nacional del Tórax",
+    "url": "https://www.torax.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "instituto-nacional-torax-proxy-google-news",
+        "name": "Instituto Nacional del Tórax [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:torax.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:torax.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:torax.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "instituto-nacional-torax-proxy-bing-news",
+        "name": "Instituto Nacional del Tórax [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:torax.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:torax.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:torax.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Instituto Nacional del Tórax, hospital de enfermedades respiratorias"
+  },
+  {
+    "id": "fundacion-gabriel",
+    "name": "Fundación Gabriel",
+    "url": "https://www.fundaciongabriel.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "fundacion-gabriel-proxy-google-news",
+        "name": "Fundación Gabriel [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fundaciongabriel.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fundaciongabriel.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fundaciongabriel.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fundacion-gabriel-proxy-bing-news",
+        "name": "Fundación Gabriel [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fundaciongabriel.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fundaciongabriel.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fundaciongabriel.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Fundación chilena de acompañamiento al enfermo de cáncer"
+  },
+  {
+    "id": "fundacion-nuestros-hijos",
+    "name": "Fundación Nuestros Hijos",
+    "url": "https://fnch.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "fundacion-nuestros-hijos-proxy-google-news",
+        "name": "Fundación Nuestros Hijos [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fnch.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fnch.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fnch.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fundacion-nuestros-hijos-proxy-bing-news",
+        "name": "Fundación Nuestros Hijos [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fnch.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fnch.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fnch.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Fundación chilena de apoyo al cáncer infantil"
+  },
+  {
+    "id": "unicef-chile",
+    "name": "UNICEF Chile",
+    "url": "https://www.unicef.org/chile",
+    "category": "community",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "unicef-chile-proxy-google-news",
+        "name": "UNICEF Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:unicef.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:unicef.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:unicef.org en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "unicef-chile-proxy-bing-news",
+        "name": "UNICEF Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:unicef.org&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:unicef.org",
+        "feed_type": "RSS",
+        "description": "Resultados de site:unicef.org en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Fondo de las Naciones Unidas para la Infancia en Chile"
+  },
+  {
+    "id": "sochinf",
+    "name": "Sociedad Chilena de Infectología",
+    "url": "https://www.sochinf.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "sochinf-proxy-google-news",
+        "name": "Sociedad Chilena de Infectología [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sochinf.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sochinf.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sochinf.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "sochinf-proxy-bing-news",
+        "name": "Sociedad Chilena de Infectología [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sochinf.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sochinf.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sochinf.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Sociedad Chilena de Infectología (SOCHINF)"
+  },
+  {
+    "id": "sociedad-cirugia-chile",
+    "name": "Sociedad de Cirugía de Chile",
+    "url": "https://www.sociedadcirugia.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "sociedad-cirugia-chile-proxy-google-news",
+        "name": "Sociedad de Cirugía de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sociedadcirugia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sociedadcirugia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sociedadcirugia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "sociedad-cirugia-chile-proxy-bing-news",
+        "name": "Sociedad de Cirugía de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sociedadcirugia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sociedadcirugia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sociedadcirugia.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Sociedad de Cirujanos de Chile"
+  },
+  {
+    "id": "hospital-clinico-ufro",
+    "name": "Hospital Clínico UFRO",
+    "url": "https://www.hospitalclinicoufro.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "hospital-clinico-ufro-proxy-google-news",
+        "name": "Hospital Clínico UFRO [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:hospitalclinicoufro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:hospitalclinicoufro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:hospitalclinicoufro.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "hospital-clinico-ufro-proxy-bing-news",
+        "name": "Hospital Clínico UFRO [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:hospitalclinicoufro.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:hospitalclinicoufro.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:hospitalclinicoufro.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Hospital Clínico de la Universidad de La Frontera"
+  },
+  {
+    "id": "revista-chilena-pediatria",
+    "name": "Revista Chilena de Pediatría",
+    "url": "https://www.revistachilenadepediatria.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "revista-chilena-pediatria-proxy-google-news",
+        "name": "Revista Chilena de Pediatría [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:revistachilenadepediatria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:revistachilenadepediatria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:revistachilenadepediatria.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "revista-chilena-pediatria-proxy-bing-news",
+        "name": "Revista Chilena de Pediatría [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:revistachilenadepediatria.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:revistachilenadepediatria.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:revistachilenadepediatria.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Revista Chilena de Pediatría, publicación científica"
+  },
+  {
+    "id": "hospital-digital",
+    "name": "Hospital Digital",
+    "url": "https://hospitaldigital.minsal.cl",
+    "category": "health",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "hospital-digital-proxy-google-news",
+        "name": "Hospital Digital [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:hospitaldigital.minsal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:hospitaldigital.minsal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:hospitaldigital.minsal.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "hospital-digital-proxy-bing-news",
+        "name": "Hospital Digital [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:hospitaldigital.minsal.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:hospitaldigital.minsal.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:hospitaldigital.minsal.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Plataforma de atención digital del Ministerio de Salud"
+  },
+  {
+    "id": "chile-sustentable",
+    "name": "Chile Sustentable",
+    "url": "https://www.chilesustentable.net",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "chile-sustentable-proxy-google-news",
+        "name": "Chile Sustentable [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:chilesustentable.net&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:chilesustentable.net&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chilesustentable.net en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "chile-sustentable-proxy-bing-news",
+        "name": "Chile Sustentable [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:chilesustentable.net&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:chilesustentable.net",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chilesustentable.net en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "ONG chilena de sustentabilidad y medio ambiente"
+  },
+  {
+    "id": "wwf-chile",
+    "name": "WWF Chile",
+    "url": "https://www.wwf.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "wwf-chile-proxy-google-news",
+        "name": "WWF Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:wwf.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:wwf.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:wwf.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "wwf-chile-proxy-bing-news",
+        "name": "WWF Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:wwf.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:wwf.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:wwf.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Fondo Mundial para la Naturaleza, oficina de Chile"
+  },
+  {
+    "id": "fundacion-legado-chile",
+    "name": "Fundación Legado Chile",
+    "url": "https://legadochile.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "fundacion-legado-chile-proxy-google-news",
+        "name": "Fundación Legado Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:legadochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:legadochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:legadochile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fundacion-legado-chile-proxy-bing-news",
+        "name": "Fundación Legado Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:legadochile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:legadochile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:legadochile.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Fundación chilena de conservación de áreas silvestres"
+  },
+  {
+    "id": "instituto-ecologia-biodiversidad",
+    "name": "Instituto de Ecología y Biodiversidad",
+    "url": "https://www.ie-b.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "instituto-ecologia-biodiversidad-proxy-google-news",
+        "name": "Instituto de Ecología y Biodiversidad [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ie-b.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ie-b.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ie-b.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "instituto-ecologia-biodiversidad-proxy-bing-news",
+        "name": "Instituto de Ecología y Biodiversidad [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ie-b.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ie-b.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ie-b.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Instituto de Ecología y Biodiversidad de Chile (IEB)"
+  },
+  {
+    "id": "diario-sustentable",
+    "name": "Diario Sustentable",
+    "url": "https://www.dsustentable.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "diario-sustentable-proxy-google-news",
+        "name": "Diario Sustentable [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:dsustentable.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:dsustentable.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:dsustentable.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-sustentable-proxy-bing-news",
+        "name": "Diario Sustentable [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:dsustentable.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:dsustentable.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:dsustentable.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio chileno de noticias sobre sustentabilidad"
+  },
+  {
+    "id": "induambiente",
+    "name": "Induambiente",
+    "url": "https://www.induambiente.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "induambiente-proxy-google-news",
+        "name": "Induambiente [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:induambiente.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:induambiente.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:induambiente.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "induambiente-proxy-bing-news",
+        "name": "Induambiente [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:induambiente.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:induambiente.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:induambiente.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Revista chilena de industria y medio ambiente"
+  },
+  {
+    "id": "aguas-andinas",
+    "name": "Aguas Andinas",
+    "url": "https://www.aguasandinas.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "aguas-andinas-proxy-google-news",
+        "name": "Aguas Andinas [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:aguasandinas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:aguasandinas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:aguasandinas.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "aguas-andinas-proxy-bing-news",
+        "name": "Aguas Andinas [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:aguasandinas.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:aguasandinas.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:aguasandinas.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Empresa de saneamiento de agua potable de Santiago"
+  },
+  {
+    "id": "acera",
+    "name": "ACERA",
+    "url": "https://acera.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "acera-proxy-google-news",
+        "name": "ACERA [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:acera.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:acera.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:acera.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "acera-proxy-bing-news",
+        "name": "ACERA [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:acera.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:acera.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:acera.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Asociación Chilena de Energías Renovables y Almacenamiento"
+  },
+  {
+    "id": "fundacion-adapta",
+    "name": "Fundación Adapta",
+    "url": "https://adapta.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "fundacion-adapta-proxy-google-news",
+        "name": "Fundación Adapta [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:adapta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:adapta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:adapta.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fundacion-adapta-proxy-bing-news",
+        "name": "Fundación Adapta [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:adapta.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:adapta.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:adapta.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "ONG chilena de adaptación al cambio climático"
+  },
+  {
+    "id": "accion-climatica",
+    "name": "Acción Climática",
+    "url": "https://accionclimatica.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "accion-climatica-proxy-google-news",
+        "name": "Acción Climática [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:accionclimatica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:accionclimatica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:accionclimatica.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "accion-climatica-proxy-bing-news",
+        "name": "Acción Climática [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:accionclimatica.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:accionclimatica.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:accionclimatica.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Plataforma chilena de información sobre cambio climático"
+  },
+  {
+    "id": "patagonia-cl",
+    "name": "Patagonia.cl",
+    "url": "https://www.patagonia.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "patagonia-cl-proxy-google-news",
+        "name": "Patagonia.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:patagonia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:patagonia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:patagonia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "patagonia-cl-proxy-bing-news",
+        "name": "Patagonia.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:patagonia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:patagonia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:patagonia.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal chileno de turismo y naturaleza de la Patagonia"
+  },
+  {
+    "id": "oceana-chile",
+    "name": "Oceana Chile",
+    "url": "https://oceana.org/cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "oceana-chile-proxy-google-news",
+        "name": "Oceana Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:oceana.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:oceana.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:oceana.org en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "oceana-chile-proxy-bing-news",
+        "name": "Oceana Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:oceana.org&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:oceana.org",
+        "feed_type": "RSS",
+        "description": "Resultados de site:oceana.org en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Organización internacional de protección de océanos, oficina Chile"
+  },
+  {
+    "id": "conservacion-patagonica",
+    "name": "Conservación Patagónica",
+    "url": "https://www.conservacionpatagonica.org",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "conservacion-patagonica-proxy-google-news",
+        "name": "Conservación Patagónica [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:conservacionpatagonica.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:conservacionpatagonica.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:conservacionpatagonica.org en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "conservacion-patagonica-proxy-bing-news",
+        "name": "Conservación Patagónica [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:conservacionpatagonica.org&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:conservacionpatagonica.org",
+        "feed_type": "RSS",
+        "description": "Resultados de site:conservacionpatagonica.org en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Organización de conservación de la Patagonia chilena"
+  },
+  {
+    "id": "wcs-chile",
+    "name": "WCS Chile",
+    "url": "https://chile.wcs.org",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "wcs-chile-proxy-google-news",
+        "name": "WCS Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:chile.wcs.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:chile.wcs.org&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chile.wcs.org en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "wcs-chile-proxy-bing-news",
+        "name": "WCS Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:chile.wcs.org&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:chile.wcs.org",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chile.wcs.org en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Wildlife Conservation Society, oficina de Chile"
+  },
+  {
+    "id": "tierra-adentro",
+    "name": "Tierra Adentro",
+    "url": "https://www.tierraadentro.cl",
+    "category": "environment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "tierra-adentro-proxy-google-news",
+        "name": "Tierra Adentro [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tierraadentro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tierraadentro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tierraadentro.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "tierra-adentro-proxy-bing-news",
+        "name": "Tierra Adentro [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tierraadentro.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tierraadentro.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tierraadentro.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal chileno de gastronomía y productos de la tierra"
+  },
+  {
+    "id": "cine-chile",
+    "name": "CineChile",
+    "url": "https://www.cinechile.cl",
+    "category": "culture",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "cine-chile-proxy-google-news",
+        "name": "CineChile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:cinechile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cinechile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cinechile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "cine-chile-proxy-bing-news",
+        "name": "CineChile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:cinechile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cinechile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cinechile.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Enciclopedia virtual del cine chileno"
+  },
+  {
+    "id": "cineplanet",
+    "name": "Cineplanet",
+    "url": "https://www.cineplanet.cl",
+    "category": "entertainment",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "cineplanet-proxy-google-news",
+        "name": "Cineplanet [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:cineplanet.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cineplanet.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cineplanet.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "cineplanet-proxy-bing-news",
+        "name": "Cineplanet [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:cineplanet.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cineplanet.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cineplanet.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Cadena chilena de salas de cine"
+  },
+  {
+    "id": "el-filtrador",
+    "name": "El Filtrador",
+    "url": "https://www.elfiltrador.com",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "el-filtrador-proxy-google-news",
+        "name": "El Filtrador [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:elfiltrador.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elfiltrador.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elfiltrador.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-filtrador-proxy-bing-news",
+        "name": "El Filtrador [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:elfiltrador.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elfiltrador.com",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elfiltrador.com en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio digital chileno de noticias y análisis político"
+  },
+  {
+    "id": "gaming-up",
+    "name": "Gaming Up",
+    "url": "https://gamingup.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "gaming-up-proxy-google-news",
+        "name": "Gaming Up [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:gamingup.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:gamingup.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gamingup.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "gaming-up-proxy-bing-news",
+        "name": "Gaming Up [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:gamingup.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:gamingup.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gamingup.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio chileno de videojuegos y cultura gamer"
+  },
+  {
+    "id": "zeta-gaming",
+    "name": "Zeta Gaming",
+    "url": "https://www.zetagaming.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "zeta-gaming-proxy-google-news",
+        "name": "Zeta Gaming [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:zetagaming.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:zetagaming.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:zetagaming.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "zeta-gaming-proxy-bing-news",
+        "name": "Zeta Gaming [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:zetagaming.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:zetagaming.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:zetagaming.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Comunidad chilena de videojuegos"
+  },
+  {
+    "id": "req-cl",
+    "name": "Req.cl",
+    "url": "https://req.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "req-cl-proxy-google-news",
+        "name": "Req.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:req.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:req.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:req.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "req-cl-proxy-bing-news",
+        "name": "Req.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:req.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:req.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:req.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Blog chileno de videojuegos y tecnología"
+  },
+  {
+    "id": "frag-game",
+    "name": "Frag Game",
+    "url": "https://www.fraggame.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "frag-game-proxy-google-news",
+        "name": "Frag Game [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fraggame.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fraggame.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fraggame.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "frag-game-proxy-bing-news",
+        "name": "Frag Game [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fraggame.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fraggame.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fraggame.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio chileno de videojuegos"
+  },
+  {
+    "id": "team-aztlan",
+    "name": "Team Aztlan",
+    "url": "https://www.teamaztlan.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "team-aztlan-proxy-google-news",
+        "name": "Team Aztlan [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:teamaztlan.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:teamaztlan.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:teamaztlan.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "team-aztlan-proxy-bing-news",
+        "name": "Team Aztlan [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:teamaztlan.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:teamaztlan.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:teamaztlan.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Equipo chileno de deportes electrónicos"
+  },
+  {
+    "id": "vs-gaming",
+    "name": "VS Gaming",
+    "url": "https://vsgaming.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "vs-gaming-proxy-google-news",
+        "name": "VS Gaming [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:vsgaming.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:vsgaming.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:vsgaming.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "vs-gaming-proxy-bing-news",
+        "name": "VS Gaming [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:vsgaming.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:vsgaming.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:vsgaming.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio chileno de deportes electrónicos"
+  },
+  {
+    "id": "egamers-chile",
+    "name": "eGamers Chile",
+    "url": "https://egamers.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "egamers-chile-proxy-google-news",
+        "name": "eGamers Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:egamers.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:egamers.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:egamers.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "egamers-chile-proxy-bing-news",
+        "name": "eGamers Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:egamers.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:egamers.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:egamers.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Comunidad chilena de eSports"
+  },
+  {
+    "id": "chile-games",
+    "name": "ChileGames",
+    "url": "https://www.chilegames.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "chile-games-proxy-google-news",
+        "name": "ChileGames [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:chilegames.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:chilegames.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chilegames.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "chile-games-proxy-bing-news",
+        "name": "ChileGames [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:chilegames.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:chilegames.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:chilegames.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal chileno de videojuegos"
+  },
+  {
+    "id": "deebo",
+    "name": "Deebo",
+    "url": "https://deebo.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "deebo-proxy-google-news",
+        "name": "Deebo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:deebo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:deebo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:deebo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "deebo-proxy-bing-news",
+        "name": "Deebo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:deebo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:deebo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:deebo.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Comunidad chilena de videojuegos"
+  },
+  {
+    "id": "gaming-chile",
+    "name": "Gaming Chile",
+    "url": "https://www.gamingchile.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "gaming-chile-proxy-google-news",
+        "name": "Gaming Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:gamingchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:gamingchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gamingchile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "gaming-chile-proxy-bing-news",
+        "name": "Gaming Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:gamingchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:gamingchile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gamingchile.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio chileno de videojuegos"
+  },
+  {
+    "id": "otakus-chile",
+    "name": "Otakus Chile",
+    "url": "https://www.otakus.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "otakus-chile-proxy-google-news",
+        "name": "Otakus Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:otakus.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:otakus.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:otakus.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "otakus-chile-proxy-bing-news",
+        "name": "Otakus Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:otakus.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:otakus.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:otakus.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Comunidad chilena de anime y manga"
+  },
+  {
+    "id": "anime-chile",
+    "name": "Anime Chile",
+    "url": "https://animechile.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "anime-chile-proxy-google-news",
+        "name": "Anime Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:animechile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:animechile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:animechile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "anime-chile-proxy-bing-news",
+        "name": "Anime Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:animechile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:animechile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:animechile.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal chileno de anime y manga"
+  },
+  {
+    "id": "cultura-geek",
+    "name": "Cultura Geek",
+    "url": "https://culturagk.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "cultura-geek-proxy-google-news",
+        "name": "Cultura Geek [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:culturagk.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:culturagk.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:culturagk.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "cultura-geek-proxy-bing-news",
+        "name": "Cultura Geek [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:culturagk.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:culturagk.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:culturagk.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio chileno de cultura geek"
+  },
+  {
+    "id": "ranked-gaming",
+    "name": "Ranked Gaming",
+    "url": "https://rankedgaming.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "ranked-gaming-proxy-google-news",
+        "name": "Ranked Gaming [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:rankedgaming.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:rankedgaming.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:rankedgaming.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ranked-gaming-proxy-bing-news",
+        "name": "Ranked Gaming [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:rankedgaming.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:rankedgaming.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:rankedgaming.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio chileno de videojuegos"
+  },
+  {
+    "id": "lanus-gaming",
+    "name": "Lanus Gaming",
+    "url": "https://www.lanusgaming.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "lanus-gaming-proxy-google-news",
+        "name": "Lanus Gaming [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:lanusgaming.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lanusgaming.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lanusgaming.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "lanus-gaming-proxy-bing-news",
+        "name": "Lanus Gaming [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:lanusgaming.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lanusgaming.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lanusgaming.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio chileno de videojuegos"
+  },
+  {
+    "id": "gaming-world",
+    "name": "Gaming World",
+    "url": "https://gamingworld.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "gaming-world-proxy-google-news",
+        "name": "Gaming World [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:gamingworld.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:gamingworld.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gamingworld.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "gaming-world-proxy-bing-news",
+        "name": "Gaming World [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:gamingworld.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:gamingworld.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gamingworld.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Portal chileno de videojuegos"
+  },
+  {
+    "id": "cl-games",
+    "name": "CL Games",
+    "url": "https://www.clgames.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "cl-games-proxy-google-news",
+        "name": "CL Games [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:clgames.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:clgames.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:clgames.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "cl-games-proxy-bing-news",
+        "name": "CL Games [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:clgames.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:clgames.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:clgames.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio chileno de videojuegos"
+  },
+  {
+    "id": "gamers-league",
+    "name": "Gamers League",
+    "url": "https://gamersleague.cl",
+    "category": "gaming",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "gamers-league-proxy-google-news",
+        "name": "Gamers League [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:gamersleague.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:gamersleague.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gamersleague.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "gamers-league-proxy-bing-news",
+        "name": "Gamers League [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:gamersleague.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:gamersleague.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gamersleague.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Comunidad chilena de videojuegos"
+  },
+  {
+    "id": "fundacion-superacion-pobreza",
+    "name": "Fundación Superación de la Pobreza",
+    "url": "https://www.fundacionpobreza.cl",
+    "category": "community",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "fundacion-superacion-pobreza-proxy-google-news",
+        "name": "Fundación Superación de la Pobreza [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fundacionpobreza.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fundacionpobreza.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fundacionpobreza.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fundacion-superacion-pobreza-proxy-bing-news",
+        "name": "Fundación Superación de la Pobreza [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fundacionpobreza.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fundacionpobreza.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fundacionpobreza.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Fundación chilena de superación de la pobreza"
+  },
+  {
+    "id": "aldeas-infantiles-chile",
+    "name": "Aldeas Infantiles SOS Chile",
+    "url": "https://www.aldeasinfantiles.cl",
+    "category": "community",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "aldeas-infantiles-chile-proxy-google-news",
+        "name": "Aldeas Infantiles SOS Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:aldeasinfantiles.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:aldeasinfantiles.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:aldeasinfantiles.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "aldeas-infantiles-chile-proxy-bing-news",
+        "name": "Aldeas Infantiles SOS Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:aldeasinfantiles.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:aldeasinfantiles.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:aldeasinfantiles.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Organización de acogida a niños y niñas en Chile"
+  },
+  {
+    "id": "teleton-chile",
+    "name": "Teletón Chile",
+    "url": "https://www.teleton.cl",
+    "category": "community",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "teleton-chile-proxy-google-news",
+        "name": "Teletón Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:teleton.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:teleton.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:teleton.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "teleton-chile-proxy-bing-news",
+        "name": "Teletón Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:teleton.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:teleton.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:teleton.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Fundación Teletón de rehabilitación infantil"
+  },
+  {
+    "id": "bomberos-chile",
+    "name": "Bomberos de Chile",
+    "url": "https://www.bomberos.cl",
+    "category": "community",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "bomberos-chile-proxy-google-news",
+        "name": "Bomberos de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:bomberos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:bomberos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:bomberos.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "bomberos-chile-proxy-bing-news",
+        "name": "Bomberos de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:bomberos.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:bomberos.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:bomberos.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Cuerpos de Bomberos de Chile"
+  },
+  {
+    "id": "corporacion-la-morada",
+    "name": "Corporación La Morada",
+    "url": "https://www.lamorada.cl",
+    "category": "community",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "corporacion-la-morada-proxy-google-news",
+        "name": "Corporación La Morada [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:lamorada.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lamorada.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lamorada.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "corporacion-la-morada-proxy-bing-news",
+        "name": "Corporación La Morada [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:lamorada.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lamorada.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:lamorada.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "ONG chilena de derechos de las mujeres"
+  },
+  {
+    "id": "fundacion-parentesis",
+    "name": "Fundación Paréntesis",
+    "url": "https://www.fundacionparentesis.cl",
+    "category": "community",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "fundacion-parentesis-proxy-google-news",
+        "name": "Fundación Paréntesis [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fundacionparentesis.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fundacionparentesis.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fundacionparentesis.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "fundacion-parentesis-proxy-bing-news",
+        "name": "Fundación Paréntesis [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fundacionparentesis.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fundacionparentesis.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:fundacionparentesis.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Fundación chilena de prevención del consumo de drogas"
+  },
+  {
+    "id": "cchc",
+    "name": "Cámara Chilena de la Construcción",
+    "url": "https://www.cchc.cl",
+    "category": "business",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "cchc-proxy-google-news",
+        "name": "Cámara Chilena de la Construcción [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:cchc.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cchc.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cchc.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "cchc-proxy-bing-news",
+        "name": "Cámara Chilena de la Construcción [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:cchc.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cchc.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cchc.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Cámara Chilena de la Construcción, gremio del sector construcción"
+  },
+  {
+    "id": "abif",
+    "name": "ABIF",
+    "url": "https://www.abif.cl",
+    "category": "business",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "abif-proxy-google-news",
+        "name": "ABIF [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:abif.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:abif.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:abif.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "abif-proxy-bing-news",
+        "name": "ABIF [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:abif.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:abif.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:abif.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Asociación de Bancos e Instituciones Financieras de Chile"
+  },
+  {
+    "id": "corfo",
+    "name": "CORFO",
+    "url": "https://www.corfo.cl",
+    "category": "government",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "corfo-proxy-google-news",
+        "name": "CORFO [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:corfo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:corfo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:corfo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "corfo-proxy-bing-news",
+        "name": "CORFO [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:corfo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:corfo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:corfo.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Corporación de Fomento de la Producción de Chile"
+  },
+  {
+    "id": "banco-estado",
+    "name": "BancoEstado",
+    "url": "https://www.bancoestado.cl",
+    "category": "business",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "banco-estado-proxy-google-news",
+        "name": "BancoEstado [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:bancoestado.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:bancoestado.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:bancoestado.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "banco-estado-proxy-bing-news",
+        "name": "BancoEstado [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:bancoestado.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:bancoestado.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:bancoestado.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Banco del Estado de Chile"
+  },
+  {
+    "id": "icare",
+    "name": "ICARE",
+    "url": "https://icare.cl",
+    "category": "business",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "icare-proxy-google-news",
+        "name": "ICARE [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:icare.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:icare.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:icare.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "icare-proxy-bing-news",
+        "name": "ICARE [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:icare.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:icare.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:icare.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Instituto Chileno de Administración Racional de Empresas"
+  },
+  {
+    "id": "radio-horizonte",
+    "name": "Radio Horizonte",
+    "url": "https://www.horizonte.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-horizonte-proxy-google-news",
+        "name": "Radio Horizonte [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:horizonte.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:horizonte.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:horizonte.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-horizonte-proxy-bing-news",
+        "name": "Radio Horizonte [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:horizonte.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:horizonte.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:horizonte.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio Horizonte, emisora chilena"
+  },
+  {
+    "id": "radio-tiempo",
+    "name": "Radio Tiempo",
+    "url": "https://www.radiotiempo.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-tiempo-proxy-google-news",
+        "name": "Radio Tiempo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiotiempo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiotiempo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiotiempo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-tiempo-proxy-bing-news",
+        "name": "Radio Tiempo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiotiempo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiotiempo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiotiempo.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio Tiempo, emisora chilena"
+  },
+  {
+    "id": "radio-melodia",
+    "name": "Radio Melodía",
+    "url": "https://www.radiomelodia.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-melodia-proxy-google-news",
+        "name": "Radio Melodía [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiomelodia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiomelodia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiomelodia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-melodia-proxy-bing-news",
+        "name": "Radio Melodía [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiomelodia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiomelodia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiomelodia.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio Melodía, emisora chilena"
+  },
+  {
+    "id": "radio-conquistador",
+    "name": "Radio El Conquistador",
+    "url": "https://www.elconquistador.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-conquistador-proxy-google-news",
+        "name": "Radio El Conquistador [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:elconquistador.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elconquistador.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elconquistador.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-conquistador-proxy-bing-news",
+        "name": "Radio El Conquistador [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:elconquistador.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elconquistador.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elconquistador.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio El Conquistador, emisora chilena"
+  },
+  {
+    "id": "radio-armonia",
+    "name": "Radio Armonía",
+    "url": "https://www.radioarmonia.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-armonia-proxy-google-news",
+        "name": "Radio Armonía [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radioarmonia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radioarmonia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioarmonia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-armonia-proxy-bing-news",
+        "name": "Radio Armonía [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radioarmonia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radioarmonia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioarmonia.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio Armonía, emisora chilena"
+  },
+  {
+    "id": "radio-beat",
+    "name": "Radio Beat",
+    "url": "https://www.radiobeat.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-beat-proxy-google-news",
+        "name": "Radio Beat [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiobeat.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiobeat.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiobeat.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-beat-proxy-bing-news",
+        "name": "Radio Beat [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiobeat.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiobeat.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiobeat.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio Beat, emisora chilena"
+  },
+  {
+    "id": "radio-80",
+    "name": "Radio 80",
+    "url": "https://radio80.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-80-proxy-google-news",
+        "name": "Radio 80 [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radio80.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radio80.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radio80.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-80-proxy-bing-news",
+        "name": "Radio 80 [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radio80.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radio80.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radio80.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio 80, emisora chilena"
+  },
+  {
+    "id": "radio-sinfonia",
+    "name": "Radio Sinfonía",
+    "url": "https://www.radiosinfonia.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-sinfonia-proxy-google-news",
+        "name": "Radio Sinfonía [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiosinfonia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiosinfonia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiosinfonia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-sinfonia-proxy-bing-news",
+        "name": "Radio Sinfonía [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiosinfonia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiosinfonia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiosinfonia.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio Sinfonía, emisora chilena"
+  },
+  {
+    "id": "radio-maxima",
+    "name": "Radio Máxima",
+    "url": "https://www.radiomaxima.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-maxima-proxy-google-news",
+        "name": "Radio Máxima [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiomaxima.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiomaxima.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiomaxima.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-maxima-proxy-bing-news",
+        "name": "Radio Máxima [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiomaxima.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiomaxima.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiomaxima.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio Máxima, emisora chilena"
+  },
+  {
+    "id": "radio-disney",
+    "name": "Radio Disney Chile",
+    "url": "https://www.radiodisney.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-disney-proxy-google-news",
+        "name": "Radio Disney Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiodisney.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiodisney.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiodisney.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-disney-proxy-bing-news",
+        "name": "Radio Disney Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiodisney.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiodisney.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiodisney.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio Disney, emisora juvenil chilena"
+  },
+  {
+    "id": "radio-play",
+    "name": "Radio Play",
+    "url": "https://www.radioplay.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-play-proxy-google-news",
+        "name": "Radio Play [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radioplay.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radioplay.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioplay.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-play-proxy-bing-news",
+        "name": "Radio Play [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radioplay.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radioplay.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radioplay.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio Play, emisora chilena"
+  },
+  {
+    "id": "radio-chilena",
+    "name": "Radio Chilena",
+    "url": "https://www.radiochilena.cl",
+    "category": "radio",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "radio-chilena-proxy-google-news",
+        "name": "Radio Chilena [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:radiochilena.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:radiochilena.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiochilena.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "radio-chilena-proxy-bing-news",
+        "name": "Radio Chilena [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:radiochilena.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:radiochilena.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:radiochilena.cl en Proxy Bing News",
+        "last_checked": "2026-08-04T01:46:42.379Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Radio Chilena, emisora chilena"
+  },
+  {
+    "id": "futuro-360",
+    "name": "Futuro 360",
+    "url": "https://www.futuro360.com",
+    "category": "technology",
+    "description": "Plataforma chilena de divulgación de ciencia, tecnología e innovación",
+    "feeds": [
+      {
+        "id": "futuro-360-main",
+        "name": "Futuro 360",
+        "rss_url": "https://www.futuro360.com/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:11:24.512Z",
+        "last_known_item_date": "2026-07-01T19:26:27.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "futuro-360-proxy-google-news",
+        "name": "Futuro 360 [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:futuro360.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:futuro360.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:futuro360.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:11:24.513Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "futuro-360-proxy-bing-news",
+        "name": "Futuro 360 [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:futuro360.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:futuro360.com",
+        "description": "Resultados de site:futuro360.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:11:24.513Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "grange-school",
+    "name": "The Grange School",
+    "url": "https://www.grange.cl",
+    "category": "education",
+    "description": "Colegio privado de Santiago",
+    "feeds": [
+      {
+        "id": "grange-school-main",
+        "name": "The Grange School",
+        "rss_url": "https://www.grange.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:12:22.627Z",
+        "last_known_item_date": "2026-06-26T12:56:15.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "grange-school-proxy-google-news",
+        "name": "The Grange School [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:grange.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:grange.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:grange.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:12:22.627Z",
+        "last_known_item_date": "2026-05-29T07:00:00.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "grange-school-proxy-bing-news",
+        "name": "The Grange School [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:grange.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:grange.cl",
+        "description": "Resultados de site:grange.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:12:22.627Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "grange-school-community",
+        "name": "The Grange School - Community",
+        "rss_url": "https://grange.cl/category/community/feed/",
+        "url": "https://grange.cl/category/community/",
+        "description": "Feed de la categoría 'Community' en The Grange School",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:12:22.627Z",
+        "last_known_item_date": "2026-06-26T12:56:15.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "grange-school-senior-school",
+        "name": "The Grange School - Senior School",
+        "rss_url": "https://grange.cl/category/senior-school/feed/",
+        "url": "https://grange.cl/category/senior-school/",
+        "description": "Feed de la categoría 'Senior School' en The Grange School",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:12:22.627Z",
+        "last_known_item_date": "2026-06-26T12:56:15.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "grange-school-upper-prep",
+        "name": "The Grange School - Upper Prep",
+        "rss_url": "https://grange.cl/category/upper-prep/feed/",
+        "url": "https://grange.cl/category/upper-prep/",
+        "description": "Feed de la categoría 'Upper Prep' en The Grange School",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:12:22.627Z",
+        "last_known_item_date": "2026-06-26T12:56:15.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "grange-school-lower-prep",
+        "name": "The Grange School - Lower Prep",
+        "rss_url": "https://grange.cl/category/lower-prep/feed/",
+        "url": "https://grange.cl/category/lower-prep/",
+        "description": "Feed de la categoría 'Lower Prep' en The Grange School",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:12:22.628Z",
+        "last_known_item_date": "2026-06-26T12:56:15.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "grange-school-sport",
+        "name": "The Grange School - Sport",
+        "rss_url": "https://grange.cl/category/sport/feed/",
+        "url": "https://grange.cl/category/sport/",
+        "description": "Feed de la categoría 'Sport' en The Grange School",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:12:22.628Z",
+        "last_known_item_date": "2026-06-19T12:49:12.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "grange-school-co-curricular",
+        "name": "The Grange School - Co Curricular",
+        "rss_url": "https://grange.cl/category/co-curricular/feed/",
+        "url": "https://grange.cl/category/co-curricular/",
+        "description": "Feed de la categoría 'Co Curricular' en The Grange School",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-05T01:12:22.628Z",
+        "last_known_item_date": "2026-06-19T12:52:33.000Z",
+        "status": "stale",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
   }
 ]

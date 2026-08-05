@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (100 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (115 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-03T23:13:30.143Z</dateCreated>
+    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -40,6 +40,19 @@
       <outline type="rss" text="FM Dos - Lo Ultimo" title="FM Dos - Lo Ultimo" description="Feed de la sección 'Lo Ultimo' en FM Dos" xmlUrl="https://www.fmdos.cl/feed/?category=lo-ultimo" htmlUrl="https://www.fmdos.cl/lo-ultimo/"/>
       <outline type="rss" text="FM Dos - Programacion" title="FM Dos - Programacion" description="Feed de la sección 'Programacion' en FM Dos" xmlUrl="https://www.fmdos.cl/feed/?category=programacion" htmlUrl="https://www.fmdos.cl/programacion/"/>
       <outline type="rss" text="FM Dos [Proxy Google News]" title="FM Dos [Proxy Google News]" description="Resultados de site:fmdos.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:fmdos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:fmdos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Fotech" title="Fotech" description="Portal chileno de música y entretención" xmlUrl="https://fotech.cl/feed/" htmlUrl="https://fotech.cl"/>
+      <outline type="rss" text="Fotech - Destacados" title="Fotech - Destacados" description="Feed de la categoría 'Destacados' en Fotech" xmlUrl="https://www.fotech.cl/category/destacados/feed/" htmlUrl="https://www.fotech.cl/category/destacados/"/>
+      <outline type="rss" text="Fotech - Entrevistas" title="Fotech - Entrevistas" description="Feed de la categoría 'Entrevistas' en Fotech" xmlUrl="https://www.fotech.cl/category/entrevistas/feed/" htmlUrl="https://www.fotech.cl/category/entrevistas/"/>
+      <outline type="rss" text="Fotech - Moda &amp; Belleza" title="Fotech - Moda &amp; Belleza" description="Feed de la categoría 'Moda &amp; Belleza' en Fotech" xmlUrl="https://www.fotech.cl/category/tendencias/moda-belleza/feed/" htmlUrl="https://www.fotech.cl/category/tendencias/moda-belleza/"/>
+      <outline type="rss" text="Fotech - Opinión" title="Fotech - Opinión" description="Feed de la categoría 'Opinión' en Fotech" xmlUrl="https://www.fotech.cl/category/opinion/feed/" htmlUrl="https://www.fotech.cl/category/opinion/"/>
+      <outline type="rss" text="Fotech - Rojo" title="Fotech - Rojo" description="Feed de la categoría 'Rojo' en Fotech" xmlUrl="https://www.fotech.cl/category/television/rojo/feed/" htmlUrl="https://www.fotech.cl/category/television/rojo/"/>
+      <outline type="rss" text="Fotech - Sin Guion" title="Fotech - Sin Guion" description="Feed de la categoría 'Sin Guion' en Fotech" xmlUrl="https://www.fotech.cl/category/podcasts/sin-guion/feed/" htmlUrl="https://www.fotech.cl/category/podcasts/sin-guion/"/>
+      <outline type="rss" text="Fotech - Teleseries" title="Fotech - Teleseries" description="Feed de la categoría 'Teleseries' en Fotech" xmlUrl="https://www.fotech.cl/category/teleseries/feed/" htmlUrl="https://www.fotech.cl/category/teleseries/"/>
+      <outline type="rss" text="Fotech - Teleseries Internacionales" title="Fotech - Teleseries Internacionales" description="Feed de la categoría 'Teleseries Internacionales' en Fotech" xmlUrl="https://www.fotech.cl/category/teleseries/teleseries-int/feed/" htmlUrl="https://www.fotech.cl/category/teleseries/teleseries-int/"/>
+      <outline type="rss" text="Fotech - Teleseries Mega" title="Fotech - Teleseries Mega" description="Feed de la categoría 'Teleseries Mega' en Fotech" xmlUrl="https://www.fotech.cl/category/teleseries/teleseries-mega/feed/" htmlUrl="https://www.fotech.cl/category/teleseries/teleseries-mega/"/>
+      <outline type="rss" text="Fotech - Televisión" title="Fotech - Televisión" description="Feed de la categoría 'Televisión' en Fotech" xmlUrl="https://www.fotech.cl/category/television/feed/" htmlUrl="https://www.fotech.cl/category/television/"/>
+      <outline type="rss" text="Fotech - Tendencias" title="Fotech - Tendencias" description="Feed de la categoría 'Tendencias' en Fotech" xmlUrl="https://www.fotech.cl/category/tendencias/feed/" htmlUrl="https://www.fotech.cl/category/tendencias/"/>
+      <outline type="rss" text="Fotech [Proxy Google News]" title="Fotech [Proxy Google News]" description="Resultados de site:fotech.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:fotech.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:fotech.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Frontera Norte - Entretenimiento" title="Frontera Norte - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en Frontera Norte" xmlUrl="https://www.fronteranorte.cl/category/cultura/feed/" htmlUrl="https://www.fronteranorte.cl/category/cultura/"/>
       <outline type="rss" text="Google News - Chile - Sección Entretenimiento" title="Google News - Chile - Sección Entretenimiento" description="Sección Entretenimiento de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNREpxYW5RU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNREpxYW5RU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Ilustrado" title="Ilustrado" description="Medio de comunicación digital de noticias culturales y de entretenimiento" xmlUrl="https://www.ilustrado.cl/feed/" htmlUrl="https://www.ilustrado.cl/"/>
@@ -78,6 +91,8 @@
       <outline type="rss" text="La Nación - Cine Tv" title="La Nación - Cine Tv" description="Feed de la sección 'Cine Tv' en La Nación" xmlUrl="https://www.lanacion.cl/feed/?category=cine-tv" htmlUrl="https://www.lanacion.cl/cine-tv/"/>
       <outline type="rss" text="La Nación - Espectaculos" title="La Nación - Espectaculos" description="Feed de la sección 'Espectaculos' en La Nación" xmlUrl="https://www.lanacion.cl/feed/?category=espectaculos" htmlUrl="https://www.lanacion.cl/espectaculos/"/>
       <outline type="rss" text="La Prensa Austral - Cultura y Espectáculos" title="La Prensa Austral - Cultura y Espectáculos" description="Feed de la categoría 'Cultura y Espectáculos' en La Prensa Austral" xmlUrl="https://laprensaaustral.cl/category/espectaculos/feed/" htmlUrl="https://laprensaaustral.cl/category/espectaculos/"/>
+      <outline type="rss" text="La Red" title="La Red" description="Canal de televisión chileno La Red, noticias de espectáculos y programación" xmlUrl="https://www.lared.cl/feed/" htmlUrl="https://www.lared.cl"/>
+      <outline type="rss" text="La Red [Proxy Google News]" title="La Red [Proxy Google News]" description="Resultados de site:lared.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:lared.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:lared.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="La Región Hoy - Cultura y Espectáculos" title="La Región Hoy - Cultura y Espectáculos" description="Feed de la categoría 'Cultura y Espectáculos' en La Región Hoy" xmlUrl="https://laregionhoy.cl/category/actualidad/culturayesp/feed/" htmlUrl="https://laregionhoy.cl/category/actualidad/culturayesp/"/>
       <outline type="rss" text="Majos" title="Majos" description="Blog de moda, lifestyle, tendencias y actualidad" xmlUrl="https://majos.cl/feed/" htmlUrl="https://majos.cl"/>
       <outline type="rss" text="Majos - Actualidad" title="Majos - Actualidad" description="Feed de la categoría 'Actualidad' en Majos" xmlUrl="https://majos.cl/category/actualidad/feed/" htmlUrl="https://majos.cl/category/actualidad/"/>

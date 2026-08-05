@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📻 Radio y Música (71 feeds)</title>
+    <title>Awesome Chilean RSS - 📻 Radio y Música (77 feeds)</title>
     <description>Feeds RSS de 📻 Radio y Música, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-03T23:13:30.143Z</dateCreated>
+    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -19,8 +19,10 @@
     <outline type="rss" text="El Nacional - Música" title="El Nacional - Música" description="Feed de la categoría 'Música' en El Nacional" xmlUrl="https://www.elnacional.com/entretenimiento/musica/feed/" htmlUrl="https://www.elnacional.com/entretenimiento/musica/"/>
     <outline type="rss" text="El Sol de Iquique - Musica" title="El Sol de Iquique - Musica" description="Feed de la categoría 'Musica' en El Sol de Iquique" xmlUrl="https://elsoldeiquique.cl/cultura/musica/feed/" htmlUrl="https://elsoldeiquique.cl/cultura/musica/"/>
     <outline type="rss" text="El Sol de Iquique - Música" title="El Sol de Iquique - Música" description="Feed de la categoría 'Música' en El Sol de Iquique" xmlUrl="https://elsoldeiquique.cl/cultura/musica-cultura/feed/" htmlUrl="https://elsoldeiquique.cl/cultura/musica-cultura/"/>
+    <outline type="rss" text="Fotech - Música" title="Fotech - Música" description="Feed de la categoría 'Música' en Fotech" xmlUrl="https://www.fotech.cl/category/musica/feed/" htmlUrl="https://www.fotech.cl/category/musica/"/>
     <outline type="rss" text="G5 Noticias - G5 Radio y Podcasts" title="G5 Noticias - G5 Radio y Podcasts" description="Feed de la categoría 'G5 Radio y Podcasts' en G5 Noticias" xmlUrl="https://g5noticias.cl/categoria/g5radio/feed/" htmlUrl="https://g5noticias.cl/categoria/g5radio/"/>
     <outline type="rss" text="La Máquina Medio - Música" title="La Máquina Medio - Música" description="Feed de la categoría 'Música' en La Máquina Medio" xmlUrl="https://lamaquinamedio.com/categoria/musica/feed/" htmlUrl="https://lamaquinamedio.com/categoria/musica/"/>
+    <outline type="rss" text="Liceo de Aplicación - Musica" title="Liceo de Aplicación - Musica" description="Feed de la sección 'Musica' en Liceo de Aplicación" xmlUrl="https://www.liceodeaplicacion.cl/feed/?category=musica" htmlUrl="https://www.liceodeaplicacion.cl/musica/"/>
     <outline type="rss" text="Los 40" title="Los 40" description="Radio chilena Los 40, música popular y actualidad" xmlUrl="https://los40.cl/arc/outboundfeeds/rss/?outputType=xml" htmlUrl="https://los40.cl"/>
     <outline type="rss" text="Los 40 [Proxy Bing News]" title="Los 40 [Proxy Bing News]" description="Resultados de site:los40.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:los40.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:los40.cl"/>
     <outline type="rss" text="Los 40 [Proxy Google News]" title="Los 40 [Proxy Google News]" description="Resultados de site:los40.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:los40.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:los40.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
@@ -34,6 +36,10 @@
     <outline type="rss" text="Radio Atacama" title="Radio Atacama" description="Radioemisora de la Región de Atacama con noticias regionales, nacionales y deportivas" xmlUrl="https://www.radioatacama.cl/rss/feed" htmlUrl="https://www.radioatacama.cl/"/>
     <outline type="rss" text="Radio Atacama [Proxy Google News]" title="Radio Atacama [Proxy Google News]" description="Resultados de site:radioatacama.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radioatacama.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radioatacama.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Radio Buena Nueva - Radio" title="Radio Buena Nueva - Radio" description="Feed de la categoría 'Radio' en Radio Buena Nueva" xmlUrl="https://radiobuenanueva.cl/rb30/archivos/category/radio/feed/" htmlUrl="https://radiobuenanueva.cl/rb30/archivos/category/radio/"/>
+    <outline type="rss" text="Radio Cristalina" title="Radio Cristalina" description="Radio Cristalina, emisora chilena de la Región de Coquimbo" xmlUrl="https://www.radiocristalina.cl/feed/" htmlUrl="https://www.radiocristalina.cl"/>
+    <outline type="rss" text="Radio Cristalina - Educación" title="Radio Cristalina - Educación" description="Feed de la categoría 'Educación' en Radio Cristalina" xmlUrl="https://radiocristalina.cl/category/educativo/feed/" htmlUrl="https://radiocristalina.cl/category/educativo/"/>
+    <outline type="rss" text="Radio Cristalina - Portada" title="Radio Cristalina - Portada" description="Feed de la categoría 'Portada' en Radio Cristalina" xmlUrl="https://radiocristalina.cl/category/portada/feed/" htmlUrl="https://radiocristalina.cl/category/portada/"/>
+    <outline type="rss" text="Radio Cristalina [Proxy Google News]" title="Radio Cristalina [Proxy Google News]" description="Resultados de site:radiocristalina.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiocristalina.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiocristalina.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Radio Futuro" title="Radio Futuro" description="Emisora de rock chilena del grupo Prisa Radio" xmlUrl="https://www.futuro.cl/feed/" htmlUrl="https://www.futuro.cl"/>
     <outline type="rss" text="Radio Futuro - '+parametros.perfil_url+'" title="Radio Futuro - '+parametros.perfil_url+'" description="Feed de la sección ''+parametros.perfil_url+'' en Radio Futuro" xmlUrl="https://www.futuro.cl/feed/?category='+parametros.perfil_url+'" htmlUrl="https://www.futuro.cl/'+parametros.perfil_url+'/"/>
     <outline type="rss" text="Radio Futuro - Frecuencias" title="Radio Futuro - Frecuencias" description="Feed de la sección 'Frecuencias' en Radio Futuro" xmlUrl="https://www.futuro.cl/feed/?category=frecuencias" htmlUrl="https://www.futuro.cl/frecuencias/"/>

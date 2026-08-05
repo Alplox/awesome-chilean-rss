@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Tarapacá (170 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Tarapacá (177 feeds)</title>
     <description>Feeds RSS de la Región de Tarapacá, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-03T23:13:30.143Z</dateCreated>
+    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -61,6 +61,13 @@
       <outline type="rss" text="Diario El Nortino - Tecnologia y Ciencia" title="Diario El Nortino - Tecnologia y Ciencia" description="Feed de la categoría 'Tecnologia y Ciencia' en Diario El Nortino" xmlUrl="https://diarioelnortino.cl/category/tecnologia-y-ciencia/feed/" htmlUrl="https://diarioelnortino.cl/category/tecnologia-y-ciencia/"/>
       <outline type="rss" text="Diario El Nortino - Turismo" title="Diario El Nortino - Turismo" description="Feed de la categoría 'Turismo' en Diario El Nortino" xmlUrl="https://diarioelnortino.cl/category/turismo/feed/" htmlUrl="https://diarioelnortino.cl/category/turismo/"/>
       <outline type="rss" text="Diario El Nortino [Proxy Google News]" title="Diario El Nortino [Proxy Google News]" description="Resultados de site:diarioelnortino.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioelnortino.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioelnortino.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Edición Cero" title="Edición Cero" description="Medio de comunicación independiente de Iquique, Región de Tarapacá." xmlUrl="https://edicioncero.cl/feed/" htmlUrl="https://edicioncero.cl"/>
+      <outline type="rss" text="Edición Cero - Actualidad" title="Edición Cero - Actualidad" description="Feed de la categoría 'Actualidad' en Edición Cero" xmlUrl="https://edicioncero.cl/category/actualidad/feed/" htmlUrl="https://edicioncero.cl/category/actualidad/"/>
+      <outline type="rss" text="Edición Cero - Crónicas" title="Edición Cero - Crónicas" description="Feed de la categoría 'Crónicas' en Edición Cero" xmlUrl="https://edicioncero.cl/category/cronicas/feed/" htmlUrl="https://edicioncero.cl/category/cronicas/"/>
+      <outline type="rss" text="Edición Cero - Deportes" title="Edición Cero - Deportes" description="Feed de la categoría 'Deportes' en Edición Cero" xmlUrl="https://edicioncero.cl/category/deportes-local-y-nacional/feed/" htmlUrl="https://edicioncero.cl/category/deportes-local-y-nacional/"/>
+      <outline type="rss" text="Edición Cero - Noticias" title="Edición Cero - Noticias" description="Feed de la categoría 'Noticias' en Edición Cero" xmlUrl="https://edicioncero.cl/category/noticias/feed/" htmlUrl="https://edicioncero.cl/category/noticias/"/>
+      <outline type="rss" text="Edición Cero - Opinión Y Comentarios" title="Edición Cero - Opinión Y Comentarios" description="Feed de la categoría 'Opinión Y Comentarios' en Edición Cero" xmlUrl="https://edicioncero.cl/category/opinion-y-comentarios/feed/" htmlUrl="https://edicioncero.cl/category/opinion-y-comentarios/"/>
+      <outline type="rss" text="Edición Cero [Proxy Google News]" title="Edición Cero [Proxy Google News]" description="Resultados de site:edicioncero.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:edicioncero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:edicioncero.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="El Reportero de Iquique" title="El Reportero de Iquique" description="Diario regional de Iquique, Tarapacá" xmlUrl="https://www.elreporterodeiquique.com/feed/" htmlUrl="https://www.elreporterodeiquique.com"/>
       <outline type="rss" text="El Reportero de Iquique - Arica Antofagasta" title="El Reportero de Iquique - Arica Antofagasta" description="Feed de la categoría 'Arica Antofagasta' en El Reportero de Iquique" xmlUrl="https://elreporterodeiquique.com/category/antofagasta/feed/" htmlUrl="https://elreporterodeiquique.com/category/antofagasta/"/>
       <outline type="rss" text="El Reportero de Iquique - Cartas" title="El Reportero de Iquique - Cartas" description="Feed de la categoría 'Cartas' en El Reportero de Iquique" xmlUrl="https://elreporterodeiquique.com/category/cartas/feed/" htmlUrl="https://elreporterodeiquique.com/category/cartas/"/>

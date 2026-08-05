@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (190 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (199 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-03T23:13:30.143Z</dateCreated>
+    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -21,6 +21,12 @@
     <outline type="rss" text="Amigos Penquistas - Miscelanea" title="Amigos Penquistas - Miscelanea" description="Feed de la categoría 'Miscelanea' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/miscelanea/feed/" htmlUrl="https://amigospenquistas.cl/category/miscelanea/"/>
     <outline type="rss" text="Amigos Penquistas - Ultimo Minuto" title="Amigos Penquistas - Ultimo Minuto" description="Feed de la categoría 'Ultimo Minuto' en Amigos Penquistas" xmlUrl="https://amigospenquistas.cl/category/ultimo-minuto/feed/" htmlUrl="https://amigospenquistas.cl/category/ultimo-minuto/"/>
     <outline type="rss" text="Amigos Penquistas [Proxy Google News]" title="Amigos Penquistas [Proxy Google News]" description="Resultados de site:amigospenquistas.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:amigospenquistas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:amigospenquistas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="ANFP" title="ANFP" description="Asociación Nacional de Fútbol Profesional de Chile" xmlUrl="https://www.anfp.cl/feed/" htmlUrl="https://www.anfp.cl"/>
+    <outline type="rss" text="ANFP - Campeonato Chileno" title="ANFP - Campeonato Chileno" description="Feed de la categoría 'Campeonato Chileno' en ANFP" xmlUrl="https://www.anfp.cl/categorias/campeonato-chileno/feed/" htmlUrl="https://www.anfp.cl/categorias/campeonato-chileno/"/>
+    <outline type="rss" text="ANFP - Copa De La Liga" title="ANFP - Copa De La Liga" description="Feed de la categoría 'Copa De La Liga' en ANFP" xmlUrl="https://www.anfp.cl/categorias/copa-de-la-liga/feed/" htmlUrl="https://www.anfp.cl/categorias/copa-de-la-liga/"/>
+    <outline type="rss" text="ANFP - Ffch" title="ANFP - Ffch" description="Feed de la categoría 'Ffch' en ANFP" xmlUrl="https://www.anfp.cl/categorias/ffch/feed/" htmlUrl="https://www.anfp.cl/categorias/ffch/"/>
+    <outline type="rss" text="ANFP - Institucional" title="ANFP - Institucional" description="Feed de la categoría 'Institucional' en ANFP" xmlUrl="https://www.anfp.cl/categorias/institucional/feed/" htmlUrl="https://www.anfp.cl/categorias/institucional/"/>
+    <outline type="rss" text="ANFP [Proxy Google News]" title="ANFP [Proxy Google News]" description="Resultados de site:anfp.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:anfp.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:anfp.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Antofacity - Salud y Deporte" title="Antofacity - Salud y Deporte" description="Feed de la categoría 'Salud y Deporte' en Antofacity" xmlUrl="https://antofacity.com/category/sal_y_dep/feed/" htmlUrl="https://antofacity.com/category/sal_y_dep/"/>
     <outline type="rss" text="Antofagasta al Día - Deportes" title="Antofagasta al Día - Deportes" description="Feed de la categoría 'Deportes' en Antofagasta al Día" xmlUrl="https://antofagastaaldia.cl/category/deportes/feed/" htmlUrl="https://antofagastaaldia.cl/category/deportes/"/>
     <outline type="rss" text="Antofagasta Noticias - Deportes" title="Antofagasta Noticias - Deportes" description="Feed de la categoría 'Deportes' en Antofagasta Noticias" xmlUrl="https://www.antofagastanoticias.cl/category/deportes/feed/" htmlUrl="https://www.antofagastanoticias.cl/category/deportes/"/>
@@ -89,7 +95,10 @@
     <outline type="rss" text="Enfoque Digital O'Higgins - Deportes" title="Enfoque Digital O'Higgins - Deportes" description="Feed de la categoría 'Deportes' en Enfoque Digital O'Higgins" xmlUrl="https://vi.cl/category/deportes/feed/" htmlUrl="https://vi.cl/category/deportes/"/>
     <outline type="rss" text="Epicentro Chile - Deportes" title="Epicentro Chile - Deportes" description="Feed de la categoría 'Deportes' en Epicentro Chile" xmlUrl="https://www.epicentrochile.com/deportes/feed/" htmlUrl="https://www.epicentrochile.com/deportes/"/>
     <outline type="rss" text="Esperanza FM - Deportes" title="Esperanza FM - Deportes" description="Feed de la categoría 'Deportes' en Esperanza FM" xmlUrl="https://esperanzafm.cl/category/deportes/feed/" htmlUrl="https://esperanzafm.cl/category/deportes/"/>
+    <outline type="rss" text="ESPN Chile" title="ESPN Chile" description="Feed principal de noticias de ESPN Chile" xmlUrl="https://www.espn.cl/espn/rss/news" htmlUrl="https://www.espn.cl"/>
+    <outline type="rss" text="ESPN Chile [Proxy Google News]" title="ESPN Chile [Proxy Google News]" description="Resultados de site:espn.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:espn.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:espn.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Está Pasando - Deportes" title="Está Pasando - Deportes" description="Feed de la categoría 'Deportes' en Está Pasando" xmlUrl="https://estapasando.cl/category/deportes/feed/" htmlUrl="https://estapasando.cl/category/deportes/"/>
+    <outline type="rss" text="Fotech - Deportes" title="Fotech - Deportes" description="Feed de la categoría 'Deportes' en Fotech" xmlUrl="https://www.fotech.cl/category/tendencias/deportes/feed/" htmlUrl="https://www.fotech.cl/category/tendencias/deportes/"/>
     <outline type="rss" text="Frontera Norte - Deportes" title="Frontera Norte - Deportes" description="Feed de la categoría 'Deportes' en Frontera Norte" xmlUrl="https://www.fronteranorte.cl/category/deportes/feed/" htmlUrl="https://www.fronteranorte.cl/category/deportes/"/>
     <outline type="rss" text="G5 Noticias - Deportes" title="G5 Noticias - Deportes" description="Feed de la categoría 'Deportes' en G5 Noticias" xmlUrl="https://g5noticias.cl/categoria/deportes/feed/" htmlUrl="https://g5noticias.cl/categoria/deportes/"/>
     <outline type="rss" text="Google News - Chile - Resultados 'deportes'" title="Google News - Chile - Resultados 'deportes'" description="Página de resultados para keyword=deportes en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=deportes&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=deportes&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

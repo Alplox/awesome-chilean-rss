@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (20 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (25 feeds)</title>
     <description>Feeds RSS de 💼 Ofertas laborales y empleabilidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-03T23:13:30.143Z</dateCreated>
+    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -26,6 +26,11 @@
     <outline type="rss" text="Portal Metropolitano - Trabajo" title="Portal Metropolitano - Trabajo" description="Feed de la categoría 'Trabajo' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/trabajo/feed/" htmlUrl="https://portalmetropolitano.cl/category/trabajo/"/>
     <outline type="rss" text="Portal Minero - Ofertas Laborales" title="Portal Minero - Ofertas Laborales" description="Feed de la sección 'Ofertas Laborales' en Portal Minero" xmlUrl="https://www.portalminero.com/feed/?category=ofertas-laborales" htmlUrl="https://www.portalminero.com/ofertas-laborales/"/>
     <outline type="rss" text="Radio Festival - Bolsa Del Trabajo" title="Radio Festival - Bolsa Del Trabajo" description="Feed de la sección 'Bolsa Del Trabajo' en Radio Festival" xmlUrl="https://www.radiofestival.cl/feed/?category=bolsa-del-trabajo" htmlUrl="https://www.radiofestival.cl/bolsa-del-trabajo/"/>
+    <outline type="rss" text="Servicio Civil" title="Servicio Civil" description="Servicio Civil, institución pública a cargo de la gestión del empleo público y los concursos del Estado" xmlUrl="https://www.serviciocivil.cl/feed/" htmlUrl="https://www.serviciocivil.cl"/>
+    <outline type="rss" text="Servicio Civil - Alta Dirección Pública" title="Servicio Civil - Alta Dirección Pública" description="Feed de la categoría 'Alta Dirección Pública' en Servicio Civil" xmlUrl="https://www.serviciocivil.cl/categoria/alta-direccion-publica/feed/" htmlUrl="https://www.serviciocivil.cl/categoria/alta-direccion-publica/"/>
+    <outline type="rss" text="Servicio Civil - Destacado" title="Servicio Civil - Destacado" description="Feed de la categoría 'Destacado' en Servicio Civil" xmlUrl="https://www.serviciocivil.cl/categoria/destacado/feed/" htmlUrl="https://www.serviciocivil.cl/categoria/destacado/"/>
+    <outline type="rss" text="Servicio Civil - Servicio Civil" title="Servicio Civil - Servicio Civil" description="Feed de la categoría 'Servicio Civil' en Servicio Civil" xmlUrl="https://www.serviciocivil.cl/categoria/servicio-civil/feed/" htmlUrl="https://www.serviciocivil.cl/categoria/servicio-civil/"/>
+    <outline type="rss" text="Servicio Civil [Proxy Google News]" title="Servicio Civil [Proxy Google News]" description="Resultados de site:serviciocivil.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:serviciocivil.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:serviciocivil.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Temuco Diario - Trabajo" title="Temuco Diario - Trabajo" description="Feed de la categoría 'Trabajo' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/trabajo/feed/" htmlUrl="https://temucodiario.cl/category/trabajo/"/>
   </body>
 </opml>

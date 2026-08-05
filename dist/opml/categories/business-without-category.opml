@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (237 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (242 feeds)</title>
     <description>Feeds RSS de 💼 Economia, Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-03T23:13:30.143Z</dateCreated>
+    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -231,6 +231,7 @@
     <outline type="rss" text="pv magazine Latin America [Proxy Bing News]" title="pv magazine Latin America [Proxy Bing News]" description="Resultados de site:pv-magazine-latam.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:pv-magazine-latam.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:pv-magazine-latam.com"/>
     <outline type="rss" text="pv magazine Latin America [Proxy Google News]" title="pv magazine Latin America [Proxy Google News]" description="Resultados de site:pv-magazine-latam.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pv-magazine-latam.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pv-magazine-latam.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Radio Cooperativa - Economía" title="Radio Cooperativa - Economía" description="Feed de la sección 'Economía' en Radio Cooperativa" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml" htmlUrl="https://www.cooperativa.cl"/>
+    <outline type="rss" text="Radio Cristalina - Economía" title="Radio Cristalina - Economía" description="Feed de la categoría 'Economía' en Radio Cristalina" xmlUrl="https://radiocristalina.cl/category/economia/feed/" htmlUrl="https://radiocristalina.cl/category/economia/"/>
     <outline type="rss" text="Radio Nuevo Mundo - Economía" title="Radio Nuevo Mundo - Economía" description="Feed de la categoría 'Economía' en Radio Nuevo Mundo" xmlUrl="https://radionuevomundo.cl/categoria/noticias/economia/feed/" htmlUrl="https://radionuevomundo.cl/categoria/noticias/economia/"/>
     <outline type="rss" text="Radio Paulina - Emprendedores" title="Radio Paulina - Emprendedores" description="Feed de la categoría 'Emprendedores' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/emprendedores/feed/" htmlUrl="https://radiopaulina.cl/category/emprendedores/"/>
     <outline type="rss" text="Radio UdeC - Economía" title="Radio UdeC - Economía" description="Feed de la categoría 'Economía' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/economia/feed/" htmlUrl="https://www.radioudec.cl/category/economia/"/>
@@ -238,6 +239,10 @@
     <outline type="rss" text="REDIMIN [Proxy Google News]" title="REDIMIN [Proxy Google News]" description="Resultados de site:redimin.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:redimin.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:redimin.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Río en Línea - Economía" title="Río en Línea - Economía" description="Feed de la categoría 'Economía' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/economia/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/economia/"/>
     <outline type="rss" text="SII (Servicio de Impuestos Internos) - Índices y Valores Económicos" title="SII (Servicio de Impuestos Internos) - Índices y Valores Económicos" description="UF, UTM y otros índices económicos actualizados diariamente por el SII" xmlUrl="https://zeus.sii.cl/admin/rss/sii_ind_rss.xml" htmlUrl="https://www.sii.cl"/>
+    <outline type="rss" text="SOFOFA" title="SOFOFA" description="Sociedad de Fomento Fabril, gremio empresarial industrial de Chile" xmlUrl="https://sofofa.cl/feed/" htmlUrl="https://sofofa.cl"/>
+    <outline type="rss" text="SOFOFA - Dirección Internacional" title="SOFOFA - Dirección Internacional" description="Feed de la categoría 'Dirección Internacional' en SOFOFA" xmlUrl="https://www.sofofa.cl/category/direccion-internacional/feed/" htmlUrl="https://www.sofofa.cl/category/direccion-internacional/"/>
+    <outline type="rss" text="SOFOFA - Políticas Públicas" title="SOFOFA - Políticas Públicas" description="Feed de la categoría 'Políticas Públicas' en SOFOFA" xmlUrl="https://www.sofofa.cl/category/politicas-publicas/feed/" htmlUrl="https://www.sofofa.cl/category/politicas-publicas/"/>
+    <outline type="rss" text="SOFOFA [Proxy Google News]" title="SOFOFA [Proxy Google News]" description="Resultados de site:sofofa.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:sofofa.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:sofofa.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Supervivencia y Desastres - Economía" title="Supervivencia y Desastres - Economía" description="Feed de la categoría 'Economía' en Supervivencia y Desastres" xmlUrl="https://www.supervivencia-y-desastres.cl/category/economia/feed/" htmlUrl="https://www.supervivencia-y-desastres.cl/category/economia/"/>
     <outline type="rss" text="Temuco Diario - Economía" title="Temuco Diario - Economía" description="Feed de la categoría 'Economía' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/economia/feed/" htmlUrl="https://temucodiario.cl/category/economia/"/>
     <outline type="rss" text="Tiempo 21 - Economía" title="Tiempo 21 - Economía" description="Feed de la categoría 'Economía' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/economia/feed/" htmlUrl="https://www.tiempo21.cl/economia/"/>

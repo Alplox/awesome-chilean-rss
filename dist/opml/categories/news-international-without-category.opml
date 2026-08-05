@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (207 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (210 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-03T23:13:30.143Z</dateCreated>
+    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -135,6 +135,7 @@
     <outline type="rss" text="HolaNews - Wilmington, Nc" title="HolaNews - Wilmington, Nc" description="Feed de la categoría 'Wilmington, Nc' en HolaNews" xmlUrl="https://holanews.com/category/locales/las-carolinas/wilmington-nc/feed/" htmlUrl="https://holanews.com/category/locales/las-carolinas/wilmington-nc/"/>
     <outline type="rss" text="HolaNews [Proxy Bing News]" title="HolaNews [Proxy Bing News]" description="Resultados de site:holanews.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:holanews.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:holanews.com"/>
     <outline type="rss" text="HolaNews [Proxy Google News]" title="HolaNews [Proxy Google News]" description="Resultados de site:holanews.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:holanews.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:holanews.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Instituto Antártico Chileno - Antártica Internacional" title="Instituto Antártico Chileno - Antártica Internacional" description="Feed de la categoría 'Antártica Internacional' en Instituto Antártico Chileno" xmlUrl="https://www.inach.cl/category/prensa/mundo/feed/" htmlUrl="https://www.inach.cl/category/prensa/mundo/"/>
     <outline type="rss" text="iRock.CL - Internacional" title="iRock.CL - Internacional" description="Feed de la categoría 'Internacional' en iRock.CL" xmlUrl="https://www.irock.cl/category/internacional/feed/" htmlUrl="https://www.irock.cl/category/internacional/"/>
     <outline type="rss" text="La Batalla de Maipú - Internacional" title="La Batalla de Maipú - Internacional" description="Feed de la categoría 'Internacional' en La Batalla de Maipú" xmlUrl="https://www.labatalla.cl/secciones/secciones/internacional/feed/" htmlUrl="https://www.labatalla.cl/secciones/secciones/internacional/"/>
     <outline type="rss" text="La Cuarta - Mundo" title="La Cuarta - Mundo" description="Feed de la categoría 'Mundo' en La Cuarta" xmlUrl="https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml" htmlUrl="https://www.lacuarta.com/category/mundo/"/>
@@ -160,6 +161,7 @@
     <outline type="rss" text="Portal Metropolitano - Internacional" title="Portal Metropolitano - Internacional" description="Feed de la categoría 'Internacional' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/internacional/feed/" htmlUrl="https://portalmetropolitano.cl/category/internacional/"/>
     <outline type="rss" text="Publimicro - Internacional" title="Publimicro - Internacional" description="Feed de la categoría 'Internacional' en Publimicro" xmlUrl="https://publimicro.cl/contenidos-noticias/internacional/feed/" htmlUrl="https://publimicro.cl/contenidos-noticias/internacional/"/>
     <outline type="rss" text="Radio Cooperativa - Mundo" title="Radio Cooperativa - Mundo" description="Feed de la sección 'Mundo' en Radio Cooperativa" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_2___1.xml" htmlUrl="https://www.cooperativa.cl"/>
+    <outline type="rss" text="Radio Cristalina - Internacional" title="Radio Cristalina - Internacional" description="Feed de la categoría 'Internacional' en Radio Cristalina" xmlUrl="https://radiocristalina.cl/category/internacional/feed/" htmlUrl="https://radiocristalina.cl/category/internacional/"/>
     <outline type="rss" text="Radio Maray - Internacional" title="Radio Maray - Internacional" description="Feed de la categoría 'Internacional' en Radio Maray" xmlUrl="https://www.maray.cl/category/internacional/feed/" htmlUrl="https://www.maray.cl/category/internacional/"/>
     <outline type="rss" text="Radio Maray - Medio Oriente" title="Radio Maray - Medio Oriente" description="Feed de la categoría 'Medio Oriente' en Radio Maray" xmlUrl="https://www.maray.cl/category/medio-oriente/feed/" htmlUrl="https://www.maray.cl/category/medio-oriente/"/>
     <outline type="rss" text="Radio Nuevo Mundo - Internacional" title="Radio Nuevo Mundo - Internacional" description="Feed de la categoría 'Internacional' en Radio Nuevo Mundo" xmlUrl="https://radionuevomundo.cl/categoria/internacional/feed/" htmlUrl="https://radionuevomundo.cl/categoria/internacional/"/>
@@ -211,6 +213,7 @@
     <outline type="rss" text="Tiempo 21 - Mundo" title="Tiempo 21 - Mundo" description="Feed de la categoría 'Mundo' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/mundo/feed/" htmlUrl="https://www.tiempo21.cl/mundo/"/>
     <outline type="rss" text="Tierramarillano - Internacional" title="Tierramarillano - Internacional" description="Feed de la categoría 'Internacional' en Tierramarillano" xmlUrl="https://tierramarillano.cl/category/noticias/internacional/feed/" htmlUrl="https://tierramarillano.cl/category/noticias/internacional/"/>
     <outline type="rss" text="Tus Noticias - Internacional" title="Tus Noticias - Internacional" description="Feed de la categoría 'Internacional' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/internacional/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/internacional/"/>
+    <outline type="rss" text="Universidad Diego Portales - Internacional" title="Universidad Diego Portales - Internacional" description="Feed de la categoría 'Internacional' en Universidad Diego Portales" xmlUrl="https://www.udp.cl/archivo/internacional/feed/" htmlUrl="https://www.udp.cl/archivo/internacional/"/>
     <outline type="rss" text="Vanguardia Gamer - Internacional" title="Vanguardia Gamer - Internacional" description="Feed de la categoría 'Internacional' en Vanguardia Gamer" xmlUrl="https://vanguardiagamer.cl/category/noticias/internacional/feed/" htmlUrl="https://vanguardiagamer.cl/category/noticias/internacional/"/>
     <outline type="rss" text="Vilas Radio - Internacional" title="Vilas Radio - Internacional" description="Feed de la categoría 'Internacional' en Vilas Radio" xmlUrl="https://vilasradio.cl/category/internacional/feed/" htmlUrl="https://vilasradio.cl/category/internacional/"/>
     <outline type="rss" text="VLN Radio - Internacional" title="VLN Radio - Internacional" description="Feed de la categoría 'Internacional' en VLN Radio" xmlUrl="https://www.vlnradio.cl/internacional/feed/" htmlUrl="https://www.vlnradio.cl/internacional/"/>
