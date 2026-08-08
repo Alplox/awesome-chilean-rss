@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Biobío (73 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Biobío (74 feeds)</title>
     <description>Feeds RSS de la Región de Biobío, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
+    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -72,7 +72,6 @@
       <outline type="rss" text="Tus Noticias - Economía" title="Tus Noticias - Economía" description="Feed de la categoría 'Economía' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/economia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/economia/"/>
       <outline type="rss" text="Tus Noticias - Educación" title="Tus Noticias - Educación" description="Feed de la categoría 'Educación' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/educacion/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/educacion/"/>
       <outline type="rss" text="Tus Noticias - Espectaculos" title="Tus Noticias - Espectaculos" description="Feed de la categoría 'Espectaculos' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/espectaculos/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/espectaculos/"/>
-      <outline type="rss" text="Tus Noticias - Google News" title="Tus Noticias - Google News" description="Resultados de site:tusnoticias.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:tusnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:tusnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Tus Noticias - Internacional" title="Tus Noticias - Internacional" description="Feed de la categoría 'Internacional' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/internacional/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/internacional/"/>
       <outline type="rss" text="Tus Noticias - Magazine" title="Tus Noticias - Magazine" description="Feed de la categoría 'Magazine' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/magazine/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/magazine/"/>
       <outline type="rss" text="Tus Noticias - Nacional" title="Tus Noticias - Nacional" description="Feed de la categoría 'Nacional' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/nacional/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/nacional/"/>
@@ -81,6 +80,8 @@
       <outline type="rss" text="Tus Noticias - Salud" title="Tus Noticias - Salud" description="Feed de la categoría 'Salud' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/salud/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/salud/"/>
       <outline type="rss" text="Tus Noticias - Tecnologia" title="Tus Noticias - Tecnologia" description="Feed de la categoría 'Tecnologia' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/"/>
       <outline type="rss" text="Tus Noticias - Tendencias" title="Tus Noticias - Tendencias" description="Feed de la categoría 'Tendencias' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/tendencias/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/tendencias/"/>
+      <outline type="rss" text="Tus Noticias [Proxy Bing News]" title="Tus Noticias [Proxy Bing News]" description="Resultados de site:tusnoticias.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:tusnoticias.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:tusnoticias.cl"/>
+      <outline type="rss" text="Tus Noticias [Proxy Google News]" title="Tus Noticias [Proxy Google News]" description="Resultados de site:tusnoticias.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:tusnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:tusnoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     </outline>
   </body>
 </opml>

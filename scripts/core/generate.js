@@ -108,6 +108,33 @@ for (const reg of Object.keys(sitesByRegion)) {
 const allFeeds = Object.values(feedsByCategory).flat();
 const realFeedCount = new Set(allFeeds.map(f => f.siteId)).size;
 
+// Feed principal por sitio (1 feed por sitio, sin subfeeds) — para chilean-rss-main.opml
+function pickMainFeed(site) {
+  const eligible = site.feeds.filter(
+    f => f.status === 'active' && f.verified === true && !f.id.includes('-proxy-')
+  );
+  const main = eligible.find(f => f.id === `${site.id}-main`);
+  return (main ?? eligible[0]) || null;
+}
+
+const mainFeeds = sites
+  .map(site => {
+    const feed = pickMainFeed(site);
+    if (!feed) return null;
+    return {
+      ...feed,
+      siteId: site.id,
+      siteName: site.name,
+      siteUrl: site.url,
+      siteCategory: site.category,
+      feedUrl: feed.url ?? site.url,
+      feedDescription: feed.description ?? site.description ?? '',
+      region: feed.region ?? site.region,
+    };
+  })
+  .filter(Boolean);
+const mainSitesCount = new Set(mainFeeds.map(f => f.siteId)).size;
+
 // Orden de categorías en el documento (desde categories[].order)
 const REGIONAL_CAT = 'regional';
 
@@ -166,6 +193,29 @@ function generateNestedOPML() {
       return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${regionBlocks.join('\n')}\n    </outline>`;
     }
 
+    return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${renderFeedOutlines(feeds)}\n    </outline>`;
+  }).join('\n');
+
+  return opmlEnvelope(categoryBlocks, totalFeeds, now);
+}
+
+// OPML global con solo el feed principal de cada sitio (sin subfeeds ni feeds de sección)
+function generateMainFeedOPML() {
+  const now = db.last_updated;
+  const totalFeeds = mainFeeds.length;
+
+  const feedsByResolvedCat = {};
+  for (const feed of mainFeeds) {
+    const cat = feed.category ?? feed.siteCategory;
+    (feedsByResolvedCat[cat] ??= []).push(feed);
+  }
+
+  const orderedMainCategories = Object.keys(feedsByResolvedCat)
+    .sort((a, b) => (categories[a]?.order ?? 99) - (categories[b]?.order ?? 99));
+
+  const categoryBlocks = orderedMainCategories.map(cat => {
+    const label = categories[cat]?.label ?? cat;
+    const feeds = feedsByResolvedCat[cat] || [];
     return `    <outline text="${escapeXml(label)}" title="${escapeXml(label)}">\n${renderFeedOutlines(feeds)}\n    </outline>`;
   }).join('\n');
 
@@ -354,6 +404,23 @@ function feedCount(n) {
 function generateReadme() {
   const total = allFeeds.length;
 
+  // Conteos por OPML global (tabla comparativa)
+  const regionsFeeds = Object.values(feedsByRegion).flat();
+  const regionsSites = new Set(regionsFeeds.map(f => f.siteId)).size;
+
+  const opmlComparison = `### 📊 Comparación de OPMLs globales
+
+Cada carpeta de OPML ofrece una vista distinta. Esta tabla muestra cuántos sitios y feeds incluye cada uno para que contrastes rápido antes de importar:
+
+| Archivo | Sitios | Feeds | Qué incluye |
+|---|---|---|---|
+| [\`chilean-rss.opml\`](dist/opml/chilean-rss.opml) | ${realFeedCount} | ${total} | Todos los feeds activos de todos los sitios |
+| [\`chilean-rss-main.opml\`](dist/opml/chilean-rss-main.opml) | ${mainSitesCount} | ${mainFeeds.length} | Solo el feed principal de cada sitio, sin subfeeds |
+| [\`chilean-rss-regions.opml\`](dist/opml/chilean-rss-regions.opml) | ${regionsSites} | ${regionsFeeds.length} | Feeds regionales agrupados por región |
+| [\`chilean-rss-nested.opml\`](dist/opml/chilean-rss-nested.opml) | ${realFeedCount} | ${total} | Todos los feeds, con regionales anidados por subcarpeta |
+
+*Sitios* = número de medios distintos con al menos un feed activo. *Feeds* = entradas RSS/Atom en el archivo (un sitio puede aportar varios feeds).`;
+
   // Construir índice
   const indexLines = orderedCategories.map(cat => {
     const label = categories[cat]?.label ?? cat;
@@ -475,6 +542,8 @@ return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
 4. **¿Tu lector soporta subcarpetas?** Prueba [\`chilean-rss-nested.opml\`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [\`regions/\`](dist/opml/regions/) o descarga por categoría en [\`categories/\`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [\`awesome-chilean-rss.html\`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
+
+${opmlComparison}
 
 ### 🌐 Aplicación Web
 
@@ -603,6 +672,11 @@ try {
   const nestedOpml = generateNestedOPML();
   writeFileSync(`${OPML_DIR}/chilean-rss-nested.opml`, nestedOpml, 'utf-8');
   console.log(`✅ ${OPML_DIR}/chilean-rss-nested.opml generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
+
+  // Main-feed-only OPML file (1 feed por sitio, sin subfeeds)
+  const mainFeedOpml = generateMainFeedOPML();
+  writeFileSync(`${OPML_DIR}/chilean-rss-main.opml`, mainFeedOpml, 'utf-8');
+  console.log(`✅ ${OPML_DIR}/chilean-rss-main.opml generado (${mainFeeds.length} feeds, ${mainSitesCount} sitios)`);
 
   // Consolidated regional OPML file
   const regionalOpml = generateRegionalOPML(feedsByRegion);

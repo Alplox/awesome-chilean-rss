@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (173 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (175 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
+    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -88,6 +88,7 @@
     <outline type="rss" text="El Observador - Sustentabilidad" title="El Observador - Sustentabilidad" description="Feed de la categoría 'Sustentabilidad' en El Observador" xmlUrl="https://www.observador.cl/category/sustentabilidad/feed/" htmlUrl="https://www.observador.cl/category/sustentabilidad/"/>
     <outline type="rss" text="El Periodista - Viajes" title="El Periodista - Viajes" description="Feed de la categoría 'Viajes' en El Periodista" xmlUrl="https://www.elperiodista.cl/category/cultura/viajes/feed/" htmlUrl="https://www.elperiodista.cl/category/cultura/viajes/"/>
     <outline type="rss" text="El Quinto Poder - Medio Ambiente" title="El Quinto Poder - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en El Quinto Poder" xmlUrl="https://elquintopoder.cl/temas/medio-ambiente/feed/" htmlUrl="https://elquintopoder.cl/temas/medio-ambiente/"/>
+    <outline type="rss" text="El Reporte Diario - Agricultura" title="El Reporte Diario - Agricultura" description="Feed de la categoría 'Agricultura' en El Reporte Diario" xmlUrl="https://reportediario.cl/category/agricultura/feed/" htmlUrl="https://reportediario.cl/category/agricultura/"/>
     <outline type="rss" text="El Tirapiedras - Medio Ambiente" title="El Tirapiedras - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en El Tirapiedras" xmlUrl="https://www.eltirapiedras.cl/medio-ambiente/feed/" htmlUrl="https://www.eltirapiedras.cl/medio-ambiente/"/>
     <outline type="rss" text="El Urbano Rural - Ambiental" title="El Urbano Rural - Ambiental" description="Feed de la categoría 'Ambiental' en El Urbano Rural" xmlUrl="https://elurbanorural.cl/category/ambiental/feed/" htmlUrl="https://elurbanorural.cl/category/ambiental/"/>
     <outline type="rss" text="Fiscalía del Medio Ambiente" title="Fiscalía del Medio Ambiente" description="FIMA (Fiscalía del Medio Ambiente), ONG chilena de defensa legal ambiental" xmlUrl="https://fima.cl/feed/" htmlUrl="https://fima.cl"/>
@@ -161,6 +162,7 @@
     <outline type="rss" text="Noticias Los Ríos - Medio Ambiente" title="Noticias Los Ríos - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/medio-ambiente/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/medio-ambiente/"/>
     <outline type="rss" text="Nuevo Poder - Ecomundo" title="Nuevo Poder - Ecomundo" description="Feed de la categoría 'Ecomundo' en Nuevo Poder" xmlUrl="https://www.nuevopoder.cl/category/ecomundo/feed/" htmlUrl="https://www.nuevopoder.cl/category/ecomundo/"/>
     <outline type="rss" text="Ovalle Hoy - Medio Ambiente" title="Ovalle Hoy - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/medio-ambiente/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/medio-ambiente/"/>
+    <outline type="rss" text="Página 19 - Medioambiente" title="Página 19 - Medioambiente" description="Feed de la categoría 'Medioambiente' en Página 19" xmlUrl="https://pagina19.cl/categoria/medioambiente/feed/" htmlUrl="https://pagina19.cl/categoria/medioambiente/"/>
     <outline type="rss" text="Piensa Chile - Medioambiente" title="Piensa Chile - Medioambiente" description="Feed de la categoría 'Medioambiente' en Piensa Chile" xmlUrl="https://piensachile.com/category/salud-3/medioambiente-2/feed/" htmlUrl="https://piensachile.com/category/salud-3/medioambiente-2/"/>
     <outline type="rss" text="Portal Frutícola - Sostenibilidad F" title="Portal Frutícola - Sostenibilidad F" description="Feed de la categoría 'Sostenibilidad F' en Portal Frutícola" xmlUrl="https://www.portalfruticola.com/noticias/category/sostenibilidad/feed/" htmlUrl="https://www.portalfruticola.com/noticias/category/sostenibilidad/"/>
     <outline type="rss" text="Portal Metropolitano - Agricultura" title="Portal Metropolitano - Agricultura" description="Feed de la categoría 'Agricultura' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/agricultura/feed/" htmlUrl="https://portalmetropolitano.cl/category/agricultura/"/>

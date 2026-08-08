@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (161 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (162 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
+    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -136,6 +136,7 @@
       <outline type="rss" text="Novena Digital - Cultura y Entretención" title="Novena Digital - Cultura y Entretención" description="Feed de la categoría 'Cultura y Entretención' en Novena Digital" xmlUrl="https://novenadigital.cl/category/cultura-y-entretencion/feed/" htmlUrl="https://novenadigital.cl/category/cultura-y-entretencion/"/>
       <outline type="rss" text="Ñuble Digital - Cultura" title="Ñuble Digital - Cultura" description="Feed de la categoría 'Cultura' en Ñuble Digital" xmlUrl="https://nubledigital.cl/noticias/cultura/feed/" htmlUrl="https://nubledigital.cl/noticias/cultura/"/>
       <outline type="rss" text="Ovalle Hoy - Artes y Cultura" title="Ovalle Hoy - Artes y Cultura" description="Feed de la categoría 'Artes y Cultura' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/"/>
+      <outline type="rss" text="Página 19 - Cultura" title="Página 19 - Cultura" description="Feed de la categoría 'Cultura' en Página 19" xmlUrl="https://pagina19.cl/categoria/nacional/cultura/feed/" htmlUrl="https://pagina19.cl/categoria/nacional/cultura/"/>
       <outline type="rss" text="Pichilemu News - Cultura" title="Pichilemu News - Cultura" description="Feed de la sección 'Cultura' en Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed/?category=cultura" htmlUrl="https://www.pichilemunews.cl/cultura/"/>
       <outline type="rss" text="Piensa Chile - Cultura" title="Piensa Chile - Cultura" description="Feed de la categoría 'Cultura' en Piensa Chile" xmlUrl="https://piensachile.com/category/cultura/feed/" htmlUrl="https://piensachile.com/category/cultura/"/>
       <outline type="rss" text="Portal Metropolitano - Arte" title="Portal Metropolitano - Arte" description="Feed de la categoría 'Arte' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/arte/feed/" htmlUrl="https://portalmetropolitano.cl/category/arte/"/>

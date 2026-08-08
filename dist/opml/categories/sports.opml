@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (199 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (202 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
+    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -83,6 +83,8 @@
       <outline type="rss" text="El Periódico - Deportes" title="El Periódico - Deportes" description="Feed de la categoría 'Deportes' en El Periódico" xmlUrl="https://elperiodico.cl/category/deportes/feed/" htmlUrl="https://elperiodico.cl/category/deportes/"/>
       <outline type="rss" text="El Periodista - Deportes" title="El Periodista - Deportes" description="Feed de la categoría 'Deportes' en El Periodista" xmlUrl="https://www.elperiodista.cl/category/cancha/feed/" htmlUrl="https://www.elperiodista.cl/category/cancha/"/>
       <outline type="rss" text="El Quinto Poder - Deporte" title="El Quinto Poder - Deporte" description="Feed de la categoría 'Deporte' en El Quinto Poder" xmlUrl="https://elquintopoder.cl/temas/deporte/feed/" htmlUrl="https://elquintopoder.cl/temas/deporte/"/>
+      <outline type="rss" text="El Reporte Diario - Deportes" title="El Reporte Diario - Deportes" description="Feed de la categoría 'Deportes' en El Reporte Diario" xmlUrl="https://reportediario.cl/tag/deportes/feed/" htmlUrl="https://reportediario.cl/tag/deportes/"/>
+      <outline type="rss" text="El Reporte Diario - Fútbol" title="El Reporte Diario - Fútbol" description="Feed de la categoría 'Fútbol' en El Reporte Diario" xmlUrl="https://reportediario.cl/category/futbol/feed/" htmlUrl="https://reportediario.cl/category/futbol/"/>
       <outline type="rss" text="El Reportero de Iquique - Deportes" title="El Reportero de Iquique - Deportes" description="Feed de la categoría 'Deportes' en El Reportero de Iquique" xmlUrl="https://elreporterodeiquique.com/category/deportes/feed/" htmlUrl="https://elreporterodeiquique.com/category/deportes/"/>
       <outline type="rss" text="El Serenense - Deportes" title="El Serenense - Deportes" description="Feed de la categoría 'Deportes' en El Serenense" xmlUrl="https://www.elserenense.cl/category/deportes/feed/" htmlUrl="https://www.elserenense.cl/category/deportes/"/>
       <outline type="rss" text="El Sol de Iquique - Deportes" title="El Sol de Iquique - Deportes" description="Feed de la categoría 'Deportes' en El Sol de Iquique" xmlUrl="https://elsoldeiquique.cl/deportes_c/feed/" htmlUrl="https://elsoldeiquique.cl/deportes_c/"/>
@@ -141,6 +143,7 @@
       <outline type="rss" text="Oro Coipo - Deporte" title="Oro Coipo - Deporte" description="Feed de la categoría 'Deporte' en Oro Coipo" xmlUrl="https://orocoipo.cl/category/deporte/feed/" htmlUrl="https://orocoipo.cl/category/deporte/"/>
       <outline type="rss" text="Ovalle Hoy - Deportes" title="Ovalle Hoy - Deportes" description="Feed de la categoría 'Deportes' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/deportes/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/deportes/"/>
       <outline type="rss" text="Ovalle Hoy - Fútbol Amateur" title="Ovalle Hoy - Fútbol Amateur" description="Feed de la categoría 'Fútbol Amateur' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/deportes/futbol-amateur/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/deportes/futbol-amateur/"/>
+      <outline type="rss" text="Página 19 - Deportes" title="Página 19 - Deportes" description="Feed de la categoría 'Deportes' en Página 19" xmlUrl="https://pagina19.cl/categoria/deportes/feed/" htmlUrl="https://pagina19.cl/categoria/deportes/"/>
       <outline type="rss" text="Panorama Noticioso - Deportes" title="Panorama Noticioso - Deportes" description="Feed de la categoría 'Deportes' en Panorama Noticioso" xmlUrl="https://www.panoramanoticioso.cl/category/deporte/feed/" htmlUrl="https://www.panoramanoticioso.cl/category/deporte/"/>
       <outline type="rss" text="Pichilemu News - Basquetbol" title="Pichilemu News - Basquetbol" description="Feed de la sección 'Basquetbol' en Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed/?category=basquetbol" htmlUrl="https://www.pichilemunews.cl/basquetbol/"/>
       <outline type="rss" text="Pichilemu News - Futbol" title="Pichilemu News - Futbol" description="Feed de la sección 'Futbol' en Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed/?category=futbol" htmlUrl="https://www.pichilemunews.cl/futbol/"/>

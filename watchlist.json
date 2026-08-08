@@ -42,22 +42,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "24horas-google-news",
-        "name": "24 Horas - Google News",
+        "id": "24horas-proxy-google-news",
+        "name": "24 Horas [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:24horas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:24horas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:24horas.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:24horas.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "24horas-bing-news",
-        "name": "24 Horas - Bing News",
+        "id": "24horas-proxy-bing-news",
+        "name": "24 Horas [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:24horas.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:24horas.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:24horas.cl en Bing News",
+        "description": "Resultados de site:24horas.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -105,22 +109,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "angolinos-google-news",
-        "name": "Angolinos - Google News",
+        "id": "angolinos-proxy-google-news",
+        "name": "Angolinos [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:angolinos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:angolinos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:angolinos.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:angolinos.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "angolinos-bing-news",
-        "name": "Angolinos - Bing News",
+        "id": "angolinos-proxy-bing-news",
+        "name": "Angolinos [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:angolinos.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:angolinos.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:angolinos.cl en Bing News",
+        "description": "Resultados de site:angolinos.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -181,22 +189,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "araucaniacuenta-google-news",
-        "name": "Araucanía Cuenta - Google News",
+        "id": "araucaniacuenta-proxy-google-news",
+        "name": "Araucanía Cuenta [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:araucaniacuenta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:araucaniacuenta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:araucaniacuenta.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:araucaniacuenta.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "araucaniacuenta-bing-news",
-        "name": "Araucanía Cuenta - Bing News",
+        "id": "araucaniacuenta-proxy-bing-news",
+        "name": "Araucanía Cuenta [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:araucaniacuenta.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:araucaniacuenta.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:araucaniacuenta.cl en Bing News",
+        "description": "Resultados de site:araucaniacuenta.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -220,26 +232,6 @@
         "verified": true,
         "last_checked": "2026-06-19T01:53:56.439Z",
         "last_known_item_date": "2026-03-03T00:00:00.000Z"
-      },
-      {
-        "id": "arica-mia-google-news",
-        "name": "Arica Mía - Google News",
-        "rss_url": "https://news.google.com/rss/search?q=site:aricamia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "url": "https://news.google.com/search?q=site:aricamia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "feed_type": "RSS",
-        "description": "Resultados de site:aricamia.cl en Google News de noticias Chilenas",
-        "status": "active",
-        "verified": true
-      },
-      {
-        "id": "arica-mia-bing-news",
-        "name": "Arica Mía - Bing News",
-        "rss_url": "https://www.bing.com/news/search?q=site:aricamia.cl&format=RSS",
-        "url": "https://www.bing.com/news/search?q=site:aricamia.cl",
-        "feed_type": "RSS",
-        "description": "Resultados de site:aricamia.cl en Bing News",
-        "status": "active",
-        "verified": true
       },
       {
         "id": "arica-mia-cultura",
@@ -354,6 +346,30 @@
         "last_checked": "2026-06-19T01:54:31.580Z",
         "last_known_item_date": "2026-03-03T10:27:05.000Z",
         "status": "stale",
+        "verified": true
+      },
+      {
+        "id": "arica-mia-proxy-google-news",
+        "name": "Arica Mía [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:aricamia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:aricamia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:aricamia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "arica-mia-proxy-bing-news",
+        "name": "Arica Mía [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:aricamia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:aricamia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:aricamia.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
+        "status": "active",
         "verified": true
       }
     ],
@@ -764,7 +780,32 @@
     "category": "news",
     "description": "Portal de noticias",
     "reason": "Sitio caído (HTTP 410 Gone), sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "canal-de-noticias-proxy-google-news",
+        "name": "Canal de Noticias [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:canaldenoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:canaldenoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:canaldenoticias.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "canal-de-noticias-proxy-bing-news",
+        "name": "Canal de Noticias [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:canaldenoticias.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:canaldenoticias.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:canaldenoticias.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "ccs",
@@ -1020,22 +1061,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "chinchorro-google-news",
-        "name": "Chinchorro - Google News",
+        "id": "chinchorro-proxy-google-news",
+        "name": "Chinchorro [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:periodicochinchorro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:periodicochinchorro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:periodicochinchorro.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:periodicochinchorro.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "chinchorro-bing-news",
-        "name": "Chinchorro - Bing News",
+        "id": "chinchorro-proxy-bing-news",
+        "name": "Chinchorro [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:periodicochinchorro.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:periodicochinchorro.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:periodicochinchorro.cl en Bing News",
+        "description": "Resultados de site:periodicochinchorro.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -1116,7 +1161,32 @@
     "category": "community",
     "description": "Plataforma de comunicación comunitaria",
     "reason": "Sitio sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "comercial-mi-voz-proxy-google-news",
+        "name": "Mi Voz [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:comercial.mivoz.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:comercial.mivoz.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:comercial.mivoz.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "comercial-mi-voz-proxy-bing-news",
+        "name": "Mi Voz [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:comercial.mivoz.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:comercial.mivoz.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:comercial.mivoz.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "contraloria",
@@ -1330,22 +1400,26 @@
         "last_known_item_date": "2026-04-10T00:00:00.000Z"
       },
       {
-        "id": "diario-aysen-opina-google-news",
-        "name": "Diario Aysén Opina - Google News",
+        "id": "diario-aysen-opina-proxy-google-news",
+        "name": "Diario Aysén Opina [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:diarioaysenopina.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:diarioaysenopina.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:diarioaysenopina.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:diarioaysenopina.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "diario-aysen-opina-bing-news",
-        "name": "Diario Aysén Opina - Bing News",
+        "id": "diario-aysen-opina-proxy-bing-news",
+        "name": "Diario Aysén Opina [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:diarioaysenopina.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:diarioaysenopina.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:diarioaysenopina.cl en Bing News",
+        "description": "Resultados de site:diarioaysenopina.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -1598,22 +1672,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "diario-informativo-google-news",
-        "name": "Diario Informativo - Google News",
+        "id": "diario-informativo-proxy-google-news",
+        "name": "Diario Informativo [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:diarioinformativo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:diarioinformativo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:diarioinformativo.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:diarioinformativo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "diario-informativo-bing-news",
-        "name": "Diario Informativo - Bing News",
+        "id": "diario-informativo-proxy-bing-news",
+        "name": "Diario Informativo [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:diarioinformativo.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:diarioinformativo.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:diarioinformativo.cl en Bing News",
+        "description": "Resultados de site:diarioinformativo.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -1626,7 +1704,32 @@
     "category": "news",
     "description": "Diario digital de noticias",
     "reason": "Sitio no responde, sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "diario-la-portada-proxy-google-news",
+        "name": "Diario La Portada [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:diariolaportada.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diariolaportada.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolaportada.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-la-portada-proxy-bing-news",
+        "name": "Diario La Portada [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:diariolaportada.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diariolaportada.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diariolaportada.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "diario-la-prensa",
@@ -2182,22 +2285,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "diariopyme-google-news",
-        "name": "Diario Pyme - Google News",
+        "id": "diariopyme-proxy-google-news",
+        "name": "Diario Pyme [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:diariopyme.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:diariopyme.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:diariopyme.com en Google News de noticias Chilenas",
+        "description": "Resultados de site:diariopyme.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "diariopyme-bing-news",
-        "name": "Diario Pyme - Bing News",
+        "id": "diariopyme-proxy-bing-news",
+        "name": "Diario Pyme [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:diariopyme.com&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:diariopyme.com",
         "feed_type": "RSS",
-        "description": "Resultados de site:diariopyme.com en Bing News",
+        "description": "Resultados de site:diariopyme.com en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -2242,22 +2349,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "duna-google-news",
-        "name": "Duna - Google News",
+        "id": "duna-proxy-google-news",
+        "name": "Duna [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:duna.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:duna.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:duna.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:duna.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "duna-bing-news",
-        "name": "Duna - Bing News",
+        "id": "duna-proxy-bing-news",
+        "name": "Duna [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:duna.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:duna.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:duna.cl en Bing News",
+        "description": "Resultados de site:duna.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -2421,22 +2532,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "el-chelenko-google-news",
-        "name": "El Chelenko - Google News",
+        "id": "el-chelenko-proxy-google-news",
+        "name": "El Chelenko [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:elchelenko.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:elchelenko.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:elchelenko.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:elchelenko.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "el-chelenko-bing-news",
-        "name": "El Chelenko - Bing News",
+        "id": "el-chelenko-proxy-bing-news",
+        "name": "El Chelenko [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:elchelenko.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:elchelenko.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:elchelenko.cl en Bing News",
+        "description": "Resultados de site:elchelenko.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.205Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -2485,22 +2600,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "el-concordia-google-news",
-        "name": "El Concordia - Google News",
+        "id": "el-concordia-proxy-google-news",
+        "name": "El Concordia [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:elconcordia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:elconcordia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:elconcordia.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:elconcordia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "el-concordia-bing-news",
-        "name": "El Concordia - Bing News",
+        "id": "el-concordia-proxy-bing-news",
+        "name": "El Concordia [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:elconcordia.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:elconcordia.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:elconcordia.cl en Bing News",
+        "description": "Resultados de site:elconcordia.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -2516,22 +2635,26 @@
     "reason": "Feed RSS vacío",
     "feeds": [
       {
-        "id": "el-condor-google-news",
-        "name": "El Cóndor - Google News",
+        "id": "el-condor-proxy-google-news",
+        "name": "El Cóndor [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:diarioelcondor.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:diarioelcondor.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:diarioelcondor.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:diarioelcondor.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "el-condor-bing-news",
-        "name": "El Cóndor - Bing News",
+        "id": "el-condor-proxy-bing-news",
+        "name": "El Cóndor [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:diarioelcondor.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:diarioelcondor.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:diarioelcondor.cl en Bing News",
+        "description": "Resultados de site:diarioelcondor.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -2632,28 +2755,28 @@
         "verified": false
       },
       {
-        "id": "el-correo-del-lago-google-news",
-        "name": "El Correo del Lago - Google News",
+        "id": "el-correo-del-lago-proxy-google-news",
+        "name": "El Correo del Lago [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:correodellago.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:correodellago.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "description": "Resultados de site:correodellago.cl en Google News de noticias Chilenas",
         "feed_type": "RSS",
-        "last_checked": "2026-06-19T01:55:33.868Z",
-        "last_known_item_date": "2025-08-28T07:00:00.000Z",
-        "status": "stale",
-        "verified": false
+        "description": "Resultados de site:correodellago.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
       },
       {
-        "id": "el-correo-del-lago-bing-news",
-        "name": "El Correo del Lago - Bing News",
+        "id": "el-correo-del-lago-proxy-bing-news",
+        "name": "El Correo del Lago [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:correodellago.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:correodellago.cl",
-        "description": "Resultados de site:correodellago.cl en Bing News",
         "feed_type": "RSS",
-        "last_checked": "2026-06-19T01:55:33.868Z",
+        "description": "Resultados de site:correodellago.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
         "last_known_item_date": null,
-        "status": "feed_empty",
-        "verified": false
+        "status": "active",
+        "verified": true
       }
     ],
     "reason": "Sin actividad (todos los feeds inactivos)"
@@ -2700,22 +2823,26 @@
     "reason": "Feed RSS vacío",
     "feeds": [
       {
-        "id": "el-diario-de-maule-google-news",
-        "name": "El Diario de Maule - Google News",
+        "id": "el-diario-de-maule-proxy-google-news",
+        "name": "El Diario de Maule [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:eldiariodemaule.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:eldiariodemaule.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:eldiariodemaule.com en Google News de noticias Chilenas",
+        "description": "Resultados de site:eldiariodemaule.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "el-diario-de-maule-bing-news",
-        "name": "El Diario de Maule - Bing News",
+        "id": "el-diario-de-maule-proxy-bing-news",
+        "name": "El Diario de Maule [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:eldiariodemaule.com&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:eldiariodemaule.com",
         "feed_type": "RSS",
-        "description": "Resultados de site:eldiariodemaule.com en Bing News",
+        "description": "Resultados de site:eldiariodemaule.com en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -2960,22 +3087,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "el-grafico-chile-google-news",
-        "name": "El Gráfico Chile - Google News",
+        "id": "el-grafico-chile-proxy-google-news",
+        "name": "El Gráfico Chile [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:elgraficochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:elgraficochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:elgraficochile.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:elgraficochile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "el-grafico-chile-bing-news",
-        "name": "El Gráfico Chile - Bing News",
+        "id": "el-grafico-chile-proxy-bing-news",
+        "name": "El Gráfico Chile [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:elgraficochile.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:elgraficochile.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:elgraficochile.cl en Bing News",
+        "description": "Resultados de site:elgraficochile.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -3172,22 +3303,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "el-monitor-parral-google-news",
-        "name": "El Monitor - Google News",
+        "id": "el-monitor-parral-proxy-google-news",
+        "name": "El Monitor [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:elmonitorparral.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:elmonitorparral.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:elmonitorparral.com en Google News de noticias Chilenas",
+        "description": "Resultados de site:elmonitorparral.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "el-monitor-parral-bing-news",
-        "name": "El Monitor - Bing News",
+        "id": "el-monitor-parral-proxy-bing-news",
+        "name": "El Monitor [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:elmonitorparral.com&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:elmonitorparral.com",
         "feed_type": "RSS",
-        "description": "Resultados de site:elmonitorparral.com en Bing News",
+        "description": "Resultados de site:elmonitorparral.com en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -3384,22 +3519,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "el-paradiario14-google-news",
-        "name": "El Paradiario 14 - Google News",
+        "id": "el-paradiario14-proxy-google-news",
+        "name": "El Paradiario 14 [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:elparadiario14.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:elparadiario14.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:elparadiario14.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:elparadiario14.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "el-paradiario14-bing-news",
-        "name": "El Paradiario 14 - Bing News",
+        "id": "el-paradiario14-proxy-bing-news",
+        "name": "El Paradiario 14 [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:elparadiario14.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:elparadiario14.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:elparadiario14.cl en Bing News",
+        "description": "Resultados de site:elparadiario14.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -4103,22 +4242,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "fmjoven-google-news",
-        "name": "FM Joven - Google News",
+        "id": "fmjoven-proxy-google-news",
+        "name": "FM Joven [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:fmjoven.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:fmjoven.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:fmjoven.com en Google News de noticias Chilenas",
+        "description": "Resultados de site:fmjoven.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "fmjoven-bing-news",
-        "name": "FM Joven - Bing News",
+        "id": "fmjoven-proxy-bing-news",
+        "name": "FM Joven [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:fmjoven.com&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:fmjoven.com",
         "feed_type": "RSS",
-        "description": "Resultados de site:fmjoven.com en Bing News",
+        "description": "Resultados de site:fmjoven.com en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -4133,22 +4276,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "fmstylo-google-news",
-        "name": "FM Stylo - Google News",
+        "id": "fmstylo-proxy-google-news",
+        "name": "FM Stylo [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:fmstylo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:fmstylo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:fmstylo.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:fmstylo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "fmstylo-bing-news",
-        "name": "FM Stylo - Bing News",
+        "id": "fmstylo-proxy-bing-news",
+        "name": "FM Stylo [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:fmstylo.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:fmstylo.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:fmstylo.cl en Bing News",
+        "description": "Resultados de site:fmstylo.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -4645,7 +4792,32 @@
     "category": "news",
     "description": "Portal chileno de noticias y actualidad",
     "reason": "Sitio sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "infogate-proxy-google-news",
+        "name": "Infogate [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:infogate.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:infogate.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:infogate.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "infogate-proxy-bing-news",
+        "name": "Infogate [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:infogate.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:infogate.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:infogate.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "instituto-de-la-construccion",
@@ -4995,22 +5167,26 @@
     "reason": "Feed RSS vacío",
     "feeds": [
       {
-        "id": "la-kalle-google-news",
-        "name": "La Kalle - Google News",
+        "id": "la-kalle-proxy-google-news",
+        "name": "La Kalle [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:lakalle.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:lakalle.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:lakalle.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:lakalle.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "la-kalle-bing-news",
-        "name": "La Kalle - Bing News",
+        "id": "la-kalle-proxy-bing-news",
+        "name": "La Kalle [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:lakalle.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:lakalle.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:lakalle.cl en Bing News",
+        "description": "Resultados de site:lakalle.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5025,22 +5201,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "la-noticia-online-google-news",
-        "name": "La Noticia Online - Google News",
+        "id": "la-noticia-online-proxy-google-news",
+        "name": "La Noticia Online [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:lanoticiaonline.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:lanoticiaonline.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:lanoticiaonline.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:lanoticiaonline.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "la-noticia-online-bing-news",
-        "name": "La Noticia Online - Bing News",
+        "id": "la-noticia-online-proxy-bing-news",
+        "name": "La Noticia Online [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:lanoticiaonline.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:lanoticiaonline.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:lanoticiaonline.cl en Bing News",
+        "description": "Resultados de site:lanoticiaonline.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5226,22 +5406,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "la-voz-de-valdivia-google-news",
-        "name": "La Voz de Valdivia - Google News",
+        "id": "la-voz-de-valdivia-proxy-google-news",
+        "name": "La Voz de Valdivia [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:lavozdevaldivia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:lavozdevaldivia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:lavozdevaldivia.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:lavozdevaldivia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "la-voz-de-valdivia-bing-news",
-        "name": "La Voz de Valdivia - Bing News",
+        "id": "la-voz-de-valdivia-proxy-bing-news",
+        "name": "La Voz de Valdivia [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:lavozdevaldivia.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:lavozdevaldivia.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:lavozdevaldivia.cl en Bing News",
+        "description": "Resultados de site:lavozdevaldivia.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5256,22 +5440,26 @@
     "reason": "Feed RSS vacío",
     "feeds": [
       {
-        "id": "lacoyuntura-google-news",
-        "name": "La Coyuntura - Google News",
+        "id": "lacoyuntura-proxy-google-news",
+        "name": "La Coyuntura [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:lacoyuntura.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:lacoyuntura.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:lacoyuntura.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:lacoyuntura.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "lacoyuntura-bing-news",
-        "name": "La Coyuntura - Bing News",
+        "id": "lacoyuntura-proxy-bing-news",
+        "name": "La Coyuntura [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:lacoyuntura.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:lacoyuntura.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:lacoyuntura.cl en Bing News",
+        "description": "Resultados de site:lacoyuntura.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5286,22 +5474,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "lacuarta-cl-google-news",
-        "name": "La Cuarta - Google News",
+        "id": "lacuarta-cl-proxy-google-news",
+        "name": "La Cuarta [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:lacuarta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:lacuarta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:lacuarta.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:lacuarta.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "lacuarta-cl-bing-news",
-        "name": "La Cuarta - Bing News",
+        "id": "lacuarta-cl-proxy-bing-news",
+        "name": "La Cuarta [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:lacuarta.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:lacuarta.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:lacuarta.cl en Bing News",
+        "description": "Resultados de site:lacuarta.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5350,22 +5542,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "lasegunda-cl-google-news",
-        "name": "La Segunda - Google News",
+        "id": "lasegunda-cl-proxy-google-news",
+        "name": "La Segunda [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:lasegunda.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:lasegunda.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:lasegunda.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:lasegunda.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "lasegunda-cl-bing-news",
-        "name": "La Segunda - Bing News",
+        "id": "lasegunda-cl-proxy-bing-news",
+        "name": "La Segunda [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:lasegunda.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:lasegunda.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:lasegunda.cl en Bing News",
+        "description": "Resultados de site:lasegunda.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5380,22 +5576,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "libertad-digital-cl-google-news",
-        "name": "Libertad Digital - Google News",
+        "id": "libertad-digital-cl-proxy-google-news",
+        "name": "Libertad Digital [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:libertaddigital.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:libertaddigital.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:libertaddigital.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:libertaddigital.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "libertad-digital-cl-bing-news",
-        "name": "Libertad Digital - Bing News",
+        "id": "libertad-digital-cl-proxy-bing-news",
+        "name": "Libertad Digital [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:libertaddigital.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:libertaddigital.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:libertaddigital.cl en Bing News",
+        "description": "Resultados de site:libertaddigital.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5443,7 +5643,32 @@
     "region": "los-lagos",
     "description": "Medio digital informativo de la Región de Los Lagos",
     "reason": "Sitio sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "los-lagos-al-dia-proxy-google-news",
+        "name": "Los Lagos al Día [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:loslagosaldia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:loslagosaldia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:loslagosaldia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "los-lagos-al-dia-proxy-bing-news",
+        "name": "Los Lagos al Día [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:loslagosaldia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:loslagosaldia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:loslagosaldia.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "m360",
@@ -5531,22 +5756,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "mapuche-info-google-news",
-        "name": "Mapuche Info - Google News",
+        "id": "mapuche-info-proxy-google-news",
+        "name": "Mapuche Info [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:mapuche.info&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:mapuche.info&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:mapuche.info en Google News de noticias Chilenas",
+        "description": "Resultados de site:mapuche.info en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "mapuche-info-bing-news",
-        "name": "Mapuche Info - Bing News",
+        "id": "mapuche-info-proxy-bing-news",
+        "name": "Mapuche Info [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:mapuche.info&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:mapuche.info",
         "feed_type": "RSS",
-        "description": "Resultados de site:mapuche.info en Bing News",
+        "description": "Resultados de site:mapuche.info en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5561,22 +5790,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "mapuche-nl-google-news",
-        "name": "Mapuche NL - Google News",
+        "id": "mapuche-nl-proxy-google-news",
+        "name": "Mapuche NL [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:mapuche.nl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:mapuche.nl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:mapuche.nl en Google News de noticias Chilenas",
+        "description": "Resultados de site:mapuche.nl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "mapuche-nl-bing-news",
-        "name": "Mapuche NL - Bing News",
+        "id": "mapuche-nl-proxy-bing-news",
+        "name": "Mapuche NL [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:mapuche.nl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:mapuche.nl",
         "feed_type": "RSS",
-        "description": "Resultados de site:mapuche.nl en Bing News",
+        "description": "Resultados de site:mapuche.nl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5591,22 +5824,26 @@
     "reason": "Sitio no accesible (mapuexpress.org caído, mapuexpress.net ahora es sitio vietnamita)",
     "feeds": [
       {
-        "id": "mapuexpress-google-news",
-        "name": "Mapuexpress - Google News",
+        "id": "mapuexpress-proxy-google-news",
+        "name": "Mapuexpress [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:mapuexpress.org&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:mapuexpress.org&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:mapuexpress.org en Google News de noticias Chilenas",
+        "description": "Resultados de site:mapuexpress.org en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "mapuexpress-bing-news",
-        "name": "Mapuexpress - Bing News",
+        "id": "mapuexpress-proxy-bing-news",
+        "name": "Mapuexpress [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:mapuexpress.org&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:mapuexpress.org",
         "feed_type": "RSS",
-        "description": "Resultados de site:mapuexpress.org en Bing News",
+        "description": "Resultados de site:mapuexpress.org en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5622,22 +5859,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "maule-al-dia-google-news",
-        "name": "Maule al Día - Google News",
+        "id": "maule-al-dia-proxy-google-news",
+        "name": "Maule al Día [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:maulealdia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:maulealdia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:maulealdia.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:maulealdia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "maule-al-dia-bing-news",
-        "name": "Maule al Día - Bing News",
+        "id": "maule-al-dia-proxy-bing-news",
+        "name": "Maule al Día [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:maulealdia.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:maulealdia.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:maulealdia.cl en Bing News",
+        "description": "Resultados de site:maulealdia.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -5651,7 +5892,32 @@
     "region": "maule",
     "description": "Medio digital de noticias de la Región del Maule",
     "reason": "Sitio no responde, sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "maulee-proxy-google-news",
+        "name": "Maule EE [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:maulee.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:maulee.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:maulee.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "maulee-proxy-bing-news",
+        "name": "Maule EE [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:maulee.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:maulee.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:maulee.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.206Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "meganoticias",
@@ -6895,22 +7161,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "miradorfm-google-news",
-        "name": "Mirador FM - Google News",
+        "id": "miradorfm-proxy-google-news",
+        "name": "Mirador FM [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:miradorfm.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:miradorfm.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:miradorfm.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:miradorfm.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "miradorfm-bing-news",
-        "name": "Mirador FM - Bing News",
+        "id": "miradorfm-proxy-bing-news",
+        "name": "Mirador FM [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:miradorfm.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:miradorfm.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:miradorfm.cl en Bing News",
+        "description": "Resultados de site:miradorfm.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -6958,22 +7228,26 @@
     "reason": "Feed RSS sin actividad reciente",
     "feeds": [
       {
-        "id": "mums-google-news",
-        "name": "MUMS - Google News",
+        "id": "mums-proxy-google-news",
+        "name": "MUMS [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:mums.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:mums.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:mums.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:mums.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "mums-bing-news",
-        "name": "MUMS - Bing News",
+        "id": "mums-proxy-bing-news",
+        "name": "MUMS [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:mums.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:mums.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:mums.cl en Bing News",
+        "description": "Resultados de site:mums.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -7034,22 +7308,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "natales-online-google-news",
-        "name": "Natales Online - Google News",
+        "id": "natales-online-proxy-google-news",
+        "name": "Natales Online [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:natalesonline.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:natalesonline.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:natalesonline.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:natalesonline.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "natales-online-bing-news",
-        "name": "Natales Online - Bing News",
+        "id": "natales-online-proxy-bing-news",
+        "name": "Natales Online [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:natalesonline.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:natalesonline.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:natalesonline.cl en Bing News",
+        "description": "Resultados de site:natalesonline.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -7096,22 +7374,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "observatorio-cl-google-news",
-        "name": "Observatorio Ciudadano - Google News",
+        "id": "observatorio-cl-proxy-google-news",
+        "name": "Observatorio Ciudadano [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:observatorio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:observatorio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:observatorio.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:observatorio.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "observatorio-cl-bing-news",
-        "name": "Observatorio Ciudadano - Bing News",
+        "id": "observatorio-cl-proxy-bing-news",
+        "name": "Observatorio Ciudadano [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:observatorio.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:observatorio.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:observatorio.cl en Bing News",
+        "description": "Resultados de site:observatorio.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -7263,22 +7545,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "parral-actual-google-news",
-        "name": "Parral Actual - Google News",
+        "id": "parral-actual-proxy-google-news",
+        "name": "Parral Actual [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:parralactual.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:parralactual.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:parralactual.com en Google News de noticias Chilenas",
+        "description": "Resultados de site:parralactual.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "parral-actual-bing-news",
-        "name": "Parral Actual - Bing News",
+        "id": "parral-actual-proxy-bing-news",
+        "name": "Parral Actual [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:parralactual.com&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:parralactual.com",
         "feed_type": "RSS",
-        "description": "Resultados de site:parralactual.com en Bing News",
+        "description": "Resultados de site:parralactual.com en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -7447,7 +7733,32 @@
     "category": "business",
     "description": "Portal chileno de noticias del agro y agricultura",
     "reason": "Sitio no responde, sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "portal-del-agro-proxy-google-news",
+        "name": "Portal del Agro [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:portaldelagro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:portaldelagro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:portaldelagro.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "portal-del-agro-proxy-bing-news",
+        "name": "Portal del Agro [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:portaldelagro.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:portaldelagro.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:portaldelagro.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "prochile",
@@ -7527,22 +7838,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "ptowilliams-google-news",
-        "name": "Pto. Williams - Google News",
+        "id": "ptowilliams-proxy-google-news",
+        "name": "Pto. Williams [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:ptowilliams.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:ptowilliams.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:ptowilliams.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:ptowilliams.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "ptowilliams-bing-news",
-        "name": "Pto. Williams - Bing News",
+        "id": "ptowilliams-proxy-bing-news",
+        "name": "Pto. Williams [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:ptowilliams.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:ptowilliams.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:ptowilliams.cl en Bing News",
+        "description": "Resultados de site:ptowilliams.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -7625,7 +7940,32 @@
     "region": "los-lagos",
     "description": "Medio digital de noticias de Puerto Montt y la Región de Los Lagos",
     "reason": "Sitio no responde, sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "puerto-al-dia-proxy-google-news",
+        "name": "Puerto al Día [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:puertoaldia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:puertoaldia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:puertoaldia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "puerto-al-dia-proxy-bing-news",
+        "name": "Puerto al Día [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:puertoaldia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:puertoaldia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:puertoaldia.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "puerto-montt-online",
@@ -8268,22 +8608,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "radio-usach-google-news",
-        "name": "Radio Usach - Google News",
+        "id": "radio-usach-proxy-google-news",
+        "name": "Radio Usach [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:radio.usach.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:radio.usach.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:radio.usach.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:radio.usach.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "radio-usach-bing-news",
-        "name": "Radio Usach - Bing News",
+        "id": "radio-usach-proxy-bing-news",
+        "name": "Radio Usach [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:radio.usach.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:radio.usach.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:radio.usach.cl en Bing News",
+        "description": "Resultados de site:radio.usach.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -8298,22 +8642,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "radioalborada-google-news",
-        "name": "Radio Alborada - Google News",
+        "id": "radioalborada-proxy-google-news",
+        "name": "Radio Alborada [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:radioalborada.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:radioalborada.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:radioalborada.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:radioalborada.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "radioalborada-bing-news",
-        "name": "Radio Alborada - Bing News",
+        "id": "radioalborada-proxy-bing-news",
+        "name": "Radio Alborada [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:radioalborada.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:radioalborada.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:radioalborada.cl en Bing News",
+        "description": "Resultados de site:radioalborada.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -8328,22 +8676,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "radioalternativa-cl-google-news",
-        "name": "Radio Alternativa - Google News",
+        "id": "radioalternativa-cl-proxy-google-news",
+        "name": "Radio Alternativa [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:radioalternativa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:radioalternativa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:radioalternativa.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:radioalternativa.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "radioalternativa-cl-bing-news",
-        "name": "Radio Alternativa - Bing News",
+        "id": "radioalternativa-cl-proxy-bing-news",
+        "name": "Radio Alternativa [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:radioalternativa.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:radioalternativa.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:radioalternativa.cl en Bing News",
+        "description": "Resultados de site:radioalternativa.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -8358,22 +8710,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "radiocarillon-google-news",
-        "name": "Radio Carillón - Google News",
+        "id": "radiocarillon-proxy-google-news",
+        "name": "Radio Carillón [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:radiocarillon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:radiocarillon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:radiocarillon.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:radiocarillon.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "radiocarillon-bing-news",
-        "name": "Radio Carillón - Bing News",
+        "id": "radiocarillon-proxy-bing-news",
+        "name": "Radio Carillón [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:radiocarillon.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:radiocarillon.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:radiocarillon.cl en Bing News",
+        "description": "Resultados de site:radiocarillon.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -8388,22 +8744,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "radiojgm-google-news",
-        "name": "Radio JGM - Google News",
+        "id": "radiojgm-proxy-google-news",
+        "name": "Radio JGM [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:radiojgm.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:radiojgm.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:radiojgm.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:radiojgm.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "radiojgm-bing-news",
-        "name": "Radio JGM - Bing News",
+        "id": "radiojgm-proxy-bing-news",
+        "name": "Radio JGM [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:radiojgm.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:radiojgm.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:radiojgm.cl en Bing News",
+        "description": "Resultados de site:radiojgm.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -8418,22 +8778,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "radioportales-google-news",
-        "name": "Radio Portales - Google News",
+        "id": "radioportales-proxy-google-news",
+        "name": "Radio Portales [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:radioportales.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:radioportales.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:radioportales.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:radioportales.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "radioportales-bing-news",
-        "name": "Radio Portales - Bing News",
+        "id": "radioportales-proxy-bing-news",
+        "name": "Radio Portales [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:radioportales.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:radioportales.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:radioportales.cl en Bing News",
+        "description": "Resultados de site:radioportales.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -8448,22 +8812,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "radiouniversal-google-news",
-        "name": "Radio Universal - Google News",
+        "id": "radiouniversal-proxy-google-news",
+        "name": "Radio Universal [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:radiouniversal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:radiouniversal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:radiouniversal.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:radiouniversal.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "radiouniversal-bing-news",
-        "name": "Radio Universal - Bing News",
+        "id": "radiouniversal-proxy-bing-news",
+        "name": "Radio Universal [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:radiouniversal.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:radiouniversal.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:radiouniversal.cl en Bing News",
+        "description": "Resultados de site:radiouniversal.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -8478,22 +8846,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "radiovillafrancia-google-news",
-        "name": "Radio Villa Francia - Google News",
+        "id": "radiovillafrancia-proxy-google-news",
+        "name": "Radio Villa Francia [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:radiovillafrancia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:radiovillafrancia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:radiovillafrancia.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:radiovillafrancia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "radiovillafrancia-bing-news",
-        "name": "Radio Villa Francia - Bing News",
+        "id": "radiovillafrancia-proxy-bing-news",
+        "name": "Radio Villa Francia [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:radiovillafrancia.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:radiovillafrancia.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:radiovillafrancia.cl en Bing News",
+        "description": "Resultados de site:radiovillafrancia.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -9188,22 +9560,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "redaraucania-google-news",
-        "name": "Red Araucanía - Google News",
+        "id": "redaraucania-proxy-google-news",
+        "name": "Red Araucanía [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:redaraucania.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:redaraucania.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:redaraucania.com en Google News de noticias Chilenas",
+        "description": "Resultados de site:redaraucania.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "redaraucania-bing-news",
-        "name": "Red Araucanía - Bing News",
+        "id": "redaraucania-proxy-bing-news",
+        "name": "Red Araucanía [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:redaraucania.com&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:redaraucania.com",
         "feed_type": "RSS",
-        "description": "Resultados de site:redaraucania.com en Bing News",
+        "description": "Resultados de site:redaraucania.com en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -9340,7 +9716,32 @@
     "category": "news",
     "description": "Revista digital de noticias y actualidad",
     "reason": "Sitio no responde, sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "revista-enfoque-proxy-google-news",
+        "name": "Revista Enfoque [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:revistaenfoque.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:revistaenfoque.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:revistaenfoque.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "revista-enfoque-proxy-bing-news",
+        "name": "Revista Enfoque [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:revistaenfoque.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:revistaenfoque.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:revistaenfoque.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "sabes",
@@ -9383,7 +9784,32 @@
     "category": "technology",
     "description": "Portal chileno especializado en seguridad informática",
     "reason": "Sitio caído (HTTP 410 Gone), sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "seguridad-y-firewall-proxy-google-news",
+        "name": "Seguridad y Firewall [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:seguridadyfirewall.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:seguridadyfirewall.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:seguridadyfirewall.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "seguridad-y-firewall-proxy-bing-news",
+        "name": "Seguridad y Firewall [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:seguridadyfirewall.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:seguridadyfirewall.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:seguridadyfirewall.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "senadis",
@@ -9559,7 +9985,32 @@
     "region": "ohiggins",
     "description": "Medio digital de noticias de la Sexta Región (O Higgins)",
     "reason": "Sitio no responde, sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "sexta-noticias-proxy-google-news",
+        "name": "Sexta Noticias [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sextanoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sextanoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sextanoticias.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "sexta-noticias-proxy-bing-news",
+        "name": "Sexta Noticias [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sextanoticias.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sextanoticias.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:sextanoticias.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "soberaniaradio",
@@ -9570,22 +10021,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "soberaniaradio-google-news",
-        "name": "Soberanía Radio - Google News",
+        "id": "soberaniaradio-proxy-google-news",
+        "name": "Soberanía Radio [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:soberaniaradio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:soberaniaradio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:soberaniaradio.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:soberaniaradio.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "soberaniaradio-bing-news",
-        "name": "Soberanía Radio - Bing News",
+        "id": "soberaniaradio-proxy-bing-news",
+        "name": "Soberanía Radio [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:soberaniaradio.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:soberaniaradio.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:soberaniaradio.cl en Bing News",
+        "description": "Resultados de site:soberaniaradio.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -9600,22 +10055,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "somos9-google-news",
-        "name": "Somos9 - Google News",
+        "id": "somos9-proxy-google-news",
+        "name": "Somos9 [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:somos9.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:somos9.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:somos9.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:somos9.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "somos9-bing-news",
-        "name": "Somos9 - Bing News",
+        "id": "somos9-proxy-bing-news",
+        "name": "Somos9 [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:somos9.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:somos9.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:somos9.cl en Bing News",
+        "description": "Resultados de site:somos9.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -10142,22 +10601,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "sur-actual-google-news",
-        "name": "Sur Actual - Google News",
+        "id": "sur-actual-proxy-google-news",
+        "name": "Sur Actual [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:suractual.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:suractual.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:suractual.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:suractual.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "sur-actual-bing-news",
-        "name": "Sur Actual - Bing News",
+        "id": "sur-actual-proxy-bing-news",
+        "name": "Sur Actual [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:suractual.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:suractual.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:suractual.cl en Bing News",
+        "description": "Resultados de site:suractual.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -10204,7 +10667,32 @@
     "category": "technology",
     "description": "Portal chileno de tecnología para pequeñas y medianas empresas",
     "reason": "Sitio no responde, sin feed RSS detectado",
-    "feeds": []
+    "feeds": [
+      {
+        "id": "tecnopymes-proxy-google-news",
+        "name": "Tecnopymes [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tecnopymes.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tecnopymes.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tecnopymes.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "tecnopymes-proxy-bing-news",
+        "name": "Tecnopymes [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tecnopymes.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tecnopymes.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:tecnopymes.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
   },
   {
     "id": "tecomtel",
@@ -10282,22 +10770,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "tiempo-21-araucania-google-news",
-        "name": "Tiempo 21 Araucanía - Google News",
+        "id": "tiempo-21-araucania-proxy-google-news",
+        "name": "Tiempo 21 Araucanía [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:tiempo21araucania.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:tiempo21araucania.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:tiempo21araucania.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:tiempo21araucania.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "tiempo-21-araucania-bing-news",
-        "name": "Tiempo 21 Araucanía - Bing News",
+        "id": "tiempo-21-araucania-proxy-bing-news",
+        "name": "Tiempo 21 Araucanía [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:tiempo21araucania.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:tiempo21araucania.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:tiempo21araucania.cl en Bing News",
+        "description": "Resultados de site:tiempo21araucania.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -10313,22 +10805,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "tribuna-del-biobio-google-news",
-        "name": "Tribuna del Biobío - Google News",
+        "id": "tribuna-del-biobio-proxy-google-news",
+        "name": "Tribuna del Biobío [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:tribunadelbiobio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:tribunadelbiobio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:tribunadelbiobio.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:tribunadelbiobio.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "tribuna-del-biobio-bing-news",
-        "name": "Tribuna del Biobío - Bing News",
+        "id": "tribuna-del-biobio-proxy-bing-news",
+        "name": "Tribuna del Biobío [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:tribunadelbiobio.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:tribunadelbiobio.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:tribunadelbiobio.cl en Bing News",
+        "description": "Resultados de site:tribunadelbiobio.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -11072,22 +11568,26 @@
     "reason": "Sitio no accesible",
     "feeds": [
       {
-        "id": "viento-patagon-google-news",
-        "name": "Viento Patagón - Google News",
+        "id": "viento-patagon-proxy-google-news",
+        "name": "Viento Patagón [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:vientopatagon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:vientopatagon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:vientopatagon.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:vientopatagon.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "viento-patagon-bing-news",
-        "name": "Viento Patagón - Bing News",
+        "id": "viento-patagon-proxy-bing-news",
+        "name": "Viento Patagón [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:vientopatagon.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:vientopatagon.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:vientopatagon.cl en Bing News",
+        "description": "Resultados de site:vientopatagon.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -11949,22 +12449,26 @@
     "reason": "Sin feed RSS detectado (CosmosCMS, todos los feed paths devuelven 403)",
     "feeds": [
       {
-        "id": "radiouniversal-google-news",
-        "name": "Radio Universal - Google News",
+        "id": "radiouniversal-proxy-google-news",
+        "name": "Radio Universal [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:radiouniversal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:radiouniversal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:radiouniversal.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:radiouniversal.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "radiouniversal-bing-news",
-        "name": "Radio Universal - Bing News",
+        "id": "radiouniversal-proxy-bing-news",
+        "name": "Radio Universal [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:radiouniversal.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:radiouniversal.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:radiouniversal.cl en Bing News",
+        "description": "Resultados de site:radiouniversal.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -11979,22 +12483,26 @@
     "reason": "Sin feed RSS detectado (path /feed/ devuelve texto plano, no XML RSS)",
     "feeds": [
       {
-        "id": "reporteagricola-google-news",
-        "name": "Reporte Agrícola - Google News",
+        "id": "reporteagricola-proxy-google-news",
+        "name": "Reporte Agrícola [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:reporteagricola.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:reporteagricola.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:reporteagricola.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:reporteagricola.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "reporteagricola-bing-news",
-        "name": "Reporte Agrícola - Bing News",
+        "id": "reporteagricola-proxy-bing-news",
+        "name": "Reporte Agrícola [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:reporteagricola.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:reporteagricola.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:reporteagricola.cl en Bing News",
+        "description": "Resultados de site:reporteagricola.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -12009,22 +12517,26 @@
     "reason": "Sin feed RSS detectado (Labrador CMS, todos los feed paths devuelven 404)",
     "feeds": [
       {
-        "id": "salmonexpert-google-news",
-        "name": "SalmonExpert - Google News",
+        "id": "salmonexpert-proxy-google-news",
+        "name": "SalmonExpert [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:salmonexpert.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:salmonexpert.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:salmonexpert.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:salmonexpert.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "salmonexpert-bing-news",
-        "name": "SalmonExpert - Bing News",
+        "id": "salmonexpert-proxy-bing-news",
+        "name": "SalmonExpert [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:salmonexpert.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:salmonexpert.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:salmonexpert.cl en Bing News",
+        "description": "Resultados de site:salmonexpert.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -12051,22 +12563,26 @@
         "verified": false
       },
       {
-        "id": "atencionchilena-google-news",
-        "name": "Atención Chilena - Google News",
+        "id": "atencionchilena-proxy-google-news",
+        "name": "Atención Chilena [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:atencionchilena.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:atencionchilena.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:atencionchilena.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:atencionchilena.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "atencionchilena-bing-news",
-        "name": "Atención Chilena - Bing News",
+        "id": "atencionchilena-proxy-bing-news",
+        "name": "Atención Chilena [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:atencionchilena.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:atencionchilena.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:atencionchilena.cl en Bing News",
+        "description": "Resultados de site:atencionchilena.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -12081,22 +12597,26 @@
     "reason": "Sin feed RSS detectado (sitio PHP personalizado, sin generación de feeds RSS)",
     "feeds": [
       {
-        "id": "iglesia-cl-google-news",
-        "name": "Iglesia.cl - Conferencia Episcopal de Chile - Google News",
+        "id": "iglesia-cl-proxy-google-news",
+        "name": "Iglesia.cl - Conferencia Episcopal de Chile [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:iglesia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:iglesia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:iglesia.cl en Google News de noticias Chilenas",
+        "description": "Resultados de site:iglesia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "iglesia-cl-bing-news",
-        "name": "Iglesia.cl - Conferencia Episcopal de Chile - Bing News",
+        "id": "iglesia-cl-proxy-bing-news",
+        "name": "Iglesia.cl - Conferencia Episcopal de Chile [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:iglesia.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:iglesia.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:iglesia.cl en Bing News",
+        "description": "Resultados de site:iglesia.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -12122,28 +12642,28 @@
         "verified": false
       },
       {
-        "id": "diario-el-progreso-google-news",
-        "name": "Diario El Progreso - Google News",
+        "id": "diario-el-progreso-proxy-google-news",
+        "name": "Diario El Progreso [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:diarioelprogreso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:diarioelprogreso.cl&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:diarioelprogreso.cl en Google News de noticias Chilenas",
-        "status": "stale",
-        "verified": false,
-        "last_checked": "2026-07-17T18:59:24.919Z",
-        "last_known_item_date": "2025-08-06T07:00:00.000Z"
+        "description": "Resultados de site:diarioelprogreso.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
       },
       {
-        "id": "diario-el-progreso-bing-news",
-        "name": "Diario El Progreso - Bing News",
+        "id": "diario-el-progreso-proxy-bing-news",
+        "name": "Diario El Progreso [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:diarioelprogreso.cl&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:diarioelprogreso.cl",
         "feed_type": "RSS",
-        "description": "Resultados de site:diarioelprogreso.cl en Bing News",
-        "status": "feed_empty",
-        "verified": false,
-        "last_checked": "2026-07-17T18:59:24.919Z",
-        "last_known_item_date": null
+        "description": "Resultados de site:diarioelprogreso.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
       }
     ],
     "reason": "Sin actividad (todos los feeds inactivos)"
@@ -12168,30 +12688,6 @@
         "verified": false
       },
       {
-        "id": "xox-cl-google-news",
-        "name": "XOX cl - Google News",
-        "rss_url": "https://news.google.com/rss/search?q=site:xox.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "url": "https://news.google.com/search?q=site:xox.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "feed_type": "RSS",
-        "description": "Resultados de site:xox.cl en Google News de noticias Chilenas",
-        "status": "stale",
-        "verified": false,
-        "last_checked": "2026-07-17T19:00:10.164Z",
-        "last_known_item_date": "2024-11-28T08:00:00.000Z"
-      },
-      {
-        "id": "xox-cl-bing-news",
-        "name": "XOX cl - Bing News",
-        "rss_url": "https://www.bing.com/news/search?q=site:xox.cl&format=RSS",
-        "url": "https://www.bing.com/news/search?q=site:xox.cl",
-        "feed_type": "RSS",
-        "description": "Resultados de site:xox.cl en Bing News",
-        "status": "feed_empty",
-        "verified": false,
-        "last_checked": "2026-07-17T19:00:10.164Z",
-        "last_known_item_date": null
-      },
-      {
         "id": "xox-cl-variado",
         "name": "XOX cl - Recursos e información para emprendedores - General",
         "rss_url": "https://xox.cl/category/variado/feed/",
@@ -12202,6 +12698,30 @@
         "last_known_item_date": "2024-11-28T21:52:31.000Z",
         "status": "stale",
         "verified": false
+      },
+      {
+        "id": "xox-cl-proxy-google-news",
+        "name": "XOX cl - Recursos e información para emprendedores [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:xox.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:xox.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:xox.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "xox-cl-proxy-bing-news",
+        "name": "XOX cl - Recursos e información para emprendedores [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:xox.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:xox.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:xox.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
       }
     ],
     "reason": "Sin actividad (todos los feeds inactivos)"
@@ -14759,22 +15279,26 @@
     "reason": "Sin feed RSS detectado",
     "feeds": [
       {
-        "id": "redvalparaiso-google-news",
-        "name": "Red Valparaíso - Google News",
+        "id": "redvalparaiso-proxy-google-news",
+        "name": "Red Valparaíso [Proxy Google News]",
         "rss_url": "https://news.google.com/rss/search?q=site:redvalparaiso.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "url": "https://news.google.com/search?q=site:redvalparaiso.com&hl=es-419&gl=CL&ceid=CL:es-419",
         "feed_type": "RSS",
-        "description": "Resultados de site:redvalparaiso.com en Google News de noticias Chilenas",
+        "description": "Resultados de site:redvalparaiso.com en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       },
       {
-        "id": "redvalparaiso-bing-news",
-        "name": "Red Valparaíso - Bing News",
+        "id": "redvalparaiso-proxy-bing-news",
+        "name": "Red Valparaíso [Proxy Bing News]",
         "rss_url": "https://www.bing.com/news/search?q=site:redvalparaiso.com&format=RSS",
         "url": "https://www.bing.com/news/search?q=site:redvalparaiso.com",
         "feed_type": "RSS",
-        "description": "Resultados de site:redvalparaiso.com en Bing News",
+        "description": "Resultados de site:redvalparaiso.com en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.207Z",
+        "last_known_item_date": null,
         "status": "active",
         "verified": true
       }
@@ -14788,32 +15312,7 @@
     "region": "magallanes",
     "description": "Medio de fact checking regional de Magallanes",
     "reason": "Sin feed RSS detectado",
-    "feeds": [
-      {
-        "id": "magallanescheck-proxy-google-news",
-        "name": "Magallanes Check - Google News",
-        "rss_url": "https://news.google.com/rss/search?q=site:magallanescheck.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "url": "https://news.google.com/search?q=site:magallanescheck.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "feed_type": "RSS",
-        "description": "Resultados de site:magallanescheck.cl en Proxy Google News de noticias Chilenas",
-        "last_checked": "2026-07-25T12:00:00.000Z",
-        "last_known_item_date": null,
-        "status": "active",
-        "verified": true
-      },
-      {
-        "id": "magallanescheck-proxy-bing-news",
-        "name": "Magallanes Check - Bing News",
-        "rss_url": "https://www.bing.com/news/search?q=site:magallanescheck.cl&format=RSS",
-        "url": "https://www.bing.com/news/search?q=site:magallanescheck.cl",
-        "feed_type": "RSS",
-        "description": "Resultados de site:magallanescheck.cl en Proxy Bing News",
-        "last_checked": "2026-07-25T12:00:00.000Z",
-        "last_known_item_date": null,
-        "status": "active",
-        "verified": true
-      }
-    ]
+    "feeds": []
   },
   {
     "id": "eltelescopio",
@@ -14822,32 +15321,7 @@
     "category": "news",
     "description": "Medio de noticias chileno (sitio no disponible al momento de la revisión)",
     "reason": "Sitio no disponible (transport error)",
-    "feeds": [
-      {
-        "id": "eltelescopio-proxy-google-news",
-        "name": "El Telescopio - Google News",
-        "rss_url": "https://news.google.com/rss/search?q=site:eltelescopio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "url": "https://news.google.com/search?q=site:eltelescopio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "feed_type": "RSS",
-        "description": "Resultados de site:eltelescopio.cl en Proxy Google News de noticias Chilenas",
-        "last_checked": "2026-07-25T12:00:00.000Z",
-        "last_known_item_date": null,
-        "status": "active",
-        "verified": true
-      },
-      {
-        "id": "eltelescopio-proxy-bing-news",
-        "name": "El Telescopio - Bing News",
-        "rss_url": "https://www.bing.com/news/search?q=site:eltelescopio.cl&format=RSS",
-        "url": "https://www.bing.com/news/search?q=site:eltelescopio.cl",
-        "feed_type": "RSS",
-        "description": "Resultados de site:eltelescopio.cl en Proxy Bing News",
-        "last_checked": "2026-07-25T12:00:00.000Z",
-        "last_known_item_date": null,
-        "status": "active",
-        "verified": true
-      }
-    ]
+    "feeds": []
   },
   {
     "id": "the-times-latino",
@@ -20570,6 +21044,498 @@
         "feed_type": "RSS",
         "last_checked": "2026-08-05T01:12:22.628Z",
         "last_known_item_date": "2026-06-19T12:52:33.000Z",
+        "status": "stale",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "ipsuss",
+    "name": "Fundación IPSUSS",
+    "url": "https://www.ipsuss.cl",
+    "category": "health",
+    "description": "Instituto de Políticas Públicas en Salud de la Universidad San Sebastián",
+    "reason": "No feed RSS detectado",
+    "feeds": [
+      {
+        "id": "ipsuss-proxy-google-news",
+        "name": "Fundación IPSUSS [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ipsuss.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ipsuss.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ipsuss.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.208Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "ipsuss-proxy-bing-news",
+        "name": "Fundación IPSUSS [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ipsuss.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ipsuss.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ipsuss.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.208Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "londres-38",
+    "name": "Londres 38",
+    "url": "https://www.londres38.cl",
+    "category": "culture",
+    "description": "Casa de la Memoria de ex detención y tortura, Santiago",
+    "reason": "No feed RSS detectado",
+    "feeds": [
+      {
+        "id": "londres-38-proxy-google-news",
+        "name": "Londres 38 [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:londres38.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:londres38.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:londres38.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.208Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "londres-38-proxy-bing-news",
+        "name": "Londres 38 [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:londres38.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:londres38.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:londres38.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.208Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "anepe",
+    "name": "ANEPE",
+    "url": "https://anepe.cl",
+    "category": "government",
+    "description": "Academia Nacional de Estudios Políticos y Estratégicos",
+    "reason": "Sitio WordPress sin feed detectable (HTTP 500 en /feed/)",
+    "feeds": [
+      {
+        "id": "anepe-proxy-google-news",
+        "name": "ANEPE [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:anepe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:anepe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:anepe.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.208Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "anepe-proxy-bing-news",
+        "name": "ANEPE [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:anepe.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:anepe.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:anepe.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.208Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "transparencia-activa-presidencia",
+    "name": "Transparencia Activa Presidencia",
+    "url": "https://transparenciaactiva.presidencia.cl",
+    "category": "government",
+    "description": "Portal de transparencia activa de la Presidencia de la República",
+    "reason": "Sitio no accesible (error de certificado SSL)",
+    "feeds": [
+      {
+        "id": "transparencia-activa-presidencia-proxy-google-news",
+        "name": "Transparencia Activa Presidencia [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:transparenciaactiva.presidencia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:transparenciaactiva.presidencia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:transparenciaactiva.presidencia.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T22:31:47.208Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "transparencia-activa-presidencia-proxy-bing-news",
+        "name": "Transparencia Activa Presidencia [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:transparenciaactiva.presidencia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:transparenciaactiva.presidencia.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:transparenciaactiva.presidencia.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T22:31:47.208Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "revista-signos",
+    "name": "Revista Signos. Estudios de Lingüística",
+    "url": "https://revistasignos.cl",
+    "category": "education",
+    "description": "Revista académica de lingüística de la Pontificia Universidad Católica de Valparaíso",
+    "feeds": [
+      {
+        "id": "revista-signos-main",
+        "name": "Revista Signos",
+        "rss_url": "https://revistasignos.cl/index.php/signos/gateway/plugin/WebFeedGatewayPlugin/atom",
+        "feed_type": "Atom",
+        "last_checked": "2026-08-07T23:46:33.046Z",
+        "last_known_item_date": "2026-03-02T00:00:00.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "revista-signos-proxy-google-news",
+        "name": "Revista Signos. Estudios de Lingüística [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:revistasignos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:revistasignos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:revistasignos.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T23:46:33.046Z",
+        "last_known_item_date": "2026-06-06T02:27:30.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "revista-signos-proxy-bing-news",
+        "name": "Revista Signos. Estudios de Lingüística [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:revistasignos.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:revistasignos.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:revistasignos.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T23:46:33.046Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "revista-de-sociologia",
+    "name": "Revista de Sociología",
+    "url": "https://revistadesociologia.uchile.cl",
+    "category": "education",
+    "description": "Revista de Sociología de la Universidad de Chile",
+    "feeds": [
+      {
+        "id": "revista-de-sociologia-main",
+        "name": "Revista de Sociología",
+        "rss_url": "https://revistadesociologia.uchile.cl/index.php/RDS/gateway/plugin/WebFeedGatewayPlugin/atom",
+        "feed_type": "Atom",
+        "last_checked": "2026-08-07T23:47:30.891Z",
+        "last_known_item_date": "2025-12-30T18:35:24.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "revista-de-sociologia-proxy-google-news",
+        "name": "Revista de Sociología [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:revistadesociologia.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:revistadesociologia.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:revistadesociologia.uchile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T23:47:30.891Z",
+        "last_known_item_date": "2026-01-02T07:59:00.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "revista-de-sociologia-proxy-bing-news",
+        "name": "Revista de Sociología [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:revistadesociologia.uchile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:revistadesociologia.uchile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:revistadesociologia.uchile.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T23:47:30.891Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "tercera-dosis",
+    "name": "Tercera Dosis",
+    "url": "https://terceradosis.cl",
+    "category": "news",
+    "description": "Medio digital de periodismo investigativo internacional",
+    "feeds": [
+      {
+        "id": "tercera-dosis-main",
+        "name": "Tercera Dosis",
+        "rss_url": "https://terceradosis.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.183Z",
+        "last_known_item_date": "2026-07-08T13:41:49.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-proxy-google-news",
+        "name": "Tercera Dosis [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:terceradosis.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:terceradosis.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:terceradosis.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T23:52:03.183Z",
+        "last_known_item_date": "2026-07-10T14:56:07.000Z",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "tercera-dosis-proxy-bing-news",
+        "name": "Tercera Dosis [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:terceradosis.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:terceradosis.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:terceradosis.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T23:52:03.183Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-dosis-academica",
+        "name": "Tercera Dosis - Dosis Académica",
+        "rss_url": "https://terceradosis.cl/category/dosis-academica/feed/",
+        "url": "https://terceradosis.cl/category/dosis-academica/",
+        "description": "Feed de la categoría 'Dosis Académica' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.183Z",
+        "last_known_item_date": "2026-07-08T13:41:49.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-investigacion",
+        "name": "Tercera Dosis - Dosis Periodística",
+        "rss_url": "https://terceradosis.cl/category/investigacion/feed/",
+        "url": "https://terceradosis.cl/category/investigacion/",
+        "description": "Feed de la categoría 'Dosis Periodística' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.183Z",
+        "last_known_item_date": "2026-05-18T13:03:38.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-columnas",
+        "name": "Tercera Dosis - Otras Dosis",
+        "rss_url": "https://terceradosis.cl/category/columnas/feed/",
+        "url": "https://terceradosis.cl/category/columnas/",
+        "description": "Feed de la categoría 'Otras Dosis' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.184Z",
+        "last_known_item_date": "2025-06-15T12:25:43.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-democracias-violentas",
+        "name": "Tercera Dosis - Especial Democracias Violentas",
+        "rss_url": "https://terceradosis.cl/category/democracias-violentas/feed/",
+        "url": "https://terceradosis.cl/category/democracias-violentas/",
+        "description": "Feed de la categoría 'Especial Democracias Violentas' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.184Z",
+        "last_known_item_date": "2025-01-28T15:59:00.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-analisis-politico",
+        "name": "Tercera Dosis - Análisis Político",
+        "rss_url": "https://terceradosis.cl/category/analisis-politico/feed/",
+        "url": "https://terceradosis.cl/category/analisis-politico/",
+        "description": "Feed de la categoría 'Análisis Político' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.184Z",
+        "last_known_item_date": "2026-04-22T19:31:09.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-cartas",
+        "name": "Tercera Dosis - Cartas",
+        "rss_url": "https://terceradosis.cl/category/cartas/feed/",
+        "url": "https://terceradosis.cl/category/cartas/",
+        "description": "Feed de la categoría 'Cartas' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.184Z",
+        "last_known_item_date": "2026-06-08T13:50:58.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-grandes-transformaciones",
+        "name": "Tercera Dosis - Grandes Transformaciones",
+        "rss_url": "https://terceradosis.cl/category/grandes-transformaciones/feed/",
+        "url": "https://terceradosis.cl/category/grandes-transformaciones/",
+        "description": "Feed de la categoría 'Grandes Transformaciones' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.184Z",
+        "last_known_item_date": "2025-09-28T11:07:23.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-la-dosis-podcast",
+        "name": "Tercera Dosis - La Dosis Podcast",
+        "rss_url": "https://terceradosis.cl/category/la-dosis-podcast/feed/",
+        "url": "https://terceradosis.cl/category/la-dosis-podcast/",
+        "description": "Feed de la categoría 'La Dosis Podcast' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.185Z",
+        "last_known_item_date": "2025-07-06T12:38:13.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-presidenciales-2025",
+        "name": "Tercera Dosis - Presidenciales 2025",
+        "rss_url": "https://terceradosis.cl/category/presidenciales-2025/feed/",
+        "url": "https://terceradosis.cl/category/presidenciales-2025/",
+        "description": "Feed de la categoría 'Presidenciales 2025' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.185Z",
+        "last_known_item_date": "2025-07-13T10:00:25.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-municipales-2024",
+        "name": "Tercera Dosis - Municipales 2024",
+        "rss_url": "https://terceradosis.cl/category/municipales-2024/feed/",
+        "url": "https://terceradosis.cl/category/municipales-2024/",
+        "description": "Feed de la categoría 'Municipales 2024' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.185Z",
+        "last_known_item_date": "2024-05-19T10:25:23.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-especial-banco-central",
+        "name": "Tercera Dosis - Especial Banco Central",
+        "rss_url": "https://terceradosis.cl/category/especial-banco-central/feed/",
+        "url": "https://terceradosis.cl/category/especial-banco-central/",
+        "description": "Feed de la categoría 'Especial Banco Central' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.185Z",
+        "last_known_item_date": "2022-03-27T08:16:03.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "tercera-dosis-trabajo-en-desarrollo",
+        "name": "Tercera Dosis - Trabajo En Desarrollo",
+        "rss_url": "https://terceradosis.cl/category/trabajo-en-desarrollo/feed/",
+        "url": "https://terceradosis.cl/category/trabajo-en-desarrollo/",
+        "description": "Feed de la categoría 'Trabajo En Desarrollo' en Tercera Dosis",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:52:03.185Z",
+        "last_known_item_date": "2025-12-14T11:55:47.000Z",
+        "status": "stale",
+        "verified": false
+      }
+    ],
+    "reason": "Solo feeds proxy activos (feeds nativos inactivos)"
+  },
+  {
+    "id": "fact-checking-uc",
+    "name": "Fact Checking UC",
+    "url": "https://factchecking.cl",
+    "category": "news",
+    "description": "Proyecto de verificación de discurso público de la Pontificia Universidad Católica de Chile",
+    "feeds": [
+      {
+        "id": "fact-checking-uc-main",
+        "name": "Fact Checking UC",
+        "rss_url": "https://factchecking.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:55:44.001Z",
+        "last_known_item_date": "2026-06-02T03:05:11.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "fact-checking-uc-proxy-google-news",
+        "name": "Fact Checking UC [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:factchecking.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:factchecking.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:factchecking.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-07T23:55:44.001Z",
+        "last_known_item_date": "2026-07-01T07:00:00.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "fact-checking-uc-proxy-bing-news",
+        "name": "Fact Checking UC [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:factchecking.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:factchecking.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:factchecking.cl en Proxy Bing News",
+        "last_checked": "2026-08-07T23:55:44.001Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "fact-checking-uc-entrevistas",
+        "name": "Fact Checking UC - Entrevistas",
+        "rss_url": "https://factchecking.cl/category/articulos/entrevistas/feed/",
+        "url": "https://factchecking.cl/category/articulos/entrevistas/",
+        "description": "Feed de la categoría 'Entrevistas' en Fact Checking UC",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:55:44.002Z",
+        "last_known_item_date": "2019-05-27T01:59:35.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "fact-checking-uc-proyectos",
+        "name": "Fact Checking UC - Proyectos",
+        "rss_url": "https://factchecking.cl/category/proyectos/feed/",
+        "url": "https://factchecking.cl/category/proyectos/",
+        "description": "Feed de la categoría 'Proyectos' en Fact Checking UC",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:55:44.002Z",
+        "last_known_item_date": "2022-08-08T18:11:53.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "fact-checking-uc-articulos",
+        "name": "Fact Checking UC - Artículos",
+        "rss_url": "https://factchecking.cl/category/articulos/feed/",
+        "url": "https://factchecking.cl/category/articulos/",
+        "description": "Feed de la categoría 'Artículos' en Fact Checking UC",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-07T23:55:44.002Z",
+        "last_known_item_date": "2021-02-02T16:49:01.000Z",
         "status": "stale",
         "verified": false
       }

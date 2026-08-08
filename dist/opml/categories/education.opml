@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (255 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (264 feeds)</title>
     <description>Feeds RSS de 🏫 Educación, Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
+    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -116,6 +116,7 @@
       <outline type="rss" text="El Noticiero del Huasco - Educación" title="El Noticiero del Huasco - Educación" description="Feed de la categoría 'Educación' en El Noticiero del Huasco" xmlUrl="https://elnoticierodelhuasco.cl/category/educacion/feed/" htmlUrl="https://elnoticierodelhuasco.cl/category/educacion/"/>
       <outline type="rss" text="El Periódico - Educación" title="El Periódico - Educación" description="Feed de la categoría 'Educación' en El Periódico" xmlUrl="https://elperiodico.cl/category/educacion/feed/" htmlUrl="https://elperiodico.cl/category/educacion/"/>
       <outline type="rss" text="El Quinto Poder - Educación" title="El Quinto Poder - Educación" description="Feed de la categoría 'Educación' en El Quinto Poder" xmlUrl="https://elquintopoder.cl/temas/educacion/feed/" htmlUrl="https://elquintopoder.cl/temas/educacion/"/>
+      <outline type="rss" text="El Reporte Diario - Educación" title="El Reporte Diario - Educación" description="Feed de la categoría 'Educación' en El Reporte Diario" xmlUrl="https://reportediario.cl/category/educacion/feed/" htmlUrl="https://reportediario.cl/category/educacion/"/>
       <outline type="rss" text="El Serenense - Educación" title="El Serenense - Educación" description="Feed de la categoría 'Educación' en El Serenense" xmlUrl="https://www.elserenense.cl/category/educacion/feed/" htmlUrl="https://www.elserenense.cl/category/educacion/"/>
       <outline type="rss" text="El Sol de Iquique - Educación" title="El Sol de Iquique - Educación" description="Feed de la categoría 'Educación' en El Sol de Iquique" xmlUrl="https://elsoldeiquique.cl/educacion/feed/" htmlUrl="https://elsoldeiquique.cl/educacion/"/>
       <outline type="rss" text="El Urbano Rural - Educación" title="El Urbano Rural - Educación" description="Feed de la categoría 'Educación' en El Urbano Rural" xmlUrl="https://elurbanorural.cl/category/educacion/feed/" htmlUrl="https://elurbanorural.cl/category/educacion/"/>
@@ -227,6 +228,7 @@
       <outline type="rss" text="Noticias Chiloé - Educación" title="Noticias Chiloé - Educación" description="Feed de la categoría 'Educación' en Noticias Chiloé" xmlUrl="https://loslagosnoticias.cl/category/educacion/feed/" htmlUrl="https://loslagosnoticias.cl/category/educacion/"/>
       <outline type="rss" text="Noticias Los Ríos - Educación" title="Noticias Los Ríos - Educación" description="Feed de la categoría 'Educación' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/educacion/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/educacion/"/>
       <outline type="rss" text="Ovalle Hoy - Educación" title="Ovalle Hoy - Educación" description="Feed de la categoría 'Educación' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/educacion/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/educacion/"/>
+      <outline type="rss" text="Página 19 - Educación" title="Página 19 - Educación" description="Feed de la categoría 'Educación' en Página 19" xmlUrl="https://pagina19.cl/categoria/educacion/feed/" htmlUrl="https://pagina19.cl/categoria/educacion/"/>
       <outline type="rss" text="Piensa Chile - Educación" title="Piensa Chile - Educación" description="Feed de la categoría 'Educación' en Piensa Chile" xmlUrl="https://piensachile.com/category/desarrollo/educacion/feed/" htmlUrl="https://piensachile.com/category/desarrollo/educacion/"/>
       <outline type="rss" text="Portal Metropolitano - Educación" title="Portal Metropolitano - Educación" description="Feed de la categoría 'Educación' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/educacion/feed/" htmlUrl="https://portalmetropolitano.cl/category/educacion/"/>
       <outline type="rss" text="PUC (Pontificia Universidad Católica)" title="PUC (Pontificia Universidad Católica)" description="Noticias e investigación de la PUC" xmlUrl="https://www.uc.cl/rss/" htmlUrl="https://www.uc.cl"/>
@@ -263,6 +265,13 @@
       <outline type="rss" text="Universidad Diego Portales [Proxy Google News]" title="Universidad Diego Portales [Proxy Google News]" description="Resultados de site:udp.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:udp.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:udp.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Universidad Técnica Federico Santa María" title="Universidad Técnica Federico Santa María" description="Feed de la sección de noticias de la UTFSM" xmlUrl="https://usm.cl/noticias/feed/" htmlUrl="https://usm.cl/noticias/"/>
       <outline type="rss" text="Universidad Técnica Federico Santa María [Proxy Google News]" title="Universidad Técnica Federico Santa María [Proxy Google News]" description="Resultados de site:usm.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:usm.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:usm.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Vergara 240" title="Vergara 240" description="Medio digital de la Escuela de Periodismo de la Universidad Diego Portales" xmlUrl="https://vergara240.udp.cl/feed/" htmlUrl="https://vergara240.udp.cl"/>
+      <outline type="rss" text="Vergara 240 - Entrevistas" title="Vergara 240 - Entrevistas" description="Feed de la categoría 'Entrevistas' en Vergara 240" xmlUrl="https://vergara240.udp.cl/archivo/entrevistas/feed/" htmlUrl="https://vergara240.udp.cl/archivo/entrevistas/"/>
+      <outline type="rss" text="Vergara 240 - Especiales V240" title="Vergara 240 - Especiales V240" description="Feed de la categoría 'Especiales V240' en Vergara 240" xmlUrl="https://vergara240.udp.cl/archivo/especiales-v240/feed/" htmlUrl="https://vergara240.udp.cl/archivo/especiales-v240/"/>
+      <outline type="rss" text="Vergara 240 - Historias" title="Vergara 240 - Historias" description="Feed de la categoría 'Historias' en Vergara 240" xmlUrl="https://vergara240.udp.cl/archivo/historias/feed/" htmlUrl="https://vergara240.udp.cl/archivo/historias/"/>
+      <outline type="rss" text="Vergara 240 - Investigación" title="Vergara 240 - Investigación" description="Feed de la categoría 'Investigación' en Vergara 240" xmlUrl="https://vergara240.udp.cl/archivo/investigacion/feed/" htmlUrl="https://vergara240.udp.cl/archivo/investigacion/"/>
+      <outline type="rss" text="Vergara 240 - Videos" title="Vergara 240 - Videos" description="Feed de la categoría 'Videos' en Vergara 240" xmlUrl="https://vergara240.udp.cl/archivo/videos/feed/" htmlUrl="https://vergara240.udp.cl/archivo/videos/"/>
+      <outline type="rss" text="Vergara 240 [Proxy Google News]" title="Vergara 240 [Proxy Google News]" description="Resultados de site:vergara240.udp.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:vergara240.udp.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:vergara240.udp.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     </outline>
   </body>
 </opml>

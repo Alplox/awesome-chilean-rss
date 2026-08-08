@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Valparaíso (116 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Valparaíso (117 feeds)</title>
     <description>Feeds RSS de la Región de Valparaíso, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
+    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -60,8 +60,9 @@
       <outline type="rss" text="El Aconcagua - Santa María" title="El Aconcagua - Santa María" description="Feed de la categoría 'Santa María' en El Aconcagua" xmlUrl="https://www.elaconcagua.cl/category/santa-maria/feed/" htmlUrl="https://www.elaconcagua.cl/category/santa-maria/"/>
       <outline type="rss" text="El Aconcagua [Proxy Google News]" title="El Aconcagua [Proxy Google News]" description="Resultados de site:elaconcagua.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elaconcagua.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elaconcagua.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="El Capo de Provincia" title="El Capo de Provincia" description="Medio digital de la Provincia de San Antonio, Región de Valparaíso" xmlUrl="https://www.capodeprovincia.cl/feed/" htmlUrl="https://www.capodeprovincia.cl"/>
-      <outline type="rss" text="El Capo de Provincia - Google News" title="El Capo de Provincia - Google News" description="Resultados de site:capodeprovincia.cl en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:capodeprovincia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:capodeprovincia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="El Capo de Provincia - Noticias" title="El Capo de Provincia - Noticias" description="Feed de la categoría 'Noticias' en El Capo de Provincia" xmlUrl="https://capodeprovincia.cl/category/noticias/feed/" htmlUrl="https://capodeprovincia.cl/category/noticias/"/>
+      <outline type="rss" text="El Capo de Provincia [Proxy Bing News]" title="El Capo de Provincia [Proxy Bing News]" description="Resultados de site:capodeprovincia.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:capodeprovincia.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:capodeprovincia.cl"/>
+      <outline type="rss" text="El Capo de Provincia [Proxy Google News]" title="El Capo de Provincia [Proxy Google News]" description="Resultados de site:capodeprovincia.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:capodeprovincia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:capodeprovincia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="El Informador" title="El Informador" description="Diario regional de Los Andes, Valparaíso" xmlUrl="https://www.elinformador.cl/feed/" htmlUrl="https://www.elinformador.cl"/>
       <outline type="rss" text="El Informador - Actualidad Regional" title="El Informador - Actualidad Regional" description="Feed de la categoría 'Actualidad Regional' en El Informador" xmlUrl="https://www.elinformador.cl/category/actualidad-regional/feed/" htmlUrl="https://www.elinformador.cl/category/actualidad-regional/"/>
       <outline type="rss" text="El Informador - Agricultura" title="El Informador - Agricultura" description="Feed de la categoría 'Agricultura' en El Informador" xmlUrl="https://www.elinformador.cl/category/agricultura/feed/" htmlUrl="https://www.elinformador.cl/category/agricultura/"/>

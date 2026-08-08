@@ -15,6 +15,7 @@ These generate:
 
 - `dist/opml/chilean-rss.opml` (full database OPML, flat — todas las categorías en un solo nivel; compatible con todos los lectores RSS)
 - `dist/opml/chilean-rss-nested.opml` (full database OPML, versión con regiones agrupadas en subcarpetas; para lectores que soporten anidación)
+- `dist/opml/chilean-rss-main.opml` (un OPML por sitio con solo su feed principal — sin subfeeds ni feeds por sección)
 - `dist/opml/chilean-rss-regions.opml` (consolidated regional feeds OPML, grouped by region)
 - `dist/opml/regions/*.opml` (individual OPML files for each region, with region grouping, e.g., `dist/opml/regions/biobio.opml`)
 - `dist/opml/regions/*-without-category.opml` (individual region OPMLs, flat — sin agrupación, e.g., `dist/opml/regions/biobio-without-category.opml`)

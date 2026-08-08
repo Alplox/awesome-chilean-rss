@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (333 feeds)</title>
+    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (336 feeds)</title>
     <description>Feeds RSS de 💻 Tecnología y Startups, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
+    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -180,6 +180,7 @@
     <outline type="rss" text="El Morro de Arica - Innovación" title="El Morro de Arica - Innovación" description="Feed de la categoría 'Innovación' en El Morro de Arica" xmlUrl="https://elmorrodearica.cl/category/innovacion/feed/" htmlUrl="https://elmorrodearica.cl/category/innovacion/"/>
     <outline type="rss" text="El Periódico - Ciencia y Tecnología" title="El Periódico - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en El Periódico" xmlUrl="https://elperiodico.cl/category/cienciaytecnologia/feed/" htmlUrl="https://elperiodico.cl/category/cienciaytecnologia/"/>
     <outline type="rss" text="El Periódico de la Energía - Tech" title="El Periódico de la Energía - Tech" description="Feed de la sección 'Tech' en El Periódico de la Energía" xmlUrl="https://elperiodicodelaenergia.com/tech/feed/" htmlUrl="https://elperiodicodelaenergia.com/tech/"/>
+    <outline type="rss" text="El Reporte Diario - Ciencia" title="El Reporte Diario - Ciencia" description="Feed de la categoría 'Ciencia' en El Reporte Diario" xmlUrl="https://reportediario.cl/tag/ciencia/feed/" htmlUrl="https://reportediario.cl/tag/ciencia/"/>
     <outline type="rss" text="El Reportero de Iquique - Tecnología" title="El Reportero de Iquique - Tecnología" description="Feed de la categoría 'Tecnología' en El Reportero de Iquique" xmlUrl="https://elreporterodeiquique.com/category/tecnologia/feed/" htmlUrl="https://elreporterodeiquique.com/category/tecnologia/"/>
     <outline type="rss" text="El Sol de Iquique - Tecnología" title="El Sol de Iquique - Tecnología" description="Feed de la categoría 'Tecnología' en El Sol de Iquique" xmlUrl="https://elsoldeiquique.cl/cultura/tendencias-tecnologicas/feed/" htmlUrl="https://elsoldeiquique.cl/cultura/tendencias-tecnologicas/"/>
     <outline type="rss" text="En La Línea - Ciencia y Tecnología" title="En La Línea - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en En La Línea" xmlUrl="https://www.enlalinea.cl/category/ciencia-y-tecnologia/feed/" htmlUrl="https://www.enlalinea.cl/category/ciencia-y-tecnologia/"/>
@@ -242,6 +243,8 @@
     <outline type="rss" text="Noticias Chiloé - Ciencia y Tecnología" title="Noticias Chiloé - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Noticias Chiloé" xmlUrl="https://loslagosnoticias.cl/category/ciencia-y-tecnologia/feed/" htmlUrl="https://loslagosnoticias.cl/category/ciencia-y-tecnologia/"/>
     <outline type="rss" text="Noticias del Lago - Ciencia y Tecnología" title="Noticias del Lago - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Noticias del Lago" xmlUrl="https://www.noticiasdellago.cl/category/ciencia-tecnologia/feed/" htmlUrl="https://www.noticiasdellago.cl/category/ciencia-tecnologia/"/>
     <outline type="rss" text="Nuevo Poder - Tecnociencia" title="Nuevo Poder - Tecnociencia" description="Feed de la categoría 'Tecnociencia' en Nuevo Poder" xmlUrl="https://www.nuevopoder.cl/category/tecnologia/feed/" htmlUrl="https://www.nuevopoder.cl/category/tecnologia/"/>
+    <outline type="rss" text="Página 19 - Ciencia" title="Página 19 - Ciencia" description="Feed de la categoría 'Ciencia' en Página 19" xmlUrl="https://pagina19.cl/categoria/ciencia/feed/" htmlUrl="https://pagina19.cl/categoria/ciencia/"/>
+    <outline type="rss" text="Página 19 - Tecnología" title="Página 19 - Tecnología" description="Feed de la categoría 'Tecnología' en Página 19" xmlUrl="https://pagina19.cl/categoria/tecnologia/feed/" htmlUrl="https://pagina19.cl/categoria/tecnologia/"/>
     <outline type="rss" text="Panorama Noticioso - Tecnología" title="Panorama Noticioso - Tecnología" description="Feed de la categoría 'Tecnología' en Panorama Noticioso" xmlUrl="https://www.panoramanoticioso.cl/category/tecnologia/feed/" htmlUrl="https://www.panoramanoticioso.cl/category/tecnologia/"/>
     <outline type="rss" text="Pisapapeles" title="Pisapapeles" description="Portal especializado en telefonía móvil, telecomunicaciones y electrónica de consumo" xmlUrl="https://pisapapeles.net/feed/" htmlUrl="https://pisapapeles.net"/>
     <outline type="rss" text="Pisapapeles - Aplicaciones" title="Pisapapeles - Aplicaciones" description="Feed de la categoría 'Aplicaciones' en Pisapapeles" xmlUrl="https://pisapapeles.net/category/aplicaciones/feed/" htmlUrl="https://pisapapeles.net/category/aplicaciones/"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Arica y Parinacota (73 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Arica y Parinacota (81 feeds)</title>
     <description>Feeds RSS de la Región de Arica y Parinacota, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
+    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -76,6 +76,14 @@
       <outline type="rss" text="Frontera Norte - Sociedad" title="Frontera Norte - Sociedad" description="Feed de la categoría 'Sociedad' en Frontera Norte" xmlUrl="https://www.fronteranorte.cl/category/sociedad/feed/" htmlUrl="https://www.fronteranorte.cl/category/sociedad/"/>
       <outline type="rss" text="Frontera Norte [Proxy Google News]" title="Frontera Norte [Proxy Google News]" description="Resultados de site:fronteranorte.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:fronteranorte.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:fronteranorte.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Google News - Chile - Región Arica y Parinacota" title="Google News - Chile - Región Arica y Parinacota" description="Noticias locales de la Región de Arica y Parinacota vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Arica?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Arica?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Norte Online" title="Norte Online" description="Medio regional de la región de Arica y Parinacota" xmlUrl="https://norteonline.cl/feed/" htmlUrl="https://norteonline.cl"/>
+      <outline type="rss" text="Norte Online - Actualidad" title="Norte Online - Actualidad" description="Feed de la categoría 'Actualidad' en Norte Online" xmlUrl="https://norteonline.cl/category/actualidad/feed/" htmlUrl="https://norteonline.cl/category/actualidad/"/>
+      <outline type="rss" text="Norte Online - Antofagasta" title="Norte Online - Antofagasta" description="Feed de la categoría 'Antofagasta' en Norte Online" xmlUrl="https://norteonline.cl/category/antofagasta/feed/" htmlUrl="https://norteonline.cl/category/antofagasta/"/>
+      <outline type="rss" text="Norte Online - Arica Y Parinacota" title="Norte Online - Arica Y Parinacota" description="Feed de la categoría 'Arica Y Parinacota' en Norte Online" xmlUrl="https://norteonline.cl/category/arica-y-parinacota/feed/" htmlUrl="https://norteonline.cl/category/arica-y-parinacota/"/>
+      <outline type="rss" text="Norte Online - Atacama" title="Norte Online - Atacama" description="Feed de la categoría 'Atacama' en Norte Online" xmlUrl="https://norteonline.cl/category/atacama/feed/" htmlUrl="https://norteonline.cl/category/atacama/"/>
+      <outline type="rss" text="Norte Online - Minería" title="Norte Online - Minería" description="Feed de la categoría 'Minería' en Norte Online" xmlUrl="https://norteonline.cl/category/mineria/feed/" htmlUrl="https://norteonline.cl/category/mineria/"/>
+      <outline type="rss" text="Norte Online - Tarapacá" title="Norte Online - Tarapacá" description="Feed de la categoría 'Tarapacá' en Norte Online" xmlUrl="https://norteonline.cl/category/tarapaca/feed/" htmlUrl="https://norteonline.cl/category/tarapaca/"/>
+      <outline type="rss" text="Norte Online [Proxy Google News]" title="Norte Online [Proxy Google News]" description="Resultados de site:norteonline.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:norteonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:norteonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio Puerta Norte" title="Radio Puerta Norte" description="Radio de la Región de Arica y Parinacota 92.1 FM" xmlUrl="https://radiopuertanorte.cl/feed" htmlUrl="https://radiopuertanorte.cl"/>
       <outline type="rss" text="Radio Puerta Norte - Actualidad" title="Radio Puerta Norte - Actualidad" description="Feed de la categoría 'Actualidad' en Radio Puerta Norte" xmlUrl="https://radiopuertanorte.cl/category/actualidad/feed/" htmlUrl="https://radiopuertanorte.cl/category/actualidad/"/>
       <outline type="rss" text="Radio Puerta Norte - Cultura" title="Radio Puerta Norte - Cultura" description="Feed de la categoría 'Cultura' en Radio Puerta Norte" xmlUrl="https://radiopuertanorte.cl/category/cultura/feed/" htmlUrl="https://radiopuertanorte.cl/category/cultura/"/>

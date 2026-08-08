@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (203 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (205 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
+    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -50,8 +50,10 @@
     <outline type="rss" text="Capa9 [Proxy Google News]" title="Capa9 [Proxy Google News]" description="Resultados de site:capa9.net en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:capa9.net&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:capa9.net&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="CauquenesNet - Avisos" title="CauquenesNet - Avisos" description="Feed de la sección 'Avisos' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=avisos" htmlUrl="https://www.cauquenesnet.cl/avisos/"/>
     <outline type="rss" text="CEP Chile - Eventos" title="CEP Chile - Eventos" description="Feed de la categoría 'Eventos' en CEP Chile" xmlUrl="https://www.cepchile.cl/category/eventos/feed/" htmlUrl="https://www.cepchile.cl/category/eventos/"/>
+    <outline type="rss" text="Chile País Minero - Capacitación" title="Chile País Minero - Capacitación" description="Feed de la categoría 'Capacitación' en Chile País Minero" xmlUrl="https://chilepaisminero.com/category/trabajo-y-capacitacion/capacitacion/feed/" htmlUrl="https://chilepaisminero.com/category/trabajo-y-capacitacion/capacitacion/"/>
     <outline type="rss" text="Chile Travel" title="Chile Travel" description="Sitio Servicio Nacional de Turismo para impulsar turismo" xmlUrl="https://chile.travel/feed/" htmlUrl="https://chile.travel/"/>
     <outline type="rss" text="Chile Travel - Industria" title="Chile Travel - Industria" description="Feed de la categoría 'Industria' en Chile Travel" xmlUrl="https://chile.travel/blog/category/industria/feed/" htmlUrl="https://chile.travel/blog/category/industria/"/>
+    <outline type="rss" text="Chile Travel [Proxy Google News]" title="Chile Travel [Proxy Google News]" description="Resultados de site:chile.travel en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chile.travel&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chile.travel&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Coaniquem" title="Coaniquem" description="Coaniquem, fundación chilena de atención integral al niño quemado" xmlUrl="https://www.coaniquem.cl/feed/" htmlUrl="https://www.coaniquem.cl"/>
     <outline type="rss" text="Coaniquem - Especialidades Medicas" title="Coaniquem - Especialidades Medicas" description="Feed de la sección 'Especialidades Medicas' en Coaniquem" xmlUrl="https://www.coaniquem.cl/feed/?category=especialidades-medicas" htmlUrl="https://www.coaniquem.cl/especialidades-medicas/"/>
     <outline type="rss" text="Coaniquem - Investigacion" title="Coaniquem - Investigacion" description="Feed de la sección 'Investigacion' en Coaniquem" xmlUrl="https://www.coaniquem.cl/feed/?category=investigacion" htmlUrl="https://www.coaniquem.cl/investigacion/"/>

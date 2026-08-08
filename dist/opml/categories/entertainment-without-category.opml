@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (115 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (118 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-05T03:05:28.609Z</dateCreated>
+    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -29,6 +29,9 @@
     <outline type="rss" text="El Nacional - Entretenimiento" title="El Nacional - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en El Nacional" xmlUrl="https://www.elnacional.com/entretenimiento/feed/" htmlUrl="https://www.elnacional.com/entretenimiento/"/>
     <outline type="rss" text="El Nacional - Farándula" title="El Nacional - Farándula" description="Feed de la categoría 'Farándula' en El Nacional" xmlUrl="https://www.elnacional.com/entretenimiento/farandula/feed/" htmlUrl="https://www.elnacional.com/entretenimiento/farandula/"/>
     <outline type="rss" text="El Nacional - Televisión" title="El Nacional - Televisión" description="Feed de la categoría 'Televisión' en El Nacional" xmlUrl="https://www.elnacional.com/entretenimiento/television/feed/" htmlUrl="https://www.elnacional.com/entretenimiento/television/"/>
+    <outline type="rss" text="El Reporte Diario - Cine Y Televisión" title="El Reporte Diario - Cine Y Televisión" description="Feed de la categoría 'Cine Y Televisión' en El Reporte Diario" xmlUrl="https://reportediario.cl/category/cine-y-television/feed/" htmlUrl="https://reportediario.cl/category/cine-y-television/"/>
+    <outline type="rss" text="El Reporte Diario - Espectáculos" title="El Reporte Diario - Espectáculos" description="Feed de la categoría 'Espectáculos' en El Reporte Diario" xmlUrl="https://reportediario.cl/category/espectaculos/feed/" htmlUrl="https://reportediario.cl/category/espectaculos/"/>
+    <outline type="rss" text="El Reporte Diario - Farándula" title="El Reporte Diario - Farándula" description="Feed de la categoría 'Farándula' en El Reporte Diario" xmlUrl="https://reportediario.cl/category/farandula/feed/" htmlUrl="https://reportediario.cl/category/farandula/"/>
     <outline type="rss" text="El Reportero de Iquique - Cultura y Espectáculos" title="El Reportero de Iquique - Cultura y Espectáculos" description="Feed de la categoría 'Cultura y Espectáculos' en El Reportero de Iquique" xmlUrl="https://elreporterodeiquique.com/category/espectaculos/feed/" htmlUrl="https://elreporterodeiquique.com/category/espectaculos/"/>
     <outline type="rss" text="El Sol de Iquique - Humor" title="El Sol de Iquique - Humor" description="Feed de la categoría 'Humor' en El Sol de Iquique" xmlUrl="https://elsoldeiquique.cl/cultura/artes/humor/feed/" htmlUrl="https://elsoldeiquique.cl/cultura/artes/humor/"/>
     <outline type="rss" text="Epicentro Chile - Espectáculos" title="Epicentro Chile - Espectáculos" description="Feed de la categoría 'Espectáculos' en Epicentro Chile" xmlUrl="https://www.epicentrochile.com/espectaculos/feed/" htmlUrl="https://www.epicentrochile.com/espectaculos/"/>

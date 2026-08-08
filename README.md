@@ -2,18 +2,31 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-463-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-4964-blue)
+![Sitios](https://img.shields.io/badge/sitios-472-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-5108-blue)
 
-> El directorio más completo de feeds RSS chilenos. 463 sitios, 4964 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 472 sitios, 5108 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
 1. **Importar en tu lector RSS favorito**: Descarga [`chilean-rss.opml`](dist/opml/chilean-rss.opml) e impórtalo directamente en tu lector preferido
 2. **O copia el enlace**: `https://raw.githubusercontent.com/alplox/awesome-chilean-rss/main/dist/opml/chilean-rss.opml`
-3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2491 feeds agrupados por región
+3. **¿Solo medios regionales?** Descarga [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) con 2501 feeds agrupados por región
 4. **¿Tu lector soporta subcarpetas?** Prueba [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml), versión con regiones agrupadas en subcarpetas
 5. **¿Una región específica?** Explora los OPML individuales en [`regions/`](dist/opml/regions/) o descarga por categoría en [`categories/`](dist/opml/categories/)
 6. **¿Prefieres marcadores de navegador?** Importa [`awesome-chilean-rss.html`](dist/bookmarks/awesome-chilean-rss.html) como favoritos (compatible con Chrome, Firefox, Edge)
+
+### 📊 Comparación de OPMLs globales
+
+Cada carpeta de OPML ofrece una vista distinta. Esta tabla muestra cuántos sitios y feeds incluye cada uno para que contrastes rápido antes de importar:
+
+| Archivo | Sitios | Feeds | Qué incluye |
+|---|---|---|---|
+| [`chilean-rss.opml`](dist/opml/chilean-rss.opml) | 472 | 5108 | Todos los feeds activos de todos los sitios |
+| [`chilean-rss-main.opml`](dist/opml/chilean-rss-main.opml) | 472 | 472 | Solo el feed principal de cada sitio, sin subfeeds |
+| [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) | 205 | 2501 | Feeds regionales agrupados por región |
+| [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml) | 472 | 5108 | Todos los feeds, con regionales anidados por subcarpeta |
+
+*Sitios* = número de medios distintos con al menos un feed activo. *Feeds* = entradas RSS/Atom en el archivo (un sitio puede aportar varios feeds).
 
 ### 🌐 Aplicación Web
 
@@ -21,31 +34,31 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 
 <https://alplox.github.io/awesome-chilean-rss-app/>
 
-## 📝 Fuentes disponibles (463 sitios, 4964 feeds)
+## 📝 Fuentes disponibles (472 sitios, 5108 feeds)
 
 <a id="indice"></a>
 ### 📑 Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 255 sitios, 895 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 79 sitios, 210 feeds
-- [🌎 Medios Regionales](#cat-regional) — 203 sitios, 1635 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 86 sitios, 333 feeds
-- [🏛️ Gobierno y Datos Públicos](#cat-government) — 42 sitios, 175 feeds
-- [🏫 Educación, Universidades e Investigación](#cat-education) — 81 sitios, 255 feeds
-- [💼 Economia, Negocios y Finanzas](#cat-business) — 102 sitios, 242 feeds
-- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 19 sitios, 25 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 107 sitios, 161 feeds
-- [👥 Comunidad](#cat-community) — 90 sitios, 203 feeds
-- [⚽ Deportes](#cat-sports) — 140 sitios, 199 feeds
+- [📰 Noticias Nacionales](#cat-news) — 260 sitios, 958 feeds
+- [🌐 Noticias Internacionales](#cat-news-international) — 83 sitios, 230 feeds
+- [🌎 Medios Regionales](#cat-regional) — 204 sitios, 1644 feeds
+- [💻 Tecnología y Startups](#cat-technology) — 88 sitios, 336 feeds
+- [🏛️ Gobierno y Datos Públicos](#cat-government) — 42 sitios, 178 feeds
+- [🏫 Educación, Universidades e Investigación](#cat-education) — 84 sitios, 264 feeds
+- [💼 Economia, Negocios y Finanzas](#cat-business) — 104 sitios, 262 feeds
+- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 20 sitios, 26 feeds
+- [🎨 Cultura y Divulgación](#cat-culture) — 108 sitios, 162 feeds
+- [👥 Comunidad](#cat-community) — 91 sitios, 205 feeds
+- [⚽ Deportes](#cat-sports) — 142 sitios, 202 feeds
 - [🎮 Videojuegos y Gaming](#cat-gaming) — 12 sitios, 95 feeds
-- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 74 sitios, 173 feeds
-- [🎭 Espectáculos y Entretención](#cat-entertainment) — 52 sitios, 115 feeds
+- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 76 sitios, 175 feeds
+- [🎭 Espectáculos y Entretención](#cat-entertainment) — 53 sitios, 118 feeds
 - [📻 Radio y Música](#cat-radio) — 30 sitios, 77 feeds
-- [🏥 Salud y Bienestar](#cat-health) — 79 sitios, 135 feeds
+- [🏥 Salud y Bienestar](#cat-health) — 82 sitios, 140 feeds
 - [🗳️ Partidos Políticos](#cat-political-parties) — 9 sitios, 36 feeds
 
 <a id="cat-news"></a>
-### 📰 Noticias Nacionales (255 sitios, 895 feeds)
+### 📰 Noticias Nacionales (260 sitios, 958 feeds)
 
 *Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
 
@@ -194,6 +207,8 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - Ciper Chile - Ciper En Tus Oídos: `https://www.ciperchile.cl/category/ciper-audio/feed/`
   - Ciper Chile - Mastodon.cl BOT: `https://mastodon.cl/@ciper.rss`
   - Ciper Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:ciperchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **CIPS - Centro de Políticas Públicas e Innovación en Salud**: Feed de la categoría 'Noticias' en CIPS - Centro de Políticas Públicas e Innovación en Salud
+  - RSS: `https://gobierno.udd.cl/cips/category/noticias/feed/`
 - **Coaniquem**: Feed de la sección 'Noticias' en Coaniquem
   - RSS: `https://www.coaniquem.cl/feed/?category=noticias`
 - **Colegio Alemán de Santiago**: Feed de la categoría 'Noticias' en Colegio Alemán de Santiago
@@ -247,6 +262,36 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - Contrapoder Chile - Investigación: `https://contrapoderchile.cl/category/investigacion/feed/`
   - Contrapoder Chile - Mastodon.cl BOT: `https://mastodon.cl/@contrapoderchile.rss`
   - Contrapoder Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:contrapoderchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Correo de los Trabajadores** — Quincenario de los trabajadores chilenos
+  - Correo de los Trabajadores: `https://cctt.cl/feed/`
+  - Correo de los Trabajadores - Realidad Política Y Social Nacional: `https://cctt.cl/category/realidad-politica-nacional/feed/`
+  - Correo de los Trabajadores - Luchas Sociales Chile: `https://cctt.cl/category/luchas-sociales-chile/feed/`
+  - Correo de los Trabajadores - Política Internacional: `https://cctt.cl/category/politica-internacional/feed/`
+  - Correo de los Trabajadores - Política Nacional: `https://cctt.cl/category/realidad-politica-nacional/politica-nacional/feed/`
+  - Correo de los Trabajadores - América Latina Y El Caribe: `https://cctt.cl/category/politica-internacional/america-latina-y-el-caribe/feed/`
+  - Correo de los Trabajadores - Memoria E Historia: `https://cctt.cl/category/memoria-e-historia/feed/`
+  - Correo de los Trabajadores - Derechos Humanos: `https://cctt.cl/category/luchas-sociales-chile/derechos-humanos/feed/`
+  - Correo de los Trabajadores - Ideas Y Pensamiento Crítico: `https://cctt.cl/category/ideas-y-pensamiento-critico/feed/`
+  - Correo de los Trabajadores - Luchas Sociales Mundo: `https://cctt.cl/category/luchas-sociales-mundo/feed/`
+  - Correo de los Trabajadores - Historia Crítica: `https://cctt.cl/category/memoria-e-historia/historia-critica/feed/`
+  - Correo de los Trabajadores - Homenajes: `https://cctt.cl/category/memoria-e-historia/homenajes/feed/`
+  - Correo de los Trabajadores - Artes Y Creación Artística: `https://cctt.cl/category/artes-y-creacion-artistica/feed/`
+  - Correo de los Trabajadores - Asia Medio Oriente: `https://cctt.cl/category/politica-internacional/asia-y-oriente/feed/`
+  - Correo de los Trabajadores - Capital Mundial, Guerra Y Crimen Organizado.: `https://cctt.cl/category/mundo-crimen-organizado/feed/`
+  - Correo de los Trabajadores - Historia De Vida Y Vida Cotidiana: `https://cctt.cl/category/cultura-y-vida-cotidiana/feed/`
+  - Correo de los Trabajadores - Mov. De Trabajadores Y Sindicalismo: `https://cctt.cl/category/luchas-sociales-chile/movimiento-de-trabajadores-y-sindicalismo/feed/`
+  - Correo de los Trabajadores - Crimen Organizado: `https://cctt.cl/category/realidad-politica-nacional/crimen-organizado/feed/`
+  - Correo de los Trabajadores - Ee.uu. Y Canadá: `https://cctt.cl/category/politica-internacional/ee-uu-y-canada/feed/`
+  - Correo de los Trabajadores - Medio Ambiente Y Rr.nn.: `https://cctt.cl/category/luchas-sociales-chile/ambientalismo-y-rr-nn/feed/`
+  - Correo de los Trabajadores - Cine, Video Y Fotografía.: `https://cctt.cl/category/artes-y-creacion-artistica/cine-y-video/feed/`
+  - Correo de los Trabajadores - Tribunales Y Sistema Judicial: `https://cctt.cl/category/realidad-politica-nacional/tribunales-y-sistema-judicial/feed/`
+  - Correo de los Trabajadores - Cambio Climatico, Crisis Ambiental Y Sanitaria: `https://cctt.cl/category/cambio-climatico-y-crisis-ambiental/feed/`
+  - Correo de los Trabajadores - Genocidios Y Ecocidios: `https://cctt.cl/category/mundo-crimen-organizado/genocidios-y-ecocidios/feed/`
+  - Correo de los Trabajadores - Guerra Y Paramilitarismo: `https://cctt.cl/category/mundo-crimen-organizado/guerra/feed/`
+  - Correo de los Trabajadores - Africa/sahara: `https://cctt.cl/category/politica-internacional/africa-sahara/feed/`
+  - Correo de los Trabajadores - Extorsión, Tráfico De Influencias Y Otros Crímenes.: `https://cctt.cl/category/mundo-crimen-organizado/extorsiones/feed/`
+  - Correo de los Trabajadores - Guerra Mediatica Y Cultural: `https://cctt.cl/category/mundo-crimen-organizado/guerra-mediatica-y-cultural/feed/`
+  - Correo de los Trabajadores [Proxy Google News]: `https://news.google.com/rss/search?q=site:cctt.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **CR2 - Centro de Ciencia del Clima y la Resiliencia**: Feed de la categoría 'Noticias' en CR2 - Centro de Ciencia del Clima y la Resiliencia
   - RSS: `https://www.cr2.cl/category/noticias/feed/`
 - **Crónica Digital**: Feed de la categoría 'Nacional' en Crónica Digital
@@ -465,6 +510,27 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - El Radar - Fuerza Aérea De Chile: `https://elradar.cl/categoria/fuerza-aerea-de-chile/feed/`
   - El Radar - Ejército De Chile: `https://elradar.cl/categoria/ejercito-de-chile/feed/`
   - El Radar [Proxy Google News]: `https://news.google.com/rss/search?q=site:elradar.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **El Reporte Diario** — Diario digital chileno de actualidad
+  - El Reporte Diario: `https://reportediario.cl/feed/`
+  - El Reporte Diario - Administración Pública: `https://reportediario.cl/category/administracion-publica/feed/`
+  - El Reporte Diario - Accidentes: `https://reportediario.cl/tag/accidentes/feed/`
+  - El Reporte Diario - Alimentación: `https://reportediario.cl/category/alimentacion/feed/`
+  - El Reporte Diario - Ciberseguridad: `https://reportediario.cl/category/ciberseguridad/feed/`
+  - El Reporte Diario - Celebridades: `https://reportediario.cl/category/celebridades/feed/`
+  - El Reporte Diario - Animales: `https://reportediario.cl/tag/animales/feed/`
+  - El Reporte Diario - Conflictos: `https://reportediario.cl/category/conflictos/feed/`
+  - El Reporte Diario - Artes: `https://reportediario.cl/category/artes/feed/`
+  - El Reporte Diario - Crónica Roja: `https://reportediario.cl/category/cronica-roja/feed/`
+  - El Reporte Diario - Accesibilidad: `https://reportediario.cl/category/accesibilidad/feed/`
+  - El Reporte Diario - Comercio: `https://reportediario.cl/tag/comercio/feed/`
+  - El Reporte Diario - Automóviles: `https://reportediario.cl/category/automoviles/feed/`
+  - El Reporte Diario - Catástrofes: `https://reportediario.cl/category/catastrofes/feed/`
+  - El Reporte Diario - Derechos Humanos: `https://reportediario.cl/category/derechos-humanos/feed/`
+  - El Reporte Diario - Desastres Naturales: `https://reportediario.cl/category/desastres-naturales/feed/`
+  - El Reporte Diario - Crímenes: `https://reportediario.cl/tag/crimenes/feed/`
+  - El Reporte Diario - Corrupción: `https://reportediario.cl/category/corrupcion/feed/`
+  - El Reporte Diario - Delitos: `https://reportediario.cl/tag/delitos/feed/`
+  - El Reporte Diario [Proxy Google News]: `https://news.google.com/rss/search?q=site:reportediario.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El Reportero de Iquique**: Feed de la categoría 'Noticias' en El Reportero de Iquique
   - RSS: `https://elreporterodeiquique.com/category/noticias/feed/`
 - **El Siglo** — Periódico con cobertura política, social y sindical fundado en 1940
@@ -775,6 +841,8 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - Música y Noticias - San Rafael: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-talca/san-rafael/feed/`
   - Música y Noticias - Peumo: `https://www.musicaynoticias.cl/category/region-de-ohiggins/provincia-cachapoal/peumo/feed/`
   - Música y Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:musicaynoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Norte Online**: Feed de la categoría 'Actualidad' en Norte Online
+  - RSS: `https://norteonline.cl/category/actualidad/feed/`
 - **Nostálgica** — Emisora con música y noticias de Copiapó 88.1 FM
   - Nostálgica: `https://www.nostalgica.cl/feed/`
   - Nostálgica - Atacama: `https://www.nostalgica.cl/category/atacama/feed/`
@@ -822,6 +890,19 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - Ovalle Hoy - Política: `https://ovallehoy.cl/categoria/ultimas/actualidad/politica/feed/`
   - Ovalle Hoy - Actualidad: `https://ovallehoy.cl/categoria/ultimas/actualidad/feed/`
   - Ovalle Hoy - Nacional: `https://ovallehoy.cl/categoria/ultimas/actualidad/politica/nacional/feed/`
+- **Página 19** — Medio digital independiente de análisis político
+  - Página 19: `https://pagina19.cl/feed/`
+  - Página 19 - Nacional: `https://pagina19.cl/categoria/nacional/feed/`
+  - Página 19 - Destacado: `https://pagina19.cl/categoria/destacado/feed/`
+  - Página 19 - Opinión: `https://pagina19.cl/categoria/opinion/feed/`
+  - Página 19 - Política: `https://pagina19.cl/categoria/politica/feed/`
+  - Página 19 - Género: `https://pagina19.cl/categoria/genero/feed/`
+  - Página 19 - Derechos Humanos: `https://pagina19.cl/categoria/derechos-humanos/feed/`
+  - Página 19 - Entrevistas: `https://pagina19.cl/categoria/nacional/entrevistas/feed/`
+  - Página 19 - Internacional, Defensa Y Seguridad: `https://pagina19.cl/categoria/internacional-defensa-y-seguridad/feed/`
+  - Página 19 - Cartas Al Director: `https://pagina19.cl/categoria/cartas-al-director/feed/`
+  - Página 19 - Redes Sociales: `https://pagina19.cl/categoria/redes-sociales/feed/`
+  - Página 19 [Proxy Google News]: `https://news.google.com/rss/search?q=site:pagina19.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Panorama Noticioso** — Portal de noticias chileno
   - Panorama Noticioso: `https://www.panoramanoticioso.cl/feed/`
   - Panorama Noticioso - Provincia De Valparaíso: `https://www.panoramanoticioso.cl/category/regionales/provvalparaiso/feed/`
@@ -1203,7 +1284,7 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 [↑ Volver al índice](#indice)
 
 <a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (79 sitios, 210 feeds)
+### 🌐 Noticias Internacionales (83 sitios, 230 feeds)
 
 *Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
 
@@ -1271,6 +1352,8 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - RSS: `https://ceinoticias.cl/category/noticias/internacional/feed/`
 - **Central Noticia**: Feed de la categoría 'Internacional' en Central Noticia
   - RSS: `https://www.centralnoticia.cl/category/internacional/feed/`
+- **Correo de los Trabajadores**: Feed de la categoría 'Mundo' en Correo de los Trabajadores
+  - RSS: `https://cctt.cl/category/politica-internacional/mundo/feed/`
 - **David Noticias**: Feed de la categoría 'Mundo' en David Noticias
   - RSS: `https://www.davidnoticias.cl/category/mundo/feed/`
 - **Desenfoque**: Feed de la categoría 'Exterior' en Desenfoque
@@ -1378,6 +1461,23 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - HolaNews [Proxy Bing News]: `https://www.bing.com/news/search?q=site:holanews.com&format=RSS`
 - **Instituto Antártico Chileno**: Feed de la categoría 'Antártica Internacional' en Instituto Antártico Chileno
   - RSS: `https://www.inach.cl/category/prensa/mundo/feed/`
+- **IPS Agencia de Noticias** — Inter Press Service, agencia internacional de noticias con edición en español
+  - IPS Agencia de Noticias: `https://ipsnoticias.net/feed/`
+  - IPS Agencia de Noticias - Últimas Noticias: `https://ipsnoticias.net/noticias/ultimas-noticias/feed/`
+  - IPS Agencia de Noticias - Derechos Humanos: `https://ipsnoticias.net/noticias/derechos-humanos/feed/`
+  - IPS Agencia de Noticias - Desarrollo Sostenible: `https://ipsnoticias.net/noticias/desarrollo-y-ayuda/feed/`
+  - IPS Agencia de Noticias - Desigualdad Y Pobreza: `https://ipsnoticias.net/noticias/pobreza-y-metas-del-milenio/feed/`
+  - IPS Agencia de Noticias - Migraciones: `https://ipsnoticias.net/noticias/migraciones-y-refugiados/feed/`
+  - IPS Agencia de Noticias - Reportaje: `https://ipsnoticias.net/noticias/tipo/reportaje/feed/`
+  - IPS Agencia de Noticias - Gobernanza: `https://ipsnoticias.net/noticias/gobernanza-mundial/feed/`
+  - IPS Agencia de Noticias - Clima: `https://ipsnoticias.net/noticias/cambio-climatico/feed/`
+  - IPS Agencia de Noticias - Género: `https://ipsnoticias.net/noticias/genero/feed/`
+  - IPS Agencia de Noticias - Opinión: `https://ipsnoticias.net/noticias/tipo/opinion/feed/`
+  - IPS Agencia de Noticias - Análisis: `https://ipsnoticias.net/noticias/tipo/analisis/feed/`
+  - IPS Agencia de Noticias - Destacada Lateral: `https://ipsnoticias.net/noticias/destacada-lateral/feed/`
+  - IPS Agencia de Noticias - Destacada Portada: `https://ipsnoticias.net/noticias/destacada-portada/feed/`
+  - IPS Agencia de Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:ipsnoticias.net&hl=es-419&gl=CL&ceid=CL:es-419`
+  - IPS Agencia de Noticias [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ipsnoticias.net&format=RSS`
 - **iRock.CL**: Feed de la categoría 'Internacional' en iRock.CL
   - RSS: `https://www.irock.cl/category/internacional/feed/`
 - **La Batalla de Maipú**: Feed de la categoría 'Internacional' en La Batalla de Maipú
@@ -1396,6 +1496,9 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - RSS: `https://laregionhoy.cl/category/noticias/internacional/feed/`
 - **La Tercera**: Feed de la categoría 'Mundo' en La Tercera
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml`
+- **Le Monde Diplomatique - Edición Chilena** — Edición chilena del periódico Le Monde Diplomatique
+  - Le Monde Diplomatique - Edición Chilena: `https://www.lemondediplomatique.cl/rss/`
+  - Le Monde Diplomatique - Edición Chilena [Proxy Google News]: `https://news.google.com/rss/search?q=site:lemondediplomatique.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Mala Espina**: Feed de la categoría 'Mundo' en Mala Espina
   - RSS: `https://www.malaespinacheck.cl/noticias/mundo/feed/`
 - **MercoPress** — Agencia de noticias en español sobre América Latina y el Caribe, con sección especial de Chile
@@ -1409,6 +1512,8 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - RSS: `https://www.nostalgica.cl/category/internacional/feed/`
 - **Noticias Los Ríos**: Feed de la categoría 'Internacional' en Noticias Los Ríos
   - RSS: `https://www.noticiaslosrios.cl/seccion/internacional/feed/`
+- **Página 19**: Feed de la categoría 'Internacional' en Página 19
+  - RSS: `https://pagina19.cl/categoria/internacional/feed/`
 - **Pichilemu News**: Feed de la sección 'Internacional' en Pichilemu News
   - RSS: `https://www.pichilemunews.cl/feed/?category=internacional`
 - **Piensa Chile** — Portal de análisis, opinión y noticias nacionales
@@ -1500,11 +1605,11 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 [↑ Volver al índice](#indice)
 
 <a id="cat-regional"></a>
-### 🌎 Medios Regionales (203 sitios, 1635 feeds)
+### 🌎 Medios Regionales (204 sitios, 1644 feeds)
 
 Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
 
-#### 📍 Arica y Parinacota (9 medios)
+#### 📍 Arica y Parinacota (10 medios)
 
 *Descargar OPML regional: [`arica-y-parinacota.opml`](dist/opml/regions/arica-y-parinacota.opml)*
 
@@ -1584,6 +1689,15 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Frontera Norte [Proxy Google News]: `https://news.google.com/rss/search?q=site:fronteranorte.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Google News**: Noticias locales de la Región de Arica y Parinacota vía Google News Chile
   - RSS: `https://news.google.com/rss/headlines/section/geo/Arica?hl=es-419&gl=CL&ceid=CL:es-419`
+- **Norte Online** — Medio regional de la región de Arica y Parinacota
+  - Norte Online: `https://norteonline.cl/feed/`
+  - Norte Online - Minería: `https://norteonline.cl/category/mineria/feed/`
+  - Norte Online - Actualidad: `https://norteonline.cl/category/actualidad/feed/`
+  - Norte Online - Arica Y Parinacota: `https://norteonline.cl/category/arica-y-parinacota/feed/`
+  - Norte Online - Tarapacá: `https://norteonline.cl/category/tarapaca/feed/`
+  - Norte Online - Antofagasta: `https://norteonline.cl/category/antofagasta/feed/`
+  - Norte Online - Atacama: `https://norteonline.cl/category/atacama/feed/`
+  - Norte Online [Proxy Google News]: `https://news.google.com/rss/search?q=site:norteonline.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Puerta Norte** — Radio de la Región de Arica y Parinacota 92.1 FM
   - Radio Puerta Norte: `https://radiopuertanorte.cl/feed`
   - Radio Puerta Norte - Actualidad: `https://radiopuertanorte.cl/category/actualidad/feed/`
@@ -2446,7 +2560,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **El Capo de Provincia** — Medio digital de la Provincia de San Antonio, Región de Valparaíso
   - El Capo de Provincia: `https://www.capodeprovincia.cl/feed/`
   - El Capo de Provincia - Noticias: `https://capodeprovincia.cl/category/noticias/feed/`
-  - El Capo de Provincia - Google News: `https://news.google.com/rss/search?q=site:capodeprovincia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - El Capo de Provincia [Proxy Google News]: `https://news.google.com/rss/search?q=site:capodeprovincia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - El Capo de Provincia [Proxy Bing News]: `https://www.bing.com/news/search?q=site:capodeprovincia.cl&format=RSS`
 - **El Informador** — Diario regional de Los Andes, Valparaíso
   - El Informador: `https://www.elinformador.cl/feed/`
   - El Informador - Comunas De Aconcagua: `https://www.elinformador.cl/category/comunas-de-aconcagua/feed/`
@@ -3412,7 +3527,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Tus Noticias - Espectaculos: `https://www.tusnoticias.cl/noticias/espectaculos/feed/`
   - Tus Noticias - Educación: `https://www.tusnoticias.cl/noticias/educacion/feed/`
   - Tus Noticias - Economía: `https://www.tusnoticias.cl/noticias/economia/feed/`
-  - Tus Noticias - Google News: `https://news.google.com/rss/search?q=site:tusnoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Tus Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:tusnoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Tus Noticias [Proxy Bing News]: `https://www.bing.com/news/search?q=site:tusnoticias.cl&format=RSS`
 
 #### 📍 Araucanía (23 medios)
 
@@ -4411,7 +4527,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-technology"></a>
-### 💻 Tecnología y Startups (86 sitios, 333 feeds)
+### 💻 Tecnología y Startups (88 sitios, 336 feeds)
 
 *Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
 
@@ -4626,6 +4742,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://elperiodico.cl/category/cienciaytecnologia/feed/`
 - **El Periódico de la Energía**: Feed de la sección 'Tech' en El Periódico de la Energía
   - RSS: `https://elperiodicodelaenergia.com/tech/feed/`
+- **El Reporte Diario**: Feed de la categoría 'Ciencia' en El Reporte Diario
+  - RSS: `https://reportediario.cl/tag/ciencia/feed/`
 - **El Reportero de Iquique**: Feed de la categoría 'Tecnología' en El Reportero de Iquique
   - RSS: `https://elreporterodeiquique.com/category/tecnologia/feed/`
 - **El Sol de Iquique**: Feed de la categoría 'Tecnología' en El Sol de Iquique
@@ -4715,6 +4833,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.noticiasdellago.cl/category/ciencia-tecnologia/feed/`
 - **Nuevo Poder**: Feed de la categoría 'Tecnociencia' en Nuevo Poder
   - RSS: `https://www.nuevopoder.cl/category/tecnologia/feed/`
+- **Página 19** — Medio digital independiente de análisis político
+  - Página 19 - Ciencia: `https://pagina19.cl/categoria/ciencia/feed/`
+  - Página 19 - Tecnología: `https://pagina19.cl/categoria/tecnologia/feed/`
 - **Panorama Noticioso**: Feed de la categoría 'Tecnología' en Panorama Noticioso
   - RSS: `https://www.panoramanoticioso.cl/category/tecnologia/feed/`
 - **Pisapapeles** — Portal especializado en telefonía móvil, telecomunicaciones y electrónica de consumo
@@ -4838,7 +4959,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-government"></a>
-### 🏛️ Gobierno y Datos Públicos (42 sitios, 175 feeds)
+### 🏛️ Gobierno y Datos Públicos (42 sitios, 178 feeds)
 
 *Descargar OPML: [`government.opml`](dist/opml/categories/government.opml)*
 
@@ -4959,17 +5080,20 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Ministerio de Obras Públicas - Región De Valparaíso: `https://www.mop.gob.cl/category/region-de-valparaiso/feed/`
   - Ministerio de Obras Públicas - Dirección De Aeropuertos: `https://www.mop.gob.cl/category/direccion-de-aeropuertos/feed/`
   - Ministerio de Obras Públicas - Región De Los Lagos: `https://www.mop.gob.cl/category/region-de-los-lagos/feed/`
+  - Ministerio de Obras Públicas - Región Del Biobío: `https://www.mop.gob.cl/category/region-del-biobio/feed/`
   - Ministerio de Obras Públicas - Dirección De Obras Portuarias: `https://www.mop.gob.cl/category/direccion-de-obras-portuarias/feed/`
+  - Ministerio de Obras Públicas - Región De La Araucanía: `https://www.mop.gob.cl/category/region-de-la-araucania/feed/`
   - Ministerio de Obras Públicas - Región De Coquimbo: `https://www.mop.gob.cl/category/region-de-coquimbo/feed/`
   - Ministerio de Obras Públicas - Región De Los Ríos: `https://www.mop.gob.cl/category/region-de-los-rios/feed/`
   - Ministerio de Obras Públicas - Ministro De Obras Públicas: `https://www.mop.gob.cl/category/ministro-de-obras-publicas/feed/`
-  - Ministerio de Obras Públicas - Región De Tarapacá: `https://www.mop.gob.cl/category/region-de-tarapaca/feed/`
   - Ministerio de Obras Públicas - Región De Atacama: `https://www.mop.gob.cl/category/region-de-atacama/feed/`
+  - Ministerio de Obras Públicas - Región De Ñuble: `https://www.mop.gob.cl/category/region-de-nuble/feed/`
   - Ministerio de Obras Públicas - Aeropuerto De Santiago: `https://www.mop.gob.cl/category/aeropuerto-de-santiago/feed/`
   - Ministerio de Obras Públicas - Emergencias: `https://www.mop.gob.cl/category/emergencias/feed/`
   - Ministerio de Obras Públicas - Biministro De Obras Públicas Y Transporte Y Telecomunicaciones: `https://www.mop.gob.cl/category/biministro-de-obras-publicas-y-transporte-y-telecomunicaciones/feed/`
   - Ministerio de Obras Públicas - Dirección General De Obras Públicas: `https://www.mop.gob.cl/category/direccion-general-de-obras-publicas/feed/`
   - Ministerio de Obras Públicas - Puente Chacao: `https://www.mop.gob.cl/category/puente-chacao/feed/`
+  - Ministerio de Obras Públicas [Proxy Google News]: `https://news.google.com/rss/search?q=site:mop.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Ministerio de Salud** — Noticias y comunicados del Ministerio de Salud de Chile
   - Ministerio de Salud: `https://www.minsal.cl/feed/`
   - Ministerio de Salud - Mision y Vision: `https://www.minsal.cl/feed/?category=mision-y-vision`
@@ -5063,7 +5187,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-education"></a>
-### 🏫 Educación, Universidades e Investigación (81 sitios, 255 feeds)
+### 🏫 Educación, Universidades e Investigación (84 sitios, 264 feeds)
 
 *Descargar OPML: [`education.opml`](dist/opml/categories/education.opml)*
 
@@ -5213,6 +5337,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://elperiodico.cl/category/educacion/feed/`
 - **El Quinto Poder**: Feed de la categoría 'Educación' en El Quinto Poder
   - RSS: `https://elquintopoder.cl/temas/educacion/feed/`
+- **El Reporte Diario**: Feed de la categoría 'Educación' en El Reporte Diario
+  - RSS: `https://reportediario.cl/category/educacion/feed/`
 - **El Serenense**: Feed de la categoría 'Educación' en El Serenense
   - RSS: `https://www.elserenense.cl/category/educacion/feed/`
 - **El Sol de Iquique**: Feed de la categoría 'Educación' en El Sol de Iquique
@@ -5348,6 +5474,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.noticiaslosrios.cl/seccion/educacion/feed/`
 - **Ovalle Hoy**: Feed de la categoría 'Educación' en Ovalle Hoy
   - RSS: `https://ovallehoy.cl/categoria/ultimas/sociedad/educacion/feed/`
+- **Página 19**: Feed de la categoría 'Educación' en Página 19
+  - RSS: `https://pagina19.cl/categoria/educacion/feed/`
 - **Piensa Chile**: Feed de la categoría 'Educación' en Piensa Chile
   - RSS: `https://piensachile.com/category/desarrollo/educacion/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Educación' en Portal Metropolitano
@@ -5403,11 +5531,19 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Universidad Técnica Federico Santa María** — Universidad técnica estatal con sede en Valparaíso
   - Universidad Técnica Federico Santa María: `https://usm.cl/noticias/feed/`
   - Universidad Técnica Federico Santa María [Proxy Google News]: `https://news.google.com/rss/search?q=site:usm.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Vergara 240** — Medio digital de la Escuela de Periodismo de la Universidad Diego Portales
+  - Vergara 240: `https://vergara240.udp.cl/feed/`
+  - Vergara 240 - Especiales V240: `https://vergara240.udp.cl/archivo/especiales-v240/feed/`
+  - Vergara 240 - Historias: `https://vergara240.udp.cl/archivo/historias/feed/`
+  - Vergara 240 - Videos: `https://vergara240.udp.cl/archivo/videos/feed/`
+  - Vergara 240 - Entrevistas: `https://vergara240.udp.cl/archivo/entrevistas/feed/`
+  - Vergara 240 - Investigación: `https://vergara240.udp.cl/archivo/investigacion/feed/`
+  - Vergara 240 [Proxy Google News]: `https://news.google.com/rss/search?q=site:vergara240.udp.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
 [↑ Volver al índice](#indice)
 
 <a id="cat-business"></a>
-### 💼 Economia, Negocios y Finanzas (102 sitios, 242 feeds)
+### 💼 Economia, Negocios y Finanzas (104 sitios, 262 feeds)
 
 *Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
 
@@ -5447,6 +5583,26 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://cadenapolitica.com/category/economia/feed/`
 - **Calama en Línea**: Feed de la categoría 'Economía' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/economia/feed/`
+- **Chile País Minero** — Medio chileno especializado en minería, energía y empleo
+  - Chile País Minero: `https://chilepaisminero.com/feed/`
+  - Chile País Minero - Minería: `https://chilepaisminero.com/category/mineria/feed/`
+  - Chile País Minero - Antofagasta: `https://chilepaisminero.com/category/antofagasta-mineria-2/feed/`
+  - Chile País Minero - Atacama: `https://chilepaisminero.com/category/atacama-mineria/feed/`
+  - Chile País Minero - Empleabilidad: `https://chilepaisminero.com/category/trabajo-y-capacitacion/feed/`
+  - Chile País Minero - Tarapacá: `https://chilepaisminero.com/category/tarapaca-mineria/feed/`
+  - Chile País Minero - Coquimbo: `https://chilepaisminero.com/category/coquimbo-mineria/feed/`
+  - Chile País Minero - Cobre: `https://chilepaisminero.com/category/mineria/cobre/feed/`
+  - Chile País Minero - Sostenibilidad Y Energía: `https://chilepaisminero.com/category/sostenibilidad-y-energia/feed/`
+  - Chile País Minero - Medio Ambiente Y Comunidad: `https://chilepaisminero.com/category/medio-ambiente-y-comunidad/feed/`
+  - Chile País Minero - Zona Centro Y Sur: `https://chilepaisminero.com/category/zona-centro-y-sur/feed/`
+  - Chile País Minero - Columnas: `https://chilepaisminero.com/category/columnas/feed/`
+  - Chile País Minero - Proveedores Y Encadenamiento: `https://chilepaisminero.com/category/mineria/proveedores-y-encadenamiento-sostenibilidad-y-energia/feed/`
+  - Chile País Minero - Litio: `https://chilepaisminero.com/category/mineria/litio/feed/`
+  - Chile País Minero - Tecnología E Innovación: `https://chilepaisminero.com/category/tecnologia-e-innovacion/feed/`
+  - Chile País Minero - Economía Circular: `https://chilepaisminero.com/category/economia-circular/feed/`
+  - Chile País Minero - Transición Energética: `https://chilepaisminero.com/category/transicion-energetica/feed/`
+  - Chile País Minero - Reportajes: `https://chilepaisminero.com/category/reportajes/feed/`
+  - Chile País Minero [Proxy Google News]: `https://news.google.com/rss/search?q=site:chilepaisminero.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Chocale** — Diario de economía y negocios de Chile
   - Chocale: `https://chocale.cl/feed/`
   - Chocale - Finanzas Personales: `https://chocale.cl/bancos-y-finanzas/feed/`
@@ -5596,6 +5752,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Google News - Chile - Sección Negocios: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx6TVdZU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
 - **Informa Al Minuto**: Feed de la categoría 'Economía' en Informa Al Minuto
   - RSS: `https://informaalminuto.cl/category/economia/feed/`
+- **IPS Agencia de Noticias**: Feed de la categoría 'Economía' en IPS Agencia de Noticias
+  - RSS: `https://ipsnoticias.net/noticias/economia/feed/`
 - **Iquique TV** — Medio de comunicación de la Región de Tarapacá
   - Iquique TV - Economía: `https://iquiquetv.cl/category/noticias/economia/feed/`
   - Iquique TV - Emprendimiento: `https://iquiquetv.cl/category/noticias/emprendimiento/feed/`
@@ -5759,7 +5917,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-jobs"></a>
-### 💼 Ofertas laborales y empleabilidad (19 sitios, 25 feeds)
+### 💼 Ofertas laborales y empleabilidad (20 sitios, 26 feeds)
 
 *Descargar OPML: [`jobs.opml`](dist/opml/categories/jobs.opml)*
 
@@ -5773,6 +5931,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.aqua.cl/?cat=7&feed=rss2`
 - **Atentos**: Feed de la categoría 'Trabajo' en Atentos
   - RSS: `https://www.atentos.cl/category/trabajo/feed/`
+- **Chile País Minero**: Feed de la categoría 'Ofertas Laborales' en Chile País Minero
+  - RSS: `https://chilepaisminero.com/category/trabajo-y-capacitacion/ofertas-laborales/feed/`
 - **ChileTrabajos** — Portal de empleos en Chile
   - ChileTrabajos: `https://www.chiletrabajos.cl/rss.xml`
   - ChileTrabajos [Proxy Google News]: `https://news.google.com/rss/search?q=site:chiletrabajos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -5811,7 +5971,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (107 sitios, 161 feeds)
+### 🎨 Cultura y Divulgación (108 sitios, 162 feeds)
 
 *Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
 
@@ -6027,6 +6187,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://nubledigital.cl/noticias/cultura/feed/`
 - **Ovalle Hoy**: Feed de la categoría 'Artes y Cultura' en Ovalle Hoy
   - RSS: `https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/feed/`
+- **Página 19**: Feed de la categoría 'Cultura' en Página 19
+  - RSS: `https://pagina19.cl/categoria/nacional/cultura/feed/`
 - **Pichilemu News**: Feed de la sección 'Cultura' en Pichilemu News
   - RSS: `https://www.pichilemunews.cl/feed/?category=cultura`
 - **Piensa Chile**: Feed de la categoría 'Cultura' en Piensa Chile
@@ -6087,7 +6249,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-community"></a>
-### 👥 Comunidad (90 sitios, 203 feeds)
+### 👥 Comunidad (91 sitios, 205 feeds)
 
 *Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
 
@@ -6147,9 +6309,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.cauquenesnet.cl/feed/?category=avisos`
 - **CEP Chile**: Feed de la categoría 'Eventos' en CEP Chile
   - RSS: `https://www.cepchile.cl/category/eventos/feed/`
+- **Chile País Minero**: Feed de la categoría 'Capacitación' en Chile País Minero
+  - RSS: `https://chilepaisminero.com/category/trabajo-y-capacitacion/capacitacion/feed/`
 - **Chile Travel** — Sitio Servicio Nacional de Turismo para impulsar turismo
   - Chile Travel: `https://chile.travel/feed/`
   - Chile Travel - Industria: `https://chile.travel/blog/category/industria/feed/`
+  - Chile Travel [Proxy Google News]: `https://news.google.com/rss/search?q=site:chile.travel&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Coaniquem** — Coaniquem, fundación chilena de atención integral al niño quemado
   - Coaniquem: `https://www.coaniquem.cl/feed/`
   - Coaniquem - Nuestra Causa: `https://www.coaniquem.cl/feed/?category=nuestra-causa`
@@ -6388,7 +6553,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-sports"></a>
-### ⚽ Deportes (140 sitios, 199 feeds)
+### ⚽ Deportes (142 sitios, 202 feeds)
 
 *Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
 
@@ -6524,6 +6689,9 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.elperiodista.cl/category/cancha/feed/`
 - **El Quinto Poder**: Feed de la categoría 'Deporte' en El Quinto Poder
   - RSS: `https://elquintopoder.cl/temas/deporte/feed/`
+- **El Reporte Diario** — Diario digital chileno de actualidad
+  - El Reporte Diario - Deportes: `https://reportediario.cl/tag/deportes/feed/`
+  - El Reporte Diario - Fútbol: `https://reportediario.cl/category/futbol/feed/`
 - **El Reportero de Iquique**: Feed de la categoría 'Deportes' en El Reportero de Iquique
   - RSS: `https://elreporterodeiquique.com/category/deportes/feed/`
 - **El Serenense**: Feed de la categoría 'Deportes' en El Serenense
@@ -6632,6 +6800,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Ovalle Hoy** — Diario regional de Ovalle, Coquimbo
   - Ovalle Hoy - Deportes: `https://ovallehoy.cl/categoria/ultimas/deportes/feed/`
   - Ovalle Hoy - Fútbol Amateur: `https://ovallehoy.cl/categoria/ultimas/deportes/futbol-amateur/feed/`
+- **Página 19**: Feed de la categoría 'Deportes' en Página 19
+  - RSS: `https://pagina19.cl/categoria/deportes/feed/`
 - **Panorama Noticioso**: Feed de la categoría 'Deportes' en Panorama Noticioso
   - RSS: `https://www.panoramanoticioso.cl/category/deporte/feed/`
 - **Pichilemu News** — Medio de comunicación de la Región de O'Higgins
@@ -6850,7 +7020,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-environment"></a>
-### 🌿 Medio Ambiente y Naturaleza (74 sitios, 173 feeds)
+### 🌿 Medio Ambiente y Naturaleza (76 sitios, 175 feeds)
 
 *Descargar OPML: [`environment.opml`](dist/opml/categories/environment.opml)*
 
@@ -6970,6 +7140,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.elperiodista.cl/category/cultura/viajes/feed/`
 - **El Quinto Poder**: Feed de la categoría 'Medio Ambiente' en El Quinto Poder
   - RSS: `https://elquintopoder.cl/temas/medio-ambiente/feed/`
+- **El Reporte Diario**: Feed de la categoría 'Agricultura' en El Reporte Diario
+  - RSS: `https://reportediario.cl/category/agricultura/feed/`
 - **El Tirapiedras**: Feed de la categoría 'Medio Ambiente' en El Tirapiedras
   - RSS: `https://www.eltirapiedras.cl/medio-ambiente/feed/`
 - **El Urbano Rural**: Feed de la categoría 'Ambiental' en El Urbano Rural
@@ -7070,6 +7242,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.nuevopoder.cl/category/ecomundo/feed/`
 - **Ovalle Hoy**: Feed de la categoría 'Medio Ambiente' en Ovalle Hoy
   - RSS: `https://ovallehoy.cl/categoria/ultimas/sociedad/medio-ambiente/feed/`
+- **Página 19**: Feed de la categoría 'Medioambiente' en Página 19
+  - RSS: `https://pagina19.cl/categoria/medioambiente/feed/`
 - **Piensa Chile**: Feed de la categoría 'Medioambiente' en Piensa Chile
   - RSS: `https://piensachile.com/category/salud-3/medioambiente-2/feed/`
 - **Portal Frutícola**: Feed de la categoría 'Sostenibilidad F' en Portal Frutícola
@@ -7105,7 +7279,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-entertainment"></a>
-### 🎭 Espectáculos y Entretención (52 sitios, 115 feeds)
+### 🎭 Espectáculos y Entretención (53 sitios, 118 feeds)
 
 *Descargar OPML: [`entertainment.opml`](dist/opml/categories/entertainment.opml)*
 
@@ -7148,6 +7322,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - El Nacional - Entretenimiento: `https://www.elnacional.com/entretenimiento/feed/`
   - El Nacional - Televisión: `https://www.elnacional.com/entretenimiento/television/feed/`
   - El Nacional - Farándula: `https://www.elnacional.com/entretenimiento/farandula/feed/`
+- **El Reporte Diario** — Diario digital chileno de actualidad
+  - El Reporte Diario - Espectáculos: `https://reportediario.cl/category/espectaculos/feed/`
+  - El Reporte Diario - Cine Y Televisión: `https://reportediario.cl/category/cine-y-television/feed/`
+  - El Reporte Diario - Farándula: `https://reportediario.cl/category/farandula/feed/`
 - **El Reportero de Iquique**: Feed de la categoría 'Cultura y Espectáculos' en El Reportero de Iquique
   - RSS: `https://elreporterodeiquique.com/category/espectaculos/feed/`
 - **El Sol de Iquique**: Feed de la categoría 'Humor' en El Sol de Iquique
@@ -7395,7 +7573,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 [↑ Volver al índice](#indice)
 
 <a id="cat-health"></a>
-### 🏥 Salud y Bienestar (79 sitios, 135 feeds)
+### 🏥 Salud y Bienestar (82 sitios, 140 feeds)
 
 *Descargar OPML: [`health.opml`](dist/opml/categories/health.opml)*
 
@@ -7435,6 +7613,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.centralnoticia.cl/category/salud/feed/`
 - **ChileCompra**: Feed de la categoría 'Salud' en ChileCompra
   - RSS: `https://www.chilecompra.cl/category/centro-de-documentacion/normativa/salud/feed/`
+- **CIPS - Centro de Políticas Públicas e Innovación en Salud** — Centro de Políticas Públicas e Innovación en Salud de la Universidad del Desarrollo
+  - CIPS - Salud: `https://gobierno.udd.cl/cips/feed/`
+  - CIPS - Centro de Políticas Públicas e Innovación en Salud - Cips En La Prensa: `https://gobierno.udd.cl/cips/category/cips-en-la-prensa/feed/`
+  - CIPS - Centro de Políticas Públicas e Innovación en Salud [Proxy Google News]: `https://news.google.com/rss/search?q=site:gobierno.udd.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Colegio Médico de Chile** — Gremio de médicos de Chile, noticias de salud y medicina
   - Colegio Médico de Chile: `https://www.colegiomedico.cl/feed/`
   - Colegio Médico de Chile - Colmed Informa: `https://www.colegiomedico.cl/category/colmed-informa/feed/`
@@ -7509,6 +7691,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Google News - Chile - Sección Salud: `https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNR3QwTlRFU0JtVnpMVFF4T1NnQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
 - **Hora de Noticias**: Feed de la categoría 'Salud' en Hora de Noticias
   - RSS: `https://horadenoticias.cl/seccion/salud/feed/`
+- **IPS Agencia de Noticias**: Feed de la categoría 'Salud' en IPS Agencia de Noticias
+  - RSS: `https://ipsnoticias.net/noticias/salud/feed/`
 - **Iquique TV**: Feed de la categoría 'Salud' en Iquique TV
   - RSS: `https://iquiquetv.cl/category/noticias/salud/feed/`
 - **La Batalla de Maipú**: Feed de la categoría 'Salud' en La Batalla de Maipú
@@ -7535,6 +7719,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://www.noticiaslosrios.cl/seccion/salud/feed/`
 - **Ovalle Hoy**: Feed de la categoría 'Salud' en Ovalle Hoy
   - RSS: `https://ovallehoy.cl/categoria/ultimas/sociedad/salud/feed/`
+- **Página 19**: Feed de la categoría 'Salud' en Página 19
+  - RSS: `https://pagina19.cl/categoria/salud/feed/`
 - **Piensa Chile**: Feed de la categoría 'Salud' en Piensa Chile
   - RSS: `https://piensachile.com/category/salud-3/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Salud' en Portal Metropolitano
