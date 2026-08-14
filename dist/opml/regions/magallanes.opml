@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Magallanes y de la Antártica Chilena (132 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Magallanes y de la Antártica Chilena (139 feeds)</title>
     <description>Feeds RSS de la Región de Magallanes y de la Antártica Chilena, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -93,6 +93,13 @@
       <outline type="rss" text="El Tirapiedras - Regional" title="El Tirapiedras - Regional" description="Feed de la categoría 'Regional' en El Tirapiedras" xmlUrl="https://www.eltirapiedras.cl/regional/feed/" htmlUrl="https://www.eltirapiedras.cl/regional/"/>
       <outline type="rss" text="El Tirapiedras [Proxy Google News]" title="El Tirapiedras [Proxy Google News]" description="Resultados de site:eltirapiedras.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:eltirapiedras.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:eltirapiedras.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Google News - Chile - Región Magallanes" title="Google News - Chile - Región Magallanes" description="Noticias locales de la Región de Magallanes vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Punta%20Arenas?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Punta%20Arenas?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="ITV Patagonia" title="ITV Patagonia" description="Canal de televisión regional de Magallanes" xmlUrl="https://www.itvpatagonia.com/feed/" htmlUrl="https://www.itvpatagonia.com"/>
+      <outline type="rss" text="ITV Patagonia - Nacional" title="ITV Patagonia - Nacional" description="Feed de la categoría 'Nacional' en ITV Patagonia" xmlUrl="https://www.itvpatagonia.com/categoria/nacional/feed/" htmlUrl="https://www.itvpatagonia.com/categoria/nacional/"/>
+      <outline type="rss" text="ITV Patagonia - Policial Y Tribunales" title="ITV Patagonia - Policial Y Tribunales" description="Feed de la categoría 'Policial Y Tribunales' en ITV Patagonia" xmlUrl="https://www.itvpatagonia.com/categoria/policial-tribunales/feed/" htmlUrl="https://www.itvpatagonia.com/categoria/policial-tribunales/"/>
+      <outline type="rss" text="ITV Patagonia - Regional" title="ITV Patagonia - Regional" description="Feed de la categoría 'Regional' en ITV Patagonia" xmlUrl="https://www.itvpatagonia.com/categoria/regional/feed/" htmlUrl="https://www.itvpatagonia.com/categoria/regional/"/>
+      <outline type="rss" text="ITV Patagonia - Tendencias" title="ITV Patagonia - Tendencias" description="Feed de la categoría 'Tendencias' en ITV Patagonia" xmlUrl="https://www.itvpatagonia.com/categoria/tendencias/feed/" htmlUrl="https://www.itvpatagonia.com/categoria/tendencias/"/>
+      <outline type="rss" text="ITV Patagonia [Proxy Bing News]" title="ITV Patagonia [Proxy Bing News]" description="Resultados de site:itvpatagonia.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:itvpatagonia.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:itvpatagonia.com"/>
+      <outline type="rss" text="ITV Patagonia [Proxy Google News]" title="ITV Patagonia [Proxy Google News]" description="Resultados de site:itvpatagonia.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:itvpatagonia.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:itvpatagonia.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="La Prensa Austral" title="La Prensa Austral" description="Diario regional de Magallanes y la Antártica Chilena" xmlUrl="https://laprensaaustral.cl/feed" htmlUrl="https://laprensaaustral.cl"/>
       <outline type="rss" text="La Prensa Austral - Ciencia" title="La Prensa Austral - Ciencia" description="Feed de la categoría 'Ciencia' en La Prensa Austral" xmlUrl="https://laprensaaustral.cl/category/ciencia/feed/" htmlUrl="https://laprensaaustral.cl/category/ciencia/"/>
       <outline type="rss" text="La Prensa Austral - Columna De Cine" title="La Prensa Austral - Columna De Cine" description="Feed de la categoría 'Columna De Cine' en La Prensa Austral" xmlUrl="https://laprensaaustral.cl/category/columna-de-cine/feed/" htmlUrl="https://laprensaaustral.cl/category/columna-de-cine/"/>

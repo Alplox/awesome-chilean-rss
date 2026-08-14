@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (118 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (120 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -13,6 +13,7 @@
       <outline type="rss" text="Atacama Noticias - Tv y Espectáculo" title="Atacama Noticias - Tv y Espectáculo" description="Feed de la categoría 'Tv y Espectáculo' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/tv-y-espectaculo/feed/" htmlUrl="https://www.atacamanoticias.cl/category/tv-y-espectaculo/"/>
       <outline type="rss" text="Calama en Línea - Entretención" title="Calama en Línea - Entretención" description="Feed de la categoría 'Entretención' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/entretencion/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/entretencion/"/>
       <outline type="rss" text="CauquenesNet - Tv" title="CauquenesNet - Tv" description="Feed de la sección 'Tv' en CauquenesNet" xmlUrl="https://www.cauquenesnet.cl/feed/?category=tv" htmlUrl="https://www.cauquenesnet.cl/tv/"/>
+      <outline type="rss" text="Chicureo Hoy - Entretenimiento" title="Chicureo Hoy - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en Chicureo Hoy" xmlUrl="https://www.chicureohoy.cl/panoramas/feed/" htmlUrl="https://www.chicureohoy.cl/panoramas/"/>
       <outline type="rss" text="Colemono - Entretenimiento" title="Colemono - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en Colemono" xmlUrl="https://colemono.com/category/noticias/entretenimiento/feed/" htmlUrl="https://colemono.com/category/noticias/entretenimiento/"/>
       <outline type="rss" text="Colemono - Rumores / Especulación" title="Colemono - Rumores / Especulación" description="Feed de la categoría 'Rumores / Especulación' en Colemono" xmlUrl="https://colemono.com/category/noticias/rumores/feed/" htmlUrl="https://colemono.com/category/noticias/rumores/"/>
       <outline type="rss" text="CriptoNoticias Chile - Entretenimiento" title="CriptoNoticias Chile - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en CriptoNoticias Chile" xmlUrl="https://www.criptonoticias.com/categorias/comunidad/entretenimiento/feed/" htmlUrl="https://www.criptonoticias.com/categorias/comunidad/entretenimiento/"/>
@@ -112,6 +113,7 @@
       <outline type="rss" text="Pisapapeles - Rumores" title="Pisapapeles - Rumores" description="Feed de la categoría 'Rumores' en Pisapapeles" xmlUrl="https://pisapapeles.net/category/rumores/feed/" htmlUrl="https://pisapapeles.net/category/rumores/"/>
       <outline type="rss" text="Portal Metropolitano - Entretención" title="Portal Metropolitano - Entretención" description="Feed de la categoría 'Entretención' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/entretencion/feed/" htmlUrl="https://portalmetropolitano.cl/category/entretencion/"/>
       <outline type="rss" text="Publimetro Chile - Entretenimiento" title="Publimetro Chile - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en Publimetro Chile" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/entretenimiento/?outputType=xml" htmlUrl="https://www.publimetro.cl/category/entretenimiento/"/>
+      <outline type="rss" text="Radio Contacto - Entretenimiento" title="Radio Contacto - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/entretenimiento/feed/" htmlUrl="https://radiocontacto.cl/category/entretenimiento/"/>
       <outline type="rss" text="Radio Cooperativa - Entretención" title="Radio Cooperativa - Entretención" description="Feed de la sección 'Entretención' en Radio Cooperativa" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_4___1.xml" htmlUrl="https://www.cooperativa.cl"/>
       <outline type="rss" text="Radio Corazón" title="Radio Corazón" description="Radio chilena de música popular" xmlUrl="https://www.corazon.cl/feed" htmlUrl="https://www.corazon.cl"/>
       <outline type="rss" text="Radio Corazón - Videos" title="Radio Corazón - Videos" description="Feed de la categoría 'Videos' en Radio Corazón" xmlUrl="https://www.corazon.cl/category/videos/feed/" htmlUrl="https://www.corazon.cl/category/videos/"/>

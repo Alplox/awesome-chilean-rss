@@ -1155,6 +1155,210 @@
     "description": "Establecimiento educacional particular"
   },
   {
+    "id": "cronicas-de-chile",
+    "name": "Crónicas de Chile",
+    "url": "https://cronicasdechile.cl",
+    "category": "news",
+    "reason": "Sitio no responde (DNS)",
+    "feeds": [
+      {
+        "id": "cronicas-de-chile-proxy-google-news",
+        "name": "Crónicas de Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:cronicasdechile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cronicasdechile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cronicasdechile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "cronicas-de-chile-proxy-bing-news",
+        "name": "Crónicas de Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:cronicasdechile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cronicasdechile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:cronicasdechile.cl en Proxy Bing News",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio digital chileno de noticias"
+  },
+  {
+    "id": "diario-constitucional",
+    "name": "Diario Constitucional",
+    "url": "https://www.diarioconstitucional.cl",
+    "category": "government",
+    "reason": "Feed no verificable (protección Cloudflare)",
+    "feeds": [
+      {
+        "id": "diario-constitucional-proxy-google-news",
+        "name": "Diario Constitucional [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:diarioconstitucional.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:diarioconstitucional.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diarioconstitucional.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "diario-constitucional-proxy-bing-news",
+        "name": "Diario Constitucional [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:diarioconstitucional.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:diarioconstitucional.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:diarioconstitucional.cl en Proxy Bing News",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Diario digital chileno de derecho y legislación"
+  },
+  {
+    "id": "el-diario-de-santiago",
+    "name": "El Diario de Santiago",
+    "url": "https://eldiariodesantiago.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "el-diario-de-santiago-proxy-google-news",
+        "name": "El Diario de Santiago [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:eldiariodesantiago.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:eldiariodesantiago.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eldiariodesantiago.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-diario-de-santiago-proxy-bing-news",
+        "name": "El Diario de Santiago [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:eldiariodesantiago.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:eldiariodesantiago.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:eldiariodesantiago.cl en Proxy Bing News",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Diario digital de la Radio Santiago"
+  },
+  {
+    "id": "el-hilo",
+    "name": "El Hilo",
+    "url": "https://elhilo.cl",
+    "category": "news",
+    "reason": "Sitio no responde (DNS)",
+    "feeds": [
+      {
+        "id": "el-hilo-proxy-google-news",
+        "name": "El Hilo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:elhilo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elhilo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elhilo.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-hilo-proxy-bing-news",
+        "name": "El Hilo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:elhilo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elhilo.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elhilo.cl en Proxy Bing News",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio digital chileno de noticias"
+  },
+  {
+    "id": "el-libertario",
+    "name": "El Libertario",
+    "url": "https://ellibertario.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "el-libertario-proxy-google-news",
+        "name": "El Libertario [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ellibertario.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ellibertario.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ellibertario.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "el-libertario-proxy-bing-news",
+        "name": "El Libertario [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ellibertario.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ellibertario.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:ellibertario.cl en Proxy Bing News",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio digital chileno de noticias, opinión y encuestas"
+  },
+  {
+    "id": "gamba-cl",
+    "name": "Gamba.cl",
+    "url": "https://gamba.cl",
+    "category": "news",
+    "reason": "Feed no verificable (protección Cloudflare)",
+    "feeds": [
+      {
+        "id": "gamba-cl-proxy-google-news",
+        "name": "Gamba.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:gamba.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:gamba.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gamba.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "gamba-cl-proxy-bing-news",
+        "name": "Gamba.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:gamba.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:gamba.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:gamba.cl en Proxy Bing News",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio digital chileno de noticias"
+  },
+  {
     "id": "comercial-mi-voz",
     "name": "Mi Voz",
     "url": "https://comercial.mivoz.cl",
@@ -4618,6 +4822,40 @@
         "last_known_item_date": null
       }
     ]
+  },
+  {
+    "id": "prime-digital",
+    "name": "Prime Digital",
+    "url": "https://primedigital.cl",
+    "category": "news",
+    "reason": "Sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "prime-digital-proxy-google-news",
+        "name": "Prime Digital [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:primedigital.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:primedigital.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:primedigital.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      },
+      {
+        "id": "prime-digital-proxy-bing-news",
+        "name": "Prime Digital [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:primedigital.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:primedigital.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:primedigital.cl en Proxy Bing News",
+        "last_checked": "2026-08-12T21:28:29.182Z",
+        "last_known_item_date": null,
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "description": "Medio digital chileno de noticias"
   },
   {
     "id": "icei-radio",
@@ -21536,6 +21774,167 @@
         "feed_type": "RSS",
         "last_checked": "2026-08-07T23:55:44.002Z",
         "last_known_item_date": "2021-02-02T16:49:01.000Z",
+        "status": "stale",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "el-vigilante",
+    "name": "El Vigilante",
+    "url": "https://elvigilante.cl",
+    "category": "news",
+    "description": "Medio noticioso chileno",
+    "feeds": [
+      {
+        "id": "el-vigilante-main",
+        "name": "El Vigilante",
+        "rss_url": "https://elvigilante.cl/feed.xml",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-13T22:44:25.664Z",
+        "last_known_item_date": "2026-05-27T11:04:00.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "el-vigilante-proxy-google-news",
+        "name": "El Vigilante [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:elvigilante.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elvigilante.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elvigilante.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-13T22:44:25.664Z",
+        "last_known_item_date": "2026-06-08T11:28:26.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "el-vigilante-proxy-bing-news",
+        "name": "El Vigilante [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:elvigilante.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elvigilante.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:elvigilante.cl en Proxy Bing News",
+        "last_checked": "2026-08-13T22:44:25.665Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      }
+    ],
+    "reason": "Sin actividad (todos los feeds inactivos)"
+  },
+  {
+    "id": "informe-chile",
+    "name": "Informe:Chile",
+    "url": "https://informechile.cl",
+    "category": "news",
+    "description": "Medio digital chileno de noticias y análisis",
+    "feeds": [
+      {
+        "id": "informe-chile-main",
+        "name": "Informe:Chile",
+        "rss_url": "https://informechile.cl/feed/",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-13T22:46:43.528Z",
+        "last_known_item_date": "2026-05-31T15:49:27.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "informe-chile-proxy-google-news",
+        "name": "Informe:Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:informechile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:informechile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "feed_type": "RSS",
+        "description": "Resultados de site:informechile.cl en Proxy Google News de noticias Chilenas",
+        "last_checked": "2026-08-13T22:46:43.528Z",
+        "last_known_item_date": "2026-06-05T05:01:39.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "informe-chile-proxy-bing-news",
+        "name": "Informe:Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:informechile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:informechile.cl",
+        "feed_type": "RSS",
+        "description": "Resultados de site:informechile.cl en Proxy Bing News",
+        "last_checked": "2026-08-13T22:46:43.528Z",
+        "last_known_item_date": null,
+        "status": "feed_empty",
+        "verified": false
+      },
+      {
+        "id": "informe-chile-breves",
+        "name": "Informe:Chile - Breves",
+        "rss_url": "https://informechile.cl/category/breves/feed/",
+        "url": "https://informechile.cl/category/breves/",
+        "description": "Feed de la categoría 'Breves' en Informe:Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-13T22:46:43.529Z",
+        "last_known_item_date": "2026-05-31T15:38:35.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "informe-chile-la-minuta",
+        "name": "Informe:Chile - La Minuta",
+        "rss_url": "https://informechile.cl/category/la-minuta/feed/",
+        "url": "https://informechile.cl/category/la-minuta/",
+        "description": "Feed de la categoría 'La Minuta' en Informe:Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-13T22:46:43.529Z",
+        "last_known_item_date": "2026-03-06T13:55:46.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "informe-chile-dossier-de-inteligencia",
+        "name": "Informe:Chile - Dossier De Inteligencia",
+        "rss_url": "https://informechile.cl/category/dossier-de-inteligencia/feed/",
+        "url": "https://informechile.cl/category/dossier-de-inteligencia/",
+        "description": "Feed de la categoría 'Dossier De Inteligencia' en Informe:Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-13T22:46:43.529Z",
+        "last_known_item_date": "2026-03-09T02:00:29.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "informe-chile-opinion",
+        "name": "Informe:Chile - Opinión",
+        "rss_url": "https://informechile.cl/category/opinion/feed/",
+        "url": "https://informechile.cl/category/opinion/",
+        "description": "Feed de la categoría 'Opinión' en Informe:Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-13T22:46:43.529Z",
+        "last_known_item_date": "2025-12-02T15:07:07.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "informe-chile-republica-vigilante",
+        "name": "Informe:Chile - República Vigilante",
+        "rss_url": "https://informechile.cl/category/republica-vigilante/feed/",
+        "url": "https://informechile.cl/category/republica-vigilante/",
+        "description": "Feed de la categoría 'República Vigilante' en Informe:Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-08-13T22:46:43.529Z",
+        "last_known_item_date": "2026-03-06T14:20:00.000Z",
+        "status": "stale",
+        "verified": false
+      },
+      {
+        "id": "informe-chile-politica",
+        "name": "Informe:Chile - Política",
+        "rss_url": "https://informechile.cl/category/politica/feed/",
+        "url": "https://informechile.cl/category/politica/",
+        "description": "Feed de la categoría 'Política' en Informe:Chile",
+        "feed_type": "RSS",
+        "category": "news",
+        "last_checked": "2026-08-13T22:46:43.529Z",
+        "last_known_item_date": "2026-05-31T15:49:27.000Z",
         "status": "stale",
         "verified": false
       }

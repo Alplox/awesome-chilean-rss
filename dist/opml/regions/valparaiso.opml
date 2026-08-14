@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Valparaíso (117 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Valparaíso (120 feeds)</title>
     <description>Feeds RSS de la Región de Valparaíso, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -114,6 +114,9 @@
       <outline type="rss" text="Más Noticia - Comunas" title="Más Noticia - Comunas" description="Feed de la categoría 'Comunas' en Más Noticia" xmlUrl="https://www.masnoticia.cl/category/todas-las-noticias/comunas/feed/" htmlUrl="https://www.masnoticia.cl/category/todas-las-noticias/comunas/"/>
       <outline type="rss" text="Más Noticia - Cultura y Espectáculo" title="Más Noticia - Cultura y Espectáculo" description="Feed de la categoría 'Cultura y Espectáculo' en Más Noticia" xmlUrl="https://www.masnoticia.cl/category/todas-las-noticias/cultura/feed/" htmlUrl="https://www.masnoticia.cl/category/todas-las-noticias/cultura/"/>
       <outline type="rss" text="Más Noticia [Proxy Google News]" title="Más Noticia [Proxy Google News]" description="Resultados de site:masnoticia.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:masnoticia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:masnoticia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Orolonco FM" title="Orolonco FM" description="Radio de la comuna de Santa María, Región de Valparaíso" xmlUrl="https://oroloncofm.cl/feed/" htmlUrl="https://oroloncofm.cl"/>
+      <outline type="rss" text="Orolonco FM - Nacional" title="Orolonco FM - Nacional" description="Feed de la categoría 'Nacional' en Orolonco FM" xmlUrl="https://oroloncofm.cl/categoria/nacional/feed/" htmlUrl="https://oroloncofm.cl/categoria/nacional/"/>
+      <outline type="rss" text="Orolonco FM [Proxy Google News]" title="Orolonco FM [Proxy Google News]" description="Resultados de site:oroloncofm.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:oroloncofm.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:oroloncofm.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Quilpué Online - Noticias" title="Quilpué Online - Noticias" description="Feed de la categoría 'Noticias' en Quilpué Online" xmlUrl="https://www.quilpueonline.cl/category/noticias/feed/" htmlUrl="https://www.quilpueonline.cl/category/noticias/"/>
       <outline type="rss" text="Quilpué Online [Proxy Google News]" title="Quilpué Online [Proxy Google News]" description="Resultados de site:quilpueonline.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:quilpueonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:quilpueonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Región Visual" title="Región Visual" description="Medio regional de la Región de Valparaíso" xmlUrl="https://regionvisual.com/feed/" htmlUrl="https://regionvisual.com"/>

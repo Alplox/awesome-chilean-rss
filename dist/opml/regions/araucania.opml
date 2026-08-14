@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Araucanía (357 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Araucanía (363 feeds)</title>
     <description>Feeds RSS de la Región de Araucanía, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -261,6 +261,12 @@
       <outline type="rss" text="Prensa Ciudadana [Proxy Google News]" title="Prensa Ciudadana [Proxy Google News]" description="Resultados de site:prensaciudadana.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:prensaciudadana.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:prensaciudadana.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Pucón TV" title="Pucón TV" description="Medio de comunicación de la Región de Araucanía" xmlUrl="https://www.pucontv.com/rss/atom" htmlUrl="https://www.pucontv.com"/>
       <outline type="rss" text="Pucón TV [Proxy Google News]" title="Pucón TV [Proxy Google News]" description="Resultados de site:pucontv.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pucontv.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pucontv.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Radio FM Centro" title="Radio FM Centro" description="Radio FM Centro de Gorbea, Región de La Araucanía" xmlUrl="https://fmcentro.cl/feed/" htmlUrl="https://fmcentro.cl"/>
+      <outline type="rss" text="Radio FM Centro - Nacionales" title="Radio FM Centro - Nacionales" description="Feed de la sección 'Nacionales' en Radio FM Centro" xmlUrl="https://fmcentro.cl/feed/?category=nacionales" htmlUrl="https://fmcentro.cl/nacionales/"/>
+      <outline type="rss" text="Radio FM Centro - Programacion" title="Radio FM Centro - Programacion" description="Feed de la sección 'Programacion' en Radio FM Centro" xmlUrl="https://fmcentro.cl/feed/?category=programacion" htmlUrl="https://fmcentro.cl/programacion/"/>
+      <outline type="rss" text="Radio FM Centro - Radio Online" title="Radio FM Centro - Radio Online" description="Feed de la sección 'Radio Online' en Radio FM Centro" xmlUrl="https://fmcentro.cl/feed/?category=radio-online" htmlUrl="https://fmcentro.cl/radio-online/"/>
+      <outline type="rss" text="Radio FM Centro - Regionales" title="Radio FM Centro - Regionales" description="Feed de la sección 'Regionales' en Radio FM Centro" xmlUrl="https://fmcentro.cl/feed/?category=regionales" htmlUrl="https://fmcentro.cl/regionales/"/>
+      <outline type="rss" text="Radio FM Centro [Proxy Google News]" title="Radio FM Centro [Proxy Google News]" description="Resultados de site:fmcentro.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:fmcentro.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:fmcentro.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Red Informativa" title="Red Informativa" description="Medio de comunicación de la Región de Araucanía" xmlUrl="https://www.redinformativa.cl/feed" htmlUrl="https://www.redinformativa.cl"/>
       <outline type="rss" text="Red Informativa - Actualidad" title="Red Informativa - Actualidad" description="Feed de la categoría 'Actualidad' en Red Informativa" xmlUrl="https://www.redinformativa.cl/actualidad/feed/" htmlUrl="https://www.redinformativa.cl/actualidad/"/>
       <outline type="rss" text="Red Informativa - Deportes" title="Red Informativa - Deportes" description="Feed de la categoría 'Deportes' en Red Informativa" xmlUrl="https://www.redinformativa.cl/deportes/feed/" htmlUrl="https://www.redinformativa.cl/deportes/"/>

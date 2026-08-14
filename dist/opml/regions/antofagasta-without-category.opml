@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Antofagasta (201 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Antofagasta (204 feeds)</title>
     <description>Feeds RSS de la Región de Antofagasta, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -187,6 +187,9 @@
     <outline type="rss" text="Regionalista - Entrevistas" title="Regionalista - Entrevistas" description="Feed de la categoría 'Entrevistas' en Regionalista" xmlUrl="https://regionalista.cl/category/entrevistas/feed/" htmlUrl="https://regionalista.cl/category/entrevistas/"/>
     <outline type="rss" text="Regionalista - Noticias" title="Regionalista - Noticias" description="Feed de la categoría 'Noticias' en Regionalista" xmlUrl="https://regionalista.cl/category/noticias/feed/" htmlUrl="https://regionalista.cl/category/noticias/"/>
     <outline type="rss" text="Regionalista [Proxy Google News]" title="Regionalista [Proxy Google News]" description="Resultados de site:regionalista.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:regionalista.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:regionalista.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Resonancia Diario" title="Resonancia Diario" description="Medio digital de noticias de Antofagasta" xmlUrl="https://www.resonanciadiario.cl/feed/" htmlUrl="https://www.resonanciadiario.cl"/>
+    <outline type="rss" text="Resonancia Diario - Politica" title="Resonancia Diario - Politica" description="Feed de la categoría 'Politica' en Resonancia Diario" xmlUrl="https://www.resonanciadiario.cl/category/politica/feed/" htmlUrl="https://www.resonanciadiario.cl/category/politica/"/>
+    <outline type="rss" text="Resonancia Diario [Proxy Google News]" title="Resonancia Diario [Proxy Google News]" description="Resultados de site:resonanciadiario.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:resonanciadiario.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:resonanciadiario.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Timeline" title="Timeline" description="Diario regional de Antofagasta, Antofagasta" xmlUrl="https://www.timeline.cl/feed/" htmlUrl="https://www.timeline.cl"/>
     <outline type="rss" text="Timeline - Agenda Ejecutiva" title="Timeline - Agenda Ejecutiva" description="Feed de la categoría 'Agenda Ejecutiva' en Timeline" xmlUrl="https://www.timeline.cl/category/agendaejecutiva/feed/" htmlUrl="https://www.timeline.cl/category/agendaejecutiva/"/>
     <outline type="rss" text="Timeline - Café Tl" title="Timeline - Café Tl" description="Feed de la categoría 'Café Tl' en Timeline" xmlUrl="https://www.timeline.cl/category/la-caja/cafe-tl/feed/" htmlUrl="https://www.timeline.cl/category/la-caja/cafe-tl/"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (205 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (207 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -85,6 +85,7 @@
       <outline type="rss" text="Defensa Civil de Chile - Noticias Corporativas" title="Defensa Civil de Chile - Noticias Corporativas" description="Feed de la categoría 'Noticias Corporativas' en Defensa Civil de Chile" xmlUrl="https://defensacivil.cl/category/noticias-corporativas/feed/" htmlUrl="https://defensacivil.cl/category/noticias-corporativas/"/>
       <outline type="rss" text="Defensa Civil de Chile [Proxy Google News]" title="Defensa Civil de Chile [Proxy Google News]" description="Resultados de site:defensacivil.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:defensacivil.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:defensacivil.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Diálogo Sur - Turismo" title="Diálogo Sur - Turismo" description="Feed de la categoría 'Turismo' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/turismo/feed/" htmlUrl="https://dialogosur.cl/category/turismo/"/>
+      <outline type="rss" text="Diario Agrícola - Eventos" title="Diario Agrícola - Eventos" description="Feed de la categoría 'Eventos' en Diario Agrícola" xmlUrl="https://www.diarioagricola.com/category/eventos/feed/" htmlUrl="https://www.diarioagricola.com/category/eventos/"/>
       <outline type="rss" text="Diario Antofagasta - Panoramas" title="Diario Antofagasta - Panoramas" description="Feed de la categoría 'Panoramas' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/panoramas/feed/" htmlUrl="https://www.diarioantofagasta.cl/panoramas/"/>
       <outline type="rss" text="Diario El Centro - Efeméride" title="Diario El Centro - Efeméride" description="Feed de la categoría 'Efeméride' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/efemeride/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/efemeride/"/>
       <outline type="rss" text="Diario El Huemul - Social" title="Diario El Huemul - Social" description="Feed de la categoría 'Social' en Diario El Huemul" xmlUrl="https://elhuemul.cl/category/social/feed/" htmlUrl="https://elhuemul.cl/category/social/"/>
@@ -173,11 +174,12 @@
       <outline type="rss" text="Noticias_Chile - mas.to BOT" title="Noticias_Chile - mas.to BOT" description="Bot segregador de noticias, mas.to/@Noticias_Chile" xmlUrl="https://mas.to/@Noticias_Chile.rss" htmlUrl="https://mas.to/@Noticias_Chile"/>
       <outline type="rss" text="Ovalle Hoy - Sociedad" title="Ovalle Hoy - Sociedad" description="Feed de la categoría 'Sociedad' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/"/>
       <outline type="rss" text="Pichilemu News - Turismo" title="Pichilemu News - Turismo" description="Feed de la sección 'Turismo' en Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed/?category=turismo" htmlUrl="https://www.pichilemunews.cl/turismo/"/>
+      <outline type="rss" text="Portal Agro Chile - Eventos" title="Portal Agro Chile - Eventos" description="Feed de la categoría 'Eventos' en Portal Agro Chile" xmlUrl="https://www.portalagrochile.cl/category/eventos/feed/" htmlUrl="https://www.portalagrochile.cl/category/eventos/"/>
       <outline type="rss" text="Portal Metropolitano - Festivales" title="Portal Metropolitano - Festivales" description="Feed de la categoría 'Festivales' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/festivales/feed/" htmlUrl="https://portalmetropolitano.cl/category/festivales/"/>
       <outline type="rss" text="Portal Metropolitano - Sociedad" title="Portal Metropolitano - Sociedad" description="Feed de la categoría 'Sociedad' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/sociedad/feed/" htmlUrl="https://portalmetropolitano.cl/category/sociedad/"/>
       <outline type="rss" text="Portal Metropolitano - Turismo" title="Portal Metropolitano - Turismo" description="Feed de la categoría 'Turismo' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/turismo/feed/" htmlUrl="https://portalmetropolitano.cl/category/turismo/"/>
       <outline type="rss" text="Portal Minero - Eventos" title="Portal Minero - Eventos" description="Feed de la sección 'Eventos' en Portal Minero" xmlUrl="https://www.portalminero.com/feed/?category=eventos" htmlUrl="https://www.portalminero.com/eventos/"/>
-      <outline type="rss" text="Portal Red Salud -  Eventos" title="Portal Red Salud -  Eventos" description="Feed de la categoría ' Eventos' en Portal Red Salud" xmlUrl="https://portalredsalud.cl/category/eventos/feed/" htmlUrl="https://portalredsalud.cl/category/eventos/"/>
+      <outline type="rss" text="Portal Red Salud - Eventos" title="Portal Red Salud - Eventos" description="Feed de la categoría ' Eventos' en Portal Red Salud" xmlUrl="https://portalredsalud.cl/category/eventos/feed/" htmlUrl="https://portalredsalud.cl/category/eventos/"/>
       <outline type="rss" text="Publimetro Chile - Social" title="Publimetro Chile - Social" description="Feed de la categoría 'Social' en Publimetro Chile" xmlUrl=" https://www.publimetro.cl/arc/outboundfeeds/rss/category/social/?outputType=xml" htmlUrl="https://www.publimetro.cl/category/social/"/>
       <outline type="rss" text="r/Chile" title="r/Chile" description="Feed de la sección 'r/Chile' en Reddit" xmlUrl="https://www.reddit.com/r/chile/.rss" htmlUrl="https://www.reddit.com/r/chile/"/>
       <outline type="rss" text="r/chileit" title="r/chileit" description="Feed de la sección 'r/chileit' en Reddit" xmlUrl="https://www.reddit.com/r/chileit/.rss" htmlUrl="https://www.reddit.com/r/chileit/"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Los Ríos (87 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Los Ríos (106 feeds)</title>
     <description>Feeds RSS de la Región de Los Ríos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -77,6 +77,25 @@
       <outline type="rss" text="Noticias Los Ríos - Turismo" title="Noticias Los Ríos - Turismo" description="Feed de la categoría 'Turismo' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/turismo/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/turismo/"/>
       <outline type="rss" text="Noticias Los Ríos - Uach" title="Noticias Los Ríos - Uach" description="Feed de la categoría 'Uach' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/uach/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/uach/"/>
       <outline type="rss" text="Noticias Los Ríos [Proxy Google News]" title="Noticias Los Ríos [Proxy Google News]" description="Resultados de site:noticiaslosrios.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:noticiaslosrios.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:noticiaslosrios.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Radio 45 Sur" title="Radio 45 Sur" description="Radio online de la Región de Los Ríos" xmlUrl="https://radio45sur.cl/feed/" htmlUrl="https://radio45sur.cl"/>
+      <outline type="rss" text="Radio 45 Sur - Acuicultura" title="Radio 45 Sur - Acuicultura" description="Feed de la categoría 'Acuicultura' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/acuicultura/feed/" htmlUrl="https://radio45sur.cl/category/acuicultura/"/>
+      <outline type="rss" text="Radio 45 Sur - Agricultura" title="Radio 45 Sur - Agricultura" description="Feed de la categoría 'Agricultura' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/agricultura/feed/" htmlUrl="https://radio45sur.cl/category/agricultura/"/>
+      <outline type="rss" text="Radio 45 Sur - Columna" title="Radio 45 Sur - Columna" description="Feed de la categoría 'Columna' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/columna/feed/" htmlUrl="https://radio45sur.cl/category/columna/"/>
+      <outline type="rss" text="Radio 45 Sur - Cultura" title="Radio 45 Sur - Cultura" description="Feed de la categoría 'Cultura' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/cultura/feed/" htmlUrl="https://radio45sur.cl/category/cultura/"/>
+      <outline type="rss" text="Radio 45 Sur - Deporte" title="Radio 45 Sur - Deporte" description="Feed de la categoría 'Deporte' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/deporte/feed/" htmlUrl="https://radio45sur.cl/category/deporte/"/>
+      <outline type="rss" text="Radio 45 Sur - Economia" title="Radio 45 Sur - Economia" description="Feed de la categoría 'Economia' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/economia/feed/" htmlUrl="https://radio45sur.cl/category/economia/"/>
+      <outline type="rss" text="Radio 45 Sur - Educacion" title="Radio 45 Sur - Educacion" description="Feed de la categoría 'Educacion' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/educacion/feed/" htmlUrl="https://radio45sur.cl/category/educacion/"/>
+      <outline type="rss" text="Radio 45 Sur - Judicial" title="Radio 45 Sur - Judicial" description="Feed de la categoría 'Judicial' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/judicial/feed/" htmlUrl="https://radio45sur.cl/category/judicial/"/>
+      <outline type="rss" text="Radio 45 Sur - Medio Ambiente" title="Radio 45 Sur - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/medio-ambiente/feed/" htmlUrl="https://radio45sur.cl/category/medio-ambiente/"/>
+      <outline type="rss" text="Radio 45 Sur - Nacional" title="Radio 45 Sur - Nacional" description="Feed de la categoría 'Nacional' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/nacional/feed/" htmlUrl="https://radio45sur.cl/category/nacional/"/>
+      <outline type="rss" text="Radio 45 Sur - Opinion" title="Radio 45 Sur - Opinion" description="Feed de la categoría 'Opinion' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/opinion/feed/" htmlUrl="https://radio45sur.cl/category/opinion/"/>
+      <outline type="rss" text="Radio 45 Sur - Otros" title="Radio 45 Sur - Otros" description="Feed de la categoría 'Otros' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/otros/feed/" htmlUrl="https://radio45sur.cl/category/otros/"/>
+      <outline type="rss" text="Radio 45 Sur - Policial" title="Radio 45 Sur - Policial" description="Feed de la categoría 'Policial' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/policial/feed/" htmlUrl="https://radio45sur.cl/category/policial/"/>
+      <outline type="rss" text="Radio 45 Sur - Politica" title="Radio 45 Sur - Politica" description="Feed de la categoría 'Politica' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/politica/feed/" htmlUrl="https://radio45sur.cl/category/politica/"/>
+      <outline type="rss" text="Radio 45 Sur - Regional" title="Radio 45 Sur - Regional" description="Feed de la categoría 'Regional' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/regional/feed/" htmlUrl="https://radio45sur.cl/category/regional/"/>
+      <outline type="rss" text="Radio 45 Sur - Reportajes" title="Radio 45 Sur - Reportajes" description="Feed de la categoría 'Reportajes' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/reportajes/feed/" htmlUrl="https://radio45sur.cl/category/reportajes/"/>
+      <outline type="rss" text="Radio 45 Sur - Salud" title="Radio 45 Sur - Salud" description="Feed de la categoría 'Salud' en Radio 45 Sur" xmlUrl="https://radio45sur.cl/category/salud/feed/" htmlUrl="https://radio45sur.cl/category/salud/"/>
+      <outline type="rss" text="Radio 45 Sur [Proxy Google News]" title="Radio 45 Sur [Proxy Google News]" description="Resultados de site:radio45sur.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radio45sur.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radio45sur.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Río en Línea" title="Río en Línea" description="Diario regional de Valdivia, Los Ríos" xmlUrl="https://www.rioenlinea.cl/feed/" htmlUrl="https://www.rioenlinea.cl"/>
       <outline type="rss" text="Río en Línea - Artículo Patrocinado" title="Río en Línea - Artículo Patrocinado" description="Feed de la categoría 'Artículo Patrocinado' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/articulo-patrocinado/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/articulo-patrocinado/"/>
       <outline type="rss" text="Río en Línea - Cultura" title="Río en Línea - Cultura" description="Feed de la categoría 'Cultura' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/cultura/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/cultura/"/>

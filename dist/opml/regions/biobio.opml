@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Biobío (74 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Biobío (84 feeds)</title>
     <description>Feeds RSS de la Región de Biobío, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -40,6 +40,16 @@
       <outline type="rss" text="Noticias Biobío - Salud" title="Noticias Biobío - Salud" description="Feed de la categoría 'Salud' en Noticias Biobío" xmlUrl="https://noticiasbiobio.cl/category/salud/feed/" htmlUrl="https://noticiasbiobio.cl/category/salud/"/>
       <outline type="rss" text="Noticias Biobío - Sociedad" title="Noticias Biobío - Sociedad" description="Feed de la categoría 'Sociedad' en Noticias Biobío" xmlUrl="https://noticiasbiobio.cl/category/sociedad/feed/" htmlUrl="https://noticiasbiobio.cl/category/sociedad/"/>
       <outline type="rss" text="Noticias Biobío [Proxy Google News]" title="Noticias Biobío [Proxy Google News]" description="Resultados de site:noticiasbiobio.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:noticiasbiobio.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:noticiasbiobio.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Radio Interamericana" title="Radio Interamericana" description="Radio de la Región del Biobío" xmlUrl="https://radiointeramericana.cl/feed/" htmlUrl="https://radiointeramericana.cl"/>
+      <outline type="rss" text="Radio Interamericana - Cultura" title="Radio Interamericana - Cultura" description="Feed de la categoría 'Cultura' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/cultura/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/cultura/"/>
+      <outline type="rss" text="Radio Interamericana - Deportes" title="Radio Interamericana - Deportes" description="Feed de la categoría 'Deportes' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/deportes/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/deportes/"/>
+      <outline type="rss" text="Radio Interamericana - Economía" title="Radio Interamericana - Economía" description="Feed de la categoría 'Economía' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/economia/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/economia/"/>
+      <outline type="rss" text="Radio Interamericana - Internacional" title="Radio Interamericana - Internacional" description="Feed de la categoría 'Internacional' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/internacional/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/internacional/"/>
+      <outline type="rss" text="Radio Interamericana - Noticias" title="Radio Interamericana - Noticias" description="Feed de la categoría 'Noticias' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/"/>
+      <outline type="rss" text="Radio Interamericana - Policial" title="Radio Interamericana - Policial" description="Feed de la categoría 'Policial' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/policial/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/policial/"/>
+      <outline type="rss" text="Radio Interamericana - Política" title="Radio Interamericana - Política" description="Feed de la categoría 'Política' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/politica/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/politica/"/>
+      <outline type="rss" text="Radio Interamericana - Regional" title="Radio Interamericana - Regional" description="Feed de la categoría 'Regional' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/regional/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/regional/"/>
+      <outline type="rss" text="Radio Interamericana [Proxy Google News]" title="Radio Interamericana [Proxy Google News]" description="Resultados de site:radiointeramericana.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiointeramericana.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiointeramericana.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio UdeC" title="Radio UdeC" description="Radio de la Universidad de Concepción 95.1 FM" xmlUrl="https://www.radioudec.cl/feed/" htmlUrl="https://www.radioudec.cl"/>
       <outline type="rss" text="Radio UdeC - Ciencia" title="Radio UdeC - Ciencia" description="Feed de la categoría 'Ciencia' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/ciencia/feed/" htmlUrl="https://www.radioudec.cl/category/ciencia/"/>
       <outline type="rss" text="Radio UdeC - Cultura" title="Radio UdeC - Cultura" description="Feed de la categoría 'Cultura' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/cultura/feed/" htmlUrl="https://www.radioudec.cl/category/cultura/"/>

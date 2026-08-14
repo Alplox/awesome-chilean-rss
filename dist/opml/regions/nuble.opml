@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Ñuble (86 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Ñuble (97 feeds)</title>
     <description>Feeds RSS de la Región de Ñuble, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -87,6 +87,17 @@
       <outline type="rss" text="Ñuble Online - Nacional" title="Ñuble Online - Nacional" description="Feed de la categoría 'Nacional' en Ñuble Online" xmlUrl="https://nubleonline.cl/category/nacional/feed/" htmlUrl="https://nubleonline.cl/category/nacional/"/>
       <outline type="rss" text="Ñuble Online - Región De Ñuble" title="Ñuble Online - Región De Ñuble" description="Feed de la categoría 'Región De Ñuble' en Ñuble Online" xmlUrl="https://nubleonline.cl/category/region-de-nuble/feed/" htmlUrl="https://nubleonline.cl/category/region-de-nuble/"/>
       <outline type="rss" text="Ñuble Online [Proxy Google News]" title="Ñuble Online [Proxy Google News]" description="Resultados de site:nubleonline.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:nubleonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:nubleonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Radio Contacto" title="Radio Contacto" description="Radio de Chillán y la Región de Ñuble" xmlUrl="https://radiocontacto.cl/feed/" htmlUrl="https://radiocontacto.cl"/>
+      <outline type="rss" text="Radio Contacto - Chillán" title="Radio Contacto - Chillán" description="Feed de la categoría 'Chillán' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/chillan/feed/" htmlUrl="https://radiocontacto.cl/category/chillan/"/>
+      <outline type="rss" text="Radio Contacto - Deportes" title="Radio Contacto - Deportes" description="Feed de la categoría 'Deportes' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/deportes/feed/" htmlUrl="https://radiocontacto.cl/category/deportes/"/>
+      <outline type="rss" text="Radio Contacto - Entretenimiento" title="Radio Contacto - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/entretenimiento/feed/" htmlUrl="https://radiocontacto.cl/category/entretenimiento/"/>
+      <outline type="rss" text="Radio Contacto - Internacional" title="Radio Contacto - Internacional" description="Feed de la categoría 'Internacional' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/internacional/feed/" htmlUrl="https://radiocontacto.cl/category/internacional/"/>
+      <outline type="rss" text="Radio Contacto - Noticias" title="Radio Contacto - Noticias" description="Feed de la categoría 'Noticias' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/noticias/feed/" htmlUrl="https://radiocontacto.cl/category/noticias/"/>
+      <outline type="rss" text="Radio Contacto - Ñuble" title="Radio Contacto - Ñuble" description="Feed de la categoría 'Ñuble' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/nuble/feed/" htmlUrl="https://radiocontacto.cl/category/nuble/"/>
+      <outline type="rss" text="Radio Contacto - Opinión" title="Radio Contacto - Opinión" description="Feed de la categoría 'Opinión' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/opinion/feed/" htmlUrl="https://radiocontacto.cl/category/opinion/"/>
+      <outline type="rss" text="Radio Contacto - País" title="Radio Contacto - País" description="Feed de la categoría 'País' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/pais/feed/" htmlUrl="https://radiocontacto.cl/category/pais/"/>
+      <outline type="rss" text="Radio Contacto - Portada" title="Radio Contacto - Portada" description="Feed de la categoría 'Portada' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/portada/feed/" htmlUrl="https://radiocontacto.cl/category/portada/"/>
+      <outline type="rss" text="Radio Contacto [Proxy Google News]" title="Radio Contacto [Proxy Google News]" description="Resultados de site:radiocontacto.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiocontacto.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiocontacto.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio Ñuble" title="Radio Ñuble" description="Emisora regional de la Región de Ñuble 89.7 FM, 900 AM" xmlUrl="https://radionuble.cl/v1/feed/" htmlUrl="https://radionuble.cl"/>
       <outline type="rss" text="Radio Ñuble [Proxy Bing News]" title="Radio Ñuble [Proxy Bing News]" description="Resultados de site:radionuble.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radionuble.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radionuble.cl"/>
       <outline type="rss" text="Radio Ñuble [Proxy Google News]" title="Radio Ñuble [Proxy Google News]" description="Resultados de site:radionuble.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radionuble.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radionuble.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

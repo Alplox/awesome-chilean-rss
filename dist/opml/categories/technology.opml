@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (336 feeds)</title>
+    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (338 feeds)</title>
     <description>Feeds RSS de 💻 Tecnología y Startups, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -47,6 +47,7 @@
       <outline type="rss" text="Atacama Noticias - Ciencia y Tecnología" title="Atacama Noticias - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Atacama Noticias" xmlUrl="https://www.atacamanoticias.cl/category/ciencia_y_tecnologia/feed/" htmlUrl="https://www.atacamanoticias.cl/category/ciencia_y_tecnologia/"/>
       <outline type="rss" text="Aurora Noticias - Ciencia" title="Aurora Noticias - Ciencia" description="Feed de la categoría 'Ciencia' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/ciencia/feed/" htmlUrl="https://auroranoticias.cl/ciencia/"/>
       <outline type="rss" text="CentralWeb - Tecnología" title="CentralWeb - Tecnología" description="Feed de la categoría 'Tecnología' en CentralWeb" xmlUrl="https://centralweb.cl/?cat=13&amp;feed=rss2" htmlUrl="https://centralweb.cl/?cat=13"/>
+      <outline type="rss" text="ChiloeNews - Tecnología" title="ChiloeNews - Tecnología" description="Feed de la categoría 'Tecnología' en ChiloeNews" xmlUrl="https://chiloenews.cl/Categoría/tecnologia/feed/" htmlUrl="https://chiloenews.cl/Categoría/tecnologia/"/>
       <outline type="rss" text="Chocale - Tecnología" title="Chocale - Tecnología" description="Feed de la categoría 'Tecnología' en Chocale" xmlUrl="https://chocale.cl/tecnologia-y-moviles/feed/" htmlUrl="https://chocale.cl/tecnologia-y-moviles/"/>
       <outline type="rss" text="Ciencia en Chile" title="Ciencia en Chile" description="Divulgación de ciencia y tecnología hecha en Chile" xmlUrl="https://www.cienciaenchile.cl/feed/" htmlUrl="https://www.cienciaenchile.cl"/>
       <outline type="rss" text="Ciencia en Chile - Entrevistas" title="Ciencia en Chile - Entrevistas" description="Feed de la categoría 'Entrevistas' en Ciencia en Chile" xmlUrl="https://www.cienciaenchile.cl/category/entrevistas/feed/" htmlUrl="https://www.cienciaenchile.cl/category/entrevistas/"/>
@@ -77,6 +78,7 @@
       <outline type="rss" text="Derechos Digitales [Proxy Google News]" title="Derechos Digitales [Proxy Google News]" description="Resultados de site:derechosdigitales.org en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:derechosdigitales.org&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:derechosdigitales.org&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Desenfoque - Tendencias" title="Desenfoque - Tendencias" description="Feed de la categoría 'Tendencias' en Desenfoque" xmlUrl="https://desenfoque.cl/categoria/ciencia/feed/" htmlUrl="https://desenfoque.cl/categoria/ciencia/"/>
       <outline type="rss" text="Diálogo Sur - Ciencia" title="Diálogo Sur - Ciencia" description="Feed de la categoría 'Ciencia' en Diálogo Sur" xmlUrl="https://dialogosur.cl/category/ciencia/feed/" htmlUrl="https://dialogosur.cl/category/ciencia/"/>
+      <outline type="rss" text="Diario Agrícola - Tecnología" title="Diario Agrícola - Tecnología" description="Feed de la categoría 'Tecnología' en Diario Agrícola" xmlUrl="https://www.diarioagricola.com/category/tecnologia/feed/" htmlUrl="https://www.diarioagricola.com/category/tecnologia/"/>
       <outline type="rss" text="Diario El Centro - Ciencia y Tecnología" title="Diario El Centro - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/ciencia-tecnologia/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/ciencia-tecnologia/"/>
       <outline type="rss" text="Diario El Longino - Ciencia y Tecnología" title="Diario El Longino - Ciencia y Tecnología" description="Feed de la categoría 'Ciencia y Tecnología' en Diario El Longino" xmlUrl="https://diariolongino.cl/ciencia-y-tecnologia/feed/" htmlUrl="https://diariolongino.cl/ciencia-y-tecnologia/"/>
       <outline type="rss" text="Diario El Nortino - Innovación y Tecnología" title="Diario El Nortino - Innovación y Tecnología" description="Feed de la categoría 'Innovación y Tecnología' en Diario El Nortino" xmlUrl="https://diarioelnortino.cl/category/innovacion-tecnologia/feed/" htmlUrl="https://diarioelnortino.cl/category/innovacion-tecnologia/"/>

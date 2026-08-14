@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (178 feeds)</title>
+    <title>Awesome Chilean RSS - 🏛️ Gobierno y Datos Públicos (185 feeds)</title>
     <description>Feeds RSS de 🏛️ Gobierno y Datos Públicos, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-07T23:56:00.966Z</dateCreated>
+    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -148,6 +148,13 @@
       <outline type="rss" text="Noticias Los Ríos - Gobierno" title="Noticias Los Ríos - Gobierno" description="Feed de la categoría 'Gobierno' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/gobierno/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/gobierno/"/>
       <outline type="rss" text="Noticias Los Ríos - Registro Civil" title="Noticias Los Ríos - Registro Civil" description="Feed de la categoría 'Registro Civil' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/registro-civil/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/registro-civil/"/>
       <outline type="rss" text="Portal Metropolitano - Gobierno" title="Portal Metropolitano - Gobierno" description="Feed de la categoría 'Gobierno' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/gobierno/feed/" htmlUrl="https://portalmetropolitano.cl/category/gobierno/"/>
+      <outline type="rss" text="Publilegales" title="Publilegales" description="Plataforma chilena de publicaciones legales" xmlUrl="https://publilegales.cl/feed/" htmlUrl="https://publilegales.cl"/>
+      <outline type="rss" text="Publilegales - Cámara De Diputados" title="Publilegales - Cámara De Diputados" description="Feed de la categoría 'Cámara De Diputados' en Publilegales" xmlUrl="https://publilegales.cl/category/noticias/camara-de-diputados/feed/" htmlUrl="https://publilegales.cl/category/noticias/camara-de-diputados/"/>
+      <outline type="rss" text="Publilegales - Decretos Y Resoluciones" title="Publilegales - Decretos Y Resoluciones" description="Feed de la categoría 'Decretos Y Resoluciones' en Publilegales" xmlUrl="https://publilegales.cl/category/decretos-y-resoluciones/feed/" htmlUrl="https://publilegales.cl/category/decretos-y-resoluciones/"/>
+      <outline type="rss" text="Publilegales - Llamados A Concursos Y Convocatorias" title="Publilegales - Llamados A Concursos Y Convocatorias" description="Feed de la categoría 'Llamados A Concursos Y Convocatorias' en Publilegales" xmlUrl="https://publilegales.cl/category/llamados-a-concursos-y-convocatorias/feed/" htmlUrl="https://publilegales.cl/category/llamados-a-concursos-y-convocatorias/"/>
+      <outline type="rss" text="Publilegales - Notificaciones" title="Publilegales - Notificaciones" description="Feed de la categoría 'Notificaciones' en Publilegales" xmlUrl="https://publilegales.cl/category/notificaciones/feed/" htmlUrl="https://publilegales.cl/category/notificaciones/"/>
+      <outline type="rss" text="Publilegales - Remates" title="Publilegales - Remates" description="Feed de la categoría 'Remates' en Publilegales" xmlUrl="https://publilegales.cl/category/remates/feed/" htmlUrl="https://publilegales.cl/category/remates/"/>
+      <outline type="rss" text="Publilegales [Proxy Google News]" title="Publilegales [Proxy Google News]" description="Resultados de site:publilegales.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:publilegales.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:publilegales.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio Cámara" title="Radio Cámara" description="Radio de la Cámara de Diputadas y Diputados de Chile" xmlUrl="https://www.radiocamara.cl/rss.aspx" htmlUrl="https://www.radiocamara.cl"/>
       <outline type="rss" text="Radio Cámara [Proxy Google News]" title="Radio Cámara [Proxy Google News]" description="Resultados de site:radiocamara.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiocamara.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiocamara.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="SENCE" title="SENCE" description="Servicio Nacional de Capacitación y Empleo" xmlUrl="https://sence.gob.cl/rss.xml" htmlUrl="https://sence.gob.cl"/>
