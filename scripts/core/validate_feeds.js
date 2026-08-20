@@ -36,12 +36,19 @@
  */
 
 import { readFileSync, writeFileSync } from 'fs';
-import { checkFeedUrl } from '../../lib/feed-validator.js';
+import { checkFeedUrl, inspectFeedText } from '../../lib/feed-validator.js';
 import { isValidUrl, checkSiteStatus, checkSiteReachable, tryFetchFeedInsecure } from '../../lib/network-utils.js';
 import { isAutomatic, promptUser, promptUrl, promptStatus } from '../../lib/prompter.js';
 import { rediscoverFeed, clearHomepageCache } from '../../lib/feed-rediscovery.js';
-import { STALE_THRESHOLD_DAYS, daysSince, pathsMatch, formatError, ALLOWED_STATUSES, BROKEN_ERRORS } from '../../lib/feed-utils.js';
+import { STALE_THRESHOLD_DAYS, daysSince, pathsMatch, formatError, ALLOWED_STATUSES, BROKEN_ERRORS, DUPLICATE_OVERLAP_THRESHOLD } from '../../lib/feed-utils.js';
+import { containmentRatio } from '../../lib/feed-overlap.js';
+import { fetchWithBrowser, closeBrowser } from '../../lib/browser-fallback.js';
 import { parseArgs, applyFiltersSites } from '../../lib/cli-args.js';
+
+// Códigos HTTP que indican bloqueo anti-bot (403 Forbidden, 429 Too Many
+// Requests): el feed puede estar sano pero el servidor bloquea al script.
+// No redescubrir (fallará igual) ni cambiar estado — solo informar.
+const BOT_BLOCK_CODES = new Set([403, 429]);
 
 // ─── Configuración ────────────────────────────────────────────────────────────
 
@@ -406,7 +413,8 @@ async function main() {
   console.log(`🔍 Revalidando ${sitesToValidate.length} sitio${sitesToValidate.length > 1 ? 's' : ''} (${totalFeeds} feed${totalFeeds > 1 ? 's' : ''}) desde feeds-database.json\n`);
   console.log('='.repeat(55));
 
-  const results = { ok: [], fixed: [], stale: [], broken: [], offline: [], noFeed: [], other: [] };
+  const results = { ok: [], fixed: [], stale: [], broken: [], offline: [], noFeed: [], other: [], blocked: [] };
+  const browserFailures = new Map();
   const getCachedSiteStatus = createSiteStatusCache();
   clearHomepageCache();
 
@@ -418,7 +426,7 @@ async function main() {
 
     // Pre-check all feeds for this site in parallel (network-bound phase)
     const settledResults = await Promise.allSettled(
-      site.feeds.map(feed => checkFeedUrl(feed.rss_url))
+      site.feeds.map(feed => checkFeedUrl(feed.rss_url, { includeItems: true }))
     );
     const checkResults = settledResults.map(r =>
       r.status === 'fulfilled' ? r.value : { error: 'error inesperado', code: null }
@@ -430,6 +438,23 @@ async function main() {
       const checkResult = checkResults[feedIndex];
       const label = `  🔍 ${feed.name}... `;
       process.stdout.write(label);
+
+      // Feeds marcados como duplicados: verificar si siguen duplicando antes de
+      // re-promoverlos a active (guarda contra la re-promoción automática).
+      if (checkResult.type && feed.duplicate_of) {
+        const targetFeed = site.feeds.find(f => f.id === feed.duplicate_of);
+        const targetResult = targetFeed ? checkResults[site.feeds.indexOf(targetFeed)] : null;
+        if (targetResult?.type && targetResult.items?.length >= 5 && checkResult.items?.length >= 5) {
+          const ratio = containmentRatio(checkResult.items, targetResult.items);
+          if (ratio >= DUPLICATE_OVERLAP_THRESHOLD) {
+            console.log(`\n     🔁 sigue duplicando a "${feed.duplicate_of}" (${Math.round(ratio * 100)}%) → duplicate`);
+            updateFeedState(feed, { status: 'duplicate', feedType: checkResult.type, lastItemDate: checkResult.lastItemDate }, shouldUpdate);
+            continue;
+          }
+          console.log(`\n     ✅ ya no duplica (${Math.round(ratio * 100)}%)`);
+          if (shouldUpdate) delete feed.duplicate_of;
+        }
+      }
 
       if (checkResult.type) {
         siteDecision = null;
@@ -494,6 +519,34 @@ async function main() {
 
       const errorMsg = formatError(checkResult.error, checkResult.code);
       console.log(`❌ ${errorMsg}`);
+
+      if (BOT_BLOCK_CODES.has(checkResult.code)) {
+        const attempts = browserFailures.get(site.id) ?? 0;
+        if (shouldUpdate && attempts < 2) {
+          process.stdout.write('   🌐 intentando con navegador headless... ');
+          const text = await fetchWithBrowser(feed.rss_url);
+          const browserResult = text ? inspectFeedText(text) : null;
+          if (browserResult?.type) {
+            const stale = browserResult.lastItemDate && daysSince(browserResult.lastItemDate) > STALE_THRESHOLD_DAYS;
+            console.log(
+              stale
+                ? `⚠️  verificado vía navegador (${browserResult.type}, ${browserResult.itemCount} items) pero STALE`
+                : `✅ verificado vía navegador (${browserResult.type}, ${browserResult.itemCount} items)`
+            );
+            updateFeedState(feed, {
+              status: stale ? 'stale' : 'active',
+              feedType: browserResult.type,
+              lastItemDate: browserResult.lastItemDate ?? null,
+            }, shouldUpdate);
+            (stale ? results.stale : results.ok).push(feedLabel(site, feed));
+            continue;
+          }
+          browserFailures.set(site.id, attempts + 1);
+        }
+        console.log(`⚠️  bloqueo anti-bot (HTTP ${checkResult.code}) — feed no verificable, estado conservado`);
+        results.blocked.push(feedLabel(site, feed));
+        continue;
+      }
 
       const isBroken = BROKEN_ERRORS.includes(checkResult.error);
       if (isBroken) {
@@ -669,6 +722,10 @@ async function main() {
     console.log(`📭 Feed vacío     : ${results.other.length}`);
     for (const name of results.other) console.log(`   • ${name}`);
   }
+  if (results.blocked.length) {
+    console.log(`🚫 Bloqueado bot  : ${results.blocked.length}`);
+    for (const name of results.blocked) console.log(`   • ${name}`);
+  }
 
   if (shouldUpdate) {
     // ─── Watchlist candidates ────────────────────────────────────────────────
@@ -715,6 +772,7 @@ async function main() {
   } else {
     console.log(`\nℹ️  Modo solo-validación: usa --update para aplicar cambios a feeds-database.json`);
   }
+  await closeBrowser();
 }
 
 main().catch((err) => {

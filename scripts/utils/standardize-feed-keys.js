@@ -13,8 +13,9 @@ const KEY_ORDER = [
   'region',
   'last_checked',
   'last_known_item_date',
-  'status',
   'verified',
+  'status',
+  'duplicate_of',
 ];
 
 function standardizeFeed(feed) {

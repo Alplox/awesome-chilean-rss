@@ -275,5 +275,21 @@
       "partido-humanista"
     ],
     "order": 17
+  },
+  "personal-blogs": {
+    "label": "✍️ Blogs Personales",
+    "slugs": [
+      "blog",
+      "blogs",
+      "personal",
+      "personal-blog",
+      "blog-personal",
+      "diario",
+      "bitacora",
+      "escritor",
+      "escritores",
+      "periodismo-independiente"
+    ],
+    "order": 18
   }
 }

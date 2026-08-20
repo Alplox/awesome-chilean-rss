@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (26 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (22 feeds)</title>
     <description>Feeds RSS de 💼 Ofertas laborales y empleabilidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
+    <dateCreated>2026-08-20T00:37:25.262Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline type="rss" text="Alerta Noticias Temuco - Empleabilidad" title="Alerta Noticias Temuco - Empleabilidad" description="Feed de la categoría 'Empleabilidad' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/empleabilidad/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/empleabilidad/"/>
     <outline type="rss" text="Anda - Laboral" title="Anda - Laboral" description="Feed de la categoría 'Laboral' en Anda" xmlUrl="https://anda.cl/categoria/laboral/feed/" htmlUrl="https://anda.cl/categoria/laboral/"/>
-    <outline type="rss" text="ANID - Trabaja Con Nosotros" title="ANID - Trabaja Con Nosotros" description="Feed de la sección 'Trabaja Con Nosotros' en ANID" xmlUrl="https://anid.cl/feed/?category=trabaja-con-nosotros" htmlUrl="https://anid.cl/trabaja-con-nosotros/"/>
     <outline type="rss" text="AQUA - Laboral" title="AQUA - Laboral" description="Feed de la categoría 'Laboral' en AQUA" xmlUrl="https://www.aqua.cl/?cat=7&amp;feed=rss2" htmlUrl="https://www.aqua.cl/?cat=7"/>
     <outline type="rss" text="Atentos - Trabajo" title="Atentos - Trabajo" description="Feed de la categoría 'Trabajo' en Atentos" xmlUrl="https://www.atentos.cl/category/trabajo/feed/" htmlUrl="https://www.atentos.cl/category/trabajo/"/>
     <outline type="rss" text="Chile País Minero - Ofertas Laborales" title="Chile País Minero - Ofertas Laborales" description="Feed de la categoría 'Ofertas Laborales' en Chile País Minero" xmlUrl="https://chilepaisminero.com/category/trabajo-y-capacitacion/ofertas-laborales/feed/" htmlUrl="https://chilepaisminero.com/category/trabajo-y-capacitacion/ofertas-laborales/"/>
@@ -23,10 +22,7 @@
     <outline type="rss" text="Laborum" title="Laborum" description="Portal de empleos chileno" xmlUrl="https://www.laborum.cl/blog/feed/" htmlUrl="https://www.laborum.cl/"/>
     <outline type="rss" text="Laborum [Proxy Google News]" title="Laborum [Proxy Google News]" description="Resultados de site:laborum.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:laborum.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:laborum.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Linares en Línea - Laboral" title="Linares en Línea - Laboral" description="Feed de la categoría 'Laboral' en Linares en Línea" xmlUrl="https://www.linaresenlinea.cl/category/laboral/feed/" htmlUrl="https://www.linaresenlinea.cl/category/laboral/"/>
-    <outline type="rss" text="Ministerio de Educación - Trabaje Con Nosotros" title="Ministerio de Educación - Trabaje Con Nosotros" description="Feed de la sección 'Trabaje Con Nosotros' en Ministerio de Educación" xmlUrl="https://www.mineduc.cl/feed/?category=trabaje-con-nosotros" htmlUrl="https://www.mineduc.cl/trabaje-con-nosotros/"/>
     <outline type="rss" text="Portal Metropolitano - Trabajo" title="Portal Metropolitano - Trabajo" description="Feed de la categoría 'Trabajo' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/trabajo/feed/" htmlUrl="https://portalmetropolitano.cl/category/trabajo/"/>
-    <outline type="rss" text="Portal Minero - Ofertas Laborales" title="Portal Minero - Ofertas Laborales" description="Feed de la sección 'Ofertas Laborales' en Portal Minero" xmlUrl="https://www.portalminero.com/feed/?category=ofertas-laborales" htmlUrl="https://www.portalminero.com/ofertas-laborales/"/>
-    <outline type="rss" text="Radio Festival - Bolsa Del Trabajo" title="Radio Festival - Bolsa Del Trabajo" description="Feed de la sección 'Bolsa Del Trabajo' en Radio Festival" xmlUrl="https://www.radiofestival.cl/feed/?category=bolsa-del-trabajo" htmlUrl="https://www.radiofestival.cl/bolsa-del-trabajo/"/>
     <outline type="rss" text="Servicio Civil" title="Servicio Civil" description="Servicio Civil, institución pública a cargo de la gestión del empleo público y los concursos del Estado" xmlUrl="https://www.serviciocivil.cl/feed/" htmlUrl="https://www.serviciocivil.cl"/>
     <outline type="rss" text="Servicio Civil - Alta Dirección Pública" title="Servicio Civil - Alta Dirección Pública" description="Feed de la categoría 'Alta Dirección Pública' en Servicio Civil" xmlUrl="https://www.serviciocivil.cl/categoria/alta-direccion-publica/feed/" htmlUrl="https://www.serviciocivil.cl/categoria/alta-direccion-publica/"/>
     <outline type="rss" text="Servicio Civil - Destacado" title="Servicio Civil - Destacado" description="Feed de la categoría 'Destacado' en Servicio Civil" xmlUrl="https://www.serviciocivil.cl/categoria/destacado/feed/" htmlUrl="https://www.serviciocivil.cl/categoria/destacado/"/>

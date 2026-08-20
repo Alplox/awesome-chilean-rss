@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Biobío (84 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Biobío (81 feeds)</title>
     <description>Feeds RSS de la Región de Biobío, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
+    <dateCreated>2026-08-20T00:37:25.262Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -44,7 +44,6 @@
     <outline type="rss" text="Radio Interamericana - Deportes" title="Radio Interamericana - Deportes" description="Feed de la categoría 'Deportes' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/deportes/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/deportes/"/>
     <outline type="rss" text="Radio Interamericana - Economía" title="Radio Interamericana - Economía" description="Feed de la categoría 'Economía' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/economia/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/economia/"/>
     <outline type="rss" text="Radio Interamericana - Internacional" title="Radio Interamericana - Internacional" description="Feed de la categoría 'Internacional' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/internacional/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/internacional/"/>
-    <outline type="rss" text="Radio Interamericana - Noticias" title="Radio Interamericana - Noticias" description="Feed de la categoría 'Noticias' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/"/>
     <outline type="rss" text="Radio Interamericana - Policial" title="Radio Interamericana - Policial" description="Feed de la categoría 'Policial' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/policial/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/policial/"/>
     <outline type="rss" text="Radio Interamericana - Política" title="Radio Interamericana - Política" description="Feed de la categoría 'Política' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/politica/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/politica/"/>
     <outline type="rss" text="Radio Interamericana - Regional" title="Radio Interamericana - Regional" description="Feed de la categoría 'Regional' en Radio Interamericana" xmlUrl="https://radiointeramericana.cl/category/noticias/regional/feed/" htmlUrl="https://radiointeramericana.cl/category/noticias/regional/"/>
@@ -75,7 +74,6 @@
     <outline type="rss" text="Tomé al Día" title="Tomé al Día" description="Medio de comunicación de la Región de Biobío" xmlUrl="http://www.tomealdia.com/feeds/posts/default?alt=rss" htmlUrl="http://www.tomealdia.com"/>
     <outline type="rss" text="Tus Noticias" title="Tus Noticias" description="Medio digital de San Pedro de la Paz, Región del Biobío" xmlUrl="https://www.tusnoticias.cl/feed/" htmlUrl="https://www.tusnoticias.cl"/>
     <outline type="rss" text="Tus Noticias - Ciencia" title="Tus Noticias - Ciencia" description="Feed de la categoría 'Ciencia' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/ciencia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/ciencia/"/>
-    <outline type="rss" text="Tus Noticias - Columna" title="Tus Noticias - Columna" description="Feed de la categoría 'Columna' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/columna/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/columna/"/>
     <outline type="rss" text="Tus Noticias - Cultura" title="Tus Noticias - Cultura" description="Feed de la categoría 'Cultura' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/cultura/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/cultura/"/>
     <outline type="rss" text="Tus Noticias - Denuncias" title="Tus Noticias - Denuncias" description="Feed de la categoría 'Denuncias' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/denuncias/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/denuncias/"/>
     <outline type="rss" text="Tus Noticias - Economía" title="Tus Noticias - Economía" description="Feed de la categoría 'Economía' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/economia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/economia/"/>
@@ -84,7 +82,6 @@
     <outline type="rss" text="Tus Noticias - Internacional" title="Tus Noticias - Internacional" description="Feed de la categoría 'Internacional' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/internacional/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/internacional/"/>
     <outline type="rss" text="Tus Noticias - Magazine" title="Tus Noticias - Magazine" description="Feed de la categoría 'Magazine' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/magazine/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/magazine/"/>
     <outline type="rss" text="Tus Noticias - Nacional" title="Tus Noticias - Nacional" description="Feed de la categoría 'Nacional' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/nacional/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/nacional/"/>
-    <outline type="rss" text="Tus Noticias - Opinión" title="Tus Noticias - Opinión" description="Feed de la categoría 'Opinión' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/opinion/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/opinion/"/>
     <outline type="rss" text="Tus Noticias - Regional" title="Tus Noticias - Regional" description="Feed de la categoría 'Regional' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/regional/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/regional/"/>
     <outline type="rss" text="Tus Noticias - Salud" title="Tus Noticias - Salud" description="Feed de la categoría 'Salud' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/salud/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/salud/"/>
     <outline type="rss" text="Tus Noticias - Tecnologia" title="Tus Noticias - Tecnologia" description="Feed de la categoría 'Tecnologia' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/"/>

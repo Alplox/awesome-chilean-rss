@@ -61,7 +61,7 @@ function normalizeUrl(urlStr) {
     return url.hostname.replace(/^www\./, '').toLowerCase()
       + url.pathname.replace(/\/$/, '').toLowerCase();
   } catch {
-    return urlStr.toLowerCase().trim();
+    return String(urlStr ?? '').toLowerCase().trim();
   }
 }
 
@@ -70,7 +70,7 @@ function getRootDomain(urlStr) {
     const url = new URL(urlStr);
     return url.hostname.replace(/^www\./, '').toLowerCase();
   } catch {
-    return urlStr.toLowerCase().trim();
+    return String(urlStr ?? '').toLowerCase().trim();
   }
 }
 
@@ -81,7 +81,7 @@ function normalizeFeedUrl(urlStr) {
       + url.pathname.replace(/\/$/, '').toLowerCase()
       + (url.search || '');
   } catch {
-    return urlStr.toLowerCase().trim();
+    return String(urlStr ?? '').toLowerCase().trim();
   }
 }
 
@@ -276,4 +276,5 @@ if (!foundAny) {
   if (!verbose) {
     console.log('💡 Tip: usa --verbose (-v) para ver links clicables a cada entrada en el archivo.\n');
   }
+  process.exitCode = 1;
 }

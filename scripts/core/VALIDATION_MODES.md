@@ -245,6 +245,12 @@ Cuando una URL de feed falla:
    - Si falla → marca `broken`
 
 2. **HTTP error o timeout**
+   - **403 / 429 (bloqueo anti-bot)** → no redescubre ni pregunta: el feed puede
+     estar sano pero el servidor bloquea al script. Con `--update` intenta leer
+     el feed con un navegador headless (Playwright, `npm run install:browser`),
+     resolviendo challenges de Cloudflare pasivos; si lo logra lo marca `active`
+     (o `stale` si está vencido). Si el challenge no se resuelve (ej. Turnstile
+     interactivo) conserva el estado y lo lista como "🚫 Bloqueado bot".
    - Verifica si el sitio raíz responde (HEAD/GET con detección de TLS, cacheado por dominio)
    - **SSL vencido** → intenta leer el feed ignorando el certificado
    - **Bloqueado por CDN** (Cloudflare) → cae a HTTP (puerto 80)

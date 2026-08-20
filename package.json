@@ -10,11 +10,17 @@
     "validate:opml": "node scripts/validation/validate-opml.js",
     "validate:watchlist": "node scripts/core/validate-watchlist.js",
     "fix:stale": "node scripts/utils/fix-stale-feeds.js",
+    "check:overlap": "node scripts/utils/check-feed-overlap.js",
+    "check:duplicates": "node scripts/utils/find-duplicates.js",
+    "install:browser": "playwright install chromium",
     "lint": "eslint .",
-    "ci": "npm run validate:json && npm run validate:opml && npm run generate && git diff --exit-code dist/opml/chilean-rss.opml dist/opml/chilean-rss-nested.opml dist/opml/chilean-rss-regions.opml dist/bookmarks/awesome-chilean-rss.html README.md"
+    "ci": "npm run validate:json && npm run check:duplicates && npm run validate:opml && npm run generate && git diff --exit-code dist/opml/chilean-rss.opml dist/opml/chilean-rss-nested.opml dist/opml/chilean-rss-regions.opml dist/bookmarks/awesome-chilean-rss.html README.md"
   },
   "dependencies": {
     "fast-xml-parser": "5.8.0"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.62.1"
   },
   "author": {
     "name": "Alplox",

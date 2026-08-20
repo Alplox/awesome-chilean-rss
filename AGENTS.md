@@ -184,8 +184,9 @@ Each feed's effective region is resolved as: **`feed.region ?? site.region`**
 | `npm run ci`                                                                  | —                                          | CI pipeline (validate:json + validate:opml + generate + diff)                                                                                                                                                                               |
 | `npm run fix:stale`                                                           | `scripts/utils/fix-stale-feeds.js`         | Bulk fix active feeds with stale item dates → marks them `stale`                                                                                                                                                                           |
 | `npm run lint`                                                                | —                                          | ESLint check                                                                                                                                                                                                                                |
-| `node scripts/utils/find-duplicates.js`                                       | `scripts/utils/find-duplicates.js`         | Detect duplicate site URLs, rss_urls, root domains, and IDs                                                                                                                                                                                 |
-| `node scripts/utils/find-duplicates.js --verbose`                             | same                                       | Same with clickable file:line links for each result                                                                                                                                                                                         |
+| `node scripts/utils/find-duplicates.js`                                       | `scripts/utils/find-duplicates.js`         | Detect duplicate site URLs, rss_urls, root domains, and IDs (exits with code 1 if any are found) |
+| `node scripts/utils/find-duplicates.js --verbose`                             | same                                       | Same with clickable file:line links for each result                                                 |
+| `npm run check:duplicates`                                                    | `scripts/utils/find-duplicates.js`         | Same as above (used by CI)                                                                           |
 | `node scripts/utils/add-site-subfeeds.js`                                     | `scripts/utils/add-site-subfeeds.js`       | Add missing Google News + Bing News `site:` subfeeds to all eligible sites/watchlist entries                                                                                                                                                |
 | `node scripts/utils/add-site-subfeeds.js --dry-run`                           | same                                       | Preview only, no file writes                                                                                                                                                                                                                |
 | `node scripts/utils/add-site-subfeeds.js --file database\|watchlist\|all`     | same                                       | Limit to which files to process (default: all)                                                                                                                                                                                              |
@@ -194,6 +195,17 @@ Each feed's effective region is resolved as: **`feed.region ?? site.region`**
 | `node scripts/utils/add-site-subfeeds.js --limit <N>`                         | same                                       | Process the first N entries                                                                                                                                                                                                                 |
 | `node scripts/utils/add-site-subfeeds.js --start-id <id> [--limit <N>]`       | same                                       | Start from an entry ID onward, optionally limit                                                                                                                                                                                             |
 | `node scripts/utils/add-site-subfeeds.js --total-mode delta\|recalculate`     | same                                       | `delta`: fast increment (default); `recalculate`: recount all active feeds                                                                                                                                                                  |
+| `npm run check:overlap`                                                       | `scripts/utils/check-feed-overlap.js`      | Detect subfeeds that duplicate content from other feeds in the same site via item overlap analysis                                                                                                                                          |
+| `npm run check:overlap -- --id <site-id>`                                    | same                                       | Check overlap for a single site                                                                                                                                                                                                            |
+| `npm run check:overlap -- --from <N> --to <N>`                               | same                                       | Check overlap for a numeric range of sites                                                                                                                                                                                                 |
+| `npm run check:overlap -- --limit <N>`                                       | same                                       | Check overlap for the first N sites                                                                                                                                                                                                        |
+| `npm run check:overlap -- --start-id <id> [--limit <N>]`                     | same                                       | Start from a site ID onward, optionally limit                                                                                                                                                                                              |
+| `npm run check:overlap -- --threshold <0-1>`                                 | same                                       | Custom overlap threshold (default: 0.85 = 85%)                                                                                                                                                                                            |
+| `npm run check:overlap -- --update`                                          | same                                       | Mark duplicate feeds as status "duplicate", verified false, with `duplicate_of` field                                                                                                                                                      |
+| `npm run check:overlap -- --automatic`                                       | same                                       | Read-only, no prompts (CI/pre-commit)                                                                                                                                                                                                      |
+| `node scripts/utils/verify-feeds.js <feeds.json>`                            | `scripts/utils/verify-feeds.js`            | Verify RSS/Atom feeds from a JSON list of {name, url} objects                                                                                                                                                                             |
+| `node scripts/utils/verify-feeds.js <URL>`                                   | same                                       | Verify a single feed URL directly                                                                                                                                                                                                          |
+| `node scripts/utils/standardize-feed-keys.js`                                | `scripts/utils/standardize-feed-keys.js`   | Reorder feed object keys to canonical order in `feeds-database.json`                                                                                                                                                                       |
 | `node scripts/utils/discover-category-feeds.js`                               | `scripts/utils/discover-category-feeds.js` | Discover WP category feeds for all sites via REST API; discovered feeds include `url` pointing to the category/section page (not site root)                                                                                                 |
 | `node scripts/utils/discover-category-feeds.js --id <site-id>`                | same                                       | Discover category feeds for a single site                                                                                                                                                                                                   |
 | `node scripts/utils/discover-category-feeds.js --min-posts <N>`               | same                                       | Only include categories with ≥ N posts (default: 1)                                                                                                                                                                                         |
@@ -221,14 +233,17 @@ scripts/
     discover-category-feeds.js — discover WP category feeds via REST API; flags: --id, --min-posts, --update, --dry-run, --from/--to, --limit, --start-id
     fix-stale-feeds.js   — bulk fix active feeds with stale item dates → marks them stale
     standardize-feed-keys.js — reorder feed object keys to canonical order
+    check-feed-overlap.js — detect subfeeds duplicating content via item overlap; flags: --id, --from/--to, --limit, --start-id, --threshold, --update, --automatic
 lib/
   feed-validator.js       — core RSS/Atom/JSON/RDF parsing: fetchSafe (with retry), checkFeedUrl, detectFeedType, getMostRecentDate, readResponseBody, xmlParser, MAX_RESPONSE_BYTES, DEFAULT_OPTIONS
   network-utils.js        — low-level network: checkSiteStatus, checkSiteReachable, tryFetchFeedInsecure, isValidUrl
   feed-rediscovery.js     — feed rediscovery: extractFeedLinksFromHtml, rediscoverFeed (5-stage, dedup via Set), FEED_PATTERNS, parseSitemapXml, extractSectionFromSitemap, clearHomepageCache
+  feed-overlap.js         — overlap detection: normalizeItemKey, keySet, containmentRatio, findDuplicate
+  browser-fallback.js     — headless-browser feed verification: fetchWithBrowser (Playwright, optional dep), closeBrowser
   watchlist-validator.js  — watchlist validation pipeline: validateWatchlistEntry, promoteToSite
   prompter.js             — interactive prompts: promptUser, promptUrl, promptStatus, isAutomatic
   rate-limiter.js         — rate limiter: acquireSlot/releaseSlot con semáforo global (max 5 concurrentes) + delay mínimo por dominio (2s)
-  feed-utils.js           — shared utilities: extractSelfLink, pathsMatch, daysSince, isStale, formatError, recalculateTotalFeeds, getDomain, STALE_THRESHOLD_DAYS, ALLOWED_STATUSES, BROKEN_ERRORS
+  feed-utils.js           — shared utilities: extractSelfLink, pathsMatch, daysSince, isStale, formatError, recalculateTotalFeeds, getDomain, STALE_THRESHOLD_DAYS, ALLOWED_STATUSES, BROKEN_ERRORS, DUPLICATE_OVERLAP_THRESHOLD
   cli-args.js             — shared CLI arg parsing: parseArgs(extraFlags), applyFilters, applyFiltersSites
 ```
 
@@ -266,6 +281,12 @@ discover-category-feeds.js (discover WP category feeds)
 add-site-subfeeds.js (add Google News + Bing News proxy subfeeds)
   lib/cli-args.js        (parseArgs, applyFilters)
   lib/feed-utils.js      (recalculateTotalFeeds)
+check-feed-overlap.js (detect subfeed content duplication via item overlap)
+  lib/cli-args.js        (parseArgs, applyFiltersSites)
+  lib/feed-validator.js  (checkFeedUrl)
+  lib/feed-overlap.js    (findDuplicate, containmentRatio, keySet, normalizeItemKey)
+  lib/feed-utils.js      (DUPLICATE_OVERLAP_THRESHOLD, recalculateTotalFeeds)
+  lib/prompter.js        (isAutomatic, promptUser)
 ```
 
 ## Shared utilities
@@ -282,12 +303,13 @@ add-site-subfeeds.js (add Google News + Bing News proxy subfeeds)
 | `STALE_THRESHOLD_DAYS`      | `30` days constant                                                                                               | `validate_feeds.js`, `watchlist-validator.js`, `discover-category-feeds.js`   |
 | `ALLOWED_STATUSES`          | `['active', 'stale', 'broken', 'offline', 'no_feed', 'feed_empty']`                                              | `validate-json.js`                                                            |
 | `BROKEN_ERRORS`             | `['HTML (no es feed)', 'no es RSS/Atom', 'sin canal', 'XML inválido', 'items sin contenido válido']`              | `validate_feeds.js`                                                           |
+| `DUPLICATE_OVERLAP_THRESHOLD` | `0.85` — minimum containment ratio to flag a feed as duplicate                                              | `check-feed-overlap.js`, `feed-overlap.js`                                    |
 
 | Function                         | lib/cli-args.js                                                                                                                              | Used by                                                                                            |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| `parseArgs(argv, extraFlags?)`   | Parses `--id`, `--from`, `--to`, `--limit`, `--start-id`, `--update`, `--dry-run`, `--automatic`, `--verbose` + custom flags with validation | `validate_feeds.js`, `validate-watchlist.js`, `discover-category-feeds.js`, `add-site-subfeeds.js` |
+| `parseArgs(argv, extraFlags?)`   | Parses `--id`, `--from`, `--to`, `--limit`, `--start-id`, `--update`, `--dry-run`, `--automatic`, `--verbose` + custom flags with validation | `validate_feeds.js`, `validate-watchlist.js`, `discover-category-feeds.js`, `add-site-subfeeds.js`, `check-feed-overlap.js` |
 | `applyFilters(entries, args)`    | Filters array by `id`, `startId`, `from`, `to`, `limit`                                                                                      | `validate-watchlist.js`, `add-site-subfeeds.js`                                                    |
-| `applyFiltersSites(sites, args)` | Same as applyFilters but with `--from`/`--to` combined-range logic + site-specific error messages                                            | `validate_feeds.js`, `discover-category-feeds.js`                                                  |
+| `applyFiltersSites(sites, args)` | Same as applyFilters but with `--from`/`--to` combined-range logic + site-specific error messages                                            | `validate_feeds.js`, `discover-category-feeds.js`, `check-feed-overlap.js`                          |
 
 ## Watchlist promotion flow
 
@@ -314,6 +336,7 @@ watchlist entry {id, name, url, category, reason, description, feeds: []}
 | `broken`     | Feed URL responds with invalid content (HTML, broken XML, empty) and rediscovery failed | ❌ No             |
 | `offline`    | The site itself is unreachable (DNS, timeout, connection error)                         | ❌ No             |
 | `no_feed`    | Site responds but feed URL gives HTTP error and no replacement was found                | ❌ No             |
+| `duplicate`  | Feed overlaps ≥85% items with another feed in the same site (via `check:overlap`)       | ❌ No             |
 
 Only feeds with `status: "active"` and `verified: true` appear in generated outputs.
 
@@ -323,7 +346,7 @@ Only feeds with `status: "active"` and `verified: true` appear in generated outp
 
 Triggered on PRs touching data files (`feeds-database.json`, `categories.json`, `regions.json`, `watchlist.json`), or manually via `workflow_dispatch`.
 
-Runs `npm run ci` — validates JSON structure + OPML syntax + generates outputs + checks `git diff --exit-code`.
+Runs `npm run ci` — validates JSON structure + duplicate detection + OPML syntax + generates outputs + checks `git diff --exit-code`.
 
 ### `validate-links.yml` (manual only)
 
@@ -365,6 +388,16 @@ Then in `validate_feeds.js`:
 - If not found → mark `status: "no_feed"`
 
 ## Network resilience
+
+- **Bot-block handling**: HTTP `403`/`429` on a feed are treated as anti-bot
+  blocks, not feed failures. `validate_feeds.js` skips rediscovery (it would
+  fail the same way), keeps the feed's current status unchanged, and reports
+  them as "🚫 Bloqueado bot" in the summary. This prevents CI from wrongly
+  marking bot-blocked feeds as `no_feed`/`broken`. With `--update`, it first
+  tries `fetchWithBrowser` (Playwright, optional dependency) to resolve passive
+  Cloudflare challenges and verify the feed; 2 browser attempts per site before
+  giving up. Install the browser with `npm run install:browser`. Interactive
+  challenges (Turnstile) are not auto-resolvable — those stay "Bloqueado bot".
 
 All HTTP requests are handled by `fetchSafe` which:
 

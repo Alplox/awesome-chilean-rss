@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Aysén (38 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Aysén (34 feeds)</title>
     <description>Feeds RSS de la Región de Aysén, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-13T23:20:51.412Z</dateCreated>
+    <dateCreated>2026-08-20T00:37:25.262Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -12,15 +12,12 @@
     <outline type="rss" text="Aysén Ahora - Cultura" title="Aysén Ahora - Cultura" description="Feed de la categoría 'Cultura' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/cultura/feed/" htmlUrl="https://www.aysenahora.cl/category/cultura/"/>
     <outline type="rss" text="Aysén Ahora - Deporte" title="Aysén Ahora - Deporte" description="Feed de la categoría 'Deporte' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/deporte/feed/" htmlUrl="https://www.aysenahora.cl/category/deporte/"/>
     <outline type="rss" text="Aysén Ahora - Nacional" title="Aysén Ahora - Nacional" description="Feed de la categoría 'Nacional' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/nacional/feed/" htmlUrl="https://www.aysenahora.cl/category/nacional/"/>
-    <outline type="rss" text="Aysén Ahora - Noticias" title="Aysén Ahora - Noticias" description="Feed de la categoría 'Noticias' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/noticias/feed/" htmlUrl="https://www.aysenahora.cl/category/noticias/"/>
     <outline type="rss" text="Aysén Ahora - Política" title="Aysén Ahora - Política" description="Feed de la categoría 'Política' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/politica/feed/" htmlUrl="https://www.aysenahora.cl/category/politica/"/>
-    <outline type="rss" text="Aysén Ahora - Regional" title="Aysén Ahora - Regional" description="Feed de la categoría 'Regional' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/regional/feed/" htmlUrl="https://www.aysenahora.cl/category/regional/"/>
     <outline type="rss" text="Aysén Ahora [Proxy Google News]" title="Aysén Ahora [Proxy Google News]" description="Resultados de site:aysenahora.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Google News - Chile - Región Aysén" title="Google News - Chile - Región Aysén" description="Noticias locales de la Región de Aysén vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Radio Santa María" title="Radio Santa María" description="Medio de comunicación de la Región de Aysén" xmlUrl="https://www.radiosantamaria.cl/feed" htmlUrl="https://www.radiosantamaria.cl"/>
     <outline type="rss" text="Radio Santa María - Cultura" title="Radio Santa María - Cultura" description="Feed de la categoría 'Cultura' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/cultura/feed/" htmlUrl="https://www.radiosantamaria.cl/category/cultura/"/>
     <outline type="rss" text="Radio Santa María - Deportes" title="Radio Santa María - Deportes" description="Feed de la categoría 'Deportes' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/deportes/feed/" htmlUrl="https://www.radiosantamaria.cl/category/deportes/"/>
-    <outline type="rss" text="Radio Santa María - Destacado" title="Radio Santa María - Destacado" description="Feed de la categoría 'Destacado' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/destacado/feed/" htmlUrl="https://www.radiosantamaria.cl/category/destacado/"/>
     <outline type="rss" text="Radio Santa María - Educación" title="Radio Santa María - Educación" description="Feed de la categoría 'Educación' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/educacion/feed/" htmlUrl="https://www.radiosantamaria.cl/category/educacion/"/>
     <outline type="rss" text="Radio Santa María - Iglesia" title="Radio Santa María - Iglesia" description="Feed de la categoría 'Iglesia' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/iglesia/feed/" htmlUrl="https://www.radiosantamaria.cl/category/iglesia/"/>
     <outline type="rss" text="Radio Santa María - Judicial" title="Radio Santa María - Judicial" description="Feed de la categoría 'Judicial' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/judicial/feed/" htmlUrl="https://www.radiosantamaria.cl/category/judicial/"/>
@@ -32,7 +29,6 @@
     <outline type="rss" text="Radio Santa María [Proxy Bing News]" title="Radio Santa María [Proxy Bing News]" description="Resultados de site:radiosantamaria.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radiosantamaria.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radiosantamaria.cl"/>
     <outline type="rss" text="Radio Santa María [Proxy Google News]" title="Radio Santa María [Proxy Google News]" description="Resultados de site:radiosantamaria.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiosantamaria.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiosantamaria.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Radio Ventisqueros" title="Radio Ventisqueros" description="Medio de comunicación de la Región de Aysén" xmlUrl="https://www.radioventisqueros.cl/feed" htmlUrl="https://www.radioventisqueros.cl"/>
-    <outline type="rss" text="Radio Ventisqueros - Regional" title="Radio Ventisqueros - Regional" description="Feed de la categoría 'Regional' en Radio Ventisqueros" xmlUrl="https://www.radioventisqueros.cl/category/regional/feed/" htmlUrl="https://www.radioventisqueros.cl/category/regional/"/>
     <outline type="rss" text="Radio Ventisqueros [Proxy Google News]" title="Radio Ventisqueros [Proxy Google News]" description="Resultados de site:radioventisqueros.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radioventisqueros.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radioventisqueros.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="RLN" title="RLN" description="Radio regional ubicada en el 102.9 MHz del dial FM en Puerto Aysén" xmlUrl="https://www.rln.cl/feed/" htmlUrl="https://www.rln.cl"/>
     <outline type="rss" text="RLN (Radio Las Nieves) - Cultura Y Espectáculos" title="RLN (Radio Las Nieves) - Cultura Y Espectáculos" description="Feed de la categoría 'Cultura Y Espectáculos' en RLN (Radio Las Nieves)" xmlUrl="https://www.rln.cl/category/culturayespectaculos/feed/" htmlUrl="https://www.rln.cl/category/culturayespectaculos/"/>
