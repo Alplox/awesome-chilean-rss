@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ✍️ Blogs Personales (5 feeds)</title>
+    <title>Awesome Chilean RSS - ✍️ Blogs Personales (7 feeds)</title>
     <description>Feeds RSS de ✍️ Blogs Personales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-20T00:37:25.262Z</dateCreated>
+    <dateCreated>2026-08-20T02:39:59.314Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline text="✍️ Blogs Personales" title="✍️ Blogs Personales">
       <outline type="rss" text="José Joaquín Brunner" title="José Joaquín Brunner" description="Blog personal del académico y exministro José Joaquín Brunner, con artículos sobre educación y análisis de la realidad chilena" xmlUrl="https://brunner.cl/feed/" htmlUrl="https://brunner.cl/"/>
+      <outline type="rss" text="José Joaquín Brunner - Columnas De Opinión" title="José Joaquín Brunner - Columnas De Opinión" description="Feed de la categoría 'Columnas De Opinión' en José Joaquín Brunner" xmlUrl="https://brunner.cl/category/columnas/feed/" htmlUrl="https://brunner.cl/category/columnas/"/>
       <outline type="rss" text="José Joaquín Brunner - Comunicaciones" title="José Joaquín Brunner - Comunicaciones" description="Feed de la categoría 'Comunicaciones' en José Joaquín Brunner" xmlUrl="https://brunner.cl/category/comunicaciones/feed/" htmlUrl="https://brunner.cl/category/comunicaciones/"/>
       <outline type="rss" text="José Joaquín Brunner - Documentos De Interés" title="José Joaquín Brunner - Documentos De Interés" description="Feed de la categoría 'Documentos De Interés' en José Joaquín Brunner" xmlUrl="https://brunner.cl/category/documentos_de_interes/feed/" htmlUrl="https://brunner.cl/category/documentos_de_interes/"/>
       <outline type="rss" text="José Joaquín Brunner - El Mostrador" title="José Joaquín Brunner - El Mostrador" description="Feed de la categoría 'El Mostrador' en José Joaquín Brunner" xmlUrl="https://brunner.cl/category/el-mostrador/feed/" htmlUrl="https://brunner.cl/category/el-mostrador/"/>
+      <outline type="rss" text="José Joaquín Brunner - Entrevistas" title="José Joaquín Brunner - Entrevistas" description="Feed de la categoría 'Entrevistas' en José Joaquín Brunner" xmlUrl="https://brunner.cl/category/entrevistas/feed/" htmlUrl="https://brunner.cl/category/entrevistas/"/>
       <outline type="rss" text="José Joaquín Brunner [Proxy Google News]" title="José Joaquín Brunner [Proxy Google News]" description="Resultados de site:brunner.cl/ en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:brunner.cl/&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:brunner.cl/&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     </outline>
   </body>
