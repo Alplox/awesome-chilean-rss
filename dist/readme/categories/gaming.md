@@ -1,0 +1,102 @@
+### Videojuegos y Gaming
+
+[↑ Volver al índice](../../../README.md#índice-de-categorías)
+
+*Descargar OPML: [`gaming.opml`](../../opml/categories/gaming.opml) - 13 sitios, 83 feeds*
+
+- **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
+  - Alerta Geek Chile - Videojuegos: `https://alertageekchile.cl/category/videojuegos/feed/`
+  - Alerta Geek Chile - Nintendo: `https://alertageekchile.cl/category/nintendo/feed/`
+  - Alerta Geek Chile - Playstation: `https://alertageekchile.cl/category/playstation/feed/`
+  - Alerta Geek Chile - League Of Legends: `https://alertageekchile.cl/category/league-of-legends/feed/`
+  - Alerta Geek Chile - Xbox: `https://alertageekchile.cl/category/xbox/feed/`
+  - Alerta Geek Chile - Pokémon: `https://alertageekchile.cl/category/pokemon/feed/`
+  - Alerta Geek Chile - Riot Games: `https://alertageekchile.cl/category/riot-games/feed/`
+  - Alerta Geek Chile - Pc: `https://alertageekchile.cl/category/pc/feed/`
+  - Alerta Geek Chile - Valorant: `https://alertageekchile.cl/category/valorant/feed/`
+  - Alerta Geek Chile - Juegos Móviles: `https://alertageekchile.cl/category/juegos-moviles/feed/`
+  - Alerta Geek Chile - Gaming: `https://alertageekchile.cl/category/gaming/feed/`
+- **Colemono** — Comunidad chilena de videojuegos de culto y retro
+  - Colemono: `https://colemono.com/feed/`
+  - Colemono - Multi: `https://colemono.com/category/noticias/multi/feed/`
+  - Colemono - Industria: `https://colemono.com/category/noticias/industria/feed/`
+  - Colemono - Secciones: `https://colemono.com/category/secciones/feed/`
+  - Colemono - Independiente: `https://colemono.com/category/noticias/independiente/feed/`
+  - Colemono - Pc: `https://colemono.com/category/noticias/pc/feed/`
+  - Colemono - Dlc / Expansión: `https://colemono.com/category/noticias/dlc/feed/`
+  - Colemono - Nintendo: `https://colemono.com/category/noticias/nintendo/feed/`
+  - Colemono - Retro: `https://colemono.com/category/noticias/retro/feed/`
+  - Colemono - Playstation: `https://colemono.com/category/noticias/playstation/feed/`
+  - Colemono - Xbox: `https://colemono.com/category/noticias/xbox/feed/`
+  - Colemono - Hardware: `https://colemono.com/category/noticias/hardware/feed/`
+  - Colemono - Janson: `https://colemono.com/category/secciones/janson/feed/`
+  - Colemono - Exprés: `https://colemono.com/category/secciones/expres/feed/`
+  - Colemono - Bazar Podcast: `https://colemono.com/category/secciones/bazar-podcast/feed/`
+  - Colemono - Monoticias: `https://colemono.com/category/secciones/monoticias/feed/`
+  - Colemono - Móviles: `https://colemono.com/category/noticias/moviles/feed/`
+  - Colemono - Lanzamientos: `https://colemono.com/category/noticias/lanzamientos/feed/`
+  - Colemono - Monoclub: `https://colemono.com/category/secciones/monoclub/feed/`
+  - Colemono - Cachilupi: `https://colemono.com/category/secciones/cachilupi/feed/`
+  - Colemono - Peor Juego De Universo: `https://colemono.com/category/secciones/peor-juego-de-universo/feed/`
+  - Colemono [Proxy Google News]: `https://news.google.com/rss/search?q=site:colemono.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **El Clarín de Chile**: Feed de la categoría 'Redes y Juegos' en El Clarín de Chile
+  - RSS: `https://www.elclarin.cl/category/tendencias/juegos-y-redes/feed/`
+- **Espacio Gamer**: Resultados de site:espaciogamer.cl en Proxy Google News de noticias Chilenas
+  - RSS: `https://news.google.com/rss/search?q=site:espaciogamer.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **GamerChile** — Portal chileno de videojuegos, noticias y análisis del mundo gamer
+  - GamerChile - Posts: `https://gamerchile.com/posts.rss`
+  - GamerChile - Latest: `https://gamerchile.com/latest.rss`
+- **Gamers Forever**: Resultados de site:gamersforever.cl en Proxy Google News de noticias Chilenas
+  - RSS: `https://news.google.com/rss/search?q=site:gamersforever.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **ITseller Chile**: Feed de la categoría 'Gaming' en ITseller Chile
+  - RSS: `https://www.itseller.cl/category/productos/gaming/feed/`
+- **LanCenter**: Feed principal de LanCenter
+  - RSS: `https://lancenter.cl/feed/`
+- **MadboxPC** — Portal chileno enfocado en software, videojuegos, hardware y cultura de internet
+  - MADBOXPC: `https://www.madboxpc.com/feed/`
+  - MADBOXPC - Reviews: `https://www.madboxpc.com/category/reviews/feed/`
+  - MADBOXPC - Articulos: `https://www.madboxpc.com/category/articulos/feed/`
+  - MadboxPC - Lanzamientos: `https://www.madboxpc.com/category/lanzamientos/feed/`
+  - MadboxPC - Gamers: `https://www.madboxpc.com/category/gamers/feed/`
+  - MadboxPC - Software: `https://www.madboxpc.com/category/software/feed/`
+  - MadboxPC - Tarjetas De Video: `https://www.madboxpc.com/category/tarjetas-de-video/feed/`
+  - MadboxPC - Empresas: `https://www.madboxpc.com/category/empresas/feed/`
+  - MadboxPC - Procesadores: `https://www.madboxpc.com/category/procesadores/feed/`
+  - MadboxPC - Internet: `https://www.madboxpc.com/category/internet/feed/`
+  - MadboxPC - Videojuegos: `https://www.madboxpc.com/category/videojuegos/feed/`
+  - MadboxPC - Almacenamiento: `https://www.madboxpc.com/category/almacenamiento/feed/`
+  - MadboxPC - Computadores: `https://www.madboxpc.com/category/computadores/feed/`
+  - MadboxPC - Notebooks: `https://www.madboxpc.com/category/notebooks/feed/`
+  - MadboxPC - Placas Madre: `https://www.madboxpc.com/category/placas-madres/feed/`
+  - MadboxPC - Periféricos: `https://www.madboxpc.com/category/perifericos/feed/`
+  - MadboxPC - Gadgets: `https://www.madboxpc.com/category/gadgets/feed/`
+  - MadboxPC - Ai: `https://www.madboxpc.com/category/ai/feed/`
+  - MadboxPC - Smartphones: `https://www.madboxpc.com/category/smartphones/feed/`
+  - MadboxPC - Memorias Ram: `https://www.madboxpc.com/category/memorias-ram/feed/`
+  - MadboxPC - Refrigeración: `https://www.madboxpc.com/category/refrigeracion/feed/`
+  - MadboxPC - Corporativo: `https://www.madboxpc.com/category/corp/feed/`
+  - MadboxPC - Audio: `https://www.madboxpc.com/category/audio/feed/`
+  - MadboxPC - Redes: `https://www.madboxpc.com/category/redes/feed/`
+  - MadboxPC - Fotografía: `https://www.madboxpc.com/category/fotografia-contenidos/feed/`
+  - MadboxPC - Fuentes De Poder: `https://www.madboxpc.com/category/fuentes-de-poder/feed/`
+  - MadboxPC - Gabinetes: `https://www.madboxpc.com/category/gabinetes/feed/`
+  - MadboxPC - Google: `https://www.madboxpc.com/category/google/feed/`
+  - MadboxPC - Featured: `https://www.madboxpc.com/category/featured/feed/`
+  - MadboxPC [Proxy Google News]: `https://news.google.com/rss/search?q=site:madboxpc.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Pisapapeles**: Feed de la categoría 'Juegos' en Pisapapeles
+  - RSS: `https://pisapapeles.net/category/juegos/feed/`
+- **SoloGamer** — Comunidad chilena de videojuegos y entretención digital
+  - SoloGamer: `https://sologamer.cl/feed/`
+  - SoloGamer - Unboxing y Reviews: `https://sologamer.cl/category/unboxing-reviews/feed/`
+  - SoloGamer - Juegos: `https://sologamer.cl/category/juegos/feed/`
+  - SoloGamer - Entrevistas: `https://sologamer.cl/category/entrevistas/feed/`
+  - SoloGamer [Proxy Google News]: `https://news.google.com/rss/search?q=site:sologamer.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Tarreo** — Portal de videojuegos, hardware y cultura digital chileno
+  - Tarreo Gamer: `https://www.tarreo.com/feed/`
+  - Tarreo - Mastodon.cl BOT: `https://mastodon.cl/@tarreo.rss`
+  - Tarreo [Proxy Google News]: `https://news.google.com/rss/search?q=site:tarreo.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Vanguardia Gamer** — Comunidad y noticias de videojuegos en Chile
+  - Vanguardia Gamer: `https://vanguardiagamer.cl/feed/`
+  - Vanguardia Gamer - Hecho En Chile: `https://vanguardiagamer.cl/category/noticias/hecho-en-chile/feed/`
+  - Vanguardia Gamer - Opinión: `https://vanguardiagamer.cl/category/opinion/feed/`
+  - Vanguardia Gamer [Proxy Google News]: `https://news.google.com/rss/search?q=site:vanguardiagamer.cl&hl=es-419&gl=CL&ceid=CL:es-419`

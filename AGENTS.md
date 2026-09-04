@@ -23,6 +23,7 @@ These generate:
 - `dist/opml/categories/*-without-category.opml` (individual category OPMLs, flat — sin agrupación, e.g., `dist/opml/categories/news-without-category.opml`)
 - `README.md` (GitHub listing, with regional feeds grouped under regional subheaders)
 - `dist/bookmarks/awesome-chilean-rss.html` (Netscape Bookmark HTML — compatible con navegadores, para importar feeds como favoritos)
+- `dist/readme/categories/*.md` (listados completos por categoría enlazados desde los desplegables del README; evita superar el límite de renderizado de GitHub)
 
 - Node.js >= 18.13, ES modules (`"type": "module"`)
 - No frontend — pure CLI tooling

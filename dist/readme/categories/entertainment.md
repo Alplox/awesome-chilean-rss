@@ -1,0 +1,202 @@
+### Espectáculos y Entretención
+
+[↑ Volver al índice](../../../README.md#índice-de-categorías)
+
+*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 53 sitios, 143 feeds*
+
+- **Alerta Geek Chile**: Feed de la categoría 'Series' en Alerta Geek Chile
+  - RSS: `https://alertageekchile.cl/category/series/feed/`
+- **Antofacity**: Feed de la categoría 'Espectáculos y Entretención' en Antofacity
+  - RSS: `https://antofacity.com/category/esp_y_ent/feed/`
+- **Atacama Noticias**: Feed de la categoría 'Tv y Espectáculo' en Atacama Noticias
+  - RSS: `https://www.atacamanoticias.cl/category/tv-y-espectaculo/feed/`
+- **AutoNoticias Chile** — Medio especializado en noticias y análisis de la industria automotriz chilena y mundial
+  - AutoNoticias Chile: `https://autonoticias.cl/feed/`
+  - AutoNoticias Chile - Destacados: `https://autonoticias.cl/category/featured/feed/`
+  - AutoNoticias Chile - Novedades: `https://autonoticias.cl/category/novedades/feed/`
+  - AutoNoticias Chile - Conceptual: `https://autonoticias.cl/category/conceptual/feed/`
+  - AutoNoticias Chile - Youtube: `https://autonoticias.cl/category/youtube/feed/`
+  - AutoNoticias Chile - Reportajes: `https://autonoticias.cl/category/reportajes/feed/`
+  - AutoNoticias Chile - Autos Con Historia: `https://autonoticias.cl/category/autos-con-historia/feed/`
+- **Blaster Chile** — Medio digital especializado en música, cómics, anime y cultura pop, con noticias, entrevistas, reseñas y cobertura de espectáculos
+  - Blaster Chile: `https://www.blaster.cl/feed/`
+  - Blaster Chile - Metal: `https://www.blaster.cl/category/noticias/metal/feed/`
+  - Blaster Chile - Conciertos: `https://www.blaster.cl/category/espectaculos/conciertos/feed/`
+  - Blaster Chile - Rock: `https://www.blaster.cl/category/noticias/rock/feed/`
+  - Blaster Chile - Anime Y Comics: `https://www.blaster.cl/category/noticias/animeycomics/feed/`
+  - Blaster Chile - Espectáculos: `https://www.blaster.cl/category/espectaculos/feed/`
+  - Blaster Chile - Otros Estilos: `https://www.blaster.cl/category/noticias/varios/feed/`
+  - Blaster Chile - Alternativo: `https://www.blaster.cl/category/noticias/alternativo/feed/`
+  - Blaster Chile - Clásicos: `https://www.blaster.cl/category/noticias/clasicos/feed/`
+  - Blaster Chile - Varios: `https://www.blaster.cl/category/reviews/feed/`
+  - Blaster Chile - Películas Y Series: `https://www.blaster.cl/category/reviews/peliculas/feed/`
+  - Blaster Chile - Discos: `https://www.blaster.cl/category/reviews/discos/feed/`
+  - Blaster Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:blaster.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Calama en Línea**: Feed de la categoría 'Entretención' en Calama en Línea
+  - RSS: `https://noticias.calamaenlinea.cl/category/entretencion/feed/`
+- **Chicureo Hoy**: Feed de la categoría 'Entretenimiento' en Chicureo Hoy
+  - RSS: `https://www.chicureohoy.cl/panoramas/feed/`
+- **Colemono** — Comunidad chilena de videojuegos de culto y retro
+  - Colemono - Rumores / Especulación: `https://colemono.com/category/noticias/rumores/feed/`
+  - Colemono - Entretenimiento: `https://colemono.com/category/noticias/entretenimiento/feed/`
+- **CriptoNoticias Chile**: Feed de la categoría 'Entretenimiento' en CriptoNoticias Chile
+  - RSS: `https://www.criptonoticias.com/categorias/comunidad/entretenimiento/feed/`
+- **Diario Angamos**: Feed de la categoría 'Espectáculos Y Cultura' en Diario Angamos
+  - RSS: `https://diarioangamos.com/categorías/espectaculos/feed/`
+- **Diario Sur Noticias**: Feed de la categoría 'Espectáculos y Tv' en Diario Sur Noticias
+  - RSS: `https://www.diariosurnoticias.com/espectaculos-y-tv/feed/`
+- **Duplos** — Diario regional de Santiago, Metropolitana
+  - Duplos - Entretenimiento: `https://duplos.cl/entretenimiento/feed/`
+  - Duplos - Espectáculos: `https://duplos.cl/espectaculos/feed/`
+- **El América** — Diario regional de Calama, Antofagasta
+  - El América - Television: `https://elamerica.cl/category/television/feed/`
+  - El América - Noticias Tv: `https://elamerica.cl/category/noticias-tv/feed/`
+- **El Diario de La Araucanía**: Feed de la categoría 'Entretenimiento' en El Diario de La Araucanía
+  - RSS: `https://www.eldiariodelaaraucania.cl/category/entretenimiento/feed/`
+- **El Informador Chile**: Feed de la categoría 'Farándula' en El Informador Chile
+  - RSS: `https://www.elinformadorchile.cl/category/farandula/feed/`
+- **El Insular**: Feed de la categoría 'Entretención' en El Insular
+  - RSS: `https://elinsular.cl/category/entretencion/feed/`
+- **El Morro de Arica**: Feed de la categoría 'Espectáculos' en El Morro de Arica
+  - RSS: `https://elmorrodearica.cl/category/espectaculos/feed/`
+- **El Nacional** — Diario venezolano de noticias nacionales e internacionales
+  - El Nacional - Entretenimiento: `https://www.elnacional.com/entretenimiento/feed/`
+  - El Nacional - Televisión: `https://www.elnacional.com/entretenimiento/television/feed/`
+  - El Nacional - Farándula: `https://www.elnacional.com/entretenimiento/farandula/feed/`
+- **El Reporte Diario** — Diario digital chileno de actualidad
+  - El Reporte Diario - Espectáculos: `https://reportediario.cl/category/espectaculos/feed/`
+  - El Reporte Diario - Cine Y Televisión: `https://reportediario.cl/category/cine-y-television/feed/`
+  - El Reporte Diario - Entretenimiento: `https://reportediario.cl/category/entretenimiento/feed/`
+  - El Reporte Diario - Farándula: `https://reportediario.cl/category/farandula/feed/`
+- **El Reportero de Iquique**: Feed de la categoría 'Cultura y Espectáculos' en El Reportero de Iquique
+  - RSS: `https://elreporterodeiquique.com/category/espectaculos/feed/`
+- **El Sol de Iquique**: Feed de la categoría 'Humor' en El Sol de Iquique
+  - RSS: `https://elsoldeiquique.cl/cultura/artes/humor/feed/`
+- **Epicentro Chile** — Diario regional de Valparaíso, Valparaíso
+  - Epicentro Chile - Espectáculos: `https://www.epicentrochile.com/espectaculos/feed/`
+  - Epicentro Chile - Juegos De Azar: `https://www.epicentrochile.com/juegos-de-azar/feed/`
+- **FM Dos** — Radio chilena FM Dos, música contemporánea
+  - FM Dos: `https://www.fmdos.cl/feed/`
+  - FM Dos [Proxy Google News]: `https://news.google.com/rss/search?q=site:fmdos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Fotech** — Portal chileno de música y entretención
+  - Fotech: `https://fotech.cl/feed/`
+  - Fotech - Televisión: `https://www.fotech.cl/category/television/feed/`
+  - Fotech - Tendencias: `https://www.fotech.cl/category/tendencias/feed/`
+  - Fotech - Teleseries: `https://www.fotech.cl/category/teleseries/feed/`
+  - Fotech - Teleseries Mega: `https://www.fotech.cl/category/teleseries/teleseries-mega/feed/`
+  - Fotech - Series: `https://www.fotech.cl/category/television/series/feed/`
+  - Fotech - Entrevistas: `https://www.fotech.cl/category/entrevistas/feed/`
+  - Fotech - Festival De Viña Del Mar: `https://www.fotech.cl/category/musica/vina/feed/`
+  - Fotech - Teleseries Internacionales: `https://www.fotech.cl/category/teleseries/teleseries-int/feed/`
+  - Fotech - Opinión: `https://www.fotech.cl/category/opinion/feed/`
+  - Fotech - Teletón: `https://www.fotech.cl/category/teleton/feed/`
+  - Fotech - Moda & Belleza: `https://www.fotech.cl/category/tendencias/moda-belleza/feed/`
+  - Fotech - Tiempo Libre: `https://www.fotech.cl/category/tendencias/tiempo-libre/feed/`
+  - Fotech - Sin Guion: `https://www.fotech.cl/category/podcasts/sin-guion/feed/`
+  - Fotech [Proxy Google News]: `https://news.google.com/rss/search?q=site:fotech.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Frontera Norte**: Feed de la categoría 'Entretenimiento' en Frontera Norte
+  - RSS: `https://www.fronteranorte.cl/category/cultura/feed/`
+- **Google News**: Sección Entretenimiento de Google News Chile
+  - RSS: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNREpxYW5RU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
+- **Ilustrado** — Medio de comunicación digital de noticias culturales y de entretenimiento
+  - Ilustrado: `https://www.ilustrado.cl/feed/`
+  - Ilustrado [Proxy Google News]: `https://news.google.com/rss/search?q=site:ilustrado.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **iRock.CL** — Portal chileno de rock y música, con noticias, conciertos, reviews y entrevistas nacionales e internacionales
+  - iRock.CL - Portada: `https://www.irock.cl/feed/`
+  - iRock.CL - News: `https://www.irock.cl/category/irock/feed/`
+  - iRock.CL - Rock: `https://www.irock.cl/category/destacado/rock/feed/`
+  - iRock.CL - Chile: `https://www.irock.cl/category/nacionales/feed/`
+  - iRock.CL - Conciertos: `https://www.irock.cl/category/conciertos/feed/`
+  - iRock.CL - Metal: `https://www.irock.cl/category/destacado/metal/feed/`
+  - iRock.CL - Panorama Nacional: `https://www.irock.cl/category/nacionales/panorama-nacional/feed/`
+  - iRock.CL - Prog / Jazz: `https://www.irock.cl/category/destacado/progjazz/feed/`
+  - iRock.CL - Live Review Internacional: `https://www.irock.cl/category/internacional/reviews/feed/`
+  - iRock.CL - Hxc / Punk: `https://www.irock.cl/category/destacado/xcore/feed/`
+  - iRock.CL - Rock Nacional Destacado (barra Lateral): `https://www.irock.cl/category/nacionales/irock-nacional-destacado/feed/`
+  - iRock.CL - Editorial: `https://www.irock.cl/category/articulos/feed/`
+  - iRock.CL - Funk / Reggae / Ska: `https://www.irock.cl/category/destacado/funk-reggae/feed/`
+  - iRock.CL - Live Review Nacional: `https://www.irock.cl/category/nacionales/review-tocatas/feed/`
+  - iRock.CL - Blues / Soul: `https://www.irock.cl/category/destacado/blues/feed/`
+  - iRock.CL - Indie / Pop: `https://www.irock.cl/category/destacado/indie-pop/feed/`
+  - iRock.CL - Series: `https://www.irock.cl/category/cine/series/feed/`
+  - iRock.CL - Hip Hop / Rap: `https://www.irock.cl/category/destacado/hip-hop-rap/feed/`
+  - iRock.CL - Programas: `https://www.irock.cl/category/programas/feed/`
+  - iRock.CL - Disco: `https://www.irock.cl/category/disco/feed/`
+  - iRock.CL - Hecho En Chile: `https://www.irock.cl/category/programas/hecho-en-chile/feed/`
+  - iRock.CL [Proxy Google News]: `https://news.google.com/rss/search?q=site:irock.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **La Batalla de Maipú**: Feed de la categoría 'Espectáculos' en La Batalla de Maipú
+  - RSS: `https://www.labatalla.cl/secciones/secciones/espectaculos/feed/`
+- **La Cuarta** — Diario de noticias de espectáculos, crónica, deportes, tendencias y entretención
+  - La Cuarta - Chile: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/chile/?outputType=xml`
+  - La Cuarta - Tendencias: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/tendencias/?outputType=xml`
+  - La Cuarta - Servicios: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/servicios/?outputType=xml`
+  - La Cuarta - Videos: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/videos/?outputType=xml`
+  - La Cuarta - Urbana: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/urbana/?outputType=xml`
+  - La Cuarta - Espectáculos: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/espectaculos/?outputType=xml`
+  - La Cuarta - Glamorama: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/glamorama/?outputType=xml`
+  - La Cuarta [Proxy Google News]: `https://news.google.com/rss/search?q=site:lacuarta.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - La Cuarta [Proxy Bing News]: `https://www.bing.com/news/search?q=site:lacuarta.com&format=RSS`
+- **La Prensa Austral**: Feed de la categoría 'Cultura y Espectáculos' en La Prensa Austral
+  - RSS: `https://laprensaaustral.cl/category/espectaculos/feed/`
+- **La Red** — Canal de televisión chileno La Red, noticias de espectáculos y programación
+  - La Red: `https://www.lared.cl/feed/`
+  - La Red [Proxy Google News]: `https://news.google.com/rss/search?q=site:lared.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **La Región Hoy**: Feed de la categoría 'Cultura y Espectáculos' en La Región Hoy
+  - RSS: `https://laregionhoy.cl/category/actualidad/culturayesp/feed/`
+- **Majos** — Blog de moda, lifestyle, tendencias y actualidad
+  - Majos: `https://majos.cl/feed/`
+  - Majos - Actualidad: `https://majos.cl/category/actualidad/feed/`
+  - Majos - Lanzamiento: `https://majos.cl/category/lanzamientos/feed/`
+  - Majos - Sabores: `https://majos.cl/category/sabores/feed/`
+  - Majos - Tips: `https://majos.cl/category/tips/feed/`
+  - Majos [Proxy Google News]: `https://news.google.com/rss/search?q=site:majos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Mediabanco**: Feed de la categoría 'Entretención' en Mediabanco
+  - RSS: `https://www.mediabanco.com/categoria/comunicados-de-prensa/entretencion/feed/`
+- **Nostálgica**: Feed de la categoría 'Espectáculos' en Nostálgica
+  - RSS: `https://www.nostalgica.cl/category/espectaculos/feed/`
+- **Ñuble Online**: Feed de la categoría 'Espectaculos' en Ñuble Online
+  - RSS: `https://nubleonline.cl/category/espectaculos/feed/`
+- **Parlante.cl** — Medio chileno de música y cultura pop
+  - Parlante.cl - Portada: `https://www.parlante.cl/?feed=rss2`
+  - Parlante.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:parlante.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Pisapapeles**: Feed de la categoría 'Rumores' en Pisapapeles
+  - RSS: `https://pisapapeles.net/category/rumores/feed/`
+- **Portal Metropolitano**: Feed de la categoría 'Entretención' en Portal Metropolitano
+  - RSS: `https://portalmetropolitano.cl/category/entretencion/feed/`
+- **Radio Contacto**: Feed de la categoría 'Entretenimiento' en Radio Contacto
+  - RSS: `https://radiocontacto.cl/category/entretenimiento/feed/`
+- **Radio Cooperativa**: Feed de la sección 'Entretención' en Radio Cooperativa
+  - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_4___1.xml`
+- **Radio Corazón** — Radio chilena de música popular
+  - Radio Corazón: `https://www.corazon.cl/feed`
+  - Radio Corazón - Videos: `https://www.corazon.cl/category/videos/feed/`
+  - Radio Corazón [Proxy Google News]: `https://news.google.com/rss/search?q=site:corazon.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Festival**: Feed de la categoría 'Entretención' en Radio Festival
+  - RSS: `https://www.radiofestival.cl/category/entretencion/feed/`
+- **RLN (Radio Las Nieves)**: Feed de la categoría 'Cultura Y Espectáculos' en RLN (Radio Las Nieves)
+  - RSS: `https://www.rln.cl/category/culturayespectaculos/feed/`
+- **Tecache** — Portal chileno de farándula, TV y espectáculos
+  - Tecache: `https://tecache.cl/home-4/feed/`
+  - Tecache - Farándula Chilena: `https://tecache.cl/seccion/farandula-chilena/feed/`
+  - Tecache - Televisión: `https://tecache.cl/seccion/tv/feed/`
+  - Tecache - Farándula Internacional: `https://tecache.cl/seccion/farandula-internacional/feed/`
+  - Tecache - Galerías: `https://tecache.cl/seccion/galerias/feed/`
+  - Tecache - Contingencia: `https://tecache.cl/seccion/contingencia/feed/`
+  - Tecache - Off Topic: `https://tecache.cl/seccion/general/feed/`
+  - Tecache [Proxy Google News]: `https://news.google.com/rss/search?q=site:tecache.cl/&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Tecache [Proxy Bing News]: `https://www.bing.com/news/search?q=site:tecache.cl/&format=RSS`
+- **Televitos**: Feed de la sección 'Series' en Televitos
+  - RSS: `https://televitos.com/feed/?category=series`
+- **Temuco Diario** — Diario regional de Temuco, La Araucanía
+  - Temuco Diario - Espectáculos: `https://temucodiario.cl/category/espectaculos/feed/`
+  - Temuco Diario - Entretención: `https://temucodiario.cl/category/entretencion/feed/`
+- **Tierramarillano**: Feed de la categoría 'Espectáculos' en Tierramarillano
+  - RSS: `https://tierramarillano.cl/category/espectaculos/feed/`
+- **Timeline**: Feed de la categoría 'Espectáculos' en Timeline
+  - RSS: `https://www.timeline.cl/category/espectaculos/feed/`
+- **Tus Noticias**: Feed de la categoría 'Espectaculos' en Tus Noticias
+  - RSS: `https://www.tusnoticias.cl/noticias/espectaculos/feed/`
+- **TXS Plus**: Feed de la categoría 'Entretención' en TXS Plus
+  - RSS: `https://txsplus.com/entretencion/feed/`
+- **VLN Radio**: Feed de la categoría 'Espectáculos Y Tv' en VLN Radio
+  - RSS: `https://www.vlnradio.cl/tendencias/espectaculos-y-tv/feed/`

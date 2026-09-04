@@ -1,0 +1,141 @@
+### Radio y Música
+
+[↑ Volver al índice](../../../README.md#índice-de-categorías)
+
+*Descargar OPML: [`radio.opml`](../../opml/categories/radio.opml) - 33 sitios, 102 feeds*
+
+- **Alerta Noticias Temuco**: Feed de la categoría 'Música' en Alerta Noticias Temuco
+  - RSS: `https://alertanoticiastemuco.cl/category/musica/feed/`
+- **Cadena Política**: Feed de la categoría 'Radio' en Cadena Política
+  - RSS: `https://cadenapolitica.com/category/radio/feed/`
+- **Duplos**: Feed de la categoría 'Música' en Duplos
+  - RSS: `https://duplos.cl/musica/feed/`
+- **El Ciudadano**: Feed de la categoría 'Música' en El Ciudadano
+  - RSS: `https://www.elciudadano.com/noticias/arte-cultura/musica-artes/feed/`
+- **El Diario de Curacaví**: Feed de la categoría 'Música' en El Diario de Curacaví
+  - RSS: `https://eldiariodecuracavi.cl/category/musica/feed/`
+- **El Diario de La Araucanía**: Feed de la categoría 'Música' en El Diario de La Araucanía
+  - RSS: `https://www.eldiariodelaaraucania.cl/category/entretenimiento/musica/feed/`
+- **El Insular**: Feed de la categoría 'Música' en El Insular
+  - RSS: `https://elinsular.cl/category/entretencion/musica/feed/`
+- **El Nacional**: Feed de la categoría 'Música' en El Nacional
+  - RSS: `https://www.elnacional.com/entretenimiento/musica/feed/`
+- **El Sol de Iquique** — Diario regional de Iquique, Tarapacá
+  - El Sol de Iquique - Musica: `https://elsoldeiquique.cl/cultura/musica/feed/`
+  - El Sol de Iquique - Música Cultura: `https://elsoldeiquique.cl/cultura/musica-cultura/feed/`
+- **Fotech**: Feed de la categoría 'Música' en Fotech
+  - RSS: `https://www.fotech.cl/category/musica/feed/`
+- **G5 Noticias**: Feed de la categoría 'G5 Radio y Podcasts' en G5 Noticias
+  - RSS: `https://g5noticias.cl/categoria/g5radio/feed/`
+- **La Máquina Medio**: Feed de la categoría 'Música' en La Máquina Medio
+  - RSS: `https://lamaquinamedio.com/categoria/musica/feed/`
+- **Los 40** — Radio chilena Los 40, música popular y actualidad
+  - Los 40: `https://los40.cl/arc/outboundfeeds/rss/?outputType=xml`
+  - Los 40 [Proxy Google News]: `https://news.google.com/rss/search?q=site:los40.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Los 40 [Proxy Bing News]: `https://www.bing.com/news/search?q=site:los40.cl&format=RSS`
+- **Orolonco FM** — Radio de la comuna de Santa María, Región de Valparaíso
+  - Orolonco FM: `https://oroloncofm.cl/feed/`
+  - Orolonco FM [Proxy Google News]: `https://news.google.com/rss/search?q=site:oroloncofm.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Ovalle Hoy**: Feed de la categoría 'Música' en Ovalle Hoy
+  - RSS: `https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/musica/feed/`
+- **Portal Metropolitano**: Feed de la categoría 'Música' en Portal Metropolitano
+  - RSS: `https://portalmetropolitano.cl/category/cartelera-pm/musica/feed/`
+- **Radio 45 Sur** — Radio online de la Región de Los Ríos
+  - Radio 45 Sur: `https://radio45sur.cl/feed/`
+  - Radio 45 Sur - Policial: `https://radio45sur.cl/category/policial/feed/`
+  - Radio 45 Sur - Judicial: `https://radio45sur.cl/category/judicial/feed/`
+  - Radio 45 Sur - Columna: `https://radio45sur.cl/category/columna/feed/`
+  - Radio 45 Sur - Otros: `https://radio45sur.cl/category/otros/feed/`
+  - Radio 45 Sur - Acuicultura: `https://radio45sur.cl/category/acuicultura/feed/`
+  - Radio 45 Sur - Reportajes: `https://radio45sur.cl/category/reportajes/feed/`
+  - Radio 45 Sur - Opinion: `https://radio45sur.cl/category/opinion/feed/`
+  - Radio 45 Sur [Proxy Google News]: `https://news.google.com/rss/search?q=site:radio45sur.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Activa** — Radioemisora chilena de música contemporánea
+  - Radio Activa: `https://www.radioactiva.cl/feed/`
+  - Radio Activa [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioactiva.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Atacama** — Radioemisora de la Región de Atacama con noticias regionales, nacionales y deportivas
+  - Radio Atacama: `https://www.radioatacama.cl/rss/feed`
+  - Radio Atacama [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioatacama.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Contacto** — Radio de Chillán y la Región de Ñuble
+  - Radio Contacto: `https://radiocontacto.cl/feed/`
+  - Radio Contacto - Chillán: `https://radiocontacto.cl/category/chillan/feed/`
+  - Radio Contacto - Ñuble: `https://radiocontacto.cl/category/nuble/feed/`
+  - Radio Contacto - Portada: `https://radiocontacto.cl/category/portada/feed/`
+  - Radio Contacto - Opinión: `https://radiocontacto.cl/category/opinion/feed/`
+  - Radio Contacto [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiocontacto.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Cristalina** — Radio Cristalina, emisora chilena de la Región de Coquimbo
+  - Radio Cristalina: `https://www.radiocristalina.cl/feed/`
+  - Radio Cristalina [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiocristalina.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio FM Centro** — Radio FM Centro de Gorbea, Región de La Araucanía
+  - Radio FM Centro: `https://fmcentro.cl/feed/`
+  - Radio FM Centro [Proxy Google News]: `https://news.google.com/rss/search?q=site:fmcentro.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Futuro** — Emisora de rock chilena del grupo Prisa Radio
+  - Radio Futuro: `https://www.futuro.cl/feed/`
+  - Radio Futuro [Proxy Google News]: `https://news.google.com/rss/search?q=site:futuro.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Futuro [Proxy Bing News]: `https://www.bing.com/news/search?q=site:futuro.cl&format=RSS`
+- **Radio Interamericana** — Radio de la Región del Biobío
+  - Radio Interamericana: `https://radiointeramericana.cl/feed/`
+  - Radio Interamericana - Policial: `https://radiointeramericana.cl/category/noticias/policial/feed/`
+  - Radio Interamericana [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiointeramericana.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio JGM** — Radio Juan Gómez Millas, de la Universidad de Chile
+  - Radio JGM: `https://radiojgm.uchile.cl/feed/`
+  - Radio JGM - LGBTIQ+: `https://radiojgm.uchile.cl/category/lgbtiq/feed/`
+  - Radio JGM - Post Del Día: `https://radiojgm.uchile.cl/category/post-del-dia/feed/`
+  - Radio JGM - Dd.hh.: `https://radiojgm.uchile.cl/category/dd-hh/feed/`
+  - Radio JGM - Ciudadanía: `https://radiojgm.uchile.cl/category/ciudadania/feed/`
+  - Radio JGM - Destacados: `https://radiojgm.uchile.cl/category/destacados/feed/`
+  - Radio JGM - Entrevistas: `https://radiojgm.uchile.cl/category/entrevistas/feed/`
+  - Radio JGM - Luchas: `https://radiojgm.uchile.cl/category/luchas/feed/`
+  - Radio JGM - Cultura & Calle: `https://radiojgm.uchile.cl/category/cultura-calle/feed/`
+  - Radio JGM - Feminismo: `https://radiojgm.uchile.cl/category/feminismo/feed/`
+  - Radio JGM - Pueblo Originarios: `https://radiojgm.uchile.cl/category/pueblo-originarios/feed/`
+  - Radio JGM - Memoria: `https://radiojgm.uchile.cl/category/memoria/feed/`
+  - Radio JGM - Medios Y Com.: `https://radiojgm.uchile.cl/category/medios/feed/`
+  - Radio JGM - Migración: `https://radiojgm.uchile.cl/category/migracion/feed/`
+  - Radio JGM - Comunicación: `https://radiojgm.uchile.cl/category/comunicacion/feed/`
+  - Radio JGM - Infancia Y Niñez: `https://radiojgm.uchile.cl/category/infancia-y-ninez/feed/`
+  - Radio JGM - Podcast: `https://radiojgm.uchile.cl/category/podcast/feed/`
+  - Radio JGM - Justicia: `https://radiojgm.uchile.cl/category/justicia/feed/`
+  - Radio JGM - Crónica: `https://radiojgm.uchile.cl/category/cronica/feed/`
+  - Radio JGM - Reportaje: `https://radiojgm.uchile.cl/category/reportaje/feed/`
+  - Radio JGM - A 50 Años Del Golpe: `https://radiojgm.uchile.cl/category/50-anos-del-golpe/feed/`
+  - Radio JGM - Extractivismo: `https://radiojgm.uchile.cl/category/extractivismo/feed/`
+  - Radio JGM [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiojgm.uchile.cl/&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio La Señal** — Cadena de radioemisoras con cobertura en Valparaíso, Concepción, Temuco, Victoria, Osorno y Puerto Montt
+  - Radio La Señal: `https://radiolasenal.cl/feed/`
+  - Radio La Señal [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiolasenal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio María Chile** — Emisora católica de alcance nacional en Chile
+  - Radio María Chile: `https://radiomaria.cl/feed/`
+  - Radio María Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiomaria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Modelo** — Emisora chilena de música y entretención
+  - Radio Modelo: `https://radiomodelo.cl/feed/`
+  - Radio Modelo - Peñalolen: `https://radiomodelo.cl/category/penalolen/feed/`
+  - Radio Modelo [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiomodelo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Riquelme** — Radioemisora chilena con programación informativa y musical
+  - Radio Riquelme: `https://radioriquelme.cl/feed/`
+  - Radio Riquelme - Coquimbo: `https://radioriquelme.cl/category/coquimbo/feed/`
+  - Radio Riquelme - Policial: `https://radioriquelme.cl/category/policial/feed/`
+  - Radio Riquelme - La Serena: `https://radioriquelme.cl/category/serena/feed/`
+  - Radio Riquelme - Provincia Del Choapa: `https://radioriquelme.cl/category/choapa/feed/`
+  - Radio Riquelme - Provincia Del Limarí: `https://radioriquelme.cl/category/limari/feed/`
+  - Radio Riquelme - Provincia De Elqui: `https://radioriquelme.cl/category/elqui/feed/`
+  - Radio Riquelme [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioriquelme.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Universidad de Chile** — Radio online de la Universidad de Chile
+  - Radio Universidad de Chile - Portada: `https://radio.uchile.cl/feed/`
+  - Radio Universidad de Chile - Columnas: `https://radio.uchile.cl/columnas/feed/`
+  - Radio Universidad de Chile - Opiniones: `https://radio.uchile.cl/opiniones/feed/`
+  - Radio Universidad de Chile - Cartas Al Director: `https://radio.uchile.cl/cartas-al-director/feed/`
+  - Radio Universidad de Chile - Análisis: `https://radio.uchile.cl/analisis/feed/`
+  - Radio Universidad de Chile - Análisis Político: `https://radio.uchile.cl/analisis/politica-semanal/feed/`
+  - Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional: `https://radio.uchile.cl/ruch_amnistiainternacional/feed/`
+  - Radio Universidad de Chile - Agenda Derechos Humanos: `https://radio.uchile.cl/agendaderechoshumanos/feed/`
+  - Radio Universidad de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radio.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Región Visual**: Feed de la categoría 'Música' en Región Visual
+  - RSS: `https://regionvisual.com/category/musica/feed/`
+- **Rock & Pop** — Radio chilena de rock, música y actualidad
+  - Rock & Pop: `https://www.rockandpop.cl/feed`
+  - Rock & Pop [Proxy Google News]: `https://news.google.com/rss/search?q=site:rockandpop.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Rock & Pop [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rockandpop.cl&format=RSS`
+- **Vilas Radio** — Radio de la Región de Tarapacá
+  - Vilas Radio: `https://vilasradio.cl/feed/`
+  - Vilas Radio [Proxy Google News]: `https://news.google.com/rss/search?q=site:vilasradio.cl&hl=es-419&gl=CL&ceid=CL:es-419`

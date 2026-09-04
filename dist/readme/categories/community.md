@@ -1,0 +1,292 @@
+### Comunidad
+
+[↑ Volver al índice](../../../README.md#índice-de-categorías)
+
+*Descargar OPML: [`community.opml`](../../opml/categories/community.opml) - 91 sitios, 195 feeds*
+
+- **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
+  - Alerta Geek Chile - Calendario de Estrenos y Eventos: `https://www.alertageekchile.cl/eventos/feed/`
+  - Alerta Geek Chile - Eventos: `https://alertageekchile.cl/category/eventos/feed/`
+- **Alerta Noticias Temuco** — Diario regional de Temuco, La Araucanía
+  - Alerta Noticias Temuco - Eventos: `https://alertanoticiastemuco.cl/category/eventos/feed/`
+  - Alerta Noticias Temuco - Capacitación: `https://alertanoticiastemuco.cl/category/capacitacion/feed/`
+  - Alerta Noticias Temuco - Inclusión: `https://alertanoticiastemuco.cl/category/inclusion/feed/`
+  - Alerta Noticias Temuco - Viajes y Turismo: `https://alertanoticiastemuco.cl/category/viajes-y-turismo/feed/`
+- **Anda** — Plataforma chilena de ofertas y compras grupales
+  - Anda: `https://anda.cl/feed/`
+  - Anda - Socios: `https://anda.cl/categoria/socios/feed/`
+  - Anda - Tendencias: `https://anda.cl/categoria/tendencias/feed/`
+  - Anda - Personas: `https://anda.cl/categoria/personas/feed/`
+  - Anda - Industria: `https://anda.cl/categoria/industria/feed/`
+  - Anda - Medios: `https://anda.cl/categoria/medios/feed/`
+  - Anda - Marketing: `https://anda.cl/categoria/marketing/feed/`
+  - Anda - Retail: `https://anda.cl/categoria/retail/feed/`
+  - Anda - Creatividad: `https://anda.cl/categoria/creatividad/feed/`
+  - Anda - Mercado: `https://anda.cl/categoria/mercado/feed/`
+  - Anda - Novedades Socios: `https://anda.cl/categoria/novedades-socios/feed/`
+  - Anda - Marketers: `https://anda.cl/categoria/marketers/feed/`
+  - Anda - Sociedad: `https://anda.cl/categoria/sociedad/feed/`
+  - Anda - Consumo: `https://anda.cl/categoria/consumo/feed/`
+  - Anda - Estudios: `https://anda.cl/categoria/estudios/feed/`
+  - Anda - Ecommerce: `https://anda.cl/categoria/ecommerce/feed/`
+  - Anda - Legal: `https://anda.cl/categoria/legal/feed/`
+  - Anda - Redes Sociales: `https://anda.cl/categoria/redes-sociales/feed/`
+  - Anda [Proxy Google News]: `https://news.google.com/rss/search?q=site:anda.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **ANEF** — Asociación Nacional de Empleados Fiscales
+  - ANEF: `https://anef.cl/feed/`
+  - ANEF - Galería Multimedia: `https://anef.cl/category/galeria-multimedia/feed/`
+  - ANEF - Consejos Regionales: `https://anef.cl/category/noticias/consejos-regionales/feed/`
+  - ANEF - Comunicados: `https://anef.cl/category/noticias/comunicados/feed/`
+  - ANEF - Actividades: `https://anef.cl/category/noticias/actividades/feed/`
+  - ANEF - Asamblea Anef 2026: `https://anef.cl/category/noticias/comunicados/asamble-anef-2026/feed/`
+  - ANEF [Proxy Google News]: `https://news.google.com/rss/search?q=site:anef.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Antofagasta Noticias**: Feed de la categoría 'Sociedad' en Antofagasta Noticias
+  - RSS: `https://www.antofagastanoticias.cl/category/sociedad/feed/`
+- **Araucanía Noticias**: Feed de la categoría 'Sociedad' en Araucanía Noticias
+  - RSS: `https://araucanianoticias.cl/category/sociedad/feed/`
+- **Aurora Noticias**: Feed de la categoría 'Turismo' en Aurora Noticias
+  - RSS: `https://auroranoticias.cl/turismo/feed/`
+- **Calama en Línea**: Feed de la categoría 'Turismo' en Calama en Línea
+  - RSS: `https://noticias.calamaenlinea.cl/category/turismo/feed/`
+- **Capa9** — Comunidad chilena de tecnología, hardware y reviews
+  - Capa9 - Global: `https://www.capa9.net/forums/-/index.rss`
+  - Capa9 - Reviews: `https://www.capa9.net/foro/reviews.45/index.rss`
+  - Capa9 [Proxy Google News]: `https://news.google.com/rss/search?q=site:capa9.net&hl=es-419&gl=CL&ceid=CL:es-419`
+- **CEP Chile**: Feed de la categoría 'Eventos' en CEP Chile
+  - RSS: `https://www.cepchile.cl/category/eventos/feed/`
+- **Chile País Minero**: Feed de la categoría 'Capacitación' en Chile País Minero
+  - RSS: `https://chilepaisminero.com/category/trabajo-y-capacitacion/capacitacion/feed/`
+- **Chile Travel** — Sitio Servicio Nacional de Turismo para impulsar turismo
+  - Chile Travel: `https://chile.travel/feed/`
+  - Chile Travel - Industria: `https://chile.travel/blog/category/industria/feed/`
+  - Chile Travel [Proxy Google News]: `https://news.google.com/rss/search?q=site:chile.travel&hl=es-419&gl=CL&ceid=CL:es-419`
+- **ChileMujeres** — Feed principal de ChileMujeres
+  - ChileMujeres: `https://www.chilemujeres.cl/feed/`
+  - ChileMujeres [Proxy Google News]: `https://news.google.com/rss/search?q=site:chilemujeres.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - ChileMujeres [Proxy Bing News]: `https://www.bing.com/news/search?q=site:chilemujeres.cl&format=RSS`
+- **Coaniquem** — Coaniquem, fundación chilena de atención integral al niño quemado
+  - Coaniquem: `https://www.coaniquem.cl/feed/`
+  - Coaniquem [Proxy Google News]: `https://news.google.com/rss/search?q=site:coaniquem.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **CODEPU** — Corporación de Defensa de los Derechos del Pueblo, con comunicados y noticias sobre derechos humanos
+  - CODEPU: `https://codepu.cl/wp/feed/`
+  - CODEPU [Proxy Google News]: `https://news.google.com/rss/search?q=site:codepu.cl/wp/&hl=es-419&gl=CL&ceid=CL:es-419`
+  - CODEPU [Proxy Bing News]: `https://www.bing.com/news/search?q=site:codepu.cl/wp/&format=RSS`
+- **Colemono**: Feed de la categoría 'Eventos' en Colemono
+  - RSS: `https://colemono.com/category/noticias/eventos/feed/`
+- **ComunidadMujer** — ComunidadMujer, organización chilena por la autonomía y participación de las mujeres
+  - ComunidadMujer: `https://www.comunidadmujer.cl/feed/`
+  - ComunidadMujer - Opinión: `https://comunidadmujer.cl/category/somoscomunidad/opinion/feed/`
+  - ComunidadMujer - Ganadoras Históricas Fondo Concursable: `https://comunidadmujer.cl/category/somoscomunidad/fondomujeres/ganadoras-historicas/feed/`
+  - ComunidadMujer - Fondo Concursable: `https://comunidadmujer.cl/category/somoscomunidad/fondomujeres/feed/`
+  - ComunidadMujer [Proxy Google News]: `https://news.google.com/rss/search?q=site:comunidadmujer.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **CriptoNoticias Chile** — Sección chilena de CriptoNoticias sobre Bitcoin, blockchain y fintech en Chile
+  - CriptoNoticias Chile - Comunidad: `https://www.criptonoticias.com/categorias/comunidad/feed/`
+  - CriptoNoticias Chile - Eventos: `https://www.criptonoticias.com/categorias/comunidad/eventos/feed/`
+- **CUT (Central Unitaria de Trabajadores de Chile)**: Resultados de site:cut.cl en Proxy Google News de noticias Chilenas
+  - RSS: `https://news.google.com/rss/search?q=site:cut.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **David Noticias**: Feed de la categoría 'Turismo' en David Noticias
+  - RSS: `https://www.davidnoticias.cl/category/turismo/feed/`
+- **De Mar a Cordillera TV**: Feed de la categoría 'Turismo' en De Mar a Cordillera TV
+  - RSS: `https://demaracordilleratv.cl/category/turismo/feed/`
+- **Defensa Civil de Chile**: Resultados de site:defensacivil.cl en Proxy Google News de noticias Chilenas
+  - RSS: `https://news.google.com/rss/search?q=site:defensacivil.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Diálogo Sur**: Feed de la categoría 'Turismo' en Diálogo Sur
+  - RSS: `https://dialogosur.cl/category/turismo/feed/`
+- **Diario Agrícola**: Feed de la categoría 'Eventos' en Diario Agrícola
+  - RSS: `https://www.diarioagricola.com/category/eventos/feed/`
+- **Diario El Centro**: Feed de la categoría 'Efeméride' en Diario El Centro
+  - RSS: `https://www.diarioelcentro.cl/categoria/efemeride/feed/`
+- **Diario El Huemul**: Feed de la categoría 'Social' en Diario El Huemul
+  - RSS: `https://elhuemul.cl/category/social/feed/`
+- **Diario El Itihue** — Blog chileno de noticias comunitarias y crónica social
+  - Diario El Itihue - Portada: `https://diarioelitihue.blogspot.com/feeds/posts/default?alt=rss`
+  - Diario El Itihue [Proxy Google News]: `https://news.google.com/rss/search?q=site:diarioelitihue.blogspot.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Diario El Marino**: Feed de la categoría 'Vida Social' en Diario El Marino
+  - RSS: `https://www.diarioelmarino.cl/categoria/vida-social/feed/`
+- **Diario El Nortino** — Diario regional de Alto Hospicio, Tarapacá
+  - Diario El Nortino - Sociedad: `https://diarioelnortino.cl/category/sociedad/feed/`
+  - Diario El Nortino - Turismo: `https://diarioelnortino.cl/category/turismo/feed/`
+- **Diario El Pulso** — Diario regional de Rancagua, O'Higgins
+  - Diario El Pulso - Turismo: `https://www.diarioelpulso.cl/category/turismo/feed/`
+  - Diario El Pulso - Panoramas y Espectáculos: `https://www.diarioelpulso.cl/category/panormas-y-espectaculos/feed/`
+- **Diario El Ranco**: Feed de la categoría 'Denuncias Ciudadanas' en Diario El Ranco
+  - RSS: `https://diarioelranco.cl/category/denuncia-ciudadana/feed/`
+- **Diario La Quinta**: Feed de la categoría 'Comunidad' en Diario La Quinta
+  - RSS: `https://diariolaquinta.cl/category/comunidad/feed/`
+- **Diario La Región**: Feed de la categoría 'Turismo' en Diario La Región
+  - RSS: `https://www.diariolaregion.cl/category/turismo/feed/`
+- **Diario Puerto Varas**: Feed de la categoría 'Turismo y Panoramas' en Diario Puerto Varas
+  - RSS: `https://diariopuertovaras.cl/category/turismo-panoramas/feed/`
+- **Duplos**: Feed de la categoría 'Panoramas' en Duplos
+  - RSS: `https://duplos.cl/panoramas/feed/`
+- **El Andacollino**: Feed de la categoría 'Avisos' en El Andacollino
+  - RSS: `https://www.elandacollino.cl/category/avisos/feed/`
+- **El Calbucano**: Feed de la categoría 'Defunciones' en El Calbucano
+  - RSS: `https://www.elcalbucano.cl/cat/defunciones/feed/`
+- **El Clarín de Chile**: Feed de la categoría 'Gastronomía y Turismo' en El Clarín de Chile
+  - RSS: `https://www.elclarin.cl/category/tendencias/gastronomia-y-turismo/feed/`
+- **El Comunicador**: Feed de la categoría 'Comunidad' en El Comunicador
+  - RSS: `https://elcomunicador.cl/category/comunidad/feed/`
+- **El Diario de La Araucanía** — Diario regional de Angol, La Araucanía
+  - El Diario de La Araucanía - Eventos: `https://www.eldiariodelaaraucania.cl/category/entretenimiento/eventos/feed/`
+  - El Diario de La Araucanía - Capacitación: `https://www.eldiariodelaaraucania.cl/category/educacion/capacitacion/feed/`
+  - El Diario de La Araucanía - Viajes y Turismo: `https://www.eldiariodelaaraucania.cl/category/estilo-de-vida/viajes-y-turismo/feed/`
+  - El Diario de La Araucanía - Inclusión: `https://www.eldiariodelaaraucania.cl/category/lifestyle/inclusion/feed/`
+- **El Magallánico**: Feed de la categoría 'Cultura / Eventos' en El Magallánico
+  - RSS: `https://elmagallanico.com/category/eventos/feed/`
+- **El Nacional**: Feed de la categoría 'Viajes Y Turismo' en El Nacional
+  - RSS: `https://www.elnacional.com/estilo-de-vida/viajes-y-turismo/feed/`
+- **El Quinto Poder**: Feed de la categoría 'Sociedad' en El Quinto Poder
+  - RSS: `https://elquintopoder.cl/temas/sociedad/feed/`
+- **El Urbano Rural** — Medio de comunicación de la Región de O'Higgins
+  - El Urbano Rural - Social: `https://elurbanorural.cl/category/social/feed/`
+  - El Urbano Rural - Turismo: `https://elurbanorural.cl/category/turismo/feed/`
+- **En La Línea**: Feed de la categoría 'Social' en En La Línea
+  - RSS: `https://www.enlalinea.cl/category/social/feed/`
+- **Enfoque Digital O'Higgins**: Feed de la categoría 'Eventos' en Enfoque Digital O'Higgins
+  - RSS: `https://vi.cl/category/eventos/feed/`
+- **FASIC** — Fundación de Ayuda Social de las Iglesias Cristianas, defensa de derechos humanos
+  - FASIC: `https://fasic.cl/wp/feed/`
+  - FASIC [Proxy Google News]: `https://news.google.com/rss/search?q=site:fasic.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Federación CCU** — Federación Nacional Sindicatos Holding Heineken CCU
+  - Federación CCU: `https://federacionccu.cl/feed/`
+  - Federación CCU [Proxy Google News]: `https://news.google.com/rss/search?q=site:federacionccu.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Frontera Norte**: Feed de la categoría 'Sociedad' en Frontera Norte
+  - RSS: `https://www.fronteranorte.cl/category/sociedad/feed/`
+- **Fundación Iguales** — Fundación Iguales, organización chilena por los derechos de las diversidades sexuales
+  - Fundación Iguales: `https://www.iguales.cl/feed/`
+  - Fundación Iguales [Proxy Google News]: `https://news.google.com/rss/search?q=site:iguales.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Hogar de Cristo** — Hogar de Cristo, fundación chilena de ayuda social y superación de la pobreza
+  - Hogar de Cristo: `https://www.hogardecristo.cl/feed/`
+  - Hogar de Cristo - Entrevistas: `https://www.hogardecristo.cl/categoria/entrevistas/feed/`
+  - Hogar de Cristo - Banner Home: `https://www.hogardecristo.cl/categoria/banner-home/feed/`
+  - Hogar de Cristo - Adultos Mayores: `https://www.hogardecristo.cl/categoria/lineas-de-accion/adultos-mayores/feed/`
+  - Hogar de Cristo - Personas En Situación De Calle: `https://www.hogardecristo.cl/categoria/lineas-de-accion/personas-en-situacion-de-calle/feed/`
+  - Hogar de Cristo - Opinión: `https://www.hogardecristo.cl/categoria/opinion/feed/`
+  - Hogar de Cristo - Reinserción Educativa: `https://www.hogardecristo.cl/categoria/lineas-de-accion/reinsercion-educativa/feed/`
+  - Hogar de Cristo - Hogar De Cristo: `https://www.hogardecristo.cl/categoria/hdc/feed/`
+  - Hogar de Cristo - Otras Noticias: `https://www.hogardecristo.cl/categoria/otras-noticias/feed/`
+  - Hogar de Cristo - Inclusión Laboral: `https://www.hogardecristo.cl/categoria/lineas-de-accion/inclusion-laboral/feed/`
+  - Hogar de Cristo - Infancia Vulnerada: `https://www.hogardecristo.cl/categoria/lineas-de-accion/infancia-vulnerada/feed/`
+  - Hogar de Cristo - Discapacidad Mental: `https://www.hogardecristo.cl/categoria/lineas-de-accion/discapacidad-mental/feed/`
+  - Hogar de Cristo - Educación Inicial: `https://www.hogardecristo.cl/categoria/lineas-de-accion/educacion-inicial/feed/`
+  - Hogar de Cristo - Pobreza En Chile: `https://www.hogardecristo.cl/categoria/lineas-de-accion/pobreza-en-chile/feed/`
+  - Hogar de Cristo - Consumo Problemático: `https://www.hogardecristo.cl/categoria/lineas-de-accion/consumo-problematico/feed/`
+  - Hogar de Cristo - Comunicado: `https://www.hogardecristo.cl/categoria/comunicado/feed/`
+  - Hogar de Cristo - Testimonio: `https://www.hogardecristo.cl/categoria/testimonio/feed/`
+  - Hogar de Cristo - Vida Social: `https://www.hogardecristo.cl/categoria/vida-social/feed/`
+  - Hogar de Cristo - Líneas De Acción: `https://www.hogardecristo.cl/categoria/lineas-de-accion/feed/`
+  - Hogar de Cristo [Proxy Google News]: `https://news.google.com/rss/search?q=site:hogardecristo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Hora de Noticias** — Diario regional de Rancagua, O'Higgins
+  - Hora de Noticias - Social: `https://horadenoticias.cl/seccion/social/feed/`
+  - Hora de Noticias - Turismo: `https://horadenoticias.cl/seccion/turismo/feed/`
+- **InfoSalmon**: Feed de la categoría 'Eventos' en InfoSalmon
+  - RSS: `https://infosalmon.cl/category/eventos/feed/`
+- **InnovaciónDigital360**: Feed de la categoría 'Eventos' en InnovaciónDigital360
+  - RSS: `https://www.innovaciondigital360.com/eventos/feed/`
+- **Instituto Antártico Chileno**: Feed de la categoría 'Actividades O Eventos' en Instituto Antártico Chileno
+  - RSS: `https://www.inach.cl/category/eventos/feed/`
+- **Iquique TV** — Medio de comunicación de la Región de Tarapacá
+  - Iquique TV - Turismo: `https://iquiquetv.cl/category/noticias/turismo/feed/`
+  - Iquique TV - Sociedad: `https://iquiquetv.cl/category/noticias/sociedad/feed/`
+- **ITseller Chile**: Feed de la categoría 'Eventos' en ITseller Chile
+  - RSS: `https://www.itseller.cl/category/transversales/eventos/feed/`
+- **La Batalla de Maipú**: Feed de la categoría 'Comunidad' en La Batalla de Maipú
+  - RSS: `https://www.labatalla.cl/secciones/comunidad/feed/`
+- **La Noticia**: Feed de la categoría 'Turismo' en La Noticia
+  - RSS: `https://lanoticia.cl/category/turismo/feed/`
+- **La Prensa Austral**: Feed de la categoría 'Sociedad' en La Prensa Austral
+  - RSS: `https://laprensaaustral.cl/category/sociedad/feed/`
+- **Linares en Línea** — Diario regional de Linares, Maule
+  - Linares en Línea - Social: `https://www.linaresenlinea.cl/category/social/feed/`
+  - Linares en Línea - Turismo: `https://www.linaresenlinea.cl/category/turismo/feed/`
+- **Los Ríos Noticias**: Feed de la categoría 'Sociedad' en Los Ríos Noticias
+  - RSS: `https://www.losriosnoticias.cl/category/sociedad/feed/`
+- **MadboxPC**: Feed de la categoría 'Eventos' en MadboxPC
+  - RSS: `https://www.madboxpc.com/category/eventos/feed/`
+- **Mastodon Chile** — Instancia(s) chilena(s) de Mastodon (red social descentralizada)
+  - Mastodon.cl - #chile: `https://mastodon.cl/tags/chile.rss`
+  - Mastodon.cl - #tecnología: `https://mastodon.cl/tags/tecnología.rss`
+  - Noticias_Chile - mas.to BOT: `https://mas.to/@Noticias_Chile.rss`
+  - Sismología UdeChile - Mastodon.cl BOT: `https://mastodon.cl/@sismos.rss`
+- **Noticias Biobío**: Feed de la categoría 'Sociedad' en Noticias Biobío
+  - RSS: `https://noticiasbiobio.cl/category/sociedad/feed/`
+- **Noticias del Sur**: Feed de la categoría 'Eventos' en Noticias del Sur
+  - RSS: `https://noticiasdelsur.cl/category/eventos/feed/`
+- **Noticias Los Ríos** — Diario regional de La Unión, Los Ríos
+  - Noticias Los Ríos - Sociedad: `https://www.noticiaslosrios.cl/seccion/sociedad/feed/`
+  - Noticias Los Ríos - Turismo: `https://www.noticiaslosrios.cl/seccion/turismo/feed/`
+- **ODECU** — Organización chilena de consumidores que trabaja en la defensa de los derechos de las personas consumidoras mediante estudios, información, representación y acciones legales
+  - ODECU: `https://odecu.cl/feed/`
+  - ODECU - Destacados: `https://odecu.cl/category/destacados/feed/`
+  - ODECU - Noticias Odecu: `https://odecu.cl/category/noticias-odecu/feed/`
+  - ODECU - Preguntas Frecuentes: `https://odecu.cl/category/preguntas-frecuentes/feed/`
+  - ODECU [Proxy Google News]: `https://news.google.com/rss/search?q=site:odecu.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Ovalle Hoy** — Diario regional de Ovalle, Coquimbo
+  - Ovalle Hoy - Sociedad: `https://ovallehoy.cl/categoria/ultimas/sociedad/feed/`
+  - Ovalle Hoy - Turismo: `https://ovallehoy.cl/categoria/ultimas/gastronomia-y-turismo/turismo/feed/`
+- **Portal Agro Chile**: Feed de la categoría 'Eventos' en Portal Agro Chile
+  - RSS: `https://www.portalagrochile.cl/category/eventos/feed/`
+- **Portal Educa** — Medio de prensa colaborativo y digital dedicado a la educación parvularia, escolar y superior en Chile
+  - Portal Educa -  Eventos: `https://portaleduca.cl/category/eventos/feed/`
+  - Portal Educa - Capacitación: `https://portaleduca.cl/category/capacitacion/feed/`
+- **Portal Metropolitano** — Portal de noticias de la Región Metropolitana
+  - Portal Metropolitano - Sociedad: `https://portalmetropolitano.cl/category/sociedad/feed/`
+  - Portal Metropolitano - Turismo: `https://portalmetropolitano.cl/category/turismo/feed/`
+  - Portal Metropolitano - Festivales: `https://portalmetropolitano.cl/category/festivales/feed/`
+- **Portal Red Salud**: Feed de la categoría ' Eventos' en Portal Red Salud
+  - RSS: `https://portalredsalud.cl/category/eventos/feed/`
+- **Publimetro Chile**: Feed de la categoría 'Social' en Publimetro Chile
+  - RSS: ` https://www.publimetro.cl/arc/outboundfeeds/rss/category/social/?outputType=xml`
+- **Radio Corazón**: Feed de la categoría 'Concursos' en Radio Corazón
+  - RSS: `https://www.corazon.cl/category/concursos/feed/`
+- **Radio Festival**: Feed de la categoría 'Mercado' en Radio Festival
+  - RSS: `https://www.radiofestival.cl/category/mercado/feed/`
+- **Radio JGM**: Feed de la categoría 'Comunidad' en Radio JGM
+  - RSS: `https://radiojgm.uchile.cl/category/comunidad/feed/`
+- **Radio Magallanes**: Feed de la categoría 'Turismo' en Radio Magallanes
+  - RSS: `https://radiomagallanes.cl/category/turismo/feed/`
+- **Reddit** — Reddit feeds from various chilean subreddits
+  - r/Chile: `https://www.reddit.com/r/chile/.rss`
+  - r/RepublicaDeChile: `https://www.reddit.com/r/republicadechile/.rss`
+  - r/chileit: `https://www.reddit.com/r/chileit/.rss`
+  - r/Santiago: `https://www.reddit.com/r/Santiago/.rss`
+- **Región Visual**: Feed de la categoría 'Eventos' en Región Visual
+  - RSS: `https://regionvisual.com/category/eventos/feed/`
+- **Río en Línea**: Feed de la categoría 'Social' en Río en Línea
+  - RSS: `https://www.rioenlinea.cl/seccion/social/feed/`
+- **Supervivencia y Desastres** — Blog chileno de preparación ante emergencias y supervivencia
+  - Supervivencia y Desastres: `https://www.supervivencia-y-desastres.cl/feed/`
+  - Supervivencia y Desastres - Preparacionismo: `https://www.supervivencia-y-desastres.cl/category/preparacionismo/feed/`
+  - Supervivencia y Desastres - Supervivencia: `https://www.supervivencia-y-desastres.cl/category/supervivencia/feed/`
+  - Supervivencia y Desastres - Seguridad: `https://www.supervivencia-y-desastres.cl/category/seguridad/feed/`
+  - Supervivencia y Desastres - Emergencia: `https://www.supervivencia-y-desastres.cl/category/emergencia/feed/`
+  - Supervivencia y Desastres - Alimentación: `https://www.supervivencia-y-desastres.cl/category/alimentacion/feed/`
+  - Supervivencia y Desastres - Outdoor: `https://www.supervivencia-y-desastres.cl/category/outdoor/feed/`
+  - Supervivencia y Desastres - Campismo: `https://www.supervivencia-y-desastres.cl/category/outdoor/campismo/feed/`
+  - Supervivencia y Desastres - Despensa: `https://www.supervivencia-y-desastres.cl/category/alimentacion/despensa/feed/`
+  - Supervivencia y Desastres - Recetas: `https://www.supervivencia-y-desastres.cl/category/alimentacion/recetas/feed/`
+  - Supervivencia y Desastres [Proxy Google News]: `https://news.google.com/rss/search?q=site:supervivencia-y-desastres.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Tecache**: Feed de la categoría 'Eventos' en Tecache
+  - RSS: `https://tecache.cl/seccion/eventos/feed/`
+- **TECHO Chile** — TECHO, organización que trabaja con comunidades en situación de pobreza en Chile
+  - TECHO Chile: `https://cl.techo.org/feed/`
+  - TECHO Chile - Infórmate: `https://cl.techo.org/category/informate/feed/`
+  - TECHO Chile - Comunicados: `https://cl.techo.org/category/comunicados/feed/`
+  - TECHO Chile - Estudios: `https://cl.techo.org/category/estudios/feed/`
+  - TECHO Chile - Ces: `https://cl.techo.org/category/ces/feed/`
+- **Televitos**: Feed de la sección 'Eventos' en Televitos
+  - RSS: `https://televitos.com/feed/?category=eventos`
+- **Temuco Diario** — Diario regional de Temuco, La Araucanía
+  - Temuco Diario - Social: `https://temucodiario.cl/category/social/feed/`
+  - Temuco Diario - Turismo: `https://temucodiario.cl/category/turismo/feed/`
+- **Tour Innovación**: Feed de la categoría 'Eventos' en Tour Innovación
+  - RSS: `https://www.tourinnovacion.cl/seccion/eventos/feed/`
+- **Traiguén City**: Feed de la categoría 'Obituario' en Traiguén City
+  - RSS: `https://traiguencity.cl/noticias/obituario/feed/`
+- **Tropezón Tu Diario**: Feed de la categoría 'Social' en Tropezón Tu Diario
+  - RSS: `https://nuevotropezon.tropezon.cl/category/social/feed/`
+- **Vanguardia Gamer**: Feed de la categoría 'Eventos' en Vanguardia Gamer
+  - RSS: `https://vanguardiagamer.cl/category/eventos/feed/`
+- **VLN Radio**: Feed de la categoría 'Sociedad' en VLN Radio
+  - RSS: `https://www.vlnradio.cl/tendencias/sociedad/feed/`

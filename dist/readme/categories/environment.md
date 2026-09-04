@@ -1,0 +1,254 @@
+### Medio Ambiente y Naturaleza
+
+[↑ Volver al índice](../../../README.md#índice-de-categorías)
+
+*Descargar OPML: [`environment.opml`](../../opml/categories/environment.opml) - 77 sitios, 171 feeds*
+
+- **Acero y Roca**: Feed de la categoría 'Medio Ambiente' en Acero y Roca
+  - RSS: `https://aceroyroca.com/category/medio-ambiente/feed/`
+- **Alerta Noticias Temuco**: Feed de la categoría 'Medio Ambiente' en Alerta Noticias Temuco
+  - RSS: `https://alertanoticiastemuco.cl/category/medio-ambiente/feed/`
+- **Anda**: Feed de la categoría 'Sostenibilidad' en Anda
+  - RSS: `https://anda.cl/categoria/sostenibilidad/feed/`
+- **Aurora Noticias**: Feed de la categoría 'Medio Ambiente' en Aurora Noticias
+  - RSS: `https://auroranoticias.cl/medio-ambiente/feed/`
+- **Base Nacional**: Feed de la categoría 'Medio Ambiente' en Base Nacional
+  - RSS: `https://basenacional.cl/category/medio-ambiente/feed/`
+- **Calama en Línea**: Feed de la categoría 'Medio Ambiente' en Calama en Línea
+  - RSS: `https://noticias.calamaenlinea.cl/category/medio-ambiente/feed/`
+- **CODEFF** — Comité Nacional Pro Defensa de la Fauna y Flora (CODEFF), organización ambientalista chilena
+  - CODEFF: `https://www.codeff.cl/feed/`
+  - CODEFF - Ambientales: `https://codeff.cl/category/ambientales/feed/`
+  - CODEFF [Proxy Google News]: `https://news.google.com/rss/search?q=site:codeff.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Codex Verde** — Medio de noticias sobre medio ambiente y sostenibilidad
+  - Codex Verde: `https://codexverde.cl/feed/`
+  - Codex Verde - Gestión Ambiental: `https://codexverde.cl/category/c14-gestion-ambiental/feed/`
+  - Codex Verde - Educación: `https://codexverde.cl/category/c20-educacion-ambiental/feed/`
+  - Codex Verde - Empresas: `https://codexverde.cl/category/c14-gestion-ambiental/c21-empresas/feed/`
+  - Codex Verde - Columnistas: `https://codexverde.cl/category/opiniones/feed/`
+  - Codex Verde - Agua: `https://codexverde.cl/category/c18-agua-y-residuos-liquidos/feed/`
+  - Codex Verde - Aire: `https://codexverde.cl/category/c19-aire/feed/`
+  - Codex Verde - Biodiversidad: `https://codexverde.cl/category/biodiversidad/feed/`
+  - Codex Verde - Cambio Climático: `https://codexverde.cl/category/c13-cambio-climatico/feed/`
+  - Codex Verde - Energía: `https://codexverde.cl/category/c16-energia/feed/`
+  - Codex Verde - Residuos: `https://codexverde.cl/category/c15-residuos-solidos/feed/`
+  - Codex Verde - Economía Circular: `https://codexverde.cl/category/c15-residuos-solidos/economia-circular/feed/`
+  - Codex Verde - Gestión Pública: `https://codexverde.cl/category/c14-gestion-ambiental/gestion-publica/feed/`
+  - Codex Verde - Destacados: `https://codexverde.cl/category/destacados/feed/`
+  - Codex Verde - Mastodon.cl BOT: `https://mastodon.cl/@codexverde.rss`
+  - Codex Verde [Proxy Google News]: `https://news.google.com/rss/search?q=site:codexverde.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Cooperativa Ciencia**: Feed de la categoría 'Medio Ambiente' en Cooperativa Ciencia
+  - RSS: `https://www.cooperativaciencia.cl/seccion/medio-ambiente/feed/`
+- **CR2 - Centro de Ciencia del Clima y la Resiliencia** — Centro de Ciencia del Clima y la Resiliencia - Comunidad científica chilena
+  - CR2: `https://www.cr2.cl/feed/`
+  - CR2 - Agua y Extremos: `https://www.cr2.cl/category/agua-extremos/feed/`
+  - CR2 - Gobernanza E Interfaz Ciencia Política Sociedad: `https://www.cr2.cl/category/gobernanza/feed/`
+  - CR2 - Agenda: `https://www.cr2.cl/category/agenda/feed/`
+  - CR2 - Biblioteca: `https://www.cr2.cl/category/biblioteca/feed/`
+  - CR2 - Opiniones: `https://www.cr2.cl/category/opiniones/feed/`
+  - CR2 - Análisis: `https://www.cr2.cl/category/biblioteca/analisis-cr2/feed/`
+  - CR2 - Slider: `https://www.cr2.cl/category/slider/feed/`
+  - CR2 - Destacado: `https://www.cr2.cl/category/destacado/feed/`
+  - CR2 - Gobernanza De Los Elementos: `https://www.cr2.cl/category/gobernanza-elementos/feed/`
+  - CR2 [Proxy Google News]: `https://news.google.com/rss/search?q=site:cr2.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **De Mar a Cordillera TV** — Medio digital chileno de la Región de O'Higgins con noticias, turismo, cultura y reportajes
+  - De Mar a Cordillera TV - Agricultura: `https://demaracordilleratv.cl/category/agricultura/feed/`
+  - De Mar a Cordillera TV - Medio Ambiente: `https://demaracordilleratv.cl/category/medio-ambiente/feed/`
+- **Diálogo Sur**: Feed de la categoría 'Medio Ambiente' en Diálogo Sur
+  - RSS: `https://dialogosur.cl/category/medio-ambiente/feed/`
+- **Diario Agrícola**: Feed de la categoría 'Agricultura' en Diario Agrícola
+  - RSS: `https://www.diarioagricola.com/category/noticias/agricultura/feed/`
+- **Diario Antofagasta**: Feed de la categoría 'Medio Ambiente' en Diario Antofagasta
+  - RSS: `https://www.diarioantofagasta.cl/medio-ambiente/feed/`
+- **Diario El Centro**: Feed de la categoría 'Agricultura' en Diario El Centro
+  - RSS: `https://www.diarioelcentro.cl/categoria/agricultura/feed/`
+- **Diario El Huemul**: Feed de la categoría 'Medio Ambiente' en Diario El Huemul
+  - RSS: `https://elhuemul.cl/category/medio-ambiente/feed/`
+- **Diario El Marino**: Feed de la categoría 'Lluvias' en Diario El Marino
+  - RSS: `https://www.diarioelmarino.cl/categoria/desastres/lluvias/feed/`
+- **Diario El Nortino**: Feed de la categoría 'Medioambiente' en Diario El Nortino
+  - RSS: `https://diarioelnortino.cl/category/medioambiente/feed/`
+- **Diario El Ranco**: Feed de la categoría 'Medio Ambiente' en Diario El Ranco
+  - RSS: `https://diarioelranco.cl/category/medio-ambiente/feed/`
+- **Diario La Región** — Diario regional de Coquimbo, Coquimbo
+  - Diario La Región - Agricultura: `https://www.diariolaregion.cl/category/agri/feed/`
+  - Diario La Región - Medio Ambiente: `https://www.diariolaregion.cl/category/ambiente/feed/`
+- **Diario Puerto Varas**: Feed de la categoría 'Ciencia y Medio' en Diario Puerto Varas
+  - RSS: `https://diariopuertovaras.cl/category/ciencia-medio/feed/`
+- **Diario UACh**: Feed de la categoría 'Sustentabilidad Ods' en Diario UACh
+  - RSS: `https://diario.uach.cl/category/categorias/sustentabilidad/feed/`
+- **DPL News**: Feed de la categoría 'Sustentabilidad' en DPL News
+  - RSS: `https://dplnews.com/category/tecnologia/sustentabilidad/feed/`
+- **ECOceanos** — Organización chilena dedicada a la defensa del océano, la biodiversidad marina y los ecosistemas costeros
+  - ECOceanos - Portada: `https://www.ecoceanos.cl/feed/`
+  - ECOceanos - Laboral: `https://www.ecoceanos.cl/ver/laboral/feed/`
+  - ECOceanos - Ecoceanos En La Prensa: `https://www.ecoceanos.cl/ver/ecoceanos-en-la-prensa/feed/`
+  - ECOceanos [Proxy Google News]: `https://news.google.com/rss/search?q=site:ecoceanos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Ecosistemas** — Ecosistemas, revista y organización chilena de medio ambiente y sustentabilidad
+  - Ecosistemas: `https://www.ecosistemas.cl/feed/`
+  - Ecosistemas [Proxy Google News]: `https://news.google.com/rss/search?q=site:ecosistemas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política
+  - El Ciudadano - Medio Ambiente: `https://www.elciudadano.com/noticias/medio-ambiente/feed/`
+  - El Ciudadano - Animales: `https://www.elciudadano.com/noticias/animal/feed/`
+- **El Contraste**: Feed de la categoría 'Medio Ambiente' en El Contraste
+  - RSS: `https://elcontraste.cl/medio-ambiente/feed/`
+- **El Diario de La Araucanía** — Diario regional de Angol, La Araucanía
+  - El Diario de La Araucanía - Agricultura: `https://www.eldiariodelaaraucania.cl/category/ciencias-y-tecnologias/agricultura/feed/`
+  - El Diario de La Araucanía - Medio Ambiente: `https://www.eldiariodelaaraucania.cl/category/medio-ambiente/feed/`
+- **El Informador**: Feed de la categoría 'Agricultura' en El Informador
+  - RSS: `https://www.elinformador.cl/category/agricultura/feed/`
+- **El Insular**: Feed de la categoría 'Medioambiente' en El Insular
+  - RSS: `https://elinsular.cl/category/medioambiente/feed/`
+- **El Maipo**: Feed de la categoría 'Medio Ambiente' en El Maipo
+  - RSS: `https://elmaipo.cl/category/medio-ambiente/feed/`
+- **El Morro de Arica**: Feed de la categoría 'Sismo' en El Morro de Arica
+  - RSS: `https://elmorrodearica.cl/category/sismo/feed/`
+- **El Noticiero del Huasco**: Feed de la categoría 'Agricultura' en El Noticiero del Huasco
+  - RSS: `https://elnoticierodelhuasco.cl/category/agricultura/feed/`
+- **El Observador**: Feed de la categoría 'Sustentabilidad' en El Observador
+  - RSS: `https://www.observador.cl/category/sustentabilidad/feed/`
+- **El Periodista**: Feed de la categoría 'Viajes' en El Periodista
+  - RSS: `https://www.elperiodista.cl/category/cultura/viajes/feed/`
+- **El Quinto Poder**: Feed de la categoría 'Medio Ambiente' en El Quinto Poder
+  - RSS: `https://elquintopoder.cl/temas/medio-ambiente/feed/`
+- **El Reporte Diario**: Feed de la categoría 'Agricultura' en El Reporte Diario
+  - RSS: `https://reportediario.cl/category/agricultura/feed/`
+- **El Urbano Rural**: Feed de la categoría 'Ambiental' en El Urbano Rural
+  - RSS: `https://elurbanorural.cl/category/ambiental/feed/`
+- **El Vicuñense**: Feed de la categoría 'Agricultura' en El Vicuñense
+  - RSS: `https://www.xn--elvicuense-y9a.cl/category/agricultura/feed/`
+- **FIMA (Fiscalía del Medio Ambiente)** — FIMA (Fiscalía del Medio Ambiente), ONG chilena de defensa legal ambiental
+  - Fiscalía del Medio Ambiente: `https://fima.cl/feed/`
+  - Fiscalía del Medio Ambiente - Destacado: `https://www.fima.cl/category/destacado/feed/`
+  - Fiscalía del Medio Ambiente - Columnas: `https://www.fima.cl/category/colmunas/feed/`
+  - Fiscalía del Medio Ambiente - Sin Categoría: `https://www.fima.cl/category/sin-categoria-es/feed/`
+  - Fiscalía del Medio Ambiente - Nacionales: `https://www.fima.cl/category/nacionales/feed/`
+  - Fiscalía del Medio Ambiente - Comunicados: `https://www.fima.cl/category/comunicados/feed/`
+  - Fiscalía del Medio Ambiente - Difusión: `https://www.fima.cl/category/difusion/feed/`
+  - Fiscalía del Medio Ambiente [Proxy Google News]: `https://news.google.com/rss/search?q=site:fima.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Fundación Rewilding Chile** — Fundación Rewilding Chile, organización de conservación y restauración de ecosistemas
+  - Fundación Rewilding Chile: `https://rewildingchile.org/feed/`
+  - Fundación Rewilding Chile - En: `https://rewildingchile.org/en/feed/`
+  - Fundación Rewilding Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:rewildingchile.org&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Fundación Terram** — ONG chilena dedicada a la investigación ambiental y desarrollo sustentable
+  - Fundación Terram: `https://www.terram.cl/feed/`
+  - Fundación Terram - Agenda: `https://www.terram.cl/category/agenda/feed/`
+  - Fundación Terram - Opinión: `https://www.terram.cl/category/opinion/feed/`
+  - Fundación Terram - Comunicados De Prensa: `https://www.terram.cl/category/comunicados-de-prensa/feed/`
+  - Fundación Terram [Proxy Google News]: `https://news.google.com/rss/search?q=site:terram.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Generadoras de Chile** — Asociación de Generadoras de Chile, gremio de empresas de generación eléctrica
+  - Generadoras de Chile: `https://generadoras.cl/feed/`
+  - Generadoras de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:generadoras.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Google News** — Segregador de noticias de Google
+  - Google News - Chile - Resultados 'sismo': `https://news.google.com/rss/search?q=sismo&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Google News - Chile - Resultados 'terremoto': `https://news.google.com/rss/search?q=terremoto&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Google News - Chile - Resultados 'medio ambiente': `https://news.google.com/rss/search?q=medio%20ambiente&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Greenpeace Chile** — Greenpeace Chile, organización ambientalista con campañas locales en Chile
+  - Greenpeace Chile: `https://www.greenpeace.org/chile/feed/`
+  - Greenpeace Chile - Clima Y Energía: `https://www.greenpeace.org/chile/category/issues/climayenergia/feed/`
+  - Greenpeace Chile - Oceanos: `https://www.greenpeace.org/chile/category/issues/oceanos/feed/`
+  - Greenpeace Chile - Contaminación: `https://www.greenpeace.org/chile/category/issues/contaminacion/feed/`
+  - Greenpeace Chile - Bosques: `https://www.greenpeace.org/chile/category/issues/bosques/feed/`
+  - Greenpeace Chile - Biodiversidad: `https://www.greenpeace.org/chile/category/issues/biodiversidad/feed/`
+  - Greenpeace Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:greenpeace.org/chile&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Hora de Noticias**: Feed de la categoría 'Agricultura' en Hora de Noticias
+  - RSS: `https://horadenoticias.cl/seccion/agricultura/feed/`
+- **InfoSalmon** — Plataforma de difusión de conocimiento técnico y científico sobre acuicultura y salmonicultura
+  - InfoSalmon: `https://infosalmon.cl/feed/`
+  - InfoSalmon - Empresas: `https://infosalmon.cl/category/empresas/feed/`
+  - InfoSalmon - Noticias De La Industria: `https://infosalmon.cl/category/noticias-de-la-industria/feed/`
+  - InfoSalmon - Mercado: `https://infosalmon.cl/category/mercado/feed/`
+  - InfoSalmon - Normativas: `https://infosalmon.cl/category/normativas/feed/`
+  - InfoSalmon - I+d: `https://infosalmon.cl/category/id/feed/`
+  - InfoSalmon - Desarrollo De La Industria: `https://infosalmon.cl/category/desarrollo-de-la-industria/feed/`
+  - InfoSalmon - Sostenibilidad: `https://infosalmon.cl/category/sostenibilidad/feed/`
+  - InfoSalmon - Nutrición: `https://infosalmon.cl/category/nutricion/feed/`
+  - InfoSalmon - Columna De Opinión: `https://infosalmon.cl/category/opinion/feed/`
+  - InfoSalmon - Medioambiente: `https://infosalmon.cl/category/medioambiente/feed/`
+  - InfoSalmon - Industria Del Salmón En Chile: `https://infosalmon.cl/category/industria-del-salmon-en-chile/feed/`
+  - InfoSalmon - Enfoque Económico: `https://infosalmon.cl/category/noticias-de-mercado/feed/`
+  - InfoSalmon - Otras Especies: `https://infosalmon.cl/category/otras-especies/feed/`
+  - InfoSalmon - Editorial: `https://infosalmon.cl/category/editorial/feed/`
+  - InfoSalmon - Responsabilidad Social: `https://infosalmon.cl/category/responsabilidad-social/feed/`
+  - InfoSalmon - Contenido Patrocinado: `https://infosalmon.cl/category/contenido-patrocinado/feed/`
+  - InfoSalmon - Biología: `https://infosalmon.cl/category/biologia/feed/`
+  - InfoSalmon - Ras: `https://infosalmon.cl/category/ras/feed/`
+  - InfoSalmon - Proveedores: `https://infosalmon.cl/category/proveedores/feed/`
+  - InfoSalmon - Calidad De Agua: `https://infosalmon.cl/category/calidad_agua/feed/`
+  - InfoSalmon [Proxy Google News]: `https://news.google.com/rss/search?q=site:infosalmon.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Instituto Antártico Chileno** — Instituto Antártico Chileno (INACH), organismo público de ciencia antártica
+  - Instituto Antártico Chileno: `https://www.inach.cl/feed/`
+  - Instituto Antártico Chileno - Artículos De Prensa: `https://www.inach.cl/category/prensa/feed/`
+  - Instituto Antártico Chileno - Divulgación Y Educación: `https://www.inach.cl/category/divulgacion/feed/`
+  - Instituto Antártico Chileno - Publicaciones: `https://www.inach.cl/category/publicaciones/feed/`
+  - Instituto Antártico Chileno - Opinión: `https://www.inach.cl/category/opinion/feed/`
+  - Instituto Antártico Chileno [Proxy Google News]: `https://news.google.com/rss/search?q=site:inach.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Iquique TV** — Medio de comunicación de la Región de Tarapacá
+  - Iquique TV - Medio Ambiente: `https://iquiquetv.cl/category/noticias/medio-ambiente/feed/`
+  - Iquique TV - Agricultura: `https://iquiquetv.cl/category/noticias/agricultura/feed/`
+- **La Batalla de Maipú**: Feed de la categoría 'Medioambiente' en La Batalla de Maipú
+  - RSS: `https://www.labatalla.cl/secciones/medioambiente/feed/`
+- **La Fontana**: Feed de la categoría 'Medio Ambiente' en La Fontana
+  - RSS: `https://lafontana.cl/category/medio-ambiente/feed/`
+- **La Noticia** — Diario regional de Rancagua, O'Higgins
+  - La Noticia - Ambiental: `https://lanoticia.cl/category/ambiental/feed/`
+  - La Noticia - Agricultura: `https://lanoticia.cl/category/agricultura/feed/`
+- **La Perla del Limarí**: Feed de la categoría 'Agricultura' en La Perla del Limarí
+  - RSS: `https://www.laperladellimari.cl/category/agricultura/feed/`
+- **La Tribuna de Colchagua**: Feed de la categoría 'Agricultura' en La Tribuna de Colchagua
+  - RSS: `https://www.latribunadecolchagua.cl/category/agricultura/feed/`
+- **Ladera Sur** — Medio de comunicación y multiplataforma sobre naturaleza, conservación, medio ambiente, ciencia, vida outdoor, viajes y más
+  - Ladera Sur - Viajes y Destinos: `https://laderasur.com/category/viajes-y-destinos/feed/`
+  - Ladera Sur - Mastodon.cl BOT: `https://mastodon.cl/@laderasur.rss`
+  - Ladera Sur [Proxy Bing News]: `https://www.bing.com/news/search?q=site:laderasur.com&format=RSS`
+- **Las Noticias de Malleco**: Feed de la categoría 'Agricultura' en Las Noticias de Malleco
+  - RSS: `https://lasnoticiasdemalleco.cl/category/agricultura/feed/`
+- **Linares en Línea**: Feed de la categoría 'Medio Ambiente' en Linares en Línea
+  - RSS: `https://www.linaresenlinea.cl/category/medio-ambiente/feed/`
+- **MCH (Mineria Chilena)** — MCH, medio de comunicación especializado en minería, construcción y energía
+  - MCH (Mineria Chilena) - Cero Emisiones: `https://www.mch.cl/categoria/sustentabilidad/feed/`
+  - MCH (Mineria Chilena) - Medio Ambiente: `https://www.mch.cl/categoria/medio-ambiente/feed/`
+- **Meteored Chile** — Información meteorológica y pronóstico del tiempo a 14 días para Chile
+  - Meteored Chile: `https://www.meteored.cl/feed/`
+  - Meteored Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:meteored.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Mirada Sur TV**: Feed de la categoría 'Medioambiente' en Mirada Sur TV
+  - RSS: `https://miradasurtv.cl/category/medioambiente/feed/`
+- **Noticias Los Ríos**: Feed de la categoría 'Medio Ambiente' en Noticias Los Ríos
+  - RSS: `https://www.noticiaslosrios.cl/seccion/medio-ambiente/feed/`
+- **Nuevo Poder**: Feed de la categoría 'Ecomundo' en Nuevo Poder
+  - RSS: `https://www.nuevopoder.cl/category/ecomundo/feed/`
+- **Ovalle Hoy**: Feed de la categoría 'Medio Ambiente' en Ovalle Hoy
+  - RSS: `https://ovallehoy.cl/categoria/ultimas/sociedad/medio-ambiente/feed/`
+- **Página 19**: Feed de la categoría 'Medioambiente' en Página 19
+  - RSS: `https://pagina19.cl/categoria/medioambiente/feed/`
+- **Portal Educa**: Feed de la categoría ' Medio Ambiente' en Portal Educa
+  - RSS: `https://portaleduca.cl/category/medio-ambiente/feed/`
+- **Portal Frutícola**: Feed de la categoría 'Sostenibilidad F' en Portal Frutícola
+  - RSS: `https://www.portalfruticola.com/noticias/category/sostenibilidad/feed/`
+- **Portal Metropolitano** — Portal de noticias de la Región Metropolitana
+  - Portal Metropolitano - Medio Ambiente: `https://portalmetropolitano.cl/category/medio-ambiente/feed/`
+  - Portal Metropolitano - Agricultura: `https://portalmetropolitano.cl/category/agricultura/feed/`
+- **Radio 45 Sur** — Radio online de la Región de Los Ríos
+  - Radio 45 Sur - Medio Ambiente: `https://radio45sur.cl/category/medio-ambiente/feed/`
+  - Radio 45 Sur - Agricultura: `https://radio45sur.cl/category/agricultura/feed/`
+- **Radio Cristalina**: Feed de la categoría 'Medio Ambiente' en Radio Cristalina
+  - RSS: `https://radiocristalina.cl/category/medio-ambiente/feed/`
+- **Radio JGM**: Feed de la categoría 'Medio Ambiente' en Radio JGM
+  - RSS: `https://radiojgm.uchile.cl/category/medio-ambiente/feed/`
+- **Radio UdeC**: Feed de la categoría 'Medio Ambiente' en Radio UdeC
+  - RSS: `https://www.radioudec.cl/category/medio-ambiente/feed/`
+- **Río en Línea**: Feed de la categoría 'Medio Ambiente' en Río en Línea
+  - RSS: `https://www.rioenlinea.cl/seccion/medio-ambiente/feed/`
+- **Sostenibilidad UNAB** — Portal institucional de la UNAB sobre sostenibilidad, gestión ambiental y carbono neutralidad
+  - Sostenibilidad UNAB: `https://sostenibilidad.unab.cl/feed/`
+  - Sostenibilidad UNAB - Sin Categorizar: `https://sostenibilidad.unab.cl/category/sin-categorizar/feed/`
+- **Temuco Diario** — Diario regional de Temuco, La Araucanía
+  - Temuco Diario - Medio Ambiente: `https://temucodiario.cl/category/medio-ambiente/feed/`
+  - Temuco Diario - Agricultura: `https://temucodiario.cl/category/agricultura/feed/`
+- **Tour Innovación** — Medio chileno con enfoque en innovación, tecnología, emprendimiento, minería y energía
+  - Tour Innovación - Sustentabilidad: `https://www.tourinnovacion.cl/seccion/sustentabilidad/feed/`
+  - Tour Innovación - Agricultura: `https://www.tourinnovacion.cl/seccion/agricultura/feed/`
+- **Traiguén City**: Feed de la categoría 'Medio Ambiente' en Traiguén City
+  - RSS: `https://traiguencity.cl/noticias/traiguen/medio-ambiente/feed/`
+- **trendTIC**: Feed de la categoría 'Sustentabilidad' en trendTIC
+  - RSS: `https://www.trendtic.cl/category/sustentabilidad/feed/`

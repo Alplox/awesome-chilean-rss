@@ -405,15 +405,28 @@ function categoryHeadingLabel(label) {
   return label.replace(/^\S+\s/u, '');
 }
 
-function markdownAnchor(text) {
-  return text
-    .toLocaleLowerCase('es')
-    .replace(/[^\p{L}\p{N}\s-]/gu, '')
-    .trim()
-    .replace(/\s+/g, '-');
+function renderReadmeSite(site) {
+  const activeFeeds = site.feeds.filter(
+    feed => feed.status === 'active' && feed.verified === true
+  );
+  if (activeFeeds.length === 0) return null;
+
+  if (activeFeeds.length === 1) {
+    const feed = activeFeeds[0];
+    const feedDesc = feed.description ?? site.description ?? '';
+    return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
+  }
+
+  const feedLines = activeFeeds
+    .map(feed => `  - ${feed.name}: \`${feed.rss_url}\``)
+    .join('\n');
+  return `- **${site.name}** — ${site.description}\n${feedLines}`;
 }
 
+let readmeCategoryDocuments = [];
+
 function generateReadme() {
+  readmeCategoryDocuments = [];
   const total = allFeeds.length;
 
   // Conteos por OPML global (tabla comparativa)
@@ -440,7 +453,7 @@ Cada carpeta de OPML ofrece una vista distinta. Esta tabla muestra cuántos siti
     if (feeds.length === 0) return null;
     const sitesCount = (sitesByResolvedCategory[cat] || []).length;
     const heading = categoryHeadingLabel(label);
-    return `- [${label}](#${markdownAnchor(heading)}) — ${sitesCount} sitios, ${feeds.length} feeds`;
+    return `- [${label}](dist/readme/categories/${cat}.md) — ${sitesCount} sitios, ${feeds.length} feeds`;
   }).filter(Boolean);
 
   const index = `### Índice de categorías\n\n${indexLines.join('\n')}`;
@@ -461,19 +474,7 @@ Cada carpeta de OPML ofrece una vista distinta. Esta tabla muestra cuántos siti
           const regionLabel = regions[regKey];
           const siteLines = regionSites
             .map(site => {
-              const activeFeeds = site.feeds.filter(f => f.status === 'active' && f.verified === true);
-              if (activeFeeds.length === 0) return null;
-
-              if (activeFeeds.length === 1) {
-                const feed = activeFeeds[0];
-                const feedDesc = feed.description ?? site.description ?? '';
-return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
-              } else {
-                const feedLines = activeFeeds
-                  .map(feed => `  - ${feed.name}: \`${feed.rss_url}\``)
-                  .join('\n');
-                return `- **${site.name}** — ${site.description}\n${feedLines}`;
-              }
+              return renderReadmeSite(site);
             })
             .filter(Boolean)
             .join('\n');
@@ -489,19 +490,7 @@ return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
       if (unassignedSites.length > 0) {
         const unassignedLines = unassignedSites
           .map(site => {
-            const activeFeeds = site.feeds.filter(f => f.status === 'active' && f.verified === true);
-            if (activeFeeds.length === 0) return null;
-
-            if (activeFeeds.length === 1) {
-              const feed = activeFeeds[0];
-              const feedDesc = feed.description ?? site.description ?? '';
-return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
-            } else {
-              const feedLines = activeFeeds
-                .map(feed => `  - ${feed.name}: \`${feed.rss_url}\``)
-                .join('\n');
-              return `- **${site.name}** — ${site.description}\n${feedLines}`;
-            }
+            return renderReadmeSite(site);
           })
           .filter(Boolean)
           .join('\n');
@@ -514,29 +503,20 @@ return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
       if (regionSubsections.length === 0) return null;
 
       const heading = categoryHeadingLabel(label);
-      return `### ${heading}\n\n[↑ Volver al índice](#índice-de-categorías)\n\nConsolidado regional: [\`chilean-rss-regions.opml\`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [\`regional.opml\`](dist/opml/categories/regional.opml) - ${catSites.length} sitios, ${feedCount(totalFeedsInCat)}\n\n${regionSubsections.join('\n\n')}`;
+      const regionalContent = regionSubsections.join('\n\n').replaceAll('](dist/opml/', '](../../opml/');
+      const content = `### ${heading}\n\n[↑ Volver al índice](../../../README.md#índice-de-categorías)\n\nConsolidado regional: [\`chilean-rss-regions.opml\`](../../opml/chilean-rss-regions.opml) — OPML por categoría: [\`regional.opml\`](../../opml/categories/regional.opml) - ${catSites.length} sitios, ${feedCount(totalFeedsInCat)}\n\n${regionalContent}`;
+      readmeCategoryDocuments.push({ cat, content });
+      return '';
     }
 
-    const items = catSites.map(site => {
-      const activeFeeds = site.feeds.filter(f => f.status === 'active' && f.verified === true);
-      if (activeFeeds.length === 0) return null;
-
-      if (activeFeeds.length === 1) {
-        const feed = activeFeeds[0];
-        const feedDesc = feed.description ?? site.description ?? '';
-return `- **${site.name}**: ${feedDesc}\n  - RSS: \`${feed.rss_url}\``;
-      } else {
-        const feedLines = activeFeeds
-          .map(feed => `  - ${feed.name}: \`${feed.rss_url}\``)
-          .join('\n');
-        return `- **${site.name}** — ${site.description}\n${feedLines}`;
-      }
-    }).filter(Boolean).join('\n');
+    const items = catSites.map(renderReadmeSite).filter(Boolean).join('\n');
 
     if (!items) return null;
 
     const heading = categoryHeadingLabel(label);
-    return `### ${heading}\n\n[↑ Volver al índice](#índice-de-categorías)\n\n*Descargar OPML: [\`${cat}.opml\`](dist/opml/categories/${cat}.opml) - ${catSites.length} sitios, ${feedCount(totalFeedsInCat)}*\n\n${items}`;
+    const content = `### ${heading}\n\n[↑ Volver al índice](../../../README.md#índice-de-categorías)\n\n*Descargar OPML: [\`${cat}.opml\`](../../opml/categories/${cat}.opml) - ${catSites.length} sitios, ${feedCount(totalFeedsInCat)}*\n\n${items}`;
+    readmeCategoryDocuments.push({ cat, content });
+    return '';
   }).filter(Boolean).join('\n\n');
 
   const regTotal = Object.values(feedsByRegion).flat().length;
@@ -569,8 +549,6 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 ## 📝 Fuentes disponibles (${realFeedCount} sitios, ${total} feeds)
 
 ${index}
-
-${feedSections}
 
 ## 🤝 Cómo contribuir
 
@@ -731,8 +709,18 @@ try {
   }
   console.log(`✅ OPMLs individuales por categoría generados en el directorio ${categoriesDir}/ (con y sin agrupación)`);
 
-  // README.md
+  // Full README category listings kept outside README.md to avoid GitHub's render limit
+  const readmeCategoriesDir = 'dist/readme/categories';
+  if (!existsSync(readmeCategoriesDir)) {
+    mkdirSync(readmeCategoriesDir, { recursive: true });
+  }
   const readme = generateReadme();
+  for (const { cat, content } of readmeCategoryDocuments) {
+    writeFileSync(`${readmeCategoriesDir}/${cat}.md`, `${content}\n`, 'utf-8');
+  }
+  console.log(`✅ Listados completos del README generados en ${readmeCategoriesDir}/`);
+
+  // README.md
   writeFileSync('README.md', readme, 'utf-8');
   console.log(`✅ README.md generado (${allFeeds.length} feeds, ${orderedCategories.length} categorías)`);
 
