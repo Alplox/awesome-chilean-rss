@@ -4,7 +4,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
 ![Sitios](https://img.shields.io/badge/sitios-546-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-5096-blue)
 
-> El directorio más completo de feeds RSS chilenos. 546 sitios, 5096 fuentes verificadas, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 546 sitios, 5096 feeds verificados, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ## 🚀 Inicio rápido
 
@@ -36,32 +36,32 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 
 ## 📝 Fuentes disponibles (546 sitios, 5096 feeds)
 
-<a id="indice"></a>
-### 📑 Índice de categorías
+### Índice de categorías
 
-- [📰 Noticias Nacionales](#cat-news) — 245 sitios, 914 feeds
-- [🌐 Noticias Internacionales](#cat-news-international) — 91 sitios, 253 feeds
-- [🌎 Medios Regionales](#cat-regional) — 220 sitios, 1557 feeds
-- [💻 Tecnología y Startups](#cat-technology) — 82 sitios, 340 feeds
-- [🏛️ Gobierno y Datos Públicos](#cat-government) — 41 sitios, 125 feeds
-- [🏫 Educación, Universidades e Investigación](#cat-education) — 106 sitios, 292 feeds
-- [💼 Economia, Negocios y Finanzas](#cat-business) — 114 sitios, 314 feeds
-- [💼 Ofertas laborales y empleabilidad](#cat-jobs) — 17 sitios, 23 feeds
-- [🎨 Cultura y Divulgación](#cat-culture) — 118 sitios, 181 feeds
-- [👥 Comunidad](#cat-community) — 91 sitios, 195 feeds
-- [⚽ Deportes](#cat-sports) — 138 sitios, 207 feeds
-- [🎮 Videojuegos y Gaming](#cat-gaming) — 13 sitios, 83 feeds
-- [🌿 Medio Ambiente y Naturaleza](#cat-environment) — 77 sitios, 171 feeds
-- [🎭 Espectáculos y Entretención](#cat-entertainment) — 53 sitios, 143 feeds
-- [📻 Radio y Música](#cat-radio) — 33 sitios, 102 feeds
-- [🏥 Salud y Bienestar](#cat-health) — 88 sitios, 145 feeds
-- [🗳️ Partidos Políticos](#cat-political-parties) — 10 sitios, 32 feeds
-- [✍️ Blogs](#cat-blogs) — 10 sitios, 19 feeds
+- [📰 Noticias Nacionales](#noticias-nacionales) — 245 sitios, 914 feeds
+- [🌐 Noticias Internacionales](#noticias-internacionales) — 91 sitios, 253 feeds
+- [🌎 Medios Regionales](#medios-regionales) — 220 sitios, 1557 feeds
+- [💻 Tecnología y Startups](#tecnología-y-startups) — 82 sitios, 340 feeds
+- [🏛️ Gobierno y Datos Públicos](#gobierno-y-datos-públicos) — 41 sitios, 125 feeds
+- [🏫 Educación, Universidades e Investigación](#educación-universidades-e-investigación) — 106 sitios, 292 feeds
+- [💼 Economia, Negocios y Finanzas](#economia-negocios-y-finanzas) — 114 sitios, 314 feeds
+- [💼 Ofertas laborales y empleabilidad](#ofertas-laborales-y-empleabilidad) — 17 sitios, 23 feeds
+- [🎨 Cultura y Divulgación](#cultura-y-divulgación) — 118 sitios, 181 feeds
+- [👥 Comunidad](#comunidad) — 91 sitios, 195 feeds
+- [⚽ Deportes](#deportes) — 138 sitios, 207 feeds
+- [🎮 Videojuegos y Gaming](#videojuegos-y-gaming) — 13 sitios, 83 feeds
+- [🌿 Medio Ambiente y Naturaleza](#medio-ambiente-y-naturaleza) — 77 sitios, 171 feeds
+- [🎭 Espectáculos y Entretención](#espectáculos-y-entretención) — 53 sitios, 143 feeds
+- [📻 Radio y Música](#radio-y-música) — 33 sitios, 102 feeds
+- [🏥 Salud y Bienestar](#salud-y-bienestar) — 88 sitios, 145 feeds
+- [🗳️ Partidos Políticos](#partidos-políticos) — 10 sitios, 32 feeds
+- [✍️ Blogs](#blogs) — 10 sitios, 19 feeds
 
-<a id="cat-news"></a>
-### 📰 Noticias Nacionales (245 sitios, 914 feeds)
+### Noticias Nacionales
 
-*Descargar OPML: [`news.opml`](dist/opml/categories/news.opml)*
+[↑ Volver al índice](#índice-de-categorías)
+
+*Descargar OPML: [`news.opml`](dist/opml/categories/news.opml) - 245 sitios, 914 feeds*
 
 - **Aconcagua Digital**: Feed de la categoría 'Noticias' en Aconcagua Digital
   - RSS: `https://aconcaguadigital.cl/category/noticias/feed/`
@@ -1223,12 +1223,11 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
   - VLN Radio - Nacional: `https://www.vlnradio.cl/nacional/feed/`
   - VLN Radio - Política: `https://www.vlnradio.cl/politica/feed/`
 
-[↑ Volver al índice](#indice)
+### Noticias Internacionales
 
-<a id="cat-news-international"></a>
-### 🌐 Noticias Internacionales (91 sitios, 253 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml)*
+*Descargar OPML: [`news-international.opml`](dist/opml/categories/news-international.opml) - 91 sitios, 253 feeds*
 
 - **Alerta Noticias**: Feed de la categoría 'Internacional' en Alerta Noticias
   - RSS: `https://alertanoticias.cl/category/internacional/feed/`
@@ -1575,12 +1574,11 @@ Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la
 - **Voz de América Chile**: Cobertura de noticias de Chile, América Latina y asuntos internacionales
   - RSS: `https://www.vozdeamerica.com/rss/`
 
-[↑ Volver al índice](#indice)
+### Medios Regionales
 
-<a id="cat-regional"></a>
-### 🌎 Medios Regionales (220 sitios, 1557 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml)
+Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](dist/opml/categories/regional.opml) - 220 sitios, 1557 feeds
 
 #### 📍 Arica y Parinacota (10 medios)
 
@@ -4394,12 +4392,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Radio Riquelme**: Feed de la categoría 'Regional' en Radio Riquelme
   - RSS: `https://radioriquelme.cl/category/regional/feed/`
 
-[↑ Volver al índice](#indice)
+### Tecnología y Startups
 
-<a id="cat-technology"></a>
-### 💻 Tecnología y Startups (82 sitios, 340 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml)*
+*Descargar OPML: [`technology.opml`](dist/opml/categories/technology.opml) - 82 sitios, 340 feeds*
 
 - **(Empresa) TiChile** — Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
   - (Empresa) tichile: `https://www.tichile.cl/feed/`
@@ -4824,12 +4821,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **VLN Radio**: Feed de la categoría 'Ciencia Y Tecnología' en VLN Radio
   - RSS: `https://www.vlnradio.cl/tendencias/ciencia-y-tecnologia/feed/`
 
-[↑ Volver al índice](#indice)
+### Gobierno y Datos Públicos
 
-<a id="cat-government"></a>
-### 🏛️ Gobierno y Datos Públicos (41 sitios, 125 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`government.opml`](dist/opml/categories/government.opml)*
+*Descargar OPML: [`government.opml`](dist/opml/categories/government.opml) - 41 sitios, 125 feeds*
 
 - **Atacama Noticias**: Feed de la categoría 'Avisos Legales' en Atacama Noticias
   - RSS: `https://www.atacamanoticias.cl/category/avisos-legales/feed/`
@@ -4998,12 +4994,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Traiguén City - Municipal: `https://traiguencity.cl/noticias/traiguen/municipal/feed/`
   - Traiguén City - Gobierno: `https://traiguencity.cl/noticias/traiguen/gobierno/feed/`
 
-[↑ Volver al índice](#indice)
+### Educación, Universidades e Investigación
 
-<a id="cat-education"></a>
-### 🏫 Educación, Universidades e Investigación (106 sitios, 292 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`education.opml`](dist/opml/categories/education.opml)*
+*Descargar OPML: [`education.opml`](dist/opml/categories/education.opml) - 106 sitios, 292 feeds*
 
 - **(Empresa) Contapapaya**: Feed de la categoría 'Educación' en (Empresa) Contapapaya
   - RSS: `https://contapapaya.cl/category/educacion/feed/`
@@ -5404,12 +5399,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Vergara 240 - Entrevistas: `https://vergara240.udp.cl/archivo/entrevistas/feed/`
   - Vergara 240 [Proxy Google News]: `https://news.google.com/rss/search?q=site:vergara240.udp.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-[↑ Volver al índice](#indice)
+### Economia, Negocios y Finanzas
 
-<a id="cat-business"></a>
-### 💼 Economia, Negocios y Finanzas (114 sitios, 314 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`business.opml`](dist/opml/categories/business.opml)*
+*Descargar OPML: [`business.opml`](dist/opml/categories/business.opml) - 114 sitios, 314 feeds*
 
 - **(Empresa) Contapapaya** — Plataforma de contabilidad online para pymes chilenas, con artículos sobre contabilidad y emprendimiento
   - (Empresa) Contapapaya: `https://contapapaya.cl/feed/`
@@ -5840,12 +5834,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **VLN Radio**: Feed de la categoría 'Economía' en VLN Radio
   - RSS: `https://www.vlnradio.cl/economia/feed/`
 
-[↑ Volver al índice](#indice)
+### Ofertas laborales y empleabilidad
 
-<a id="cat-jobs"></a>
-### 💼 Ofertas laborales y empleabilidad (17 sitios, 23 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`jobs.opml`](dist/opml/categories/jobs.opml)*
+*Descargar OPML: [`jobs.opml`](dist/opml/categories/jobs.opml) - 17 sitios, 23 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Empleabilidad' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/empleabilidad/feed/`
@@ -5888,12 +5881,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **Temuco Diario**: Feed de la categoría 'Trabajo' en Temuco Diario
   - RSS: `https://temucodiario.cl/category/trabajo/feed/`
 
-[↑ Volver al índice](#indice)
+### Cultura y Divulgación
 
-<a id="cat-culture"></a>
-### 🎨 Cultura y Divulgación (118 sitios, 181 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml)*
+*Descargar OPML: [`culture.opml`](dist/opml/categories/culture.opml) - 118 sitios, 181 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Anime y Manga: `https://alertageekchile.cl/category/anime-y-manga/feed/`
@@ -6195,12 +6187,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Villa Grimaldi: `https://villagrimaldi.cl/feed/`
   - Villa Grimaldi [Proxy Google News]: `https://news.google.com/rss/search?q=site:villagrimaldi.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-[↑ Volver al índice](#indice)
+### Comunidad
 
-<a id="cat-community"></a>
-### 👥 Comunidad (91 sitios, 195 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`community.opml`](dist/opml/categories/community.opml)*
+*Descargar OPML: [`community.opml`](dist/opml/categories/community.opml) - 91 sitios, 195 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Calendario de Estrenos y Eventos: `https://www.alertageekchile.cl/eventos/feed/`
@@ -6489,12 +6480,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **VLN Radio**: Feed de la categoría 'Sociedad' en VLN Radio
   - RSS: `https://www.vlnradio.cl/tendencias/sociedad/feed/`
 
-[↑ Volver al índice](#indice)
+### Deportes
 
-<a id="cat-sports"></a>
-### ⚽ Deportes (138 sitios, 207 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml)*
+*Descargar OPML: [`sports.opml`](dist/opml/categories/sports.opml) - 138 sitios, 207 feeds*
 
 - **Aconcagua Digital**: Feed de la categoría 'Deportes' en Aconcagua Digital
   - RSS: `https://aconcaguadigital.cl/category/deportes/feed/`
@@ -6842,12 +6832,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **VLN Radio**: Feed de la categoría 'Deportes' en VLN Radio
   - RSS: `https://www.vlnradio.cl/deportes/feed/`
 
-[↑ Volver al índice](#indice)
+### Videojuegos y Gaming
 
-<a id="cat-gaming"></a>
-### 🎮 Videojuegos y Gaming (13 sitios, 83 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`gaming.opml`](dist/opml/categories/gaming.opml)*
+*Descargar OPML: [`gaming.opml`](dist/opml/categories/gaming.opml) - 13 sitios, 83 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Videojuegos: `https://alertageekchile.cl/category/videojuegos/feed/`
@@ -6946,12 +6935,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Vanguardia Gamer - Opinión: `https://vanguardiagamer.cl/category/opinion/feed/`
   - Vanguardia Gamer [Proxy Google News]: `https://news.google.com/rss/search?q=site:vanguardiagamer.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-[↑ Volver al índice](#indice)
+### Medio Ambiente y Naturaleza
 
-<a id="cat-environment"></a>
-### 🌿 Medio Ambiente y Naturaleza (77 sitios, 171 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`environment.opml`](dist/opml/categories/environment.opml)*
+*Descargar OPML: [`environment.opml`](dist/opml/categories/environment.opml) - 77 sitios, 171 feeds*
 
 - **Acero y Roca**: Feed de la categoría 'Medio Ambiente' en Acero y Roca
   - RSS: `https://aceroyroca.com/category/medio-ambiente/feed/`
@@ -7202,12 +7190,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **trendTIC**: Feed de la categoría 'Sustentabilidad' en trendTIC
   - RSS: `https://www.trendtic.cl/category/sustentabilidad/feed/`
 
-[↑ Volver al índice](#indice)
+### Espectáculos y Entretención
 
-<a id="cat-entertainment"></a>
-### 🎭 Espectáculos y Entretención (53 sitios, 143 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`entertainment.opml`](dist/opml/categories/entertainment.opml)*
+*Descargar OPML: [`entertainment.opml`](dist/opml/categories/entertainment.opml) - 53 sitios, 143 feeds*
 
 - **Alerta Geek Chile**: Feed de la categoría 'Series' en Alerta Geek Chile
   - RSS: `https://alertageekchile.cl/category/series/feed/`
@@ -7406,12 +7393,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **VLN Radio**: Feed de la categoría 'Espectáculos Y Tv' en VLN Radio
   - RSS: `https://www.vlnradio.cl/tendencias/espectaculos-y-tv/feed/`
 
-[↑ Volver al índice](#indice)
+### Radio y Música
 
-<a id="cat-radio"></a>
-### 📻 Radio y Música (33 sitios, 102 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`radio.opml`](dist/opml/categories/radio.opml)*
+*Descargar OPML: [`radio.opml`](dist/opml/categories/radio.opml) - 33 sitios, 102 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Música' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/musica/feed/`
@@ -7549,12 +7535,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Vilas Radio: `https://vilasradio.cl/feed/`
   - Vilas Radio [Proxy Google News]: `https://news.google.com/rss/search?q=site:vilasradio.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-[↑ Volver al índice](#indice)
+### Salud y Bienestar
 
-<a id="cat-health"></a>
-### 🏥 Salud y Bienestar (88 sitios, 145 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`health.opml`](dist/opml/categories/health.opml)*
+*Descargar OPML: [`health.opml`](dist/opml/categories/health.opml) - 88 sitios, 145 feeds*
 
 - **Alerta Noticias**: Feed de la categoría 'Salud' en Alerta Noticias
   - RSS: `https://alertanoticias.cl/category/salud/feed/`
@@ -7790,12 +7775,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
 - **VLN Radio**: Feed de la categoría 'Salud Y Bienestar' en VLN Radio
   - RSS: `https://www.vlnradio.cl/tendencias/salud-y-bienestar/feed/`
 
-[↑ Volver al índice](#indice)
+### Partidos Políticos
 
-<a id="cat-political-parties"></a>
-### 🗳️ Partidos Políticos (10 sitios, 32 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`political-parties.opml`](dist/opml/categories/political-parties.opml)*
+*Descargar OPML: [`political-parties.opml`](dist/opml/categories/political-parties.opml) - 10 sitios, 32 feeds*
 
 - **Demócratas Chile** — Partido político chileno - Noticias, comunicados y actividades de Demócratas Chile
   - Demócratas Chile: `https://www.democratas.cl/feed/`
@@ -7840,12 +7824,11 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - Partido Socialista de Chile - Columnas De Opinión: `https://www.pschile.cl/category/columnas-de-opinion/feed/`
   - Partido Socialista [Proxy Google News]: `https://news.google.com/rss/search?q=site:pschile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-[↑ Volver al índice](#indice)
+### Blogs
 
-<a id="cat-blogs"></a>
-### ✍️ Blogs (10 sitios, 19 feeds)
+[↑ Volver al índice](#índice-de-categorías)
 
-*Descargar OPML: [`blogs.opml`](dist/opml/categories/blogs.opml)*
+*Descargar OPML: [`blogs.opml`](dist/opml/categories/blogs.opml) - 10 sitios, 19 feeds*
 
 - **Balmaceda Arte Joven**: Feed de la categoría 'Blog' en Balmaceda Arte Joven
   - RSS: `https://www.balmacedartejoven.cl/category/blog/feed/`
@@ -7876,8 +7859,6 @@ Consolidado regional: [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions
   - RSS: `https://ladiscusion.cl/category/blog/feed/`
 - **RunningShot**: Feed de la categoría 'Blog' en RunningShot
   - RSS: `https://runnningshot.cl/category/blog/feed/`
-
-[↑ Volver al índice](#indice)
 
 ## 🤝 Cómo contribuir
 
