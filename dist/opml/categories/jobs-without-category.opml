@@ -3,7 +3,7 @@
   <head>
     <title>Awesome Chilean RSS - 💼 Ofertas laborales y empleabilidad (23 feeds)</title>
     <description>Feeds RSS de 💼 Ofertas laborales y empleabilidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-08-20T02:39:59.314Z</dateCreated>
+    <dateCreated>2026-09-04T21:18:47.183Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -12,7 +12,7 @@
     <outline type="rss" text="AQUA - Laboral" title="AQUA - Laboral" description="Feed de la categoría 'Laboral' en AQUA" xmlUrl="https://www.aqua.cl/?cat=7&amp;feed=rss2" htmlUrl="https://www.aqua.cl/?cat=7"/>
     <outline type="rss" text="Atentos - Trabajo" title="Atentos - Trabajo" description="Feed de la categoría 'Trabajo' en Atentos" xmlUrl="https://www.atentos.cl/category/trabajo/feed/" htmlUrl="https://www.atentos.cl/category/trabajo/"/>
     <outline type="rss" text="Chile País Minero - Ofertas Laborales" title="Chile País Minero - Ofertas Laborales" description="Feed de la categoría 'Ofertas Laborales' en Chile País Minero" xmlUrl="https://chilepaisminero.com/category/trabajo-y-capacitacion/ofertas-laborales/feed/" htmlUrl="https://chilepaisminero.com/category/trabajo-y-capacitacion/ofertas-laborales/"/>
-    <outline type="rss" text="ChileTrabajos" title="ChileTrabajos" description="Portal de empleos en Chile" xmlUrl="https://www.chiletrabajos.cl/rss.xml" htmlUrl="https://www.chiletrabajos.cl"/>
+    <outline type="rss" text="ChileTrabajos" title="ChileTrabajos" description="Feed principal de ChileTrabajos" xmlUrl="https://www.chiletrabajos.cl/rss.xml" htmlUrl="https://www.chiletrabajos.cl"/>
     <outline type="rss" text="ChileTrabajos [Proxy Google News]" title="ChileTrabajos [Proxy Google News]" description="Resultados de site:chiletrabajos.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chiletrabajos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chiletrabajos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Chocale - Empleo" title="Chocale - Empleo" description="Feed de la categoría 'Empleo' en Chocale" xmlUrl="https://chocale.cl/actualidad/empleo/feed/" htmlUrl="https://chocale.cl/actualidad/empleo/"/>
     <outline type="rss" text="De Mar a Cordillera TV - Trabajo" title="De Mar a Cordillera TV - Trabajo" description="Feed de la categoría 'Trabajo' en De Mar a Cordillera TV" xmlUrl="https://demaracordilleratv.cl/category/trabajo/feed/" htmlUrl="https://demaracordilleratv.cl/category/trabajo/"/>
@@ -20,11 +20,11 @@
     <outline type="rss" text="El Ciudadano - Trabajo" title="El Ciudadano - Trabajo" description="Feed de la categoría 'Trabajo' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/trabajo/feed/" htmlUrl="https://www.elciudadano.com/noticias/trabajo/"/>
     <outline type="rss" text="El Clarín de Chile - Trabajo" title="El Clarín de Chile - Trabajo" description="Feed de la categoría 'Trabajo' en El Clarín de Chile" xmlUrl="https://www.elclarin.cl/category/trabajo/feed/" htmlUrl="https://www.elclarin.cl/category/trabajo/"/>
     <outline type="rss" text="El Diario de La Araucanía - Empleabilidad" title="El Diario de La Araucanía - Empleabilidad" description="Feed de la categoría 'Empleabilidad' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/economia-y-negocios/empleabilidad/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/economia-y-negocios/empleabilidad/"/>
-    <outline type="rss" text="Laborum" title="Laborum" description="Portal de empleos chileno" xmlUrl="https://www.laborum.cl/blog/feed/" htmlUrl="https://www.laborum.cl/"/>
+    <outline type="rss" text="Laborum" title="Laborum" description="Feed principal de Laborum" xmlUrl="https://www.laborum.cl/blog/feed/" htmlUrl="https://www.laborum.cl/"/>
     <outline type="rss" text="Laborum [Proxy Google News]" title="Laborum [Proxy Google News]" description="Resultados de site:laborum.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:laborum.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:laborum.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Linares en Línea - Laboral" title="Linares en Línea - Laboral" description="Feed de la categoría 'Laboral' en Linares en Línea" xmlUrl="https://www.linaresenlinea.cl/category/laboral/feed/" htmlUrl="https://www.linaresenlinea.cl/category/laboral/"/>
     <outline type="rss" text="Portal Metropolitano - Trabajo" title="Portal Metropolitano - Trabajo" description="Feed de la categoría 'Trabajo' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/trabajo/feed/" htmlUrl="https://portalmetropolitano.cl/category/trabajo/"/>
-    <outline type="rss" text="Servicio Civil" title="Servicio Civil" description="Servicio Civil, institución pública a cargo de la gestión del empleo público y los concursos del Estado" xmlUrl="https://www.serviciocivil.cl/feed/" htmlUrl="https://www.serviciocivil.cl"/>
+    <outline type="rss" text="Servicio Civil" title="Servicio Civil" description="Feed principal de Servicio Civil" xmlUrl="https://www.serviciocivil.cl/feed/" htmlUrl="https://www.serviciocivil.cl"/>
     <outline type="rss" text="Servicio Civil - Alta Dirección Pública" title="Servicio Civil - Alta Dirección Pública" description="Feed de la categoría 'Alta Dirección Pública' en Servicio Civil" xmlUrl="https://www.serviciocivil.cl/categoria/alta-direccion-publica/feed/" htmlUrl="https://www.serviciocivil.cl/categoria/alta-direccion-publica/"/>
     <outline type="rss" text="Servicio Civil - Destacado" title="Servicio Civil - Destacado" description="Feed de la categoría 'Destacado' en Servicio Civil" xmlUrl="https://www.serviciocivil.cl/categoria/destacado/feed/" htmlUrl="https://www.serviciocivil.cl/categoria/destacado/"/>
     <outline type="rss" text="Servicio Civil - Servicio Civil" title="Servicio Civil - Servicio Civil" description="Feed de la categoría 'Servicio Civil' en Servicio Civil" xmlUrl="https://www.serviciocivil.cl/categoria/servicio-civil/feed/" htmlUrl="https://www.serviciocivil.cl/categoria/servicio-civil/"/>

@@ -276,8 +276,8 @@
     ],
     "order": 17
   },
-  "personal-blogs": {
-    "label": "✍️ Blogs Personales",
+  "blogs": {
+    "label": "✍️ Blogs",
     "slugs": [
       "blog",
       "blogs",
