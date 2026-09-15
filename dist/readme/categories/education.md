@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`education.opml`](../../opml/categories/education.opml) - 106 sitios, 292 feeds*
+*Descargar OPML: [`education.opml`](../../opml/categories/education.opml) - 111 sitios, 310 feeds*
 
 - **(Empresa) Contapapaya**: Feed de la categoría 'Educación' en (Empresa) Contapapaya
   - RSS: `https://contapapaya.cl/category/educacion/feed/`
@@ -198,6 +198,10 @@
   - Espacio Público [Proxy Bing News]: `https://www.bing.com/news/search?q=site:espaciopublico.cl&format=RSS`
   - Espacio Público - Columna: `https://espaciopublico.cl/categoria/prensa/ep-en-la-prensa/columna/feed/`
   - Espacio Público - Destacados: `https://espaciopublico.cl/categoria/prensa/destacados-slider/feed/`
+- **Explora** — Programa de divulgación científica y educación en ciencias
+  - Explora: `https://explora.cl/feed/`
+  - Explora - Ciencia Hoy: `https://explora.cl/blog/category/ciencia-hoy/feed/`
+  - Explora [Proxy Google News]: `https://news.google.com/rss/search?q=site:explora.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Factos**: Feed de la categoría 'Educacion' en Factos
   - RSS: `https://factos.cl/noticias/educacion/feed/`
 - **FLACSO Chile** — Institución académica dedicada a la investigación, formación y análisis de temas sociales, políticos y de desarrollo en América Latina
@@ -269,12 +273,21 @@
   - RSS: `https://www.linaresenlinea.cl/category/educacion/feed/`
 - **Los Ríos Noticias**: Feed de la categoría 'Educación' en Los Ríos Noticias
   - RSS: `https://www.losriosnoticias.cl/category/educacion/feed/`
+- **Norte y Energía**: Feed de la categoría 'Capital Humano' en Norte y Energía
+  - RSS: `https://www.norteyenergia.cl/category/educacion/feed/`
 - **Noticias Biobío**: Feed de la categoría 'Educación' en Noticias Biobío
   - RSS: `https://noticiasbiobio.cl/category/educacion/feed/`
 - **Noticias Chiloé**: Feed de la categoría 'Educación' en Noticias Chiloé
   - RSS: `https://loslagosnoticias.cl/category/educacion/feed/`
 - **Noticias Los Ríos**: Feed de la categoría 'Educación' en Noticias Los Ríos
   - RSS: `https://www.noticiaslosrios.cl/seccion/educacion/feed/`
+- **Observatorio de Datos UAI** — Observatorio de periodismo de datos y fact-checking de la Universidad Adolfo Ibáñez
+  - Observatorio de Datos UAI: `https://observatoriodedatos.uai.cl/feed/`
+  - Observatorio de Datos UAI - Portada: `https://observatoriodedatos.uai.cl/category/portada/feed/`
+  - Observatorio de Datos UAI - Periodismo De Datos: `https://observatoriodedatos.uai.cl/category/periodismo-de-datos/feed/`
+  - Observatorio de Datos UAI - Viaje Al Centro De Los Datos: `https://observatoriodedatos.uai.cl/category/viaje-al-centro-de-los-datos/feed/`
+  - Observatorio de Datos UAI [Proxy Google News]: `https://news.google.com/rss/search?q=site:observatoriodedatos.uai.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Observatorio de Datos UAI [Proxy Bing News]: `https://www.bing.com/news/search?q=site:observatoriodedatos.uai.cl&format=RSS`
 - **Ovalle Hoy**: Feed de la categoría 'Educación' en Ovalle Hoy
   - RSS: `https://ovallehoy.cl/categoria/ultimas/sociedad/educacion/feed/`
 - **Página 19**: Feed de la categoría 'Educación' en Página 19
@@ -337,6 +350,14 @@
   - SIP Red de Colegios [Proxy Google News]: `https://news.google.com/rss/search?q=site:sip.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Temuco Diario**: Feed de la categoría 'Educación' en Temuco Diario
   - RSS: `https://temucodiario.cl/category/educacion/feed/`
+- **The Grange School** — Colegio privado de Santiago
+  - The Grange School: `https://grange.cl/feed/`
+  - The Grange School - Community: `https://grange.cl/category/community/feed/`
+  - The Grange School - Senior School: `https://grange.cl/category/senior-school/feed/`
+  - The Grange School - Upper Prep: `https://grange.cl/category/upper-prep/feed/`
+  - The Grange School - Lower Prep: `https://grange.cl/category/lower-prep/feed/`
+  - The Grange School - Co Curricular: `https://grange.cl/category/co-curricular/feed/`
+  - The Grange School [Proxy Google News]: `https://news.google.com/rss/search?q=site:grange.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Tiempo 21**: Feed de la categoría 'Educación' en Tiempo 21
   - RSS: `https://www.tiempo21.cl/educacion/feed/`
 - **Tour Innovación**: Feed de la categoría 'Educación' en Tour Innovación
@@ -395,6 +416,8 @@
 - **UTE USACH Noticias** — Plataforma de noticias de la Corporación Solidaria UTE-USACH
   - UTE USACH Noticias: `https://corporacionuteusach-noticias.cl/feed/`
   - UTE USACH Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:corporacionuteusach-noticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Veredictum**: Feed de la categoría 'Derecho Educacional' en Veredictum
+  - RSS: `https://veredictum.cl/category/materia/educacion/feed/`
 - **Vergara 240** — Medio digital de la Escuela de Periodismo de la Universidad Diego Portales
   - Vergara 240: `https://vergara240.udp.cl/feed/`
   - Vergara 240 - Especiales V240: `https://vergara240.udp.cl/archivo/especiales-v240/feed/`

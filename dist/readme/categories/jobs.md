@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`jobs.opml`](../../opml/categories/jobs.opml) - 17 sitios, 23 feeds*
+*Descargar OPML: [`jobs.opml`](../../opml/categories/jobs.opml) - 18 sitios, 25 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Empleabilidad' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/empleabilidad/feed/`
@@ -12,6 +12,9 @@
   - RSS: `https://www.aqua.cl/?cat=7&feed=rss2`
 - **Atentos**: Feed de la categoría 'Trabajo' en Atentos
   - RSS: `https://www.atentos.cl/category/trabajo/feed/`
+- **BUK** — Plataforma chilena de gestión de recursos humanos
+  - BUK: `https://www.buk.cl/feed/`
+  - BUK [Proxy Google News]: `https://news.google.com/rss/search?q=site:buk.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Chile País Minero**: Feed de la categoría 'Ofertas Laborales' en Chile País Minero
   - RSS: `https://chilepaisminero.com/category/trabajo-y-capacitacion/ofertas-laborales/feed/`
 - **ChileTrabajos** — Portal de empleos en Chile

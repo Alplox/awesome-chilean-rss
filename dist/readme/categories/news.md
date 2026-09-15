@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news.opml`](../../opml/categories/news.opml) - 245 sitios, 914 feeds*
+*Descargar OPML: [`news.opml`](../../opml/categories/news.opml) - 263 sitios, 971 feeds*
 
 - **Aconcagua Digital**: Feed de la categoría 'Noticias' en Aconcagua Digital
   - RSS: `https://aconcaguadigital.cl/category/noticias/feed/`
@@ -68,6 +68,8 @@
   - BioBioChile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:biobiochile.cl&format=RSS`
 - **Blaster Chile**: Feed de la categoría 'Noticias' en Blaster Chile
   - RSS: `https://www.blaster.cl/category/noticias/feed/`
+- **Cabrero en Línea**: Feed de la categoría 'Pais' en Cabrero en Línea
+  - RSS: `https://wp.cabreroenlinea.cl/category/pais/feed/`
 - **Cadena Política**: Feed de la categoría 'Nacional' en Cadena Política
   - RSS: `https://cadenapolitica.com/category/nacional/feed/`
 - **Calama en Línea** — Medio de comunicación de la Región de Antofagasta
@@ -202,6 +204,13 @@
   - Correo de los Trabajadores [Proxy Google News]: `https://news.google.com/rss/search?q=site:cctt.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **CR2 - Centro de Ciencia del Clima y la Resiliencia**: Feed de la categoría 'Noticias' en CR2 - Centro de Ciencia del Clima y la Resiliencia
   - RSS: `https://www.cr2.cl/category/noticias/feed/`
+- **Dalenoticias** — Medio digital con noticias de Chile y el mundo
+  - Dalenoticias: `https://dalenoticias.cl/feed/`
+  - Dalenoticias - Nacional: `https://dalenoticias.cl/category/nacional/feed/`
+  - Dalenoticias - Provincial: `https://dalenoticias.cl/category/provincial/feed/`
+  - Dalenoticias - Espectáculo: `https://dalenoticias.cl/category/espectaculo/feed/`
+  - Dalenoticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:dalenoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Dalenoticias [Proxy Bing News]: `https://www.bing.com/news/search?q=site:dalenoticias.cl&format=RSS`
 - **David Noticias**: Feed de la categoría 'Politica' en David Noticias
   - RSS: `https://www.davidnoticias.cl/category/politica/feed/`
 - **De Mar a Cordillera TV**: Feed de la categoría 'Noticias' en De Mar a Cordillera TV
@@ -588,6 +597,8 @@
   - RSS: `https://lafontana.cl/category/politica/feed/`
 - **La Izquierda Diario**: Feed principal de La Izquierda Diario
   - RSS: `https://www.laizquierdadiario.cl/spip.php?page=backend`
+- **La Ligua Noticias**: Feed de la categoría 'Política' en La Ligua Noticias
+  - RSS: `https://laliguanoticias.cl/category/politica/feed/`
 - **La Máquina Medio** — Medio digital con análisis político, cultural y social
   - La Máquina Medio: `https://lamaquinamedio.com/feed/`
   - La Máquina Medio - Séptimo Arte: `https://lamaquinamedio.com/categoria/septimo-arte/feed/`
@@ -656,6 +667,9 @@
 - **Malleco 7** — Diario regional de Angol, La Araucanía
   - Malleco 7 - Actualidad: `https://www.malleco7.cl/canal/actualidad/feed/`
   - Malleco 7 - Política: `https://www.malleco7.cl/canal/politica/feed/`
+- **Mapuche Nation** — Portal de noticias mapuche
+  - Mapuche Nation: `https://www.mapuche-nation.org/feed/`
+  - Mapuche Nation - News: `https://www.mapuche-nation.org/blog/category/news/feed/`
 - **Maule Hoy**: Feed de la categoría 'Nacional' en Maule Hoy
   - RSS: `https://maulehoy.cl/nacional/feed/`
 - **Mediabanco** — Agencia chilena de noticias con pautas, comunicados de prensa y agenda semanal
@@ -698,6 +712,14 @@
   - Mi Radio LS [Proxy Google News]: `https://news.google.com/rss/search?q=site:miradiols.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Mirada Sur TV**: Feed de la categoría 'Nacional' en Mirada Sur TV
   - RSS: `https://miradasurtv.cl/category/nacional/feed/`
+- **MQN (Más Que Noticias)** — Medio digital con noticias de Chile sobre actualidad, deportes, economía y tecnología
+  - Más Que Noticias: `https://mqn.cl/feed/`
+  - MQN (Más Que Noticias) - Chile: `https://mqn.cl/chile/feed/`
+  - MQN (Más Que Noticias) - Política: `https://mqn.cl/politica/feed/`
+  - MQN (Más Que Noticias) - Economía Y Negocios: `https://mqn.cl/economiaynegocios/feed/`
+  - MQN (Más Que Noticias) - Opinión: `https://mqn.cl/opinion/feed/`
+  - Más Que Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:mqn.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Más Que Noticias [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mqn.cl&format=RSS`
 - **Música y Noticias** — Diario electrónico de las regiones del Maule y O’Higgins
   - Música y Noticias: `https://www.musicaynoticias.cl/feed/`
   - Música y Noticias - Curicó: `https://www.musicaynoticias.cl/category/region-del-maule/provincia-de-curico/curico/feed/`
@@ -746,6 +768,8 @@
   - Música y Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:musicaynoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Norte Online**: Feed de la categoría 'Actualidad' en Norte Online
   - RSS: `https://norteonline.cl/category/actualidad/feed/`
+- **Norte y Energía**: Feed de la categoría 'Noticias' en Norte y Energía
+  - RSS: `https://www.norteyenergia.cl/category/noticias/feed/`
 - **Nostálgica** — Emisora con música y noticias de Copiapó 88.1 FM
   - Nostálgica: `https://www.nostalgica.cl/feed/`
   - Nostálgica - Atacama: `https://www.nostalgica.cl/category/atacama/feed/`
@@ -762,6 +786,10 @@
   - Nostálgica - Provincia De Chañaral: `https://www.nostalgica.cl/category/atacama/provincia-de-chanaral/feed/`
   - Nostálgica [Proxy Google News]: `https://news.google.com/rss/search?q=site:nostalgica.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Nostálgica [Proxy Bing News]: `https://www.bing.com/news/search?q=site:nostalgica.cl&format=RSS`
+- **NotiChile** — Medio digital con noticias e información de actualidad
+  - NotiChile: `https://www.notichile.cl/rss/rss.aspx?ch=1294`
+  - NotiChile [Proxy Google News]: `https://news.google.com/rss/search?q=site:notichile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - NotiChile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:notichile.cl&format=RSS`
 - **Noticias Biobío**: Feed de la categoría 'Actualidad' en Noticias Biobío
   - RSS: `https://noticiasbiobio.cl/category/actualidad/feed/`
 - **Noticias del Sur**: Feed de la categoría 'Politica' en Noticias del Sur
@@ -780,6 +808,14 @@
   - Ñuble Actual - Nacional: `https://www.nubleactual.cl/categoria/nacional/feed/`
 - **Ñuble Online**: Feed de la categoría 'Nacional' en Ñuble Online
   - RSS: `https://nubleonline.cl/category/nacional/feed/`
+- **Onda Expansiva** — Medio digital de noticias de actualidad, política y cultura
+  - Onda Expansiva: `https://ondaexpansiva.cl/feed/`
+  - Onda Expansiva - Portada: `https://ondaexpansiva.cl/category/portada/feed/`
+  - Onda Expansiva - Actualidad: `https://ondaexpansiva.cl/category/actualidad/feed/`
+  - Onda Expansiva - Política: `https://ondaexpansiva.cl/category/politica/feed/`
+  - Onda Expansiva - Opinión: `https://ondaexpansiva.cl/category/opinion/feed/`
+  - Onda Expansiva [Proxy Google News]: `https://news.google.com/rss/search?q=site:ondaexpansiva.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Onda Expansiva [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ondaexpansiva.cl&format=RSS`
 - **Oro Coipo** — Emisora regional de Rancagua y la Región de O'Higgins 95.1 FM
   - Oro Coipo: `https://orocoipo.cl/feed/`
   - Oro Coipo - Actualidad: `https://orocoipo.cl/category/actualidad/feed/`
@@ -816,6 +852,8 @@
   - Panorama Noticioso - Provincia De Petorca: `https://www.panoramanoticioso.cl/category/regionales/provpetorca/feed/`
   - Panorama Noticioso - Provincia De San Antonio: `https://www.panoramanoticioso.cl/category/regionales/provsanantonio/feed/`
   - Panorama Noticioso [Proxy Google News]: `https://news.google.com/rss/search?q=site:panoramanoticioso.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Partido Humanista de Chile**: Feed de la sección 'Noticias' en Partido Humanista de Chile
+  - RSS: `https://partidohumanista.cl/feed/?category=noticias`
 - **Partido Republicano de Chile**: Feed de la categoría 'Noticias' en Partido Republicano de Chile
   - RSS: `https://partidorepublicanodechile.cl/./noticias/feed/`
 - **Partido Socialista de Chile**: Feed de la categoría 'Noticias' en Partido Socialista de Chile
@@ -823,6 +861,10 @@
 - **Pauta Los Ríos** — Medio de noticias de la Región de Los Ríos
   - Pauta Los Ríos - Actualidad: `https://pautalosrios.cl/category/actualidad/feed/`
   - Pauta Los Ríos - Política: `https://pautalosrios.cl/category/politica/feed/`
+- **Periodismo2** — Medio digital con noticias de Chile y el mundo
+  - Periodismo2: `https://periodismo2.cl/feed.xml`
+  - Periodismo2 [Proxy Google News]: `https://news.google.com/rss/search?q=site:periodismo2.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Periodismo2 [Proxy Bing News]: `https://www.bing.com/news/search?q=site:periodismo2.cl&format=RSS`
 - **Piensa Chile** — Portal de análisis, opinión y noticias nacionales
   - Piensa Chile: `https://piensachile.com/feed/`
   - Piensa Chile - Opinión: `https://piensachile.com/category/opinion/feed/`
@@ -893,6 +935,12 @@
   - Portal Metropolitano - Industrias: `https://portalmetropolitano.cl/category/industrias/feed/`
   - Portal Metropolitano - Congreso: `https://portalmetropolitano.cl/category/congreso/feed/`
   - Portal Metropolitano [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalmetropolitano.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Portal Nacional** — Medio digital de noticias
+  - Portal Nacional: `https://portalnacional.cl/feed/`
+  - Portal Nacional - Nacional: `https://portalnacional.cl/nacional/feed/`
+  - Portal Nacional - Kast Profugos: `https://portalnacional.cl/feed/?category=kast-profugos`
+  - Portal Nacional [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalnacional.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Portal Nacional [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalnacional.cl&format=RSS`
 - **Portal Red Salud**: Feed de la categoría 'Actualidad' en Portal Red Salud
   - RSS: `https://portalredsalud.cl/category/actualidad/feed/`
 - **Prensa Opal**: Feed de la categoría 'Chile' en Prensa Opal
@@ -953,6 +1001,9 @@
 - **Radio 45 Sur** — Radio online de la Región de Los Ríos
   - Radio 45 Sur - Politica: `https://radio45sur.cl/category/politica/feed/`
   - Radio 45 Sur - Nacional: `https://radio45sur.cl/category/nacional/feed/`
+- **Radio Araucanía** — Emisora regional de La Araucanía 91.3 FM
+  - Radio Araucanía: `https://radioaraucania.cl/?feed=rss2`
+  - Radio Araucanía [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioaraucania.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Buena Nueva** — Emisora regional de Linares 97.9 FM Linares, 106.3 FM Chanco, 102.7 FM Longaví, 89.5 FM Constitución
   - Radio Buena Nueva: `https://radiobuenanueva.cl/rb30/feed`
   - Radio Buena Nueva [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiobuenanueva.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -1058,6 +1109,8 @@
   - RSS: `https://www.radiosanbartolome.cl/news/feed/`
 - **Radio Santa María**: Feed de la categoría 'Política' en Radio Santa María
   - RSS: `https://www.radiosantamaria.cl/category/politica/feed/`
+- **Radio Siente**: Feed de la categoría 'Noticias' en Radio Siente
+  - RSS: `https://www.radiosiente.com/category/noticias/feed/`
 - **Radio UdeC** — Radio de la Universidad de Concepción 95.1 FM
   - Radio UdeC: `https://www.radioudec.cl/feed/`
   - Radio UdeC - Nacional: `https://www.radioudec.cl/category/nacional/feed/`
@@ -1077,6 +1130,9 @@
   - Reportea - Reportajes: `https://reportea.cl/category/reportajes/feed/`
   - Reportea - Apuntes: `https://reportea.cl/category/apuntes/feed/`
   - Reportea [Proxy Google News]: `https://news.google.com/rss/search?q=site:reportea.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Revista Enfoque** — Revista digital de noticias y actualidad
+  - Revista Enfoque: `https://revistaenfoque.cl/feed/`
+  - Revista Enfoque [Proxy Google News]: `https://news.google.com/rss/search?q=site:revistaenfoque.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Revista Seguridad** — Revista chilena de seguridad y defensa
   - Revista Seguridad: `https://revistaseguridad.cl/feed/`
   - Revista Seguridad - Tecnología E Innovacion: `https://revistaseguridad.cl/categoria/tecnologia-e-innovacion/feed/`
@@ -1121,6 +1177,8 @@
 - **Temuco Diario** — Diario regional de Temuco, La Araucanía
   - Temuco Diario - Política: `https://temucodiario.cl/category/politica/feed/`
   - Temuco Diario - Nacional: `https://temucodiario.cl/category/nacional/feed/`
+- **Temuco Ya**: Feed de la categoría 'País' en Temuco Ya
+  - RSS: `https://www.temucoya.cl/category/pais/feed/`
 - **The Clinic** — Periódico digital de análisis político, reportajes e investigación
   - The Clinic: `https://www.theclinic.cl/feed/`
   - The Clinic - Mastodon.cl BOT: `https://mastodon.cl/@theclinic.rss`
@@ -1130,6 +1188,10 @@
   - RSS: `https://www.theguardian.com/world/chile/rss`
 - **The Times en Español**: Resultados de site:thetime.cl en Proxy Google News de noticias Chilenas
   - RSS: `https://news.google.com/rss/search?q=site:thetime.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **The Times Latino** — Medio de comunicación chileno con noticias de la comunidad latina
+  - The Times Latino: `https://thetimeslatino.com/feed/`
+  - The Times Latino [Proxy Google News]: `https://news.google.com/rss/search?q=site:thetimeslatino.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - The Times Latino [Proxy Bing News]: `https://www.bing.com/news/search?q=site:thetimeslatino.com&format=RSS`
 - **Tiempo 21** — Diario regional de Temuco, La Araucanía
   - Tiempo 21 - Actualidad: `https://www.tiempo21.cl/actualidad/feed/`
   - Tiempo 21 - Política: `https://www.tiempo21.cl/politica/feed/`
@@ -1153,8 +1215,21 @@
   - Tropezón Tu Diario [Proxy Google News]: `https://news.google.com/rss/search?q=site:nuevotropezon.tropezon.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Tus Noticias**: Feed de la categoría 'Nacional' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/nacional/feed/`
+- **Ufro Medios** — Radio de la Universidad de La Frontera
+  - Ufro Medios: `https://www.ufromedios.cl/feed/`
+  - Ufro Medios - Quienes Somos: `https://www.ufromedios.cl/feed/?category=quienes-somos`
+  - Ufro Medios - Ufroclasica: `https://www.ufromedios.cl/feed/?category=ufroclasica`
+  - Ufro Medios - Programacion Ufroclasica: `https://www.ufromedios.cl/feed/?category=programacion-ufroclasica`
+  - Ufro Medios - Programacion Ufroradio: `https://www.ufromedios.cl/feed/?category=programacion-ufroradio`
+  - Ufro Medios - Programacion Ufrovision: `https://www.ufromedios.cl/feed/?category=programacion-ufrovision`
+  - Ufro Medios - Ufroradio: `https://www.ufromedios.cl/feed/?category=ufroradio`
+  - Ufro Medios - Ufrovision: `https://www.ufromedios.cl/feed/?category=ufrovision`
+  - Ufro Medios [Proxy Google News]: `https://news.google.com/rss/search?q=site:ufromedios.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Unnie Pop**: Feed de la categoría 'Actualidad' en Unnie Pop
   - RSS: `https://unniepop.cl/category/populares/actualidad/feed/`
+- **Veredictum** — Diario de noticias jurídicas de Chile
+  - Veredictum - Política: `https://veredictum.cl/category/politica/feed/`
+  - Veredictum - Actualidad: `https://veredictum.cl/category/actualidad/feed/`
 - **Vilas Radio**: Feed de la categoría 'Nacional' en Vilas Radio
   - RSS: `https://vilasradio.cl/category/nacional/feed/`
 - **Vivimos la Noticia**: Feed principal de Vivimos la Noticia

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (314 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (321 feeds)</title>
     <description>Feeds RSS de 💼 Economia, Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-04T21:18:47.183Z</dateCreated>
+    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -14,6 +14,8 @@
       <outline type="rss" text="(Empresa) Logros Servicios Financieros [Proxy Google News]" title="(Empresa) Logros Servicios Financieros [Proxy Google News]" description="Resultados de site:empresaslogros.cl/ en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:empresaslogros.cl/&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:empresaslogros.cl/&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="(Empresa) Nexos Chile" title="(Empresa) Nexos Chile" description="Feed principal de (Empresa) Nexos Chile" xmlUrl="https://www.nexos.cl/feed/" htmlUrl="https://www.nexos.cl"/>
       <outline type="rss" text="(Empresa) Nexos Chile - Análisis" title="(Empresa) Nexos Chile - Análisis" description="Feed de la categoría 'Análisis' en Nexos Chile" xmlUrl="https://www.nexos.cl/category/analisis/feed/" htmlUrl="https://www.nexos.cl/category/analisis/"/>
+      <outline type="rss" text="ABIF" title="ABIF" description="Asociación de Bancos e Instituciones Financieras de Chile" xmlUrl="https://www.abif.cl/blog-feed.xml" htmlUrl="https://www.abif.cl"/>
+      <outline type="rss" text="ABIF [Proxy Google News]" title="ABIF [Proxy Google News]" description="Resultados de site:abif.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:abif.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:abif.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Acero y Roca" title="Acero y Roca" description="Feed principal de Acero y Roca" xmlUrl="https://aceroyroca.com/feed/" htmlUrl="https://aceroyroca.com"/>
       <outline type="rss" text="Acero y Roca - Comunidad" title="Acero y Roca - Comunidad" description="Feed de la categoría 'Comunidad' en Acero y Roca" xmlUrl="https://aceroyroca.com/category/comunidad-minera/feed/" htmlUrl="https://aceroyroca.com/category/comunidad-minera/"/>
       <outline type="rss" text="Acero y Roca - Conflictos Y Reclamos" title="Acero y Roca - Conflictos Y Reclamos" description="Feed de la categoría 'Conflictos Y Reclamos' en Acero y Roca" xmlUrl="https://aceroyroca.com/category/conflictos-reclamos/feed/" htmlUrl="https://aceroyroca.com/category/conflictos-reclamos/"/>
@@ -24,6 +26,9 @@
       <outline type="rss" text="Agencia de Noticias - Finanzas" title="Agencia de Noticias - Finanzas" description="Feed de la categoría 'Finanzas' en Agencia de Noticias" xmlUrl="https://agenciadenoticias.org/category/finanzas/feed/" htmlUrl="https://agenciadenoticias.org/category/finanzas/"/>
       <outline type="rss" text="Alerta Noticias Temuco - Economía y Negocios" title="Alerta Noticias Temuco - Economía y Negocios" description="Feed de la categoría 'Economía y Negocios' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/economia-y-negocios/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/economia-y-negocios/"/>
       <outline type="rss" text="Alerta Noticias Temuco - Emprendimiento" title="Alerta Noticias Temuco - Emprendimiento" description="Feed de la categoría 'Emprendimiento' en Alerta Noticias Temuco" xmlUrl="https://alertanoticiastemuco.cl/category/emprendimiento/feed/" htmlUrl="https://alertanoticiastemuco.cl/category/emprendimiento/"/>
+      <outline type="rss" text="Análisis.com" title="Análisis.com" description="Medio de noticias de economía, mercados y negocios de América Latina" xmlUrl="https://www.analisis.com/rss.xml" htmlUrl="https://www.analisis.com/"/>
+      <outline type="rss" text="Análisis.com [Proxy Bing News]" title="Análisis.com [Proxy Bing News]" description="Resultados de site:analisis.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:analisis.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:analisis.com"/>
+      <outline type="rss" text="Análisis.com [Proxy Google News]" title="Análisis.com [Proxy Google News]" description="Resultados de site:analisis.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:analisis.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:analisis.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Anda - Economía" title="Anda - Economía" description="Feed de la categoría 'Economía' en Anda" xmlUrl="https://anda.cl/categoria/economia/feed/" htmlUrl="https://anda.cl/categoria/economia/"/>
       <outline type="rss" text="Antofagasta al Día - Economía" title="Antofagasta al Día - Economía" description="Feed de la categoría 'Economía' en Antofagasta al Día" xmlUrl="https://antofagastaaldia.cl/category/economia/feed/" htmlUrl="https://antofagastaaldia.cl/category/economia/"/>
       <outline type="rss" text="AQUA" title="AQUA" description="Feed principal de AQUA" xmlUrl="https://www.aqua.cl/feed/" htmlUrl="https://www.aqua.cl"/>
@@ -222,6 +227,7 @@
       <outline type="rss" text="Nuevo Poder - Economía" title="Nuevo Poder - Economía" description="Feed de la categoría 'Economía' en Nuevo Poder" xmlUrl="https://www.nuevopoder.cl/category/economia/feed/" htmlUrl="https://www.nuevopoder.cl/category/economia/"/>
       <outline type="rss" text="Ovalle Hoy - Economía" title="Ovalle Hoy - Economía" description="Feed de la categoría 'Economía' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/actualidad/economia/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/actualidad/economia/"/>
       <outline type="rss" text="Página 19 - Economía" title="Página 19 - Economía" description="Feed de la categoría 'Economía' en Página 19" xmlUrl="https://pagina19.cl/categoria/economia/feed/" htmlUrl="https://pagina19.cl/categoria/economia/"/>
+      <outline type="rss" text="Perfil - Economía" title="Perfil - Economía" description="Feed de economía de Perfil" xmlUrl="https://www.perfil.com/feed/economia" htmlUrl="https://www.perfil.com/economia/"/>
       <outline type="rss" text="Piensa Chile - Economía" title="Piensa Chile - Economía" description="Feed de la categoría 'Economía' en Piensa Chile" xmlUrl="https://piensachile.com/category/economia/feed/" htmlUrl="https://piensachile.com/category/economia/"/>
       <outline type="rss" text="Portal Agro Chile" title="Portal Agro Chile" description="Feed principal de Portal Agro Chile" xmlUrl="https://www.portalagrochile.cl/feed/" htmlUrl="https://www.portalagrochile.cl"/>
       <outline type="rss" text="Portal Agro Chile - Agricultura Y Producción" title="Portal Agro Chile - Agricultura Y Producción" description="Feed de la categoría ' Agricultura Y Producción' en Portal Agro Chile" xmlUrl="https://www.portalagrochile.cl/category/agricultura-y-produccion/feed/" htmlUrl="https://www.portalagrochile.cl/category/agricultura-y-produccion/"/>
@@ -321,6 +327,7 @@
       <outline type="rss" text="Traiguén City - Laboral" title="Traiguén City - Laboral" description="Feed de la categoría 'Laboral' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/laboral-traiguen/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/laboral-traiguen/"/>
       <outline type="rss" text="Tus Noticias - Economía" title="Tus Noticias - Economía" description="Feed de la categoría 'Economía' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/economia/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/economia/"/>
       <outline type="rss" text="Tus Noticias - Emprendimientos" title="Tus Noticias - Emprendimientos" description="Feed de la categoría 'Emprendimientos' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/emprendimientos/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/emprendimientos/"/>
+      <outline type="rss" text="Veredictum - Economía" title="Veredictum - Economía" description="Feed de la categoría 'Economía' en Veredictum" xmlUrl="https://veredictum.cl/category/economia/feed/" htmlUrl="https://veredictum.cl/category/economia/"/>
       <outline type="rss" text="VLN Radio - Economía" title="VLN Radio - Economía" description="Feed de la categoría 'Economía' en VLN Radio" xmlUrl="https://www.vlnradio.cl/economia/feed/" htmlUrl="https://www.vlnradio.cl/economia/"/>
     </outline>
   </body>

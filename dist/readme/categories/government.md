@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`government.opml`](../../opml/categories/government.opml) - 41 sitios, 125 feeds*
+*Descargar OPML: [`government.opml`](../../opml/categories/government.opml) - 44 sitios, 169 feeds*
 
 - **Atacama Noticias**: Feed de la categoría 'Avisos Legales' en Atacama Noticias
   - RSS: `https://www.atacamanoticias.cl/category/avisos-legales/feed/`
@@ -129,6 +129,9 @@
   - Ministerio del Trabajo y Previsión Social - Noticias: `https://www.mintrab.gob.cl/category/noticias/feed/`
   - Ministerio del Trabajo y Previsión Social - Destacados: `https://www.mintrab.gob.cl/category/destacado1/feed/`
   - Ministerio del Trabajo y Previsión Social - Consejo Superior Laboral: `https://www.mintrab.gob.cl/category/consejo-superior-laboral-2/feed/`
+- **Municipalidad de Viña del Mar** — Sitio oficial de la Ilustre Municipalidad de Viña del Mar
+  - Municipalidad de Viña del Mar - Noticias: `https://www.munivina.cl/noticias/feed/rss/`
+  - Municipalidad de Viña del Mar [Proxy Google News]: `https://news.google.com/rss/search?q=site:munivina.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Noticias Los Ríos** — Diario regional de La Unión, Los Ríos
   - Noticias Los Ríos - Gobierno: `https://www.noticiaslosrios.cl/seccion/gobierno/feed/`
   - Noticias Los Ríos - Registro Civil: `https://www.noticiaslosrios.cl/seccion/registro-civil/feed/`
@@ -167,6 +170,50 @@
   - SUBTEL (Subsecretaría de Telecomunicaciones): `https://www.subtel.gob.cl/feed/`
   - SUBTEL (Subsecretaría de Telecomunicaciones) - Noticias: `https://www.subtel.gob.cl/category/noticias-2/feed/`
   - SUBTEL (Subsecretaría de Telecomunicaciones) [Proxy Google News]: `https://news.google.com/rss/search?q=site:subtel.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Tesorería General de la República** — Sitio oficial de la Tesorería General de la República de Chile
+  - Tesorería General de la República: `https://tgr.gob.cl/feed/`
+  - TGR [Proxy Google News]: `https://news.google.com/rss/search?q=site:tgr.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Traiguén City** — Diario regional de Traiguén, La Araucanía
   - Traiguén City - Municipal: `https://traiguencity.cl/noticias/traiguen/municipal/feed/`
   - Traiguén City - Gobierno: `https://traiguencity.cl/noticias/traiguen/gobierno/feed/`
+- **Veredictum** — Diario de noticias jurídicas de Chile
+  - Veredictum: `https://veredictum.cl/feed/`
+  - Veredictum - Sentencias: `https://veredictum.cl/category/sentencias/feed/`
+  - Veredictum - Derecho Administrativo: `https://veredictum.cl/category/materia/derecho-administrativo/feed/`
+  - Veredictum - Derecho Penal: `https://veredictum.cl/category/materia/penal/feed/`
+  - Veredictum - Poder Judicial: `https://veredictum.cl/category/actualidad/poder-judicial/feed/`
+  - Veredictum - Derecho Constitucional: `https://veredictum.cl/category/materia/constitucional/feed/`
+  - Veredictum - Multimedia: `https://veredictum.cl/category/multimedia/feed/`
+  - Veredictum - Derecho Laboral: `https://veredictum.cl/category/materia/laboral/feed/`
+  - Veredictum - Congreso: `https://veredictum.cl/category/actualidad/congreso/feed/`
+  - Veredictum - Derecho Tributario: `https://veredictum.cl/category/materia/tributario-materia/feed/`
+  - Veredictum - Mercado Financiero: `https://veredictum.cl/category/materia/mercado-financiero/feed/`
+  - Veredictum - Derecho Civil: `https://veredictum.cl/category/materia/civil/feed/`
+  - Veredictum - Rr.nn, Minería Y Ambiente: `https://veredictum.cl/category/materia/ambiental/feed/`
+  - Veredictum - Derecho Procesal: `https://veredictum.cl/category/materia/procesal/feed/`
+  - Veredictum - Derecho Comercial: `https://veredictum.cl/category/materia/comercial/feed/`
+  - Veredictum - Tribunal Constitucional: `https://veredictum.cl/category/actualidad/tribunal-constitucional/feed/`
+  - Veredictum - Derecho De Familia: `https://veredictum.cl/category/materia/familia/feed/`
+  - Veredictum - Derechos Del Consumidor: `https://veredictum.cl/category/materia/consumo/feed/`
+  - Veredictum - Derecho Migratorio: `https://veredictum.cl/category/materia/migratorio/feed/`
+  - Veredictum - Sernac: `https://veredictum.cl/category/actualidad/sernac/feed/`
+  - Veredictum - Derecho Inmobiliario Y Urbanismo: `https://veredictum.cl/category/materia/inmobiliario/feed/`
+  - Veredictum - Contraloría: `https://veredictum.cl/category/actualidad/contraloria/feed/`
+  - Veredictum - Libre Competencia: `https://veredictum.cl/category/materia/competencia/feed/`
+  - Veredictum - Tic, Protección De Datos Personales: `https://veredictum.cl/category/materia/tic/feed/`
+  - Veredictum - Propiedad Intelectual: `https://veredictum.cl/category/materia/propiedad-intelectual/feed/`
+  - Veredictum - Sii: `https://veredictum.cl/category/actualidad/servicio-de-impuestos-internos/feed/`
+  - Veredictum - Arbitraje Y Adr: `https://veredictum.cl/category/materia/arbitraje/feed/`
+  - Veredictum - Nuevas Leyes Publicadas: `https://veredictum.cl/category/radar-legal/bcn/nuevas-leyes-publicadas/feed/`
+  - Veredictum - Actualidad Ia: `https://veredictum.cl/category/actualidad/ia-abogados/feed/`
+  - Veredictum - Cmf: `https://veredictum.cl/category/actualidad/cmf/feed/`
+  - Veredictum - Doctrina: `https://veredictum.cl/category/doctrina/feed/`
+  - Veredictum - Boletín Quincenal Bcn: `https://veredictum.cl/category/radar-legal/bcn/boletin-quincenal-bcn/feed/`
+  - Veredictum - Boletín Diario: `https://veredictum.cl/category/radar-legal/diario-oficial/boletin-diario/feed/`
+  - Veredictum - Eventos Y Seminarios: `https://veredictum.cl/category/eventos-legales/feed/`
+  - Veredictum - Novedades Destacadas: `https://veredictum.cl/category/radar-legal/diario-oficial/novedades-destacadas-diariooficial/feed/`
+  - Veredictum - Fne: `https://veredictum.cl/category/actualidad/fne/feed/`
+  - Veredictum - Diario Oficial: `https://veredictum.cl/category/radar-legal/diario-oficial/feed/`
+  - Veredictum - Materia: `https://veredictum.cl/category/materia/feed/`
+  - Veredictum [Proxy Google News]: `https://news.google.com/rss/search?q=site:veredictum.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Veredictum [Proxy Bing News]: `https://www.bing.com/news/search?q=site:veredictum.cl&format=RSS`

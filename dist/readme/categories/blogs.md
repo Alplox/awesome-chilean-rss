@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`blogs.opml`](../../opml/categories/blogs.opml) - 10 sitios, 19 feeds*
+*Descargar OPML: [`blogs.opml`](../../opml/categories/blogs.opml) - 12 sitios, 22 feeds*
 
 - **Balmaceda Arte Joven**: Feed de la categoría 'Blog' en Balmaceda Arte Joven
   - RSS: `https://www.balmacedartejoven.cl/category/blog/feed/`
@@ -31,5 +31,10 @@
   - José Joaquín Brunner [Proxy Google News]: `https://news.google.com/rss/search?q=site:brunner.cl/&hl=es-419&gl=CL&ceid=CL:es-419`
 - **La Discusión**: Feed de la categoría 'Blog' en La Discusión
   - RSS: `https://ladiscusion.cl/category/blog/feed/`
+- **Michael Walsh** — Blog personal de Michael Walsh, diseñador y desarrollador web de Villarrica, con artículos sobre tecnología, diseño y la vida en Chile
+  - Michael Walsh: `https://walsh.cl/feed.xml`
+  - Michael Walsh [Proxy Google News]: `https://news.google.com/rss/search?q=site:walsh.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **RunningShot**: Feed de la categoría 'Blog' en RunningShot
   - RSS: `https://runnningshot.cl/category/blog/feed/`
+- **Tecnolocuras**: Blog personal de Henry Tejera con artículos sobre tecnología, desarrollo web y experiencias digitales
+  - RSS: `https://tecnolocuras.com/feed.xml`

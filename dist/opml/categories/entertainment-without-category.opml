@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (143 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (144 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-04T21:18:47.183Z</dateCreated>
+    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -124,6 +124,7 @@
     <outline type="rss" text="Ñuble Online - Espectaculos" title="Ñuble Online - Espectaculos" description="Feed de la categoría 'Espectaculos' en Ñuble Online" xmlUrl="https://nubleonline.cl/category/espectaculos/feed/" htmlUrl="https://nubleonline.cl/category/espectaculos/"/>
     <outline type="rss" text="Parlante.cl - Portada" title="Parlante.cl - Portada" description="Feed principal de Parlante.cl" xmlUrl="https://www.parlante.cl/?feed=rss2" htmlUrl="https://www.parlante.cl"/>
     <outline type="rss" text="Parlante.cl [Proxy Google News]" title="Parlante.cl [Proxy Google News]" description="Resultados de site:parlante.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:parlante.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:parlante.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Perfil - Espectáculos" title="Perfil - Espectáculos" description="Feed de espectáculos de Perfil" xmlUrl="https://www.perfil.com/feed/espectaculos" htmlUrl="https://www.perfil.com/espectaculos/"/>
     <outline type="rss" text="Pisapapeles - Rumores" title="Pisapapeles - Rumores" description="Feed de la categoría 'Rumores' en Pisapapeles" xmlUrl="https://pisapapeles.net/category/rumores/feed/" htmlUrl="https://pisapapeles.net/category/rumores/"/>
     <outline type="rss" text="Portal Metropolitano - Entretención" title="Portal Metropolitano - Entretención" description="Feed de la categoría 'Entretención' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/entretencion/feed/" htmlUrl="https://portalmetropolitano.cl/category/entretencion/"/>
     <outline type="rss" text="Radio Contacto - Entretenimiento" title="Radio Contacto - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/entretenimiento/feed/" htmlUrl="https://radiocontacto.cl/category/entretenimiento/"/>

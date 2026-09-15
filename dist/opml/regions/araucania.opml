@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Araucanía (313 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Araucanía (320 feeds)</title>
     <description>Feeds RSS de la Región de Araucanía, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-04T21:18:47.183Z</dateCreated>
+    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -280,6 +280,13 @@
       <outline type="rss" text="Temuco Diario - Turismo" title="Temuco Diario - Turismo" description="Feed de la categoría 'Turismo' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/turismo/feed/" htmlUrl="https://temucodiario.cl/category/turismo/"/>
       <outline type="rss" text="Temuco Diario - Villarrica" title="Temuco Diario - Villarrica" description="Feed de la categoría 'Villarrica' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/villarrica/feed/" htmlUrl="https://temucodiario.cl/category/villarrica/"/>
       <outline type="rss" text="Temuco Diario [Proxy Google News]" title="Temuco Diario [Proxy Google News]" description="Resultados de site:temucodiario.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:temucodiario.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:temucodiario.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Temuco Ya" title="Temuco Ya" description="Medio digital de noticias de Temuco y La Araucanía" xmlUrl="https://www.temucoya.cl/feed/" htmlUrl="https://www.temucoya.cl/"/>
+      <outline type="rss" text="Temuco Ya - Internacionales" title="Temuco Ya - Internacionales" description="Feed de la categoría 'Internacionales' en Temuco Ya" xmlUrl="https://www.temucoya.cl/category/internacionales/feed/" htmlUrl="https://www.temucoya.cl/category/internacionales/"/>
+      <outline type="rss" text="Temuco Ya - La Araucanía" title="Temuco Ya - La Araucanía" description="Feed de la categoría 'La Araucanía' en Temuco Ya" xmlUrl="https://www.temucoya.cl/category/la-araucania/feed/" htmlUrl="https://www.temucoya.cl/category/la-araucania/"/>
+      <outline type="rss" text="Temuco Ya - País" title="Temuco Ya - País" description="Feed de la categoría 'País' en Temuco Ya" xmlUrl="https://www.temucoya.cl/category/pais/feed/" htmlUrl="https://www.temucoya.cl/category/pais/"/>
+      <outline type="rss" text="Temuco Ya - Temuco Ya" title="Temuco Ya - Temuco Ya" description="Feed de la categoría 'Temuco Ya' en Temuco Ya" xmlUrl="https://www.temucoya.cl/category/temuco-ya/feed/" htmlUrl="https://www.temucoya.cl/category/temuco-ya/"/>
+      <outline type="rss" text="Temuco Ya [Proxy Bing News]" title="Temuco Ya [Proxy Bing News]" description="Resultados de site:temucoya.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:temucoya.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:temucoya.cl"/>
+      <outline type="rss" text="Temuco Ya [Proxy Google News]" title="Temuco Ya [Proxy Google News]" description="Resultados de site:temucoya.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:temucoya.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:temucoya.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Tiempo 21" title="Tiempo 21" description="Feed principal de Tiempo 21" xmlUrl="https://www.tiempo21.cl/feed/" htmlUrl="https://www.tiempo21.cl"/>
       <outline type="rss" text="Tiempo 21 - Actualidad" title="Tiempo 21 - Actualidad" description="Feed de la categoría 'Actualidad' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/actualidad/feed/" htmlUrl="https://www.tiempo21.cl/actualidad/"/>
       <outline type="rss" text="Tiempo 21 - Alcaldes" title="Tiempo 21 - Alcaldes" description="Feed de la categoría 'Alcaldes' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/alcalde/feed/" htmlUrl="https://www.tiempo21.cl/alcalde/"/>

@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 114 sitios, 314 feeds*
+*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 118 sitios, 321 feeds*
 
 - **(Empresa) Contapapaya** — Plataforma de contabilidad online para pymes chilenas, con artículos sobre contabilidad y emprendimiento
   - (Empresa) Contapapaya: `https://contapapaya.cl/feed/`
@@ -13,6 +13,9 @@
 - **(Empresa) Nexos Chile** — Consultora de comunicación estratégica y asuntos públicos
   - (Empresa) Nexos Chile: `https://www.nexos.cl/feed/`
   - (Empresa) Nexos Chile - Análisis: `https://www.nexos.cl/category/analisis/feed/`
+- **ABIF** — Asociación de Bancos e Instituciones Financieras de Chile
+  - ABIF: `https://www.abif.cl/blog-feed.xml`
+  - ABIF [Proxy Google News]: `https://news.google.com/rss/search?q=site:abif.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Acero y Roca** — Magazine chileno de la industria minera
   - Acero y Roca: `https://aceroyroca.com/feed/`
   - Acero y Roca - Minería En San Juan: `https://aceroyroca.com/category/mineria-san-juan/feed/`
@@ -26,6 +29,10 @@
 - **Alerta Noticias Temuco** — Diario regional de Temuco, La Araucanía
   - Alerta Noticias Temuco - Economía y Negocios: `https://alertanoticiastemuco.cl/category/economia-y-negocios/feed/`
   - Alerta Noticias Temuco - Emprendimiento: `https://alertanoticiastemuco.cl/category/emprendimiento/feed/`
+- **Análisis.com** — Medio de noticias de economía, mercados y negocios de América Latina
+  - Análisis.com: `https://www.analisis.com/rss.xml`
+  - Análisis.com [Proxy Google News]: `https://news.google.com/rss/search?q=site:analisis.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Análisis.com [Proxy Bing News]: `https://www.bing.com/news/search?q=site:analisis.com&format=RSS`
 - **Anda**: Feed de la categoría 'Economía' en Anda
   - RSS: `https://anda.cl/categoria/economia/feed/`
 - **Antofagasta al Día**: Feed de la categoría 'Economía' en Antofagasta al Día
@@ -304,6 +311,8 @@
   - RSS: `https://ovallehoy.cl/categoria/ultimas/actualidad/economia/feed/`
 - **Página 19**: Feed de la categoría 'Economía' en Página 19
   - RSS: `https://pagina19.cl/categoria/economia/feed/`
+- **Perfil**: Feed de economía de Perfil
+  - RSS: `https://www.perfil.com/feed/economia`
 - **Piensa Chile**: Feed de la categoría 'Economía' en Piensa Chile
   - RSS: `https://piensachile.com/category/economia/feed/`
 - **Portal Agro Chile** — Medio de prensa digital para el agro y la agroindustria chilena
@@ -430,5 +439,7 @@
 - **Tus Noticias** — Medio digital de San Pedro de la Paz, Región del Biobío
   - Tus Noticias - Economía: `https://www.tusnoticias.cl/noticias/economia/feed/`
   - Tus Noticias - Emprendimientos: `https://www.tusnoticias.cl/noticias/emprendimientos/feed/`
+- **Veredictum**: Feed de la categoría 'Economía' en Veredictum
+  - RSS: `https://veredictum.cl/category/economia/feed/`
 - **VLN Radio**: Feed de la categoría 'Economía' en VLN Radio
   - RSS: `https://www.vlnradio.cl/economia/feed/`

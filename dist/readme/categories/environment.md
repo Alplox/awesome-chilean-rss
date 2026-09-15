@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`environment.opml`](../../opml/categories/environment.opml) - 77 sitios, 171 feeds*
+*Descargar OPML: [`environment.opml`](../../opml/categories/environment.opml) - 80 sitios, 174 feeds*
 
 - **Acero y Roca**: Feed de la categoría 'Medio Ambiente' en Acero y Roca
   - RSS: `https://aceroyroca.com/category/medio-ambiente/feed/`
@@ -75,6 +75,8 @@
   - Diario La Región - Medio Ambiente: `https://www.diariolaregion.cl/category/ambiente/feed/`
 - **Diario Puerto Varas**: Feed de la categoría 'Ciencia y Medio' en Diario Puerto Varas
   - RSS: `https://diariopuertovaras.cl/category/ciencia-medio/feed/`
+- **Diario Sustentable**: Medio chileno de noticias sobre sustentabilidad
+  - RSS: `http://sustentable.cl/feed/`
 - **Diario UACh**: Feed de la categoría 'Sustentabilidad Ods' en Diario UACh
   - RSS: `https://diario.uach.cl/category/categorias/sustentabilidad/feed/`
 - **DPL News**: Feed de la categoría 'Sustentabilidad' en DPL News
@@ -126,6 +128,8 @@
   - Fiscalía del Medio Ambiente - Comunicados: `https://www.fima.cl/category/comunicados/feed/`
   - Fiscalía del Medio Ambiente - Difusión: `https://www.fima.cl/category/difusion/feed/`
   - Fiscalía del Medio Ambiente [Proxy Google News]: `https://news.google.com/rss/search?q=site:fima.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Fundación Legado Chile**: Fundación chilena de conservación de áreas silvestres
+  - RSS: `https://legadochile.cl/feed/`
 - **Fundación Rewilding Chile** — Fundación Rewilding Chile, organización de conservación y restauración de ecosistemas
   - Fundación Rewilding Chile: `https://rewildingchile.org/feed/`
   - Fundación Rewilding Chile - En: `https://rewildingchile.org/en/feed/`
@@ -213,6 +217,8 @@
   - Meteored Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:meteored.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Mirada Sur TV**: Feed de la categoría 'Medioambiente' en Mirada Sur TV
   - RSS: `https://miradasurtv.cl/category/medioambiente/feed/`
+- **Norte y Energía**: Feed de la categoría 'Sustentabilidad' en Norte y Energía
+  - RSS: `https://www.norteyenergia.cl/category/sustentabilidad/feed/`
 - **Noticias Los Ríos**: Feed de la categoría 'Medio Ambiente' en Noticias Los Ríos
   - RSS: `https://www.noticiaslosrios.cl/seccion/medio-ambiente/feed/`
 - **Nuevo Poder**: Feed de la categoría 'Ecomundo' en Nuevo Poder

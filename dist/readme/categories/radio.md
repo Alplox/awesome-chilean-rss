@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`radio.opml`](../../opml/categories/radio.opml) - 33 sitios, 102 feeds*
+*Descargar OPML: [`radio.opml`](../../opml/categories/radio.opml) - 37 sitios, 110 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Música' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/musica/feed/`
@@ -56,6 +56,10 @@
 - **Radio Atacama** — Radioemisora de la Región de Atacama con noticias regionales, nacionales y deportivas
   - Radio Atacama: `https://www.radioatacama.cl/rss/feed`
   - Radio Atacama [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioatacama.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Carolina** — Emisora chilena de música
+  - Radio Carolina: `https://carolina.cl/rss.xml`
+  - Radio Carolina [Proxy Google News]: `https://news.google.com/rss/search?q=site:carolina.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Carolina [Proxy Bing News]: `https://www.bing.com/news/search?q=site:carolina.cl&format=RSS`
 - **Radio Contacto** — Radio de Chillán y la Región de Ñuble
   - Radio Contacto: `https://radiocontacto.cl/feed/`
   - Radio Contacto - Chillán: `https://radiocontacto.cl/category/chillan/feed/`
@@ -107,6 +111,8 @@
 - **Radio María Chile** — Emisora católica de alcance nacional en Chile
   - Radio María Chile: `https://radiomaria.cl/feed/`
   - Radio María Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiomaria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Melodía**: Radio Melodía, emisora chilena
+  - RSS: `https://radiomelodia.cl/feed/`
 - **Radio Modelo** — Emisora chilena de música y entretención
   - Radio Modelo: `https://radiomodelo.cl/feed/`
   - Radio Modelo - Peñalolen: `https://radiomodelo.cl/category/penalolen/feed/`
@@ -120,6 +126,8 @@
   - Radio Riquelme - Provincia Del Limarí: `https://radioriquelme.cl/category/limari/feed/`
   - Radio Riquelme - Provincia De Elqui: `https://radioriquelme.cl/category/elqui/feed/`
   - Radio Riquelme [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioriquelme.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Romántica**: Emisora chilena de música romántica
+  - RSS: `https://www.romantica.cl/rss.xml`
 - **Radio Universidad de Chile** — Radio online de la Universidad de Chile
   - Radio Universidad de Chile - Portada: `https://radio.uchile.cl/feed/`
   - Radio Universidad de Chile - Columnas: `https://radio.uchile.cl/columnas/feed/`
@@ -130,6 +138,10 @@
   - Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional: `https://radio.uchile.cl/ruch_amnistiainternacional/feed/`
   - Radio Universidad de Chile - Agenda Derechos Humanos: `https://radio.uchile.cl/agendaderechoshumanos/feed/`
   - Radio Universidad de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radio.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Valentín Letelier** — Radio de la Universidad de Valparaíso
+  - Radio Valentín Letelier: `https://rvl.uv.cl/noticias?format=feed`
+  - Radio Valentín Letelier [Proxy Google News]: `https://news.google.com/rss/search?q=site:rvl.uv.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Valentín Letelier [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rvl.uv.cl&format=RSS`
 - **Región Visual**: Feed de la categoría 'Música' en Región Visual
   - RSS: `https://regionvisual.com/category/musica/feed/`
 - **Rock & Pop** — Radio chilena de rock, música y actualidad

@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`sports.opml`](../../opml/categories/sports.opml) - 138 sitios, 207 feeds*
+*Descargar OPML: [`sports.opml`](../../opml/categories/sports.opml) - 143 sitios, 214 feeds*
 
 - **Aconcagua Digital**: Feed de la categoría 'Deportes' en Aconcagua Digital
   - RSS: `https://aconcaguadigital.cl/category/deportes/feed/`
@@ -42,6 +42,8 @@
   - RSS: `https://autonoticias.cl/category/automovilismo/feed/`
 - **Aysén Ahora**: Feed de la categoría 'Deporte' en Aysén Ahora
   - RSS: `https://www.aysenahora.cl/category/deporte/feed/`
+- **Cabrero en Línea**: Feed de la categoría 'Deportes' en Cabrero en Línea
+  - RSS: `https://wp.cabreroenlinea.cl/category/deportes/feed/`
 - **Calama en Línea**: Feed de la categoría 'Deporte' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/deporte/feed/`
 - **CEI Noticias**: Feed de la categoría 'Deporte' en CEI Noticias
@@ -218,6 +220,8 @@
   - RSS: `https://www.miradiols.cl/category/deportes/feed/`
 - **Mirada Sur TV**: Feed de la categoría 'Deportes' en Mirada Sur TV
   - RSS: `https://miradasurtv.cl/category/deportes/feed/`
+- **MQN (Más Que Noticias)**: Feed de la categoría 'Deportes' en MQN (Más Que Noticias)
+  - RSS: `https://mqn.cl/deportes/feed/`
 - **Música y Noticias**: Feed de la categoría 'Deportes' en Música y Noticias
   - RSS: `https://www.musicaynoticias.cl/category/deportes/feed/`
 - **Nevasport Chile** — Portal de nieve y ski Nevasport - Noticias de centros de ski de Chile
@@ -236,6 +240,8 @@
   - RSS: `https://nubledigital.cl/noticias/deportes/feed/`
 - **Ñuble Online**: Feed de la categoría 'Deportes' en Ñuble Online
   - RSS: `https://nubleonline.cl/category/deportes/feed/`
+- **Onda Expansiva**: Feed de la categoría 'Deporte' en Onda Expansiva
+  - RSS: `https://ondaexpansiva.cl/category/deporte/feed/`
 - **Oro Coipo**: Feed de la categoría 'Deporte' en Oro Coipo
   - RSS: `https://orocoipo.cl/category/deporte/feed/`
 - **Ovalle Hoy** — Diario regional de Ovalle, Coquimbo
@@ -245,6 +251,8 @@
   - RSS: `https://pagina19.cl/categoria/deportes/feed/`
 - **Panorama Noticioso**: Feed de la categoría 'Deportes' en Panorama Noticioso
   - RSS: `https://www.panoramanoticioso.cl/category/deporte/feed/`
+- **Perfil**: Feed de deportes de Perfil
+  - RSS: `https://www.perfil.com/feed/deportes`
 - **Portal Informativo**: Feed de la categoría 'Deportes' en Portal Informativo
   - RSS: `https://portalinformativo.cl/category/deportes/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Deportes' en Portal Metropolitano
@@ -337,6 +345,10 @@
   - RSS: `https://tierramarillano.cl/category/deportes/feed/`
 - **Timeline**: Feed de la categoría 'Deportes' en Timeline
   - RSS: `https://www.timeline.cl/category/deportes/feed/`
+- **TNT Sports Chile** — Portal deportivo chileno de TNT Sports
+  - TNT Sports Chile: `https://tntsports.cl/rss/feed.xml`
+  - TNT Sports Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:tntsports.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - TNT Sports Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:tntsports.cl&format=RSS`
 - **TodoFútbol Chile** — Feed principal de TodoFútbol Chile
   - TodoFútbol Chile: `https://www.todofutbol.cl/feed/`
   - TodoFútbol Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:todofutbol.cl&hl=es-419&gl=CL&ceid=CL:es-419`

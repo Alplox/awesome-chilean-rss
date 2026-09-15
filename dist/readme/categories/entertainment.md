@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 53 sitios, 143 feeds*
+*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 54 sitios, 144 feeds*
 
 - **Alerta Geek Chile**: Feed de la categoría 'Series' en Alerta Geek Chile
   - RSS: `https://alertageekchile.cl/category/series/feed/`
@@ -159,6 +159,8 @@
 - **Parlante.cl** — Medio chileno de música y cultura pop
   - Parlante.cl - Portada: `https://www.parlante.cl/?feed=rss2`
   - Parlante.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:parlante.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Perfil**: Feed de espectáculos de Perfil
+  - RSS: `https://www.perfil.com/feed/espectaculos`
 - **Pisapapeles**: Feed de la categoría 'Rumores' en Pisapapeles
   - RSS: `https://pisapapeles.net/category/rumores/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Entretención' en Portal Metropolitano

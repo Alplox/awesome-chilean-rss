@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`culture.opml`](../../opml/categories/culture.opml) - 118 sitios, 181 feeds*
+*Descargar OPML: [`culture.opml`](../../opml/categories/culture.opml) - 121 sitios, 185 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Anime y Manga: `https://alertageekchile.cl/category/anime-y-manga/feed/`
@@ -92,6 +92,8 @@
   - RSS: `https://www.diariolaregion.cl/category/cultura/feed/`
 - **Diario UACh**: Feed de la categoría 'Cultura' en Diario UACh
   - RSS: `https://diario.uach.cl/category/secciones/cultura/feed/`
+- **Editorial Quimantú**: Feed de comentarios de Editorial Quimantú
+  - RSS: `https://www.quimantu.cl/comments/feed/`
 - **El Arrebato**: Feed de la categoría 'Cultura' en El Arrebato
   - RSS: `https://elarrebato.cl/category/cultura/feed/`
 - **El Calbucano**: Feed de la categoría 'Cultura' en El Calbucano
@@ -210,6 +212,9 @@
 - **Museo de Arte Contemporáneo** — Museo de Arte Contemporáneo de la Universidad de Chile
   - Museo de Arte Contemporáneo: `https://mac.uchile.cl/feed/`
   - Museo de Arte Contemporáneo [Proxy Google News]: `https://news.google.com/rss/search?q=site:mac.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Museo Violeta Parra** — Museo dedicado a la vida y obra de Violeta Parra
+  - Museo Violeta Parra: `https://www.museovioletaparra.cl/feed/`
+  - Museo Violeta Parra [Proxy Google News]: `https://news.google.com/rss/search?q=site:museovioletaparra.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Música y Noticias**: Feed de la categoría 'Cultura Y Espectáculos' en Música y Noticias
   - RSS: `https://www.musicaynoticias.cl/category/cultura-y-espectaculos/feed/`
 - **Noticias Biobío**: Feed de la categoría 'Cultura y Espectaculos' en Noticias Biobío
@@ -228,6 +233,8 @@
   - RSS: `https://www.nubleactual.cl/categoria/cultural/feed/`
 - **Ñuble Digital**: Feed de la categoría 'Cultura' en Ñuble Digital
   - RSS: `https://nubledigital.cl/noticias/cultura/feed/`
+- **Onda Expansiva**: Feed de la categoría 'Cultura Y Espectaculos' en Onda Expansiva
+  - RSS: `https://ondaexpansiva.cl/category/cultura-y-espectaculos/feed/`
 - **Ovalle Hoy** — Diario regional de Ovalle, Coquimbo
   - Ovalle Hoy - Artes y Cultura: `https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/feed/`
   - Ovalle Hoy - Artes Visuales: `https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/artes-visuales/feed/`

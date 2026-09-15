@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 88 sitios, 145 feeds*
+*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 90 sitios, 148 feeds*
 
 - **Alerta Noticias**: Feed de la categoría 'Salud' en Alerta Noticias
   - RSS: `https://alertanoticias.cl/category/salud/feed/`
@@ -143,6 +143,8 @@
   - RSS: `https://ovallehoy.cl/categoria/ultimas/sociedad/salud/feed/`
 - **Pauta Los Ríos**: Feed de la categoría 'Salud' en Pauta Los Ríos
   - RSS: `https://pautalosrios.cl/category/salud/feed/`
+- **Perfil**: Feed de salud de Perfil
+  - RSS: `https://www.perfil.com/feed/salud`
 - **Piensa Chile**: Feed de la categoría 'Salud' en Piensa Chile
   - RSS: `https://piensachile.com/category/salud-3/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Salud' en Portal Metropolitano
@@ -196,6 +198,9 @@
   - RSS: `https://www.radiosantamaria.cl/category/salud/feed/`
 - **Radio UdeC**: Feed de la categoría 'Salud' en Radio UdeC
   - RSS: `https://www.radioudec.cl/category/salud/feed/`
+- **Revista Médica de Chile** — Revista Médica de Chile, publicación científica
+  - Revista Médica de Chile: `https://www.revistamedicadechile.cl/index.php/rmedica/gateway/plugin/WebFeedGatewayPlugin/atom`
+  - Revista Médica de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:revistamedicadechile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Río en Línea**: Feed de la categoría 'Salud' en Río en Línea
   - RSS: `https://www.rioenlinea.cl/seccion/salud/feed/`
 - **Salud Responde** — Portal de información del Ministerio de Salud para la ciudadanía

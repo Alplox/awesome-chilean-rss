@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (145 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (148 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-04T21:18:47.183Z</dateCreated>
+    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -82,6 +82,7 @@
     <outline type="rss" text="Noticias Los Ríos - Salud" title="Noticias Los Ríos - Salud" description="Feed de la categoría 'Salud' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/salud/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/salud/"/>
     <outline type="rss" text="Ovalle Hoy - Salud" title="Ovalle Hoy - Salud" description="Feed de la categoría 'Salud' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/salud/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/salud/"/>
     <outline type="rss" text="Pauta Los Ríos - Salud" title="Pauta Los Ríos - Salud" description="Feed de la categoría 'Salud' en Pauta Los Ríos" xmlUrl="https://pautalosrios.cl/category/salud/feed/" htmlUrl="https://pautalosrios.cl/category/salud/"/>
+    <outline type="rss" text="Perfil - Salud" title="Perfil - Salud" description="Feed de salud de Perfil" xmlUrl="https://www.perfil.com/feed/salud" htmlUrl="https://www.perfil.com/salud/"/>
     <outline type="rss" text="Piensa Chile - Salud" title="Piensa Chile - Salud" description="Feed de la categoría 'Salud' en Piensa Chile" xmlUrl="https://piensachile.com/category/salud-3/feed/" htmlUrl="https://piensachile.com/category/salud-3/"/>
     <outline type="rss" text="Portal Metropolitano - Salud" title="Portal Metropolitano - Salud" description="Feed de la categoría 'Salud' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/salud/feed/" htmlUrl="https://portalmetropolitano.cl/category/salud/"/>
     <outline type="rss" text="Portal Red Salud" title="Portal Red Salud" description="Feed principal de Portal Red Salud" xmlUrl="https://portalredsalud.cl/feed/" htmlUrl="https://portalredsalud.cl/"/>
@@ -125,6 +126,8 @@
     <outline type="rss" text="Radio Maray - Vida y Salud" title="Radio Maray - Vida y Salud" description="Feed de la categoría 'Vida y Salud' en Radio Maray" xmlUrl="https://www.maray.cl/category/vida-salud/feed/" htmlUrl="https://www.maray.cl/category/vida-salud/"/>
     <outline type="rss" text="Radio Santa María - Salud" title="Radio Santa María - Salud" description="Feed de la categoría 'Salud' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/salud/feed/" htmlUrl="https://www.radiosantamaria.cl/category/salud/"/>
     <outline type="rss" text="Radio UdeC - Salud" title="Radio UdeC - Salud" description="Feed de la categoría 'Salud' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/salud/feed/" htmlUrl="https://www.radioudec.cl/category/salud/"/>
+    <outline type="rss" text="Revista Médica de Chile" title="Revista Médica de Chile" description="Revista Médica de Chile, publicación científica" xmlUrl="https://www.revistamedicadechile.cl/index.php/rmedica/gateway/plugin/WebFeedGatewayPlugin/atom" htmlUrl="https://www.revistamedicadechile.cl"/>
+    <outline type="rss" text="Revista Médica de Chile [Proxy Google News]" title="Revista Médica de Chile [Proxy Google News]" description="Resultados de site:revistamedicadechile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:revistamedicadechile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:revistamedicadechile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Río en Línea - Salud" title="Río en Línea - Salud" description="Feed de la categoría 'Salud' en Río en Línea" xmlUrl="https://www.rioenlinea.cl/seccion/salud/feed/" htmlUrl="https://www.rioenlinea.cl/seccion/salud/"/>
     <outline type="rss" text="Salud Responde" title="Salud Responde" description="Feed principal de Salud Responde" xmlUrl="https://saludresponde.minsal.cl/feed/" htmlUrl="https://saludresponde.minsal.cl"/>
     <outline type="rss" text="Salud Responde [Proxy Google News]" title="Salud Responde [Proxy Google News]" description="Resultados de site:saludresponde.minsal.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:saludresponde.minsal.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:saludresponde.minsal.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

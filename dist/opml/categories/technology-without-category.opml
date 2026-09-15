@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (340 feeds)</title>
+    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (342 feeds)</title>
     <description>Feeds RSS de 💻 Tecnología y Startups, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-04T21:18:47.183Z</dateCreated>
+    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -261,6 +261,8 @@
     <outline type="rss" text="Netsus [Proxy Google News]" title="Netsus [Proxy Google News]" description="Resultados de site:netsus.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:netsus.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:netsus.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Nuevo Poder - Tecnociencia" title="Nuevo Poder - Tecnociencia" description="Feed de la categoría 'Tecnociencia' en Nuevo Poder" xmlUrl="https://www.nuevopoder.cl/category/tecnologia/feed/" htmlUrl="https://www.nuevopoder.cl/category/tecnologia/"/>
     <outline type="rss" text="Página 19 - Tecnología" title="Página 19 - Tecnología" description="Feed de la categoría 'Tecnología' en Página 19" xmlUrl="https://pagina19.cl/categoria/tecnologia/feed/" htmlUrl="https://pagina19.cl/categoria/tecnologia/"/>
+    <outline type="rss" text="Perfil - Ciencia" title="Perfil - Ciencia" description="Feed de ciencia de Perfil" xmlUrl="https://www.perfil.com/feed/ciencia" htmlUrl="https://www.perfil.com/ciencia/"/>
+    <outline type="rss" text="Perfil - Tecnología" title="Perfil - Tecnología" description="Feed de tecnología de Perfil" xmlUrl="https://www.perfil.com/feed/tecnologia" htmlUrl="https://www.perfil.com/tecnologia/"/>
     <outline type="rss" text="Pisapapeles" title="Pisapapeles" description="Feed principal de Pisapapeles" xmlUrl="https://pisapapeles.net/feed/" htmlUrl="https://pisapapeles.net"/>
     <outline type="rss" text="Pisapapeles - Columnas" title="Pisapapeles - Columnas" description="Feed de la categoría 'Columnas' en Pisapapeles" xmlUrl="https://pisapapeles.net/category/columna/feed/" htmlUrl="https://pisapapeles.net/category/columna/"/>
     <outline type="rss" text="Pisapapeles - Entrevistas" title="Pisapapeles - Entrevistas" description="Feed de la categoría 'Entrevistas' en Pisapapeles" xmlUrl="https://pisapapeles.net/category/entrevistas/feed/" htmlUrl="https://pisapapeles.net/category/entrevistas/"/>

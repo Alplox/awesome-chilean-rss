@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ✍️ Blogs (19 feeds)</title>
+    <title>Awesome Chilean RSS - ✍️ Blogs (22 feeds)</title>
     <description>Feeds RSS de ✍️ Blogs, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-04T21:18:47.183Z</dateCreated>
+    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -25,6 +25,9 @@
     <outline type="rss" text="José Joaquín Brunner - Entrevistas" title="José Joaquín Brunner - Entrevistas" description="Feed de la categoría 'Entrevistas' en José Joaquín Brunner" xmlUrl="https://brunner.cl/category/entrevistas/feed/" htmlUrl="https://brunner.cl/category/entrevistas/"/>
     <outline type="rss" text="José Joaquín Brunner [Proxy Google News]" title="José Joaquín Brunner [Proxy Google News]" description="Resultados de site:brunner.cl/ en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:brunner.cl/&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:brunner.cl/&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Discusión - Blog" title="La Discusión - Blog" description="Feed de la categoría 'Blog' en La Discusión" xmlUrl="https://ladiscusion.cl/category/blog/feed/" htmlUrl="https://ladiscusion.cl/category/blog/"/>
+    <outline type="rss" text="Michael Walsh" title="Michael Walsh" description="Blog personal de Michael Walsh, diseñador y desarrollador web de Villarrica, con artículos sobre tecnología, diseño y la vida en Chile" xmlUrl="https://walsh.cl/feed.xml" htmlUrl="https://walsh.cl"/>
+    <outline type="rss" text="Michael Walsh [Proxy Google News]" title="Michael Walsh [Proxy Google News]" description="Resultados de site:walsh.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:walsh.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:walsh.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="RunningShot - Blog" title="RunningShot - Blog" description="Feed de la categoría 'Blog' en RunningShot" xmlUrl="https://runnningshot.cl/category/blog/feed/" htmlUrl="https://runnningshot.cl/category/blog/"/>
+    <outline type="rss" text="Tecnolocuras" title="Tecnolocuras" description="Blog personal de Henry Tejera con artículos sobre tecnología, desarrollo web y experiencias digitales" xmlUrl="https://tecnolocuras.com/feed.xml" htmlUrl="https://tecnolocuras.com"/>
   </body>
 </opml>

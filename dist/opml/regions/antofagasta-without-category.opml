@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Antofagasta (170 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Antofagasta (183 feeds)</title>
     <description>Feeds RSS de la Región de Antofagasta, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-04T21:18:47.183Z</dateCreated>
+    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -150,6 +150,19 @@
     <outline type="rss" text="Mercurio de Calama" title="Mercurio de Calama" description="Feed principal de Mercurio de Calama" xmlUrl="https://www.mercuriocalama.cl/?feed=rss2" htmlUrl="https://www.mercuriocalama.cl"/>
     <outline type="rss" text="Mercurio de Calama [Proxy Bing News]" title="Mercurio de Calama [Proxy Bing News]" description="Resultados de site:mercuriocalama.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:mercuriocalama.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:mercuriocalama.cl"/>
     <outline type="rss" text="Mercurio de Calama [Proxy Google News]" title="Mercurio de Calama [Proxy Google News]" description="Resultados de site:mercuriocalama.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:mercuriocalama.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:mercuriocalama.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Norte y Energía" title="Norte y Energía" description="Revista digital de la Región de Antofagasta" xmlUrl="https://www.norteyenergia.cl/feed/" htmlUrl="https://www.norteyenergia.cl/"/>
+    <outline type="rss" text="Norte y Energía - Capital Humano" title="Norte y Energía - Capital Humano" description="Feed de la categoría 'Capital Humano' en Norte y Energía" xmlUrl="https://www.norteyenergia.cl/category/educacion/feed/" htmlUrl="https://www.norteyenergia.cl/category/educacion/"/>
+    <outline type="rss" text="Norte y Energía - Comunidades" title="Norte y Energía - Comunidades" description="Feed de la categoría 'Comunidades' en Norte y Energía" xmlUrl="https://www.norteyenergia.cl/category/comunidades/feed/" htmlUrl="https://www.norteyenergia.cl/category/comunidades/"/>
+    <outline type="rss" text="Norte y Energía - Economía E Industria" title="Norte y Energía - Economía E Industria" description="Feed de la categoría 'Economía E Industria' en Norte y Energía" xmlUrl="https://www.norteyenergia.cl/category/actualidad-regional/feed/" htmlUrl="https://www.norteyenergia.cl/category/actualidad-regional/"/>
+    <outline type="rss" text="Norte y Energía - Energía" title="Norte y Energía - Energía" description="Feed de la categoría 'Energía' en Norte y Energía" xmlUrl="https://www.norteyenergia.cl/category/energia/feed/" htmlUrl="https://www.norteyenergia.cl/category/energia/"/>
+    <outline type="rss" text="Norte y Energía - Minería" title="Norte y Energía - Minería" description="Feed de la categoría 'Minería' en Norte y Energía" xmlUrl="https://www.norteyenergia.cl/category/mineria/feed/" htmlUrl="https://www.norteyenergia.cl/category/mineria/"/>
+    <outline type="rss" text="Norte y Energía - Multimedia" title="Norte y Energía - Multimedia" description="Feed de la categoría 'Multimedia' en Norte y Energía" xmlUrl="https://www.norteyenergia.cl/category/multimedia/feed/" htmlUrl="https://www.norteyenergia.cl/category/multimedia/"/>
+    <outline type="rss" text="Norte y Energía - Noticias" title="Norte y Energía - Noticias" description="Feed de la categoría 'Noticias' en Norte y Energía" xmlUrl="https://www.norteyenergia.cl/category/noticias/feed/" htmlUrl="https://www.norteyenergia.cl/category/noticias/"/>
+    <outline type="rss" text="Norte y Energía - Noticias Recientes" title="Norte y Energía - Noticias Recientes" description="Feed de la categoría 'Noticias Recientes' en Norte y Energía" xmlUrl="https://www.norteyenergia.cl/category/noticias-recientes/feed/" htmlUrl="https://www.norteyenergia.cl/category/noticias-recientes/"/>
+    <outline type="rss" text="Norte y Energía - Opinión" title="Norte y Energía - Opinión" description="Feed de la categoría 'Opinión' en Norte y Energía" xmlUrl="https://www.norteyenergia.cl/category/opinion/feed/" htmlUrl="https://www.norteyenergia.cl/category/opinion/"/>
+    <outline type="rss" text="Norte y Energía - Sustentabilidad" title="Norte y Energía - Sustentabilidad" description="Feed de la categoría 'Sustentabilidad' en Norte y Energía" xmlUrl="https://www.norteyenergia.cl/category/sustentabilidad/feed/" htmlUrl="https://www.norteyenergia.cl/category/sustentabilidad/"/>
+    <outline type="rss" text="Norte y Energía [Proxy Bing News]" title="Norte y Energía [Proxy Bing News]" description="Resultados de site:norteyenergia.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:norteyenergia.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:norteyenergia.cl"/>
+    <outline type="rss" text="Norte y Energía [Proxy Google News]" title="Norte y Energía [Proxy Google News]" description="Resultados de site:norteyenergia.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:norteyenergia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:norteyenergia.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Regionalista" title="Regionalista" description="Feed principal de Regionalista" xmlUrl="https://regionalista.cl/feed" htmlUrl="https://regionalista.cl"/>
     <outline type="rss" text="Regionalista - Agenda Norte" title="Regionalista - Agenda Norte" description="Feed de la categoría 'Agenda Norte' en Regionalista" xmlUrl="https://regionalista.cl/category/agenda-norte/feed/" htmlUrl="https://regionalista.cl/category/agenda-norte/"/>
     <outline type="rss" text="Regionalista - Artículos" title="Regionalista - Artículos" description="Feed de la categoría 'Artículos' en Regionalista" xmlUrl="https://regionalista.cl/category/articulos/feed/" htmlUrl="https://regionalista.cl/category/articulos/"/>

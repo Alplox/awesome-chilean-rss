@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 91 sitios, 253 feeds*
+*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 95 sitios, 263 feeds*
 
 - **Alerta Noticias**: Feed de la categoría 'Internacional' en Alerta Noticias
   - RSS: `https://alertanoticias.cl/category/internacional/feed/`
@@ -24,6 +24,8 @@
   - BBC Mundo - Latin America: `https://feeds.bbci.co.uk/news/world/latin_america/rss.xml`
   - BBC Mundo [Proxy Google News]: `https://news.google.com/rss/search?q=site:bbc.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - BBC Mundo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:bbc.com&format=RSS`
+- **Cabrero en Línea**: Feed de la categoría 'Internacional' en Cabrero en Línea
+  - RSS: `https://wp.cabreroenlinea.cl/category/internacional/feed/`
 - **Cadena Política** — Portal mexicano de noticias políticas, salud y actualidad
   - Cadena Política: `https://cadenapolitica.com/feed/`
   - Cadena Política - Destacadas: `https://cadenapolitica.com/category/destacada/feed/`
@@ -75,6 +77,8 @@
   - RSS: `https://chiloenews.cl/Categoría/internacional/feed/`
 - **Correo de los Trabajadores**: Feed de la categoría 'Mundo' en Correo de los Trabajadores
   - RSS: `https://cctt.cl/category/politica-internacional/mundo/feed/`
+- **Dalenoticias**: Feed de la categoría 'Internacional' en Dalenoticias
+  - RSS: `https://dalenoticias.cl/category/internacional/feed/`
 - **David Noticias**: Feed de la categoría 'Mundo' en David Noticias
   - RSS: `https://www.davidnoticias.cl/category/mundo/feed/`
 - **Desenfoque**: Feed de la categoría 'Exterior' en Desenfoque
@@ -232,6 +236,8 @@
   - MercoPress Chile: `https://en.mercopress.com/rss/`
   - MercoPress Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:en.mercopress.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - MercoPress Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:en.mercopress.com&format=RSS`
+- **MQN (Más Que Noticias)**: Feed de la categoría 'Mundo' en MQN (Más Que Noticias)
+  - RSS: `https://mqn.cl/mundo/feed/`
 - **Música y Noticias**: Feed de la categoría 'Internacional' en Música y Noticias
   - RSS: `https://www.musicaynoticias.cl/category/internacional/feed/`
 - **Nostálgica**: Feed de la categoría 'Internacional' en Nostálgica
@@ -242,6 +248,14 @@
   - RSS: `https://pagina19.cl/categoria/internacional/feed/`
 - **Partido Comunista de Chile**: Feed de la categoría 'Internacional' en Partido Comunista de Chile
   - RSS: `https://pcchile.cl/category/internacional/feed/`
+- **Perfil** — Diario argentino de noticias, política, economía y actualidad
+  - Perfil: `https://www.perfil.com/feed/`
+  - Perfil - Política: `https://www.perfil.com/feed/politica`
+  - Perfil - Policía: `https://www.perfil.com/feed/policia`
+  - Perfil - Opinión: `https://www.perfil.com/feed/opinion`
+  - Perfil - Sociedad: `https://www.perfil.com/feed/sociedad`
+  - Perfil [Proxy Google News]: `https://news.google.com/rss/search?q=site:perfil.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Perfil [Proxy Bing News]: `https://www.bing.com/news/search?q=site:perfil.com&format=RSS`
 - **Piensa Chile** — Portal de análisis, opinión y noticias nacionales
   - Piensa Chile - Palestina: `https://piensachile.com/category/pueblo/palestina/feed/`
   - Piensa Chile - Sionismo: `https://piensachile.com/category/politica/sionismo/feed/`

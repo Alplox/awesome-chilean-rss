@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 82 sitios, 340 feeds*
+*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 83 sitios, 342 feeds*
 
 - **(Empresa) TiChile** — Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
   - (Empresa) tichile: `https://www.tichile.cl/feed/`
@@ -320,6 +320,9 @@
   - RSS: `https://www.nuevopoder.cl/category/tecnologia/feed/`
 - **Página 19**: Feed de la categoría 'Tecnología' en Página 19
   - RSS: `https://pagina19.cl/categoria/tecnologia/feed/`
+- **Perfil** — Diario argentino de noticias, política, economía y actualidad
+  - Perfil - Ciencia: `https://www.perfil.com/feed/ciencia`
+  - Perfil - Tecnología: `https://www.perfil.com/feed/tecnologia`
 - **Pisapapeles** — Portal especializado en telefonía móvil, telecomunicaciones y electrónica de consumo
   - Pisapapeles: `https://pisapapeles.net/feed/`
   - Pisapapeles - Reviews: `https://pisapapeles.net/category/reviews/feed/`

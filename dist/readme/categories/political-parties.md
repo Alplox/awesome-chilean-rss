@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`political-parties.opml`](../../opml/categories/political-parties.opml) - 10 sitios, 32 feeds*
+*Descargar OPML: [`political-parties.opml`](../../opml/categories/political-parties.opml) - 14 sitios, 55 feeds*
 
 - **Demócratas Chile** — Partido político chileno - Noticias, comunicados y actividades de Demócratas Chile
   - Demócratas Chile: `https://www.democratas.cl/feed/`
@@ -14,6 +14,10 @@
 - **Frente Amplio** — Partido político chileno - Noticias, comunicados y actividades del Frente Amplio
   - Frente Amplio: `https://frenteampliochile.cl/feed/`
   - Frente Amplio [Proxy Google News]: `https://news.google.com/rss/search?q=site:frenteampliochile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Fundación Jaime Guzmán** — Centro de estudios vinculado a la UDI
+  - Fundación Jaime Guzmán: `https://www.fjguzman.cl/feed/`
+  - Fundación Jaime Guzmán [Proxy Google News]: `https://news.google.com/rss/search?q=site:fjguzman.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Fundación Jaime Guzmán [Proxy Bing News]: `https://www.bing.com/news/search?q=site:fjguzman.cl&format=RSS`
 - **Fundación Nodo XXI** — Fundación chilena dedicada al análisis y debate sobre política, ciudadanía y sociedad
   - Fundación Nodo XXI: `https://www.nodoxxi.cl/feed/`
   - Fundación Nodo XXI - Portada: `https://www.nodoxxi.cl/category/portada/feed/`
@@ -25,6 +29,23 @@
 - **Partido Demócrata Cristiano** — Partido político chileno - Noticias, comunicados y actividades de la DC
   - Partido Demócrata Cristiano: `https://www.pdc.cl/feed/`
   - Partido Demócrata Cristiano [Proxy Google News]: `https://news.google.com/rss/search?q=site:pdc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Partido Humanista de Chile** — Partido político chileno - Noticias, comunicados y actividades del Partido Humanista
+  - Partido Humanista de Chile: `https://partidohumanista.cl/feed/`
+  - Partido Humanista de Chile - Elecciones Internas 2025: `https://partidohumanista.cl/feed/?category=elecciones-internas-2025`
+  - Partido Humanista de Chile - Transparencia: `https://partidohumanista.cl/feed/?category=transparencia`
+  - Partido Humanista de Chile - Politicos: `https://partidohumanista.cl/feed/?category=politicos`
+  - Partido Humanista de Chile - Legales: `https://partidohumanista.cl/feed/?category=legales`
+  - Partido Humanista de Chile - Referentes: `https://partidohumanista.cl/feed/?category=referentes`
+  - Partido Humanista de Chile - Ideologia: `https://partidohumanista.cl/feed/?category=ideologia`
+  - Partido Humanista de Chile - Materiales Oficiales: `https://partidohumanista.cl/feed/?category=materiales-oficiales`
+  - Partido Humanista de Chile - Formacion Ph: `https://partidohumanista.cl/feed/?category=formacion-ph`
+  - Partido Humanista de Chile - Inicio: `https://partidohumanista.cl/feed/?category=inicio`
+  - Partido Humanista de Chile - Ecn: `https://partidohumanista.cl/feed/?category=ecn`
+  - Partido Humanista de Chile - Videoteca: `https://partidohumanista.cl/feed/?category=videoteca`
+  - Partido Humanista [Proxy Google News]: `https://news.google.com/rss/search?q=site:partidohumanista.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Partido Igualdad** — Partido político chileno - Noticias, comunicados y actividades del Partido Igualdad de Chile
+  - Partido Igualdad: `https://partidoigualdad.cl/feed/`
+  - Partido Igualdad - Formación: `https://partidoigualdad.cl/category/formacion/feed/`
 - **Partido Liberal de Chile** — Partido político chileno - Noticias, comunicados y actividades del Partido Liberal
   - Partido Liberal: `https://liberaleschile.cl/feed/`
   - Partido Liberal [Proxy Google News]: `https://news.google.com/rss/search?q=site:liberaleschile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -46,3 +67,9 @@
   - Partido Socialista de Chile - Vicepresidencia De La Mujer: `https://www.pschile.cl/category/vicepresidencia-de-la-mujer/feed/`
   - Partido Socialista de Chile - Columnas De Opinión: `https://www.pschile.cl/category/columnas-de-opinion/feed/`
   - Partido Socialista [Proxy Google News]: `https://news.google.com/rss/search?q=site:pschile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Unión Demócrata Independiente** — Partido político chileno - Noticias, comunicados y actividades de la UDI
+  - Unión Demócrata Independiente: `https://udi.cl/feed/`
+  - Unión Demócrata Independiente - Principios: `https://udi.cl/feed/?category=principios`
+  - Unión Demócrata Independiente - Estructuras: `https://udi.cl/feed/?category=estructuras`
+  - Unión Demócrata Independiente - Representantes: `https://udi.cl/feed/?category=representantes`
+  - UDI [Proxy Google News]: `https://news.google.com/rss/search?q=site:udi.cl&hl=es-419&gl=CL&ceid=CL:es-419`
