@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 95 sitios, 263 feeds*
+*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 101 sitios, 269 feeds*
 
 - **Alerta Noticias**: Feed de la categoría 'Internacional' en Alerta Noticias
   - RSS: `https://alertanoticias.cl/category/internacional/feed/`
@@ -95,6 +95,8 @@
   - RSS: `https://diarioelnortino.cl/category/internacional/feed/`
 - **Diario El Pulso**: Feed de la categoría 'Mundo' en Diario El Pulso
   - RSS: `https://www.diarioelpulso.cl/category/mundo/feed/`
+- **Diario Mapuche**: Feed de la categoría 'Internacional' en Diario Mapuche
+  - RSS: `https://www.mapuchediario.cl/category/internacional/feed/`
 - **Diario Sur Noticias** — Diario regional de Santiago, Metropolitana
   - Diario Sur Noticias - Internacional: `https://www.diariosurnoticias.com/internacional/feed/`
   - Diario Sur Noticias - Mundo: `https://www.diariosurnoticias.com/mundo/feed/`
@@ -238,6 +240,8 @@
   - MercoPress Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:en.mercopress.com&format=RSS`
 - **MQN (Más Que Noticias)**: Feed de la categoría 'Mundo' en MQN (Más Que Noticias)
   - RSS: `https://mqn.cl/mundo/feed/`
+- **Mundo Minería**: Feed de la categoría 'Internacional' en Mundo Minería
+  - RSS: `https://mundomineria.cl/category/internacional/feed/`
 - **Música y Noticias**: Feed de la categoría 'Internacional' en Música y Noticias
   - RSS: `https://www.musicaynoticias.cl/category/internacional/feed/`
 - **Nostálgica**: Feed de la categoría 'Internacional' en Nostálgica
@@ -263,6 +267,8 @@
   - Piensa Chile - Internacional: `https://piensachile.com/category/internacional/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Internacional' en Portal Metropolitano
   - RSS: `https://portalmetropolitano.cl/category/internacional/feed/`
+- **Prensa Digital**: Feed de la categoría 'Mundo' en Prensa Digital
+  - RSS: `https://www.prensadigital.cl/mundo/feed/`
 - **Prensa Opal** — Medio digital de análisis y noticias internacionales
   - Prensa Opal: `https://prensaopal.cl/feed/`
   - Prensa Opal - Editor: `https://prensaopal.cl/category/editor/feed/`
@@ -284,6 +290,8 @@
   - RSS: `https://publimicro.cl/contenidos-noticias/internacional/feed/`
 - **Radar BioBio**: Feed de la categoría 'Internacional' en Radar BioBio
   - RSS: `https://radarbiobio.cl/internacional/feed/`
+- **Radio Comunicativa de Ovalle**: Feed de la categoría 'Internacional' en Radio Comunicativa de Ovalle
+  - RSS: `https://radiocomunicativa.cl/category/noticias/internacional/feed/`
 - **Radio Contacto**: Feed de la categoría 'Internacional' en Radio Contacto
   - RSS: `https://radiocontacto.cl/category/internacional/feed/`
 - **Radio Cooperativa**: Feed de la sección 'Mundo' en Radio Cooperativa
@@ -292,6 +300,8 @@
   - RSS: `https://radiocristalina.cl/category/internacional/feed/`
 - **Radio Festival**: Feed de la categoría 'Internacional' en Radio Festival
   - RSS: `https://www.radiofestival.cl/category/internacional/feed/`
+- **Radio Guayacán**: Feed de la categoría 'Internacional' en Radio Guayacán
+  - RSS: `https://radioguayacan.cl/category/internacional/feed/`
 - **Radio Interamericana**: Feed de la categoría 'Internacional' en Radio Interamericana
   - RSS: `https://radiointeramericana.cl/category/noticias/internacional/feed/`
 - **Radio JGM**: Feed de la categoría 'Internacional' en Radio JGM
@@ -354,6 +364,8 @@
   - RSS: `https://tierramarillano.cl/category/noticias/internacional/feed/`
 - **Tus Noticias**: Feed de la categoría 'Internacional' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/internacional/feed/`
+- **TV Canal 5**: Feed de la categoría 'Internacional' en TV Canal 5
+  - RSS: `https://tvcanal5.cl/category/internacional/feed/`
 - **Universidad Diego Portales**: Feed de la categoría 'Internacional' en Universidad Diego Portales
   - RSS: `https://www.udp.cl/archivo/internacional/feed/`
 - **Vilas Radio**: Feed de la categoría 'Internacional' en Vilas Radio

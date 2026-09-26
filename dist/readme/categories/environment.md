@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`environment.opml`](../../opml/categories/environment.opml) - 80 sitios, 174 feeds*
+*Descargar OPML: [`environment.opml`](../../opml/categories/environment.opml) - 89 sitios, 208 feeds*
 
 - **Acero y Roca**: Feed de la categoría 'Medio Ambiente' en Acero y Roca
   - RSS: `https://aceroyroca.com/category/medio-ambiente/feed/`
@@ -73,6 +73,8 @@
 - **Diario La Región** — Diario regional de Coquimbo, Coquimbo
   - Diario La Región - Agricultura: `https://www.diariolaregion.cl/category/agri/feed/`
   - Diario La Región - Medio Ambiente: `https://www.diariolaregion.cl/category/ambiente/feed/`
+- **Diario Mapuche**: Feed de la categoría 'Medio Ambiente' en Diario Mapuche
+  - RSS: `https://www.mapuchediario.cl/category/medio-ambiente/feed/`
 - **Diario Puerto Varas**: Feed de la categoría 'Ciencia y Medio' en Diario Puerto Varas
   - RSS: `https://diariopuertovaras.cl/category/ciencia-medio/feed/`
 - **Diario Sustentable**: Medio chileno de noticias sobre sustentabilidad
@@ -97,6 +99,9 @@
 - **El Diario de La Araucanía** — Diario regional de Angol, La Araucanía
   - El Diario de La Araucanía - Agricultura: `https://www.eldiariodelaaraucania.cl/category/ciencias-y-tecnologias/agricultura/feed/`
   - El Diario de La Araucanía - Medio Ambiente: `https://www.eldiariodelaaraucania.cl/category/medio-ambiente/feed/`
+- **El Diario Santiago** — Medio digital chileno de actualidad y análisis sobre política, sociedad y participación ciudadana.
+  - El Diario Santiago - Medio Ambiente: `https://eldiariosantiago.cl/category/medio-ambiente/feed/`
+  - El Diario Santiago - Agricultura: `https://eldiariosantiago.cl/category/features/agricultura/feed/`
 - **El Informador**: Feed de la categoría 'Agricultura' en El Informador
   - RSS: `https://www.elinformador.cl/category/agricultura/feed/`
 - **El Insular**: Feed de la categoría 'Medioambiente' en El Insular
@@ -234,20 +239,55 @@
 - **Portal Metropolitano** — Portal de noticias de la Región Metropolitana
   - Portal Metropolitano - Medio Ambiente: `https://portalmetropolitano.cl/category/medio-ambiente/feed/`
   - Portal Metropolitano - Agricultura: `https://portalmetropolitano.cl/category/agricultura/feed/`
+- **Prensa Eventos**: Feed de la categoría ' Medio Ambiente' en Prensa Eventos
+  - RSS: `https://prensaeventos.cl/category/medio-ambiente/feed/`
 - **Radio 45 Sur** — Radio online de la Región de Los Ríos
   - Radio 45 Sur - Medio Ambiente: `https://radio45sur.cl/category/medio-ambiente/feed/`
   - Radio 45 Sur - Agricultura: `https://radio45sur.cl/category/agricultura/feed/`
 - **Radio Cristalina**: Feed de la categoría 'Medio Ambiente' en Radio Cristalina
   - RSS: `https://radiocristalina.cl/category/medio-ambiente/feed/`
+- **Radio Guayacán** — Radio y medio digital de La Serena y el Norte Chico, con noticias regionales, nacionales, deportes y programas locales.
+  - Radio Guayacán - Medio Ambiente: `https://radioguayacan.cl/category/sustentabilidad/medio-ambiente/feed/`
+  - Radio Guayacán - Sustentabilidad: `https://radioguayacan.cl/category/sustentabilidad/feed/`
+- **Radio HVA**: Feed de la categoría 'Agricultura' en Radio HVA
+  - RSS: `https://www.hvaradio.cl/category/agricultura/feed/`
 - **Radio JGM**: Feed de la categoría 'Medio Ambiente' en Radio JGM
   - RSS: `https://radiojgm.uchile.cl/category/medio-ambiente/feed/`
 - **Radio UdeC**: Feed de la categoría 'Medio Ambiente' en Radio UdeC
   - RSS: `https://www.radioudec.cl/category/medio-ambiente/feed/`
+- **Región de Coquimbo**: Feed de la categoría 'Agricultura' en Región de Coquimbo
+  - RSS: `https://regiondecoquimbo.cl/category/agricultura/feed/`
+- **Revista Ecociencias** — Revista digital chilena dedicada a la divulgación de ciencia, naturaleza, biodiversidad, sostenibilidad y educación ambiental.
+  - Revista Ecociencias: `https://revistaecociencias.cl/feed/`
+  - Revista Ecociencias - Conservación De La Biodiversidad: `https://revistaecociencias.cl/categoria/educacion-ambiental/conservacion-de-la-biodiversidad/feed/`
+  - Revista Ecociencias - Actividad Humana Y Medioambiente: `https://revistaecociencias.cl/categoria/educacion-ambiental/actividad-humana-y-medioambiente/feed/`
+  - Revista Ecociencias - Cambio Climático: `https://revistaecociencias.cl/categoria/educacion-ambiental/cambio-climatico/feed/`
+  - Revista Ecociencias - Mujer Y Ciencia: `https://revistaecociencias.cl/categoria/mujer-y-ciencia/feed/`
+  - Revista Ecociencias - Opinión: `https://revistaecociencias.cl/categoria/opinion-2/feed/`
+  - Revista Ecociencias - Educación Ambiental: `https://revistaecociencias.cl/categoria/educacion-ambiental/feed/`
+  - Revista Ecociencias - Entrevista: `https://revistaecociencias.cl/categoria/entrevista/feed/`
+  - Revista Ecociencias [Proxy Google News]: `https://news.google.com/rss/search?q=site:revistaecociencias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Río en Línea**: Feed de la categoría 'Medio Ambiente' en Río en Línea
   - RSS: `https://www.rioenlinea.cl/seccion/medio-ambiente/feed/`
 - **Sostenibilidad UNAB** — Portal institucional de la UNAB sobre sostenibilidad, gestión ambiental y carbono neutralidad
   - Sostenibilidad UNAB: `https://sostenibilidad.unab.cl/feed/`
   - Sostenibilidad UNAB - Sin Categorizar: `https://sostenibilidad.unab.cl/category/sin-categorizar/feed/`
+- **Superintendencia del Medio Ambiente** — Organismo nacional que publica fiscalizaciones, sanciones, proyectos, permisos y medidas ambientales de Chile.
+  - Superintendencia del Medio Ambiente: `https://portal.sma.gob.cl/index.php/feed/`
+  - Superintendencia del Medio Ambiente - Macrozona Centro: `https://portal.sma.gob.cl/index.php/category/macrozona/macrozona-centro/feed/`
+  - Superintendencia del Medio Ambiente - Macrozona Sur: `https://portal.sma.gob.cl/index.php/category/macrozona/macrozona-sur/feed/`
+  - Superintendencia del Medio Ambiente - Macrozona Norte: `https://portal.sma.gob.cl/index.php/category/macrozona/macrozona-norte/feed/`
+  - Superintendencia del Medio Ambiente - Metropolitana: `https://portal.sma.gob.cl/index.php/category/regiones/metropolitana/feed/`
+  - Superintendencia del Medio Ambiente - Los Lagos: `https://portal.sma.gob.cl/index.php/category/regiones/los-lagos/feed/`
+  - Superintendencia del Medio Ambiente - Antofagasta: `https://portal.sma.gob.cl/index.php/category/regiones/antofagasta/feed/`
+  - Superintendencia del Medio Ambiente - Aysén: `https://portal.sma.gob.cl/index.php/category/regiones/aysen/feed/`
+  - Superintendencia del Medio Ambiente - Maule: `https://portal.sma.gob.cl/index.php/category/regiones/maule/feed/`
+  - Superintendencia del Medio Ambiente - Atacama: `https://portal.sma.gob.cl/index.php/category/regiones/atacama/feed/`
+  - Superintendencia del Medio Ambiente - Magallanes: `https://portal.sma.gob.cl/index.php/category/regiones/magallanes/feed/`
+  - Superintendencia del Medio Ambiente - Araucanía: `https://portal.sma.gob.cl/index.php/category/regiones/araucania/feed/`
+  - Superintendencia del Medio Ambiente - Coquimbo: `https://portal.sma.gob.cl/index.php/category/regiones/coquimbo/feed/`
+  - Superintendencia del Medio Ambiente - Tarapacá: `https://portal.sma.gob.cl/index.php/category/regiones/tarapaca/feed/`
+  - Superintendencia del Medio Ambiente [Proxy Google News]: `https://news.google.com/rss/search?q=site:portal.sma.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Temuco Diario** — Diario regional de Temuco, La Araucanía
   - Temuco Diario - Medio Ambiente: `https://temucodiario.cl/category/medio-ambiente/feed/`
   - Temuco Diario - Agricultura: `https://temucodiario.cl/category/agricultura/feed/`
@@ -258,3 +298,6 @@
   - RSS: `https://traiguencity.cl/noticias/traiguen/medio-ambiente/feed/`
 - **trendTIC**: Feed de la categoría 'Sustentabilidad' en trendTIC
   - RSS: `https://www.trendtic.cl/category/sustentabilidad/feed/`
+- **VC Magazine** — Revista digital chilena sobre valor compartido, sostenibilidad, energías renovables, innovación y negocios regionales.
+  - VC Magazine - Sostenibilidad: `https://vcmagazine.cl/category/temas/sostenibilidad/feed/`
+  - VC Magazine - Medio Ambiente: `https://vcmagazine.cl/category/medio-ambiente/feed/`

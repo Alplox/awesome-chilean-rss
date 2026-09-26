@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`radio.opml`](../../opml/categories/radio.opml) - 37 sitios, 110 feeds*
+*Descargar OPML: [`radio.opml`](../../opml/categories/radio.opml) - 48 sitios, 185 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Música' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/musica/feed/`
@@ -16,6 +16,8 @@
   - RSS: `https://eldiariodecuracavi.cl/category/musica/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Música' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/entretenimiento/musica/feed/`
+- **El Diario Santiago**: Feed de la categoría 'Música' en El Diario Santiago
+  - RSS: `https://eldiariosantiago.cl/category/cultura/musica/feed/`
 - **El Insular**: Feed de la categoría 'Música' en El Insular
   - RSS: `https://elinsular.cl/category/entretencion/musica/feed/`
 - **El Nacional**: Feed de la categoría 'Música' en El Nacional
@@ -40,6 +42,10 @@
   - RSS: `https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/musica/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Música' en Portal Metropolitano
   - RSS: `https://portalmetropolitano.cl/category/cartelera-pm/musica/feed/`
+- **Primera Fuente**: Feed de la categoría 'Música' en Primera Fuente
+  - RSS: `https://primerafuente.cl/category/musica/feed/`
+- **Punto Cruzado**: Feed de la categoría 'Música' en Punto Cruzado
+  - RSS: `https://puntoseguido.cl/category/puntoseguido/musica/feed/`
 - **Radio 45 Sur** — Radio online de la Región de Los Ríos
   - Radio 45 Sur: `https://radio45sur.cl/feed/`
   - Radio 45 Sur - Policial: `https://radio45sur.cl/category/policial/feed/`
@@ -50,16 +56,60 @@
   - Radio 45 Sur - Reportajes: `https://radio45sur.cl/category/reportajes/feed/`
   - Radio 45 Sur - Opinion: `https://radio45sur.cl/category/opinion/feed/`
   - Radio 45 Sur [Proxy Google News]: `https://news.google.com/rss/search?q=site:radio45sur.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Acogida** — Radio comunitaria con señales en Los Muermos, Puyehue y Puerto Octay; cubre Osorno, Llanquihue, Chiloé y Los Lagos.
+  - Radio Acogida: `https://radioacogida.cl/feed/`
+  - Radio Acogida - Puerto Montt: `https://radioacogida.cl/category/provincia-de-llanquihue/puerto-montt/feed/`
+  - Radio Acogida - Region De Los Lagos: `https://radioacogida.cl/category/region-de-los-lagos/feed/`
+  - Radio Acogida - Osorno: `https://radioacogida.cl/category/provincia-de-osorno/osorno/feed/`
+  - Radio Acogida - Provincia De Chiloe: `https://radioacogida.cl/category/provincia-de-chiloe/feed/`
+  - Radio Acogida - Provincia De Llanquihue: `https://radioacogida.cl/category/provincia-de-llanquihue/feed/`
+  - Radio Acogida - Provincia De Osorno: `https://radioacogida.cl/category/provincia-de-osorno/feed/`
+  - Radio Acogida - Maullín: `https://radioacogida.cl/category/provincia-de-llanquihue/maullin/feed/`
+  - Radio Acogida - Puero Varas: `https://radioacogida.cl/category/provincia-de-llanquihue/puerto-varas/feed/`
+  - Radio Acogida - Fresia: `https://radioacogida.cl/category/provincia-de-llanquihue/fresia/feed/`
+  - Radio Acogida - Frutillar: `https://radioacogida.cl/category/provincia-de-llanquihue/frutillar/feed/`
+  - Radio Acogida - Los Muermos: `https://radioacogida.cl/category/provincia-de-llanquihue/los-muermos/feed/`
+  - Radio Acogida - Puerto Octay: `https://radioacogida.cl/category/provincia-de-osorno/puerto_octay/feed/`
+  - Radio Acogida - Purranque: `https://radioacogida.cl/category/provincia-de-osorno/purranque/feed/`
+  - Radio Acogida - Llanquihue: `https://radioacogida.cl/category/provincia-de-llanquihue/llanquihue/feed/`
+  - Radio Acogida - Puyehue: `https://radioacogida.cl/category/provincia-de-osorno/puyehue/feed/`
+  - Radio Acogida - Río Negro: `https://radioacogida.cl/category/provincia-de-osorno/rio_negro/feed/`
+  - Radio Acogida [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioacogida.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Activa** — Radioemisora chilena de música contemporánea
   - Radio Activa: `https://www.radioactiva.cl/feed/`
   - Radio Activa [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioactiva.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Atacama** — Radioemisora de la Región de Atacama con noticias regionales, nacionales y deportivas
   - Radio Atacama: `https://www.radioatacama.cl/rss/feed`
   - Radio Atacama [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioatacama.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Austral CD 970** — Emisora y radio online de Valdivia con noticias locales y regionales de Los Ríos.
+  - Radio Austral CD 970: `https://www.radioaustralvaldivia.cl/feed/`
+  - Radio Austral CD 970 - Policial: `https://www.radioaustralvaldivia.cl/category/policial/feed/`
+  - Radio Austral CD 970 - Portada: `https://www.radioaustralvaldivia.cl/category/portada/feed/`
+  - Radio Austral CD 970 - Judicial: `https://www.radioaustralvaldivia.cl/category/judicial/feed/`
+  - Radio Austral CD 970 - Destacadas: `https://www.radioaustralvaldivia.cl/category/destacadas/feed/`
+  - Radio Austral CD 970 - Río Bueno: `https://www.radioaustralvaldivia.cl/category/comunas/rio-bueno/feed/`
+  - Radio Austral CD 970 - Los Lagos: `https://www.radioaustralvaldivia.cl/category/comunas/los-lagos/feed/`
+  - Radio Austral CD 970 - Paillaco: `https://www.radioaustralvaldivia.cl/category/comunas/paillaco/feed/`
+  - Radio Austral CD 970 - La Unión: `https://www.radioaustralvaldivia.cl/category/comunas/la-union/feed/`
+  - Radio Austral CD 970 - Corral: `https://www.radioaustralvaldivia.cl/category/comunas/corral/feed/`
+  - Radio Austral CD 970 [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioaustralvaldivia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Carolina** — Emisora chilena de música
   - Radio Carolina: `https://carolina.cl/rss.xml`
   - Radio Carolina [Proxy Google News]: `https://news.google.com/rss/search?q=site:carolina.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio Carolina [Proxy Bing News]: `https://www.bing.com/news/search?q=site:carolina.cl&format=RSS`
+- **Radio Comunicativa de Ovalle** — Radio 93.7 FM y señal online con noticias de Ovalle, el Limarí y la Región de Coquimbo.
+  - Radio Comunicativa de Ovalle: `https://radiocomunicativa.cl/feed/`
+  - Radio Comunicativa de Ovalle - Policial: `https://radiocomunicativa.cl/category/noticias/policial/feed/`
+  - Radio Comunicativa de Ovalle - Ovalle Y El Limarí: `https://radiocomunicativa.cl/category/noticias/ovalle-limari/feed/`
+  - Radio Comunicativa de Ovalle - Region De Coquimbo: `https://radiocomunicativa.cl/category/noticias/region-de-coquimbo/feed/`
+  - Radio Comunicativa de Ovalle - Música: `https://radiocomunicativa.cl/category/musica/feed/`
+  - Radio Comunicativa de Ovalle - Economía Y Negocios: `https://radiocomunicativa.cl/category/economia-y-negocios/feed/`
+  - Radio Comunicativa de Ovalle - Salud Y Estilo De Vida: `https://radiocomunicativa.cl/category/salud-y-estilo-de-vida/feed/`
+  - Radio Comunicativa de Ovalle - Servicios Y Trámites: `https://radiocomunicativa.cl/category/servicios-tramites/feed/`
+  - Radio Comunicativa de Ovalle - Redes Sociales: `https://radiocomunicativa.cl/category/tendencias/redes-sociales/feed/`
+  - Radio Comunicativa de Ovalle - Tendencias: `https://radiocomunicativa.cl/category/tendencias/feed/`
+  - Radio Comunicativa de Ovalle - Gastronomía Y Cocina: `https://radiocomunicativa.cl/category/gastronomia-y-cocina/feed/`
+  - Radio Comunicativa de Ovalle [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiocomunicativa.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Contacto** — Radio de Chillán y la Región de Ñuble
   - Radio Contacto: `https://radiocontacto.cl/feed/`
   - Radio Contacto - Chillán: `https://radiocontacto.cl/category/chillan/feed/`
@@ -77,6 +127,36 @@
   - Radio Futuro: `https://www.futuro.cl/feed/`
   - Radio Futuro [Proxy Google News]: `https://news.google.com/rss/search?q=site:futuro.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio Futuro [Proxy Bing News]: `https://www.bing.com/news/search?q=site:futuro.cl&format=RSS`
+- **Radio Guayacán** — Radio y medio digital de La Serena y el Norte Chico, con noticias regionales, nacionales, deportes y programas locales.
+  - Radio Guayacán: `https://radioguayacan.cl/feed/`
+  - Radio Guayacán - Policial: `https://radioguayacan.cl/category/noticias/region/policial/feed/`
+  - Radio Guayacán - Borradores: `https://radioguayacan.cl/category/borradores/feed/`
+  - Radio Guayacán - Política: `https://radioguayacan.cl/category/noticias/region/politica-region/feed/`
+  - Radio Guayacán - Actualidad: `https://radioguayacan.cl/category/noticias/nacional/actualidad-nacional/feed/`
+  - Radio Guayacán [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioguayacan.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Guayacán [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radioguayacan.cl&format=RSS`
+- **Radio HVA** — Radio regional de Atacama con noticias, entrevistas y cobertura local.
+  - Radio HVA: `https://www.hvaradio.cl/feed/`
+  - Radio HVA - Region De Atacama: `https://www.hvaradio.cl/category/region-de-atacama/feed/`
+  - Radio HVA - Provincia Del Huasco: `https://www.hvaradio.cl/category/provincia-del-huasco/feed/`
+  - Radio HVA - Vallenar: `https://www.hvaradio.cl/category/vallenar/feed/`
+  - Radio HVA - Policial Carabineros: `https://www.hvaradio.cl/category/policial-carabineros/feed/`
+  - Radio HVA - Copiapó: `https://www.hvaradio.cl/category/copiapo/feed/`
+  - Radio HVA - Fiscalia Atacama: `https://www.hvaradio.cl/category/fiscalia-atacama/feed/`
+  - Radio HVA - Freirina: `https://www.hvaradio.cl/category/freirina/feed/`
+  - Radio HVA - Mineria: `https://www.hvaradio.cl/category/mineria/feed/`
+  - Radio HVA - Chile Y El Mundo: `https://www.hvaradio.cl/category/chile-y-el-mundo/feed/`
+  - Radio HVA - Huasco: `https://www.hvaradio.cl/category/huasco/feed/`
+  - Radio HVA - Policial Pdi: `https://www.hvaradio.cl/category/policial-pdi/feed/`
+  - Radio HVA - Alto Del Carmen: `https://www.hvaradio.cl/category/alto-del-carmen/feed/`
+  - Radio HVA - Gobierno Regional: `https://www.hvaradio.cl/category/gobierno-regional/feed/`
+  - Radio HVA - Ambiente: `https://www.hvaradio.cl/category/ambiente/feed/`
+  - Radio HVA - Delegacion Del Huasco: `https://www.hvaradio.cl/category/delegacion-del-huasco/feed/`
+  - Radio HVA - Desarrollo Social: `https://www.hvaradio.cl/category/desarrollo-social/feed/`
+  - Radio HVA - Gendarmería De Chile: `https://www.hvaradio.cl/category/gendarmeria-de-chile/feed/`
+  - Radio HVA - Columna De Opinión: `https://www.hvaradio.cl/category/columna-de-opinion/feed/`
+  - Radio HVA - Compañia De Bomberos: `https://www.hvaradio.cl/category/compania-de-bomberos/feed/`
+  - Radio HVA [Proxy Google News]: `https://news.google.com/rss/search?q=site:hvaradio.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Interamericana** — Radio de la Región del Biobío
   - Radio Interamericana: `https://radiointeramericana.cl/feed/`
   - Radio Interamericana - Policial: `https://radiointeramericana.cl/category/noticias/policial/feed/`
@@ -128,6 +208,8 @@
   - Radio Riquelme [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioriquelme.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Romántica**: Emisora chilena de música romántica
   - RSS: `https://www.romantica.cl/rss.xml`
+- **Radio Santa Cruz**: Feed principal de Radio Santa Cruz
+  - RSS: `https://santacruzfm.cl/feed/`
 - **Radio Universidad de Chile** — Radio online de la Universidad de Chile
   - Radio Universidad de Chile - Portada: `https://radio.uchile.cl/feed/`
   - Radio Universidad de Chile - Columnas: `https://radio.uchile.cl/columnas/feed/`
@@ -144,10 +226,14 @@
   - Radio Valentín Letelier [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rvl.uv.cl&format=RSS`
 - **Región Visual**: Feed de la categoría 'Música' en Región Visual
   - RSS: `https://regionvisual.com/category/musica/feed/`
+- **Revista Ckuri**: Feed de la categoría 'Música' en Revista Ckuri
+  - RSS: `https://revistackuri.cl/category/musica/feed/`
 - **Rock & Pop** — Radio chilena de rock, música y actualidad
   - Rock & Pop: `https://www.rockandpop.cl/feed`
   - Rock & Pop [Proxy Google News]: `https://news.google.com/rss/search?q=site:rockandpop.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Rock & Pop [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rockandpop.cl&format=RSS`
+- **Temuco Televisión**: Feed de la categoría 'Música' en Temuco Televisión
+  - RSS: `https://temucotelevision.cl/web/category/musica/feed/`
 - **Vilas Radio** — Radio de la Región de Tarapacá
   - Vilas Radio: `https://vilasradio.cl/feed/`
   - Vilas Radio [Proxy Google News]: `https://news.google.com/rss/search?q=site:vilasradio.cl&hl=es-419&gl=CL&ceid=CL:es-419`

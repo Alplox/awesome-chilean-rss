@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 54 sitios, 144 feeds*
+*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 56 sitios, 151 feeds*
 
 - **Alerta Geek Chile**: Feed de la categoría 'Series' en Alerta Geek Chile
   - RSS: `https://alertageekchile.cl/category/series/feed/`
@@ -53,6 +53,9 @@
   - El América - Noticias Tv: `https://elamerica.cl/category/noticias-tv/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Entretenimiento' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/entretenimiento/feed/`
+- **El Diario Santiago** — Medio digital chileno de actualidad y análisis sobre política, sociedad y participación ciudadana.
+  - El Diario Santiago - Televisión: `https://eldiariosantiago.cl/category/cultura/television/feed/`
+  - El Diario Santiago - Espectáculos: `https://eldiariosantiago.cl/category/cultura/espectaculos/feed/`
 - **El Informador Chile**: Feed de la categoría 'Farándula' en El Informador Chile
   - RSS: `https://www.elinformadorchile.cl/category/farandula/feed/`
 - **El Insular**: Feed de la categoría 'Entretención' en El Insular
@@ -165,6 +168,12 @@
   - RSS: `https://pisapapeles.net/category/rumores/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Entretención' en Portal Metropolitano
   - RSS: `https://portalmetropolitano.cl/category/entretencion/feed/`
+- **Punto Cruzado** — Sitio chileno de actualidad y entretenimiento sobre series, música, videojuegos, deportes y cultura popular.
+  - Punto Cruzado: `https://puntoseguido.cl/feed/`
+  - Punto Cruzado - Series: `https://puntoseguido.cl/category/puntoseguido/series/feed/`
+  - Punto Cruzado - Puntocruzado: `https://puntoseguido.cl/category/puntocruzado/feed/`
+  - Punto Cruzado [Proxy Google News]: `https://news.google.com/rss/search?q=site:puntoseguido.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Punto Cruzado [Proxy Bing News]: `https://www.bing.com/news/search?q=site:puntoseguido.cl&format=RSS`
 - **Radio Contacto**: Feed de la categoría 'Entretenimiento' en Radio Contacto
   - RSS: `https://radiocontacto.cl/category/entretenimiento/feed/`
 - **Radio Cooperativa**: Feed de la sección 'Entretención' en Radio Cooperativa

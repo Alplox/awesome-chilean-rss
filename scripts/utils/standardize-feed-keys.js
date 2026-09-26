@@ -13,11 +13,11 @@
  * - `watchlist.json`       → `[...]` o `{ sites: [...] }` (con `reason` opcional)
  *
  * Uso:
- *   node scripts/utils/standardize-feed-keys.js
- *   node scripts/utils/standardize-feed-keys.js --file database
- *   node scripts/utils/standardize-feed-keys.js --file watchlist
- *   node scripts/utils/standardize-feed-keys.js --file all --dry-run
- *   node scripts/utils/standardize-feed-keys.js --check
+ *   pnpm standardize:keys
+ *   pnpm standardize:keys -- --file database
+ *   pnpm standardize:keys -- --file watchlist
+ *   pnpm standardize:keys -- --file all --dry-run
+ *   pnpm standardize:keys -- --check
  *
  * Flags:
  *   --file <database|watchlist|all>  Qué archivo(s) procesar (default: all)
@@ -215,7 +215,7 @@ function main() {
 
   if (help) {
     console.log(`
-Uso: node scripts/utils/standardize-feed-keys.js [opciones]
+Uso:  -- [opciones]
 
 Reordena claves de feeds y sites a orden canónico.
 
@@ -229,10 +229,10 @@ Opciones:
   --help, -h                       Esta ayuda
 
 Ejemplos:
-  node scripts/utils/standardize-feed-keys.js
-  node scripts/utils/standardize-feed-keys.js --file database --dry-run
-  node scripts/utils/standardize-feed-keys.js --file watchlist --check
-  node scripts/utils/standardize-feed-keys.js --file all
+  pnpm standardize:keys
+  pnpm standardize:keys -- --file database --dry-run
+  pnpm standardize:keys -- --file watchlist --check
+  pnpm standardize:keys -- --file all
 `);
     process.exit(0);
   }
@@ -250,7 +250,7 @@ Ejemplos:
       const flag = changed ? (check || dryRun ? '⚠️  requiere cambios' : '✅ reordenado') : '✅ sin cambios';
       console.log(`${flag} — ${feeds} feeds en ${sites} sitios — ${target} (${verb})`);
       if (changed && (dryRun || check)) {
-        console.log(`   → Ejecuta sin --dry-run/--check para aplicar: node scripts/utils/standardize-feed-keys.js --file ${target === 'feeds-database.json' ? 'database' : 'watchlist'}`);
+        console.log(`   → Ejecuta sin --dry-run/--check para aplicar: pnpm standardize:keys -- --file ${target === 'feeds-database.json' ? 'database' : 'watchlist'}`);
       }
     } catch (err) {
       console.error(`❌ Error procesando ${target}: ${err.message}`);

@@ -24,15 +24,15 @@
  * database sin eliminar la entrada original de watchlist.
  *
  * Uso:
- *   node scripts/utils/find-duplicates.js
- *   node scripts/utils/find-duplicates.js --verbose        (links clicables)
- *   node scripts/utils/find-duplicates.js --all            (sin recorte)
- *   node scripts/utils/find-duplicates.js --limit 20       (límite por sección)
- *   node scripts/utils/find-duplicates.js --out reporte.txt (guarda reporte)
- *   node scripts/utils/find-duplicates.js --json reporte.json
- *   node scripts/utils/find-duplicates.js --fix --dry-run  (preview limpieza)
- *   node scripts/utils/find-duplicates.js --fix --yes      (elimina de watchlist, keep DB)
- *   node scripts/utils/find-duplicates.js --fix --keep watchlist --yes
+ *   pnpm check:duplicates
+ *   pnpm check:duplicates -- --verbose        (links clicables)
+ *   pnpm check:duplicates -- --all            (sin recorte)
+ *   pnpm check:duplicates -- --limit 20       (límite por sección)
+ *   pnpm check:duplicates -- --out reporte.txt (guarda reporte)
+ *   pnpm check:duplicates -- --json reporte.json
+ *   pnpm check:duplicates -- --fix --dry-run  (preview limpieza)
+ *   pnpm check:duplicates -- --fix --yes      (elimina de watchlist, keep DB)
+ *   pnpm check:duplicates -- --fix --keep watchlist --yes
  */
 
 import { readFileSync, writeFileSync } from 'fs';
@@ -73,7 +73,7 @@ const jsonFile = getArgValue('--json');
 
 if (help) {
   console.log(`
-Uso: node scripts/utils/find-duplicates.js [opciones]
+Uso:  -- [opciones]
 
 Opciones:
   --verbose, -v        Links clicables archivo:línea
@@ -88,10 +88,10 @@ Opciones:
   --help, -h           Esta ayuda
 
 Ejemplos:
-  node scripts/utils/find-duplicates.js --fix --dry-run
-  node scripts/utils/find-duplicates.js --fix --yes
-  node scripts/utils/find-duplicates.js --all --out reporte.txt
-  node scripts/utils/find-duplicates.js --json dupes.json
+  pnpm check:duplicates -- --fix --dry-run
+  pnpm check:duplicates -- --fix --yes
+  pnpm check:duplicates -- --all --out reporte.txt
+  pnpm check:duplicates -- --json dupes.json
 `);
   process.exit(0);
 }
@@ -611,8 +611,8 @@ if (!foundAny) {
   console.log('⚠️  Se encontraron posibles duplicados. Revísalos manualmente.\n');
   if (crossSiteIdCount > 0 || crossSiteUrlCount > 0) {
     console.log('💡 Cruzados DB↔WL: elimina de watchlist.json los sitios ya presentes en feeds-database.json.');
-    console.log('   → Preview: node scripts/utils/find-duplicates.js --fix --dry-run');
-    console.log('   → Fix:     node scripts/utils/find-duplicates.js --fix --yes\n');
+    console.log('   → Preview: pnpm check:duplicates -- --fix --dry-run');
+    console.log('   → Fix:     pnpm check:duplicates -- --fix --yes\n');
   }
   if (!verbose && (crossFeedIdCount > FEED_LIMIT || crossSiteIdCount > SITE_LIMIT)) {
     console.log('💡 Tip: usa --verbose (-v) para links clicables, --all para ver todo sin recorte,');

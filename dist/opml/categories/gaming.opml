@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎮 Videojuegos y Gaming (83 feeds)</title>
+    <title>Awesome Chilean RSS - 🎮 Videojuegos y Gaming (84 feeds)</title>
     <description>Feeds RSS de 🎮 Videojuegos y Gaming, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
+    <dateCreated>2026-09-26T16:58:18.401Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -79,6 +79,7 @@
       <outline type="rss" text="MadboxPC - Videojuegos" title="MadboxPC - Videojuegos" description="Feed de la categoría 'Videojuegos' en MadboxPC" xmlUrl="https://www.madboxpc.com/category/videojuegos/feed/" htmlUrl="https://www.madboxpc.com/category/videojuegos/"/>
       <outline type="rss" text="MadboxPC [Proxy Google News]" title="MadboxPC [Proxy Google News]" description="Resultados de site:madboxpc.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:madboxpc.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:madboxpc.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Pisapapeles - Juegos" title="Pisapapeles - Juegos" description="Feed de la categoría 'Juegos' en Pisapapeles" xmlUrl="https://pisapapeles.net/category/juegos/feed/" htmlUrl="https://pisapapeles.net/category/juegos/"/>
+      <outline type="rss" text="Punto Cruzado - Videojuegos" title="Punto Cruzado - Videojuegos" description="Feed de la categoría 'Videojuegos' en Punto Cruzado" xmlUrl="https://puntoseguido.cl/category/puntoseguido/videojuegos/feed/" htmlUrl="https://puntoseguido.cl/category/puntoseguido/videojuegos/"/>
       <outline type="rss" text="SoloGamer" title="SoloGamer" description="Feed principal de SoloGamer" xmlUrl="https://sologamer.cl/feed/" htmlUrl="https://sologamer.cl"/>
       <outline type="rss" text="SoloGamer - Entrevistas" title="SoloGamer - Entrevistas" description="Feed de la categoría 'Entrevistas' en SoloGamer" xmlUrl="https://sologamer.cl/category/entrevistas/feed/" htmlUrl="https://sologamer.cl/category/entrevistas/"/>
       <outline type="rss" text="SoloGamer - Juegos" title="SoloGamer - Juegos" description="Feed de la categoría 'Juegos' en SoloGamer" xmlUrl="https://sologamer.cl/category/juegos/feed/" htmlUrl="https://sologamer.cl/category/juegos/"/>

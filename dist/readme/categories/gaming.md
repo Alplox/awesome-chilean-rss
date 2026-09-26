@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`gaming.opml`](../../opml/categories/gaming.opml) - 13 sitios, 83 feeds*
+*Descargar OPML: [`gaming.opml`](../../opml/categories/gaming.opml) - 14 sitios, 84 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Videojuegos: `https://alertageekchile.cl/category/videojuegos/feed/`
@@ -85,6 +85,8 @@
   - MadboxPC [Proxy Google News]: `https://news.google.com/rss/search?q=site:madboxpc.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Pisapapeles**: Feed de la categoría 'Juegos' en Pisapapeles
   - RSS: `https://pisapapeles.net/category/juegos/feed/`
+- **Punto Cruzado**: Feed de la categoría 'Videojuegos' en Punto Cruzado
+  - RSS: `https://puntoseguido.cl/category/puntoseguido/videojuegos/feed/`
 - **SoloGamer** — Comunidad chilena de videojuegos y entretención digital
   - SoloGamer: `https://sologamer.cl/feed/`
   - SoloGamer - Unboxing y Reviews: `https://sologamer.cl/category/unboxing-reviews/feed/`

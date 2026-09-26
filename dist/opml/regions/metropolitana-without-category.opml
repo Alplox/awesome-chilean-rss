@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Metropolitana de Santiago (236 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Metropolitana de Santiago (243 feeds)</title>
     <description>Feeds RSS de la Región de Metropolitana de Santiago, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
+    <dateCreated>2026-09-26T16:58:18.401Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -60,6 +60,13 @@
     <outline type="rss" text="Crónica Digital - Videos" title="Crónica Digital - Videos" description="Feed de la categoría 'Videos' en Crónica Digital" xmlUrl="https://cronicadigital.cl/category/videos-2/feed/" htmlUrl="https://cronicadigital.cl/category/videos-2/"/>
     <outline type="rss" text="Crónica Digital - Videos Crónica" title="Crónica Digital - Videos Crónica" description="Feed de la categoría 'Videos Crónica' en Crónica Digital" xmlUrl="https://cronicadigital.cl/category/videos/feed/" htmlUrl="https://cronicadigital.cl/category/videos/"/>
     <outline type="rss" text="Crónica Digital [Proxy Google News]" title="Crónica Digital [Proxy Google News]" description="Resultados de site:cronicadigital.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cronicadigital.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cronicadigital.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Cuerpo de Bomberos de Santiago" title="Cuerpo de Bomberos de Santiago" description="Feed principal de Cuerpo de Bomberos de Santiago" xmlUrl="https://www.cbs.cl/feed/" htmlUrl="https://www.cbs.cl/"/>
+    <outline type="rss" text="Cuerpo de Bomberos de Santiago - Capacitación" title="Cuerpo de Bomberos de Santiago - Capacitación" description="Feed de la categoría 'Capacitación' en Cuerpo de Bomberos de Santiago" xmlUrl="https://www.cbs.cl/category/noticias/capacitacion/feed/" htmlUrl="https://www.cbs.cl/category/noticias/capacitacion/"/>
+    <outline type="rss" text="Cuerpo de Bomberos de Santiago - Compañías" title="Cuerpo de Bomberos de Santiago - Compañías" description="Feed de la categoría 'Compañías' en Cuerpo de Bomberos de Santiago" xmlUrl="https://www.cbs.cl/category/noticias/companias/feed/" htmlUrl="https://www.cbs.cl/category/noticias/companias/"/>
+    <outline type="rss" text="Cuerpo de Bomberos de Santiago - Emergencias" title="Cuerpo de Bomberos de Santiago - Emergencias" description="Feed de la categoría 'Emergencias' en Cuerpo de Bomberos de Santiago" xmlUrl="https://www.cbs.cl/category/noticias/emergencias/feed/" htmlUrl="https://www.cbs.cl/category/noticias/emergencias/"/>
+    <outline type="rss" text="Cuerpo de Bomberos de Santiago - Órdenes Del Día" title="Cuerpo de Bomberos de Santiago - Órdenes Del Día" description="Feed de la categoría 'Órdenes Del Día' en Cuerpo de Bomberos de Santiago" xmlUrl="https://www.cbs.cl/category/manuales-y-documentos/ordenes-del-dia/feed/" htmlUrl="https://www.cbs.cl/category/manuales-y-documentos/ordenes-del-dia/"/>
+    <outline type="rss" text="Cuerpo de Bomberos de Santiago [Proxy Bing News]" title="Cuerpo de Bomberos de Santiago [Proxy Bing News]" description="Resultados de site:cbs.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:cbs.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:cbs.cl"/>
+    <outline type="rss" text="Cuerpo de Bomberos de Santiago [Proxy Google News]" title="Cuerpo de Bomberos de Santiago [Proxy Google News]" description="Resultados de site:cbs.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cbs.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cbs.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Curacaví Digital" title="Curacaví Digital" description="Feed principal de Curacaví Digital" xmlUrl="https://www.curacavidigital.cl/feed/" htmlUrl="https://www.curacavidigital.cl"/>
     <outline type="rss" text="Curacaví Digital - Blog De Opinión" title="Curacaví Digital - Blog De Opinión" description="Feed de la categoría 'Blog De Opinión' en Curacaví Digital" xmlUrl="https://www.curacavidigital.cl/category/nosotros/blog-opinion/feed/" htmlUrl="https://www.curacavidigital.cl/category/nosotros/blog-opinion/"/>
     <outline type="rss" text="Curacaví Digital - Cultura Y Derechos" title="Curacaví Digital - Cultura Y Derechos" description="Feed de la categoría 'Cultura Y Derechos' en Curacaví Digital" xmlUrl="https://www.curacavidigital.cl/category/nosotros/cultura-y-derechos/feed/" htmlUrl="https://www.curacavidigital.cl/category/nosotros/cultura-y-derechos/"/>

@@ -9,13 +9,13 @@
  * las agrega a feeds-database.json.
  *
  * Uso:
- *   node scripts/utils/discover-category-feeds.js                  # todos los sitios
- *   node scripts/utils/discover-category-feeds.js --id el-ciudadano # un sitio
- *   node scripts/utils/discover-category-feeds.js --start-id x --limit 10
- *   node scripts/utils/discover-category-feeds.js --from 5 --to 15
- *   node scripts/utils/discover-category-feeds.js --min-posts 5    # solo categorías con ≥ N posts
- *   node scripts/utils/discover-category-feeds.js --update          # escribe en feeds-database.json
- *   node scripts/utils/discover-category-feeds.js --dry-run         # solo vista previa
+ *    --                  # todos los sitios
+ *   pnpm discover:categories -- --id el-ciudadano # un sitio
+ *   pnpm discover:categories -- --start-id x --limit 10
+ *   pnpm discover:categories -- --from 5 --to 15
+ *   pnpm discover:categories -- --min-posts 5    # solo categorías con ≥ N posts
+ *   pnpm discover:categories -- --update          # escribe en feeds-database.json
+ *   pnpm discover:categories -- --dry-run         # solo vista previa
  */
 
 import fs from 'node:fs'

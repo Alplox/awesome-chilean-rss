@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 83 sitios, 342 feeds*
+*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 93 sitios, 354 feeds*
 
 - **(Empresa) TiChile** — Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
   - (Empresa) tichile: `https://www.tichile.cl/feed/`
@@ -209,6 +209,8 @@
   - El Diario de La Araucanía - Ciencias y Tecnologías: `https://www.eldiariodelaaraucania.cl/category/ciencias-y-tecnologias/feed/`
   - El Diario de La Araucanía - Innovación: `https://www.eldiariodelaaraucania.cl/category/ciencias-y-tecnologias/innovacion/feed/`
   - El Diario de La Araucanía - Inteligencia Artificial: `https://www.eldiariodelaaraucania.cl/category/ciencias-y-tecnologias/inteligencia-artificial/feed/`
+- **El Diario Santiago**: Feed de la categoría 'Innovación' en El Diario Santiago
+  - RSS: `https://eldiariosantiago.cl/category/features/innovacion/feed/`
 - **El Insular**: Feed de la categoría 'Innovación y Tecnología' en El Insular
   - RSS: `https://elinsular.cl/category/innovacionytecnologia/feed/`
 - **El Periódico**: Feed de la categoría 'Ciencia y Tecnología' en El Periódico
@@ -303,6 +305,8 @@
   - RSS: `https://www.larazon.cl/temas/ciencia-y-tecnologia/feed/`
 - **La Tercera**: Feed de la categoría 'Tecnología' en La Tercera
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/tecnologia/?outputType=xml`
+- **La Voz del Norte**: Feed de la categoría 'Ciencia' en La Voz del Norte
+  - RSS: `https://www.lavozdelnorte.cl/category/ciencia/feed/`
 - **MadboxPC**: Feed de la categoría 'Tecnología' en MadboxPC
   - RSS: `https://www.madboxpc.com/category/tecnologia/feed/`
 - **MCH (Mineria Chilena)**: Feed de la categoría 'Minerí­a 4.0' en MCH (Mineria Chilena)
@@ -335,6 +339,13 @@
 - **Portal Metropolitano** — Portal de noticias de la Región Metropolitana
   - Portal Metropolitano - Tecnología: `https://portalmetropolitano.cl/category/tecnologia/feed/`
   - Portal Metropolitano - Ciencia: `https://portalmetropolitano.cl/category/ciencia/feed/`
+- **Prensa Eventos**: Feed de la categoría ' Tecnología' en Prensa Eventos
+  - RSS: `https://prensaeventos.cl/category/tecnologia/feed/`
+- **Punto Cruzado**: Feed de la categoría 'Tecnología' en Punto Cruzado
+  - RSS: `https://puntoseguido.cl/category/puntoseguido/tecnologia/feed/`
+- **Radio Comunicativa de Ovalle** — Radio 93.7 FM y señal online con noticias de Ovalle, el Limarí y la Región de Coquimbo.
+  - Radio Comunicativa de Ovalle - Ciencia Y Tecnologia: `https://radiocomunicativa.cl/category/ciencia-y-tecnologia/feed/`
+  - Radio Comunicativa de Ovalle - Ciencia: `https://radiocomunicativa.cl/category/ciencia-y-tecnologia/ciencia/feed/`
 - **Radio Cooperativa**: Feed de la sección 'Tecnología' en Radio Cooperativa
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_8___1.xml`
 - **Radio Festival**: Feed de la categoría 'Ciencia y Tecnología' en Radio Festival
@@ -345,11 +356,18 @@
   - RSS: `https://radionuevomundo.cl/categoria/noticias/ciencia/feed/`
 - **Radio UdeC**: Feed de la categoría 'Ciencia' en Radio UdeC
   - RSS: `https://www.radioudec.cl/category/ciencia/feed/`
+- **Región de Coquimbo**: Feed de la categoría 'Ciencia' en Región de Coquimbo
+  - RSS: `https://regiondecoquimbo.cl/category/ciencia/feed/`
+- **Revista Ecociencias**: Feed de la categoría 'Ciencia Y Tecnología' en Revista Ecociencias
+  - RSS: `https://revistaecociencias.cl/categoria/educacion-ambiental/ciencia-y-tecnologia/feed/`
 - **Río en Línea**: Feed de la categoría 'Tecnología' en Río en Línea
   - RSS: `https://www.rioenlinea.cl/seccion/tecnologia/feed/`
 - **Samsung Newsroom Latin America** — Sala de prensa de Samsung para América Latina
   - Samsung Newsroom Latin America: `https://news.samsung.com/latin/feed`
   - Samsung Newsroom Latin America [Proxy Google News]: `https://news.google.com/rss/search?q=site:news.samsung.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Tecnología Chile** — Portal tecnológico chileno sobre startups, inteligencia artificial, innovación, ciberseguridad y gaming.
+  - Tecnología Chile: `https://nodotecnologico.cl/feed.xml`
+  - Tecnología Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:nodotecnologico.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Telesemana** — Portal de noticias sobre telecomunicaciones en América Latina
   - Telesemana: `https://www.telesemana.com/feed/`
   - Telesemana - Análisis: `https://www.telesemana.com/blog/category/analisis/feed/`
@@ -376,6 +394,8 @@
   - Televitos [Proxy Google News]: `https://news.google.com/rss/search?q=site:televitos.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Temuco Diario**: Feed de la categoría 'Tecnología' en Temuco Diario
   - RSS: `https://temucodiario.cl/category/tecnologia/feed/`
+- **Temuco Televisión**: Feed de la categoría 'Tecnología' en Temuco Televisión
+  - RSS: `https://temucotelevision.cl/web/category/tecnologia/feed/`
 - **Tierramarillano** — Diario regional de Copiapó, Atacama
   - Tierramarillano - Tecnología: `https://tierramarillano.cl/category/tecnologia/feed/`
   - Tierramarillano - Innovación: `https://tierramarillano.cl/category/innovacion/feed/`
@@ -427,5 +447,7 @@
   - TXS Plus - Opinión: `https://txsplus.com/opinion/feed/`
   - TXS Plus - Vida Sana: `https://txsplus.com/vida-sana/feed/`
   - TXS Plus [Proxy Google News]: `https://news.google.com/rss/search?q=site:txsplus.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **VC Magazine**: Feed de la categoría 'Innovación' en VC Magazine
+  - RSS: `https://vcmagazine.cl/category/innovacion/feed/`
 - **VLN Radio**: Feed de la categoría 'Ciencia Y Tecnología' en VLN Radio
   - RSS: `https://www.vlnradio.cl/tendencias/ciencia-y-tecnologia/feed/`

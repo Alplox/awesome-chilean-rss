@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de O'Higgins (182 feeds)</title>
+    <title>Awesome Chilean RSS - Región de O'Higgins (193 feeds)</title>
     <description>Feeds RSS de la Región de O'Higgins, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
+    <dateCreated>2026-09-26T16:58:18.401Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -190,6 +190,17 @@
       <outline type="rss" text="Oro Coipo [Proxy Google News]" title="Oro Coipo [Proxy Google News]" description="Resultados de site:orocoipo.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:orocoipo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:orocoipo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Pichilemu News" title="Pichilemu News" description="Feed principal de Pichilemu News" xmlUrl="https://www.pichilemunews.cl/feed" htmlUrl="https://www.pichilemunews.cl"/>
       <outline type="rss" text="Pichilemu News [Proxy Google News]" title="Pichilemu News [Proxy Google News]" description="Resultados de site:pichilemunews.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pichilemunews.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pichilemunews.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Radio Santa Cruz" title="Radio Santa Cruz" description="Feed principal de Radio Santa Cruz" xmlUrl="https://santacruzfm.cl/feed/" htmlUrl="https://santacruzfm.cl"/>
+      <outline type="rss" text="TVO San Vicente" title="TVO San Vicente" description="Feed principal de TVO San Vicente" xmlUrl="https://tvosanvicente.cl/feed" htmlUrl="https://www.tvosanvicente.cl/"/>
+      <outline type="rss" text="TVO San Vicente - Chimbarongo" title="TVO San Vicente - Chimbarongo" description="Feed de la categoría 'Chimbarongo' en TVO San Vicente" xmlUrl="https://www.tvosanvicente.cl/category/noticias/chimbarongo/feed/" htmlUrl="https://www.tvosanvicente.cl/category/noticias/chimbarongo/"/>
+      <outline type="rss" text="TVO San Vicente - Ediciones" title="TVO San Vicente - Ediciones" description="Feed de la categoría 'Ediciones' en TVO San Vicente" xmlUrl="https://www.tvosanvicente.cl/category/diosmehabla/diosmehabla-ediciones/feed/" htmlUrl="https://www.tvosanvicente.cl/category/diosmehabla/diosmehabla-ediciones/"/>
+      <outline type="rss" text="TVO San Vicente - Las Cabras" title="TVO San Vicente - Las Cabras" description="Feed de la categoría 'Las Cabras' en TVO San Vicente" xmlUrl="https://www.tvosanvicente.cl/category/noticias/las-cabras/feed/" htmlUrl="https://www.tvosanvicente.cl/category/noticias/las-cabras/"/>
+      <outline type="rss" text="TVO San Vicente - Peumo" title="TVO San Vicente - Peumo" description="Feed de la categoría 'Peumo' en TVO San Vicente" xmlUrl="https://www.tvosanvicente.cl/category/noticias/peumo/feed/" htmlUrl="https://www.tvosanvicente.cl/category/noticias/peumo/"/>
+      <outline type="rss" text="TVO San Vicente - Rancagua" title="TVO San Vicente - Rancagua" description="Feed de la categoría 'Rancagua' en TVO San Vicente" xmlUrl="https://www.tvosanvicente.cl/category/noticias/rancagua/feed/" htmlUrl="https://www.tvosanvicente.cl/category/noticias/rancagua/"/>
+      <outline type="rss" text="TVO San Vicente - Regional" title="TVO San Vicente - Regional" description="Feed de la categoría 'Regional' en TVO San Vicente" xmlUrl="https://www.tvosanvicente.cl/category/noticias/regional/feed/" htmlUrl="https://www.tvosanvicente.cl/category/noticias/regional/"/>
+      <outline type="rss" text="TVO San Vicente - San Vicente" title="TVO San Vicente - San Vicente" description="Feed de la categoría 'San Vicente' en TVO San Vicente" xmlUrl="https://www.tvosanvicente.cl/category/noticias/san-vicente/feed/" htmlUrl="https://www.tvosanvicente.cl/category/noticias/san-vicente/"/>
+      <outline type="rss" text="TVO San Vicente - Santa Cruz" title="TVO San Vicente - Santa Cruz" description="Feed de la categoría 'Santa Cruz' en TVO San Vicente" xmlUrl="https://www.tvosanvicente.cl/category/noticias/santa-cruz/feed/" htmlUrl="https://www.tvosanvicente.cl/category/noticias/santa-cruz/"/>
+      <outline type="rss" text="TVO San Vicente [Proxy Google News]" title="TVO San Vicente [Proxy Google News]" description="Resultados de site:tvosanvicente.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:tvosanvicente.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:tvosanvicente.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     </outline>
   </body>
 </opml>

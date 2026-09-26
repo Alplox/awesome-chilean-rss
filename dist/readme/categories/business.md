@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 118 sitios, 321 feeds*
+*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 133 sitios, 403 feeds*
 
 - **(Empresa) Contapapaya** — Plataforma de contabilidad online para pymes chilenas, con artículos sobre contabilidad y emprendimiento
   - (Empresa) Contapapaya: `https://contapapaya.cl/feed/`
@@ -106,6 +106,8 @@
   - RSS: `https://www.davidnoticias.cl/category/economia/feed/`
 - **De Mar a Cordillera TV**: Feed de la categoría 'Emprendimiento' en De Mar a Cordillera TV
   - RSS: `https://demaracordilleratv.cl/category/emprendimiento/feed/`
+- **De Todo Valdivia**: Feed de la categoría 'Economía' en De Todo Valdivia
+  - RSS: `https://www.dtvaldivia.cl/index.php/category/noticias/economia/feed/`
 - **Desenfoque**: Feed de la categoría 'Economía' en Desenfoque
   - RSS: `https://desenfoque.cl/categoria/economia/feed/`
 - **Desierto FM**: Feed de la categoría 'Economía' en Desierto FM
@@ -157,6 +159,8 @@
   - Diario La Región - Comercio: `https://www.diariolaregion.cl/category/comercio/feed/`
 - **Diario Linares**: Feed de la categoría 'Economía' en Diario Linares
   - RSS: `https://diariolinares.cl/categoria/economia/feed/`
+- **Diario Mapuche**: Feed de la categoría 'Economia' en Diario Mapuche
+  - RSS: `https://www.mapuchediario.cl/category/economia/feed/`
 - **Diario Sur Noticias**: Feed de la categoría 'Economía' en Diario Sur Noticias
   - RSS: `https://www.diariosurnoticias.com/economia/feed/`
 - **Diario Talca**: Feed de la categoría 'Economía' en Diario Talca
@@ -175,6 +179,9 @@
 - **El Diario de La Araucanía** — Diario regional de Angol, La Araucanía
   - El Diario de La Araucanía - Economía y Negocios: `https://www.eldiariodelaaraucania.cl/category/economia-y-negocios/feed/`
   - El Diario de La Araucanía - Emprendimiento: `https://www.eldiariodelaaraucania.cl/category/economia-y-negocios/emprendimiento/feed/`
+- **El Diario Santiago** — Medio digital chileno de actualidad y análisis sobre política, sociedad y participación ciudadana.
+  - El Diario Santiago - Economía Y Negocios: `https://eldiariosantiago.cl/category/economia/feed/`
+  - El Diario Santiago - Emprendimiento: `https://eldiariosantiago.cl/category/economia/emprendimiento/feed/`
 - **El Magallánico**: Feed de la categoría 'Empresas' en El Magallánico
   - RSS: `https://elmagallanico.com/category/instituciones/empresas/feed/`
 - **El Maipo**: Feed de la categoría 'Economía' en El Maipo
@@ -235,6 +242,8 @@
   - RSS: `https://esperanzafm.cl/category/economia/feed/`
 - **Ex-Ante**: Feed de la categoría 'Economía' en Ex-Ante
   - RSS: `https://www.ex-ante.cl/category/economia/rss`
+- **Fresia Ahora**: Feed de la categoría 'Economía' en Fresia Ahora
+  - RSS: `https://www.fresiaahora.cl/category/actualidad/economia/feed/`
 - **G5 Noticias**: Feed de la categoría 'Economía' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/economia/feed/`
 - **Gerencia** — Feed principal de Gerencia
@@ -268,6 +277,8 @@
   - RSS: `https://laregionhoy.cl/category/actualidad/economia/feed/`
 - **La Tercera**: Feed de la categoría 'Pulso' en La Tercera
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml`
+- **La Voz del Norte**: Feed de la categoría 'Negocios' en La Voz del Norte
+  - RSS: `https://www.lavozdelnorte.cl/category/negocios/feed/`
 - **Las Noticias de Malleco**: Feed de la categoría 'Economía' en Las Noticias de Malleco
   - RSS: `https://lasnoticiasdemalleco.cl/category/economia/feed/`
 - **Linares en Línea**: Feed de la categoría 'Economía' en Linares en Línea
@@ -300,6 +311,18 @@
 - **Mirada Sur TV** — Medio de comunicación de la Región de Los Lagos
   - Mirada Sur TV - Economia: `https://miradasurtv.cl/category/economia/feed/`
   - Mirada Sur TV - Impulso Sur Podcast: `https://miradasurtv.cl/category/emprendimiento/feed/`
+- **Mundo Minería** — Medio especializado en minería, exploración, benchmarking mineras y tecnología minera.
+  - Mundo Minería: `https://mundomineria.cl/feed/`
+  - Mundo Minería - Instituciones: `https://mundomineria.cl/category/instituciones/feed/`
+  - Mundo Minería - Empresas: `https://mundomineria.cl/category/empresas/feed/`
+  - Mundo Minería - Sustentabilidad: `https://mundomineria.cl/category/sustentavilidad/feed/`
+  - Mundo Minería - Rse: `https://mundomineria.cl/category/empresas/rse/feed/`
+  - Mundo Minería - Artículos: `https://mundomineria.cl/category/articulos/feed/`
+  - Mundo Minería - Indicadores: `https://mundomineria.cl/category/indicadores/feed/`
+  - Mundo Minería - Titular 3: `https://mundomineria.cl/category/titular-3/feed/`
+  - Mundo Minería - Titular 2: `https://mundomineria.cl/category/titular-2/feed/`
+  - Mundo Minería - Titular: `https://mundomineria.cl/category/titular/feed/`
+  - Mundo Minería [Proxy Google News]: `https://news.google.com/rss/search?q=site:mundomineria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Noticias Los Ríos** — Diario regional de La Unión, Los Ríos
   - Noticias Los Ríos - Emprendedores: `https://www.noticiaslosrios.cl/seccion/emprendedores/feed/`
   - Noticias Los Ríos - Economía: `https://www.noticiaslosrios.cl/seccion/economia/feed/`
@@ -386,8 +409,25 @@
   - PortalPortuario - Radar: `https://portalportuario.cl/category/radar/feed/`
   - PortalPortuario [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalportuario.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - PortalPortuario [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalportuario.cl&format=RSS`
+- **Prensa Digital** — Medio chileno de actualidad y economía que cubre empresas, mercados, comercio exterior, trabajo, bancos, seguros y pensiones.
+  - Prensa Digital: `https://www.prensadigital.cl/feed`
+  - Prensa Digital - Resultados Kino: `https://www.prensadigital.cl/resultados-kino/feed/`
+  - Prensa Digital - Resultados Loto: `https://www.prensadigital.cl/resultados-loto/feed/`
+  - Prensa Digital - Economía: `https://www.prensadigital.cl/economia/feed/`
+  - Prensa Digital - Mercados: `https://www.prensadigital.cl/mercados/feed/`
+  - Prensa Digital - Pensiones: `https://www.prensadigital.cl/mercados/pensiones/feed/`
+  - Prensa Digital - Bancos: `https://www.prensadigital.cl/mercados/bancos/feed/`
+  - Prensa Digital - Comercio Exterior: `https://www.prensadigital.cl/economia/comercio-exterior/feed/`
+  - Prensa Digital - Empresas: `https://www.prensadigital.cl/economia/empresas/feed/`
+  - Prensa Digital - Commodities: `https://www.prensadigital.cl/mercados/commodities/feed/`
+  - Prensa Digital [Proxy Google News]: `https://news.google.com/rss/search?q=site:prensadigital.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Prensa Digital [Proxy Bing News]: `https://www.bing.com/news/search?q=site:prensadigital.cl&format=RSS`
 - **Publimicro**: Feed de la categoría 'Economía' en Publimicro
   - RSS: `https://publimicro.cl/contenidos-noticias/economia/feed/`
+- **Puerto a Puerto** — Revista regional de Osorno y Puerto Montt sobre economía, salmonicultura, turismo, ciencia y ambiente.
+  - Puerto a Puerto: `https://puertoapuerto.cl/feed/`
+  - Puerto a Puerto - Economía Y Negocios: `https://puertoapuerto.cl/category/economia-y-negocios/feed/`
+  - Puerto a Puerto [Proxy Google News]: `https://news.google.com/rss/search?q=site:puertoapuerto.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Pulso Público**: Feed de la categoría 'Economía' en Pulso Público
   - RSS: `https://pulsopublico.cl/economia/feed/`
 - **pv magazine Latin America** — Noticias de la industria solar fotovoltaica en Latinoamérica
@@ -405,6 +445,8 @@
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml`
 - **Radio Cristalina**: Feed de la categoría 'Economía' en Radio Cristalina
   - RSS: `https://radiocristalina.cl/category/economia/feed/`
+- **Radio Guayacán**: Feed de la categoría 'Economía' en Radio Guayacán
+  - RSS: `https://radioguayacan.cl/category/noticias/region/economia/feed/`
 - **Radio Interamericana**: Feed de la categoría 'Economía' en Radio Interamericana
   - RSS: `https://radiointeramericana.cl/category/noticias/economia/feed/`
 - **Radio Nuevo Mundo**: Feed de la categoría 'Economía' en Radio Nuevo Mundo
@@ -419,8 +461,14 @@
   - RBC Asesores [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rbcasesores.cl&format=RSS`
 - **REDIMIN**: Resultados de site:redimin.cl en Proxy Google News de noticias Chilenas
   - RSS: `https://news.google.com/rss/search?q=site:redimin.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Región de Coquimbo** — Medio digital con noticias locales, regionales y nacionales de la Región de Coquimbo.
+  - Región de Coquimbo - Economía: `https://regiondecoquimbo.cl/category/economia/feed/`
+  - Región de Coquimbo - Emprendimiento: `https://regiondecoquimbo.cl/category/emprendimiento/feed/`
 - **Río en Línea**: Feed de la categoría 'Economía' en Río en Línea
   - RSS: `https://www.rioenlinea.cl/seccion/economia/feed/`
+- **Ruta 2050** — Medio especializado en minería y energía en Chile, con cobertura de cobre, litio, renovables, hidrógeno, almacenamiento y transición energética.
+  - Ruta 2050: `https://ruta2050.cl/feed/`
+  - Ruta 2050 [Proxy Google News]: `https://news.google.com/rss/search?q=site:ruta2050.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **SOFOFA** — Sociedad de Fomento Fabril, gremio empresarial industrial de Chile
   - SOFOFA: `https://sofofa.cl/feed/`
   - SOFOFA - Dirección Internacional: `https://www.sofofa.cl/category/direccion-internacional/feed/`
@@ -430,15 +478,64 @@
   - RSS: `https://www.supervivencia-y-desastres.cl/category/economia/feed/`
 - **Temuco Diario**: Feed de la categoría 'Economía' en Temuco Diario
   - RSS: `https://temucodiario.cl/category/economia/feed/`
+- **The Rio Times** — Publicación en inglés sobre negocios, finanzas, política y comunidades de expatriados en Chile y América Latina.
+  - The Rio Times: `https://www.riotimesonline.com/feed/`
+  - The Rio Times - Brazil: `https://www.riotimesonline.com/brazil/feed/`
+  - The Rio Times - Politics Brazil: `https://www.riotimesonline.com/brazil/politics/feed/`
+  - The Rio Times - Business Brazil: `https://www.riotimesonline.com/brazil/business-brazil/feed/`
+  - The Rio Times - Latin America: `https://www.riotimesonline.com/latin-america/feed/`
+  - The Rio Times - Life & Society: `https://www.riotimesonline.com/brazil/life-society/feed/`
+  - The Rio Times - Rio De Janeiro: `https://www.riotimesonline.com/rio-de-janeiro/feed/`
+  - The Rio Times - Latest News: `https://www.riotimesonline.com/latest-news1/feed/`
+  - The Rio Times - Market Reports: `https://www.riotimesonline.com/markets-finance/market-reports/feed/`
+  - The Rio Times - Nightlife Guide: `https://www.riotimesonline.com/life-and-culture/nightlife-guide/feed/`
+  - The Rio Times - Markets: `https://www.riotimesonline.com/markets-finance/feed/`
+  - The Rio Times - Society: `https://www.riotimesonline.com/politics/society/feed/`
+  - The Rio Times - Entertainment: `https://www.riotimesonline.com/life-and-culture/entertainment/feed/`
+  - The Rio Times - Sports: `https://www.riotimesonline.com/sports/feed/`
+  - The Rio Times - Travel: `https://www.riotimesonline.com/life-and-culture/travel/feed/`
+  - The Rio Times - Expats & Nomads: `https://www.riotimesonline.com/expats-and-nomads/feed/`
+  - The Rio Times - Crypto: `https://www.riotimesonline.com/markets-finance/crypto/feed/`
+  - The Rio Times - Life & Culture: `https://www.riotimesonline.com/life-and-culture/feed/`
+  - The Rio Times - World: `https://www.riotimesonline.com/world/feed/`
+  - The Rio Times - International Sports: `https://www.riotimesonline.com/sports/international-sports/feed/`
+  - The Rio Times - Business: `https://www.riotimesonline.com/rio-business/feed/`
+  - The Rio Times - Real Estate: `https://www.riotimesonline.com/real-estate/feed/`
+  - The Rio Times - South Africa: `https://www.riotimesonline.com/world/africa/south-africa/feed/`
+  - The Rio Times - Art And Culture: `https://www.riotimesonline.com/life-and-culture/art-and-culture/feed/`
+  - The Rio Times - Western Africa: `https://www.riotimesonline.com/world/africa/western-africa/feed/`
+  - The Rio Times - Entertainment Brazil: `https://www.riotimesonline.com/brazil/entertainment-brazil/feed/`
+  - The Rio Times - Africa Markets & Investment: `https://www.riotimesonline.com/world/africa/africa-markets/feed/`
+  - The Rio Times - Music: `https://www.riotimesonline.com/life-and-culture/music/feed/`
+  - The Rio Times [Proxy Google News]: `https://news.google.com/rss/search?q=site:riotimesonline.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - The Rio Times [Proxy Bing News]: `https://www.bing.com/news/search?q=site:riotimesonline.com&format=RSS`
 - **Tiempo 21**: Feed de la categoría 'Economía' en Tiempo 21
   - RSS: `https://www.tiempo21.cl/economia/feed/`
 - **Tour Innovación**: Feed de la categoría 'Emprendimiento' en Tour Innovación
   - RSS: `https://www.tourinnovacion.cl/seccion/emprendimiento/feed/`
 - **Traiguén City**: Feed de la categoría 'Laboral' en Traiguén City
   - RSS: `https://traiguencity.cl/noticias/traiguen/laboral-traiguen/feed/`
+- **Tu Región Noticias**: Feed de la categoría 'Economía' en Tu Región Noticias
+  - RSS: `https://trnoticias.cl/category/economia/feed/`
 - **Tus Noticias** — Medio digital de San Pedro de la Paz, Región del Biobío
   - Tus Noticias - Economía: `https://www.tusnoticias.cl/noticias/economia/feed/`
   - Tus Noticias - Emprendimientos: `https://www.tusnoticias.cl/noticias/emprendimientos/feed/`
+- **TV Canal 5**: Feed de la categoría 'Economía' en TV Canal 5
+  - RSS: `https://tvcanal5.cl/category/economia/feed/`
+- **VC Magazine** — Revista digital chilena sobre valor compartido, sostenibilidad, energías renovables, innovación y negocios regionales.
+  - VC Magazine: `https://vcmagazine.cl/feed/`
+  - VC Magazine - Acuicultura: `https://vcmagazine.cl/category/sectores-industriales/acuicultura/feed/`
+  - VC Magazine - Mineria: `https://vcmagazine.cl/category/sectores-industriales/mineria/feed/`
+  - VC Magazine - Salmonicultura: `https://vcmagazine.cl/category/salmonicultura/feed/`
+  - VC Magazine - Opinión: `https://vcmagazine.cl/category/opinion/feed/`
+  - VC Magazine - Agricultura Y Ganaderia: `https://vcmagazine.cl/category/sectores-industriales/agricultura-y-ganaderia/feed/`
+  - VC Magazine - Arte Y Cultura: `https://vcmagazine.cl/category/sectores-industriales/arte-y-cultura/feed/`
+  - VC Magazine - Vitivinicola: `https://vcmagazine.cl/category/sectores-industriales/vitivinicola/feed/`
+  - VC Magazine - Sectores Industriales: `https://vcmagazine.cl/category/sectores-industriales/feed/`
+  - VC Magazine - Panoramas: `https://vcmagazine.cl/category/panoramas/feed/`
+  - VC Magazine - Escasez Hídricas: `https://vcmagazine.cl/category/escasez-hidricas/feed/`
+  - VC Magazine [Proxy Google News]: `https://news.google.com/rss/search?q=site:vcmagazine.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - VC Magazine [Proxy Bing News]: `https://www.bing.com/news/search?q=site:vcmagazine.cl&format=RSS`
 - **Veredictum**: Feed de la categoría 'Economía' en Veredictum
   - RSS: `https://veredictum.cl/category/economia/feed/`
 - **VLN Radio**: Feed de la categoría 'Economía' en VLN Radio

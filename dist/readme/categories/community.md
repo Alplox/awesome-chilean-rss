@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`community.opml`](../../opml/categories/community.opml) - 96 sitios, 220 feeds*
+*Descargar OPML: [`community.opml`](../../opml/categories/community.opml) - 110 sitios, 282 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Calendario de Estrenos y Eventos: `https://www.alertageekchile.cl/eventos/feed/`
@@ -86,12 +86,22 @@
 - **CriptoNoticias Chile** — Sección chilena de CriptoNoticias sobre Bitcoin, blockchain y fintech en Chile
   - CriptoNoticias Chile - Comunidad: `https://www.criptonoticias.com/categorias/comunidad/feed/`
   - CriptoNoticias Chile - Eventos: `https://www.criptonoticias.com/categorias/comunidad/eventos/feed/`
+- **Cuerpo de Bomberos de Santiago** — Cuerpo de bomberos voluntarios que publica novedades operativas, institucionales y de capacitación para su jurisdicción.
+  - Cuerpo de Bomberos de Santiago: `https://www.cbs.cl/feed/`
+  - Cuerpo de Bomberos de Santiago - Emergencias: `https://www.cbs.cl/category/noticias/emergencias/feed/`
+  - Cuerpo de Bomberos de Santiago - Órdenes Del Día: `https://www.cbs.cl/category/manuales-y-documentos/ordenes-del-dia/feed/`
+  - Cuerpo de Bomberos de Santiago - Compañías: `https://www.cbs.cl/category/noticias/companias/feed/`
+  - Cuerpo de Bomberos de Santiago - Capacitación: `https://www.cbs.cl/category/noticias/capacitacion/feed/`
+  - Cuerpo de Bomberos de Santiago [Proxy Google News]: `https://news.google.com/rss/search?q=site:cbs.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Cuerpo de Bomberos de Santiago [Proxy Bing News]: `https://www.bing.com/news/search?q=site:cbs.cl&format=RSS`
 - **CUT (Central Unitaria de Trabajadores de Chile)**: Resultados de site:cut.cl en Proxy Google News de noticias Chilenas
   - RSS: `https://news.google.com/rss/search?q=site:cut.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **David Noticias**: Feed de la categoría 'Turismo' en David Noticias
   - RSS: `https://www.davidnoticias.cl/category/turismo/feed/`
 - **De Mar a Cordillera TV**: Feed de la categoría 'Turismo' en De Mar a Cordillera TV
   - RSS: `https://demaracordilleratv.cl/category/turismo/feed/`
+- **De Todo Valdivia**: Feed de la categoría 'Turismo' en De Todo Valdivia
+  - RSS: `https://www.dtvaldivia.cl/index.php/category/turismo/feed/`
 - **Defensa Civil de Chile**: Resultados de site:defensacivil.cl en Proxy Google News de noticias Chilenas
   - RSS: `https://news.google.com/rss/search?q=site:defensacivil.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diálogo Sur**: Feed de la categoría 'Turismo' en Diálogo Sur
@@ -119,6 +129,24 @@
   - RSS: `https://diariolaquinta.cl/category/comunidad/feed/`
 - **Diario La Región**: Feed de la categoría 'Turismo' en Diario La Región
   - RSS: `https://www.diariolaregion.cl/category/turismo/feed/`
+- **Diario Mapuche** — Medio digital basado en Temuco que informa sobre derechos indígenas, territorios, política, educación, salud y cultura mapuche.
+  - Diario Mapuche: `https://www.mapuchediario.cl/feed/`
+  - Diario Mapuche - Opinión: `https://www.mapuchediario.cl/category/opinion/feed/`
+  - Diario Mapuche - Lafken: `https://www.mapuchediario.cl/category/lafken/feed/`
+  - Diario Mapuche - Historia: `https://www.mapuchediario.cl/category/historia/feed/`
+  - Diario Mapuche - Pueblos Indígenas: `https://www.mapuchediario.cl/category/pueblos-indigenas/feed/`
+  - Diario Mapuche - Patrimonio: `https://www.mapuchediario.cl/category/patrimonio/feed/`
+  - Diario Mapuche - Espiritualidad: `https://www.mapuchediario.cl/category/espiritualidad/feed/`
+  - Diario Mapuche - Mapudungun: `https://www.mapuchediario.cl/category/mapudungun/feed/`
+  - Diario Mapuche - Puelmapu: `https://www.mapuchediario.cl/category/puelmapu/feed/`
+  - Diario Mapuche - Desarrollo: `https://www.mapuchediario.cl/category/desarrollo/feed/`
+  - Diario Mapuche - Constituyente: `https://www.mapuchediario.cl/category/constituyente/feed/`
+  - Diario Mapuche - Alimentación: `https://www.mapuchediario.cl/category/alimentacion/feed/`
+  - Diario Mapuche - Biodiversidad: `https://www.mapuchediario.cl/category/biodiversidad/feed/`
+  - Diario Mapuche - Art: `https://www.mapuchediario.cl/category/art/feed/`
+  - Diario Mapuche - Mujeres: `https://www.mapuchediario.cl/category/mujeres/feed/`
+  - Diario Mapuche - Editorial: `https://www.mapuchediario.cl/category/editorial/feed/`
+  - Diario Mapuche [Proxy Google News]: `https://news.google.com/rss/search?q=site:mapuchediario.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diario Puerto Varas**: Feed de la categoría 'Turismo y Panoramas' en Diario Puerto Varas
   - RSS: `https://diariopuertovaras.cl/category/turismo-panoramas/feed/`
 - **Duplos**: Feed de la categoría 'Panoramas' en Duplos
@@ -136,6 +164,11 @@
   - El Diario de La Araucanía - Capacitación: `https://www.eldiariodelaaraucania.cl/category/educacion/capacitacion/feed/`
   - El Diario de La Araucanía - Viajes y Turismo: `https://www.eldiariodelaaraucania.cl/category/estilo-de-vida/viajes-y-turismo/feed/`
   - El Diario de La Araucanía - Inclusión: `https://www.eldiariodelaaraucania.cl/category/lifestyle/inclusion/feed/`
+- **El Diario Santiago** — Medio digital chileno de actualidad y análisis sobre política, sociedad y participación ciudadana.
+  - El Diario Santiago - Eventos: `https://eldiariosantiago.cl/category/cultura/eventos/feed/`
+  - El Diario Santiago - Viajes Y Turismo: `https://eldiariosantiago.cl/category/estilo-de-vida/viajes-y-turismo/feed/`
+  - El Diario Santiago - Capacitación: `https://eldiariosantiago.cl/category/educacion/capacitacion/feed/`
+  - El Diario Santiago - Inclusión: `https://eldiariosantiago.cl/category/estilo-de-vida/inclusion/feed/`
 - **El Magallánico**: Feed de la categoría 'Cultura / Eventos' en El Magallánico
   - RSS: `https://elmagallanico.com/category/eventos/feed/`
 - **El Nacional**: Feed de la categoría 'Viajes Y Turismo' en El Nacional
@@ -209,8 +242,14 @@
   - RSS: `https://www.labatalla.cl/secciones/comunidad/feed/`
 - **La Noticia**: Feed de la categoría 'Turismo' en La Noticia
   - RSS: `https://lanoticia.cl/category/turismo/feed/`
+- **La Opinión Online**: Feed de la categoría 'Comunidad' en La Opinión Online
+  - RSS: `https://www.laopiniononline.cl/category/comunidad/feed/`
 - **La Prensa Austral**: Feed de la categoría 'Sociedad' en La Prensa Austral
   - RSS: `https://laprensaaustral.cl/category/sociedad/feed/`
+- **La Voz de Pucón**: Feed de la categoría 'Obituario' en La Voz de Pucón
+  - RSS: `https://www.lavozdepucon.cl/category/obituario/feed/`
+- **La Voz del Norte**: Feed de la categoría 'Turismo' en La Voz del Norte
+  - RSS: `https://www.lavozdelnorte.cl/category/turismo/feed/`
 - **Linares en Línea** — Diario regional de Linares, Maule
   - Linares en Línea - Social: `https://www.linaresenlinea.cl/category/social/feed/`
   - Linares en Línea - Turismo: `https://www.linaresenlinea.cl/category/turismo/feed/`
@@ -226,6 +265,8 @@
 - **MUMS** — Movimiento por la Diversidad Sexual en Chile
   - MUMS: `https://www.mums.cl/feed/`
   - MUMS [Proxy Google News]: `https://news.google.com/rss/search?q=site:mums.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Mundo Minería**: Feed de la categoría 'Eventos' en Mundo Minería
+  - RSS: `https://mundomineria.cl/category/eventos/feed/`
 - **Noticias Biobío**: Feed de la categoría 'Sociedad' en Noticias Biobío
   - RSS: `https://noticiasbiobio.cl/category/sociedad/feed/`
 - **Noticias del Sur**: Feed de la categoría 'Eventos' en Noticias del Sur
@@ -266,12 +307,42 @@
   - Portal Metropolitano - Festivales: `https://portalmetropolitano.cl/category/festivales/feed/`
 - **Portal Red Salud**: Feed de la categoría ' Eventos' en Portal Red Salud
   - RSS: `https://portalredsalud.cl/category/eventos/feed/`
+- **Prensa Eventos** — Portal chileno de noticias y agendas sobre eventos, ferias, congresos, cultura, tecnología y negocios.
+  - Prensa Eventos: `https://prensaeventos.cl/feed/`
+  - Prensa Eventos - Z: `https://prensaeventos.cl/category/z/feed/`
+  - Prensa Eventos -  Eventos Y Festivales: `https://prensaeventos.cl/category/eventos-y-festivales/feed/`
+  - Prensa Eventos -  Economía Y Negocios: `https://prensaeventos.cl/category/economia-y-negocios/feed/`
+  - Prensa Eventos - Campañas: `https://prensaeventos.cl/category/campanas/feed/`
+  - Prensa Eventos -  Eventos: `https://prensaeventos.cl/category/eventos/feed/`
+  - Prensa Eventos -  Eventos Expo Ferias Congresos Seminarios: `https://prensaeventos.cl/category/eventos-expo-ferias-congresos-seminarios-webinar/feed/`
+  - Prensa Eventos - Dato Útil: `https://prensaeventos.cl/category/dato-util/feed/`
+  - Prensa Eventos - Turismo: `https://prensaeventos.cl/category/turismo/feed/`
+  - Prensa Eventos -  Cine Series Y Tv: `https://prensaeventos.cl/category/cine-series-y-tv/feed/`
+  - Prensa Eventos -  Minería: `https://prensaeventos.cl/category/mineria/feed/`
+  - Prensa Eventos -  Seguridad: `https://prensaeventos.cl/category/seguridad/feed/`
+  - Prensa Eventos - Logística: `https://prensaeventos.cl/category/logistica/feed/`
+  - Prensa Eventos -  Energía: `https://prensaeventos.cl/category/energia/feed/`
+  - Prensa Eventos - Ciberseguridad: `https://prensaeventos.cl/category/ciberseguridad/feed/`
+  - Prensa Eventos - Acuicultura: `https://prensaeventos.cl/category/acuicultura/feed/`
+  - Prensa Eventos - Construcción: `https://prensaeventos.cl/category/construccion/feed/`
+  - Prensa Eventos - Seguridad: `https://prensaeventos.cl/category/seguridad-2/feed/`
+  - Prensa Eventos - Viajes: `https://prensaeventos.cl/category/viajes/feed/`
+  - Prensa Eventos -  Transporte: `https://prensaeventos.cl/category/transporte/feed/`
+  - Prensa Eventos [Proxy Google News]: `https://news.google.com/rss/search?q=site:prensaeventos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Prensa Eventos [Proxy Bing News]: `https://www.bing.com/news/search?q=site:prensaeventos.cl&format=RSS`
+- **Primera Fuente**: Feed de la categoría 'Sociedad' en Primera Fuente
+  - RSS: `https://primerafuente.cl/category/sociedad/feed/`
 - **Publimetro Chile**: Feed de la categoría 'Social' en Publimetro Chile
   - RSS: ` https://www.publimetro.cl/arc/outboundfeeds/rss/category/social/?outputType=xml`
+- **Radio Austral CD 970**: Feed de la categoría 'Social' en Radio Austral CD 970
+  - RSS: `https://www.radioaustralvaldivia.cl/category/social/feed/`
 - **Radio Corazón**: Feed de la categoría 'Concursos' en Radio Corazón
   - RSS: `https://www.corazon.cl/category/concursos/feed/`
 - **Radio Festival**: Feed de la categoría 'Mercado' en Radio Festival
   - RSS: `https://www.radiofestival.cl/category/mercado/feed/`
+- **Radio HVA** — Radio regional de Atacama con noticias, entrevistas y cobertura local.
+  - Radio HVA - Social: `https://www.hvaradio.cl/category/social/feed/`
+  - Radio HVA - Turismo: `https://www.hvaradio.cl/category/turismo/feed/`
 - **Radio JGM**: Feed de la categoría 'Comunidad' en Radio JGM
   - RSS: `https://radiojgm.uchile.cl/category/comunidad/feed/`
 - **Radio Magallanes**: Feed de la categoría 'Turismo' en Radio Magallanes
@@ -281,6 +352,9 @@
   - r/RepublicaDeChile: `https://www.reddit.com/r/republicadechile/.rss`
   - r/chileit: `https://www.reddit.com/r/chileit/.rss`
   - r/Santiago: `https://www.reddit.com/r/Santiago/.rss`
+- **Región de Coquimbo** — Medio digital con noticias locales, regionales y nacionales de la Región de Coquimbo.
+  - Región de Coquimbo - Social: `https://regiondecoquimbo.cl/category/social/feed/`
+  - Región de Coquimbo - Turismo: `https://regiondecoquimbo.cl/category/turismo/feed/`
 - **Región Visual**: Feed de la categoría 'Eventos' en Región Visual
   - RSS: `https://regionvisual.com/category/eventos/feed/`
 - **Río en Línea**: Feed de la categoría 'Social' en Río en Línea
@@ -318,5 +392,7 @@
   - RSS: `https://nuevotropezon.tropezon.cl/category/social/feed/`
 - **Vanguardia Gamer**: Feed de la categoría 'Eventos' en Vanguardia Gamer
   - RSS: `https://vanguardiagamer.cl/category/eventos/feed/`
+- **VC Magazine**: Feed de la categoría 'Eventos' en VC Magazine
+  - RSS: `https://vcmagazine.cl/category/eventos/feed/`
 - **VLN Radio**: Feed de la categoría 'Sociedad' en VLN Radio
   - RSS: `https://www.vlnradio.cl/tendencias/sociedad/feed/`

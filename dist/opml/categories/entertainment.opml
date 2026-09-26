@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (144 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (151 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
+    <dateCreated>2026-09-26T16:58:18.401Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -43,6 +43,8 @@
       <outline type="rss" text="El América - Noticias Tv" title="El América - Noticias Tv" description="Feed de la categoría 'Noticias Tv' en El América" xmlUrl="https://elamerica.cl/category/noticias-tv/feed/" htmlUrl="https://elamerica.cl/category/noticias-tv/"/>
       <outline type="rss" text="El América - Television" title="El América - Television" description="Feed de la categoría 'Television' en El América" xmlUrl="https://elamerica.cl/category/television/feed/" htmlUrl="https://elamerica.cl/category/television/"/>
       <outline type="rss" text="El Diario de La Araucanía - Entretenimiento" title="El Diario de La Araucanía - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en El Diario de La Araucanía" xmlUrl="https://www.eldiariodelaaraucania.cl/category/entretenimiento/feed/" htmlUrl="https://www.eldiariodelaaraucania.cl/category/entretenimiento/"/>
+      <outline type="rss" text="El Diario Santiago - Espectáculos" title="El Diario Santiago - Espectáculos" description="Feed de la categoría 'Espectáculos' en El Diario Santiago" xmlUrl="https://eldiariosantiago.cl/category/cultura/espectaculos/feed/" htmlUrl="https://eldiariosantiago.cl/category/cultura/espectaculos/"/>
+      <outline type="rss" text="El Diario Santiago - Televisión" title="El Diario Santiago - Televisión" description="Feed de la categoría 'Televisión' en El Diario Santiago" xmlUrl="https://eldiariosantiago.cl/category/cultura/television/feed/" htmlUrl="https://eldiariosantiago.cl/category/cultura/television/"/>
       <outline type="rss" text="El Informador Chile - Farándula" title="El Informador Chile - Farándula" description="Feed de la categoría 'Farándula' en El Informador Chile" xmlUrl="https://www.elinformadorchile.cl/category/farandula/feed/" htmlUrl="https://www.elinformadorchile.cl/category/farandula/"/>
       <outline type="rss" text="El Insular - Entretención" title="El Insular - Entretención" description="Feed de la categoría 'Entretención' en El Insular" xmlUrl="https://elinsular.cl/category/entretencion/feed/" htmlUrl="https://elinsular.cl/category/entretencion/"/>
       <outline type="rss" text="El Morro de Arica - Espectáculos" title="El Morro de Arica - Espectáculos" description="Feed de la categoría 'Espectáculos' en El Morro de Arica" xmlUrl="https://elmorrodearica.cl/category/espectaculos/feed/" htmlUrl="https://elmorrodearica.cl/category/espectaculos/"/>
@@ -128,6 +130,11 @@
       <outline type="rss" text="Perfil - Espectáculos" title="Perfil - Espectáculos" description="Feed de espectáculos de Perfil" xmlUrl="https://www.perfil.com/feed/espectaculos" htmlUrl="https://www.perfil.com/espectaculos/"/>
       <outline type="rss" text="Pisapapeles - Rumores" title="Pisapapeles - Rumores" description="Feed de la categoría 'Rumores' en Pisapapeles" xmlUrl="https://pisapapeles.net/category/rumores/feed/" htmlUrl="https://pisapapeles.net/category/rumores/"/>
       <outline type="rss" text="Portal Metropolitano - Entretención" title="Portal Metropolitano - Entretención" description="Feed de la categoría 'Entretención' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/entretencion/feed/" htmlUrl="https://portalmetropolitano.cl/category/entretencion/"/>
+      <outline type="rss" text="Punto Cruzado" title="Punto Cruzado" description="Feed principal de Punto Cruzado" xmlUrl="https://puntoseguido.cl/feed/" htmlUrl="https://puntoseguido.cl/"/>
+      <outline type="rss" text="Punto Cruzado - Puntocruzado" title="Punto Cruzado - Puntocruzado" description="Feed de la categoría 'Puntocruzado' en Punto Cruzado" xmlUrl="https://puntoseguido.cl/category/puntocruzado/feed/" htmlUrl="https://puntoseguido.cl/category/puntocruzado/"/>
+      <outline type="rss" text="Punto Cruzado - Series" title="Punto Cruzado - Series" description="Feed de la categoría 'Series' en Punto Cruzado" xmlUrl="https://puntoseguido.cl/category/puntoseguido/series/feed/" htmlUrl="https://puntoseguido.cl/category/puntoseguido/series/"/>
+      <outline type="rss" text="Punto Cruzado [Proxy Bing News]" title="Punto Cruzado [Proxy Bing News]" description="Resultados de site:puntoseguido.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:puntoseguido.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:puntoseguido.cl"/>
+      <outline type="rss" text="Punto Cruzado [Proxy Google News]" title="Punto Cruzado [Proxy Google News]" description="Resultados de site:puntoseguido.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:puntoseguido.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:puntoseguido.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio Contacto - Entretenimiento" title="Radio Contacto - Entretenimiento" description="Feed de la categoría 'Entretenimiento' en Radio Contacto" xmlUrl="https://radiocontacto.cl/category/entretenimiento/feed/" htmlUrl="https://radiocontacto.cl/category/entretenimiento/"/>
       <outline type="rss" text="Radio Cooperativa - Entretención" title="Radio Cooperativa - Entretención" description="Feed de la sección 'Entretención' en Radio Cooperativa" xmlUrl="https://www.cooperativa.cl/noticias/site/tax/port/all/rss_4___1.xml" htmlUrl="https://www.cooperativa.cl"/>
       <outline type="rss" text="Radio Corazón" title="Radio Corazón" description="Feed principal de Radio Corazón" xmlUrl="https://www.corazon.cl/feed" htmlUrl="https://www.corazon.cl"/>

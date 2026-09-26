@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 90 sitios, 148 feeds*
+*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 102 sitios, 176 feeds*
 
 - **Alerta Noticias**: Feed de la categoría 'Salud' en Alerta Noticias
   - RSS: `https://alertanoticias.cl/category/salud/feed/`
@@ -70,6 +70,8 @@
   - RSS: `https://www.diarioelpulso.cl/category/salud/feed/`
 - **Diario La Región**: Feed de la categoría 'Salud' en Diario La Región
   - RSS: `https://www.diariolaregion.cl/category/salud/feed/`
+- **Diario Mapuche**: Feed de la categoría 'Salud' en Diario Mapuche
+  - RSS: `https://www.mapuchediario.cl/category/salud/feed/`
 - **Diario Puerto Varas**: Feed de la categoría 'Cultura y Vida Sana' en Diario Puerto Varas
   - RSS: `https://diariopuertovaras.cl/category/cultura-vida-sana/feed/`
 - **DPL News**: Feed de la categoría 'Salud' en DPL News
@@ -85,6 +87,8 @@
   - RSS: `https://elcontraste.cl/salud/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Salud' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/estilo-de-vida/salud/feed/`
+- **El Diario Santiago**: Feed de la categoría 'Salud' en El Diario Santiago
+  - RSS: `https://eldiariosantiago.cl/category/estilo-de-vida/salud/feed/`
 - **El Nacional**: Feed de la categoría 'Bienestar' en El Nacional
   - RSS: `https://www.elnacional.com/estilo-de-vida/bienestar/feed/`
 - **El Noticiero del Huasco**: Feed de la categoría 'Salud' en El Noticiero del Huasco
@@ -106,6 +110,8 @@
 - **Fonasa** — Fondo Nacional de Salud de Chile, noticias y comunicados
   - Fonasa: `https://www.fonasa.cl/feed/`
   - Fonasa [Proxy Google News]: `https://news.google.com/rss/search?q=site:fonasa.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Fresia Ahora**: Feed de la categoría 'Salud' en Fresia Ahora
+  - RSS: `https://www.fresiaahora.cl/category/actualidad/salud/feed/`
 - **Google News** — Segregador de noticias de Google
   - Google News - Chile - Resultados 'salud': `https://news.google.com/rss/search?q=salud&hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Sección Salud: `https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNR3QwTlRFU0JtVnpMVFF4T1NnQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
@@ -113,6 +119,24 @@
   - RSS: `https://horadenoticias.cl/seccion/salud/feed/`
 - **InfoSalmon**: Feed de la categoría 'Salud' en InfoSalmon
   - RSS: `https://infosalmon.cl/category/salud/feed/`
+- **Instituto de Seguridad Laboral** — Institución nacional dedicada a la prevención de accidentes laborales, la seguridad en el trabajo y el acceso a beneficios previsionales.
+  - Instituto de Seguridad Laboral: `https://www.isl.gob.cl/feed/`
+  - Instituto de Seguridad Laboral - Participación Ciudadana: `https://www.isl.gob.cl/category/part-ciudadana/feed/`
+  - Instituto de Seguridad Laboral - Los Lagos: `https://www.isl.gob.cl/category/los-lagos/feed/`
+  - Instituto de Seguridad Laboral - Los Ríos: `https://www.isl.gob.cl/category/los-rios/feed/`
+  - Instituto de Seguridad Laboral - La Araucanía: `https://www.isl.gob.cl/category/araucania/feed/`
+  - Instituto de Seguridad Laboral - Biobío: `https://www.isl.gob.cl/category/bio-bio/feed/`
+  - Instituto de Seguridad Laboral - O'higgins: `https://www.isl.gob.cl/category/ohiggins/feed/`
+  - Instituto de Seguridad Laboral - Metropolitana De Santiago: `https://www.isl.gob.cl/category/metropolitana/feed/`
+  - Instituto de Seguridad Laboral - Valparaíso: `https://www.isl.gob.cl/category/valparaiso/feed/`
+  - Instituto de Seguridad Laboral - Coquimbo: `https://www.isl.gob.cl/category/coquimbo/feed/`
+  - Instituto de Seguridad Laboral - Atacama: `https://www.isl.gob.cl/category/atacama/feed/`
+  - Instituto de Seguridad Laboral - Arica Y Parinacota: `https://www.isl.gob.cl/category/arica-y-parinacota/feed/`
+  - Instituto de Seguridad Laboral - Regiones: `https://www.isl.gob.cl/category/regiones/feed/`
+  - Instituto de Seguridad Laboral - Subdepartamento De Fidelización: `https://www.isl.gob.cl/category/subdepartamento-de-fidelizacion/feed/`
+  - Instituto de Seguridad Laboral - Estudios Isl: `https://www.isl.gob.cl/category/estudios-isl/feed/`
+  - Instituto de Seguridad Laboral - Prensa Isl: `https://www.isl.gob.cl/category/prensa-isl/feed/`
+  - Instituto de Seguridad Laboral [Proxy Google News]: `https://news.google.com/rss/search?q=site:isl.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **IPS Agencia de Noticias**: Feed de la categoría 'Salud' en IPS Agencia de Noticias
   - RSS: `https://ipsnoticias.net/noticias/salud/feed/`
 - **Iquique TV**: Feed de la categoría 'Salud' en Iquique TV
@@ -123,12 +147,18 @@
   - RSS: `https://lamegafm.cl/category/tarapaca/salud/feed/`
 - **La Noticia**: Feed de la categoría 'Salud' en La Noticia
   - RSS: `https://lanoticia.cl/category/salud/feed/`
+- **La Opinión Online**: Feed de la categoría 'Salud' en La Opinión Online
+  - RSS: `https://www.laopiniononline.cl/category/salud/feed/`
 - **La Prensa Austral**: Feed de la categoría 'Salud' en La Prensa Austral
   - RSS: `https://laprensaaustral.cl/category/salud/feed/`
 - **La Razón**: Feed de la categoría 'Salud' en La Razón
   - RSS: `https://www.larazon.cl/temas/salud/feed/`
 - **La Tribuna de Colchagua**: Feed de la categoría 'Salud' en La Tribuna de Colchagua
   - RSS: `https://www.latribunadecolchagua.cl/category/salud/feed/`
+- **La Voz de Pucón**: Feed de la categoría 'Salud' en La Voz de Pucón
+  - RSS: `https://www.lavozdepucon.cl/category/salud/feed/`
+- **La Voz del Norte**: Feed de la categoría 'Salud' en La Voz del Norte
+  - RSS: `https://www.lavozdelnorte.cl/category/salud/feed/`
 - **Las Noticias de Malleco**: Feed de la categoría 'Salud' en Las Noticias de Malleco
   - RSS: `https://lasnoticiasdemalleco.cl/category/salud/feed/`
 - **Linares en Línea**: Feed de la categoría 'Salud' en Linares en Línea
@@ -184,12 +214,18 @@
   - Portal Red Salud - Sector Laboral: `https://portalredsalud.cl/category/sector-laboral/feed/`
   - Portal Red Salud - Nutrición: `https://portalredsalud.cl/category/nutricion/feed/`
   - Portal Red Salud [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalredsalud.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Primera Fuente**: Feed de la categoría 'Salud' en Primera Fuente
+  - RSS: `https://primerafuente.cl/category/salud/feed/`
 - **Publimicro**: Feed de la categoría 'Salud' en Publimicro
   - RSS: `https://publimicro.cl/contenidos-noticias/salud/feed/`
 - **Radio 45 Sur**: Feed de la categoría 'Salud' en Radio 45 Sur
   - RSS: `https://radio45sur.cl/category/salud/feed/`
 - **Radio Cristalina**: Feed de la categoría 'Salud' en Radio Cristalina
   - RSS: `https://radiocristalina.cl/category/salud/feed/`
+- **Radio Guayacán**: Feed de la categoría 'Salud' en Radio Guayacán
+  - RSS: `https://radioguayacan.cl/category/noticias/region/salud/feed/`
+- **Radio HVA**: Feed de la categoría 'Salud' en Radio HVA
+  - RSS: `https://www.hvaradio.cl/category/salud/feed/`
 - **Radio Magallanes**: Feed de la categoría 'Salud' en Radio Magallanes
   - RSS: `https://radiomagallanes.cl/category/salud/feed/`
 - **Radio Maray**: Feed de la categoría 'Vida y Salud' en Radio Maray
@@ -198,6 +234,8 @@
   - RSS: `https://www.radiosantamaria.cl/category/salud/feed/`
 - **Radio UdeC**: Feed de la categoría 'Salud' en Radio UdeC
   - RSS: `https://www.radioudec.cl/category/salud/feed/`
+- **Región de Coquimbo**: Feed de la categoría 'Salud' en Región de Coquimbo
+  - RSS: `https://regiondecoquimbo.cl/category/salud/feed/`
 - **Revista Médica de Chile** — Revista Médica de Chile, publicación científica
   - Revista Médica de Chile: `https://www.revistamedicadechile.cl/index.php/rmedica/gateway/plugin/WebFeedGatewayPlugin/atom`
   - Revista Médica de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:revistamedicadechile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -238,6 +276,8 @@
   - RSS: `https://tierramarillano.cl/category/salud/feed/`
 - **Traiguén City**: Feed de la categoría 'Salud' en Traiguén City
   - RSS: `https://traiguencity.cl/noticias/traiguen/salud/feed/`
+- **Tu Región Noticias**: Feed de la categoría 'Salud Y Belleza' en Tu Región Noticias
+  - RSS: `https://trnoticias.cl/category/salud/feed/`
 - **Tus Noticias**: Feed de la categoría 'Salud' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/salud/feed/`
 - **VLN Radio**: Feed de la categoría 'Salud Y Bienestar' en VLN Radio

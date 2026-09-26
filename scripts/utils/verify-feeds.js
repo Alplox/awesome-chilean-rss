@@ -5,8 +5,8 @@
  * Script genérico para verificar feeds RSS/Atom.
  * 
  * Uso:
- *   node scripts/utils/verify-feeds.js <feeds.json>
- *   node scripts/utils/verify-feeds.js https://ejemplo.com/feed.xml
+ *    pnpm verify:feeds -- <feeds.json>
+ *    pnpm verify:feeds -- https://ejemplo.com/feed.xml
  * 
  * Formato de feeds.json:
  * [
@@ -29,8 +29,8 @@ let feeds = null;
 if (args.length === 0) {
   console.error('❌ Error: Debes especificar un archivo JSON o una URL');
   console.error('Uso:');
-  console.error('  node scripts/utils/verify-feeds.js <feeds.json>');
-  console.error('  node scripts/utils/verify-feeds.js https://ejemplo.com/feed.xml');
+  console.error('   pnpm verify:feeds -- <feeds.json>');
+  console.error('   pnpm verify:feeds -- https://ejemplo.com/feed.xml');
   console.error('\nEjemplo de feeds.json:');
   console.error(JSON.stringify([
     { name: 'Feed 1', url: 'https://ejemplo.com/feed.xml' },

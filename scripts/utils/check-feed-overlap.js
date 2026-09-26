@@ -1,7 +1,7 @@
 /**
  * Detecta subfeeds que duplican contenido de otros feeds del mismo sitio.
  * Uso:
- *   node scripts/utils/check-feed-overlap.js [--id site] [--from N --to N] [--limit N]
+ *    -- [--id site] [--from N --to N] [--limit N]
  *       [--threshold 0.85] [--update] [--automatic] [--validate]
  * Con --update marca los feeds duplicados como status: "duplicate",
  * verified: false y guarda duplicate_of (a qué feed duplican).

@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`jobs.opml`](../../opml/categories/jobs.opml) - 18 sitios, 25 feeds*
+*Descargar OPML: [`jobs.opml`](../../opml/categories/jobs.opml) - 19 sitios, 26 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Empleabilidad' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/empleabilidad/feed/`
@@ -32,6 +32,8 @@
   - RSS: `https://www.elclarin.cl/category/trabajo/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Empleabilidad' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/economia-y-negocios/empleabilidad/feed/`
+- **El Diario Santiago**: Feed de la categoría 'Empleabilidad' en El Diario Santiago
+  - RSS: `https://eldiariosantiago.cl/category/economia/empleabilidad/feed/`
 - **Laborum** — Portal de empleos chileno
   - Laborum: `https://www.laborum.cl/blog/feed/`
   - Laborum [Proxy Google News]: `https://news.google.com/rss/search?q=site:laborum.cl&hl=es-419&gl=CL&ceid=CL:es-419`

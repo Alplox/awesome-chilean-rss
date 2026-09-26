@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`sports.opml`](../../opml/categories/sports.opml) - 143 sitios, 214 feeds*
+*Descargar OPML: [`sports.opml`](../../opml/categories/sports.opml) - 159 sitios, 247 feeds*
 
 - **Aconcagua Digital**: Feed de la categoría 'Deportes' en Aconcagua Digital
   - RSS: `https://aconcaguadigital.cl/category/deportes/feed/`
@@ -123,6 +123,8 @@
   - RSS: `https://www.elcoquimbano.cl/category/deportes/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Noticias Deportivas' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/noticias-deportivas/feed/`
+- **El Diario Santiago**: Feed de la categoría 'Noticias Deportivas' en El Diario Santiago
+  - RSS: `https://eldiariosantiago.cl/category/deportes/feed/`
 - **El Insular**: Feed de la categoría 'Deporte' en El Insular
   - RSS: `https://elinsular.cl/category/deporte/feed/`
 - **El Maipo**: Feed de la categoría 'Deporte' en El Maipo
@@ -171,6 +173,8 @@
   - RSS: `https://estapasando.cl/category/deportes/feed/`
 - **Fotech**: Feed de la categoría 'Deportes' en Fotech
   - RSS: `https://www.fotech.cl/category/tendencias/deportes/feed/`
+- **Fresia Ahora**: Feed de la categoría 'Deportes' en Fresia Ahora
+  - RSS: `https://www.fresiaahora.cl/category/comuna/deportes/feed/`
 - **Frontera Norte**: Feed de la categoría 'Deportes' en Frontera Norte
   - RSS: `https://www.fronteranorte.cl/category/deportes/feed/`
 - **G5 Noticias**: Feed de la categoría 'Deportes' en G5 Noticias
@@ -182,6 +186,8 @@
   - RSS: `https://horadenoticias.cl/seccion/deporte/feed/`
 - **Informa Al Minuto**: Feed de la categoría 'Deportes' en Informa Al Minuto
   - RSS: `https://informaalminuto.cl/category/deportes/feed/`
+- **Iquique Hoy**: Feed de la categoría 'Deportes' en Iquique Hoy
+  - RSS: `https://www.iquiquehoy.cl/category/deportes/feed/`
 - **La Batalla de Maipú**: Feed de la categoría 'Deportes' en La Batalla de Maipú
   - RSS: `https://www.labatalla.cl/secciones/deportes/feed/`
 - **La Cuarta**: Feed de la categoría 'Deportes' en La Cuarta
@@ -194,6 +200,8 @@
   - RSS: `https://lamegafm.cl/category/tarapaca/deporte/feed/`
 - **La Noticia**: Feed de la categoría 'Deporte' en La Noticia
   - RSS: `https://lanoticia.cl/category/deporte/feed/`
+- **La Opinión Online**: Feed de la categoría 'Deportes' en La Opinión Online
+  - RSS: `https://www.laopiniononline.cl/category/deportes/feed/`
 - **La Perla del Limarí**: Feed de la categoría 'Deportes' en La Perla del Limarí
   - RSS: `https://www.laperladellimari.cl/category/deportes/feed/`
 - **La Prensa Austral**: Feed de la categoría 'Deportes' en La Prensa Austral
@@ -208,6 +216,10 @@
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/el-deportivo/?outputType=xml`
 - **La Tribuna de Colchagua**: Feed de la categoría 'Deportes' en La Tribuna de Colchagua
   - RSS: `https://www.latribunadecolchagua.cl/category/deportes/feed/`
+- **La Voz de Pucón**: Feed de la categoría 'Deportes' en La Voz de Pucón
+  - RSS: `https://www.lavozdepucon.cl/category/deportes/feed/`
+- **La Voz del Norte**: Feed de la categoría 'Deporte' en La Voz del Norte
+  - RSS: `https://www.lavozdelnorte.cl/category/deporte/feed/`
 - **Las Noticias de Malleco**: Feed de la categoría 'Deportes' en Las Noticias de Malleco
   - RSS: `https://lasnoticiasdemalleco.cl/category/deportes/feed/`
 - **Linares en Línea**: Feed de la categoría 'Deportes' en Linares en Línea
@@ -251,12 +263,32 @@
   - RSS: `https://pagina19.cl/categoria/deportes/feed/`
 - **Panorama Noticioso**: Feed de la categoría 'Deportes' en Panorama Noticioso
   - RSS: `https://www.panoramanoticioso.cl/category/deporte/feed/`
+- **Pasión por los Deportes** — Periódico deportivo digital centrado en el Maule, con fútbol profesional y amateur, polideportivo, paralímpico y esports.
+  - Pasión por los Deportes: `https://pasionporlosdeportes.cl/feed/`
+  - Pasión por los Deportes - Rangers: `https://pasionporlosdeportes.cl/category/rangers/feed/`
+  - Pasión por los Deportes - Polideportivo: `https://pasionporlosdeportes.cl/category/polideportivo/feed/`
+  - Pasión por los Deportes - Fútbol Amateur: `https://pasionporlosdeportes.cl/category/futbol-amateur/feed/`
+  - Pasión por los Deportes - Regional Amateur: `https://pasionporlosdeportes.cl/category/regional-ama/feed/`
+  - Pasión por los Deportes - Español: `https://pasionporlosdeportes.cl/category/espanol/feed/`
+  - Pasión por los Deportes - Comunal: `https://pasionporlosdeportes.cl/category/comunal/feed/`
+  - Pasión por los Deportes - Lnb: `https://pasionporlosdeportes.cl/category/lnb/feed/`
+  - Pasión por los Deportes - Truenos: `https://pasionporlosdeportes.cl/category/truenos/feed/`
+  - Pasión por los Deportes - Columna De Opinión: `https://pasionporlosdeportes.cl/category/columna-de-opinion/feed/`
+  - Pasión por los Deportes - Constitución Unido: `https://pasionporlosdeportes.cl/category/constitucion-unido/feed/`
+  - Pasión por los Deportes - Paralímpico: `https://pasionporlosdeportes.cl/category/paralimpico/feed/`
+  - Pasión por los Deportes - Club Liceo: `https://pasionporlosdeportes.cl/category/club-liceo/feed/`
+  - Pasión por los Deportes - Buenos Aires De Parral: `https://pasionporlosdeportes.cl/category/futbol-amateur/buenos-aires-de-parral/feed/`
+  - Pasión por los Deportes - Cdsb Constitución: `https://pasionporlosdeportes.cl/category/lnb/cdsb-constitucion/feed/`
+  - Pasión por los Deportes [Proxy Google News]: `https://news.google.com/rss/search?q=site:pasionporlosdeportes.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Pasión por los Deportes [Proxy Bing News]: `https://www.bing.com/news/search?q=site:pasionporlosdeportes.cl&format=RSS`
 - **Perfil**: Feed de deportes de Perfil
   - RSS: `https://www.perfil.com/feed/deportes`
 - **Portal Informativo**: Feed de la categoría 'Deportes' en Portal Informativo
   - RSS: `https://portalinformativo.cl/category/deportes/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Deportes' en Portal Metropolitano
   - RSS: `https://portalmetropolitano.cl/category/deportes/feed/`
+- **Prensa Eventos**: Feed de la categoría 'Deporte' en Prensa Eventos
+  - RSS: `https://prensaeventos.cl/category/deporte/feed/`
 - **Prensa Fútbol** — Portal chileno de noticias de fútbol
   - Prensa Fútbol: `https://www.prensafutbol.cl/feed/`
   - Prensa Fútbol - Destacadas: `https://www.prensafutbol.cl/noticias/destacadas/feed/`
@@ -284,18 +316,31 @@
   - Primera B Chile: `https://primerabchile.cl/feed/`
   - Primera B Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:primerabchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Primera B Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:primerabchile.cl&format=RSS`
+- **Primera Fuente**: Feed de la categoría '⚽ Deportes' en Primera Fuente
+  - RSS: `https://primerafuente.cl/category/deportes/feed/`
 - **Publimicro**: Feed de la categoría 'Deportes' en Publimicro
   - RSS: `https://publimicro.cl/contenidos-noticias/deportes/feed/`
+- **Pulso Comunal**: Feed de la categoría 'Deportes' en Pulso Comunal
+  - RSS: `https://www.radiopulsocomunal.cl/category/deportes/feed/`
 - **Pulso Público**: Feed de la categoría 'Deportes' en Pulso Público
   - RSS: `https://pulsopublico.cl/deportes/feed/`
+- **Punto Cruzado** — Sitio chileno de actualidad y entretenimiento sobre series, música, videojuegos, deportes y cultura popular.
+  - Punto Cruzado - Fútbol: `https://puntoseguido.cl/category/futbol/feed/`
+  - Punto Cruzado - Deportes: `https://puntoseguido.cl/category/puntoseguido/deportes/feed/`
 - **Radar BioBio**: Feed de la categoría 'Deportes' en Radar BioBio
   - RSS: `https://radarbiobio.cl/deportes/feed/`
 - **Radio 45 Sur**: Feed de la categoría 'Deporte' en Radio 45 Sur
   - RSS: `https://radio45sur.cl/category/deporte/feed/`
+- **Radio Acogida**: Feed de la categoría 'Deportes' en Radio Acogida
+  - RSS: `https://radioacogida.cl/category/deportes/feed/`
+- **Radio Comunicativa de Ovalle**: Feed de la categoría 'Deportes' en Radio Comunicativa de Ovalle
+  - RSS: `https://radiocomunicativa.cl/category/deportes/feed/`
 - **Radio Contacto**: Feed de la categoría 'Deportes' en Radio Contacto
   - RSS: `https://radiocontacto.cl/category/deportes/feed/`
 - **Radio Cooperativa**: Feed de la sección 'Deportes' en Radio Cooperativa
   - RSS: `https://www.cooperativa.cl/noticias/site/tax/port/all/rss_1___1.xml`
+- **Radio HVA**: Feed de la categoría 'Deportes' en Radio HVA
+  - RSS: `https://www.hvaradio.cl/category/deportes/feed/`
 - **Radio Interamericana**: Feed de la categoría 'Deportes' en Radio Interamericana
   - RSS: `https://radiointeramericana.cl/category/noticias/deportes/feed/`
 - **Radio Magallanes**: Feed de la categoría 'Deportes' en Radio Magallanes
@@ -320,6 +365,8 @@
   - Redgol: `https://redgol.cl/rss/feed`
   - Redgol [Proxy Google News]: `https://news.google.com/rss/search?q=site:redgol.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Redgol [Proxy Bing News]: `https://www.bing.com/news/search?q=site:redgol.cl&format=RSS`
+- **Región de Coquimbo**: Feed de la categoría 'Deportes' en Región de Coquimbo
+  - RSS: `https://regiondecoquimbo.cl/category/deportes/feed/`
 - **RLN (Radio Las Nieves)**: Feed de la categoría 'Deportes' en RLN (Radio Las Nieves)
   - RSS: `https://www.rln.cl/category/deportes/feed/`
 - **RunningShot** — Medio digital chileno sobre running, carreras, trail running, equipamiento y vida activa
@@ -357,6 +404,8 @@
   - RSS: `https://traiguencity.cl/noticias/traiguen/deportes/feed/`
 - **Tus Noticias**: Feed de la categoría 'Deportes' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/deportes/feed/`
+- **TV Canal 5**: Feed de la categoría 'Deporte' en TV Canal 5
+  - RSS: `https://tvcanal5.cl/category/deporte/feed/`
 - **Vilas Radio**: Feed de la categoría 'Deportes' en Vilas Radio
   - RSS: `https://vilasradio.cl/category/deportes/feed/`
 - **VLN Radio**: Feed de la categoría 'Deportes' en VLN Radio

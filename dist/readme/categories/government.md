@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`government.opml`](../../opml/categories/government.opml) - 44 sitios, 169 feeds*
+*Descargar OPML: [`government.opml`](../../opml/categories/government.opml) - 48 sitios, 186 feeds*
 
 - **Atacama Noticias**: Feed de la categoría 'Avisos Legales' en Atacama Noticias
   - RSS: `https://www.atacamanoticias.cl/category/avisos-legales/feed/`
@@ -36,6 +36,12 @@
   - Defensoría de la Niñez [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.defensorianinez.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diálogo Sur**: Feed de la categoría 'Gobierno' en Diálogo Sur
   - RSS: `https://dialogosur.cl/category/gobierno/feed/`
+- **DICREP** — Dirección General del Crédito Prendario: trámites, créditos, remates, subastas y economía circular del Gobierno de Chile.
+  - DICREP: `https://www.dicrep.gob.cl/feed/`
+  - DICREP [Proxy Google News]: `https://news.google.com/rss/search?q=site:dicrep.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Dirección de Vialidad** — Portal oficial de la Dirección de Vialidad del MOP sobre caminos, rutas, obras, seguridad vial y licitaciones.
+  - Dirección de Vialidad: `https://vialidad.mop.gob.cl/feed/`
+  - Dirección de Vialidad [Proxy Google News]: `https://news.google.com/rss/search?q=site:vialidad.mop.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **EFE** — Empresa de Ferrocarriles del Estado de Chile
   - EFE: `https://www.efe.cl/feed/`
   - EFE - EFE Central: `https://www.efe.cl/category/efe-central/feed/`
@@ -66,6 +72,18 @@
   - RSS: `https://www.ispch.cl/feed/`
 - **La Noticia**: Feed de la categoría 'Gobierno' en La Noticia
   - RSS: `https://lanoticia.cl/category/gobierno/feed/`
+- **MarcaChile** — Portal oficial de Marca Chile sobre exportación, turismo e internacionalización del país.
+  - MarcaChile: `https://www.marcachile.cl/feed/`
+  - MarcaChile - Chile Diverso: `https://www.marcachile.cl/category/chile-diverso/feed/`
+  - MarcaChile - Chile Global: `https://www.marcachile.cl/category/chile-global/feed/`
+  - MarcaChile - Marca Chile: `https://www.marcachile.cl/category/chile-global/marca-chile/feed/`
+  - MarcaChile - Imagen De Chile: `https://www.marcachile.cl/category/chile-global/imagen-de-chile/feed/`
+  - MarcaChile - Chile País De Mujeres: `https://www.marcachile.cl/category/mujeres/feed/`
+  - MarcaChile - Columnas Y Entrevistas: `https://www.marcachile.cl/category/columnas-y-entrevistas/feed/`
+  - MarcaChile - Entrevistas: `https://www.marcachile.cl/category/entrevistas/feed/`
+  - MarcaChile - Columnas: `https://www.marcachile.cl/category/columnas/feed/`
+  - MarcaChile - Vino: `https://www.marcachile.cl/category/chile-diverso/vino/feed/`
+  - MarcaChile [Proxy Google News]: `https://news.google.com/rss/search?q=site:marcachile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Mediabanco**: Feed de la categoría 'Gobierno' en Mediabanco
   - RSS: `https://www.mediabanco.com/categoria/comunicados-de-prensa/gobierno/feed/`
 - **MercadoPublico** — Plataforma oficial de compras públicas y licitaciones del Estado de Chile
@@ -129,6 +147,9 @@
   - Ministerio del Trabajo y Previsión Social - Noticias: `https://www.mintrab.gob.cl/category/noticias/feed/`
   - Ministerio del Trabajo y Previsión Social - Destacados: `https://www.mintrab.gob.cl/category/destacado1/feed/`
   - Ministerio del Trabajo y Previsión Social - Consejo Superior Laboral: `https://www.mintrab.gob.cl/category/consejo-superior-laboral-2/feed/`
+- **Municipalidad de Puerto Montt** — Portal oficial municipal con noticias, programas, trámites, ordenanzas y proyectos de Puerto Montt.
+  - Municipalidad de Puerto Montt: `https://www.puertomontt.cl/feed/`
+  - Municipalidad de Puerto Montt - Portada: `https://www.puertomontt.cl/listar/portada/feed/`
 - **Municipalidad de Viña del Mar** — Sitio oficial de la Ilustre Municipalidad de Viña del Mar
   - Municipalidad de Viña del Mar - Noticias: `https://www.munivina.cl/noticias/feed/rss/`
   - Municipalidad de Viña del Mar [Proxy Google News]: `https://news.google.com/rss/search?q=site:munivina.cl&hl=es-419&gl=CL&ceid=CL:es-419`

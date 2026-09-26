@@ -17,7 +17,7 @@
  *      node validate_feeds.js --url <URL>
  *      node validate_feeds.js --start-id <site-id> [--limit <N>]
  *      node validate_feeds.js --from <N> --to <N> [--update]
- *      npm run validate
+ *      pnpm validate
  *
  * Opciones:
  *   --update         Actualiza feeds-database.json con correcciones y redescubrimientos
@@ -364,8 +364,8 @@ async function main() {
 
   if (hasWatchlistMode) {
     console.log(`📢 La validación de watchlist ahora tiene su propio comando:\n`);
-    console.log(`   npm run validate:watchlist [--update] [--automatic]`);
-    console.log(`   node scripts/core/validate-watchlist.js [--update] [--automatic]\n`);
+    console.log(`    -- [--update] [--automatic]`);
+    console.log(`    -- [--update] [--automatic]\n`);
     return;
   }
 

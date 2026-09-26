@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Aysén (32 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Aysén (43 feeds)</title>
     <description>Feeds RSS de la Región de Aysén, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
+    <dateCreated>2026-09-26T16:58:18.401Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -14,7 +14,11 @@
       <outline type="rss" text="Aysén Ahora - Nacional" title="Aysén Ahora - Nacional" description="Feed de la categoría 'Nacional' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/nacional/feed/" htmlUrl="https://www.aysenahora.cl/category/nacional/"/>
       <outline type="rss" text="Aysén Ahora - Política" title="Aysén Ahora - Política" description="Feed de la categoría 'Política' en Aysén Ahora" xmlUrl="https://www.aysenahora.cl/category/politica/feed/" htmlUrl="https://www.aysenahora.cl/category/politica/"/>
       <outline type="rss" text="Aysén Ahora [Proxy Google News]" title="Aysén Ahora [Proxy Google News]" description="Resultados de site:aysenahora.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Aysén TV" title="Aysén TV" description="Feed principal de Aysén TV" xmlUrl="https://www.aysentv.cl/feed/" htmlUrl="https://www.aysentv.cl/"/>
+      <outline type="rss" text="Aysén TV [Proxy Google News]" title="Aysén TV [Proxy Google News]" description="Resultados de site:aysentv.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:aysentv.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:aysentv.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Google News - Chile - Región Aysén" title="Google News - Chile - Región Aysén" description="Noticias locales de la Región de Aysén vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="PanoramicAysén" title="PanoramicAysén" description="Feed principal de PanoramicAysén" xmlUrl="https://www.panoramicaysen.cl/blog-feed.xml" htmlUrl="https://www.panoramicaysen.cl/"/>
+      <outline type="rss" text="PanoramicAysén [Proxy Google News]" title="PanoramicAysén [Proxy Google News]" description="Resultados de site:panoramicaysen.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:panoramicaysen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:panoramicaysen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio Santa María" title="Radio Santa María" description="Feed principal de Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/feed" htmlUrl="https://www.radiosantamaria.cl"/>
       <outline type="rss" text="Radio Santa María - Cultura" title="Radio Santa María - Cultura" description="Feed de la categoría 'Cultura' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/cultura/feed/" htmlUrl="https://www.radiosantamaria.cl/category/cultura/"/>
       <outline type="rss" text="Radio Santa María - Deportes" title="Radio Santa María - Deportes" description="Feed de la categoría 'Deportes' en Radio Santa María" xmlUrl="https://www.radiosantamaria.cl/category/deportes/feed/" htmlUrl="https://www.radiosantamaria.cl/category/deportes/"/>
@@ -40,6 +44,13 @@
       <outline type="rss" text="RLN (Radio Las Nieves) - Rincón Del Vendedor" title="RLN (Radio Las Nieves) - Rincón Del Vendedor" description="Feed de la categoría 'Rincón Del Vendedor' en RLN (Radio Las Nieves)" xmlUrl="https://www.rln.cl/category/rincondelvendedor/feed/" htmlUrl="https://www.rln.cl/category/rincondelvendedor/"/>
       <outline type="rss" text="RLN (Radio Las Nieves) [Proxy Bing News]" title="RLN (Radio Las Nieves) [Proxy Bing News]" description="Resultados de site:rln.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:rln.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:rln.cl"/>
       <outline type="rss" text="RLN (Radio Las Nieves) [Proxy Google News]" title="RLN (Radio Las Nieves) [Proxy Google News]" description="Resultados de site:rln.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:rln.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:rln.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Tehuelche Noticias" title="Tehuelche Noticias" description="Feed principal de Tehuelche Noticias" xmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/feed/" htmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/"/>
+      <outline type="rss" text="Tehuelche Noticias - Columnas" title="Tehuelche Noticias - Columnas" description="Feed de la categoría 'Columnas' en Tehuelche Noticias" xmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/columnas/feed/" htmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/columnas/"/>
+      <outline type="rss" text="Tehuelche Noticias - Destacadas" title="Tehuelche Noticias - Destacadas" description="Feed de la categoría 'Destacadas' en Tehuelche Noticias" xmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/destacadas/feed/" htmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/destacadas/"/>
+      <outline type="rss" text="Tehuelche Noticias - Editorial" title="Tehuelche Noticias - Editorial" description="Feed de la categoría 'Editorial' en Tehuelche Noticias" xmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/editorial/feed/" htmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/editorial/"/>
+      <outline type="rss" text="Tehuelche Noticias - Las Voces De Aysén Y Su Aporte A La Identidad Local" title="Tehuelche Noticias - Las Voces De Aysén Y Su Aporte A La Identidad Local" description="Feed de la categoría 'Las Voces De Aysén Y Su Aporte A La Identidad Local' en Tehuelche Noticias" xmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/las-voces-de-aysen-y-su-aporte-a-la-identidad-local/feed/" htmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/las-voces-de-aysen-y-su-aporte-a-la-identidad-local/"/>
+      <outline type="rss" text="Tehuelche Noticias - Nacional" title="Tehuelche Noticias - Nacional" description="Feed de la categoría 'Nacional' en Tehuelche Noticias" xmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/nacional/feed/" htmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/nacional/"/>
+      <outline type="rss" text="Tehuelche Noticias - Regional" title="Tehuelche Noticias - Regional" description="Feed de la categoría 'Regional' en Tehuelche Noticias" xmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/regional/feed/" htmlUrl="https://tehuelchenoticias.cl/nuevo_sitio/category/regional/"/>
     </outline>
   </body>
 </opml>

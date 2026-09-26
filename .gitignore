@@ -8,4 +8,5 @@
 
 # Node
 node_modules/
-npm-debug.log
+npm-debug.log*
+pnpm-debug.log*

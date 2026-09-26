@@ -8,10 +8,10 @@ Valida un feed o sitio específico sin modificar la BD.
 
 ```bash
 # Validar un feed RSS directamente
-node scripts/core/validate_feeds.js --url https://ejemplo.com/feed.xml
+pnpm validate -- --url https://ejemplo.com/feed.xml
 
 # Validar un sitio (intenta redescubrir feeds)
-node scripts/core/validate_feeds.js --url https://ejemplo.com
+pnpm validate -- --url https://ejemplo.com
 ```
 
 **Salida:**
@@ -23,7 +23,7 @@ node scripts/core/validate_feeds.js --url https://ejemplo.com
 
 ### 🔭 Modo Watchlist: `--watchlist`
 
-Muestra instrucciones para usar `npm run validate:watchlist`.
+Muestra instrucciones para usar `pnpm validate:watchlist`.
 
 ---
 
@@ -32,7 +32,7 @@ Muestra instrucciones para usar `npm run validate:watchlist`.
 Valida solo un sitio de la BD.
 
 ```bash
-node scripts/core/validate_feeds.js --id ejemplo-cl --update
+pnpm validate -- --id ejemplo-cl --update
 ```
 
 ---
@@ -43,10 +43,10 @@ Valida un rango de sitios por índice numérico (inclusive).
 
 ```bash
 # Validar sitios del índice 50 al 100
-node scripts/core/validate_feeds.js --from 50 --to 100 --update
+pnpm validate -- --from 50 --to 100 --update
 
 # Solo validación, sin cambios
-node scripts/core/validate_feeds.js --from 0 --to 10 --automatic
+pnpm validate -- --from 0 --to 10 --automatic
 ```
 
 Útil para ejecuciones por lotes o para retomar desde un punto específico.
@@ -59,10 +59,10 @@ Comienza la validación desde un site-id específico (inclusive). Ideal para rea
 
 ```bash
 # Desde un ID, solo los primeros 25
-node scripts/core/validate_feeds.js --start-id bbc-mundo --limit 25 --automatic
+pnpm validate -- --start-id bbc-mundo --limit 25 --automatic
 
 # Desde un ID, hasta el final
-node scripts/core/validate_feeds.js --start-id bbc-mundo --update
+pnpm validate -- --start-id bbc-mundo --update
 ```
 
 Se puede combinar con `--limit` para controlar cuántos sitios procesar.
@@ -74,8 +74,8 @@ Se puede combinar con `--limit` para controlar cuántos sitios procesar.
 Procesa solo los primeros N sitios. Se aplica al final, después de cualquier otro filtro.
 
 ```bash
-node scripts/core/validate_feeds.js --limit 5 --automatic
-node scripts/core/validate_feeds.js --start-id adnradio --limit 10
+pnpm validate -- --limit 5 --automatic
+pnpm validate -- --start-id adnradio --limit 10
 ```
 
 ---
@@ -86,10 +86,10 @@ Valida todos los feeds de `sites` en feeds-database.json.
 
 ```bash
 # Solo validación (sin cambios)
-node scripts/core/validate_feeds.js
+pnpm validate
 
 # Con actualización (aplica cambios a la BD)
-node scripts/core/validate_feeds.js --update
+pnpm validate -- --update
 ```
 
 ---
@@ -100,16 +100,16 @@ Valida cada entrada de `watchlist.json` e intenta promover las exitosas a `sites
 
 ```bash
 # Solo validar (sin cambios)
-npm run validate:watchlist
+pnpm validate:watchlist
 
 # Validar y promover feeds descubiertos
-npm run validate:watchlist -- --update
+pnpm validate:watchlist -- --update
 
 # Modo automático (promueve todo sin preguntar)
-npm run validate:watchlist -- --update --automatic
+pnpm validate:watchlist -- --update --automatic
 
 # Validar un solo sitio de la watchlist
-npm run validate:watchlist -- --id adnradio [--update]
+pnpm validate:watchlist -- --id adnradio [--update]
 ```
 
 **Flujo por entrada:**
@@ -134,10 +134,10 @@ Desactiva todos los prompts interactivos para CI o ejecución desatendida.
 
 ```bash
 # CI: solo validación, no modifica archivos (read-only)
-npm run validate -- --automatic
+pnpm validate -- --automatic
 
 # Batch: valida y actualiza sin preguntar
-npm run validate -- --update --automatic
+pnpm validate -- --update --automatic
 ```
 
 **Con `--automatic` solo** (sin `--update`):
@@ -173,6 +173,8 @@ En ambos modos:
 | `validate:watchlist`     | Watchlist    | ❌ No       | 🐢 Lento  | Retest watchlist    |
 | `validate:watchlist -- --update` | Watchlist | ✅ Sí     | 🐢 Lento  | Promover watchlist  |
 | `validate:watchlist -- --id <id>` | 1 watchlist | según flag | ⚡ Rápido | Promover uno solo |
+| `check:overlap` | Feeds con contenido duplicado | ❌ No | 🐢 Lento | Detectar solapamiento |
+| `check:overlap -- --update` | Ídem | ✅ Sí | 🐢 Lento | Marcar como `duplicate` |
 
 ---
 
@@ -196,6 +198,33 @@ Los meses abreviados en español (`ene.`, `feb.`, etc.) se normalizan automátic
 
 ---
 
+## Detección de feeds duplicados por contenido (`check:overlap`)
+
+Distinto de `check:duplicates` (que compara IDs, URLs y dominios), `check:overlap` descarga
+los feeds de cada sitio y compara **los items** entre sí.
+
+```bash
+# Solo reporte (no escribe)
+pnpm check:overlap
+
+# Marcar los duplicados en feeds-database.json
+pnpm check:overlap -- --update
+
+# Marcar duplicados y refrescar el estado del resto con los mismos fetch
+pnpm check:overlap -- --update --validate
+```
+
+- Los items se comparan por `guid` o `link` normalizado (minúsculas, sin ancla `#...` ni `/` final)
+- Umbral de coincidencia: **85%** (`--threshold <0-1>` para ajustarlo)
+- Se excluyen los subfeeds `-proxy-` (Google/Bing News) y el feed principal `{site}-main`
+- Se requieren ≥ 5 items por feed para comparar
+- Con `--update`: `status: "duplicate"`, `verified: false`, `duplicate_of: <feed-id>`
+
+Ese estado no aparece en los OPML/README generados: solo entran feeds `active` + `verified`.
+Después de un `--update` hay que ejecutar `pnpm generate` y commitear los archivos generados.
+
+---
+
 ## Estructura del módulo (`lib/`)
 
 La lógica de validación está organizada en módulos separados:
@@ -205,6 +234,8 @@ La lógica de validación está organizada en módulos separados:
 | `lib/feed-validator.js` | Core RSS/Atom/JSON/RDF parsing: `fetchSafe`, `checkFeedUrl`, `detectFeedType`, `getMostRecentDate`, `readResponseBody` |
 | `lib/network-utils.js` | Red: `checkSiteStatus`, `checkCertError`, `checkSiteReachable`, `tryFetchFeedInsecure`, `isValidUrl` |
 | `lib/feed-rediscovery.js` | Redescubrimiento: `extractFeedLinksFromHtml`, `rediscoverFeed`, `FEED_PATTERNS`, `parseLinkHeader`, `extractJsonLdFeeds` |
+| `lib/browser-fallback.js` | Respaldo con navegador headless (Playwright, opcional): `fetchWithBrowser`, `closeBrowser` — resuelve challenges anti-bot |
+| `lib/feed-overlap.js` | Solapamiento de items entre feeds del mismo sitio: `normalizeItemKey`, `keySet`, `containmentRatio`, `findDuplicate` |
 | `lib/prompter.js` | Prompts interactivos: `promptUser`, `promptUrl`, `promptStatus`, `isAutomatic` |
 | `lib/watchlist-validator.js` | Watchlist pipeline: `validateWatchlistEntry`, `promoteToSite` |
 
@@ -247,7 +278,7 @@ Cuando una URL de feed falla:
 2. **HTTP error o timeout**
    - **403 / 429 (bloqueo anti-bot)** → no redescubre ni pregunta: el feed puede
      estar sano pero el servidor bloquea al script. Con `--update` intenta leer
-     el feed con un navegador headless (Playwright, `npm run install:browser`),
+     el feed con un navegador headless (Playwright, `pnpm install:browser`),
      resolviendo challenges de Cloudflare pasivos; si lo logra lo marca `active`
      (o `stale` si está vencido). Si el challenge no se resuelve (ej. Turnstile
      interactivo) conserva el estado y lo lista como "🚫 Bloqueado bot".
@@ -296,11 +327,12 @@ Cuando una URL de feed falla:
 ## Workflows de GitHub Actions
 
 ### `check-format.yml`
-- **Disparo**: PR + manual (`workflow_dispatch`)
-- **Ejecuta**: `npm run ci` (validate:json + validate:opml + generate + diff)
-- **Propósito**: verificar formato y sincronía de archivos
+- **Disparo**: PR (data, `scripts/**`, `lib/**`, `package.json`, docs, OPML) + manual (`workflow_dispatch`)
+- **Ejecuta**: `pnpm run check:sync` (validate:json + check:duplicates + check:docs + validate:opml + generate + diff)
+- **Propósito**: verificar formato, documentación y sincronía de archivos
+- **Nota**: se invoca como `pnpm run check:sync`, nunca `pnpm ci` — pnpm ≥11 tiene un comando built-in `ci` (clean install) que pisa un script llamado `ci`
 
 ### `validate-links.yml`
 - **Disparo**: solo manual (`workflow_dispatch`)
-- **Ejecuta**: `npm run validate -- --automatic` (read-only)
+- **Ejecuta**: `pnpm validate -- --automatic` (read-only)
 - **Propósito**: verificar que las URLs de feed respondan correctamente

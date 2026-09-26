@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Tarapacá (192 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Tarapacá (199 feeds)</title>
     <description>Feeds RSS de la Región de Tarapacá, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-15T00:06:51.828Z</dateCreated>
+    <dateCreated>2026-09-26T16:58:18.401Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -119,6 +119,11 @@
     <outline type="rss" text="Info Tarapacá - Regional" title="Info Tarapacá - Regional" description="Feed de la categoría 'Regional' en Info Tarapacá" xmlUrl="https://infotarapaca.cl/category/noticias/regional/feed/" htmlUrl="https://infotarapaca.cl/category/noticias/regional/"/>
     <outline type="rss" text="Info Tarapacá - Tamarugal" title="Info Tarapacá - Tamarugal" description="Feed de la categoría 'Tamarugal' en Info Tarapacá" xmlUrl="https://infotarapaca.cl/category/noticias/tamarugal/feed/" htmlUrl="https://infotarapaca.cl/category/noticias/tamarugal/"/>
     <outline type="rss" text="Info Tarapacá [Proxy Google News]" title="Info Tarapacá [Proxy Google News]" description="Resultados de site:infotarapaca.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:infotarapaca.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:infotarapaca.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Iquique Hoy" title="Iquique Hoy" description="Feed principal de Iquique Hoy" xmlUrl="https://www.iquiquehoy.cl/feed/" htmlUrl="https://www.iquiquehoy.cl/"/>
+    <outline type="rss" text="Iquique Hoy - Deportes" title="Iquique Hoy - Deportes" description="Feed de la categoría 'Deportes' en Iquique Hoy" xmlUrl="https://www.iquiquehoy.cl/category/deportes/feed/" htmlUrl="https://www.iquiquehoy.cl/category/deportes/"/>
+    <outline type="rss" text="Iquique Hoy - Iquique Hoy" title="Iquique Hoy - Iquique Hoy" description="Feed de la categoría 'Iquique Hoy' en Iquique Hoy" xmlUrl="https://www.iquiquehoy.cl/category/iquique-hoy/feed/" htmlUrl="https://www.iquiquehoy.cl/category/iquique-hoy/"/>
+    <outline type="rss" text="Iquique Hoy - Nacional" title="Iquique Hoy - Nacional" description="Feed de la categoría 'Nacional' en Iquique Hoy" xmlUrl="https://www.iquiquehoy.cl/category/nacional/feed/" htmlUrl="https://www.iquiquehoy.cl/category/nacional/"/>
+    <outline type="rss" text="Iquique Hoy [Proxy Google News]" title="Iquique Hoy [Proxy Google News]" description="Resultados de site:iquiquehoy.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:iquiquehoy.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:iquiquehoy.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Iquique TV" title="Iquique TV" description="Feed principal de Iquique TV" xmlUrl="https://iquiquetv.cl/feed" htmlUrl="https://iquiquetv.cl"/>
     <outline type="rss" text="Iquique TV - Agricultura" title="Iquique TV - Agricultura" description="Feed de la categoría 'Agricultura' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/agricultura/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/agricultura/"/>
     <outline type="rss" text="Iquique TV - Anuncios" title="Iquique TV - Anuncios" description="Feed de la categoría 'Anuncios' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/anuncios/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/anuncios/"/>
@@ -186,6 +191,8 @@
     <outline type="rss" text="Radio Paulina - Zofri" title="Radio Paulina - Zofri" description="Feed de la categoría 'Zofri' en Radio Paulina" xmlUrl="https://radiopaulina.cl/category/comunicados/zofri/feed/" htmlUrl="https://radiopaulina.cl/category/comunicados/zofri/"/>
     <outline type="rss" text="Radio Paulina [Proxy Bing News]" title="Radio Paulina [Proxy Bing News]" description="Resultados de site:radiopaulina.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:radiopaulina.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:radiopaulina.cl"/>
     <outline type="rss" text="Radio Paulina [Proxy Google News]" title="Radio Paulina [Proxy Google News]" description="Resultados de site:radiopaulina.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiopaulina.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiopaulina.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="SLEP Tamarugal" title="SLEP Tamarugal" description="Feed principal de SLEP Tamarugal" xmlUrl="https://sleptamarugal.gob.cl/feed/" htmlUrl="https://sleptamarugal.gob.cl/"/>
+    <outline type="rss" text="SLEP Tamarugal [Proxy Google News]" title="SLEP Tamarugal [Proxy Google News]" description="Resultados de site:sleptamarugal.gob.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:sleptamarugal.gob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:sleptamarugal.gob.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Tarapacá Online" title="Tarapacá Online" description="Feed principal de Tarapacá Online" xmlUrl="https://www.tarapacaonline.cl/feed/" htmlUrl="https://www.tarapacaonline.cl"/>
     <outline type="rss" text="Tarapacá Online - Alto Hospicio" title="Tarapacá Online - Alto Hospicio" description="Feed de la categoría 'Alto Hospicio' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/alto-hospicio/feed/" htmlUrl="https://tarapacaonline.cl/category/alto-hospicio/"/>
     <outline type="rss" text="Tarapacá Online - Deportes" title="Tarapacá Online - Deportes" description="Feed de la categoría 'Deportes' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/deportes/feed/" htmlUrl="https://tarapacaonline.cl/category/deportes/"/>

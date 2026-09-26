@@ -161,7 +161,15 @@ Antes de contribuir, verifica que:
 - ✅ El feed RSS esté **activo y accesible** (no devuelva error 404/500)
 - ✅ El feed se actualice con **regularidad** (idealmente al menos una vez al mes)
 - ✅ El contenido sea **relevante para Chile** (medios chilenos, cobertura de temas chilenos)
-- ✅ El feed no esté **duplicado** en la lista
+- ✅ El feed no esté **duplicado** en la lista — dos formas de verificarlo:
+
+```bash
+# Duplicados de URL / ID / dominio (incluye cruces entre BD y watchlist)
+pnpm check:duplicates
+
+# Duplicados de contenido: feeds que repiten los mismos items dentro de un sitio
+pnpm check:overlap
+```
 
 ### 3. Cómo hacer un Pull Request
 
@@ -178,10 +186,10 @@ Antes de contribuir, verifica que:
 4. **Edita** el archivo [`feeds-database.json`](feeds-database.json):
    - Agrega tu sitio en el array `sites` con los campos requeridos
    - Si el sitio ofrece múltiples feeds (por sección o temática), agrégalos todos bajo el campo `feeds[]` del mismo sitio
-   - Ejecuta `npm run generate` para regenerar `README.md`, `dist/opml/chilean-rss.opml` y demás OPMLs automáticamente:
+   - Ejecuta `pnpm generate` para regenerar `README.md`, `dist/opml/chilean-rss.opml` y demás OPMLs automáticamente:
    ```bash
-   npm install
-   npm run generate
+   pnpm install
+   pnpm generate
    ```
 5. **Commit** con un mensaje claro:
    ```bash
@@ -198,10 +206,17 @@ Antes de contribuir, verifica que:
 
 ## 🔍 Validación automática
 
-Todos los Pull Requests se someten a:
+Cada Pull Request dispara el workflow **Check Format**, que corre `pnpm run check:sync`:
 
-- **Validación de links**: Verificamos que todos los URLs de RSS sean accesibles y no devuelvan errores 404/500
-- **Formato del README**: Chequeamos que el documento cumpla con el formato Markdown esperado
+- **Estructura del JSON**: que `feeds-database.json`, `categories.json`, `regions.json` y `watchlist.json` tengan todos los campos requeridos y valores válidos
+- **Duplicados**: que no haya IDs, URLs ni dominios repetidos
+- **Documentación**: que `SCRIPT_README.md` y `AGENTS.md` documenten todos los scripts, módulos y estados
+- **Sintaxis OPML**: que cada `<outline type="rss">` tenga `xmlUrl` y `text`
+- **Sincronización**: que los OPML, `README.md` y bookmarks generados estén al día con el JSON
+
+> 💡 Si agregas un script, un módulo en `lib/` o un estado nuevo, `pnpm check:docs` fallará hasta que lo agregues a **ambos** documentos (`SCRIPT_README.md` y `AGENTS.md`).
+
+La **validación de links** (verificar que cada feed responda sin errores 404/500) es lenta y se ejecuta solo de forma manual desde la pestaña *Actions* del repo.
 
 Si el workflow falla, puedes ver los detalles haciendo clic en "Details" en el PR y revisando los logs.
 

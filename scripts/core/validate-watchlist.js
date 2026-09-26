@@ -2,7 +2,7 @@
 /**
  * Valida sitios en watchlist.json y promueve los que pasen todos los checks.
  *
- * Uso: node scripts/core/validate-watchlist.js [--update] [--automatic] [--id <site-id>]
+ * Uso:  -- [--update] [--automatic] [--id <site-id>]
  *                                         [--from <N> --to <M>] [--start-id <id>] [--limit <N>]
  *   --update       Mueve los feeds válidos a sites[] en feeds-database.json
  *   --automatic    Modo no interactivo (sin prompts, promueve todo)

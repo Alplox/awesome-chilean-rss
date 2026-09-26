@@ -9,6 +9,10 @@ on:
       - 'categories.json'
       - 'regions.json'
       - 'scripts/**'
+      - 'lib/**'
+      - 'package.json'
+      - 'SCRIPT_README.md'
+      - 'AGENTS.md'
       - 'dist/opml/chilean-rss.opml'
       - 'dist/opml/chilean-rss-nested.opml'
       - 'README.md'
@@ -17,13 +21,18 @@ on:
 
 jobs:
   format:
-    name: Validate JSON, OPML and check sync
+    name: Validate JSON, docs, OPML and check sync
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-      - run: npm ci
-      - run: npm run ci
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
+      # OJO: usar `pnpm run check:sync`, no `pnpm ci` — pnpm 11 tiene un
+      # comando built-in `ci` (clean install) que pisa el script del package.json.
+      - run: pnpm run check:sync

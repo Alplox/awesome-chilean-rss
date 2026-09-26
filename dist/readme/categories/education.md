@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`education.opml`](../../opml/categories/education.opml) - 111 sitios, 310 feeds*
+*Descargar OPML: [`education.opml`](../../opml/categories/education.opml) - 125 sitios, 341 feeds*
 
 - **(Empresa) Contapapaya**: Feed de la categoría 'Educación' en (Empresa) Contapapaya
   - RSS: `https://contapapaya.cl/category/educacion/feed/`
@@ -80,6 +80,8 @@
   - DaemsPP [Proxy Bing News]: `https://www.bing.com/news/search?q=site:daemspp.cl&format=RSS`
 - **De Mar a Cordillera TV**: Feed de la categoría 'Universidades' en De Mar a Cordillera TV
   - RSS: `https://demaracordilleratv.cl/category/universidades/feed/`
+- **De Todo Valdivia**: Feed de la categoría 'Educación' en De Todo Valdivia
+  - RSS: `https://www.dtvaldivia.cl/index.php/category/noticias/educacion/feed/`
 - **Desenfoque**: Feed de la categoría 'Educación' en Desenfoque
   - RSS: `https://desenfoque.cl/categoria/educacion/feed/`
 - **Desierto FM**: Feed de la categoría 'Educación' en Desierto FM
@@ -100,6 +102,8 @@
   - RSS: `https://www.diarioelpulso.cl/category/educacion/feed/`
 - **Diario La Región**: Feed de la categoría 'Educación' en Diario La Región
   - RSS: `https://www.diariolaregion.cl/category/eduacion/feed/`
+- **Diario Mapuche**: Feed de la categoría 'Academia' en Diario Mapuche
+  - RSS: `https://www.mapuchediario.cl/category/academia/feed/`
 - **Diario Puerto Varas**: Feed de la categoría 'Investigación' en Diario Puerto Varas
   - RSS: `https://diariopuertovaras.cl/category/investigacion/feed/`
 - **Diario Sur Noticias**: Feed de la categoría 'Educación' en Diario Sur Noticias
@@ -170,6 +174,9 @@
 - **El Diario de La Araucanía** — Diario regional de Angol, La Araucanía
   - El Diario de La Araucanía - Educación: `https://www.eldiariodelaaraucania.cl/category/educacion/feed/`
   - El Diario de La Araucanía - Educación Superior: `https://www.eldiariodelaaraucania.cl/category/educacion/educacion-superior/feed/`
+- **El Diario Santiago** — Medio digital chileno de actualidad y análisis sobre política, sociedad y participación ciudadana.
+  - El Diario Santiago - Educación: `https://eldiariosantiago.cl/category/educacion/feed/`
+  - El Diario Santiago - Educación Superior: `https://eldiariosantiago.cl/category/educacion/educacion-superior/feed/`
 - **El Morro de Arica**: Feed de la categoría 'Educación' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/educacion/feed/`
 - **El Nacional**: Feed de la categoría 'Educación' en El Nacional
@@ -210,6 +217,8 @@
   - FLACSO Chile - Programas De Investigación: `https://flacsochile.org/category/noticias/programas-de-investigacion/feed/`
   - FLACSO Chile - Noticias Académicas: `https://flacsochile.org/category/noticias/noticias-academicas/feed/`
   - FLACSO Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:flacsochile.org&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Fresia Ahora**: Feed de la categoría 'Educación' en Fresia Ahora
+  - RSS: `https://www.fresiaahora.cl/category/comuna/educacion/feed/`
 - **G5 Noticias**: Feed de la categoría 'Educación' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/educacion/feed/`
 - **Google News**: Página de resultados para keyword=educación en Google News de noticias Chilenas
@@ -243,6 +252,8 @@
   - RSS: `https://lafontana.cl/category/educacion/feed/`
 - **La Noticia**: Feed de la categoría 'Educación' en La Noticia
   - RSS: `https://lanoticia.cl/category/educacion/feed/`
+- **La Opinión Online**: Feed de la categoría 'Educación' en La Opinión Online
+  - RSS: `https://www.laopiniononline.cl/category/educacion/feed/`
 - **Las Noticias de Malleco**: Feed de la categoría 'Educación' en Las Noticias de Malleco
   - RSS: `https://lasnoticiasdemalleco.cl/category/educacion/feed/`
 - **Libertad y Desarrollo** — Centro de estudios e investigación chileno dedicado al análisis de políticas públicas, economía y temas sociales
@@ -279,6 +290,13 @@
   - RSS: `https://noticiasbiobio.cl/category/educacion/feed/`
 - **Noticias Chiloé**: Feed de la categoría 'Educación' en Noticias Chiloé
   - RSS: `https://loslagosnoticias.cl/category/educacion/feed/`
+- **Noticias de la Universidad del Bío-Bío** — Portal de actualidad de la Universidad del Bío-Bío sobre investigación, docencia, vida estudiantil, innovación y extensión.
+  - Noticias de la Universidad del Bío-Bío: `https://noticias.ubiobio.cl/feed`
+  - Noticias de la Universidad del Bío-Bío - A Boletín: `https://noticias.ubiobio.cl/category/boletin/feed/`
+  - Noticias de la Universidad del Bío-Bío - Destacadas: `https://noticias.ubiobio.cl/category/noticias-destacadas/feed/`
+  - Noticias de la Universidad del Bío-Bío - Tribuna: `https://noticias.ubiobio.cl/category/tribuna/feed/`
+  - Noticias de la Universidad del Bío-Bío [Proxy Google News]: `https://news.google.com/rss/search?q=site:noticias.ubiobio.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Noticias de la Universidad del Bío-Bío [Proxy Bing News]: `https://www.bing.com/news/search?q=site:noticias.ubiobio.cl&format=RSS`
 - **Noticias Los Ríos**: Feed de la categoría 'Educación' en Noticias Los Ríos
   - RSS: `https://www.noticiaslosrios.cl/seccion/educacion/feed/`
 - **Observatorio de Datos UAI** — Observatorio de periodismo de datos y fact-checking de la Universidad Adolfo Ibáñez
@@ -332,6 +350,10 @@
   - PUC (Pontificia Universidad Católica) [Proxy Google News]: `https://news.google.com/rss/search?q=site:uc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio 45 Sur**: Feed de la categoría 'Educacion' en Radio 45 Sur
   - RSS: `https://radio45sur.cl/category/educacion/feed/`
+- **Radio Guayacán**: Feed de la categoría 'Educación' en Radio Guayacán
+  - RSS: `https://radioguayacan.cl/category/noticias/region/educacion/feed/`
+- **Radio HVA**: Feed de la categoría 'Educación' en Radio HVA
+  - RSS: `https://www.hvaradio.cl/category/educacion/feed/`
 - **Radio JGM** — Radio Juan Gómez Millas, de la Universidad de Chile
   - Radio JGM - Educación: `https://radiojgm.uchile.cl/category/educacion/feed/`
   - Radio JGM - Universidad: `https://radiojgm.uchile.cl/category/universidad/feed/`
@@ -341,6 +363,11 @@
   - RSS: `https://www.radiosantamaria.cl/category/educacion/feed/`
 - **Radio UdeC**: Feed de la categoría 'Educación' en Radio UdeC
   - RSS: `https://www.radioudec.cl/category/educacion/feed/`
+- **Región de Coquimbo**: Feed de la categoría 'Educación' en Región de Coquimbo
+  - RSS: `https://regiondecoquimbo.cl/category/educacion/feed/`
+- **Repositorio Académico de la Universidad de Chile** — Repositorio institucional que preserva y distribuye publicaciones académicas de la Universidad de Chile, como tesis, artículos, libros e informes.
+  - Repositorio Académico de la Universidad de Chile: `https://repositorio.uchile.cl/feed/atom_1.0/site`
+  - Repositorio Académico de la Universidad de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:repositorio.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Río en Línea**: Feed de la categoría 'Educación' en Río en Línea
   - RSS: `https://www.rioenlinea.cl/seccion/educacion/feed/`
 - **SIP Red de Colegios** — Red de colegios de la Sociedad de Instrucción Primaria de Santiago
@@ -348,6 +375,13 @@
   - SIP Red de Colegios - Aniversario Sip: `https://www.sip.cl/category/aniversariosip/feed/`
   - SIP Red de Colegios - Relatos De Nuestra Historia: `https://www.sip.cl/category/relatossip/feed/`
   - SIP Red de Colegios [Proxy Google News]: `https://news.google.com/rss/search?q=site:sip.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **SLEP Licancabur** — Servicio Local de Educación Pública que administra establecimientos de Calama, Ollagüe, San Pedro de Atacama, Tocopilla y María Elena.
+  - SLEP Licancabur: `https://sleplicancabur.cl/feed`
+  - SLEP Licancabur - Calama: `https://sleplicancabur.cl/category/calama/feed/`
+  - SLEP Licancabur [Proxy Google News]: `https://news.google.com/rss/search?q=site:sleplicancabur.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **SLEP Tamarugal** — Servicio Local de Educación Pública que administra 45 establecimientos de cinco comunas de Tarapacá y publica noticias educativas.
+  - SLEP Tamarugal: `https://sleptamarugal.gob.cl/feed/`
+  - SLEP Tamarugal [Proxy Google News]: `https://news.google.com/rss/search?q=site:sleptamarugal.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Temuco Diario**: Feed de la categoría 'Educación' en Temuco Diario
   - RSS: `https://temucodiario.cl/category/educacion/feed/`
 - **The Grange School** — Colegio privado de Santiago
@@ -366,6 +400,8 @@
   - RSS: `https://traiguencity.cl/noticias/traiguen/educacion/feed/`
 - **Tropezón Tu Diario**: Feed de la categoría 'Educacion' en Tropezón Tu Diario
   - RSS: `https://nuevotropezon.tropezon.cl/category/educacion/feed/`
+- **Tu Región Noticias**: Feed de la categoría 'Educación' en Tu Región Noticias
+  - RSS: `https://trnoticias.cl/category/educacion/feed/`
 - **Tus Noticias**: Feed de la categoría 'Educación' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/educacion/feed/`
 - **Universidad Andrés Bello** — Universidad privada chilena con sedes en Santiago, Viña del Mar y Concepción
@@ -425,3 +461,12 @@
   - Vergara 240 - Videos: `https://vergara240.udp.cl/archivo/videos/feed/`
   - Vergara 240 - Entrevistas: `https://vergara240.udp.cl/archivo/entrevistas/feed/`
   - Vergara 240 [Proxy Google News]: `https://news.google.com/rss/search?q=site:vergara240.udp.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **VRIIC USACH** — Vicerrectoría de Investigación, Innovación y Creación de la USACH; difunde investigación, tecnología, ciencia abierta, proyectos y convocatorias.
+  - VRIIC USACH: `https://vriic.usach.cl/index.php/feed/`
+  - VRIIC USACH - Desarrollo: `https://vriic.usach.cl/index.php/category/desarrollo/feed/`
+  - VRIIC USACH - Investigación: `https://vriic.usach.cl/index.php/category/investigacion/feed/`
+  - VRIIC USACH - Ciencia Abierta: `https://vriic.usach.cl/index.php/category/proyecto-ines-ciencia-abierta/feed/`
+  - VRIIC USACH - Investigaciones Usach: `https://vriic.usach.cl/index.php/category/investigaciones-usach/feed/`
+  - VRIIC USACH - Fiu: `https://vriic.usach.cl/index.php/category/fiu/feed/`
+  - VRIIC USACH - Acreditación: `https://vriic.usach.cl/index.php/category/acreditacion/feed/`
+  - VRIIC USACH [Proxy Google News]: `https://news.google.com/rss/search?q=site:vriic.usach.cl&hl=es-419&gl=CL&ceid=CL:es-419`
