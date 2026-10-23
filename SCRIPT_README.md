@@ -9,7 +9,7 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 | Script                               | Comando                                             | Propósito                                                                                                                                                                                                                                                                                      |
 | ------------------------------------ | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `scripts/core/validate_feeds.js`     | `pnpm validate`                                  | Valida feeds sin modificar feeds-database.json                                                                                                                                                                                                                                                 |
-|                                      | `pnpm validate -- --update`                      | Revalida feeds, redescubre URLs rotas y actualiza feeds-database.json                                                                                                                                                                                                                          |
+|                                      | `pnpm validate -- --update`                      | Revalida feeds, redescubre URLs rotas y actualiza feeds-database.json (al terminar avisa de duplicados de IDs/URLs vía `lib/duplicate-finder.js`)                                                                                                                                             |
 |                                      | `pnpm validate -- --id <site-id>`                | Valida solo un sitio específico por su ID                                                                                                                                                                                                                                                      |
 |                                      | `pnpm validate -- --update --id <site-id>`       | Valida y actualiza solo un sitio específico                                                                                                                                                                                                                                                    |
 |                                      | `pnpm validate -- --url <URL>`                   | Valida una URL específica (feed o sitio) sin modificar BD                                                                                                                                                                                                                                      |
@@ -18,12 +18,16 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 |                                      | `pnpm validate -- --limit <N>`                   | Valida solo los primeros N sitios                                                                                                                                                                                                                                                              |
 |                                      | `pnpm validate -- --missing-date`                | Valida solo feeds sin `last_known_item_date` (nunca verificados). Con `--update` todos quedan con fecha ISO o `null`                                                                                                                                                                           |
 |                                      | `pnpm validate -- --status <estado>`             | Valida solo feeds con un estado específico (`active`, `stale`, `broken`, `offline`, `no_feed`, `feed_empty`)                                                                                                                                                                                   |
+|                                      | `pnpm validate -- --relay <lista>`               | Cross-check de red vía relay ante errores de conexión (automático; solo lectura, no cambia estados)                                                                                                                                                                                           |
+|                                      | `pnpm validate -- --no-relay`                     | Desactiva el cross-check de red (en modo `--automatic` ya está desactivado por defecto)                                                                                                                                                                                                      |
 |                                      | `pnpm validate -- --watchlist`                   | Muestra instrucciones para usar `pnpm validate:watchlist`                                                                                                                                                                                                                                   |
-|                                      | `pnpm validate -- --update --automatic`          | Modo no interactivo para CI/desatendido                                                                                                                                                                                                                                                        |
+|                                      | `pnpm validate -- --update --automatic`          | Modo no interactivo para CI/desatendido: registra estados sin prompts. **No mueve sitios** entre archivos (para eso, `--move`) |
+|                                      | `pnpm validate -- --update --automatic --move`   | Además mueve a `watchlist.json` los sitios sin feeds nativos activos, sin pedir confirmación |
 | `scripts/core/generate.js`           | `pnpm generate`                                  | Lee `feeds-database.json`, `categories.json` y `regions.json`, regenera `dist/opml/chilean-rss.opml`, `dist/opml/chilean-rss-nested.opml`, `dist/opml/chilean-rss-regions.opml`, `dist/opml/regions/*.opml`, `dist/opml/categories/*.opml`, `dist/bookmarks/awesome-chilean-rss.html` y README |
 | `scripts/core/validate-watchlist.js` | `pnpm validate:watchlist`                        | Valida watchlist, promueve feeds válidos a sites con `--update`                                                                                                                                                                                                                                |
-|                                      | `pnpm validate:watchlist -- --update`            | Promueve automáticamente los feeds válidos a sites[]                                                                                                                                                                                                                                           |
-|                                      | `pnpm validate:watchlist -- --automatic`         | Modo no interactivo (promueve todo sin preguntar)                                                                                                                                                                                                                                              |
+|                                      | `pnpm validate:watchlist -- --update`            | Pregunta por entrada si promover los feeds válidos a sites[]                                                                                                                                                                                                                                   |
+|                                      | `pnpm validate:watchlist -- --automatic`         | Modo no interactivo: solo valida y registra; **no promueve** (para eso, `--move`)                                                                                                                                                                                                              |
+|                                      | `pnpm validate:watchlist -- --update --automatic --move` | Promueve todo a sites[] sin preguntar                                                                                                                                                                                                                                                  |
 |                                      | `pnpm validate:watchlist -- --id <id>`           | Valida y promueve solo un sitio específico de la watchlist                                                                                                                                                                                                                                     |
 
 ### Scripts de validación (validation/)
@@ -55,6 +59,12 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 |                                            | `pnpm check:overlap -- --update`                             | Marca los duplicados: `status: "duplicate"`, `verified: false` y `duplicate_of`                         |
 |                                            | `pnpm check:overlap -- --update --validate`                  | Además actualiza el estado (active/stale/feed_empty/broken) reutilizando los mismos fetch              |
 |                                            | `pnpm check:overlap -- --automatic`                          | Modo no interactivo (CI / pre-commit)                                                                    |
+| `scripts/utils/diagnose-network.js`          | `pnpm diagnose:network`                                          | Diagnostica feeds que fallan por error de conexión reintentando la lectura vía relay público (solo lectura)              |
+|                                            | `pnpm diagnose:network -- --id <site-id>`                       | Diagnostica un solo sitio                                                                                              |
+|                                            | `pnpm diagnose:network -- --url <URL>`                          | Diagnostica una URL directamente                                                                                        |
+|                                            | `pnpm diagnose:network -- --status offline,no_feed --limit 20`  | Limita por estado y cantidad                                                                                            |
+|                                            | `pnpm diagnose:network -- --file watchlist`                     | Revisa `database`, `watchlist` o `all` (default)                                                                        |
+|                                            | `pnpm diagnose:network -- --relay codetabs`                     | Elige relay: `allorigins`, `codetabs` o plantilla propia con `{url}`                                |
 | `scripts/utils/fix-stale-feeds.js`         | `pnpm fix:stale`                                                           | Marca como stale los feeds activos con último item > 30 días                                          |
 | `scripts/utils/standardize-feed-keys.js`   | `pnpm standardize:keys`                                 | Reordena claves de feeds/sites a orden canónico (FEED/SITE_KEY_ORDER) — soporta `database` y `watchlist` (con `reason`) |
 |                                            | `pnpm standardize:keys -- --file watchlist --dry-run`     | Preview solo watchlist (incluye `reason`); `--check` para CI (exit 1 si hay desorden)                  |
@@ -86,8 +96,10 @@ La lógica de red y redescubrimiento está organizada en módulos independientes
 | `lib/network-utils.js`       | Red: `checkSiteReachable`, `checkCertError`, `tryFetchFeedInsecure`, `isValidUrl`                                                                                                                 |
 | `lib/feed-rediscovery.js`    | Redescubrimiento: `extractFeedLinksFromHtml`, `rediscoverFeed`, `FEED_PATTERNS`, `parseLinkHeader`, `extractJsonLdFeeds`                                                                          |
 | `lib/feed-overlap.js`        | Solapamiento de items: `normalizeItemKey`, `keySet`, `containmentRatio`, `findDuplicate` (usado por `check:overlap`)                                                                                |
+| `lib/duplicate-finder.js`    | Detección de duplicados **sin red** (IDs/URLs/dominios, intra-DB y DB↔watchlist): `normalizeSiteUrl`, `normalizeFeedUrl`, `rootDomainOf`, `findDuplicates` (usado por `check:duplicates` y por el resumen de `validate`) |
 | `lib/browser-fallback.js`    | Verificación con navegador headless (Playwright, dependencia opcional): `fetchWithBrowser`, `closeBrowser` — resuelve challenges anti-bot tipo Cloudflare                                                    |
 | `lib/feed-utils.js`          | Utilidades compartidas: `extractSelfLink`, `pathsMatch`, `daysSince`, `isStale`, `formatError`, `recalculateTotalFeeds`, `ALLOWED_STATUSES`, `BROKEN_ERRORS`, `getDomain`, `STALE_THRESHOLD_DAYS`, `DUPLICATE_OVERLAP_THRESHOLD` |
+| `lib/relay-fetch.js`         | Relay de un solo endpoint para diagnóstico de red: `RELAY_PRESETS`, `resolveRelay`, `resolveRelayList`, `checkFeedViaRelay`, `checkReachabilityViaRelay`, `looksLikeRelayErrorPage`, `RELAY_TIMEOUT_MS` (usado por `diagnose:network` y el flag `--relay`) |
 | `lib/cli-args.js`            | Parseo centralizado de args CLI: `parseArgs`, `applyFilters`, `applyFiltersSites`                                                                                                                 |
 | `lib/prompter.js`            | Prompts: `promptUser`, `promptUrl`, `promptStatus`, `isAutomatic`                                                                                                                                 |
 | `lib/watchlist-validator.js` | Watchlist: `validateWatchlistEntry`, `promoteToSite`                                                                                                                                              |
@@ -101,7 +113,8 @@ feeds-database.json    categories.json   regions.json      watchlist.json
        │                       │                │                   │
        ▼                       ▼                ▼                   ▼
   validate_feeds.js ──────►  generate.js ──────────────►  validate-watchlist.js
-  (lib/*, rediscover)        (by category + region)        (lib/watchlist-validator.js)
+  (lib/*, rediscover,        (by category + region)        (lib/watchlist-validator.js)
+   duplicate-finder)
        │                       │                                   │
        ▼                       ▼                                   ▼
      feeds-database.json        dist/opml/chilean-rss.opml           feeds-database.json†
@@ -114,10 +127,14 @@ feeds-database.json    categories.json   regions.json      watchlist.json
 
   find-duplicates.js  ──►  reporte en consola (solo lectura)
                            │  (IDs, URLs y dominios duplicados)
+                           │  vía lib/duplicate-finder.js (compartido con validate)
 
   check-feed-overlap.js ──►  reporte de feeds con contenido duplicado
                            │  dentro del mismo sitio
                            │  (--update los marca como "duplicate")
+
+  diagnose-network.js ───►  veredicto de red: local vs relay público
+                           │  (solo lectura, no escribe estados)
 
   add-site-subfeeds.js ──►  agrega subfeeds Google News + Bing News
                            │  a sitios/watchlist (--dry-run para previsualizar)
@@ -138,6 +155,8 @@ feeds-database.json    categories.json   regions.json      watchlist.json
 **Para revalidar feeds existentes:** ejecuta `pnpm validate`.
 
 **Para promover candidatos de la watchlist:** ejecuta `pnpm validate:watchlist -- --update`.
+
+**Para mover sitios inactivos a la watchlist:** `pnpm validate -- --update` pregunta sitio por sitio; `pnpm validate -- --update --automatic` solo registra estados (sin mover); `pnpm validate -- --update --automatic --move` los mueve sin preguntar (los sitios con todos sus feeds nativos inactivos).
 
 ## Requisitos
 
@@ -256,6 +275,94 @@ Con `--update` cada feed afectado queda con `status: "duplicate"`, `verified: fa
 feeds `active` + `verified`), así que después de un `--update` ejecuta `pnpm generate` y commitea
 `feeds-database.json` junto con los archivos generados.
 
+### Aviso automático al validar
+
+`validate_feeds.js` ejecuta la misma detección de `check:duplicates` (sin red, vía
+`lib/duplicate-finder.js`) al terminar, y la imprime como último bloque del resumen:
+
+```
+🔁 Entradas duplicadas : 2
+   • site IDs cruzados (BD ↔ WL): 1
+   • rss_url duplicada (BD): 1
+   → detalles: pnpm check:duplicates -- --verbose
+```
+
+Es una red de seguridad para `pnpm validate -- --update`: al redescubrir una URL rota el script
+puede asignar una `rss_url` que ya existe en otro sitio, y conviene verlo aquí antes de que el CI
+lo rechace.
+
+Además, el manejo de `duplicate_of` quedó sin dejar estados residuales:
+
+| Caso al revalidar                                                     | Resultado                                                  |
+| --------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Solapa ≥ 85% con el feed objetivo                                      | Sigue `duplicate` (no se re-promueve)                      |
+| Solapa < 85%                                                           | Se limpia `duplicate_of` y sigue el flujo normal            |
+| El feed objetivo no responde o tiene < 5 items (no se puede comparar)  | Se mantiene `duplicate`, **no** vuelve a `active`            |
+| `duplicate_of` apunta a un feed que ya no existe                       | Se limpia la marca y sigue el flujo normal                  |
+
+## 🌐 Diagnóstico de red (`diagnose:network`)
+
+Cuando un feed falla con un error de conexión (timeout, DNS, reset, IP bloqueada),
+no se sabe si el problema es del sitio o de la red desde donde se ejecuta el script.
+`lib/relay-fetch.js` reintenta la lectura a través de un **relay de un solo endpoint**
+(otro origen de salida) y el script emite un veredicto.
+
+```bash
+# Revisar todos los feeds en estado offline / no_feed / broken
+pnpm diagnose:network
+
+# Un sitio puntual o una URL suelta
+pnpm diagnose:network -- --id radio-festival
+pnpm diagnose:network -- --url https://ejemplo.cl/feed/
+
+# Limitar por estado, archivo y cantidad
+pnpm diagnose:network -- --status offline,no_feed --file database --limit 20
+
+# Elegir relay (presets: allorigins, codetabs) o una plantilla propia
+pnpm diagnose:network -- --relay codetabs
+pnpm diagnose:network -- --relay "https://mi-relay.workers.dev/?url={url}"
+```
+
+| Veredicto                    | Significado                                                                        |
+| ---------------------------- | ---------------------------------------------------------------------------------- |
+| 🌐 Probable red local        | El feed responde vía relay pero no en local → bloqueo o límite de red de esta máquina |
+| ⏳ Vivo pero antiguo         | Responde vía relay, pero su último item supera los 30 días → el feed está desactualizado, no es un problema de red |
+| ✅ Responde ahora            | El feed responde en local: el error anterior fue transitorio                       |
+| 🔴 Fallo confirmado          | No responde ni en local ni vía relay → fallo del sitio o del feed                  |
+| ❔ Relay no disponible       | El relay devolvió su propia página de error (cuota/pool) → no se puede concluir     |
+
+**Solo lectura**: `diagnose:network` nunca escribe `feeds-database.json` ni `watchlist.json`.
+Los resultados vía relay son informativos (un relay puede alterar el contenido), así que no se
+usan para cambiar estados. Tras un diagnóstico, aplica cambios con `pnpm validate -- --update`.
+
+El validador principal hace este mismo cross-check **automáticamente** cuando un feed o el sitio
+raíz fallan por error de conexión, y los resultados se cachean por host (un sitio con 50 feeds
+caídos cuesta una sola consulta al relay). Los sitios que responden desde otra red aparecen al
+final en el bloque `🌐 Posible red local`:
+
+```bash
+# El cross-check va activado por defecto en ejecuciones interactivas
+pnpm validate -- --update --id alerta-noticias-temuco
+
+# Elegir relays (presets o plantilla propia, separados por coma)
+pnpm validate -- --update --relay codetabs
+pnpm validate -- --relay "https://mi-relay.workers.dev/?url={url}"
+
+# Desactivarlo
+pnpm validate -- --no-relay
+```
+
+En modo `--automatic` (CI) el cross-check está **desactivado** salvo que pases `--relay`
+explícitamente: así el CI no depende de un tercero ni se alarga. El validador **no cambia
+estados** por lo que diga el relay: si un sitio aparece en `🌐 Posible red local`, revísalo
+antes de commitear los cambios de `feeds-database.json`.
+
+Relays por defecto: `allorigins,codetabs` (se prueban en orden, 15s de timeout cada uno).
+Limitaciones: los relays públicos tienen cuota y pueden caerse; una plantilla propia
+(por ejemplo un Cloudflare Worker que haga `fetch` del `{url}` y devuelva el body) es más
+estable y confiable. Manejar una lista de proxies aleatorios no se recomienda: la mayoría
+está caída, es lenta y puede devolver contenido alterado.
+
 ## 🆕 Modos de Validación
 
 ### Validar una URL específica
@@ -277,8 +384,11 @@ pnpm validate:watchlist
 # Validar y promover feeds descubiertos a sites[]
 pnpm validate:watchlist -- --update
 
-# Modo automático (promueve todo sin preguntar)
+# Modo automático (valida sin prompts; NO promueve)
 pnpm validate:watchlist -- --update --automatic
+
+# Modo automático + mover (promueve todo sin preguntar)
+pnpm validate:watchlist -- --update --automatic --move
 
 # Validar un solo sitio de la watchlist
 pnpm validate:watchlist -- --id adnradio --update
@@ -292,12 +402,16 @@ Valida cada entrada de `watchlist.json`: redescubre feed, valida contenido, veri
 # CI: solo validación, no modifica archivos (read-only)
 pnpm validate -- --automatic
 
-# Batch: valida y actualiza sin preguntar
+# Batch: valida y actualiza estados sin preguntar (sin mover sitios)
 pnpm validate -- --update --automatic
+
+# Batch + mover sitios sin feeds nativos activos a watchlist
+pnpm validate -- --update --automatic --move
 ```
 
 **`--automatic` sin `--update`** no modifica ningún archivo — ideal para CI, PR checks y pre-commit hooks.
-**`--update --automatic`** aplica cambios a `feeds-database.json` sin intervención (mantenimiento batch).
+**`--update --automatic`** aplica cambios a `feeds-database.json` sin intervención, pero solo registra estados; no mueve sitios entre archivos.
+**`--move`** (con `--update`) habilita mover entradas entre `feeds-database.json` y `watchlist.json`. Con `--automatic`, lo hace sin preguntar.
 
 ### Validar sitio específico
 
@@ -365,6 +479,16 @@ pnpm validate -- --limit 10 --automatic
           "last_checked": "2026-06-06T00:00:00.000Z",
           "status": "active",
           "verified": true
+        },
+        {
+          "id": "ejemplo-deportes-duplicado",
+          "name": "Ejemplo Deportes (duplicado)",
+          "rss_url": "https://ejemplo.cl/rss/deportes-duplicado/",
+          "feed_type": "RSS",
+          "last_checked": "2026-06-06T00:00:00.000Z",
+          "status": "duplicate", // marcar con pnpm check:overlap --update
+          "duplicate_of": "ejemplo-deportes", // OPTIONAL: feed del mismo sitio con el que solapa ≥85%
+          "verified": false
         }
       ]
     }
@@ -457,6 +581,11 @@ Si el feed original parece específico (tenía path segments como `/deportes/`) 
 - **Modo automático** (`--automatic`): omite el reemplazo y marca el feed como `broken`
 
 Esto evita degradar silenciosamente la base de datos reemplazando subfeeds temáticos por el feed principal del sitio.
+
+Dos detalles que hacen al guard efectivo:
+
+- La comparación normaliza la **barra final**: WordPress sirve el feed principal en `/feed` (sin barra) y redirige desde `/feed/`, así que ambas formas cuentan como genéricas. Sin esto, el guard no se activaba y un subfeed 404 terminaba apuntando al feed principal.
+- Nunca se acepta un feed descubierto cuya `rss_url` **ya use otro feed del mismo sitio**: por definición no es específico de esta sección (caso típico: varios feeds de categoría cayendo al feed principal). Se marca `broken` y se conserva la URL original.
 
 ### Cache de estado del sitio
 

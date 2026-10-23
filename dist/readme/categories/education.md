@@ -2,13 +2,15 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`education.opml`](../../opml/categories/education.opml) - 125 sitios, 341 feeds*
+*Descargar OPML: [`education.opml`](../../opml/categories/education.opml) - 118 sitios, 334 feeds*
 
 - **(Empresa) Contapapaya**: Feed de la categoría 'Educación' en (Empresa) Contapapaya
   - RSS: `https://contapapaya.cl/category/educacion/feed/`
 - **Actualidad UDLA** — Portal de actualidad e información de la Universidad de Las Américas
   - Actualidad UDLA - Portada: `https://actualidad.udla.cl/feed/`
   - Actualidad UDLA [Proxy Google News]: `https://news.google.com/rss/search?q=site:actualidad.udla.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Alerta Noticias**: Feed de la categoría 'Educacion' en Alerta Noticias
+  - RSS: `https://alertanoticias.cl/category/educacion/feed/`
 - **Alerta Noticias Temuco** — Diario regional de Temuco, La Araucanía
   - Alerta Noticias Temuco - Educación: `https://alertanoticiastemuco.cl/category/educacion/feed/`
   - Alerta Noticias Temuco - Educación Superior: `https://alertanoticiastemuco.cl/category/educacion-superior/feed/`
@@ -20,8 +22,6 @@
   - ANID [Proxy Google News]: `https://news.google.com/rss/search?q=site:anid.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Antofacity**: Feed de la categoría 'Educación' en Antofacity
   - RSS: `https://antofacity.com/category/educacion/feed/`
-- **Antofagasta Noticias**: Feed de la categoría 'Educación' en Antofagasta Noticias
-  - RSS: `https://www.antofagastanoticias.cl/category/educacion/feed/`
 - **Arica365**: Feed de la categoría 'Educación' en Arica365
   - RSS: `https://www.arica365.cl/blog/category/educacion/feed/`
 - **Aurora Noticias**: Feed de la categoría 'Educación' en Aurora Noticias
@@ -55,18 +55,16 @@
   - Colegio San Ignacio El Bosque: `https://www.sanignacio.cl/feed/`
   - Colegio San Ignacio El Bosque - Esei 2026: `https://sanignacio.cl/category/esei-2026/feed/`
   - Colegio San Ignacio El Bosque [Proxy Google News]: `https://news.google.com/rss/search?q=site:sanignacio.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Colegio Tabancura** — Colegio privado de Santiago, miembro de la red SEDUC
-  - Colegio Tabancura: `https://www.tabancura.cl/feed/`
-  - Colegio Tabancura [Proxy Google News]: `https://news.google.com/rss/search?q=site:tabancura.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Colegio Verbo Divino** — Colegio privado de Santiago
   - Colegio Verbo Divino: `https://www.verbodivino.cl/feed/`
   - Colegio Verbo Divino - Reflexiones: `https://verbodivino.cl/category/reflexiones/feed/`
   - Colegio Verbo Divino - Vida Verbita: `https://verbodivino.cl/category/vida-verbita/feed/`
   - Colegio Verbo Divino - Tu Palabra Es Lámpara Para Mis Pies: `https://verbodivino.cl/category/tu-palabra-es-lampara-para-mis-pies/feed/`
-  - Colegio Verbo Divino - Iglesia En Chile: `https://verbodivino.cl/category/iglesia-en-chile/feed/`
+  - Colegio Verbo Divino - Iglesia En El Mundo: `https://verbodivino.cl/category/iglesia-en-el-mundo/feed/`
   - Colegio Verbo Divino - Testimonios: `https://verbodivino.cl/category/testimonios/feed/`
   - Colegio Verbo Divino - Parroquias: `https://verbodivino.cl/category/parroquias/feed/`
-  - Colegio Verbo Divino - Recursos Pastorales: `https://verbodivino.cl/category/recursos-pastorales/feed/`
+  - Colegio Verbo Divino - La Palabra En Otras Palabras: `https://verbodivino.cl/category/la-palabra-en-otras-palabras/feed/`
+  - Colegio Verbo Divino - Colegios: `https://verbodivino.cl/category/colegios/feed/`
   - Colegio Verbo Divino [Proxy Google News]: `https://news.google.com/rss/search?q=site:verbodivino.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Comunidad Escolar**: Feed principal de Comunidad Escolar
   - RSS: `https://www.comunidadescolar.cl/feed/`
@@ -82,8 +80,6 @@
   - RSS: `https://demaracordilleratv.cl/category/universidades/feed/`
 - **De Todo Valdivia**: Feed de la categoría 'Educación' en De Todo Valdivia
   - RSS: `https://www.dtvaldivia.cl/index.php/category/noticias/educacion/feed/`
-- **Desenfoque**: Feed de la categoría 'Educación' en Desenfoque
-  - RSS: `https://desenfoque.cl/categoria/educacion/feed/`
 - **Desierto FM**: Feed de la categoría 'Educación' en Desierto FM
   - RSS: `https://www.desiertofm.cl/category/noticias/educacion/feed/`
 - **Diálogo Sur**: Feed de la categoría 'Educación' en Diálogo Sur
@@ -102,12 +98,10 @@
   - RSS: `https://www.diarioelpulso.cl/category/educacion/feed/`
 - **Diario La Región**: Feed de la categoría 'Educación' en Diario La Región
   - RSS: `https://www.diariolaregion.cl/category/eduacion/feed/`
+- **Diario Los Lagos**: Feed de la categoría 'Educación' en Diario Los Lagos
+  - RSS: `https://diarioloslagos.cl/category/noticias/educacion/feed/`
 - **Diario Mapuche**: Feed de la categoría 'Academia' en Diario Mapuche
   - RSS: `https://www.mapuchediario.cl/category/academia/feed/`
-- **Diario Puerto Varas**: Feed de la categoría 'Investigación' en Diario Puerto Varas
-  - RSS: `https://diariopuertovaras.cl/category/investigacion/feed/`
-- **Diario Sur Noticias**: Feed de la categoría 'Educación' en Diario Sur Noticias
-  - RSS: `https://www.diariosurnoticias.com/nacional/educacion/feed/`
 - **Diario UACh** — Medio institucional de la Universidad Austral de Chile con noticias sobre su comunidad, investigación y vinculación
   - Diario UACh: `https://diario.uach.cl/feed/`
   - Diario UACh - Historia: `https://diario.uach.cl/category/categorias/historia/feed/`
@@ -229,6 +223,10 @@
   - RSS: `https://infosalmon.cl/category/educacion/feed/`
 - **Instituto Nacional** — Liceo público de Santiago
   - Instituto Nacional: `https://www.institutonacional.cl/feed/`
+  - Instituto Nacional - Estudiantes: `https://institutonacional.cl/cat/estudiantes/feed/`
+  - Instituto Nacional - Apoderados: `https://institutonacional.cl/cat/apoderados/feed/`
+  - Instituto Nacional - Profesores: `https://institutonacional.cl/cat/profesores/feed/`
+  - Instituto Nacional - Funcionarios: `https://institutonacional.cl/cat/funcionarios/feed/`
   - Instituto Nacional - Slider: `https://institutonacional.cl/cat/slider/feed/`
   - Instituto Nacional - Admisión: `https://institutonacional.cl/cat/admision/feed/`
 - **Iquique TV**: Feed de la categoría 'Educación' en Iquique TV
@@ -239,6 +237,7 @@
   - JUNJI - Calidad Educativa: `https://junji.cl/category/calidad-educativa/feed/`
   - JUNJI - Participación Ciudadana: `https://junji.cl/category/participacion_ciudadana/feed/`
   - JUNJI [Proxy Google News]: `https://news.google.com/rss/search?q=site:junji.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - JUNJI [Proxy Bing News]: `https://www.bing.com/news/search?q=site:junji.cl&format=RSS`
 - **Kdoce** — Portal de noticias de educación, innovación y tecnología educativa en Chile
   - Kdoce: `https://kdoce.cl/feed/`
   - Kdoce - Tecnología Educativa: `https://kdoce.cl/category/tecnologia-educativa/feed/`
@@ -250,6 +249,8 @@
   - RSS: `https://www.labatalla.cl/secciones/educacion/feed/`
 - **La Fontana**: Feed de la categoría 'Educación' en La Fontana
   - RSS: `https://lafontana.cl/category/educacion/feed/`
+- **La Mega FM**: Feed de la categoría 'Educación' en La Mega FM
+  - RSS: `https://lamegafm.cl/category/tarapaca/educacion/feed/`
 - **La Noticia**: Feed de la categoría 'Educación' en La Noticia
   - RSS: `https://lanoticia.cl/category/educacion/feed/`
 - **La Opinión Online**: Feed de la categoría 'Educación' en La Opinión Online
@@ -275,21 +276,17 @@
   - Libertad y Desarrollo - Mi Cuenta: `https://lyd.org/feed/?category=mi-cuenta`
   - Libertad y Desarrollo [Proxy Google News]: `https://news.google.com/rss/search?q=site:lyd.org&hl=es-419&gl=CL&ceid=CL:es-419`
   - Libertad y Desarrollo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:lyd.org&format=RSS`
-- **Liceo Brainstorm Temuco**: Resultados de site:liceobrainstorm.cl en Proxy Google News de noticias Chilenas
-  - RSS: `https://news.google.com/rss/search?q=site:liceobrainstorm.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Liceo Brainstorm Temuco** — Liceo particular de Temuco
+  - Liceo Brainstorm Temuco: `https://www.liceobrainstorm.cl/feed/`
+  - Liceo Brainstorm Temuco - Noticias 2019: `https://www.liceobrainstorm.cl/category/noticias-2019/feed/`
+  - Liceo Brainstorm Temuco [Proxy Google News]: `https://news.google.com/rss/search?q=site:liceobrainstorm.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Liceo N°1 Javiera Carrera** — Liceo público de Santiago
   - Liceo N°1 Javiera Carrera: `https://www.liceo1.cl/feed/`
   - Liceo N°1 Javiera Carrera [Proxy Google News]: `https://news.google.com/rss/search?q=site:liceo1.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Linares en Línea**: Feed de la categoría 'Educación' en Linares en Línea
   - RSS: `https://www.linaresenlinea.cl/category/educacion/feed/`
-- **Los Ríos Noticias**: Feed de la categoría 'Educación' en Los Ríos Noticias
-  - RSS: `https://www.losriosnoticias.cl/category/educacion/feed/`
 - **Norte y Energía**: Feed de la categoría 'Capital Humano' en Norte y Energía
   - RSS: `https://www.norteyenergia.cl/category/educacion/feed/`
-- **Noticias Biobío**: Feed de la categoría 'Educación' en Noticias Biobío
-  - RSS: `https://noticiasbiobio.cl/category/educacion/feed/`
-- **Noticias Chiloé**: Feed de la categoría 'Educación' en Noticias Chiloé
-  - RSS: `https://loslagosnoticias.cl/category/educacion/feed/`
 - **Noticias de la Universidad del Bío-Bío** — Portal de actualidad de la Universidad del Bío-Bío sobre investigación, docencia, vida estudiantil, innovación y extensión.
   - Noticias de la Universidad del Bío-Bío: `https://noticias.ubiobio.cl/feed`
   - Noticias de la Universidad del Bío-Bío - A Boletín: `https://noticias.ubiobio.cl/category/boletin/feed/`
@@ -348,6 +345,7 @@
 - **PUC (Pontificia Universidad Católica)** — Noticias e investigación de la PUC
   - PUC (Pontificia Universidad Católica): `https://www.uc.cl/rss/`
   - PUC (Pontificia Universidad Católica) [Proxy Google News]: `https://news.google.com/rss/search?q=site:uc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - PUC (Pontificia Universidad Católica) [Proxy Bing News]: `https://www.bing.com/news/search?q=site:uc.cl&format=RSS`
 - **Radio 45 Sur**: Feed de la categoría 'Educacion' en Radio 45 Sur
   - RSS: `https://radio45sur.cl/category/educacion/feed/`
 - **Radio Guayacán**: Feed de la categoría 'Educación' en Radio Guayacán
@@ -372,6 +370,7 @@
   - RSS: `https://www.rioenlinea.cl/seccion/educacion/feed/`
 - **SIP Red de Colegios** — Red de colegios de la Sociedad de Instrucción Primaria de Santiago
   - SIP Red de Colegios: `https://www.sip.cl/feed/`
+  - SIP Red de Colegios - Video: `https://www.sip.cl/category/video/feed/`
   - SIP Red de Colegios - Aniversario Sip: `https://www.sip.cl/category/aniversariosip/feed/`
   - SIP Red de Colegios - Relatos De Nuestra Historia: `https://www.sip.cl/category/relatossip/feed/`
   - SIP Red de Colegios [Proxy Google News]: `https://news.google.com/rss/search?q=site:sip.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -392,37 +391,22 @@
   - The Grange School - Lower Prep: `https://grange.cl/category/lower-prep/feed/`
   - The Grange School - Co Curricular: `https://grange.cl/category/co-curricular/feed/`
   - The Grange School [Proxy Google News]: `https://news.google.com/rss/search?q=site:grange.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Tiempo 21**: Feed de la categoría 'Educación' en Tiempo 21
-  - RSS: `https://www.tiempo21.cl/educacion/feed/`
 - **Tour Innovación**: Feed de la categoría 'Educación' en Tour Innovación
   - RSS: `https://www.tourinnovacion.cl/seccion/educacion/feed/`
 - **Traiguén City**: Feed de la categoría 'Educación' en Traiguén City
   - RSS: `https://traiguencity.cl/noticias/traiguen/educacion/feed/`
-- **Tropezón Tu Diario**: Feed de la categoría 'Educacion' en Tropezón Tu Diario
-  - RSS: `https://nuevotropezon.tropezon.cl/category/educacion/feed/`
 - **Tu Región Noticias**: Feed de la categoría 'Educación' en Tu Región Noticias
   - RSS: `https://trnoticias.cl/category/educacion/feed/`
 - **Tus Noticias**: Feed de la categoría 'Educación' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/educacion/feed/`
 - **Universidad Andrés Bello** — Universidad privada chilena con sedes en Santiago, Viña del Mar y Concepción
   - Universidad Andrés Bello: `https://www.unab.cl/rss.xml`
-  - Universidad Andrés Bello - Estudiantes: `https://www.unab.cl/feed/?category=estudiantes`
-  - Universidad Andrés Bello - Academicos: `https://www.unab.cl/feed/?category=academicos`
-  - Universidad Andrés Bello - Egresados Unab: `https://www.unab.cl/feed/?category=egresados-unab`
-  - Universidad Andrés Bello - Unab Virtual: `https://www.unab.cl/feed/?category=unab-virtual`
-  - Universidad Andrés Bello - Redes Sociales Unab: `https://www.unab.cl/feed/?category=redes-sociales-unab`
-  - Universidad Andrés Bello - En: `https://www.unab.cl/feed/?category=en`
-  - Universidad Andrés Bello - Universidad: `https://www.unab.cl/feed/?category=universidad`
-  - Universidad Andrés Bello - Mision Vision Y Valores: `https://www.unab.cl/feed/?category=mision-vision-y-valores`
-  - Universidad Andrés Bello - Distinciones Academicas: `https://www.unab.cl/feed/?category=distinciones-academicas`
-  - Universidad Andrés Bello - Modelocontraelacosounab: `https://www.unab.cl/feed/?category=modelocontraelacosounab`
-  - Universidad Andrés Bello - Investigacion: `https://www.unab.cl/feed/?category=investigacion`
-  - Universidad Andrés Bello - Vinculacion Con El Medio: `https://www.unab.cl/feed/?category=vinculacion-con-el-medio`
-  - Universidad Andrés Bello - Internacionalidad: `https://www.unab.cl/feed/?category=internacionalidad`
   - Universidad Andrés Bello [Proxy Google News]: `https://news.google.com/rss/search?q=site:unab.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Universidad Andrés Bello [Proxy Bing News]: `https://www.bing.com/news/search?q=site:unab.cl&format=RSS`
 - **Universidad de Concepción** — Noticias e investigación de la Universidad de Concepción
   - Universidad de Concepción: `https://noticias.udec.cl/feed/`
   - Universidad de Concepción [Proxy Google News]: `https://news.google.com/rss/search?q=site:noticias.udec.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Universidad de Concepción [Proxy Bing News]: `https://www.bing.com/news/search?q=site:noticias.udec.cl&format=RSS`
 - **Universidad de La Frontera** — Noticias e investigación de la UFRO, Temuco
   - Universidad de La Frontera: `https://www.ufro.cl/feed/`
   - Universidad de La Frontera [Proxy Google News]: `https://news.google.com/rss/search?q=site:ufro.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -442,10 +426,12 @@
 - **Universidad Diego Portales** — Universidad privada de Santiago
   - Universidad Diego Portales: `https://www.udp.cl/feed/`
   - Universidad Diego Portales [Proxy Google News]: `https://news.google.com/rss/search?q=site:udp.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Universidad Diego Portales [Proxy Bing News]: `https://www.bing.com/news/search?q=site:udp.cl&format=RSS`
   - Universidad Diego Portales - Vinculación Con El Medio: `https://www.udp.cl/archivo/vinculacion-con-el-medio/feed/`
   - Universidad Diego Portales - Investigación: `https://www.udp.cl/archivo/investigacion/feed/`
   - Universidad Diego Portales - Pregrado Y Estudios Generales: `https://www.udp.cl/archivo/pregrado-estudios-generales/feed/`
   - Universidad Diego Portales - Universidad: `https://www.udp.cl/archivo/universidad/feed/`
+  - Universidad Diego Portales - Alumni: `https://www.udp.cl/archivo/alumni/feed/`
 - **Universidad Técnica Federico Santa María** — Universidad técnica estatal con sede en Valparaíso
   - Universidad Técnica Federico Santa María: `https://usm.cl/noticias/feed/`
   - Universidad Técnica Federico Santa María [Proxy Google News]: `https://news.google.com/rss/search?q=site:usm.cl&hl=es-419&gl=CL&ceid=CL:es-419`

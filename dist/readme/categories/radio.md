@@ -2,14 +2,19 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`radio.opml`](../../opml/categories/radio.opml) - 48 sitios, 185 feeds*
+*Descargar OPML: [`radio.opml`](../../opml/categories/radio.opml) - 49 sitios, 188 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Música' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/musica/feed/`
 - **Cadena Política**: Feed de la categoría 'Radio' en Cadena Política
   - RSS: `https://cadenapolitica.com/category/radio/feed/`
-- **Duplos**: Feed de la categoría 'Música' en Duplos
-  - RSS: `https://duplos.cl/musica/feed/`
+- **Colemono**: Feed de la categoría 'Música' en Colemono
+  - RSS: `https://colemono.com/category/noticias/musica/feed/`
+- **Diario El Nortino**: Feed de la categoría 'Arte Musical' en Diario El Nortino
+  - RSS: `https://diarioelnortino.cl/category/arte-musical/feed/`
+- **Duplos** — Diario regional de Santiago, Metropolitana
+  - Duplos - Música: `https://duplos.cl/musica/feed/`
+  - Duplos - K Pop: `https://duplos.cl/k-pop/feed/`
 - **El Ciudadano**: Feed de la categoría 'Música' en El Ciudadano
   - RSS: `https://www.elciudadano.com/noticias/arte-cultura/musica-artes/feed/`
 - **El Diario de Curacaví**: Feed de la categoría 'Música' en El Diario de Curacaví
@@ -22,6 +27,8 @@
   - RSS: `https://elinsular.cl/category/entretencion/musica/feed/`
 - **El Nacional**: Feed de la categoría 'Música' en El Nacional
   - RSS: `https://www.elnacional.com/entretenimiento/musica/feed/`
+- **El Periodista**: Feed de la categoría 'Música' en El Periodista
+  - RSS: `https://www.elperiodista.cl/category/cultura/musica/feed/`
 - **El Sol de Iquique** — Diario regional de Iquique, Tarapacá
   - El Sol de Iquique - Musica: `https://elsoldeiquique.cl/cultura/musica/feed/`
   - El Sol de Iquique - Música Cultura: `https://elsoldeiquique.cl/cultura/musica-cultura/feed/`
@@ -38,8 +45,6 @@
 - **Orolonco FM** — Radio de la comuna de Santa María, Región de Valparaíso
   - Orolonco FM: `https://oroloncofm.cl/feed/`
   - Orolonco FM [Proxy Google News]: `https://news.google.com/rss/search?q=site:oroloncofm.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Ovalle Hoy**: Feed de la categoría 'Música' en Ovalle Hoy
-  - RSS: `https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/musica/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Música' en Portal Metropolitano
   - RSS: `https://portalmetropolitano.cl/category/cartelera-pm/musica/feed/`
 - **Primera Fuente**: Feed de la categoría 'Música' en Primera Fuente
@@ -78,6 +83,7 @@
 - **Radio Activa** — Radioemisora chilena de música contemporánea
   - Radio Activa: `https://www.radioactiva.cl/feed/`
   - Radio Activa [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioactiva.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Activa [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radioactiva.cl&format=RSS`
 - **Radio Atacama** — Radioemisora de la Región de Atacama con noticias regionales, nacionales y deportivas
   - Radio Atacama: `https://www.radioatacama.cl/rss/feed`
   - Radio Atacama [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioatacama.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -193,10 +199,6 @@
   - Radio María Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiomaria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Melodía**: Radio Melodía, emisora chilena
   - RSS: `https://radiomelodia.cl/feed/`
-- **Radio Modelo** — Emisora chilena de música y entretención
-  - Radio Modelo: `https://radiomodelo.cl/feed/`
-  - Radio Modelo - Peñalolen: `https://radiomodelo.cl/category/penalolen/feed/`
-  - Radio Modelo [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiomodelo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Radio Riquelme** — Radioemisora chilena con programación informativa y musical
   - Radio Riquelme: `https://radioriquelme.cl/feed/`
   - Radio Riquelme - Coquimbo: `https://radioriquelme.cl/category/coquimbo/feed/`
@@ -206,6 +208,7 @@
   - Radio Riquelme - Provincia Del Limarí: `https://radioriquelme.cl/category/limari/feed/`
   - Radio Riquelme - Provincia De Elqui: `https://radioriquelme.cl/category/elqui/feed/`
   - Radio Riquelme [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioriquelme.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Riquelme [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radioriquelme.cl&format=RSS`
 - **Radio Romántica**: Emisora chilena de música romántica
   - RSS: `https://www.romantica.cl/rss.xml`
 - **Radio Santa Cruz**: Feed principal de Radio Santa Cruz
@@ -215,11 +218,12 @@
   - Radio Universidad de Chile - Columnas: `https://radio.uchile.cl/columnas/feed/`
   - Radio Universidad de Chile - Opiniones: `https://radio.uchile.cl/opiniones/feed/`
   - Radio Universidad de Chile - Cartas Al Director: `https://radio.uchile.cl/cartas-al-director/feed/`
-  - Radio Universidad de Chile - Análisis: `https://radio.uchile.cl/analisis/feed/`
-  - Radio Universidad de Chile - Análisis Político: `https://radio.uchile.cl/analisis/politica-semanal/feed/`
+  - Radio Universidad de Chile - Diario Tv: `https://radio.uchile.cl/ruchtv/feed/`
+  - Radio Universidad de Chile - Columna Del Director: `https://radio.uchile.cl/columnas/columna-del-director/feed/`
+  - Radio Universidad de Chile - Cultura: `https://radio.uchile.cl/ruchtv/cultura-ruchtv/feed/`
   - Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional: `https://radio.uchile.cl/ruch_amnistiainternacional/feed/`
-  - Radio Universidad de Chile - Agenda Derechos Humanos: `https://radio.uchile.cl/agendaderechoshumanos/feed/`
   - Radio Universidad de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radio.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Universidad de Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radio.uchile.cl&format=RSS`
 - **Radio Valentín Letelier** — Radio de la Universidad de Valparaíso
   - Radio Valentín Letelier: `https://rvl.uv.cl/noticias?format=feed`
   - Radio Valentín Letelier [Proxy Google News]: `https://news.google.com/rss/search?q=site:rvl.uv.cl&hl=es-419&gl=CL&ceid=CL:es-419`

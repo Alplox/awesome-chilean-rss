@@ -14,6 +14,7 @@
     "fix:stale": "node scripts/utils/fix-stale-feeds.js",
     "check:overlap": "node scripts/utils/check-feed-overlap.js",
     "check:duplicates": "node scripts/utils/find-duplicates.js",
+    "diagnose:network": "node scripts/utils/diagnose-network.js",
     "discover:categories": "node scripts/utils/discover-category-feeds.js",
     "sync:subfeeds": "node scripts/utils/add-site-subfeeds.js",
     "standardize:keys": "node scripts/utils/standardize-feed-keys.js",

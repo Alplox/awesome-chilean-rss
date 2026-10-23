@@ -38,6 +38,7 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { createInterface } from 'readline';
+import { findDuplicates, normalizeSiteUrl } from '../../lib/duplicate-finder.js';
 
 const rawArgs = process.argv.slice(2);
 const verbose = rawArgs.includes('--verbose') || rawArgs.includes('-v');
@@ -126,35 +127,8 @@ function fileLink(id, lineIndex, fileAbs) {
   return `     📎 ${fileAbs}:${line}`;
 }
 
-function normalizeUrl(urlStr) {
-  try {
-    const url = new URL(urlStr);
-    return url.hostname.replace(/^www\./, '').toLowerCase()
-      + url.pathname.replace(/\/$/, '').toLowerCase();
-  } catch {
-    return String(urlStr ?? '').toLowerCase().trim();
-  }
-}
-
-function getRootDomain(urlStr) {
-  try {
-    const url = new URL(urlStr);
-    return url.hostname.replace(/^www\./, '').toLowerCase();
-  } catch {
-    return String(urlStr ?? '').toLowerCase().trim();
-  }
-}
-
-function normalizeFeedUrl(urlStr) {
-  try {
-    const url = new URL(urlStr);
-    return url.hostname.replace(/^www\./, '').toLowerCase()
-      + url.pathname.replace(/\/$/, '').toLowerCase()
-      + (url.search || '');
-  } catch {
-    return String(urlStr ?? '').toLowerCase().trim();
-  }
-}
+// Alias local sobre la normalización compartida (lib/duplicate-finder.js)
+const normalizeUrl = normalizeSiteUrl;
 
 function askConfirm(question) {
   if (autoYes) return Promise.resolve(true);
@@ -215,150 +189,109 @@ const report = {
   cross: {},
 };
 
+// ─── Detección (lib/duplicate-finder.js) ─────────────────────────────────────
+const { intra, cross } = findDuplicates(sites, wlAvailable ? wlSites : null);
+const { siteUrlMap, feedUrlMap, rootDomainMap, siteIdMap, feedIdMap } = intra;
+
 // ─── 1. Duplicate site URLs ───────────────────────────────────────────────────
 console.log('\n═══════════════════════════════════════════════════════');
 console.log('  🔍 Buscando duplicados en feeds-database.json');
 console.log('═══════════════════════════════════════════════════════\n');
 console.log('── 1. Sitios con la misma URL (site.url) ──────────────\n');
-const siteUrlMap = new Map();
-for (const site of sites) {
-  const key = normalizeUrl(site.url);
-  if (!siteUrlMap.has(key)) siteUrlMap.set(key, []);
-  siteUrlMap.get(key).push(site);
-}
 let dupSiteUrlCount = 0;
 for (const [key, group] of siteUrlMap.entries()) {
-  if (group.length > 1) {
-    dupSiteUrlCount++;
-    foundAny = true;
-    console.log(`⚠️  URL duplicada: "${key}"`);
-    for (const s of group) {
-      console.log(`   • [${s.id}] ${s.name} — ${s.url}`);
-      if (verbose) {
-        console.log(fileLink(s.id, lineIndex, DB_ABS));
-        for (const f of s.feeds) {
-          console.log(`     ↳ feed [${f.id}]: ${f.rss_url} | ${f.status}`);
-          console.log(fileLink(f.id, lineIndex, DB_ABS));
-        }
+  dupSiteUrlCount++;
+  foundAny = true;
+  console.log(`⚠️  URL duplicada: "${key}"`);
+  for (const s of group) {
+    console.log(`   • [${s.id}] ${s.name} — ${s.url}`);
+    if (verbose) {
+      console.log(fileLink(s.id, lineIndex, DB_ABS));
+      for (const f of s.feeds) {
+        console.log(`     ↳ feed [${f.id}]: ${f.rss_url} | ${f.status}`);
+        console.log(fileLink(f.id, lineIndex, DB_ABS));
       }
     }
-    console.log();
   }
+  console.log();
 }
 if (dupSiteUrlCount === 0) console.log('✅ No se encontraron URLs de sitio duplicadas.\n');
 report.intra.dupSiteUrlCount = dupSiteUrlCount;
 
 // ─── 2. Duplicate feed RSS URLs ───────────────────────────────────────────────
 console.log('── 2. Feeds con el mismo rss_url (global) ─────────────\n');
-const feedUrlMap = new Map();
-for (const site of sites) {
-  for (const feed of site.feeds) {
-    const key = normalizeFeedUrl(feed.rss_url);
-    if (!feedUrlMap.has(key)) feedUrlMap.set(key, []);
-    feedUrlMap.get(key).push({ site, feed });
-  }
-}
 let dupFeedUrlCount = 0;
 for (const [key, group] of feedUrlMap.entries()) {
-  if (group.length > 1) {
-    dupFeedUrlCount++;
-    foundAny = true;
-    console.log(`⚠️  RSS URL duplicada: "${key}"`);
-    for (const { site, feed } of group) {
-      console.log(`   • Feed [${feed.id}] en sitio [${site.id}] "${site.name}"`);
-      console.log(`     rss_url: ${feed.rss_url} | status: ${feed.status}`);
-      if (verbose) {
-        console.log(`     Sitio  ${DB_ABS}:${lineIndex.get(site.id) ?? 1}`);
-        console.log(`     Feed   ${DB_ABS}:${lineIndex.get(feed.id) ?? 1}`);
-      }
+  dupFeedUrlCount++;
+  foundAny = true;
+  console.log(`⚠️  RSS URL duplicada: "${key}"`);
+  for (const { site, feed } of group) {
+    console.log(`   • Feed [${feed.id}] en sitio [${site.id}] "${site.name}"`);
+    console.log(`     rss_url: ${feed.rss_url} | status: ${feed.status}`);
+    if (verbose) {
+      console.log(`     Sitio  ${DB_ABS}:${lineIndex.get(site.id) ?? 1}`);
+      console.log(`     Feed   ${DB_ABS}:${lineIndex.get(feed.id) ?? 1}`);
     }
-    console.log();
   }
+  console.log();
 }
 if (dupFeedUrlCount === 0) console.log('✅ No se encontraron rss_url de feed duplicadas.\n');
 report.intra.dupFeedUrlCount = dupFeedUrlCount;
 
 // ─── 3. Possible duplicate sites (same root domain) ──────────────────────────
 console.log('── 3. Posibles sitios duplicados (mismo dominio raíz) ──\n');
-const rootDomainMap = new Map();
-for (const site of sites) {
-  const key = getRootDomain(site.url);
-  if (!rootDomainMap.has(key)) rootDomainMap.set(key, []);
-  rootDomainMap.get(key).push(site);
-}
 let dupRootCount = 0;
 for (const [domain, group] of rootDomainMap.entries()) {
-  if (group.length > 1) {
-    const uniqueNormalized = new Set(group.map(s => normalizeUrl(s.url)));
-    if (uniqueNormalized.size > 1) {
-      dupRootCount++;
-      foundAny = true;
-      console.log(`⚠️  Posibles duplicados — dominio raíz: "${domain}"`);
-      for (const s of group) {
-        const activeFeedCount = s.feeds.filter(f => f.status === 'active').length;
-        console.log(`   • [${s.id}] ${s.name} — ${s.url} (${activeFeedCount} feeds activos)`);
-        if (verbose) {
-          console.log(fileLink(s.id, lineIndex, DB_ABS));
-          for (const f of s.feeds) {
-            console.log(`     ↳ feed [${f.id}]: ${f.rss_url} | ${f.status}`);
-            console.log(fileLink(f.id, lineIndex, DB_ABS));
-          }
-        }
+  dupRootCount++;
+  foundAny = true;
+  console.log(`⚠️  Posibles duplicados — dominio raíz: "${domain}"`);
+  for (const s of group) {
+    const activeFeedCount = s.feeds.filter(f => f.status === 'active').length;
+    console.log(`   • [${s.id}] ${s.name} — ${s.url} (${activeFeedCount} feeds activos)`);
+    if (verbose) {
+      console.log(fileLink(s.id, lineIndex, DB_ABS));
+      for (const f of s.feeds) {
+        console.log(`     ↳ feed [${f.id}]: ${f.rss_url} | ${f.status}`);
+        console.log(fileLink(f.id, lineIndex, DB_ABS));
       }
-      console.log();
     }
   }
+  console.log();
 }
 if (dupRootCount === 0) console.log('✅ No se encontraron sitios con el mismo dominio raíz.\n');
 report.intra.dupRootCount = dupRootCount;
 
 // ─── 4. Duplicate site IDs ────────────────────────────────────────────────────
 console.log('── 4. IDs de sitio duplicados ──────────────────────────\n');
-const siteIdMap = new Map();
-for (const site of sites) {
-  if (!siteIdMap.has(site.id)) siteIdMap.set(site.id, []);
-  siteIdMap.get(site.id).push(site);
-}
 let dupIdCount = 0;
 for (const [id, group] of siteIdMap.entries()) {
-  if (group.length > 1) {
-    dupIdCount++;
-    foundAny = true;
-    console.log(`⚠️  ID de sitio duplicado: "${id}"`);
-    for (const s of group) {
-      console.log(`   • ${s.name} — ${s.url}`);
-      if (verbose) console.log(fileLink(s.id, lineIndex, DB_ABS));
-    }
-    console.log();
+  dupIdCount++;
+  foundAny = true;
+  console.log(`⚠️  ID de sitio duplicado: "${id}"`);
+  for (const s of group) {
+    console.log(`   • ${s.name} — ${s.url}`);
+    if (verbose) console.log(fileLink(s.id, lineIndex, DB_ABS));
   }
+  console.log();
 }
 if (dupIdCount === 0) console.log('✅ No se encontraron IDs de sitio duplicados.\n');
 report.intra.dupIdCount = dupIdCount;
 
 // ─── 5. Duplicate feed IDs ────────────────────────────────────────────────────
 console.log('── 5. IDs de feed duplicados (global) ──────────────────\n');
-const feedIdMap = new Map();
-for (const site of sites) {
-  for (const feed of site.feeds) {
-    if (!feedIdMap.has(feed.id)) feedIdMap.set(feed.id, []);
-    feedIdMap.get(feed.id).push({ site, feed });
-  }
-}
 let dupFeedIdCount = 0;
 for (const [id, group] of feedIdMap.entries()) {
-  if (group.length > 1) {
-    dupFeedIdCount++;
-    foundAny = true;
-    console.log(`⚠️  ID de feed duplicado: "${id}"`);
-    for (const { site, feed } of group) {
-      console.log(`   • En sitio [${site.id}] "${site.name}" — ${feed.rss_url}`);
-      if (verbose) {
-        console.log(`     Sitio  ${DB_ABS}:${lineIndex.get(site.id) ?? 1}`);
-        console.log(`     Feed   ${DB_ABS}:${lineIndex.get(feed.id) ?? 1}`);
-      }
+  dupFeedIdCount++;
+  foundAny = true;
+  console.log(`⚠️  ID de feed duplicado: "${id}"`);
+  for (const { site, feed } of group) {
+    console.log(`   • En sitio [${site.id}] "${site.name}" — ${feed.rss_url}`);
+    if (verbose) {
+      console.log(`     Sitio  ${DB_ABS}:${lineIndex.get(site.id) ?? 1}`);
+      console.log(`     Feed   ${DB_ABS}:${lineIndex.get(feed.id) ?? 1}`);
     }
-    console.log();
   }
+  console.log();
 }
 if (dupFeedIdCount === 0) console.log('✅ No se encontraron IDs de feed duplicados.\n');
 report.intra.dupFeedIdCount = dupFeedIdCount;
@@ -389,16 +322,14 @@ if (!wlAvailable) {
 
   // 6a
   console.log('── 6a. Sitios con el mismo ID en ambos archivos ──────\n');
-  dbSiteById = new Map(sites.map(s => [s.id, s]));
-  wlSiteById = new Map(wlSites.map(s => [s.id, s]));
-  crossIds = [...dbSiteById.keys()].filter(id => wlSiteById.has(id));
+  ({ dbSiteById, wlSiteById } = cross);
+  crossIds = cross.siteIds;
   crossSiteIdCount = crossIds.length;
   report.cross.siteIds = crossIds;
   if (crossIds.length === 0) {
     console.log('✅ No hay site IDs que vivan en ambos archivos.\n');
   } else {
     foundAny = true;
-    crossIds.sort();
     const toShow = crossIds.slice(0, SITE_LIMIT);
     for (const id of toShow) {
       const dbSite = dbSiteById.get(id);
@@ -419,19 +350,9 @@ if (!wlAvailable) {
 
   // 6b
   console.log('── 6b. Sitios con la misma URL en ambos archivos ─────\n');
-  dbUrlMap = new Map();
-  for (const s of sites) {
-    const k = normalizeUrl(s.url);
-    if (!dbUrlMap.has(k)) dbUrlMap.set(k, []);
-    dbUrlMap.get(k).push(s);
-  }
-  wlUrlMap = new Map();
-  for (const s of wlSites) {
-    const k = normalizeUrl(s.url);
-    if (!wlUrlMap.has(k)) wlUrlMap.set(k, []);
-    wlUrlMap.get(k).push(s);
-  }
-  crossUrlKeys = [...dbUrlMap.keys()].filter(k => wlUrlMap.has(k)).sort();
+  dbUrlMap = cross.dbUrlMap;
+  wlUrlMap = cross.wlUrlMap;
+  crossUrlKeys = cross.siteUrls;
   crossSiteUrlCount = crossUrlKeys.length;
   report.cross.siteUrls = crossUrlKeys;
   if (crossUrlKeys.length === 0) {
@@ -458,42 +379,21 @@ if (!wlAvailable) {
 
   // 6c
   console.log('── 6c. Mismo dominio raíz, URL distinta (sospechoso) ─\n');
-  const dbRootMap = new Map();
-  for (const s of sites) {
-    const k = getRootDomain(s.url);
-    if (!dbRootMap.has(k)) dbRootMap.set(k, []);
-    dbRootMap.get(k).push(s);
-  }
-  const wlRootMap = new Map();
-  for (const s of wlSites) {
-    const k = getRootDomain(s.url);
-    if (!wlRootMap.has(k)) wlRootMap.set(k, []);
-    wlRootMap.get(k).push(s);
-  }
-  let crossRootPrinted = 0;
-  const crossRootDomains = [];
-  for (const domain of [...dbRootMap.keys()].filter(k => wlRootMap.has(k)).sort()) {
-    const dbGroup = dbRootMap.get(domain);
-    const wlGroup = wlRootMap.get(domain);
-    const dbNormSet = new Set(dbGroup.map(s => normalizeUrl(s.url)));
-    const wlNormSet = new Set(wlGroup.map(s => normalizeUrl(s.url)));
-    const hasExactOverlap = [...dbNormSet].some(u => wlNormSet.has(u));
-    if (hasExactOverlap) continue;
-    crossRootDomains.push(domain);
-    crossRootPrinted++;
+  const { dbRootMap, wlRootMap } = cross;
+  const crossRootDomains = cross.rootDomains;
+  const crossRootPrinted = crossRootDomains.length;
+  for (const domain of crossRootDomains.slice(0, SITE_LIMIT)) {
     foundAny = true;
-    if (crossRootPrinted <= SITE_LIMIT) {
-      console.log(`⚠️  Dominio cruzado con URL distinta: "${domain}"`);
-      for (const s of dbGroup) {
-        console.log(`   • DB  [${s.id}] ${s.name} — ${s.url}`);
-        if (verbose) console.log(fileLink(s.id, lineIndex, DB_ABS));
-      }
-      for (const s of wlGroup) {
-        console.log(`   • WL  [${s.id}] ${s.name} — ${s.url}`);
-        if (verbose) console.log(fileLink(s.id, wlLineIndex, WL_ABS));
-      }
-      console.log();
+    console.log(`⚠️  Dominio cruzado con URL distinta: "${domain}"`);
+    for (const s of dbRootMap.get(domain)) {
+      console.log(`   • DB  [${s.id}] ${s.name} — ${s.url}`);
+      if (verbose) console.log(fileLink(s.id, lineIndex, DB_ABS));
     }
+    for (const s of wlRootMap.get(domain)) {
+      console.log(`   • WL  [${s.id}] ${s.name} — ${s.url}`);
+      if (verbose) console.log(fileLink(s.id, wlLineIndex, WL_ABS));
+    }
+    console.log();
   }
   crossRootDomainCount = crossRootPrinted;
   report.cross.rootDomains = crossRootDomains;
@@ -504,11 +404,8 @@ if (!wlAvailable) {
 
   // 7a
   console.log('── 7a. Feeds con el mismo ID en ambos archivos ───────\n');
-  const dbFeedById = new Map();
-  for (const s of sites) for (const f of (s.feeds ?? [])) dbFeedById.set(f.id, { site: s, feed: f });
-  const wlFeedById = new Map();
-  for (const s of wlSites) for (const f of (s.feeds ?? [])) wlFeedById.set(f.id, { site: s, feed: f });
-  crossFeedIds = [...dbFeedById.keys()].filter(k => wlFeedById.has(k)).sort();
+  const { dbFeedById, wlFeedById } = cross;
+  crossFeedIds = cross.feedIds;
   crossFeedIdCount = crossFeedIds.length;
   report.cross.feedIds = crossFeedIds;
   if (crossFeedIds.length === 0) {
@@ -544,18 +441,9 @@ if (!wlAvailable) {
 
   // 7b
   console.log('── 7b. Feeds con el mismo rss_url en ambos archivos ──\n');
-  function buildRssMap(siteList) {
-    const m = new Map();
-    for (const s of siteList) for (const f of (s.feeds ?? [])) if (f.rss_url) {
-      const k = normalizeFeedUrl(f.rss_url);
-      if (!m.has(k)) m.set(k, []);
-      m.get(k).push({ site: s, feed: f });
-    }
-    return m;
-  }
-  dbRssMap = buildRssMap(sites);
-  wlRssMap = buildRssMap(wlSites);
-  crossRssKeys = [...dbRssMap.keys()].filter(k => wlRssMap.has(k)).sort();
+  dbRssMap = cross.dbRssMap;
+  wlRssMap = cross.wlRssMap;
+  crossRssKeys = cross.feedUrls;
   crossFeedUrlCount = crossRssKeys.length;
   report.cross.rssUrls = crossRssKeys;
   if (crossRssKeys.length === 0) {

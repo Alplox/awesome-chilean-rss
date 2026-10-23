@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 93 sitios, 354 feeds*
+*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 98 sitios, 362 feeds*
 
 - **(Empresa) TiChile** — Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
   - (Empresa) tichile: `https://www.tichile.cl/feed/`
@@ -32,26 +32,29 @@
   - Alerta Geek Chile - Cómics: `https://alertageekchile.cl/category/comics/feed/`
   - Alerta Geek Chile - Marvel: `https://alertageekchile.cl/category/marvel/feed/`
   - Alerta Geek Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:alertageekchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Alerta Geek Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:alertageekchile.cl&format=RSS`
 - **Alerta Noticias Temuco** — Diario regional de Temuco, La Araucanía
   - Alerta Noticias Temuco - Ciencia y Tecnología: `https://alertanoticiastemuco.cl/category/ciencia-y-tecnologia/feed/`
   - Alerta Noticias Temuco - Innovación: `https://alertanoticiastemuco.cl/category/innovacion/feed/`
+- **Alianza Chilena de Ciberseguridad** — Coalición de instituciones chilenas sobre ciberataques locales y normativas de seguridad
+  - Alianza Chilena de Ciberseguridad: `https://alianzaciberseguridad.cl/category/blog/feed/`
+  - Alianza Chilena de Ciberseguridad - Prensa: `https://alianzaciberseguridad.cl/category/prensa/feed/`
+  - Alianza Chilena de Ciberseguridad [Proxy Google News]: `https://news.google.com/rss/search?q=site:alianzaciberseguridad.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Anda** — Plataforma chilena de ofertas y compras grupales
   - Anda - Tecnología: `https://anda.cl/categoria/tecnologia/feed/`
   - Anda - Inteligencia Artificial: `https://anda.cl/categoria/inteligencia-artificial/feed/`
   - Anda - Ciberseguridad: `https://anda.cl/categoria/ciberseguridad/feed/`
 - **Atacama Noticias**: Feed de la categoría 'Ciencia y Tecnología' en Atacama Noticias
   - RSS: `https://www.atacamanoticias.cl/category/ciencia_y_tecnologia/feed/`
-- **Atentos**: Feed de la categoría 'Tecnología' en Atentos
-  - RSS: `https://www.atentos.cl/category/tecnologia/feed/`
 - **Aurora Noticias**: Feed de la categoría 'Ciencia' en Aurora Noticias
   - RSS: `https://auroranoticias.cl/ciencia/feed/`
+- **Calama en Línea**: Feed de la categoría 'Tecnología' en Calama en Línea
+  - RSS: `https://noticias.calamaenlinea.cl/category/tecnologia/feed/`
 - **Centra UAI** — Centro de la Universidad Adolfo Ibáñez dedicado a investigación, transferencia y formación en transición energética
   - Centra UAI: `https://centra.uai.cl/feed/`
   - Centra UAI - Noticia Reciente: `https://centra.uai.cl/category/noticia-reciente/feed/`
 - **CentralWeb**: Feed de la categoría 'Tecnología' en CentralWeb
   - RSS: `https://centralweb.cl/?cat=13&feed=rss2`
-- **ChiloeNews**: Feed de la categoría 'Tecnología' en ChiloeNews
-  - RSS: `https://chiloenews.cl/Categoría/tecnologia/feed/`
 - **Chocale**: Feed de la categoría 'Tecnología' en Chocale
   - RSS: `https://chocale.cl/tecnologia-y-moviles/feed/`
 - **Ciencia en Chile** — Divulgación de ciencia y tecnología hecha en Chile
@@ -59,7 +62,9 @@
   - Ciencia en Chile - Opinión: `https://www.cienciaenchile.cl/category/opinion/feed/`
   - Ciencia en Chile - Entrevistas: `https://www.cienciaenchile.cl/category/entrevistas/feed/`
   - Ciencia en Chile - Fondecyt: `https://www.cienciaenchile.cl/category/fondecyt/feed/`
+  - Ciencia en Chile - Columna De Opinión: `https://www.cienciaenchile.cl/category/columna-de-opinion/feed/`
   - Ciencia en Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:cienciaenchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Ciencia en Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:cienciaenchile.cl&format=RSS`
 - **Cooperativa Ciencia** — Sección de ciencia de Cooperativa, con noticias y análisis científicos
   - Cooperativa Ciencia: `https://www.cooperativaciencia.cl/feed/`
   - Cooperativa Ciencia - Ciencia: `https://www.cooperativaciencia.cl/seccion/ciencia/feed/`
@@ -72,7 +77,6 @@
 - **CriptoNoticias Chile** — Sección chilena de CriptoNoticias sobre Bitcoin, blockchain y fintech en Chile
   - CriptoNoticias: `https://www.criptonoticias.com/feed/`
   - CriptoNoticias - Comentarios: `https://www.criptonoticias.com/comments/feed/`
-  - CriptoNoticias - Bitcoin en Chile: `https://www.criptonoticias.com/etiquetas/bitcoin-chile/feed/`
   - CriptoNoticias Chile - Adopción: `https://www.criptonoticias.com/categorias/comunidad/adopcion/feed/`
   - CriptoNoticias Chile - Tecnología: `https://www.criptonoticias.com/categorias/tecnologia/feed/`
   - CriptoNoticias Chile - Regulación: `https://www.criptonoticias.com/categorias/regulacion/feed/`
@@ -80,15 +84,16 @@
   - CriptoNoticias Chile - Seguridad: `https://www.criptonoticias.com/categorias/seguridad-bitcoin/feed/`
   - CriptoNoticias Chile - Sucesos: `https://www.criptonoticias.com/categorias/sucesos/feed/`
   - CriptoNoticias Chile - Opinión: `https://www.criptonoticias.com/categorias/opinion/feed/`
-  - CriptoNoticias Chile - Entrevistas: `https://www.criptonoticias.com/categorias/entrevistas/feed/`
   - CriptoNoticias Chile - Criptopedia: `https://www.criptonoticias.com/categorias/criptopedia/feed/`
-  - CriptoNoticias Chile - Tutoriales y Guías: `https://www.criptonoticias.com/categorias/tutoriales-guias/feed/`
   - CriptoNoticias Chile - Reviews: `https://www.criptonoticias.com/categorias/reviews/feed/`
   - CriptoNoticias Chile - Editorial: `https://www.criptonoticias.com/categorias/editorial/feed/`
   - CriptoNoticias Chile - Podcasts: `https://www.criptonoticias.com/categorias/podcasts/feed/`
   - CriptoNoticias Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:criptonoticias.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - CriptoNoticias Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:criptonoticias.com&format=RSS`
 - **Crónica Digital**: Feed de la categoría 'Ciencia y Tecnología' en Crónica Digital
   - RSS: `https://cronicadigital.cl/category/ciencia-y-tecnologia/feed/`
+- **CSIRT Nacional**: Feed de alertas de vulnerabilidades y campañas fraudulentas del CSIRT Nacional
+  - RSS: `https://www.csirt.gob.cl/rss/alertas`
 - **David Noticias**: Feed de la categoría 'Ciencia y Tecnologia' en David Noticias
   - RSS: `https://www.davidnoticias.cl/category/ciencia/feed/`
 - **Derechos Digitales** — ONG chilena que analiza tecnología desde la perspectiva de derechos humanos, privacidad y leyes de internet
@@ -97,8 +102,14 @@
   - Derechos Digitales [Proxy Google News]: `https://news.google.com/rss/search?q=site:derechosdigitales.org&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Desenfoque**: Feed de la categoría 'Tendencias' en Desenfoque
   - RSS: `https://desenfoque.cl/categoria/ciencia/feed/`
+- **Diálogo Sur**: Feed de la categoría 'Ciencia' en Diálogo Sur
+  - RSS: `https://dialogosur.cl/category/ciencia/feed/`
 - **Diario Agrícola**: Feed de la categoría 'Tecnología' en Diario Agrícola
   - RSS: `https://www.diarioagricola.com/category/tecnologia/feed/`
+- **Diario Antofagasta**: Feed de la categoría 'Ciencia y Tecnología' en Diario Antofagasta
+  - RSS: `https://www.diarioantofagasta.cl/ciencia-y-tecnologia/feed/`
+- **Diario Chile**: Feed de la categoría 'Ciencia & Tecnología' en Diario Chile
+  - RSS: `https://diariochile.cl/category/ciencia-y-tecnologia/feed/`
 - **Diario El Centro**: Feed de la categoría 'Ciencia y Tecnología' en Diario El Centro
   - RSS: `https://www.diarioelcentro.cl/categoria/ciencia-tecnologia/feed/`
 - **Diario El Longino**: Feed de la categoría 'Ciencia y Tecnología' en Diario El Longino
@@ -110,8 +121,6 @@
   - RSS: `https://www.diarioelpulso.cl/category/ciencia-y-tecnologia/feed/`
 - **Diario La Región**: Feed de la categoría 'Ciencia' en Diario La Región
   - RSS: `https://www.diariolaregion.cl/category/ciencia/feed/`
-- **Diario Sur Noticias**: Feed de la categoría 'Ciencia' en Diario Sur Noticias
-  - RSS: `https://www.diariosurnoticias.com/ciencia/feed/`
 - **Diario UACh**: Feed de la categoría 'Innovación' en Diario UACh
   - RSS: `https://diario.uach.cl/category/secciones/innovacion/feed/`
 - **DPL News** — Noticias de tecnología, digitalización e innovación en América Latina
@@ -130,6 +139,7 @@
   - DPL News - Internet: `https://dplnews.com/category/tecnologia/internet/feed/`
   - DPL News - Editor's Picks: `https://dplnews.com/category/dplnews/editors-picks/feed/`
   - DPL News - Gadgets: `https://dplnews.com/category/tecnologia/gadgets/feed/`
+  - DPL News - Medios: `https://dplnews.com/category/medios/feed/`
   - DPL News - Redes Sociales: `https://dplnews.com/category/tecnologia/redes-sociales/feed/`
   - DPL News - 5g: `https://dplnews.com/category/redes/5g/feed/`
   - DPL News - Columnistas: `https://dplnews.com/category/columnistas/feed/`
@@ -140,22 +150,22 @@
   - DPL News - Entrevistas: `https://dplnews.com/category/entrevistas/feed/`
   - DPL News - Informes Financieros: `https://dplnews.com/category/negocios/informes-financieros/feed/`
   - DPL News - Análisis: `https://dplnews.com/category/analisis/feed/`
-  - DPL News - Transformación: `https://dplnews.com/category/transformacion/feed/`
   - DPL News - Chips: `https://dplnews.com/category/transformacion-digital/chips/feed/`
   - DPL News - Redes Brasil: `https://dplnews.com/category/brasil/redes-brasil/feed/`
+  - DPL News - Ott: `https://dplnews.com/category/medios/ott/feed/`
   - DPL News - Fintech: `https://dplnews.com/category/transformacion-digital/fintech/feed/`
   - DPL News - Satélites: `https://dplnews.com/category/redes/satelites-redes/feed/`
   - DPL News - Fusiones Y Consolidaciones: `https://dplnews.com/category/negocios/fusiones-y-consolidaciones/feed/`
   - DPL News - Cripto: `https://dplnews.com/category/transformacion-digital/cripto/feed/`
-  - DPL News - Políticas Públicas Brasil: `https://dplnews.com/category/brasil/politicas-publicas-brasil/feed/`
   - DPL News - Plataformas: `https://dplnews.com/category/transformacion-digital/plataformas/feed/`
   - DPL News - Nube: `https://dplnews.com/category/transformacion-digital/nube/feed/`
-  - DPL News - Robots: `https://dplnews.com/category/tecnologia/robots/feed/`
+  - DPL News - Mujer Tic: `https://dplnews.com/category/tecnologia/mujer-tic/feed/`
   - DPL News - Metrics: `https://dplnews.com/category/metrics/feed/`
   - DPL News - 5g Brasil 2: `https://dplnews.com/category/brasil/5g-brasil-2/feed/`
-  - DPL News - Conteúdo: `https://dplnews.com/category/brasil/conteudo/feed/`
+  - DPL News - Vehículos Autónomos: `https://dplnews.com/category/tecnologia/vehiculos-autonomos/feed/`
   - DPL News - Políticas Públicas: `https://dplnews.com/category/politicas-publicas/feed/`
   - DPL News [Proxy Google News]: `https://news.google.com/rss/search?q=site:dplnews.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - DPL News [Proxy Bing News]: `https://www.bing.com/news/search?q=site:dplnews.com&format=RSS`
 - **Duplos**: Feed de la categoría 'Tecnología' en Duplos
   - RSS: `https://duplos.cl/tecnologia/feed/`
 - **Ecosistema Startup** — Portal sobre startups y ecosistema emprendedor en Latinoamérica
@@ -184,21 +194,26 @@
   - Ecosistema Startup - Startup Corea Del Sur: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-corea-del-sur/feed/`
   - Ecosistema Startup - Startup Australia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-australia/feed/`
   - Ecosistema Startup - Startup Irán: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-iran/feed/`
+  - Ecosistema Startup - Startup Emiratos Árabes Unidos: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-emiratos-arabes-unidos/feed/`
   - Ecosistema Startup - Startup Rusia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-rusia/feed/`
   - Ecosistema Startup - Startup Singapur: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-singapur/feed/`
   - Ecosistema Startup - Startup Portugal: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-portugal/feed/`
   - Ecosistema Startup - Educación Y Aprendizaje Startup: `https://ecosistemastartup.com/category/educacion-y-aprendizaje/feed/`
   - Ecosistema Startup - Startup Suecia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-suecia/feed/`
   - Ecosistema Startup - Startup Suiza: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-suiza/feed/`
+  - Ecosistema Startup - Startup Ucrania: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-ucrania/feed/`
   - Ecosistema Startup - Startup Venezuela: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-venezuela/feed/`
   - Ecosistema Startup - Startup Noruega: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-noruega/feed/`
   - Ecosistema Startup - Startup Dinamarca: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-dinamarca/feed/`
   - Ecosistema Startup - Startup Arabia Saudita: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-arabia-saudita/feed/`
   - Ecosistema Startup - Startup Finlandia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-finlandia/feed/`
   - Ecosistema Startup - Startup Vietnam: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-vietnam/feed/`
-  - Ecosistema Startup - Startup Irlanda: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-irlanda/feed/`
+  - Ecosistema Startup - Startup Bélgica: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-belgica/feed/`
   - Ecosistema Startup - Startup Polonia: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-polonia/feed/`
+  - Ecosistema Startup - Última Noticia: `https://ecosistemastartup.com/category/ultima-noticia/feed/`
+  - Ecosistema Startup - Startup Panamá: `https://ecosistemastartup.com/category/startups-por-pais/startup-startup-panama/feed/`
   - Ecosistema Startup [Proxy Google News]: `https://news.google.com/rss/search?q=site:ecosistemastartup.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Ecosistema Startup [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ecosistemastartup.com&format=RSS`
 - **El Calbucano**: Feed de la categoría 'Tecnología' en El Calbucano
   - RSS: `https://www.elcalbucano.cl/cat/tecnologia/feed/`
 - **El Ciudadano**: Feed de la categoría 'Ciencia y Tecnologí­a' en El Ciudadano
@@ -211,12 +226,14 @@
   - El Diario de La Araucanía - Inteligencia Artificial: `https://www.eldiariodelaaraucania.cl/category/ciencias-y-tecnologias/inteligencia-artificial/feed/`
 - **El Diario Santiago**: Feed de la categoría 'Innovación' en El Diario Santiago
   - RSS: `https://eldiariosantiago.cl/category/features/innovacion/feed/`
-- **El Insular**: Feed de la categoría 'Innovación y Tecnología' en El Insular
-  - RSS: `https://elinsular.cl/category/innovacionytecnologia/feed/`
+- **El Maule Informa**: Feed de la categoría 'Tecnología' en El Maule Informa
+  - RSS: `https://elmauleinforma.cl/tecnologia/feed/`
 - **El Periódico**: Feed de la categoría 'Ciencia y Tecnología' en El Periódico
   - RSS: `https://elperiodico.cl/category/cienciaytecnologia/feed/`
 - **El Periódico de la Energía**: Feed de la sección 'Tech' en El Periódico de la Energía
   - RSS: `https://elperiodicodelaenergia.com/tech/feed/`
+- **El Quinto Poder**: Feed de la categoría 'Tecnología' en El Quinto Poder
+  - RSS: `https://elquintopoder.cl/temas/tecnologia/feed/`
 - **El Reporte Diario**: Feed de la categoría 'Ciencia' en El Reporte Diario
   - RSS: `https://reportediario.cl/tag/ciencia/feed/`
 - **El Reportero de Iquique**: Feed de la categoría 'Tecnología' en El Reportero de Iquique
@@ -229,19 +246,24 @@
 - **Entreprenerd** — Medio enfocado en innovación, startups y tecnología en Latinoamérica y Europa
   - Entreprenerd: `https://www.entnerd.com/rss/global.xml`
   - Entreprenerd [Proxy Google News]: `https://news.google.com/rss/search?q=site:entnerd.com&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Ex-Ante**: Feed de la categoría 'Ciencia y Tecnología' en Ex-Ante
-  - RSS: `https://www.ex-ante.cl/category/ciencia-tecnologia/rss`
+  - Entreprenerd [Proxy Bing News]: `https://www.bing.com/news/search?q=site:entnerd.com&format=RSS`
 - **FayerWayer** — Blog de tecnología, cultura digital y gadgets
   - FayerWayer: `https://www.fayerwayer.com/feed/`
   - FayerWayer - Moviles: `https://www.fayerwayer.com/arc/outboundfeeds/rss/category/moviles/?outputType=xml`
   - FayerWayer - Internet: `https://www.fayerwayer.com/arc/outboundfeeds/rss/category/internet/?outputType=xml`
+  - FayerWayer - Sneakers: `https://www.fayerwayer.com/arc/outboundfeeds/rss/category/sneakers/?outputType=xml`
   - FayerWayer - Ciencia: `https://www.fayerwayer.com/arc/outboundfeeds/rss/category/ciencia/?outputType=xml`
+  - FayerWayer - Entretenimiento: `https://www.fayerwayer.com/arc/outboundfeeds/rss/category/entretenimiento/?outputType=xml`
   - FayerWayer [Proxy Google News]: `https://news.google.com/rss/search?q=site:fayerwayer.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - FayerWayer [Proxy Bing News]: `https://www.bing.com/news/search?q=site:fayerwayer.com&format=RSS`
+- **Fotech**: Feed de la categoría 'Tecnología' en Fotech
+  - RSS: `https://www.fotech.cl/category/tendencias/tecnologia/feed/`
 - **G5 Noticias**: Feed de la categoría 'Ciencia y Tecnología' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/ciencia-y-tecnologia/feed/`
 - **Google News**: Sección Ciencia y tecnología de Google News Chile
   - RSS: `https://news.google.com/rss/topics/CAAqLQgKIidDQkFTRndvSkwyMHZNR1ptZHpWbUVnWmxjeTAwTVRrYUFrTk1LQUFQAQ?hl=es-419&gl=CL&ceid=CL:es-419`
+- **Hora de Noticias**: Feed de la categoría 'Ciencia Tecnología' en Hora de Noticias
+  - RSS: `https://horadenoticias.cl/seccion/ciencia-tecnologia/feed/`
 - **InfoSalmon** — Plataforma de difusión de conocimiento técnico y científico sobre acuicultura y salmonicultura
   - InfoSalmon - Tecnología: `https://infosalmon.cl/category/tecnologia/feed/`
   - InfoSalmon - Innovación: `https://infosalmon.cl/category/innovacion/feed/`
@@ -268,6 +290,8 @@
   - InnovaciónDigital360 [Proxy Google News]: `https://news.google.com/rss/search?q=site:innovaciondigital360.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Instituto Antártico Chileno**: Feed de la categoría 'Artículos Sobre Ciencia Antártica' en Instituto Antártico Chileno
   - RSS: `https://www.inach.cl/category/ciencia/feed/`
+- **Iquique TV**: Feed de la categoría 'Ciencia y Tecnología' en Iquique TV
+  - RSS: `https://iquiquetv.cl/category/noticias/ciencia-y-tecnologia/feed/`
 - **ITseller Chile** — Plataforma chilena de comercio y contenido especializado en tecnología
   - ITseller Chile - Portada: `https://itseller.cl/feed/`
   - ITseller Chile - Destacadas: `https://www.itseller.cl/category/transversales/destacadas/feed/`
@@ -278,24 +302,13 @@
   - ITseller Chile - Productos: `https://www.itseller.cl/category/productos/feed/`
   - ITseller Chile - Nombramientos: `https://www.itseller.cl/category/empresas/nombramiento/feed/`
   - ITseller Chile - Infraestructura & Data Centers: `https://www.itseller.cl/category/valor-agregado/infraestructura/feed/`
+  - ITseller Chile - Movilidad: `https://www.itseller.cl/category/productos/movilidad/feed/`
   - ITseller Chile - Programas De Fidelizacion: `https://www.itseller.cl/category/canales/fidelizacion/feed/`
-  - ITseller Chile - Opinion: `https://www.itseller.cl/category/transversales/opinion/feed/`
   - ITseller Chile - Ciberseguridad: `https://www.itseller.cl/category/valor-agregado/seguridad/ciberseguridad/feed/`
-  - ITseller Chile - Cloud: `https://www.itseller.cl/category/valor-agregado/cloud/feed/`
-  - ITseller Chile - Entrevistas: `https://www.itseller.cl/category/transversales/entrevistas/feed/`
-  - ITseller Chile - Almacenamiento: `https://www.itseller.cl/category/productos/almacenamiento/feed/`
-  - ITseller Chile - Lanzamientos: `https://www.itseller.cl/category/transversales/lanzamientos/feed/`
-  - ITseller Chile - Entrenamiento: `https://www.itseller.cl/category/canales/entrenamiento/feed/`
-  - ITseller Chile - Software & Servicios: `https://www.itseller.cl/category/software_y_servicios/feed/`
-  - ITseller Chile - Alianzas: `https://www.itseller.cl/category/empresas/alianzas/feed/`
-  - ITseller Chile - Cio: `https://www.itseller.cl/category/cio/feed/`
-  - ITseller Chile - Comunicaciones Unificadas: `https://www.itseller.cl/category/valor-agregado/comunicaciones/feed/`
   - ITseller Chile - Seguridad Electronica & Video Vigilancia: `https://www.itseller.cl/category/valor-agregado/seguridad/seguridad-electronica-video-vigilancia/feed/`
-  - ITseller Chile - Banca Y Finanzas: `https://www.itseller.cl/category/cio/banca-y-finanzas/feed/`
-  - ITseller Chile - Open Source: `https://www.itseller.cl/category/software_y_servicios/open-source/feed/`
+  - ITseller Chile - Notebooks: `https://www.itseller.cl/category/productos/movilidad/notebooks/feed/`
+  - ITseller Chile - Responsabilidad Social: `https://www.itseller.cl/category/empresas/responsabilidad-social/feed/`
   - ITseller Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:itseller.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **La Batalla de Maipú**: Feed de la categoría 'Ciencia Y Tecnología' en La Batalla de Maipú
-  - RSS: `https://www.labatalla.cl/secciones/secciones/ciencia-y-tecnologia/feed/`
 - **La Noticia**: Feed de la categoría 'Tecnología' en La Noticia
   - RSS: `https://lanoticia.cl/category/tecnologia/feed/`
 - **La Prensa Austral** — Diario regional de Magallanes y la Antártica Chilena
@@ -303,6 +316,8 @@
   - La Prensa Austral - Tecnología: `https://laprensaaustral.cl/category/tecnologia/feed/`
 - **La Razón**: Feed de la categoría 'Ciencia y Tecnología' en La Razón
   - RSS: `https://www.larazon.cl/temas/ciencia-y-tecnologia/feed/`
+- **La Región Hoy**: Feed de la categoría 'Ciencia y Educación' en La Región Hoy
+  - RSS: `https://laregionhoy.cl/category/ciencia/feed/`
 - **La Tercera**: Feed de la categoría 'Tecnología' en La Tercera
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/tecnologia/?outputType=xml`
 - **La Voz del Norte**: Feed de la categoría 'Ciencia' en La Voz del Norte
@@ -317,13 +332,12 @@
   - N-Lab Chile: `https://n-lab.cl/feed/`
   - N-Lab Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:n-lab.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - N-Lab Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:n-lab.cl&format=RSS`
-- **Netsus** — Especialistas en ciberseguridad y continuidad de negocio en Chile
-  - Netsus: `https://netsus.com/blog/feed/`
-  - Netsus [Proxy Google News]: `https://news.google.com/rss/search?q=site:netsus.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Nuevo Poder**: Feed de la categoría 'Tecnociencia' en Nuevo Poder
   - RSS: `https://www.nuevopoder.cl/category/tecnologia/feed/`
 - **Página 19**: Feed de la categoría 'Tecnología' en Página 19
   - RSS: `https://pagina19.cl/categoria/tecnologia/feed/`
+- **Panorama Noticioso**: Feed de la categoría 'Tecnología' en Panorama Noticioso
+  - RSS: `https://www.panoramanoticioso.cl/category/tecnologia/feed/`
 - **Perfil** — Diario argentino de noticias, política, economía y actualidad
   - Perfil - Ciencia: `https://www.perfil.com/feed/ciencia`
   - Perfil - Tecnología: `https://www.perfil.com/feed/tecnologia`
@@ -334,6 +348,7 @@
   - Pisapapeles - Columnas: `https://pisapapeles.net/category/columna/feed/`
   - Pisapapeles - Entrevistas: `https://pisapapeles.net/category/entrevistas/feed/`
   - Pisapapeles [Proxy Google News]: `https://news.google.com/rss/search?q=site:pisapapeles.net&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Pisapapeles [Proxy Bing News]: `https://www.bing.com/news/search?q=site:pisapapeles.net&format=RSS`
 - **Portal Educa**: Feed de la categoría ' Tecnología' en Portal Educa
   - RSS: `https://portaleduca.cl/category/tecnologia/feed/`
 - **Portal Metropolitano** — Portal de noticias de la Región Metropolitana
@@ -354,17 +369,17 @@
   - RSS: `https://www.maray.cl/category/ciencia-tecnologia/feed/`
 - **Radio Nuevo Mundo**: Feed de la categoría 'Ciencia' en Radio Nuevo Mundo
   - RSS: `https://radionuevomundo.cl/categoria/noticias/ciencia/feed/`
-- **Radio UdeC**: Feed de la categoría 'Ciencia' en Radio UdeC
-  - RSS: `https://www.radioudec.cl/category/ciencia/feed/`
+- **Radio UdeC** — Radio de la Universidad de Concepción 95.1 FM
+  - Radio UdeC - Ciencia: `https://www.radioudec.cl/category/ciencia/feed/`
+  - Radio UdeC - Innovación: `https://www.radioudec.cl/category/innovacion/feed/`
 - **Región de Coquimbo**: Feed de la categoría 'Ciencia' en Región de Coquimbo
   - RSS: `https://regiondecoquimbo.cl/category/ciencia/feed/`
 - **Revista Ecociencias**: Feed de la categoría 'Ciencia Y Tecnología' en Revista Ecociencias
   - RSS: `https://revistaecociencias.cl/categoria/educacion-ambiental/ciencia-y-tecnologia/feed/`
-- **Río en Línea**: Feed de la categoría 'Tecnología' en Río en Línea
-  - RSS: `https://www.rioenlinea.cl/seccion/tecnologia/feed/`
 - **Samsung Newsroom Latin America** — Sala de prensa de Samsung para América Latina
   - Samsung Newsroom Latin America: `https://news.samsung.com/latin/feed`
   - Samsung Newsroom Latin America [Proxy Google News]: `https://news.google.com/rss/search?q=site:news.samsung.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Samsung Newsroom Latin America [Proxy Bing News]: `https://www.bing.com/news/search?q=site:news.samsung.com&format=RSS`
 - **Tecnología Chile** — Portal tecnológico chileno sobre startups, inteligencia artificial, innovación, ciberseguridad y gaming.
   - Tecnología Chile: `https://nodotecnologico.cl/feed.xml`
   - Tecnología Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:nodotecnologico.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -372,13 +387,10 @@
   - Telesemana: `https://www.telesemana.com/feed/`
   - Telesemana - Análisis: `https://www.telesemana.com/blog/category/analisis/feed/`
   - Telesemana - Podcast: `https://www.telesemana.com/blog/category/podcast/feed/`
-  - Telesemana - Entrevistas: `https://www.telesemana.com/blog/category/entrevistas/feed/`
   - Telesemana - Opinión: `https://www.telesemana.com/blog/category/opinion/feed/`
   - Telesemana - Webinars: `https://www.telesemana.com/blog/category/webinars/feed/`
-  - Telesemana - Reportes: `https://www.telesemana.com/blog/category/reportes/feed/`
   - Telesemana - Charlas De Café: `https://www.telesemana.com/blog/category/charlas-de-cafe/feed/`
-  - Telesemana - Webinars En Archivo: `https://www.telesemana.com/blog/category/webinars/webinars-en-archivo/feed/`
-  - Telesemana - Reportes Patrocinados: `https://www.telesemana.com/blog/category/reportes/reportepatrocinado/feed/`
+  - Telesemana - Advertorial: `https://www.telesemana.com/blog/category/advertorial/feed/`
   - Telesemana [Proxy Google News]: `https://news.google.com/rss/search?q=site:telesemana.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - Telesemana [Proxy Bing News]: `https://www.bing.com/news/search?q=site:telesemana.com&format=RSS`
 - **Televitos** — Blog chileno de tecnología y entretenimiento
@@ -392,8 +404,10 @@
   - Televitos - Entrevistas: `https://televitos.com/feed/?category=entrevistas`
   - Televitos - Televitos2023: `https://televitos.com/feed/?category=televitos2023`
   - Televitos [Proxy Google News]: `https://news.google.com/rss/search?q=site:televitos.com&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Temuco Diario**: Feed de la categoría 'Tecnología' en Temuco Diario
-  - RSS: `https://temucodiario.cl/category/tecnologia/feed/`
+  - Televitos [Proxy Bing News]: `https://www.bing.com/news/search?q=site:televitos.com&format=RSS`
+- **Temuco Diario** — Diario regional de Temuco, La Araucanía
+  - Temuco Diario - Tecnología: `https://temucodiario.cl/category/tecnologia/feed/`
+  - Temuco Diario - Samsung: `https://temucodiario.cl/category/samsung/feed/`
 - **Temuco Televisión**: Feed de la categoría 'Tecnología' en Temuco Televisión
   - RSS: `https://temucotelevision.cl/web/category/tecnologia/feed/`
 - **Tierramarillano** — Diario regional de Copiapó, Atacama
@@ -434,9 +448,8 @@
   - trendTIC - Opinión: `https://www.trendtic.cl/category/opinion/feed/`
   - trendTIC - Autos y Electromovilidad: `https://www.trendtic.cl/category/autos/feed/`
   - trendTIC [Proxy Google News]: `https://news.google.com/rss/search?q=site:trendtic.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Tus Noticias** — Medio digital de San Pedro de la Paz, Región del Biobío
-  - Tus Noticias - Ciencia: `https://www.tusnoticias.cl/noticias/ciencia/feed/`
-  - Tus Noticias - Tecnologia: `https://www.tusnoticias.cl/noticias/noticias-de-tecnologia/feed/`
+- **Tus Noticias**: Feed de la categoría 'Ciencia' en Tus Noticias
+  - RSS: `https://www.tusnoticias.cl/noticias/ciencia/feed/`
 - **TXS Plus** — Medio audiovisual dedicado a ciencia y tecnología
   - TXS Plus: `https://txsplus.com/feed/`
   - TXS Plus - Programas: `https://txsplus.com/programas/feed/`

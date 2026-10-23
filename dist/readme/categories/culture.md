@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`culture.opml`](../../opml/categories/culture.opml) - 137 sitios, 234 feeds*
+*Descargar OPML: [`culture.opml`](../../opml/categories/culture.opml) - 138 sitios, 230 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Anime y Manga: `https://alertageekchile.cl/category/anime-y-manga/feed/`
@@ -19,6 +19,8 @@
   - RSS: `https://araucanianoticias.cl/category/cultura-y-espectaculos/feed/`
 - **Arica Al Día**: Feed de la categoría 'Cultura' en Arica Al Día
   - RSS: `https://www.aricaldia.cl/category/cultura/feed/`
+- **Arica es Noticia**: Feed de la categoría 'Cultura' en Arica es Noticia
+  - RSS: `https://aricaesnoticia.cl/category/cultura-y-espectaculos/feed/`
 - **Arica365** — Diario regional de Arica y Parinacota
   - Arica365 - Cultura: `https://www.arica365.cl/blog/category/cultura/feed/`
   - Arica365 - Culturales: `https://www.arica365.cl/blog/category/culturales/feed/`
@@ -30,15 +32,17 @@
   - RSS: `https://www.aysenahora.cl/category/cultura/feed/`
 - **Balmaceda Arte Joven** — Fundación de formación artística juvenil con sedes en varias regiones
   - Balmaceda Arte Joven: `https://www.balmacedartejoven.cl/feed/`
+  - Balmaceda Arte Joven - Portada: `https://www.balmacedartejoven.cl/category/portada/feed/`
+  - Balmaceda Arte Joven - Talleres Presenciales: `https://www.balmacedartejoven.cl/category/talleres/talleres-presenciales/feed/`
+  - Balmaceda Arte Joven - Valparaíso: `https://www.balmacedartejoven.cl/category/noticias/valparaiso/feed/`
   - Balmaceda Arte Joven - Metropolitana: `https://www.balmacedartejoven.cl/category/noticias/metropolitana/feed/`
+  - Balmaceda Arte Joven - Talleres: `https://www.balmacedartejoven.cl/category/talleres/feed/`
   - Balmaceda Arte Joven - Bío Bío: `https://www.balmacedartejoven.cl/category/noticias/bio-bio/feed/`
-  - Balmaceda Arte Joven - Galería De Arte: `https://www.balmacedartejoven.cl/category/galeria-de-arte/feed/`
+  - Balmaceda Arte Joven - Talleres Bío Bío: `https://www.balmacedartejoven.cl/category/talleres/talleres-presenciales/talleres-bio-bio/feed/`
+  - Balmaceda Arte Joven - Los Lagos: `https://www.balmacedartejoven.cl/category/noticias/los-lagos/feed/`
   - Balmaceda Arte Joven - Antofagasta: `https://www.balmacedartejoven.cl/category/noticias/antofagasta/feed/`
-  - Balmaceda Arte Joven - Entrevistas: `https://www.balmacedartejoven.cl/category/comunidad-baj/entrevistas/feed/`
-  - Balmaceda Arte Joven - Comunidad Baj: `https://www.balmacedartejoven.cl/category/comunidad-baj/feed/`
-  - Balmaceda Arte Joven - Metropolitana Galería: `https://www.balmacedartejoven.cl/category/galeria-de-arte/metropolitana-galeria/feed/`
-  - Balmaceda Arte Joven - Comunidad Baj Portada: `https://www.balmacedartejoven.cl/category/portada-comunidad-balmaceda/feed/`
-  - Balmaceda Arte Joven - Fotoantofagasta: `https://www.balmacedartejoven.cl/category/fotos/fotos-antofagasta/feed/`
+  - Balmaceda Arte Joven - Convocatorias: `https://www.balmacedartejoven.cl/category/convocatorias/feed/`
+  - Balmaceda Arte Joven - Institucional: `https://www.balmacedartejoven.cl/category/institucional/feed/`
   - Balmaceda Arte Joven [Proxy Google News]: `https://news.google.com/rss/search?q=site:balmacedartejoven.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Calama en Línea**: Feed de la categoría 'Cultura' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/cultura/feed/`
@@ -51,15 +55,9 @@
   - RSS: `https://mastodon.cl/@chilecultura.rss`
 - **Chile es Tuyo** — Portal de turismo y viajes del Gobierno de Chile
   - Chile es Tuyo: `https://chileestuyo.cl/feed/`
-  - Chile es Tuyo - Novedades: `https://chileestuyo.cl/category/novedades/feed/`
-  - Chile es Tuyo - Cultura y Patrimonio: `https://chileestuyo.cl/category/cultura-y-patrimonio/feed/`
-  - Chile es Tuyo - Reportajes: `https://chileestuyo.cl/category/reportajes/feed/`
-  - Chile es Tuyo - Naturaleza: `https://chileestuyo.cl/category/naturaleza/feed/`
-  - Chile es Tuyo - Noticias: `https://chileestuyo.cl/category/noticias/feed/`
-  - Chile es Tuyo - Chile: `https://chileestuyo.cl/category/chile/feed/`
-  - Chile es Tuyo - Vivenciales: `https://chileestuyo.cl/category/vivenciales/feed/`
-  - Chile es Tuyo - Parques y Reservas Naturales: `https://chileestuyo.cl/?cat=43&feed=rss2`
-  - Chile es Tuyo [Proxy Google News]: `https://news.google.com/rss/search?q=site:chileestuyo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Chile es Tuyo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:chileestuyo.cl&format=RSS`
+- **ChiloeNews**: Feed de la categoría 'Cultura' en ChiloeNews
+  - RSS: `https://chiloenews.cl/Categoría/cultura/feed/`
 - **Crónica Digital**: Feed de la categoría 'Cultura' en Crónica Digital
   - RSS: `https://cronicadigital.cl/category/cultura/feed/`
 - **David Noticias**: Feed de la categoría 'Cultura' en David Noticias
@@ -76,10 +74,14 @@
   - RSS: `https://www.diarioantofagasta.cl/cultura/feed/`
 - **Diario Chañarcillo**: Feed de la categoría 'Entretención Cultura' en Diario Chañarcillo
   - RSS: `https://www.chanarcillo.cl/category/entretecion-cultura/feed/`
+- **Diario Chile**: Feed de la categoría 'Cine' en Diario Chile
+  - RSS: `https://diariochile.cl/category/cine/feed/`
 - **Diario El Cautín**: Feed de la categoría 'Cultura' en Diario El Cautín
   - RSS: `https://diarioelcautin.cl/category/cultura/feed/`
 - **Diario El Centro**: Feed de la categoría 'Cultura' en Diario El Centro
   - RSS: `https://www.diarioelcentro.cl/categoria/cultura/feed/`
+- **Diario El Marino**: Feed de la sección 'Cultura y Entretenimiento' en Diario El Marino
+  - RSS: `https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/`
 - **Diario El Nortino** — Diario regional de Alto Hospicio, Tarapacá
   - Diario El Nortino - Cultura y Patrimonio: `https://diarioelnortino.cl/category/cultura-patrimonio/feed/`
   - Diario El Nortino - Artes y Cultura: `https://diarioelnortino.cl/category/artes-cultura/feed/`
@@ -90,6 +92,8 @@
   - RSS: `https://diariolaquinta.cl/category/cultura/feed/`
 - **Diario La Región**: Feed de la categoría 'Cultura' en Diario La Región
   - RSS: `https://www.diariolaregion.cl/category/cultura/feed/`
+- **Diario Los Lagos**: Feed de la categoría 'Cultura y Espectáculos' en Diario Los Lagos
+  - RSS: `https://diarioloslagos.cl/category/noticias/cultura-y-espectaculos/feed/`
 - **Diario UACh**: Feed de la categoría 'Cultura' en Diario UACh
   - RSS: `https://diario.uach.cl/category/secciones/cultura/feed/`
 - **Editorial Quimantú**: Feed de comentarios de Editorial Quimantú
@@ -104,18 +108,16 @@
   - El Ciudadano - Cultura: `https://www.elciudadano.com/noticias/cultura/feed/`
 - **El Clarín de Chile**: Feed de la categoría 'Corrientes Culturales' en El Clarín de Chile
   - RSS: `https://www.elclarin.cl/category/informaciones/cultura/feed/`
-- **El Comunicador**: Feed de la categoría 'Cultura' en El Comunicador
-  - RSS: `https://elcomunicador.cl/category/cultura/feed/`
 - **El Diario de Curacaví**: Feed de la categoría 'Cultura' en El Diario de Curacaví
   - RSS: `https://eldiariodecuracavi.cl/category/cultura/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Cultura' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/entretenimiento/cultura/feed/`
 - **El Diario Santiago**: Feed de la categoría 'Cultura' en El Diario Santiago
   - RSS: `https://eldiariosantiago.cl/category/cultura/feed/`
-- **El Insular**: Feed de la categoría 'Cine' en El Insular
-  - RSS: `https://elinsular.cl/category/entretencion/cine/feed/`
 - **El Maipo**: Feed de la categoría 'Cultura' en El Maipo
   - RSS: `https://elmaipo.cl/category/cultura/feed/`
+- **El Maule Informa**: Feed de la categoría 'Cultura' en El Maule Informa
+  - RSS: `https://elmauleinforma.cl/cultura/feed/`
 - **El Morro de Arica**: Feed de la categoría 'Cultura' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/cultura/feed/`
 - **El Nacional** — Diario venezolano de noticias nacionales e internacionales
@@ -125,26 +127,26 @@
   - RSS: `https://elnoticierodelhuasco.cl/category/cultura/feed/`
 - **El Observador**: Feed de la categoría 'Cultura y Espectáculos' en El Observador
   - RSS: `https://www.observador.cl/category/cultura-y-espectaculos/feed/`
+- **El Ovallino**: Feed de la categoría 'Cultura' en El Ovallino
+  - RSS: `https://www.elovallino.cl/category/cultura/feed/`
 - **El Periódico**: Feed de la categoría 'Cultura y Espectáculos' en El Periódico
   - RSS: `https://elperiodico.cl/category/cultura/feed/`
 - **El Periodista**: Feed de la categoría 'Cultura' en El Periodista
   - RSS: `https://www.elperiodista.cl/category/cultura/feed/`
-- **El Quinto Poder**: Feed de la categoría 'Cultura' en El Quinto Poder
-  - RSS: `https://elquintopoder.cl/temas/cultura/feed/`
 - **El Reporte Diario**: Feed de la categoría 'Cine' en El Reporte Diario
   - RSS: `https://reportediario.cl/tag/cine/feed/`
 - **El Siglo**: Feed de la categoría 'Cultura' en El Siglo
   - RSS: `https://elsiglo.cl/category/cultura/feed/`
 - **El Sol de Iquique**: Feed de la categoría 'Cultura' en El Sol de Iquique
   - RSS: `https://elsoldeiquique.cl/cultura/feed/`
+- **El Tirapiedras**: Feed de la categoría 'Cultura' en El Tirapiedras
+  - RSS: `https://www.eltirapiedras.cl/cultura/feed/`
 - **El Urbano Rural**: Feed de la categoría 'Cultura' en El Urbano Rural
   - RSS: `https://elurbanorural.cl/category/cultura/feed/`
 - **Elqui Global**: Feed de la categoría 'Cultura' en Elqui Global
   - RSS: `https://www.elquiglobal.cl/categoria/cultura/feed/`
 - **En La Línea**: Feed de la categoría 'Arte y Cultura' en En La Línea
   - RSS: `https://www.enlalinea.cl/category/arte-y-cultura/feed/`
-- **Enfoque Digital O'Higgins**: Feed de la categoría 'Arte y Cultura' en Enfoque Digital O'Higgins
-  - RSS: `https://vi.cl/category/arte-cultura/feed/`
 - **Espacio Regional** — Medio independiente y colaborativo de sociedad, política y cultura, con especial presencia en Valparaíso y crítica literaria.
   - Espacio Regional: `https://www.espacioregional.cl/feed/`
   - Espacio Regional [Proxy Google News]: `https://news.google.com/rss/search?q=site:espacioregional.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -162,8 +164,9 @@
   - Fotech - Teatro: `https://www.fotech.cl/category/teatro/feed/`
 - **Fresia Ahora**: Feed de la categoría 'Cultura' en Fresia Ahora
   - RSS: `https://www.fresiaahora.cl/category/comuna/cultura/feed/`
-- **Fundación Cultural de Providencia**: Feed principal de Fundación Cultural de Providencia
-  - RSS: `https://www.culturaprovidencia.cl/feed/`
+- **Fundación Cultural de Providencia** — Corporación cultural de la comuna de Providencia, Santiago
+  - Fundación Cultural de Providencia: `https://www.culturaprovidencia.cl/feed/`
+  - Fundación Cultural de Providencia [Proxy Google News]: `https://news.google.com/rss/search?q=site:culturaprovidencia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **G5 Noticias**: Feed de la categoría 'Cultura y Espectáculos' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/cultura-y-espectaculos/feed/`
 - **Google News**: Página de resultados para keyword=cultura en Google News de noticias Chilenas
@@ -177,8 +180,8 @@
 - **Iquique TV** — Medio de comunicación de la Región de Tarapacá
   - Iquique TV - Cultura: `https://iquiquetv.cl/category/noticias/cultura/feed/`
   - Iquique TV - Arte: `https://iquiquetv.cl/category/noticias/arte/feed/`
-- **iRock.CL**: Feed de la categoría 'Cine/series' en iRock.CL
-  - RSS: `https://www.irock.cl/category/cine/feed/`
+- **ITV Patagonia**: Feed de la categoría 'Cultura' en ITV Patagonia
+  - RSS: `https://www.itvpatagonia.com/categoria/cultura/feed/`
 - **La Batalla de Maipú**: Feed de la categoría 'Arte Y Cultura' en La Batalla de Maipú
   - RSS: `https://www.labatalla.cl/secciones/cultura/feed/`
 - **La Discusión** — Diario de Ñuble - Medios regionales
@@ -190,6 +193,8 @@
   - La Máquina Medio - Cultura: `https://lamaquinamedio.com/categoria/cultura/feed/`
   - La Máquina Medio - Teatro y Dramaturgia: `https://lamaquinamedio.com/categoria/teatro-y-dramaturgia/feed/`
   - La Máquina Medio - Literatura: `https://lamaquinamedio.com/categoria/literatura/feed/`
+- **La Mega FM**: Feed de la categoría 'Cultura' en La Mega FM
+  - RSS: `https://lamegafm.cl/category/tarapaca/cultura/feed/`
 - **La Noticia**: Feed de la categoría 'Cultura' en La Noticia
   - RSS: `https://lanoticia.cl/category/cultura/feed/`
 - **La Razón**: Feed de la categoría 'Arte y Cultura' en La Razón
@@ -199,12 +204,12 @@
 - **La Tendencia** — Medio digital de noticias y tendencias de cultura, internet, deportes y vida sana
   - La Tendencia: `https://latendencia.cl/feed/`
   - La Tendencia - General: `https://latendencia.cl/category/general/feed/`
+  - La Tendencia - Estadísticas: `https://latendencia.cl/category/estadisticas/feed/`
   - La Tendencia - Internet: `https://latendencia.cl/category/internet/feed/`
+  - La Tendencia - Tendencias: `https://latendencia.cl/category/tendencias/feed/`
   - La Tendencia [Proxy Google News]: `https://news.google.com/rss/search?q=site:latendencia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **La Tercera**: Feed de la categoría 'Culto' en La Tercera
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/culto/?outputType=xml`
-- **La Tribuna de Colchagua**: Feed de la categoría 'Cultura' en La Tribuna de Colchagua
-  - RSS: `https://www.latribunadecolchagua.cl/category/cultura/feed/`
 - **La Voz del Norte**: Feed de la categoría 'Cultura' en La Voz del Norte
   - RSS: `https://www.lavozdelnorte.cl/category/cultura/feed/`
 - **Las Noticias de Malleco**: Feed de la categoría 'Cultura' en Las Noticias de Malleco
@@ -228,27 +233,20 @@
   - Museo Violeta Parra [Proxy Google News]: `https://news.google.com/rss/search?q=site:museovioletaparra.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Música y Noticias**: Feed de la categoría 'Cultura Y Espectáculos' en Música y Noticias
   - RSS: `https://www.musicaynoticias.cl/category/cultura-y-espectaculos/feed/`
-- **Noticias Biobío**: Feed de la categoría 'Cultura y Espectaculos' en Noticias Biobío
-  - RSS: `https://noticiasbiobio.cl/category/cultura-y-espectaculos/feed/`
 - **Noticias Chiloé**: Feed de la categoría 'Cultura y Espectaculos' en Noticias Chiloé
   - RSS: `https://loslagosnoticias.cl/category/cultura-y-espectaculos/feed/`
-- **Noticias del Lago**: Feed de la categoría 'Cultura y Espectáculos' en Noticias del Lago
-  - RSS: `https://www.noticiasdellago.cl/category/cultura-y-espectaculos/feed/`
 - **Noticias del Sur**: Feed de la categoría 'Cultura' en Noticias del Sur
   - RSS: `https://noticiasdelsur.cl/category/cultura/feed/`
 - **Noticias Los Ríos**: Feed de la categoría 'Cultura' en Noticias Los Ríos
   - RSS: `https://www.noticiaslosrios.cl/seccion/cultura/feed/`
 - **Novena Digital**: Feed de la categoría 'Cultura y Entretención' en Novena Digital
   - RSS: `https://novenadigital.cl/category/cultura-y-entretencion/feed/`
-- **Ñuble Actual**: Feed de la categoría 'Cultural' en Ñuble Actual
-  - RSS: `https://www.nubleactual.cl/categoria/cultural/feed/`
 - **Ñuble Digital**: Feed de la categoría 'Cultura' en Ñuble Digital
   - RSS: `https://nubledigital.cl/noticias/cultura/feed/`
 - **Onda Expansiva**: Feed de la categoría 'Cultura Y Espectaculos' en Onda Expansiva
   - RSS: `https://ondaexpansiva.cl/category/cultura-y-espectaculos/feed/`
-- **Ovalle Hoy** — Diario regional de Ovalle, Coquimbo
-  - Ovalle Hoy - Artes y Cultura: `https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/feed/`
-  - Ovalle Hoy - Artes Visuales: `https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/artes-visuales/feed/`
+- **Ovalle Hoy**: Feed de la categoría 'Artes y Cultura' en Ovalle Hoy
+  - RSS: `https://ovallehoy.cl/categoria/ultimas/artes-y-cultura/feed/`
 - **Página 19**: Feed de la categoría 'Cultura' en Página 19
   - RSS: `https://pagina19.cl/categoria/nacional/cultura/feed/`
 - **Piensa Chile**: Feed de la categoría 'Cultura' en Piensa Chile
@@ -259,10 +257,10 @@
   - Portal Metropolitano - Teatro: `https://portalmetropolitano.cl/category/teatro/feed/`
   - Portal Metropolitano - Literatura: `https://portalmetropolitano.cl/category/cartelera-pm/literatura/feed/`
   - Portal Metropolitano - Cine: `https://portalmetropolitano.cl/category/cartelera-pm/cine/feed/`
-- **Prensa Ciudadana**: Feed de la categoría 'Cultura' en Prensa Ciudadana
-  - RSS: `https://www.prensaciudadana.cl/category/cultura/feed/`
 - **Primera Fuente**: Feed de la categoría 'Cultura' en Primera Fuente
   - RSS: `https://primerafuente.cl/category/cultura/feed/`
+- **Pulso Público**: Feed de la categoría 'Cultura' en Pulso Público
+  - RSS: `https://pulsopublico.cl/cultura/feed/`
 - **Punto Cruzado**: Feed de la categoría 'Cine' en Punto Cruzado
   - RSS: `https://puntoseguido.cl/category/puntoseguido/cine/feed/`
 - **Radio 45 Sur**: Feed de la categoría 'Cultura' en Radio 45 Sur
@@ -297,9 +295,8 @@
   - RSS: `https://www.radioudec.cl/category/cultura/feed/`
 - **Región de Coquimbo**: Feed de la categoría 'Cultura' en Región de Coquimbo
   - RSS: `https://regiondecoquimbo.cl/category/cultura/feed/`
-- **Región Visual** — Medio regional de la Región de Valparaíso
-  - Región Visual - Cultura: `https://regionvisual.com/category/cultura/feed/`
-  - Región Visual - Cine: `https://regionvisual.com/category/cultura/cine/feed/`
+- **Región Visual**: Feed de la categoría 'Cultura' en Región Visual
+  - RSS: `https://regionvisual.com/category/cultura/feed/`
 - **Revista Ckuri** — Revista digital bimensual sobre artes, culturas, patrimonio y turismo cultural de la Región de Antofagasta.
   - Revista Ckuri: `https://revistackuri.cl/feed/`
   - Revista Ckuri - Artistas Mujeres Regionales: `https://revistackuri.cl/category/artistas-mujeres-regionales/feed/`
@@ -315,8 +312,9 @@
   - Revista Nos - Reportajes: `https://revistanos.cl/reportajes/feed/`
   - Revista Nos - Nos Conecta: `https://revistanos.cl/nos-conecta/feed/`
   - Revista Nos [Proxy Google News]: `https://news.google.com/rss/search?q=site:revistanos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Río en Línea**: Feed de la categoría 'Cultura Y Espectáculos' en Río en Línea
-  - RSS: `https://www.rioenlinea.cl/seccion/gamma/cultura-y-espectaculos/feed/`
+- **Río en Línea** — Diario regional de Valdivia, Los Ríos
+  - Río en Línea - Cultura Y Espectáculos: `https://www.rioenlinea.cl/seccion/gamma/cultura-y-espectaculos/feed/`
+  - Río en Línea - Cultura: `https://www.rioenlinea.cl/seccion/cultura/feed/`
 - **Sala de Prensa**: Feed de la categoría 'Cultura' en Sala de Prensa
   - RSS: `https://saladeprensa.cl/?cat=32&feed=rss2`
 - **Sera Noticia**: Feed de la categoría 'Cultura' en Sera Noticia
@@ -346,13 +344,12 @@
   - Tell Magazine - Distrito Emprendedor: `https://tell.cl/category/columnistas/distrito-emprendedor/feed/`
   - Tell Magazine - Columnistas: `https://tell.cl/category/columnistas/feed/`
   - Tell Magazine [Proxy Google News]: `https://news.google.com/rss/search?q=site:tell.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Temuco Diario** — Diario regional de Temuco, La Araucanía
-  - Temuco Diario - Cultura: `https://temucodiario.cl/category/temucodiario-cl/feed/`
-  - Temuco Diario - Arte: `https://temucodiario.cl/category/arte/feed/`
-- **Tiempo 21**: Feed de la categoría 'Cultura' en Tiempo 21
-  - RSS: `https://www.tiempo21.cl/cultura/feed/`
+- **Temuco Diario**: Feed de la categoría 'Arte' en Temuco Diario
+  - RSS: `https://temucodiario.cl/category/arte/feed/`
 - **Traiguén City**: Feed de la categoría 'Cultura' en Traiguén City
   - RSS: `https://traiguencity.cl/noticias/traiguen/cultura/feed/`
+- **Tropezón Tu Diario**: Feed de la categoría 'Cultura' en Tropezón Tu Diario
+  - RSS: `https://nuevotropezon.tropezon.cl/category/cultura/feed/`
 - **Tus Noticias**: Feed de la categoría 'Cultura' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/cultura/feed/`
 - **TV Canal 5**: Feed de la categoría 'Cultura' en TV Canal 5
@@ -367,11 +364,11 @@
   - Unnie Pop - Comebacks: `https://unniepop.cl/category/comebacks/feed/`
   - Unnie Pop - Películas: `https://unniepop.cl/category/peliculas/feed/`
   - Unnie Pop - Estrenos: `https://unniepop.cl/category/estrenos/feed/`
-  - Unnie Pop - Debut: `https://unniepop.cl/category/debut/feed/`
-  - Unnie Pop - Populares: `https://unniepop.cl/category/populares/feed/`
   - Unnie Pop [Proxy Google News]: `https://news.google.com/rss/search?q=site:unniepop.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **VC Magazine**: Feed de la categoría 'Cultura' en VC Magazine
   - RSS: `https://vcmagazine.cl/category/cultura/feed/`
 - **Villa Grimaldi** — Corporación Parque por la Paz Villa Grimaldi, sitio de memoria histórica y derechos humanos
   - Villa Grimaldi: `https://villagrimaldi.cl/feed/`
+  - Villa Grimaldi - Noticias Destacadas: `https://villagrimaldi.cl/category/noticias-destacadas/feed/`
   - Villa Grimaldi [Proxy Google News]: `https://news.google.com/rss/search?q=site:villagrimaldi.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Villa Grimaldi [Proxy Bing News]: `https://www.bing.com/news/search?q=site:villagrimaldi.cl&format=RSS`

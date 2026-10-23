@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 133 sitios, 403 feeds*
+*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 132 sitios, 405 feeds*
 
 - **(Empresa) Contapapaya** — Plataforma de contabilidad online para pymes chilenas, con artículos sobre contabilidad y emprendimiento
   - (Empresa) Contapapaya: `https://contapapaya.cl/feed/`
@@ -10,22 +10,17 @@
 - **(Empresa) Logros Servicios Financieros** — Servicios financieros y contables, con artículos sobre finanzas y asesoría tributaria
   - (Empresa) Logros Servicios Financieros: `https://www.empresaslogros.cl/blog/rss.xml`
   - (Empresa) Logros Servicios Financieros [Proxy Google News]: `https://news.google.com/rss/search?q=site:empresaslogros.cl/&hl=es-419&gl=CL&ceid=CL:es-419`
-- **(Empresa) Nexos Chile** — Consultora de comunicación estratégica y asuntos públicos
-  - (Empresa) Nexos Chile: `https://www.nexos.cl/feed/`
-  - (Empresa) Nexos Chile - Análisis: `https://www.nexos.cl/category/analisis/feed/`
 - **ABIF** — Asociación de Bancos e Instituciones Financieras de Chile
   - ABIF: `https://www.abif.cl/blog-feed.xml`
   - ABIF [Proxy Google News]: `https://news.google.com/rss/search?q=site:abif.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Acero y Roca** — Magazine chileno de la industria minera
   - Acero y Roca: `https://aceroyroca.com/feed/`
   - Acero y Roca - Minería En San Juan: `https://aceroyroca.com/category/mineria-san-juan/feed/`
+  - Acero y Roca - Minería En Argentina: `https://aceroyroca.com/category/mineria-argentina/feed/`
   - Acero y Roca - Minería En El Mundo: `https://aceroyroca.com/category/mineria-mundo/feed/`
   - Acero y Roca - Comunidad: `https://aceroyroca.com/category/comunidad-minera/feed/`
   - Acero y Roca - Conflictos Y Reclamos: `https://aceroyroca.com/category/conflictos-reclamos/feed/`
-  - Acero y Roca [Proxy Google News]: `https://news.google.com/rss/search?q=site:aceroyroca.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - Acero y Roca [Proxy Bing News]: `https://www.bing.com/news/search?q=site:aceroyroca.com&format=RSS`
-- **Agencia de Noticias**: Feed de la categoría 'Finanzas' en Agencia de Noticias
-  - RSS: `https://agenciadenoticias.org/category/finanzas/feed/`
 - **Alerta Noticias Temuco** — Diario regional de Temuco, La Araucanía
   - Alerta Noticias Temuco - Economía y Negocios: `https://alertanoticiastemuco.cl/category/economia-y-negocios/feed/`
   - Alerta Noticias Temuco - Emprendimiento: `https://alertanoticiastemuco.cl/category/emprendimiento/feed/`
@@ -46,13 +41,13 @@
   - AQUA - I+D: `https://www.aqua.cl/?cat=654&feed=rss2`
   - AQUA - Sostenibilidad: `https://www.aqua.cl/?cat=81123&feed=rss2`
   - AQUA [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.aqua.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - AQUA [Proxy Bing News]: `https://www.bing.com/news/search?q=site:www.aqua.cl&format=RSS`
 - **Arica365**: Feed de la categoría '#emprendedores' en Arica365
   - RSS: `https://www.arica365.cl/blog/category/emprendedores/feed/`
 - **Atacama Noticias**: Feed de la categoría 'Minería y Economía' en Atacama Noticias
   - RSS: `https://www.atacamanoticias.cl/category/mineria_y_economia/feed/`
-- **Atentos** — Diario regional de Talca, Maule
-  - Atentos - Emprendedores: `https://www.atentos.cl/category/emprendedores/feed/`
-  - Atentos - Empresas: `https://www.atentos.cl/category/empresas/feed/`
+- **Atentos**: Feed de la categoría 'Emprendedores' en Atentos
+  - RSS: `https://www.atentos.cl/category/emprendedores/feed/`
 - **Aurora Noticias**: Feed de la categoría 'Economía' en Aurora Noticias
   - RSS: `https://auroranoticias.cl/economia/feed/`
 - **Base Nacional**: Feed de la categoría 'Economía' en Base Nacional
@@ -95,6 +90,7 @@
   - Chocale - Ranking Dap: `https://chocale.cl/ranking-dap/feed/`
   - Chocale - Vida Social: `https://chocale.cl/vida-social/feed/`
   - Chocale [Proxy Google News]: `https://news.google.com/rss/search?q=site:chocale.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Chocale [Proxy Bing News]: `https://www.bing.com/news/search?q=site:chocale.cl&format=RSS`
 - **CPC** — Feed principal de la CPC
   - CPC: `https://www.cpc.cl/feed/`
   - CPC [Proxy Google News]: `https://news.google.com/rss/search?q=site:cpc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -102,6 +98,7 @@
 - **CriptoNoticias Chile** — Sección chilena de CriptoNoticias sobre Bitcoin, blockchain y fintech en Chile
   - CriptoNoticias Chile - Mercados: `https://www.criptonoticias.com/categorias/mercados/feed/`
   - CriptoNoticias Chile - Negocios: `https://www.criptonoticias.com/categorias/negocios/feed/`
+  - CriptoNoticias Chile - Finanzas: `https://www.criptonoticias.com/categorias/finanzas/feed/`
 - **David Noticias**: Feed de la categoría 'Economia' en David Noticias
   - RSS: `https://www.davidnoticias.cl/category/economia/feed/`
 - **De Mar a Cordillera TV**: Feed de la categoría 'Emprendimiento' en De Mar a Cordillera TV
@@ -117,25 +114,20 @@
 - **Diario Agrícola** — Diario especializado en información estratégica para el agro chileno
   - Diario Agrícola: `https://www.diarioagricola.com/feed/`
   - Diario Agrícola - Economía: `https://www.diarioagricola.com/category/economia/feed/`
-  - Diario Agrícola - Exportaciones: `https://www.diarioagricola.com/category/economia/exportaciones/feed/`
   - Diario Agrícola - Internacional 2: `https://www.diarioagricola.com/category/internacional-2/feed/`
   - Diario Agrícola - Entrevistas: `https://www.diarioagricola.com/category/entrevistas/feed/`
   - Diario Agrícola - Historias: `https://www.diarioagricola.com/category/historias/feed/`
   - Diario Agrícola - Nacional 2: `https://www.diarioagricola.com/category/nacional-2/feed/`
   - Diario Agrícola - Tendencias: `https://www.diarioagricola.com/category/tendencias/feed/`
-  - Diario Agrícola - Política 3: `https://www.diarioagricola.com/category/politica-3/feed/`
-  - Diario Agrícola - Columnas: `https://www.diarioagricola.com/category/columnas/feed/`
-  - Diario Agrícola - Podcast: `https://www.diarioagricola.com/category/podcast/feed/`
   - Diario Agrícola - Economía Circular Economía: `https://www.diarioagricola.com/category/economia/economia-circular-economia/feed/`
-  - Diario Agrícola - Economía Circular: `https://www.diarioagricola.com/category/columnas/economia-columnas/economia-circular/feed/`
   - Diario Agrícola - Startup: `https://www.diarioagricola.com/category/startup/feed/`
   - Diario Agrícola [Proxy Google News]: `https://news.google.com/rss/search?q=site:diarioagricola.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diario Cauquenes**: Feed de la categoría 'Economía' en Diario Cauquenes
   - RSS: `https://diariocauquenes.cl/categoria/economia/feed/`
 - **Diario Chañarcillo**: Feed de la categoría 'Economía y Minería' en Diario Chañarcillo
   - RSS: `https://www.chanarcillo.cl/category/economiaymineria/feed/`
-- **Diario Chile**: Feed de la categoría 'Emprendimiento' en Diario Chile
-  - RSS: `https://diariochile.cl/category/emprendimiento/feed/`
+- **Diario Curicó**: Feed de la categoría 'Economía' en Diario Curicó
+  - RSS: `https://diariocurico.cl/categoria/economia/feed/`
 - **Diario El Centro**: Feed de la categoría 'Economía' en Diario El Centro
   - RSS: `https://www.diarioelcentro.cl/categoria/economia/feed/`
 - **Diario El Longino**: Feed de la categoría 'Emprendimiento y Negocios' en Diario El Longino
@@ -149,6 +141,7 @@
 - **Diario Estrategia** — Diario chileno especializado en economía, negocios y finanzas
   - Diario Estrategia: `https://www.diarioestrategia.cl/feed/all`
   - Diario Estrategia [Proxy Google News]: `https://news.google.com/rss/search?q=site:diarioestrategia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Diario Estrategia [Proxy Bing News]: `https://www.bing.com/news/search?q=site:diarioestrategia.cl&format=RSS`
 - **Diario Financiero** — Diario especializado en economía y negocios
   - Diario Financiero: `https://www.df.cl/noticias/site/list/port/rss.xml`
   - Diario Financiero - Mastodon.cl BOT: `https://mastodon.cl/@df.rss`
@@ -159,6 +152,8 @@
   - Diario La Región - Comercio: `https://www.diariolaregion.cl/category/comercio/feed/`
 - **Diario Linares**: Feed de la categoría 'Economía' en Diario Linares
   - RSS: `https://diariolinares.cl/categoria/economia/feed/`
+- **Diario Los Lagos**: Feed de la categoría 'Economía' en Diario Los Lagos
+  - RSS: `https://diarioloslagos.cl/category/noticias/economia/feed/`
 - **Diario Mapuche**: Feed de la categoría 'Economia' en Diario Mapuche
   - RSS: `https://www.mapuchediario.cl/category/economia/feed/`
 - **Diario Sur Noticias**: Feed de la categoría 'Economía' en Diario Sur Noticias
@@ -171,9 +166,10 @@
   - RSS: `https://duplos.cl/negocios/feed/`
 - **El Ciudadano**: Feed de la sección 'Economía' en El Ciudadano
   - RSS: `https://www.elciudadano.com/noticias/economia/feed/`
-- **El Clarín de Chile** — Portal de noticias nacionales e internacionales
-  - El Clarín de Chile - Economía y Mercados En Marcha: `https://www.elclarin.cl/category/informaciones/economia/feed/`
-  - El Clarín de Chile - Mercados: `https://www.elclarin.cl/category/informaciones/economia/mercados/feed/`
+- **El Clarín de Chile**: Feed de la categoría 'Economía y Mercados En Marcha' en El Clarín de Chile
+  - RSS: `https://www.elclarin.cl/category/informaciones/economia/feed/`
+- **El Comunicador**: Feed de la categoría 'Economía' en El Comunicador
+  - RSS: `https://elcomunicador.cl/category/economia/feed/`
 - **El Contraste**: Feed de la categoría 'Economía' en El Contraste
   - RSS: `https://elcontraste.cl/economia/feed/`
 - **El Diario de La Araucanía** — Diario regional de Angol, La Araucanía
@@ -194,8 +190,8 @@
   - El Nacional - Economía: `https://www.elnacional.com/economia/feed/`
   - El Nacional - Emprendimiento: `https://www.elnacional.com/economia/emprendimiento/feed/`
   - El Nacional - Finanzas: `https://www.elnacional.com/economia/finanzas/feed/`
-- **El Ovallino**: Feed de la categoría 'Economia' en El Ovallino
-  - RSS: `https://www.elovallino.cl/category/economia/feed/`
+- **El Noticiero del Huasco**: Feed de la categoría 'Economía' en El Noticiero del Huasco
+  - RSS: `https://elnoticierodelhuasco.cl/category/economia/feed/`
 - **El Periódico**: Feed de la categoría 'Economía' en El Periódico
   - RSS: `https://elperiodico.cl/category/economia/feed/`
 - **El Periódico de la Energía** — Noticias del sector energético en español
@@ -222,6 +218,8 @@
   - RSS: `https://elquintopoder.cl/temas/economia/feed/`
 - **El Sol de Iquique**: Feed de la categoría 'Empresas' en El Sol de Iquique
   - RSS: `https://elsoldeiquique.cl/empresas/feed/`
+- **El Urbano Rural**: Feed de la categoría 'Economía' en El Urbano Rural
+  - RSS: `https://elurbanorural.cl/category/economia/feed/`
 - **Electrominería** — Medio chileno especializado en electromovilidad y minería
   - Electrominería: `https://electromineria.cl/feed/`
   - Electrominería - Panorama Energético: `https://electromineria.cl/category/panorama-energetico/feed/`
@@ -230,8 +228,10 @@
   - Electrominería - Nuevos Cargos: `https://electromineria.cl/category/nuevos-cargos/feed/`
   - Electrominería - Opinión: `https://electromineria.cl/category/opinion/feed/`
   - Electrominería - Vitrina Electrominera: `https://electromineria.cl/category/vitrina-electrominera/feed/`
+  - Electrominería - Lupa Latinoamericana: `https://electromineria.cl/category/lupa-latinoamericana/feed/`
   - Electrominería - Columna Editorial: `https://electromineria.cl/category/columna-editorial/feed/`
   - Electrominería [Proxy Google News]: `https://news.google.com/rss/search?q=site:electromineria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Electrominería [Proxy Bing News]: `https://www.bing.com/news/search?q=site:electromineria.cl&format=RSS`
 - **Elqui Global**: Feed de la categoría 'Economía' en Elqui Global
   - RSS: `https://www.elquiglobal.cl/categoria/economia/feed/`
 - **En La Línea**: Feed de la categoría 'Economía y Negocios' en En La Línea
@@ -240,8 +240,6 @@
   - RSS: `https://www.epicentrochile.com/economia/feed/`
 - **Esperanza FM**: Feed de la categoría 'Economía' en Esperanza FM
   - RSS: `https://esperanzafm.cl/category/economia/feed/`
-- **Ex-Ante**: Feed de la categoría 'Economía' en Ex-Ante
-  - RSS: `https://www.ex-ante.cl/category/economia/rss`
 - **Fresia Ahora**: Feed de la categoría 'Economía' en Fresia Ahora
   - RSS: `https://www.fresiaahora.cl/category/actualidad/economia/feed/`
 - **G5 Noticias**: Feed de la categoría 'Economía' en G5 Noticias
@@ -263,18 +261,23 @@
 - **Iquique TV** — Medio de comunicación de la Región de Tarapacá
   - Iquique TV - Economía: `https://iquiquetv.cl/category/noticias/economia/feed/`
   - Iquique TV - Emprendimiento: `https://iquiquetv.cl/category/noticias/emprendimiento/feed/`
-- **La Batalla de Maipú**: Feed de la categoría 'Economía' en La Batalla de Maipú
-  - RSS: `https://www.labatalla.cl/secciones/secciones/economia/feed/`
+- **La Batalla de Maipú** — Diario digital de Maipú con información local, comunitaria y nacional
+  - La Batalla de Maipú - Economía: `https://www.labatalla.cl/secciones/secciones/economia/feed/`
+  - La Batalla de Maipú - Emprendimiento: `https://www.labatalla.cl/secciones/emprendimiento/feed/`
 - **La Discusión**: Feed de la categoría 'Economía' en La Discusión
   - RSS: `https://ladiscusion.cl/category/economia/feed/`
 - **La Fontana**: Feed de la categoría 'Economía' en La Fontana
   - RSS: `https://lafontana.cl/category/economia/feed/`
+- **La Mega FM**: Feed de la categoría 'Economía' en La Mega FM
+  - RSS: `https://lamegafm.cl/category/tarapaca/economia/feed/`
 - **La Noticia**: Feed de la categoría 'Comercio' en La Noticia
   - RSS: `https://lanoticia.cl/category/comercio/feed/`
 - **La Prensa Austral**: Feed de la categoría 'Pulso Económico' en La Prensa Austral
   - RSS: `https://laprensaaustral.cl/category/pulso-economico/feed/`
 - **La Región Hoy**: Feed de la categoría 'Economía' en La Región Hoy
   - RSS: `https://laregionhoy.cl/category/actualidad/economia/feed/`
+- **La Serena Online**: Feed de la categoría 'Emprendedores' en La Serena Online
+  - RSS: `https://laserenaonline.cl/category/emprendedores-2/feed/`
 - **La Tercera**: Feed de la categoría 'Pulso' en La Tercera
   - RSS: `https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml`
 - **La Voz del Norte**: Feed de la categoría 'Negocios' en La Voz del Norte
@@ -302,10 +305,11 @@
   - MCH (Mineria Chilena) - Minería Superficie: `https://www.mch.cl/categoria/mineria-superficie/feed/`
   - MCH (Mineria Chilena) - Minerí­a Subterránea: `https://www.mch.cl/categoria/mineria-subterranea/feed/`
   - MCH (Mineria Chilena) - Normativas: `https://www.mch.cl/categoria/negocios-industria/normativas/feed/`
+  - MCH (Mineria Chilena) - Electromovilidad: `https://www.mch.cl/categoria/electromovilidad/feed/`
   - MCH (Mineria Chilena) - Tecnología Innovación: `https://www.mch.cl/categoria/mineria-superficie/tecnologia-innovacion/feed/`
-  - MCH (Mineria Chilena) - Tecnología Innovación Minería Subterranea: `https://www.mch.cl/categoria/mineria-subterranea/tecnologia-innovacion-mineria-subterranea/feed/`
-  - MCH (Mineria Chilena) - Sustentabilidad Minería Subterranea: `https://www.mch.cl/categoria/mineria-subterranea/sustentabilidad-mineria-subterranea/feed/`
+  - MCH (Mineria Chilena) - Sustentabilidad Minería Superficie: `https://www.mch.cl/categoria/mineria-superficie/sustentabilidad-mineria-superficie/feed/`
   - MCH (Mineria Chilena) [Proxy Google News]: `https://news.google.com/rss/search?q=site:mch.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - MCH (Mineria Chilena) [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mch.cl&format=RSS`
 - **Mediabanco**: Feed de la categoría 'Economía' en Mediabanco
   - RSS: `https://www.mediabanco.com/categoria/comunicados-de-prensa/economia/feed/`
 - **Mirada Sur TV** — Medio de comunicación de la Región de Los Lagos
@@ -360,12 +364,13 @@
   - Portal Agro Chile - Mercados Y Negocios: `https://www.portalagrochile.cl/category/mercados-y-negocios/feed/`
   - Portal Agro Chile - Maquinaria, Herramientas E Insumos Agrícolas: `https://www.portalagrochile.cl/category/maquinaria-herramientas-e-insumos-agricolas/feed/`
   - Portal Agro Chile - Frutas De Chile ( Ex Asoex): `https://www.portalagrochile.cl/category/asoex/feed/`
+  - Portal Agro Chile - Alimentos: `https://www.portalagrochile.cl/category/alimentos/feed/`
   - Portal Agro Chile - Columnas Y Reportajes: `https://www.portalagrochile.cl/category/reportajes/feed/`
   - Portal Agro Chile - Conaf: `https://www.portalagrochile.cl/category/conaf/feed/`
-  - Portal Agro Chile - Agronegocios: `https://www.portalagrochile.cl/category/agronegocios/feed/`
+  - Portal Agro Chile - Incendios Forestales: `https://www.portalagrochile.cl/category/incendios-forestales/feed/`
   - Portal Agro Chile - Terragénesis: `https://www.portalagrochile.cl/category/terragenesis/feed/`
-  - Portal Agro Chile - Viveros De Chile: `https://www.portalagrochile.cl/category/viveros-de-chile/feed/`
   - Portal Agro Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalagrochile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Portal Agro Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalagrochile.cl&format=RSS`
 - **Portal Educa** — Medio de prensa colaborativo y digital dedicado a la educación parvularia, escolar y superior en Chile
   - Portal Educa - Economía: `https://portaleduca.cl/category/economia/feed/`
   - Portal Educa - Emprendimiento: `https://portaleduca.cl/category/emprendimiento/feed/`
@@ -374,12 +379,14 @@
   - Portal Frutícola - Mercado Y Economia F: `https://www.portalfruticola.com/noticias/category/mercado-y-economia/feed/`
   - Portal Frutícola - Frutas F: `https://www.portalfruticola.com/noticias/category/frutas/feed/`
   - Portal Frutícola - Más Noticias: `https://www.portalfruticola.com/noticias/category/mas-noticias/feed/`
+  - Portal Frutícola - Destacados: `https://www.portalfruticola.com/noticias/category/destacados/feed/`
   - Portal Frutícola - Innovación Y Tecnología F: `https://www.portalfruticola.com/noticias/category/innovacion-y-tecnologia/feed/`
   - Portal Frutícola - Eventos Y Ferias F: `https://www.portalfruticola.com/noticias/category/eventos-y-ferias/feed/`
   - Portal Frutícola - Cultivo F: `https://www.portalfruticola.com/noticias/category/cultivo/feed/`
   - Portal Frutícola - Destacado Top: `https://www.portalfruticola.com/noticias/category/destacados-top/feed/`
   - Portal Frutícola - Grape Reporter F: `https://www.portalfruticola.com/noticias/category/grape-reporter/feed/`
   - Portal Frutícola [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalfruticola.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Portal Frutícola [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalfruticola.com&format=RSS`
 - **Portal Metropolitano** — Portal de noticias de la Región Metropolitana
   - Portal Metropolitano - Economía: `https://portalmetropolitano.cl/category/economia/feed/`
   - Portal Metropolitano - Empresas: `https://portalmetropolitano.cl/category/empresas/feed/`
@@ -389,6 +396,7 @@
   - Portal Minero [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalminero.com&format=RSS`
 - **PortalPortuario** — Medio especializado en puertos, transporte marítimo y comercio exterior en español
   - PortalPortuario: `https://portalportuario.cl/feed/`
+  - PortalPortuario - Titulares: `https://portalportuario.cl/category/titulares/feed/`
   - PortalPortuario - Industria Portuaria: `https://portalportuario.cl/category/industria-portuaria/feed/`
   - PortalPortuario - Industria Marítima: `https://portalportuario.cl/category/maritima/feed/`
   - PortalPortuario - Comex: `https://portalportuario.cl/category/comercio-exterior/feed/`
@@ -459,8 +467,6 @@
   - RBC Asesores: `https://rbcasesores.cl/feed/`
   - RBC Asesores [Proxy Google News]: `https://news.google.com/rss/search?q=site:rbcasesores.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - RBC Asesores [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rbcasesores.cl&format=RSS`
-- **REDIMIN**: Resultados de site:redimin.cl en Proxy Google News de noticias Chilenas
-  - RSS: `https://news.google.com/rss/search?q=site:redimin.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Región de Coquimbo** — Medio digital con noticias locales, regionales y nacionales de la Región de Coquimbo.
   - Región de Coquimbo - Economía: `https://regiondecoquimbo.cl/category/economia/feed/`
   - Región de Coquimbo - Emprendimiento: `https://regiondecoquimbo.cl/category/emprendimiento/feed/`
@@ -474,8 +480,6 @@
   - SOFOFA - Dirección Internacional: `https://www.sofofa.cl/category/direccion-internacional/feed/`
   - SOFOFA - Noticias Recientes: `https://www.sofofa.cl/category/noticias-recientes/feed/`
   - SOFOFA [Proxy Google News]: `https://news.google.com/rss/search?q=site:sofofa.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Supervivencia y Desastres**: Feed de la categoría 'Economía' en Supervivencia y Desastres
-  - RSS: `https://www.supervivencia-y-desastres.cl/category/economia/feed/`
 - **Temuco Diario**: Feed de la categoría 'Economía' en Temuco Diario
   - RSS: `https://temucodiario.cl/category/economia/feed/`
 - **The Rio Times** — Publicación en inglés sobre negocios, finanzas, política y comunidades de expatriados en Chile y América Latina.
@@ -517,9 +521,6 @@
   - RSS: `https://traiguencity.cl/noticias/traiguen/laboral-traiguen/feed/`
 - **Tu Región Noticias**: Feed de la categoría 'Economía' en Tu Región Noticias
   - RSS: `https://trnoticias.cl/category/economia/feed/`
-- **Tus Noticias** — Medio digital de San Pedro de la Paz, Región del Biobío
-  - Tus Noticias - Economía: `https://www.tusnoticias.cl/noticias/economia/feed/`
-  - Tus Noticias - Emprendimientos: `https://www.tusnoticias.cl/noticias/emprendimientos/feed/`
 - **TV Canal 5**: Feed de la categoría 'Economía' en TV Canal 5
   - RSS: `https://tvcanal5.cl/category/economia/feed/`
 - **VC Magazine** — Revista digital chilena sobre valor compartido, sostenibilidad, energías renovables, innovación y negocios regionales.

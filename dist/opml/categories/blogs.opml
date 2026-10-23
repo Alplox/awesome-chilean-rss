@@ -3,21 +3,21 @@
   <head>
     <title>Awesome Chilean RSS - ✍️ Blogs (23 feeds)</title>
     <description>Feeds RSS de ✍️ Blogs, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-09-26T16:58:18.401Z</dateCreated>
+    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
     <outline text="✍️ Blogs" title="✍️ Blogs">
-      <outline type="rss" text="Balmaceda Arte Joven - Blog" title="Balmaceda Arte Joven - Blog" description="Feed de la categoría 'Blog' en Balmaceda Arte Joven" xmlUrl="https://www.balmacedartejoven.cl/category/blog/feed/" htmlUrl="https://www.balmacedartejoven.cl/category/blog/"/>
       <outline type="rss" text="CELAG" title="CELAG" description="Centro de análisis sobre política, economía y opinión pública en América Latina" xmlUrl="https://www.celag.org/feed/" htmlUrl="https://www.celag.org"/>
       <outline type="rss" text="CELAG - Coyuntura Política" title="CELAG - Coyuntura Política" description="Feed de la categoría 'Coyuntura Política' en CELAG" xmlUrl="https://www.celag.org/analisis-politico/feed/" htmlUrl="https://www.celag.org/analisis-politico/"/>
       <outline type="rss" text="CELAG [Proxy Google News]" title="CELAG [Proxy Google News]" description="Resultados de site:celag.org en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:celag.org&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:celag.org&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Chile Travel - Blog" title="Chile Travel - Blog" description="Feed de la categoría 'Blog' en Chile Travel" xmlUrl="https://chile.travel/blog/category/blog/feed/" htmlUrl="https://chile.travel/blog/category/blog/"/>
+      <outline type="rss" text="Chile Travel - Cultura,blog Aventura,blog" title="Chile Travel - Cultura,blog Aventura,blog" description="Feed de la categoría 'Cultura,blog Aventura,blog' en Chile Travel" xmlUrl="https://chile.travel/blog/category/culturablog-aventurablog-blog/feed/" htmlUrl="https://chile.travel/blog/category/culturablog-aventurablog-blog/"/>
       <outline type="rss" text="Chile Travel - Naturaleza Blog 2" title="Chile Travel - Naturaleza Blog 2" description="Feed de la categoría 'Naturaleza Blog 2' en Chile Travel" xmlUrl="https://chile.travel/blog/category/blog/naturaleza-blog-2/feed/" htmlUrl="https://chile.travel/blog/category/blog/naturaleza-blog-2/"/>
+      <outline type="rss" text="Chile Travel - Naturaleza,blog aventura,blog astroturismo,blog" title="Chile Travel - Naturaleza,blog aventura,blog astroturismo,blog" description="Feed de la categoría 'Naturaleza,blog' en Chile Travel" xmlUrl="https://chile.travel/blog/category/naturalezablog-aventurablog-astroturismoblog-blog/feed/" htmlUrl="https://chile.travel/blog/category/naturalezablog-aventurablog-astroturismoblog-blog/"/>
       <outline type="rss" text="Ciper Chile - Blog" title="Ciper Chile - Blog" description="Feed de la categoría 'Blog' en Ciper Chile" xmlUrl="https://www.ciperchile.cl/category/blog/feed/" htmlUrl="https://www.ciperchile.cl/category/blog/"/>
       <outline type="rss" text="CRTV Chile - Blog" title="CRTV Chile - Blog" description="Feed de la categoría 'Blog' en CRTV Chile" xmlUrl="https://crtvchile.cl/category/blog/feed/" htmlUrl="https://crtvchile.cl/category/blog/"/>
       <outline type="rss" text="Diario Chañarcillo - Blog" title="Diario Chañarcillo - Blog" description="Feed de la categoría 'Blog' en Diario Chañarcillo" xmlUrl="https://www.chanarcillo.cl/category/blog/feed/" htmlUrl="https://www.chanarcillo.cl/category/blog/"/>
-      <outline type="rss" text="El Quinto Poder - Videoblog" title="El Quinto Poder - Videoblog" description="Feed de la categoría 'Videoblog' en El Quinto Poder" xmlUrl="https://elquintopoder.cl/temas/videoblog/feed/" htmlUrl="https://elquintopoder.cl/temas/videoblog/"/>
       <outline type="rss" text="José Joaquín Brunner" title="José Joaquín Brunner" description="Feed principal de José Joaquín Brunner" xmlUrl="https://brunner.cl/feed/" htmlUrl="https://brunner.cl/"/>
       <outline type="rss" text="José Joaquín Brunner - Columnas De Opinión" title="José Joaquín Brunner - Columnas De Opinión" description="Feed de la categoría 'Columnas De Opinión' en José Joaquín Brunner" xmlUrl="https://brunner.cl/category/columnas/feed/" htmlUrl="https://brunner.cl/category/columnas/"/>
       <outline type="rss" text="José Joaquín Brunner - Comunicaciones" title="José Joaquín Brunner - Comunicaciones" description="Feed de la categoría 'Comunicaciones' en José Joaquín Brunner" xmlUrl="https://brunner.cl/category/comunicaciones/feed/" htmlUrl="https://brunner.cl/category/comunicaciones/"/>

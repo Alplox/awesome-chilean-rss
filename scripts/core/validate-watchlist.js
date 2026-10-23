@@ -2,10 +2,15 @@
 /**
  * Valida sitios en watchlist.json y promueve los que pasen todos los checks.
  *
- * Uso:  -- [--update] [--automatic] [--id <site-id>]
+ * Uso:  -- [--update] [--automatic] [--move] [--id <site-id>]
  *                                         [--from <N> --to <M>] [--start-id <id>] [--limit <N>]
  *   --update       Mueve los feeds válidos a sites[] en feeds-database.json
- *   --automatic    Modo no interactivo (sin prompts, promueve todo)
+ *   --automatic    Modo no interactivo (sin prompts). Solo valida: NO promueve
+ *                  entradas a feeds-database.json (usa --move para eso)
+ *   --move         Permite mover entradas de watchlist.json a sites[] en
+ *                  feeds-database.json. Con --update --automatic promueve todo
+ *                  sin preguntar. En modo interactivo no hace falta: se pregunta
+ *                  por entrada igual. Requiere --update
  *   --id <id>      Valida solo un sitio específico de la watchlist
  *   --from <N>     Índice numérico inicial (0-based)
  *   --to <M>       Índice numérico final (inclusive)
@@ -22,7 +27,9 @@ import { isAutomatic, promptUser } from '../../lib/prompter.js';
 import { parseArgs, applyFilters } from '../../lib/cli-args.js';
 import { recalculateTotalFeeds } from '../../lib/feed-utils.js';
 
-const args = parseArgs(process.argv);
+const args = parseArgs(process.argv, [
+  { flag: '--move', name: 'move', type: 'bool' },
+]);
 const shouldUpdate = args.update;
 
 const watchlist = JSON.parse(readFileSync('watchlist.json', 'utf-8'));
@@ -46,6 +53,7 @@ console.log('='.repeat(55));
 const promoted = [];
 const kept = [];
 const failed = [];
+let blockedPromotions = 0;
 const errors = { noResponse: [], httpError: [], emptyFeed: [], noFeed: [], stale: [], proxyBroken: [], proxyStale: [] };
 
 for (const entry of entries) {
@@ -65,12 +73,20 @@ for (const entry of entries) {
     }
 
     if (shouldUpdate) {
-      const move = await promptUser(`   ¿Promover "${entry.name}" a sites ahora? [Y/n]: `);
+      // --automatic solo valida: promover de watchlist a database requiere --move.
+      const autoPromote = isAutomatic() && args.move;
+      const promoteBlocked = isAutomatic() && !args.move;
+      const move = autoPromote
+        ? true
+        : promoteBlocked
+          ? false
+          : await promptUser(`   ¿Promover "${entry.name}" a sites ahora? [Y/n]: `);
       if (move) {
         promoted.push(result.siteEntry);
       } else {
         const keptEntry = { ...result.siteEntry, reason: entry.reason };
         kept.push(keptEntry);
+        if (promoteBlocked) blockedPromotions++;
       }
     } else {
       promoted.push(result.siteEntry);
@@ -126,6 +142,11 @@ if (kept.length) {
     console.log(`  ${site.name} (${site.category})`);
     console.log(`  Feed  : ${site.feeds[0].rss_url} [${site.feeds[0].feed_type}]\n`);
   }
+}
+
+if (blockedPromotions > 0) {
+  console.log(`ℹ️  --automatic solo valida: ${blockedPromotions} sitio(s) con feed válido no se promovieron.`);
+  console.log(`   Añade --move (junto a --update --automatic) para moverlos a feeds-database.json.\n`);
 }
 
 if (errors.stale.length) {

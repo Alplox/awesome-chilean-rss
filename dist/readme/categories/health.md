@@ -2,10 +2,8 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 102 sitios, 176 feeds*
+*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 98 sitios, 172 feeds*
 
-- **Alerta Noticias**: Feed de la categoría 'Salud' en Alerta Noticias
-  - RSS: `https://alertanoticias.cl/category/salud/feed/`
 - **Alerta Noticias Temuco**: Feed de la categoría 'Salud' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/salud/feed/`
 - **Antofagasta al Día**: Feed de la categoría 'Salud' en Antofagasta al Día
@@ -16,8 +14,6 @@
   - RSS: `https://www.atentos.cl/category/salud/feed/`
 - **Aurora Noticias**: Feed de la categoría 'Salud' en Aurora Noticias
   - RSS: `https://auroranoticias.cl/salud/feed/`
-- **Base Nacional**: Feed de la categoría 'Salud' en Base Nacional
-  - RSS: `https://basenacional.cl/category/salud/feed/`
 - **Cadena Política**: Feed de la categoría 'Salud' en Cadena Política
   - RSS: `https://cadenapolitica.com/category/salud/feed/`
 - **Calama en Línea**: Feed de la categoría 'Salud' en Calama en Línea
@@ -29,8 +25,6 @@
   - CENABAST [Proxy Google News]: `https://news.google.com/rss/search?q=site:cenabast.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **ChileCompra**: Feed de la categoría 'Salud' en ChileCompra
   - RSS: `https://www.chilecompra.cl/category/centro-de-documentacion/normativa/salud/feed/`
-- **Chocale**: Feed de la categoría 'Salud' en Chocale
-  - RSS: `https://chocale.cl/actualidad/salud/feed/`
 - **CIPS - Centro de Políticas Públicas e Innovación en Salud** — Centro de Políticas Públicas e Innovación en Salud de la Universidad del Desarrollo
   - CIPS - Salud: `https://gobierno.udd.cl/cips/feed/`
   - CIPS - Centro de Políticas Públicas e Innovación en Salud - Cips En La Prensa: `https://gobierno.udd.cl/cips/category/cips-en-la-prensa/feed/`
@@ -40,6 +34,7 @@
   - Colegio Médico de Chile - Colmed Informa: `https://www.colegiomedico.cl/category/colmed-informa/feed/`
   - Colegio Médico de Chile - Bolsa Laboral: `https://www.colegiomedico.cl/category/bolsa-laboral/feed/`
   - Colegio Médico de Chile - Noticias Destacadas: `https://www.colegiomedico.cl/category/noticias-destacadas/feed/`
+  - Colegio Médico de Chile - Noticias Regionales: `https://www.colegiomedico.cl/category/noticias-regionales/feed/`
   - Colegio Médico de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:colegiomedico.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Cooperativa Ciencia**: Feed de la categoría 'Salud' en Cooperativa Ciencia
   - RSS: `https://www.cooperativaciencia.cl/seccion/salud/feed/`
@@ -56,8 +51,9 @@
   - RSS: `https://dialogosur.cl/category/salud/feed/`
 - **Diario Angamos**: Feed de la categoría 'Salud' en Diario Angamos
   - RSS: `https://diarioangamos.com/categorías/salud/feed/`
-- **Diario Antofagasta**: Feed de la categoría 'Salud' en Diario Antofagasta
-  - RSS: `https://www.diarioantofagasta.cl/salud/feed/`
+- **Diario Antofagasta** — Diario regional de Antofagasta, Antofagasta
+  - Diario Antofagasta - Vida y Salud: `https://www.diarioantofagasta.cl/vida-y-salud/feed/`
+  - Diario Antofagasta - Salud: `https://www.diarioantofagasta.cl/salud/feed/`
 - **Diario El Centro**: Feed de la categoría 'Salud' en Diario El Centro
   - RSS: `https://www.diarioelcentro.cl/categoria/salud/feed/`
 - **Diario El Cóndor**: Feed de la categoría 'Salud' en Diario El Cóndor
@@ -70,10 +66,10 @@
   - RSS: `https://www.diarioelpulso.cl/category/salud/feed/`
 - **Diario La Región**: Feed de la categoría 'Salud' en Diario La Región
   - RSS: `https://www.diariolaregion.cl/category/salud/feed/`
+- **Diario Los Lagos**: Feed de la categoría 'Salud' en Diario Los Lagos
+  - RSS: `https://diarioloslagos.cl/category/noticias/salud/feed/`
 - **Diario Mapuche**: Feed de la categoría 'Salud' en Diario Mapuche
   - RSS: `https://www.mapuchediario.cl/category/salud/feed/`
-- **Diario Puerto Varas**: Feed de la categoría 'Cultura y Vida Sana' en Diario Puerto Varas
-  - RSS: `https://diariopuertovaras.cl/category/cultura-vida-sana/feed/`
 - **DPL News**: Feed de la categoría 'Salud' en DPL News
   - RSS: `https://dplnews.com/category/transformacion-digital/salud/feed/`
 - **Duplos**: Feed de la categoría 'Vida Sana' en Duplos
@@ -83,16 +79,16 @@
 - **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política
   - El Ciudadano - Salud: `https://www.elciudadano.com/noticias/salud/feed/`
   - El Ciudadano - Alimentación: `https://www.elciudadano.com/noticias/alimentacion/feed/`
-- **El Contraste**: Feed de la categoría 'Salud' en El Contraste
-  - RSS: `https://elcontraste.cl/salud/feed/`
+- **El Comunicador**: Feed de la categoría 'Salud' en El Comunicador
+  - RSS: `https://elcomunicador.cl/category/salud/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Salud' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/estilo-de-vida/salud/feed/`
 - **El Diario Santiago**: Feed de la categoría 'Salud' en El Diario Santiago
   - RSS: `https://eldiariosantiago.cl/category/estilo-de-vida/salud/feed/`
+- **El Morro de Arica**: Feed de la categoría 'Salud' en El Morro de Arica
+  - RSS: `https://elmorrodearica.cl/category/salud/feed/`
 - **El Nacional**: Feed de la categoría 'Bienestar' en El Nacional
   - RSS: `https://www.elnacional.com/estilo-de-vida/bienestar/feed/`
-- **El Noticiero del Huasco**: Feed de la categoría 'Salud' en El Noticiero del Huasco
-  - RSS: `https://elnoticierodelhuasco.cl/category/salud/feed/`
 - **El Periodista**: Feed de la categoría 'Salud y Sociedad' en El Periodista
   - RSS: `https://www.elperiodista.cl/category/salud/feed/`
 - **El Reportero de Iquique**: Feed de la categoría 'Salud' en El Reportero de Iquique
@@ -141,6 +137,10 @@
   - RSS: `https://ipsnoticias.net/noticias/salud/feed/`
 - **Iquique TV**: Feed de la categoría 'Salud' en Iquique TV
   - RSS: `https://iquiquetv.cl/category/noticias/salud/feed/`
+- **ITV Patagonia**: Feed de la categoría 'Salud' en ITV Patagonia
+  - RSS: `https://www.itvpatagonia.com/categoria/salud/feed/`
+- **La Batalla de Maipú**: Feed de la categoría 'Salud' en La Batalla de Maipú
+  - RSS: `https://www.labatalla.cl/secciones/salud/feed/`
 - **La Fontana**: Feed de la categoría 'Salud' en La Fontana
   - RSS: `https://lafontana.cl/category/salud/feed/`
 - **La Mega FM**: Feed de la categoría 'Salud' en La Mega FM
@@ -153,6 +153,8 @@
   - RSS: `https://laprensaaustral.cl/category/salud/feed/`
 - **La Razón**: Feed de la categoría 'Salud' en La Razón
   - RSS: `https://www.larazon.cl/temas/salud/feed/`
+- **La Región Hoy**: Feed de la categoría 'Salud' en La Región Hoy
+  - RSS: `https://laregionhoy.cl/category/ciencia/salud/feed/`
 - **La Tribuna de Colchagua**: Feed de la categoría 'Salud' en La Tribuna de Colchagua
   - RSS: `https://www.latribunadecolchagua.cl/category/salud/feed/`
 - **La Voz de Pucón**: Feed de la categoría 'Salud' en La Voz de Pucón
@@ -183,8 +185,8 @@
   - Portal Red Salud: `https://portalredsalud.cl/feed/`
   - Portal Red Salud - Salud: `https://portalredsalud.cl/category/salud/feed/`
   - Portal Red Salud - Minsal: `https://portalredsalud.cl/category/minsal/feed/`
+  - Portal Red Salud - Covid 19: `https://portalredsalud.cl/category/covid-19/feed/`
   - Portal Red Salud - Dato Útil: `https://portalredsalud.cl/category/dato-util/feed/`
-  - Portal Red Salud - Reportajes: `https://portalredsalud.cl/category/reportajes/feed/`
   - Portal Red Salud - Salud Mental: `https://portalredsalud.cl/category/salud-mental/feed/`
   - Portal Red Salud - Alimentación: `https://portalredsalud.cl/category/alimentacion/feed/`
   - Portal Red Salud - Mayo Clinic: `https://portalredsalud.cl/category/mayo-clinic/feed/`
@@ -192,10 +194,8 @@
   - Portal Red Salud - Adultos Mayores: `https://portalredsalud.cl/category/adultos-mayores/feed/`
   - Portal Red Salud - Columnas Y Reportajes: `https://portalredsalud.cl/category/columnas-y-reportajes/feed/`
   - Portal Red Salud - Tecnologías Para La Salud: `https://portalredsalud.cl/category/tecnologias-para-la-salud/feed/`
-  - Portal Red Salud - Udla: `https://portalredsalud.cl/category/udla/feed/`
   - Portal Red Salud - Unab: `https://portalredsalud.cl/category/unab/feed/`
   - Portal Red Salud - Sector De La Salud: `https://portalredsalud.cl/category/sector-de-la-salud/feed/`
-  - Portal Red Salud - Medicamentos: `https://portalredsalud.cl/category/medicamentos/feed/`
   - Portal Red Salud - Salud Responsable: `https://portalredsalud.cl/category/salud-responsable/feed/`
   - Portal Red Salud - Salud Física: `https://portalredsalud.cl/category/salud-fisica/feed/`
   - Portal Red Salud - Ucsc: `https://portalredsalud.cl/category/ucsc/feed/`
@@ -203,21 +203,19 @@
   - Portal Red Salud - Salud Niños Y Jóvenes: `https://portalredsalud.cl/category/salud-ninos-y-jovenes/feed/`
   - Portal Red Salud - Salud Mental 2: `https://portalredsalud.cl/category/salud-mental-2/feed/`
   - Portal Red Salud - Diabetes: `https://portalredsalud.cl/category/diabetes/feed/`
-  - Portal Red Salud - Invierno: `https://portalredsalud.cl/category/invierno/feed/`
+  - Portal Red Salud - Cáncer De Mama: `https://portalredsalud.cl/category/cancer-de-mama/feed/`
   - Portal Red Salud - Inteligencia Artificial: `https://portalredsalud.cl/category/inteligencia-artificial/feed/`
   - Portal Red Salud - Tecnología Médica: `https://portalredsalud.cl/category/tecnologia-medica/feed/`
-  - Portal Red Salud - Alimentos: `https://portalredsalud.cl/category/alimentos/feed/`
   - Portal Red Salud - Alimentación Y Nutrición: `https://portalredsalud.cl/category/alimentacion-y-nutricion/feed/`
   - Portal Red Salud - Seguridad: `https://portalredsalud.cl/category/seguridad/feed/`
   - Portal Red Salud - Salud Cardiovascular: `https://portalredsalud.cl/category/salud-cardiovascular/feed/`
-  - Portal Red Salud - Dato Noticia: `https://portalredsalud.cl/category/dato-noticia/feed/`
+  - Portal Red Salud - Enfermedades Respiratorias: `https://portalredsalud.cl/category/enfermedades-respiratorias/feed/`
   - Portal Red Salud - Sector Laboral: `https://portalredsalud.cl/category/sector-laboral/feed/`
   - Portal Red Salud - Nutrición: `https://portalredsalud.cl/category/nutricion/feed/`
   - Portal Red Salud [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalredsalud.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Portal Red Salud [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalredsalud.cl&format=RSS`
 - **Primera Fuente**: Feed de la categoría 'Salud' en Primera Fuente
   - RSS: `https://primerafuente.cl/category/salud/feed/`
-- **Publimicro**: Feed de la categoría 'Salud' en Publimicro
-  - RSS: `https://publimicro.cl/contenidos-noticias/salud/feed/`
 - **Radio 45 Sur**: Feed de la categoría 'Salud' en Radio 45 Sur
   - RSS: `https://radio45sur.cl/category/salud/feed/`
 - **Radio Cristalina**: Feed de la categoría 'Salud' en Radio Cristalina
@@ -244,8 +242,6 @@
 - **Salud Responde** — Portal de información del Ministerio de Salud para la ciudadanía
   - Salud Responde: `https://saludresponde.minsal.cl/feed/`
   - Salud Responde [Proxy Google News]: `https://news.google.com/rss/search?q=site:saludresponde.minsal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Sera Noticia**: Feed de la categoría 'Salud' en Sera Noticia
-  - RSS: `https://seranoticia.cl/salud/feed/`
 - **Servicio de Salud Chiloé** — Organismo público que articula la red de atención de salud en la provincia de Chiloé
   - Servicio de Salud Chiloé: `https://sschiloe.redsalud.gob.cl/feed/`
   - Servicio de Salud Chiloé - Destacados: `https://sschiloe.redsalud.gob.cl/Destacados/destacados/feed/`
@@ -255,14 +251,12 @@
   - Servicio de Salud Chiloé - Concurso Sschiloe: `https://sschiloe.redsalud.gob.cl/Destacados/concursos-en-proceso/concurso-schiloe/feed/`
   - Servicio de Salud Chiloé - Concursos En Proceso: `https://sschiloe.redsalud.gob.cl/Destacados/concursos-en-proceso/feed/`
   - Servicio de Salud Chiloé [Proxy Google News]: `https://news.google.com/rss/search?q=site:sschiloe.redsalud.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Sociedad Chilena de Cardiología y Cirugía Cardiovascular** — Sociedad Chilena de Cardiología y Cirugía Cardiovascular, sociedad científica médica
-  - Sociedad Chilena de Cardiología y Cirugía Cardiovascular: `https://www.sochicar.cl/feed/`
-  - Sociedad Chilena de Cardiología y Cirugía Cardiovascular [Proxy Google News]: `https://news.google.com/rss/search?q=site:sochicar.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Sociedad Chilena de Endocrinología y Diabetes** — Sociedad Chilena de Endocrinología y Diabetes (SOCHED), sociedad científica médica
   - Sociedad Chilena de Endocrinología y Diabetes: `https://www.soched.cl/feed/`
+  - Sociedad Chilena de Endocrinología y Diabetes - Reuniones Clinicas Anteriores: `https://soched.cl/category/reuniones-clinicas-anteriores/feed/`
   - Sociedad Chilena de Endocrinología y Diabetes - Noticias 2025: `https://soched.cl/category/noticias-2025/feed/`
-  - Sociedad Chilena de Endocrinología y Diabetes - Resultado Concursos: `https://soched.cl/category/resultado-concursos/feed/`
   - Sociedad Chilena de Endocrinología y Diabetes - Noticias 2026: `https://soched.cl/category/noticias-2026/feed/`
+  - Sociedad Chilena de Endocrinología y Diabetes [Proxy Google News]: `https://news.google.com/rss/search?q=site:soched.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Sociedad Chilena de Obesidad** — Sociedad científica médica dedicada al estudio de la obesidad
   - Sociedad Chilena de Obesidad: `https://www.sochob.cl/web/feed/`
   - Sociedad Chilena de Obesidad [Proxy Google News]: `https://news.google.com/rss/search?q=site:sochob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -270,8 +264,6 @@
   - RSS: `https://www.supervivencia-y-desastres.cl/category/medicina/feed/`
 - **Temuco Diario**: Feed de la categoría 'Salud' en Temuco Diario
   - RSS: `https://temucodiario.cl/category/salud/feed/`
-- **Tiempo 21**: Feed de la categoría 'Salud' en Tiempo 21
-  - RSS: `https://www.tiempo21.cl/vida-y-salud/feed/`
 - **Tierramarillano**: Feed de la categoría 'Salud' en Tierramarillano
   - RSS: `https://tierramarillano.cl/category/salud/feed/`
 - **Traiguén City**: Feed de la categoría 'Salud' en Traiguén City

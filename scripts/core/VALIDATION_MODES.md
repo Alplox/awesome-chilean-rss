@@ -136,8 +136,11 @@ Desactiva todos los prompts interactivos para CI o ejecución desatendida.
 # CI: solo validación, no modifica archivos (read-only)
 pnpm validate -- --automatic
 
-# Batch: valida y actualiza sin preguntar
+# Batch: valida y actualiza estados sin prompts (sin mover sitios)
 pnpm validate -- --update --automatic
+
+# Batch + mover sitios sin feeds nativos activos a watchlist
+pnpm validate -- --update --automatic --move
 ```
 
 **Con `--automatic` solo** (sin `--update`):
@@ -147,8 +150,12 @@ pnpm validate -- --update --automatic
 - Se ejecuta en GitHub Actions en PRs y manualmente
 
 **Con `--update --automatic`**:
-- Aplica cambios a `feeds-database.json` sin intervención
+- Aplica cambios de estado a `feeds-database.json` sin intervención
+- **No** mueve sitios a `watchlist.json`: para eso usa `--move`
 - Útil para mantenimiento batch programado
+
+**Con `--update --automatic --move`**:
+- Además mueve a `watchlist.json` los sitios sin feeds nativos activos (sin preguntar, a diferencia del modo interactivo que pide confirmación por sitio)
 
 En ambos modos:
 - Feeds sin fecha de último item se mantienen activos por defecto (conservador)
@@ -169,12 +176,16 @@ En ambos modos:
 | `--limit <N>`            | Primeros N   | según flag  | 🐢 Lento  | Muestra rápida      |
 | Sin opciones             | Todos (BD)   | ❌ No       | 🐢 Lento  | Solo validación     |
 | `--automatic`            | Todos (BD)   | ❌ No       | 🐢 Lento  | CI / pre-commit    |
-| `--update --automatic`   | Todos (BD)   | ✅ Sí       | 🐢 Lento  | Batch silencioso    |
+| `--update --automatic`   | Todos (BD)   | ✅ Sí       | 🐢 Lento  | Batch silencioso (estados) |
+| `--update --automatic --move` | Todos (BD) | ✅ Sí     | 🐢 Lento  | Batch + mover sitios      |
 | `validate:watchlist`     | Watchlist    | ❌ No       | 🐢 Lento  | Retest watchlist    |
 | `validate:watchlist -- --update` | Watchlist | ✅ Sí     | 🐢 Lento  | Promover watchlist  |
+| `validate:watchlist -- --update --automatic --move` | Watchlist | ✅ Sí | 🐢 Lento  | Promover todo sin preguntar |
 | `validate:watchlist -- --id <id>` | 1 watchlist | según flag | ⚡ Rápido | Promover uno solo |
 | `check:overlap` | Feeds con contenido duplicado | ❌ No | 🐢 Lento | Detectar solapamiento |
 | `check:overlap -- --update` | Ídem | ✅ Sí | 🐢 Lento | Marcar como `duplicate` |
+| `validate -- --relay <lista>` | Todos (BD) | ❌ No | 🐢 Lento | Cross-check de red por relay ante errores de conexión (automático) |
+| `diagnose:network` | Feeds con error de conexión | ❌ No | 🐢 Lento | Distinguir red local vs sitio caído |
 
 ---
 
@@ -223,6 +234,69 @@ pnpm check:overlap -- --update --validate
 Ese estado no aparece en los OPML/README generados: solo entran feeds `active` + `verified`.
 Después de un `--update` hay que ejecutar `pnpm generate` y commitear los archivos generados.
 
+### Aviso de duplicados al validar
+
+`validate_feeds.js` corre la detección de `check:duplicates` (sin red, vía
+`lib/duplicate-finder.js`) al terminar, y la imprime como último bloque del resumen:
+
+```
+🔁 Entradas duplicadas : 1
+   • rss_url duplicada (BD): 1
+   → detalles: pnpm check:duplicates -- --verbose
+```
+
+Sin red y **sin cambiar estados**: es un aviso para no commitear un duplicado que el CI
+(`check:sync` → `check:duplicates`) rechazaría. Al revalidar feeds ya marcados como `duplicate`,
+el manejo de `duplicate_of` no deja residuos: ≥85% de solapamiento → sigue `duplicate`; <85% → se
+limpia el campo; `duplicate_of` inexistente → se limpia; feed objetivo no verificable (sin
+respuesta o <5 items) → se mantiene `duplicate` en vez de volver a `active` con el campo residual.
+
+---
+
+## Diagnóstico de red (`diagnose:network`)
+
+Cuando un feed falla con error de conexión (timeout, DNS, reset, IP bloqueada) puede ser
+el sitio o la red desde donde corre el script. Este comando reintenta la lectura a través
+de un **relay de un solo endpoint** (otra red de salida) y emite un veredicto.
+
+```bash
+# Feeds en estado offline / no_feed / broken
+pnpm diagnose:network
+
+# Un sitio, una URL, o un subconjunto
+pnpm diagnose:network -- --id radio-festival
+pnpm diagnose:network -- --url https://ejemplo.cl/feed/
+pnpm diagnose:network -- --status offline,no_feed --limit 20
+
+# Relay alternativo o plantilla propia
+pnpm diagnose:network -- --relay codetabs
+pnpm diagnose:network -- --relay "https://mi-relay.workers.dev/?url={url}"
+```
+
+| Veredicto | Significado |
+|-----------|-------------|
+| 🌐 Probable red local | Responde vía relay pero no en local → bloqueo/límite de red de esta máquina |
+| ⏳ Vivo pero antiguo | Responde vía relay, pero su último item supera 30 días → feed desactualizado |
+| ✅ Responde ahora | Responde en local → el error anterior fue transitorio |
+| 🔴 Fallo confirmado | No responde ni en local ni vía relay → fallo del sitio o del feed |
+| ❔ Relay no disponible | El relay devolvió su propia página de error (cuota) → no se puede concluir |
+
+**Solo lectura**: nunca escribe `feeds-database.json` ni `watchlist.json`, y no cambia estados
+(un relay puede alterar el contenido). Aplica cambios después con `pnpm validate -- --update`.
+
+El validador principal ejecuta este mismo cross-check **automáticamente** ante errores de
+conexión (cacheado por host, resultados solo informativos) y lista los sitios sospechosos en el
+bloque final `🌐 Posible red local`:
+
+```bash
+pnpm validate -- --update --id alerta-noticias-temuco   # cross-check activado por defecto
+pnpm validate -- --relay codetabs                        # elegir relay
+pnpm validate -- --no-relay                              # desactivarlo
+```
+
+En modo `--automatic` (CI) está desactivado salvo que pases `--relay`. Relays por defecto:
+`allorigins,codetabs` (15s de timeout cada uno).
+
 ---
 
 ## Estructura del módulo (`lib/`)
@@ -236,8 +310,10 @@ La lógica de validación está organizada en módulos separados:
 | `lib/feed-rediscovery.js` | Redescubrimiento: `extractFeedLinksFromHtml`, `rediscoverFeed`, `FEED_PATTERNS`, `parseLinkHeader`, `extractJsonLdFeeds` |
 | `lib/browser-fallback.js` | Respaldo con navegador headless (Playwright, opcional): `fetchWithBrowser`, `closeBrowser` — resuelve challenges anti-bot |
 | `lib/feed-overlap.js` | Solapamiento de items entre feeds del mismo sitio: `normalizeItemKey`, `keySet`, `containmentRatio`, `findDuplicate` |
+| `lib/duplicate-finder.js` | Detección de duplicados sin red (IDs/URLs/dominios, intra-DB y DB↔watchlist): `normalizeSiteUrl`, `normalizeFeedUrl`, `rootDomainOf`, `findDuplicates` |
 | `lib/prompter.js` | Prompts interactivos: `promptUser`, `promptUrl`, `promptStatus`, `isAutomatic` |
 | `lib/watchlist-validator.js` | Watchlist pipeline: `validateWatchlistEntry`, `promoteToSite` |
+| `lib/relay-fetch.js` | Diagnóstico de red por relay de un solo endpoint: `resolveRelay`, `resolveRelayList`, `checkFeedViaRelay`, `checkReachabilityViaRelay`, `RELAY_PRESETS` |
 
 ---
 
@@ -259,6 +335,13 @@ Si el feed original tiene un path específico (ej. `/deportes/`) y el redescubri
 - **Automático** (`--automatic`): omite el reemplazo, marca `broken`
 
 Esto evita degradar la base reemplazando subfeeds temáticos por el feed principal.
+
+Dos detalles que hacen al guard efectivo:
+
+- La comparación normaliza la **barra final** (`/feed` ≡ `/feed/`), porque WordPress sirve el feed
+  principal sin barra y redirige desde `/feed/`. Sin esa normalización el guard no se activaba.
+- Tampoco se acepta un feed descubierto cuya `rss_url` **ya use otro feed del mismo sitio**: no es
+  específico de esta sección. Se marca `broken` y se conserva la URL original.
 
 ### Cache de estado del sitio
 

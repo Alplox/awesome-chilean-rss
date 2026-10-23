@@ -2,10 +2,8 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`blogs.opml`](../../opml/categories/blogs.opml) - 13 sitios, 23 feeds*
+*Descargar OPML: [`blogs.opml`](../../opml/categories/blogs.opml) - 11 sitios, 23 feeds*
 
-- **Balmaceda Arte Joven**: Feed de la categoría 'Blog' en Balmaceda Arte Joven
-  - RSS: `https://www.balmacedartejoven.cl/category/blog/feed/`
 - **CELAG** — Centro de análisis sobre política, economía y opinión pública en América Latina
   - CELAG: `https://www.celag.org/feed/`
   - CELAG - Coyuntura Política: `https://www.celag.org/analisis-politico/feed/`
@@ -13,14 +11,14 @@
 - **Chile Travel** — Sitio Servicio Nacional de Turismo para impulsar turismo
   - Chile Travel - Blog: `https://chile.travel/blog/category/blog/feed/`
   - Chile Travel - Naturaleza Blog 2: `https://chile.travel/blog/category/blog/naturaleza-blog-2/feed/`
+  - Chile Travel - Naturaleza,blog aventura,blog astroturismo,blog: `https://chile.travel/blog/category/naturalezablog-aventurablog-astroturismoblog-blog/feed/`
+  - Chile Travel - Cultura,blog Aventura,blog: `https://chile.travel/blog/category/culturablog-aventurablog-blog/feed/`
 - **Ciper Chile**: Feed de la categoría 'Blog' en Ciper Chile
   - RSS: `https://www.ciperchile.cl/category/blog/feed/`
 - **CRTV Chile**: Feed de la categoría 'Blog' en CRTV Chile
   - RSS: `https://crtvchile.cl/category/blog/feed/`
 - **Diario Chañarcillo**: Feed de la categoría 'Blog' en Diario Chañarcillo
   - RSS: `https://www.chanarcillo.cl/category/blog/feed/`
-- **El Quinto Poder**: Feed de la categoría 'Videoblog' en El Quinto Poder
-  - RSS: `https://elquintopoder.cl/temas/videoblog/feed/`
 - **José Joaquín Brunner** — Blog personal del académico y exministro José Joaquín Brunner, con artículos sobre educación y análisis de la realidad chilena
   - José Joaquín Brunner: `https://brunner.cl/feed/`
   - José Joaquín Brunner - Documentos De Interés: `https://brunner.cl/category/documentos_de_interes/feed/`

@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`jobs.opml`](../../opml/categories/jobs.opml) - 19 sitios, 26 feeds*
+*Descargar OPML: [`jobs.opml`](../../opml/categories/jobs.opml) - 17 sitios, 22 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Empleabilidad' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/empleabilidad/feed/`
@@ -17,11 +17,6 @@
   - BUK [Proxy Google News]: `https://news.google.com/rss/search?q=site:buk.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Chile País Minero**: Feed de la categoría 'Ofertas Laborales' en Chile País Minero
   - RSS: `https://chilepaisminero.com/category/trabajo-y-capacitacion/ofertas-laborales/feed/`
-- **ChileTrabajos** — Portal de empleos en Chile
-  - ChileTrabajos: `https://www.chiletrabajos.cl/rss.xml`
-  - ChileTrabajos [Proxy Google News]: `https://news.google.com/rss/search?q=site:chiletrabajos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Chocale**: Feed de la categoría 'Empleo' en Chocale
-  - RSS: `https://chocale.cl/actualidad/empleo/feed/`
 - **De Mar a Cordillera TV**: Feed de la categoría 'Trabajo' en De Mar a Cordillera TV
   - RSS: `https://demaracordilleratv.cl/category/trabajo/feed/`
 - **Diálogo Sur**: Feed de la categoría 'Trabajo' en Diálogo Sur
@@ -44,7 +39,6 @@
 - **Servicio Civil** — Servicio Civil, institución pública a cargo de la gestión del empleo público y los concursos del Estado
   - Servicio Civil: `https://www.serviciocivil.cl/feed/`
   - Servicio Civil - Alta Dirección Pública: `https://www.serviciocivil.cl/categoria/alta-direccion-publica/feed/`
-  - Servicio Civil - Servicio Civil: `https://www.serviciocivil.cl/categoria/servicio-civil/feed/`
   - Servicio Civil - Destacado: `https://www.serviciocivil.cl/categoria/destacado/feed/`
   - Servicio Civil [Proxy Google News]: `https://news.google.com/rss/search?q=site:serviciocivil.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Temuco Diario**: Feed de la categoría 'Trabajo' en Temuco Diario

@@ -2,12 +2,15 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`government.opml`](../../opml/categories/government.opml) - 48 sitios, 186 feeds*
+*Descargar OPML: [`government.opml`](../../opml/categories/government.opml) - 47 sitios, 209 feeds*
 
-- **Atacama Noticias**: Feed de la categoría 'Avisos Legales' en Atacama Noticias
-  - RSS: `https://www.atacamanoticias.cl/category/avisos-legales/feed/`
-- **Biblioteca del Congreso Nacional (BCN)**: Feed de la sección 'Últimas leyes publicadas' en Biblioteca del Congreso Nacional (BCN)
-  - RSS: `http://feeds.feedburner.com/bcn/ulp?format=xml`
+- **ANCI** — Agencia Nacional de Ciberseguridad de Chile
+  - ANCI - Noticias: `https://www.anci.gob.cl/rss/noticias`
+  - ANCI - Eventos y Cursos: `https://www.anci.gob.cl/rss/eventos`
+  - ANCI [Proxy Google News]: `https://news.google.com/rss/search?q=site:anci.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Biblioteca del Congreso Nacional (BCN)** — Biblioteca del Congreso Nacional de Chile - Servicios de información legislativa y parlamentaria
+  - BCN - Últimas leyes publicadas: `http://feeds.feedburner.com/bcn/ulp?format=xml`
+  - Biblioteca del Congreso Nacional (BCN) [Proxy Google News]: `https://news.google.com/rss/search?q=site:bcn.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Cadena Política**: Feed de la categoría 'Municipal' en Cadena Política
   - RSS: `https://cadenapolitica.com/category/municipal/feed/`
 - **ChileCompra** — Plataforma estatal de licitaciones y compras públicas
@@ -19,12 +22,17 @@
   - ChileCompra - Destacados: `https://www.chilecompra.cl/category/noticias/destacados/feed/`
   - ChileCompra - Gobierno Central: `https://www.chilecompra.cl/category/centro-de-documentacion/normativa/gobierno-central/feed/`
   - ChileCompra - Municipios: `https://www.chilecompra.cl/category/centro-de-documentacion/normativa/municipios/feed/`
+  - ChileCompra - Institucional: `https://www.chilecompra.cl/category/centro-de-documentacion/institucional/feed/`
+  - ChileCompra - Directivas De Compra: `https://www.chilecompra.cl/category/centro-de-documentacion/normativa/directivas-de-compra/feed/`
   - ChileCompra - Licitaciones Públicas: `https://www.chilecompra.cl/category/licitaciones-publicas/feed/`
   - ChileCompra - Licitaciones De Convenio Marco: `https://www.chilecompra.cl/category/licitaciones-de-convenio-marco/feed/`
+  - ChileCompra - Experiencias Internacionales: `https://www.chilecompra.cl/category/centro-de-documentacion/institucional/experiencias-internacionales/feed/`
   - ChileCompra [Proxy Google News]: `https://news.google.com/rss/search?q=site:chilecompra.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - ChileCompra [Proxy Bing News]: `https://www.bing.com/news/search?q=site:chilecompra.cl&format=RSS`
 - **CONAF** — Corporación Nacional Forestal - incendios, parques y biodiversidad
   - CONAF: `https://www.conaf.cl/feed/`
   - CONAF [Proxy Google News]: `https://news.google.com/rss/search?q=site:conaf.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - CONAF [Proxy Bing News]: `https://www.bing.com/news/search?q=site:conaf.cl&format=RSS`
 - **Consejo para la Transparencia** — Sitio oficial del Consejo para la Transparencia de Chile, con noticias, dictámenes y resoluciones
   - Consejo para la Transparencia: `https://www.consejotransparencia.cl/feed/`
   - Consejo para la Transparencia - Estudios: `https://www.consejotransparencia.cl/estudios/feed/`
@@ -46,30 +54,39 @@
   - EFE: `https://www.efe.cl/feed/`
   - EFE - EFE Central: `https://www.efe.cl/category/efe-central/feed/`
   - EFE - EFE Valparaíso: `https://www.efe.cl/category/efe-valparaiso/feed/`
+  - EFE - EFE Sur: `https://www.efe.cl/category/efe-sur/feed/`
   - EFE - Cultura: `https://www.efe.cl/category/efe-cultura/feed/`
   - EFE [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.efe.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - EFE [Proxy Bing News]: `https://www.bing.com/news/search?q=site:www.efe.cl&format=RSS`
 - **El Ciudadano**: Feed de la categoría 'Congreso' en El Ciudadano
   - RSS: `https://www.elciudadano.com/noticias/congreso/feed/`
+- **El Diario de La Araucanía**: Feed de la categoría 'Elecciones' en El Diario de La Araucanía
+  - RSS: `https://www.eldiariodelaaraucania.cl/category/politica/elecciones/feed/`
 - **Fiscalía de Chile** — Ministerio Público de Chile - noticias y comunicados oficiales
   - Fiscalía de Chile: `https://www.fiscaliadechile.cl/rss.xml`
   - Fiscalía de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:fiscaliadechile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Gobierno de Chile** — Noticias oficiales y decretos del gobierno
   - Gobierno de Chile: `https://www.gob.cl/noticias/feed/rss/`
   - Gobierno de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Gobierno de Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:gob.cl&format=RSS`
 - **Gobierno Regional de Tarapacá** — Gobierno Regional de Tarapacá
   - Gobierno Regional de Tarapacá: `https://www.goretarapaca.gov.cl/feed/`
   - Gobierno Regional de Tarapacá - Patrimonio: `https://www.goretarapaca.gov.cl/categoria/en-que-estamos/noticia-destacada/patrimonio/feed/`
+  - Gobierno Regional de Tarapacá [Proxy Google News]: `https://news.google.com/rss/search?q=site:goretarapaca.gov.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Gobierno Regional Metropolitano de Santiago** — Gobierno Regional de la Región Metropolitana de Santiago
   - Gobierno Regional Metropolitano de Santiago: `https://www.gobiernosantiago.cl/feed/`
+  - Gobierno Regional Metropolitano de Santiago - Gobierno Regional: `https://www.gobiernosantiago.cl/category/gobierno-regional/feed/`
+  - Gobierno Regional Metropolitano de Santiago - Consejo Regional: `https://www.gobiernosantiago.cl/category/consejo-regional/feed/`
   - Gobierno Regional Metropolitano de Santiago [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.gobiernosantiago.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Gobierno Regional Metropolitano de Santiago [Proxy Bing News]: `https://www.bing.com/news/search?q=site:www.gobiernosantiago.cl&format=RSS`
 - **Google News** — Segregador de noticias de Google
   - Google News - Chile - Resultados 'congreso': `https://news.google.com/rss/search?q=congreso&hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Resultados 'leyes': `https://news.google.com/rss/search?q=leyes&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Ilustre Municipalidad de Santiago** — Ilustre Municipalidad de Santiago, sitio oficial con noticias, trámites y servicios municipales
   - Ilustre Municipalidad de Santiago: `https://www.munistgo.cl/feed/`
   - Ilustre Municipalidad de Santiago - Hecho En Santiago: `https://www.munistgo.cl/category/hecho-en-santiago/feed/`
-- **Instituto de Salud Pública**: Feed principal de Instituto de Salud Pública
-  - RSS: `https://www.ispch.cl/feed/`
+  - Ilustre Municipalidad de Santiago [Proxy Google News]: `https://news.google.com/rss/search?q=site:munistgo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Ilustre Municipalidad de Santiago [Proxy Bing News]: `https://www.bing.com/news/search?q=site:munistgo.cl&format=RSS`
 - **La Noticia**: Feed de la categoría 'Gobierno' en La Noticia
   - RSS: `https://lanoticia.cl/category/gobierno/feed/`
 - **MarcaChile** — Portal oficial de Marca Chile sobre exportación, turismo e internacionalización del país.
@@ -86,19 +103,16 @@
   - MarcaChile [Proxy Google News]: `https://news.google.com/rss/search?q=site:marcachile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Mediabanco**: Feed de la categoría 'Gobierno' en Mediabanco
   - RSS: `https://www.mediabanco.com/categoria/comunicados-de-prensa/gobierno/feed/`
-- **MercadoPublico** — Plataforma oficial de compras públicas y licitaciones del Estado de Chile
-  - MercadoPublico - Licitaciones de convenio marco: `http://www.mercadopublico.cl/Portal/feedinstitucion.aspx?qs=obQz-pFgoa_RoXw00app6Q==`
-  - MercadoPublico [Proxy Google News]: `https://news.google.com/rss/search?q=site:mercadopublico.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Ministerio de Bienes Nacionales** — Sitio oficial del Ministerio de Bienes Nacionales de Chile
   - Ministerio de Bienes Nacionales: `https://www.bienesnacionales.cl/feed/`
   - Ministerio de Bienes Nacionales - Bienes Nacionales En Regiones: `https://www.bienesnacionales.cl/category/regiones/feed/`
   - Ministerio de Bienes Nacionales - Bienes Nacionales: `https://www.bienesnacionales.cl/category/bienes-nacionales/feed/`
   - Ministerio de Bienes Nacionales - Títulos De Dominio: `https://www.bienesnacionales.cl/category/titulos-de-dominio/feed/`
-  - Ministerio de Bienes Nacionales - Desarrollo Económico: `https://www.bienesnacionales.cl/category/desarrollo-economico/feed/`
-  - Ministerio de Bienes Nacionales - Regiones: `https://www.bienesnacionales.cl/category/regiones-2/feed/`
+  - Ministerio de Bienes Nacionales [Proxy Google News]: `https://news.google.com/rss/search?q=site:bienesnacionales.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Ministerio de Economía, Fomento y Turismo** — Sitio oficial del Ministerio de Economía, Fomento y Turismo de Chile - Noticias y comunicados
   - Ministerio de Economía: `https://www.economia.gob.cl/feed/`
   - Ministerio de Economía [Proxy Google News]: `https://news.google.com/rss/search?q=site:economia.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Ministerio de Economía [Proxy Bing News]: `https://www.bing.com/news/search?q=site:economia.gob.cl&format=RSS`
 - **Ministerio de Educación** — Noticias y comunicados del Ministerio de Educación de Chile
   - Ministerio de Educación: `https://www.mineduc.cl/feed/`
   - Ministerio de Educación [Proxy Google News]: `https://news.google.com/rss/search?q=site:mineduc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -109,6 +123,7 @@
 - **Ministerio de las Culturas, las Artes y el Patrimonio** — Sitio oficial del Ministerio de las Culturas, las Artes y el Patrimonio de Chile
   - Ministerio de las Culturas, las Artes y el Patrimonio: `https://www.cultura.gob.cl/feed/`
   - Ministerio de las Culturas, las Artes y el Patrimonio [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.cultura.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Ministerio de las Culturas, las Artes y el Patrimonio [Proxy Bing News]: `https://www.bing.com/news/search?q=site:www.cultura.gob.cl&format=RSS`
 - **Ministerio de Obras Públicas** — Sitio oficial del Ministerio de Obras Públicas de Chile
   - Ministerio de Obras Públicas: `https://www.mop.gob.cl/feed/`
   - Ministerio de Obras Públicas - Región Metropolitana: `https://www.mop.gob.cl/category/region-metropolitana/feed/`
@@ -117,36 +132,36 @@
   - Ministerio de Obras Públicas - Dirección De Vialidad: `https://www.mop.gob.cl/category/direccion-de-vialidad/feed/`
   - Ministerio de Obras Públicas - Subsecretario De Obras Públicas: `https://www.mop.gob.cl/category/subsecretario-de-obras-publicas/feed/`
   - Ministerio de Obras Públicas - Dirección General De Concesiones De Obras Públicas: `https://www.mop.gob.cl/category/direccion-general-de-concesiones-de-obras-publicas/feed/`
+  - Ministerio de Obras Públicas - Dirección De Obras Hidráulicas: `https://www.mop.gob.cl/category/direccion-de-obras-hidraulicas/feed/`
+  - Ministerio de Obras Públicas - Dirección General De Aguas: `https://www.mop.gob.cl/category/direccion-general-de-aguas/feed/`
   - Ministerio de Obras Públicas - Región De Valparaíso: `https://www.mop.gob.cl/category/region-de-valparaiso/feed/`
   - Ministerio de Obras Públicas - Dirección De Aeropuertos: `https://www.mop.gob.cl/category/direccion-de-aeropuertos/feed/`
-  - Ministerio de Obras Públicas - Región De Los Lagos: `https://www.mop.gob.cl/category/region-de-los-lagos/feed/`
   - Ministerio de Obras Públicas - Región Del Biobío: `https://www.mop.gob.cl/category/region-del-biobio/feed/`
-  - Ministerio de Obras Públicas - Región De La Araucanía: `https://www.mop.gob.cl/category/region-de-la-araucania/feed/`
-  - Ministerio de Obras Públicas - Región De Coquimbo: `https://www.mop.gob.cl/category/region-de-coquimbo/feed/`
-  - Ministerio de Obras Públicas - Ministro De Obras Públicas: `https://www.mop.gob.cl/category/ministro-de-obras-publicas/feed/`
-  - Ministerio de Obras Públicas - Región De Atacama: `https://www.mop.gob.cl/category/region-de-atacama/feed/`
-  - Ministerio de Obras Públicas - Región De Ñuble: `https://www.mop.gob.cl/category/region-de-nuble/feed/`
-  - Ministerio de Obras Públicas - Aeropuerto De Santiago: `https://www.mop.gob.cl/category/aeropuerto-de-santiago/feed/`
+  - Ministerio de Obras Públicas - Región Del Libertador Bernardo Ohiggins: `https://www.mop.gob.cl/category/region-del-libertador-bernardo-ohiggins/feed/`
+  - Ministerio de Obras Públicas - Aeropuertos: `https://www.mop.gob.cl/category/aeropuertos/feed/`
+  - Ministerio de Obras Públicas - Región De Aysén: `https://www.mop.gob.cl/category/region-de-aysen/feed/`
   - Ministerio de Obras Públicas - Biministro De Obras Públicas Y Transporte Y Telecomunicaciones: `https://www.mop.gob.cl/category/biministro-de-obras-publicas-y-transporte-y-telecomunicaciones/feed/`
+  - Ministerio de Obras Públicas - Hospitales: `https://www.mop.gob.cl/category/hospitales/feed/`
   - Ministerio de Obras Públicas - Dirección General De Obras Públicas: `https://www.mop.gob.cl/category/direccion-general-de-obras-publicas/feed/`
-  - Ministerio de Obras Públicas - Puente Chacao: `https://www.mop.gob.cl/category/puente-chacao/feed/`
   - Ministerio de Obras Públicas - Autopistas: `https://www.mop.gob.cl/category/autopistas/feed/`
   - Ministerio de Obras Públicas [Proxy Google News]: `https://news.google.com/rss/search?q=site:mop.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Ministerio de Obras Públicas [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mop.gob.cl&format=RSS`
 - **Ministerio de Salud** — Noticias y comunicados del Ministerio de Salud de Chile
   - Ministerio de Salud: `https://www.minsal.cl/feed/`
   - Ministerio de Salud [Proxy Google News]: `https://news.google.com/rss/search?q=site:minsal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Ministerio de Transportes y Telecomunicaciones** — Sitio oficial del Ministerio de Transportes y Telecomunicaciones de Chile
   - Ministerio de Transportes: `https://www.mtt.gob.cl/feed/`
-  - Ministerio de Transportes y Telecomunicaciones - Fiscalización: `https://mtt.gob.cl/category/fiscalizacion/feed/`
   - Ministerio de Transportes [Proxy Google News]: `https://news.google.com/rss/search?q=site:mtt.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Ministerio de Transportes [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mtt.gob.cl&format=RSS`
 - **Ministerio del Medio Ambiente** — Sitio oficial del Ministerio del Medio Ambiente de Chile
   - Ministerio del Medio Ambiente: `https://mma.gob.cl/feed/`
   - Ministerio del Medio Ambiente [Proxy Google News]: `https://news.google.com/rss/search?q=site:mma.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Ministerio del Medio Ambiente [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mma.gob.cl&format=RSS`
 - **Ministerio del Trabajo y Previsión Social** — Sitio oficial del Ministerio del Trabajo y Previsión Social de Chile
   - Ministerio del Trabajo y Previsión Social: `https://www.mintrab.gob.cl/feed/`
   - Ministerio del Trabajo y Previsión Social - Noticias: `https://www.mintrab.gob.cl/category/noticias/feed/`
-  - Ministerio del Trabajo y Previsión Social - Destacados: `https://www.mintrab.gob.cl/category/destacado1/feed/`
   - Ministerio del Trabajo y Previsión Social - Consejo Superior Laboral: `https://www.mintrab.gob.cl/category/consejo-superior-laboral-2/feed/`
+  - Ministerio del Trabajo y Previsión Social [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.mintrab.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Municipalidad de Puerto Montt** — Portal oficial municipal con noticias, programas, trámites, ordenanzas y proyectos de Puerto Montt.
   - Municipalidad de Puerto Montt: `https://www.puertomontt.cl/feed/`
   - Municipalidad de Puerto Montt - Portada: `https://www.puertomontt.cl/listar/portada/feed/`
@@ -162,28 +177,35 @@
   - Publilegales: `https://publilegales.cl/feed/`
   - Publilegales - Cámara De Diputados: `https://publilegales.cl/category/noticias/camara-de-diputados/feed/`
   - Publilegales - Llamados A Concursos Y Convocatorias: `https://publilegales.cl/category/llamados-a-concursos-y-convocatorias/feed/`
-  - Publilegales - Notificaciones: `https://publilegales.cl/category/notificaciones/feed/`
-  - Publilegales - Decretos Y Resoluciones: `https://publilegales.cl/category/decretos-y-resoluciones/feed/`
-  - Publilegales - Remates: `https://publilegales.cl/category/remates/feed/`
+  - Publilegales - Extractos: `https://publilegales.cl/category/extractos/feed/`
+  - Publilegales - Extravío De Documentos: `https://publilegales.cl/category/extravio-de-documentos/feed/`
   - Publilegales [Proxy Google News]: `https://news.google.com/rss/search?q=site:publilegales.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Radio Cámara** — Radio de la Cámara de Diputadas y Diputados de Chile
-  - Radio Cámara: `https://www.radiocamara.cl/rss.aspx`
-  - Radio Cámara [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiocamara.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio Cámara**: Feed principal de Radio Cámara
+  - RSS: `https://www.radiocamara.cl/rss.aspx`
 - **SENCE** — Servicio Nacional de Capacitación y Empleo
   - SENCE: `https://sence.gob.cl/rss.xml`
   - SENCE [Proxy Google News]: `https://news.google.com/rss/search?q=site:sence.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - SENCE [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sence.gob.cl&format=RSS`
 - **SERNATUR (Servicio Nacional de Turismo)** — Servicio Nacional de Turismo de Chile - promoción y desarrollo del turismo nacional
   - SERNATUR (Servicio Nacional de Turismo): `https://www.sernatur.cl/feed/`
   - SERNATUR (Servicio Nacional de Turismo) - Noticia Nacional: `https://www.sernatur.cl/category/noticia-nacional/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Los Lagos: `https://www.sernatur.cl/category/los-lagos/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Valparaíso: `https://www.sernatur.cl/category/valparaiso/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Los Ríos: `https://www.sernatur.cl/category/los-rios/feed/`
   - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De O'higgins: `https://www.sernatur.cl/category/ohiggins/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Aysén: `https://www.sernatur.cl/category/aysen/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Atacama: `https://www.sernatur.cl/category/atacama/feed/`
   - SERNATUR (Servicio Nacional de Turismo) - Noticias De Ñuble: `https://www.sernatur.cl/category/nuble/feed/`
-  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Biobío: `https://www.sernatur.cl/category/biobio/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Tarapacá: `https://www.sernatur.cl/category/tarapaca/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Maule: `https://www.sernatur.cl/category/maule/feed/`
+  - SERNATUR (Servicio Nacional de Turismo) - Noticias Región De Magallanes: `https://www.sernatur.cl/category/magallanes/feed/`
   - SERNATUR (Servicio Nacional de Turismo) [Proxy Google News]: `https://news.google.com/rss/search?q=site:sernatur.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Servicio Agrícola y Ganadero** — Sitio oficial del Servicio Agrícola y Ganadero de Chile - Noticias del sector agropecuario
   - Servicio Agrícola y Ganadero: `https://www.sag.gob.cl/rss.xml`
   - Servicio Agrícola y Ganadero [Proxy Google News]: `https://news.google.com/rss/search?q=site:sag.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
-- **Subsecretaría de Turismo**: Feed principal de Subsecretaría de Turismo
-  - RSS: `https://www.subturismo.gob.cl/feed/`
+- **Subsecretaría de Turismo** — Subsecretaría de Turismo del Gobierno de Chile - políticas y desarrollo del turismo
+  - Subsecretaría de Turismo: `https://www.subturismo.gob.cl/feed/`
+  - Subsecretaría de Turismo [Proxy Google News]: `https://news.google.com/rss/search?q=site:subturismo.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Subsecretaría del Trabajo** — Subsecretaría del Trabajo de Chile, políticas, programas y noticias del mundo laboral
   - Subsecretaría del Trabajo: `https://www.subtrab.gob.cl/feed/`
   - Subsecretaría del Trabajo [Proxy Google News]: `https://news.google.com/rss/search?q=site:subtrab.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`

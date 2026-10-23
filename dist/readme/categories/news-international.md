@@ -2,16 +2,16 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 101 sitios, 269 feeds*
+*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 107 sitios, 277 feeds*
 
-- **Alerta Noticias**: Feed de la categoría 'Internacional' en Alerta Noticias
-  - RSS: `https://alertanoticias.cl/category/internacional/feed/`
 - **Alerta Noticias Temuco**: Feed de la categoría 'El Mundo' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/el-mundo/feed/`
 - **Amigos Penquistas**: Feed de la categoría 'Internacional' en Amigos Penquistas
   - RSS: `https://amigospenquistas.cl/category/internacional/feed/`
 - **ANEF**: Feed de la categoría 'Internacional' en ANEF
   - RSS: `https://anef.cl/category/noticias/internacional/feed/`
+- **Arica Hoy**: Feed de la categoría 'Internacional' en Arica Hoy
+  - RSS: `https://www.aricahoy.cl/category/internacional/feed/`
 - **Atacama Noticias**: Feed de la categoría 'Internacional' en Atacama Noticias
   - RSS: `https://www.atacamanoticias.cl/category/internacional/feed/`
 - **Atentos**: Feed de la categoría 'Internacional' en Atentos
@@ -32,7 +32,6 @@
   - Cadena Política - Últimas Noticias: `https://cadenapolitica.com/category/ultimas-noticias/feed/`
   - Cadena Política - Estatal: `https://cadenapolitica.com/category/estatal/feed/`
   - Cadena Política - Edoméx: `https://cadenapolitica.com/category/estatal/edomex/feed/`
-  - Cadena Política - Central: `https://cadenapolitica.com/category/central/feed/`
   - Cadena Política - Cadena Radio: `https://cadenapolitica.com/category/cadena-radio/feed/`
   - Cadena Política - Coyuntura: `https://cadenapolitica.com/category/coyuntura/feed/`
   - Cadena Política - Opinión: `https://cadenapolitica.com/category/opinion/feed/`
@@ -52,7 +51,6 @@
   - Cadena Política - Seguridad: `https://cadenapolitica.com/category/seguridad/feed/`
   - Cadena Política - Uaem: `https://cadenapolitica.com/category/estatal/edomex/uaem/feed/`
   - Cadena Política - Tlalnepantla: `https://cadenapolitica.com/category/municipal/tlalnepantla/feed/`
-  - Cadena Política - Alianza: `https://cadenapolitica.com/category/alianza/feed/`
   - Cadena Política - Cuautitlán Izcalli: `https://cadenapolitica.com/category/municipal/cuautitlan-izcalli/feed/`
   - Cadena Política - Atizapán De Zaragoza: `https://cadenapolitica.com/category/municipal/atizapan-de-zaragoza/feed/`
   - Cadena Política - Naucalpan: `https://cadenapolitica.com/category/municipal/naucalpan/feed/`
@@ -62,11 +60,15 @@
   - Cadena Política - Ecatepec: `https://cadenapolitica.com/category/municipal/ecatepec/feed/`
   - Cadena Política - San Mateo Atenco: `https://cadenapolitica.com/category/municipal/san-mateo-atenco/feed/`
   - Cadena Política - Cuauhtemoc: `https://cadenapolitica.com/category/estatal/cdmx/cuauhtemoc-cdmx/feed/`
+  - Cadena Política - Chihuahua: `https://cadenapolitica.com/category/estatal/cadena-chihuahua/feed/`
   - Cadena Política - Zinacantepec: `https://cadenapolitica.com/category/municipal/zinacantepec/feed/`
   - Cadena Política - Metepec: `https://cadenapolitica.com/category/municipal/metepec/feed/`
+  - Cadena Política - Efemérides: `https://cadenapolitica.com/category/efemerides/feed/`
   - Cadena Política - Sindicato De Maestros: `https://cadenapolitica.com/category/estatal/edomex/sindicato-de-maestros/feed/`
   - Cadena Política - Pjedomex: `https://cadenapolitica.com/category/estatal/edomex/pjedomex/feed/`
+  - Cadena Política - Almoloya De Juárez: `https://cadenapolitica.com/category/municipal/almoloya-de-juarez/feed/`
   - Cadena Política [Proxy Google News]: `https://news.google.com/rss/search?q=site:cadenapolitica.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Cadena Política [Proxy Bing News]: `https://www.bing.com/news/search?q=site:cadenapolitica.com&format=RSS`
 - **CEI Noticias**: Feed de la categoría 'Internacional' en CEI Noticias
   - RSS: `https://ceinoticias.cl/category/noticias/internacional/feed/`
 - **Central Noticia**: Feed de la categoría 'Internacional' en Central Noticia
@@ -89,12 +91,18 @@
   - RSS: `https://diariochile.cl/category/internacional/feed/`
 - **Diario El Centro**: Feed de la categoría 'Internacional' en Diario El Centro
   - RSS: `https://www.diarioelcentro.cl/categoria/internacional/feed/`
+- **Diario El Día**: Feed de la sección 'Mundo' en Diario El Día
+  - RSS: `https://www.diarioeldia.cl/rss/mundo`
 - **Diario El Longino**: Feed de la categoría 'Mundial' en Diario El Longino
   - RSS: `https://diariolongino.cl/mundial/feed/`
 - **Diario El Nortino**: Feed de la categoría 'Internacional' en Diario El Nortino
   - RSS: `https://diarioelnortino.cl/category/internacional/feed/`
 - **Diario El Pulso**: Feed de la categoría 'Mundo' en Diario El Pulso
   - RSS: `https://www.diarioelpulso.cl/category/mundo/feed/`
+- **Diario La Quinta**: Feed de la categoría 'Internacional' en Diario La Quinta
+  - RSS: `https://diariolaquinta.cl/tag/internacional/feed/`
+- **Diario Los Lagos**: Feed de la categoría 'Internacional' en Diario Los Lagos
+  - RSS: `https://diarioloslagos.cl/category/noticias/internacional/feed/`
 - **Diario Mapuche**: Feed de la categoría 'Internacional' en Diario Mapuche
   - RSS: `https://www.mapuchediario.cl/category/internacional/feed/`
 - **Diario Sur Noticias** — Diario regional de Santiago, Metropolitana
@@ -102,6 +110,8 @@
   - Diario Sur Noticias - Mundo: `https://www.diariosurnoticias.com/mundo/feed/`
 - **Diario UACh**: Feed de la categoría 'Internacional' en Diario UACh
   - RSS: `https://diario.uach.cl/category/categorias/internacional/feed/`
+- **Duplos**: Feed de la categoría 'Internacional' en Duplos
+  - RSS: `https://duplos.cl/actualidad/internacional/feed/`
 - **El Arrebato**: Feed de la categoría 'Mundo' en El Arrebato
   - RSS: `https://elarrebato.cl/category/mundo/feed/`
 - **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política
@@ -116,18 +126,16 @@
 - **El Clarín de Chile** — Portal de noticias nacionales e internacionales
   - El Clarín de Chile - Política Global: `https://www.elclarin.cl/category/informaciones/mundo/feed/`
   - El Clarín de Chile - Nuestra Región Latinoamericana: `https://www.elclarin.cl/category/latinoamerica/feed/`
+- **El Contraste**: Feed de la categoría 'Internacional' en El Contraste
+  - RSS: `https://elcontraste.cl/internacional/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Noticias Internacionales' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/noticias-internacionales/feed/`
 - **El Gong**: Feed de la categoría 'Del Mundo' en El Gong
   - RSS: `https://elgong.cl/category/nacional/actualidad-nacional/del-mundo/feed/`
-- **El Informador Chile**: Feed de la categoría 'Internacional' en El Informador Chile
-  - RSS: `https://www.elinformadorchile.cl/category/internacional/feed/`
 - **El Insular**: Feed de la categoría 'Internacional' en El Insular
   - RSS: `https://elinsular.cl/category/noticias/internacional/feed/`
 - **El Maipo**: Feed de la categoría 'Internacional' en El Maipo
   - RSS: `https://elmaipo.cl/category/internacional/feed/`
-- **El Minuto**: Feed de la categoría 'Mundo' en El Minuto
-  - RSS: `https://elminuto.cl/noticias/category/mundo/rss`
 - **El Morro de Arica**: Feed de la categoría 'Internacional' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/internacional/feed/`
 - **El Nacional** — Diario venezolano de noticias nacionales e internacionales
@@ -136,7 +144,6 @@
   - El Nacional - Empleo: `https://www.elnacional.com/economia/empleo/feed/`
   - El Nacional - Petróleo: `https://www.elnacional.com/economia/petroleo/feed/`
   - El Nacional - Criptomonedas: `https://www.elnacional.com/economia/criptomonedas/feed/`
-  - El Nacional - Blockchain: `https://www.elnacional.com/economia/blockchain/feed/`
   - El Nacional - Empresas Y Productos: `https://www.elnacional.com/empresas-y-productos/feed/`
   - El Nacional - Literatura: `https://www.elnacional.com/entretenimiento/literatura/feed/`
   - El Nacional - Artes Plásticas: `https://www.elnacional.com/entretenimiento/artes-plasticas/feed/`
@@ -159,6 +166,7 @@
   - El Nacional - Regiones: `https://www.elnacional.com/venezuela/regiones/feed/`
   - El Nacional - Servicios: `https://www.elnacional.com/venezuela/servicios/feed/`
   - El Nacional - Protestas: `https://www.elnacional.com/venezuela/protestas/feed/`
+  - El Nacional - Denuncias: `https://www.elnacional.com/venezuela/denuncias/feed/`
   - El Nacional - Video: `https://www.elnacional.com/video/feed/`
   - El Nacional [Proxy Google News]: `https://news.google.com/rss/search?q=site:elnacional.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - El Nacional [Proxy Bing News]: `https://www.bing.com/news/search?q=site:elnacional.com&format=RSS`
@@ -166,6 +174,8 @@
   - RSS: `https://elperiodico.cl/category/internacional/feed/`
 - **El Periodista**: Feed de la categoría 'Internacional' en El Periodista
   - RSS: `https://www.elperiodista.cl/category/internacional/feed/`
+- **El Provincial**: Feed de la categoría 'Internacional' en El Provincial
+  - RSS: `https://www.elprovincial.cl/category/noticias/internacional/feed/`
 - **El Quinto Poder**: Feed de la categoría 'Internacional' en El Quinto Poder
   - RSS: `https://elquintopoder.cl/temas/internacional/feed/`
 - **El Sol de Iquique**: Feed de la categoría 'Internacional' en El Sol de Iquique
@@ -180,21 +190,23 @@
   - France 24 - América Latina: `https://www.france24.com/es/america-latina/rss`
   - France 24 [Proxy Google News]: `https://news.google.com/rss/search?q=site:france24.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - France 24 [Proxy Bing News]: `https://www.bing.com/news/search?q=site:france24.com&format=RSS`
+- **Frontera Norte**: Feed de la categoría 'Internacional' en Frontera Norte
+  - RSS: `https://www.fronteranorte.cl/category/internacional/feed/`
 - **G5 Noticias**: Feed de la categoría 'Internacional' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/internacional/feed/`
 - **Google News**: Sección Internacional de Google News Chile
   - RSS: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx1YlY4U0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
 - **HolaNews** — Agregador de noticias latinoamericano basado en Estados Unidos
   - HolaNews: `https://holanews.com/feed/`
+  - HolaNews - Entérate: `https://holanews.com/category/enterate/feed/`
   - HolaNews - Greenville, Sc: `https://holanews.com/category/locales/las-carolinas/greenville-sc/feed/`
   - HolaNews - Charleston, Sc: `https://holanews.com/category/locales/las-carolinas/charleston-sc/feed/`
   - HolaNews - Columbia, Sc: `https://holanews.com/category/locales/las-carolinas/columbia-sc/feed/`
   - HolaNews - Triad: `https://holanews.com/category/locales/las-carolinas/triad-nc/feed/`
   - HolaNews - Wilmington, Nc: `https://holanews.com/category/locales/las-carolinas/wilmington-nc/feed/`
+  - HolaNews - Las Carolinas: `https://holanews.com/category/locales/las-carolinas/feed/`
+  - HolaNews - Estados Unidos: `https://holanews.com/category/estados-unidos/feed/`
   - HolaNews [Proxy Google News]: `https://news.google.com/rss/search?q=site:holanews.com&hl=es-419&gl=CL&ceid=CL:es-419`
-  - HolaNews [Proxy Bing News]: `https://www.bing.com/news/search?q=site:holanews.com&format=RSS`
-- **Instituto Antártico Chileno**: Feed de la categoría 'Antártica Internacional' en Instituto Antártico Chileno
-  - RSS: `https://www.inach.cl/category/prensa/mundo/feed/`
 - **IPS Agencia de Noticias** — Inter Press Service, agencia internacional de noticias con edición en español
   - IPS Agencia de Noticias: `https://ipsnoticias.net/feed/`
   - IPS Agencia de Noticias - Derechos Humanos: `https://ipsnoticias.net/noticias/derechos-humanos/feed/`
@@ -212,6 +224,10 @@
   - IPS Agencia de Noticias [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ipsnoticias.net&format=RSS`
 - **iRock.CL**: Feed de la categoría 'Internacional' en iRock.CL
   - RSS: `https://www.irock.cl/category/internacional/feed/`
+- **ITV Patagonia**: Feed de la categoría 'Internacional' en ITV Patagonia
+  - RSS: `https://www.itvpatagonia.com/categoria/internacional/feed/`
+- **La Batalla de Maipú**: Feed de la categoría 'Internacional' en La Batalla de Maipú
+  - RSS: `https://www.labatalla.cl/secciones/secciones/internacional/feed/`
 - **La Cuarta**: Feed de la categoría 'Mundo' en La Cuarta
   - RSS: `https://www.lacuarta.com/arc/outboundfeeds/rss/category/mundo/?outputType=xml`
 - **La Discusión**: Feed de la categoría 'Internacional' en La Discusión
@@ -248,6 +264,8 @@
   - RSS: `https://www.nostalgica.cl/category/internacional/feed/`
 - **Noticias Los Ríos**: Feed de la categoría 'Internacional' en Noticias Los Ríos
   - RSS: `https://www.noticiaslosrios.cl/seccion/internacional/feed/`
+- **Novena Digital**: Feed de la categoría 'Internacional' en Novena Digital
+  - RSS: `https://novenadigital.cl/category/internacional/feed/`
 - **Página 19**: Feed de la categoría 'Internacional' en Página 19
   - RSS: `https://pagina19.cl/categoria/internacional/feed/`
 - **Partido Comunista de Chile**: Feed de la categoría 'Internacional' en Partido Comunista de Chile
@@ -274,22 +292,17 @@
   - Prensa Opal - Editor: `https://prensaopal.cl/category/editor/feed/`
   - Prensa Opal - Análisis Internacional: `https://prensaopal.cl/category/analisis-internacional/feed/`
   - Prensa Opal - Blogs Y Opinión: `https://prensaopal.cl/category/blogs-y-opinion/feed/`
-  - Prensa Opal - Internacional: `https://prensaopal.cl/category/internacional/feed/`
-  - Prensa Opal - Venezuela: `https://prensaopal.cl/category/venezuela/feed/`
-  - Prensa Opal - Memoria: `https://prensaopal.cl/category/memoria/feed/`
   - Prensa Opal - Cuba: `https://prensaopal.cl/tag/cuba/feed/`
+  - Prensa Opal - Colombia: `https://prensaopal.cl/tag/colombia/feed/`
   - Prensa Opal - Eeuu: `https://prensaopal.cl/tag/eeuu/feed/`
-  - Prensa Opal - Muro Cultural: `https://prensaopal.cl/category/muro-cultural/feed/`
-  - Prensa Opal - Territorio Mapuche: `https://prensaopal.cl/tag/territorio-mapuche/feed/`
-  - Prensa Opal - Latinoamérica Y El Caribe: `https://prensaopal.cl/category/latinoamerica-y-el-caribe/feed/`
+  - Prensa Opal - Alemania: `https://prensaopal.cl/tag/alemania/feed/`
   - Prensa Opal - Argentina: `https://prensaopal.cl/tag/argentina/feed/`
-  - Prensa Opal - España: `https://prensaopal.cl/tag/espana/feed/`
+  - Prensa Opal - Golpe De Estado: `https://prensaopal.cl/tag/golpe-de-estado/feed/`
+  - Prensa Opal - Resistencia: `https://prensaopal.cl/category/resistencia/feed/`
   - Prensa Opal - Palestina: `https://prensaopal.cl/tag/palestina/feed/`
   - Prensa Opal [Proxy Google News]: `https://news.google.com/rss/search?q=site:prensaopal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Publimicro**: Feed de la categoría 'Internacional' en Publimicro
   - RSS: `https://publimicro.cl/contenidos-noticias/internacional/feed/`
-- **Radar BioBio**: Feed de la categoría 'Internacional' en Radar BioBio
-  - RSS: `https://radarbiobio.cl/internacional/feed/`
 - **Radio Comunicativa de Ovalle**: Feed de la categoría 'Internacional' en Radio Comunicativa de Ovalle
   - RSS: `https://radiocomunicativa.cl/category/noticias/internacional/feed/`
 - **Radio Contacto**: Feed de la categoría 'Internacional' en Radio Contacto
@@ -306,9 +319,8 @@
   - RSS: `https://radiointeramericana.cl/category/noticias/internacional/feed/`
 - **Radio JGM**: Feed de la categoría 'Internacional' en Radio JGM
   - RSS: `https://radiojgm.uchile.cl/category/internacional/feed/`
-- **Radio Maray** — Medio de comunicación de la Región de Atacama
-  - Radio Maray - Internacional: `https://www.maray.cl/category/internacional/feed/`
-  - Radio Maray - Medio Oriente: `https://www.maray.cl/category/medio-oriente/feed/`
+- **Radio Maray**: Feed de la categoría 'Internacional' en Radio Maray
+  - RSS: `https://www.maray.cl/category/internacional/feed/`
 - **Radio Nuevo Mundo**: Feed de la categoría 'Internacional' en Radio Nuevo Mundo
   - RSS: `https://radionuevomundo.cl/categoria/internacional/feed/`
 - **Radio Paulina**: Feed de la categoría 'Internacional' en Radio Paulina
@@ -351,23 +363,25 @@
   - The Guardian - Food: `https://www.theguardian.com/food/rss/`
   - The Guardian - Travel: `https://www.theguardian.com/travel/rss/`
   - The Guardian - Money: `https://www.theguardian.com/money/rss/`
+  - The Guardian - Guardian Live Events: `https://www.theguardian.com/guardian-live-events/rss/`
   - The Guardian - Video: `https://www.theguardian.com/video/rss/`
   - The Guardian - Podcasts: `https://www.theguardian.com/podcasts/rss/`
   - The Guardian - Inpictures: `https://www.theguardian.com/inpictures/rss/`
   - The Guardian - Insidetheguardian: `https://www.theguardian.com/insidetheguardian/rss/`
   - The Guardian - Weekly: `https://www.theguardian.com/weekly/rss/`
   - The Guardian - Crosswords: `https://www.theguardian.com/crosswords/rss/`
+  - The Guardian [Proxy Google News]: `https://news.google.com/rss/search?q=site:theguardian.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - The Guardian [Proxy Bing News]: `https://www.bing.com/news/search?q=site:theguardian.com&format=RSS`
 - **Tiempo 21**: Feed de la categoría 'Mundo' en Tiempo 21
   - RSS: `https://www.tiempo21.cl/mundo/feed/`
 - **Tierramarillano**: Feed de la categoría 'Internacional' en Tierramarillano
   - RSS: `https://tierramarillano.cl/category/noticias/internacional/feed/`
-- **Tus Noticias**: Feed de la categoría 'Internacional' en Tus Noticias
-  - RSS: `https://www.tusnoticias.cl/noticias/internacional/feed/`
 - **TV Canal 5**: Feed de la categoría 'Internacional' en TV Canal 5
   - RSS: `https://tvcanal5.cl/category/internacional/feed/`
 - **Universidad Diego Portales**: Feed de la categoría 'Internacional' en Universidad Diego Portales
   - RSS: `https://www.udp.cl/archivo/internacional/feed/`
+- **Vanguardia Gamer**: Feed de la categoría 'Internacional' en Vanguardia Gamer
+  - RSS: `https://vanguardiagamer.cl/category/noticias/internacional/feed/`
 - **Vilas Radio**: Feed de la categoría 'Internacional' en Vilas Radio
   - RSS: `https://vilasradio.cl/category/internacional/feed/`
 - **VLN Radio**: Feed de la categoría 'Internacional' en VLN Radio
