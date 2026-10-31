@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Magallanes y de la Antártica Chilena (137 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Magallanes y de la Antártica Chilena (139 feeds)</title>
     <description>Feeds RSS de la Región de Magallanes y de la Antártica Chilena, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -124,6 +124,8 @@
     <outline type="rss" text="La Prensa Austral - Titular4" title="La Prensa Austral - Titular4" description="Feed de la categoría 'Titular4' en La Prensa Austral" xmlUrl="https://laprensaaustral.cl/category/titular4/feed/" htmlUrl="https://laprensaaustral.cl/category/titular4/"/>
     <outline type="rss" text="La Prensa Austral [Proxy Bing News]" title="La Prensa Austral [Proxy Bing News]" description="Resultados de site:laprensaaustral.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:laprensaaustral.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:laprensaaustral.cl"/>
     <outline type="rss" text="La Prensa Austral [Proxy Google News]" title="La Prensa Austral [Proxy Google News]" description="Resultados de site:laprensaaustral.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:laprensaaustral.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:laprensaaustral.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Magallanes Check" title="Magallanes Check" description="Medio de fact checking regional de Magallanes" xmlUrl="https://magallanescheck.cl/rss.xml" htmlUrl="https://magallanescheck.cl"/>
+    <outline type="rss" text="Magallanes Check [Proxy Google News]" title="Magallanes Check [Proxy Google News]" description="Resultados de site:magallanescheck.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:magallanescheck.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:magallanescheck.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Ovejero Noticias" title="Ovejero Noticias" description="Feed principal de Ovejero Noticias" xmlUrl="https://www.ovejeronoticias.cl/feed/" htmlUrl="https://www.ovejeronoticias.cl"/>
     <outline type="rss" text="Ovejero Noticias [Proxy Bing News]" title="Ovejero Noticias [Proxy Bing News]" description="Resultados de site:ovejeronoticias.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:ovejeronoticias.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:ovejeronoticias.cl"/>
     <outline type="rss" text="Ovejero Noticias [Proxy Google News]" title="Ovejero Noticias [Proxy Google News]" description="Resultados de site:ovejeronoticias.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ovejeronoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ovejeronoticias.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

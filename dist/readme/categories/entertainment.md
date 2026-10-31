@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 57 sitios, 154 feeds*
+*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 58 sitios, 155 feeds*
 
 - **Alerta Geek Chile**: Feed de la categoría 'Series' en Alerta Geek Chile
   - RSS: `https://alertageekchile.cl/category/series/feed/`
@@ -108,6 +108,8 @@
   - Ilustrado [Proxy Google News]: `https://news.google.com/rss/search?q=site:ilustrado.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Info Tarapacá**: Feed de la categoría 'Entretencion' en Info Tarapacá
   - RSS: `https://infotarapaca.cl/category/entretencion/feed/`
+- **Internet21.cl**: Feed de la categoría 'Entretención' en Internet21.cl
+  - RSS: `https://internet21.cl/category/entretencion/feed/`
 - **iRock.CL** — Portal chileno de rock y música, con noticias, conciertos, reviews y entrevistas nacionales e internacionales
   - iRock.CL - Portada: `https://www.irock.cl/feed/`
   - iRock.CL - News: `https://www.irock.cl/category/irock/feed/`

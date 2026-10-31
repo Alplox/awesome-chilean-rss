@@ -45,10 +45,10 @@ Este proyecto usa scripts Node.js organizados por funcionalidad:
 | ------------------------------------------ | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | `scripts/utils/verify-feeds.js`            | `pnpm verify:feeds -- <feeds.json>`                             | Verifica feeds RSS/Atom desde un archivo JSON                                                         |
 |                                            | `pnpm verify:feeds -- <URL>`                                    | Verifica una URL de feed específica directamente                                                      |
-| `scripts/utils/find-duplicates.js`         | `pnpm check:duplicates`                                       | Detecta duplicados intra-DB + cruce DB↔watchlist (site IDs/URLs, feed IDs/rss_urls) — detecta promociones incompletas |
+| `scripts/utils/find-duplicates.js`         | `pnpm check:duplicates`                                       | Detecta duplicados intra-DB + intra-watchlist + cruce DB↔watchlist (site IDs/URLs, feed IDs/rss_urls) — detecta promociones incompletas y bloques re-apendidos en watchlist |
 |                                            | `pnpm check:duplicates -- --verbose`                             | Igual que el anterior, con links clicables `archivo:línea` (DB + WL)                                  |
-|                                            | `pnpm check:duplicates -- --fix --dry-run`                       | Preview: muestra qué 41 sitios se borrarían de watchlist (keep DB)                                    |
-|                                            | `pnpm check:duplicates -- --fix --yes`                           | Limpia watchlist (borra duplicados cruzados, deja solo DB); `--keep watchlist` invierte               |
+|                                            | `pnpm check:duplicates -- --fix --dry-run`                       | Preview: muestra qué entradas de watchlist se borrarían (internas repetidas, feeds repetidos dentro de una entrada y cruzadas con DB, keep DB) |
+|                                            | `pnpm check:duplicates -- --fix --yes`                           | Limpia watchlist (duplicados internos, conservando la 1ª aparición; feeds repetidos de una misma entrada; y cruzados, deja solo DB); `--keep watchlist` invierte el lado cruzado |
 |                                            | `pnpm check:duplicates -- --all --out reporte.txt`               | Reporte completo sin recorte a archivo; `--json dupes.json` para JSON machine-readable                 |
 | `scripts/utils/check-feed-overlap.js`      | `pnpm check:overlap`                                         | Detecta feeds que repiten contenido de otros feeds **del mismo sitio** (solapamiento de items)        |
 |                                            | `pnpm check:overlap -- --id <site-id>`                       | Revisa el solapamiento de un solo sitio                                                                |
@@ -96,14 +96,14 @@ La lógica de red y redescubrimiento está organizada en módulos independientes
 | `lib/network-utils.js`       | Red: `checkSiteReachable`, `checkCertError`, `tryFetchFeedInsecure`, `isValidUrl`                                                                                                                 |
 | `lib/feed-rediscovery.js`    | Redescubrimiento: `extractFeedLinksFromHtml`, `rediscoverFeed`, `FEED_PATTERNS`, `parseLinkHeader`, `extractJsonLdFeeds`                                                                          |
 | `lib/feed-overlap.js`        | Solapamiento de items: `normalizeItemKey`, `keySet`, `containmentRatio`, `findDuplicate` (usado por `check:overlap`)                                                                                |
-| `lib/duplicate-finder.js`    | Detección de duplicados **sin red** (IDs/URLs/dominios, intra-DB y DB↔watchlist): `normalizeSiteUrl`, `normalizeFeedUrl`, `rootDomainOf`, `findDuplicates` (usado por `check:duplicates` y por el resumen de `validate`) |
+| `lib/duplicate-finder.js`    | Detección de duplicados **sin red** (IDs/URLs/dominios): intra-DB, intra-watchlist y DB↔watchlist — `normalizeSiteUrl`, `normalizeFeedUrl`, `rootDomainOf`, `findDuplicates` (usado por `check:duplicates` y por el resumen de `validate`) |
 | `lib/browser-fallback.js`    | Verificación con navegador headless (Playwright, dependencia opcional): `fetchWithBrowser`, `closeBrowser` — resuelve challenges anti-bot tipo Cloudflare                                                    |
 | `lib/feed-utils.js`          | Utilidades compartidas: `extractSelfLink`, `pathsMatch`, `daysSince`, `isStale`, `formatError`, `recalculateTotalFeeds`, `ALLOWED_STATUSES`, `BROKEN_ERRORS`, `getDomain`, `STALE_THRESHOLD_DAYS`, `DUPLICATE_OVERLAP_THRESHOLD` |
 | `lib/relay-fetch.js`         | Relay de un solo endpoint para diagnóstico de red: `RELAY_PRESETS`, `resolveRelay`, `resolveRelayList`, `checkFeedViaRelay`, `checkReachabilityViaRelay`, `looksLikeRelayErrorPage`, `RELAY_TIMEOUT_MS` (usado por `diagnose:network` y el flag `--relay`) |
 | `lib/cli-args.js`            | Parseo centralizado de args CLI: `parseArgs`, `applyFilters`, `applyFiltersSites`                                                                                                                 |
 | `lib/prompter.js`            | Prompts: `promptUser`, `promptUrl`, `promptStatus`, `isAutomatic`                                                                                                                                 |
 | `lib/watchlist-validator.js` | Watchlist: `validateWatchlistEntry`, `promoteToSite`                                                                                                                                              |
-| `lib/rate-limiter.js`        | Control de concurrencia: máximo 5 requests globales, mínimo 2s entre requests al mismo dominio                                                                                                    |
+| `lib/rate-limiter.js`        | Control de concurrencia: máximo 5 requests globales, máximo 2 por dominio, mínimo 2s entre requests al mismo dominio                                                                                                    |
 
 ### Flujo de trabajo
 
@@ -667,7 +667,8 @@ Solo los feeds con `status: "active"` **y** `verified: true` se incluyen en los 
 - Timeout de 10 segundos por petición
 - Solo URLs `http:` / `https:` permitidas, sin IPs privadas
 - Máximo 5 requests concurrentes activos a nivel global
-- Mínimo 2 segundos de separación entre requests al mismo dominio
+- Máximo 2 requests concurrentes activos al mismo dominio (evita ráfagas que tumban hostings compartidos)
+- Mínimo 2 segundos de separación entre inicios de requests al mismo dominio
 
 ## Categorías disponibles
 

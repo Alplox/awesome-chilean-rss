@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`culture.opml`](../../opml/categories/culture.opml) - 138 sitios, 230 feeds*
+*Descargar OPML: [`culture.opml`](../../opml/categories/culture.opml) - 140 sitios, 232 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Anime y Manga: `https://alertageekchile.cl/category/anime-y-manga/feed/`
@@ -46,6 +46,8 @@
   - Balmaceda Arte Joven [Proxy Google News]: `https://news.google.com/rss/search?q=site:balmacedartejoven.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Calama en Línea**: Feed de la categoría 'Cultura' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/cultura/feed/`
+- **Cápsula Informativa Regional**: Feed de la categoría 'Cultura' en Cápsula Informativa Regional
+  - RSS: `https://capsulainformativa.cl/category/cultura/feed/`
 - **CEI Noticias** — Diario regional de Iquique, Tarapacá
   - CEI Noticias - Cultura y Espectáculo: `https://ceinoticias.cl/category/cultura/cultura-y-espectaculo/feed/`
   - CEI Noticias - Cultura: `https://ceinoticias.cl/category/cultura/feed/`
@@ -356,6 +358,8 @@
   - RSS: `https://tvcanal5.cl/category/cultura/feed/`
 - **TXS Plus**: Feed de la categoría 'Cultura' en TXS Plus
   - RSS: `https://txsplus.com/cultura/feed/`
+- **UCSC**: Feed de la categoría 'Culturales' en UCSC
+  - RSS: `https://ucsc.cl/categoria/culturales/feed/`
 - **Unnie Pop** — Medio digital de noticias de K-Pop y K-Dramas
   - Unnie Pop: `https://unniepop.cl/feed/`
   - Unnie Pop - K Pop: `https://unniepop.cl/category/k-pop/feed/`

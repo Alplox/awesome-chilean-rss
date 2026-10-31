@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de O'Higgins (187 feeds)</title>
+    <title>Awesome Chilean RSS - Región de O'Higgins (189 feeds)</title>
     <description>Feeds RSS de la Región de O'Higgins, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -103,6 +103,8 @@
     <outline type="rss" text="Diario El Pulso - Viñas y Cavas" title="Diario El Pulso - Viñas y Cavas" description="Feed de la categoría 'Viñas y Cavas' en Diario El Pulso" xmlUrl="https://www.diarioelpulso.cl/category/vinas-y-cavas/feed/" htmlUrl="https://www.diarioelpulso.cl/category/vinas-y-cavas/"/>
     <outline type="rss" text="Diario El Pulso [Proxy Bing News]" title="Diario El Pulso [Proxy Bing News]" description="Resultados de site:diarioelpulso.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:diarioelpulso.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:diarioelpulso.cl"/>
     <outline type="rss" text="Diario El Pulso [Proxy Google News]" title="Diario El Pulso [Proxy Google News]" description="Resultados de site:diarioelpulso.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioelpulso.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioelpulso.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="El Cachapoal" title="El Cachapoal" description="Feed principal de El Cachapoal" xmlUrl="https://elcachapoal.cl/feed/" htmlUrl="https://www.elcachapoal.cl"/>
+    <outline type="rss" text="El Cachapoal [Proxy Google News]" title="El Cachapoal [Proxy Google News]" description="Resultados de site:elcachapoal.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elcachapoal.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elcachapoal.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Rancagüino" title="El Rancagüino" description="Feed principal de El Rancagüino" xmlUrl="https://www.elrancaguino.cl/feed/" htmlUrl="https://www.elrancaguino.cl"/>
     <outline type="rss" text="El Rancagüino [Proxy Bing News]" title="El Rancagüino [Proxy Bing News]" description="Resultados de site:elrancaguino.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:elrancaguino.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:elrancaguino.cl"/>
     <outline type="rss" text="El Rancagüino [Proxy Google News]" title="El Rancagüino [Proxy Google News]" description="Resultados de site:elrancaguino.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elrancaguino.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elrancaguino.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

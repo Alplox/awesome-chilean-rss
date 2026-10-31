@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Antofagasta (235 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Antofagasta (237 feeds)</title>
     <description>Feeds RSS de la Región de Antofagasta, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -177,6 +177,8 @@
     <outline type="rss" text="Pulso Comunal - Taltal" title="Pulso Comunal - Taltal" description="Feed de la categoría 'Taltal' en Pulso Comunal" xmlUrl="https://www.radiopulsocomunal.cl/category/territorio/taltal/feed/" htmlUrl="https://www.radiopulsocomunal.cl/category/territorio/taltal/"/>
     <outline type="rss" text="Pulso Comunal - Territorio" title="Pulso Comunal - Territorio" description="Feed de la categoría 'Territorio' en Pulso Comunal" xmlUrl="https://www.radiopulsocomunal.cl/category/territorio/feed/" htmlUrl="https://www.radiopulsocomunal.cl/category/territorio/"/>
     <outline type="rss" text="Pulso Comunal [Proxy Google News]" title="Pulso Comunal [Proxy Google News]" description="Resultados de site:radiopulsocomunal.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiopulsocomunal.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiopulsocomunal.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Región 2" title="Región 2" description="Medio de comunicación de la Región de Antofagasta" xmlUrl="https://www.region2.cl/feed/" htmlUrl="https://www.region2.cl"/>
+    <outline type="rss" text="Región 2 [Proxy Google News]" title="Región 2 [Proxy Google News]" description="Resultados de site:region2.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:region2.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:region2.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Regionalista" title="Regionalista" description="Feed principal de Regionalista" xmlUrl="https://regionalista.cl/feed" htmlUrl="https://regionalista.cl"/>
     <outline type="rss" text="Regionalista - Artículos" title="Regionalista - Artículos" description="Feed de la categoría 'Artículos' en Regionalista" xmlUrl="https://regionalista.cl/category/articulos/feed/" htmlUrl="https://regionalista.cl/category/articulos/"/>
     <outline type="rss" text="Regionalista - Columnas" title="Regionalista - Columnas" description="Feed de la categoría 'Columnas' en Regionalista" xmlUrl="https://regionalista.cl/category/columnas/feed/" htmlUrl="https://regionalista.cl/category/columnas/"/>

@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`sports.opml`](../../opml/categories/sports.opml) - 172 sitios, 269 feeds*
+*Descargar OPML: [`sports.opml`](../../opml/categories/sports.opml) - 174 sitios, 271 feeds*
 
 - **Aconcagua Digital**: Feed de la categoría 'Deportes' en Aconcagua Digital
   - RSS: `https://aconcaguadigital.cl/category/deportes/feed/`
@@ -171,6 +171,8 @@
   - RSS: `https://www.elserenense.cl/category/deportes/feed/`
 - **El Sol de Iquique**: Feed de la categoría 'Deportes C' en El Sol de Iquique
   - RSS: `https://elsoldeiquique.cl/deportes_c/feed/`
+- **El Telescopio**: Feed de la categoría 'Deportes' en El Telescopio
+  - RSS: `https://eltelescopio.cl/category/deportes/feed/`
 - **El Urbano Rural**: Feed de la categoría 'Deporte' en El Urbano Rural
   - RSS: `https://elurbanorural.cl/category/deporte/feed/`
 - **Elqui Global**: Feed de la categoría 'Deportes' en Elqui Global
@@ -257,6 +259,8 @@
   - RSS: `https://www.linaresenlinea.cl/category/deportes/feed/`
 - **Malleco 7**: Feed de la categoría 'Deportes' en Malleco 7
   - RSS: `https://www.malleco7.cl/canal/deportes/feed/`
+- **Margamarga TV**: Feed de la categoría 'Deportes' en Margamarga TV
+  - RSS: `https://margamargatv.cl/category/deportes/feed/`
 - **Maule Hoy**: Feed de la categoría 'Deportes' en Maule Hoy
   - RSS: `https://maulehoy.cl/deportes/feed/`
 - **Mediabanco**: Feed de la categoría 'Deporte' en Mediabanco

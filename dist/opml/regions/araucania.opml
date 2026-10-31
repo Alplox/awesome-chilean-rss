@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Araucanía (401 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Araucanía (403 feeds)</title>
     <description>Feeds RSS de la Región de Araucanía, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -280,6 +280,8 @@
       <outline type="rss" text="Prensa Ciudadana - Contingencia" title="Prensa Ciudadana - Contingencia" description="Feed de la categoría 'Contingencia' en Prensa Ciudadana" xmlUrl="https://www.prensaciudadana.cl/category/contingencia/feed/" htmlUrl="https://www.prensaciudadana.cl/category/contingencia/"/>
       <outline type="rss" text="Prensa Ciudadana - Última Hora" title="Prensa Ciudadana - Última Hora" description="Feed de la categoría 'Última Hora' en Prensa Ciudadana" xmlUrl="https://www.prensaciudadana.cl/category/ultima-hora/feed/" htmlUrl="https://www.prensaciudadana.cl/category/ultima-hora/"/>
       <outline type="rss" text="Prensa Ciudadana [Proxy Google News]" title="Prensa Ciudadana [Proxy Google News]" description="Resultados de site:prensaciudadana.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:prensaciudadana.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:prensaciudadana.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Primera Nota" title="Primera Nota" description="Feed principal de Primera Nota" xmlUrl="https://www.primeranota.cl/web/feed/" htmlUrl="https://www.primeranota.cl"/>
+      <outline type="rss" text="Primera Nota [Proxy Google News]" title="Primera Nota [Proxy Google News]" description="Resultados de site:primeranota.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:primeranota.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:primeranota.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Pucón TV" title="Pucón TV" description="Feed principal de Pucón TV" xmlUrl="https://www.pucontv.com/rss/atom" htmlUrl="https://www.pucontv.com"/>
       <outline type="rss" text="Pucón TV [Proxy Google News]" title="Pucón TV [Proxy Google News]" description="Resultados de site:pucontv.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pucontv.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pucontv.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Qué pasa Araucanía" title="Qué pasa Araucanía" description="Feed principal de Qué pasa Araucanía" xmlUrl="https://quepasaaraucania.cl/feed/" htmlUrl="https://quepasaaraucania.cl/"/>

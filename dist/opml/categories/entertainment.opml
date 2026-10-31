@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (154 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (155 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -84,6 +84,7 @@
       <outline type="rss" text="Ilustrado" title="Ilustrado" description="Feed principal de Ilustrado" xmlUrl="https://www.ilustrado.cl/feed/" htmlUrl="https://www.ilustrado.cl/"/>
       <outline type="rss" text="Ilustrado [Proxy Google News]" title="Ilustrado [Proxy Google News]" description="Resultados de site:ilustrado.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ilustrado.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ilustrado.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Info Tarapacá - Entretencion" title="Info Tarapacá - Entretencion" description="Feed de la categoría 'Entretencion' en Info Tarapacá" xmlUrl="https://infotarapaca.cl/category/entretencion/feed/" htmlUrl="https://infotarapaca.cl/category/entretencion/"/>
+      <outline type="rss" text="Internet21.cl - Entretención" title="Internet21.cl - Entretención" description="Feed de la categoría 'Entretención' en Internet21.cl" xmlUrl="https://internet21.cl/category/entretencion/feed/" htmlUrl="https://internet21.cl/category/entretencion/"/>
       <outline type="rss" text="iRock.CL - Chile" title="iRock.CL - Chile" description="Feed de la categoría 'Chile' en iRock.CL" xmlUrl="https://www.irock.cl/category/nacionales/feed/" htmlUrl="https://www.irock.cl/category/nacionales/"/>
       <outline type="rss" text="iRock.CL - Conciertos" title="iRock.CL - Conciertos" description="Feed de la categoría 'Conciertos' en iRock.CL" xmlUrl="https://www.irock.cl/category/conciertos/feed/" htmlUrl="https://www.irock.cl/category/conciertos/"/>
       <outline type="rss" text="iRock.CL - Destacado" title="iRock.CL - Destacado" description="Feed de la categoría 'Destacado' en iRock.CL" xmlUrl="https://www.irock.cl/category/destacado/feed/" htmlUrl="https://www.irock.cl/category/destacado/"/>

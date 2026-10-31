@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`community.opml`](../../opml/categories/community.opml) - 110 sitios, 295 feeds*
+*Descargar OPML: [`community.opml`](../../opml/categories/community.opml) - 113 sitios, 298 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Calendario de Estrenos y Eventos: `https://www.alertageekchile.cl/eventos/feed/`
@@ -156,6 +156,8 @@
   - Diario Mapuche - Mujeres: `https://www.mapuchediario.cl/category/mujeres/feed/`
   - Diario Mapuche - Editorial: `https://www.mapuchediario.cl/category/editorial/feed/`
   - Diario Mapuche [Proxy Google News]: `https://news.google.com/rss/search?q=site:mapuchediario.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Diario Puerto Varas**: Feed de la categoría 'Turismo y Panoramas' en Diario Puerto Varas
+  - RSS: `https://diariopuertovaras.cl/category/turismo-panoramas/feed/`
 - **Duplos**: Feed de la categoría 'Panoramas' en Duplos
   - RSS: `https://duplos.cl/panoramas/feed/`
 - **El Andacollino**: Feed de la categoría 'Avisos' en El Andacollino
@@ -253,6 +255,8 @@
   - RSS: `https://www.labatalla.cl/secciones/comunidad/feed/`
 - **La Noticia**: Feed de la categoría 'Turismo' en La Noticia
   - RSS: `https://lanoticia.cl/category/turismo/feed/`
+- **La Opinión de Chiloé**: Feed de la categoría 'Sociedad' en La Opinión de Chiloé
+  - RSS: `https://laopiniondechiloe.cl/category/sociedad/feed/`
 - **La Opinión Online**: Feed de la categoría 'Comunidad' en La Opinión Online
   - RSS: `https://www.laopiniononline.cl/category/comunidad/feed/`
 - **La Prensa Austral**: Feed de la categoría 'Sociedad' en La Prensa Austral
@@ -268,6 +272,8 @@
   - RSS: `https://www.losriosnoticias.cl/category/sociedad/feed/`
 - **MadboxPC**: Feed de la categoría 'Eventos' en MadboxPC
   - RSS: `https://www.madboxpc.com/category/eventos/feed/`
+- **Margamarga TV**: Feed de la categoría 'Eventos' en Margamarga TV
+  - RSS: `https://margamargatv.cl/category/eventos/feed/`
 - **Mastodon Chile** — Instancia(s) chilena(s) de Mastodon (red social descentralizada)
   - Mastodon.cl - #chile: `https://mastodon.cl/tags/chile.rss`
   - Mastodon.cl - #tecnología: `https://mastodon.cl/tags/tecnología.rss`

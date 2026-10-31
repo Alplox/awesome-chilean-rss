@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Arica y Parinacota (76 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Arica y Parinacota (82 feeds)</title>
     <description>Feeds RSS de la Región de Arica y Parinacota, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -29,6 +29,8 @@
     <outline type="rss" text="Arica Hoy - Ovni" title="Arica Hoy - Ovni" description="Feed de la categoría 'Ovni' en Arica Hoy" xmlUrl="https://www.aricahoy.cl/category/ovni/feed/" htmlUrl="https://www.aricahoy.cl/category/ovni/"/>
     <outline type="rss" text="Arica Hoy - Widgets" title="Arica Hoy - Widgets" description="Feed de la categoría 'Widgets' en Arica Hoy" xmlUrl="https://www.aricahoy.cl/category/widgets/feed/" htmlUrl="https://www.aricahoy.cl/category/widgets/"/>
     <outline type="rss" text="Arica Hoy [Proxy Google News]" title="Arica Hoy [Proxy Google News]" description="Resultados de site:aricahoy.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:aricahoy.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:aricahoy.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Arica Online" title="Arica Online" description="Feed principal de Arica Online" xmlUrl="https://aricaonline.cl/feed" htmlUrl="https://aricaonline.cl"/>
+    <outline type="rss" text="Arica Online [Proxy Google News]" title="Arica Online [Proxy Google News]" description="Resultados de site:aricaonline.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:aricaonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:aricaonline.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Arica365" title="Arica365" description="Feed principal de Arica365" xmlUrl="https://www.arica365.cl/feed/" htmlUrl="https://www.arica365.cl"/>
     <outline type="rss" text="Arica365 - #emprendedores" title="Arica365 - #emprendedores" description="Feed de la categoría '#emprendedores' en Arica365" xmlUrl="https://www.arica365.cl/blog/category/emprendedores/feed/" htmlUrl="https://www.arica365.cl/blog/category/emprendedores/"/>
     <outline type="rss" text="Arica365 - Arica" title="Arica365 - Arica" description="Feed de la categoría 'Arica' en Arica365" xmlUrl="https://www.arica365.cl/blog/category/arica/feed/" htmlUrl="https://www.arica365.cl/blog/category/arica/"/>
@@ -83,5 +85,9 @@
     <outline type="rss" text="Radio Puerta Norte - Actualidad" title="Radio Puerta Norte - Actualidad" description="Feed de la categoría 'Actualidad' en Radio Puerta Norte" xmlUrl="https://radiopuertanorte.cl/category/actualidad/feed/" htmlUrl="https://radiopuertanorte.cl/category/actualidad/"/>
     <outline type="rss" text="Radio Puerta Norte - Cultura" title="Radio Puerta Norte - Cultura" description="Feed de la categoría 'Cultura' en Radio Puerta Norte" xmlUrl="https://radiopuertanorte.cl/category/cultura/feed/" htmlUrl="https://radiopuertanorte.cl/category/cultura/"/>
     <outline type="rss" text="Radio Puerta Norte [Proxy Google News]" title="Radio Puerta Norte [Proxy Google News]" description="Resultados de site:radiopuertanorte.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiopuertanorte.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiopuertanorte.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Radio Siente" title="Radio Siente" description="Radio de emisión digital de la Región de Arica y Parinacota" xmlUrl="https://www.radiosiente.com/feed/" htmlUrl="https://www.radiosiente.com"/>
+    <outline type="rss" text="Radio Siente - Noticias" title="Radio Siente - Noticias" description="Feed de la categoría 'Noticias' en Radio Siente" xmlUrl="https://www.radiosiente.com/category/noticias/feed/" htmlUrl="https://www.radiosiente.com/category/noticias/"/>
+    <outline type="rss" text="Radio Siente - Noticias Locales" title="Radio Siente - Noticias Locales" description="Feed de la categoría 'Noticias Locales' en Radio Siente" xmlUrl="https://www.radiosiente.com/category/sin-categoria/noticias-locales/feed/" htmlUrl="https://www.radiosiente.com/category/sin-categoria/noticias-locales/"/>
+    <outline type="rss" text="Radio Siente [Proxy Google News]" title="Radio Siente [Proxy Google News]" description="Resultados de site:radiosiente.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiosiente.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiosiente.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
   </body>
 </opml>

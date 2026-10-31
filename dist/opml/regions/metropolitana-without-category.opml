@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Metropolitana de Santiago (254 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Metropolitana de Santiago (258 feeds)</title>
     <description>Feeds RSS de la Región de Metropolitana de Santiago, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -209,6 +209,9 @@
     <outline type="rss" text="La Batalla de Maipú - Transporte" title="La Batalla de Maipú - Transporte" description="Feed de la categoría 'Transporte' en La Batalla de Maipú" xmlUrl="https://www.labatalla.cl/secciones/secciones/transporte/feed/" htmlUrl="https://www.labatalla.cl/secciones/secciones/transporte/"/>
     <outline type="rss" text="La Batalla de Maipú [Proxy Bing News]" title="La Batalla de Maipú [Proxy Bing News]" description="Resultados de site:labatalla.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:labatalla.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:labatalla.cl"/>
     <outline type="rss" text="La Batalla de Maipú [Proxy Google News]" title="La Batalla de Maipú [Proxy Google News]" description="Resultados de site:labatalla.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:labatalla.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:labatalla.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="La Hora" title="La Hora" description="Feed principal de La Hora" xmlUrl="https://www.lahora.cl/rss/global.xml" htmlUrl="https://www.lahora.cl"/>
+    <outline type="rss" text="La Hora [Proxy Bing News]" title="La Hora [Proxy Bing News]" description="Resultados de site:lahora.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:lahora.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:lahora.cl"/>
+    <outline type="rss" text="La Hora [Proxy Google News]" title="La Hora [Proxy Google News]" description="Resultados de site:lahora.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:lahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:lahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="La Razón" title="La Razón" description="Feed principal de La Razón" xmlUrl="https://www.larazon.cl/feed/" htmlUrl="https://www.larazon.cl"/>
     <outline type="rss" text="La Razón - Actualidad" title="La Razón - Actualidad" description="Feed de la categoría 'Actualidad' en La Razón" xmlUrl="https://www.larazon.cl/temas/actualidad/feed/" htmlUrl="https://www.larazon.cl/temas/actualidad/"/>
     <outline type="rss" text="La Razón - Arte y Cultura" title="La Razón - Arte y Cultura" description="Feed de la categoría 'Arte y Cultura' en La Razón" xmlUrl="https://www.larazon.cl/temas/arte-y-cultura/feed/" htmlUrl="https://www.larazon.cl/temas/arte-y-cultura/"/>
@@ -242,6 +245,7 @@
     <outline type="rss" text="Nuevo Poder - Tendencias" title="Nuevo Poder - Tendencias" description="Feed de la categoría 'Tendencias' en Nuevo Poder" xmlUrl="https://www.nuevopoder.cl/category/tendencias/feed/" htmlUrl="https://www.nuevopoder.cl/category/tendencias/"/>
     <outline type="rss" text="Nuevo Poder [Proxy Bing News]" title="Nuevo Poder [Proxy Bing News]" description="Resultados de site:nuevopoder.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:nuevopoder.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:nuevopoder.cl"/>
     <outline type="rss" text="Nuevo Poder [Proxy Google News]" title="Nuevo Poder [Proxy Google News]" description="Resultados de site:nuevopoder.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:nuevopoder.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:nuevopoder.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Puente Alto al Día" title="Puente Alto al Día" description="Periódico local de Puente Alto, Región Metropolitana" xmlUrl="https://puentealtoaldia.com/feed/" htmlUrl="https://puentealtoaldia.cl"/>
     <outline type="rss" text="Radio Pirque" title="Radio Pirque" description="Feed principal de Radio Pirque" xmlUrl="https://radiopirque.cl/feed/" htmlUrl="https://radiopirque.cl"/>
     <outline type="rss" text="Radio Pirque - Comunales" title="Radio Pirque - Comunales" description="Feed de la categoría 'Comunales' en Radio Pirque" xmlUrl="https://radiopirque.cl/category/noticias/comunales/feed/" htmlUrl="https://radiopirque.cl/category/noticias/comunales/"/>
     <outline type="rss" text="Radio Pirque - Noticias" title="Radio Pirque - Noticias" description="Feed de la categoría 'Noticias' en Radio Pirque" xmlUrl="https://radiopirque.cl/category/noticias/feed/" htmlUrl="https://radiopirque.cl/category/noticias/"/>

@@ -115,7 +115,7 @@ for (const entry of entries) {
       errors.noFeed.push(entry.name);
     }
 
-    failed.push({ id: entry.id, reason: result.reason });
+    failed.push({ id: entry.id, reason: result.reason, entry: result.entry });
   }
 }
 
@@ -202,7 +202,15 @@ if (shouldUpdate || saveFiles) {
       const k = kept.find(k => k.id === w.id);
       if (k) return k;
       const f = failed.find(f => f.id === w.id);
-      if (f) return { ...w, reason: f.reason };
+      if (f) {
+        // Preserva los estados validados de los proxy feeds (status, last_checked,
+        // last_known_item_date) que validateWatchlistEntry ya había actualizado,
+        // en lugar de conservar los valores originales del archivo.
+        if (f.entry?.feeds) {
+          return { ...w, reason: f.reason, feeds: f.entry.feeds };
+        }
+        return { ...w, reason: f.reason };
+      }
       return w;
     });
     writeFileSync('watchlist.json', JSON.stringify(withKept, null, 2), 'utf-8');

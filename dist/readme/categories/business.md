@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 132 sitios, 405 feeds*
+*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 134 sitios, 407 feeds*
 
 - **(Empresa) Contapapaya** — Plataforma de contabilidad online para pymes chilenas, con artículos sobre contabilidad y emprendimiento
   - (Empresa) Contapapaya: `https://contapapaya.cl/feed/`
@@ -236,6 +236,8 @@
   - RSS: `https://www.elquiglobal.cl/categoria/economia/feed/`
 - **En La Línea**: Feed de la categoría 'Economía y Negocios' en En La Línea
   - RSS: `https://www.enlalinea.cl/category/economia-y-negocios/feed/`
+- **En Línea Maule**: Feed de la categoría 'Economía' en En Línea Maule
+  - RSS: `https://enlineamaule.cl/archivo/category/economia/feed/`
 - **Epicentro Chile**: Feed de la categoría 'Economía' en Epicentro Chile
   - RSS: `https://www.epicentrochile.com/economia/feed/`
 - **Esperanza FM**: Feed de la categoría 'Economía' en Esperanza FM
@@ -256,6 +258,8 @@
   - Google News - Chile - Sección Negocios: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx6TVdZU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
 - **Informa Al Minuto**: Feed de la categoría 'Economía' en Informa Al Minuto
   - RSS: `https://informaalminuto.cl/category/economia/feed/`
+- **Internet21.cl**: Feed de la categoría 'Negocios' en Internet21.cl
+  - RSS: `https://internet21.cl/category/negocios/feed/`
 - **IPS Agencia de Noticias**: Feed de la categoría 'Economía' en IPS Agencia de Noticias
   - RSS: `https://ipsnoticias.net/noticias/economia/feed/`
 - **Iquique TV** — Medio de comunicación de la Región de Tarapacá

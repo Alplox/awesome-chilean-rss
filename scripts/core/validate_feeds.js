@@ -464,7 +464,7 @@ function printDuplicateReport(db, shouldUpdate) {
   const { counts } = findDuplicates(db.sites, wlSites);
 
   if (counts.total === 0) {
-    console.log(`🔁 Entradas duplicadas : 0${wlSites ? ' (BD y BD ↔ watchlist)' : ' (BD)'}`);
+    console.log(`🔁 Entradas duplicadas : 0${wlSites ? ' (BD, WL y BD ↔ WL)' : ' (BD)'}`);
     return;
   }
 
@@ -474,6 +474,11 @@ function printDuplicateReport(db, shouldUpdate) {
     [counts.rootDomains, 'mismo dominio raíz (BD)'],
     [counts.siteIds, 'IDs de sitio duplicados (BD)'],
     [counts.feedIds, 'IDs de feed duplicados (BD)'],
+    [counts.wlSiteIds, 'IDs de sitio duplicados (WL)'],
+    [counts.wlSiteUrls, 'site.url duplicada (WL)'],
+    [counts.wlRootDomains, 'mismo dominio raíz (WL)'],
+    [counts.wlFeedIds, 'IDs de feed duplicados (WL)'],
+    [counts.wlFeedUrls, 'rss_url duplicada (WL)'],
     [counts.crossSiteIds, 'site IDs cruzados (BD ↔ WL)'],
     [counts.crossSiteUrls, 'site URLs cruzadas (BD ↔ WL)'],
     [counts.crossRootDomains, 'dominios cruzados (BD ↔ WL)'],

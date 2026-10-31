@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 107 sitios, 277 feeds*
+*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 109 sitios, 279 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'El Mundo' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/el-mundo/feed/`
@@ -69,6 +69,8 @@
   - Cadena Política - Almoloya De Juárez: `https://cadenapolitica.com/category/municipal/almoloya-de-juarez/feed/`
   - Cadena Política [Proxy Google News]: `https://news.google.com/rss/search?q=site:cadenapolitica.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - Cadena Política [Proxy Bing News]: `https://www.bing.com/news/search?q=site:cadenapolitica.com&format=RSS`
+- **Cápsula Informativa Regional**: Feed de la categoría 'Mundo' en Cápsula Informativa Regional
+  - RSS: `https://capsulainformativa.cl/category/mundo/feed/`
 - **CEI Noticias**: Feed de la categoría 'Internacional' en CEI Noticias
   - RSS: `https://ceinoticias.cl/category/noticias/internacional/feed/`
 - **Central Noticia**: Feed de la categoría 'Internacional' en Central Noticia
@@ -245,6 +247,8 @@
   - Le Monde Diplomatique - Edición Chilena [Proxy Google News]: `https://news.google.com/rss/search?q=site:lemondediplomatique.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Mala Espina**: Feed de la categoría 'Mundo' en Mala Espina
   - RSS: `https://www.malaespinacheck.cl/noticias/mundo/feed/`
+- **Margamarga TV**: Feed de la categoría 'Internacional' en Margamarga TV
+  - RSS: `https://margamargatv.cl/category/internacional/feed/`
 - **MercoPress** — Agencia de noticias en español sobre América Latina y el Caribe, con sección especial de Chile
   - MercoPress - Chile: `https://es.mercopress.com/rss/chile`
   - MercoPress - América Latina: `https://es.mercopress.com/rss/america-latina`

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (201 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (212 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -56,6 +56,11 @@
     <outline type="rss" text="Diario Sustentable" title="Diario Sustentable" description="Medio chileno de noticias sobre sustentabilidad" xmlUrl="http://sustentable.cl/feed/" htmlUrl="https://www.dsustentable.cl"/>
     <outline type="rss" text="Diario UACh - Sustentabilidad Ods" title="Diario UACh - Sustentabilidad Ods" description="Feed de la categoría 'Sustentabilidad Ods' en Diario UACh" xmlUrl="https://diario.uach.cl/category/categorias/sustentabilidad/feed/" htmlUrl="https://diario.uach.cl/category/categorias/sustentabilidad/"/>
     <outline type="rss" text="DPL News - Sustentabilidad" title="DPL News - Sustentabilidad" description="Feed de la categoría 'Sustentabilidad' en DPL News" xmlUrl="https://dplnews.com/category/tecnologia/sustentabilidad/feed/" htmlUrl="https://dplnews.com/category/tecnologia/sustentabilidad/"/>
+    <outline type="rss" text="ECOceanos" title="ECOceanos" description="Organización chilena dedicada a la defensa del océano, la biodiversidad marina y los ecosistemas costeros" xmlUrl="https://www.ecoceanos.cl/feed/" htmlUrl="https://www.ecoceanos.cl"/>
+    <outline type="rss" text="ECOceanos - Acuicultura" title="ECOceanos - Acuicultura" description="Feed de la categoría 'Acuicultura' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/acuicultura/feed/" htmlUrl="https://www.ecoceanos.cl/ver/acuicultura/"/>
+    <outline type="rss" text="ECOceanos - Laboral" title="ECOceanos - Laboral" description="Feed de la categoría 'Laboral' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/laboral/feed/" htmlUrl="https://www.ecoceanos.cl/ver/laboral/"/>
+    <outline type="rss" text="ECOceanos - Lobos Marinos" title="ECOceanos - Lobos Marinos" description="Feed de la categoría 'Lobos Marinos' en ECOceanos" xmlUrl="https://www.ecoceanos.cl/ver/lobos-marinos/feed/" htmlUrl="https://www.ecoceanos.cl/ver/lobos-marinos/"/>
+    <outline type="rss" text="ECOceanos [Proxy Google News]" title="ECOceanos [Proxy Google News]" description="Resultados de site:ecoceanos.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ecoceanos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ecoceanos.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Ecosistemas" title="Ecosistemas" description="Feed principal de Ecosistemas" xmlUrl="https://www.ecosistemas.cl/feed/" htmlUrl="https://www.ecosistemas.cl"/>
     <outline type="rss" text="Ecosistemas [Proxy Google News]" title="Ecosistemas [Proxy Google News]" description="Resultados de site:ecosistemas.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:ecosistemas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:ecosistemas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="El Ciudadano - Animales" title="El Ciudadano - Animales" description="Feed de la categoría 'Animales' en El Ciudadano" xmlUrl="https://www.elciudadano.com/noticias/animal/feed/" htmlUrl="https://www.elciudadano.com/noticias/animal/"/>
@@ -202,10 +207,16 @@
     <outline type="rss" text="Temuco Diario - Medio Ambiente" title="Temuco Diario - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/medio-ambiente/feed/" htmlUrl="https://temucodiario.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Temuco Diario - Medioambiente" title="Temuco Diario - Medioambiente" description="Feed de la categoría 'Medioambiente' en Temuco Diario" xmlUrl="https://temucodiario.cl/category/medioambiente/feed/" htmlUrl="https://temucodiario.cl/category/medioambiente/"/>
     <outline type="rss" text="Tiempo 21 - Agricultura" title="Tiempo 21 - Agricultura" description="Feed de la categoría 'Agricultura' en Tiempo 21" xmlUrl="https://www.tiempo21.cl/agricultura/feed/" htmlUrl="https://www.tiempo21.cl/agricultura/"/>
+    <outline type="rss" text="Tornados en Chile" title="Tornados en Chile" description="Feed principal de Tornados en Chile" xmlUrl="https://tornadoschile.cl/feed/" htmlUrl="https://tornadoschile.cl/"/>
+    <outline type="rss" text="Tornados en Chile - O'higgins" title="Tornados en Chile - O'higgins" description="Feed de la categoría 'O'higgins' en Tornados en Chile" xmlUrl="https://tornadoschile.cl/category/ohiggins/feed/" htmlUrl="https://tornadoschile.cl/category/ohiggins/"/>
+    <outline type="rss" text="Tornados en Chile - Supercelda" title="Tornados en Chile - Supercelda" description="Feed de la categoría 'Supercelda' en Tornados en Chile" xmlUrl="https://tornadoschile.cl/category/supercelda/feed/" htmlUrl="https://tornadoschile.cl/category/supercelda/"/>
+    <outline type="rss" text="Tornados en Chile - Tornados" title="Tornados en Chile - Tornados" description="Feed de la categoría 'Tornados' en Tornados en Chile" xmlUrl="https://tornadoschile.cl/category/sin-categoria/tornados/feed/" htmlUrl="https://tornadoschile.cl/category/sin-categoria/tornados/"/>
+    <outline type="rss" text="Tornados en Chile [Proxy Google News]" title="Tornados en Chile [Proxy Google News]" description="Resultados de site:tornadoschile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:tornadoschile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:tornadoschile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Tour Innovación - Agricultura" title="Tour Innovación - Agricultura" description="Feed de la categoría 'Agricultura' en Tour Innovación" xmlUrl="https://www.tourinnovacion.cl/seccion/agricultura/feed/" htmlUrl="https://www.tourinnovacion.cl/seccion/agricultura/"/>
     <outline type="rss" text="Tour Innovación - Sustentabilidad" title="Tour Innovación - Sustentabilidad" description="Feed de la categoría 'Sustentabilidad' en Tour Innovación" xmlUrl="https://www.tourinnovacion.cl/seccion/sustentabilidad/feed/" htmlUrl="https://www.tourinnovacion.cl/seccion/sustentabilidad/"/>
     <outline type="rss" text="Traiguén City - Medio Ambiente" title="Traiguén City - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/medio-ambiente/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/medio-ambiente/"/>
     <outline type="rss" text="trendTIC - Sustentabilidad" title="trendTIC - Sustentabilidad" description="Feed de la categoría 'Sustentabilidad' en trendTIC" xmlUrl="https://www.trendtic.cl/category/sustentabilidad/feed/" htmlUrl="https://www.trendtic.cl/category/sustentabilidad/"/>
+    <outline type="rss" text="UCSC - Sustentabilidad" title="UCSC - Sustentabilidad" description="Feed de la categoría 'Sustentabilidad' en UCSC" xmlUrl="https://ucsc.cl/categoria/sustentabilidad/feed/" htmlUrl="https://ucsc.cl/categoria/sustentabilidad/"/>
     <outline type="rss" text="VC Magazine - Medio Ambiente" title="VC Magazine - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en VC Magazine" xmlUrl="https://vcmagazine.cl/category/medio-ambiente/feed/" htmlUrl="https://vcmagazine.cl/category/medio-ambiente/"/>
     <outline type="rss" text="VC Magazine - Sostenibilidad" title="VC Magazine - Sostenibilidad" description="Feed de la categoría 'Sostenibilidad' en VC Magazine" xmlUrl="https://vcmagazine.cl/category/temas/sostenibilidad/feed/" htmlUrl="https://vcmagazine.cl/category/temas/sostenibilidad/"/>
   </body>

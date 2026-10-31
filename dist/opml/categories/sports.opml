@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (269 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (271 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -108,6 +108,7 @@
       <outline type="rss" text="El Reportero de Iquique - Deportes" title="El Reportero de Iquique - Deportes" description="Feed de la categoría 'Deportes' en El Reportero de Iquique" xmlUrl="https://elreporterodeiquique.com/category/deportes/feed/" htmlUrl="https://elreporterodeiquique.com/category/deportes/"/>
       <outline type="rss" text="El Serenense - Deportes" title="El Serenense - Deportes" description="Feed de la categoría 'Deportes' en El Serenense" xmlUrl="https://www.elserenense.cl/category/deportes/feed/" htmlUrl="https://www.elserenense.cl/category/deportes/"/>
       <outline type="rss" text="El Sol de Iquique - Deportes C" title="El Sol de Iquique - Deportes C" description="Feed de la categoría 'Deportes C' en El Sol de Iquique" xmlUrl="https://elsoldeiquique.cl/deportes_c/feed/" htmlUrl="https://elsoldeiquique.cl/deportes_c/"/>
+      <outline type="rss" text="El Telescopio - Deportes" title="El Telescopio - Deportes" description="Feed de la categoría 'Deportes' en El Telescopio" xmlUrl="https://eltelescopio.cl/category/deportes/feed/" htmlUrl="https://eltelescopio.cl/category/deportes/"/>
       <outline type="rss" text="El Urbano Rural - Deporte" title="El Urbano Rural - Deporte" description="Feed de la categoría 'Deporte' en El Urbano Rural" xmlUrl="https://elurbanorural.cl/category/deporte/feed/" htmlUrl="https://elurbanorural.cl/category/deporte/"/>
       <outline type="rss" text="Elqui Global - Deportes" title="Elqui Global - Deportes" description="Feed de la categoría 'Deportes' en Elqui Global" xmlUrl="https://www.elquiglobal.cl/categoria/deportes/feed/" htmlUrl="https://www.elquiglobal.cl/categoria/deportes/"/>
       <outline type="rss" text="En El Camarín" title="En El Camarín" description="Feed principal de En El Camarín" xmlUrl="https://enelcamarin.cl/feed/" htmlUrl="https://enelcamarin.cl"/>
@@ -153,6 +154,7 @@
       <outline type="rss" text="Las Noticias de Malleco - Deportes" title="Las Noticias de Malleco - Deportes" description="Feed de la categoría 'Deportes' en Las Noticias de Malleco" xmlUrl="https://lasnoticiasdemalleco.cl/category/deportes/feed/" htmlUrl="https://lasnoticiasdemalleco.cl/category/deportes/"/>
       <outline type="rss" text="Linares en Línea - Deportes" title="Linares en Línea - Deportes" description="Feed de la categoría 'Deportes' en Linares en Línea" xmlUrl="https://www.linaresenlinea.cl/category/deportes/feed/" htmlUrl="https://www.linaresenlinea.cl/category/deportes/"/>
       <outline type="rss" text="Malleco 7 - Deportes" title="Malleco 7 - Deportes" description="Feed de la categoría 'Deportes' en Malleco 7" xmlUrl="https://www.malleco7.cl/canal/deportes/feed/" htmlUrl="https://www.malleco7.cl/canal/deportes/"/>
+      <outline type="rss" text="Margamarga TV - Deportes" title="Margamarga TV - Deportes" description="Feed de la categoría 'Deportes' en Margamarga TV" xmlUrl="https://margamargatv.cl/category/deportes/feed/" htmlUrl="https://margamargatv.cl/category/deportes/"/>
       <outline type="rss" text="Maule Hoy - Deportes" title="Maule Hoy - Deportes" description="Feed de la categoría 'Deportes' en Maule Hoy" xmlUrl="https://maulehoy.cl/deportes/feed/" htmlUrl="https://maulehoy.cl/deportes/"/>
       <outline type="rss" text="Mediabanco - Deporte" title="Mediabanco - Deporte" description="Feed de la categoría 'Deporte' en Mediabanco" xmlUrl="https://www.mediabanco.com/categoria/comunicados-de-prensa/deporte/feed/" htmlUrl="https://www.mediabanco.com/categoria/comunicados-de-prensa/deporte/"/>
       <outline type="rss" text="Mirada Sur TV - Deportes" title="Mirada Sur TV - Deportes" description="Feed de la categoría 'Deportes' en Mirada Sur TV" xmlUrl="https://miradasurtv.cl/category/deportes/feed/" htmlUrl="https://miradasurtv.cl/category/deportes/"/>

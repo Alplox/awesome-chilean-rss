@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📻 Radio y Música (188 feeds)</title>
+    <title>Awesome Chilean RSS - 📻 Radio y Música (189 feeds)</title>
     <description>Feeds RSS de 📻 Radio y Música, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -80,6 +80,7 @@
       <outline type="rss" text="Radio Carolina" title="Radio Carolina" description="Emisora chilena de música" xmlUrl="https://carolina.cl/rss.xml" htmlUrl="https://carolina.cl"/>
       <outline type="rss" text="Radio Carolina [Proxy Bing News]" title="Radio Carolina [Proxy Bing News]" description="Resultados de site:carolina.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:carolina.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:carolina.cl"/>
       <outline type="rss" text="Radio Carolina [Proxy Google News]" title="Radio Carolina [Proxy Google News]" description="Resultados de site:carolina.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:carolina.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:carolina.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Radio Chilena" title="Radio Chilena" description="Radio Chilena, emisora chilena" xmlUrl="https://radiochilena.cl/feed/" htmlUrl="https://www.radiochilena.cl"/>
       <outline type="rss" text="Radio Comunicativa de Ovalle" title="Radio Comunicativa de Ovalle" description="Feed principal de Radio Comunicativa de Ovalle" xmlUrl="https://radiocomunicativa.cl/feed/" htmlUrl="https://radiocomunicativa.cl/"/>
       <outline type="rss" text="Radio Comunicativa de Ovalle - Economía Y Negocios" title="Radio Comunicativa de Ovalle - Economía Y Negocios" description="Feed de la categoría 'Economía Y Negocios' en Radio Comunicativa de Ovalle" xmlUrl="https://radiocomunicativa.cl/category/economia-y-negocios/feed/" htmlUrl="https://radiocomunicativa.cl/category/economia-y-negocios/"/>
       <outline type="rss" text="Radio Comunicativa de Ovalle - Gastronomía Y Cocina" title="Radio Comunicativa de Ovalle - Gastronomía Y Cocina" description="Feed de la categoría 'Gastronomía Y Cocina' en Radio Comunicativa de Ovalle" xmlUrl="https://radiocomunicativa.cl/category/gastronomia-y-cocina/feed/" htmlUrl="https://radiocomunicativa.cl/category/gastronomia-y-cocina/"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (172 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (178 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -14,6 +14,7 @@
     <outline type="rss" text="Aurora Noticias - Salud" title="Aurora Noticias - Salud" description="Feed de la categoría 'Salud' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/salud/feed/" htmlUrl="https://auroranoticias.cl/salud/"/>
     <outline type="rss" text="Cadena Política - Salud" title="Cadena Política - Salud" description="Feed de la categoría 'Salud' en Cadena Política" xmlUrl="https://cadenapolitica.com/category/salud/feed/" htmlUrl="https://cadenapolitica.com/category/salud/"/>
     <outline type="rss" text="Calama en Línea - Salud" title="Calama en Línea - Salud" description="Feed de la categoría 'Salud' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/salud/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/salud/"/>
+    <outline type="rss" text="Cápsula Informativa Regional - Salud" title="Cápsula Informativa Regional - Salud" description="Feed de la categoría 'Salud' en Cápsula Informativa Regional" xmlUrl="https://capsulainformativa.cl/category/salud/feed/" htmlUrl="https://capsulainformativa.cl/category/salud/"/>
     <outline type="rss" text="CEI Noticias - Salud" title="CEI Noticias - Salud" description="Feed de la categoría 'Salud' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/salud/feed/" htmlUrl="https://ceinoticias.cl/category/salud/"/>
     <outline type="rss" text="CENABAST" title="CENABAST" description="Feed principal de CENABAST" xmlUrl="https://www.cenabast.cl/feed/" htmlUrl="https://www.cenabast.cl"/>
     <outline type="rss" text="CENABAST [Proxy Google News]" title="CENABAST [Proxy Google News]" description="Resultados de site:cenabast.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cenabast.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cenabast.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
@@ -93,6 +94,7 @@
     <outline type="rss" text="La Fontana - Salud" title="La Fontana - Salud" description="Feed de la categoría 'Salud' en La Fontana" xmlUrl="https://lafontana.cl/category/salud/feed/" htmlUrl="https://lafontana.cl/category/salud/"/>
     <outline type="rss" text="La Mega FM - Salud" title="La Mega FM - Salud" description="Feed de la categoría 'Salud' en La Mega FM" xmlUrl="https://lamegafm.cl/category/tarapaca/salud/feed/" htmlUrl="https://lamegafm.cl/category/tarapaca/salud/"/>
     <outline type="rss" text="La Noticia - Salud" title="La Noticia - Salud" description="Feed de la categoría 'Salud' en La Noticia" xmlUrl="https://lanoticia.cl/category/salud/feed/" htmlUrl="https://lanoticia.cl/category/salud/"/>
+    <outline type="rss" text="La Opinión de Chiloé - Salud" title="La Opinión de Chiloé - Salud" description="Feed de la categoría 'Salud' en La Opinión de Chiloé" xmlUrl="https://laopiniondechiloe.cl/category/salud/feed/" htmlUrl="https://laopiniondechiloe.cl/category/salud/"/>
     <outline type="rss" text="La Opinión Online - Salud" title="La Opinión Online - Salud" description="Feed de la categoría 'Salud' en La Opinión Online" xmlUrl="https://www.laopiniononline.cl/category/salud/feed/" htmlUrl="https://www.laopiniononline.cl/category/salud/"/>
     <outline type="rss" text="La Prensa Austral - Salud" title="La Prensa Austral - Salud" description="Feed de la categoría 'Salud' en La Prensa Austral" xmlUrl="https://laprensaaustral.cl/category/salud/feed/" htmlUrl="https://laprensaaustral.cl/category/salud/"/>
     <outline type="rss" text="La Razón - Salud" title="La Razón - Salud" description="Feed de la categoría 'Salud' en La Razón" xmlUrl="https://www.larazon.cl/temas/salud/feed/" htmlUrl="https://www.larazon.cl/temas/salud/"/>
@@ -102,11 +104,14 @@
     <outline type="rss" text="La Voz del Norte - Salud" title="La Voz del Norte - Salud" description="Feed de la categoría 'Salud' en La Voz del Norte" xmlUrl="https://www.lavozdelnorte.cl/category/salud/feed/" htmlUrl="https://www.lavozdelnorte.cl/category/salud/"/>
     <outline type="rss" text="Las Noticias de Malleco - Salud" title="Las Noticias de Malleco - Salud" description="Feed de la categoría 'Salud' en Las Noticias de Malleco" xmlUrl="https://lasnoticiasdemalleco.cl/category/salud/feed/" htmlUrl="https://lasnoticiasdemalleco.cl/category/salud/"/>
     <outline type="rss" text="Linares en Línea - Salud" title="Linares en Línea - Salud" description="Feed de la categoría 'Salud' en Linares en Línea" xmlUrl="https://www.linaresenlinea.cl/category/salud/feed/" htmlUrl="https://www.linaresenlinea.cl/category/salud/"/>
+    <outline type="rss" text="Margamarga TV - Salud" title="Margamarga TV - Salud" description="Feed de la categoría 'Salud' en Margamarga TV" xmlUrl="https://margamargatv.cl/category/salud/feed/" htmlUrl="https://margamargatv.cl/category/salud/"/>
     <outline type="rss" text="Mediabanco - Salud" title="Mediabanco - Salud" description="Feed de la categoría 'Salud' en Mediabanco" xmlUrl="https://www.mediabanco.com/categoria/comunicados-de-prensa/salud/feed/" htmlUrl="https://www.mediabanco.com/categoria/comunicados-de-prensa/salud/"/>
     <outline type="rss" text="Mirada Sur TV - Salud, Ciencia Y Tecnologia" title="Mirada Sur TV - Salud, Ciencia Y Tecnologia" description="Feed de la categoría 'Salud, Ciencia Y Tecnologia' en Mirada Sur TV" xmlUrl="https://miradasurtv.cl/category/salud/feed/" htmlUrl="https://miradasurtv.cl/category/salud/"/>
     <outline type="rss" text="Noticias Los Ríos - Salud" title="Noticias Los Ríos - Salud" description="Feed de la categoría 'Salud' en Noticias Los Ríos" xmlUrl="https://www.noticiaslosrios.cl/seccion/salud/feed/" htmlUrl="https://www.noticiaslosrios.cl/seccion/salud/"/>
     <outline type="rss" text="Ovalle Hoy - Salud" title="Ovalle Hoy - Salud" description="Feed de la categoría 'Salud' en Ovalle Hoy" xmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/salud/feed/" htmlUrl="https://ovallehoy.cl/categoria/ultimas/sociedad/salud/"/>
     <outline type="rss" text="Pauta Los Ríos - Salud" title="Pauta Los Ríos - Salud" description="Feed de la categoría 'Salud' en Pauta Los Ríos" xmlUrl="https://pautalosrios.cl/category/salud/feed/" htmlUrl="https://pautalosrios.cl/category/salud/"/>
+    <outline type="rss" text="Pediatría y Salud" title="Pediatría y Salud" description="Feed principal de Pediatría y Salud" xmlUrl="https://pediatriaysalud.cl/feed" htmlUrl="https://pediatriaysalud.cl"/>
+    <outline type="rss" text="Pediatría y Salud [Proxy Google News]" title="Pediatría y Salud [Proxy Google News]" description="Resultados de site:pediatriaysalud.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:pediatriaysalud.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:pediatriaysalud.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Perfil - Salud" title="Perfil - Salud" description="Feed de salud de Perfil" xmlUrl="https://www.perfil.com/feed/salud" htmlUrl="https://www.perfil.com/salud/"/>
     <outline type="rss" text="Piensa Chile - Salud" title="Piensa Chile - Salud" description="Feed de la categoría 'Salud' en Piensa Chile" xmlUrl="https://piensachile.com/category/salud-3/feed/" htmlUrl="https://piensachile.com/category/salud-3/"/>
     <outline type="rss" text="Portal Metropolitano - Salud" title="Portal Metropolitano - Salud" description="Feed de la categoría 'Salud' en Portal Metropolitano" xmlUrl="https://portalmetropolitano.cl/category/salud/feed/" htmlUrl="https://portalmetropolitano.cl/category/salud/"/>
@@ -178,6 +183,7 @@
     <outline type="rss" text="Traiguén City - Salud" title="Traiguén City - Salud" description="Feed de la categoría 'Salud' en Traiguén City" xmlUrl="https://traiguencity.cl/noticias/traiguen/salud/feed/" htmlUrl="https://traiguencity.cl/noticias/traiguen/salud/"/>
     <outline type="rss" text="Tu Región Noticias - Salud Y Belleza" title="Tu Región Noticias - Salud Y Belleza" description="Feed de la categoría 'Salud Y Belleza' en Tu Región Noticias" xmlUrl="https://trnoticias.cl/category/salud/feed/" htmlUrl="https://trnoticias.cl/category/salud/"/>
     <outline type="rss" text="Tus Noticias - Salud" title="Tus Noticias - Salud" description="Feed de la categoría 'Salud' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/salud/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/salud/"/>
+    <outline type="rss" text="UCSC - Medicina" title="UCSC - Medicina" description="Feed de la categoría 'Medicina' en UCSC" xmlUrl="https://ucsc.cl/categoria/medicina/feed/" htmlUrl="https://ucsc.cl/categoria/medicina/"/>
     <outline type="rss" text="VLN Radio - Salud Y Bienestar" title="VLN Radio - Salud Y Bienestar" description="Feed de la categoría 'Salud Y Bienestar' en VLN Radio" xmlUrl="https://www.vlnradio.cl/tendencias/salud-y-bienestar/feed/" htmlUrl="https://www.vlnradio.cl/tendencias/salud-y-bienestar/"/>
   </body>
 </opml>

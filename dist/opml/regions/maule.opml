@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Maule (256 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Maule (261 feeds)</title>
     <description>Feeds RSS de la Región de Maule, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -101,6 +101,11 @@
       <outline type="rss" text="El Maule Informa - Vida y Estilo" title="El Maule Informa - Vida y Estilo" description="Feed de la categoría 'Vida y Estilo' en El Maule Informa" xmlUrl="https://elmauleinforma.cl/vida-estilo/feed/" htmlUrl="https://elmauleinforma.cl/vida-estilo/"/>
       <outline type="rss" text="El Maule Informa [Proxy Bing News]" title="El Maule Informa [Proxy Bing News]" description="Resultados de site:elmauleinforma.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:elmauleinforma.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:elmauleinforma.cl"/>
       <outline type="rss" text="El Maule Informa [Proxy Google News]" title="El Maule Informa [Proxy Google News]" description="Resultados de site:elmauleinforma.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:elmauleinforma.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:elmauleinforma.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="En Línea Maule" title="En Línea Maule" description="Feed principal de En Línea Maule" xmlUrl="https://enlineamaule.cl/feed/" htmlUrl="https://enlineamaule.cl"/>
+      <outline type="rss" text="En Línea Maule - Economía" title="En Línea Maule - Economía" description="Feed de la categoría 'Economía' en En Línea Maule" xmlUrl="https://enlineamaule.cl/archivo/category/economia/feed/" htmlUrl="https://enlineamaule.cl/archivo/category/economia/"/>
+      <outline type="rss" text="En Línea Maule - Nacional" title="En Línea Maule - Nacional" description="Feed de la categoría 'Nacional' en En Línea Maule" xmlUrl="https://enlineamaule.cl/archivo/category/nacional/feed/" htmlUrl="https://enlineamaule.cl/archivo/category/nacional/"/>
+      <outline type="rss" text="En Línea Maule - Videos" title="En Línea Maule - Videos" description="Feed de la categoría 'Videos' en En Línea Maule" xmlUrl="https://enlineamaule.cl/archivo/category/videos/feed/" htmlUrl="https://enlineamaule.cl/archivo/category/videos/"/>
+      <outline type="rss" text="En Línea Maule [Proxy Google News]" title="En Línea Maule [Proxy Google News]" description="Resultados de site:enlineamaule.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:enlineamaule.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:enlineamaule.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Futura FM" title="Futura FM" description="Feed principal de Futura FM" xmlUrl="https://www.futurafm.cl/rss/feed" htmlUrl="https://www.futurafm.cl"/>
       <outline type="rss" text="Futura FM [Proxy Google News]" title="Futura FM [Proxy Google News]" description="Resultados de site:futurafm.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:futurafm.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:futurafm.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Google News - Chile - Región Maule" title="Google News - Chile - Región Maule" description="Noticias locales de la Región de Maule vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Talca?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Talca?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

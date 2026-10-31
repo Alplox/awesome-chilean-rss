@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`government.opml`](../../opml/categories/government.opml) - 47 sitios, 209 feeds*
+*Descargar OPML: [`government.opml`](../../opml/categories/government.opml) - 50 sitios, 219 feeds*
 
 - **ANCI** — Agencia Nacional de Ciberseguridad de Chile
   - ANCI - Noticias: `https://www.anci.gob.cl/rss/noticias`
@@ -162,6 +162,9 @@
   - Ministerio del Trabajo y Previsión Social - Noticias: `https://www.mintrab.gob.cl/category/noticias/feed/`
   - Ministerio del Trabajo y Previsión Social - Consejo Superior Laboral: `https://www.mintrab.gob.cl/category/consejo-superior-laboral-2/feed/`
   - Ministerio del Trabajo y Previsión Social [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.mintrab.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Municipalidad de Alto Biobío** — Sitio web oficial de la Municipalidad de Alto Biobío, Región del Biobío
+  - Municipalidad de Alto Biobío: `https://munialtobiobio.cl/feed/`
+  - Municipalidad de Alto Biobío [Proxy Google News]: `https://news.google.com/rss/search?q=site:munialtobiobio.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Municipalidad de Puerto Montt** — Portal oficial municipal con noticias, programas, trámites, ordenanzas y proyectos de Puerto Montt.
   - Municipalidad de Puerto Montt: `https://www.puertomontt.cl/feed/`
   - Municipalidad de Puerto Montt - Portada: `https://www.puertomontt.cl/listar/portada/feed/`
@@ -186,6 +189,13 @@
   - SENCE: `https://sence.gob.cl/rss.xml`
   - SENCE [Proxy Google News]: `https://news.google.com/rss/search?q=site:sence.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - SENCE [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sence.gob.cl&format=RSS`
+- **Sercotec** — Servicio público de fomento y apoyo a pequeñas y medianas empresas
+  - Sercotec: `https://www.sercotec.cl/feed/`
+  - Sercotec - Noticias Inicio: `https://www.sercotec.cl/category/noticias-inicio/feed/`
+  - Sercotec - Noticia Destacada Home: `https://www.sercotec.cl/category/noticia-destacada-home/feed/`
+  - Sercotec - Los Ríos: `https://www.sercotec.cl/category/noticias-los-rios/feed/`
+  - Sercotec [Proxy Google News]: `https://news.google.com/rss/search?q=site:sercotec.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Sercotec [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sercotec.cl&format=RSS`
 - **SERNATUR (Servicio Nacional de Turismo)** — Servicio Nacional de Turismo de Chile - promoción y desarrollo del turismo nacional
   - SERNATUR (Servicio Nacional de Turismo): `https://www.sernatur.cl/feed/`
   - SERNATUR (Servicio Nacional de Turismo) - Noticia Nacional: `https://www.sernatur.cl/category/noticia-nacional/feed/`
@@ -213,6 +223,9 @@
   - SUBTEL (Subsecretaría de Telecomunicaciones): `https://www.subtel.gob.cl/feed/`
   - SUBTEL (Subsecretaría de Telecomunicaciones) - Noticias: `https://www.subtel.gob.cl/category/noticias-2/feed/`
   - SUBTEL (Subsecretaría de Telecomunicaciones) [Proxy Google News]: `https://news.google.com/rss/search?q=site:subtel.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **SUSESO (Superintendencia de Seguridad Social)** — Subsecretaría de Previsión Social del Gobierno de Chile
+  - SUSESO (Superintendencia de Seguridad Social): `https://www.suseso.gob.cl/601/rss3-channel.rss`
+  - SUSESO (Superintendencia de Seguridad Social) [Proxy Google News]: `https://news.google.com/rss/search?q=site:suseso.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Tesorería General de la República** — Sitio oficial de la Tesorería General de la República de Chile
   - Tesorería General de la República: `https://tgr.gob.cl/feed/`
   - TGR [Proxy Google News]: `https://news.google.com/rss/search?q=site:tgr.cl&hl=es-419&gl=CL&ceid=CL:es-419`

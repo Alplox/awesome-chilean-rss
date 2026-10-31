@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (277 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (279 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -62,6 +62,7 @@
       <outline type="rss" text="Cadena Política - Zinacantepec" title="Cadena Política - Zinacantepec" description="Feed de la categoría 'Zinacantepec' en Cadena Política" xmlUrl="https://cadenapolitica.com/category/municipal/zinacantepec/feed/" htmlUrl="https://cadenapolitica.com/category/municipal/zinacantepec/"/>
       <outline type="rss" text="Cadena Política [Proxy Bing News]" title="Cadena Política [Proxy Bing News]" description="Resultados de site:cadenapolitica.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:cadenapolitica.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:cadenapolitica.com"/>
       <outline type="rss" text="Cadena Política [Proxy Google News]" title="Cadena Política [Proxy Google News]" description="Resultados de site:cadenapolitica.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cadenapolitica.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cadenapolitica.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Cápsula Informativa Regional - Mundo" title="Cápsula Informativa Regional - Mundo" description="Feed de la categoría 'Mundo' en Cápsula Informativa Regional" xmlUrl="https://capsulainformativa.cl/category/mundo/feed/" htmlUrl="https://capsulainformativa.cl/category/mundo/"/>
       <outline type="rss" text="CEI Noticias - Internacional" title="CEI Noticias - Internacional" description="Feed de la categoría 'Internacional' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/noticias/internacional/feed/" htmlUrl="https://ceinoticias.cl/category/noticias/internacional/"/>
       <outline type="rss" text="Central Noticia - Internacional" title="Central Noticia - Internacional" description="Feed de la categoría 'Internacional' en Central Noticia" xmlUrl="https://www.centralnoticia.cl/category/internacional/feed/" htmlUrl="https://www.centralnoticia.cl/category/internacional/"/>
       <outline type="rss" text="Chicureo Hoy - Internacional" title="Chicureo Hoy - Internacional" description="Feed de la categoría 'Internacional' en Chicureo Hoy" xmlUrl="https://www.chicureohoy.cl/actualidad/internacional/feed/" htmlUrl="https://www.chicureohoy.cl/actualidad/internacional/"/>
@@ -182,6 +183,7 @@
       <outline type="rss" text="Le Monde Diplomatique - Edición Chilena" title="Le Monde Diplomatique - Edición Chilena" description="Feed principal de Le Monde Diplomatique - Edición Chilena" xmlUrl="https://www.lemondediplomatique.cl/rss/" htmlUrl="https://www.lemondediplomatique.cl"/>
       <outline type="rss" text="Le Monde Diplomatique - Edición Chilena [Proxy Google News]" title="Le Monde Diplomatique - Edición Chilena [Proxy Google News]" description="Resultados de site:lemondediplomatique.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:lemondediplomatique.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:lemondediplomatique.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Mala Espina - Mundo" title="Mala Espina - Mundo" description="Feed de la categoría 'Mundo' en Mala Espina" xmlUrl="https://www.malaespinacheck.cl/noticias/mundo/feed/" htmlUrl="https://www.malaespinacheck.cl/noticias/mundo/"/>
+      <outline type="rss" text="Margamarga TV - Internacional" title="Margamarga TV - Internacional" description="Feed de la categoría 'Internacional' en Margamarga TV" xmlUrl="https://margamargatv.cl/category/internacional/feed/" htmlUrl="https://margamargatv.cl/category/internacional/"/>
       <outline type="rss" text="MercoPress - América Latina" title="MercoPress - América Latina" description="Feed de la sección 'América Latina' en MercoPress" xmlUrl="https://es.mercopress.com/rss/america-latina" htmlUrl="https://es.mercopress.com"/>
       <outline type="rss" text="MercoPress - Chile" title="MercoPress - Chile" description="Feed de la sección 'Chile' en MercoPress" xmlUrl="https://es.mercopress.com/rss/chile" htmlUrl="https://es.mercopress.com"/>
       <outline type="rss" text="MercoPress [Proxy Bing News]" title="MercoPress [Proxy Bing News]" description="Resultados de site:es.mercopress.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:es.mercopress.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:es.mercopress.com"/>

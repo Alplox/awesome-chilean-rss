@@ -19,6 +19,9 @@ const ownerName = pkg.author?.name ?? 'Alplox';
 const db = JSON.parse(readFileSync('feeds-database.json', 'utf-8'));
 const categories = JSON.parse(readFileSync('categories.json', 'utf-8'));
 const regions = JSON.parse(readFileSync('regions.json', 'utf-8'));
+const watchlist = existsSync('watchlist.json')
+  ? JSON.parse(readFileSync('watchlist.json', 'utf-8'))
+  : [];
 const { sites } = db;
 
 // Resolver categoría de cada feed: feed.category ?? site.category
@@ -452,14 +455,13 @@ Cada carpeta de OPML ofrece una vista distinta. Esta tabla muestra cuántos siti
     const feeds = feedsByCategory[cat] || [];
     if (feeds.length === 0) return null;
     const sitesCount = (sitesByResolvedCategory[cat] || []).length;
-    const heading = categoryHeadingLabel(label);
     return `- [${label}](dist/readme/categories/${cat}.md) — ${sitesCount} sitios, ${feeds.length} feeds`;
   }).filter(Boolean);
 
   const index = `### Índice de categorías\n\n${indexLines.join('\n')}`;
 
   // Sección de feeds por categoría
-  const feedSections = orderedCategories.map(cat => {
+  orderedCategories.map(cat => {
     const label = categories[cat]?.label ?? cat;
     const catSites = sitesByResolvedCategory[cat] || [];
     const totalFeedsInCat = feedsByCategory[cat]?.length || 0;
@@ -517,7 +519,7 @@ Cada carpeta de OPML ofrece una vista distinta. Esta tabla muestra cuántos siti
     const content = `### ${heading}\n\n[↑ Volver al índice](../../../README.md#índice-de-categorías)\n\n*Descargar OPML: [\`${cat}.opml\`](../../opml/categories/${cat}.opml) - ${catSites.length} sitios, ${feedCount(totalFeedsInCat)}*\n\n${items}`;
     readmeCategoryDocuments.push({ cat, content });
     return '';
-  }).filter(Boolean).join('\n\n');
+  });
 
   const regTotal = Object.values(feedsByRegion).flat().length;
 
@@ -528,6 +530,12 @@ Cada carpeta de OPML ofrece una vista distinta. Esta tabla muestra cuántos siti
 ![Sitios](https://img.shields.io/badge/sitios-${realFeedCount}-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-${total}-blue)
 
 > El directorio más completo de feeds RSS chilenos. ${realFeedCount} sitios, ${total} feeds verificados, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+
+### 🌐 Aplicación Web
+
+Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la web complementaria:
+
+- <https://alplox.github.io/awesome-chilean-rss-app/>
 
 ## 🚀 Inicio rápido
 
@@ -540,15 +548,15 @@ Cada carpeta de OPML ofrece una vista distinta. Esta tabla muestra cuántos siti
 
 ${opmlComparison}
 
-### 🌐 Aplicación Web
-
-Genera archivos OPML y/o marcadores de navegador segun tus preferencias desde la web complementaria:
-
-<https://alplox.github.io/awesome-chilean-rss-app/>
-
 ## 📝 Fuentes disponibles (${realFeedCount} sitios, ${total} feeds)
 
 ${index}
+
+## 📋 Watchlist (${watchlist.length} sitios candidatos)
+
+Sitios en observación sin feed RSS propio válido. Ver listado completo: [\`dist/watchlist.md\`](dist/watchlist.md).
+
+> Los feeds listados en la watchlist son proxies/fallbacks (Google News/Bing News \`site:\`) y **no** son el feed propio del sitio.
 
 ## 🤝 Cómo contribuir
 
@@ -642,6 +650,87 @@ function generateIndividualCategoryBookmark(catKey, feeds) {
 function generateIndividualRegionalBookmark(regKey, feeds) {
   const label = regions[regKey] ?? regKey;
   return renderBookmarkFile(label, renderBookmarkEntries(feeds));
+}
+
+// ─── Generar Watchlist Markdown ───────────────────────────────────────────────
+
+const WATCHLIST_STATUS_LABEL = {
+  active: '✅ activo',
+  stale: '⏳ stale',
+  broken: '❌ broken',
+  offline: '🔌 offline',
+  no_feed: '🚫 no_feed',
+  feed_empty: '📭 feed_empty',
+  duplicate: '♻️ duplicate',
+};
+
+function generateWatchlistMarkdown() {
+  const total = watchlist.length;
+
+  const byCat = {};
+  for (const site of watchlist) {
+    const cat = site.category && categories[site.category] ? site.category : 'other';
+    (byCat[cat] ??= []).push(site);
+  }
+
+  const orderedCats = Object.keys(byCat).sort(
+    (a, b) => (categories[a]?.order ?? 99) - (categories[b]?.order ?? 99)
+  );
+
+  const sections = orderedCats.map(cat => {
+    const label = categories[cat]?.label ?? cat;
+    const catSites = [...byCat[cat]].sort((a, b) =>
+      a.name.localeCompare(b.name, 'es')
+    );
+
+    const siteBlocks = catSites.map(site => {
+      const regionLabel =
+        site.region && regions[site.region] ? regions[site.region] : null;
+      const reason = site.reason ? site.reason : 'sin motivo registrado';
+
+      const lines = [];
+      lines.push(`- **${site.name}**${regionLabel ? ` — ${regionLabel}` : ''}`);
+      lines.push(`  - Sitio: ${site.url}`);
+      lines.push(`  - Motivo en watchlist: _${reason}_`);
+
+      const feeds = Array.isArray(site.feeds) ? site.feeds : [];
+      const nativeFeeds = feeds.filter(f => !String(f.id || '').includes('-proxy-'));
+      const proxyFeeds = feeds.filter(f => String(f.id || '').includes('-proxy-'));
+
+      if (nativeFeeds.length > 0) {
+        lines.push('  - Feeds propios del sitio (inactivos/stale/broken; motivo de estar en watchlist):');
+        for (const feed of nativeFeeds) {
+          const status = WATCHLIST_STATUS_LABEL[feed.status] ?? feed.status ?? '—';
+          lines.push(`    - ${status} — ${feed.name}: \`${feed.rss_url}\``);
+        }
+      }
+
+      if (proxyFeeds.length > 0) {
+        lines.push('  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):');
+        for (const feed of proxyFeeds) {
+          const status = WATCHLIST_STATUS_LABEL[feed.status] ?? feed.status ?? '—';
+          lines.push(`    - ${status} — ${feed.name}: \`${feed.rss_url}\``);
+        }
+      }
+
+      if (feeds.length === 0) {
+        lines.push('  - Feeds: (ninguno registrado)');
+      }
+
+      return lines.join('\n');
+    });
+
+    return `### ${label} (${catSites.length} sitios)\n\n${siteBlocks.join('\n\n')}`;
+  });
+
+  return `# 📋 Watchlist — Sitios candidatos
+
+> Sitios en observación: medios chilenos **sin feed RSS propio válido** (o con feeds nativos inactivos), mantenidos en seguimiento hasta detectar un feed válido. Un sitio se considera "sin feeds válidos" cuando **no tiene feed propio** y solo dispone de proxies (activos o no). **Nota importante:** los proxies (Google News \`site:\`, Bing News \`site:\`) son fallbacks y **no son el feed propio del sitio**; que aparezcan activos **no** implica que el sitio tenga un feed RSS nativo válido. Generado automáticamente desde \`watchlist.json\`. No editar manualmente.
+
+**Total:** ${total} sitios
+
+${sections.join('\n\n')}
+`;
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -762,6 +851,11 @@ try {
     }
   }
   console.log(`✅ Marcadores individuales por región generados en ${bookmarksRegionsDir}/`);
+
+  // Watchlist Markdown (listado legible de sitios candidatos)
+  const watchlistMd = generateWatchlistMarkdown();
+  writeFileSync('dist/watchlist.md', watchlistMd, 'utf-8');
+  console.log(`✅ dist/watchlist.md generado (${watchlist.length} sitios en watchlist)`);
 } catch (err) {
   console.error('❌ Error al generar archivos:', err.message);
   process.exit(1);

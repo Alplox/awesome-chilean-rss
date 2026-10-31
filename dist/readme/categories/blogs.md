@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`blogs.opml`](../../opml/categories/blogs.opml) - 11 sitios, 23 feeds*
+*Descargar OPML: [`blogs.opml`](../../opml/categories/blogs.opml) - 12 sitios, 24 feeds*
 
 - **CELAG** — Centro de análisis sobre política, economía y opinión pública en América Latina
   - CELAG: `https://www.celag.org/feed/`
@@ -32,6 +32,8 @@
 - **Michael Walsh** — Blog personal de Michael Walsh, diseñador y desarrollador web de Villarrica, con artículos sobre tecnología, diseño y la vida en Chile
   - Michael Walsh: `https://walsh.cl/feed.xml`
   - Michael Walsh [Proxy Google News]: `https://news.google.com/rss/search?q=site:walsh.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **ResistenciaChile.org**: Feed principal de ResistenciaChile.org
+  - RSS: `https://resistenciachile.org/rss.xml`
 - **Revista Nos**: Feed de la categoría 'Bitácora' en Revista Nos
   - RSS: `https://revistanos.cl/bitacora/feed/`
 - **RunningShot**: Feed de la categoría 'Blog' en RunningShot

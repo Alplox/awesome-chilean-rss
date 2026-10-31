@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (230 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (232 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -35,6 +35,7 @@
     <outline type="rss" text="Balmaceda Arte Joven - Valparaíso" title="Balmaceda Arte Joven - Valparaíso" description="Feed de la categoría 'Valparaíso' en Balmaceda Arte Joven" xmlUrl="https://www.balmacedartejoven.cl/category/noticias/valparaiso/feed/" htmlUrl="https://www.balmacedartejoven.cl/category/noticias/valparaiso/"/>
     <outline type="rss" text="Balmaceda Arte Joven [Proxy Google News]" title="Balmaceda Arte Joven [Proxy Google News]" description="Resultados de site:balmacedartejoven.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:balmacedartejoven.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:balmacedartejoven.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Calama en Línea - Cultura" title="Calama en Línea - Cultura" description="Feed de la categoría 'Cultura' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/cultura/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/cultura/"/>
+    <outline type="rss" text="Cápsula Informativa Regional - Cultura" title="Cápsula Informativa Regional - Cultura" description="Feed de la categoría 'Cultura' en Cápsula Informativa Regional" xmlUrl="https://capsulainformativa.cl/category/cultura/feed/" htmlUrl="https://capsulainformativa.cl/category/cultura/"/>
     <outline type="rss" text="CEI Noticias - Cultura" title="CEI Noticias - Cultura" description="Feed de la categoría 'Cultura' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/cultura/feed/" htmlUrl="https://ceinoticias.cl/category/cultura/"/>
     <outline type="rss" text="CEI Noticias - Cultura y Espectáculo" title="CEI Noticias - Cultura y Espectáculo" description="Feed de la categoría 'Cultura y Espectáculo' en CEI Noticias" xmlUrl="https://ceinoticias.cl/category/cultura/cultura-y-espectaculo/feed/" htmlUrl="https://ceinoticias.cl/category/cultura/cultura-y-espectaculo/"/>
     <outline type="rss" text="Centro Cultural La Moneda" title="Centro Cultural La Moneda" description="Feed principal de Centro Cultural La Moneda" xmlUrl="https://cclm.cl/feed/" htmlUrl="https://cclm.cl"/>
@@ -224,6 +225,7 @@
     <outline type="rss" text="Tus Noticias - Cultura" title="Tus Noticias - Cultura" description="Feed de la categoría 'Cultura' en Tus Noticias" xmlUrl="https://www.tusnoticias.cl/noticias/cultura/feed/" htmlUrl="https://www.tusnoticias.cl/noticias/cultura/"/>
     <outline type="rss" text="TV Canal 5 - Cultura" title="TV Canal 5 - Cultura" description="Feed de la categoría 'Cultura' en TV Canal 5" xmlUrl="https://tvcanal5.cl/category/cultura/feed/" htmlUrl="https://tvcanal5.cl/category/cultura/"/>
     <outline type="rss" text="TXS Plus - Cultura" title="TXS Plus - Cultura" description="Feed de la categoría 'Cultura' en TXS Plus" xmlUrl="https://txsplus.com/cultura/feed/" htmlUrl="https://txsplus.com/cultura/"/>
+    <outline type="rss" text="UCSC - Culturales" title="UCSC - Culturales" description="Feed de la categoría 'Culturales' en UCSC" xmlUrl="https://ucsc.cl/categoria/culturales/feed/" htmlUrl="https://ucsc.cl/categoria/culturales/"/>
     <outline type="rss" text="Unnie Pop" title="Unnie Pop" description="Feed principal de Unnie Pop" xmlUrl="https://unniepop.cl/feed/" htmlUrl="https://unniepop.cl"/>
     <outline type="rss" text="Unnie Pop - Comebacks" title="Unnie Pop - Comebacks" description="Feed de la categoría 'Comebacks' en Unnie Pop" xmlUrl="https://unniepop.cl/category/comebacks/feed/" htmlUrl="https://unniepop.cl/category/comebacks/"/>
     <outline type="rss" text="Unnie Pop - Estrenos" title="Unnie Pop - Estrenos" description="Feed de la categoría 'Estrenos' en Unnie Pop" xmlUrl="https://unniepop.cl/category/estrenos/feed/" htmlUrl="https://unniepop.cl/category/estrenos/"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (405 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (407 feeds)</title>
     <description>Feeds RSS de 💼 Economia, Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -175,6 +175,7 @@
       <outline type="rss" text="Electrominería [Proxy Google News]" title="Electrominería [Proxy Google News]" description="Resultados de site:electromineria.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:electromineria.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:electromineria.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Elqui Global - Economía" title="Elqui Global - Economía" description="Feed de la categoría 'Economía' en Elqui Global" xmlUrl="https://www.elquiglobal.cl/categoria/economia/feed/" htmlUrl="https://www.elquiglobal.cl/categoria/economia/"/>
       <outline type="rss" text="En La Línea - Economía y Negocios" title="En La Línea - Economía y Negocios" description="Feed de la categoría 'Economía y Negocios' en En La Línea" xmlUrl="https://www.enlalinea.cl/category/economia-y-negocios/feed/" htmlUrl="https://www.enlalinea.cl/category/economia-y-negocios/"/>
+      <outline type="rss" text="En Línea Maule - Economía" title="En Línea Maule - Economía" description="Feed de la categoría 'Economía' en En Línea Maule" xmlUrl="https://enlineamaule.cl/archivo/category/economia/feed/" htmlUrl="https://enlineamaule.cl/archivo/category/economia/"/>
       <outline type="rss" text="Epicentro Chile - Economía" title="Epicentro Chile - Economía" description="Feed de la categoría 'Economía' en Epicentro Chile" xmlUrl="https://www.epicentrochile.com/economia/feed/" htmlUrl="https://www.epicentrochile.com/economia/"/>
       <outline type="rss" text="Esperanza FM - Economía" title="Esperanza FM - Economía" description="Feed de la categoría 'Economía' en Esperanza FM" xmlUrl="https://esperanzafm.cl/category/economia/feed/" htmlUrl="https://esperanzafm.cl/category/economia/"/>
       <outline type="rss" text="Fresia Ahora - Economía" title="Fresia Ahora - Economía" description="Feed de la categoría 'Economía' en Fresia Ahora" xmlUrl="https://www.fresiaahora.cl/category/actualidad/economia/feed/" htmlUrl="https://www.fresiaahora.cl/category/actualidad/economia/"/>
@@ -188,6 +189,7 @@
       <outline type="rss" text="Google News - Chile - Resultados 'minería'" title="Google News - Chile - Resultados 'minería'" description="Página de resultados para keyword=minería en Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=miner%C3%ADa&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=miner%C3%ADa&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Google News - Chile - Sección Negocios" title="Google News - Chile - Sección Negocios" description="Sección Negocios de Google News Chile" xmlUrl="https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx6TVdZU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx6TVdZU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Informa Al Minuto - Economía" title="Informa Al Minuto - Economía" description="Feed de la categoría 'Economía' en Informa Al Minuto" xmlUrl="https://informaalminuto.cl/category/economia/feed/" htmlUrl="https://informaalminuto.cl/category/economia/"/>
+      <outline type="rss" text="Internet21.cl - Negocios" title="Internet21.cl - Negocios" description="Feed de la categoría 'Negocios' en Internet21.cl" xmlUrl="https://internet21.cl/category/negocios/feed/" htmlUrl="https://internet21.cl/category/negocios/"/>
       <outline type="rss" text="IPS Agencia de Noticias - Economía" title="IPS Agencia de Noticias - Economía" description="Feed de la categoría 'Economía' en IPS Agencia de Noticias" xmlUrl="https://ipsnoticias.net/noticias/economia/feed/" htmlUrl="https://ipsnoticias.net/noticias/economia/"/>
       <outline type="rss" text="Iquique TV - Economía" title="Iquique TV - Economía" description="Feed de la categoría 'Economía' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/economia/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/economia/"/>
       <outline type="rss" text="Iquique TV - Emprendimiento" title="Iquique TV - Emprendimiento" description="Feed de la categoría 'Emprendimiento' en Iquique TV" xmlUrl="https://iquiquetv.cl/category/noticias/emprendimiento/feed/" htmlUrl="https://iquiquetv.cl/category/noticias/emprendimiento/"/>

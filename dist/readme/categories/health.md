@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 98 sitios, 172 feeds*
+*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 103 sitios, 178 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Salud' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/salud/feed/`
@@ -18,6 +18,8 @@
   - RSS: `https://cadenapolitica.com/category/salud/feed/`
 - **Calama en Línea**: Feed de la categoría 'Salud' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/salud/feed/`
+- **Cápsula Informativa Regional**: Feed de la categoría 'Salud' en Cápsula Informativa Regional
+  - RSS: `https://capsulainformativa.cl/category/salud/feed/`
 - **CEI Noticias**: Feed de la categoría 'Salud' en CEI Noticias
   - RSS: `https://ceinoticias.cl/category/salud/feed/`
 - **CENABAST** — Central de Abastecimiento del Sistema Nacional de Servicios de Salud, organismo público de compras de salud
@@ -147,6 +149,8 @@
   - RSS: `https://lamegafm.cl/category/tarapaca/salud/feed/`
 - **La Noticia**: Feed de la categoría 'Salud' en La Noticia
   - RSS: `https://lanoticia.cl/category/salud/feed/`
+- **La Opinión de Chiloé**: Feed de la categoría 'Salud' en La Opinión de Chiloé
+  - RSS: `https://laopiniondechiloe.cl/category/salud/feed/`
 - **La Opinión Online**: Feed de la categoría 'Salud' en La Opinión Online
   - RSS: `https://www.laopiniononline.cl/category/salud/feed/`
 - **La Prensa Austral**: Feed de la categoría 'Salud' en La Prensa Austral
@@ -165,6 +169,8 @@
   - RSS: `https://lasnoticiasdemalleco.cl/category/salud/feed/`
 - **Linares en Línea**: Feed de la categoría 'Salud' en Linares en Línea
   - RSS: `https://www.linaresenlinea.cl/category/salud/feed/`
+- **Margamarga TV**: Feed de la categoría 'Salud' en Margamarga TV
+  - RSS: `https://margamargatv.cl/category/salud/feed/`
 - **Mediabanco**: Feed de la categoría 'Salud' en Mediabanco
   - RSS: `https://www.mediabanco.com/categoria/comunicados-de-prensa/salud/feed/`
 - **Mirada Sur TV**: Feed de la categoría 'Salud, Ciencia Y Tecnologia' en Mirada Sur TV
@@ -175,6 +181,9 @@
   - RSS: `https://ovallehoy.cl/categoria/ultimas/sociedad/salud/feed/`
 - **Pauta Los Ríos**: Feed de la categoría 'Salud' en Pauta Los Ríos
   - RSS: `https://pautalosrios.cl/category/salud/feed/`
+- **Pediatría y Salud** — Divulgación de salud infantil para familias chilenas
+  - Pediatría y Salud: `https://pediatriaysalud.cl/feed`
+  - Pediatría y Salud [Proxy Google News]: `https://news.google.com/rss/search?q=site:pediatriaysalud.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Perfil**: Feed de salud de Perfil
   - RSS: `https://www.perfil.com/feed/salud`
 - **Piensa Chile**: Feed de la categoría 'Salud' en Piensa Chile
@@ -272,5 +281,7 @@
   - RSS: `https://trnoticias.cl/category/salud/feed/`
 - **Tus Noticias**: Feed de la categoría 'Salud' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/salud/feed/`
+- **UCSC**: Feed de la categoría 'Medicina' en UCSC
+  - RSS: `https://ucsc.cl/categoria/medicina/feed/`
 - **VLN Radio**: Feed de la categoría 'Salud Y Bienestar' en VLN Radio
   - RSS: `https://www.vlnradio.cl/tendencias/salud-y-bienestar/feed/`

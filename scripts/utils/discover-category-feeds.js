@@ -75,14 +75,6 @@ function toTitleCase(text) {
     .join(' ')
 }
 
-function slugify(text) {
-  return text.toLowerCase()
-    .replace(/[áäàãâ]/g, 'a').replace(/[éëèê]/g, 'e')
-    .replace(/[íïìî]/g, 'i').replace(/[óöòõô]/g, 'o')
-    .replace(/[úüùû]/g, 'u').replace(/ñ/g, 'n')
-    .replace(/[^a-z0-9-]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')
-}
-
 const categories = JSON.parse(fs.readFileSync(CATEGORIES_PATH, 'utf8'))
 
 const SLUG_CATEGORY = {}
@@ -94,17 +86,6 @@ for (const [catKey, catVal] of Object.entries(categories)) {
 
 function resolveCategory(slug) {
   return SLUG_CATEGORY[slug.replace(/_/g, '-')] || null
-}
-
-function findExistingSlugs(site) {
-  const slugs = new Set()
-  for (const f of site.feeds) {
-    const m = f.rss_url.match(/\/category\/(.+?)\/feed\/?$/)
-    if (m) slugs.add(m[1])
-    const m2 = f.rss_url.match(/\/category\/(.+?)$/)
-    if (m2 && !f.rss_url.endsWith('/feed/')) slugs.add(m2[1])
-  }
-  return slugs
 }
 
 function isExcludedFeed(site, rssUrl) {
@@ -253,7 +234,6 @@ async function discoverNavbarSections(siteUrl) {
   const baseUrl = siteUrl.replace(/\/+$/, '')
   const baseHost = new URL(baseUrl).hostname.replace(/^www\./, '')
   let html = await fetchText(baseUrl)
-  let wwwWarned = false
 
   // Retry with alternative www/bare domain if no response
   if (!html) {
@@ -265,7 +245,6 @@ async function discoverNavbarSections(siteUrl) {
       if (html) {
         const dir = baseUrl.includes('://www.') ? 'quitando' : 'agregando'
         console.warn(`  ⚠️  ${baseUrl} no responde, pero ${altUrl} sí. Considera actualizar site.url ${dir} www`)
-        wwwWarned = true
       }
     }
   }

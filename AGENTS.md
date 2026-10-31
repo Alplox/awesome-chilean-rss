@@ -24,6 +24,7 @@ These generate:
 - `README.md` (GitHub listing, with regional feeds grouped under regional subheaders)
 - `dist/bookmarks/awesome-chilean-rss.html` (Netscape Bookmark HTML — compatible con navegadores, para importar feeds como favoritos)
 - `dist/readme/categories/*.md` (listados completos por categoría enlazados desde los desplegables del README; evita superar el límite de renderizado de GitHub)
+- `dist/watchlist.md` (listado legible de sitios en watchlist: nombre, URL, categoría, región, motivo y feeds proxy/fallback con su estado; deja claro que esos feeds no son el feed propio del sitio)
 
 - Node.js >= 18.13, pnpm >= 10, ES modules (`"type": "module"`, `packageManager: pnpm@11.20.0`)
 - No frontend — pure CLI tooling
@@ -191,10 +192,10 @@ Each feed's effective region is resolved as: **`feed.region ?? site.region`**
 | `pnpm check:sync`                                                         | —                                          | CI pipeline (validate:json + check:duplicates + check:docs + validate:opml + generate + `git diff --exit-code dist README.md`). **Not named `ci`**: pnpm ≥11 has a built-in `ci` command (clean install) that shadows a `ci` script |
 | `pnpm fix:stale`                                                           | `scripts/utils/fix-stale-feeds.js`         | Bulk fix active feeds with stale item dates → marks them `stale`                                                                                                                                                                           |
 | `pnpm lint`                                                                | —                                          | ESLint check                                                                                                                                                                                                                                |
-| `pnpm check:duplicates`                                       | `scripts/utils/find-duplicates.js`         | Detect duplicates intra-DB (site URLs, rss_urls, root domains, IDs) + cross-file DB↔watchlist (site IDs/URLs, feed IDs/rss_urls) — catches incomplete promotions (exits 1 if found) |
+| `pnpm check:duplicates`                                       | `scripts/utils/find-duplicates.js`         | Detect duplicates intra-DB + intra-watchlist + cross-file DB↔watchlist (site IDs/URLs, feed IDs/rss_urls, root domains) — catches incomplete promotions and re-appended watchlist blocks (exits 1 if found) |
 | `pnpm check:duplicates -- --verbose`                             | same                                       | Same with clickable file:line links for each result (DB + WL)                                       |
-| `pnpm check:duplicates -- --fix --dry-run`                       | same                                       | Preview prune of 41 cross-duplicate sites from watchlist (keep DB)                                  |
-| `pnpm check:duplicates -- --fix --yes`                           | same                                       | Prune cross-duplicates from watchlist (keep DB); use `--keep watchlist` for opposite              |
+| `pnpm check:duplicates -- --fix --dry-run`                       | same                                       | Preview prune of duplicated watchlist entries (internal + cross with DB, keep DB)                   |
+| `pnpm check:duplicates -- --fix --yes`                           | same                                       | Prune intra-watchlist duplicates (keeps first occurrence) + cross-duplicates from watchlist (keep DB); use `--keep watchlist` for opposite |
 | `pnpm check:duplicates -- --all --out reporte.txt`               | same                                       | Full report without truncation to file; `--json dupes.json` for machine-readable                   |
 | `pnpm check:duplicates`                                                    | `scripts/utils/find-duplicates.js`         | Same as above (used by CI)                                                                           |
 | `pnpm sync:subfeeds`                                     | `scripts/utils/add-site-subfeeds.js`       | Add missing Google News + Bing News `site:` subfeeds to all eligible sites/watchlist entries                                                                                                                                                |
@@ -249,7 +250,7 @@ scripts/
     check-docs-sync.js   — CI: verify SCRIPT_README.md + AGENTS.md cover every script, module and status
   utils/
     verify-feeds.js      — verify RSS/Atom feeds from a JSON list or direct URL
-    find-duplicates.js   — detect duplicates intra-DB + cross-file DB↔watchlist (site IDs/URLs, feed IDs/rss_urls); --verbose emits clickable file:line links
+    find-duplicates.js   — detect duplicates intra-DB + intra-watchlist + cross-file DB↔watchlist (site IDs/URLs, feed IDs/rss_urls); --verbose emits clickable file:line links; --fix prunes watchlist duplicates
     add-site-subfeeds.js — add Google News + Bing News site: subfeeds; flags: --dry-run, --file, --id, --from/--to, --limit, --start-id, --total-mode
     discover-category-feeds.js — discover WP category feeds via REST API; flags: --id, --min-posts, --update, --dry-run, --from/--to, --limit, --start-id
     fix-stale-feeds.js   — bulk fix active feeds with stale item dates → marks them stale
@@ -261,11 +262,11 @@ lib/
   network-utils.js        — low-level network: checkSiteStatus, checkSiteReachable, tryFetchFeedInsecure, isValidUrl
   feed-rediscovery.js     — feed rediscovery: extractFeedLinksFromHtml, rediscoverFeed (5-stage, dedup via Set), FEED_PATTERNS, parseSitemapXml, extractSectionFromSitemap, clearHomepageCache
   feed-overlap.js         — overlap detection: normalizeItemKey, keySet, containmentRatio, findDuplicate
-  duplicate-finder.js     — network-free duplicate detection: normalizeSiteUrl, normalizeFeedUrl, rootDomainOf, findDuplicates (used by check:duplicates and the validate summary)
+  duplicate-finder.js     — network-free duplicate detection: normalizeSiteUrl, normalizeFeedUrl, rootDomainOf, findDuplicates (intra-DB + intra-watchlist + cross DB↔WL; used by check:duplicates and the validate summary)
   browser-fallback.js     — headless-browser feed verification: fetchWithBrowser (Playwright, optional dep), closeBrowser
   watchlist-validator.js  — watchlist validation pipeline: validateWatchlistEntry, promoteToSite
   prompter.js             — interactive prompts: promptUser, promptUrl, promptStatus, isAutomatic
-  rate-limiter.js         — rate limiter: acquireSlot/releaseSlot con semáforo global (max 5 concurrentes) + delay mínimo por dominio (2s)
+  rate-limiter.js         — rate limiter: acquireSlot/releaseSlot con semáforo global (max 5 concurrentes) + tope por dominio (max 2 en vuelo) + delay mínimo por dominio (2s)
   feed-utils.js           — shared utilities: extractSelfLink, pathsMatch, daysSince, isStale, formatError, recalculateTotalFeeds, getDomain, STALE_THRESHOLD_DAYS, ALLOWED_STATUSES, BROKEN_ERRORS, DUPLICATE_OVERLAP_THRESHOLD
   cli-args.js             — shared CLI arg parsing: parseArgs(extraFlags), applyFilters, applyFiltersSites
   relay-fetch.js          — diagnostic single-endpoint relays: RELAY_PRESETS, resolveRelay, resolveRelayList, checkFeedViaRelay, checkReachabilityViaRelay, looksLikeRelayErrorPage, RELAY_TIMEOUT_MS
@@ -423,8 +424,15 @@ This prevents defunct feeds that haven't published in years from appearing in th
 
 One network-free module holds the structural duplicate detection, shared by `check:duplicates`
 (`scripts/utils/find-duplicates.js`) and the end-of-run report in `validate_feeds.js`. It detects,
-for `feeds-database.json` and across `feeds-database.json` ↔ `watchlist.json`: duplicate site
-IDs, site URLs, root domains (same root, different URL), feed IDs and `rss_url`s.
+for `feeds-database.json`, for `watchlist.json` and across `feeds-database.json` ↔
+`watchlist.json`: duplicate site IDs, site URLs, root domains (same root, different URL), feed IDs
+and `rss_url`s. The intra-watchlist pass exists because the watchlist can duplicate entries on its
+own (e.g. a block re-appended by a bad merge) — the cross-file pass alone would never see it.
+
+- `--fix` prunes three kinds: repeated watchlist entries (keeps the first occurrence, matched by
+  site ID or normalized URL), feeds repeated inside a single entry (same feed ID or `rss_url`), and
+  watchlist entries already present in the database. Use `--dry-run` to preview, `--keep watchlist`
+  to invert the cross-file side.
 
 - `validate_feeds.js` prints a `🔁 Entradas duplicadas` block as the last summary line. It is
   informational only (never changes state) and exists because `--update` can introduce a
@@ -501,8 +509,9 @@ All HTTP requests are handled by `fetchSafe` which:
 All requests go through `lib/rate-limiter.js` which:
 
 - Limits **max 5 concurrent** HTTP requests globally (`MAX_CONCURRENT`)
-- Enforces **minimum 2 second delay** between requests to the **same domain** (`DOMAIN_DELAY_MS`)
-- Auto-cleans domain timestamps older than 60s to prevent memory leaks
+- Limits **max 2 concurrent** HTTP requests to the **same domain** (`MAX_CONCURRENT_PER_DOMAIN`), so a single shared host cannot be flooded by the feeds of one site
+- Enforces **minimum 2 second delay** between request starts to the **same domain** (`DOMAIN_DELAY_MS`), serialized through a per-domain queue (the previous implementation read the same timestamp from parallel calls and fired them together)
+- Auto-cleans domain state older than 60s to prevent memory leaks
 
 ## Key conventions
 

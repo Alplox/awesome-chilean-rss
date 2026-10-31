@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`environment.opml`](../../opml/categories/environment.opml) - 88 sitios, 201 feeds*
+*Descargar OPML: [`environment.opml`](../../opml/categories/environment.opml) - 91 sitios, 212 feeds*
 
 - **Acero y Roca**: Feed de la categoría 'Medio Ambiente' en Acero y Roca
   - RSS: `https://aceroyroca.com/category/medio-ambiente/feed/`
@@ -75,6 +75,12 @@
   - RSS: `https://diario.uach.cl/category/categorias/sustentabilidad/feed/`
 - **DPL News**: Feed de la categoría 'Sustentabilidad' en DPL News
   - RSS: `https://dplnews.com/category/tecnologia/sustentabilidad/feed/`
+- **ECOceanos** — Organización chilena dedicada a la defensa del océano, la biodiversidad marina y los ecosistemas costeros
+  - ECOceanos: `https://www.ecoceanos.cl/feed/`
+  - ECOceanos - Acuicultura: `https://www.ecoceanos.cl/ver/acuicultura/feed/`
+  - ECOceanos - Laboral: `https://www.ecoceanos.cl/ver/laboral/feed/`
+  - ECOceanos - Lobos Marinos: `https://www.ecoceanos.cl/ver/lobos-marinos/feed/`
+  - ECOceanos [Proxy Google News]: `https://news.google.com/rss/search?q=site:ecoceanos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Ecosistemas** — Ecosistemas, revista y organización chilena de medio ambiente y sustentabilidad
   - Ecosistemas: `https://www.ecosistemas.cl/feed/`
   - Ecosistemas [Proxy Google News]: `https://news.google.com/rss/search?q=site:ecosistemas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -283,6 +289,12 @@
   - Temuco Diario - Medioambiente: `https://temucodiario.cl/category/medioambiente/feed/`
 - **Tiempo 21**: Feed de la categoría 'Agricultura' en Tiempo 21
   - RSS: `https://www.tiempo21.cl/agricultura/feed/`
+- **Tornados en Chile** — Sitio dedicado a recopilar información sobre tornados y trombas marinas en Chile
+  - Tornados en Chile: `https://tornadoschile.cl/feed/`
+  - Tornados en Chile - Tornados: `https://tornadoschile.cl/category/sin-categoria/tornados/feed/`
+  - Tornados en Chile - O'higgins: `https://tornadoschile.cl/category/ohiggins/feed/`
+  - Tornados en Chile - Supercelda: `https://tornadoschile.cl/category/supercelda/feed/`
+  - Tornados en Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:tornadoschile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Tour Innovación** — Medio chileno con enfoque en innovación, tecnología, emprendimiento, minería y energía
   - Tour Innovación - Sustentabilidad: `https://www.tourinnovacion.cl/seccion/sustentabilidad/feed/`
   - Tour Innovación - Agricultura: `https://www.tourinnovacion.cl/seccion/agricultura/feed/`
@@ -290,6 +302,8 @@
   - RSS: `https://traiguencity.cl/noticias/traiguen/medio-ambiente/feed/`
 - **trendTIC**: Feed de la categoría 'Sustentabilidad' en trendTIC
   - RSS: `https://www.trendtic.cl/category/sustentabilidad/feed/`
+- **UCSC**: Feed de la categoría 'Sustentabilidad' en UCSC
+  - RSS: `https://ucsc.cl/categoria/sustentabilidad/feed/`
 - **VC Magazine** — Revista digital chilena sobre valor compartido, sostenibilidad, energías renovables, innovación y negocios regionales.
   - VC Magazine - Sostenibilidad: `https://vcmagazine.cl/category/temas/sostenibilidad/feed/`
   - VC Magazine - Medio Ambiente: `https://vcmagazine.cl/category/medio-ambiente/feed/`

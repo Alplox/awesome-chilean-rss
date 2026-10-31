@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`education.opml`](../../opml/categories/education.opml) - 118 sitios, 334 feeds*
+*Descargar OPML: [`education.opml`](../../opml/categories/education.opml) - 123 sitios, 367 feeds*
 
 - **(Empresa) Contapapaya**: Feed de la categoría 'Educación' en (Empresa) Contapapaya
   - RSS: `https://contapapaya.cl/category/educacion/feed/`
@@ -30,6 +30,9 @@
   - RSS: `https://basenacional.cl/category/educacion/feed/`
 - **Calama en Línea**: Feed de la categoría 'Educación' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/educacion/feed/`
+- **CEDIDH** — Círculo de Estudios de Derecho Internacional de los Derechos Humanos: publicaciones de actualidad, cursos y actividades académicas
+  - CEDIDH - Actualidad: `https://www.cedidh.cl/incidencia/actualidad.feed?type=rss`
+  - CEDIDH [Proxy Google News]: `https://news.google.com/rss/search?q=site:cedidh.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **CEI Noticias**: Feed de la categoría 'Educación' en CEI Noticias
   - RSS: `https://ceinoticias.cl/category/educacion/feed/`
 - **CEP Chile** — Centro de estudios e investigación dedicado al análisis de políticas públicas, economía y ciencias sociales en Chile
@@ -55,6 +58,8 @@
   - Colegio San Ignacio El Bosque: `https://www.sanignacio.cl/feed/`
   - Colegio San Ignacio El Bosque - Esei 2026: `https://sanignacio.cl/category/esei-2026/feed/`
   - Colegio San Ignacio El Bosque [Proxy Google News]: `https://news.google.com/rss/search?q=site:sanignacio.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Colegio Tabancura**: Colegio privado de Santiago, miembro de la red SEDUC
+  - RSS: `https://www.tabancura.cl/feed/`
 - **Colegio Verbo Divino** — Colegio privado de Santiago
   - Colegio Verbo Divino: `https://www.verbodivino.cl/feed/`
   - Colegio Verbo Divino - Reflexiones: `https://verbodivino.cl/category/reflexiones/feed/`
@@ -280,6 +285,9 @@
   - Liceo Brainstorm Temuco: `https://www.liceobrainstorm.cl/feed/`
   - Liceo Brainstorm Temuco - Noticias 2019: `https://www.liceobrainstorm.cl/category/noticias-2019/feed/`
   - Liceo Brainstorm Temuco [Proxy Google News]: `https://news.google.com/rss/search?q=site:liceobrainstorm.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Liceo de Aplicación** — Liceo público de Santiago
+  - Liceo de Aplicación: `https://www.liceodeaplicacion.cl/feed/`
+  - Liceo de Aplicación [Proxy Google News]: `https://news.google.com/rss/search?q=site:liceodeaplicacion.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Liceo N°1 Javiera Carrera** — Liceo público de Santiago
   - Liceo N°1 Javiera Carrera: `https://www.liceo1.cl/feed/`
   - Liceo N°1 Javiera Carrera [Proxy Google News]: `https://news.google.com/rss/search?q=site:liceo1.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -399,6 +407,33 @@
   - RSS: `https://trnoticias.cl/category/educacion/feed/`
 - **Tus Noticias**: Feed de la categoría 'Educación' en Tus Noticias
   - RSS: `https://www.tusnoticias.cl/noticias/educacion/feed/`
+- **UCSC** — Universidad privada de la Región del Biobío
+  - UCSC: `https://www.ucsc.cl/feed/`
+  - UCSC - Vrvm: `https://ucsc.cl/categoria/vrvm/feed/`
+  - UCSC - Estudiantes: `https://ucsc.cl/categoria/estudiantes/feed/`
+  - UCSC - Ingeniería: `https://ucsc.cl/categoria/ingenieria/feed/`
+  - UCSC - Comunicación Interna: `https://ucsc.cl/categoria/comunicacion-interna/feed/`
+  - UCSC - Artística Y Cultural: `https://ucsc.cl/categoria/artistica-y-cultural/feed/`
+  - UCSC - Educación: `https://ucsc.cl/categoria/educacion/feed/`
+  - UCSC - Instituto Tecnológico: `https://ucsc.cl/categoria/instituto-tecnologico/feed/`
+  - UCSC - Ciencias: `https://ucsc.cl/categoria/ciencias/feed/`
+  - UCSC - Investigación: `https://ucsc.cl/categoria/investigacion/feed/`
+  - UCSC - Pastoral: `https://ucsc.cl/categoria/pastoral/feed/`
+  - UCSC - Vinculación: `https://ucsc.cl/categoria/vinculacion/feed/`
+  - UCSC - Admisión: `https://ucsc.cl/categoria/admision/feed/`
+  - UCSC - Teología: `https://ucsc.cl/categoria/teologia/feed/`
+  - UCSC - Postgrados: `https://ucsc.cl/categoria/postgrados/feed/`
+  - UCSC - Identidad Católica: `https://ucsc.cl/categoria/identidad-catolica/feed/`
+  - UCSC - Acreditación: `https://ucsc.cl/categoria/acreditacion/feed/`
+  - UCSC - Formación Continua: `https://ucsc.cl/categoria/formacion-continua/feed/`
+  - UCSC - Internacionalización: `https://ucsc.cl/categoria/internacionalizacion/feed/`
+  - UCSC - Sociales: `https://ucsc.cl/categoria/sociales/feed/`
+  - UCSC - Centro De Energía: `https://ucsc.cl/categoria/centro-de-energia/feed/`
+  - UCSC - Nutrición Y Dietética: `https://ucsc.cl/categoria/nutricion-y-dietetica/feed/`
+  - UCSC - Género Ucsc: `https://ucsc.cl/categoria/ley-21369/feed/`
+  - UCSC - Periodismo: `https://ucsc.cl/categoria/periodismo/feed/`
+  - UCSC [Proxy Google News]: `https://news.google.com/rss/search?q=site:ucsc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - UCSC [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ucsc.cl&format=RSS`
 - **Universidad Andrés Bello** — Universidad privada chilena con sedes en Santiago, Viña del Mar y Concepción
   - Universidad Andrés Bello: `https://www.unab.cl/rss.xml`
   - Universidad Andrés Bello [Proxy Google News]: `https://news.google.com/rss/search?q=site:unab.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -410,6 +445,9 @@
 - **Universidad de La Frontera** — Noticias e investigación de la UFRO, Temuco
   - Universidad de La Frontera: `https://www.ufro.cl/feed/`
   - Universidad de La Frontera [Proxy Google News]: `https://news.google.com/rss/search?q=site:ufro.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Universidad de Las Américas** — Noticias de la Universidad de Las Américas
+  - Universidad de Las Américas: `https://www.udla.cl/feed/`
+  - Universidad de Las Américas - Información: `https://udla.cl/categoria/informacion/feed/`
 - **Universidad de Los Lagos** — Universidad de Los Lagos, institución estatal de la Región de Los Lagos
   - Universidad de Los Lagos: `https://www.ulagos.cl/feed/`
   - Universidad de Los Lagos - Campus Osorno: `https://www.ulagos.cl/category/campus-osorno/feed/`

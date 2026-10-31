@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Aysén (47 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Aysén (50 feeds)</title>
     <description>Feeds RSS de la Región de Aysén, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -16,6 +16,9 @@
       <outline type="rss" text="Aysén Ahora [Proxy Google News]" title="Aysén Ahora [Proxy Google News]" description="Resultados de site:aysenahora.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:aysenahora.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Aysén TV" title="Aysén TV" description="Feed principal de Aysén TV" xmlUrl="https://www.aysentv.cl/feed/" htmlUrl="https://www.aysentv.cl/"/>
       <outline type="rss" text="Aysén TV [Proxy Google News]" title="Aysén TV [Proxy Google News]" description="Resultados de site:aysentv.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:aysentv.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:aysentv.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Diario Aysén" title="Diario Aysén" description="Diario regional de la Región de Aysén" xmlUrl="https://www.diarioaysen.cl/feed/" htmlUrl="https://www.diarioaysen.cl"/>
+      <outline type="rss" text="Diario Aysén - General" title="Diario Aysén - General" description="Feed de la categoría 'General' en Diario Aysén" xmlUrl="https://www.diarioaysen.cl/category/general/feed/" htmlUrl="https://www.diarioaysen.cl/category/general/"/>
+      <outline type="rss" text="Diario Aysén [Proxy Google News]" title="Diario Aysén [Proxy Google News]" description="Resultados de site:diarioaysen.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:diarioaysen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:diarioaysen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Google News - Chile - Región Aysén" title="Google News - Chile - Región Aysén" description="Noticias locales de la Región de Aysén vía Google News Chile" xmlUrl="https://news.google.com/rss/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/headlines/section/geo/Coyhaique?hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="PanoramicAysén" title="PanoramicAysén" description="Feed principal de PanoramicAysén" xmlUrl="https://www.panoramicaysen.cl/blog-feed.xml" htmlUrl="https://www.panoramicaysen.cl/"/>
       <outline type="rss" text="PanoramicAysén [Proxy Google News]" title="PanoramicAysén [Proxy Google News]" description="Resultados de site:panoramicaysen.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:panoramicaysen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:panoramicaysen.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

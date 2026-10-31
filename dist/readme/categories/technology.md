@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 98 sitios, 362 feeds*
+*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 101 sitios, 365 feeds*
 
 - **(Empresa) TiChile** — Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
   - (Empresa) tichile: `https://www.tichile.cl/feed/`
@@ -258,6 +258,8 @@
   - FayerWayer [Proxy Bing News]: `https://www.bing.com/news/search?q=site:fayerwayer.com&format=RSS`
 - **Fotech**: Feed de la categoría 'Tecnología' en Fotech
   - RSS: `https://www.fotech.cl/category/tendencias/tecnologia/feed/`
+- **Futuro 360**: Feed principal de Futuro 360
+  - RSS: `https://www.futuro360.com/feed/`
 - **G5 Noticias**: Feed de la categoría 'Ciencia y Tecnología' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/ciencia-y-tecnologia/feed/`
 - **Google News**: Sección Ciencia y tecnología de Google News Chile
@@ -324,6 +326,8 @@
   - RSS: `https://www.lavozdelnorte.cl/category/ciencia/feed/`
 - **MadboxPC**: Feed de la categoría 'Tecnología' en MadboxPC
   - RSS: `https://www.madboxpc.com/category/tecnologia/feed/`
+- **Margamarga TV**: Feed de la categoría 'Tecnología' en Margamarga TV
+  - RSS: `https://margamargatv.cl/category/tecnologia/feed/`
 - **MCH (Mineria Chilena)**: Feed de la categoría 'Minerí­a 4.0' en MCH (Mineria Chilena)
   - RSS: `https://www.mch.cl/categoria/innovacion/feed/`
 - **Música y Noticias**: Feed de la categoría 'Ciencia Y Tecnología' en Música y Noticias
@@ -460,6 +464,8 @@
   - TXS Plus - Opinión: `https://txsplus.com/opinion/feed/`
   - TXS Plus - Vida Sana: `https://txsplus.com/vida-sana/feed/`
   - TXS Plus [Proxy Google News]: `https://news.google.com/rss/search?q=site:txsplus.com&hl=es-419&gl=CL&ceid=CL:es-419`
+- **UCSC**: Feed de la categoría 'Innovación' en UCSC
+  - RSS: `https://ucsc.cl/categoria/innovacion/feed/`
 - **VC Magazine**: Feed de la categoría 'Innovación' en VC Magazine
   - RSS: `https://vcmagazine.cl/category/innovacion/feed/`
 - **VLN Radio**: Feed de la categoría 'Ciencia Y Tecnología' en VLN Radio

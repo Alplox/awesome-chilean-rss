@@ -11,17 +11,25 @@
  *   4. IDs de sitio duplicados
  *   5. IDs de feed duplicados
  *
- *  Cross-file (feeds-database.json ↔ watchlist.json):
- *   6. Sitios que viven en ambos archivos
- *      6a. Mismo site.id en ambos
- *      6b. Misma site.url normalizada en ambos
+ *  Intra-watchlist (watchlist.json):
+ *   6. Entradas con el mismo ID o la misma URL de sitio
+ *      6a. Mismo site.id
+ *      6b. Misma site.url normalizada
  *      6c. Mismo dominio raíz con URL distinta (sospechoso)
- *   7. Feeds que viven en ambos archivos
- *      7a. Mismo feed.id en ambos
- *      7b. Mismo rss_url en ambos
+ *   7. Feeds con el mismo ID o rss_url
+ *
+ *  Cross-file (feeds-database.json ↔ watchlist.json):
+ *   8. Sitios que viven en ambos archivos
+ *      8a. Mismo site.id en ambos
+ *      8b. Misma site.url normalizada en ambos
+ *      8c. Mismo dominio raíz con URL distinta (sospechoso)
+ *   9. Feeds que viven en ambos archivos
+ *      9a. Mismo feed.id en ambos
+ *      9b. Mismo rss_url en ambos
  *
  * Esto detecta promociones incompletas: sitios movidos de watchlist a
- * database sin eliminar la entrada original de watchlist.
+ * database sin eliminar la entrada original de watchlist, y re-apendidos
+ * accidentales dentro de watchlist.
  *
  * Uso:
  *   pnpm check:duplicates
@@ -38,7 +46,7 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { createInterface } from 'readline';
-import { findDuplicates, normalizeSiteUrl } from '../../lib/duplicate-finder.js';
+import { findDuplicates, normalizeSiteUrl, normalizeFeedUrl } from '../../lib/duplicate-finder.js';
 
 const rawArgs = process.argv.slice(2);
 const verbose = rawArgs.includes('--verbose') || rawArgs.includes('-v');
@@ -82,7 +90,8 @@ Opciones:
   --limit <N>          Límite de items por sección (default 15 sitios / 10 feeds)
   --out <archivo>      Guarda el reporte completo en un archivo (texto)
   --json <archivo>     Guarda reporte machine-readable en JSON
-  --fix                Elimina duplicados cruzados (default: keep DB, borra de watchlist)
+  --fix                Elimina duplicados internos de watchlist y cruzados DB↔WL
+                       (default: keep DB, borra de watchlist)
   --keep <db|watchlist> Qué archivo conservar al hacer --fix (default: db)
   --dry-run            Preview de --fix sin escribir archivos
   --yes, -y            No pide confirmación para --fix
@@ -116,6 +125,21 @@ function buildLineIndex(rawText) {
     if (m) {
       const id = m[1];
       if (!index.has(id)) index.set(id, i + 1);
+    }
+  }
+  return index;
+}
+
+/** Igual que buildLineIndex pero conserva todas las líneas de un ID repetido. */
+function buildLineIndexAll(rawText) {
+  const index = new Map();
+  const lines = rawText.split('\n');
+  const idRe = /^\s*"id"\s*:\s*"([^"]+)"/;
+  for (let i = 0; i < lines.length; i++) {
+    const m = idRe.exec(lines[i]);
+    if (m) {
+      if (!index.has(m[1])) index.set(m[1], []);
+      index.get(m[1]).push(i + 1);
     }
   }
   return index;
@@ -190,7 +214,7 @@ const report = {
 };
 
 // ─── Detección (lib/duplicate-finder.js) ─────────────────────────────────────
-const { intra, cross } = findDuplicates(sites, wlAvailable ? wlSites : null);
+const { intra, wlIntra, cross } = findDuplicates(sites, wlAvailable ? wlSites : null);
 const { siteUrlMap, feedUrlMap, rootDomainMap, siteIdMap, feedIdMap } = intra;
 
 // ─── 1. Duplicate site URLs ───────────────────────────────────────────────────
@@ -296,7 +320,163 @@ for (const [id, group] of feedIdMap.entries()) {
 if (dupFeedIdCount === 0) console.log('✅ No se encontraron IDs de feed duplicados.\n');
 report.intra.dupFeedIdCount = dupFeedIdCount;
 
-// ─── 6 & 7. Cross-file duplicates ────────────────────────────────────────────
+// ─── 6 & 7. Intra-watchlist ──────────────────────────────────────────────────
+let wlDupIdCount = 0;
+let wlDupUrlCount = 0;
+let wlDupRootCount = 0;
+let wlDupFeedIdCount = 0;
+let wlDupFeedUrlCount = 0;
+const wlDupIdKeys = [];
+const wlDupUrlKeys = [];
+const wlIntraDrop = new Set();
+const wlFeedDrop = new Map();
+let wlFeedDrops = 0;
+
+if (!wlAvailable) {
+  console.log('═══════════════════════════════════════════════════════');
+  console.log('  🔍 Duplicados dentro de watchlist — omitido');
+  console.log('═══════════════════════════════════════════════════════\n');
+  console.log('⚠️  watchlist.json no encontrado o ilegible — se omite el chequeo intra-watchlist.\n');
+} else {
+  const wlLineIndexAll = buildLineIndexAll(wlRawText);
+  const wlPos = new Map(wlSites.map((s, i) => [s, i]));
+  const wlIndexById = new Map();
+  wlSites.forEach((s, i) => {
+    if (!wlIndexById.has(s.id)) wlIndexById.set(s.id, []);
+    wlIndexById.get(s.id).push(i);
+  });
+
+  const wlPosOf = s => wlPos.get(s) ?? -1;
+  const wlLink = s => {
+    if (!verbose) return;
+    const lines = wlLineIndexAll.get(s.id) ?? [];
+    const occ = (wlIndexById.get(s.id) ?? []).indexOf(wlPosOf(s));
+    console.log(`     📎 ${WL_ABS}:${lines[occ] ?? lines[0] ?? 1}`);
+  };
+  const wlSiteLine = s => `#${wlPosOf(s)} [${s.id}] ${s.name} — ${s.url} | ${(s.feeds ?? []).length} feeds`;
+
+  console.log('═══════════════════════════════════════════════════════');
+  console.log('  🔍 Buscando duplicados dentro de watchlist.json');
+  console.log('═══════════════════════════════════════════════════════\n');
+
+  // 6a
+  console.log('── 6a. IDs de sitio duplicados ────────────────────────\n');
+  for (const [id, group] of wlIntra.siteIdMap.entries()) {
+    wlDupIdCount++;
+    foundAny = true;
+    wlDupIdKeys.push(id);
+    console.log(`⚠️  ID de sitio duplicado en watchlist: "${id}" (${group.length} entradas)`);
+    for (const s of group) {
+      console.log(`   • ${wlSiteLine(s)}`);
+      wlLink(s);
+    }
+    console.log();
+  }
+  if (wlDupIdCount === 0) console.log('✅ No se encontraron IDs de sitio duplicados en watchlist.\n');
+
+  // 6b
+  console.log('── 6b. Sitios con la misma URL ────────────────────────\n');
+  for (const [key, group] of wlIntra.siteUrlMap.entries()) {
+    wlDupUrlCount++;
+    foundAny = true;
+    wlDupUrlKeys.push(key);
+    console.log(`⚠️  URL duplicada en watchlist: "${key}" (${group.length} entradas)`);
+    for (const s of group) {
+      console.log(`   • ${wlSiteLine(s)}`);
+      wlLink(s);
+    }
+    console.log();
+  }
+  if (wlDupUrlCount === 0) console.log('✅ No se encontraron URLs de sitio duplicadas en watchlist.\n');
+
+  // 6c
+  console.log('── 6c. Mismo dominio raíz, URL distinta (sospechoso) ─\n');
+  for (const [domain, group] of wlIntra.rootDomainMap.entries()) {
+    wlDupRootCount++;
+    foundAny = true;
+    console.log(`⚠️  Posibles duplicados en watchlist — dominio raíz: "${domain}"`);
+    for (const s of group) {
+      console.log(`   • ${wlSiteLine(s)}`);
+      wlLink(s);
+    }
+    console.log();
+  }
+  if (wlDupRootCount === 0) console.log('✅ No hay dominios repetidos con URL distinta en watchlist.\n');
+
+  // 7
+  console.log('── 7. Feeds duplicados dentro de watchlist ────────────\n');
+  wlDupFeedIdCount = wlIntra.feedIdMap.size;
+  wlDupFeedUrlCount = wlIntra.feedUrlMap.size;
+  if (wlDupFeedIdCount === 0 && wlDupFeedUrlCount === 0) {
+    console.log('✅ No se encontraron feeds duplicados en watchlist.\n');
+  } else {
+    foundAny = true;
+    for (const [id, group] of [...wlIntra.feedIdMap.entries()].slice(0, FEED_LIMIT)) {
+      console.log(`⚠️  ID de feed duplicado en watchlist: "${id}" (${group.length} entradas)`);
+      for (const { site, feed } of group) {
+        console.log(`   • #${wlPosOf(site)} [${site.id}] ${feed.rss_url} | ${feed.status}`);
+      }
+      console.log();
+    }
+    if (wlDupFeedIdCount > FEED_LIMIT) console.log(`   ... y ${wlDupFeedIdCount - FEED_LIMIT} IDs de feed más (usa --all).\n`);
+    for (const [key, group] of [...wlIntra.feedUrlMap.entries()].slice(0, FEED_LIMIT)) {
+      console.log(`⚠️  rss_url duplicada en watchlist: "${key}" (${group.length} entradas)`);
+      for (const { site, feed } of group) {
+        console.log(`   • #${wlPosOf(site)} [${site.id}] feed [${feed.id}] | ${feed.status}`);
+      }
+      console.log();
+    }
+    if (wlDupFeedUrlCount > FEED_LIMIT) console.log(`   ... y ${wlDupFeedUrlCount - FEED_LIMIT} rss_url más (usa --all).\n`);
+  }
+
+  // Índices que --fix eliminará: se conserva la primera aparición de cada id/URL
+  const seenWlId = new Set();
+  const seenWlUrl = new Set();
+  wlSites.forEach((s, i) => {
+    const idKey = s.id;
+    const urlKey = normalizeUrl(s.url);
+    if (seenWlId.has(idKey) || seenWlUrl.has(urlKey)) {
+      wlIntraDrop.add(i);
+    } else {
+      seenWlId.add(idKey);
+      seenWlUrl.add(urlKey);
+    }
+  });
+
+  // Feeds repetidos dentro de una misma entrada (mismo rss_url o mismo feed.id):
+  // artefacto de validaciones encadenadas, no un sitio duplicado.
+  wlSites.forEach((s, i) => {
+    const seen = new Set();
+    (s.feeds ?? []).forEach((f, j) => {
+      const urlKey = normalizeFeedUrl(f.rss_url ?? '');
+      const idKey = `id:${f.id}`;
+      if (seen.has(urlKey) || seen.has(idKey)) {
+        if (!wlFeedDrop.has(i)) wlFeedDrop.set(i, new Set());
+        wlFeedDrop.get(i).add(j);
+        wlFeedDrops++;
+      } else {
+        seen.add(urlKey);
+        seen.add(idKey);
+      }
+    });
+  });
+  report.wlIntra = {
+    dupSiteIdCount: wlDupIdCount,
+    dupSiteUrlCount: wlDupUrlCount,
+    dupRootDomainCount: wlDupRootCount,
+    dupFeedIdCount: wlDupFeedIdCount,
+    dupFeedUrlCount: wlDupFeedUrlCount,
+    siteIds: wlDupIdKeys,
+    siteUrls: wlDupUrlKeys,
+    removableIndices: [...wlIntraDrop].sort((a, b) => a - b),
+    removableFeeds: [...wlFeedDrop].map(([siteIndex, feeds]) => ({
+      siteIndex,
+      feedIndices: [...feeds].sort((a, b) => a - b),
+    })),
+  };
+}
+
+// ─── 8 & 9. Cross-file duplicates ────────────────────────────────────────────
 let crossSiteIdCount = 0;
 let crossSiteUrlCount = 0;
 let crossRootDomainCount = 0;
@@ -320,8 +500,8 @@ if (!wlAvailable) {
   console.log('═══════════════════════════════════════════════════════\n');
   console.log(`  DB: ${sites.length} sitios — WL: ${wlSites.length} sitios\n`);
 
-  // 6a
-  console.log('── 6a. Sitios con el mismo ID en ambos archivos ──────\n');
+  // 8a
+  console.log('── 8a. Sitios con el mismo ID en ambos archivos ──────\n');
   ({ dbSiteById, wlSiteById } = cross);
   crossIds = cross.siteIds;
   crossSiteIdCount = crossIds.length;
@@ -348,8 +528,8 @@ if (!wlAvailable) {
     }
   }
 
-  // 6b
-  console.log('── 6b. Sitios con la misma URL en ambos archivos ─────\n');
+  // 8b
+  console.log('── 8b. Sitios con la misma URL en ambos archivos ─────\n');
   dbUrlMap = cross.dbUrlMap;
   wlUrlMap = cross.wlUrlMap;
   crossUrlKeys = cross.siteUrls;
@@ -377,8 +557,8 @@ if (!wlAvailable) {
     }
   }
 
-  // 6c
-  console.log('── 6c. Mismo dominio raíz, URL distinta (sospechoso) ─\n');
+  // 8c
+  console.log('── 8c. Mismo dominio raíz, URL distinta (sospechoso) ─\n');
   const { dbRootMap, wlRootMap } = cross;
   const crossRootDomains = cross.rootDomains;
   const crossRootPrinted = crossRootDomains.length;
@@ -402,8 +582,8 @@ if (!wlAvailable) {
     console.log(`   ... y ${crossRootPrinted - SITE_LIMIT} más ocultos. Usa --all.\n`);
   }
 
-  // 7a
-  console.log('── 7a. Feeds con el mismo ID en ambos archivos ───────\n');
+  // 9a
+  console.log('── 9a. Feeds con el mismo ID en ambos archivos ───────\n');
   const { dbFeedById, wlFeedById } = cross;
   crossFeedIds = cross.feedIds;
   crossFeedIdCount = crossFeedIds.length;
@@ -439,8 +619,8 @@ if (!wlAvailable) {
     }
   }
 
-  // 7b
-  console.log('── 7b. Feeds con el mismo rss_url en ambos archivos ──\n');
+  // 9b
+  console.log('── 9b. Feeds con el mismo rss_url en ambos archivos ──\n');
   dbRssMap = cross.dbRssMap;
   wlRssMap = cross.wlRssMap;
   crossRssKeys = cross.feedUrls;
@@ -484,6 +664,14 @@ console.log(`  Dominios raíz dupl.   : ${dupRootCount}`);
 console.log(`  IDs de sitio dupl.    : ${dupIdCount}`);
 console.log(`  IDs de feed dupl.     : ${dupFeedIdCount}`);
 if (wlAvailable) {
+  console.log(`  ── Intra-WL ─────────────────────────────────`);
+  console.log(`  IDs de sitio dupl.    : ${wlDupIdCount}`);
+  console.log(`  URLs de sitio dupl.   : ${wlDupUrlCount}`);
+  console.log(`  Dominios raíz dupl.   : ${wlDupRootCount}`);
+  console.log(`  IDs de feed dupl.     : ${wlDupFeedIdCount}`);
+  console.log(`  rss_url duplicadas    : ${wlDupFeedUrlCount}`);
+  console.log(`  Entradas removibles   : ${wlIntraDrop.size}  (conserva la 1ª aparición)`);
+  console.log(`  Feeds repetidos remov.: ${wlFeedDrops}  (mismo rss_url/ID dentro de una entrada)`);
   console.log(`  ── Cross DB ↔ WL ────────────────────────────`);
   console.log(`  Site IDs cruzados     : ${crossSiteIdCount}`);
   console.log(`  Site URLs cruzadas    : ${crossSiteUrlCount}`);
@@ -497,8 +685,9 @@ if (!foundAny) {
   console.log('✅ No se encontraron duplicados.\n');
 } else {
   console.log('⚠️  Se encontraron posibles duplicados. Revísalos manualmente.\n');
-  if (crossSiteIdCount > 0 || crossSiteUrlCount > 0) {
-    console.log('💡 Cruzados DB↔WL: elimina de watchlist.json los sitios ya presentes en feeds-database.json.');
+  if (crossSiteIdCount > 0 || crossSiteUrlCount > 0 || wlIntraDrop.size > 0) {
+    console.log('💡 Duplicados que --fix puede limpiar: entradas repetidas dentro de watchlist.json');
+    console.log('   y sitios de watchlist que ya viven en feeds-database.json.');
     console.log('   → Preview: pnpm check:duplicates -- --fix --dry-run');
     console.log('   → Fix:     pnpm check:duplicates -- --fix --yes\n');
   }
@@ -531,6 +720,12 @@ if (jsonFile) {
         dupRootCount,
         dupIdCount,
         dupFeedIdCount,
+        wlDupIdCount,
+        wlDupUrlCount,
+        wlDupRootCount,
+        wlDupFeedIdCount,
+        wlDupFeedUrlCount,
+        wlRemovableEntries: wlIntraDrop.size,
         crossSiteIdCount,
         crossSiteUrlCount,
         crossRootDomainCount,
@@ -541,6 +736,7 @@ if (jsonFile) {
       crossUrlKeys,
       crossFeedIds,
       crossRssKeys,
+      wlIntra: report.wlIntra ?? null,
     };
     writeFileSync(jsonFile, JSON.stringify(jsonReport, null, 2) + '\n', 'utf-8');
     console.log(`📄 Reporte JSON guardado en ${resolve(jsonFile)}\n`);
@@ -567,8 +763,22 @@ async function runFix() {
     process.exit(1);
   }
 
-  // Compute WL ids to remove (keep DB by default)
-  let idsToRemove = new Set();
+  // 1) Duplicados internos de watchlist.json (mismo id o misma URL).
+  //    Se conserva la primera aparición; el resto se elimina.
+  const intraEntries = [...wlIntraDrop].sort((a, b) => a - b)
+    .map(index => ({ index, site: wlSites[index] }));
+
+  const keptIndexFor = (index) => {
+    const s = wlSites[index];
+    for (let j = 0; j < index; j++) {
+      const prev = wlSites[j];
+      if (prev.id === s.id || normalizeUrl(prev.url) === normalizeUrl(s.url)) return j;
+    }
+    return -1;
+  };
+
+  // 2) Duplicados cruzados DB ↔ watchlist según --keep
+  const crossIdsToRemove = new Set();
   let sourceLabel = '';
   let targetLabel = '';
 
@@ -576,7 +786,7 @@ async function runFix() {
     const dbIdSet = new Set(sites.map(s => s.id));
     const dbUrlSet = new Set(sites.map(s => normalizeUrl(s.url)));
     for (const s of wlSites) {
-      if (dbIdSet.has(s.id) || dbUrlSet.has(normalizeUrl(s.url))) idsToRemove.add(s.id);
+      if (dbIdSet.has(s.id) || dbUrlSet.has(normalizeUrl(s.url))) crossIdsToRemove.add(s.id);
     }
     sourceLabel = 'DB';
     targetLabel = 'watchlist.json';
@@ -584,26 +794,60 @@ async function runFix() {
     const wlIdSet = new Set(wlSites.map(s => s.id));
     const wlUrlSet = new Set(wlSites.map(s => normalizeUrl(s.url)));
     for (const s of sites) {
-      if (wlIdSet.has(s.id) || wlUrlSet.has(normalizeUrl(s.url))) idsToRemove.add(s.id);
+      if (wlIdSet.has(s.id) || wlUrlSet.has(normalizeUrl(s.url))) crossIdsToRemove.add(s.id);
     }
     sourceLabel = 'WL';
     targetLabel = 'feeds-database.json';
   }
 
-  if (idsToRemove.size === 0) {
-    console.log(`✅ No hay sitios para eliminar de ${targetLabel} (keep=${keep}).\n`);
+  if (intraEntries.length === 0 && crossIdsToRemove.size === 0 && wlFeedDrops === 0) {
+    console.log('✅ No hay sitios para eliminar (ni duplicados internos de watchlist ni cruzados).\n');
     return;
   }
 
+  const willWriteWl = intraEntries.length > 0 || wlFeedDrops > 0
+    || (keep === 'db' && crossIdsToRemove.size > 0);
+  const wlFiltered = wlSites
+    .map((s, i) => {
+      const dropFeeds = wlFeedDrop.get(i);
+      if (!dropFeeds) return s;
+      return { ...s, feeds: (s.feeds ?? []).filter((_, j) => !dropFeeds.has(j)) };
+    })
+    .filter((s, i) => !wlIntraDrop.has(i) && !(keep === 'db' && crossIdsToRemove.has(s.id)));
+
   console.log('\n═══════════════════════════════════════════════════════');
-  console.log(`  🧹 Fix: eliminar duplicados de ${targetLabel} (keep=${keep})`);
+  console.log(`  🧹 Fix: limpiar duplicados (keep=${keep})`);
   console.log('═══════════════════════════════════════════════════════\n');
-  console.log(`  Se eliminarán ${idsToRemove.size} sitios de ${targetLabel} (conservando ${sourceLabel}):`);
-  for (const id of [...idsToRemove].sort().slice(0, 50)) {
-    console.log(`   • ${id}`);
+
+  if (intraEntries.length > 0) {
+    console.log(`  Duplicados internos de watchlist.json: ${intraEntries.length} entradas (se conserva la primera aparición):`);
+    for (const { index, site } of intraEntries.slice(0, 50)) {
+      const keepIdx = keptIndexFor(index);
+      console.log(`   • #${index} [${site.id}] ${site.url} → dup de #${keepIdx}`);
+    }
+    if (intraEntries.length > 50) console.log(`   ... y ${intraEntries.length - 50} más`);
+    console.log();
   }
-  if (idsToRemove.size > 50) console.log(`   ... y ${idsToRemove.size - 50} más`);
-  console.log();
+
+  if (wlFeedDrops > 0) {
+    console.log(`  Feeds repetidos dentro de una entrada: ${wlFeedDrops} (se conserva el primero):`);
+    for (const [siteIndex, feedIndices] of [...wlFeedDrop.entries()].slice(0, 50)) {
+      const site = wlSites[siteIndex];
+      const urls = [...feedIndices].map(j => site.feeds[j].rss_url);
+      console.log(`   • #${siteIndex} [${site.id}] ${urls.join(', ')}`);
+    }
+    if (wlFeedDrop.size > 50) console.log(`   ... y ${wlFeedDrop.size - 50} entradas más`);
+    console.log();
+  }
+
+  if (crossIdsToRemove.size > 0) {
+    console.log(`  Cruzados DB↔WL: ${crossIdsToRemove.size} sitios se eliminarán de ${targetLabel} (conservando ${sourceLabel}):`);
+    for (const id of [...crossIdsToRemove].sort().slice(0, 50)) {
+      console.log(`   • ${id}`);
+    }
+    if (crossIdsToRemove.size > 50) console.log(`   ... y ${crossIdsToRemove.size - 50} más`);
+    console.log();
+  }
 
   if (dryRun) {
     console.log('🔍 --dry-run: no se escribió ningún archivo. Quita --dry-run y añade --yes para aplicar.\n');
@@ -611,20 +855,23 @@ async function runFix() {
     return;
   }
 
-  const ok = await askConfirm(`¿Eliminar ${idsToRemove.size} sitios de ${targetLabel}? [y/N]: `);
+  const sitesDelta = willWriteWl ? wlSites.length - wlFiltered.length : 0;
+  const label = `${sitesDelta} sitio(s) de watchlist y ${wlFeedDrops} feed(s) repetido(s)`
+    + (keep === 'watchlist' ? `, y ${crossIdsToRemove.size} sitio(s) de la DB` : '');
+  const ok = await askConfirm(`¿Aplicar la limpieza (${label})? [y/N]: `);
   if (!ok) {
     console.log('❌ Cancelado.\n');
     return;
   }
 
-  if (keep === 'db') {
-    const filtered = wlSites.filter(s => !idsToRemove.has(s.id));
+  if (willWriteWl) {
     // Preserve original format: array JSON
-    writeFileSync(WL_FILE, JSON.stringify(filtered, null, 2) + '\n', 'utf-8');
-    console.log(`✅ Eliminados ${idsToRemove.size} sitios de ${WL_FILE}.`);
-    console.log(`   WL: ${wlSites.length} → ${filtered.length} sitios\n`);
-  } else {
-    const filteredSites = sites.filter(s => !idsToRemove.has(s.id));
+    writeFileSync(WL_FILE, JSON.stringify(wlFiltered, null, 2) + '\n', 'utf-8');
+    console.log(`✅ ${WL_FILE}: ${wlSites.length} → ${wlFiltered.length} sitios`);
+  }
+
+  if (keep === 'watchlist' && crossIdsToRemove.size > 0) {
+    const filteredSites = sites.filter(s => !crossIdsToRemove.has(s.id));
     db.sites = filteredSites;
     // Recalculate total_feeds
     try {
@@ -635,8 +882,9 @@ async function runFix() {
       db.last_updated = new Date().toISOString();
     }
     writeFileSync(DB_FILE, JSON.stringify(db, null, 2) + '\n', 'utf-8');
-    console.log(`✅ Eliminados ${idsToRemove.size} sitios de ${DB_FILE}.`);
-    console.log(`   DB: ${sites.length} → ${filteredSites.length} sitios — total_feeds: ${db.total_feeds}\n`);
+    console.log(`✅ ${DB_FILE}: ${sites.length} → ${filteredSites.length} sitios — total_feeds: ${db.total_feeds}\n`);
+  } else if (willWriteWl) {
+    console.log();
   }
   process.exitCode = 0;
 }

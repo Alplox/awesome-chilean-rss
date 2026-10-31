@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`radio.opml`](../../opml/categories/radio.opml) - 49 sitios, 188 feeds*
+*Descargar OPML: [`radio.opml`](../../opml/categories/radio.opml) - 50 sitios, 189 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Música' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/musica/feed/`
@@ -103,6 +103,8 @@
   - Radio Carolina: `https://carolina.cl/rss.xml`
   - Radio Carolina [Proxy Google News]: `https://news.google.com/rss/search?q=site:carolina.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio Carolina [Proxy Bing News]: `https://www.bing.com/news/search?q=site:carolina.cl&format=RSS`
+- **Radio Chilena**: Radio Chilena, emisora chilena
+  - RSS: `https://radiochilena.cl/feed/`
 - **Radio Comunicativa de Ovalle** — Radio 93.7 FM y señal online con noticias de Ovalle, el Limarí y la Región de Coquimbo.
   - Radio Comunicativa de Ovalle: `https://radiocomunicativa.cl/feed/`
   - Radio Comunicativa de Ovalle - Policial: `https://radiocomunicativa.cl/category/noticias/policial/feed/`

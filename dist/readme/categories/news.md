@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news.opml`](../../opml/categories/news.opml) - 300 sitios, 1039 feeds*
+*Descargar OPML: [`news.opml`](../../opml/categories/news.opml) - 309 sitios, 1068 feeds*
 
 - **aDiarioCR** — Periódico digital con noticias de Chile y el mundo
   - aDiarioCR - Portada: `https://adiariocr.com/feed/`
@@ -76,6 +76,13 @@
   - Cambio21: `https://cambio21.cl/rss`
   - Cambio21 [Proxy Google News]: `https://news.google.com/rss/search?q=site:cambio21.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Cambio21 [Proxy Bing News]: `https://www.bing.com/news/search?q=site:cambio21.cl&format=RSS`
+- **Cápsula Informativa Regional** — Medio digital chileno de noticias nacionales y regionales
+  - Cápsula Informativa Regional: `https://capsulainformativa.cl/feed/`
+  - Cápsula Informativa Regional - Nacional: `https://capsulainformativa.cl/category/nacional/feed/`
+  - Cápsula Informativa Regional - Regiones: `https://capsulainformativa.cl/category/regiones/feed/`
+  - Cápsula Informativa Regional - El Rincón De: `https://capsulainformativa.cl/category/el-rincon-de/feed/`
+  - Cápsula Informativa Regional - Política: `https://capsulainformativa.cl/category/politica/feed/`
+  - Cápsula Informativa Regional [Proxy Google News]: `https://news.google.com/rss/search?q=site:capsulainformativa.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **CEI Noticias** — Diario regional de Iquique, Tarapacá
   - CEI Noticias - Nacional: `https://ceinoticias.cl/category/noticias/nacional/feed/`
   - CEI Noticias - Noticias: `https://ceinoticias.cl/category/noticias/feed/`
@@ -511,6 +518,12 @@
 - **El Sol de Iquique** — Diario regional de Iquique, Tarapacá
   - El Sol de Iquique - Política: `https://elsoldeiquique.cl/politica/feed/`
   - El Sol de Iquique - Nacional: `https://elsoldeiquique.cl/nacional/feed/`
+- **El Telescopio** — Medio de noticias chileno (sitio no disponible al momento de la revisión)
+  - El Telescopio: `https://eltelescopio.cl/feed/`
+  - El Telescopio - Política: `https://eltelescopio.cl/category/politica/feed/`
+  - El Telescopio - Lo Más Visto: `https://eltelescopio.cl/category/lo-mas-visto/feed/`
+  - El Telescopio [Proxy Google News]: `https://news.google.com/rss/search?q=site:eltelescopio.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - El Telescopio [Proxy Bing News]: `https://www.bing.com/news/search?q=site:eltelescopio.cl&format=RSS`
 - **El Tirapiedras** — Diario regional de Puerto Natales, Magallanes
   - El Tirapiedras - Nacional: `https://www.eltirapiedras.cl/nacional/feed/`
   - El Tirapiedras - Política: `https://www.eltirapiedras.cl/politica/feed/`
@@ -529,6 +542,17 @@
 - **En La Línea** — Diario regional de Calama, Antofagasta
   - En La Línea - Política: `https://www.enlalinea.cl/category/politica/feed/`
   - En La Línea - Nacional: `https://www.enlalinea.cl/category/nacional/feed/`
+- **En Línea Maule**: Feed de la categoría 'Nacional' en En Línea Maule
+  - RSS: `https://enlineamaule.cl/archivo/category/nacional/feed/`
+- **EnEstrado.com** — Portal chileno especializado en información judicial: actualidad, sentencias, agenda judicial y opinión legal
+  - EnEstrado.com: `https://enestrado.com/feed/`
+  - EnEstrado.com - Actualidad: `https://enestrado.com/category/actualidad/feed/`
+  - EnEstrado.com - Opinión: `https://enestrado.com/category/opinion/feed/`
+  - EnEstrado.com - Sentencias: `https://enestrado.com/category/sentencias/feed/`
+  - EnEstrado.com - Estudio Jurídico: `https://enestrado.com/category/estudio-juridico/feed/`
+  - EnEstrado.com - Agenda Judicial: `https://enestrado.com/category/agenda-judicial/feed/`
+  - EnEstrado.com [Proxy Google News]: `https://news.google.com/rss/search?q=site:enestrado.com&hl=es-419&gl=CL&ceid=CL:es-419`
+  - EnEstrado.com [Proxy Bing News]: `https://www.bing.com/news/search?q=site:enestrado.com&format=RSS`
 - **Enfoque Digital O'Higgins**: Feed de la categoría 'Noticias' en Enfoque Digital O'Higgins
   - RSS: `https://vi.cl/category/noticias/feed/`
 - **Epicentro Chile** — Diario regional de Valparaíso, Valparaíso
@@ -615,6 +639,10 @@
   - Interferencia - Mastodon.cl BOT: `https://mastodon.cl/@interferencia.rss`
   - Interferencia [Proxy Google News]: `https://news.google.com/rss/search?q=site:interferencia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Interferencia [Proxy Bing News]: `https://www.bing.com/news/search?q=site:interferencia.cl&format=RSS`
+- **Internet21.cl** — Portal digital de noticias con secciones de reportajes, negocios, tecnología y entretención
+  - Internet21.cl: `https://internet21.cl/feed/`
+  - Internet21.cl - Reportajes: `https://internet21.cl/category/reportajes/feed/`
+  - Internet21.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:internet21.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Iquique Hoy**: Feed de la categoría 'Nacional' en Iquique Hoy
   - RSS: `https://www.iquiquehoy.cl/category/nacional/feed/`
 - **Iquique TV**: Feed de la categoría 'Política' en Iquique TV
@@ -704,6 +732,9 @@
   - Linares en Línea - Actualidad: `https://www.linaresenlinea.cl/category/actualidad/feed/`
 - **MadboxPC**: Feed de la categoría 'Actualidad' en MadboxPC
   - RSS: `https://www.madboxpc.com/category/actualidad/feed/`
+- **Magia Digital** — Noticias de autos, mundo, viajes, tecnología y más
+  - Magia Digital: `https://magiadigital.cl/feed/`
+  - Magia Digital [Proxy Google News]: `https://news.google.com/rss/search?q=site:magiadigital.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Mala Espina** — Medio de fact checking chileno. Verificaciones de actualidad, noticias y explicativos sobre Chile, América Latina y el mundo.
   - Mala Espina: `https://www.malaespinacheck.cl/feed/`
   - Mala Espina - País: `https://www.malaespinacheck.cl/noticias/pais/feed/`
@@ -719,6 +750,8 @@
 - **Mapuche Nation** — Portal de noticias mapuche
   - Mapuche Nation: `https://www.mapuche-nation.org/feed/`
   - Mapuche Nation - News: `https://www.mapuche-nation.org/blog/category/news/feed/`
+- **Margamarga TV**: Feed de la categoría 'Nacional' en Margamarga TV
+  - RSS: `https://margamargatv.cl/category/nacional/feed/`
 - **Maule Hoy**: Feed de la categoría 'Nacional' en Maule Hoy
   - RSS: `https://maulehoy.cl/nacional/feed/`
 - **Mediabanco** — Agencia chilena de noticias con pautas, comunicados de prensa y agenda semanal
@@ -1241,6 +1274,8 @@
   - Sera Noticia - Nacional: `https://seranoticia.cl/nacional/feed/`
   - Sera Noticia - Actualidad: `https://seranoticia.cl/actualidad/feed/`
   - Sera Noticia - Politica: `https://seranoticia.cl/politica/feed/`
+- **Sercotec**: Feed de la categoría 'Noticias' en Sercotec
+  - RSS: `https://www.sercotec.cl/category/noticias/feed/`
 - **Serena y Coquimbo**: Feed de la categoría 'Política' en Serena y Coquimbo
   - RSS: `https://serenaycoquimbo.cl/category/politica/feed/`
 - **SERNATUR (Servicio Nacional de Turismo)**: Feed de la categoría 'Noticias' en SERNATUR (Servicio Nacional de Turismo)
@@ -1275,6 +1310,9 @@
   - Temuco Televisión - Actualidad: `https://temucotelevision.cl/web/category/actualidad/feed/`
 - **Temuco Ya**: Feed de la categoría 'País' en Temuco Ya
   - RSS: `https://www.temucoya.cl/category/pais/feed/`
+- **Tercera Dosis** — Medio digital de periodismo investigativo internacional
+  - Tercera Dosis: `https://terceradosis.cl/feed/`
+  - Tercera Dosis - Análisis Político: `https://terceradosis.cl/category/analisis-politico/feed/`
 - **The Clinic** — Periódico digital de análisis político, reportajes e investigación
   - The Clinic: `https://www.theclinic.cl/feed/`
   - The Clinic - Mastodon.cl BOT: `https://mastodon.cl/@theclinic.rss`

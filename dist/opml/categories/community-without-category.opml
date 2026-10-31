@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 👥 Comunidad (295 feeds)</title>
+    <title>Awesome Chilean RSS - 👥 Comunidad (298 feeds)</title>
     <description>Feeds RSS de 👥 Comunidad, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-23T14:34:29.854Z</dateCreated>
+    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -122,6 +122,7 @@
     <outline type="rss" text="Diario Mapuche - Pueblos Indígenas" title="Diario Mapuche - Pueblos Indígenas" description="Feed de la categoría 'Pueblos Indígenas' en Diario Mapuche" xmlUrl="https://www.mapuchediario.cl/category/pueblos-indigenas/feed/" htmlUrl="https://www.mapuchediario.cl/category/pueblos-indigenas/"/>
     <outline type="rss" text="Diario Mapuche - Puelmapu" title="Diario Mapuche - Puelmapu" description="Feed de la categoría 'Puelmapu' en Diario Mapuche" xmlUrl="https://www.mapuchediario.cl/category/puelmapu/feed/" htmlUrl="https://www.mapuchediario.cl/category/puelmapu/"/>
     <outline type="rss" text="Diario Mapuche [Proxy Google News]" title="Diario Mapuche [Proxy Google News]" description="Resultados de site:mapuchediario.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:mapuchediario.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:mapuchediario.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="Diario Puerto Varas - Turismo y Panoramas" title="Diario Puerto Varas - Turismo y Panoramas" description="Feed de la categoría 'Turismo y Panoramas' en Diario Puerto Varas" xmlUrl="https://diariopuertovaras.cl/category/turismo-panoramas/feed/" htmlUrl="https://diariopuertovaras.cl/category/turismo-panoramas/"/>
     <outline type="rss" text="Duplos - Panoramas" title="Duplos - Panoramas" description="Feed de la categoría 'Panoramas' en Duplos" xmlUrl="https://duplos.cl/panoramas/feed/" htmlUrl="https://duplos.cl/panoramas/"/>
     <outline type="rss" text="El Andacollino - Avisos" title="El Andacollino - Avisos" description="Feed de la categoría 'Avisos' en El Andacollino" xmlUrl="https://www.elandacollino.cl/category/avisos/feed/" htmlUrl="https://www.elandacollino.cl/category/avisos/"/>
     <outline type="rss" text="El Calbucano - Defunciones" title="El Calbucano - Defunciones" description="Feed de la categoría 'Defunciones' en El Calbucano" xmlUrl="https://www.elcalbucano.cl/cat/defunciones/feed/" htmlUrl="https://www.elcalbucano.cl/cat/defunciones/"/>
@@ -190,6 +191,7 @@
     <outline type="rss" text="ITseller Chile - Eventos" title="ITseller Chile - Eventos" description="Feed de la categoría 'Eventos' en ITseller Chile" xmlUrl="https://www.itseller.cl/category/transversales/eventos/feed/" htmlUrl="https://www.itseller.cl/category/transversales/eventos/"/>
     <outline type="rss" text="La Batalla de Maipú - Comunidad" title="La Batalla de Maipú - Comunidad" description="Feed de la categoría 'Comunidad' en La Batalla de Maipú" xmlUrl="https://www.labatalla.cl/secciones/comunidad/feed/" htmlUrl="https://www.labatalla.cl/secciones/comunidad/"/>
     <outline type="rss" text="La Noticia - Turismo" title="La Noticia - Turismo" description="Feed de la categoría 'Turismo' en La Noticia" xmlUrl="https://lanoticia.cl/category/turismo/feed/" htmlUrl="https://lanoticia.cl/category/turismo/"/>
+    <outline type="rss" text="La Opinión de Chiloé - Sociedad" title="La Opinión de Chiloé - Sociedad" description="Feed de la categoría 'Sociedad' en La Opinión de Chiloé" xmlUrl="https://laopiniondechiloe.cl/category/sociedad/feed/" htmlUrl="https://laopiniondechiloe.cl/category/sociedad/"/>
     <outline type="rss" text="La Opinión Online - Comunidad" title="La Opinión Online - Comunidad" description="Feed de la categoría 'Comunidad' en La Opinión Online" xmlUrl="https://www.laopiniononline.cl/category/comunidad/feed/" htmlUrl="https://www.laopiniononline.cl/category/comunidad/"/>
     <outline type="rss" text="La Prensa Austral - Sociedad" title="La Prensa Austral - Sociedad" description="Feed de la categoría 'Sociedad' en La Prensa Austral" xmlUrl="https://laprensaaustral.cl/category/sociedad/feed/" htmlUrl="https://laprensaaustral.cl/category/sociedad/"/>
     <outline type="rss" text="La Voz de Pucón - Obituario" title="La Voz de Pucón - Obituario" description="Feed de la categoría 'Obituario' en La Voz de Pucón" xmlUrl="https://www.lavozdepucon.cl/category/obituario/feed/" htmlUrl="https://www.lavozdepucon.cl/category/obituario/"/>
@@ -198,6 +200,7 @@
     <outline type="rss" text="Linares en Línea - Turismo" title="Linares en Línea - Turismo" description="Feed de la categoría 'Turismo' en Linares en Línea" xmlUrl="https://www.linaresenlinea.cl/category/turismo/feed/" htmlUrl="https://www.linaresenlinea.cl/category/turismo/"/>
     <outline type="rss" text="Los Ríos Noticias - Sociedad" title="Los Ríos Noticias - Sociedad" description="Feed de la categoría 'Sociedad' en Los Ríos Noticias" xmlUrl="https://www.losriosnoticias.cl/category/sociedad/feed/" htmlUrl="https://www.losriosnoticias.cl/category/sociedad/"/>
     <outline type="rss" text="MadboxPC - Eventos" title="MadboxPC - Eventos" description="Feed de la categoría 'Eventos' en MadboxPC" xmlUrl="https://www.madboxpc.com/category/eventos/feed/" htmlUrl="https://www.madboxpc.com/category/eventos/"/>
+    <outline type="rss" text="Margamarga TV - Eventos" title="Margamarga TV - Eventos" description="Feed de la categoría 'Eventos' en Margamarga TV" xmlUrl="https://margamargatv.cl/category/eventos/feed/" htmlUrl="https://margamargatv.cl/category/eventos/"/>
     <outline type="rss" text="Mastodon.cl - #chile" title="Mastodon.cl - #chile" description="Publicaciones bajo #chile en mastodon.cl" xmlUrl="https://mastodon.cl/tags/chile.rss" htmlUrl="https://mastodon.cl"/>
     <outline type="rss" text="Mastodon.cl - #tecnología" title="Mastodon.cl - #tecnología" description="Publicaciones bajo #tecnología en mastodon.cl" xmlUrl="https://mastodon.cl/tags/tecnología.rss" htmlUrl="https://mastodon.cl"/>
     <outline type="rss" text="MCH (Mineria Chilena) - Comunidad" title="MCH (Mineria Chilena) - Comunidad" description="Feed de la categoría 'Comunidad' en MCH (Mineria Chilena)" xmlUrl="https://www.mch.cl/categoria/comunidad/feed/" htmlUrl="https://www.mch.cl/categoria/comunidad/"/>
