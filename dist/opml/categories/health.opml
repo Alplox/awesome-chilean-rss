@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (178 feeds)</title>
+    <title>Awesome Chilean RSS - 🏥 Salud y Bienestar (179 feeds)</title>
     <description>Feeds RSS de 🏥 Salud y Bienestar, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
+    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -23,6 +23,7 @@
       <outline type="rss" text="CIPS - Centro de Políticas Públicas e Innovación en Salud - Cips En La Prensa" title="CIPS - Centro de Políticas Públicas e Innovación en Salud - Cips En La Prensa" description="Feed de la categoría 'Cips En La Prensa' en CIPS - Centro de Políticas Públicas e Innovación en Salud" xmlUrl="https://gobierno.udd.cl/cips/category/cips-en-la-prensa/feed/" htmlUrl="https://gobierno.udd.cl/cips/category/cips-en-la-prensa/"/>
       <outline type="rss" text="CIPS - Centro de Políticas Públicas e Innovación en Salud [Proxy Google News]" title="CIPS - Centro de Políticas Públicas e Innovación en Salud [Proxy Google News]" description="Resultados de site:gobierno.udd.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:gobierno.udd.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:gobierno.udd.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="CIPS - Salud" title="CIPS - Salud" description="Feed principal de CIPS - Centro de Políticas Públicas e Innovación en Salud" xmlUrl="https://gobierno.udd.cl/cips/feed/" htmlUrl="https://gobierno.udd.cl/cips/"/>
+      <outline type="rss" text="ClickTV Chile - Salud" title="ClickTV Chile - Salud" description="Feed de la categoría 'Salud' en ClickTV Chile" xmlUrl="https://clicktvchile.cl/category/salud/feed/" htmlUrl="https://clicktvchile.cl/category/salud/"/>
       <outline type="rss" text="Colegio Médico de Chile" title="Colegio Médico de Chile" description="Feed principal de Colegio Médico de Chile" xmlUrl="https://www.colegiomedico.cl/feed/" htmlUrl="https://www.colegiomedico.cl"/>
       <outline type="rss" text="Colegio Médico de Chile - Bolsa Laboral" title="Colegio Médico de Chile - Bolsa Laboral" description="Feed de la categoría 'Bolsa Laboral' en Colegio Médico de Chile" xmlUrl="https://www.colegiomedico.cl/category/bolsa-laboral/feed/" htmlUrl="https://www.colegiomedico.cl/category/bolsa-laboral/"/>
       <outline type="rss" text="Colegio Médico de Chile - Colmed Informa" title="Colegio Médico de Chile - Colmed Informa" description="Feed de la categoría 'Colmed Informa' en Colegio Médico de Chile" xmlUrl="https://www.colegiomedico.cl/category/colmed-informa/feed/" htmlUrl="https://www.colegiomedico.cl/category/colmed-informa/"/>

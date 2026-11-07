@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (367 feeds)</title>
+    <title>Awesome Chilean RSS - 🏫 Educación, Universidades e Investigación (368 feeds)</title>
     <description>Feeds RSS de 🏫 Educación, Universidades e Investigación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
+    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -29,6 +29,7 @@
     <outline type="rss" text="CEP Chile - Entrevistas" title="CEP Chile - Entrevistas" description="Feed de la categoría 'Entrevistas' en CEP Chile" xmlUrl="https://www.cepchile.cl/category/entrevistas/feed/" htmlUrl="https://www.cepchile.cl/category/entrevistas/"/>
     <outline type="rss" text="CEP Chile - Noticias Cep" title="CEP Chile - Noticias Cep" description="Feed de la categoría 'Noticias Cep' en CEP Chile" xmlUrl="https://www.cepchile.cl/category/cep-en-la-prensa/feed/" htmlUrl="https://www.cepchile.cl/category/cep-en-la-prensa/"/>
     <outline type="rss" text="CEP Chile - Opinión" title="CEP Chile - Opinión" description="Feed de la categoría 'Opinión' en CEP Chile" xmlUrl="https://www.cepchile.cl/category/opinion/feed/" htmlUrl="https://www.cepchile.cl/category/opinion/"/>
+    <outline type="rss" text="ClickTV Chile - Educación" title="ClickTV Chile - Educación" description="Feed de la categoría 'Educación' en ClickTV Chile" xmlUrl="https://clicktvchile.cl/category/educacion/feed/" htmlUrl="https://clicktvchile.cl/category/educacion/"/>
     <outline type="rss" text="Colegio Alemán de Santiago" title="Colegio Alemán de Santiago" description="Feed principal de Colegio Alemán de Santiago" xmlUrl="https://dsstgo.cl/feed/" htmlUrl="https://dsstgo.cl"/>
     <outline type="rss" text="Colegio Alemán de Santiago [Proxy Google News]" title="Colegio Alemán de Santiago [Proxy Google News]" description="Resultados de site:dsstgo.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:dsstgo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:dsstgo.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Colegio Cordillera" title="Colegio Cordillera" description="Feed principal de Colegio Cordillera" xmlUrl="https://www.colegiocordillera.cl/feed/" htmlUrl="https://www.colegiocordillera.cl"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (407 feeds)</title>
+    <title>Awesome Chilean RSS - 💼 Economia, Negocios y Finanzas (408 feeds)</title>
     <description>Feeds RSS de 💼 Economia, Negocios y Finanzas, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
+    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -76,6 +76,7 @@
     <outline type="rss" text="Chocale - Vida Social" title="Chocale - Vida Social" description="Feed de la categoría 'Vida Social' en Chocale" xmlUrl="https://chocale.cl/vida-social/feed/" htmlUrl="https://chocale.cl/vida-social/"/>
     <outline type="rss" text="Chocale [Proxy Bing News]" title="Chocale [Proxy Bing News]" description="Resultados de site:chocale.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:chocale.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:chocale.cl"/>
     <outline type="rss" text="Chocale [Proxy Google News]" title="Chocale [Proxy Google News]" description="Resultados de site:chocale.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:chocale.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:chocale.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="ClickTV Chile - Economía" title="ClickTV Chile - Economía" description="Feed de la categoría 'Economía' en ClickTV Chile" xmlUrl="https://clicktvchile.cl/category/economia/feed/" htmlUrl="https://clicktvchile.cl/category/economia/"/>
     <outline type="rss" text="CPC" title="CPC" description="Feed principal de la CPC" xmlUrl="https://www.cpc.cl/feed/" htmlUrl="https://www.cpc.cl"/>
     <outline type="rss" text="CPC [Proxy Bing News]" title="CPC [Proxy Bing News]" description="Resultados de site:cpc.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:cpc.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:cpc.cl"/>
     <outline type="rss" text="CPC [Proxy Google News]" title="CPC [Proxy Google News]" description="Resultados de site:cpc.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:cpc.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:cpc.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 657 feeds</title>
-    <description>El directorio más completo de feeds RSS chilenos. 657 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
-    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
+    <title>Awesome Chilean RSS - 660 feeds</title>
+    <description>El directorio más completo de feeds RSS chilenos. 660 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
+    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -19,6 +19,7 @@
       <outline type="rss" text="Chile21" title="Chile21" description="Feed principal de Chile21" xmlUrl="https://chile21.cl/feed/" htmlUrl="https://chile21.cl"/>
       <outline type="rss" text="Chilena FM" title="Chilena FM" description="Feed principal de Chilena FM" xmlUrl="https://cablenoticias.cl/feed" htmlUrl="https://www.chilenafm.cl"/>
       <outline type="rss" text="Ciper Chile" title="Ciper Chile" description="Feed principal de Ciper Chile" xmlUrl="https://www.ciperchile.cl/feed/" htmlUrl="https://www.ciperchile.cl"/>
+      <outline type="rss" text="ClickTV Chile" title="ClickTV Chile" description="Feed principal de ClickTV Chile" xmlUrl="https://clicktvchile.cl/feed/" htmlUrl="https://clicktvchile.cl"/>
       <outline type="rss" text="Cóndor - Portada" title="Cóndor - Portada" description="Feed principal de Cóndor" xmlUrl="https://www.condor.cl/feed/" htmlUrl="https://www.condor.cl"/>
       <outline type="rss" text="Contingencia Chile" title="Contingencia Chile" description="Feed principal de Contingencia Chile" xmlUrl="https://www.contingenciachile.cl/feed/" htmlUrl="https://www.contingenciachile.cl"/>
       <outline type="rss" text="Contrapoder Chile" title="Contrapoder Chile" description="Feed principal de Contrapoder Chile" xmlUrl="https://contrapoderchile.cl/feed/" htmlUrl="https://contrapoderchile.cl/"/>
@@ -26,6 +27,7 @@
       <outline type="rss" text="Dalenoticias" title="Dalenoticias" description="Medio digital con noticias de Chile y el mundo" xmlUrl="https://dalenoticias.cl/feed/" htmlUrl="https://dalenoticias.cl/"/>
       <outline type="rss" text="Desenfoque" title="Desenfoque" description="Feed principal de Desenfoque" xmlUrl="https://desenfoque.cl/feed/" htmlUrl="https://desenfoque.cl"/>
       <outline type="rss" text="Diario Chile - Main" title="Diario Chile - Main" description="Feed principal de Diario Chile" xmlUrl="https://diariochile.cl/feed/" htmlUrl="https://diariochile.cl"/>
+      <outline type="rss" text="Diario El Ágora" title="Diario El Ágora" description="Feed principal de Diario El Ágora" xmlUrl="https://www.elagora.cl/feed/" htmlUrl="https://www.elagora.cl"/>
       <outline type="rss" text="El Arrebato" title="El Arrebato" description="Feed principal de El Arrebato" xmlUrl="https://elarrebato.cl/feed/" htmlUrl="https://elarrebato.cl"/>
       <outline type="rss" text="El Ciudadano" title="El Ciudadano" description="Feed principal de El Ciudadano" xmlUrl="https://www.elciudadano.com/feed/" htmlUrl="https://www.elciudadano.com"/>
       <outline type="rss" text="El Clarín de Chile" title="El Clarín de Chile" description="Feed principal de El Clarín de Chile" xmlUrl="https://www.elclarin.cl/feed" htmlUrl="https://www.elclarin.cl"/>
@@ -613,6 +615,7 @@
       <outline type="rss" text="Instituto Antártico Chileno" title="Instituto Antártico Chileno" description="Feed principal de Instituto Antártico Chileno" xmlUrl="https://www.inach.cl/feed/" htmlUrl="https://www.inach.cl"/>
       <outline type="rss" text="Ladera Sur - Viajes y Destinos" title="Ladera Sur - Viajes y Destinos" description="Feed de la categoría 'Viajes y Destinos' en Ladera Sur" xmlUrl="https://laderasur.com/category/viajes-y-destinos/feed/" htmlUrl="https://laderasur.com/category/viajes-y-destinos/"/>
       <outline type="rss" text="Meteored Chile" title="Meteored Chile" description="Feed principal de Meteored Chile" xmlUrl="https://www.meteored.cl/feed/" htmlUrl="https://www.meteored.cl"/>
+      <outline type="rss" text="Resiliencia Chile" title="Resiliencia Chile" description="Feed principal del blog de Resiliencia Chile" xmlUrl="https://resilienciachile.cl/feed/" htmlUrl="https://resilienciachile.cl"/>
       <outline type="rss" text="Revista Ecociencias" title="Revista Ecociencias" description="Feed principal de Revista Ecociencias" xmlUrl="https://revistaecociencias.cl/feed/" htmlUrl="https://revistaecociencias.cl/"/>
       <outline type="rss" text="Sostenibilidad UNAB" title="Sostenibilidad UNAB" description="Feed principal de Sostenibilidad UNAB" xmlUrl="https://sostenibilidad.unab.cl/feed/" htmlUrl="https://sostenibilidad.unab.cl"/>
       <outline type="rss" text="Superintendencia del Medio Ambiente" title="Superintendencia del Medio Ambiente" description="Feed principal de Superintendencia del Medio Ambiente" xmlUrl="https://portal.sma.gob.cl/index.php/feed/" htmlUrl="https://portal.sma.gob.cl/"/>

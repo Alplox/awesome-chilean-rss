@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (212 feeds)</title>
+    <title>Awesome Chilean RSS - 🌿 Medio Ambiente y Naturaleza (218 feeds)</title>
     <description>Feeds RSS de 🌿 Medio Ambiente y Naturaleza, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
+    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -13,6 +13,7 @@
     <outline type="rss" text="Aurora Noticias - Medio Ambiente" title="Aurora Noticias - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Aurora Noticias" xmlUrl="https://auroranoticias.cl/medio-ambiente/feed/" htmlUrl="https://auroranoticias.cl/medio-ambiente/"/>
     <outline type="rss" text="Base Nacional - Medio Ambiente" title="Base Nacional - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Base Nacional" xmlUrl="https://basenacional.cl/category/medio-ambiente/feed/" htmlUrl="https://basenacional.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Calama en Línea - Medio Ambiente" title="Calama en Línea - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Calama en Línea" xmlUrl="https://noticias.calamaenlinea.cl/category/medio-ambiente/feed/" htmlUrl="https://noticias.calamaenlinea.cl/category/medio-ambiente/"/>
+    <outline type="rss" text="ClickTV Chile - Clima" title="ClickTV Chile - Clima" description="Feed de la categoría 'Clima' en ClickTV Chile" xmlUrl="https://clicktvchile.cl/category/clima/feed/" htmlUrl="https://clicktvchile.cl/category/clima/"/>
     <outline type="rss" text="Codex Verde" title="Codex Verde" description="Feed principal de Codex Verde" xmlUrl="https://codexverde.cl/feed/" htmlUrl="http://www.codexverde.cl/"/>
     <outline type="rss" text="Codex Verde - Agua" title="Codex Verde - Agua" description="Feed de la categoría 'Agua' en Codex Verde" xmlUrl="https://codexverde.cl/category/c18-agua-y-residuos-liquidos/feed/" htmlUrl="https://codexverde.cl/category/c18-agua-y-residuos-liquidos/"/>
     <outline type="rss" text="Codex Verde - Biodiversidad" title="Codex Verde - Biodiversidad" description="Feed de la categoría 'Biodiversidad' en Codex Verde" xmlUrl="https://codexverde.cl/category/biodiversidad/feed/" htmlUrl="https://codexverde.cl/category/biodiversidad/"/>
@@ -176,6 +177,11 @@
     <outline type="rss" text="Radio JGM - Medio Ambiente" title="Radio JGM - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Radio JGM" xmlUrl="https://radiojgm.uchile.cl/category/medio-ambiente/feed/" htmlUrl="https://radiojgm.uchile.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Radio UdeC - Medio Ambiente" title="Radio UdeC - Medio Ambiente" description="Feed de la categoría 'Medio Ambiente' en Radio UdeC" xmlUrl="https://www.radioudec.cl/category/medio-ambiente/feed/" htmlUrl="https://www.radioudec.cl/category/medio-ambiente/"/>
     <outline type="rss" text="Región de Coquimbo - Agricultura" title="Región de Coquimbo - Agricultura" description="Feed de la categoría 'Agricultura' en Región de Coquimbo" xmlUrl="https://regiondecoquimbo.cl/category/agricultura/feed/" htmlUrl="https://regiondecoquimbo.cl/category/agricultura/"/>
+    <outline type="rss" text="Resiliencia Chile" title="Resiliencia Chile" description="Feed principal del blog de Resiliencia Chile" xmlUrl="https://resilienciachile.cl/feed/" htmlUrl="https://resilienciachile.cl"/>
+    <outline type="rss" text="Resiliencia Chile - Participación Comunitaria" title="Resiliencia Chile - Participación Comunitaria" description="Feed de la categoría 'Participación Comunitaria' en Resiliencia Chile" xmlUrl="https://resilienciachile.cl/category/participacion-comunitaria/feed/" htmlUrl="https://resilienciachile.cl/category/participacion-comunitaria/"/>
+    <outline type="rss" text="Resiliencia Chile - Prevención Y Preparación" title="Resiliencia Chile - Prevención Y Preparación" description="Feed de la categoría 'Prevención Y Preparación' en Resiliencia Chile" xmlUrl="https://resilienciachile.cl/category/prevencion-y-preparacion/feed/" htmlUrl="https://resilienciachile.cl/category/prevencion-y-preparacion/"/>
+    <outline type="rss" text="Resiliencia Chile - Riesgos Emergentes Y Adaptación" title="Resiliencia Chile - Riesgos Emergentes Y Adaptación" description="Feed de la categoría 'Riesgos Emergentes Y Adaptación' en Resiliencia Chile" xmlUrl="https://resilienciachile.cl/category/riesgos-emergentes-y-adaptacion/feed/" htmlUrl="https://resilienciachile.cl/category/riesgos-emergentes-y-adaptacion/"/>
+    <outline type="rss" text="Resiliencia Chile [Proxy Google News]" title="Resiliencia Chile [Proxy Google News]" description="Resultados de site:resilienciachile.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:resilienciachile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:resilienciachile.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Revista Ecociencias" title="Revista Ecociencias" description="Feed principal de Revista Ecociencias" xmlUrl="https://revistaecociencias.cl/feed/" htmlUrl="https://revistaecociencias.cl/"/>
     <outline type="rss" text="Revista Ecociencias - Actividad Humana Y Medioambiente" title="Revista Ecociencias - Actividad Humana Y Medioambiente" description="Feed de la categoría 'Actividad Humana Y Medioambiente' en Revista Ecociencias" xmlUrl="https://revistaecociencias.cl/categoria/educacion-ambiental/actividad-humana-y-medioambiente/feed/" htmlUrl="https://revistaecociencias.cl/categoria/educacion-ambiental/actividad-humana-y-medioambiente/"/>
     <outline type="rss" text="Revista Ecociencias - Cambio Climático" title="Revista Ecociencias - Cambio Climático" description="Feed de la categoría 'Cambio Climático' en Revista Ecociencias" xmlUrl="https://revistaecociencias.cl/categoria/educacion-ambiental/cambio-climatico/feed/" htmlUrl="https://revistaecociencias.cl/categoria/educacion-ambiental/cambio-climatico/"/>

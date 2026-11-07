@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 103 sitios, 178 feeds*
+*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 104 sitios, 179 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Salud' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/salud/feed/`
@@ -31,6 +31,8 @@
   - CIPS - Salud: `https://gobierno.udd.cl/cips/feed/`
   - CIPS - Centro de Políticas Públicas e Innovación en Salud - Cips En La Prensa: `https://gobierno.udd.cl/cips/category/cips-en-la-prensa/feed/`
   - CIPS - Centro de Políticas Públicas e Innovación en Salud [Proxy Google News]: `https://news.google.com/rss/search?q=site:gobierno.udd.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **ClickTV Chile**: Feed de la categoría 'Salud' en ClickTV Chile
+  - RSS: `https://clicktvchile.cl/category/salud/feed/`
 - **Colegio Médico de Chile** — Gremio de médicos de Chile, noticias de salud y medicina
   - Colegio Médico de Chile: `https://www.colegiomedico.cl/feed/`
   - Colegio Médico de Chile - Colmed Informa: `https://www.colegiomedico.cl/category/colmed-informa/feed/`

@@ -197,9 +197,9 @@
         "rss_url": "https://www.aricamia.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:11:19.166Z",
-        "status": "stale",
+        "last_known_item_date": "2026-03-03T10:28:36.000Z",
         "verified": false,
-        "last_known_item_date": "2026-03-03T10:28:36.000Z"
+        "status": "stale"
       },
       {
         "id": "arica-mia-cultura",
@@ -449,9 +449,9 @@
         "rss_url": "https://www.ayudamineduc.cl/rss.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:59:21.420Z",
-        "status": "stale",
+        "last_known_item_date": "2021-10-25T17:20:15.000Z",
         "verified": false,
-        "last_known_item_date": "2021-10-25T17:20:15.000Z"
+        "status": "stale"
       },
       {
         "id": "ayuda-mineduc-proxy-google-news",
@@ -887,9 +887,9 @@
         "rss_url": "https://chilemosaico.cl/eventos/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:16:42.237Z",
-        "status": "stale",
+        "last_known_item_date": "2025-05-07T07:40:38.000Z",
         "verified": false,
-        "last_known_item_date": "2025-05-07T07:40:38.000Z"
+        "status": "stale"
       },
       {
         "id": "chile-mosaico-proxy-google-news",
@@ -1374,9 +1374,9 @@
         "rss_url": "http://creas.uahurtado.cl/feeds/posts/default?alt=rss",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:00:13.953Z",
-        "status": "stale",
+        "last_known_item_date": "2014-12-31T19:29:00.000Z",
         "verified": false,
-        "last_known_item_date": "2014-12-31T19:29:00.000Z"
+        "status": "stale"
       },
       {
         "id": "creas-uah-proxy-google-news",
@@ -1418,9 +1418,9 @@
         "rss_url": "https://www.cronicachillan.cl/?feed=rss2",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:15:37.955Z",
-        "status": "stale",
+        "last_known_item_date": "2020-09-30T14:04:25.000Z",
         "verified": false,
-        "last_known_item_date": "2020-09-30T14:04:25.000Z"
+        "status": "stale"
       },
       {
         "id": "cronica-chillan-proxy-google-news",
@@ -1496,9 +1496,9 @@
         "rss_url": "https://50.cultura.gob.cl/rss.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:47:17.028Z",
-        "status": "stale",
+        "last_known_item_date": "2024-09-10T13:38:08.000Z",
         "verified": false,
-        "last_known_item_date": "2024-09-10T13:38:08.000Z"
+        "status": "stale"
       },
       {
         "id": "cultura-50-anos-golpe-proxy-google-news",
@@ -2176,9 +2176,9 @@
         "rss_url": "https://www.diariooficial.interior.gob.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:57:30.260Z",
-        "status": "stale",
+        "last_known_item_date": "2017-06-13T07:00:00.000Z",
         "verified": false,
-        "last_known_item_date": "2017-06-13T07:00:00.000Z"
+        "status": "stale"
       },
       {
         "id": "diario-oficial-publicacion",
@@ -2971,9 +2971,9 @@
         "rss_url": "https://www.diarioelgong.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:12:43.875Z",
-        "status": "stale",
+        "last_known_item_date": "2025-01-13T11:49:55.000Z",
         "verified": false,
-        "last_known_item_date": "2025-01-13T11:49:55.000Z"
+        "status": "stale"
       },
       {
         "id": "el-gong-actualidad",
@@ -3701,9 +3701,9 @@
         "rss_url": "https://www.elsur.cl/?feed=rss2",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:16:25.251Z",
-        "status": "stale",
+        "last_known_item_date": "2021-07-10T15:04:45.000Z",
         "verified": false,
-        "last_known_item_date": "2021-07-10T15:04:45.000Z"
+        "status": "stale"
       },
       {
         "id": "el-sur-proxy-google-news",
@@ -3925,9 +3925,9 @@
         "rss_url": "https://enteratehoy.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:12:09.864Z",
-        "status": "stale",
+        "last_known_item_date": "2024-08-29T19:12:41.000Z",
         "verified": false,
-        "last_known_item_date": "2024-08-29T19:12:41.000Z"
+        "status": "stale"
       },
       {
         "id": "enterate-hoy-proxy-google-news",
@@ -4247,9 +4247,9 @@
         "rss_url": "https://fch.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:01:37.610Z",
-        "status": "stale",
+        "last_known_item_date": "2026-03-13T22:21:15.000Z",
         "verified": false,
-        "last_known_item_date": "2026-03-13T22:21:15.000Z"
+        "status": "stale"
       },
       {
         "id": "fundacion-chile-proxy-google-news",
@@ -4531,9 +4531,9 @@
         "rss_url": "https://www.hoyxhoy.cl/?feed=rss2",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:14:54.177Z",
-        "status": "stale",
+        "last_known_item_date": "2021-09-27T12:35:27.000Z",
         "verified": false,
-        "last_known_item_date": "2021-09-27T12:35:27.000Z"
+        "status": "stale"
       },
       {
         "id": "hoyxhoy-proxy-google-news",
@@ -4849,9 +4849,9 @@
         "rss_url": "https://www.estrellaantofagasta.cl/?feed=rss2",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:02:40.994Z",
-        "status": "stale",
+        "last_known_item_date": "2020-07-02T21:57:04.000Z",
         "verified": false,
-        "last_known_item_date": "2020-07-02T21:57:04.000Z"
+        "status": "stale"
       },
       {
         "id": "la-estrella-de-antofagasta-proxy-google-news",
@@ -4893,9 +4893,9 @@
         "rss_url": "https://estrellaarica.cl/?feed=rss2",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:14:02.093Z",
-        "status": "stale",
+        "last_known_item_date": "2025-10-26T00:00:00.000Z",
         "verified": false,
-        "last_known_item_date": "2025-10-26T00:00:00.000Z"
+        "status": "stale"
       },
       {
         "id": "la-estrella-de-arica-proxy-google-news",
@@ -4937,9 +4937,9 @@
         "rss_url": "https://www.estrellaconcepcion.cl/?feed=rss2",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:01:49.396Z",
-        "status": "stale",
+        "last_known_item_date": "2021-07-10T14:54:14.000Z",
         "verified": false,
-        "last_known_item_date": "2021-07-10T14:54:14.000Z"
+        "status": "stale"
       },
       {
         "id": "la-estrella-de-concepcion-proxy-google-news",
@@ -4982,9 +4982,9 @@
         "rss_url": "https://www.estrellatocopilla.cl/?feed=rss2",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:13:10.067Z",
-        "status": "stale",
+        "last_known_item_date": "2020-05-09T10:54:20.000Z",
         "verified": false,
-        "last_known_item_date": "2020-05-09T10:54:20.000Z"
+        "status": "stale"
       },
       {
         "id": "la-estrella-de-tocopilla-proxy-google-news",
@@ -5027,9 +5027,9 @@
         "rss_url": "https://estrellavalpo.cl/?feed=rss2",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:12:25.175Z",
-        "status": "stale",
+        "last_known_item_date": "2023-05-27T00:00:00.000Z",
         "verified": false,
-        "last_known_item_date": "2023-05-27T00:00:00.000Z"
+        "status": "stale"
       },
       {
         "id": "la-estrella-de-valparaiso-proxy-google-news",
@@ -5071,9 +5071,9 @@
         "rss_url": "https://www.estrellaloa.cl/?feed=rss2",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:31:28.571Z",
-        "status": "stale",
+        "last_known_item_date": "2020-05-09T10:56:57.000Z",
         "verified": false,
-        "last_known_item_date": "2020-05-09T10:56:57.000Z"
+        "status": "stale"
       },
       {
         "id": "la-estrella-del-loa-proxy-google-news",
@@ -5488,19 +5488,9 @@
       {
         "id": "mapuche-info-main",
         "name": "Mapuche Info",
-        "rss_url": "https://www.mapuche.info/?format=feed&amp;type=rss",
+        "rss_url": "https://www.mapuche.info/?format=feed",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:26:19.912Z",
-        "status": "stale",
-        "verified": false,
-        "last_known_item_date": "2024-08-10T15:12:06.000Z"
-      },
-      {
-        "id": "mapuche-info-main",
-        "name": "Mapuche Info",
-        "rss_url": "https://www.mapuche.info/?kat=7&amp;format=feed&amp;type=rss",
-        "feed_type": "RSS",
-        "last_checked": "2026-10-31T21:26:17.998Z",
         "last_known_item_date": "2024-08-10T15:12:06.000Z",
         "verified": false,
         "status": "stale"
@@ -6363,9 +6353,9 @@
         "rss_url": "https://saintgeorge.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:59:43.889Z",
-        "status": "stale",
+        "last_known_item_date": "2022-09-04T02:14:57.000Z",
         "verified": false,
-        "last_known_item_date": "2022-09-04T02:14:57.000Z"
+        "status": "stale"
       },
       {
         "id": "st-georges-college-proxy-google-news",
@@ -6407,9 +6397,9 @@
         "rss_url": "https://municipal.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:48:09.684Z",
-        "status": "stale",
+        "last_known_item_date": "2022-07-21T17:59:13.000Z",
         "verified": false,
-        "last_known_item_date": "2022-07-21T17:59:13.000Z"
+        "status": "stale"
       },
       {
         "id": "teatro-municipal-proxy-google-news",
@@ -7247,9 +7237,9 @@
         "rss_url": "https://puertomonttonline.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:29:36.191Z",
-        "status": "stale",
+        "last_known_item_date": "2023-12-09T18:23:44.000Z",
         "verified": false,
-        "last_known_item_date": "2023-12-09T18:23:44.000Z"
+        "status": "stale"
       },
       {
         "id": "puerto-montt-online-noticias",
@@ -7572,9 +7562,9 @@
         "rss_url": "https://www.radioagricultura.cl/rss.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:29:57.074Z",
-        "status": "stale",
+        "last_known_item_date": "2024-06-01T03:52:34.000Z",
         "verified": false,
-        "last_known_item_date": "2024-06-01T03:52:34.000Z"
+        "status": "stale"
       },
       {
         "id": "radio-agricultura-proxy-google-news",
@@ -7661,9 +7651,9 @@
         "rss_url": "https://radiopilmaiquen.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:29:17.811Z",
-        "status": "stale",
+        "last_known_item_date": "2023-04-02T02:18:07.000Z",
         "verified": false,
-        "last_known_item_date": "2023-04-02T02:18:07.000Z"
+        "status": "stale"
       },
       {
         "id": "radio-pilmaiquen-noticias",
@@ -8103,9 +8093,9 @@
         "rss_url": "https://reddigital.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:51:40.122Z",
-        "status": "stale",
+        "last_known_item_date": "2026-01-12T04:41:29.000Z",
         "verified": false,
-        "last_known_item_date": "2026-01-12T04:41:29.000Z"
+        "status": "stale"
       },
       {
         "id": "red-digital-politica",
@@ -10283,9 +10273,9 @@
         "rss_url": "https://www.uss.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:59:57.028Z",
-        "status": "stale",
+        "last_known_item_date": "2023-05-10T12:52:23.000Z",
         "verified": false,
-        "last_known_item_date": "2023-05-10T12:52:23.000Z"
+        "status": "stale"
       },
       {
         "id": "uss-proxy-google-news",
@@ -10394,9 +10384,9 @@
         "rss_url": "https://www.vicariadelasolidaridad.cl/rss.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:32:47.373Z",
-        "status": "stale",
+        "last_known_item_date": "2022-03-10T16:28:00.000Z",
         "verified": false,
-        "last_known_item_date": "2022-03-10T16:28:00.000Z"
+        "status": "stale"
       },
       {
         "id": "vicaria-de-la-solidaridad-proxy-google-news",
@@ -10473,9 +10463,9 @@
         "rss_url": "https://www.werken.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:10:52.960Z",
-        "status": "stale",
+        "last_known_item_date": "2019-11-01T00:00:00.000Z",
         "verified": false,
-        "last_known_item_date": "2019-11-01T00:00:00.000Z"
+        "status": "stale"
       },
       {
         "id": "werken-sobre-nosotros",
@@ -10910,9 +10900,9 @@
         "rss_url": "https://www.trabajando.cl/blog/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:46:31.373Z",
-        "status": "stale",
+        "last_known_item_date": "2026-05-07T14:53:44.000Z",
         "verified": false,
-        "last_known_item_date": "2026-05-07T14:53:44.000Z"
+        "status": "stale"
       },
       {
         "id": "trabajando-proxy-google-news",
@@ -11283,9 +11273,9 @@
         "rss_url": "https://xox.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:33:04.710Z",
-        "status": "stale",
+        "last_known_item_date": "2024-11-28T21:52:31.000Z",
         "verified": false,
-        "last_known_item_date": "2024-11-28T21:52:31.000Z"
+        "status": "stale"
       },
       {
         "id": "xox-cl-variado",
@@ -11339,9 +11329,9 @@
         "rss_url": "https://nexoplay.com/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:56:04.058Z",
-        "status": "stale",
+        "last_known_item_date": "2025-05-26T20:48:07.000Z",
         "verified": false,
-        "last_known_item_date": "2025-05-26T20:48:07.000Z"
+        "status": "stale"
       },
       {
         "id": "nexoplay-portafolio",
@@ -11737,9 +11727,9 @@
         "rss_url": "https://sancarlosaldia.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:54:21.635Z",
-        "status": "stale",
+        "last_known_item_date": "2026-04-22T15:17:17.000Z",
         "verified": false,
-        "last_known_item_date": "2026-04-22T15:17:17.000Z"
+        "status": "stale"
       },
       {
         "id": "san-carlos-al-dia-noticias",
@@ -11889,9 +11879,9 @@
         "rss_url": "https://www.cuponeschile.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:48:46.220Z",
-        "status": "stale",
+        "last_known_item_date": "2025-12-02T08:59:36.000Z",
         "verified": false,
-        "last_known_item_date": "2025-12-02T08:59:36.000Z"
+        "status": "stale"
       },
       {
         "id": "cupones-chile-tiendas",
@@ -11957,9 +11947,9 @@
         "rss_url": "https://www.semillasdeagua.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:28:16.233Z",
-        "status": "stale",
+        "last_known_item_date": "2015-10-18T17:33:51.000Z",
         "verified": false,
-        "last_known_item_date": "2015-10-18T17:33:51.000Z"
+        "status": "stale"
       },
       {
         "id": "semillas-de-agua-noticias",
@@ -12291,9 +12281,9 @@
         "rss_url": "https://radiokonciencia.org/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:35:12.892Z",
-        "status": "stale",
+        "last_known_item_date": "2023-05-19T04:50:18.000Z",
         "verified": false,
-        "last_known_item_date": "2023-05-19T04:50:18.000Z"
+        "status": "stale"
       },
       {
         "id": "radio-konciencia-kyoutei-yosou",
@@ -12383,9 +12373,9 @@
         "rss_url": "https://galactika.wordpress.com/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:34:46.844Z",
-        "status": "stale",
+        "last_known_item_date": "2015-08-18T15:25:05.000Z",
         "verified": false,
-        "last_known_item_date": "2015-08-18T15:25:05.000Z"
+        "status": "stale"
       },
       {
         "id": "radio-galactika-proxy-google-news",
@@ -12870,9 +12860,9 @@
         "rss_url": "https://www.rn.cl/blog-feed.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:09:17.794Z",
-        "status": "stale",
+        "last_known_item_date": "2025-05-13T04:00:00.000Z",
         "verified": false,
-        "last_known_item_date": "2025-05-13T04:00:00.000Z"
+        "status": "stale"
       },
       {
         "id": "renovacion-nacional-proxy-google-news",
@@ -12914,9 +12904,9 @@
         "rss_url": "https://partidodelagente.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:30:33.178Z",
-        "status": "stale",
+        "last_known_item_date": "2023-07-31T20:10:12.000Z",
         "verified": false,
-        "last_known_item_date": "2023-07-31T20:10:12.000Z"
+        "status": "stale"
       },
       {
         "id": "partido-de-la-gente-proxy-google-news",
@@ -13480,9 +13470,9 @@
         "rss_url": "https://www.cne.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:57:19.654Z",
-        "status": "stale",
+        "last_known_item_date": "2025-05-30T16:41:27.000Z",
         "verified": false,
-        "last_known_item_date": "2025-05-30T16:41:27.000Z"
+        "status": "stale"
       },
       {
         "id": "comision-nacional-de-energia-informacion-y-estadisticas",
@@ -13536,9 +13526,9 @@
         "rss_url": "https://evopoli.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T20:58:30.598Z",
-        "status": "stale",
+        "last_known_item_date": "2026-06-15T20:12:29.000Z",
         "verified": false,
-        "last_known_item_date": "2026-06-15T20:12:29.000Z"
+        "status": "stale"
       },
       {
         "id": "evopoli-conoce-evopoli",
@@ -13665,9 +13655,9 @@
         "rss_url": "https://www.beethovenfm.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:35:32.800Z",
-        "status": "stale",
+        "last_known_item_date": "2021-04-02T16:52:09.000Z",
         "verified": false,
-        "last_known_item_date": "2021-04-02T16:52:09.000Z"
+        "status": "stale"
       },
       {
         "id": "radio-beethoven-programacion-radio",
@@ -13850,9 +13840,9 @@
         "rss_url": "https://www.tumundo.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:56:45.626Z",
-        "status": "stale",
+        "last_known_item_date": "2025-10-01T14:55:16.000Z",
         "verified": false,
-        "last_known_item_date": "2025-10-01T14:55:16.000Z"
+        "status": "stale"
       },
       {
         "id": "tu-mundo-proxy-google-news",
@@ -13996,9 +13986,9 @@
         "rss_url": "https://ww2.movistar.cl/index.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:56:34.121Z",
-        "status": "stale",
+        "last_known_item_date": "2001-01-01T00:00:00.000Z",
         "verified": false,
-        "last_known_item_date": "2001-01-01T00:00:00.000Z"
+        "status": "stale"
       },
       {
         "id": "movistar-chile-proxy-google-news",
@@ -14108,9 +14098,9 @@
         "rss_url": "https://www.sea.gob.cl/rss.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:57:48.029Z",
-        "status": "stale",
+        "last_known_item_date": "2025-12-09T13:05:07.000Z",
         "verified": false,
-        "last_known_item_date": "2025-12-09T13:05:07.000Z"
+        "status": "stale"
       },
       {
         "id": "sea-chile-proxy-google-news",
@@ -14230,9 +14220,9 @@
         "rss_url": "https://colegiodeenfermeras.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:42:47.849Z",
-        "status": "stale",
+        "last_known_item_date": "2026-02-19T12:54:10.000Z",
         "verified": false,
-        "last_known_item_date": "2026-02-19T12:54:10.000Z"
+        "status": "stale"
       },
       {
         "id": "colegio-de-enfermeras-proxy-google-news",
@@ -14274,9 +14264,9 @@
         "rss_url": "https://www.lasrosas.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:49:15.348Z",
-        "status": "stale",
+        "last_known_item_date": "2020-01-22T00:36:19.000Z",
         "verified": false,
-        "last_known_item_date": "2020-01-22T00:36:19.000Z"
+        "status": "stale"
       },
       {
         "id": "fundacion-las-rosas-proxy-google-news",
@@ -14624,9 +14614,9 @@
         "rss_url": "https://zonalaboral.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:45:28.700Z",
-        "status": "stale",
+        "last_known_item_date": "2026-05-06T20:31:11.000Z",
         "verified": false,
-        "last_known_item_date": "2026-05-06T20:31:11.000Z"
+        "status": "stale"
       },
       {
         "id": "portal-empleo-proxy-google-news",
@@ -15314,9 +15304,9 @@
         "rss_url": "https://torax.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T20:59:17.356Z",
-        "status": "stale",
+        "last_known_item_date": "2026-08-07T18:25:15.000Z",
         "verified": false,
-        "last_known_item_date": "2026-08-07T18:25:15.000Z"
+        "status": "stale"
       },
       {
         "id": "instituto-nacional-torax-proxy-google-news",
@@ -15732,9 +15722,9 @@
         "rss_url": "https://www.induambiente.cl/?format=feed&type=rss",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:34:10.554Z",
-        "status": "stale",
+        "last_known_item_date": "2015-12-30T21:03:24.000Z",
         "verified": false,
-        "last_known_item_date": "2015-12-30T21:03:24.000Z"
+        "status": "stale"
       },
       {
         "id": "induambiente-proxy-google-news",
@@ -17272,9 +17262,9 @@
         "rss_url": "https://www.radiobeat.cl/blog-feed.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:34:27.958Z",
-        "status": "stale",
+        "last_known_item_date": "2025-07-14T01:55:10.000Z",
         "verified": false,
-        "last_known_item_date": "2025-07-14T01:55:10.000Z"
+        "status": "stale"
       },
       {
         "id": "radio-beat-proxy-google-news",
@@ -17622,9 +17612,9 @@
         "rss_url": "https://revistasignos.cl/index.php/signos/gateway/plugin/WebFeedGatewayPlugin/atom",
         "feed_type": "Atom",
         "last_checked": "2026-10-31T21:59:33.045Z",
-        "status": "stale",
+        "last_known_item_date": "2026-08-14T00:00:00.000Z",
         "verified": false,
-        "last_known_item_date": "2026-08-14T00:00:00.000Z"
+        "status": "stale"
       },
       {
         "id": "revista-signos-proxy-google-news",
@@ -17711,9 +17701,9 @@
         "rss_url": "https://factchecking.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:11:39.411Z",
-        "status": "stale",
+        "last_known_item_date": "2026-06-02T03:05:11.000Z",
         "verified": false,
-        "last_known_item_date": "2026-06-02T03:05:11.000Z"
+        "status": "stale"
       },
       {
         "id": "fact-checking-uc-proxy-google-news",
@@ -17791,9 +17781,9 @@
         "rss_url": "https://elvigilante.cl/feed.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:12:24.953Z",
-        "status": "stale",
+        "last_known_item_date": "2026-05-27T11:04:00.000Z",
         "verified": false,
-        "last_known_item_date": "2026-05-27T11:04:00.000Z"
+        "status": "stale"
       },
       {
         "id": "el-vigilante-proxy-google-news",
@@ -17835,9 +17825,9 @@
         "rss_url": "https://informechile.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:07:40.463Z",
-        "status": "stale",
+        "last_known_item_date": "2026-05-31T15:49:27.000Z",
         "verified": false,
-        "last_known_item_date": "2026-05-31T15:49:27.000Z"
+        "status": "stale"
       },
       {
         "id": "informe-chile-proxy-google-news",
@@ -18123,9 +18113,9 @@
         "rss_url": "https://felipe.lavin.blog/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T20:57:18.890Z",
-        "status": "stale",
+        "last_known_item_date": "2026-06-12T22:20:22.000Z",
         "verified": false,
-        "last_known_item_date": "2026-06-12T22:20:22.000Z"
+        "status": "stale"
       },
       {
         "id": "felipe-lavin-proxy-google-news",
@@ -18592,9 +18582,9 @@
         "rss_url": "https://www.apexpymes.cl/feed.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:00:27.690Z",
-        "status": "stale",
+        "last_known_item_date": "2026-04-23T13:00:00.000Z",
         "verified": false,
-        "last_known_item_date": "2026-04-23T13:00:00.000Z"
+        "status": "stale"
       },
       {
         "id": "apex-pymes-proxy-google-news",
@@ -18779,9 +18769,9 @@
         "rss_url": "https://radiovalparaiso.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:29:04.281Z",
-        "status": "stale",
+        "last_known_item_date": "2026-05-22T07:55:42.000Z",
         "verified": false,
-        "last_known_item_date": "2026-05-22T07:55:42.000Z"
+        "status": "stale"
       },
       {
         "id": "radio-valparaiso-deportes",
@@ -19129,9 +19119,9 @@
         "rss_url": "https://funcionariopublico.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:57:09.499Z",
-        "status": "stale",
+        "last_known_item_date": "2025-05-26T21:06:46.000Z",
         "verified": false,
-        "last_known_item_date": "2025-05-26T21:06:46.000Z"
+        "status": "stale"
       },
       {
         "id": "anip-proxy-google-news",
@@ -19185,9 +19175,9 @@
         "rss_url": "https://herejia.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:00:43.060Z",
-        "status": "stale",
+        "last_known_item_date": "2025-03-23T02:05:06.000Z",
         "verified": false,
-        "last_known_item_date": "2025-03-23T02:05:06.000Z"
+        "status": "stale"
       },
       {
         "id": "herejia-proxy-google-news",
@@ -19241,9 +19231,9 @@
         "rss_url": "https://www.fisa.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:01:28.063Z",
-        "status": "stale",
+        "last_known_item_date": "2026-06-22T16:16:25.000Z",
         "verified": false,
-        "last_known_item_date": "2026-06-22T16:16:25.000Z"
+        "status": "stale"
       },
       {
         "id": "fisa-proxy-google-news",
@@ -19333,9 +19323,9 @@
         "rss_url": "https://blog.broota.com/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:55:43.755Z",
-        "status": "stale",
+        "last_known_item_date": "2026-06-16T14:09:15.000Z",
         "verified": false,
-        "last_known_item_date": "2026-06-16T14:09:15.000Z"
+        "status": "stale"
       },
       {
         "id": "broota-emprendimiento-2",
@@ -20041,9 +20031,9 @@
         "rss_url": "https://lionpro.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:00:58.701Z",
-        "status": "stale",
+        "last_known_item_date": "2026-04-06T00:46:24.000Z",
         "verified": false,
-        "last_known_item_date": "2026-04-06T00:46:24.000Z"
+        "status": "stale"
       },
       {
         "id": "lionpro-proxy-google-news",
@@ -20237,9 +20227,9 @@
         "rss_url": "https://arica.tv/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:16:58.231Z",
-        "status": "stale",
+        "last_known_item_date": "2026-07-17T19:54:26.000Z",
         "verified": false,
-        "last_known_item_date": "2026-07-17T19:54:26.000Z"
+        "status": "stale"
       },
       {
         "id": "arica-tv-proxy-google-news",
@@ -20281,9 +20271,9 @@
         "rss_url": "https://www.disorder.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:47:52.214Z",
-        "status": "stale",
+        "last_known_item_date": "2023-06-30T20:56:39.000Z",
         "verified": false,
-        "last_known_item_date": "2023-06-30T20:56:39.000Z"
+        "status": "stale"
       },
       {
         "id": "disorder-proxy-google-news",
@@ -20325,9 +20315,9 @@
         "rss_url": "https://ammot.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:56:55.530Z",
-        "status": "stale",
+        "last_known_item_date": "2026-03-27T23:47:40.000Z",
         "verified": false,
-        "last_known_item_date": "2026-03-27T23:47:40.000Z"
+        "status": "stale"
       },
       {
         "id": "ammot-proxy-google-news",
@@ -20638,9 +20628,9 @@
         "rss_url": "https://www.nexos.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:01:11.814Z",
-        "status": "stale",
+        "last_known_item_date": "2026-09-14T19:11:21.000Z",
         "verified": false,
-        "last_known_item_date": "2026-09-14T19:11:21.000Z"
+        "status": "stale"
       },
       {
         "id": "nexos-chile-analisis",
@@ -21242,9 +21232,9 @@
         "rss_url": "https://www.queilen.cl/blog-feed.xml",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T22:11:32.212Z",
-        "status": "stale",
+        "last_known_item_date": "2026-06-28T23:45:41.000Z",
         "verified": false,
-        "last_known_item_date": "2026-06-28T23:45:41.000Z"
+        "status": "stale"
       },
       {
         "id": "queilen-proxy-google-news",
@@ -22076,9 +22066,9 @@
         "rss_url": "https://guiaturismo.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:49:44.093Z",
-        "status": "stale",
+        "last_known_item_date": "2026-06-18T22:57:29.000Z",
         "verified": false,
-        "last_known_item_date": "2026-06-18T22:57:29.000Z"
+        "status": "stale"
       },
       {
         "id": "guia-turismo-chile-arica",
@@ -22894,9 +22884,9 @@
         "rss_url": "https://mejorsintlc.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T20:59:57.077Z",
-        "status": "stale",
+        "last_known_item_date": "2026-08-24T15:32:16.000Z",
         "verified": false,
-        "last_known_item_date": "2026-08-24T15:32:16.000Z"
+        "status": "stale"
       },
       {
         "id": "chile-mejor-sin-tlc-quienes-somos",
@@ -23029,9 +23019,9 @@
         "rss_url": "https://sochicar.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:43:19.854Z",
-        "status": "stale",
+        "last_known_item_date": "2026-07-29T20:12:08.000Z",
         "verified": false,
-        "last_known_item_date": "2026-07-29T20:12:08.000Z"
+        "status": "stale"
       },
       {
         "id": "sochicar-noticias",
@@ -23183,9 +23173,9 @@
         "rss_url": "https://codeff.cl/feed/",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T21:33:18.897Z",
-        "status": "stale",
+        "last_known_item_date": "2026-08-17T14:24:57.000Z",
         "verified": false,
-        "last_known_item_date": "2026-08-17T14:24:57.000Z"
+        "status": "stale"
       },
       {
         "id": "codeff-codeff-en-accion",
@@ -23380,6 +23370,85 @@
         "description": "Resultados de site:sesgo.cl en Proxy Bing News",
         "feed_type": "RSS",
         "last_checked": "2026-10-31T19:56:41.988Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "economia-y-sociedad",
+    "name": "Economía y Sociedad",
+    "url": "https://www.economiaysociedad.cl",
+    "category": "business",
+    "description": "Publicación chilena de análisis económico y social, con archivo de revistas y notas sobre políticas públicas",
+    "reason": "sitio Wix sin feed RSS nativo",
+    "feeds": [
+      {
+        "id": "economia-y-sociedad-proxy-google-news",
+        "name": "Economía y Sociedad [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:economiaysociedad.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:economiaysociedad.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:economiaysociedad.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-07T15:46:21.275Z",
+        "last_known_item_date": "2026-07-14T06:38:23.000Z",
+        "verified": false,
+        "status": "stale"
+      },
+      {
+        "id": "economia-y-sociedad-proxy-bing-news",
+        "name": "Economía y Sociedad [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:economiaysociedad.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:economiaysociedad.cl",
+        "description": "Resultados de site:economiaysociedad.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-07T15:46:21.275Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "the-intelligent",
+    "name": "The Intelligent",
+    "url": "https://theintelligent.cl",
+    "category": "news",
+    "description": "Medio digital chileno con noticias de Chile y del mundo",
+    "reason": "feed no verificable por bloqueo Cloudflare (HTTP 403)",
+    "feeds": [
+      {
+        "id": "the-intelligent-main",
+        "name": "The Intelligent",
+        "rss_url": "https://theintelligent.cl/feed/",
+        "description": "Feed principal de The Intelligent",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-07T15:46:21.275Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "no_feed"
+      },
+      {
+        "id": "the-intelligent-proxy-google-news",
+        "name": "The Intelligent [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:theintelligent.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:theintelligent.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:theintelligent.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-07T15:46:21.275Z",
+        "last_known_item_date": "2026-11-07T02:05:17.000Z",
+        "verified": true,
+        "status": "active"
+      },
+      {
+        "id": "the-intelligent-proxy-bing-news",
+        "name": "The Intelligent [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:theintelligent.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:theintelligent.cl",
+        "description": "Resultados de site:theintelligent.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-07T15:46:21.275Z",
         "last_known_item_date": null,
         "verified": false,
         "status": "feed_empty"

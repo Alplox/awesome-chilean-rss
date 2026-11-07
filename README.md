@@ -2,9 +2,9 @@
 # 🇨🇱 Awesome Chilean RSS
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/alplox/awesome-chilean-rss)
-![Sitios](https://img.shields.io/badge/sitios-660-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-6344-blue)
+![Sitios](https://img.shields.io/badge/sitios-663-brightgreen) ![Feeds](https://img.shields.io/badge/feeds-6402-blue)
 
-> El directorio más completo de feeds RSS chilenos. 660 sitios, 6344 feeds verificados, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
+> El directorio más completo de feeds RSS chilenos. 663 sitios, 6402 feeds verificados, organizadas por categoría y mantenidas activamente para evitar enlaces rotos y feeds abandonados.
 
 ### 🌐 Aplicación Web
 
@@ -27,37 +27,37 @@ Cada carpeta de OPML ofrece una vista distinta. Esta tabla muestra cuántos siti
 
 | Archivo | Sitios | Feeds | Qué incluye |
 |---|---|---|---|
-| [`chilean-rss.opml`](dist/opml/chilean-rss.opml) | 660 | 6344 | Todos los feeds activos de todos los sitios |
-| [`chilean-rss-main.opml`](dist/opml/chilean-rss-main.opml) | 657 | 657 | Solo el feed principal de cada sitio, sin subfeeds |
+| [`chilean-rss.opml`](dist/opml/chilean-rss.opml) | 663 | 6402 | Todos los feeds activos de todos los sitios |
+| [`chilean-rss-main.opml`](dist/opml/chilean-rss-main.opml) | 660 | 660 | Solo el feed principal de cada sitio, sin subfeeds |
 | [`chilean-rss-regions.opml`](dist/opml/chilean-rss-regions.opml) | 286 | 3187 | Feeds regionales agrupados por región |
-| [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml) | 660 | 6344 | Todos los feeds, con regionales anidados por subcarpeta |
+| [`chilean-rss-nested.opml`](dist/opml/chilean-rss-nested.opml) | 663 | 6402 | Todos los feeds, con regionales anidados por subcarpeta |
 
 *Sitios* = número de medios distintos con al menos un feed activo. *Feeds* = entradas RSS/Atom en el archivo (un sitio puede aportar varios feeds).
 
-## 📝 Fuentes disponibles (660 sitios, 6344 feeds)
+## 📝 Fuentes disponibles (663 sitios, 6402 feeds)
 
 ### Índice de categorías
 
-- [📰 Noticias Nacionales](dist/readme/categories/news.md) — 309 sitios, 1068 feeds
-- [🌐 Noticias Internacionales](dist/readme/categories/news-international.md) — 109 sitios, 279 feeds
+- [📰 Noticias Nacionales](dist/readme/categories/news.md) — 311 sitios, 1106 feeds
+- [🌐 Noticias Internacionales](dist/readme/categories/news-international.md) — 111 sitios, 281 feeds
 - [🌎 Medios Regionales](dist/readme/categories/regional.md) — 253 sitios, 1931 feeds
-- [💻 Tecnología y Startups](dist/readme/categories/technology.md) — 101 sitios, 365 feeds
+- [💻 Tecnología y Startups](dist/readme/categories/technology.md) — 103 sitios, 367 feeds
 - [🏛️ Gobierno y Datos Públicos](dist/readme/categories/government.md) — 50 sitios, 219 feeds
-- [🏫 Educación, Universidades e Investigación](dist/readme/categories/education.md) — 123 sitios, 367 feeds
-- [💼 Economia, Negocios y Finanzas](dist/readme/categories/business.md) — 134 sitios, 407 feeds
+- [🏫 Educación, Universidades e Investigación](dist/readme/categories/education.md) — 124 sitios, 368 feeds
+- [💼 Economia, Negocios y Finanzas](dist/readme/categories/business.md) — 135 sitios, 408 feeds
 - [💼 Ofertas laborales y empleabilidad](dist/readme/categories/jobs.md) — 17 sitios, 22 feeds
-- [🎨 Cultura y Divulgación](dist/readme/categories/culture.md) — 140 sitios, 232 feeds
+- [🎨 Cultura y Divulgación](dist/readme/categories/culture.md) — 142 sitios, 234 feeds
 - [👥 Comunidad](dist/readme/categories/community.md) — 113 sitios, 298 feeds
-- [⚽ Deportes](dist/readme/categories/sports.md) — 174 sitios, 271 feeds
+- [⚽ Deportes](dist/readme/categories/sports.md) — 176 sitios, 276 feeds
 - [🎮 Videojuegos y Gaming](dist/readme/categories/gaming.md) — 13 sitios, 82 feeds
-- [🌿 Medio Ambiente y Naturaleza](dist/readme/categories/environment.md) — 91 sitios, 212 feeds
+- [🌿 Medio Ambiente y Naturaleza](dist/readme/categories/environment.md) — 93 sitios, 218 feeds
 - [🎭 Espectáculos y Entretención](dist/readme/categories/entertainment.md) — 58 sitios, 155 feeds
 - [📻 Radio y Música](dist/readme/categories/radio.md) — 50 sitios, 189 feeds
-- [🏥 Salud y Bienestar](dist/readme/categories/health.md) — 103 sitios, 178 feeds
+- [🏥 Salud y Bienestar](dist/readme/categories/health.md) — 104 sitios, 179 feeds
 - [🗳️ Partidos Políticos](dist/readme/categories/political-parties.md) — 13 sitios, 45 feeds
 - [✍️ Blogs](dist/readme/categories/blogs.md) — 12 sitios, 24 feeds
 
-## 📋 Watchlist (480 sitios candidatos)
+## 📋 Watchlist (482 sitios candidatos)
 
 Sitios en observación sin feed RSS propio válido. Ver listado completo: [`dist/watchlist.md`](dist/watchlist.md).
 

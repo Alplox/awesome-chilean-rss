@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`sports.opml`](../../opml/categories/sports.opml) - 174 sitios, 271 feeds*
+*Descargar OPML: [`sports.opml`](../../opml/categories/sports.opml) - 176 sitios, 276 feeds*
 
 - **Aconcagua Digital**: Feed de la categoría 'Deportes' en Aconcagua Digital
   - RSS: `https://aconcaguadigital.cl/category/deportes/feed/`
@@ -61,6 +61,9 @@
   - RSS: `https://www.chicureohoy.cl/deportes/feed/`
 - **ChiloeNews**: Feed de la categoría 'Deporte' en ChiloeNews
   - RSS: `https://chiloenews.cl/Categoría/deporte/feed/`
+- **ClickTV Chile** — Canal de televisión chileno con noticias regionales y nacionales, entrevistas y contenido de servicio
+  - ClickTV Chile - Deporte: `https://clicktvchile.cl/category/deporte/feed/`
+  - ClickTV Chile - Deportes: `https://clicktvchile.cl/category/deportes/feed/`
 - **Contingencia Chile**: Feed de la categoría 'Deportes' en Contingencia Chile
   - RSS: `https://www.contingenciachile.cl/category/deportes/feed/`
 - **CRTV Chile** — CRTV Chile es una plataforma multimedia con enfoque en disciplinas deportivas
@@ -100,6 +103,10 @@
   - RSS: `https://www.chanarcillo.cl/category/deportes/feed/`
 - **Diario Chile**: Feed de la categoría 'Deporte' en Diario Chile
   - RSS: `https://diariochile.cl/category/deporte/feed/`
+- **Diario El Ágora** — Diario digital chileno con noticias de actualidad, política, deportes y cultura
+  - Diario El Ágora - Deportes: `https://www.elagora.cl/categoria/deportes/feed/`
+  - Diario El Ágora - Tenis: `https://www.elagora.cl/categoria/deportes/otros-deportes/tenis/feed/`
+  - Diario El Ágora - Rugby: `https://www.elagora.cl/categoria/deportes/otros-deportes/rugby/feed/`
 - **Diario El Cautín**: Feed de la categoría 'Deporte' en Diario El Cautín
   - RSS: `https://diarioelcautin.cl/category/deporte/feed/`
 - **Diario El Centro**: Feed de la categoría 'Deportes' en Diario El Centro

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (232 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (234 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
+    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -43,6 +43,7 @@
     <outline type="rss" text="Chile es Tuyo" title="Chile es Tuyo" description="Feed principal de Chile es Tuyo" xmlUrl="https://chileestuyo.cl/feed/" htmlUrl="https://chileestuyo.cl"/>
     <outline type="rss" text="Chile es Tuyo [Proxy Bing News]" title="Chile es Tuyo [Proxy Bing News]" description="Resultados de site:chileestuyo.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:chileestuyo.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:chileestuyo.cl"/>
     <outline type="rss" text="ChiloeNews - Cultura" title="ChiloeNews - Cultura" description="Feed de la categoría 'Cultura' en ChiloeNews" xmlUrl="https://chiloenews.cl/Categoría/cultura/feed/" htmlUrl="https://chiloenews.cl/Categoría/cultura/"/>
+    <outline type="rss" text="ClickTV Chile - Cultura" title="ClickTV Chile - Cultura" description="Feed de la categoría 'Cultura' en ClickTV Chile" xmlUrl="https://clicktvchile.cl/category/cultura/feed/" htmlUrl="https://clicktvchile.cl/category/cultura/"/>
     <outline type="rss" text="Crónica Digital - Cultura" title="Crónica Digital - Cultura" description="Feed de la categoría 'Cultura' en Crónica Digital" xmlUrl="https://cronicadigital.cl/category/cultura/feed/" htmlUrl="https://cronicadigital.cl/category/cultura/"/>
     <outline type="rss" text="David Noticias - Cultura" title="David Noticias - Cultura" description="Feed de la categoría 'Cultura' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/cultura/feed/" htmlUrl="https://www.davidnoticias.cl/category/cultura/"/>
     <outline type="rss" text="De Mar a Cordillera TV - Arte" title="De Mar a Cordillera TV - Arte" description="Feed de la categoría 'Arte' en De Mar a Cordillera TV" xmlUrl="https://demaracordilleratv.cl/category/arte/feed/" htmlUrl="https://demaracordilleratv.cl/category/arte/"/>
@@ -53,6 +54,7 @@
     <outline type="rss" text="Diario Antofagasta - Cultura" title="Diario Antofagasta - Cultura" description="Feed de la categoría 'Cultura' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/cultura/feed/" htmlUrl="https://www.diarioantofagasta.cl/cultura/"/>
     <outline type="rss" text="Diario Chañarcillo - Entretención Cultura" title="Diario Chañarcillo - Entretención Cultura" description="Feed de la categoría 'Entretención Cultura' en Diario Chañarcillo" xmlUrl="https://www.chanarcillo.cl/category/entretecion-cultura/feed/" htmlUrl="https://www.chanarcillo.cl/category/entretecion-cultura/"/>
     <outline type="rss" text="Diario Chile - Cine" title="Diario Chile - Cine" description="Feed de la categoría 'Cine' en Diario Chile" xmlUrl="https://diariochile.cl/category/cine/feed/" htmlUrl="https://diariochile.cl/category/cine/"/>
+    <outline type="rss" text="Diario El Ágora - Cultura" title="Diario El Ágora - Cultura" description="Feed de la categoría 'Cultura' en Diario El Ágora" xmlUrl="https://www.elagora.cl/categoria/cultura/feed/" htmlUrl="https://www.elagora.cl/categoria/cultura/"/>
     <outline type="rss" text="Diario El Cautín - Cultura" title="Diario El Cautín - Cultura" description="Feed de la categoría 'Cultura' en Diario El Cautín" xmlUrl="https://diarioelcautin.cl/category/cultura/feed/" htmlUrl="https://diarioelcautin.cl/category/cultura/"/>
     <outline type="rss" text="Diario El Centro - Cultura" title="Diario El Centro - Cultura" description="Feed de la categoría 'Cultura' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/cultura/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/cultura/"/>
     <outline type="rss" text="Diario El Marino - Cultura y Entretenimiento" title="Diario El Marino - Cultura y Entretenimiento" description="Feed de la sección 'Cultura y Entretenimiento' en Diario El Marino" xmlUrl="https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/" htmlUrl="https://www.diarioelmarino.cl/cultura-y-entretenimiento/"/>

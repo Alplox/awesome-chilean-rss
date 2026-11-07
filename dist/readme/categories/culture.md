@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`culture.opml`](../../opml/categories/culture.opml) - 140 sitios, 232 feeds*
+*Descargar OPML: [`culture.opml`](../../opml/categories/culture.opml) - 142 sitios, 234 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Anime y Manga: `https://alertageekchile.cl/category/anime-y-manga/feed/`
@@ -60,6 +60,8 @@
   - Chile es Tuyo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:chileestuyo.cl&format=RSS`
 - **ChiloeNews**: Feed de la categoría 'Cultura' en ChiloeNews
   - RSS: `https://chiloenews.cl/Categoría/cultura/feed/`
+- **ClickTV Chile**: Feed de la categoría 'Cultura' en ClickTV Chile
+  - RSS: `https://clicktvchile.cl/category/cultura/feed/`
 - **Crónica Digital**: Feed de la categoría 'Cultura' en Crónica Digital
   - RSS: `https://cronicadigital.cl/category/cultura/feed/`
 - **David Noticias**: Feed de la categoría 'Cultura' en David Noticias
@@ -78,6 +80,8 @@
   - RSS: `https://www.chanarcillo.cl/category/entretecion-cultura/feed/`
 - **Diario Chile**: Feed de la categoría 'Cine' en Diario Chile
   - RSS: `https://diariochile.cl/category/cine/feed/`
+- **Diario El Ágora**: Feed de la categoría 'Cultura' en Diario El Ágora
+  - RSS: `https://www.elagora.cl/categoria/cultura/feed/`
 - **Diario El Cautín**: Feed de la categoría 'Cultura' en Diario El Cautín
   - RSS: `https://diarioelcautin.cl/category/cultura/feed/`
 - **Diario El Centro**: Feed de la categoría 'Cultura' en Diario El Centro

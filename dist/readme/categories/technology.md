@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 101 sitios, 365 feeds*
+*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 103 sitios, 367 feeds*
 
 - **(Empresa) TiChile** — Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
   - (Empresa) tichile: `https://www.tichile.cl/feed/`
@@ -65,6 +65,8 @@
   - Ciencia en Chile - Columna De Opinión: `https://www.cienciaenchile.cl/category/columna-de-opinion/feed/`
   - Ciencia en Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:cienciaenchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Ciencia en Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:cienciaenchile.cl&format=RSS`
+- **ClickTV Chile**: Feed de la categoría 'Tecnología' en ClickTV Chile
+  - RSS: `https://clicktvchile.cl/category/tecnologia/feed/`
 - **Cooperativa Ciencia** — Sección de ciencia de Cooperativa, con noticias y análisis científicos
   - Cooperativa Ciencia: `https://www.cooperativaciencia.cl/feed/`
   - Cooperativa Ciencia - Ciencia: `https://www.cooperativaciencia.cl/seccion/ciencia/feed/`
@@ -110,6 +112,8 @@
   - RSS: `https://www.diarioantofagasta.cl/ciencia-y-tecnologia/feed/`
 - **Diario Chile**: Feed de la categoría 'Ciencia & Tecnología' en Diario Chile
   - RSS: `https://diariochile.cl/category/ciencia-y-tecnologia/feed/`
+- **Diario El Ágora**: Feed de la categoría 'Ciencia Y Tecnología' en Diario El Ágora
+  - RSS: `https://www.elagora.cl/categoria/ciencia-tecnologia/feed/`
 - **Diario El Centro**: Feed de la categoría 'Ciencia y Tecnología' en Diario El Centro
   - RSS: `https://www.diarioelcentro.cl/categoria/ciencia-tecnologia/feed/`
 - **Diario El Longino**: Feed de la categoría 'Ciencia y Tecnología' en Diario El Longino

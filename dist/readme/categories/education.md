@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`education.opml`](../../opml/categories/education.opml) - 123 sitios, 367 feeds*
+*Descargar OPML: [`education.opml`](../../opml/categories/education.opml) - 124 sitios, 368 feeds*
 
 - **(Empresa) Contapapaya**: Feed de la categoría 'Educación' en (Empresa) Contapapaya
   - RSS: `https://contapapaya.cl/category/educacion/feed/`
@@ -40,6 +40,8 @@
   - CEP Chile - Opinión: `https://www.cepchile.cl/category/opinion/feed/`
   - CEP Chile - Entrevistas: `https://www.cepchile.cl/category/entrevistas/feed/`
   - CEP Chile - Noticias Cep: `https://www.cepchile.cl/category/cep-en-la-prensa/feed/`
+- **ClickTV Chile**: Feed de la categoría 'Educación' en ClickTV Chile
+  - RSS: `https://clicktvchile.cl/category/educacion/feed/`
 - **Colegio Alemán de Santiago** — Colegio alemán de Santiago (Deutsche Schule)
   - Colegio Alemán de Santiago: `https://dsstgo.cl/feed/`
   - Colegio Alemán de Santiago [Proxy Google News]: `https://news.google.com/rss/search?q=site:dsstgo.cl&hl=es-419&gl=CL&ceid=CL:es-419`

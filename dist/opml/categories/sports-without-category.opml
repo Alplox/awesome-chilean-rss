@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - ⚽ Deportes (271 feeds)</title>
+    <title>Awesome Chilean RSS - ⚽ Deportes (276 feeds)</title>
     <description>Feeds RSS de ⚽ Deportes, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
+    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -42,6 +42,8 @@
     <outline type="rss" text="CentralWeb - Deportes" title="CentralWeb - Deportes" description="Feed de la categoría 'Deportes' en CentralWeb" xmlUrl="https://centralweb.cl/?cat=3&amp;feed=rss2" htmlUrl="https://centralweb.cl/?cat=3"/>
     <outline type="rss" text="Chicureo Hoy - Deportes" title="Chicureo Hoy - Deportes" description="Feed de la categoría 'Deportes' en Chicureo Hoy" xmlUrl="https://www.chicureohoy.cl/deportes/feed/" htmlUrl="https://www.chicureohoy.cl/deportes/"/>
     <outline type="rss" text="ChiloeNews - Deporte" title="ChiloeNews - Deporte" description="Feed de la categoría 'Deporte' en ChiloeNews" xmlUrl="https://chiloenews.cl/Categoría/deporte/feed/" htmlUrl="https://chiloenews.cl/Categoría/deporte/"/>
+    <outline type="rss" text="ClickTV Chile - Deporte" title="ClickTV Chile - Deporte" description="Feed de la categoría 'Deporte' en ClickTV Chile" xmlUrl="https://clicktvchile.cl/category/deporte/feed/" htmlUrl="https://clicktvchile.cl/category/deporte/"/>
+    <outline type="rss" text="ClickTV Chile - Deportes" title="ClickTV Chile - Deportes" description="Feed de la categoría 'Deportes' en ClickTV Chile" xmlUrl="https://clicktvchile.cl/category/deportes/feed/" htmlUrl="https://clicktvchile.cl/category/deportes/"/>
     <outline type="rss" text="Contingencia Chile - Deportes" title="Contingencia Chile - Deportes" description="Feed de la categoría 'Deportes' en Contingencia Chile" xmlUrl="https://www.contingenciachile.cl/category/deportes/feed/" htmlUrl="https://www.contingenciachile.cl/category/deportes/"/>
     <outline type="rss" text="CRTV Chile" title="CRTV Chile" description="Feed principal de CRTV Chile" xmlUrl="https://crtvchile.cl/rss" htmlUrl="https://crtvchile.cl"/>
     <outline type="rss" text="CRTV Chile - Atletismo" title="CRTV Chile - Atletismo" description="Feed de la categoría 'Atletismo' en CRTV Chile" xmlUrl="https://crtvchile.cl/category/atletismo/feed/" htmlUrl="https://crtvchile.cl/category/atletismo/"/>
@@ -71,6 +73,9 @@
     <outline type="rss" text="Diario Antofagasta - Deportes" title="Diario Antofagasta - Deportes" description="Feed de la categoría 'Deportes' en Diario Antofagasta" xmlUrl="https://www.diarioantofagasta.cl/deportes/feed/" htmlUrl="https://www.diarioantofagasta.cl/deportes/"/>
     <outline type="rss" text="Diario Chañarcillo - Deportes" title="Diario Chañarcillo - Deportes" description="Feed de la categoría 'Deportes' en Diario Chañarcillo" xmlUrl="https://www.chanarcillo.cl/category/deportes/feed/" htmlUrl="https://www.chanarcillo.cl/category/deportes/"/>
     <outline type="rss" text="Diario Chile - Deporte" title="Diario Chile - Deporte" description="Feed de la categoría 'Deporte' en Diario Chile" xmlUrl="https://diariochile.cl/category/deporte/feed/" htmlUrl="https://diariochile.cl/category/deporte/"/>
+    <outline type="rss" text="Diario El Ágora - Deportes" title="Diario El Ágora - Deportes" description="Feed de la categoría 'Deportes' en Diario El Ágora" xmlUrl="https://www.elagora.cl/categoria/deportes/feed/" htmlUrl="https://www.elagora.cl/categoria/deportes/"/>
+    <outline type="rss" text="Diario El Ágora - Rugby" title="Diario El Ágora - Rugby" description="Feed de la categoría 'Rugby' en Diario El Ágora" xmlUrl="https://www.elagora.cl/categoria/deportes/otros-deportes/rugby/feed/" htmlUrl="https://www.elagora.cl/categoria/deportes/otros-deportes/rugby/"/>
+    <outline type="rss" text="Diario El Ágora - Tenis" title="Diario El Ágora - Tenis" description="Feed de la categoría 'Tenis' en Diario El Ágora" xmlUrl="https://www.elagora.cl/categoria/deportes/otros-deportes/tenis/feed/" htmlUrl="https://www.elagora.cl/categoria/deportes/otros-deportes/tenis/"/>
     <outline type="rss" text="Diario El Cautín - Deporte" title="Diario El Cautín - Deporte" description="Feed de la categoría 'Deporte' en Diario El Cautín" xmlUrl="https://diarioelcautin.cl/category/deporte/feed/" htmlUrl="https://diarioelcautin.cl/category/deporte/"/>
     <outline type="rss" text="Diario El Centro - Deportes" title="Diario El Centro - Deportes" description="Feed de la categoría 'Deportes' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/deportes/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/deportes/"/>
     <outline type="rss" text="Diario El Cóndor - Deportes" title="Diario El Cóndor - Deportes" description="Feed de la categoría 'Deportes' en Diario El Cóndor" xmlUrl="https://diariocondor.cl/category/deportes/feed/" htmlUrl="https://diariocondor.cl/category/deportes/"/>

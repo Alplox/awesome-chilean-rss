@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`environment.opml`](../../opml/categories/environment.opml) - 91 sitios, 212 feeds*
+*Descargar OPML: [`environment.opml`](../../opml/categories/environment.opml) - 93 sitios, 218 feeds*
 
 - **Acero y Roca**: Feed de la categoría 'Medio Ambiente' en Acero y Roca
   - RSS: `https://aceroyroca.com/category/medio-ambiente/feed/`
@@ -16,6 +16,8 @@
   - RSS: `https://basenacional.cl/category/medio-ambiente/feed/`
 - **Calama en Línea**: Feed de la categoría 'Medio Ambiente' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/medio-ambiente/feed/`
+- **ClickTV Chile**: Feed de la categoría 'Clima' en ClickTV Chile
+  - RSS: `https://clicktvchile.cl/category/clima/feed/`
 - **Codex Verde** — Medio de noticias sobre medio ambiente y sostenibilidad
   - Codex Verde: `https://codexverde.cl/feed/`
   - Codex Verde - Gestión Ambiental: `https://codexverde.cl/category/c14-gestion-ambiental/feed/`
@@ -252,6 +254,12 @@
   - RSS: `https://www.radioudec.cl/category/medio-ambiente/feed/`
 - **Región de Coquimbo**: Feed de la categoría 'Agricultura' en Región de Coquimbo
   - RSS: `https://regiondecoquimbo.cl/category/agricultura/feed/`
+- **Resiliencia Chile** — Consultora chilena en gestión del riesgo de desastres, con blog sobre prevención, emergencias y adaptación climática
+  - Resiliencia Chile: `https://resilienciachile.cl/feed/`
+  - Resiliencia Chile - Participación Comunitaria: `https://resilienciachile.cl/category/participacion-comunitaria/feed/`
+  - Resiliencia Chile - Prevención Y Preparación: `https://resilienciachile.cl/category/prevencion-y-preparacion/feed/`
+  - Resiliencia Chile - Riesgos Emergentes Y Adaptación: `https://resilienciachile.cl/category/riesgos-emergentes-y-adaptacion/feed/`
+  - Resiliencia Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:resilienciachile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Revista Ecociencias** — Revista digital chilena dedicada a la divulgación de ciencia, naturaleza, biodiversidad, sostenibilidad y educación ambiental.
   - Revista Ecociencias: `https://revistaecociencias.cl/feed/`
   - Revista Ecociencias - Conservación De La Biodiversidad: `https://revistaecociencias.cl/categoria/educacion-ambiental/conservacion-de-la-biodiversidad/feed/`

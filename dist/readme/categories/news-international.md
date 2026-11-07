@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 109 sitios, 279 feeds*
+*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 111 sitios, 281 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'El Mundo' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/el-mundo/feed/`
@@ -79,6 +79,8 @@
   - RSS: `https://www.chicureohoy.cl/actualidad/internacional/feed/`
 - **ChiloeNews**: Feed de la categoría 'Internacional' en ChiloeNews
   - RSS: `https://chiloenews.cl/Categoría/internacional/feed/`
+- **ClickTV Chile**: Feed de la categoría 'Internacional' en ClickTV Chile
+  - RSS: `https://clicktvchile.cl/category/internacional/feed/`
 - **Correo de los Trabajadores**: Feed de la categoría 'Mundo' en Correo de los Trabajadores
   - RSS: `https://cctt.cl/category/politica-internacional/mundo/feed/`
 - **Dalenoticias**: Feed de la categoría 'Internacional' en Dalenoticias
@@ -91,6 +93,8 @@
   - RSS: `https://www.diarioagricola.com/category/economia/internacional/feed/`
 - **Diario Chile**: Feed de la categoría 'Internacional' en Diario Chile
   - RSS: `https://diariochile.cl/category/internacional/feed/`
+- **Diario El Ágora**: Feed de la categoría 'Internacional' en Diario El Ágora
+  - RSS: `https://www.elagora.cl/categoria/actualidad/internacional/feed/`
 - **Diario El Centro**: Feed de la categoría 'Internacional' en Diario El Centro
   - RSS: `https://www.diarioelcentro.cl/categoria/internacional/feed/`
 - **Diario El Día**: Feed de la sección 'Mundo' en Diario El Día

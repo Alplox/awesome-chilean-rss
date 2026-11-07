@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 134 sitios, 407 feeds*
+*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 135 sitios, 408 feeds*
 
 - **(Empresa) Contapapaya** — Plataforma de contabilidad online para pymes chilenas, con artículos sobre contabilidad y emprendimiento
   - (Empresa) Contapapaya: `https://contapapaya.cl/feed/`
@@ -91,6 +91,8 @@
   - Chocale - Vida Social: `https://chocale.cl/vida-social/feed/`
   - Chocale [Proxy Google News]: `https://news.google.com/rss/search?q=site:chocale.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Chocale [Proxy Bing News]: `https://www.bing.com/news/search?q=site:chocale.cl&format=RSS`
+- **ClickTV Chile**: Feed de la categoría 'Economía' en ClickTV Chile
+  - RSS: `https://clicktvchile.cl/category/economia/feed/`
 - **CPC** — Feed principal de la CPC
   - CPC: `https://www.cpc.cl/feed/`
   - CPC [Proxy Google News]: `https://news.google.com/rss/search?q=site:cpc.cl&hl=es-419&gl=CL&ceid=CL:es-419`

@@ -2,9 +2,9 @@
 
 > Sitios en observación: medios chilenos **sin feed RSS propio válido** (o con feeds nativos inactivos), mantenidos en seguimiento hasta detectar un feed válido. Un sitio se considera "sin feeds válidos" cuando **no tiene feed propio** y solo dispone de proxies (activos o no). **Nota importante:** los proxies (Google News `site:`, Bing News `site:`) son fallbacks y **no son el feed propio del sitio**; que aparezcan activos **no** implica que el sitio tenga un feed RSS nativo válido. Generado automáticamente desde `watchlist.json`. No editar manualmente.
 
-**Total:** 480 sitios
+**Total:** 482 sitios
 
-### 📰 Noticias Nacionales (70 sitios)
+### 📰 Noticias Nacionales (71 sitios)
 
 - **123.cl**
   - Sitio: https://noticias.123.cl
@@ -671,6 +671,15 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — Terra Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:terra.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — Terra Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:terra.cl&format=RSS`
+
+- **The Intelligent**
+  - Sitio: https://theintelligent.cl
+  - Motivo en watchlist: _feed no verificable por bloqueo Cloudflare (HTTP 403)_
+  - Feeds propios del sitio (inactivos/stale/broken; motivo de estar en watchlist):
+    - 🚫 no_feed — The Intelligent: `https://theintelligent.cl/feed/`
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - ✅ activo — The Intelligent [Proxy Google News]: `https://news.google.com/rss/search?q=site:theintelligent.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — The Intelligent [Proxy Bing News]: `https://www.bing.com/news/search?q=site:theintelligent.cl&format=RSS`
 
 - **TVN**
   - Sitio: https://www.tvn.cl
@@ -2462,7 +2471,7 @@
     - ✅ activo — USACH [Proxy Google News]: `https://news.google.com/rss/search?q=site:usach.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — USACH [Proxy Bing News]: `https://www.bing.com/news/search?q=site:usach.cl&format=RSS`
 
-### 💼 Economia, Negocios y Finanzas (27 sitios)
+### 💼 Economia, Negocios y Finanzas (28 sitios)
 
 - **(Empresa) Apex Pymes**
   - Sitio: https://www.apexpymes.cl/
@@ -2552,6 +2561,13 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — Economía y Negocios [Proxy Google News]: `https://news.google.com/rss/search?q=site:economiaynegocios.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Economía y Negocios [Proxy Bing News]: `https://www.bing.com/news/search?q=site:economiaynegocios.cl&format=RSS`
+
+- **Economía y Sociedad**
+  - Sitio: https://www.economiaysociedad.cl
+  - Motivo en watchlist: _sitio Wix sin feed RSS nativo_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - ⏳ stale — Economía y Sociedad [Proxy Google News]: `https://news.google.com/rss/search?q=site:economiaysociedad.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Economía y Sociedad [Proxy Bing News]: `https://www.bing.com/news/search?q=site:economiaysociedad.cl&format=RSS`
 
 - **Energía Estratégica**
   - Sitio: https://www.energiaestrategica.com/
@@ -3083,8 +3099,7 @@
   - Sitio: https://www.mapuche.info
   - Motivo en watchlist: _feed stale (último item: 2024-08-10, 812 días)_
   - Feeds propios del sitio (inactivos/stale/broken; motivo de estar en watchlist):
-    - ⏳ stale — Mapuche Info: `https://www.mapuche.info/?format=feed&amp;type=rss`
-    - ⏳ stale — Mapuche Info: `https://www.mapuche.info/?kat=7&amp;format=feed&amp;type=rss`
+    - ⏳ stale — Mapuche Info: `https://www.mapuche.info/?format=feed`
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — Mapuche Info [Proxy Google News]: `https://news.google.com/rss/search?q=site:mapuche.info&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Mapuche Info [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mapuche.info&format=RSS`

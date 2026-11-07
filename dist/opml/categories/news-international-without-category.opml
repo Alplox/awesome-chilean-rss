@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (279 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (281 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-10-31T20:43:34.670Z</dateCreated>
+    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -66,12 +66,14 @@
     <outline type="rss" text="Central Noticia - Internacional" title="Central Noticia - Internacional" description="Feed de la categoría 'Internacional' en Central Noticia" xmlUrl="https://www.centralnoticia.cl/category/internacional/feed/" htmlUrl="https://www.centralnoticia.cl/category/internacional/"/>
     <outline type="rss" text="Chicureo Hoy - Internacional" title="Chicureo Hoy - Internacional" description="Feed de la categoría 'Internacional' en Chicureo Hoy" xmlUrl="https://www.chicureohoy.cl/actualidad/internacional/feed/" htmlUrl="https://www.chicureohoy.cl/actualidad/internacional/"/>
     <outline type="rss" text="ChiloeNews - Internacional" title="ChiloeNews - Internacional" description="Feed de la categoría 'Internacional' en ChiloeNews" xmlUrl="https://chiloenews.cl/Categoría/internacional/feed/" htmlUrl="https://chiloenews.cl/Categoría/internacional/"/>
+    <outline type="rss" text="ClickTV Chile - Internacional" title="ClickTV Chile - Internacional" description="Feed de la categoría 'Internacional' en ClickTV Chile" xmlUrl="https://clicktvchile.cl/category/internacional/feed/" htmlUrl="https://clicktvchile.cl/category/internacional/"/>
     <outline type="rss" text="Correo de los Trabajadores - Mundo" title="Correo de los Trabajadores - Mundo" description="Feed de la categoría 'Mundo' en Correo de los Trabajadores" xmlUrl="https://cctt.cl/category/politica-internacional/mundo/feed/" htmlUrl="https://cctt.cl/category/politica-internacional/mundo/"/>
     <outline type="rss" text="Dalenoticias - Internacional" title="Dalenoticias - Internacional" description="Feed de la categoría 'Internacional' en Dalenoticias" xmlUrl="https://dalenoticias.cl/category/internacional/feed/" htmlUrl="https://dalenoticias.cl/category/internacional/"/>
     <outline type="rss" text="David Noticias - Mundo" title="David Noticias - Mundo" description="Feed de la categoría 'Mundo' en David Noticias" xmlUrl="https://www.davidnoticias.cl/category/mundo/feed/" htmlUrl="https://www.davidnoticias.cl/category/mundo/"/>
     <outline type="rss" text="Desenfoque - Exterior" title="Desenfoque - Exterior" description="Feed de la categoría 'Exterior' en Desenfoque" xmlUrl="https://desenfoque.cl/categoria/internacional/feed/" htmlUrl="https://desenfoque.cl/categoria/internacional/"/>
     <outline type="rss" text="Diario Agrícola - Internacional" title="Diario Agrícola - Internacional" description="Feed de la categoría 'Internacional' en Diario Agrícola" xmlUrl="https://www.diarioagricola.com/category/economia/internacional/feed/" htmlUrl="https://www.diarioagricola.com/category/economia/internacional/"/>
     <outline type="rss" text="Diario Chile - Internacional" title="Diario Chile - Internacional" description="Feed de la categoría 'Internacional' en Diario Chile" xmlUrl="https://diariochile.cl/category/internacional/feed/" htmlUrl="https://diariochile.cl/category/internacional/"/>
+    <outline type="rss" text="Diario El Ágora - Internacional" title="Diario El Ágora - Internacional" description="Feed de la categoría 'Internacional' en Diario El Ágora" xmlUrl="https://www.elagora.cl/categoria/actualidad/internacional/feed/" htmlUrl="https://www.elagora.cl/categoria/actualidad/internacional/"/>
     <outline type="rss" text="Diario El Centro - Internacional" title="Diario El Centro - Internacional" description="Feed de la categoría 'Internacional' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/internacional/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/internacional/"/>
     <outline type="rss" text="Diario El Día - Mundo" title="Diario El Día - Mundo" description="Feed de la sección 'Mundo' en Diario El Día" xmlUrl="https://www.diarioeldia.cl/rss/mundo" htmlUrl="https://www.diarioeldia.cl"/>
     <outline type="rss" text="Diario El Longino - Mundial" title="Diario El Longino - Mundial" description="Feed de la categoría 'Mundial' en Diario El Longino" xmlUrl="https://diariolongino.cl/mundial/feed/" htmlUrl="https://diariolongino.cl/mundial/"/>

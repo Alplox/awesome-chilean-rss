@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news.opml`](../../opml/categories/news.opml) - 309 sitios, 1068 feeds*
+*Descargar OPML: [`news.opml`](../../opml/categories/news.opml) - 311 sitios, 1106 feeds*
 
 - **aDiarioCR** — Periódico digital con noticias de Chile y el mundo
   - aDiarioCR - Portada: `https://adiariocr.com/feed/`
@@ -134,6 +134,28 @@
   - Ciper Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ciperchile.cl&format=RSS`
 - **CIPS - Centro de Políticas Públicas e Innovación en Salud**: Feed de la categoría 'Noticias' en CIPS - Centro de Políticas Públicas e Innovación en Salud
   - RSS: `https://gobierno.udd.cl/cips/category/noticias/feed/`
+- **ClickTV Chile** — Canal de televisión chileno con noticias regionales y nacionales, entrevistas y contenido de servicio
+  - ClickTV Chile: `https://clicktvchile.cl/feed/`
+  - ClickTV Chile - Ahora: `https://clicktvchile.cl/category/ahora/feed/`
+  - ClickTV Chile - International Post: `https://clicktvchile.cl/category/international-post/feed/`
+  - ClickTV Chile - World: `https://clicktvchile.cl/category/international-post/world/feed/`
+  - ClickTV Chile - Policial: `https://clicktvchile.cl/category/policial/feed/`
+  - ClickTV Chile - Nacional: `https://clicktvchile.cl/category/nacional/feed/`
+  - ClickTV Chile - Sucesos: `https://clicktvchile.cl/category/sucesos/feed/`
+  - ClickTV Chile - Espectáculo: `https://clicktvchile.cl/category/espectaculo/feed/`
+  - ClickTV Chile - Iglesia Evangélica: `https://clicktvchile.cl/category/iglesia-evangelica/feed/`
+  - ClickTV Chile - Internacional, Ahora: `https://clicktvchile.cl/category/internacional-ahora/feed/`
+  - ClickTV Chile - Fe Y Actualidad: `https://clicktvchile.cl/category/fe-y-actualidad/feed/`
+  - ClickTV Chile - Política: `https://clicktvchile.cl/category/politica/feed/`
+  - ClickTV Chile - Mundo Cristiano: `https://clicktvchile.cl/category/mundo-cristiano/feed/`
+  - ClickTV Chile - Emergencia: `https://clicktvchile.cl/category/emergencia/feed/`
+  - ClickTV Chile - Otros: `https://clicktvchile.cl/category/otros/feed/`
+  - ClickTV Chile - Accidentes: `https://clicktvchile.cl/category/accidentes/feed/`
+  - ClickTV Chile - Justicia: `https://clicktvchile.cl/category/justicia/feed/`
+  - ClickTV Chile - Viral: `https://clicktvchile.cl/category/viral/feed/`
+  - ClickTV Chile - Transporte: `https://clicktvchile.cl/category/transporte/feed/`
+  - ClickTV Chile - Crimen: `https://clicktvchile.cl/category/crimen/feed/`
+  - ClickTV Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:clicktvchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Colegio de Profesores**: Feed de la categoría 'Noticias' en Colegio de Profesores
   - RSS: `https://www.colegiodeprofesores.cl/category/noticias/feed/`
 - **Colegio San Ignacio El Bosque**: Feed de la categoría 'Noticias' en Colegio San Ignacio El Bosque
@@ -263,6 +285,24 @@
   - Diario Chile - Portada: `https://diariochile.cl/category/portada/feed/`
   - Diario Chile - Reportajes: `https://diariochile.cl/category/reportajes/feed/`
   - Diario Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:diariochile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Diario El Ágora** — Diario digital chileno con noticias de actualidad, política, deportes y cultura
+  - Diario El Ágora: `https://www.elagora.cl/feed/`
+  - Diario El Ágora - Actualidad: `https://www.elagora.cl/categoria/actualidad/feed/`
+  - Diario El Ágora - País: `https://www.elagora.cl/categoria/actualidad/pais/feed/`
+  - Diario El Ágora - Fútbol Chileno: `https://www.elagora.cl/categoria/deportes/futbol-chileno/feed/`
+  - Diario El Ágora - Otros Deportes: `https://www.elagora.cl/categoria/deportes/otros-deportes/feed/`
+  - Diario El Ágora - Fútbol Internacional: `https://www.elagora.cl/categoria/deportes/futbol-internacional/feed/`
+  - Diario El Ágora - Portada: `https://www.elagora.cl/categoria/portada/feed/`
+  - Diario El Ágora - Actualidad Cultura: `https://www.elagora.cl/categoria/cultura/actualidad-cultura/feed/`
+  - Diario El Ágora - Opinión: `https://www.elagora.cl/categoria/opinion-2/feed/`
+  - Diario El Ágora - Opinión Deportes: `https://www.elagora.cl/categoria/opinion-2/opinion/feed/`
+  - Diario El Ágora - Servicios: `https://www.elagora.cl/categoria/servicios/feed/`
+  - Diario El Ágora - Opinión Actualidad: `https://www.elagora.cl/categoria/opinion-2/opinion-actualidad/feed/`
+  - Diario El Ágora - Magazine: `https://www.elagora.cl/categoria/magazine/feed/`
+  - Diario El Ágora - Fútbol Femenino: `https://www.elagora.cl/categoria/deportes/futbol-femenino/feed/`
+  - Diario El Ágora - Opinión Cultura: `https://www.elagora.cl/categoria/opinion-2/opinion-cultura/feed/`
+  - Diario El Ágora [Proxy Google News]: `https://news.google.com/rss/search?q=site:elagora.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Diario El Ágora [Proxy Bing News]: `https://www.bing.com/news/search?q=site:elagora.cl&format=RSS`
 - **Diario El Cautín**: Feed de la categoría 'Actualidad' en Diario El Cautín
   - RSS: `https://diarioelcautin.cl/category/actualidad/feed/`
 - **Diario El Centro** — Diario regional de Talca, Maule
