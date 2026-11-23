@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (367 feeds)</title>
+    <title>Awesome Chilean RSS - 💻 Tecnología y Startups (381 feeds)</title>
     <description>Feeds RSS de 💻 Tecnología y Startups, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
+    <dateCreated>2026-11-23T20:23:24.237Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -303,6 +303,20 @@
       <outline type="rss" text="Samsung Newsroom Latin America" title="Samsung Newsroom Latin America" description="Feed principal de Samsung Newsroom Latin America" xmlUrl="https://news.samsung.com/latin/feed" htmlUrl="https://news.samsung.com/latin/"/>
       <outline type="rss" text="Samsung Newsroom Latin America [Proxy Bing News]" title="Samsung Newsroom Latin America [Proxy Bing News]" description="Resultados de site:news.samsung.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:news.samsung.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:news.samsung.com"/>
       <outline type="rss" text="Samsung Newsroom Latin America [Proxy Google News]" title="Samsung Newsroom Latin America [Proxy Google News]" description="Resultados de site:news.samsung.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:news.samsung.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:news.samsung.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Tecnautas" title="Tecnautas" description="Feed principal de Tecnautas" xmlUrl="https://tecnautas.cl/feed/" htmlUrl="https://tecnautas.cl"/>
+      <outline type="rss" text="Tecnautas - Apps" title="Tecnautas - Apps" description="Feed de la categoría 'Apps' en Tecnautas" xmlUrl="https://tecnautas.cl/category/apps/feed/" htmlUrl="https://tecnautas.cl/category/apps/"/>
+      <outline type="rss" text="Tecnautas - Columna" title="Tecnautas - Columna" description="Feed de la categoría 'Columna' en Tecnautas" xmlUrl="https://tecnautas.cl/category/columna/feed/" htmlUrl="https://tecnautas.cl/category/columna/"/>
+      <outline type="rss" text="Tecnautas - Corporativo" title="Tecnautas - Corporativo" description="Feed de la categoría 'Corporativo' en Tecnautas" xmlUrl="https://tecnautas.cl/category/corporativo/feed/" htmlUrl="https://tecnautas.cl/category/corporativo/"/>
+      <outline type="rss" text="Tecnautas - Cultura Fandom" title="Tecnautas - Cultura Fandom" description="Feed de la categoría 'Cultura Fandom' en Tecnautas" xmlUrl="https://tecnautas.cl/category/cultura-fandom/feed/" htmlUrl="https://tecnautas.cl/category/cultura-fandom/"/>
+      <outline type="rss" text="Tecnautas - Motor" title="Tecnautas - Motor" description="Feed de la categoría 'Motor' en Tecnautas" xmlUrl="https://tecnautas.cl/category/motor/feed/" htmlUrl="https://tecnautas.cl/category/motor/"/>
+      <outline type="rss" text="Tecnautas - Panoramas" title="Tecnautas - Panoramas" description="Feed de la categoría 'Panoramas' en Tecnautas" xmlUrl="https://tecnautas.cl/category/panoramas/feed/" htmlUrl="https://tecnautas.cl/category/panoramas/"/>
+      <outline type="rss" text="Tecnautas - Red Hat" title="Tecnautas - Red Hat" description="Feed de la categoría 'Red Hat' en Tecnautas" xmlUrl="https://tecnautas.cl/category/red-hat/feed/" htmlUrl="https://tecnautas.cl/category/red-hat/"/>
+      <outline type="rss" text="Tecnautas - Retail" title="Tecnautas - Retail" description="Feed de la categoría 'Retail' en Tecnautas" xmlUrl="https://tecnautas.cl/category/retail/feed/" htmlUrl="https://tecnautas.cl/category/retail/"/>
+      <outline type="rss" text="Tecnautas - Review Del Juego" title="Tecnautas - Review Del Juego" description="Feed de la categoría 'Review Del Juego' en Tecnautas" xmlUrl="https://tecnautas.cl/category/review-del-juego/feed/" htmlUrl="https://tecnautas.cl/category/review-del-juego/"/>
+      <outline type="rss" text="Tecnautas - Tecnología" title="Tecnautas - Tecnología" description="Feed de la categoría 'Tecnología' en Tecnautas" xmlUrl="https://tecnautas.cl/category/tecnologia/feed/" htmlUrl="https://tecnautas.cl/category/tecnologia/"/>
+      <outline type="rss" text="Tecnautas - Telefonía" title="Tecnautas - Telefonía" description="Feed de la categoría 'Telefonía' en Tecnautas" xmlUrl="https://tecnautas.cl/category/telefonia/feed/" htmlUrl="https://tecnautas.cl/category/telefonia/"/>
+      <outline type="rss" text="Tecnautas - Tendencias" title="Tecnautas - Tendencias" description="Feed de la categoría 'Tendencias' en Tecnautas" xmlUrl="https://tecnautas.cl/category/tendencias/feed/" htmlUrl="https://tecnautas.cl/category/tendencias/"/>
+      <outline type="rss" text="Tecnautas [Proxy Google News]" title="Tecnautas [Proxy Google News]" description="Resultados de site:tecnautas.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:tecnautas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:tecnautas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Tecnología Chile" title="Tecnología Chile" description="Feed principal de Tecnología Chile" xmlUrl="https://nodotecnologico.cl/feed.xml" htmlUrl="https://nodotecnologico.cl/"/>
       <outline type="rss" text="Tecnología Chile [Proxy Google News]" title="Tecnología Chile [Proxy Google News]" description="Resultados de site:nodotecnologico.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:nodotecnologico.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:nodotecnologico.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Telesemana" title="Telesemana" description="Feed principal de Telesemana" xmlUrl="https://www.telesemana.com/feed/" htmlUrl="https://www.telesemana.com"/>

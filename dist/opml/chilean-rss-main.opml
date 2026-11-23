@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 660 feeds</title>
-    <description>El directorio más completo de feeds RSS chilenos. 660 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
-    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
+    <title>Awesome Chilean RSS - 665 feeds</title>
+    <description>El directorio más completo de feeds RSS chilenos. 665 feeds RSS, organizadas por categoría y mantenidas activamente.</description>
+    <dateCreated>2026-11-23T20:23:24.237Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -192,6 +192,7 @@
       <outline type="rss" text="Diario El Día - Últimas noticias" title="Diario El Día - Últimas noticias" description="Feed de la sección 'Últimas noticias' en Diario El Día" xmlUrl="https://www.diarioeldia.cl/rss/noticias" htmlUrl="https://www.diarioeldia.cl"/>
       <outline type="rss" text="Diario El Heraldo" title="Diario El Heraldo" description="Feed principal de Diario El Heraldo" xmlUrl="https://www.diarioelheraldo.cl/rss" htmlUrl="https://www.diarioelheraldo.cl"/>
       <outline type="rss" text="Diario El Huemul" title="Diario El Huemul" description="Feed principal de Diario El Huemul" xmlUrl="https://www.elhuemul.cl/feed/" htmlUrl="https://www.elhuemul.cl"/>
+      <outline type="rss" text="Diario El Labrador" title="Diario El Labrador" description="Feed principal de Diario El Labrador" xmlUrl="https://diarioellabrador.cl/index.php/feed/" htmlUrl="https://diarioellabrador.cl"/>
       <outline type="rss" text="Diario El Longino" title="Diario El Longino" description="Feed principal de Diario El Longino" xmlUrl="https://www.diariolongino.cl/feed/" htmlUrl="https://www.diariolongino.cl"/>
       <outline type="rss" text="Diario El Marino - Nacional" title="Diario El Marino - Nacional" description="Feed de la sección 'Nacional' en Diario El Marino" xmlUrl="https://www.diarioelmarino.cl/nacional/feed/rss/" htmlUrl="https://www.diarioelmarino.cl/nacional/"/>
       <outline type="rss" text="Diario El Nortino" title="Diario El Nortino" description="Feed principal de Diario El Nortino" xmlUrl="https://diarioelnortino.cl/feed/" htmlUrl="https://diarioelnortino.cl"/>
@@ -346,6 +347,7 @@
       <outline type="rss" text="Regiones Noticias" title="Regiones Noticias" description="Medio digital con noticias de las regiones de Chile" xmlUrl="https://regionesnoticias.cl/feed" htmlUrl="https://regionesnoticias.cl/"/>
       <outline type="rss" text="Resonancia Diario" title="Resonancia Diario" description="Feed principal de Resonancia Diario" xmlUrl="https://www.resonanciadiario.cl/feed/" htmlUrl="https://www.resonanciadiario.cl"/>
       <outline type="rss" text="Río en Línea" title="Río en Línea" description="Feed principal de Río en Línea" xmlUrl="https://www.rioenlinea.cl/feed/" htmlUrl="https://www.rioenlinea.cl"/>
+      <outline type="rss" text="RM Hoy" title="RM Hoy" description="Feed principal de RM Hoy" xmlUrl="https://rmhoy.cl/feed/" htmlUrl="https://rmhoy.cl"/>
       <outline type="rss" text="Sala de Prensa" title="Sala de Prensa" description="Feed principal de Sala de Prensa" xmlUrl="https://saladeprensa.cl/feed/" htmlUrl="https://saladeprensa.cl"/>
       <outline type="rss" text="San Carlos On Line" title="San Carlos On Line" description="Feed principal de San Carlos On Line" xmlUrl="https://www.sancarlosonline.cl/rss.xml" htmlUrl="https://www.sancarlosonline.cl"/>
       <outline type="rss" text="Sera Noticia" title="Sera Noticia" description="Feed principal de Sera Noticia" xmlUrl="https://seranoticia.cl/feed/" htmlUrl="https://seranoticia.cl"/>
@@ -394,6 +396,7 @@
       <outline type="rss" text="N-Lab Chile" title="N-Lab Chile" description="Feed principal de N-Lab Chile" xmlUrl="https://n-lab.cl/feed/" htmlUrl="https://n-lab.cl"/>
       <outline type="rss" text="Pisapapeles" title="Pisapapeles" description="Feed principal de Pisapapeles" xmlUrl="https://pisapapeles.net/feed/" htmlUrl="https://pisapapeles.net"/>
       <outline type="rss" text="Samsung Newsroom Latin America" title="Samsung Newsroom Latin America" description="Feed principal de Samsung Newsroom Latin America" xmlUrl="https://news.samsung.com/latin/feed" htmlUrl="https://news.samsung.com/latin/"/>
+      <outline type="rss" text="Tecnautas" title="Tecnautas" description="Feed principal de Tecnautas" xmlUrl="https://tecnautas.cl/feed/" htmlUrl="https://tecnautas.cl"/>
       <outline type="rss" text="Tecnología Chile" title="Tecnología Chile" description="Feed principal de Tecnología Chile" xmlUrl="https://nodotecnologico.cl/feed.xml" htmlUrl="https://nodotecnologico.cl/"/>
       <outline type="rss" text="Telesemana" title="Telesemana" description="Feed principal de Telesemana" xmlUrl="https://www.telesemana.com/feed/" htmlUrl="https://www.telesemana.com"/>
       <outline type="rss" text="Televitos" title="Televitos" description="Feed principal de Televitos" xmlUrl="https://televitos.com/feed/" htmlUrl="https://televitos.com/"/>
@@ -494,7 +497,9 @@
     </outline>
     <outline text="💼 Economia, Negocios y Finanzas" title="💼 Economia, Negocios y Finanzas">
       <outline type="rss" text="(Empresa) Contapapaya" title="(Empresa) Contapapaya" description="Feed principal de (Empresa) Contapapaya" xmlUrl="https://contapapaya.cl/feed/" htmlUrl="https://contapapaya.cl/"/>
+      <outline type="rss" text="(Empresa) Inmobiliaria RVC" title="(Empresa) Inmobiliaria RVC" description="Feed principal de Inmobiliaria RVC" xmlUrl="https://rvc.cl/feed/" htmlUrl="https://rvc.cl/"/>
       <outline type="rss" text="(Empresa) Logros Servicios Financieros" title="(Empresa) Logros Servicios Financieros" description="Feed principal de (Empresa) Logros Servicios Financieros" xmlUrl="https://www.empresaslogros.cl/blog/rss.xml" htmlUrl="https://www.empresaslogros.cl/"/>
+      <outline type="rss" text="(Empresa) Mundo Amable" title="(Empresa) Mundo Amable" description="Feed principal de Mundo Amable" xmlUrl="https://mundoamable.cl/feed/" htmlUrl="https://mundoamable.cl/"/>
       <outline type="rss" text="ABIF" title="ABIF" description="Asociación de Bancos e Instituciones Financieras de Chile" xmlUrl="https://www.abif.cl/blog-feed.xml" htmlUrl="https://www.abif.cl"/>
       <outline type="rss" text="Acero y Roca" title="Acero y Roca" description="Feed principal de Acero y Roca" xmlUrl="https://aceroyroca.com/feed/" htmlUrl="https://aceroyroca.com"/>
       <outline type="rss" text="Análisis.com" title="Análisis.com" description="Medio de noticias de economía, mercados y negocios de América Latina" xmlUrl="https://www.analisis.com/rss.xml" htmlUrl="https://www.analisis.com/"/>

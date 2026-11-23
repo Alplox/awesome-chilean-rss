@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 111 sitios, 281 feeds*
+*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 112 sitios, 282 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'El Mundo' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/el-mundo/feed/`
@@ -337,6 +337,8 @@
   - RFI Español: `https://www.rfi.fr/es/rss`
   - RFI Español [Proxy Google News]: `https://news.google.com/rss/search?q=site:rfi.fr/es&hl=es-419&gl=CL&ceid=CL:es-419`
   - RFI Español [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rfi.fr/es&format=RSS`
+- **RM Hoy**: Feed de la categoría 'Internacional' en RM Hoy
+  - RSS: `https://rmhoy.cl/category/internacional/feed/`
 - **Sera Noticia** — Diario regional del Maule
   - Sera Noticia - Mundo: `https://seranoticia.cl/mundo/feed/`
   - Sera Noticia - Internacional: `https://seranoticia.cl/internacional/feed/`

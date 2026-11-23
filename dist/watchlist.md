@@ -2,9 +2,9 @@
 
 > Sitios en observación: medios chilenos **sin feed RSS propio válido** (o con feeds nativos inactivos), mantenidos en seguimiento hasta detectar un feed válido. Un sitio se considera "sin feeds válidos" cuando **no tiene feed propio** y solo dispone de proxies (activos o no). **Nota importante:** los proxies (Google News `site:`, Bing News `site:`) son fallbacks y **no son el feed propio del sitio**; que aparezcan activos **no** implica que el sitio tenga un feed RSS nativo válido. Generado automáticamente desde `watchlist.json`. No editar manualmente.
 
-**Total:** 482 sitios
+**Total:** 595 sitios
 
-### 📰 Noticias Nacionales (71 sitios)
+### 📰 Noticias Nacionales (72 sitios)
 
 - **123.cl**
   - Sitio: https://noticias.123.cl
@@ -19,6 +19,13 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — 24 Horas [Proxy Google News]: `https://news.google.com/rss/search?q=site:24horas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — 24 Horas [Proxy Bing News]: `https://www.bing.com/news/search?q=site:24horas.cl&format=RSS`
+
+- **abc.cl**
+  - Sitio: https://abc.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — abc.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:abc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — abc.cl [Proxy Bing News]: `https://www.bing.com/news/search?q=site:abc.cl&format=RSS`
 
 - **Agencia de Noticias**
   - Sitio: https://agenciadenoticias.org
@@ -1669,7 +1676,7 @@
     - 📭 feed_empty — Viento Patagón [Proxy Google News]: `https://news.google.com/rss/search?q=site:vientopatagon.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Viento Patagón [Proxy Bing News]: `https://www.bing.com/news/search?q=site:vientopatagon.cl&format=RSS`
 
-### 💻 Tecnología y Startups (18 sitios)
+### 💻 Tecnología y Startups (22 sitios)
 
 - **(Empresa) Broota**
   - Sitio: https://blog.broota.com
@@ -1763,6 +1770,13 @@
     - ✅ activo — Claro Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:clarochile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Claro Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:clarochile.cl&format=RSS`
 
+- **Deep Productivity & Performance**
+  - Sitio: https://holasomosdeep.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Deep Productivity & Performance [Proxy Google News]: `https://news.google.com/rss/search?q=site:holasomosdeep.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Deep Productivity & Performance [Proxy Bing News]: `https://www.bing.com/news/search?q=site:holasomosdeep.com&format=RSS`
+
 - **Entel**
   - Sitio: https://www.entel.cl/
   - Motivo en watchlist: _sin feed RSS detectado_
@@ -1776,6 +1790,20 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — Fantec Esports [Proxy Google News]: `https://news.google.com/rss/search?q=site:fantechesports.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Fantec Esports [Proxy Bing News]: `https://www.bing.com/news/search?q=site:fantechesports.cl&format=RSS`
+
+- **HiFi**
+  - Sitio: https://hifi.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — HiFi [Proxy Google News]: `https://news.google.com/rss/search?q=site:hifi.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — HiFi [Proxy Bing News]: `https://www.bing.com/news/search?q=site:hifi.cl&format=RSS`
+
+- **Kaadas**
+  - Sitio: https://kaadas.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Kaadas [Proxy Google News]: `https://news.google.com/rss/search?q=site:kaadas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Kaadas [Proxy Bing News]: `https://www.bing.com/news/search?q=site:kaadas.cl&format=RSS`
 
 - **MAS**
   - Sitio: https://mas.cl
@@ -1850,6 +1878,13 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — TeComTel [Proxy Google News]: `https://news.google.com/rss/search?q=site:tecomtel.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — TeComTel [Proxy Bing News]: `https://www.bing.com/news/search?q=site:tecomtel.cl&format=RSS`
+
+- **Tineco**
+  - Sitio: https://tineco.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Tineco [Proxy Google News]: `https://news.google.com/rss/search?q=site:tineco.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Tineco [Proxy Bing News]: `https://www.bing.com/news/search?q=site:tineco.cl&format=RSS`
 
 - **Tu Mundo**
   - Sitio: https://www.tumundo.cl/
@@ -2471,7 +2506,7 @@
     - ✅ activo — USACH [Proxy Google News]: `https://news.google.com/rss/search?q=site:usach.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — USACH [Proxy Bing News]: `https://www.bing.com/news/search?q=site:usach.cl&format=RSS`
 
-### 💼 Economia, Negocios y Finanzas (28 sitios)
+### 💼 Economia, Negocios y Finanzas (99 sitios)
 
 - **(Empresa) Apex Pymes**
   - Sitio: https://www.apexpymes.cl/
@@ -2513,6 +2548,20 @@
     - ⏳ stale — (Empresa) Nexos Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:nexos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — (Empresa) Nexos Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:nexos.cl&format=RSS`
 
+- **7 Veinte**
+  - Sitio: https://7veinte.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — 7 Veinte [Proxy Google News]: `https://news.google.com/rss/search?q=site:7veinte.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — 7 Veinte [Proxy Bing News]: `https://www.bing.com/news/search?q=site:7veinte.cl&format=RSS`
+
+- **Adipa**
+  - Sitio: https://adipa.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Adipa [Proxy Google News]: `https://news.google.com/rss/search?q=site:adipa.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Adipa [Proxy Bing News]: `https://www.bing.com/news/search?q=site:adipa.cl&format=RSS`
+
 - **AmCham Chile**
   - Sitio: https://www.amchamchile.cl
   - Motivo en watchlist: _sin feed RSS detectado_
@@ -2527,12 +2576,82 @@
     - ⏳ stale — América Economía [Proxy Google News]: `https://news.google.com/rss/search?q=site:americaeconomia.com&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — América Economía [Proxy Bing News]: `https://www.bing.com/news/search?q=site:americaeconomia.com&format=RSS`
 
+- **APRO**
+  - Sitio: https://apro.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — APRO [Proxy Google News]: `https://news.google.com/rss/search?q=site:apro.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — APRO [Proxy Bing News]: `https://www.bing.com/news/search?q=site:apro.cl&format=RSS`
+
+- **Auto Planet**
+  - Sitio: https://autoplanet.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Auto Planet [Proxy Google News]: `https://news.google.com/rss/search?q=site:autoplanet.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Auto Planet [Proxy Bing News]: `https://www.bing.com/news/search?q=site:autoplanet.cl&format=RSS`
+
+- **Autopista Ruta 78**
+  - Sitio: https://www.autopistaruta78.cl
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - ⏳ stale — Autopista Ruta 78 [Proxy Google News]: `https://news.google.com/rss/search?q=site:autopistaruta78.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Autopista Ruta 78 [Proxy Bing News]: `https://www.bing.com/news/search?q=site:autopistaruta78.cl&format=RSS`
+
 - **BancoEstado**
   - Sitio: https://www.bancoestado.cl
   - Motivo en watchlist: _sin feed RSS detectado_
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — BancoEstado [Proxy Google News]: `https://news.google.com/rss/search?q=site:bancoestado.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — BancoEstado [Proxy Bing News]: `https://www.bing.com/news/search?q=site:bancoestado.cl&format=RSS`
+
+- **Bazar ED**
+  - Sitio: https://bazared.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Bazar ED [Proxy Google News]: `https://news.google.com/rss/search?q=site:bazared.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Bazar ED [Proxy Bing News]: `https://www.bing.com/news/search?q=site:bazared.cl&format=RSS`
+
+- **Bebesit**
+  - Sitio: https://bebesit.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Bebesit [Proxy Google News]: `https://news.google.com/rss/search?q=site:bebesit.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Bebesit [Proxy Bing News]: `https://www.bing.com/news/search?q=site:bebesit.cl&format=RSS`
+
+- **Biblias y Libros**
+  - Sitio: https://sbch.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Biblias y Libros [Proxy Google News]: `https://news.google.com/rss/search?q=site:sbch.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Biblias y Libros [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sbch.cl&format=RSS`
+
+- **Biblias.cl**
+  - Sitio: https://biblias.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Biblias.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:biblias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Biblias.cl [Proxy Bing News]: `https://www.bing.com/news/search?q=site:biblias.cl&format=RSS`
+
+- **Booz**
+  - Sitio: https://booz.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Booz [Proxy Google News]: `https://news.google.com/rss/search?q=site:booz.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Booz [Proxy Bing News]: `https://www.bing.com/news/search?q=site:booz.cl&format=RSS`
+
+- **CALA**
+  - Sitio: https://cala.shop/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — CALA [Proxy Google News]: `https://news.google.com/rss/search?q=site:cala.shop&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — CALA [Proxy Bing News]: `https://www.bing.com/news/search?q=site:cala.shop&format=RSS`
+
+- **Calzado de Seguridad**
+  - Sitio: https://calzadodeseguridad.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Calzado de Seguridad [Proxy Google News]: `https://news.google.com/rss/search?q=site:calzadodeseguridad.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Calzado de Seguridad [Proxy Bing News]: `https://www.bing.com/news/search?q=site:calzadodeseguridad.cl&format=RSS`
 
 - **Cámara Chilena de la Construcción**
   - Sitio: https://www.cchc.cl
@@ -2548,12 +2667,54 @@
     - ✅ activo — Cámara de Comercio de Santiago [Proxy Google News]: `https://news.google.com/rss/search?q=site:ccs.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Cámara de Comercio de Santiago [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ccs.cl&format=RSS`
 
+- **Casa Alvarinho**
+  - Sitio: https://casaalvarinho.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Casa Alvarinho [Proxy Google News]: `https://news.google.com/rss/search?q=site:casaalvarinho.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Casa Alvarinho [Proxy Bing News]: `https://www.bing.com/news/search?q=site:casaalvarinho.cl&format=RSS`
+
+- **CasaRoyal**
+  - Sitio: https://casaroyal.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — CasaRoyal [Proxy Google News]: `https://news.google.com/rss/search?q=site:casaroyal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — CasaRoyal [Proxy Bing News]: `https://www.bing.com/news/search?q=site:casaroyal.cl&format=RSS`
+
+- **Cherimoya**
+  - Sitio: https://cherimoya.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Cherimoya [Proxy Google News]: `https://news.google.com/rss/search?q=site:cherimoya.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Cherimoya [Proxy Bing News]: `https://www.bing.com/news/search?q=site:cherimoya.cl&format=RSS`
+
+- **Chile Neumáticos**
+  - Sitio: https://chileneumaticos.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Chile Neumáticos [Proxy Google News]: `https://news.google.com/rss/search?q=site:chileneumaticos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Chile Neumáticos [Proxy Bing News]: `https://www.bing.com/news/search?q=site:chileneumaticos.cl&format=RSS`
+
 - **Diario Pyme**
   - Sitio: https://www.diariopyme.com
   - Motivo en watchlist: _sitio no responde_
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — Diario Pyme [Proxy Google News]: `https://news.google.com/rss/search?q=site:diariopyme.com&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Diario Pyme [Proxy Bing News]: `https://www.bing.com/news/search?q=site:diariopyme.com&format=RSS`
+
+- **DL Phone**
+  - Sitio: https://dlphone.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — DL Phone [Proxy Google News]: `https://news.google.com/rss/search?q=site:dlphone.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — DL Phone [Proxy Bing News]: `https://www.bing.com/news/search?q=site:dlphone.cl&format=RSS`
+
+- **Easy**
+  - Sitio: https://easy.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Easy [Proxy Google News]: `https://news.google.com/rss/search?q=site:easy.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Easy [Proxy Bing News]: `https://www.bing.com/news/search?q=site:easy.cl&format=RSS`
 
 - **Economía y Negocios**
   - Sitio: https://www.economiaynegocios.cl
@@ -2569,6 +2730,34 @@
     - ⏳ stale — Economía y Sociedad [Proxy Google News]: `https://news.google.com/rss/search?q=site:economiaysociedad.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Economía y Sociedad [Proxy Bing News]: `https://www.bing.com/news/search?q=site:economiaysociedad.cl&format=RSS`
 
+- **Edelbrock**
+  - Sitio: https://edelbrock.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Edelbrock [Proxy Google News]: `https://news.google.com/rss/search?q=site:edelbrock.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Edelbrock [Proxy Bing News]: `https://www.bing.com/news/search?q=site:edelbrock.cl&format=RSS`
+
+- **El Container**
+  - Sitio: https://elcontainer.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — El Container [Proxy Google News]: `https://news.google.com/rss/search?q=site:elcontainer.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — El Container [Proxy Bing News]: `https://www.bing.com/news/search?q=site:elcontainer.cl&format=RSS`
+
+- **Emma**
+  - Sitio: https://emma-colchon.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Emma [Proxy Google News]: `https://news.google.com/rss/search?q=site:emma-colchon.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Emma [Proxy Bing News]: `https://www.bing.com/news/search?q=site:emma-colchon.cl&format=RSS`
+
+- **Enel X Store**
+  - Sitio: https://enelxstore.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Enel X Store [Proxy Google News]: `https://news.google.com/rss/search?q=site:enelxstore.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Enel X Store [Proxy Bing News]: `https://www.bing.com/news/search?q=site:enelxstore.com&format=RSS`
+
 - **Energía Estratégica**
   - Sitio: https://www.energiaestrategica.com/
   - Motivo en watchlist: _sin feed RSS detectado_
@@ -2582,6 +2771,41 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — Estrategia [Proxy Google News]: `https://news.google.com/rss/search?q=site:estrategia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Estrategia [Proxy Bing News]: `https://www.bing.com/news/search?q=site:estrategia.cl&format=RSS`
+
+- **Euro Inmobiliaria**
+  - Sitio: https://euroinmobiliaria.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Euro Inmobiliaria [Proxy Google News]: `https://news.google.com/rss/search?q=site:euroinmobiliaria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Euro Inmobiliaria [Proxy Bing News]: `https://www.bing.com/news/search?q=site:euroinmobiliaria.cl&format=RSS`
+
+- **Eurosol**
+  - Sitio: https://eurosol.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Eurosol [Proxy Google News]: `https://news.google.com/rss/search?q=site:eurosol.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Eurosol [Proxy Bing News]: `https://www.bing.com/news/search?q=site:eurosol.cl&format=RSS`
+
+- **Extravirgen.Store**
+  - Sitio: https://extravirgen.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Extravirgen.Store [Proxy Google News]: `https://news.google.com/rss/search?q=site:extravirgen.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Extravirgen.Store [Proxy Bing News]: `https://www.bing.com/news/search?q=site:extravirgen.cl&format=RSS`
+
+- **Farmacia Mapuche Makelawen**
+  - Sitio: https://farmaciamapuche.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Farmacia Mapuche Makelawen [Proxy Google News]: `https://news.google.com/rss/search?q=site:farmaciamapuche.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Farmacia Mapuche Makelawen [Proxy Bing News]: `https://www.bing.com/news/search?q=site:farmaciamapuche.cl&format=RSS`
+
+- **Fensa**
+  - Sitio: https://fensa.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Fensa [Proxy Google News]: `https://news.google.com/rss/search?q=site:fensa.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Fensa [Proxy Bing News]: `https://www.bing.com/news/search?q=site:fensa.cl&format=RSS`
 
 - **FISA**
   - Sitio: https://www.fisa.cl
@@ -2603,12 +2827,61 @@
     - 📭 feed_empty — Forbes Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:forbeschile.com&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Forbes Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:forbeschile.com&format=RSS`
 
+- **Full Marcas**
+  - Sitio: https://fullmarcas.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Full Marcas [Proxy Google News]: `https://news.google.com/rss/search?q=site:fullmarcas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Full Marcas [Proxy Bing News]: `https://www.bing.com/news/search?q=site:fullmarcas.cl&format=RSS`
+
+- **Fumetas Store**
+  - Sitio: https://fumetas.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Fumetas Store [Proxy Google News]: `https://news.google.com/rss/search?q=site:fumetas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Fumetas Store [Proxy Bing News]: `https://www.bing.com/news/search?q=site:fumetas.cl&format=RSS`
+
+- **Fundamenta**
+  - Sitio: https://fundamenta.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Fundamenta [Proxy Google News]: `https://news.google.com/rss/search?q=site:fundamenta.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Fundamenta [Proxy Bing News]: `https://www.bing.com/news/search?q=site:fundamenta.cl&format=RSS`
+
+- **Hard Work**
+  - Sitio: https://hardwork.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Hard Work [Proxy Google News]: `https://news.google.com/rss/search?q=site:hardwork.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Hard Work [Proxy Bing News]: `https://www.bing.com/news/search?q=site:hardwork.cl&format=RSS`
+
+- **Hotel Tupa**
+  - Sitio: https://tupahotel.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Hotel Tupa [Proxy Google News]: `https://news.google.com/rss/search?q=site:tupahotel.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Hotel Tupa [Proxy Bing News]: `https://www.bing.com/news/search?q=site:tupahotel.com&format=RSS`
+
 - **ICARE**
   - Sitio: https://icare.cl
   - Motivo en watchlist: _sin feed RSS detectado_
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — ICARE [Proxy Google News]: `https://news.google.com/rss/search?q=site:icare.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — ICARE [Proxy Bing News]: `https://www.bing.com/news/search?q=site:icare.cl&format=RSS`
+
+- **Imahe**
+  - Sitio: https://imahe.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Imahe [Proxy Google News]: `https://news.google.com/rss/search?q=site:imahe.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Imahe [Proxy Bing News]: `https://www.bing.com/news/search?q=site:imahe.cl&format=RSS`
+
+- **Inmobiliaria Vitalia**
+  - Sitio: https://ivitalia.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Inmobiliaria Vitalia [Proxy Google News]: `https://news.google.com/rss/search?q=site:ivitalia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Inmobiliaria Vitalia [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ivitalia.cl&format=RSS`
 
 - **Instituto de la Construcción**
   - Sitio: https://www.iconstruccion.cl
@@ -2617,6 +2890,62 @@
     - ✅ activo — Instituto de la Construcción [Proxy Google News]: `https://news.google.com/rss/search?q=site:iconstruccion.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Instituto de la Construcción [Proxy Bing News]: `https://www.bing.com/news/search?q=site:iconstruccion.cl&format=RSS`
 
+- **Jet Smart**
+  - Sitio: https://jet-smart.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Jet Smart [Proxy Google News]: `https://news.google.com/rss/search?q=site:jet-smart.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Jet Smart [Proxy Bing News]: `https://www.bing.com/news/search?q=site:jet-smart.cl&format=RSS`
+
+- **Kallfu**
+  - Sitio: https://tiendakallfu.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Kallfu [Proxy Google News]: `https://news.google.com/rss/search?q=site:tiendakallfu.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Kallfu [Proxy Bing News]: `https://www.bing.com/news/search?q=site:tiendakallfu.cl&format=RSS`
+
+- **Kuna Food**
+  - Sitio: https://kunafoods.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Kuna Food [Proxy Google News]: `https://news.google.com/rss/search?q=site:kunafoods.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Kuna Food [Proxy Bing News]: `https://www.bing.com/news/search?q=site:kunafoods.cl&format=RSS`
+
+- **La Picá del Ski**
+  - Sitio: https://lapicadelski.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — La Picá del Ski [Proxy Google News]: `https://news.google.com/rss/search?q=site:lapicadelski.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — La Picá del Ski [Proxy Bing News]: `https://www.bing.com/news/search?q=site:lapicadelski.com&format=RSS`
+
+- **LaHerramienta.cl**
+  - Sitio: https://laherramienta.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — LaHerramienta.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:laherramienta.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — LaHerramienta.cl [Proxy Bing News]: `https://www.bing.com/news/search?q=site:laherramienta.cl&format=RSS`
+
+- **Leche Pal Pelo**
+  - Sitio: https://lechepalpelo.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Leche Pal Pelo [Proxy Google News]: `https://news.google.com/rss/search?q=site:lechepalpelo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Leche Pal Pelo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:lechepalpelo.cl&format=RSS`
+
+- **Lindt**
+  - Sitio: https://lindt.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Lindt [Proxy Google News]: `https://news.google.com/rss/search?q=site:lindt.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Lindt [Proxy Bing News]: `https://www.bing.com/news/search?q=site:lindt.cl&format=RSS`
+
+- **Living Store**
+  - Sitio: https://livingstore.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Living Store [Proxy Google News]: `https://news.google.com/rss/search?q=site:livingstore.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Living Store [Proxy Bing News]: `https://www.bing.com/news/search?q=site:livingstore.cl&format=RSS`
+
 - **Los Abogados Laborales**
   - Sitio: https://losabogadoslaborales.cl
   - Motivo en watchlist: _sin feed RSS detectado_
@@ -2624,12 +2953,82 @@
     - ⏳ stale — Los Abogados Laborales [Proxy Google News]: `https://news.google.com/rss/search?q=site:losabogadoslaborales.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Los Abogados Laborales [Proxy Bing News]: `https://www.bing.com/news/search?q=site:losabogadoslaborales.cl&format=RSS`
 
+- **Mamás Mateas**
+  - Sitio: https://mamasmateas.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Mamás Mateas [Proxy Google News]: `https://news.google.com/rss/search?q=site:mamasmateas.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Mamás Mateas [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mamasmateas.com&format=RSS`
+
+- **Menetúe**
+  - Sitio: https://menetue.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Menetúe [Proxy Google News]: `https://news.google.com/rss/search?q=site:menetue.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Menetúe [Proxy Bing News]: `https://www.bing.com/news/search?q=site:menetue.com&format=RSS`
+
+- **Mennt**
+  - Sitio: https://mennt.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Mennt [Proxy Google News]: `https://news.google.com/rss/search?q=site:mennt.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Mennt [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mennt.cl&format=RSS`
+
+- **MiniNuts**
+  - Sitio: https://mininuts.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — MiniNuts [Proxy Google News]: `https://news.google.com/rss/search?q=site:mininuts.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — MiniNuts [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mininuts.cl&format=RSS`
+
+- **MyCocos**
+  - Sitio: https://mycocos.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — MyCocos [Proxy Google News]: `https://news.google.com/rss/search?q=site:mycocos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — MyCocos [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mycocos.cl&format=RSS`
+
+- **Nickelodeon Punta Caribe**
+  - Sitio: https://puntacaribe.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Nickelodeon Punta Caribe [Proxy Google News]: `https://news.google.com/rss/search?q=site:puntacaribe.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Nickelodeon Punta Caribe [Proxy Bing News]: `https://www.bing.com/news/search?q=site:puntacaribe.com&format=RSS`
+
 - **NSS**
   - Sitio: https://www.nss.cl
   - Motivo en watchlist: _sin feed RSS detectado_
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — NSS [Proxy Google News]: `https://news.google.com/rss/search?q=site:nss.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — NSS [Proxy Bing News]: `https://www.bing.com/news/search?q=site:nss.cl&format=RSS`
+
+- **Paris.cl**
+  - Sitio: https://paris.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Paris.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:paris.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Paris.cl [Proxy Bing News]: `https://www.bing.com/news/search?q=site:paris.cl&format=RSS`
+
+- **Pasarelas Antillanca**
+  - Sitio: https://pasarelasdeantillanca.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Pasarelas Antillanca [Proxy Google News]: `https://news.google.com/rss/search?q=site:pasarelasdeantillanca.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Pasarelas Antillanca [Proxy Bing News]: `https://www.bing.com/news/search?q=site:pasarelasdeantillanca.cl&format=RSS`
+
+- **Petco**
+  - Sitio: https://petco.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Petco [Proxy Google News]: `https://news.google.com/rss/search?q=site:petco.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Petco [Proxy Bing News]: `https://www.bing.com/news/search?q=site:petco.cl&format=RSS`
+
+- **Pilgrim**
+  - Sitio: https://pilgrim.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Pilgrim [Proxy Google News]: `https://news.google.com/rss/search?q=site:pilgrim.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Pilgrim [Proxy Bing News]: `https://www.bing.com/news/search?q=site:pilgrim.cl&format=RSS`
 
 - **Portal del Agro**
   - Sitio: https://portaldelagro.cl
@@ -2666,6 +3065,13 @@
     - ✅ activo — REDIMIN [Proxy Google News]: `https://news.google.com/rss/search?q=site:redimin.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — REDIMIN [Proxy Bing News]: `https://www.bing.com/news/search?q=site:redimin.cl&format=RSS`
 
+- **Regálatelo**
+  - Sitio: https://regalatelo.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Regálatelo [Proxy Google News]: `https://news.google.com/rss/search?q=site:regalatelo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Regálatelo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:regalatelo.cl&format=RSS`
+
 - **Reporte Agrícola**
   - Sitio: https://www.reporteagricola.cl
   - Motivo en watchlist: _sin feed RSS detectado_
@@ -2680,12 +3086,40 @@
     - ✅ activo — Reporte Minero [Proxy Google News]: `https://news.google.com/rss/search?q=site:reporteminero.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — Reporte Minero [Proxy Bing News]: `https://www.bing.com/news/search?q=site:reporteminero.cl&format=RSS`
 
+- **Reuse**
+  - Sitio: https://reuse.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Reuse [Proxy Google News]: `https://news.google.com/rss/search?q=site:reuse.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Reuse [Proxy Bing News]: `https://www.bing.com/news/search?q=site:reuse.cl&format=RSS`
+
 - **Revista Capital**
   - Sitio: https://www.capital.cl
   - Motivo en watchlist: _sitio no responde_
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - 📭 feed_empty — Revista Capital [Proxy Google News]: `https://news.google.com/rss/search?q=site:capital.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Revista Capital [Proxy Bing News]: `https://www.bing.com/news/search?q=site:capital.cl&format=RSS`
+
+- **Royal Caribbean**
+  - Sitio: https://interexpress.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Royal Caribbean [Proxy Google News]: `https://news.google.com/rss/search?q=site:interexpress.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Royal Caribbean [Proxy Bing News]: `https://www.bing.com/news/search?q=site:interexpress.cl&format=RSS`
+
+- **Safety Store**
+  - Sitio: https://safetystore.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Safety Store [Proxy Google News]: `https://news.google.com/rss/search?q=site:safetystore.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Safety Store [Proxy Bing News]: `https://www.bing.com/news/search?q=site:safetystore.cl&format=RSS`
+
+- **Salmón Marketplace**
+  - Sitio: https://salmonmarketplace.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Salmón Marketplace [Proxy Google News]: `https://news.google.com/rss/search?q=site:salmonmarketplace.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Salmón Marketplace [Proxy Bing News]: `https://www.bing.com/news/search?q=site:salmonmarketplace.cl&format=RSS`
 
 - **SalmonExpert**
   - Sitio: https://www.salmonexpert.cl
@@ -2694,6 +3128,48 @@
     - ✅ activo — SalmonExpert [Proxy Google News]: `https://news.google.com/rss/search?q=site:salmonexpert.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — SalmonExpert [Proxy Bing News]: `https://www.bing.com/news/search?q=site:salmonexpert.cl&format=RSS`
 
+- **Sokobox**
+  - Sitio: https://sokobox.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Sokobox [Proxy Google News]: `https://news.google.com/rss/search?q=site:sokobox.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Sokobox [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sokobox.cl&format=RSS`
+
+- **Supermercado Santa Isabel**
+  - Sitio: https://santaisabel.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Supermercado Santa Isabel [Proxy Google News]: `https://news.google.com/rss/search?q=site:santaisabel.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Supermercado Santa Isabel [Proxy Bing News]: `https://www.bing.com/news/search?q=site:santaisabel.cl&format=RSS`
+
+- **TEH Tools**
+  - Sitio: https://tehtools.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — TEH Tools [Proxy Google News]: `https://news.google.com/rss/search?q=site:tehtools.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — TEH Tools [Proxy Bing News]: `https://www.bing.com/news/search?q=site:tehtools.cl&format=RSS`
+
+- **Termas Coñaripe**
+  - Sitio: https://termasconaripe.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Termas Coñaripe [Proxy Google News]: `https://news.google.com/rss/search?q=site:termasconaripe.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Termas Coñaripe [Proxy Bing News]: `https://www.bing.com/news/search?q=site:termasconaripe.cl&format=RSS`
+
+- **Termas Malleco**
+  - Sitio: https://termasmalleco.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Termas Malleco [Proxy Google News]: `https://news.google.com/rss/search?q=site:termasmalleco.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Termas Malleco [Proxy Bing News]: `https://www.bing.com/news/search?q=site:termasmalleco.cl&format=RSS`
+
+- **Termas Manzanar**
+  - Sitio: https://termasdemanzanar.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Termas Manzanar [Proxy Google News]: `https://news.google.com/rss/search?q=site:termasdemanzanar.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Termas Manzanar [Proxy Bing News]: `https://www.bing.com/news/search?q=site:termasdemanzanar.com&format=RSS`
+
 - **Terminal Puerto Arica** — Arica y Parinacota
   - Sitio: https://portal.tpa.cl/
   - Motivo en watchlist: _sitio no responde_
@@ -2701,12 +3177,68 @@
     - ✅ activo — Terminal Puerto Arica [Proxy Google News]: `https://news.google.com/rss/search?q=site:portal.tpa.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Terminal Puerto Arica [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portal.tpa.cl&format=RSS`
 
+- **Thörben**
+  - Sitio: https://thorbenstore.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Thörben [Proxy Google News]: `https://news.google.com/rss/search?q=site:thorbenstore.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Thörben [Proxy Bing News]: `https://www.bing.com/news/search?q=site:thorbenstore.cl&format=RSS`
+
 - **TodoLicitaciones Chile**
   - Sitio: https://www.todolicitaciones.cl/
   - Motivo en watchlist: _sin feed RSS detectado_
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — TodoLicitaciones Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:todolicitaciones.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — TodoLicitaciones Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:todolicitaciones.cl&format=RSS`
+
+- **Turismo Cocha**
+  - Sitio: https://turismococha.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Turismo Cocha [Proxy Google News]: `https://news.google.com/rss/search?q=site:turismococha.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Turismo Cocha [Proxy Bing News]: `https://www.bing.com/news/search?q=site:turismococha.cl&format=RSS`
+
+- **Urbano**
+  - Sitio: https://urbano.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Urbano [Proxy Google News]: `https://news.google.com/rss/search?q=site:urbano.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Urbano [Proxy Bing News]: `https://www.bing.com/news/search?q=site:urbano.cl&format=RSS`
+
+- **VanBeek**
+  - Sitio: https://vanbeek.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — VanBeek [Proxy Google News]: `https://news.google.com/rss/search?q=site:vanbeek.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — VanBeek [Proxy Bing News]: `https://www.bing.com/news/search?q=site:vanbeek.cl&format=RSS`
+
+- **Viraly**
+  - Sitio: https://viraly.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Viraly [Proxy Google News]: `https://news.google.com/rss/search?q=site:viraly.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Viraly [Proxy Bing News]: `https://www.bing.com/news/search?q=site:viraly.cl&format=RSS`
+
+- **Völka Chokolade**
+  - Sitio: https://volkachokolade.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Völka Chokolade [Proxy Google News]: `https://news.google.com/rss/search?q=site:volkachokolade.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Völka Chokolade [Proxy Bing News]: `https://www.bing.com/news/search?q=site:volkachokolade.com&format=RSS`
+
+- **Zapatos.cl**
+  - Sitio: https://zapatos.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Zapatos.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:zapatos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Zapatos.cl [Proxy Bing News]: `https://www.bing.com/news/search?q=site:zapatos.cl&format=RSS`
+
+- **Zigzaboo**
+  - Sitio: https://zigzaboo.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Zigzaboo [Proxy Google News]: `https://news.google.com/rss/search?q=site:zigzaboo.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Zigzaboo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:zigzaboo.com&format=RSS`
 
 ### 💼 Ofertas laborales y empleabilidad (20 sitios)
 
@@ -2975,7 +3507,7 @@
     - ✅ activo — Teatro Municipal de Santiago [Proxy Google News]: `https://news.google.com/rss/search?q=site:municipal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Teatro Municipal de Santiago [Proxy Bing News]: `https://www.bing.com/news/search?q=site:municipal.cl&format=RSS`
 
-### 👥 Comunidad (23 sitios)
+### 👥 Comunidad (31 sitios)
 
 - **Aldeas Infantiles SOS Chile**
   - Sitio: https://www.aldeasinfantiles.cl
@@ -2992,6 +3524,13 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — Atención Chilena [Proxy Google News]: `https://news.google.com/rss/search?q=site:atencionchilena.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Atención Chilena [Proxy Bing News]: `https://www.bing.com/news/search?q=site:atencionchilena.cl&format=RSS`
+
+- **B-Pets**
+  - Sitio: https://bpets.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — B-Pets [Proxy Google News]: `https://news.google.com/rss/search?q=site:bpets.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — B-Pets [Proxy Bing News]: `https://www.bing.com/news/search?q=site:bpets.cl&format=RSS`
 
 - **Bomberos de Chile**
   - Sitio: https://www.bomberos.cl
@@ -3088,6 +3627,13 @@
     - ✅ activo — Iglesia.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:www.iglesia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — Iglesia.cl [Proxy Bing News]: `https://www.bing.com/news/search?q=site:www.iglesia.cl&format=RSS`
 
+- **Laika**
+  - Sitio: https://laikamascotas.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Laika [Proxy Google News]: `https://news.google.com/rss/search?q=site:laikamascotas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Laika [Proxy Bing News]: `https://www.bing.com/news/search?q=site:laikamascotas.cl&format=RSS`
+
 - **Los Angeles** — Biobío
   - Sitio: https://www.losangeles.cl/
   - Motivo en watchlist: _sin feed RSS detectado_
@@ -3111,6 +3657,13 @@
     - ⏳ stale — Mapuche NL [Proxy Google News]: `https://news.google.com/rss/search?q=site:mapuche.nl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Mapuche NL [Proxy Bing News]: `https://www.bing.com/news/search?q=site:mapuche.nl&format=RSS`
 
+- **Mascotas Braloy**
+  - Sitio: https://braloy.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Mascotas Braloy [Proxy Google News]: `https://news.google.com/rss/search?q=site:braloy.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Mascotas Braloy [Proxy Bing News]: `https://www.bing.com/news/search?q=site:braloy.cl&format=RSS`
+
 - **Mi Voz**
   - Sitio: https://comercial.mivoz.cl
   - Motivo en watchlist: _sin feed RSS detectado_
@@ -3118,12 +3671,40 @@
     - 📭 feed_empty — Mi Voz [Proxy Google News]: `https://news.google.com/rss/search?q=site:comercial.mivoz.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Mi Voz [Proxy Bing News]: `https://www.bing.com/news/search?q=site:comercial.mivoz.cl&format=RSS`
 
+- **Pethome**
+  - Sitio: https://pethome.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Pethome [Proxy Google News]: `https://news.google.com/rss/search?q=site:pethome.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Pethome [Proxy Bing News]: `https://www.bing.com/news/search?q=site:pethome.cl&format=RSS`
+
+- **Ruta Bus 78**
+  - Sitio: https://rutabus78.cl
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - ⏳ stale — Ruta Bus 78 [Proxy Google News]: `https://news.google.com/rss/search?q=site:rutabus78.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Ruta Bus 78 [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rutabus78.cl&format=RSS`
+
+- **Ruta Lagos y Volcanes** — Los Lagos
+  - Sitio: https://www.rutalagosyvolcanes.cl
+  - Motivo en watchlist: _sitio no responde con contenido accesible (HTTP 406) y sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - ✅ activo — Ruta Lagos y Volcanes [Proxy Google News]: `https://news.google.com/rss/search?q=site:rutalagosyvolcanes.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Ruta Lagos y Volcanes [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rutalagosyvolcanes.cl&format=RSS`
+
 - **Teletón Chile**
   - Sitio: https://www.teleton.cl
   - Motivo en watchlist: _HTTP error (403)_
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — Teletón Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:teleton.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Teletón Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:teleton.cl&format=RSS`
+
+- **Todo para tus Michis**
+  - Sitio: https://todoparatusmichis.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Todo para tus Michis [Proxy Google News]: `https://news.google.com/rss/search?q=site:todoparatusmichis.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Todo para tus Michis [Proxy Bing News]: `https://www.bing.com/news/search?q=site:todoparatusmichis.cl&format=RSS`
 
 - **Triunfo**
   - Sitio: https://www.triunfo.cl
@@ -3145,6 +3726,13 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - 📭 feed_empty — Turismochile.cl (Beta) [Proxy Google News]: `https://news.google.com/rss/search?q=site:beta.turismochile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Turismochile.cl (Beta) [Proxy Bing News]: `https://www.bing.com/news/search?q=site:beta.turismochile.cl&format=RSS`
+
+- **tusmascotas.cl**
+  - Sitio: https://tusmascotas.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — tusmascotas.cl [Proxy Google News]: `https://news.google.com/rss/search?q=site:tusmascotas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — tusmascotas.cl [Proxy Bing News]: `https://www.bing.com/news/search?q=site:tusmascotas.cl&format=RSS`
 
 - **UNICEF Chile**
   - Sitio: https://www.unicef.org/chile
@@ -3172,7 +3760,14 @@
     - ⏳ stale — XOX cl - Recursos e información para emprendedores [Proxy Google News]: `https://news.google.com/rss/search?q=site:xox.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — XOX cl - Recursos e información para emprendedores [Proxy Bing News]: `https://www.bing.com/news/search?q=site:xox.cl&format=RSS`
 
-### ⚽ Deportes (3 sitios)
+### ⚽ Deportes (9 sitios)
+
+- **Andes Active**
+  - Sitio: https://andesactive.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Andes Active [Proxy Google News]: `https://news.google.com/rss/search?q=site:andesactive.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Andes Active [Proxy Bing News]: `https://www.bing.com/news/search?q=site:andesactive.cl&format=RSS`
 
 - **AS Chile**
   - Sitio: https://chile.as.com
@@ -3186,6 +3781,13 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — AS Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:chile.as.com&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — AS Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:chile.as.com&format=RSS`
+
+- **Decathlon**
+  - Sitio: https://decathlon.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Decathlon [Proxy Google News]: `https://news.google.com/rss/search?q=site:decathlon.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Decathlon [Proxy Bing News]: `https://www.bing.com/news/search?q=site:decathlon.cl&format=RSS`
 
 - **El Gráfico Chile**
   - Sitio: https://www.elgraficochile.cl
@@ -3202,6 +3804,34 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — En Cancha [Proxy Google News]: `https://news.google.com/rss/search?q=site:encancha.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — En Cancha [Proxy Bing News]: `https://www.bing.com/news/search?q=site:encancha.cl&format=RSS`
+
+- **Ilus**
+  - Sitio: https://ilusfitness.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Ilus [Proxy Google News]: `https://news.google.com/rss/search?q=site:ilusfitness.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Ilus [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ilusfitness.com&format=RSS`
+
+- **Sporting Brands**
+  - Sitio: https://sportingbrands.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Sporting Brands [Proxy Google News]: `https://news.google.com/rss/search?q=site:sportingbrands.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Sporting Brands [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sportingbrands.cl&format=RSS`
+
+- **Trial**
+  - Sitio: https://trial.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Trial [Proxy Google News]: `https://news.google.com/rss/search?q=site:trial.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Trial [Proxy Bing News]: `https://www.bing.com/news/search?q=site:trial.cl&format=RSS`
+
+- **Unity Gym**
+  - Sitio: https://unitygym.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Unity Gym [Proxy Google News]: `https://news.google.com/rss/search?q=site:unitygym.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Unity Gym [Proxy Bing News]: `https://www.bing.com/news/search?q=site:unitygym.cl&format=RSS`
 
 ### 🎮 Videojuegos y Gaming (22 sitios)
 
@@ -3383,7 +4013,7 @@
     - 📭 feed_empty — Zeta Gaming [Proxy Google News]: `https://news.google.com/rss/search?q=site:zetagaming.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Zeta Gaming [Proxy Bing News]: `https://www.bing.com/news/search?q=site:zetagaming.cl&format=RSS`
 
-### 🌿 Medio Ambiente y Naturaleza (17 sitios)
+### 🌿 Medio Ambiente y Naturaleza (19 sitios)
 
 - **Acción Climática**
   - Sitio: https://accionclimatica.cl
@@ -3456,6 +4086,13 @@
     - 📭 feed_empty — Induambiente [Proxy Google News]: `https://news.google.com/rss/search?q=site:induambiente.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Induambiente [Proxy Bing News]: `https://www.bing.com/news/search?q=site:induambiente.cl&format=RSS`
 
+- **InfoAgro**
+  - Sitio: https://www.infoagro.com
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - ⏳ stale — InfoAgro [Proxy Google News]: `https://news.google.com/rss/search?q=site:infoagro.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — InfoAgro [Proxy Bing News]: `https://www.bing.com/news/search?q=site:infoagro.com&format=RSS`
+
 - **Instituto de Ecología y Biodiversidad**
   - Sitio: https://www.ie-b.cl
   - Motivo en watchlist: _sitio no responde_
@@ -3517,6 +4154,13 @@
     - ⏳ stale — Semillas de Agua [Proxy Google News]: `https://news.google.com/rss/search?q=site:semillasdeagua.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Semillas de Agua [Proxy Bing News]: `https://www.bing.com/news/search?q=site:semillasdeagua.cl&format=RSS`
 
+- **Smartcherry**
+  - Sitio: https://smartcherry.cl
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - ✅ activo — Smartcherry [Proxy Google News]: `https://news.google.com/rss/search?q=site:smartcherry.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Smartcherry [Proxy Bing News]: `https://www.bing.com/news/search?q=site:smartcherry.cl&format=RSS`
+
 - **Tierra Adentro**
   - Sitio: https://www.tierraadentro.cl
   - Motivo en watchlist: _sitio no responde_
@@ -3538,7 +4182,7 @@
     - ✅ activo — WWF Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:wwf.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — WWF Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:wwf.cl&format=RSS`
 
-### 🎭 Espectáculos y Entretención (4 sitios)
+### 🎭 Espectáculos y Entretención (11 sitios)
 
 - **Cineplanet**
   - Sitio: https://www.cineplanet.cl
@@ -3546,6 +4190,48 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — Cineplanet [Proxy Google News]: `https://news.google.com/rss/search?q=site:cineplanet.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Cineplanet [Proxy Bing News]: `https://www.bing.com/news/search?q=site:cineplanet.cl&format=RSS`
+
+- **Entremusicos**
+  - Sitio: https://entremusicos.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Entremusicos [Proxy Google News]: `https://news.google.com/rss/search?q=site:entremusicos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Entremusicos [Proxy Bing News]: `https://www.bing.com/news/search?q=site:entremusicos.cl&format=RSS`
+
+- **Hasbro**
+  - Sitio: https://hasbrostore.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Hasbro [Proxy Google News]: `https://news.google.com/rss/search?q=site:hasbrostore.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Hasbro [Proxy Bing News]: `https://www.bing.com/news/search?q=site:hasbrostore.cl&format=RSS`
+
+- **los Mejores Eventos**
+  - Sitio: https://portaldisc.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — los Mejores Eventos [Proxy Google News]: `https://news.google.com/rss/search?q=site:portaldisc.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — los Mejores Eventos [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portaldisc.com&format=RSS`
+
+- **Magic Chile**
+  - Sitio: https://magic-chile.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Magic Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:magic-chile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Magic Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:magic-chile.cl&format=RSS`
+
+- **Music World**
+  - Sitio: https://musicworld.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Music World [Proxy Google News]: `https://news.google.com/rss/search?q=site:musicworld.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Music World [Proxy Bing News]: `https://www.bing.com/news/search?q=site:musicworld.cl&format=RSS`
+
+- **QuePlan**
+  - Sitio: https://queplan.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — QuePlan [Proxy Google News]: `https://news.google.com/rss/search?q=site:queplan.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — QuePlan [Proxy Bing News]: `https://www.bing.com/news/search?q=site:queplan.cl&format=RSS`
 
 - **Rap Chile**
   - Sitio: http://www.rap-chile.com
@@ -3567,6 +4253,13 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — Ticketmaster Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:ticketmaster.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Ticketmaster Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ticketmaster.cl&format=RSS`
+
+- **Zapping esta**
+  - Sitio: https://zapping.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Zapping esta [Proxy Google News]: `https://news.google.com/rss/search?q=site:zapping.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Zapping esta [Proxy Bing News]: `https://www.bing.com/news/search?q=site:zapping.com&format=RSS`
 
 ### 📻 Radio y Música (42 sitios)
 
@@ -3896,7 +4589,14 @@
     - ✅ activo — UC Radio Beethoven [Proxy Google News]: `https://news.google.com/rss/search?q=site:beethovenfm.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — UC Radio Beethoven [Proxy Bing News]: `https://www.bing.com/news/search?q=site:beethovenfm.cl&format=RSS`
 
-### 🏥 Salud y Bienestar (20 sitios)
+### 🏥 Salud y Bienestar (33 sitios)
+
+- **Adikari**
+  - Sitio: https://adikari.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Adikari [Proxy Google News]: `https://news.google.com/rss/search?q=site:adikari.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Adikari [Proxy Bing News]: `https://www.bing.com/news/search?q=site:adikari.cl&format=RSS`
 
 - **ANAMED**
   - Sitio: https://www.anamed.cl
@@ -3904,6 +4604,13 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - 📭 feed_empty — ANAMED [Proxy Google News]: `https://news.google.com/rss/search?q=site:anamed.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — ANAMED [Proxy Bing News]: `https://www.bing.com/news/search?q=site:anamed.cl&format=RSS`
+
+- **Bom Beauty**
+  - Sitio: https://bombeauty.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Bom Beauty [Proxy Google News]: `https://news.google.com/rss/search?q=site:bombeauty.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Bom Beauty [Proxy Bing News]: `https://www.bing.com/news/search?q=site:bombeauty.cl&format=RSS`
 
 - **Clínica Alemana**
   - Sitio: https://www.alemana.cl
@@ -3918,6 +4625,27 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — Clínica Alemana Temuco [Proxy Google News]: `https://news.google.com/rss/search?q=site:clinicaalemanatemuco.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Clínica Alemana Temuco [Proxy Bing News]: `https://www.bing.com/news/search?q=site:clinicaalemanatemuco.cl&format=RSS`
+
+- **Clínica Altos del Desierto**
+  - Sitio: https://altosdeldesierto.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Clínica Altos del Desierto [Proxy Google News]: `https://news.google.com/rss/search?q=site:altosdeldesierto.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Clínica Altos del Desierto [Proxy Bing News]: `https://www.bing.com/news/search?q=site:altosdeldesierto.cl&format=RSS`
+
+- **Clínica Belenus**
+  - Sitio: https://belenus.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Clínica Belenus [Proxy Google News]: `https://news.google.com/rss/search?q=site:belenus.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Clínica Belenus [Proxy Bing News]: `https://www.bing.com/news/search?q=site:belenus.cl&format=RSS`
+
+- **Clínica Estétika Médica**
+  - Sitio: https://estetikamedica.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Clínica Estétika Médica [Proxy Google News]: `https://news.google.com/rss/search?q=site:estetikamedica.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Clínica Estétika Médica [Proxy Bing News]: `https://www.bing.com/news/search?q=site:estetikamedica.cl&format=RSS`
 
 - **Clínica Las Condes**
   - Sitio: https://www.clinicalascondes.cl
@@ -3934,6 +4662,13 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ✅ activo — Colegio de Enfermeras de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:colegiodeenfermeras.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Colegio de Enfermeras de Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:colegiodeenfermeras.cl&format=RSS`
+
+- **COREANA SKINCARE**
+  - Sitio: https://coreanachile.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — COREANA SKINCARE [Proxy Google News]: `https://news.google.com/rss/search?q=site:coreanachile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — COREANA SKINCARE [Proxy Bing News]: `https://www.bing.com/news/search?q=site:coreanachile.cl&format=RSS`
 
 - **Escuela de Salud Pública U. de Chile**
   - Sitio: https://escuela.medicina.uchile.cl
@@ -3993,12 +4728,26 @@
     - ⏳ stale — Instituto Nacional del Tórax [Proxy Google News]: `https://news.google.com/rss/search?q=site:torax.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Instituto Nacional del Tórax [Proxy Bing News]: `https://www.bing.com/news/search?q=site:torax.cl&format=RSS`
 
+- **IVMedical**
+  - Sitio: https://ivmedical.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — IVMedical [Proxy Google News]: `https://news.google.com/rss/search?q=site:ivmedical.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — IVMedical [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ivmedical.cl&format=RSS`
+
 - **Medwave**
   - Sitio: https://www.medwave.cl
   - Motivo en watchlist: _sin feed RSS detectado_
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — Medwave [Proxy Google News]: `https://news.google.com/rss/search?q=site:medwave.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Medwave [Proxy Bing News]: `https://www.bing.com/news/search?q=site:medwave.cl&format=RSS`
+
+- **NOOKI K-Beauty**
+  - Sitio: https://nooki.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — NOOKI K-Beauty [Proxy Google News]: `https://news.google.com/rss/search?q=site:nooki.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — NOOKI K-Beauty [Proxy Bing News]: `https://www.bing.com/news/search?q=site:nooki.cl&format=RSS`
 
 - **Observatorio de Salud Pública UC**
   - Sitio: https://observatorio.medicina.uc.cl/
@@ -4013,6 +4762,13 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — Revista Chilena de Pediatría [Proxy Google News]: `https://news.google.com/rss/search?q=site:revistachilenadepediatria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Revista Chilena de Pediatría [Proxy Bing News]: `https://www.bing.com/news/search?q=site:revistachilenadepediatria.cl&format=RSS`
+
+- **Sairam**
+  - Sitio: https://sairam.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Sairam [Proxy Google News]: `https://news.google.com/rss/search?q=site:sairam.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Sairam [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sairam.cl&format=RSS`
 
 - **Sociedad Chilena de Cardiología y Cirugía Cardiovascular**
   - Sitio: https://www.sochicar.cl
@@ -4053,6 +4809,34 @@
     - 📭 feed_empty — Sociedad de Cirugía de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:sociedadcirugia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Sociedad de Cirugía de Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sociedadcirugia.cl&format=RSS`
 
+- **Strive Nutrition**
+  - Sitio: https://strive.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Strive Nutrition [Proxy Google News]: `https://news.google.com/rss/search?q=site:strive.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Strive Nutrition [Proxy Bing News]: `https://www.bing.com/news/search?q=site:strive.cl&format=RSS`
+
+- **The Beauty Box**
+  - Sitio: https://thebeautybox.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — The Beauty Box [Proxy Google News]: `https://news.google.com/rss/search?q=site:thebeautybox.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — The Beauty Box [Proxy Bing News]: `https://www.bing.com/news/search?q=site:thebeautybox.cl&format=RSS`
+
+- **Trust Labs**
+  - Sitio: https://trustlabs.cl/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Trust Labs [Proxy Google News]: `https://news.google.com/rss/search?q=site:trustlabs.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Trust Labs [Proxy Bing News]: `https://www.bing.com/news/search?q=site:trustlabs.cl&format=RSS`
+
+- **Wizz.Life**
+  - Sitio: https://wizz.life/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Wizz.Life [Proxy Google News]: `https://news.google.com/rss/search?q=site:wizz.life&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Wizz.Life [Proxy Bing News]: `https://www.bing.com/news/search?q=site:wizz.life&format=RSS`
+
 ### 🗳️ Partidos Políticos (2 sitios)
 
 - **Evópoli**
@@ -4090,7 +4874,7 @@
     - ✅ activo — Partido por la Democracia [Proxy Google News]: `https://news.google.com/rss/search?q=site:ppd.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - ✅ activo — Partido por la Democracia [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ppd.cl&format=RSS`
 
-### ✍️ Blogs (1 sitios)
+### ✍️ Blogs (2 sitios)
 
 - **Felipe Lavín** — Valparaíso
   - Sitio: https://felipe.lavin.blog
@@ -4135,3 +4919,10 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — Felipe Lavín [Proxy Google News]: `https://news.google.com/rss/search?q=site:felipe.lavin.blog&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Felipe Lavín [Proxy Bing News]: `https://www.bing.com/news/search?q=site:felipe.lavin.blog&format=RSS`
+
+- **Pichintún**
+  - Sitio: https://pichintun.com/
+  - Motivo en watchlist: _sin feed RSS detectado_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Pichintún [Proxy Google News]: `https://news.google.com/rss/search?q=site:pichintun.com&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Pichintún [Proxy Bing News]: `https://www.bing.com/news/search?q=site:pichintun.com&format=RSS`

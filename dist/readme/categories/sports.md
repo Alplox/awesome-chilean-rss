@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`sports.opml`](../../opml/categories/sports.opml) - 176 sitios, 276 feeds*
+*Descargar OPML: [`sports.opml`](../../opml/categories/sports.opml) - 178 sitios, 278 feeds*
 
 - **Aconcagua Digital**: Feed de la categoría 'Deportes' en Aconcagua Digital
   - RSS: `https://aconcaguadigital.cl/category/deportes/feed/`
@@ -115,6 +115,8 @@
   - RSS: `https://diariocondor.cl/category/deportes/feed/`
 - **Diario El Huemul**: Feed de la categoría 'Deporte' en Diario El Huemul
   - RSS: `https://elhuemul.cl/category/deporte/feed/`
+- **Diario El Labrador**: Feed de la categoría 'Deportes' en Diario El Labrador
+  - RSS: `https://diarioellabrador.cl/index.php/category/deportes/feed/`
 - **Diario El Longino**: Feed de la categoría 'Deporte' en Diario El Longino
   - RSS: `https://diariolongino.cl/deporte/feed/`
 - **Diario El Marino**: Feed de la sección 'Deporte' en Diario El Marino
@@ -414,6 +416,8 @@
   - RSS: `https://regionvisual.com/category/deportes/feed/`
 - **RLN (Radio Las Nieves)**: Feed de la categoría 'Deportes' en RLN (Radio Las Nieves)
   - RSS: `https://www.rln.cl/category/deportes/feed/`
+- **RM Hoy**: Feed de la categoría 'Deportes' en RM Hoy
+  - RSS: `https://rmhoy.cl/category/deportes/feed/`
 - **RunningShot** — Medio digital chileno sobre running, carreras, trail running, equipamiento y vida activa
   - RunningShot: `https://runnningshot.cl/feed/`
   - RunningShot - Experiencias: `https://runnningshot.cl/category/experiencias/feed/`

@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`gaming.opml`](../../opml/categories/gaming.opml) - 13 sitios, 82 feeds*
+*Descargar OPML: [`gaming.opml`](../../opml/categories/gaming.opml) - 14 sitios, 83 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Videojuegos: `https://alertageekchile.cl/category/videojuegos/feed/`
@@ -94,6 +94,8 @@
   - Tarreo - Mastodon.cl BOT: `https://mastodon.cl/@tarreo.rss`
   - Tarreo [Proxy Google News]: `https://news.google.com/rss/search?q=site:tarreo.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - Tarreo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:tarreo.com&format=RSS`
+- **Tecnautas**: Feed de la categoría 'Videojuegos' en Tecnautas
+  - RSS: `https://tecnautas.cl/category/videojuegos/feed/`
 - **Vanguardia Gamer** — Comunidad y noticias de videojuegos en Chile
   - Vanguardia Gamer: `https://vanguardiagamer.cl/feed/`
   - Vanguardia Gamer - Hecho En Chile: `https://vanguardiagamer.cl/category/noticias/hecho-en-chile/feed/`

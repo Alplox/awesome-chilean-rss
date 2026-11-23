@@ -2,14 +2,90 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 135 sitios, 408 feeds*
+*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 140 sitios, 479 feeds*
 
 - **(Empresa) Contapapaya** — Plataforma de contabilidad online para pymes chilenas, con artículos sobre contabilidad y emprendimiento
   - (Empresa) Contapapaya: `https://contapapaya.cl/feed/`
   - (Empresa) Contapapaya - Soluciones: `https://contapapaya.cl/category/soluciones/feed/`
+- **(Empresa) Inmobiliaria Grupo Hogares**: Resultados de site:hogares.cl en Proxy Google News de noticias Chilenas
+  - RSS: `https://news.google.com/rss/search?q=site:hogares.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **(Empresa) Inmobiliaria RVC** — Inmobiliaria chilena de proyectos habitacionales.
+  - (Empresa) Inmobiliaria RVC: `https://rvc.cl/feed/`
+  - (Empresa) Inmobiliaria RVC - Inscripcion Brunch: `https://rvc.cl/feed/?category=inscripcion-brunch`
+  - (Empresa) Inmobiliaria RVC - Proyecto: `https://rvc.cl/feed/?category=proyecto`
+  - (Empresa) Inmobiliaria RVC - El Momento Es Ahora Con Rvc: `https://rvc.cl/feed/?category=el-momento-es-ahora-con-rvc`
+  - (Empresa) Inmobiliaria RVC - Aviso Legal: `https://rvc.cl/feed/?category=aviso-legal`
+  - (Empresa) Inmobiliaria RVC - Promociones: `https://rvc.cl/feed/?category=promociones`
+  - (Empresa) Inmobiliaria RVC - Liveshopping Inscripcion: `https://rvc.cl/feed/?category=liveshopping-inscripcion`
+  - (Empresa) Inmobiliaria RVC - Liveshopping: `https://rvc.cl/feed/?category=liveshopping`
+  - (Empresa) Inmobiliaria RVC - Edificio Parque Urbano: `https://rvc.cl/feed/?category=edificio-parque-urbano`
+  - (Empresa) Inmobiliaria RVC - Tasas Hipotecarias Caen Bajo 4: `https://rvc.cl/feed/?category=tasas-hipotecarias-caen-bajo-4`
+  - (Empresa) Inmobiliaria RVC - Linea 8 Del Metro Paso Clave: `https://rvc.cl/feed/?category=linea-8-del-metro-paso-clave`
+  - (Empresa) Inmobiliaria RVC - Inauguran Nuevo Nudo Baquedano: `https://rvc.cl/feed/?category=inauguran-nuevo-nudo-baquedano`
+  - (Empresa) Inmobiliaria RVC - Metro Estrenara Banos Publicos: `https://rvc.cl/feed/?category=metro-estrenara-banos-publicos`
+  - (Empresa) Inmobiliaria RVC - Rancagua Lider En Ciclovias: `https://rvc.cl/feed/?category=rancagua-lider-en-ciclovias`
+  - (Empresa) Inmobiliaria RVC - Parque Mapocho Rio Toma Forma: `https://rvc.cl/feed/?category=parque-mapocho-rio-toma-forma`
+  - (Empresa) Inmobiliaria RVC - Arriendos En Santiago Al Alza: `https://rvc.cl/feed/?category=arriendos-en-santiago-al-alza`
+  - (Empresa) Inmobiliaria RVC - Condominio Alto Maranon: `https://rvc.cl/feed/?category=condominio-alto-maranon`
+  - (Empresa) Inmobiliaria RVC - Condominio Jorge Caceres: `https://rvc.cl/feed/?category=condominio-jorge-caceres`
+  - (Empresa) Inmobiliaria RVC - Limpian Playas De Iquique 2: `https://rvc.cl/feed/?category=limpian-playas-de-iquique-2`
+  - (Empresa) Inmobiliaria RVC - Edificio Uno Norte: `https://rvc.cl/feed/?category=edificio-uno-norte`
+  - (Empresa) Inmobiliaria RVC - Nunoa Conectividad Asegurada: `https://rvc.cl/feed/?category=nunoa-conectividad-asegurada`
+  - (Empresa) Inmobiliaria RVC - Eliodoro Yanez Tendra Ciclovia: `https://rvc.cl/feed/?category=eliodoro-yanez-tendra-ciclovia`
+  - (Empresa) Inmobiliaria RVC - Iquique Recupera Sus Semaforos: `https://rvc.cl/feed/?category=iquique-recupera-sus-semaforos`
+  - (Empresa) Inmobiliaria RVC - Una Propuesta De Inversion Rvc: `https://rvc.cl/feed/?category=una-propuesta-de-inversion-rvc`
+  - (Empresa) Inmobiliaria RVC - Aumenta Demanda Por Casas: `https://rvc.cl/feed/?category=aumenta-demanda-por-casas`
+  - (Empresa) Inmobiliaria RVC - Nunoa Suma Areas Verdes: `https://rvc.cl/feed/?category=nunoa-suma-areas-verdes`
+  - (Empresa) Inmobiliaria RVC - Tasas Hipotecarias Al Alza: `https://rvc.cl/feed/?category=tasas-hipotecarias-al-alza`
+  - (Empresa) Inmobiliaria RVC - Se Reactiva Mapocho Pedaleable: `https://rvc.cl/feed/?category=se-reactiva-mapocho-pedaleable`
+  - (Empresa) Inmobiliaria RVC - Renovacion Total De La Ruta 68: `https://rvc.cl/feed/?category=renovacion-total-de-la-ruta-68`
+  - (Empresa) Inmobiliaria RVC - Ruta 68 Mas Expedita: `https://rvc.cl/feed/?category=ruta-68-mas-expedita`
+  - (Empresa) Inmobiliaria RVC - Renaca A Todo Surf: `https://rvc.cl/feed/?category=renaca-a-todo-surf`
+  - (Empresa) Inmobiliaria RVC - Bancos Suman Hipotecazos: `https://rvc.cl/feed/?category=bancos-suman-hipotecazos`
+  - (Empresa) Inmobiliaria RVC - Autopistas Para Antofagasta: `https://rvc.cl/feed/?category=autopistas-para-antofagasta`
+  - (Empresa) Inmobiliaria RVC - Mas Seguridad Para San Miguel: `https://rvc.cl/feed/?category=mas-seguridad-para-san-miguel`
+  - (Empresa) Inmobiliaria RVC - La Cisterna Suma Conectividad: `https://rvc.cl/feed/?category=la-cisterna-suma-conectividad`
+  - (Empresa) Inmobiliaria RVC - La Cisterna Suma Vigilancia: `https://rvc.cl/feed/?category=la-cisterna-suma-vigilancia`
+  - (Empresa) Inmobiliaria RVC - Descubre Edificio Garcia Reyes: `https://rvc.cl/feed/?category=descubre-edificio-garcia-reyes`
+  - (Empresa) Inmobiliaria RVC - Linea 7 Del Metro 15 De Avance: `https://rvc.cl/feed/?category=linea-7-del-metro-15-de-avance`
+  - (Empresa) Inmobiliaria RVC - San Miguel Suma Areas Verdes: `https://rvc.cl/feed/?category=san-miguel-suma-areas-verdes`
+  - (Empresa) Inmobiliaria RVC - Cambio De Mando En La Cchc: `https://rvc.cl/feed/?category=cambio-de-mando-en-la-cchc`
+  - (Empresa) Inmobiliaria RVC - Parque Serrano Abre Al Publico: `https://rvc.cl/feed/?category=parque-serrano-abre-al-publico`
+  - (Empresa) Inmobiliaria RVC - Tasas Hipotecarias A La Baja: `https://rvc.cl/feed/?category=tasas-hipotecarias-a-la-baja`
+  - (Empresa) Inmobiliaria RVC - Nunoa Retira Cables En Desuso: `https://rvc.cl/feed/?category=nunoa-retira-cables-en-desuso`
+  - (Empresa) Inmobiliaria RVC - Pago Automatico En Acceso Sur: `https://rvc.cl/feed/?category=pago-automatico-en-acceso-sur`
+  - (Empresa) Inmobiliaria RVC - Nueva Alameda Suma Avances: `https://rvc.cl/feed/?category=nueva-alameda-suma-avances`
+  - (Empresa) Inmobiliaria RVC - Trenes Para El Gran Valparaiso: `https://rvc.cl/feed/?category=trenes-para-el-gran-valparaiso`
+  - (Empresa) Inmobiliaria RVC - Aprobado Subsidio Al Dividendo: `https://rvc.cl/feed/?category=aprobado-subsidio-al-dividendo`
+  - (Empresa) Inmobiliaria RVC - Proyectos: `https://rvc.cl/feed/?category=proyectos`
+  - (Empresa) Inmobiliaria RVC - Ciudad: `https://rvc.cl/feed/?category=ciudad`
+  - (Empresa) Inmobiliaria RVC - Estado: `https://rvc.cl/feed/?category=estado`
+  - (Empresa) Inmobiliaria RVC - Oportunidades: `https://rvc.cl/feed/?category=oportunidades`
+  - (Empresa) Inmobiliaria RVC - Inversionistas: `https://rvc.cl/feed/?category=inversionistas`
+  - (Empresa) Inmobiliaria RVC - Corporativo: `https://rvc.cl/feed/?category=corporativo`
+  - (Empresa) Inmobiliaria RVC - Asesoria: `https://rvc.cl/feed/?category=asesoria`
+  - (Empresa) Inmobiliaria RVC - Servicio Al Cliente: `https://rvc.cl/feed/?category=servicio-al-cliente`
+  - (Empresa) Inmobiliaria RVC - Bienvenidos Inversionistas: `https://rvc.cl/feed/?category=bienvenidos-inversionistas`
+  - (Empresa) Inmobiliaria RVC - Entrega Inmediata: `https://rvc.cl/feed/?category=entrega-inmediata`
+  - (Empresa) Inmobiliaria RVC - En Verde: `https://rvc.cl/feed/?category=en-verde`
+  - (Empresa) Inmobiliaria RVC - Rvc A Tu Medida: `https://rvc.cl/feed/?category=rvc-a-tu-medida`
+  - (Empresa) Inmobiliaria RVC - Open: `https://rvc.cl/feed/?category=open`
+  - (Empresa) Inmobiliaria RVC - Best Place To Live: `https://rvc.cl/feed/?category=best-place-to-live`
+  - (Empresa) Inmobiliaria RVC - Garcia Reyes Inversionistas: `https://rvc.cl/feed/?category=garcia-reyes-inversionistas`
+  - (Empresa) Inmobiliaria RVC - La Cisterna: `https://rvc.cl/feed/?category=la-cisterna`
+  - (Empresa) Inmobiliaria RVC - La Cisterna Plusvalia: `https://rvc.cl/feed/?category=la-cisterna-plusvalia`
+  - (Empresa) Inmobiliaria RVC - La Cisterna Conectividad: `https://rvc.cl/feed/?category=la-cisterna-conectividad`
+  - (Empresa) Inmobiliaria RVC - La Cisterna Proyectos: `https://rvc.cl/feed/?category=la-cisterna-proyectos`
 - **(Empresa) Logros Servicios Financieros** — Servicios financieros y contables, con artículos sobre finanzas y asesoría tributaria
   - (Empresa) Logros Servicios Financieros: `https://www.empresaslogros.cl/blog/rss.xml`
   - (Empresa) Logros Servicios Financieros [Proxy Google News]: `https://news.google.com/rss/search?q=site:empresaslogros.cl/&hl=es-419&gl=CL&ceid=CL:es-419`
+- **(Empresa) MiMatri.cl**: Resultados de site:mimatri.cl en Proxy Google News de noticias Chilenas
+  - RSS: `https://news.google.com/rss/search?q=site:mimatri.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **(Empresa) Mundo Amable** — Tienda online enfocada a sensibilidad sensorial y de motricidad. Autismo, Síndrome de Down, Parkinson, Cerebrovascular.
+  - (Empresa) Mundo Amable: `https://mundoamable.cl/feed/`
+  - (Empresa) Mundo Amable [Proxy Google News]: `https://news.google.com/rss/search?q=site:mundoamable.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **(Empresa) Tabali**: Resultados de site:tabali.com en Proxy Google News de noticias Chilenas
+  - RSS: `https://news.google.com/rss/search?q=site:tabali.com&hl=es-419&gl=CL&ceid=CL:es-419`
 - **ABIF** — Asociación de Bancos e Instituciones Financieras de Chile
   - ABIF: `https://www.abif.cl/blog-feed.xml`
   - ABIF [Proxy Google News]: `https://news.google.com/rss/search?q=site:abif.cl&hl=es-419&gl=CL&ceid=CL:es-419`

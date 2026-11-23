@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`culture.opml`](../../opml/categories/culture.opml) - 142 sitios, 234 feeds*
+*Descargar OPML: [`culture.opml`](../../opml/categories/culture.opml) - 143 sitios, 235 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Anime y Manga: `https://alertageekchile.cl/category/anime-y-manga/feed/`
@@ -86,6 +86,8 @@
   - RSS: `https://diarioelcautin.cl/category/cultura/feed/`
 - **Diario El Centro**: Feed de la categoría 'Cultura' en Diario El Centro
   - RSS: `https://www.diarioelcentro.cl/categoria/cultura/feed/`
+- **Diario El Labrador**: Feed de la categoría 'Cultura' en Diario El Labrador
+  - RSS: `https://diarioellabrador.cl/index.php/category/cultura/feed/`
 - **Diario El Marino**: Feed de la sección 'Cultura y Entretenimiento' en Diario El Marino
   - RSS: `https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/`
 - **Diario El Nortino** — Diario regional de Alto Hospicio, Tarapacá

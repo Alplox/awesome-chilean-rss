@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (281 feeds)</title>
+    <title>Awesome Chilean RSS - 🌐 Noticias Internacionales (282 feeds)</title>
     <description>Feeds RSS de 🌐 Noticias Internacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
+    <dateCreated>2026-11-23T20:23:24.237Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -242,6 +242,7 @@
       <outline type="rss" text="RFI Español" title="RFI Español" description="Feed principal de RFI Español" xmlUrl="https://www.rfi.fr/es/rss" htmlUrl="https://www.rfi.fr/es/"/>
       <outline type="rss" text="RFI Español [Proxy Bing News]" title="RFI Español [Proxy Bing News]" description="Resultados de site:rfi.fr/es en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:rfi.fr/es&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:rfi.fr/es"/>
       <outline type="rss" text="RFI Español [Proxy Google News]" title="RFI Español [Proxy Google News]" description="Resultados de site:rfi.fr/es en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:rfi.fr/es&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:rfi.fr/es&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="RM Hoy - Internacional" title="RM Hoy - Internacional" description="Feed de la categoría 'Internacional' en RM Hoy" xmlUrl="https://rmhoy.cl/category/internacional/feed/" htmlUrl="https://rmhoy.cl/category/internacional/"/>
       <outline type="rss" text="Sera Noticia - Internacional" title="Sera Noticia - Internacional" description="Feed de la categoría 'Internacional' en Sera Noticia" xmlUrl="https://seranoticia.cl/internacional/feed/" htmlUrl="https://seranoticia.cl/internacional/"/>
       <outline type="rss" text="Sera Noticia - Mundo" title="Sera Noticia - Mundo" description="Feed de la categoría 'Mundo' en Sera Noticia" xmlUrl="https://seranoticia.cl/mundo/feed/" htmlUrl="https://seranoticia.cl/mundo/"/>
       <outline type="rss" text="Tarapacá Online - Internacional" title="Tarapacá Online - Internacional" description="Feed de la categoría 'Internacional' en Tarapacá Online" xmlUrl="https://tarapacaonline.cl/category/internacional/feed/" htmlUrl="https://tarapacaonline.cl/category/internacional/"/>

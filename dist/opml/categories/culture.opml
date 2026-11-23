@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (234 feeds)</title>
+    <title>Awesome Chilean RSS - 🎨 Cultura y Divulgación (235 feeds)</title>
     <description>Feeds RSS de 🎨 Cultura y Divulgación, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
+    <dateCreated>2026-11-23T20:23:24.237Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -58,6 +58,7 @@
       <outline type="rss" text="Diario El Ágora - Cultura" title="Diario El Ágora - Cultura" description="Feed de la categoría 'Cultura' en Diario El Ágora" xmlUrl="https://www.elagora.cl/categoria/cultura/feed/" htmlUrl="https://www.elagora.cl/categoria/cultura/"/>
       <outline type="rss" text="Diario El Cautín - Cultura" title="Diario El Cautín - Cultura" description="Feed de la categoría 'Cultura' en Diario El Cautín" xmlUrl="https://diarioelcautin.cl/category/cultura/feed/" htmlUrl="https://diarioelcautin.cl/category/cultura/"/>
       <outline type="rss" text="Diario El Centro - Cultura" title="Diario El Centro - Cultura" description="Feed de la categoría 'Cultura' en Diario El Centro" xmlUrl="https://www.diarioelcentro.cl/categoria/cultura/feed/" htmlUrl="https://www.diarioelcentro.cl/categoria/cultura/"/>
+      <outline type="rss" text="Diario El Labrador - Cultura" title="Diario El Labrador - Cultura" description="Feed de la categoría 'Cultura' en Diario El Labrador" xmlUrl="https://diarioellabrador.cl/index.php/category/cultura/feed/" htmlUrl="https://diarioellabrador.cl/index.php/category/cultura/"/>
       <outline type="rss" text="Diario El Marino - Cultura y Entretenimiento" title="Diario El Marino - Cultura y Entretenimiento" description="Feed de la sección 'Cultura y Entretenimiento' en Diario El Marino" xmlUrl="https://www.diarioelmarino.cl/cultura-y-entretenimiento/feed/rss/" htmlUrl="https://www.diarioelmarino.cl/cultura-y-entretenimiento/"/>
       <outline type="rss" text="Diario El Nortino - Artes y Cultura" title="Diario El Nortino - Artes y Cultura" description="Feed de la categoría 'Artes y Cultura' en Diario El Nortino" xmlUrl="https://diarioelnortino.cl/category/artes-cultura/feed/" htmlUrl="https://diarioelnortino.cl/category/artes-cultura/"/>
       <outline type="rss" text="Diario El Nortino - Cultura y Patrimonio" title="Diario El Nortino - Cultura y Patrimonio" description="Feed de la categoría 'Cultura y Patrimonio' en Diario El Nortino" xmlUrl="https://diarioelnortino.cl/category/cultura-patrimonio/feed/" htmlUrl="https://diarioelnortino.cl/category/cultura-patrimonio/"/>

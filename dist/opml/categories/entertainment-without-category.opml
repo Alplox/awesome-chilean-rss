@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (155 feeds)</title>
+    <title>Awesome Chilean RSS - 🎭 Espectáculos y Entretención (156 feeds)</title>
     <description>Feeds RSS de 🎭 Espectáculos y Entretención, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
+    <dateCreated>2026-11-23T20:23:24.237Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -144,6 +144,7 @@
     <outline type="rss" text="Radio Corazón [Proxy Google News]" title="Radio Corazón [Proxy Google News]" description="Resultados de site:corazon.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:corazon.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:corazon.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Radio Festival - Entretención" title="Radio Festival - Entretención" description="Feed de la categoría 'Entretención' en Radio Festival" xmlUrl="https://www.radiofestival.cl/category/entretencion/feed/" htmlUrl="https://www.radiofestival.cl/category/entretencion/"/>
     <outline type="rss" text="RLN (Radio Las Nieves) - Cultura Y Espectáculos" title="RLN (Radio Las Nieves) - Cultura Y Espectáculos" description="Feed de la categoría 'Cultura Y Espectáculos' en RLN (Radio Las Nieves)" xmlUrl="https://www.rln.cl/category/culturayespectaculos/feed/" htmlUrl="https://www.rln.cl/category/culturayespectaculos/"/>
+    <outline type="rss" text="RM Hoy - Espectáculos" title="RM Hoy - Espectáculos" description="Feed de la categoría 'Espectáculos' en RM Hoy" xmlUrl="https://rmhoy.cl/category/espectaculos/feed/" htmlUrl="https://rmhoy.cl/category/espectaculos/"/>
     <outline type="rss" text="Tecache" title="Tecache" description="Feed principal de Tecache" xmlUrl="https://tecache.cl/home-4/feed/" htmlUrl="https://tecache.cl/"/>
     <outline type="rss" text="Tecache - Contingencia" title="Tecache - Contingencia" description="Feed de la categoría 'Contingencia' en Tecache" xmlUrl="https://tecache.cl/seccion/contingencia/feed/" htmlUrl="https://tecache.cl/seccion/contingencia/"/>
     <outline type="rss" text="Tecache - Farándula Chilena" title="Tecache - Farándula Chilena" description="Feed de la categoría 'Farándula Chilena' en Tecache" xmlUrl="https://tecache.cl/seccion/farandula-chilena/feed/" htmlUrl="https://tecache.cl/seccion/farandula-chilena/"/>

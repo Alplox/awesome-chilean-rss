@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 103 sitios, 367 feeds*
+*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 104 sitios, 381 feeds*
 
 - **(Empresa) TiChile** — Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
   - (Empresa) tichile: `https://www.tichile.cl/feed/`
@@ -388,6 +388,21 @@
   - Samsung Newsroom Latin America: `https://news.samsung.com/latin/feed`
   - Samsung Newsroom Latin America [Proxy Google News]: `https://news.google.com/rss/search?q=site:news.samsung.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - Samsung Newsroom Latin America [Proxy Bing News]: `https://www.bing.com/news/search?q=site:news.samsung.com&format=RSS`
+- **Tecnautas** — Medio digital chileno sobre tecnología, ciencia y tendencias digitales.
+  - Tecnautas: `https://tecnautas.cl/feed/`
+  - Tecnautas - Corporativo: `https://tecnautas.cl/category/corporativo/feed/`
+  - Tecnautas - Tecnología: `https://tecnautas.cl/category/tecnologia/feed/`
+  - Tecnautas - Telefonía: `https://tecnautas.cl/category/telefonia/feed/`
+  - Tecnautas - Tendencias: `https://tecnautas.cl/category/tendencias/feed/`
+  - Tecnautas - Motor: `https://tecnautas.cl/category/motor/feed/`
+  - Tecnautas - Apps: `https://tecnautas.cl/category/apps/feed/`
+  - Tecnautas - Retail: `https://tecnautas.cl/category/retail/feed/`
+  - Tecnautas - Columna: `https://tecnautas.cl/category/columna/feed/`
+  - Tecnautas - Cultura Fandom: `https://tecnautas.cl/category/cultura-fandom/feed/`
+  - Tecnautas - Panoramas: `https://tecnautas.cl/category/panoramas/feed/`
+  - Tecnautas - Red Hat: `https://tecnautas.cl/category/red-hat/feed/`
+  - Tecnautas - Review Del Juego: `https://tecnautas.cl/category/review-del-juego/feed/`
+  - Tecnautas [Proxy Google News]: `https://news.google.com/rss/search?q=site:tecnautas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Tecnología Chile** — Portal tecnológico chileno sobre startups, inteligencia artificial, innovación, ciberseguridad y gaming.
   - Tecnología Chile: `https://nodotecnologico.cl/feed.xml`
   - Tecnología Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:nodotecnologico.cl&hl=es-419&gl=CL&ceid=CL:es-419`

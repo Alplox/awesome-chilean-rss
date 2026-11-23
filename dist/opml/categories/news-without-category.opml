@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (1106 feeds)</title>
+    <title>Awesome Chilean RSS - 📰 Noticias Nacionales (1110 feeds)</title>
     <description>Feeds RSS de 📰 Noticias Nacionales, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
+    <dateCreated>2026-11-23T20:23:24.237Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
+    <outline type="rss" text="(Empresa) Inmobiliaria RVC - Noticias" title="(Empresa) Inmobiliaria RVC - Noticias" description="Feed de la sección 'Noticias' en (Empresa) Inmobiliaria RVC" xmlUrl="https://rvc.cl/feed/?category=noticias" htmlUrl="https://rvc.cl/noticias/"/>
     <outline type="rss" text="aDiarioCR - Portada" title="aDiarioCR - Portada" description="Feed principal de aDiarioCR" xmlUrl="https://adiariocr.com/feed/" htmlUrl="https://adiariocr.com"/>
     <outline type="rss" text="aDiarioCR [Proxy Google News]" title="aDiarioCR [Proxy Google News]" description="Resultados de site:adiariocr.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:adiariocr.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:adiariocr.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="ADN Radio" title="ADN Radio" description="Feed principal de ADN Radio" xmlUrl="https://www.adnradio.cl/arc/outboundfeeds/rss/?outputType=xml" htmlUrl="https://www.adnradio.cl"/>
@@ -1040,6 +1041,9 @@
     <outline type="rss" text="RLN (Radio Las Nieves) - Rincón Del Vendedor" title="RLN (Radio Las Nieves) - Rincón Del Vendedor" description="Feed de la categoría 'Rincón Del Vendedor' en RLN (Radio Las Nieves)" xmlUrl="https://www.rln.cl/category/rincondelvendedor/feed/" htmlUrl="https://www.rln.cl/category/rincondelvendedor/"/>
     <outline type="rss" text="RLN (Radio Las Nieves) [Proxy Bing News]" title="RLN (Radio Las Nieves) [Proxy Bing News]" description="Resultados de site:rln.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:rln.cl&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:rln.cl"/>
     <outline type="rss" text="RLN (Radio Las Nieves) [Proxy Google News]" title="RLN (Radio Las Nieves) [Proxy Google News]" description="Resultados de site:rln.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:rln.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:rln.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+    <outline type="rss" text="RM Hoy - Actualidad" title="RM Hoy - Actualidad" description="Feed de la categoría 'Actualidad' en RM Hoy" xmlUrl="https://rmhoy.cl/category/actualidad/feed/" htmlUrl="https://rmhoy.cl/category/actualidad/"/>
+    <outline type="rss" text="RM Hoy - Nacional" title="RM Hoy - Nacional" description="Feed de la categoría 'Nacional' en RM Hoy" xmlUrl="https://rmhoy.cl/category/nacional/feed/" htmlUrl="https://rmhoy.cl/category/nacional/"/>
+    <outline type="rss" text="RM Hoy - Politica" title="RM Hoy - Politica" description="Feed de la categoría 'Politica' en RM Hoy" xmlUrl="https://rmhoy.cl/category/politica/feed/" htmlUrl="https://rmhoy.cl/category/politica/"/>
     <outline type="rss" text="RunningShot - Noticias" title="RunningShot - Noticias" description="Feed de la categoría 'Noticias' en RunningShot" xmlUrl="https://runnningshot.cl/category/noticias/feed/" htmlUrl="https://runnningshot.cl/category/noticias/"/>
     <outline type="rss" text="Sera Noticia - Actualidad" title="Sera Noticia - Actualidad" description="Feed de la categoría 'Actualidad' en Sera Noticia" xmlUrl="https://seranoticia.cl/actualidad/feed/" htmlUrl="https://seranoticia.cl/actualidad/"/>
     <outline type="rss" text="Sera Noticia - Nacional" title="Sera Noticia - Nacional" description="Feed de la categoría 'Nacional' en Sera Noticia" xmlUrl="https://seranoticia.cl/nacional/feed/" htmlUrl="https://seranoticia.cl/nacional/"/>

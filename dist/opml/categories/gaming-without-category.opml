@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - 🎮 Videojuegos y Gaming (82 feeds)</title>
+    <title>Awesome Chilean RSS - 🎮 Videojuegos y Gaming (83 feeds)</title>
     <description>Feeds RSS de 🎮 Videojuegos y Gaming, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-11-07T17:17:48.093Z</dateCreated>
+    <dateCreated>2026-11-23T20:23:24.237Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -85,6 +85,7 @@
     <outline type="rss" text="Tarreo [Proxy Bing News]" title="Tarreo [Proxy Bing News]" description="Resultados de site:tarreo.com en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:tarreo.com&amp;format=RSS" htmlUrl="https://www.bing.com/news/search?q=site:tarreo.com"/>
     <outline type="rss" text="Tarreo [Proxy Google News]" title="Tarreo [Proxy Google News]" description="Resultados de site:tarreo.com en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:tarreo.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:tarreo.com&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
     <outline type="rss" text="Tarreo Gamer" title="Tarreo Gamer" description="Feed principal de Tarreo" xmlUrl="https://www.tarreo.com/feed/" htmlUrl="https://www.tarreo.com"/>
+    <outline type="rss" text="Tecnautas - Videojuegos" title="Tecnautas - Videojuegos" description="Feed de la categoría 'Videojuegos' en Tecnautas" xmlUrl="https://tecnautas.cl/category/videojuegos/feed/" htmlUrl="https://tecnautas.cl/category/videojuegos/"/>
     <outline type="rss" text="Vanguardia Gamer" title="Vanguardia Gamer" description="Feed principal de Vanguardia Gamer" xmlUrl="https://vanguardiagamer.cl/feed/" htmlUrl="https://vanguardiagamer.cl"/>
     <outline type="rss" text="Vanguardia Gamer - Hecho En Chile" title="Vanguardia Gamer - Hecho En Chile" description="Feed de la categoría 'Hecho En Chile' en Vanguardia Gamer" xmlUrl="https://vanguardiagamer.cl/category/noticias/hecho-en-chile/feed/" htmlUrl="https://vanguardiagamer.cl/category/noticias/hecho-en-chile/"/>
     <outline type="rss" text="Vanguardia Gamer - Opinión" title="Vanguardia Gamer - Opinión" description="Feed de la categoría 'Opinión' en Vanguardia Gamer" xmlUrl="https://vanguardiagamer.cl/category/opinion/feed/" htmlUrl="https://vanguardiagamer.cl/category/opinion/"/>

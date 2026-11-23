@@ -2,8 +2,10 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news.opml`](../../opml/categories/news.opml) - 311 sitios, 1106 feeds*
+*Descargar OPML: [`news.opml`](../../opml/categories/news.opml) - 313 sitios, 1110 feeds*
 
+- **(Empresa) Inmobiliaria RVC**: Feed de la sección 'Noticias' en (Empresa) Inmobiliaria RVC
+  - RSS: `https://rvc.cl/feed/?category=noticias`
 - **aDiarioCR** — Periódico digital con noticias de Chile y el mundo
   - aDiarioCR - Portada: `https://adiariocr.com/feed/`
   - aDiarioCR [Proxy Google News]: `https://news.google.com/rss/search?q=site:adiariocr.com&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -1308,6 +1310,10 @@
   - RLN (Radio Las Nieves) - Noticias: `https://www.rln.cl/category/noticias/feed/`
   - RLN (Radio Las Nieves) [Proxy Google News]: `https://news.google.com/rss/search?q=site:rln.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - RLN (Radio Las Nieves) [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rln.cl&format=RSS`
+- **RM Hoy** — Medio digital de noticias de la Región Metropolitana.
+  - RM Hoy - Actualidad: `https://rmhoy.cl/category/actualidad/feed/`
+  - RM Hoy - Nacional: `https://rmhoy.cl/category/nacional/feed/`
+  - RM Hoy - Politica: `https://rmhoy.cl/category/politica/feed/`
 - **RunningShot**: Feed de la categoría 'Noticias' en RunningShot
   - RSS: `https://runnningshot.cl/category/noticias/feed/`
 - **Sera Noticia** — Diario regional del Maule

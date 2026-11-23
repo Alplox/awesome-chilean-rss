@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](../../opml/categories/regional.opml) - 253 sitios, 1931 feeds
+Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](../../opml/categories/regional.opml) - 256 sitios, 1945 feeds
 
 #### 📍 Arica y Parinacota (12 medios)
 
@@ -1370,7 +1370,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Valparaíso Noticias - Portada: `https://valparaisonoticias.cl/feed/`
   - Valparaíso Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:valparaisonoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Metropolitana de Santiago (23 medios)
+#### 📍 Metropolitana de Santiago (25 medios)
 
 *Descargar OPML regional: [`metropolitana.opml`](../../opml/regions/metropolitana.opml)*
 
@@ -1450,6 +1450,18 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Curacaví Digital - Revoltijo: `https://www.curacavidigital.cl/category/nosotros/revoltijo/feed/`
   - Curacaví Digital - Nosotros: `https://www.curacavidigital.cl/category/nosotros/feed/`
   - Curacaví Digital [Proxy Google News]: `https://news.google.com/rss/search?q=site:curacavidigital.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Diario El Labrador** — Diario de la Provincia de Melipilla, fundado en 1921.
+  - Diario El Labrador: `https://diarioellabrador.cl/index.php/feed/`
+  - Diario El Labrador - Crónica: `https://diarioellabrador.cl/index.php/category/cronica/feed/`
+  - Diario El Labrador - Policial: `https://diarioellabrador.cl/index.php/category/policial/feed/`
+  - Diario El Labrador - Deportes: `https://diarioellabrador.cl/index.php/category/deportes/feed/`
+  - Diario El Labrador - Rodeo: `https://diarioellabrador.cl/index.php/category/rodeo/feed/`
+  - Diario El Labrador - Opinión: `https://diarioellabrador.cl/index.php/category/opinion/feed/`
+  - Diario El Labrador - Ediciones: `https://diarioellabrador.cl/index.php/category/ediciones/feed/`
+  - Diario El Labrador - Destacados: `https://diarioellabrador.cl/index.php/category/destacados/feed/`
+  - Diario El Labrador - Foto Histórica: `https://diarioellabrador.cl/index.php/category/fotohistorica/feed/`
+  - Diario El Labrador - Cultura: `https://diarioellabrador.cl/index.php/category/cultura/feed/`
+  - Diario El Labrador [Proxy Google News]: `https://news.google.com/rss/search?q=site:diarioellabrador.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diario Sur Noticias** — Diario regional de Santiago, Metropolitana
   - Diario Sur Noticias: `https://www.diariosurnoticias.com/feed/`
   - Diario Sur Noticias - Nacional: `https://www.diariosurnoticias.com/nacional/feed/`
@@ -1652,6 +1664,17 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Radio Universidad de Chile - Radio Universidad De Chile Y Amnistía Internacional: `https://radio.uchile.cl/ruch_amnistiainternacional/feed/`
   - Radio Universidad de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:radio.uchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Radio Universidad de Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radio.uchile.cl&format=RSS`
+- **RM Hoy** — Medio digital de noticias de la Región Metropolitana.
+  - RM Hoy: `https://rmhoy.cl/feed/`
+  - RM Hoy - Actualidad: `https://rmhoy.cl/category/actualidad/feed/`
+  - RM Hoy - Destacada: `https://rmhoy.cl/category/destacada/feed/`
+  - RM Hoy - Comunal: `https://rmhoy.cl/category/comunal/feed/`
+  - RM Hoy - Nacional: `https://rmhoy.cl/category/nacional/feed/`
+  - RM Hoy - Politica: `https://rmhoy.cl/category/politica/feed/`
+  - RM Hoy - Internacional: `https://rmhoy.cl/category/internacional/feed/`
+  - RM Hoy - Deportes: `https://rmhoy.cl/category/deportes/feed/`
+  - RM Hoy - Espectáculos: `https://rmhoy.cl/category/espectaculos/feed/`
+  - RM Hoy [Proxy Google News]: `https://news.google.com/rss/search?q=site:rmhoy.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Sitio del Suceso** — Cobertura de sucesos y noticias de Santiago, Región Metropolitana y Región de Valparaíso
   - Sitio del Suceso: `https://sitiodelsuceso.cl/feed/`
   - Sitio del Suceso [Proxy Google News]: `https://news.google.com/rss/search?q=site:sitiodelsuceso.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -3572,8 +3595,10 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Zona Zero [Proxy Google News]: `https://news.google.com/rss/search?q=site:zonazero.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Zona Zero [Proxy Bing News]: `https://www.bing.com/news/search?q=site:zonazero.cl&format=RSS`
 
-#### 📍 Otras Regiones o No Especificada (8 medios)
+#### 📍 Otras Regiones o No Especificada (9 medios)
 
+- **(Empresa) Inmobiliaria RVC**: Feed de la sección 'Comuna' en (Empresa) Inmobiliaria RVC
+  - RSS: `https://rvc.cl/feed/?category=comuna`
 - **G5 Noticias**: Feed de la categoría 'Región' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/region/feed/`
 - **Google News** — Segregador de noticias de Google

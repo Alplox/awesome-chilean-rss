@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 58 sitios, 155 feeds*
+*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 59 sitios, 156 feeds*
 
 - **Alerta Geek Chile**: Feed de la categoría 'Series' en Alerta Geek Chile
   - RSS: `https://alertageekchile.cl/category/series/feed/`
@@ -190,6 +190,8 @@
   - RSS: `https://www.radiofestival.cl/category/entretencion/feed/`
 - **RLN (Radio Las Nieves)**: Feed de la categoría 'Cultura Y Espectáculos' en RLN (Radio Las Nieves)
   - RSS: `https://www.rln.cl/category/culturayespectaculos/feed/`
+- **RM Hoy**: Feed de la categoría 'Espectáculos' en RM Hoy
+  - RSS: `https://rmhoy.cl/category/espectaculos/feed/`
 - **Tecache** — Portal chileno de farándula, TV y espectáculos
   - Tecache: `https://tecache.cl/home-4/feed/`
   - Tecache - Farándula Chilena: `https://tecache.cl/seccion/farandula-chilena/feed/`

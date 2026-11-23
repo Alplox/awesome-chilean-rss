@@ -4351,7 +4351,7 @@
     "url": "https://grafelbergnoticias.blogspot.com/",
     "category": "regional",
     "region": "los-lagos",
-    "description": "Escudo de los sudetes. Grafelbergnoticias es un medio sin fines de lucro, cuyos objetivos son difundir la historia del Colegio Germania de Puerto Varas",
+    "description": "Medio digital sobre la historia del Colegio Germania de Puerto Varas, Región de Los Lagos",
     "reason": "sitio no responde",
     "feeds": [
       {
@@ -11138,7 +11138,7 @@
     "name": "SalmonExpert",
     "url": "https://www.salmonexpert.cl",
     "category": "business",
-    "description": "Noticias, análisis y tendencias sobre la industria del salmón en Chile y el mundo. Portal del grupo OceanSpace Media",
+    "description": "Medio digital sobre la industria del salmón en Chile y el mundo",
     "reason": "sin feed RSS detectado",
     "feeds": [
       {
@@ -11320,7 +11320,7 @@
     "name": "(Empresa) Nexoplay",
     "url": "https://www.nexoplay.com",
     "category": "technology",
-    "description": "Empresa - Productora de contenidos audiovisual, agencia digital y plataforma medial 360",
+    "description": "Empresa chilena de producción audiovisual y agencia digital",
     "reason": "feed stale (último item: 2025-05-26, 523 días)",
     "feeds": [
       {
@@ -19952,7 +19952,7 @@
     "name": "MAS",
     "url": "https://mas.cl",
     "category": "technology",
-    "description": "Empresa dedicada al desarrollo y gestión de proyectos de ingeniería, con experiencia previa en diversos proyectos y desarrollos",
+    "description": "Empresa chilena de desarrollo y gestión de proyectos de ingeniería",
     "reason": "HTTP error (500)",
     "feeds": [
       {
@@ -23449,6 +23449,3849 @@
         "description": "Resultados de site:theintelligent.cl en Proxy Bing News",
         "feed_type": "RSS",
         "last_checked": "2026-11-07T15:46:21.275Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "smartcherry",
+    "name": "Smartcherry",
+    "url": "https://smartcherry.cl",
+    "category": "environment",
+    "description": "Portal especializado en la industria del cerezo en Chile.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "smartcherry-proxy-google-news",
+        "name": "Smartcherry [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:smartcherry.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:smartcherry.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:smartcherry.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-11T13:50:41.734Z",
+        "last_known_item_date": "2026-10-29T07:00:00.000Z",
+        "verified": true,
+        "status": "active"
+      },
+      {
+        "id": "smartcherry-proxy-bing-news",
+        "name": "Smartcherry [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:smartcherry.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:smartcherry.cl",
+        "description": "Resultados de site:smartcherry.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-11T13:50:41.734Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "infoagro",
+    "name": "InfoAgro",
+    "url": "https://www.infoagro.com",
+    "category": "environment",
+    "description": "Portal informativo sobre agricultura y sector agroalimentario.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "infoagro-proxy-google-news",
+        "name": "InfoAgro [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:infoagro.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:infoagro.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:infoagro.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-11T13:50:41.734Z",
+        "last_known_item_date": "2018-03-10T20:34:24.000Z",
+        "verified": false,
+        "status": "stale"
+      },
+      {
+        "id": "infoagro-proxy-bing-news",
+        "name": "InfoAgro [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:infoagro.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:infoagro.com",
+        "description": "Resultados de site:infoagro.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-11T13:50:41.734Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "ruta-lagos-y-volcanes",
+    "name": "Ruta Lagos y Volcanes",
+    "url": "https://www.rutalagosyvolcanes.cl",
+    "category": "community",
+    "region": "los-lagos",
+    "description": "Ruta turística de la Región de Los Lagos enfocada en lagos y volcanes.",
+    "reason": "sitio no responde con contenido accesible (HTTP 406) y sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "ruta-lagos-y-volcanes-proxy-google-news",
+        "name": "Ruta Lagos y Volcanes [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:rutalagosyvolcanes.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:rutalagosyvolcanes.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:rutalagosyvolcanes.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-11T13:50:41.734Z",
+        "last_known_item_date": "2026-10-19T20:46:59.000Z",
+        "verified": true,
+        "status": "active"
+      },
+      {
+        "id": "ruta-lagos-y-volcanes-proxy-bing-news",
+        "name": "Ruta Lagos y Volcanes [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:rutalagosyvolcanes.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:rutalagosyvolcanes.cl",
+        "description": "Resultados de site:rutalagosyvolcanes.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-11T13:50:41.734Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "autopista-ruta-78",
+    "name": "Autopista Ruta 78",
+    "url": "https://www.autopistaruta78.cl",
+    "category": "business",
+    "description": "Sitio oficial de la concesión Autopista San Antonio-Santiago, Ruta 78.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "autopista-ruta-78-proxy-google-news",
+        "name": "Autopista Ruta 78 [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:autopistaruta78.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:autopistaruta78.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:autopistaruta78.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-11T13:50:41.734Z",
+        "last_known_item_date": "2022-03-22T14:54:21.000Z",
+        "verified": false,
+        "status": "stale"
+      },
+      {
+        "id": "autopista-ruta-78-proxy-bing-news",
+        "name": "Autopista Ruta 78 [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:autopistaruta78.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:autopistaruta78.cl",
+        "description": "Resultados de site:autopistaruta78.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-11T13:50:41.734Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "rutabus78",
+    "name": "Ruta Bus 78",
+    "url": "https://rutabus78.cl",
+    "category": "community",
+    "description": "Servicio de transporte de pasajeros entre Santiago y San Antonio por la Ruta 78.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "rutabus78-proxy-google-news",
+        "name": "Ruta Bus 78 [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:rutabus78.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:rutabus78.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:rutabus78.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-11T13:50:41.734Z",
+        "last_known_item_date": "2023-03-03T20:56:16.000Z",
+        "verified": false,
+        "status": "stale"
+      },
+      {
+        "id": "rutabus78-proxy-bing-news",
+        "name": "Ruta Bus 78 [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:rutabus78.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:rutabus78.cl",
+        "description": "Resultados de site:rutabus78.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-11T13:50:41.734Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "el-container",
+    "name": "El Container",
+    "url": "https://elcontainer.cl/",
+    "category": "business",
+    "description": "Tienda chilena de muebles, decoración y organizadores para el hogar",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "el-container-proxy-google-news",
+        "name": "El Container [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:elcontainer.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:elcontainer.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:elcontainer.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "el-container-proxy-bing-news",
+        "name": "El Container [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:elcontainer.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:elcontainer.cl",
+        "description": "Resultados de site:elcontainer.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "emma",
+    "name": "Emma",
+    "url": "https://emma-colchon.cl/",
+    "category": "business",
+    "description": "Tienda chilena de colchones y productos de descanso: colchones de espuma e híbridos, camas, almohadas y toppers.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "emma-proxy-google-news",
+        "name": "Emma [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:emma-colchon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:emma-colchon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:emma-colchon.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "emma-proxy-bing-news",
+        "name": "Emma [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:emma-colchon.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:emma-colchon.cl",
+        "description": "Resultados de site:emma-colchon.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "hifi",
+    "name": "HiFi",
+    "url": "https://hifi.cl/",
+    "category": "technology",
+    "description": "Tienda chilena de equipos de audio y alta fidelidad.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "hifi-proxy-google-news",
+        "name": "HiFi [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:hifi.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:hifi.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:hifi.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "hifi-proxy-bing-news",
+        "name": "HiFi [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:hifi.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:hifi.cl",
+        "description": "Resultados de site:hifi.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "jet-smart",
+    "name": "Jet Smart",
+    "url": "https://jet-smart.cl/",
+    "category": "business",
+    "description": "Aerolínea chilena de bajo costo.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "jet-smart-proxy-google-news",
+        "name": "Jet Smart [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:jet-smart.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:jet-smart.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:jet-smart.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "jet-smart-proxy-bing-news",
+        "name": "Jet Smart [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:jet-smart.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:jet-smart.cl",
+        "description": "Resultados de site:jet-smart.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "bazar-ed",
+    "name": "Bazar ED",
+    "url": "https://bazared.cl/",
+    "category": "business",
+    "description": "Tienda chilena de diseño, decoración, moda y bienestar",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "bazar-ed-proxy-google-news",
+        "name": "Bazar ED [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:bazared.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:bazared.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:bazared.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "bazar-ed-proxy-bing-news",
+        "name": "Bazar ED [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:bazared.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:bazared.cl",
+        "description": "Resultados de site:bazared.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "booz",
+    "name": "Booz",
+    "url": "https://booz.cl/",
+    "category": "business",
+    "description": "Tienda chilena de bebidas, alimentos y electrodomésticos",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "booz-proxy-google-news",
+        "name": "Booz [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:booz.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:booz.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:booz.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "booz-proxy-bing-news",
+        "name": "Booz [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:booz.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:booz.cl",
+        "description": "Resultados de site:booz.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "casa-alvarinho",
+    "name": "Casa Alvarinho",
+    "url": "https://casaalvarinho.cl/",
+    "category": "business",
+    "description": "Tienda chilena de textiles para el hogar: cama, baño, mesa y bebé",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "casa-alvarinho-proxy-google-news",
+        "name": "Casa Alvarinho [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:casaalvarinho.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:casaalvarinho.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:casaalvarinho.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "casa-alvarinho-proxy-bing-news",
+        "name": "Casa Alvarinho [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:casaalvarinho.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:casaalvarinho.cl",
+        "description": "Resultados de site:casaalvarinho.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "cherimoya",
+    "name": "Cherimoya",
+    "url": "https://cherimoya.cl/",
+    "category": "business",
+    "description": "Tienda chilena de productos de belleza y esmaltado: esmaltes, sistemas de acrílico y polygel, lámparas UV/LED y kits de uñas.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "cherimoya-proxy-google-news",
+        "name": "Cherimoya [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:cherimoya.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cherimoya.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:cherimoya.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "cherimoya-proxy-bing-news",
+        "name": "Cherimoya [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:cherimoya.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cherimoya.cl",
+        "description": "Resultados de site:cherimoya.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "clinica-belenus",
+    "name": "Clínica Belenus",
+    "url": "https://belenus.cl/",
+    "category": "health",
+    "description": "Red chilena de clínicas de medicina estética",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "clinica-belenus-proxy-google-news",
+        "name": "Clínica Belenus [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:belenus.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:belenus.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:belenus.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "clinica-belenus-proxy-bing-news",
+        "name": "Clínica Belenus [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:belenus.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:belenus.cl",
+        "description": "Resultados de site:belenus.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "fundamenta",
+    "name": "Fundamenta",
+    "url": "https://fundamenta.cl/",
+    "category": "business",
+    "description": "Inmobiliaria chilena de proyectos habitacionales.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "fundamenta-proxy-google-news",
+        "name": "Fundamenta [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fundamenta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fundamenta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:fundamenta.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "fundamenta-proxy-bing-news",
+        "name": "Fundamenta [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fundamenta.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fundamenta.cl",
+        "description": "Resultados de site:fundamenta.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "ilus",
+    "name": "Ilus",
+    "url": "https://ilusfitness.com/",
+    "category": "sports",
+    "description": "Marca chilena de suplementos y accesorios de fitness.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "ilus-proxy-google-news",
+        "name": "Ilus [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ilusfitness.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ilusfitness.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:ilusfitness.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "ilus-proxy-bing-news",
+        "name": "Ilus [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ilusfitness.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ilusfitness.com",
+        "description": "Resultados de site:ilusfitness.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "mamas-mateas",
+    "name": "Mamás Mateas",
+    "url": "https://mamasmateas.com/",
+    "category": "business",
+    "description": "Tienda chilena de productos infantiles y consultoría de sueño infantil",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "mamas-mateas-proxy-google-news",
+        "name": "Mamás Mateas [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:mamasmateas.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mamasmateas.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:mamasmateas.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "mamas-mateas-proxy-bing-news",
+        "name": "Mamás Mateas [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:mamasmateas.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mamasmateas.com",
+        "description": "Resultados de site:mamasmateas.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "sokobox",
+    "name": "Sokobox",
+    "url": "https://sokobox.cl/",
+    "category": "business",
+    "description": "Tienda chilena de maquillaje, cuidado personal y belleza coreana",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "sokobox-proxy-google-news",
+        "name": "Sokobox [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sokobox.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sokobox.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:sokobox.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "sokobox-proxy-bing-news",
+        "name": "Sokobox [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sokobox.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sokobox.cl",
+        "description": "Resultados de site:sokobox.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "tusmascotas-cl",
+    "name": "tusmascotas.cl",
+    "url": "https://tusmascotas.cl/",
+    "category": "community",
+    "description": "Tienda chilena de productos y accesorios para mascotas.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "tusmascotas-cl-proxy-google-news",
+        "name": "tusmascotas.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tusmascotas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tusmascotas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:tusmascotas.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "tusmascotas-cl-proxy-bing-news",
+        "name": "tusmascotas.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tusmascotas.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tusmascotas.cl",
+        "description": "Resultados de site:tusmascotas.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "zigzaboo",
+    "name": "Zigzaboo",
+    "url": "https://zigzaboo.com/",
+    "category": "business",
+    "description": "Tienda chilena de vaporizadores y productos de vapeo",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "zigzaboo-proxy-google-news",
+        "name": "Zigzaboo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:zigzaboo.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:zigzaboo.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:zigzaboo.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "zigzaboo-proxy-bing-news",
+        "name": "Zigzaboo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:zigzaboo.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:zigzaboo.com",
+        "description": "Resultados de site:zigzaboo.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "apro",
+    "name": "APRO",
+    "url": "https://apro.cl/",
+    "category": "business",
+    "description": "Tienda chilena de artículos de seguridad industrial y equipos de protección personal",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "apro-proxy-google-news",
+        "name": "APRO [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:apro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:apro.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:apro.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "apro-proxy-bing-news",
+        "name": "APRO [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:apro.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:apro.cl",
+        "description": "Resultados de site:apro.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "calzado-de-seguridad",
+    "name": "Calzado de Seguridad",
+    "url": "https://calzadodeseguridad.cl/",
+    "category": "business",
+    "description": "Tienda chilena de calzado de seguridad: zapatos, zapatillas, botines y botas de caña alta, con modelos dieléctricos y para trabajo pesado.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "calzado-de-seguridad-proxy-google-news",
+        "name": "Calzado de Seguridad [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:calzadodeseguridad.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:calzadodeseguridad.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:calzadodeseguridad.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "calzado-de-seguridad-proxy-bing-news",
+        "name": "Calzado de Seguridad [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:calzadodeseguridad.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:calzadodeseguridad.cl",
+        "description": "Resultados de site:calzadodeseguridad.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "edelbrock",
+    "name": "Edelbrock",
+    "url": "https://edelbrock.cl/",
+    "category": "business",
+    "description": "Tienda chilena de calzado de seguridad: botines, zapatos y zapatillas de las líneas ED, con modelos dieléctricos y resistentes a hidrocarburos.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "edelbrock-proxy-google-news",
+        "name": "Edelbrock [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:edelbrock.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:edelbrock.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:edelbrock.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "edelbrock-proxy-bing-news",
+        "name": "Edelbrock [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:edelbrock.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:edelbrock.cl",
+        "description": "Resultados de site:edelbrock.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "extravirgen-store",
+    "name": "Extravirgen.Store",
+    "url": "https://extravirgen.cl/",
+    "category": "business",
+    "description": "Tienda chilena de aceites de oliva, alimentos y bebidas",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "extravirgen-store-proxy-google-news",
+        "name": "Extravirgen.Store [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:extravirgen.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:extravirgen.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:extravirgen.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "extravirgen-store-proxy-bing-news",
+        "name": "Extravirgen.Store [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:extravirgen.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:extravirgen.cl",
+        "description": "Resultados de site:extravirgen.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "hard-work",
+    "name": "Hard Work",
+    "url": "https://hardwork.cl/",
+    "category": "business",
+    "description": "Tienda chilena de vestuario, calzado de seguridad e indumentaria outdoor",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "hard-work-proxy-google-news",
+        "name": "Hard Work [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:hardwork.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:hardwork.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:hardwork.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "hard-work-proxy-bing-news",
+        "name": "Hard Work [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:hardwork.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:hardwork.cl",
+        "description": "Resultados de site:hardwork.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "menetue",
+    "name": "Menetúe",
+    "url": "https://menetue.com/",
+    "category": "business",
+    "description": "Parque termal con piscinas, tinajas y cabañas en Pucón, Región de La Araucanía",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "menetue-proxy-google-news",
+        "name": "Menetúe [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:menetue.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:menetue.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:menetue.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "menetue-proxy-bing-news",
+        "name": "Menetúe [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:menetue.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:menetue.com",
+        "description": "Resultados de site:menetue.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "mennt",
+    "name": "Mennt",
+    "url": "https://mennt.cl/",
+    "category": "business",
+    "description": "Marca chilena de equipamiento outdoor y de aventura",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "mennt-proxy-google-news",
+        "name": "Mennt [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:mennt.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mennt.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:mennt.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "mennt-proxy-bing-news",
+        "name": "Mennt [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:mennt.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mennt.cl",
+        "description": "Resultados de site:mennt.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "mininuts",
+    "name": "MiniNuts",
+    "url": "https://mininuts.cl/",
+    "category": "business",
+    "description": "Tienda chilena de artículos para bebés: sillas de auto, coches de paseo, cunas y sillas de comer, con asesoría de instalación.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "mininuts-proxy-google-news",
+        "name": "MiniNuts [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:mininuts.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mininuts.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:mininuts.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "mininuts-proxy-bing-news",
+        "name": "MiniNuts [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:mininuts.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mininuts.cl",
+        "description": "Resultados de site:mininuts.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "mycocos",
+    "name": "MyCocos",
+    "url": "https://mycocos.cl/",
+    "category": "business",
+    "description": "Marca chilena de rasuradoras y productos de cuidado personal masculino",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "mycocos-proxy-google-news",
+        "name": "MyCocos [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:mycocos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:mycocos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:mycocos.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "mycocos-proxy-bing-news",
+        "name": "MyCocos [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:mycocos.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:mycocos.cl",
+        "description": "Resultados de site:mycocos.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "safety-store",
+    "name": "Safety Store",
+    "url": "https://safetystore.cl/",
+    "category": "business",
+    "description": "Tienda chilena de artículos de seguridad industrial, vestuario y calzado de trabajo",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "safety-store-proxy-google-news",
+        "name": "Safety Store [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:safetystore.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:safetystore.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:safetystore.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "safety-store-proxy-bing-news",
+        "name": "Safety Store [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:safetystore.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:safetystore.cl",
+        "description": "Resultados de site:safetystore.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "sairam",
+    "name": "Sairam",
+    "url": "https://sairam.cl/",
+    "category": "health",
+    "description": "Tienda chilena de perfumería, fragancias y productos de belleza",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "sairam-proxy-google-news",
+        "name": "Sairam [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sairam.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sairam.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:sairam.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "sairam-proxy-bing-news",
+        "name": "Sairam [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sairam.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sairam.cl",
+        "description": "Resultados de site:sairam.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "sporting-brands",
+    "name": "Sporting Brands",
+    "url": "https://sportingbrands.cl/",
+    "category": "sports",
+    "description": "Tienda chilena de equipamiento deportivo para tenis, pádel y otros deportes de raqueta",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "sporting-brands-proxy-google-news",
+        "name": "Sporting Brands [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sportingbrands.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sportingbrands.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:sportingbrands.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "sporting-brands-proxy-bing-news",
+        "name": "Sporting Brands [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sportingbrands.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sportingbrands.cl",
+        "description": "Resultados de site:sportingbrands.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "termas-conaripe",
+    "name": "Termas Coñaripe",
+    "url": "https://termasconaripe.cl/",
+    "category": "business",
+    "description": "Complejo termal ubicado en la región de Los Ríos, Chile.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "termas-conaripe-proxy-google-news",
+        "name": "Termas Coñaripe [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:termasconaripe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:termasconaripe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:termasconaripe.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "termas-conaripe-proxy-bing-news",
+        "name": "Termas Coñaripe [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:termasconaripe.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:termasconaripe.cl",
+        "description": "Resultados de site:termasconaripe.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "termas-malleco",
+    "name": "Termas Malleco",
+    "url": "https://termasmalleco.cl/",
+    "category": "business",
+    "description": "Complejo termal ubicado en la región de La Araucanía, Chile.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "termas-malleco-proxy-google-news",
+        "name": "Termas Malleco [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:termasmalleco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:termasmalleco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:termasmalleco.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "termas-malleco-proxy-bing-news",
+        "name": "Termas Malleco [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:termasmalleco.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:termasmalleco.cl",
+        "description": "Resultados de site:termasmalleco.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "trial",
+    "name": "Trial",
+    "url": "https://trial.cl/",
+    "category": "sports",
+    "description": "Tienda chilena de vestuario de estilo italiano",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "trial-proxy-google-news",
+        "name": "Trial [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:trial.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:trial.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:trial.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "trial-proxy-bing-news",
+        "name": "Trial [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:trial.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:trial.cl",
+        "description": "Resultados de site:trial.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "trust-labs",
+    "name": "Trust Labs",
+    "url": "https://trustlabs.cl/",
+    "category": "health",
+    "description": "Marca chilena de suplementos deportivos y nutricionales",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "trust-labs-proxy-google-news",
+        "name": "Trust Labs [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:trustlabs.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:trustlabs.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:trustlabs.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "trust-labs-proxy-bing-news",
+        "name": "Trust Labs [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:trustlabs.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:trustlabs.cl",
+        "description": "Resultados de site:trustlabs.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "auto-planet",
+    "name": "Auto Planet",
+    "url": "https://autoplanet.cl/",
+    "category": "business",
+    "description": "Tienda chilena de neumáticos, baterías, repuestos y accesorios para automóviles",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "auto-planet-proxy-google-news",
+        "name": "Auto Planet [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:autoplanet.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:autoplanet.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:autoplanet.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "auto-planet-proxy-bing-news",
+        "name": "Auto Planet [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:autoplanet.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:autoplanet.cl",
+        "description": "Resultados de site:autoplanet.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "biblias-cl",
+    "name": "Biblias.cl",
+    "url": "https://biblias.cl/",
+    "category": "business",
+    "description": "Librería cristiana chilena.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "biblias-cl-proxy-google-news",
+        "name": "Biblias.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:biblias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:biblias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:biblias.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "biblias-cl-proxy-bing-news",
+        "name": "Biblias.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:biblias.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:biblias.cl",
+        "description": "Resultados de site:biblias.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "clinica-altos-del-desierto",
+    "name": "Clínica Altos del Desierto",
+    "url": "https://altosdeldesierto.cl/",
+    "category": "health",
+    "description": "Clínica de medicina estética en el norte de Chile",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "clinica-altos-del-desierto-proxy-google-news",
+        "name": "Clínica Altos del Desierto [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:altosdeldesierto.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:altosdeldesierto.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:altosdeldesierto.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "clinica-altos-del-desierto-proxy-bing-news",
+        "name": "Clínica Altos del Desierto [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:altosdeldesierto.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:altosdeldesierto.cl",
+        "description": "Resultados de site:altosdeldesierto.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "deep-productivity-performance",
+    "name": "Deep Productivity & Performance",
+    "url": "https://holasomosdeep.com/",
+    "category": "technology",
+    "description": "Marca chilena de bebidas funcionales para enfoque y rendimiento",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "deep-productivity-performance-proxy-google-news",
+        "name": "Deep Productivity & Performance [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:holasomosdeep.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:holasomosdeep.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:holasomosdeep.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "deep-productivity-performance-proxy-bing-news",
+        "name": "Deep Productivity & Performance [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:holasomosdeep.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:holasomosdeep.com",
+        "description": "Resultados de site:holasomosdeep.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "eurosol",
+    "name": "Eurosol",
+    "url": "https://eurosol.cl/",
+    "category": "business",
+    "description": "Agencia de viajes chilena especializada en circuitos por Europa, Medio Oriente, Asia, África y Oceanía, cruceros y viajes corporativos.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "eurosol-proxy-google-news",
+        "name": "Eurosol [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:eurosol.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:eurosol.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:eurosol.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "eurosol-proxy-bing-news",
+        "name": "Eurosol [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:eurosol.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:eurosol.cl",
+        "description": "Resultados de site:eurosol.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "fumetas-store",
+    "name": "Fumetas Store",
+    "url": "https://fumetas.cl/",
+    "category": "business",
+    "description": "Tienda chilena de accesorios para fumadores y cultivo",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "fumetas-store-proxy-google-news",
+        "name": "Fumetas Store [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fumetas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fumetas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:fumetas.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "fumetas-store-proxy-bing-news",
+        "name": "Fumetas Store [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fumetas.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fumetas.cl",
+        "description": "Resultados de site:fumetas.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "kuna-food",
+    "name": "Kuna Food",
+    "url": "https://kunafoods.cl/",
+    "category": "business",
+    "description": "Marca chilena de snacks saludables para niños",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "kuna-food-proxy-google-news",
+        "name": "Kuna Food [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:kunafoods.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:kunafoods.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:kunafoods.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "kuna-food-proxy-bing-news",
+        "name": "Kuna Food [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:kunafoods.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:kunafoods.cl",
+        "description": "Resultados de site:kunafoods.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "leche-pal-pelo",
+    "name": "Leche Pal Pelo",
+    "url": "https://lechepalpelo.cl/",
+    "category": "business",
+    "description": "Marca chilena de productos para el cuidado capilar",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "leche-pal-pelo-proxy-google-news",
+        "name": "Leche Pal Pelo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:lechepalpelo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lechepalpelo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:lechepalpelo.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "leche-pal-pelo-proxy-bing-news",
+        "name": "Leche Pal Pelo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:lechepalpelo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lechepalpelo.cl",
+        "description": "Resultados de site:lechepalpelo.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "pethome",
+    "name": "Pethome",
+    "url": "https://pethome.cl/",
+    "category": "community",
+    "description": "Tienda chilena de productos y alimentos para mascotas",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "pethome-proxy-google-news",
+        "name": "Pethome [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:pethome.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:pethome.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:pethome.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "pethome-proxy-bing-news",
+        "name": "Pethome [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:pethome.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:pethome.cl",
+        "description": "Resultados de site:pethome.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "strive-nutrition",
+    "name": "Strive Nutrition",
+    "url": "https://strive.cl/",
+    "category": "health",
+    "description": "Tienda chilena de suplementos deportivos y nutricionales",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "strive-nutrition-proxy-google-news",
+        "name": "Strive Nutrition [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:strive.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:strive.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:strive.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "strive-nutrition-proxy-bing-news",
+        "name": "Strive Nutrition [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:strive.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:strive.cl",
+        "description": "Resultados de site:strive.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "teh-tools",
+    "name": "TEH Tools",
+    "url": "https://tehtools.cl/",
+    "category": "business",
+    "description": "Tienda chilena de generadores, compresores y herramientas eléctricas",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "teh-tools-proxy-google-news",
+        "name": "TEH Tools [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tehtools.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tehtools.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:tehtools.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "teh-tools-proxy-bing-news",
+        "name": "TEH Tools [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tehtools.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tehtools.cl",
+        "description": "Resultados de site:tehtools.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "the-beauty-box",
+    "name": "The Beauty Box",
+    "url": "https://thebeautybox.cl/",
+    "category": "health",
+    "description": "Tienda chilena de productos de belleza y cuidado personal",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "the-beauty-box-proxy-google-news",
+        "name": "The Beauty Box [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:thebeautybox.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:thebeautybox.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:thebeautybox.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "the-beauty-box-proxy-bing-news",
+        "name": "The Beauty Box [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:thebeautybox.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:thebeautybox.cl",
+        "description": "Resultados de site:thebeautybox.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "thorben",
+    "name": "Thörben",
+    "url": "https://thorbenstore.cl/",
+    "category": "business",
+    "description": "Tienda chilena de electrodomésticos y artículos para el hogar",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "thorben-proxy-google-news",
+        "name": "Thörben [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:thorbenstore.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:thorbenstore.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:thorbenstore.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "thorben-proxy-bing-news",
+        "name": "Thörben [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:thorbenstore.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:thorbenstore.cl",
+        "description": "Resultados de site:thorbenstore.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "tineco",
+    "name": "Tineco",
+    "url": "https://tineco.cl/",
+    "category": "technology",
+    "description": "Tienda chilena de electrodomésticos de limpieza Tineco.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "tineco-proxy-google-news",
+        "name": "Tineco [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tineco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tineco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:tineco.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "tineco-proxy-bing-news",
+        "name": "Tineco [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tineco.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tineco.cl",
+        "description": "Resultados de site:tineco.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "todo-para-tus-michis",
+    "name": "Todo para tus Michis",
+    "url": "https://todoparatusmichis.cl/",
+    "category": "community",
+    "description": "Tienda online chilena especializada en productos para gatos.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "todo-para-tus-michis-proxy-google-news",
+        "name": "Todo para tus Michis [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:todoparatusmichis.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:todoparatusmichis.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:todoparatusmichis.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "todo-para-tus-michis-proxy-bing-news",
+        "name": "Todo para tus Michis [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:todoparatusmichis.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:todoparatusmichis.cl",
+        "description": "Resultados de site:todoparatusmichis.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "7-veinte",
+    "name": "7 Veinte",
+    "url": "https://7veinte.cl/",
+    "category": "business",
+    "description": "Tienda chilena de vestuario y equipamiento outdoor y urbano",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "7-veinte-proxy-google-news",
+        "name": "7 Veinte [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:7veinte.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:7veinte.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:7veinte.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "7-veinte-proxy-bing-news",
+        "name": "7 Veinte [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:7veinte.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:7veinte.cl",
+        "description": "Resultados de site:7veinte.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "chile-neumaticos",
+    "name": "Chile Neumáticos",
+    "url": "https://chileneumaticos.cl/",
+    "category": "business",
+    "description": "Tienda chilena de neumáticos con instalación y balanceo",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "chile-neumaticos-proxy-google-news",
+        "name": "Chile Neumáticos [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:chileneumaticos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:chileneumaticos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:chileneumaticos.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "chile-neumaticos-proxy-bing-news",
+        "name": "Chile Neumáticos [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:chileneumaticos.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:chileneumaticos.cl",
+        "description": "Resultados de site:chileneumaticos.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "decathlon",
+    "name": "Decathlon",
+    "url": "https://decathlon.cl/",
+    "category": "sports",
+    "description": "Cadena de tiendas de artículos deportivos con presencia en Chile.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "decathlon-proxy-google-news",
+        "name": "Decathlon [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:decathlon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:decathlon.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:decathlon.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "decathlon-proxy-bing-news",
+        "name": "Decathlon [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:decathlon.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:decathlon.cl",
+        "description": "Resultados de site:decathlon.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "easy",
+    "name": "Easy",
+    "url": "https://easy.cl/",
+    "category": "business",
+    "description": "Tienda chilena de mejoramiento del hogar, construcción y decoración",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "easy-proxy-google-news",
+        "name": "Easy [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:easy.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:easy.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:easy.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "easy-proxy-bing-news",
+        "name": "Easy [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:easy.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:easy.cl",
+        "description": "Resultados de site:easy.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "fensa",
+    "name": "Fensa",
+    "url": "https://fensa.cl/",
+    "category": "business",
+    "description": "Tienda chilena de línea blanca y electrodomésticos: refrigeradores, lavadoras, cocinas, encimeras, hornos y estufas.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "fensa-proxy-google-news",
+        "name": "Fensa [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fensa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fensa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:fensa.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "fensa-proxy-bing-news",
+        "name": "Fensa [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fensa.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fensa.cl",
+        "description": "Resultados de site:fensa.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "lindt",
+    "name": "Lindt",
+    "url": "https://lindt.cl/",
+    "category": "business",
+    "description": "Tienda oficial de chocolates Lindt en Chile",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "lindt-proxy-google-news",
+        "name": "Lindt [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:lindt.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lindt.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:lindt.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "lindt-proxy-bing-news",
+        "name": "Lindt [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:lindt.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lindt.cl",
+        "description": "Resultados de site:lindt.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "supermercado-santa-isabel",
+    "name": "Supermercado Santa Isabel",
+    "url": "https://santaisabel.cl/",
+    "category": "business",
+    "description": "SantaIsabel.cl | Supermercado de Chile.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "supermercado-santa-isabel-proxy-google-news",
+        "name": "Supermercado Santa Isabel [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:santaisabel.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:santaisabel.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:santaisabel.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "supermercado-santa-isabel-proxy-bing-news",
+        "name": "Supermercado Santa Isabel [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:santaisabel.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:santaisabel.cl",
+        "description": "Resultados de site:santaisabel.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "turismo-cocha",
+    "name": "Turismo Cocha",
+    "url": "https://turismococha.cl/",
+    "category": "business",
+    "description": "Agencia de viajes chilena de turismo y paquetes vacacionales.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "turismo-cocha-proxy-google-news",
+        "name": "Turismo Cocha [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:turismococha.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:turismococha.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:turismococha.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "turismo-cocha-proxy-bing-news",
+        "name": "Turismo Cocha [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:turismococha.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:turismococha.cl",
+        "description": "Resultados de site:turismococha.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "zapatos-cl",
+    "name": "Zapatos.cl",
+    "url": "https://zapatos.cl/",
+    "category": "business",
+    "description": "Tienda chilena de calzado y vestuario de moda y outdoor",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "zapatos-cl-proxy-google-news",
+        "name": "Zapatos.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:zapatos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:zapatos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:zapatos.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "zapatos-cl-proxy-bing-news",
+        "name": "Zapatos.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:zapatos.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:zapatos.cl",
+        "description": "Resultados de site:zapatos.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "biblias-y-libros",
+    "name": "Biblias y Libros",
+    "url": "https://sbch.cl/",
+    "category": "business",
+    "description": "Librería cristiana chilena.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "biblias-y-libros-proxy-google-news",
+        "name": "Biblias y Libros [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:sbch.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:sbch.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:sbch.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "biblias-y-libros-proxy-bing-news",
+        "name": "Biblias y Libros [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:sbch.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:sbch.cl",
+        "description": "Resultados de site:sbch.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "casaroyal",
+    "name": "CasaRoyal",
+    "url": "https://casaroyal.cl/",
+    "category": "business",
+    "description": "Tienda chilena de electrónica, audio, seguridad e instrumentos musicales",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "casaroyal-proxy-google-news",
+        "name": "CasaRoyal [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:casaroyal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:casaroyal.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:casaroyal.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "casaroyal-proxy-bing-news",
+        "name": "CasaRoyal [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:casaroyal.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:casaroyal.cl",
+        "description": "Resultados de site:casaroyal.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "farmacia-mapuche-makelawen",
+    "name": "Farmacia Mapuche Makelawen",
+    "url": "https://farmaciamapuche.cl/",
+    "category": "business",
+    "description": "Farmacia chilena de remedios naturales y productos mapuches",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "farmacia-mapuche-makelawen-proxy-google-news",
+        "name": "Farmacia Mapuche Makelawen [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:farmaciamapuche.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:farmaciamapuche.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:farmaciamapuche.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "farmacia-mapuche-makelawen-proxy-bing-news",
+        "name": "Farmacia Mapuche Makelawen [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:farmaciamapuche.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:farmaciamapuche.cl",
+        "description": "Resultados de site:farmaciamapuche.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "imahe",
+    "name": "Imahe",
+    "url": "https://imahe.cl/",
+    "category": "business",
+    "description": "Tienda chilena de equipamiento gastronómico y utensilios de cocina",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "imahe-proxy-google-news",
+        "name": "Imahe [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:imahe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:imahe.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:imahe.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "imahe-proxy-bing-news",
+        "name": "Imahe [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:imahe.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:imahe.cl",
+        "description": "Resultados de site:imahe.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "la-pica-del-ski",
+    "name": "La Picá del Ski",
+    "url": "https://lapicadelski.com/",
+    "category": "business",
+    "description": "Tienda chilena de equipamiento para ski, snowboard y outdoor",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "la-pica-del-ski-proxy-google-news",
+        "name": "La Picá del Ski [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:lapicadelski.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:lapicadelski.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:lapicadelski.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "la-pica-del-ski-proxy-bing-news",
+        "name": "La Picá del Ski [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:lapicadelski.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:lapicadelski.com",
+        "description": "Resultados de site:lapicadelski.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "laika",
+    "name": "Laika",
+    "url": "https://laikamascotas.cl/",
+    "category": "community",
+    "description": "Tienda chilena de productos y alimentos para mascotas",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "laika-proxy-google-news",
+        "name": "Laika [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:laikamascotas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:laikamascotas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:laikamascotas.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "laika-proxy-bing-news",
+        "name": "Laika [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:laikamascotas.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:laikamascotas.cl",
+        "description": "Resultados de site:laikamascotas.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "living-store",
+    "name": "Living Store",
+    "url": "https://livingstore.cl/",
+    "category": "business",
+    "description": "Tienda chilena de muebles y decoración: sofás, seccionales, sofás cama, poltronas y proyectos a medida.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "living-store-proxy-google-news",
+        "name": "Living Store [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:livingstore.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:livingstore.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:livingstore.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "living-store-proxy-bing-news",
+        "name": "Living Store [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:livingstore.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:livingstore.cl",
+        "description": "Resultados de site:livingstore.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "kallfu",
+    "name": "Kallfu",
+    "url": "https://tiendakallfu.cl/",
+    "category": "business",
+    "description": "Marca chilena de muebles de diseño en metal y madera",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "kallfu-proxy-google-news",
+        "name": "Kallfu [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tiendakallfu.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tiendakallfu.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:tiendakallfu.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "kallfu-proxy-bing-news",
+        "name": "Kallfu [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tiendakallfu.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tiendakallfu.cl",
+        "description": "Resultados de site:tiendakallfu.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "los-mejores-eventos",
+    "name": "los Mejores Eventos",
+    "url": "https://portaldisc.com/",
+    "category": "entertainment",
+    "description": "Portal chileno de música, discografía y eventos en vivo",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "los-mejores-eventos-proxy-google-news",
+        "name": "los Mejores Eventos [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:portaldisc.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:portaldisc.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:portaldisc.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "los-mejores-eventos-proxy-bing-news",
+        "name": "los Mejores Eventos [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:portaldisc.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:portaldisc.com",
+        "description": "Resultados de site:portaldisc.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "zapping-esta",
+    "name": "Zapping esta",
+    "url": "https://zapping.com/",
+    "category": "entertainment",
+    "description": "Sitio chileno de noticias de entretenimiento y televisión.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "zapping-esta-proxy-google-news",
+        "name": "Zapping esta [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:zapping.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:zapping.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:zapping.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "zapping-esta-proxy-bing-news",
+        "name": "Zapping esta [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:zapping.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:zapping.com",
+        "description": "Resultados de site:zapping.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "inmobiliaria-vitalia",
+    "name": "Inmobiliaria Vitalia",
+    "url": "https://ivitalia.cl/",
+    "category": "business",
+    "description": "Inmobiliaria chilena de proyectos habitacionales.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "inmobiliaria-vitalia-proxy-google-news",
+        "name": "Inmobiliaria Vitalia [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ivitalia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ivitalia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:ivitalia.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "inmobiliaria-vitalia-proxy-bing-news",
+        "name": "Inmobiliaria Vitalia [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ivitalia.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ivitalia.cl",
+        "description": "Resultados de site:ivitalia.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "viraly",
+    "name": "Viraly",
+    "url": "https://viraly.cl/",
+    "category": "business",
+    "description": "Agencia chilena de marketing de contenidos y redes sociales: estrategia, planes de videos mensuales y análisis de redes.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "viraly-proxy-google-news",
+        "name": "Viraly [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:viraly.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:viraly.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:viraly.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "viraly-proxy-bing-news",
+        "name": "Viraly [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:viraly.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:viraly.cl",
+        "description": "Resultados de site:viraly.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "euro-inmobiliaria",
+    "name": "Euro Inmobiliaria",
+    "url": "https://euroinmobiliaria.cl/",
+    "category": "business",
+    "description": "Inmobiliaria chilena de proyectos habitacionales.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "euro-inmobiliaria-proxy-google-news",
+        "name": "Euro Inmobiliaria [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:euroinmobiliaria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:euroinmobiliaria.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:euroinmobiliaria.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "euro-inmobiliaria-proxy-bing-news",
+        "name": "Euro Inmobiliaria [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:euroinmobiliaria.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:euroinmobiliaria.cl",
+        "description": "Resultados de site:euroinmobiliaria.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "nickelodeon-punta-caribe",
+    "name": "Nickelodeon Punta Caribe",
+    "url": "https://puntacaribe.com/",
+    "category": "business",
+    "description": "Agencia chilena de viajes al Caribe y cruceros",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "nickelodeon-punta-caribe-proxy-google-news",
+        "name": "Nickelodeon Punta Caribe [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:puntacaribe.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:puntacaribe.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:puntacaribe.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "nickelodeon-punta-caribe-proxy-bing-news",
+        "name": "Nickelodeon Punta Caribe [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:puntacaribe.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:puntacaribe.com",
+        "description": "Resultados de site:puntacaribe.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "cala",
+    "name": "CALA",
+    "url": "https://cala.shop/",
+    "category": "business",
+    "description": "Tienda chilena de productos sexuales y bienestar íntimo",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "cala-proxy-google-news",
+        "name": "CALA [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:cala.shop&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:cala.shop&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:cala.shop en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "cala-proxy-bing-news",
+        "name": "CALA [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:cala.shop&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:cala.shop",
+        "description": "Resultados de site:cala.shop en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "enel-x-store",
+    "name": "Enel X Store",
+    "url": "https://enelxstore.com/",
+    "category": "business",
+    "description": "Tienda chilena de eficiencia energética: aires acondicionados, kits fotovoltaicos, calefacción, cargadores para electromovilidad e iluminación LED.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "enel-x-store-proxy-google-news",
+        "name": "Enel X Store [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:enelxstore.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:enelxstore.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:enelxstore.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "enel-x-store-proxy-bing-news",
+        "name": "Enel X Store [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:enelxstore.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:enelxstore.com",
+        "description": "Resultados de site:enelxstore.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "hotel-tupa",
+    "name": "Hotel Tupa",
+    "url": "https://tupahotel.com/",
+    "category": "business",
+    "description": "Hotel familiar en Hanga Roa, Isla de Pascua, Chile.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "hotel-tupa-proxy-google-news",
+        "name": "Hotel Tupa [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:tupahotel.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:tupahotel.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:tupahotel.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "hotel-tupa-proxy-bing-news",
+        "name": "Hotel Tupa [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:tupahotel.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:tupahotel.com",
+        "description": "Resultados de site:tupahotel.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "vanbeek",
+    "name": "VanBeek",
+    "url": "https://vanbeek.cl/",
+    "category": "business",
+    "description": "Tienda chilena de maquinaria y equipos",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "vanbeek-proxy-google-news",
+        "name": "VanBeek [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:vanbeek.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:vanbeek.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:vanbeek.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "vanbeek-proxy-bing-news",
+        "name": "VanBeek [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:vanbeek.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:vanbeek.cl",
+        "description": "Resultados de site:vanbeek.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "kaadas",
+    "name": "Kaadas",
+    "url": "https://kaadas.cl/",
+    "category": "technology",
+    "description": "Empresa chilena de cerraduras inteligentes y seguridad del hogar.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "kaadas-proxy-google-news",
+        "name": "Kaadas [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:kaadas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:kaadas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:kaadas.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "kaadas-proxy-bing-news",
+        "name": "Kaadas [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:kaadas.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:kaadas.cl",
+        "description": "Resultados de site:kaadas.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "unity-gym",
+    "name": "Unity Gym",
+    "url": "https://unitygym.cl/",
+    "category": "sports",
+    "description": "Cadena chilena de gimnasios",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "unity-gym-proxy-google-news",
+        "name": "Unity Gym [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:unitygym.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:unitygym.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:unitygym.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "unity-gym-proxy-bing-news",
+        "name": "Unity Gym [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:unitygym.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:unitygym.cl",
+        "description": "Resultados de site:unitygym.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "petco",
+    "name": "Petco",
+    "url": "https://petco.cl/",
+    "category": "business",
+    "description": "Tienda chilena de mascotas: alimento, farmacia veterinaria, accesorios y productos para perros, gatos, aves, peces y reptiles.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "petco-proxy-google-news",
+        "name": "Petco [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:petco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:petco.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:petco.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "petco-proxy-bing-news",
+        "name": "Petco [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:petco.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:petco.cl",
+        "description": "Resultados de site:petco.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "royal-caribbean",
+    "name": "Royal Caribbean",
+    "url": "https://interexpress.cl/",
+    "category": "business",
+    "description": "Agencia chilena de viajes que ofrece cruceros Royal Caribbean.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "royal-caribbean-proxy-google-news",
+        "name": "Royal Caribbean [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:interexpress.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:interexpress.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:interexpress.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "royal-caribbean-proxy-bing-news",
+        "name": "Royal Caribbean [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:interexpress.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:interexpress.cl",
+        "description": "Resultados de site:interexpress.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "music-world",
+    "name": "Music World",
+    "url": "https://musicworld.cl/",
+    "category": "entertainment",
+    "description": "Tienda chilena de instrumentos musicales y equipo de audio.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "music-world-proxy-google-news",
+        "name": "Music World [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:musicworld.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:musicworld.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:musicworld.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "music-world-proxy-bing-news",
+        "name": "Music World [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:musicworld.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:musicworld.cl",
+        "description": "Resultados de site:musicworld.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "bebesit",
+    "name": "Bebesit",
+    "url": "https://bebesit.cl/",
+    "category": "business",
+    "description": "Tienda chilena de productos para bebés y niños",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "bebesit-proxy-google-news",
+        "name": "Bebesit [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:bebesit.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:bebesit.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:bebesit.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "bebesit-proxy-bing-news",
+        "name": "Bebesit [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:bebesit.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:bebesit.cl",
+        "description": "Resultados de site:bebesit.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "adikari",
+    "name": "Adikari",
+    "url": "https://adikari.cl/",
+    "category": "health",
+    "description": "Tienda chilena de productos de aromaterapia y bienestar",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "adikari-proxy-google-news",
+        "name": "Adikari [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:adikari.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:adikari.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:adikari.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "adikari-proxy-bing-news",
+        "name": "Adikari [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:adikari.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:adikari.cl",
+        "description": "Resultados de site:adikari.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "adipa",
+    "name": "Adipa",
+    "url": "https://adipa.cl/",
+    "category": "business",
+    "description": "Plataforma chilena de formación en psicología y salud mental: cursos, diplomados, acreditaciones internacionales y seminarios.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "adipa-proxy-google-news",
+        "name": "Adipa [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:adipa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:adipa.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:adipa.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "adipa-proxy-bing-news",
+        "name": "Adipa [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:adipa.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:adipa.cl",
+        "description": "Resultados de site:adipa.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "b-pets",
+    "name": "B-Pets",
+    "url": "https://bpets.cl/",
+    "category": "community",
+    "description": "Veterinaria y tienda chilena de productos para mascotas",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "b-pets-proxy-google-news",
+        "name": "B-Pets [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:bpets.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:bpets.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:bpets.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "b-pets-proxy-bing-news",
+        "name": "B-Pets [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:bpets.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:bpets.cl",
+        "description": "Resultados de site:bpets.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "entremusicos",
+    "name": "Entremusicos",
+    "url": "https://entremusicos.cl/",
+    "category": "entertainment",
+    "description": "Tienda chilena de instrumentos musicales.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "entremusicos-proxy-google-news",
+        "name": "Entremusicos [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:entremusicos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:entremusicos.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:entremusicos.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "entremusicos-proxy-bing-news",
+        "name": "Entremusicos [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:entremusicos.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:entremusicos.cl",
+        "description": "Resultados de site:entremusicos.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "full-marcas",
+    "name": "Full Marcas",
+    "url": "https://fullmarcas.cl/",
+    "category": "business",
+    "description": "Servicio chileno de registro de marcas",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "full-marcas-proxy-google-news",
+        "name": "Full Marcas [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:fullmarcas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:fullmarcas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:fullmarcas.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "full-marcas-proxy-bing-news",
+        "name": "Full Marcas [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:fullmarcas.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:fullmarcas.cl",
+        "description": "Resultados de site:fullmarcas.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "hasbro",
+    "name": "Hasbro",
+    "url": "https://hasbrostore.cl/",
+    "category": "entertainment",
+    "description": "Tienda oficial de Hasbro en Chile",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "hasbro-proxy-google-news",
+        "name": "Hasbro [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:hasbrostore.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:hasbrostore.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:hasbrostore.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "hasbro-proxy-bing-news",
+        "name": "Hasbro [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:hasbrostore.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:hasbrostore.cl",
+        "description": "Resultados de site:hasbrostore.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "ivmedical",
+    "name": "IVMedical",
+    "url": "https://ivmedical.cl/",
+    "category": "health",
+    "description": "IVMedical Chile: Tienda online de insumos y equipos médicos. Venta de fonendoscopios, diagnóstico y electroterapia con despacho a todo Chile.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "ivmedical-proxy-google-news",
+        "name": "IVMedical [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ivmedical.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ivmedical.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:ivmedical.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "ivmedical-proxy-bing-news",
+        "name": "IVMedical [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ivmedical.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:ivmedical.cl",
+        "description": "Resultados de site:ivmedical.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "magic-chile",
+    "name": "Magic Chile",
+    "url": "https://magic-chile.cl/",
+    "category": "entertainment",
+    "description": "Tienda especializada en juegos de cartas coleccionables (TCG), juego de mesa y accesorios.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "magic-chile-proxy-google-news",
+        "name": "Magic Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:magic-chile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:magic-chile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:magic-chile.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "magic-chile-proxy-bing-news",
+        "name": "Magic Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:magic-chile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:magic-chile.cl",
+        "description": "Resultados de site:magic-chile.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "pasarelas-antillanca",
+    "name": "Pasarelas Antillanca",
+    "url": "https://pasarelasdeantillanca.cl/",
+    "category": "business",
+    "description": "Centro turístico con pasarelas y tinajas termales en Antillanca, Región de Los Lagos",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "pasarelas-antillanca-proxy-google-news",
+        "name": "Pasarelas Antillanca [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:pasarelasdeantillanca.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:pasarelasdeantillanca.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:pasarelasdeantillanca.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "pasarelas-antillanca-proxy-bing-news",
+        "name": "Pasarelas Antillanca [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:pasarelasdeantillanca.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:pasarelasdeantillanca.cl",
+        "description": "Resultados de site:pasarelasdeantillanca.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "pichintun",
+    "name": "Pichintún",
+    "url": "https://pichintun.com/",
+    "category": "blogs",
+    "description": "Medio chileno de gastronomía, recetas y cultura alimentaria.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "pichintun-proxy-google-news",
+        "name": "Pichintún [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:pichintun.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:pichintun.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:pichintun.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "pichintun-proxy-bing-news",
+        "name": "Pichintún [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:pichintun.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:pichintun.com",
+        "description": "Resultados de site:pichintun.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "pilgrim",
+    "name": "Pilgrim",
+    "url": "https://pilgrim.cl/",
+    "category": "business",
+    "description": "Tienda chilena de accesorios de viaje y maletas",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "pilgrim-proxy-google-news",
+        "name": "Pilgrim [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:pilgrim.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:pilgrim.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:pilgrim.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "pilgrim-proxy-bing-news",
+        "name": "Pilgrim [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:pilgrim.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:pilgrim.cl",
+        "description": "Resultados de site:pilgrim.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "salmon-marketplace",
+    "name": "Salmón Marketplace",
+    "url": "https://salmonmarketplace.cl/",
+    "category": "business",
+    "description": "Tienda chilena de salmón, pescados y mariscos congelados",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "salmon-marketplace-proxy-google-news",
+        "name": "Salmón Marketplace [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:salmonmarketplace.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:salmonmarketplace.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:salmonmarketplace.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "salmon-marketplace-proxy-bing-news",
+        "name": "Salmón Marketplace [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:salmonmarketplace.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:salmonmarketplace.cl",
+        "description": "Resultados de site:salmonmarketplace.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "termas-manzanar",
+    "name": "Termas Manzanar",
+    "url": "https://termasdemanzanar.com/",
+    "category": "business",
+    "description": "Hotel termal ubicado cerca de Curacautín, Chile.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "termas-manzanar-proxy-google-news",
+        "name": "Termas Manzanar [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:termasdemanzanar.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:termasdemanzanar.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:termasdemanzanar.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "termas-manzanar-proxy-bing-news",
+        "name": "Termas Manzanar [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:termasdemanzanar.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:termasdemanzanar.com",
+        "description": "Resultados de site:termasdemanzanar.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "urbano",
+    "name": "Urbano",
+    "url": "https://urbano.cl/",
+    "category": "business",
+    "description": "Tienda chilena de productos para bebés y niños",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "urbano-proxy-google-news",
+        "name": "Urbano [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:urbano.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:urbano.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:urbano.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "urbano-proxy-bing-news",
+        "name": "Urbano [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:urbano.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:urbano.cl",
+        "description": "Resultados de site:urbano.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "wizz-life",
+    "name": "Wizz.Life",
+    "url": "https://wizz.life/",
+    "category": "health",
+    "description": "Empresa de ortodoncia invisible con operación en Chile",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "wizz-life-proxy-google-news",
+        "name": "Wizz.Life [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:wizz.life&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:wizz.life&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:wizz.life en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "wizz-life-proxy-bing-news",
+        "name": "Wizz.Life [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:wizz.life&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:wizz.life",
+        "description": "Resultados de site:wizz.life en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "dl-phone",
+    "name": "DL Phone",
+    "url": "https://dlphone.cl/",
+    "category": "business",
+    "description": "Tienda chilena de celulares reacondicionados",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "dl-phone-proxy-google-news",
+        "name": "DL Phone [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:dlphone.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:dlphone.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:dlphone.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "dl-phone-proxy-bing-news",
+        "name": "DL Phone [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:dlphone.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:dlphone.cl",
+        "description": "Resultados de site:dlphone.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "reuse",
+    "name": "Reuse",
+    "url": "https://reuse.cl/",
+    "category": "business",
+    "description": "Tienda chilena de equipos tecnológicos reacondicionados",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "reuse-proxy-google-news",
+        "name": "Reuse [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:reuse.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:reuse.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:reuse.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "reuse-proxy-bing-news",
+        "name": "Reuse [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:reuse.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:reuse.cl",
+        "description": "Resultados de site:reuse.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "bom-beauty",
+    "name": "Bom Beauty",
+    "url": "https://bombeauty.cl/",
+    "category": "health",
+    "description": "Tienda chilena de cosmética y cuidado de la piel coreano",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "bom-beauty-proxy-google-news",
+        "name": "Bom Beauty [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:bombeauty.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:bombeauty.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:bombeauty.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "bom-beauty-proxy-bing-news",
+        "name": "Bom Beauty [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:bombeauty.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:bombeauty.cl",
+        "description": "Resultados de site:bombeauty.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "clinica-estetika-medica",
+    "name": "Clínica Estétika Médica",
+    "url": "https://estetikamedica.cl/",
+    "category": "health",
+    "description": "Clínica chilena de medicina estética y tratamientos faciales",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "clinica-estetika-medica-proxy-google-news",
+        "name": "Clínica Estétika Médica [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:estetikamedica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:estetikamedica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:estetikamedica.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "clinica-estetika-medica-proxy-bing-news",
+        "name": "Clínica Estétika Médica [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:estetikamedica.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:estetikamedica.cl",
+        "description": "Resultados de site:estetikamedica.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "coreana-skincare",
+    "name": "COREANA SKINCARE",
+    "url": "https://coreanachile.cl/",
+    "category": "health",
+    "description": "Tienda chilena de cosmética y cuidado de la piel coreano",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "coreana-skincare-proxy-google-news",
+        "name": "COREANA SKINCARE [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:coreanachile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:coreanachile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:coreanachile.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "coreana-skincare-proxy-bing-news",
+        "name": "COREANA SKINCARE [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:coreanachile.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:coreanachile.cl",
+        "description": "Resultados de site:coreanachile.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "laherramienta-cl",
+    "name": "LaHerramienta.cl",
+    "url": "https://laherramienta.cl/",
+    "category": "business",
+    "description": "Tienda chilena de herramientas automotrices y de taller",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "laherramienta-cl-proxy-google-news",
+        "name": "LaHerramienta.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:laherramienta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:laherramienta.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:laherramienta.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "laherramienta-cl-proxy-bing-news",
+        "name": "LaHerramienta.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:laherramienta.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:laherramienta.cl",
+        "description": "Resultados de site:laherramienta.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "mascotas-braloy",
+    "name": "Mascotas Braloy",
+    "url": "https://braloy.cl/",
+    "category": "community",
+    "description": "Tienda chilena de productos para mascotas",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "mascotas-braloy-proxy-google-news",
+        "name": "Mascotas Braloy [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:braloy.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:braloy.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:braloy.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "mascotas-braloy-proxy-bing-news",
+        "name": "Mascotas Braloy [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:braloy.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:braloy.cl",
+        "description": "Resultados de site:braloy.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "nooki-k-beauty",
+    "name": "NOOKI K-Beauty",
+    "url": "https://nooki.cl/",
+    "category": "health",
+    "description": "Tienda chilena de cosmética coreana: sérums, mascarillas, exfoliantes, cremas hidratantes y sets de regalo.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "nooki-k-beauty-proxy-google-news",
+        "name": "NOOKI K-Beauty [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:nooki.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:nooki.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:nooki.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "nooki-k-beauty-proxy-bing-news",
+        "name": "NOOKI K-Beauty [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:nooki.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:nooki.cl",
+        "description": "Resultados de site:nooki.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "regalatelo",
+    "name": "Regálatelo",
+    "url": "https://regalatelo.cl/",
+    "category": "business",
+    "description": "Sex shop online chileno de juguetes sexuales y productos para parejas",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "regalatelo-proxy-google-news",
+        "name": "Regálatelo [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:regalatelo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:regalatelo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:regalatelo.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "regalatelo-proxy-bing-news",
+        "name": "Regálatelo [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:regalatelo.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:regalatelo.cl",
+        "description": "Resultados de site:regalatelo.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "volka-chokolade",
+    "name": "Völka Chokolade",
+    "url": "https://volkachokolade.com/",
+    "category": "business",
+    "description": "Marca chilena de chocolates artesanales",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "volka-chokolade-proxy-google-news",
+        "name": "Völka Chokolade [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:volkachokolade.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:volkachokolade.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:volkachokolade.com en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "volka-chokolade-proxy-bing-news",
+        "name": "Völka Chokolade [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:volkachokolade.com&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:volkachokolade.com",
+        "description": "Resultados de site:volkachokolade.com en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "queplan",
+    "name": "QuePlan",
+    "url": "https://queplan.cl/",
+    "category": "entertainment",
+    "description": "Guía chilena de planes, eventos y entretención.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "queplan-proxy-google-news",
+        "name": "QuePlan [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:queplan.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:queplan.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:queplan.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "queplan-proxy-bing-news",
+        "name": "QuePlan [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:queplan.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:queplan.cl",
+        "description": "Resultados de site:queplan.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "andes-active",
+    "name": "Andes Active",
+    "url": "https://andesactive.cl/",
+    "category": "sports",
+    "description": "Marca chilena de ropa y accesorios deportivos para actividades al aire libre.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "andes-active-proxy-google-news",
+        "name": "Andes Active [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:andesactive.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:andesactive.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:andesactive.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "andes-active-proxy-bing-news",
+        "name": "Andes Active [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:andesactive.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:andesactive.cl",
+        "description": "Resultados de site:andesactive.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "abc-cl",
+    "name": "abc.cl",
+    "url": "https://abc.cl/",
+    "category": "news",
+    "description": "Diario chileno de noticias nacionales e internacionales.",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "abc-cl-proxy-google-news",
+        "name": "abc.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:abc.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:abc.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:abc.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "abc-cl-proxy-bing-news",
+        "name": "abc.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:abc.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:abc.cl",
+        "description": "Resultados de site:abc.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "paris-cl",
+    "name": "Paris.cl",
+    "url": "https://paris.cl/",
+    "category": "business",
+    "description": "Tienda por departamento chilena con venta online",
+    "reason": "sin feed RSS detectado",
+    "feeds": [
+      {
+        "id": "paris-cl-proxy-google-news",
+        "name": "Paris.cl [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:paris.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:paris.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:paris.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "paris-cl-proxy-bing-news",
+        "name": "Paris.cl [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:paris.cl&format=RSS",
+        "url": "https://www.bing.com/news/search?q=site:paris.cl",
+        "description": "Resultados de site:paris.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-19T19:02:47.903Z",
         "last_known_item_date": null,
         "verified": false,
         "status": "feed_empty"
