@@ -27297,5 +27297,264 @@
         "status": "feed_empty"
       }
     ]
+  },
+  {
+    "id": "anip-cl",
+    "name": "ANIP Chile",
+    "url": "https://anip.cl/",
+    "category": "education",
+    "description": "Asociación chilena de investigadores y académicos",
+    "reason": "feed stale (último item: 2026-06-11, 165 días)",
+    "feeds": [
+      {
+        "id": "anip-cl-main",
+        "name": "ANIP Chile",
+        "rss_url": "https://anip.cl/feed/",
+        "description": "Feed principal de ANIP Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": "2026-06-11T18:46:00.000Z",
+        "verified": false,
+        "status": "stale"
+      },
+      {
+        "id": "anip-cl-proxy-google-news",
+        "name": "ANIP Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:anip.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:anip.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:anip.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "anip-cl-proxy-bing-news",
+        "name": "ANIP Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:anip.cl&format=RSS",
+        "url": "https://www.bing.com/search?q=site:anip.cl",
+        "description": "Resultados de site:anip.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "archivo-andres-aylwin",
+    "name": "Archivo Andrés Aylwin",
+    "url": "https://www.archivoandresaylwin.cl/",
+    "category": "culture",
+    "description": "Archivo documental dedicado a la figura de Andrés Aylwin",
+    "reason": "feed stale (último item: 2022-11-30, 1454 días)",
+    "feeds": [
+      {
+        "id": "archivo-andres-aylwin-main",
+        "name": "Archivo Andrés Aylwin",
+        "rss_url": "https://www.archivoandresaylwin.cl/feed/",
+        "description": "Feed principal de Archivo Andrés Aylwin",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": "2022-11-30T00:25:23.000Z",
+        "verified": false,
+        "status": "stale"
+      },
+      {
+        "id": "archivo-andres-aylwin-proxy-google-news",
+        "name": "Archivo Andrés Aylwin [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:archivoandresaylwin.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:archivoandresaylwin.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:archivoandresaylwin.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "archivo-andres-aylwin-proxy-bing-news",
+        "name": "Archivo Andrés Aylwin [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:archivoandresaylwin.cl&format=RSS",
+        "url": "https://www.bing.com/search?q=site:archivoandresaylwin.cl",
+        "description": "Resultados de site:archivoandresaylwin.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "ceiler",
+    "name": "CEILER",
+    "url": "https://www.ceiler.cl/",
+    "category": "education",
+    "description": "Centro de extensión e investigación Luis Emilio Recabarren",
+    "reason": "feed stale (último item: 2021-02-26, 2096 días)",
+    "feeds": [
+      {
+        "id": "ceiler-main",
+        "name": "CEILER",
+        "rss_url": "https://www.ceiler.cl/feed/",
+        "description": "Feed principal de CEILER",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": "2021-02-26T02:41:17.000Z",
+        "verified": false,
+        "status": "stale"
+      },
+      {
+        "id": "ceiler-proxy-google-news",
+        "name": "CEILER [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:ceiler.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:ceiler.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:ceiler.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "ceiler-proxy-bing-news",
+        "name": "CEILER [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:ceiler.cl&format=RSS",
+        "url": "https://www.bing.com/search?q=site:ceiler.cl",
+        "description": "Resultados de site:ceiler.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "geografas-chile",
+    "name": "Geógrafas Chile",
+    "url": "https://www.geografaschile.cl/",
+    "category": "community",
+    "description": "Colectivo chileno de geógrafas",
+    "reason": "feed stale (último item: 2026-09-28, 56 días)",
+    "feeds": [
+      {
+        "id": "geografas-chile-main",
+        "name": "Geógrafas Chile",
+        "rss_url": "https://www.geografaschile.cl/feed/",
+        "description": "Feed principal de Geógrafas Chile",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": "2026-09-28T18:24:17.000Z",
+        "verified": false,
+        "status": "stale"
+      },
+      {
+        "id": "geografas-chile-proxy-google-news",
+        "name": "Geógrafas Chile [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:geografaschile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:geografaschile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:geografaschile.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "geografas-chile-proxy-bing-news",
+        "name": "Geógrafas Chile [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:geografaschile.cl&format=RSS",
+        "url": "https://www.bing.com/search?q=site:geografaschile.cl",
+        "description": "Resultados de site:geografaschile.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "prevenciondehomicidios",
+    "name": "Subsecretaría de Prevención del Delito",
+    "url": "https://prevenciondehomicidios.cl/",
+    "category": "government",
+    "description": "Sitio oficial de la Subsecretaría de Prevención del Delito de Chile",
+    "reason": "feed stale (último item: 2026-06-08, 168 días)",
+    "feeds": [
+      {
+        "id": "prevenciondehomicidios-main",
+        "name": "Subsecretaría de Prevención del Delito",
+        "rss_url": "https://prevenciondehomicidios.cl/feed/",
+        "description": "Feed principal de Subsecretaría de Prevención del Delito",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": "2026-06-08T16:48:24.000Z",
+        "verified": false,
+        "status": "stale"
+      },
+      {
+        "id": "prevenciondehomicidios-proxy-google-news",
+        "name": "Subsecretaría de Prevención del Delito [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:prevenciondehomicidios.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:prevenciondehomicidios.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:prevenciondehomicidios.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "prevenciondehomicidios-proxy-bing-news",
+        "name": "Subsecretaría de Prevención del Delito [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:prevenciondehomicidios.cl&format=RSS",
+        "url": "https://www.bing.com/search?q=site:prevenciondehomicidios.cl",
+        "description": "Resultados de site:prevenciondehomicidios.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
+  },
+  {
+    "id": "minsegpublica",
+    "name": "Ministerio de Seguridad Pública",
+    "url": "https://minsegpublica.cl/",
+    "category": "government",
+    "description": "Sitio oficial del Ministerio de Seguridad Pública de Chile",
+    "reason": "sitio no responde",
+    "feeds": [
+      {
+        "id": "minsegpublica-proxy-google-news",
+        "name": "Ministerio de Seguridad Pública [Proxy Google News]",
+        "rss_url": "https://news.google.com/rss/search?q=site:minsegpublica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "url": "https://news.google.com/search?q=site:minsegpublica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "description": "Resultados de site:minsegpublica.cl en Proxy Google News de noticias Chilenas",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      },
+      {
+        "id": "minsegpublica-proxy-bing-news",
+        "name": "Ministerio de Seguridad Pública [Proxy Bing News]",
+        "rss_url": "https://www.bing.com/news/search?q=site:minsegpublica.cl&format=RSS",
+        "url": "https://www.bing.com/search?q=site:minsegpublica.cl",
+        "description": "Resultados de site:minsegpublica.cl en Proxy Bing News",
+        "feed_type": "RSS",
+        "last_checked": "2026-11-23T21:19:01.470Z",
+        "last_known_item_date": null,
+        "verified": false,
+        "status": "feed_empty"
+      }
+    ]
   }
 ]

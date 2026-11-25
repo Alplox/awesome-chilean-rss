@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Araucanía (403 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Araucanía (413 feeds)</title>
     <description>Feeds RSS de la Región de Araucanía, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-11-23T20:23:24.237Z</dateCreated>
+    <dateCreated>2026-11-25T00:28:58.489Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -248,6 +248,16 @@
       <outline type="rss" text="Malleco 7 - Política" title="Malleco 7 - Política" description="Feed de la categoría 'Política' en Malleco 7" xmlUrl="https://www.malleco7.cl/canal/politica/feed/" htmlUrl="https://www.malleco7.cl/canal/politica/"/>
       <outline type="rss" text="Malleco 7 - Portada" title="Malleco 7 - Portada" description="Feed de la categoría 'Portada' en Malleco 7" xmlUrl="https://www.malleco7.cl/canal/portada/feed/" htmlUrl="https://www.malleco7.cl/canal/portada/"/>
       <outline type="rss" text="Malleco 7 [Proxy Google News]" title="Malleco 7 [Proxy Google News]" description="Resultados de site:malleco7.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:malleco7.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:malleco7.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Municipalidad de Temuco" title="Municipalidad de Temuco" description="Feed principal de Municipalidad de Temuco" xmlUrl="https://www.temuco.cl/feed/" htmlUrl="https://www.temuco.cl/"/>
+      <outline type="rss" text="Municipalidad de Temuco - Adulto Mayor" title="Municipalidad de Temuco - Adulto Mayor" description="Feed de la categoría 'Adulto Mayor' en Municipalidad de Temuco" xmlUrl="https://www.temuco.cl/category/adulto-mayor/feed/" htmlUrl="https://www.temuco.cl/category/adulto-mayor/"/>
+      <outline type="rss" text="Municipalidad de Temuco - Calles" title="Municipalidad de Temuco - Calles" description="Feed de la categoría 'Calles' en Municipalidad de Temuco" xmlUrl="https://www.temuco.cl/category/calles/feed/" htmlUrl="https://www.temuco.cl/category/calles/"/>
+      <outline type="rss" text="Municipalidad de Temuco - Deportes" title="Municipalidad de Temuco - Deportes" description="Feed de la categoría 'Deportes' en Municipalidad de Temuco" xmlUrl="https://www.temuco.cl/category/deportes/feed/" htmlUrl="https://www.temuco.cl/category/deportes/"/>
+      <outline type="rss" text="Municipalidad de Temuco - Edificios" title="Municipalidad de Temuco - Edificios" description="Feed de la categoría 'Edificios' en Municipalidad de Temuco" xmlUrl="https://www.temuco.cl/category/edificios/feed/" htmlUrl="https://www.temuco.cl/category/edificios/"/>
+      <outline type="rss" text="Municipalidad de Temuco - Emprendedores" title="Municipalidad de Temuco - Emprendedores" description="Feed de la categoría 'Emprendedores' en Municipalidad de Temuco" xmlUrl="https://www.temuco.cl/category/emprendedores/feed/" htmlUrl="https://www.temuco.cl/category/emprendedores/"/>
+      <outline type="rss" text="Municipalidad de Temuco - Páginas" title="Municipalidad de Temuco - Páginas" description="Feed de la categoría 'Páginas' en Municipalidad de Temuco" xmlUrl="https://www.temuco.cl/category/paginas/feed/" htmlUrl="https://www.temuco.cl/category/paginas/"/>
+      <outline type="rss" text="Municipalidad de Temuco - Parques" title="Municipalidad de Temuco - Parques" description="Feed de la categoría 'Parques' en Municipalidad de Temuco" xmlUrl="https://www.temuco.cl/category/parques/feed/" htmlUrl="https://www.temuco.cl/category/parques/"/>
+      <outline type="rss" text="Municipalidad de Temuco [Proxy Bing News]" title="Municipalidad de Temuco [Proxy Bing News]" description="Resultados de site:temuco.cl en Proxy Bing News" xmlUrl="https://www.bing.com/news/search?q=site:temuco.cl&amp;format=RSS" htmlUrl="https://www.bing.com/search?q=site:temuco.cl"/>
+      <outline type="rss" text="Municipalidad de Temuco [Proxy Google News]" title="Municipalidad de Temuco [Proxy Google News]" description="Resultados de site:temuco.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:temuco.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:temuco.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Noticias del Lago" title="Noticias del Lago" description="Feed principal de Noticias del Lago" xmlUrl="https://www.noticiasdellago.cl/feed/" htmlUrl="https://www.noticiasdellago.cl"/>
       <outline type="rss" text="Noticias del Sur" title="Noticias del Sur" description="Feed principal de Noticias del Sur" xmlUrl="https://www.noticiasdelsur.cl/feed" htmlUrl="https://www.noticiasdelsur.cl"/>
       <outline type="rss" text="Noticias del Sur - Araucanía" title="Noticias del Sur - Araucanía" description="Feed de la categoría 'Araucanía' en Noticias del Sur" xmlUrl="https://noticiasdelsur.cl/category/araucania/feed/" htmlUrl="https://noticiasdelsur.cl/category/araucania/"/>

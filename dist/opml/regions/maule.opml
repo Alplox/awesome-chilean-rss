@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome Chilean RSS - Región de Maule (261 feeds)</title>
+    <title>Awesome Chilean RSS - Región de Maule (271 feeds)</title>
     <description>Feeds RSS de la Región de Maule, parte del directorio Awesome Chilean RSS.</description>
-    <dateCreated>2026-11-23T20:23:24.237Z</dateCreated>
+    <dateCreated>2026-11-25T00:28:58.489Z</dateCreated>
     <ownerName>Alplox</ownerName>
   </head>
   <body>
@@ -195,6 +195,16 @@
       <outline type="rss" text="Primera Fuente [Proxy Google News]" title="Primera Fuente [Proxy Google News]" description="Resultados de site:primerafuente.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:primerafuente.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:primerafuente.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Radio Buena Nueva" title="Radio Buena Nueva" description="Feed principal de Radio Buena Nueva" xmlUrl="https://radiobuenanueva.cl/rb30/feed" htmlUrl="https://radiobuenanueva.cl"/>
       <outline type="rss" text="Radio Buena Nueva [Proxy Google News]" title="Radio Buena Nueva [Proxy Google News]" description="Resultados de site:radiobuenanueva.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiobuenanueva.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiobuenanueva.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
+      <outline type="rss" text="Radio FM+" title="Radio FM+" description="Feed principal de Radio FM+" xmlUrl="https://radiofmmas.cl/feed/" htmlUrl="https://radiofmmas.cl/"/>
+      <outline type="rss" text="Radio FM+ - Agricultura Y Negocios" title="Radio FM+ - Agricultura Y Negocios" description="Feed de la categoría 'Agricultura Y Negocios' en Radio FM+" xmlUrl="https://radiofmmas.cl/category/noticias/agricultura-y-negocios/feed/" htmlUrl="https://radiofmmas.cl/category/noticias/agricultura-y-negocios/"/>
+      <outline type="rss" text="Radio FM+ - Cultura" title="Radio FM+ - Cultura" description="Feed de la categoría 'Cultura' en Radio FM+" xmlUrl="https://radiofmmas.cl/category/noticias/cultura/feed/" htmlUrl="https://radiofmmas.cl/category/noticias/cultura/"/>
+      <outline type="rss" text="Radio FM+ - Deportes" title="Radio FM+ - Deportes" description="Feed de la categoría 'Deportes' en Radio FM+" xmlUrl="https://radiofmmas.cl/category/noticias/deportes/feed/" htmlUrl="https://radiofmmas.cl/category/noticias/deportes/"/>
+      <outline type="rss" text="Radio FM+ - Provincia De Cauquenes" title="Radio FM+ - Provincia De Cauquenes" description="Feed de la categoría 'Provincia De Cauquenes' en Radio FM+" xmlUrl="https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadecauquenes/feed/" htmlUrl="https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadecauquenes/"/>
+      <outline type="rss" text="Radio FM+ - Provincia De Curicó" title="Radio FM+ - Provincia De Curicó" description="Feed de la categoría 'Provincia De Curicó' en Radio FM+" xmlUrl="https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadecurico/feed/" htmlUrl="https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadecurico/"/>
+      <outline type="rss" text="Radio FM+ - Provincia De Linares" title="Radio FM+ - Provincia De Linares" description="Feed de la categoría 'Provincia De Linares' en Radio FM+" xmlUrl="https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadelinares/feed/" htmlUrl="https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadelinares/"/>
+      <outline type="rss" text="Radio FM+ - Provincia De Talca" title="Radio FM+ - Provincia De Talca" description="Feed de la categoría 'Provincia De Talca' en Radio FM+" xmlUrl="https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadetalca/feed/" htmlUrl="https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadetalca/"/>
+      <outline type="rss" text="Radio FM+ - Videos" title="Radio FM+ - Videos" description="Feed de la categoría 'Videos' en Radio FM+" xmlUrl="https://radiofmmas.cl/category/noticias/videos/feed/" htmlUrl="https://radiofmmas.cl/category/noticias/videos/"/>
+      <outline type="rss" text="Radio FM+ [Proxy Google News]" title="Radio FM+ [Proxy Google News]" description="Resultados de site:radiofmmas.cl en Proxy Google News de noticias Chilenas" xmlUrl="https://news.google.com/rss/search?q=site:radiofmmas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419" htmlUrl="https://news.google.com/search?q=site:radiofmmas.cl&amp;hl=es-419&amp;gl=CL&amp;ceid=CL:es-419"/>
       <outline type="rss" text="Sera Noticia" title="Sera Noticia" description="Feed principal de Sera Noticia" xmlUrl="https://seranoticia.cl/feed/" htmlUrl="https://seranoticia.cl"/>
       <outline type="rss" text="Sera Noticia - Actualidad" title="Sera Noticia - Actualidad" description="Feed de la categoría 'Actualidad' en Sera Noticia" xmlUrl="https://seranoticia.cl/actualidad/feed/" htmlUrl="https://seranoticia.cl/actualidad/"/>
       <outline type="rss" text="Sera Noticia - Comunas" title="Sera Noticia - Comunas" description="Feed de la categoría 'Comunas' en Sera Noticia" xmlUrl="https://seranoticia.cl/comunas/feed/" htmlUrl="https://seranoticia.cl/comunas/"/>

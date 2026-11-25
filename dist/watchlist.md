@@ -2,7 +2,7 @@
 
 > Sitios en observación: medios chilenos **sin feed RSS propio válido** (o con feeds nativos inactivos), mantenidos en seguimiento hasta detectar un feed válido. Un sitio se considera "sin feeds válidos" cuando **no tiene feed propio** y solo dispone de proxies (activos o no). **Nota importante:** los proxies (Google News `site:`, Bing News `site:`) son fallbacks y **no son el feed propio del sitio**; que aparezcan activos **no** implica que el sitio tenga un feed RSS nativo válido. Generado automáticamente desde `watchlist.json`. No editar manualmente.
 
-**Total:** 595 sitios
+**Total:** 601 sitios
 
 ### 📰 Noticias Nacionales (72 sitios)
 
@@ -1909,7 +1909,7 @@
     - ✅ activo — WOM [Proxy Google News]: `https://news.google.com/rss/search?q=site:wom.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — WOM [Proxy Bing News]: `https://www.bing.com/news/search?q=site:wom.cl&format=RSS`
 
-### 🏛️ Gobierno y Datos Públicos (53 sitios)
+### 🏛️ Gobierno y Datos Públicos (55 sitios)
 
 - **Ammot**
   - Sitio: https://ammot.cl/
@@ -2161,6 +2161,13 @@
     - ✅ activo — Ministerio de Relaciones Exteriores [Proxy Google News]: `https://news.google.com/rss/search?q=site:minrel.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Ministerio de Relaciones Exteriores [Proxy Bing News]: `https://www.bing.com/news/search?q=site:minrel.gob.cl&format=RSS`
 
+- **Ministerio de Seguridad Pública**
+  - Sitio: https://minsegpublica.cl/
+  - Motivo en watchlist: _sitio no responde_
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Ministerio de Seguridad Pública [Proxy Google News]: `https://news.google.com/rss/search?q=site:minsegpublica.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Ministerio de Seguridad Pública [Proxy Bing News]: `https://www.bing.com/news/search?q=site:minsegpublica.cl&format=RSS`
+
 - **Ministerio de Vivienda y Urbanismo**
   - Sitio: https://www.minvu.gob.cl
   - Motivo en watchlist: _sin feed RSS detectado_
@@ -2326,6 +2333,15 @@
     - ✅ activo — SP (Superintendencia de Pensiones) [Proxy Google News]: `https://news.google.com/rss/search?q=site:spensiones.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — SP (Superintendencia de Pensiones) [Proxy Bing News]: `https://www.bing.com/news/search?q=site:spensiones.cl&format=RSS`
 
+- **Subsecretaría de Prevención del Delito**
+  - Sitio: https://prevenciondehomicidios.cl/
+  - Motivo en watchlist: _feed stale (último item: 2026-06-08, 168 días)_
+  - Feeds propios del sitio (inactivos/stale/broken; motivo de estar en watchlist):
+    - ⏳ stale — Subsecretaría de Prevención del Delito: `https://prevenciondehomicidios.cl/feed/`
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Subsecretaría de Prevención del Delito [Proxy Google News]: `https://news.google.com/rss/search?q=site:prevenciondehomicidios.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Subsecretaría de Prevención del Delito [Proxy Bing News]: `https://www.bing.com/news/search?q=site:prevenciondehomicidios.cl&format=RSS`
+
 - **Superintendencia de Salud**
   - Sitio: https://www.supersalud.gob.cl
   - Motivo en watchlist: _sin feed RSS detectado_
@@ -2340,7 +2356,16 @@
     - ⏳ stale — Transparencia Activa Presidencia [Proxy Google News]: `https://news.google.com/rss/search?q=site:transparenciaactiva.presidencia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Transparencia Activa Presidencia [Proxy Bing News]: `https://www.bing.com/news/search?q=site:transparenciaactiva.presidencia.cl&format=RSS`
 
-### 🏫 Educación, Universidades e Investigación (22 sitios)
+### 🏫 Educación, Universidades e Investigación (24 sitios)
+
+- **ANIP Chile**
+  - Sitio: https://anip.cl/
+  - Motivo en watchlist: _feed stale (último item: 2026-06-11, 165 días)_
+  - Feeds propios del sitio (inactivos/stale/broken; motivo de estar en watchlist):
+    - ⏳ stale — ANIP Chile: `https://anip.cl/feed/`
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — ANIP Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:anip.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — ANIP Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:anip.cl&format=RSS`
 
 - **Ayuda Mineduc**
   - Sitio: https://www.ayudamineduc.cl
@@ -2350,6 +2375,15 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — Ayuda Mineduc [Proxy Google News]: `https://news.google.com/rss/search?q=site:ayudamineduc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Ayuda Mineduc [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ayudamineduc.cl&format=RSS`
+
+- **CEILER**
+  - Sitio: https://www.ceiler.cl/
+  - Motivo en watchlist: _feed stale (último item: 2021-02-26, 2096 días)_
+  - Feeds propios del sitio (inactivos/stale/broken; motivo de estar en watchlist):
+    - ⏳ stale — CEILER: `https://www.ceiler.cl/feed/`
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — CEILER [Proxy Google News]: `https://news.google.com/rss/search?q=site:ceiler.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — CEILER [Proxy Bing News]: `https://www.bing.com/news/search?q=site:ceiler.cl&format=RSS`
 
 - **CLAPES UC**
   - Sitio: https://clapesuc.cl
@@ -3390,7 +3424,7 @@
     - ⏳ stale — Worki [Proxy Google News]: `https://news.google.com/rss/search?q=site:worki.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Worki [Proxy Bing News]: `https://www.bing.com/news/search?q=site:worki.cl&format=RSS`
 
-### 🎨 Cultura y Divulgación (15 sitios)
+### 🎨 Cultura y Divulgación (16 sitios)
 
 - **50 años del Golpe de Estado**
   - Sitio: https://50.cultura.gob.cl
@@ -3400,6 +3434,15 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - ⏳ stale — 50 años del Golpe de Estado [Proxy Google News]: `https://news.google.com/rss/search?q=site:50.cultura.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — 50 años del Golpe de Estado [Proxy Bing News]: `https://www.bing.com/news/search?q=site:50.cultura.gob.cl&format=RSS`
+
+- **Archivo Andrés Aylwin**
+  - Sitio: https://www.archivoandresaylwin.cl/
+  - Motivo en watchlist: _feed stale (último item: 2022-11-30, 1454 días)_
+  - Feeds propios del sitio (inactivos/stale/broken; motivo de estar en watchlist):
+    - ⏳ stale — Archivo Andrés Aylwin: `https://www.archivoandresaylwin.cl/feed/`
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Archivo Andrés Aylwin [Proxy Google News]: `https://news.google.com/rss/search?q=site:archivoandresaylwin.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Archivo Andrés Aylwin [Proxy Bing News]: `https://www.bing.com/news/search?q=site:archivoandresaylwin.cl&format=RSS`
 
 - **Biblioteca Nacional de Chile**
   - Sitio: https://www.bibliotecanacional.gob.cl
@@ -3507,7 +3550,7 @@
     - ✅ activo — Teatro Municipal de Santiago [Proxy Google News]: `https://news.google.com/rss/search?q=site:municipal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Teatro Municipal de Santiago [Proxy Bing News]: `https://www.bing.com/news/search?q=site:municipal.cl&format=RSS`
 
-### 👥 Comunidad (31 sitios)
+### 👥 Comunidad (32 sitios)
 
 - **Aldeas Infantiles SOS Chile**
   - Sitio: https://www.aldeasinfantiles.cl
@@ -3597,6 +3640,15 @@
   - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
     - 📭 feed_empty — Fundación Superación de la Pobreza [Proxy Google News]: `https://news.google.com/rss/search?q=site:fundacionpobreza.cl&hl=es-419&gl=CL&ceid=CL:es-419`
     - 📭 feed_empty — Fundación Superación de la Pobreza [Proxy Bing News]: `https://www.bing.com/news/search?q=site:fundacionpobreza.cl&format=RSS`
+
+- **Geógrafas Chile**
+  - Sitio: https://www.geografaschile.cl/
+  - Motivo en watchlist: _feed stale (último item: 2026-09-28, 56 días)_
+  - Feeds propios del sitio (inactivos/stale/broken; motivo de estar en watchlist):
+    - ⏳ stale — Geógrafas Chile: `https://www.geografaschile.cl/feed/`
+  - Proxies/fallbacks (Google News/Bing News `site:`; **no son feed propio del sitio**):
+    - 📭 feed_empty — Geógrafas Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:geografaschile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+    - 📭 feed_empty — Geógrafas Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:geografaschile.cl&format=RSS`
 
 - **Guía Turismo Chile**
   - Sitio: https://guiaturismo.cl

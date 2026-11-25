@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`community.opml`](../../opml/categories/community.opml) - 113 sitios, 298 feeds*
+*Descargar OPML: [`community.opml`](../../opml/categories/community.opml) - 120 sitios, 321 feeds*
 
 - **Alerta Geek Chile** — Tecnología de consumo, gadgets, streaming, videojuegos y cultura pop chilena
   - Alerta Geek Chile - Calendario de Estrenos y Eventos: `https://www.alertageekchile.cl/eventos/feed/`
@@ -12,6 +12,10 @@
   - Alerta Noticias Temuco - Capacitación: `https://alertanoticiastemuco.cl/category/capacitacion/feed/`
   - Alerta Noticias Temuco - Inclusión: `https://alertanoticiastemuco.cl/category/inclusion/feed/`
   - Alerta Noticias Temuco - Viajes y Turismo: `https://alertanoticiastemuco.cl/category/viajes-y-turismo/feed/`
+- **Amnistía Internacional Chile** — Sección chilena de la organización de derechos humanos Amnistía Internacional
+  - Amnistía Internacional Chile: `https://amnistia.cl/feed/`
+  - Amnistía Internacional Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:amnistia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Amnistía Internacional Chile [Proxy Bing News]: `https://www.bing.com/news/search?q=site:amnistia.cl&format=RSS`
 - **Anda** — Plataforma chilena de ofertas y compras grupales
   - Anda: `https://anda.cl/feed/`
   - Anda - Socios: `https://anda.cl/categoria/socios/feed/`
@@ -56,6 +60,9 @@
   - RSS: `https://www.atentos.cl/category/turismo/feed/`
 - **Aurora Noticias**: Feed de la categoría 'Turismo' en Aurora Noticias
   - RSS: `https://auroranoticias.cl/turismo/feed/`
+- **BioNoticias** — Medio digital de noticias de la Región del Biobío
+  - BioNoticias - Turismo: `https://bionoticias.cl/category/turismo/feed/`
+  - BioNoticias - Eventos: `https://bionoticias.cl/category/eventos/feed/`
 - **Calama en Línea**: Feed de la categoría 'Inclusión' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/inclusion/feed/`
 - **Capa9** — Comunidad chilena de tecnología, hardware y reviews
@@ -204,6 +211,13 @@
   - Federación CCU: `https://federacionccu.cl/feed/`
   - Federación CCU [Proxy Google News]: `https://news.google.com/rss/search?q=site:federacionccu.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Federación CCU [Proxy Bing News]: `https://www.bing.com/news/search?q=site:federacionccu.cl&format=RSS`
+- **Federación de Trabajadores del Cobre (FTC)** — Federación sindical de trabajadores de la industria del cobre
+  - Federación de Trabajadores del Cobre (FTC): `https://www.ftc.cl/feed/`
+  - Federación de Trabajadores del Cobre (FTC) - Home: Noticia Secundaria: `https://www.ftc.cl/category/home-noticia-secundaria/feed/`
+  - Federación de Trabajadores del Cobre (FTC) - Pagina Noticia: Destacada: `https://www.ftc.cl/category/noticias/pagina-noticia-destacada/feed/`
+  - Federación de Trabajadores del Cobre (FTC) - Ftc Declara: `https://www.ftc.cl/category/ftc-declara/feed/`
+  - Federación de Trabajadores del Cobre (FTC) - Home:noticia Principal: `https://www.ftc.cl/category/noticia-principal/feed/`
+  - Federación de Trabajadores del Cobre (FTC) [Proxy Google News]: `https://news.google.com/rss/search?q=site:ftc.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Fonotel** — Guía telefónica y directorio de servicios de Chile
   - Fonotel: `https://www.fonotel.cl/feed/`
   - Fonotel - Justicia: `https://www.fonotel.cl/category/justicia/feed/`
@@ -219,6 +233,9 @@
 - **Fundación Iguales** — Fundación Iguales, organización chilena por los derechos de las diversidades sexuales
   - Fundación Iguales: `https://www.iguales.cl/feed/`
   - Fundación Iguales [Proxy Google News]: `https://news.google.com/rss/search?q=site:iguales.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Giro Visual** — Medio digital chileno de noticias de actualidad nacional
+  - Giro Visual - Turismo: `https://girovisual.cl/wp2/category/turismo/feed/`
+  - Giro Visual - Capacitación: `https://girovisual.cl/wp2/category/capacitacion/feed/`
 - **Hogar de Cristo** — Hogar de Cristo, fundación chilena de ayuda social y superación de la pobreza
   - Hogar de Cristo: `https://www.hogardecristo.cl/feed/`
   - Hogar de Cristo - Entrevistas: `https://www.hogardecristo.cl/categoria/entrevistas/feed/`
@@ -281,6 +298,14 @@
   - Sismología UdeChile - Mastodon.cl BOT: `https://mastodon.cl/@sismos.rss`
 - **MCH (Mineria Chilena)**: Feed de la categoría 'Comunidad' en MCH (Mineria Chilena)
   - RSS: `https://www.mch.cl/categoria/comunidad/feed/`
+- **Movilh** — Movimiento chileno de integración y derechos de la diversidad sexual
+  - Movilh: `https://www.movilh.cl/feed/`
+  - Movilh - Trans: `https://www.movilh.cl/categoria/trans/feed/`
+  - Movilh - Movilh Valparaíso: `https://www.movilh.cl/categoria/movilh-valparaiso/feed/`
+  - Movilh - Movilh Bio Bío: `https://www.movilh.cl/categoria/movilh-biobio/feed/`
+  - Movilh - Ohiggins: `https://www.movilh.cl/categoria/ohiggins/feed/`
+  - Movilh - Antofagasta: `https://www.movilh.cl/categoria/antofagasta/feed/`
+  - Movilh [Proxy Google News]: `https://news.google.com/rss/search?q=site:movilh.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **MUMS** — Movimiento por la Diversidad Sexual en Chile
   - MUMS: `https://www.mums.cl/feed/`
   - MUMS [Proxy Google News]: `https://news.google.com/rss/search?q=site:mums.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -313,9 +338,14 @@
 - **Ovalle Hoy** — Diario regional de Ovalle, Coquimbo
   - Ovalle Hoy - Sociedad: `https://ovallehoy.cl/categoria/ultimas/sociedad/feed/`
   - Ovalle Hoy - Turismo: `https://ovallehoy.cl/categoria/ultimas/gastronomia-y-turismo/turismo/feed/`
+- **Poder y Liderazgo** — Medio digital chileno de actualidad política, económica y social
+  - Poder y Liderazgo - Sociedad: `https://www.poderyliderazgo.cl/sociedad/feed/`
+  - Poder y Liderazgo - Turismo: `https://www.poderyliderazgo.cl/negocios-y-empresas/turismo/feed/`
 - **Portal Educa** — Medio de prensa colaborativo y digital dedicado a la educación parvularia, escolar y superior en Chile
-  - Portal Educa -  Eventos: `https://portaleduca.cl/category/eventos/feed/`
+  - Portal Educa - Eventos: `https://portaleduca.cl/category/eventos/feed/`
   - Portal Educa - Capacitación: `https://portaleduca.cl/category/capacitacion/feed/`
+- **Portal Innova**: Feed de la categoría 'Eventos' en Portal Innova
+  - RSS: `https://portalinnova.cl/category/eventos/feed/`
 - **Portal Metropolitano** — Portal de noticias de la Región Metropolitana
   - Portal Metropolitano - Sociedad: `https://portalmetropolitano.cl/category/sociedad/feed/`
   - Portal Metropolitano - Turismo: `https://portalmetropolitano.cl/category/turismo/feed/`
@@ -325,24 +355,24 @@
 - **Prensa Eventos** — Portal chileno de noticias y agendas sobre eventos, ferias, congresos, cultura, tecnología y negocios.
   - Prensa Eventos: `https://prensaeventos.cl/feed/`
   - Prensa Eventos - Z: `https://prensaeventos.cl/category/z/feed/`
-  - Prensa Eventos -  Eventos Y Festivales: `https://prensaeventos.cl/category/eventos-y-festivales/feed/`
-  - Prensa Eventos -  Economía Y Negocios: `https://prensaeventos.cl/category/economia-y-negocios/feed/`
+  - Prensa Eventos - Eventos Y Festivales: `https://prensaeventos.cl/category/eventos-y-festivales/feed/`
+  - Prensa Eventos - Economía Y Negocios: `https://prensaeventos.cl/category/economia-y-negocios/feed/`
   - Prensa Eventos - Campañas: `https://prensaeventos.cl/category/campanas/feed/`
-  - Prensa Eventos -  Eventos: `https://prensaeventos.cl/category/eventos/feed/`
-  - Prensa Eventos -  Eventos Expo Ferias Congresos Seminarios: `https://prensaeventos.cl/category/eventos-expo-ferias-congresos-seminarios-webinar/feed/`
+  - Prensa Eventos - Eventos: `https://prensaeventos.cl/category/eventos/feed/`
+  - Prensa Eventos - Eventos Expo Ferias Congresos Seminarios: `https://prensaeventos.cl/category/eventos-expo-ferias-congresos-seminarios-webinar/feed/`
   - Prensa Eventos - Dato Útil: `https://prensaeventos.cl/category/dato-util/feed/`
   - Prensa Eventos - Turismo: `https://prensaeventos.cl/category/turismo/feed/`
-  - Prensa Eventos -  Cine Series Y Tv: `https://prensaeventos.cl/category/cine-series-y-tv/feed/`
-  - Prensa Eventos -  Minería: `https://prensaeventos.cl/category/mineria/feed/`
-  - Prensa Eventos -  Seguridad: `https://prensaeventos.cl/category/seguridad/feed/`
+  - Prensa Eventos - Cine Series Y Tv: `https://prensaeventos.cl/category/cine-series-y-tv/feed/`
+  - Prensa Eventos - Minería: `https://prensaeventos.cl/category/mineria/feed/`
+  - Prensa Eventos - Seguridad: `https://prensaeventos.cl/category/seguridad/feed/`
   - Prensa Eventos - Logística: `https://prensaeventos.cl/category/logistica/feed/`
-  - Prensa Eventos -  Energía: `https://prensaeventos.cl/category/energia/feed/`
+  - Prensa Eventos - Energía: `https://prensaeventos.cl/category/energia/feed/`
   - Prensa Eventos - Ciberseguridad: `https://prensaeventos.cl/category/ciberseguridad/feed/`
   - Prensa Eventos - Acuicultura: `https://prensaeventos.cl/category/acuicultura/feed/`
   - Prensa Eventos - Construcción: `https://prensaeventos.cl/category/construccion/feed/`
   - Prensa Eventos - Seguridad: `https://prensaeventos.cl/category/seguridad-2/feed/`
   - Prensa Eventos - Viajes: `https://prensaeventos.cl/category/viajes/feed/`
-  - Prensa Eventos -  Transporte: `https://prensaeventos.cl/category/transporte/feed/`
+  - Prensa Eventos - Transporte: `https://prensaeventos.cl/category/transporte/feed/`
   - Prensa Eventos [Proxy Google News]: `https://news.google.com/rss/search?q=site:prensaeventos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Prensa Eventos [Proxy Bing News]: `https://www.bing.com/news/search?q=site:prensaeventos.cl&format=RSS`
 - **Primera Fuente**: Feed de la categoría 'Sociedad' en Primera Fuente

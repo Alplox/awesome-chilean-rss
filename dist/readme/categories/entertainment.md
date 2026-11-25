@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 59 sitios, 156 feeds*
+*Descargar OPML: [`entertainment.opml`](../../opml/categories/entertainment.opml) - 63 sitios, 163 feeds*
 
 - **Alerta Geek Chile**: Feed de la categoría 'Series' en Alerta Geek Chile
   - RSS: `https://alertageekchile.cl/category/series/feed/`
@@ -101,6 +101,9 @@
   - Fotech [Proxy Bing News]: `https://www.bing.com/news/search?q=site:fotech.cl&format=RSS`
 - **Frontera Norte**: Feed de la categoría 'Entretenimiento' en Frontera Norte
   - RSS: `https://www.fronteranorte.cl/category/cultura/feed/`
+- **Giro Visual** — Medio digital chileno de noticias de actualidad nacional
+  - Giro Visual - Espectaculos: `https://girovisual.cl/wp2/category/espectaculos/feed/`
+  - Giro Visual - Entretención: `https://girovisual.cl/wp2/category/entretencion/feed/`
 - **Google News**: Sección Entretenimiento de Google News Chile
   - RSS: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNREpxYW5RU0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
 - **Ilustrado** — Medio de comunicación digital de noticias culturales y de entretenimiento
@@ -148,6 +151,10 @@
   - La Red [Proxy Google News]: `https://news.google.com/rss/search?q=site:lared.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **La Región Hoy**: Feed de la categoría 'Cultura y Espectáculos' en La Región Hoy
   - RSS: `https://laregionhoy.cl/category/actualidad/culturayesp/feed/`
+- **Las Últimas Noticias (LUN)** — Diario chileno de espectáculos, sucesos y actualidad
+  - Las Últimas Noticias (LUN): `https://lunmas.cl/feed/`
+  - Las Últimas Noticias (LUN) [Proxy Google News]: `https://news.google.com/rss/search?q=site:lunmas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Las Últimas Noticias (LUN) [Proxy Bing News]: `https://www.bing.com/news/search?q=site:lunmas.cl&format=RSS`
 - **Majos** — Blog de moda, lifestyle, tendencias y actualidad
   - Majos: `https://majos.cl/feed/`
   - Majos - Actualidad: `https://majos.cl/category/actualidad/feed/`
@@ -171,6 +178,8 @@
   - RSS: `https://pisapapeles.net/category/rumores/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Entretención' en Portal Metropolitano
   - RSS: `https://portalmetropolitano.cl/category/entretencion/feed/`
+- **Preludio Radio**: Feed de la categoría 'Espectáculos' en Preludio Radio
+  - RSS: `https://www.preludioradio.cl/categoria/espectaculos/feed/`
 - **Punto Cruzado** — Sitio chileno de actualidad y entretenimiento sobre series, música, videojuegos, deportes y cultura popular.
   - Punto Cruzado: `https://puntoseguido.cl/feed/`
   - Punto Cruzado - Series: `https://puntoseguido.cl/category/puntoseguido/series/feed/`
@@ -192,6 +201,8 @@
   - RSS: `https://www.rln.cl/category/culturayespectaculos/feed/`
 - **RM Hoy**: Feed de la categoría 'Espectáculos' en RM Hoy
   - RSS: `https://rmhoy.cl/category/espectaculos/feed/`
+- **Somos Chile**: Feed de la categoría 'Espectáculos' en Somos Chile
+  - RSS: `https://www.somoschile.cl/category/espectaculos/feed/`
 - **Tecache** — Portal chileno de farándula, TV y espectáculos
   - Tecache: `https://tecache.cl/home-4/feed/`
   - Tecache - Farándula Chilena: `https://tecache.cl/seccion/farandula-chilena/feed/`

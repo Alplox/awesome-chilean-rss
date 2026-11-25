@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 104 sitios, 381 feeds*
+*Descargar OPML: [`technology.opml`](../../opml/categories/technology.opml) - 111 sitios, 415 feeds*
 
 - **(Empresa) TiChile** — Empresa - Blog y medio enfocado en la transformación digital empresarial, Inteligencia Artificial y tecnología corporativa en Chile
   - (Empresa) tichile: `https://www.tichile.cl/feed/`
@@ -48,6 +48,8 @@
   - RSS: `https://www.atacamanoticias.cl/category/ciencia_y_tecnologia/feed/`
 - **Aurora Noticias**: Feed de la categoría 'Ciencia' en Aurora Noticias
   - RSS: `https://auroranoticias.cl/ciencia/feed/`
+- **BioNoticias**: Feed de la categoría 'Tecnología' en BioNoticias
+  - RSS: `https://bionoticias.cl/category/tecnologia/feed/`
 - **Calama en Línea**: Feed de la categoría 'Tecnología' en Calama en Línea
   - RSS: `https://noticias.calamaenlinea.cl/category/tecnologia/feed/`
 - **Centra UAI** — Centro de la Universidad Adolfo Ibáñez dedicado a investigación, transferencia y formación en transición energética
@@ -127,6 +129,8 @@
   - RSS: `https://www.diariolaregion.cl/category/ciencia/feed/`
 - **Diario UACh**: Feed de la categoría 'Innovación' en Diario UACh
   - RSS: `https://diario.uach.cl/category/secciones/innovacion/feed/`
+- **Doble Espacio**: Feed de la categoría 'Ciencias' en Doble Espacio
+  - RSS: `https://doble-espacio.uchile.cl/categorias/ciencia/feed/`
 - **DPL News** — Noticias de tecnología, digitalización e innovación en América Latina
   - DPL News: `https://dplnews.com/feed/`
   - DPL News - Chile: `https://dplnews.com/tag/chile/rss`
@@ -224,6 +228,8 @@
   - RSS: `https://www.elciudadano.com/noticias/ciencia-tecnologia/feed/`
 - **El Clarín de Chile**: Feed de la categoría 'Ciencia y Tecnología' en El Clarín de Chile
   - RSS: `https://www.elclarin.cl/category/tendencias/ciencia-y-tecnologia/feed/`
+- **El Conquistador Concepción**: Feed de la categoría 'Tecnología' en El Conquistador Concepción
+  - RSS: `https://www.elconquistadorconcepcion.cl/category/tecnologia/feed/`
 - **El Diario de La Araucanía** — Diario regional de Angol, La Araucanía
   - El Diario de La Araucanía - Ciencias y Tecnologías: `https://www.eldiariodelaaraucania.cl/category/ciencias-y-tecnologias/feed/`
   - El Diario de La Araucanía - Innovación: `https://www.eldiariodelaaraucania.cl/category/ciencias-y-tecnologias/innovacion/feed/`
@@ -266,6 +272,8 @@
   - RSS: `https://www.futuro360.com/feed/`
 - **G5 Noticias**: Feed de la categoría 'Ciencia y Tecnología' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/ciencia-y-tecnologia/feed/`
+- **Giro Visual**: Feed de la categoría 'Tecnología' en Giro Visual
+  - RSS: `https://girovisual.cl/wp2/category/tecnologia/feed/`
 - **Google News**: Sección Ciencia y tecnología de Google News Chile
   - RSS: `https://news.google.com/rss/topics/CAAqLQgKIidDQkFTRndvSkwyMHZNR1ptZHpWbUVnWmxjeTAwTVRrYUFrTk1LQUFQAQ?hl=es-419&gl=CL&ceid=CL:es-419`
 - **Hora de Noticias**: Feed de la categoría 'Ciencia Tecnología' en Hora de Noticias
@@ -357,8 +365,39 @@
   - Pisapapeles - Entrevistas: `https://pisapapeles.net/category/entrevistas/feed/`
   - Pisapapeles [Proxy Google News]: `https://news.google.com/rss/search?q=site:pisapapeles.net&hl=es-419&gl=CL&ceid=CL:es-419`
   - Pisapapeles [Proxy Bing News]: `https://www.bing.com/news/search?q=site:pisapapeles.net&format=RSS`
+- **Poder y Liderazgo** — Medio digital chileno de actualidad política, económica y social
+  - Poder y Liderazgo - Tecnología: `https://www.poderyliderazgo.cl/negocios-y-empresas/tecnologia/feed/`
+  - Poder y Liderazgo - Ciencia Y Tecnología: `https://www.poderyliderazgo.cl/academia-ciencia-desarrollo/ciencia-y-tecnologia/feed/`
 - **Portal Educa**: Feed de la categoría ' Tecnología' en Portal Educa
   - RSS: `https://portaleduca.cl/category/tecnologia/feed/`
+- **Portal Innova** — Medio digital chileno de innovación, tecnología y emprendimiento
+  - Portal Innova: `https://portalinnova.cl/feed/`
+  - Portal Innova - Economía Y Negocios: `https://portalinnova.cl/category/economia-y-negocios/feed/`
+  - Portal Innova - Tecnología: `https://portalinnova.cl/category/tecnologia/feed/`
+  - Portal Innova - Minería: `https://portalinnova.cl/category/mineria/feed/`
+  - Portal Innova - Seguridad: `https://portalinnova.cl/category/seguridad/feed/`
+  - Portal Innova - Energía: `https://portalinnova.cl/category/energia/feed/`
+  - Portal Innova - Industria: `https://portalinnova.cl/category/industria/feed/`
+  - Portal Innova - Columnas Y Reportajes: `https://portalinnova.cl/category/reportajes/feed/`
+  - Portal Innova - Construcción: `https://portalinnova.cl/category/construccion/feed/`
+  - Portal Innova - Logística: `https://portalinnova.cl/category/logistica/feed/`
+  - Portal Innova - Acuicultura: `https://portalinnova.cl/category/acuicultura/feed/`
+  - Portal Innova - Corfo: `https://portalinnova.cl/category/corfo/feed/`
+  - Portal Innova - Ciberseguridad: `https://portalinnova.cl/category/ciberseguridad/feed/`
+  - Portal Innova - Industria Alimentaria: `https://portalinnova.cl/category/industria-alimentaria/feed/`
+  - Portal Innova - Inteligencia Artificial: `https://portalinnova.cl/category/inteligencia-artificial/feed/`
+  - Portal Innova - Industria Marítima Y Portuaria: `https://portalinnova.cl/category/industria-maritima/feed/`
+  - Portal Innova - Retail: `https://portalinnova.cl/category/retail/feed/`
+  - Portal Innova - Emprendimientos: `https://portalinnova.cl/category/emprendimientos/feed/`
+  - Portal Innova - Telecomunicaciones: `https://portalinnova.cl/category/telecomunicaciones/feed/`
+  - Portal Innova - Transporte: `https://portalinnova.cl/category/transporte/feed/`
+  - Portal Innova - Electricidad Y Combustibles: `https://portalinnova.cl/category/electricidad-y-combustibles/feed/`
+  - Portal Innova - Mercado Laboral: `https://portalinnova.cl/category/mercado-laboral/feed/`
+  - Portal Innova - Finanzas Y Fintech: `https://portalinnova.cl/category/finanzas-y-fintech/feed/`
+  - Portal Innova - Ciberataques: `https://portalinnova.cl/category/ciberataques/feed/`
+  - Portal Innova - Materiales Y Soluciones Industriales: `https://portalinnova.cl/category/materiales-y-soluciones-industriales/feed/`
+  - Portal Innova [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalinnova.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Portal Innova [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalinnova.cl&format=RSS`
 - **Portal Metropolitano** — Portal de noticias de la Región Metropolitana
   - Portal Metropolitano - Tecnología: `https://portalmetropolitano.cl/category/tecnologia/feed/`
   - Portal Metropolitano - Ciencia: `https://portalmetropolitano.cl/category/ciencia/feed/`
@@ -380,6 +419,8 @@
 - **Radio UdeC** — Radio de la Universidad de Concepción 95.1 FM
   - Radio UdeC - Ciencia: `https://www.radioudec.cl/category/ciencia/feed/`
   - Radio UdeC - Innovación: `https://www.radioudec.cl/category/innovacion/feed/`
+- **RDN**: Feed de la categoría 'Ciencia' en RDN
+  - RSS: `https://rdn.cl/category/ciencia/feed/`
 - **Región de Coquimbo**: Feed de la categoría 'Ciencia' en Región de Coquimbo
   - RSS: `https://regiondecoquimbo.cl/category/ciencia/feed/`
 - **Revista Ecociencias**: Feed de la categoría 'Ciencia Y Tecnología' en Revista Ecociencias

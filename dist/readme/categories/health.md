@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 104 sitios, 179 feeds*
+*Descargar OPML: [`health.opml`](../../opml/categories/health.opml) - 111 sitios, 187 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'Salud' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/salud/feed/`
@@ -80,6 +80,8 @@
   - RSS: `https://duplos.cl/vida-sana/feed/`
 - **El Calbucano**: Feed de la categoría 'Salud' en El Calbucano
   - RSS: `https://www.elcalbucano.cl/cat/salud/feed/`
+- **El Carrerino**: Feed de la categoría 'Bienestar' en El Carrerino
+  - RSS: `https://elcarrerino.cl/category/bienestar/feed/`
 - **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política
   - El Ciudadano - Salud: `https://www.elciudadano.com/noticias/salud/feed/`
   - El Ciudadano - Alimentación: `https://www.elciudadano.com/noticias/alimentacion/feed/`
@@ -87,12 +89,16 @@
   - RSS: `https://elcomunicador.cl/category/salud/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Salud' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/estilo-de-vida/salud/feed/`
+- **El Diario de Salamanca**: Feed de la categoría 'Salud' en El Diario de Salamanca
+  - RSS: `https://salamancachile.cl/noticias/salud/feed/`
 - **El Diario Santiago**: Feed de la categoría 'Salud' en El Diario Santiago
   - RSS: `https://eldiariosantiago.cl/category/estilo-de-vida/salud/feed/`
 - **El Morro de Arica**: Feed de la categoría 'Salud' en El Morro de Arica
   - RSS: `https://elmorrodearica.cl/category/salud/feed/`
 - **El Nacional**: Feed de la categoría 'Bienestar' en El Nacional
   - RSS: `https://www.elnacional.com/estilo-de-vida/bienestar/feed/`
+- **El Orador Ilustrado**: Feed de la categoría 'Salud' en El Orador Ilustrado
+  - RSS: `https://eloradorilustrado.cl/category/salud/feed/`
 - **El Periodista**: Feed de la categoría 'Salud y Sociedad' en El Periodista
   - RSS: `https://www.elperiodista.cl/category/salud/feed/`
 - **El Reportero de Iquique**: Feed de la categoría 'Salud' en El Reportero de Iquique
@@ -112,6 +118,8 @@
   - Fonasa [Proxy Google News]: `https://news.google.com/rss/search?q=site:fonasa.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Fresia Ahora**: Feed de la categoría 'Salud' en Fresia Ahora
   - RSS: `https://www.fresiaahora.cl/category/actualidad/salud/feed/`
+- **Giro Visual**: Feed de la categoría 'Salud' en Giro Visual
+  - RSS: `https://girovisual.cl/wp2/category/salud/feed/`
 - **Google News** — Segregador de noticias de Google
   - Google News - Chile - Resultados 'salud': `https://news.google.com/rss/search?q=salud&hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Sección Salud: `https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNR3QwTlRFU0JtVnpMVFF4T1NnQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
@@ -177,6 +185,10 @@
   - RSS: `https://www.mediabanco.com/categoria/comunicados-de-prensa/salud/feed/`
 - **Mirada Sur TV**: Feed de la categoría 'Salud, Ciencia Y Tecnologia' en Mirada Sur TV
   - RSS: `https://miradasurtv.cl/category/salud/feed/`
+- **Movilh**: Feed de la categoría 'Salud' en Movilh
+  - RSS: `https://www.movilh.cl/categoria/salud/feed/`
+- **Municipalidad de Rinconada**: Feed de la categoría 'Salud' en Municipalidad de Rinconada
+  - RSS: `https://munirinconada.cl/category/salud/feed/`
 - **Noticias Los Ríos**: Feed de la categoría 'Salud' en Noticias Los Ríos
   - RSS: `https://www.noticiaslosrios.cl/seccion/salud/feed/`
 - **Ovalle Hoy**: Feed de la categoría 'Salud' en Ovalle Hoy
@@ -243,6 +255,9 @@
   - RSS: `https://www.radiosantamaria.cl/category/salud/feed/`
 - **Radio UdeC**: Feed de la categoría 'Salud' en Radio UdeC
   - RSS: `https://www.radioudec.cl/category/salud/feed/`
+- **RDN** — Medio digital chileno de noticias de actualidad nacional e internacional
+  - RDN - Salud: `https://rdn.cl/category/salud/feed/`
+  - RDN - Salud Mental: `https://rdn.cl/category/salud/salud-mental/feed/`
 - **Región de Coquimbo**: Feed de la categoría 'Salud' en Región de Coquimbo
   - RSS: `https://regiondecoquimbo.cl/category/salud/feed/`
 - **Revista Médica de Chile** — Revista Médica de Chile, publicación científica

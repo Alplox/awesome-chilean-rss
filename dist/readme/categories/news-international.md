@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 112 sitios, 282 feeds*
+*Descargar OPML: [`news-international.opml`](../../opml/categories/news-international.opml) - 124 sitios, 294 feeds*
 
 - **Alerta Noticias Temuco**: Feed de la categoría 'El Mundo' en Alerta Noticias Temuco
   - RSS: `https://alertanoticiastemuco.cl/category/el-mundo/feed/`
@@ -120,6 +120,8 @@
   - RSS: `https://duplos.cl/actualidad/internacional/feed/`
 - **El Arrebato**: Feed de la categoría 'Mundo' en El Arrebato
   - RSS: `https://elarrebato.cl/category/mundo/feed/`
+- **El Carrerino**: Feed de la categoría 'Internacional' en El Carrerino
+  - RSS: `https://elcarrerino.cl/category/internacional/feed/`
 - **El Ciudadano** — Portal de noticias nacionales e internacionales con cobertura social y política
   - El Ciudadano - Latinoamérica: `https://www.elciudadano.com/noticias/latinoamerica/feed`
   - El Ciudadano - México: `https://www.elciudadano.com/noticias/noticias-mexico/feed/`
@@ -132,6 +134,8 @@
 - **El Clarín de Chile** — Portal de noticias nacionales e internacionales
   - El Clarín de Chile - Política Global: `https://www.elclarin.cl/category/informaciones/mundo/feed/`
   - El Clarín de Chile - Nuestra Región Latinoamericana: `https://www.elclarin.cl/category/latinoamerica/feed/`
+- **El Conquistador Concepción**: Feed de la categoría 'Internacional' en El Conquistador Concepción
+  - RSS: `https://www.elconquistadorconcepcion.cl/category/internacional/feed/`
 - **El Contraste**: Feed de la categoría 'Internacional' en El Contraste
   - RSS: `https://elcontraste.cl/internacional/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Noticias Internacionales' en El Diario de La Araucanía
@@ -176,6 +180,8 @@
   - El Nacional - Video: `https://www.elnacional.com/video/feed/`
   - El Nacional [Proxy Google News]: `https://news.google.com/rss/search?q=site:elnacional.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - El Nacional [Proxy Bing News]: `https://www.bing.com/news/search?q=site:elnacional.com&format=RSS`
+- **El Orador Ilustrado**: Feed de la categoría 'Internacional' en El Orador Ilustrado
+  - RSS: `https://eloradorilustrado.cl/category/internacional/feed/`
 - **El Periódico**: Feed de la categoría 'Internacional' en El Periódico
   - RSS: `https://elperiodico.cl/category/internacional/feed/`
 - **El Periodista**: Feed de la categoría 'Internacional' en El Periodista
@@ -200,6 +206,8 @@
   - RSS: `https://www.fronteranorte.cl/category/internacional/feed/`
 - **G5 Noticias**: Feed de la categoría 'Internacional' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/internacional/feed/`
+- **Giro Visual**: Feed de la categoría 'Internacional' en Giro Visual
+  - RSS: `https://girovisual.cl/wp2/category/internacional/feed/`
 - **Google News**: Sección Internacional de Google News Chile
   - RSS: `https://news.google.com/rss/topics/CAAqLAgKIiZDQkFTRmdvSUwyMHZNRGx1YlY4U0JtVnpMVFF4T1JvQ1Ewd29BQVAB?hl=es-419&gl=CL&ceid=CL:es-419`
 - **HolaNews** — Agregador de noticias latinoamericano basado en Estados Unidos
@@ -291,8 +299,12 @@
   - Piensa Chile - Sionismo: `https://piensachile.com/category/politica/sionismo/feed/`
   - Piensa Chile - Ee.uu.: `https://piensachile.com/category/internacional/ee-uu/feed/`
   - Piensa Chile - Internacional: `https://piensachile.com/category/internacional/feed/`
+- **Portal Innova**: Feed de la categoría ' Internacional' en Portal Innova
+  - RSS: `https://portalinnova.cl/category/internacional/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Internacional' en Portal Metropolitano
   - RSS: `https://portalmetropolitano.cl/category/internacional/feed/`
+- **Preludio Radio**: Feed de la categoría 'Internacional' en Preludio Radio
+  - RSS: `https://www.preludioradio.cl/categoria/internacional/feed/`
 - **Prensa Digital**: Feed de la categoría 'Mundo' en Prensa Digital
   - RSS: `https://www.prensadigital.cl/mundo/feed/`
 - **Prensa Opal** — Medio digital de análisis y noticias internacionales
@@ -311,6 +323,8 @@
   - Prensa Opal [Proxy Google News]: `https://news.google.com/rss/search?q=site:prensaopal.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Publimicro**: Feed de la categoría 'Internacional' en Publimicro
   - RSS: `https://publimicro.cl/contenidos-noticias/internacional/feed/`
+- **Quinta Visión Ahora**: Feed de la categoría 'Internacional' en Quinta Visión Ahora
+  - RSS: `https://www.quintavisionahora.cl/category/internacional/feed/`
 - **Radio Comunicativa de Ovalle**: Feed de la categoría 'Internacional' en Radio Comunicativa de Ovalle
   - RSS: `https://radiocomunicativa.cl/category/noticias/internacional/feed/`
 - **Radio Contacto**: Feed de la categoría 'Internacional' en Radio Contacto
@@ -323,6 +337,8 @@
   - RSS: `https://www.radiofestival.cl/category/internacional/feed/`
 - **Radio Guayacán**: Feed de la categoría 'Internacional' en Radio Guayacán
   - RSS: `https://radioguayacan.cl/category/internacional/feed/`
+- **Radio Indómita**: Feed de la categoría 'Internacional' en Radio Indómita
+  - RSS: `https://radioindomita.cl/category/noticias/internacional/feed/`
 - **Radio Interamericana**: Feed de la categoría 'Internacional' en Radio Interamericana
   - RSS: `https://radiointeramericana.cl/category/noticias/internacional/feed/`
 - **Radio JGM**: Feed de la categoría 'Internacional' en Radio JGM
@@ -333,6 +349,12 @@
   - RSS: `https://radionuevomundo.cl/categoria/internacional/feed/`
 - **Radio Paulina**: Feed de la categoría 'Internacional' en Radio Paulina
   - RSS: `https://radiopaulina.cl/category/internacional/feed/`
+- **RDN**: Feed de la categoría 'Internacional' en RDN
+  - RSS: `https://rdn.cl/category/internacional/feed/`
+- **Revista de Frente**: Feed de la categoría 'Internacional' en Revista de Frente
+  - RSS: `https://www.revistadefrente.cl/category/internacional/feed/`
+- **Revista Tierra Bella**: Feed de la categoría 'Mundo' en Revista Tierra Bella
+  - RSS: `https://revistatierrabella.cl/category/mundo/feed/`
 - **RFI Español** — Radio Francia Internacional en español — noticias internacionales, América Latina y el mundo
   - RFI Español: `https://www.rfi.fr/es/rss`
   - RFI Español [Proxy Google News]: `https://news.google.com/rss/search?q=site:rfi.fr/es&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -386,6 +408,8 @@
   - RSS: `https://www.tiempo21.cl/mundo/feed/`
 - **Tierramarillano**: Feed de la categoría 'Internacional' en Tierramarillano
   - RSS: `https://tierramarillano.cl/category/noticias/internacional/feed/`
+- **Tribunal Constitucional de Chile**: Resultados de site:www1.tribunalconstitucional.cl en Proxy Google News de noticias Chilenas
+  - RSS: `https://news.google.com/rss/search?q=site:www1.tribunalconstitucional.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **TV Canal 5**: Feed de la categoría 'Internacional' en TV Canal 5
   - RSS: `https://tvcanal5.cl/category/internacional/feed/`
 - **Universidad Diego Portales**: Feed de la categoría 'Internacional' en Universidad Diego Portales

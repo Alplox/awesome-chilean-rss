@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](../../opml/categories/regional.opml) - 256 sitios, 1945 feeds
+Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-regions.opml) — OPML por categoría: [`regional.opml`](../../opml/categories/regional.opml) - 267 sitios, 2051 feeds
 
 #### 📍 Arica y Parinacota (12 medios)
 
@@ -766,7 +766,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Vallenar Digital: `https://portalweb.vallenardigital.cl/feed/`
   - Vallenar Digital [Proxy Google News]: `https://news.google.com/rss/search?q=site:vallenardigital.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Coquimbo (21 medios)
+#### 📍 Coquimbo (22 medios)
 
 *Descargar OPML regional: [`coquimbo.opml`](../../opml/regions/coquimbo.opml)*
 
@@ -852,6 +852,17 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - El Coquimbano - Columnas De Opinión: `https://www.elcoquimbano.cl/category/opinion/columnas-de-opinion/feed/`
   - El Coquimbano - Cartas Al Director: `https://www.elcoquimbano.cl/category/opinion/cartas-al-director/feed/`
   - El Coquimbano [Proxy Google News]: `https://news.google.com/rss/search?q=site:elcoquimbano.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **El Diario de Salamanca** — Medio digital local de Salamanca, Región de Coquimbo
+  - El Diario de Salamanca: `https://salamancachile.cl/feed/`
+  - El Diario de Salamanca - Actualidad: `https://salamancachile.cl/noticias/actualidad/feed/`
+  - El Diario de Salamanca - Salud: `https://salamancachile.cl/noticias/salud/feed/`
+  - El Diario de Salamanca - Policial: `https://salamancachile.cl/noticias/policial/feed/`
+  - El Diario de Salamanca - Provincia: `https://salamancachile.cl/noticias/provincia/feed/`
+  - El Diario de Salamanca - Los Pelambres: `https://salamancachile.cl/noticias/lospelambres/feed/`
+  - El Diario de Salamanca - Educación: `https://salamancachile.cl/noticias/educacion/feed/`
+  - El Diario de Salamanca - Deportes: `https://salamancachile.cl/noticias/deportes/feed/`
+  - El Diario de Salamanca [Proxy Google News]: `https://news.google.com/rss/search?q=site:salamancachile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - El Diario de Salamanca [Proxy Bing News]: `https://www.bing.com/news/search?q=site:salamancachile.cl&format=RSS`
 - **El Ovallino** — Diario regional de Ovalle, Coquimbo
   - El Ovallino: `https://www.elovallino.cl/feed/`
   - El Ovallino - Social: `https://www.elovallino.cl/category/social/feed/`
@@ -1074,10 +1085,28 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Serena y Coquimbo - Proyecto Fondo De Medios De Comunicación: `https://serenaycoquimbo.cl/category/entrevistas/proyecto-fondo-de-medios-de-comunicacion/feed/`
   - Serena y Coquimbo [Proxy Google News]: `https://news.google.com/rss/search?q=site:serenaycoquimbo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Valparaíso (30 medios)
+#### 📍 Valparaíso (35 medios)
 
 *Descargar OPML regional: [`valparaiso.opml`](../../opml/regions/valparaiso.opml)*
 
+- **Aconcagua al Día** — Medio digital de la provincia de San Felipe, Región de Valparaíso
+  - Aconcagua al Día: `https://aconcaguaaldia.cl/feed/`
+  - Aconcagua al Día - Los Andes: `https://aconcaguaaldia.cl/category/los-andes/feed/`
+  - Aconcagua al Día - San Felipe: `https://aconcaguaaldia.cl/category/san-felipe/feed/`
+  - Aconcagua al Día - Regional: `https://aconcaguaaldia.cl/category/regional/feed/`
+  - Aconcagua al Día - Nacional: `https://aconcaguaaldia.cl/category/nacional/feed/`
+  - Aconcagua al Día - San Esteban: `https://aconcaguaaldia.cl/category/san-esteban/feed/`
+  - Aconcagua al Día - Llay Llay: `https://aconcaguaaldia.cl/category/llay-llay/feed/`
+  - Aconcagua al Día - Panquehue: `https://aconcaguaaldia.cl/category/panquehue/feed/`
+  - Aconcagua al Día - Putaendo: `https://aconcaguaaldia.cl/category/putaendo/feed/`
+  - Aconcagua al Día - Publirreportajes: `https://aconcaguaaldia.cl/category/publirreportajes/feed/`
+  - Aconcagua al Día - Rinconada: `https://aconcaguaaldia.cl/category/rinconada/feed/`
+  - Aconcagua al Día - Catemu: `https://aconcaguaaldia.cl/category/catemu/feed/`
+  - Aconcagua al Día - Santa María: `https://aconcaguaaldia.cl/category/santa-maria/feed/`
+  - Aconcagua al Día - Calle Larga: `https://aconcaguaaldia.cl/category/calle-larga/feed/`
+  - Aconcagua al Día - Opinión: `https://aconcaguaaldia.cl/category/opinion/feed/`
+  - Aconcagua al Día [Proxy Google News]: `https://news.google.com/rss/search?q=site:aconcaguaaldia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Aconcagua al Día [Proxy Bing News]: `https://www.bing.com/news/search?q=site:aconcaguaaldia.cl&format=RSS`
 - **Aconcagua Digital** — Diario regional de San Felipe, Valparaíso
   - Aconcagua Digital: `https://aconcaguadigital.cl/feed/`
   - Aconcagua Digital - Comunas: `https://aconcaguadigital.cl/category/comunas/feed/`
@@ -1337,12 +1366,22 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Montealegre - Provincial: `https://montealegre.cl/sitio/informaciones/provincial/feed/`
   - Montealegre - Regional: `https://montealegre.cl/sitio/informaciones/regional/feed/`
   - Montealegre [Proxy Google News]: `https://news.google.com/rss/search?q=site:montealegre.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Municipalidad de Rinconada** — Sitio oficial de la Municipalidad de Rinconada, Región de Valparaíso
+  - Municipalidad de Rinconada: `https://munirinconada.cl/feed/`
+  - Municipalidad de Rinconada - Salud: `https://munirinconada.cl/category/salud/feed/`
+  - Municipalidad de Rinconada - Educación: `https://munirinconada.cl/category/educacion/feed/`
+  - Municipalidad de Rinconada - Deporte: `https://munirinconada.cl/category/deporte/feed/`
+  - Municipalidad de Rinconada [Proxy Google News]: `https://news.google.com/rss/search?q=site:munirinconada.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Orolonco FM** — Radio de la comuna de Santa María, Región de Valparaíso
   - Orolonco FM: `https://oroloncofm.cl/feed/`
   - Orolonco FM [Proxy Google News]: `https://news.google.com/rss/search?q=site:oroloncofm.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Periódico Contraplano** — Medio de comunicación de la Región de Valparaíso
   - Periódico Contraplano: `https://contraplano.cl/feed/`
   - Periódico Contraplano [Proxy Google News]: `https://news.google.com/rss/search?q=site:contraplano.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Periódico de la Costa** — Medio digital local de Concón, Región de Valparaíso
+  - Periódico de la Costa: `https://periodicodelacosta.cl/feed/`
+  - Periódico de la Costa - Fondo De Medios: `https://periodicodelacosta.cl/category/fondomedios/feed/`
+  - Periódico de la Costa [Proxy Google News]: `https://news.google.com/rss/search?q=site:periodicodelacosta.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **PuraNoticia** — Medio digital chileno de noticias nacionales, regionales, deportivas, económicas e internacionales, con presencia permanente en Valparaíso.
   - PuraNoticia: `https://puranoticia.pnt.cl/cms/site/list/port/feed.rss`
   - PuraNoticia [Proxy Google News]: `https://news.google.com/rss/search?q=site:puranoticia.pnt.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -1350,9 +1389,51 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Quilpué Online: `https://www.quilpueonline.cl/comments/feed/`
   - Quilpué Online - Noticias: `https://www.quilpueonline.cl/category/noticias/feed/`
   - Quilpué Online [Proxy Google News]: `https://news.google.com/rss/search?q=site:quilpueonline.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Quinta Visión Ahora** — Medio digital local de Villa Alemana y Llay Llay, Región de Valparaíso
+  - Quinta Visión Ahora: `https://www.quintavisionahora.cl/feed/`
+  - Quinta Visión Ahora - Nacional: `https://www.quintavisionahora.cl/category/nacional/feed/`
+  - Quinta Visión Ahora - Valparaíso: `https://www.quintavisionahora.cl/category/region-valparaiso/valparaiso/feed/`
+  - Quinta Visión Ahora - Viña Del Mar: `https://www.quintavisionahora.cl/category/region-valparaiso/vina-del-mar/feed/`
+  - Quinta Visión Ahora - Villa Alemana: `https://www.quintavisionahora.cl/category/region-valparaiso/villa-alemana/feed/`
+  - Quinta Visión Ahora - Quilpué: `https://www.quintavisionahora.cl/category/region-valparaiso/quilpue/feed/`
+  - Quinta Visión Ahora - Internacional: `https://www.quintavisionahora.cl/category/internacional/feed/`
+  - Quinta Visión Ahora - Limache: `https://www.quintavisionahora.cl/category/region-valparaiso/limache/feed/`
+  - Quinta Visión Ahora - Deportes: `https://www.quintavisionahora.cl/category/deportes/feed/`
+  - Quinta Visión Ahora - Quintero: `https://www.quintavisionahora.cl/category/region-valparaiso/quintero/feed/`
+  - Quinta Visión Ahora - San Antonio: `https://www.quintavisionahora.cl/category/region-valparaiso/san-antonio/feed/`
+  - Quinta Visión Ahora - Quillota: `https://www.quintavisionahora.cl/category/region-valparaiso/quillota/feed/`
+  - Quinta Visión Ahora - Concón: `https://www.quintavisionahora.cl/category/region-valparaiso/concon/feed/`
+  - Quinta Visión Ahora - Puchuncaví: `https://www.quintavisionahora.cl/category/region-valparaiso/puchuncavi/feed/`
+  - Quinta Visión Ahora - San Felipe: `https://www.quintavisionahora.cl/category/region-valparaiso/san-felipe/feed/`
+  - Quinta Visión Ahora - Olmué: `https://www.quintavisionahora.cl/category/region-valparaiso/olmue/feed/`
+  - Quinta Visión Ahora - Dato Útil: `https://www.quintavisionahora.cl/category/dato-util/feed/`
+  - Quinta Visión Ahora - Los Andes: `https://www.quintavisionahora.cl/category/region-valparaiso/los-andes/feed/`
+  - Quinta Visión Ahora - Isla De Pascua: `https://www.quintavisionahora.cl/category/region-valparaiso/isla-de-pascua/feed/`
+  - Quinta Visión Ahora - Zapallar: `https://www.quintavisionahora.cl/category/region-valparaiso/zapallar/feed/`
+  - Quinta Visión Ahora - Casablanca: `https://www.quintavisionahora.cl/category/region-valparaiso/casablanca/feed/`
+  - Quinta Visión Ahora - La Ligua: `https://www.quintavisionahora.cl/category/region-valparaiso/la-ligua/feed/`
+  - Quinta Visión Ahora - Papudo: `https://www.quintavisionahora.cl/category/region-valparaiso/papudo/feed/`
+  - Quinta Visión Ahora - La Calera: `https://www.quintavisionahora.cl/category/region-valparaiso/la-calera/feed/`
+  - Quinta Visión Ahora - Llay Llay: `https://www.quintavisionahora.cl/category/region-valparaiso/llay-llay/feed/`
+  - Quinta Visión Ahora - Petorca: `https://www.quintavisionahora.cl/category/region-valparaiso/petorca/feed/`
+  - Quinta Visión Ahora - Cartagena: `https://www.quintavisionahora.cl/category/region-valparaiso/cartagena/feed/`
+  - Quinta Visión Ahora - Nogales: `https://www.quintavisionahora.cl/category/region-valparaiso/nogales/feed/`
+  - Quinta Visión Ahora - Cabildo: `https://www.quintavisionahora.cl/category/region-valparaiso/cabildo/feed/`
+  - Quinta Visión Ahora - Santo Domingo: `https://www.quintavisionahora.cl/category/region-valparaiso/santo-domingo/feed/`
+  - Quinta Visión Ahora - Algarrobo: `https://www.quintavisionahora.cl/category/region-valparaiso/algarrobo/feed/`
+  - Quinta Visión Ahora - El Quisco: `https://www.quintavisionahora.cl/category/region-valparaiso/el-quisco/feed/`
+  - Quinta Visión Ahora - Juan Fernández: `https://www.quintavisionahora.cl/category/region-valparaiso/juan-fernandez/feed/`
+  - Quinta Visión Ahora - San Esteban: `https://www.quintavisionahora.cl/category/region-valparaiso/san-esteban/feed/`
+  - Quinta Visión Ahora - Santa María: `https://www.quintavisionahora.cl/category/region-valparaiso/santa-maria/feed/`
+  - Quinta Visión Ahora [Proxy Google News]: `https://news.google.com/rss/search?q=site:quintavisionahora.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Quintero** — Medio de comunicación de Quintero, Región de Valparaíso
   - Quintero [Proxy Google News]: `https://news.google.com/rss/search?q=site:quintero.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Quintero [Proxy Bing News]: `https://www.bing.com/news/search?q=site:quintero.cl&format=RSS`
+- **Radio Aconcagua** — Radioemisora local del valle del Aconcagua, Región de Valparaíso
+  - Radio Aconcagua: `https://radioaconcagua.cl/feed/`
+  - Radio Aconcagua - Deportes: `https://radioaconcagua.cl/categoria/deportes/feed/`
+  - Radio Aconcagua [Proxy Google News]: `https://news.google.com/rss/search?q=site:radioaconcagua.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Radio Aconcagua [Proxy Bing News]: `https://www.bing.com/news/search?q=site:radioaconcagua.cl&format=RSS`
 - **Radio Valentín Letelier** — Radio de la Universidad de Valparaíso
   - Radio Valentín Letelier: `https://rvl.uv.cl/noticias?format=feed`
   - Radio Valentín Letelier [Proxy Google News]: `https://news.google.com/rss/search?q=site:rvl.uv.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -1370,7 +1451,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Valparaíso Noticias - Portada: `https://valparaisonoticias.cl/feed/`
   - Valparaíso Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:valparaisonoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Metropolitana de Santiago (25 medios)
+#### 📍 Metropolitana de Santiago (28 medios)
 
 *Descargar OPML regional: [`metropolitana.opml`](../../opml/regions/metropolitana.opml)*
 
@@ -1508,6 +1589,15 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Duplos - Belleza: `https://duplos.cl/belleza/feed/`
   - Duplos [Proxy Google News]: `https://news.google.com/rss/search?q=site:duplos.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Duplos [Proxy Bing News]: `https://www.bing.com/news/search?q=site:duplos.cl&format=RSS`
+- **El Carrerino** — Medio digital local de El Monte, Región Metropolitana
+  - El Carrerino: `https://elcarrerino.cl/feed/`
+  - El Carrerino - Política: `https://elcarrerino.cl/category/politica/feed/`
+  - El Carrerino - Local: `https://elcarrerino.cl/category/local/feed/`
+  - El Carrerino - Economía: `https://elcarrerino.cl/category/economia/feed/`
+  - El Carrerino - Internacional: `https://elcarrerino.cl/category/internacional/feed/`
+  - El Carrerino - Bienestar: `https://elcarrerino.cl/category/bienestar/feed/`
+  - El Carrerino - Columnas: `https://elcarrerino.cl/category/columnas/feed/`
+  - El Carrerino [Proxy Google News]: `https://news.google.com/rss/search?q=site:elcarrerino.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El Comunicador** — Diario regional de Melipilla, Metropolitana
   - El Comunicador: `https://elcomunicador.cl/feed/`
   - El Comunicador - Últimas Noticias: `https://elcomunicador.cl/category/ultimas-noticias/feed/`
@@ -1624,6 +1714,12 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - La Voz de Maipú: `https://lavozdemaipu.cl/feed/`
   - La Voz de Maipú [Proxy Google News]: `https://news.google.com/rss/search?q=site:lavozdemaipu.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - La Voz de Maipú [Proxy Bing News]: `https://www.bing.com/news/search?q=site:lavozdemaipu.cl&format=RSS`
+- **Municipalidad de San Bernardo** — Sitio oficial de la Municipalidad de San Bernardo, Región Metropolitana
+  - Municipalidad de San Bernardo: `https://www.sanbernardo.cl/feed/`
+  - Municipalidad de San Bernardo - Cultura: `https://www.sanbernardo.cl/category/cultura/feed/`
+  - Municipalidad de San Bernardo - Deportes: `https://www.sanbernardo.cl/category/deportes/feed/`
+  - Municipalidad de San Bernardo [Proxy Google News]: `https://news.google.com/rss/search?q=site:sanbernardo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Municipalidad de San Bernardo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sanbernardo.cl&format=RSS`
 - **Nuevo Poder** — Diario regional de Santiago, Metropolitana
   - Nuevo Poder: `https://www.nuevopoder.cl/feed/`
   - Nuevo Poder - País: `https://www.nuevopoder.cl/category/pais/feed/`
@@ -1643,6 +1739,16 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Nuevo Poder - Monitor Indo Pacífico: `https://www.nuevopoder.cl/category/monitor-indo-pacifico/feed/`
   - Nuevo Poder [Proxy Google News]: `https://news.google.com/rss/search?q=site:nuevopoder.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Nuevo Poder [Proxy Bing News]: `https://www.bing.com/news/search?q=site:nuevopoder.cl&format=RSS`
+- **Portal Puente Alto** — Medio digital local de Puente Alto, Región Metropolitana
+  - Portal Puente Alto: `https://www.portalpuentealto.cl/feed/`
+  - Portal Puente Alto - Noticias: `https://www.portalpuentealto.cl/category/noticias/feed/`
+  - Portal Puente Alto - Cultura: `https://www.portalpuentealto.cl/category/cultura/feed/`
+  - Portal Puente Alto - Deportes: `https://www.portalpuentealto.cl/category/deportes/feed/`
+  - Portal Puente Alto - Emprendedores: `https://www.portalpuentealto.cl/category/emprendedores/feed/`
+  - Portal Puente Alto - Pirque: `https://www.portalpuentealto.cl/category/noticias/pirque/feed/`
+  - Portal Puente Alto - Cajón Del Maipo: `https://www.portalpuentealto.cl/category/noticias/cajon-del-maipo/feed/`
+  - Portal Puente Alto [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalpuentealto.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Portal Puente Alto [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalpuentealto.cl&format=RSS`
 - **Puente Alto al Día**: Periódico local de Puente Alto, Región Metropolitana
   - RSS: `https://puentealtoaldia.com/feed/`
 - **Radio Pirque** — Portal de noticias de Pirque, Provincia Cordillera, Región Metropolitana
@@ -1889,7 +1995,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - TVO San Vicente - Chimbarongo: `https://www.tvosanvicente.cl/category/noticias/chimbarongo/feed/`
   - TVO San Vicente [Proxy Google News]: `https://news.google.com/rss/search?q=site:tvosanvicente.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Maule (22 medios)
+#### 📍 Maule (23 medios)
 
 *Descargar OPML regional: [`maule.opml`](../../opml/regions/maule.opml)*
 
@@ -2098,6 +2204,17 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
 - **Radio Buena Nueva** — Emisora regional de Linares 97.9 FM Linares, 106.3 FM Chanco, 102.7 FM Longaví, 89.5 FM Constitución
   - Radio Buena Nueva: `https://radiobuenanueva.cl/rb30/feed`
   - Radio Buena Nueva [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiobuenanueva.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Radio FM+** — Radioemisora local de Talca, Región del Maule
+  - Radio FM+: `https://radiofmmas.cl/feed/`
+  - Radio FM+ - Provincia De Talca: `https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadetalca/feed/`
+  - Radio FM+ - Provincia De Linares: `https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadelinares/feed/`
+  - Radio FM+ - Provincia De Curicó: `https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadecurico/feed/`
+  - Radio FM+ - Deportes: `https://radiofmmas.cl/category/noticias/deportes/feed/`
+  - Radio FM+ - Provincia De Cauquenes: `https://radiofmmas.cl/category/noticias/regiondelmaule/provinciadecauquenes/feed/`
+  - Radio FM+ - Agricultura Y Negocios: `https://radiofmmas.cl/category/noticias/agricultura-y-negocios/feed/`
+  - Radio FM+ - Cultura: `https://radiofmmas.cl/category/noticias/cultura/feed/`
+  - Radio FM+ - Videos: `https://radiofmmas.cl/category/noticias/videos/feed/`
+  - Radio FM+ [Proxy Google News]: `https://news.google.com/rss/search?q=site:radiofmmas.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Sera Noticia** — Diario regional del Maule
   - Sera Noticia: `https://seranoticia.cl/feed/`
   - Sera Noticia - Curicó: `https://seranoticia.cl/curico/feed/`
@@ -2296,7 +2413,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - San Carlos On Line [Proxy Google News]: `https://news.google.com/rss/search?q=site:sancarlosonline.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - San Carlos On Line [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sancarlosonline.cl&format=RSS`
 
-#### 📍 Biobío (16 medios)
+#### 📍 Biobío (19 medios)
 
 *Descargar OPML regional: [`biobio.opml`](../../opml/regions/biobio.opml)*
 
@@ -2317,6 +2434,52 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Angelino - Provincial: `https://www.angelino.cl/category/provincial/feed/`
   - Angelino - Social: `https://www.angelino.cl/category/social/feed/`
   - Angelino - Deportes: `https://www.angelino.cl/category/deportes/feed/`
+- **BioNoticias** — Medio digital de noticias de la Región del Biobío
+  - BioNoticias: `https://bionoticias.cl/feed/`
+  - BioNoticias - Regional: `https://bionoticias.cl/category/regional/feed/`
+  - BioNoticias - Salud: `https://bionoticias.cl/category/salud-noticias/feed/`
+  - BioNoticias - Columnista: `https://bionoticias.cl/category/columnista/feed/`
+  - BioNoticias - Educación: `https://bionoticias.cl/category/educacion-noticias/feed/`
+  - BioNoticias - Agricultura: `https://bionoticias.cl/category/agricultura/feed/`
+  - BioNoticias - Los Ángeles: `https://bionoticias.cl/category/provincia-de-bio-bio/los-angeles/feed/`
+  - BioNoticias - Provincia De Bio Bio: `https://bionoticias.cl/category/provincia-de-bio-bio/feed/`
+  - BioNoticias - Nacional: `https://bionoticias.cl/category/nacional/feed/`
+  - BioNoticias - Economía: `https://bionoticias.cl/category/economia/feed/`
+  - BioNoticias - Crónica: `https://bionoticias.cl/category/cronica/feed/`
+  - BioNoticias - Deportes: `https://bionoticias.cl/category/deportes/feed/`
+  - BioNoticias - Policial: `https://bionoticias.cl/category/policial/feed/`
+  - BioNoticias - Pdi: `https://bionoticias.cl/category/policial/pdi/feed/`
+  - BioNoticias - Política: `https://bionoticias.cl/category/politica/feed/`
+  - BioNoticias - Cultura: `https://bionoticias.cl/category/cultura-2/feed/`
+  - BioNoticias - Región De Ñuble: `https://bionoticias.cl/category/region-de-nuble/feed/`
+  - BioNoticias - Monseñor Felipe Bacarreza Rodríguez: `https://bionoticias.cl/category/columnista/evangelio-del-domingo/feed/`
+  - BioNoticias - Universidad Santo Tomás Los Angeles: `https://bionoticias.cl/category/universidad-santo-tomas-los-angeles/feed/`
+  - BioNoticias - Radio Violeta: `https://bionoticias.cl/category/radio-violeta/feed/`
+  - BioNoticias - Concepción: `https://bionoticias.cl/category/regional/concepcion-regionales-noticias/feed/`
+  - BioNoticias - Carabineros: `https://bionoticias.cl/category/policial/carabineros/feed/`
+  - BioNoticias - Energía: `https://bionoticias.cl/category/energia/feed/`
+  - BioNoticias - Medio Ambiente: `https://bionoticias.cl/category/medio-ambiente/feed/`
+  - BioNoticias - Universidad Santo Tomas: `https://bionoticias.cl/category/columnista/universidad-santo-tomas/feed/`
+  - BioNoticias - Alimentación: `https://bionoticias.cl/category/alimentacion/feed/`
+  - BioNoticias - Entrevista: `https://bionoticias.cl/category/entrevistas/feed/`
+  - BioNoticias - Turismo: `https://bionoticias.cl/category/turismo/feed/`
+  - BioNoticias - Música: `https://bionoticias.cl/category/musica/feed/`
+  - BioNoticias - Video En Vivo: `https://bionoticias.cl/category/video-en-vivo/feed/`
+  - BioNoticias - Tenis De Mesa: `https://bionoticias.cl/category/deportes/tenis-de-mesa/feed/`
+  - BioNoticias - Actualidad: `https://bionoticias.cl/category/actualidad/feed/`
+  - BioNoticias - Arauco: `https://bionoticias.cl/category/regional/arauco/feed/`
+  - BioNoticias - Tecnología: `https://bionoticias.cl/category/tecnologia/feed/`
+  - BioNoticias - Comercio Internacional: `https://bionoticias.cl/category/comercio-internacional/feed/`
+  - BioNoticias - Eventos: `https://bionoticias.cl/category/eventos/feed/`
+  - BioNoticias - Espectáculo: `https://bionoticias.cl/category/espectaculo/feed/`
+  - BioNoticias - Iglesia: `https://bionoticias.cl/category/iglesia/feed/`
+  - BioNoticias - Mulchén: `https://bionoticias.cl/category/provincia-de-bio-bio/mulchen/feed/`
+  - BioNoticias - Penco: `https://bionoticias.cl/category/regional/penco/feed/`
+  - BioNoticias - Cabrero: `https://bionoticias.cl/category/provincia-de-bio-bio/cabrero/feed/`
+  - BioNoticias - Música: `https://bionoticias.cl/category/cultura-2/musica-cultura-2/feed/`
+  - BioNoticias - Teatro: `https://bionoticias.cl/category/cultura-2/teatro/feed/`
+  - BioNoticias - Emprendimiento: `https://bionoticias.cl/category/emprendimiento/feed/`
+  - BioNoticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:bionoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Cabrero en Línea** — Medio digital de noticias de Cabrero, Región del Biobío
   - Cabrero en Línea: `https://wp.cabreroenlinea.cl/feed/`
   - Cabrero en Línea - Deportes: `https://wp.cabreroenlinea.cl/category/deportes/feed/`
@@ -2338,10 +2501,27 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Cabrero en Línea - Septiembre 2026: `https://wp.cabreroenlinea.cl/tag/septiembre-2026/feed/`
   - Cabrero en Línea [Proxy Google News]: `https://news.google.com/rss/search?q=site:wp.cabreroenlinea.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Cabrero en Línea [Proxy Bing News]: `https://www.bing.com/news/search?q=site:wp.cabreroenlinea.cl&format=RSS`
+- **ConceAhora** — Medio digital local de Concepción, Región del Biobío
+  - ConceAhora: `https://www.conceahora.cl/feed/`
+  - ConceAhora - Biobio: `https://www.conceahora.cl/category/biobio/feed/`
+  - ConceAhora - Concepción: `https://www.conceahora.cl/category/concepcion/feed/`
+  - ConceAhora - Nacional: `https://www.conceahora.cl/category/nacional/feed/`
+  - ConceAhora [Proxy Google News]: `https://news.google.com/rss/search?q=site:conceahora.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Diario Concepción** — Diario regional con cobertura informativa de la Región del Biobío
   - Diario Concepción: `https://www.diarioconcepcion.cl/rss.xml`
   - Diario Concepción [Proxy Google News]: `https://news.google.com/rss/search?q=site:diarioconcepcion.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Diario Concepción [Proxy Bing News]: `https://www.bing.com/news/search?q=site:diarioconcepcion.cl&format=RSS`
+- **El Conquistador Concepción** — Radioemisora local de Concepción, Región del Biobío
+  - El Conquistador Concepción: `https://www.elconquistadorconcepcion.cl/feed/`
+  - El Conquistador Concepción - Regional: `https://www.elconquistadorconcepcion.cl/category/regional/feed/`
+  - El Conquistador Concepción - Videos: `https://www.elconquistadorconcepcion.cl/category/videos/feed/`
+  - El Conquistador Concepción - Nacional: `https://www.elconquistadorconcepcion.cl/category/nacional/feed/`
+  - El Conquistador Concepción - Internacional: `https://www.elconquistadorconcepcion.cl/category/internacional/feed/`
+  - El Conquistador Concepción - Deportes: `https://www.elconquistadorconcepcion.cl/category/deportes/feed/`
+  - El Conquistador Concepción - Cultura: `https://www.elconquistadorconcepcion.cl/category/cultura/feed/`
+  - El Conquistador Concepción - Tecnología: `https://www.elconquistadorconcepcion.cl/category/tecnologia/feed/`
+  - El Conquistador Concepción - Tendencias: `https://www.elconquistadorconcepcion.cl/category/tendencias/feed/`
+  - El Conquistador Concepción [Proxy Google News]: `https://news.google.com/rss/search?q=site:elconquistadorconcepcion.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **El Contraste** — Diario regional de Los Ángeles, Biobío
   - El Contraste: `https://www.elcontraste.cl/feed/`
   - El Contraste - Policial: `https://elcontraste.cl/policial/feed/`
@@ -2447,7 +2627,7 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Tus Noticias - Quedé Negra: `https://www.tusnoticias.cl/noticias/quede-negra/feed/`
   - Tus Noticias [Proxy Google News]: `https://news.google.com/rss/search?q=site:tusnoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 
-#### 📍 Araucanía (30 medios)
+#### 📍 Araucanía (31 medios)
 
 *Descargar OPML regional: [`araucania.opml`](../../opml/regions/araucania.opml)*
 
@@ -2706,6 +2886,17 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Malleco 7 - Deportes: `https://www.malleco7.cl/canal/deportes/feed/`
   - Malleco 7 - Columnistas: `https://www.malleco7.cl/canal/columnistas/feed/`
   - Malleco 7 [Proxy Google News]: `https://news.google.com/rss/search?q=site:malleco7.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Municipalidad de Temuco** — Sitio oficial de la Municipalidad de Temuco, Región de La Araucanía
+  - Municipalidad de Temuco: `https://www.temuco.cl/feed/`
+  - Municipalidad de Temuco - Páginas: `https://www.temuco.cl/category/paginas/feed/`
+  - Municipalidad de Temuco - Edificios: `https://www.temuco.cl/category/edificios/feed/`
+  - Municipalidad de Temuco - Calles: `https://www.temuco.cl/category/calles/feed/`
+  - Municipalidad de Temuco - Emprendedores: `https://www.temuco.cl/category/emprendedores/feed/`
+  - Municipalidad de Temuco - Adulto Mayor: `https://www.temuco.cl/category/adulto-mayor/feed/`
+  - Municipalidad de Temuco - Deportes: `https://www.temuco.cl/category/deportes/feed/`
+  - Municipalidad de Temuco - Parques: `https://www.temuco.cl/category/parques/feed/`
+  - Municipalidad de Temuco [Proxy Google News]: `https://news.google.com/rss/search?q=site:temuco.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Municipalidad de Temuco [Proxy Bing News]: `https://www.bing.com/news/search?q=site:temuco.cl&format=RSS`
 - **Noticias del Lago**: Feed principal de Noticias del Lago
   - RSS: `https://www.noticiasdellago.cl/feed/`
 - **Noticias del Sur** — Medio de comunicación de la Región de Araucanía
@@ -3595,12 +3786,14 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - Zona Zero [Proxy Google News]: `https://news.google.com/rss/search?q=site:zonazero.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Zona Zero [Proxy Bing News]: `https://www.bing.com/news/search?q=site:zonazero.cl&format=RSS`
 
-#### 📍 Otras Regiones o No Especificada (9 medios)
+#### 📍 Otras Regiones o No Especificada (11 medios)
 
 - **(Empresa) Inmobiliaria RVC**: Feed de la sección 'Comuna' en (Empresa) Inmobiliaria RVC
   - RSS: `https://rvc.cl/feed/?category=comuna`
 - **G5 Noticias**: Feed de la categoría 'Región' en G5 Noticias
   - RSS: `https://g5noticias.cl/categoria/region/feed/`
+- **Giro Visual**: Feed de la categoría 'Regional' en Giro Visual
+  - RSS: `https://girovisual.cl/wp2/category/regional/feed/`
 - **Google News** — Segregador de noticias de Google
   - Google News - Chile - Región Arica y Parinacota: `https://news.google.com/rss/headlines/section/geo/Arica?hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Región Tarapacá: `https://news.google.com/rss/headlines/section/geo/Iquique?hl=es-419&gl=CL&ceid=CL:es-419`
@@ -3626,6 +3819,8 @@ Consolidado regional: [`chilean-rss-regions.opml`](../../opml/chilean-rss-region
   - RSS: `https://pulsopublico.cl/regional/feed/`
 - **Radio Cristalina**: Feed de la categoría 'Regional' en Radio Cristalina
   - RSS: `https://radiocristalina.cl/category/regional/feed/`
+- **Radio Indómita**: Feed de la categoría 'Regional' en Radio Indómita
+  - RSS: `https://radioindomita.cl/category/noticias/regional/feed/`
 - **Radio Riquelme**: Feed de la categoría 'Regional' en Radio Riquelme
   - RSS: `https://radioriquelme.cl/category/regional/feed/`
 - **Regiones Noticias** — Medio digital con noticias de las regiones de Chile

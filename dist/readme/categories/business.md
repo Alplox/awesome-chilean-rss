@@ -2,7 +2,7 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 140 sitios, 479 feeds*
+*Descargar OPML: [`business.opml`](../../opml/categories/business.opml) - 155 sitios, 518 feeds*
 
 - **(Empresa) Contapapaya** — Plataforma de contabilidad online para pymes chilenas, con artículos sobre contabilidad y emprendimiento
   - (Empresa) Contapapaya: `https://contapapaya.cl/feed/`
@@ -97,9 +97,31 @@
   - Acero y Roca - Comunidad: `https://aceroyroca.com/category/comunidad-minera/feed/`
   - Acero y Roca - Conflictos Y Reclamos: `https://aceroyroca.com/category/conflictos-reclamos/feed/`
   - Acero y Roca [Proxy Bing News]: `https://www.bing.com/news/search?q=site:aceroyroca.com&format=RSS`
+- **ADPrensa**: Feed de la categoría 'Economía' en ADPrensa
+  - RSS: `https://adprensa.cl/category/economia/feed/`
+- **AIM Chile** — Asociación chilena de investigación de mercados y planificación
+  - AIM Chile: `https://aimchile.cl/feed/`
+  - AIM Chile - Socios: `https://aimchile.cl/category/noticias/socios-noticias/feed/`
+  - AIM Chile - Aim: `https://aimchile.cl/category/noticias/aim/feed/`
+  - AIM Chile - Actividades: `https://aimchile.cl/category/noticias/actividades-noticias/feed/`
+  - AIM Chile - Editorial: `https://aimchile.cl/category/noticias/editorial/feed/`
+  - AIM Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:aimchile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Alerta Noticias Temuco** — Diario regional de Temuco, La Araucanía
   - Alerta Noticias Temuco - Economía y Negocios: `https://alertanoticiastemuco.cl/category/economia-y-negocios/feed/`
   - Alerta Noticias Temuco - Emprendimiento: `https://alertanoticiastemuco.cl/category/emprendimiento/feed/`
+- **Alerta Prevención (AGRICET)** — Boletín de prevención de riesgos laborales y normativa de seguridad social
+  - Alerta Prevención (AGRICET): `https://alertaprevencion.cl/feed/`
+  - Alerta Prevención (AGRICET) - Rrhh: `https://alertaprevencion.cl/category/codigo-del/feed/`
+  - Alerta Prevención (AGRICET) - Derechos Laborales: `https://alertaprevencion.cl/category/derechos-laborales/feed/`
+  - Alerta Prevención (AGRICET) - Emergencias: `https://alertaprevencion.cl/category/emergencias/feed/`
+  - Alerta Prevención (AGRICET) - Ds 44: `https://alertaprevencion.cl/category/ds-44/feed/`
+  - Alerta Prevención (AGRICET) - Licencias Médicas: `https://alertaprevencion.cl/category/emergencias/licencias-medicas/feed/`
+  - Alerta Prevención (AGRICET) - Ley Karin: `https://alertaprevencion.cl/category/codigo-del/ley-karin/feed/`
+  - Alerta Prevención (AGRICET) - Riesgos De Salud: `https://alertaprevencion.cl/category/riesgos-de-salud/feed/`
+  - Alerta Prevención (AGRICET) - Incendio: `https://alertaprevencion.cl/category/emergencias/incendio/feed/`
+  - Alerta Prevención (AGRICET) - Riesgo Químico: `https://alertaprevencion.cl/category/suspel-y-respel/feed/`
+  - Alerta Prevención (AGRICET) - Accidente Laboral: `https://alertaprevencion.cl/category/emergencias/accidente-laboral/feed/`
+  - Alerta Prevención (AGRICET) [Proxy Google News]: `https://news.google.com/rss/search?q=site:alertaprevencion.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Análisis.com** — Medio de noticias de economía, mercados y negocios de América Latina
   - Análisis.com: `https://www.analisis.com/rss.xml`
   - Análisis.com [Proxy Google News]: `https://news.google.com/rss/search?q=site:analisis.com&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -128,6 +150,13 @@
   - RSS: `https://auroranoticias.cl/economia/feed/`
 - **Base Nacional**: Feed de la categoría 'Economía' en Base Nacional
   - RSS: `https://basenacional.cl/category/economia/feed/`
+- **BioNoticias** — Medio digital de noticias de la Región del Biobío
+  - BioNoticias - Economía: `https://bionoticias.cl/category/economia/feed/`
+  - BioNoticias - Emprendimiento: `https://bionoticias.cl/category/emprendimiento/feed/`
+- **Cadem** — Empresa chilena de estudios de opinión pública y mercado
+  - Cadem: `https://cadem.cl/feed/`
+  - Cadem - Estudios: `https://cadem.cl/estudios/feed/`
+  - Cadem [Proxy Google News]: `https://news.google.com/rss/search?q=site:cadem.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Cadena Política**: Feed de la categoría 'Economía' en Cadena Política
   - RSS: `https://cadenapolitica.com/category/economia/feed/`
 - **Calama en Línea**: Feed de la categoría 'Economía' en Calama en Línea
@@ -177,6 +206,10 @@
   - CriptoNoticias Chile - Mercados: `https://www.criptonoticias.com/categorias/mercados/feed/`
   - CriptoNoticias Chile - Negocios: `https://www.criptonoticias.com/categorias/negocios/feed/`
   - CriptoNoticias Chile - Finanzas: `https://www.criptonoticias.com/categorias/finanzas/feed/`
+- **Criteria** — Empresa chilena de encuestas y estudios de opinión pública
+  - Criteria: `https://www.criteria.cl/feed/`
+  - Criteria - Agenda: `https://www.criteria.cl/category/agenda/feed/`
+  - Criteria [Proxy Google News]: `https://news.google.com/rss/search?q=site:criteria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **David Noticias**: Feed de la categoría 'Economia' en David Noticias
   - RSS: `https://www.davidnoticias.cl/category/economia/feed/`
 - **De Mar a Cordillera TV**: Feed de la categoría 'Emprendimiento' en De Mar a Cordillera TV
@@ -242,6 +275,8 @@
   - RSS: `https://dplnews.com/category/negocios/feed/`
 - **Duplos**: Feed de la categoría 'Negocios' en Duplos
   - RSS: `https://duplos.cl/negocios/feed/`
+- **El Carrerino**: Feed de la categoría 'Economía' en El Carrerino
+  - RSS: `https://elcarrerino.cl/category/economia/feed/`
 - **El Ciudadano**: Feed de la sección 'Economía' en El Ciudadano
   - RSS: `https://www.elciudadano.com/noticias/economia/feed/`
 - **El Clarín de Chile**: Feed de la categoría 'Economía y Mercados En Marcha' en El Clarín de Chile
@@ -328,6 +363,9 @@
   - Gerencia: `https://www.gerencia.cl/feed/`
   - Gerencia [Proxy Google News]: `https://news.google.com/rss/search?q=site:gerencia.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - Gerencia [Proxy Bing News]: `https://www.bing.com/news/search?q=site:gerencia.cl&format=RSS`
+- **Giro Visual** — Medio digital chileno de noticias de actualidad nacional
+  - Giro Visual - Economía: `https://girovisual.cl/wp2/category/economia/feed/`
+  - Giro Visual - Emprendimiento: `https://girovisual.cl/wp2/category/emprendimiento/feed/`
 - **Google News** — Segregador de noticias de Google
   - Google News - Chile - Resultados 'economía': `https://news.google.com/rss/search?q=econom%C3%ADa&hl=es-419&gl=CL&ceid=CL:es-419`
   - Google News - Chile - Resultados 'minería': `https://news.google.com/rss/search?q=miner%C3%ADa&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -409,6 +447,8 @@
   - Mundo Minería - Titular 2: `https://mundomineria.cl/category/titular-2/feed/`
   - Mundo Minería - Titular: `https://mundomineria.cl/category/titular/feed/`
   - Mundo Minería [Proxy Google News]: `https://news.google.com/rss/search?q=site:mundomineria.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Municipalidad de Temuco**: Feed de la categoría 'Emprendedores' en Municipalidad de Temuco
+  - RSS: `https://www.temuco.cl/category/emprendedores/feed/`
 - **Noticias Los Ríos** — Diario regional de La Unión, Los Ríos
   - Noticias Los Ríos - Emprendedores: `https://www.noticiaslosrios.cl/seccion/emprendedores/feed/`
   - Noticias Los Ríos - Economía: `https://www.noticiaslosrios.cl/seccion/economia/feed/`
@@ -416,6 +456,10 @@
   - RSS: `https://novenadigital.cl/category/economia/feed/`
 - **Nuevo Poder**: Feed de la categoría 'Economía' en Nuevo Poder
   - RSS: `https://www.nuevopoder.cl/category/economia/feed/`
+- **OCEC-UDP** — Observatorio de economía y contexto económico de la Universidad Diego Portales
+  - OCEC-UDP: `https://ocec.udp.cl/feed/`
+  - OCEC-UDP - En Los Medios: `https://ocec.udp.cl/archivo/en-los-medios/feed/`
+  - OCEC-UDP [Proxy Google News]: `https://news.google.com/rss/search?q=site:ocec.udp.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Ovalle Hoy**: Feed de la categoría 'Economía' en Ovalle Hoy
   - RSS: `https://ovallehoy.cl/categoria/ultimas/actualidad/economia/feed/`
 - **Página 19**: Feed de la categoría 'Economía' en Página 19
@@ -469,6 +513,8 @@
   - Portal Frutícola - Grape Reporter F: `https://www.portalfruticola.com/noticias/category/grape-reporter/feed/`
   - Portal Frutícola [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalfruticola.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - Portal Frutícola [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalfruticola.com&format=RSS`
+- **Portal Innova**: Feed de la categoría 'Economía' en Portal Innova
+  - RSS: `https://portalinnova.cl/category/economia/feed/`
 - **Portal Metropolitano** — Portal de noticias de la Región Metropolitana
   - Portal Metropolitano - Economía: `https://portalmetropolitano.cl/category/economia/feed/`
   - Portal Metropolitano - Empresas: `https://portalmetropolitano.cl/category/empresas/feed/`
@@ -476,6 +522,8 @@
   - Portal Minero: `https://www.portalminero.com/feed/`
   - Portal Minero [Proxy Google News]: `https://news.google.com/rss/search?q=site:portalminero.com&hl=es-419&gl=CL&ceid=CL:es-419`
   - Portal Minero [Proxy Bing News]: `https://www.bing.com/news/search?q=site:portalminero.com&format=RSS`
+- **Portal Puente Alto**: Feed de la categoría 'Emprendedores' en Portal Puente Alto
+  - RSS: `https://www.portalpuentealto.cl/category/emprendedores/feed/`
 - **PortalPortuario** — Medio especializado en puertos, transporte marítimo y comercio exterior en español
   - PortalPortuario: `https://portalportuario.cl/feed/`
   - PortalPortuario - Titulares: `https://portalportuario.cl/category/titulares/feed/`
@@ -537,6 +585,8 @@
   - RSS: `https://radiocristalina.cl/category/economia/feed/`
 - **Radio Guayacán**: Feed de la categoría 'Economía' en Radio Guayacán
   - RSS: `https://radioguayacan.cl/category/noticias/region/economia/feed/`
+- **Radio Indómita**: Feed de la categoría 'Economía' en Radio Indómita
+  - RSS: `https://radioindomita.cl/category/noticias/economia/feed/`
 - **Radio Interamericana**: Feed de la categoría 'Economía' en Radio Interamericana
   - RSS: `https://radiointeramericana.cl/category/noticias/economia/feed/`
 - **Radio Nuevo Mundo**: Feed de la categoría 'Economía' en Radio Nuevo Mundo
@@ -549,9 +599,13 @@
   - RBC Asesores: `https://rbcasesores.cl/feed/`
   - RBC Asesores [Proxy Google News]: `https://news.google.com/rss/search?q=site:rbcasesores.cl&hl=es-419&gl=CL&ceid=CL:es-419`
   - RBC Asesores [Proxy Bing News]: `https://www.bing.com/news/search?q=site:rbcasesores.cl&format=RSS`
+- **RDN**: Feed de la categoría 'Economía' en RDN
+  - RSS: `https://rdn.cl/category/economia/feed/`
 - **Región de Coquimbo** — Medio digital con noticias locales, regionales y nacionales de la Región de Coquimbo.
   - Región de Coquimbo - Economía: `https://regiondecoquimbo.cl/category/economia/feed/`
   - Región de Coquimbo - Emprendimiento: `https://regiondecoquimbo.cl/category/emprendimiento/feed/`
+- **Revista Tierra Bella**: Feed de la categoría 'Economía' en Revista Tierra Bella
+  - RSS: `https://revistatierrabella.cl/category/economia/feed/`
 - **Río en Línea**: Feed de la categoría 'Economía' en Río en Línea
   - RSS: `https://www.rioenlinea.cl/seccion/economia/feed/`
 - **Ruta 2050** — Medio especializado en minería y energía en Chile, con cobertura de cobre, litio, renovables, hidrógeno, almacenamiento y transición energética.

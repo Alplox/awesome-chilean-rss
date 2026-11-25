@@ -2,8 +2,10 @@
 
 [↑ Volver al índice](../../../README.md#índice-de-categorías)
 
-*Descargar OPML: [`government.opml`](../../opml/categories/government.opml) - 50 sitios, 219 feeds*
+*Descargar OPML: [`government.opml`](../../opml/categories/government.opml) - 61 sitios, 248 feeds*
 
+- **ADPrensa**: Feed de la categoría 'Gobierno' en ADPrensa
+  - RSS: `https://adprensa.cl/category/gobierno/feed/`
 - **ANCI** — Agencia Nacional de Ciberseguridad de Chile
   - ANCI - Noticias: `https://www.anci.gob.cl/rss/noticias`
   - ANCI - Eventos y Cursos: `https://www.anci.gob.cl/rss/eventos`
@@ -62,9 +64,13 @@
   - RSS: `https://www.elciudadano.com/noticias/congreso/feed/`
 - **El Diario de La Araucanía**: Feed de la categoría 'Elecciones' en El Diario de La Araucanía
   - RSS: `https://www.eldiariodelaaraucania.cl/category/politica/elecciones/feed/`
+- **El Orador Ilustrado**: Feed de la categoría 'Gobierno' en El Orador Ilustrado
+  - RSS: `https://eloradorilustrado.cl/category/gobierno/feed/`
 - **Fiscalía de Chile** — Ministerio Público de Chile - noticias y comunicados oficiales
   - Fiscalía de Chile: `https://www.fiscaliadechile.cl/rss.xml`
   - Fiscalía de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:fiscaliadechile.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Giro Visual**: Feed de la categoría 'Gobierno' en Giro Visual
+  - RSS: `https://girovisual.cl/wp2/category/gobierno/feed/`
 - **Gobierno de Chile** — Noticias oficiales y decretos del gobierno
   - Gobierno de Chile: `https://www.gob.cl/noticias/feed/rss/`
   - Gobierno de Chile [Proxy Google News]: `https://news.google.com/rss/search?q=site:gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -168,12 +174,30 @@
 - **Municipalidad de Puerto Montt** — Portal oficial municipal con noticias, programas, trámites, ordenanzas y proyectos de Puerto Montt.
   - Municipalidad de Puerto Montt: `https://www.puertomontt.cl/feed/`
   - Municipalidad de Puerto Montt - Portada: `https://www.puertomontt.cl/listar/portada/feed/`
+- **Municipalidad de Rinconada** — Sitio oficial de la Municipalidad de Rinconada, Región de Valparaíso
+  - Municipalidad de Rinconada: `https://munirinconada.cl/feed/`
+  - Municipalidad de Rinconada [Proxy Google News]: `https://news.google.com/rss/search?q=site:munirinconada.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Municipalidad de San Bernardo** — Sitio oficial de la Municipalidad de San Bernardo, Región Metropolitana
+  - Municipalidad de San Bernardo: `https://www.sanbernardo.cl/feed/`
+  - Municipalidad de San Bernardo [Proxy Google News]: `https://news.google.com/rss/search?q=site:sanbernardo.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Municipalidad de San Bernardo [Proxy Bing News]: `https://www.bing.com/news/search?q=site:sanbernardo.cl&format=RSS`
+- **Municipalidad de Temuco** — Sitio oficial de la Municipalidad de Temuco, Región de La Araucanía
+  - Municipalidad de Temuco: `https://www.temuco.cl/feed/`
+  - Municipalidad de Temuco - Páginas: `https://www.temuco.cl/category/paginas/feed/`
+  - Municipalidad de Temuco - Edificios: `https://www.temuco.cl/category/edificios/feed/`
+  - Municipalidad de Temuco - Calles: `https://www.temuco.cl/category/calles/feed/`
+  - Municipalidad de Temuco - Adulto Mayor: `https://www.temuco.cl/category/adulto-mayor/feed/`
+  - Municipalidad de Temuco - Parques: `https://www.temuco.cl/category/parques/feed/`
+  - Municipalidad de Temuco [Proxy Google News]: `https://news.google.com/rss/search?q=site:temuco.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Municipalidad de Temuco [Proxy Bing News]: `https://www.bing.com/news/search?q=site:temuco.cl&format=RSS`
 - **Municipalidad de Viña del Mar** — Sitio oficial de la Ilustre Municipalidad de Viña del Mar
   - Municipalidad de Viña del Mar - Noticias: `https://www.munivina.cl/noticias/feed/rss/`
   - Municipalidad de Viña del Mar [Proxy Google News]: `https://news.google.com/rss/search?q=site:munivina.cl&hl=es-419&gl=CL&ceid=CL:es-419`
 - **Noticias Los Ríos** — Diario regional de La Unión, Los Ríos
   - Noticias Los Ríos - Gobierno: `https://www.noticiaslosrios.cl/seccion/gobierno/feed/`
   - Noticias Los Ríos - Registro Civil: `https://www.noticiaslosrios.cl/seccion/registro-civil/feed/`
+- **Poder y Liderazgo**: Feed de la categoría 'Gobierno' en Poder y Liderazgo
+  - RSS: `https://www.poderyliderazgo.cl/politica/gobierno/feed/`
 - **Portal Metropolitano**: Feed de la categoría 'Gobierno' en Portal Metropolitano
   - RSS: `https://portalmetropolitano.cl/category/gobierno/feed/`
 - **Publilegales** — Plataforma chilena de publicaciones legales
@@ -213,6 +237,14 @@
 - **Servicio Agrícola y Ganadero** — Sitio oficial del Servicio Agrícola y Ganadero de Chile - Noticias del sector agropecuario
   - Servicio Agrícola y Ganadero: `https://www.sag.gob.cl/rss.xml`
   - Servicio Agrícola y Ganadero [Proxy Google News]: `https://news.google.com/rss/search?q=site:sag.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Servicio Electoral (Servel)** — Sitio oficial del Servicio Electoral de Chile
+  - Servicio Electoral (Servel): `https://www.servel.cl/feed/`
+  - Servicio Electoral (Servel) [Proxy Google News]: `https://news.google.com/rss/search?q=site:servel.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+- **Subsecretaría de Previsión Social** — Sitio oficial de la Subsecretaría de Previsión Social de Chile
+  - Subsecretaría de Previsión Social: `https://previsionsocial.gob.cl/feed/`
+  - Subsecretaría de Previsión Social - Comisión De Usuarios: `https://previsionsocial.gob.cl/category/comision-de-usuarios/feed/`
+  - Subsecretaría de Previsión Social [Proxy Google News]: `https://news.google.com/rss/search?q=site:previsionsocial.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
+  - Subsecretaría de Previsión Social [Proxy Bing News]: `https://www.bing.com/news/search?q=site:previsionsocial.gob.cl&format=RSS`
 - **Subsecretaría de Turismo** — Subsecretaría de Turismo del Gobierno de Chile - políticas y desarrollo del turismo
   - Subsecretaría de Turismo: `https://www.subturismo.gob.cl/feed/`
   - Subsecretaría de Turismo [Proxy Google News]: `https://news.google.com/rss/search?q=site:subturismo.gob.cl&hl=es-419&gl=CL&ceid=CL:es-419`
@@ -232,6 +264,14 @@
 - **Traiguén City** — Diario regional de Traiguén, La Araucanía
   - Traiguén City - Municipal: `https://traiguencity.cl/noticias/traiguen/municipal/feed/`
   - Traiguén City - Gobierno: `https://traiguencity.cl/noticias/traiguen/gobierno/feed/`
+- **Tribunal Constitucional de Chile** — Sitio oficial del Tribunal Constitucional de Chile
+  - Tribunal Constitucional de Chile: `https://www1.tribunalconstitucional.cl/feed/`
+  - Tribunal Constitucional de Chile - Actividad Institucional: `https://www1.tribunalconstitucional.cl/category/noticias/actividad-institucional/feed/`
+  - Tribunal Constitucional de Chile - Actividad Académica: `https://www1.tribunalconstitucional.cl/category/noticias/actividad-academica/feed/`
+  - Tribunal Constitucional de Chile - Actividad Protocolar: `https://www1.tribunalconstitucional.cl/category/noticias/actividad-protocolar/feed/`
+  - Tribunal Constitucional de Chile - Visitas De Autoridades Y Delegaciones: `https://www1.tribunalconstitucional.cl/category/noticias/visitas-de-autoridades-y-delegaciones/feed/`
+- **Tribunal de Defensa de la Libre Competencia**: Feed principal de Tribunal de Defensa de la Libre Competencia
+  - RSS: `https://www.tdlc.cl/feed/`
 - **Veredictum** — Diario de noticias jurídicas de Chile
   - Veredictum: `https://veredictum.cl/feed/`
   - Veredictum - Sentencias: `https://veredictum.cl/category/sentencias/feed/`
